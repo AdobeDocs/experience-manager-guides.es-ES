@@ -2,9 +2,9 @@
 title: Creación de contenido basado en web
 description: Aprenda a crear contenido estructurado mediante el editor web.
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '195'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,7 @@ En esta sesión, aprenderá a crear, publicar y administrar contenido mediante e
 ## Puntos clave
 
 En esta sesión, aprenderá lo siguiente:
+
 - Configure las opciones del editor web
 - Uso de las funciones de editor web para mejorar la productividad de los autores
 - Ampliación e integración de las funciones disponibles
@@ -40,13 +41,14 @@ En esta sesión, aprenderá lo siguiente:
 
 - **Vídeos de funciones** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Guía del usuario** - [Contenido del autor](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
+- **Guía del usuario** - [Contenido del autor](/help/product-guide/user-guide/authoring-content.md)
 
 - **Foro de la comunidad** - Para interacciones de la comunidad específicas de la sesión en Experience League, visite  [AEM Foro de guías de](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > AEM Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de las Guías de:
+>
 > - Local 4.1.3 o posterior
 > - Cloud Service 2211 y posterior
 
