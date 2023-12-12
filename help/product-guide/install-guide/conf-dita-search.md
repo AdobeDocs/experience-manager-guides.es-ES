@@ -2,9 +2,9 @@
 title: Configuración de la búsqueda para la IU de AEM Assets
 description: Obtenga información sobre cómo configurar la búsqueda para la IU de AEM Assets
 exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
-source-git-commit: 247f4d8fe744b6f9d285a7f61c2b31628de2bb36
+source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1696'
 ht-degree: 1%
 
 ---
@@ -70,6 +70,7 @@ Realice lo siguiente para agregar un componente de búsqueda basado en UUID en l
 
    - **Etiqueta de campo**: UUID
    - **Nombre de propiedad**: jcr:content/fmUuid
+
 1. Clic **Listo** para guardar los cambios.
 
    Al acceder a la opción Filtros en la interfaz de usuario de Assets, obtendrá la opción de filtrado de búsqueda basada en UUIS.
@@ -127,7 +128,6 @@ Este archivo contiene dos secciones principales: conjunto de atributos y conjunt
 En la sección del conjunto de reglas, puede especificar:
 
 - Reglas para extraer los elementos
-
 - Reglas para extraer atributos
 
 
