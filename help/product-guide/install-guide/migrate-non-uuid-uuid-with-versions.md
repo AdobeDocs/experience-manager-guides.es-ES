@@ -1,7 +1,7 @@
 ---
 title: Conversión de contenido no UUID con versiones a contenido UUID
 description: Obtenga información sobre cómo migrar contenido que no es UUID con versiones a contenido UUID.
-source-git-commit: 0d985688af601ca51822b116ea4baafce19f0658
+source-git-commit: b57364fa52d48791fbab07125f13007c563b7781
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -53,19 +53,19 @@ Realice las siguientes comprobaciones en la versión no UUID (4.1 no UUID o 4.3.
    >
    >* Necesita permiso de administrador para ejecutar la migración.
    >* Se recomienda corregir los archivos con errores antes de continuar con la migración.
-1. (Opcional) Realice la depuración de versiones en el contenido para eliminar versiones innecesarias y acelerar el proceso de migración. Para realizar la depuración de versiones, seleccione la opción **Depuración de versión** en la pantalla de migración y vaya a la interfaz de usuario de con la URL de `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+
+1. (Opcional) Realice la depuración de versiones en el contenido para eliminar versiones innecesarias y acelerar el proceso de migración. Para realizar la depuración de versiones, seleccione la opción
+   **Depuración de versión** en la pantalla de migración y vaya a la interfaz de usuario de con la URL de `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
    >[!NOTE]
    >
    >Esta utilidad no elimina ninguna versión utilizada en las líneas de base o revisiones, ni tiene etiquetas.
-1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. Launch `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 1. Seleccionar **Evaluación de compatibilidad**  en el panel izquierdo y busque una ruta de carpeta.
 1. Compruebe la compatibilidad para enumerar la siguiente información:
    * Total de archivos
    * Versiones totales
    * Tiempo estimado para la migración
    * Número de archivos con errores
-
-
 
    ![ficha evaluación de compatibilidad en migración](assets/migration-compatibility-assessment.png){width="800" align="left"}
 
