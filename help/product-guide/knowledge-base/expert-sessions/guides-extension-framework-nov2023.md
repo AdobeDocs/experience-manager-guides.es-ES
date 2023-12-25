@@ -2,9 +2,9 @@
 title: 'AEM Marco de extensiones de las guías de la: personalización de la interfaz de usuario del editor web y revisión'
 description: Con el marco de trabajo de extensión de Guías puede personalizar las secciones deseadas de la interfaz de usuario de revisión o el editor web mediante JSON, CSS y JavaScript fáciles de actualizar.
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 9406895007386cbd15d5a9412457333493d7bb36
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
