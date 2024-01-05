@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Guía de AEM Guides
-source-git-commit: 9754536b7954d63d80746b34ff2cf35716086fdf
+source-git-commit: 6dedfb51c9f32c5f621c3672735ecc07be3d619d
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1652'
 ht-degree: 4%
 
 ---
@@ -392,8 +392,12 @@ ht-degree: 4%
             + Schematron {#schematron}
                + [Validación de Schematron](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + Marco de extensión de Guides {#extention-framework}
-         + [Introducción](./guides-ui-extensions/getting-started/Introduction.md)
-         + [Guía de instalación](./guides-ui-extensions/getting-started/integrating-customisations.md)
+         + Introducción {#getting-started}
+            + [Introducción](./guides-ui-extensions/getting-started/Introduction.md)
+            + [Guía de instalación](./guides-ui-extensions/getting-started/integrating-customisations.md)
+            + [Introducción al repositorio de extensiones](./guides-ui-extensions/getting-started/extension-repo-intro.md)
+         + Personalizaciones {#customisations}
+            + [Personalización sencilla](./guides-ui-extensions/customisations/add-button.md)
       + Publicación {#publishing}
          + [AEM Configuración del entorno para la publicación nativa de PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS y guías](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
