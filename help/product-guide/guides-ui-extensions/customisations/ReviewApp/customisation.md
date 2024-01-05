@@ -1,10 +1,14 @@
 ---
-source-git-commit: 5962414dfc065543b946cac1468a5f62013073cf
+title: Personalización
+description: Personalización de la aplicación de revisión
+source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
+
+
 # Personalización de la aplicación de revisión
 
 Para facilitar la personalización de la aplicación de revisión, hemos proporcionado algunos enlaces que se enumeran y explican a continuación:
@@ -14,7 +18,7 @@ Para facilitar la personalización de la aplicación de revisión, hemos proporc
 - id: `review_comment`
 - gancho: `this.updateExtraProps`:
 
-Como se discutió [aquí](../../aem_guides_framework/basic_customisation.md), cualquier atributo nuevo añadido durante la personalización pasa a `this.model.extraProps`. El método `updateExtraProps` permite agregar atributos a un comentario de revisión, y administrar la actualización y el almacenamiento del atributo agregado en el servidor.
+Como se discutió [aquí](../../aem_guides_framework/basic-customisation.md), cualquier atributo nuevo añadido durante la personalización pasa a `this.model.extraProps`. El método `updateExtraProps` permite agregar atributos a un comentario de revisión, y administrar la actualización y el almacenamiento del atributo agregado en el servidor.
 
 ### Ejemplo de uso
 

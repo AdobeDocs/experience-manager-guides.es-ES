@@ -2,9 +2,9 @@
 title: 'AEM Marco de extensiones de las guías de la: personalización de la interfaz de usuario del editor web y revisión'
 description: Con el marco de trabajo de extensión de Guías puede personalizar las secciones deseadas de la interfaz de usuario de revisión o el editor web mediante JSON, CSS y JavaScript fáciles de actualizar.
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
-source-git-commit: 9406895007386cbd15d5a9412457333493d7bb36
+source-git-commit: 20fb3f3556b5188764266e7fdf8aa876e45c1922
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,9 @@ En esta sesión, aprendió lo siguiente:
 
 - **Repositorio base de Extension Framework** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
-- **Documentación** - [en el Experience League](https://guides-extension.vercel.app/docs/aem_guides_framework/basic_customisation)
+- **Documentación** - [en el Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **Casos de uso comunes documentados** - [en el Experience League](https://guides-extension.vercel.app/docs/aem_guides_framework/basic_customisation)
+- **Casos de uso comunes documentados** - [en el Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
 - **Repositorio público con ejemplos** - [en GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Rama de referencia sc-expert-session
 

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+title: Marco de jui
+description: Entender El Marco De Jui
+source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -23,7 +24,7 @@ La biblioteca JUI-React-Spectrum tiene widgets envolventes de componentes de Ado
 
 ### Diseño de IU de MVC
 
-![Texto alternativo](./imgs/jui-mvc-flow.png)
+![Flujo JUI MVC](./imgs/jui-mvc-flow.png)
 
 ### Widget
 
@@ -35,7 +36,7 @@ La biblioteca JUI-React-Spectrum tiene widgets envolventes de componentes de Ado
 - Puede tener otros widgets
 - La aplicación es un widget
 
-![Texto alternativo](./imgs/jui-widget.png)
+![Widget de JUI](./imgs/jui-widget.png)
 
 ### Elemento
 
@@ -76,4 +77,4 @@ La biblioteca JUI-React-Spectrum tiene widgets envolventes de componentes de Ado
 
 ### Diseño de aplicación de ejemplo
 
-![Texto alternativo](./imgs/jui-sample-app.png)
+![Aplicación de ejemplo](./imgs/jui-sample-app.png)
