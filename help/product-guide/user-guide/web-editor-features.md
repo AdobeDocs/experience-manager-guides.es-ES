@@ -2,9 +2,9 @@
 title: Conozca las funciones del editor web
 description: AEM Descubra las funciones del editor web en las guías de la. Conocer la interfaz del editor web, incluida la barra de herramientas principal, la barra de herramientas secundaria, el panel izquierdo, el área de edición de contenido y el panel derecho.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 9d9a1f270873869ce8261aae439f0ecd7d9fea94
 workflow-type: tm+mt
-source-wordcount: '17222'
+source-wordcount: '17364'
 ht-degree: 0%
 
 ---
@@ -147,9 +147,11 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Publicar perfil**: contiene los perfiles de publicación que se pueden utilizar para publicar el resultado de la base de conocimiento. Puede crear un nuevo perfil para un tipo de consumidor seleccionado. Por ejemplo, Salesforce.
+- **Publicar perfil**: Contiene los perfiles de publicación que se pueden utilizar para publicar el **Base de conocimiento** salida. Puede crear un nuevo perfil para una base de conocimiento de Target. Por ejemplo, Salesforce o ServiceNow.
 
-   - **Requisitos para crear un perfil de publicación de Salesforce**
+   - **Crear un perfil de publicación de Salesforce**
+
+     **Requisitos previos**
 
       - Cree una aplicación conectada de Salesforce. Para obtener más información, consulte [Habilitar la configuración de OAuth para la integración de API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
 
@@ -157,7 +159,7 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
 
          - Especifique la llamada de retorno.
 
-           `URL: http://: <server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+           `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
          - Seleccione los siguientes ámbitos de OAuth:
             - Acceso completo (completo)
@@ -166,18 +168,38 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
   Una vez configurada la aplicación, Salesforce proporciona un **Clave de consumidor** y **Secreto del consumidor**.
 
   Se pueden utilizar para crear el perfil de publicación de Salesforce.
-  ![perfiles en la configuración del editor](./images/create-profile-editor-settings.png){width="300" align="left"}
 
 
+   - Para crear un perfil de publicación de Salesforce, seleccione la **Salesforce** Base de conocimiento de **Tipo de servidor** desplegable. Introduzca un Nombre de perfil. En el **URL del sitio**, introduzca el sitio del consumidor que utilizaría para publicar la salida y, a continuación, añada la variable **Clave de consumidor** y **Secreto del consumidor** proporcionadas por el sitio de consumidores de Salesforce. A continuación, **Validate** y **Guardar** el perfil recién creado.
+     ![perfil de publicación de salesforce en la configuración del editor](./images/salesforce-publish-profile.png){width="550" align="left"}
 
-- Para crear un perfil de publicación puede seleccionar una base de conocimiento como Salesforce en **Tipo de servidor** desplegable. Introduzca un Nombre de perfil. En el **URL del sitio** introduzca el sitio del consumidor que utilizaría para publicar la salida y, a continuación, agregue **Clave de consumidor** y **Secreto del consumidor** proporcionadas por el sitio del consumidor como Salesforce. A continuación, inicie sesión en el perfil recién creado.
-
-  >[!NOTE]
-  >
-  >Para configurar un proxy para Salesforce en las guías del Experience Manager AEM, utilice la Configuración proxy de componentes HTTP de Apache en la interfaz de usuario de la interfaz de usuario de. Obtenga información sobre cómo [AEM configurar proxy para el verificador de vínculos de la](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+     >[!NOTE]
+     >
+     >Para configurar un proxy para Salesforce en las guías del Experience Manager AEM, utilice la Configuración proxy de componentes HTTP de Apache en la interfaz de usuario de la interfaz de usuario de. Obtenga información sobre cómo [AEM configurar proxy para el verificador de vínculos de la](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
-  Una vez que haya iniciado sesión, puede seleccionar el Perfil de publicación en los ajustes preestablecidos de salida de un Mapa DITA y utilizar para generar la salida para los artículos seleccionados. Para obtener más información, consulte [Publicación basada en artículos desde el editor web](../install-guide/configure-article-based-publishing.md) en la Guía de instalación y configuración.
+   - **Crear un perfil de publicación de ServiceNow**
+
+     **Requisitos previos**
+
+     Configure el servidor de ServiceNow para cargar los recursos.
+      - Conéctese a **ServiceNow** servidor.
+      - Vaya a **Propiedades del sistema** > **Seguridad**.
+      - Desmarque la siguiente opción:
+
+        **Esta propiedad debe configurarse para activar la comprobación de tipos MIME para cargas (todas las versiones de Eureka y superiores). Activa (true) o desactiva (false) la validación de tipo MIME para los archivos adjuntos. Las extensiones de archivo configuradas mediante glide.attachment.extensions se comprobarán en busca de tipos MIME durante la carga.**
+
+      - Haga clic en **Guardar**.
+
+     Una vez configurada la aplicación, cree el **ServiceNow** Publicar perfil.
+   - Para crear un perfil de publicación, seleccione la base de conocimiento ServiceNow en la **Tipo de servidor** desplegable. Introducir un perfil **Nombre**. En el **URL de ServiceNow**, introduzca el sitio del consumidor que utilizaría para publicar la salida y, a continuación, añada la variable **Nombre de usuario** y **Contraseña** proporcionadas por el sitio de consumidores de ServiceNow. A continuación, **Validate** y **Guardar** el perfil recién creado.
+
+     ![Perfil de publicación de ServiceNow](./images/service-now-publish-profile.png){width="550" align="left"}
+
+  Una vez validado, se puede seleccionar el perfil de publicación en los ajustes preestablecidos de salida de un mapa DITA y utilizarlo para generar la salida en el  **Salesforce** o **ServiceNow** servidor que ha elegido.
+
+  Obtenga más información acerca de [Base de conocimiento](../user-guide/generate-output-knowledge-base.md) ajuste preestablecido de salida.
+
 
 - **Validación**: Esta pestaña contiene opciones para configurar las validaciones de Schematron en el editor web. Puede activar las siguientes funciones:
 
@@ -186,7 +208,7 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
      >[!NOTE]
      >Los archivos de Schematron seleccionados persistirán para el perfil de carpeta seleccionado.
 
-     ![Validación en la configuración del editor](./images/editor-setting-validation.png){width="300" align="left"}
+     ![Validación en la configuración del editor](./images/editor-setting-validation.png){width="550" align="left"}
 Esto evita que los usuarios guarden cualquier archivo que rompa una regla definida en los archivos de Schematron seleccionados. Si no se selecciona esta opción, el archivo no se validará antes de guardar los cambios.
 
    - **Permitir que todos los usuarios agreguen archivos de schematron en el panel de validación**: seleccione esta opción para permitir que los usuarios agreguen cualquier archivo de Schematron en el panel Validación del Editor Web. Esto permite a los usuarios agregar archivos de Schematron y, a continuación, validar los temas con el archivo de Schematron. Si no se selecciona, la variable **Añadir archivo de Schematron** no está disponible para los usuarios en la **Panel de validación** del Editor Web.
@@ -232,9 +254,8 @@ Las Preferencias de usuario están disponibles para todos los autores. Con las p
 
 - **Seleccionar mapa raíz**: seleccione un fichero de mapa DITA para resolver referencias clave o entradas del glosario. El mapa raíz seleccionado tiene la prioridad más alta para resolver las referencias clave. Para obtener más información, consulte [Resolver referencias clave](map-editor-other-features.md#id176GD01H05Z).
 
-
 >[!NOTE]
->
+> 
 > Si no desea utilizar ningún mapa raíz, asegúrese de que la variable **Seleccionar mapa raíz** El campo está en blanco.
 
 **Modos Autor, Origen y Vista previa**
@@ -666,7 +687,7 @@ AEM Las guías de la aplicación le permiten especificar etiquetas en formato de
 
 Estas etiquetas se muestran a los autores en forma de lista desplegable siempre que necesiten especificar una etiqueta. Esto garantiza que solo se utilicen etiquetas predefinidas y coherentes en el sistema.
 
-Existen diferentes métodos a través de los cuales puede aplicar etiquetas a los temas: [Historial de versiones](web-editor-use-label.md#) panel en la IU de Assets, [Líneas bases](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md#id184KD0T305Z) IU y Editor web. La función Etiqueta de versión del Editor web permite a los autores asignar etiquetas de forma rápida y sencilla a sus temas.
+Existen diferentes métodos a través de los cuales puede aplicar etiquetas a los temas: [Historial de versiones](web-editor-use-label.md) panel en la IU de Assets, [Líneas bases](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) IU y Editor web. La función Etiqueta de versión del Editor web permite a los autores asignar etiquetas de forma rápida y sencilla a sus temas.
 
 Para agregar etiquetas al tema desde el Editor Web, realice los siguientes pasos:
 

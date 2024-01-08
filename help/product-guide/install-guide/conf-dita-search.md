@@ -2,9 +2,9 @@
 title: Configuración de la búsqueda para la IU de AEM Assets
 description: Obtenga información sobre cómo configurar la búsqueda para la IU de AEM Assets
 exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
-source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1697'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,6 @@ Realice lo siguiente para agregar un componente de búsqueda basado en UUID en l
 
    - **Etiqueta de campo**: UUID
    - **Nombre de propiedad**: jcr:content/fmUuid
-
 1. Clic **Listo** para guardar los cambios.
 
    Al acceder a la opción Filtros en la interfaz de usuario de Assets, obtendrá la opción de filtrado de búsqueda basada en UUIS.
@@ -128,6 +127,7 @@ Este archivo contiene dos secciones principales: conjunto de atributos y conjunt
 En la sección del conjunto de reglas, puede especificar:
 
 - Reglas para extraer los elementos
+
 - Reglas para extraer atributos
 
 
@@ -135,15 +135,15 @@ Una regla consta de lo siguiente:
 
 xpath : es la consulta XPath que recupera los elementos o atributos de archivos DITA. La configuración predeterminada para la regla de elemento recupera todo `prolog` elementos. Y, la configuración predeterminada para la regla de atributos recupera todos los atributos de `prolog` elementos. Puede especificar una consulta XPath para serializar los elementos o atributos que desea buscar.
 
-La consulta XPath contiene el nombre de clase del tipo de documento. El `topic/topic` se utiliza para documentos DITA de tipo de tema. Si desea crear una regla para otros documentos DITA, debe utilizar los siguientes nombres de clase:
-
-| Tipo de documento | Nombre de clase |
-|-------------|----------|
-| Tema | - tema/tema |
-| Tarea | - tema/tema tarea/tarea |
-| Concepto | - tema/concepto del tema/concepto |
-| Referencia | - tema/referencia/referencia del tema |
-| Asignar | - mapa/mapa |
+    La consulta XPath contiene el nombre de clase del tipo de documento. La clase topic/topic se utiliza para documentos DITA de tipo topic. Si desea crear una regla para otros documentos DITA, debe utilizar los siguientes nombres de clase:
+    
+    |Tipo de documento|Nombre de clase|
+    |-------------|----------|
+    |Tema|- tema/tema|
+    |Tarea|- tema/tema tarea/tarea|
+    |Concepto|- tema/concepto/concepto del tema|
+    |Referencia|- tema/referencia/referencia del tema|
+    |Mapa|- mapa/mapa|
 
 texto: si desea buscar el texto dentro del elemento especificado, especifique el valor yes. Si especifica no como valor, solo se serializan los atributos dentro del elemento. Los atributos que desea buscar deben especificarse en la sección de conjuntos de atributos.
 

@@ -2,9 +2,9 @@
 title: Agregar nuevo botón procesable personalizado en la barra de herramientas del editor web
 description: Aprenda a añadir un nuevo botón personalizado en la barra de herramientas del editor web y a llamar a JavaScript para utilizarlo de forma personalizada.
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -60,10 +60,7 @@ Utilice los perfiles de carpeta para comprobar la *ui_config.json* en la pestañ
 
 ### Controlar el evento en el que se hace clic para el botón nuevo
 
->[!NOTE]
->
->Los pasos que se mencionan a continuación están disponibles como paquete adjunto en esta publicación
-
+    NOTA: Los pasos que se mencionan a continuación están disponibles como paquete adjunto en esta publicación
 
 
 - Después de guardar el perfil de carpeta, cree una &quot;cq:ClientLibraryFolder&quot; en un directorio de proyecto (puede estar en */apps*) y agregue propiedades como se muestra en la captura de pantalla siguiente:

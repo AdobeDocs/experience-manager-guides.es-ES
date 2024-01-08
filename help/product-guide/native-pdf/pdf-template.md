@@ -2,9 +2,9 @@
 title: Creación y personalización de plantillas de PDF nativas
 description: Obtenga información sobre cómo crear y personalizar plantillas de PDF nativas.
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Seleccione esta opción para ver y editar las propiedades de la plantilla. Puede
 Seleccione esta opción para ver la plantilla en la interfaz de usuario de Assets. Al abrir la ubicación raíz de la plantilla, puede ver todos los recursos de la plantilla.
 
 Una vez creada la plantilla personalizada, puede elegirla en Diseños de página en el ajuste preestablecido de salida del PDF.
-Obtenga información sobre cómo [publicación de una salida de PDF](/help/product-guide/web-editor/native-pdf-web-editor.md).
+Obtenga información sobre cómo [publicación de una salida de PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
 >
@@ -112,7 +112,6 @@ Para obtener más información sobre la configuración de perfiles globales y de
 Puede personalizar las plantillas mediante la modificación de los componentes de la plantilla y la aplicación de formatos de estilo mediante hojas de estilo.
 
 Para personalizar una plantilla de PDF, realice los siguientes pasos:
-
 1. En el Editor Web, vaya a **Output** pestaña.
 1. Expanda la barra lateral izquierda y seleccione **Plantillas**.
 
@@ -138,7 +137,7 @@ Para personalizar una plantilla de PDF, realice los siguientes pasos:
 
    * Hojas de estilo: la configuración de la sección Hojas de estilo permite personalizar el aspecto de los componentes del diseño de página, como la TDC, el índice, el glosario, las citas, etc. Además, también se pueden personalizar estilos para el contenido DITA como encabezados, párrafos, listas, etc. Para obtener más información sobre el uso de las hojas de estilo, consulte [Uso de hojas de estilo para personalizar el PDF](components-pdf-template.md#stylesheet-customization).
    * Recursos: Almacene los archivos de recursos que necesite para personalizar o diseñar plantillas de PDF. Los recursos, como logotipos, fuentes personalizadas, imágenes de fondo y mucho más, se almacenan en Recursos.
-También puede utilizar los recursos presentes en cualquier otra ubicación del repositorio. No es necesario crear recursos duplicados para cada plantilla y puede mantenerlos en una carpeta compartida y utilizarlos en todas las plantillas de PDF nativas.
+También puede utilizar los recursos presentes en cualquier otra ubicación del repositorio. No es necesario crear recursos duplicados para cada plantilla, sino que se pueden mantener en una carpeta compartida y utilizarlos en todas las plantillas de PDF nativas.
 
      Para obtener más información sobre el uso de los recursos, consulte [Trabajo con recursos](components-pdf-template.md#work-with-resources).
    * Settings: configure los ajustes de salida para generar un PDF con la plantilla. Esta sección le permite definir la asignación de plantillas para varias páginas de un PDF, la página de inicio del capítulo, los marcadores de impresión, las citas, etc.

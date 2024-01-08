@@ -2,9 +2,9 @@
 title: Configuración de contenido y plantillas
 description: AEM Descubra qué se debe tener en cuenta para configurar el contenido y las plantillas en las guías de la.
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ La cantidad de contenido que administra en un sistema, para admitir distintos ti
 ## Resumen de sesión
 
 En esta sesión, tratamos ampliamente lo siguiente:
-
 - diferentes aspectos de la configuración del contenido (categorización, clasificación, metadatos)
 - configuración de plantillas de contenido (plantillas de temas, plantillas de mapas, fragmentos)
+
 
 
 ## Grabación de sesión
@@ -38,7 +38,6 @@ En esta sesión, tratamos ampliamente lo siguiente:
 ## Puntos clave
 
 En esta sesión, aprendió lo siguiente:
-
 - Dedicar tiempo a analizar y pensar antes de importar o crear contenido
 - Clasificar y categorizar el contenido para que se adapte a diferentes segmentos de usuario (usuarios finales o autor)
 - Aprovechamiento de las capacidades de metadatos para mejorar la productividad del usuario
@@ -52,14 +51,13 @@ En esta sesión, aprendió lo siguiente:
 
 - **Vídeos de funciones** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
 
-- **Guía del usuario** - [Contenido del autor](/help/product-guide/user-guide/reports-intro.md)
+- **Guía del usuario** - [Contenido del autor](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
 - **Foro de la comunidad** - Para interacciones de la comunidad específicas de la sesión en Experience League, visite  [AEM Foro de guías de](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > AEM Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de las Guías de:
->
 > - Local: 4.2 o posterior
 > - Cloud Service: 2303 o posterior
 

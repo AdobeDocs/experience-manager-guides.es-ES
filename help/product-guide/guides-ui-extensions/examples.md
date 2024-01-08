@@ -1,8 +1,8 @@
 ---
 sidebar_position: 8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ En este archivo, calculamos y asignamos el ID de comentario único, mencionado e
 5. [Panel de revisiones de temas](../../src/review_app_examples/topic_reviews.ts): este archivo amplía [Panel de revisión en línea](../../src/review_app_examples/inline_review_panel.ts) para que las personalizaciones agregadas también funcionen en el lado de la aplicación de revisión.
 
 6. [Cuadro de diálogo Aceptar con modificación](../../src/review_app_examples/accept_with_modification_dialog.ts)
-Este es un ejemplo de cómo agregar un widget nuevo a la aplicación. Aquí hemos creado un nuevo cuadro de diálogo, que tiene dos campos de texto de entrada: `Revised Text` y `Adjudicator Comment Rationale`
+Este es un ejemplo de adición de nuevos widgets a la aplicación. Aquí hemos creado un nuevo cuadro de diálogo, que tiene dos campos de texto de entrada: `Revised Text` y `Adjudicator Comment Rationale`
 
 ![Cuadro de diálogo Aceptar con modificación](./imgs/accept_with_modification_dialogue.png)
 

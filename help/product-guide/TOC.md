@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Guía de AEM Guides
-source-git-commit: 2f5e951d3452e05fb307d6c34487269b5172000e
+source-git-commit: 2c81d111dede5301366169ba5f4c3825ac39c491
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1686'
 ht-degree: 4%
 
 ---
@@ -155,6 +155,7 @@ ht-degree: 4%
       + AEM Ajustes preestablecidos de salida en Guías de {#output-presets-aemg}
          + [AEM Sitio web de](./user-guide/generate-output-aem-site.md)
          + [PDF](./user-guide/generate-output-pdf.md)
+         + [Base de conocimiento](./user-guide/generate-output-knowledge-base.md)
          + [HTML5](./user-guide/generate-output-html5.md)
          + [EPUB](./user-guide/generate-output-epub.md)
          + [Personalizado](./user-guide/generate-output-custom.md)
@@ -266,6 +267,7 @@ ht-degree: 4%
             + [Plantilla de PDF](./native-pdf/pdf-template.md)
             + [Componentes de una plantilla de PDF](./native-pdf/components-pdf-template.md)
             + [Diseño de una página](./native-pdf/design-page-layout.md)
+            + [Variables en la salida del PDF](./native-pdf/native-pdf-variables.md)
             + [Compatibilidad con variables de idioma](./native-pdf/native-pdf-language-variables.md)
             + Estilos de contenido comunes {#content-styles}
                + [Trabajar con los estilos de contenido comunes](./native-pdf/stylesheet.md)
@@ -430,3 +432,4 @@ ht-degree: 4%
          + [Trabajo con contenido condicional](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          + [Uso de claves](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
    + [Uso del conector de oxígeno](./oxygen-connector/use-aem-connector.md)
+

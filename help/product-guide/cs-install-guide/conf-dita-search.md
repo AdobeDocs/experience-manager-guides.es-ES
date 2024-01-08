@@ -2,10 +2,10 @@
 title: Configuración de la búsqueda para la IU de AEM Assets
 description: Obtenga información sobre cómo configurar la búsqueda para la IU de AEM Assets
 exl-id: 125d247f-1017-4450-9e3f-9ecc7188ca8f
-source-git-commit: 9d34a029d174655d9e3176ce9c6a89f0a03af691
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 1%
+source-wordcount: '1580'
+ht-degree: 0%
 
 ---
 
@@ -131,15 +131,15 @@ Una regla consta de lo siguiente:
 
 xpath : es la consulta XPath que recupera los elementos o atributos de archivos DITA. La configuración predeterminada para la regla de elemento recupera todo `prolog` elementos. Y, la configuración predeterminada para la regla de atributos recupera todos los atributos de `prolog` elementos. Puede especificar una consulta XPath para serializar los elementos o atributos que desea buscar.
 
-La consulta XPath contiene el nombre de clase del tipo de documento. El `topic/topic` se utiliza para documentos DITA de tipo de tema. Si desea crear una regla para otros documentos DITA, debe utilizar los siguientes nombres de clase:
-
-| Tipo de documento | Nombre de clase |
-|-------------|----------|
-| Tema | - tema/tema |
-| Tarea | - tema/tema tarea/tarea |
-| Concepto | - tema/concepto del tema/concepto |
-| Referencia | - tema/referencia/referencia del tema |
-| Asignar | - mapa/mapa |
+    La consulta XPath contiene el nombre de clase del tipo de documento. La clase topic/topic se utiliza para documentos DITA de tipo topic. Si desea crear una regla para otros documentos DITA, debe utilizar los siguientes nombres de clase:
+    
+    |Tipo de documento|Nombre de clase|
+    |-------------|----------|
+    |Tema|- tema/tema|
+    |Tarea|- tema/tema tarea/tarea|
+    |Concepto|- tema/concepto/concepto del tema|
+    |Referencia|- tema/referencia/referencia del tema|
+    |Mapa|- mapa/mapa|
 
 texto: si desea buscar el texto dentro del elemento especificado, especifique el valor yes. Si especifica no como valor, solo se serializan los atributos dentro del elemento. Los atributos que desea buscar deben especificarse en la sección de conjuntos de atributos.
 

@@ -4,9 +4,9 @@ description: Aprenda a utilizar el complemento Oxygen para las guías de Adobe E
 hide: true
 hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 0e19b870541e8e65dc371eb01fc3256f172c1a91
 workflow-type: tm+mt
-source-wordcount: '6101'
+source-wordcount: '6294'
 ht-degree: 0%
 
 ---
@@ -246,22 +246,21 @@ Realice los siguientes pasos para configurar atributos de generación de perfile
 
    ![asociación de tipo de documento](images/document_type_association.png){width="650" align="left"}
 
-1. En el **Classpath** pestaña, seleccione com.adobe.o2.connector en la **Usar el cargador de clase principal del complemento con ID** menú desplegable.
+1. En el **Classpath** pestaña, seleccione `com.adobe.o2.connector` en el **Usar el cargador de clase principal del complemento con ID** menú desplegable.
 
    ![Pestaña Ruta de clase](images/dita-extension.png){width="650" align="left"}
 
 1. En el **Extensiones** , realice los cambios siguientes:
-   - Clic **Elegir** junto al **Escuchador de estado de extensión de autor** bajo **Extensiones individuales** y seleccione CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn en el **Clase** lista. Haga clic en **Aceptar**.
-   - Clic **Elegir** junto al **Editor de valores de atributos personalizados de autor** bajo **Extensiones individuales** y seleccione CustomValueEditor - com.adobe.o2.framework.extn en la **Clase** lista. Clic **OK**.
-La siguiente captura de pantalla muestra el **Extensión** Ficha para temas de DITA:
 
-     ![Extensión configurada para temas DITA](images/dita-topic-extension-tab.png){width="650" align="left"}
-
-   - Clic **Elegir** junto al **Paquete de extensiones** y seleccione LinkResolverExtensionBundle - com.adobe.o2.framework.extn en el **Clase** lista. Haga clic en **Aceptar**.
-
+   - Clic **Elegir** junto al **Paquete de extensiones** y seleccione   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` en el **Clase** lista. Haga clic en **Aceptar**.
      ![Extensión configurada para temas DITA](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+   - Clic **Elegir** junto al **Escuchador de estado de extensión de autor** bajo **Extensiones individuales** y seleccione `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` en el **Clase** lista. Haga clic en **Aceptar**.
+   - Clic **Elegir** junto al **Editor de valores de atributos personalizados de autor** bajo **Extensiones individuales** y seleccione `CustomValueEditor - com.adobe.o2.framework.extn` en el **Clase** lista. Haga clic en **Aceptar**.
+   - Clic **Elegir** junto al **Controlador de inserción de objeto externo de autor** bajo **Extensiones individuales** y seleccione `CustomURLInsertionHandler - com.adobe.o2.ui ` en el **Clase** lista. Haga clic en **Aceptar**.
 
 
+   La siguiente captura de pantalla muestra el **Extensión** Ficha para temas de DITA:
+   <img src="images/dita-topic-extension-tab.png" alt="Extensión configurada para temas DITA" width="650" border="2px">
 1. Clic **OK** en todos los cuadros de diálogo para guardar los cambios.
 
 ### Configuración de la extensión de mapa DITA
@@ -274,16 +273,19 @@ Siga estos pasos para configurar la extensión de mapa DITA:
 1. En el **Asociación de tipo de documento** pestaña, seleccione **Mapa DITA** y haga clic en **Ampliar**.
 1. En el **Classpath** pestaña, seleccione com.adobe.o2.connector en la **Usar el cargador de clase principal del complemento con ID** menú desplegable.
 1. En el **Extensiones** , realice los cambios siguientes:
-1. 
-   - Clic **Elegir** junto al **Escuchador de estado de extensión de autor** bajo **Extensiones individuales** y seleccione CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn en el **Clase** lista. Haga clic en **Aceptar**.
-- Clic **Elegir** junto al **Editor de valores de atributos personalizados de autor** bajo **Extensiones individuales** y seleccione CustomValueEditor - com.adobe.o2.framework.extn en la **Clase** lista. Haga clic en **Aceptar**.
-- *\(Opcional\)* Si no desea resolver las referencias al abrir un archivo de asignación, debe realizar la siguiente configuración adicional:
+   - Clic **Elegir** junto al **Paquete de extensiones** y seleccione   `com.adobe.o2.framework.extn.LinkResolverDITAMapExtensionBundle` en el **Clase** lista. Haga clic en **Aceptar**.
 
-  Clic **Elegir** junto al **Resolución de referencias** bajo **Extensiones individuales** y seleccione CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn en el **Clase** lista. Haga clic en **Aceptar**.
+   - Clic **Elegir** junto al **Escuchador de estado de extensión de autor** bajo **Extensiones individuales** y seleccione `CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn` en el **Clase** lista. Haga clic en **Aceptar**.
 
-  La siguiente captura de pantalla muestra el **Extensión** pestaña:
+   - Clic **Elegir** junto al **Controlador de inserción de objeto externo de autor** bajo **Extensiones individuales** y seleccione `CustomURLInsertionHandler - com.adobe.o2.ui ` en el **Clase** lista. Haga clic en **Aceptar**.
 
-  ![Extensión configurada para el mapa DITA](images/dita-map-extension-tab.png){width="650" align="left"}
+   - Clic **Elegir** junto al **Editor de valores de atributos personalizados de autor** bajo **Extensiones individuales** y seleccione `CustomValueEditor - com.adobe.o2.framework.extn` en el **Clase** lista. Haga clic en **Aceptar**.
+
+   - Clic **Elegir** junto al **Resolución de referencias** bajo **Extensiones individuales** y seleccione `CustomDITAMapReferenceResolver - com.adobe.o2` en el **Clase** lista. Haga clic en **Aceptar**.
+   - *\(Opcional\)* Si no desea resolver las referencias al abrir un archivo de asignación, debe realizar la siguiente configuración adicional:
+
+   La siguiente captura de pantalla muestra el **Extensión** pestaña:
+   <img src="images/dita-map-extension-tab.png" alt="Extensión configurada para el mapa DITA" width="650" border="2px">
 
 1. Clic **OK** en todos los cuadros de diálogo para guardar los cambios.
 
@@ -440,7 +442,7 @@ AEM Cuando se protege un archivo, la copia local del sistema se almacena en el r
 
    ![Cuadro de diálogo Proteger](images/checkin-dropdown-labels.png){width="550" align="left"}
 
-   Puede agregar varias etiquetas (separadas por comas) a la misma versión de un tema.  Por ejemplo, *Adobe*, *AEM*,*Guías*
+   Puede agregar varias etiquetas (separadas por comas) a la misma versión de un tema.  Por ejemplo, *Adobe*, *AEM*, *Guías*.
 Sin embargo, no se puede agregar la misma etiqueta a las distintas versiones de un tema. Si agrega una etiqueta que ya ha agregado a una versión anterior, se agrega a la versión más reciente y se elimina de la versión anterior.
 
    >[!NOTE]
@@ -511,7 +513,7 @@ AEM Se deben tener en cuenta los siguientes puntos al mover o copiar contenido d
 
 - AEM Cuando extraiga contenido del repositorio de y realice cambios en el sistema local, asegúrese de que el nombre del archivo no cambie en el momento de cargarlo.
 
-- Al insertar una referencia en el Administrador de mapas DITA, se muestra el título del fichero y no el UUID. Si el título no está presente, se muestra el nombre del archivo.
+- Al insertar una referencia en el Administrador de mapas DITA o en el Editor, se muestra el título del archivo y no el UUID. Si el título no está presente, se muestra el nombre del archivo.
 
 ### Agregar o quitar Favoritos {#id195HC04405P}
 
@@ -607,6 +609,24 @@ Realice los siguientes pasos para editar un tema DITA en Oxygen XML Author:
    >[!NOTE]
    >
    >AEM AEM Asegúrese de proteger el tema con el complemento Oxygen para guías de. Si lo hace desde la interfaz web de la interfaz de usuario, los cambios que realice en Oxygen XML Author no se guardarán en la versión protegida del tema.
+
+**Inserte una referencia a un tema desde el repositorio de guías del Experience Manager**
+
+También se puede arrastrar y soltar un tema para insertar la referencia en un tema o en un mapa DITA.
+>[!NOTE]
+>
+> Es necesario desproteger un archivo antes de agregar cualquier referencia a él.
+
+Se añaden los siguientes elementos en función del tipo de referencias:
+
+Si suelta en el editor con un tema abierto:
+- Se añade una referencia con `<image>` para las imágenes.
+- Se agrega un elemento de objeto para un vídeo o audio.
+- El `<xref>`  se añade para todas las demás referencias como tema, mapa, DITAVAL, PDF, ZIP y XML.
+
+Si se coloca en el Editor o en el Administrador de mapas DITA con un mapa abierto:
+- El `<mapref>` se añade para referencias de mapa, que incluyen un mapa DITA, un mapa de libro o un esquema de asunto.
+- El `<topicref>` se añade para todas las demás referencias como tema, mapa, DITAVAL, PDF, ZIP y XML.
 
 
 ## Trabajo con perfiles de atributos {#id1827JA002YK}

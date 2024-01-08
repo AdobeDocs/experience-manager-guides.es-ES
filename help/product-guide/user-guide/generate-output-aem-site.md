@@ -2,9 +2,9 @@
 title: AEM Sitio web de
 description: AEM AEM Cree y configure ajustes preestablecidos del sitio de la en las guías de usuario. AEM Utilice la compatibilidad con el sitio para generar resultados basados en artículos, temas de vinculación de salida, publicar conref y buscar una cadena dentro del contenido.
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2577'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ AEM Las siguientes opciones están disponibles para la salida del sitio de:
 
 AEM Puede crear el ajuste preestablecido del sitio de dos maneras:
 
-**Desde el editor web:** AEM En el panel Repositorio, abra el archivo de mapa DITA en la vista Mapa y, a continuación, en la pestaña Salida, seleccione el icono + para crear un ajuste preestablecido de salida y, a continuación, seleccione Sitio en la lista desplegable Tipo del cuadro de diálogo Añadir ajuste preestablecido. En el editor web, las configuraciones se han organizado en las pestañas General y Avanzado:
+**Desde el editor web:** AEM En el panel Repositorio, abra el fichero de mapa DITA en la vista Mapa y, a continuación, en la ficha Salida, seleccione el icono + para crear un ajuste preestablecido de salida y, a continuación, seleccione Sitio en la lista desplegable Tipo del cuadro de diálogo Añadir ajuste preestablecido. En el editor web, las configuraciones se han organizado en las pestañas General y Avanzadas:
 
 **General**
 
@@ -65,7 +65,7 @@ AEM Las siguientes opciones están disponibles para la salida del sitio de:
 | Generar un PDF independiente para cada tema | Si se selecciona, también se crea un PDF para cada tema del mapa DITA. Al elegir esta opción, se muestra una nueva opción Dividir ruta del PDF.<br><br>En el campo Split PDF Path, especifique la ruta para almacenar los PDF generados para cada tema.<br><br>**Nota** AEM : Guías de utiliza el complemento DITA-OT denominado pdfx para generar un PDF para cada tema. Este complemento se incluye con el paquete DITA-OT que se suministra listo para usar. Puede personalizar este complemento para que genere un PDF según sus necesidades. Si utiliza un complemento DITA-OT personalizado, asegúrese de integrar el complemento pdfx para tener la capacidad de generación de PDF en el nivel de tema. |
 | Ejecutar flujo de trabajo posterior a generación | AEM Al elegir esta opción, se muestra una nueva lista desplegable Flujo de trabajo de generación de publicaciones que contiene todos los flujos de trabajo configurados en el flujo de trabajo de creación de flujos de trabajo de creación de flujos de trabajo de la. Debe seleccionar un flujo de trabajo que desee ejecutar después de completar el flujo de trabajo de generación de resultados. |
 | Usar línea base | Si ha creado una Línea base para el mapa DITA seleccionado, seleccione esta opción para especificar la versión que desea publicar.<br><br>**Importante** AEM : Cuando se genera una salida incremental para el sitio de, la salida se crea con la versión actual de los archivos y no con la línea de base adjunta.<br><br>Consulte [Trabajar con línea base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obtener más información. |
-| Propiedades | Seleccione las propiedades que desee procesar como metadatos. Estas propiedades se definen desde la página Propiedades del fichero de mapa DITA o de mapa de libros. Las propiedades que seleccione en la lista desplegable se enumeran debajo del campo Propiedades y se eliminan de la lista desplegable.<br><br>**Nota**: las propiedades de los metadatos distinguen entre mayúsculas y minúsculas.<br><br>*Si ha seleccionado una Línea base, los valores de las propiedades se basan en la versión de la Línea base seleccionada.<br>* Si no ha seleccionado una Línea base, los valores de las propiedades se basan en la versión más reciente.<br><br>También puede pasar los metadatos a la salida mediante la publicación DITA-OT. Para obtener más información, consulte [Pasar los metadatos a la salida utilizando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Nota**: Si no ha definido la variable `cq:tags` en la opción Propiedades, seleccione los valores de `cq:tags` se seleccionan de la copia de trabajo actual aunque haya seleccionado una Línea base para la publicación. |
+| Propiedades | Seleccione las propiedades que desee procesar como metadatos. Estas propiedades se definen desde la página Propiedades del fichero de mapa DITA o de mapa de libros. Las propiedades que seleccione en la lista desplegable aparecerán en la **Propiedades** field. Seleccione el icono en forma de cruz situado junto a la propiedad para eliminarla. <br><br>**Nota**: las propiedades de los metadatos distinguen entre mayúsculas y minúsculas.<br><br>*Si ha seleccionado una Línea base, los valores de las propiedades se basan en la versión de la Línea base seleccionada.<br>* Si no ha seleccionado una Línea base, los valores de las propiedades se basan en la versión más reciente.<br><br>También puede pasar los metadatos a la salida mediante la publicación DITA-OT. Para obtener más información, consulte [Pasar los metadatos a la salida utilizando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Nota**: Si no ha definido la variable `cq:tags` en la opción Propiedades, seleccione los valores de `cq:tags` se seleccionan de la copia de trabajo actual aunque haya seleccionado una Línea base para la publicación. |
 | Utilice Las Propiedades Del Mapa Si Falta En El Tema | Si se selecciona, las propiedades definidas para el fichero de mapa también se copian en los temas en los que no se definen dichas propiedades. Tenga en cuenta los siguientes puntos al utilizar esta opción:<br><br>*AEM Solo se pueden pasar propiedades de cadena, fecha o larga (de un solo valor y de varios valores) a las páginas del sitio de la.<br>* Los valores de metadatos de una propiedad de tipo cadena no admiten ningún carácter especial (como `@, #, " "`).<br>* Esta opción debe utilizarse junto con el `Properties` opción. |
 
 ## AEM Nota adicional sobre el sitio de la
@@ -78,7 +78,7 @@ AEM Se puede generar la salida del sitio de para uno o más temas, o todo el map
 
 Es muy común tener un gran conjunto de documentación distribuida en varias carpetas y mapas DITA. Publicar contenido vinculado desde varios lugares se vuelve extremadamente complejo. De forma predeterminada, todos los vínculos `<xref>` se crean con la variable `local` `@scope`. La publicación de estos temas no implica ningún desafío, ya que utiliza un vínculo directo al tema. Si el tema se encuentra fuera del mapa DITA actual, el vínculo no muestra el contenido enlazado.
 
-Otra forma de vincular contenido es crear un vínculo con la variable `peer` `@scope`. Para dicho contenido, el vínculo se resuelve en tiempo de ejecución mediante la selección del contexto configurado para el tema vinculado en el contexto de publicación del mapa DITA. La siguiente captura de pantalla muestra el panel Propiedades de un vínculo que tiene la variable `peer` `@scope`:
+Otra forma de vincular contenido es crear un vínculo con la variable `peer` `@scope`. Para dicho contenido, el vínculo se resuelve en tiempo de ejecución seleccionando el título del archivo y el contexto configurado para el tema vinculado desde el contexto de publicación del mapa DITA. La siguiente captura de pantalla muestra el panel Propiedades de un vínculo que tiene la variable `peer` `@scope`:
 
 ![](images/peer-link-scope-link.png){width="800" align="left"}
 

@@ -2,9 +2,9 @@
 title: Traducir contenido
 description: Aprenda a traducir el contenido a varios idiomas.
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '166'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,6 @@ En esta sesión, aprenderá sobre el proceso de traducción, el mecanismo de int
 ## Puntos clave
 
 En esta sesión, aprenderá lo siguiente:
-
 - Razones por las que las empresas invierten en traducción para mejorar su negocio
 - Mecanismo del marco de trabajo disponible y proceso de traducción
 - Automatización del flujo de trabajo de traducción, las API y el panel
@@ -41,14 +40,13 @@ En esta sesión, aprenderá lo siguiente:
 
 - **Vídeos de funciones** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Guía del usuario** - [Traducir contenido](/help/product-guide/install-guide/translation.md)
+- **Guía del usuario** - [Traducir contenido](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 
 - **Foro de la comunidad** - Para interacciones de la comunidad específicas de la sesión en Experience League, visite [AEM Foro de guías de](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
 
 >[!NOTE]
 >
 > AEM Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de las Guías de:
->
 > - Local 4.1 o posterior
 > - Cloud Service 2207 o posterior
 

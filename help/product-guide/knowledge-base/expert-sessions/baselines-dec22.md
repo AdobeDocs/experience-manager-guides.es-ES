@@ -2,9 +2,9 @@
 title: Administrar contenido mediante líneas de base
 description: Aprenda a utilizar líneas de base para administrar el contenido de forma eficaz.
 exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '183'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,6 @@ En esta sesión, aprenderá a utilizar líneas de base para administrar el conte
 ## Puntos clave
 
 En esta sesión, aprenderá lo siguiente:
-
 - AEM Diferentes operaciones de línea de base en las guías de la
 - Descargar, publicar y traducir con una línea de base
 - Prácticas recomendadas para usar una línea de base
@@ -41,14 +40,13 @@ En esta sesión, aprenderá lo siguiente:
 
 - **Vídeos de funciones** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Guía del usuario** - [Trabajar con línea base](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md)
+- **Guía del usuario** - [Trabajar con línea base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 
 - **Foro de la comunidad** - Para interacciones de la comunidad específicas de la sesión en Experience League, visite [AEM Foro de guías de](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 >AEM Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de las Guías de:
->
 > - On-Prem 4.1 y posterior
 > - Cloud Service 2211 y posterior
 

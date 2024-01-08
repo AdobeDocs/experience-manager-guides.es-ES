@@ -2,9 +2,9 @@
 title: Personalización y configuración de la función de publicación PDF nativo
 description: Obtenga información sobre cómo personalizar y configurar los distintos componentes de la función de PDF nativo.
 exl-id: 00bc894a-031e-4d09-bd30-331399fedbc8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: c79f1d114d8a708cd088f2846243bbcfeed6e620
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Para obtener más información, consulte lo siguiente:
 * [Componentes de una plantilla de PDF](../native-pdf/components-pdf-template.md)
 * [Diseño de una página](../native-pdf/design-page-layout.md)
 * [Compatibilidad con variables de idioma](../native-pdf/native-pdf-language-variables.md)
+* [Variables en la salida del PDF](../native-pdf/native-pdf-variables.md)
 * Estilos de contenido comunes {#content-styles}
    * [Trabajar con los estilos de contenido comunes](../native-pdf/stylesheet.md)
    * [Trabajar con estilos de barras de cambios personalizados](../native-pdf/change-bar-style.md)

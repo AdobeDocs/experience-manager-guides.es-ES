@@ -2,9 +2,9 @@
 title: Flujo de trabajo de generación posterior
 description: Resumen del flujo de trabajo de generación posterior con un ejemplo
 exl-id: e19fdc0b-0ec6-46ce-81ed-e9490d12c029
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '306'
 ht-degree: 2%
 
 ---
@@ -20,15 +20,13 @@ Por ejemplo, es posible que desee establecer ciertas propiedades en la salida de
 ### Creación de un proceso de flujo de trabajo
 
 Cree un proceso de flujo de trabajo basado en Java o ECMA que realice la operación en la salida generada. Por ejemplo, copiar algunos metadatos del origen al contenido generado o manipular los metadatos de la salida generada.
-
 - Tomaremos un ejemplo de creación de un proceso de este tipo mediante el script ECMA (puede consultar el paquete adjunto)
-- Para el proceso de flujo de trabajo basado en Java, consulte la sección &quot;*Personalizar flujo de trabajo de generación posterior a la salida*&quot; de [Guía de instalación y configuración](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4)
+- Para el proceso de flujo de trabajo basado en Java, consulte la sección &quot;*Personalizar flujo de trabajo de generación posterior a la salida*&quot; de [Guía de instalación y configuración](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119)
 
 
 ### Crear un modelo del flujo de trabajo
 
 Con el proceso de flujo de trabajo personalizado que creó en el paso anterior, cree un modelo de flujo de trabajo y agréguele ese paso de proceso.
-
 - También debe añadir un paso de proceso obligatorio &quot;*Finalizar generación posterior*&quot; como último paso del flujo de trabajo.
 
 Consulte el modelo de flujo de trabajo de muestra siguiente:

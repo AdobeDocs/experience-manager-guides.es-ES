@@ -1,9 +1,9 @@
 ---
-title: Notas de versión | Novedades de la versión de Adobe Experience Manager Guides, diciembre de 2023
+title: Notas de versión | Novedades de la versión de diciembre de 2023 de las guías de Adobe Experience Manager
 description: Conozca las funciones nuevas y mejoradas de la versión de diciembre de 2023 de las guías de Adobe Experience Manager as a Cloud Service.
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: a2605a7758f53fd877f28cad98a1ef17f9f87b50
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,15 @@ Este artículo cubre las funciones nuevas y mejoradas de la versión de diciembr
 Para obtener más información sobre las instrucciones de actualización, la matriz de compatibilidad y los problemas corregidos en esta versión, consulte [Notas de versión](release-notes-2023.12.0.md).
 
 
-## Usar variables en la salida del PDF nativo
+## Usar variables en la salida del PDF
 
-Puede utilizar conjuntos de variables para insertar y administrar de forma dinámica información que pueda cambiar según condiciones específicas, como nombres y versiones de productos. Esta función le ayuda a utilizar el mismo diseño de PDF y a generar salidas con valores diferentes. No es necesario crear diseños independientes para cada conjunto de valores.
+Puede utilizar variables para insertar y administrar de forma dinámica información reutilizable. Las guías del Experience Manager le ayudan a crear, editar y previsualizar variables mientras genera la salida del PDF. Puede modificar rápidamente los valores de las variables y hacer que sus documentos sean portátiles y fáciles de actualizar.
 
-Por ejemplo, puede crear un conjunto de variables para cada producto. Este conjunto de variables puede constar de variables para distintos detalles del producto, como ProductName, VersionNumber y ReleaseDate. A continuación, puede agregar valores diferentes para estas variables.
+![variables pdf nativas](assets/add-variable-default.png){width="800" align="left"}
+
+*Cree y administre variables en el editor web.*
+
+También puede crear conjuntos de variables que anulen los valores predeterminados y asignen valores alternativos a las variables. Inserte estas variables dentro del diseño de página y utilice el mismo diseño de PDF. No es necesario crear diseños independientes para cada conjunto de valores. Por ejemplo, puede crear un conjunto de variables para cada versión del producto. Este conjunto de variables puede constar de variables para distintos detalles del producto, como el nombre del producto, el número de versión y la fecha de lanzamiento. A continuación, puede agregar valores diferentes para estas variables.
 
 **Conjunto de variables 1: conjunto de Adobes 1**
 
@@ -27,30 +31,25 @@ Por ejemplo, puede crear un conjunto de variables para cada producto. Este conju
 * Número de versión: 2311
 * Fecha de versión: 2/11/2023
 
-**Conjunto de variables 1: conjunto de Adobes 2**
+**Conjunto de variables 2: conjunto de Adobes 2**
 
 * Nombre del producto: Guías del Experience Manager
 * Número de versión: 2310
 * Fecha de versión: 27/09/2023
 
 
-![variables pdf nativas](assets/native-pdf-variables.png){width="800" align="left"}
-
-*Cree variables desde la pestaña Output en el editor web.*
-
-También puede crear variables con valores que tengan etiquetas de HTML. Por ejemplo, añada imágenes del DAM de contenido utilizando `<img>` etiqueta.
-
-Una vez creadas las variables, puede agregarlas a los lugares adecuados del documento mediante los diseños de página de las plantillas de salida. Los valores se seleccionan automáticamente en la salida del PDF en función del conjunto de variables seleccionado en el ajuste preestablecido de salida.
-
-
 
 <img src="./assets/native-pdf-variable-output.png" alt="Pie de página en salida de PDF" width="500" border="2px">
 
-*Genere la salida del PDF nativo utilizando variables en el diseño del PDF.*
+*Genere la salida del PDF utilizando variables en el diseño del PDF.*
 
-Esta función ayuda a generar resultados personalizados con contenido dinámico en la documentación y a administrar los cambios de forma eficaz. También puede aplicar estilos y utilizar marcado de HTML para dar formato a las variables.
+Puede aplicar estilos y utilizar marcado de HTML para dar formato a las variables.  También puede actualizar rápidamente los valores de cualquier variable siempre que sea necesario y volver a generar la salida. Por ejemplo, si necesita actualizar los detalles de una versión, puede editar el valor de la versión en la variable VersionNumber y volver a generar el resultado.
 
-También puede actualizar rápidamente los valores de cualquier conjunto de variables cuando sea necesario y volver a generar la salida. Por ejemplo, si necesita actualizar los detalles de una versión, puede actualizar el valor de la versión en VersionNumber y volver a generar el resultado.
+
+Más información sobre el uso de [variables en la salida del PDF](../native-pdf/native-pdf-variables.md).
+
+
+
 
 
 ## Experiencia modificada para editar los atributos
@@ -89,6 +88,7 @@ Esta función le ayuda a publicar contenido, como texto, vídeos e imágenes, en
 
 *Cree un ajuste preestablecido de salida para la base de conocimiento de ServiceNow.*
 
+Obtenga más información acerca de [Base de conocimiento](../user-guide/generate-output-knowledge-base.md) ajustes preestablecidos de salida.
 
 ## Panel de recopilación de mapas mejorado
 
@@ -124,6 +124,8 @@ También le permite duplicar una línea de base basada en la etiqueta. La versi�
 ![duplicar una línea base ](assets/duplicate-baseline.png) {width="300" align="left"}
 
 *Duplique una línea base basada en una etiqueta o cree una copia exacta.*
+
+Obtenga más información sobre cómo [crear y administrar líneas de base desde el editor web](../user-guide/web-editor-baseline.md).
 
 ## Proceso mejorado para la creación de la recopilación de mapas de activación masiva
 

@@ -1,7 +1,7 @@
 ---
 title: Controlador de eventos de activación masiva completa
 description: Obtenga información acerca del controlador de eventos de activación masiva completa
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 8f1bb12a92ab9a63aef1765e51159644242683a0
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 1%
@@ -11,7 +11,6 @@ ht-degree: 1%
 # Controlador de eventos de activación masiva completa
 
 Las guías del Experience Manager exponen `com/adobe/fmdita/replication/complete` evento que se utiliza para realizar cualquier operación después de la finalización de un proceso de activación masiva. Este evento se activa cada vez que se completa un proceso de activación masiva. AEM Por ejemplo, si ejecuta la activación masiva de un ajuste preestablecido de sitio de un mapa de, se llama a este evento una vez que finaliza el proceso de activación.
-
 
 AEM Es necesario crear un controlador de eventos de tipo para leer las propiedades disponibles en este evento y realizar un procesamiento posterior.
 

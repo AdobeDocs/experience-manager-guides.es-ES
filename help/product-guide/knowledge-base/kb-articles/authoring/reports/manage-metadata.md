@@ -2,9 +2,9 @@
 title: AEM Administración de etiquetas para archivos DITA en las guías de la
 description: AEM Breve artículo sobre la administración de cq:tags en Guías de
 exl-id: 2d805c26-df9b-405a-81ca-7aa84c6f86c8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '280'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ También puede quitar las etiquetas existentes que son comunes en los archivos s
 
 ### La lista en administrar->metadatos está vacía o incompleta
 
-Si la lista está vacía o incompleta, es posible que tenga que ejecutar la indexación en el mapa de datos, puede consultar [Instrucciones de actualización (indexe el contenido)](/help/product-guide/install-guide/upgrade-xml-documentation.md#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [Instrucciones de actualización (indexe el contenido)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
 
 ### Los metadatos personalizados no aparecen en la lista
 
@@ -54,8 +54,8 @@ Si la lista está vacía o incompleta, es posible que tenga que ejecutar la inde
 
 ## Otros recursos útiles
 
-- [Etiquetado masivo mediante el tablero de mapas (IU de Assets)](/help/product-guide/user-guide/map-editor-bulk-tagging.md)
-- [Informes Ditamap en el editor web](/help/product-guide/user-guide/reports-web-editor.md)
+- [Etiquetado masivo mediante el tablero de mapas (IU de Assets)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
+- [Informes Ditamap en el editor web](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
 - [AEM Etiquetado en la](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
 
 

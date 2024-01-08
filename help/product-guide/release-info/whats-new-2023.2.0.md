@@ -1,10 +1,10 @@
 ---
-title: Notas de versión | Adobe Experience Manager Guides as a Cloud Service, versión de febrero de 2023
+title: Notas de versión | Guías de Adobe Experience Manager as a Cloud Service, versión de febrero de 2023
 description: Lanzamiento de febrero de las guías de Adobe Experience Manager as a Cloud Service
 exl-id: 090eaf94-fe3a-47e9-9937-f84f8434550d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -121,13 +121,13 @@ AEM El nuevo microservicio de publicación le permite ejecutar grandes cargas de
 
 AEM Para cada solicitud de publicación, Guías de publicación ejecuta un contenedor as a Cloud Service que se adapta horizontalmente según las solicitudes de los usuarios. Esto le permite ejecutar varias solicitudes de publicación y obtener un rendimiento mejorado.
 
-Para obtener más información, consulte [AEM Configuración de una nueva publicación basada en microservicios para guías de la aplicación de la as a Cloud Service](/help/product-guide/knowledge-base/publishing/configure-microservices.md).
+Para obtener más información, consulte [AEM Configuración de una nueva publicación basada en microservicios para guías de la aplicación de la as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
 
 ## PDF nativo | Añadir un marcador personalizado en la salida del PDF
 
 Ahora puede agregar un marcador personalizado a un contenido en particular en la salida final del PDF para facilitar la navegación. Se añadirá al índice creado a partir de los títulos de temas o secciones del mapa DITA.
 
-## PDF nativo | Aplicar estilo personalizado en entradas del índice y contenido del tema
+## PDF nativo | Aplicar un estilo personalizado a las entradas del índice y al contenido del tema
 
 AEM Guías de proporciona la función para aplicar un estilo personalizado en las entradas de la tabla de contenido o en un tema concreto de la salida del PDF. Por ejemplo, puede cambiar el color del texto de la tabla de contenido y el título del tema. También puede aplicar estilos a todo el contenido dentro del tema.
 
@@ -136,7 +136,7 @@ AEM Guías de proporciona la función para aplicar un estilo personalizado en la
 
 Ahora puede aplicar estilo al marcador de página en las notas al pie. Por ejemplo, puede agregar corchetes o cambiar su color. Estos estilos ayudan a los usuarios a identificar fácilmente los marcadores de página del documento.
 
-## PDF nativo | Barra de cambios para indicar los temas modificados en la Tabla de contenido
+## PDF nativo | Cambiar barra para indicar los temas cambiados en la tabla de contenido
 
 Ahora, las guías del PDF le permiten identificar rápidamente los temas modificados en la tabla de contenido de la salida del AEM.  Muestra una barra de cambios a la izquierda de los temas modificados en el índice. Puede hacer clic en el tema del índice y ver los cambios detallados.
 

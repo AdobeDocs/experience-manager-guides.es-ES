@@ -2,9 +2,9 @@
 title: AEM Informes en las guías de la
 description: AEM Descubra cuáles son todos los informes disponibles en la para ayudar a los usuarios a mejorar la calidad del contenido.
 exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,6 @@ En una configuración organizativa, debe verificar la integridad general del con
 ## Resumen de sesión
 
 En esta sesión, mostramos los informes predeterminados disponibles para los usuarios. Cubrimos ampliamente lo siguiente:
-
 - Informes de documentos (mapa) y temas
 - Informes de metadatos y opciones de administración masiva de metadatos
 - Informes de reutilización de contenido
@@ -41,7 +40,6 @@ En esta sesión, mostramos los informes predeterminados disponibles para los usu
 ## Puntos clave
 
 En esta sesión, aprendió lo siguiente:
-
 - Importancia de los informes en CCMS
 - informes predeterminados disponibles
 - ejemplos de creación de informes sobre contenido
@@ -53,14 +51,13 @@ En esta sesión, aprendió lo siguiente:
 
 - **Vídeos de funciones** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
-- **Guía del usuario** - [Contenido del autor](/help/product-guide/user-guide/reports-intro.md)
+- **Guía del usuario** - [Contenido del autor](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
 - **Foro de la comunidad** - Para interacciones de la comunidad específicas de la sesión en Experience League, visite  [AEM Foro de guías de](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > AEM Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de las Guías de:
->
 > - Local: 4.2 o posterior
 > - Cloud Service: 2302 o posterior
 
