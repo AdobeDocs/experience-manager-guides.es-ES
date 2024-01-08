@@ -2,7 +2,7 @@
 title: Utilizar la especialización personalizada DITA-OT y DITA
 description: Aprenda a utilizar la especialización personalizada DITA-OT y DITA
 exl-id: ddc1393b-b269-40e5-9627-96dad82b42e9
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 8e8e64ad1105b0546856cb82b47547ceacd405b9
 workflow-type: tm+mt
 source-wordcount: '2093'
 ht-degree: 0%
@@ -156,7 +156,7 @@ AEM Realice los siguientes pasos para crear un nuevo perfil y configurarlo para 
 
 1. Cargue la carpeta en la siguiente ubicación:
 
-   `/libs/fmdita/dita_resources`
+   `/apps/fmdita/dita_resources`
 
 1. Haga clic en el vínculo Adobe Experience Manager en la parte superior y elija **Herramientas**.
 
