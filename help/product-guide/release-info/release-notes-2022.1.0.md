@@ -2,7 +2,9 @@
 title: Notas de la versión para [!DNL AEM Guides], versión de enero de 2022
 description: Versión de enero de [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 0%
@@ -235,8 +237,8 @@ A continuación se enumeran los errores corregidos en varias áreas:
 ### Importación de contenido
 
 * Conversión de HTML a DITA | La tabla con &#39;tr&#39; con entradas &#39;td&#39; vacías provoca filas adicionales en la salida. (8132)
-* Conversión de HTML a DITA | El HTML que tiene una tabla con varios tbody falla con la excepción. (7940)
-* Conversión de HTML a DITA | elimina el error si el HTML de origen tiene comentarios. (7937)
+* Conversión de HTML a DITA | El HTML que tiene una tabla con varios tbody falla con una excepción. (7940)
+* Conversión de HTML a DITA | se elimina si el HTML de origen tiene comentarios. (7937)
 * La importación de ficheros DITA 1.3 hace que algunos href se transformen en vínculos mal formados. (8019)
 
 ## Problemas conocidos

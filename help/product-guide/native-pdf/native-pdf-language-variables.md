@@ -2,7 +2,10 @@
 title: PDF nativo | Compatibilidad con variables de idioma
 description: Usar variables de idioma en las plantillas de salida y de salida del PDF
 exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Output Generation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1589'
 ht-degree: 0%
@@ -39,7 +42,7 @@ Por ejemplo, puede tener las siguientes maneras de presentar la etiqueta `Note` 
 
 AEM Las guías de usuario admiten dos tipos de variables: variables de aplicación y de usuario.
 
-### Variables de aplicación
+### Variables de la aplicación
 
 AEM Guías de la aplicación proporciona un conjunto de variables de aplicación predefinidas o listas para usar. AEM Puede utilizar estas variables predefinidas para agregar información acerca de un documento específico de las guías de la aplicación de la aplicación de. Por ejemplo, la variable `chapter-number` , si se incluye en una página, muestra el número de capítulo al que pertenece la página. El `author-label` muestra el nombre del autor del documento.
 

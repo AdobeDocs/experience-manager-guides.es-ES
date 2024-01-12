@@ -2,7 +2,9 @@
 title: Notas de versión | Instrucciones de actualización y problemas corregidos en la versión 4.2.1 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las correcciones de errores y cómo actualizar a las versiones 4.2.1 de las guías de Adobe Experience Manager
 exl-id: a75ec83f-564b-4243-b5c5-341049521adb
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 1%
@@ -82,7 +84,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * PDF nativo | La etiqueta de imagen agrega el atributo display-inline a todas las imágenes. (10653)
 * La inserción de archivos multimedia de audio y vídeo falla en el formato YouTube en **Insertar multimedia** icono. (11320)
 * El error de validación se produce cuando se crea un mapa con la plantilla que tiene un elemento de título especializado. (11212)
-* Editor web | Se agrega un espacio de no separación en el Editor XML al editar un tema. (11786)
+* Editor web | Se agrega espacio de no separación en el Editor XML al editar un tema. (11786)
 
 ### Administración
 
@@ -94,13 +96,13 @@ A continuación se enumeran los errores corregidos en varias áreas:
 ### Publicación
 
 * PDF nativo | La publicación de contenido que tiene una clase de salida con paréntesis() provoca la congelación de la publicación. (11936)
-* Salida JSON | Asignar metadatos que tengan el valor de propiedad como `"value in spaces and double quotes"` conduce a un error de publicación. (11933)
+* Salida JSON | Asignar metadatos con valor de propiedad como `"value in spaces and double quotes"` conduce a un error de publicación. (11933)
 * AEM El problema se produce en la búsqueda del sitio de la (no funciona más allá de 2-3 nodos de nivel). (11352)
-* Editor web AEM | La ruta de salida y la plantilla no se pueden seleccionar en el ajuste preestablecido de la. (11530)
+* Editor web | AEM La ruta y la plantilla de salida no se pueden seleccionar en el ajuste preestablecido de la. (11530)
 * Al actualizar de la versión 4.1.x a la 4.2, el motor de PDF nativo no funciona y genera NullPointerException incluso para el sistema operativo compatible.(11526)
 * El proceso del PDF de descarga no funciona correctamente en el editor web. (11496)
-* PDF nativo | Los comentarios de borrador están ocultos de forma predeterminada en la salida generada. (10560)
-* PDF nativo | navtitle no se respeta para topichead. (10509)
+* PDF nativo | Los comentarios del borrador están ocultos de forma predeterminada en la salida generada. (10560)
+* PDF nativo | el título de navegación no se respeta para topichead. (10509)
 * PDF nativo | Agregando `xref` a una imagen no procesa la imagen en el PDF generado. (11346)
 * PDF nativo | la nota al pie presente en el encabezado de la tabla lleva a texto en negrita y alineado al centro en el pie de página correspondiente dentro de la salida del PDF. (10610)
 

@@ -1,8 +1,10 @@
 ---
-title: Notas de versión | Versión de Adobe Experience Manager Guides 4.2
+title: Notas de versión | Versión 4.2 de las guías de Adobe Experience Manager
 description: Obtenga información acerca de las correcciones de errores y cómo actualizar a las versiones 4.2 de las guías de Adobe Experience Manager
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1391'
 ht-degree: 1%
@@ -106,7 +108,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * Editor web: línea de base | El comportamiento de la columna Última es diferente en el nuevo tablero de línea de base dentro del Editor Web. (10808)
 * Traducción | El trabajo de traducción no se ha iniciado debido a un /libs/fmdita/i18n/ja.json no válido. (10543)
 * Traducción | Se produce un error en un proyecto de traducción de ámbito creado desde el panel de traducción (traducción humana). (10526)
-* Traducción | El procesamiento posterior está bloqueado para toda la carpeta de idioma cuyos recursos están presentes en un proyecto de traducción activo. (10332)
+* Traducción | El procesamiento posterior se bloquea para toda la carpeta de idioma cuyos recursos estén presentes en un proyecto de traducción activo. (10332)
 * Traducción| Los metadatos y las etiquetas no se propagan a las copias traducidas. (4696)
 * Aparecen varias ventanas emergentes para cualquier recurso si se cambia la versión y se guarda en el Editor de líneas de base. (10399)
 * La pérdida de sesión se produce en com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210). (10279)
@@ -121,16 +123,16 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * PDF nativo | La generación del PDF falla con una excepción de puntero nulo. (10950)
 * PDF nativo | conkeyref no se está resolviendo en la salida generada. (10564)
 * PDF nativo | Se producen problemas con los metadatos de un mapa al que hay que hacer referencia en la salida del PDF.( 10556)
-* PDF nativo | Se producen problemas al girar el encabezado de tabla. (10555)
+* PDF nativo | Se producen problemas al girar el encabezado de Tabla. (10555)
 * PDF nativo | Se producen problemas al eliminar temas que tienen un rol de procesamiento=&#39;resource-only&#39;. (10554)
 * PDF nativo | Las referencias clave vacías se muestran en la salida del PDF. (10553)
 * PDF nativo | Anidado `<indexterm>` no están anidadas en la exportación de PDF nativa. (10521)
 * PDF nativo | El PDF nativo utiliza un estilo en línea en lugar del nombre de clase para las etiquetas generadas. (10498)
-* PDF nativo | El tema anidado en los apéndices se transforma en h1 en el HTML temporal.( 10454)
-* PDF nativo | No se pueden ocultar los temas de la primera línea de contenido de la tabla de contenido. (10355)
+* PDF nativo | Todos los temas anidados en los apéndices se transforman en h1 en el HTML temporal.( 10454)
+* PDF nativo | No se pueden ocultar los temas de front-matter de la tabla de contenido. (10355)
 * PDF nativo | Atributo de marco de tabla no propagado al HTML temporal (como clase). (10353)
 * PDF nativo | Los archivos temporales del HTML agregan las clases colsep y rowsep a <td> y <th> incluso si su valor es 0 en el DITA de origen. (10352)
-* PDF nativo | Al reiniciar los números de página en el diseño del capítulo, la numeración se inicia aleatoriamente desde el final del capítulo anterior. (10154)
+* PDF nativo | Al reiniciar los números de página en el diseño del capítulo, se inicia aleatoriamente la numeración desde el final del capítulo anterior. (10154)
 * PDF nativo | Las referencias clave para los keydefs con vínculos de imagen o externos no se resuelven. (10063)
 * PDF nativo | El apéndice se muestra como un capítulo en el PDF generado. (9829)
 * La pestaña Plantilla del editor xml no se muestra a los administradores de perfil de carpeta. (10266)

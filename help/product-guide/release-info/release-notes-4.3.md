@@ -2,7 +2,9 @@
 title: Notas de versión | Instrucciones de actualización y problemas corregidos en la versión 4.3.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las correcciones de errores y cómo actualizar a las versiones 4.3.0 de las guías de Adobe Experience Manager
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 1%
@@ -90,7 +92,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 - IU de recursos | En la vista de lista, las columnas disponibles superpuestas no se pueden combinar. (11528)
 - Keyref no se resuelve en la vista de mapa. (11490)
 - El menú superior no aparece al navegar por el editor XML. (10868)
-- `conref` en etiqueta ph | El cuadro de diálogo de exploración que se muestra es incorrecto. (9481)
+- `conref` en etiqueta ph | El cuadro de diálogo de exploración mostrado es incorrecto. (9481)
 - Los vínculos locales a otros elementos no se resuelven en el Editor web. (8790)
 - La función Matches() no funciona en la función schematron. (11224)
 
@@ -104,7 +106,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 
 ### Revisión
 
-- Nueva IU de revisión | Las condiciones para resaltar y mostrar u ocultar funcionan de forma diferente a como funcionan en el editor web. (11628)
+- Nueva IU de revisión | Las condiciones de resaltar y mostrar u ocultar funcionan de forma diferente a como funcionan en el Editor web. (11628)
 
 ### Publicación
 
@@ -114,7 +116,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 - AEM La publicación en el sitio de falla al leer archivos temporales del pod que pueden haberse actualizado o reiniciado. (12113)
 - PDF nativo | Los atributos personalizados no se propagan al HTML temporal o al motor de PDF. (DXML-12005)
 - PDF nativo | Java OutOfMemoryError se produce al publicar contenido grande. (11789)
-- PDF nativo | Xref imprime el contenido del título del tema href en lugar de la etiqueta Xref. (11322)
+- PDF nativo | Xref está imprimiendo el contenido del título del tema href en lugar de la etiqueta Xref. (11322)
 - PDF nativo | No se puede guardar la configuración de la plantilla del PDF. (10751)
 - PDF nativo | El texto se extiende más allá del ancho de la columna al incluir varias referencias x. (10876)
 - PDF nativo | `<note>``</note>` El elemento no genera un título de espacio adicional de su tipo. (10549)

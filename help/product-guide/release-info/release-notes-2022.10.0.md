@@ -1,8 +1,10 @@
 ---
-title: Notas de versión | Versión as a Cloud Service de las guías de Adobe Experience Manager, octubre de 2022
+title: Notas de versión | Guías de Adobe Experience Manager as a Cloud Service, versión de octubre de 2022
 description: Versión de octubre de Adobe Experience Manager Guides as a Cloud Service
 exl-id: 38638080-625c-49c3-9e54-56cc23831546
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 1%
@@ -61,12 +63,12 @@ Seleccione uno o más ajustes preestablecidos y genere rápidamente la salida. T
 
 A continuación se enumeran los errores corregidos en varias áreas:
 
-* PDF nativo | Se produce un error al eliminar temas solo de recursos de la salida del PDF. (10554)
+* PDF nativo | Se produce un error al eliminar los temas solo de recursos de la salida del PDF. (10554)
 * PDF nativo | Las referencias clave vacías aparecen en la salida del PDF. (10553)
 * PDF nativo | `navtitle` para `topichead` no se cumple. (10509)
-* PDF nativo | Se necesita soporte para los sabores JDK de amd64. (10465)
+* PDF nativo | Se necesita compatibilidad con los sabores JDK de amd64. (10465)
 * PDF nativo | No se pueden ocultar los temas de front-matter de la tabla de contenido. (10355)
-* PDF nativo | Al reiniciar el número de página en el diseño del capítulo, la numeración se inicia aleatoriamente desde el final del capítulo anterior. (10154)
+* PDF nativo | Al reiniciar el número de página en el diseño del capítulo, se inicia aleatoriamente la numeración desde el final del capítulo anterior. (10154)
 * Navegador Chrome | La pantalla se queda en blanco al arrastrar y soltar cualquier elemento de la interfaz de usuario. Por ejemplo, al arrastrar una condición desde el panel Condiciones. (10524)
 * Las propiedades del nodo se eliminan después de la operación de copiar y pegar de un recurso. (10053)
 * Al hacer clic  **Cerrar** AEM los usuarios se redirigían a los recursos: la experiencia se ha corregido para llevar a los usuarios a la página principal de la página de la aplicación de la. (9654)

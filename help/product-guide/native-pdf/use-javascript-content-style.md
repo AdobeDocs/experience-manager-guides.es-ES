@@ -2,7 +2,10 @@
 title: Función de publicación nativa de PDF | Usar JavaScript para trabajar con contenido o estilo
 description: Aprenda a crear hojas de estilo de uso y a crear estilos para el contenido.
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Output Generation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 1%

@@ -2,7 +2,10 @@
 title: Función de publicación nativa de PDF | Añadir un marcador personalizado en la salida del PDF
 description: Aprenda a crear hojas de estilo de uso y a crear estilos para el contenido.
 exl-id: 6e6dbba3-da41-4066-b7b2-735a3d92b70a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Output Generation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%

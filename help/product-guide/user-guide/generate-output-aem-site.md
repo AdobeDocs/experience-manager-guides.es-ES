@@ -2,7 +2,9 @@
 title: AEM Sitio web de
 description: AEM AEM Cree y configure ajustes preestablecidos del sitio de la en las guías de usuario. AEM Utilice la compatibilidad con el sitio para generar resultados basados en artículos, temas de vinculación de salida, publicar conref y buscar una cadena dentro del contenido.
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
-source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2577'
 ht-degree: 0%

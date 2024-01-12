@@ -2,7 +2,9 @@
 title: Ver estado de traducción
 description: AEM Obtenga información sobre cómo ver el estado de traducción y las copias de idioma traducidas para cada tema en un mapa DITA en las guías de la.
 exl-id: 6ed30bc6-3030-40fd-987a-928fd5b06ee6
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Translation
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%

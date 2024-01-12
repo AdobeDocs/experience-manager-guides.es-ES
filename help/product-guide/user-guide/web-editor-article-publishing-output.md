@@ -2,7 +2,9 @@
 title: Generar resultados desde el panel Repositorio
 description: AEM Genere resultados desde el panel del repositorio o desde el panel Vista de mapa en las Guías de. Aprenda a publicar un tema utilizado en una o varias asignaciones DITA o a generar resultados para varios temas.
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor, Publishing
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%

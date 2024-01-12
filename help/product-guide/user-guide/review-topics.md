@@ -2,7 +2,9 @@
 title: Revisar temas
 description: AEM Obtenga información sobre cómo revisar temas y utilizar las funciones como revisor, vista de documento, vista de tema, barra de herramientas contextual, modo de vista previa, adición de archivos adjuntos a comentarios y panel de condiciones en las guías de los.
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Reviewing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2351'
 ht-degree: 0%

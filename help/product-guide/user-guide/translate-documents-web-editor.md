@@ -2,7 +2,9 @@
 title: Traducir documentos desde el editor web
 description: Traduzca el contenido a varios idiomas desde el editor web. AEM Obtenga información sobre cómo crear un proyecto de traducción, agregar reglas, ver versiones y descartar archivos no sincronizados en las guías del usuario.
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor, Translation
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 0%

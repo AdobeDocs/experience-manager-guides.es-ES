@@ -2,7 +2,9 @@
 title: Administrar tareas de publicación mediante el panel Publicar
 description: AEM Administre las tareas de publicación mediante el Panel de publicación en las Guías de publicación de. Obtenga información sobre cómo acceder al panel de publicación y cancelar una tarea de publicación.
 exl-id: d9e25e52-ba9d-4088-ac95-8df76b69f5d3
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%

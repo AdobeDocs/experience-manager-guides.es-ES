@@ -1,8 +1,10 @@
 ---
-title: Notas de versión | Versión as a Cloud Service de las guías de Adobe Experience Manager, septiembre de 2022
+title: Notas de versión | Guías de Adobe Experience Manager as a Cloud Service, versión de septiembre de 2022
 description: Versión de septiembre de Adobe Experience Manager Guides as a Cloud Service
 exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 0%
@@ -93,7 +95,7 @@ Estos metadatos anulan los metadatos definidos en el nivel de libro. Puede defin
 A continuación se enumeran los errores corregidos en varias áreas:
 
 * Editor web | Al mover elementos dentro de un tema, los ID asignados en los elementos se sobrescriben con los ID asignados automáticamente. (7895)
-* Control de cambios | El contenido se pierde cuando se introduce un nuevo elemento con la tecla Intro. (10246)
+* Control de cambios | Se pierde contenido cuando se introduce un nuevo elemento con la tecla Intro. (10246)
 * No se está creando el submapa al que se hace referencia en el mapa principal de dita-templates. (10231)
 * Editor XML | Copiar y pegar no funciona en el modo de autor. (10309)
 * Una vez seleccionadas, no se anulará la selección de varias etiquetas de versión. (9561)
@@ -101,7 +103,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * El panel Esquema no muestra contenido cuando se cambia de **Autor** hasta **Origen** modo. (10319)
 * La referencia en un nuevo tema creado con un contenido en la plantilla de tema no funciona. El ID de hash copiado no se actualiza en la copia de contenido. (9890)
 * Web-Editor | No existe ningún cargador al crear un mapa a partir de la plantilla de mapa. (9891)
-* Nuevo editor de mapas | Se ha agregado texto en negrita o cursiva en el título del mapa que no se conservará si se cambia de **Autor** a la **Diseño** vista. (10218)
+* Nuevo editor de mapas | Se ha añadido texto en negrita o cursiva en el título del mapa y no se conserva si se cambia de **Autor** a la **Diseño** vista. (10218)
 * Nuevo editor de mapas | Las condiciones aplicadas a cualquier referencia no se pueden eliminar de la vista Presentación. (10213)
 * Nuevo editor de mapas | La aplicación de referencias de condiciones no funciona en la vista Presentación como la vista Autor. (10198)
 * Nuevo editor de mapas | Mover a la izquierda del menú contextual elimina la referencia si no se puede mover a la izquierda. (10219)
@@ -117,8 +119,8 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * PDF nativo | Las referencias de los apéndices no se muestran como apéndices en la salida del PDF. (10182)
 * PDF nativo | El atributo Frame de una tabla no se propaga al HTML temporal (como clase). (10353)
 * PDF nativo | los ficheros HTML temporales añaden las clases colsep y rowsep a td y el incluso si su valor es 0 en el DITA de origen. (10352)
-* PDF nativo | No se respetan los metadatos para los criterios añadidos en el diseño de página. (10377)
-* PDF nativo | La generación del PDF falla en un contenido específico. (9927)
+* PDF nativo | No se aceptan los metadatos para los criterios agregados en el diseño de página. (10377)
+* PDF nativo | Error al generar el PDF para contenido específico. (9927)
 * PDF nativo | El contenido mediante conkeyref no se muestra en la salida del PDF. (9836)
 * PDF nativo | Las referencias clave para los valores de clave con imágenes o vínculos externos no se resuelven. (10063)
 * La vista Autor de un mapa no muestra el texto de marcador de posición de la lista de tablas y la lista de figuras. (10330)
@@ -135,4 +137,4 @@ El Adobe AEM de ha identificado los siguientes problemas conocidos para la versi
 
 * La línea de base dinámica no está integrada con la publicación de la base de conocimiento.
 
-* Traducción El icono | Diferencia de versión aparece para el contenido de origen debido a cualquier cambio en el contenido de destino.
+* Traducción | Aparece el icono Diferencia de versión para el contenido de origen debido a cualquier cambio en el contenido de destino.

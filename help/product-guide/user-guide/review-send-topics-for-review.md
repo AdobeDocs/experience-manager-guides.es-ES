@@ -2,7 +2,9 @@
 title: Enviar temas para revisión
 description: AEM Obtenga información sobre cómo crear una tarea de revisión y enviar temas para su revisión en las Guías de. Envíe uno o varios temas en un mapa DITA para su revisión.
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Reviewing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: Cargar archivos
 description: AEM Obtenga información sobre cómo cargar los archivos en el repositorio de y gestionar errores. AEM Conozca la interfaz de usuario de la consola de recursos, la aplicación de escritorio de la aplicación de la aplicación de la consola de recursos, el ingestor masivo de recursos y el uso del FrameMaker para la carga masiva.
 exl-id: b5430242-1122-43df-a0b2-275b1dea33f2
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Content Management
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: Añadir y administrar citas en el contenido
 description: AEM Añada y administre citas en Guías de. Aprenda a aplicar, importar, filtrar, buscar, cambiar el estilo de las citas, editar, previsualizar, insertar, eliminar y generar resultados de contenido con citas.
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -69,7 +71,7 @@ El **Añadir cita** se abre el cuadro de diálogo.
 
 
 
-1. Seleccionar **Listo**.
+1. Seleccione **Listo**.
 
    Se agrega una nueva cita al panel Cita.
 
@@ -133,7 +135,7 @@ Las siguientes opciones están disponibles en la lista desplegable:
 | MLA | APA | Chicago | IEEE | AHA |
 |---|---|---|---|---|
 | Estilo de asociación de idioma moderno <br> | American Psychological Association Style | Manual de estilo de Chicago | Instituto de Ingenieros Eléctricos y Electrónicos Estilo | American Heart Association Style |
-| Ejemplo:<br> Crawford, Claire, et al. *Contenido emocional de recuerdos oscuros*.Editado por Memory, vol 16, 2010, Amsterdam. | Ejemplo: <br> Crawford, C., J. y C. (2010). *Contenido emocional de recuerdos oscuros* (505-16 ed.). 10,1080/ 09658210902067289 | Ejemplo: <br> Crawford, Claire, et al. *Contenido emocional de recuerdos oscuros*. 505-16, 2010. | Ejemplo: <br> C. Crawford, J. , y C. , *Contenido emocional de recuerdos oscuros*. Amsterdam, 2010. | Ejemplo: <br> C. Crawford, J. , y C. , *Contenido emocional de recuerdos oscuros*. Amsterdam, 2010. |
+| Ejemplo:<br> Crawford, Claire, et al. *Contenido emocional de recuerdos oscuros*.Editado por Memory, vol 16, 2010, Amsterdam. | Ejemplo: <br> Crawford, C., J., &amp; C. (2010). *Contenido emocional de recuerdos oscuros* (505-16 ed.). 10,1080/ 09658210902067289 | Ejemplo: <br> Crawford, Claire, et al. *Contenido emocional de recuerdos oscuros*. 505-16, 2010. | Ejemplo: <br> C. Crawford, J. , y C. , *Contenido emocional de recuerdos oscuros*. Amsterdam, 2010. | Ejemplo: <br> C. Crawford, J. , y C. , *Contenido emocional de recuerdos oscuros*. Amsterdam, 2010. |
 
 
 ## Editar una cita
@@ -248,7 +250,7 @@ En el tema, coloque el cursor al final de la cita.
    >Las citas que ya se utilizan en el tema se sustituyen por las citas que seleccione en el cuadro de diálogo.
 
 
-1. Seleccionar **Listo**.
+1. Seleccione **Listo**.
 
 ## Generar salida de contenido con citas
 

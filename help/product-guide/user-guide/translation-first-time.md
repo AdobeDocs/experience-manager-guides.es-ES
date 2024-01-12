@@ -2,7 +2,9 @@
 title: Prácticas recomendadas para la traducción de contenido
 description: AEM Conozca las prácticas recomendadas para la traducción de contenido en las Guías de. Obtenga información sobre cómo configurar el servicio de traducción, crear un nuevo proyecto de traducción e iniciar el trabajo de traducción.
 exl-id: f2a4df86-bba7-434c-b7f9-3587b8a4f9bc
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Translation
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 1%

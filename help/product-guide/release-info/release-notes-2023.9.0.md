@@ -2,7 +2,9 @@
 title: Notas de versión | Instrucciones de actualización y problemas corregidos en las guías de Adobe Experience Manager, versión de septiembre de 2023
 description: Obtenga información acerca de las correcciones de errores y cómo actualizar a la versión de septiembre de 2023 de las guías de Adobe Experience Manager as a Cloud Service
 exl-id: 795b86a0-e763-404a-a4bb-35d3d2a42672
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 0%
@@ -88,7 +90,7 @@ AEM (Solo si tiene una versión anterior a la versión as a Cloud Service de jun
 
 Realice los siguientes pasos para indexar el contenido existente y utilice el nuevo texto de buscar y reemplazar en el nivel de asignación y en la lista de temas de la pestaña Informes:
 
-1. Ejecute una solicitud de POST al servidor \(con autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de las asignaciones para indexarlas, de forma predeterminada, todas las asignaciones se indexarán \|\| Por ejemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Ejecute una solicitud de POST al servidor \(con autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de las asignaciones para indexarlas; de forma predeterminada, todas las asignaciones se indexarán \|\| Por ejemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. También se puede pasar una carpeta raíz para indexar las asignaciones DITA de una carpeta específica (y sus subcarpetas). Por ejemplo, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Tenga en cuenta que si se pasan tanto el parámetro de rutas como el parámetro raíz, solo se tendrá en cuenta el parámetro de rutas.
 
@@ -159,13 +161,13 @@ A continuación se enumeran los errores corregidos en varias áreas:
 - La publicación falla al cambiar el nombre de un ajuste preestablecido de PDF nativo. (12564)
 - Al duplicar una plantilla de PDF nativa, se duplica la ubicación de plantilla predeterminada en lugar de la ubicación de plantilla personalizada proporcionada. (12563)
 
-- PDF nativo | La inclusión de varias expresiones xrefs amplía el texto más allá del ancho de columna. (13004)
+- PDF nativo | La inclusión de varias expresiones XFR extiende el texto más allá del ancho de columna. (13004)
 - PDF nativo | Cuando el tema y el título tienen el mismo ID, se produce una generación incorrecta de la salida del PDF. (12644)
 - PDF nativo | Al agregar una clase de salida a un elemento principal `<topicref>` en un mapa DITA y al aplicar un estilo personalizado a la clase de salida, el estilo se aplica a los elementos dentro del cuerpo del tema, incluidos los títulos de las secciones.(12166)
 - La publicación incremental no funciona si un mapa DITA tiene varios ditavalrefs. (12117)
-- AEM Sitio web de | Al crear un mapa con una definición de clave que señala a un tema como variable y agregar processing-role=resource-only, se crean algunas páginas inesperadas. (12099)
+- AEM Sitio web de | Al crear un mapa con keydef apuntando a un tema como variable y agregar processing-role=resource-only, se crean algunas páginas inesperadas. (12099)
 - AEM AEM Si se utiliza algún recurso de DAM de la en cualquier salida que no sea el sitio de la DITA, los metadatos &quot;jcr:createdBy&quot; no reflejan el nombre del editor ni el nombre del usuario que modificó por última vez el mapa o tema de DITA. (12090)
-- AEM Sites | El mapa DITA con topichead en el título de navegación (con caracteres no compatibles) conduce a direcciones URL de página incorrectas. (11978)
+- AEM Sites | El mapa DITA con el encabezado del tema en el título de navegación (con caracteres no compatibles) conduce a direcciones URL de página incorrectas. (11978)
 - PDF nativo | Se producen problemas en la compatibilidad de topichead / topicmeta / navtitle en Frontmatter y Backmatter. (11969)
 - PDF nativo | La generación de PDF para documentos grandes requiere mucho tiempo. (11955)
 - PDF nativo | Al cambiar el nombre de un ajuste preestablecido, se produce una NullPointerException mientras se genera una salida de PDF. (11889)

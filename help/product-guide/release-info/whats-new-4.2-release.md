@@ -2,7 +2,9 @@
 title: Notas de versión | Novedades de la versión 4.2 de las guías de Adobe Experience Manager
 description: Conozca las funciones nuevas y mejoradas de las versiones 4.2 de las guías de Adobe Experience Manager
 exl-id: 46367ccf-58ff-4889-8314-cdd5bf5d0f1d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: What's New
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 0%
@@ -217,6 +219,6 @@ Ahora también se puede generar la tabla de contenido en mapas DITA utilizando u
 
 Ahora puede agregar un marcador personalizado a un contenido en particular en la salida final del PDF para facilitar la navegación. Se añadirá al índice creado a partir de los títulos de temas o secciones del mapa DITA.
 
-## PDF nativo | Aplicar estilo personalizado en entradas del índice y contenido del tema
+## PDF nativo | Aplicar un estilo personalizado a las entradas del índice y al contenido del tema
 
 AEM Guías de proporciona la función para aplicar un estilo personalizado en las entradas de la tabla de contenido o en un tema concreto de la salida del PDF. Por ejemplo, puede cambiar el color del texto de la tabla de contenido y el título del tema. También puede aplicar estilos a todo el contenido dentro del tema.

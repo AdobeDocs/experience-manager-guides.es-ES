@@ -1,8 +1,10 @@
 ---
-title: Notas de versión | Versión de Adobe Experience Manager Guides 4.1
+title: Notas de versión | Versión 4.1 de las guías de Adobe Experience Manager
 description: Última versión de Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '3644'
 ht-degree: 1%
@@ -23,7 +25,7 @@ AEM Puede actualizar fácilmente su versión actual de las Guías de la a la ver
 
 Para obtener más información, consulte [Instrucciones de actualización](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
 
-## 4.1.3 | Notas de la versión
+## 4.1.3 | Notas de versión
 
 ## Matriz de compatibilidad
 
@@ -66,7 +68,7 @@ El error corregido se enumera a continuación:
 * El editor web carga la página en blanco de forma intermitente. (10678)
 
 
-## 4.1.2 | Notas de la versión
+## 4.1.2 | Notas de versión
 
 ## Matriz de compatibilidad
 
@@ -119,7 +121,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 
   **Solución**: utilice la ficha Línea base del tablero de mandos de mapa DITA.
 
-## 4,1 | Notas de la versión
+## 4,1 | Notas de versión
 
 En estas notas de la versión se explican las instrucciones de actualización, las nuevas funciones y las mejoras realizadas en la versión 4.1.x de Adobe Experience Manager Guides (más adelante denominadas *AEM Guías de*).
 
@@ -354,7 +356,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * AEM Guías de usuario no copia las propiedades no únicas de un recurso cuando se copia y pega un recurso. (8241)
 * El nombre de archivo de mapa DITA no se convierte a minúsculas en el momento de la creación. (8383)
 * La descripción de la tarea de revisión no aparece en la notificación por correo electrónico que se envía cuando se asigna una nueva tarea de revisión. (8507)
-* Descargar API de mapa | No se limpian las carpetas temporales en caso de que se produzcan errores de proceso de descarga. (8523)
+* Descargar API de mapa | Las carpetas temporales no se limpian en caso de que se produzcan errores de proceso de descarga. (8523)
 * `columnpreview.jsp` depende de SP.  (8543)
 * Los trabajos de salida con un estado como &quot;Esperando&quot; o &quot;Ejecutando&quot; no se limpian en el panel de publicación.  (8569)
 * Icono predeterminado seleccionado al generar un informe con el botón Generar, incluso cuando se define la propiedad del icono. (8573)

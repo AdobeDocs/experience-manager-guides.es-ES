@@ -1,8 +1,10 @@
 ---
-title: Notas de versión | Adobe Experience Manager Guides as a Cloud Service, versión de febrero de 2023
+title: Notas de versión | Guías de Adobe Experience Manager as a Cloud Service, versión de febrero de 2023
 description: Lanzamiento de febrero de las guías de Adobe Experience Manager as a Cloud Service
 exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -81,7 +83,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * Editor web: línea de base | El comportamiento de la columna Última es diferente en el nuevo tablero de línea de base dentro del Editor Web. (10808)
 * Traducción | El trabajo de traducción no se ha iniciado debido a un /libs/fmdita/i18n/ja.json no válido. (10543)
 * Traducción | Se produce un error en un proyecto de traducción de ámbito creado desde el panel de traducción (traducción humana). (10526)
-* Traducción | El procesamiento posterior está bloqueado para toda la carpeta de idioma cuyos recursos están presentes en un proyecto de traducción activo. (10332)
+* Traducción | El procesamiento posterior se bloquea para toda la carpeta de idioma cuyos recursos estén presentes en un proyecto de traducción activo. (10332)
 * Aparecen varias ventanas emergentes para cualquier recurso si se cambia la versión y se guarda en el Editor de líneas de base. (10399)
 * La fuga de sesión se produce en `com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210)`. (10279)
 
@@ -90,11 +92,11 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * La regeneración de temas no funciona para algunos escenarios. (10635)
 * Publishlistener no muestra los datos solicitados en los registros de información y también contiene algunos registros no deseados.( 10567)
 * PDF nativo | Al crear un ajuste preestablecido de salida con la opción &quot;Añadir a perfil de carpeta&quot;, la generación del PDF falla con una excepción de puntero nulo. (10950)
-* PDF nativo | Se producen problemas al girar el encabezado de tabla. (10555)
+* PDF nativo | Se producen problemas al girar el encabezado de Tabla. (10555)
 * PDF nativo | Anidado `<indexterm>` no están anidadas en la exportación de PDF nativa. (10521)
-* PDF nativo | El tema anidado en los apéndices se transforma en h1 en el HTML temporal. (10454)
+* PDF nativo | Todos los temas anidados en los apéndices se transforman en h1 en el HTML temporal. (10454)
 * La publicación de línea de base falla en el PDF generado mediante FrameMaker Publishing Server 2020. (10551)
 * PDF nativo | Agregando `xref` a una imagen no procesa la imagen en el PDF generado. (11346)
 * PDF nativo | La etiqueta de imagen agrega el atributo display-inline a todas las imágenes. (10653)
-* PDF nativo | Los comentarios de borrador están ocultos de forma predeterminada en la salida generada. (10560)
-* PDF nativo | navtitle no se respeta para topichead. (10509)
+* PDF nativo | Los comentarios del borrador están ocultos de forma predeterminada en la salida generada. (10560)
+* PDF nativo | el título de navegación no se respeta para topichead. (10509)

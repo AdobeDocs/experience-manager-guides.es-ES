@@ -1,8 +1,10 @@
 ---
-title: Notas de versión | Adobe Experience Manager Guides as a Cloud Service, versión de marzo de 2023
+title: Notas de versión | Guías de Adobe Experience Manager as a Cloud Service, versión de marzo de 2023
 description: Lanzamiento de marzo de Adobe Experience Manager Guides as a Cloud Service
 exl-id: 6a0bba92-7d7d-4b20-ad46-0eacc91268da
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -58,7 +60,7 @@ AEM En esta sección se muestra la matriz de compatibilidad para las aplicacione
 A continuación se enumeran los errores corregidos en varias áreas:
 
 * El proceso del PDF de descarga no funciona correctamente en el editor web. (11496)
-* Salida JSON | Asignar metadatos que tengan el valor de propiedad como `"value in spaces and double quotes"` conduce a un error de publicación. (11438)
+* Salida JSON | Asignar metadatos con valor de propiedad como `"value in spaces and double quotes"` conduce a un error de publicación. (11438)
 * La inserción de archivos multimedia de audio y vídeo falla en el formato YouTube en **Insertar multimedia** icono. (11320)
 * El error de validación se produce cuando se crea un mapa con la plantilla que tiene un elemento de título especializado. (11212)
 * PDF nativo | la nota al pie presente en el encabezado de la tabla lleva a texto en negrita y alineado al centro en el pie de página correspondiente dentro de la salida del PDF. (10610)

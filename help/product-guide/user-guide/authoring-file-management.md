@@ -2,7 +2,9 @@
 title: Administración de archivos y carpetas
 description: AEM Obtenga información sobre cómo administrar archivos y carpetas en las guías de. Copiar y pegar, arrastrar y soltar, eliminar, mover archivos y carpetas de forma masiva y buscar contenido DITA.
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Content Management
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '3108'
 ht-degree: 0%

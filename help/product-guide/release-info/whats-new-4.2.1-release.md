@@ -2,7 +2,9 @@
 title: Notas de versión | Novedades de la versión 4.2.1 de las guías de Adobe Experience Manager
 description: Conozca las funciones nuevas y mejoradas de las versiones 4.2.1 de las guías de Adobe Experience Manager
 exl-id: 441aa7ec-d88c-42cb-83f0-d0f6e58bfa41
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: What's New
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -61,7 +63,7 @@ También puede generar el CSV para descargar la instantánea actual de los eleme
 
 Para obtener más información, consulte la descripción de la función Generar un informe multimedia en la [Informe de mapa DITA del editor web](../user-guide/reports-web-editor.md) sección.
 
-## PDF nativo | Barra de cambios para indicar los temas modificados en la Tabla de contenido
+## PDF nativo | Cambiar barra para indicar los temas cambiados en la tabla de contenido
 
 Ahora, las guías del PDF le permiten identificar rápidamente los temas modificados en la tabla de contenido de la salida del AEM.  Muestra una barra de cambios a la izquierda de los temas modificados en el índice. Puede hacer clic en el tema del índice y ver los cambios detallados.
 

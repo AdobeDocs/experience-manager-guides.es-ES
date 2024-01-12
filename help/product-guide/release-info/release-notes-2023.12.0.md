@@ -1,7 +1,9 @@
 ---
 title: Notas de versión | Instrucciones de actualización y problemas corregidos en las guías de Adobe Experience Manager, versión de diciembre de 2023
 description: Obtenga información acerca de las correcciones de errores y cómo actualizar a la versión de diciembre de 2023 de las guías de Adobe Experience Manager as a Cloud Service.
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 1%
