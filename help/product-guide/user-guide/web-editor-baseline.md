@@ -4,9 +4,9 @@ description: AEM Cree y administre líneas de base desde el editor web en Guías
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 > AEM Se recomienda utilizar esta función Línea base del Editor Web si ha actualizado a la versión de marzo as a Cloud Service de Guías de la versión o posterior.
 
-AEM Guías de proporciona la función Línea base integrada dentro del Editor web que permite a los usuarios crear líneas de base y utilizarlas para publicar o traducir temas de diferentes versiones.
+AEM Guías de proporciona la función Línea base integrada dentro del Editor web que permite a los usuarios crear líneas de base y utilizarlas para publicar o traducir temas de diferentes versiones. También pueden publicar varios ajustes preestablecidos de salida del mismo mapa DITA en paralelo.
 
 ## Crear una línea base
 
@@ -56,11 +56,12 @@ Puede crear una línea base desde el Editor Web realizando los siguientes pasos:
 
    **Actualización automática**: seleccione esta opción para la creación de la instantánea para seleccionar automáticamente los temas según la etiqueta aplicada.
 
-   Las líneas bases creadas con la configuración de actualización automática se actualizan de forma dinámica. Si genera una línea de base, descarga una línea de base o crea un proyecto de traducción utilizando una línea de base, los archivos se seleccionan dinámicamente en función de las etiquetas actualizadas. Por ejemplo, si ha utilizado la versión 1.2 de un tema con Label Release 1.0 para la línea de base y ha actualizado la versión 1.5 con Label Release 1.0 más adelante, la línea de base se actualizará dinámicamente y se utilizará la versión 1.5.
+   Las líneas bases creadas con la configuración de actualización automática se actualizan dinámicamente. Si genera una línea de base, descarga una línea de base o crea un proyecto de traducción utilizando una línea de base, los archivos se seleccionan dinámicamente en función de las etiquetas actualizadas. Por ejemplo, si ha utilizado la versión 1.2 de un tema con Label Release 1.0 para la línea de base y ha actualizado la versión 1.5 con Label Release 1.0 más adelante, la línea de base se actualizará dinámicamente y se utilizará la versión 1.5.
 
-   ![Crear una línea base](images/dynamic-baseline.png){width="550" align="left"}
+   ![Crear una línea base](images/dynamic-baseline.png){width="300" align="left"}
 
-   - **Seleccionar etiquetas**: Si los temas tienen etiquetas especificadas, las etiquetas se enumeran en la **Seleccionar etiquetas** desplegable. Puede elegir la etiqueta\(s\) de la lista. Las etiquetas seleccionadas primero reciben una prioridad mayor que las posteriores.
+   - **Seleccionar etiquetas**: si los temas tienen etiquetas especificadas, utilice la variable **Seleccionar etiquetas** desplegable para elegir de la [etiquetas enumeradas](#labels-list).
+Las etiquetas seleccionadas primero reciben una prioridad mayor que las posteriores.
 
      Para las líneas de base dinámicas, las etiquetas se extraen de la última versión guardada y de la copia de trabajo actual del mapa. Por ejemplo, si ha creado etiquetas   `Label Release A.1.0 ` y `Label Release A.1.1` para las versiones 1.0 y 1.1 del Tema A y etiquetas `Label Release B.1.0` y `Label Release B.1.1` para las versiones 1.0 y 1.1 del Tema B . A continuación, puede agregar el Tema A al Mapa A en la versión 1.0 y el Tema B al Mapa A en 1.0* (copia de trabajo). En este caso, puede ver lo siguiente  `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0`, y `Label Release B.1.1` en el menú desplegable de etiquetas de línea de base dinámica.
 
@@ -93,18 +94,23 @@ Puede gestionar las líneas base existentes mediante las distintas funciones del
 
 
   También se pueden realizar las siguientes operaciones en la instantánea desde el menú Opciones (Options):
-- **Duplicar una línea base**: Puede duplicar una línea base y modificarla según sus necesidades.
-  ![duplicar una línea base](images/baseline-duplicate.png){width="300" align="left"}
-  *Duplique una línea base basada en una etiqueta o cree una copia exacta.*
 
-   1. Seleccionar **Duplicar** desde el menú Opciones de una línea base. El **Duplicar línea base** se abre el cuadro de diálogo.
-      >[!NOTE]
-      > 
-      >El nombre por defecto de la línea base es `<selected baseline name>`_sufijo (como sample-baseline_1). Puede cambiar el nombre según sus necesidades.
-   1. Entrada **Seleccione la versión según**, puede elegir la opción **Copia exacta** para la opción **Etiqueta** opción:
-      - **Copia exacta**: Guías del Experience Manager selecciona la misma versión de todos los temas y crea una copia exacta de la línea base duplicada.
-      - **Etiqueta**: Puede elegir una etiqueta de la lista desplegable. Guías del Experience Manager selecciona las versiones de los temas con la etiqueta seleccionada definida para ellas, mientras que para los demás temas, selecciona la versión de la línea base duplicada. Por ejemplo, se selecciona la etiqueta `Release 1.0` en el menú desplegable, selecciona las versiones de los temas para los que ha definido esta etiqueta. Para todos los demás temas, selecciona la versión de la línea de base duplicada.
-   1. Clic **Duplicar**.
+### Duplicar una línea base
+
+Puede duplicar una línea base y modificarla según sus necesidades.
+![duplicar una línea base](images/baseline-duplicate.png){width="300" align="left"}
+*Duplique una línea base basada en una etiqueta o cree una copia exacta.*
+
+1. Seleccionar **Duplicar** desde el menú Opciones de una línea base. El **Duplicar línea base** se abre el cuadro de diálogo.
+>[!NOTE]
+> >El nombre predeterminado de la línea base es `<selected baseline name>`_sufijo (como sample-baseline_1). Puede cambiar el nombre según sus necesidades.
+
+   Entrada **Seleccione la versión según**, puede elegir la opción **Copia exacta** para la opción **Etiqueta** opción:
+
+   - **Copia exacta**: Guías del Experience Manager selecciona la misma versión de todos los temas y crea una copia exacta de la línea base duplicada.
+   - **Etiqueta**: En el menú desplegable, puede elegir una de las [etiquetas enumeradas](#labels-list). Guías del Experience Manager selecciona las versiones de los temas con la etiqueta seleccionada definida para ellas, mientras que para los demás temas, selecciona la versión de la línea base duplicada. Por ejemplo, se selecciona la etiqueta `Release 1.0` en el menú desplegable, selecciona las versiones de los temas para los que ha definido esta etiqueta. Para todos los demás temas, selecciona la versión de la línea de base duplicada.
+1. Clic **Duplicar**.
+
 - **Cambiar nombre**, o **Eliminar** una línea base existente.
 - Añada, quite o realice cambios en etiquetas existentes desde el **Administrar etiquetas** opción para líneas de base estáticas. Si el administrador ha configurado etiquetas predefinidas, estas se mostrarán en la lista desplegable Añadir etiqueta. Para obtener más información sobre cómo añadir etiquetas, consulte [Uso de etiquetas](web-editor-use-label.md#).
 
@@ -115,7 +121,16 @@ Puede gestionar las líneas base existentes mediante las distintas funciones del
 - **Editar propiedades** de una línea base estática existente que haya definido al crear la línea base.
 - Exportar la instantánea de una instantánea en un archivo de Microsoft Excel con el **Exportar línea base** opción.
 
-**Filtros de línea base**
+
+### Lista de etiquetas {#labels-list}
+
+Las etiquetas enumeradas en la lista desplegable se basan en los siguientes criterios:
+- Las etiquetas deben añadirse a una de las versiones de los temas del mapa DITA (en la que se crea la línea base).
+- Y sólo se tienen en cuenta las referencias de primer nivel (temas o submapas) del mapa DITA para seleccionar las etiquetas.
+
+
+
+## Filtros de línea base
 
 Uso del icono Filtros en la **Filtros de línea base** panel puede aplicar filtros en la línea de base abierta en la ventana de edición de la línea de base:
 

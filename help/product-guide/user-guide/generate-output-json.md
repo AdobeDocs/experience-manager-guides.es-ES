@@ -4,9 +4,9 @@ description: Aprenda a crear ajustes preestablecidos de JSON desde el editor web
 exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '626'
 ht-degree: 1%
 
 ---
@@ -28,9 +28,6 @@ En el editor web, las siguientes configuraciones se han organizado en la variabl
 
 Para obtener más información, consulte [Configuración de JSON](#id231KJA00REJ).
 
-**Desde el panel de mapas**
-
-Para abrir los ajustes preestablecidos de salida para el PDF, haga clic en un archivo de mapa DITA en la interfaz de usuario de Assets, haga clic en Ajustes preestablecidos de salida y, a continuación, haga clic en la opción HTML 5. En el tablero de mapas, haga clic en **Editar** en la parte superior para actualizar las distintas configuraciones y, a continuación, haga clic en **Guardar**.
 
 **Configuración de JSON**
 

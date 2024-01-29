@@ -4,9 +4,9 @@ description: AEM Obtenga información sobre cómo administrar archivos y carpeta
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '3108'
+source-wordcount: '3109'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
    > Seleccionar <img src="images/info-icon.svg" width="25">   cerca de cualquier campo para ver más detalles sobre él.
 
    - **Tamaño del lote**: especifique el número de archivos que desea mover en un solo lote. Los valores predeterminados son 50 archivos.
-   - **Intervalo de suspensión**: especifique el tiempo en segundos que el proceso esperará antes de iniciar el siguiente lote. Durante este intervalo de tiempo de suspensión, el sistema corrige las referencias hacia y desde los archivos movidos. El intervalo de suspensión predeterminado es de 60 segundos.
+   - **Intervalo de suspensión (segundos)**: especifique el tiempo en segundos que el proceso esperará antes de iniciar el siguiente lote. Durante este intervalo de tiempo de suspensión, el sistema corrige las referencias hacia y desde los archivos movidos. El intervalo de suspensión predeterminado es de 60 segundos.
 
 
    - **Añadir sufijo a carpetas duplicadas**: Si está moviendo carpetas que tienen el mismo nombre, debe seleccionar esta opción. Por ejemplo, en la captura de pantalla anterior, **Ruta de origen** contiene el nombre de las carpetas que se van a mover. La carpeta denominada tema existe en dos ubicaciones diferentes: prueba A y prueba B. Al seleccionar esta opción, las carpetas se moverán correctamente. La primera carpeta que se mueva recibirá el nombre de tema, mientras que la segunda carpeta recibirá el nombre de tema0. La operación de mover agrega un sufijo en la serie secuencial \(0, 1, 2, etc.\) a las carpetas con el mismo nombre.

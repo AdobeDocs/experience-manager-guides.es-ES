@@ -3,9 +3,9 @@ title: Notas de versión | Novedades de la versión de diciembre de 2023 de las 
 description: Conozca las funciones nuevas y mejoradas de la versión de diciembre de 2023 de las guías de Adobe Experience Manager as a Cloud Service.
 feature: What's New
 role: Leader
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -128,13 +128,6 @@ También le permite duplicar una línea de base basada en la etiqueta. La versi�
 *Duplique una línea base basada en una etiqueta o cree una copia exacta.*
 
 Obtenga más información sobre cómo [crear y administrar líneas de base desde el editor web](../user-guide/web-editor-baseline.md).
-
-## Proceso mejorado para la creación de la recopilación de mapas de activación masiva
-
-El proceso de creación de una colección de mapas de activación masiva es ahora más armonioso. Ahora, cuando se muestra la página de resultados de la activación, puede ver los resultados de la activación y los registros.
-Para obtener más información, consulte [Creación de una colección de mapas de activación masiva](../user-guide/conf-bulk-activation-create-map-collection.md).
-
-
 
 ## AEM Resolución de vínculos de mapas cruzados en la salida del sitio de la
 

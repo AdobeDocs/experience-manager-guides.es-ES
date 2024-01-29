@@ -4,9 +4,9 @@ description: AEM Descubra las funciones del editor web en las guías de la. Cono
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '17364'
+source-wordcount: '17861'
 ht-degree: 0%
 
 ---
@@ -228,6 +228,27 @@ Esto evita que los usuarios guarden cualquier archivo que rompa una regla defini
 
   ![](images/editor-setting-translation.png){width="550" align="left"}
 
+- **Metadatos**: Puede controlar los metadatos de versión del tema y sus valores que se mostrarán en la **Historial de versiones** Cuadro de diálogo.  En la ruta de metadatos, especifique la ubicación de los nodos desde los que desea seleccionar los metadatos. También puede definir un nombre personalizado para los metadatos como etiqueta. Las propiedades predeterminadas son Título, Estado del documento y Etiquetas.
+
+  Los metadatos se pueden seleccionar desde cualquier propiedad en `/jcr:content` del recurso, de modo que pueda agregar la ruta de la propiedad como ruta de metadatos.
+
+
+  Se muestra un error si la ruta de metadatos está en blanco. Si deja la etiqueta en blanco, se selecciona el último elemento como etiqueta.
+
+
+
+
+  ![pestaña metadatos en la configuración del editor](images/editor-setting-metadata.png){width="550" align="left"}
+
+  *Configure los metadatos de la **Historial de versiones**Cuadro de diálogo.*
+
+
+
+
+  También puede definir el orden en que se muestran estas etiquetas de metadatos. Para cambiar el orden predeterminado de estas etiquetas, seleccione las barras de puntos para arrastrar y soltar las etiquetas en la ubicación deseada.
+Las etiquetas de metadatos aparecen en la misma secuencia en la **Historial de versiones** del Editor Web.
+
+
 
 **Preferencias de usuario** - ![](images/user_preference_editor_icon.svg)
 
@@ -270,9 +291,16 @@ La barra de herramientas secundaria aparece al abrir un tema para editarlo en el
 
 **Insertar elemento** - ![](images/Add_icon.svg)
 
-Inserta un elemento válido en la ubicación válida actual o siguiente. Si está trabajando dentro de un elemento de bloque como un `note`y, a continuación, utilice el icono Insertar elemento para insertar un nuevo elemento después de `note` Elemento. En la siguiente captura de pantalla, se ha insertado un elemento de nota dentro del elemento p \(párrafo\):
+Inserta un elemento válido en la ubicación válida actual o siguiente. También puede utilizar el método abreviado de teclado ***Alt***+***Entrar*** para abrir la ventana emergente Insertar elemento. Por ejemplo, si está editando un párrafo, en la **Insertar elemento** emergente, aparecerá una lista de elementos que se pueden insertar en el párrafo. Seleccione el elemento que desea insertar. Puede utilizar el teclado para desplazarse por la lista de elementos y pulsar ***Entrar*** para insertar el elemento requerido. También puede escribir un carácter o cadena en el cuadro de búsqueda y buscar los elementos que comienzan con él.
 
-![](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+
+![insertar elemento](images/insert-element.png){width="300" align="left"}
+
+*Escriba &quot;t&quot; para buscar todos los elementos válidos que comiencen por &quot;t&quot;.*
+
+Si está trabajando dentro de un elemento de bloque como un `note`y, a continuación, utilice el icono Insertar elemento para insertar un nuevo elemento después de `note` Elemento. En la siguiente captura de pantalla, se ha insertado un elemento de nota dentro del elemento p \(párrafo\):
+
+![Insertar elemento en un elemento de bloque](images/note-in-para-insert-element_cs.png){width="800" align="left"}
 
 Si pulsa Intro en el elemento de nota, se creará un nuevo párrafo dentro del propio elemento de nota. Para insertar un nuevo elemento fuera de la nota, haga clic en el elemento p \(resaltado en la captura de pantalla\) en la ruta de exploración Elementos y haga clic en el icono Insertar elemento o pulse ***Alt***+***Entrar*** para abrir la ventana emergente Insertar elemento. A continuación, seleccione el elemento deseado y pulse Intro para insertar el elemento seleccionado después del elemento de nota.
 
@@ -282,7 +310,7 @@ También puede añadir un elemento entre dos elementos cuando aparezca un cursor
 
 Por ejemplo, si está trabajando en un tema DITA y el cursor de bloque parpadea entre la descripción breve y el cuerpo, puede añadir `prolog` y, a continuación, agregue copyright, autor y otros detalles.
 
-Otra forma de introducir un nuevo elemento es mediante el menú contextual. Haga clic con el botón derecho en cualquier lugar del documento para invocar el menú contextual. En este menú, seleccione Insertar elemento para mostrar el cuadro de diálogo Insertar elemento y elija el elemento que desea insertar.
+Otra forma de introducir un nuevo elemento es mediante el menú contextual. Haga clic con el botón derecho en cualquier lugar del documento para invocar el menú contextual. En este menú, elija **Insertar elemento** para mostrar el **Insertar elemento** y elija el elemento que desea insertar.
 
 ![](images/insert-element-before-after.png){width="300" align="left"}
 
@@ -297,6 +325,10 @@ Crea una lista numerada en la ubicación válida actual o siguiente. Si está en
 **Insertar/quitar lista con viñetas** - ![](images/BulletList_icon.svg)
 
 Crea una lista con viñetas en la ubicación válida actual o siguiente. Si está en una lista con viñetas y hace clic en este icono, el elemento se convierte en un párrafo normal.
+
+>[!NOTE]
+>
+>También puede seleccionar la variable **Dividir lista** opción del menú contextual de un elemento de lista para dividir la lista actual y comenzar una nueva lista en el mismo nivel.
 
 **Insertar tabla** - ![](images/Table_icon.svg)
 
@@ -640,9 +672,10 @@ Para combinar los cambios en un archivo de asignación, realice los siguientes p
 
 **Historial de versiones** - ![](images/version-history-web-editor-ico.svg)
 
-AEM Guías de proporciona varias formas de ver las versiones creadas para los archivos de tema y también formas de volver a una versión específica. Sin embargo, la mayoría de estas características están disponibles fuera del Editor Web.
 
-La característica Historial de versiones del Editor Web le permite no sólo comprobar las versiones y etiquetas disponibles del tema activo, sino que también le ofrece la flexibilidad de volver a cualquier versión desde el propio editor.
+El **Historial de versiones** Esta función del Editor Web permite comprobar las versiones disponibles de los archivos DITA, compararlas y revertirlas a cualquier versión desde el propio editor.
+
+En el historial de versiones, puede comparar el contenido y los metadatos de la versión actual (que también puede ser una copia de trabajo) con cualquier versión anterior del mismo archivo. También puede ver las etiquetas y los comentarios de las versiones comparadas.
 
 Para acceder al historial de versiones y volver a una versión específica del tema, realice los siguientes pasos:
 
@@ -650,19 +683,39 @@ Para acceder al historial de versiones y volver a una versión específica del t
 
 1. Clic **Historial de versiones**.
 
-   Aparecerá el cuadro de diálogo Historial de versiones.
+   El **Historial de versiones** aparece el cuadro de diálogo.
 
-   ![](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   ![Cuadro de diálogo Historial de versiones](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   *Previsualizar los cambios en las distintas versiones de un tema.*
 
-1. Elija una versión del tema a la que desee volver en la **Seleccionar versión** lista desplegable.
+1. Elija una versión del tema que desee comparar o revertir en la **Comparar con** lista desplegable.
 
    >[!NOTE]
    >
    > Si una versión tiene etiquetas aplicadas, también se muestran \(entre corchetes\) junto con el número de versión.
 
-   Una vez que elija una versión en la lista desplegable, estará disponible la opción Revertir a la versión seleccionada. La ventana de vista previa muestra las diferencias entre la versión actual y la seleccionada del tema.
 
-   ![](images/version-history-revert-diff-dialog-web-editor.png){width="550" align="left"}
+
+1. Activar **Ver etiquetas y comentarios** para ver las etiquetas y los comentarios aplicados a las versiones actual y comparada.
+
+1. También puede ver la siguiente información en la **Historial de versiones** Cuadro de diálogo:
+
+   **Previsualizar** pestaña: El contenido recién añadido está en fuente verde y el contenido eliminado está en fuente roja.
+
+   **Metadatos** pestaña: Los metadatos recién añadidos están en fuente verde y los metadatos eliminados están en fuente roja.
+   ![Diferencia de metadatos para versiones ](images/metadata-version-diff.png){width="550" align="left"}
+   *Comparar los metadatos de distintas versiones en el historial de versiones.*
+
+   >[!NOTE]
+   >
+   > El administrador del sistema puede cambiar los metadatos que se muestran desde la pestaña Metadatos en Configuración del editor.
+
+   También puede ver los detalles de usuario y hora de la versión actual y la comparada.
+
+
+
+1. Una vez que elija una versión en la lista desplegable, la variable **Opción Revertir a la versión seleccionada** está disponible. La ventana de vista previa muestra las diferencias entre la versión actual y la seleccionada del tema.
+
 
 1. Clic **Revertir a la versión seleccionada** para revertir la copia de trabajo con la versión seleccionada del tema.
 
@@ -670,14 +723,14 @@ Para acceder al historial de versiones y volver a una versión específica del t
 
    ![](images/version-history-revert-dialog-save-working-copy.png){width="550" align="left"}
 
-1. \(*Opcional*\) Proporcione una razón para volver a una versión anterior. También puede crear una nueva versión de la copia de trabajo activa del tema.
+1. \(*Opcional*\) Proporcione un motivo para volver a una versión anterior. También puede crear una nueva versión de la copia de trabajo activa del tema.
 
 1. Clic **Confirme.**
 
-   La copia de trabajo del archivo se revierte a la versión seleccionada. Si elige crear una nueva versión de la copia de trabajo activa, también se creará una nueva versión del fichero con todos los cambios de trabajo.
+   La copia de trabajo del archivo se revierte a la versión seleccionada. Si decide crear una nueva versión de la copia de trabajo activa, también se creará una nueva versión del fichero con todos los cambios de trabajo.
 
 
-Al volver a una versión anterior, se muestra una señal visual que indica que la versión en la que está trabajando actualmente no es la más reciente.
+Al volver a una versión anterior, se muestra una señal visual que indica que la versión en la que está trabajando no es la más reciente.
 
 ![](images/older-version-visual-cue.png){width="800" align="left"}
 
@@ -875,7 +928,7 @@ Puede realizar las siguientes acciones mediante el menú Opciones disponible par
 
 Verá distintas opciones en el menú Opciones en función de si selecciona un fichero de medios o un fichero DITA. Algunas opciones comunes disponibles para los archivos multimedia y DITA son las siguientes:
 
-- Duplicar
+- Duplicado
 - Cierre de compra/Registro de entrada
 - Vista previa
 - Mover a
@@ -1107,14 +1160,17 @@ Puede realizar las siguientes acciones mediante el menú Opciones del archivo de
 - **Abrir tablero de mapas**: abra el panel de mapas.
 
 - **Ver en la IU de Assets**: utilice esta opción para mostrar una previsualización del archivo de asignación en la interfaz de usuario de Assets. En esta vista, todos los archivos de tema del mapa se muestran en una sola vista página a página unificada.
-- **Descargar mapa**: seleccione esta opción para abrir **Descargar mapa** diálogo.
-En el **Descargar mapa** , puede elegir las siguientes opciones:
+- **Descargar mapa**: seleccione esta opción para abrir **Descargar mapa** Cuadro de diálogo.
+En el **Descargar mapa** , puede elegir las opciones siguientes:
    - **Usar línea base**: seleccione esta opción para obtener una lista de las líneas base creadas para el mapa DITA. Si desea descargar el archivo de asignación y su contenido en función de una Línea base específica, seleccione la Línea base en la lista desplegable. Para obtener más información sobre cómo trabajar con líneas de base, consulte [Trabajar con Línea base](./generate-output-use-baseline-for-publishing.md).
    - **Acoplar jerarquía de archivos**: seleccione esta opción para guardar todos los temas a los que se hace referencia y los archivos multimedia en una sola carpeta.
 
   También puede descargar el archivo de asignación sin seleccionar ninguna opción. En ese caso, se descargan las últimas versiones persistentes de los temas a los que se hace referencia y los archivos multimedia.
 
-  Después de hacer clic en **Descargar** botón, la solicitud de descarga de mapa se pone en cola. Recibirá la notificación de mapa listo para descarga si el mapa está listo para descargarse. En caso de que la descarga falle, recibirá la notificación de que la descarga del mapa ha fallado
+
+  Después de hacer clic en **Descargar** botón, la solicitud del paquete de exportación de asignación se pone en cola. El **Correcto** se muestra si el paquete se ha creado correctamente.  Puede hacer clic en **Descargar** del menú contextual **Correcto** Cuadro de diálogo.
+
+  Recibirá la notificación de mapa listo para descarga si el mapa está listo para descargarse. En caso de que la descarga falle, recibirá la notificación de que la descarga del mapa ha fallado.
 
   AEM Puede acceder al vínculo de descarga desde la bandeja de entrada de notificaciones de la. Seleccione la notificación de asignación generada en la bandeja de entrada para descargar la asignación en formato .zip.
 
@@ -1801,7 +1857,9 @@ Si el administrador ha creado un perfil para atributos, obtendrá esos atributos
 
 **Propiedades de archivo** -  ![](images/topic-properties-icon.svg)
 
-Vea las propiedades del archivo seleccionado haciendo clic en el icono Propiedades del archivo en el panel derecho. Las Propiedades del archivo tienen las dos secciones siguientes:
+Vea las propiedades del archivo seleccionado haciendo clic en Propiedades del archivo ![](images/topic-properties-icon.svg) en el panel derecho. La función Propiedades del archivo está disponible en los cuatro modos o vistas siguientes: Diseño, Autor, Origen y Vista previa.
+
+Las Propiedades del archivo tienen las dos secciones siguientes:
 
 **General**
 

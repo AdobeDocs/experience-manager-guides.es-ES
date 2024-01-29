@@ -4,10 +4,10 @@ description: Aprenda a crear ajustes preestablecidos personalizados desde el edi
 exl-id: 1bb14411-ec94-4960-92ba-3b2ff7a29932
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 2%
+source-wordcount: '937'
+ht-degree: 1%
 
 ---
 
@@ -38,7 +38,7 @@ El **General** La pestaña contiene las siguientes configuraciones:
 La pestaña Advanced contiene las siguientes configuraciones:
 
 - Limpiar archivos temporales DITA-OT
-- Propiedades
+- Propiedades de archivo
 
 Para obtener más información, consulte [Configuración personalizada](#id231KJA00REJ).
 
@@ -53,7 +53,7 @@ Las siguientes opciones están disponibles para el ajuste preestablecido de sali
 | Opciones de salida personalizadas | Descripción |
 | --- | --- |
 | Tipo de salida | El tipo de salida que desea generar. Para generar resultados mediante el complemento DITA-OT personalizado, elija la opción Personalizado. |
-| Nombre de la configuración | Asigne un nombre descriptivo a la configuración de salida que está creando. Por ejemplo, puede especificar _Salida de clientes internos_ o _salida de usuarios finales_. |
+| Nombre de configuración | Asigne un nombre descriptivo a la configuración de salida que está creando. Por ejemplo, puede especificar _Salida de clientes internos_ o _salida de usuarios finales_. |
 | Argumentos de línea de comandos DITA-OT | Especifique los argumentos adicionales que desea que DITA-OT procese durante la generación de resultados. Para obtener más información acerca de los argumentos de línea de comandos admitidos en DITA-OT, consulte [Documentación de DITA-OT](https://www.dita-ot.org/). |
 | Nombre de transformación | Especifique el tipo de salida que desea generar. Esto es necesario si desea generar resultados con su propio complemento personalizado, que está integrado en el complemento DITA-OT. Por ejemplo, si desea generar una salida XHTML, especifique `xhtml`. Para obtener una lista de las transformaciones disponibles en DITA-OT, consulte [Transformaciones DITA-OT (formatos de salida)](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html) en la Guía del usuario de OASIS DITA-OT. |
 | Nombre de archivo | Especifique el nombre de archivo con el que desea guardar la salida.<br><br>**Nota**: si no se proporciona un nombre de fichero, se utilizará el título del mapa DITA para generar el nombre final del fichero de salida. Si el mapa no tiene título, se utilizará el nombre de fichero del mapa DITA para asignar el nombre a la salida final. El nombre del archivo se sanea utilizando las reglas configuradas en el sistema para gestionar cualquier carácter no válido. |
@@ -62,6 +62,6 @@ Las siguientes opciones están disponibles para el ajuste preestablecido de sali
 | Limpiar archivos temporales DITA-OT | Seleccione esta opción para limpiar los archivos temporales generados por DITA-OT. La ubicación donde DITA-OT almacena los archivos temporales se encuentra en el registro de generación de salida.<br><br>Si se producen errores al generar la salida mediante DITA-OT, se puede anular la selección de esta opción para conservar los ficheros temporales. A continuación, puede utilizar esos archivos para solucionar errores de generación de resultados. |
 | Ejecutar flujo de trabajo posterior a generación | AEM Al elegir esta opción, se muestra una nueva lista desplegable Flujo de trabajo de generación de publicaciones que contiene todos los flujos de trabajo configurados en el flujo de trabajo de creación de flujos de trabajo de creación de flujos de trabajo de la. Debe seleccionar un flujo de trabajo que desee ejecutar después de completar el flujo de trabajo de generación de resultados.<br><br>**Nota**: para obtener más información sobre la creación de un flujo de trabajo de generación posterior a la salida personalizado, consulte _Personalizar flujo de trabajo de generación posterior a la salida_ en Instalar y configurar las guías de Adobe Experience Manager as a Cloud Service. |
 | Usar línea base | Si ha creado una Línea base para el mapa DITA seleccionado, seleccione esta opción para especificar la versión que desea publicar.<br><br>Consulte [Trabajar con línea base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obtener más información. |
-| Propiedades | Seleccione las propiedades que desee procesar como metadatos. Estas propiedades se definen desde la página Propiedades del fichero de mapa DITA o de mapa de libros. Las propiedades que seleccione en la lista desplegable aparecerán en la **Propiedades** field. Seleccione el icono en forma de cruz situado junto a la propiedad para eliminarla. <br><br>**Nota**: también puede pasar los metadatos a la salida mediante la publicación DITA-OT. Para obtener más información, consulte [Pasar los metadatos a la salida utilizando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
+| Propiedades de archivo | Seleccione las propiedades que desee procesar como metadatos. Estas propiedades se definen desde la página Propiedades del fichero de mapa DITA o de mapa de libros. Las propiedades que seleccione en la lista desplegable aparecerán en la **Propiedades de archivo** field. Seleccione el icono en forma de cruz situado junto a la propiedad para eliminarla. <br><br>**Nota**: también puede pasar los metadatos a la salida mediante la publicación DITA-OT. Para obtener más información, consulte [Pasar los metadatos a la salida utilizando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 **Tema principal:**[ Explicación de los ajustes preestablecidos de salida](generate-output-understand-presets.md)

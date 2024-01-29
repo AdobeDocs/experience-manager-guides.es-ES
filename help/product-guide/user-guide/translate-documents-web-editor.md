@@ -4,9 +4,9 @@ description: Traduzca el contenido a varios idiomas desde el editor web. AEM Obt
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: '1925'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ Antes de realizar los pasos de este procedimiento, asegúrese de haber creado la
 ## Crear un proyecto de traducción
 
 1. En el panel Repositorio, abra el fichero de mapa DITA en la vista de mapa.
-1. Haga clic en **Administrar** pestaña. El panel Traducción muestra el título de hipervínculo del mapa DITA junto con el **Idiomas** lista.
-1. Desde el **Idiomas** , seleccione la configuración regional a la que desea traducir el proyecto. Puede seleccionar **Todo** para traducir el proyecto a todos los idiomas disponibles.
+1. Haga clic en **Administrar** pestaña. El panel Traducción muestra el **Idiomas disponibles** lista.
+1. Desde el **Idiomas disponibles** , seleccione la configuración regional a la que desea traducir el proyecto. Puede elegir **Seleccionar todo** para traducir el proyecto a todos los idiomas disponibles.
 
    >[!NOTE]
    >
@@ -46,11 +46,13 @@ Antes de realizar los pasos de este procedimiento, asegúrese de haber creado la
 
    >[!IMPORTANT]
    >
-   > Idioma muestra solo aquellos idiomas para los que se crea una carpeta de idioma paralela al idioma de origen. Tampoco se muestra una carpeta de idioma creada en cualquier otro nivel, como un nivel por debajo de la carpeta de idioma de origen. Asegúrese de crear todas las carpetas de idioma de destino en el mismo nivel que la carpeta de idioma de origen.
+   > La lista muestra solo los idiomas para los que se crea una carpeta de idioma paralela al idioma de origen. Tampoco se muestra una carpeta de idioma creada en cualquier otro nivel, como un nivel por debajo de la carpeta de idioma de origen. Asegúrese de crear todas las carpetas de idioma de destino en el mismo nivel que la carpeta de idioma de origen.
 
-   ![](images/translation-languages.png){width="350" align="left"}
+   ![](images/translation-languages.png){width="300" align="left"}
 
-1. También puede utilizar las siguientes opciones:
+1. También puede seleccionar una de las siguientes opciones para traducir el proyecto:
+
+   **Ninguno** Seleccione esta opción para traducir las versiones predeterminadas de los archivos. Esta opción está seleccionada de forma predeterminada.
 
    **Usar línea base:** Puede seleccionar una línea de base para traducir el proyecto. Haga clic en Utilizar línea base y seleccione una línea base creada en el mapa. Todos los archivos que forman parte de la Línea base seleccionada se muestran en la página Traducción. Una vez traducido el contenido, puede exportar la línea de base traducida. Para obtener más información sobre la exportación de la instantánea traducida, consulte [Exportar línea base traducida](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
@@ -146,7 +148,7 @@ Por ejemplo, si tiene algunos archivos de origen con la etiqueta de versión `Re
 
 AEM Guías de proporciona la función para comprobar las diferencias entre la versión seleccionada y la última versión de origen traducida de los temas. Puede elegir traducir el **Fuera de sincronización** archivos en función de los cambios realizados.
 
-![](images/translation-version-diff.png){width="800" align="left"}
+![](images/translation-version-diff.png){width="650" align="left"}
 
 Seleccione el **Mostrar diferencia** icon \(![](images/show-difference-icon.svg)\) para ver las diferencias entre la última versión traducida y la versión actual del archivo seleccionado.
 
