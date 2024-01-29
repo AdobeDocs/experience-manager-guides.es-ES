@@ -1,9 +1,9 @@
 ---
 title: Notas de versión | Novedades de la versión 4.4.0 de las guías de Adobe Experience Manager
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 4.4.0 de las guías de Adobe Experience Manager
-source-git-commit: ca86700d033ad8eb7cdba917f010f3aa71113a19
+source-git-commit: 027e8e6a6119145a5b2255449514a76488c90463
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -177,6 +177,7 @@ Las guías del Experience Manager AEM le permiten, como administrador, configura
 
 Experience Manager proporciona la función para crear líneas base seleccionando automáticamente los temas según la etiqueta aplicada a ellos. Ahora, también puede publicar sin problemas varios ajustes preestablecidos de salida con líneas de base automáticas del mismo mapa DITA. No es necesario publicar solo un ajuste preestablecido a la vez, pero es fácil publicar varios ajustes preestablecidos de salida en paralelo.
 
+Obtenga más información sobre cómo [crear y administrar líneas de base desde el editor web](../user-guide/web-editor-baseline.md).
 
 ## Mejoras del PDF nativo
 
