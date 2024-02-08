@@ -4,7 +4,7 @@ description: Obtenga información acerca de la activación masiva del contenido 
 exl-id: 3643ecab-b5c1-41ea-8b7b-1470ead63aec
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 5dac015816317ee9739c7c3678541592a7145e89
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Activación masiva de contenido publicado {#id214GG080LE8}
 
-AEM AEM En un escenario de palabras reales, los autores tendrían acceso a la instancia de creación de la publicación mientras que el contenido real se publicaría en la instancia de publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación. Las instancias de publicación se podrían implementar aún más en diferentes ubicaciones geográficas. La salida publicada debe moverse a estos servidores de publicación a través de diferentes procesos. El proceso de mover contenido de la instancia de creación a la instancia de publicación se denomina activación o replicación de contenido.
+AEM AEM En una situación real, los autores tendrían acceso a la instancia de creación de la publicación mientras que el contenido real se publicaría en la instancia de publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación de la publicación en el sitio web. Las instancias de publicación se podrían implementar aún más en diferentes ubicaciones geográficas. La salida publicada debe moverse a estos servidores de publicación a través de diferentes procesos. El proceso de mover contenido de la instancia de creación a la instancia de publicación se denomina activación o replicación de contenido.
 
 >[!NOTE]
 >
