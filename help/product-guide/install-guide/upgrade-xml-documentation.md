@@ -5,7 +5,7 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
 workflow-type: tm+mt
 source-wordcount: '5744'
 ht-degree: 0%
@@ -237,7 +237,7 @@ Después de instalar las guías del Experience Manager, puede combinar las disti
    - ui\_config.json\(puede haberse configurado en perfiles de carpeta\)
    - enmendado `com.adobe.fmdita.config.ConfigManager`
    - Compruebe si alguno de los códigos personalizados estaba utilizando rutas antiguas \(como se menciona en la [Asignación de migración](#id2244LE040XA) section\): debe actualizarse a las nuevas rutas para que las personalizaciones también funcionen según lo esperado.
-1. Obtenga información acerca de las nuevas configuraciones incluidas en la versión actual \(comprobar [Notas de versión](../release-info/release-notes-4.3.md)\) y compruebe si alguna funcionalidad se ve afectada y, a continuación, tome las medidas adecuadas. Un ejemplo podría ser utilizar el &quot;Control de archivos y versiones mejorado&quot; introducido en la versión 4.0, para el cual necesita habilitar una configuración.
+1. Obtenga información acerca de las nuevas configuraciones incluidas en la versión actual \(comprobar [Notas de versión](../release-info/release-notes-4-3.md)\) y compruebe si alguna funcionalidad se ve afectada y, a continuación, tome las medidas adecuadas. Un ejemplo podría ser utilizar el &quot;Control de archivos y versiones mejorado&quot; introducido en la versión 4.0, para el cual necesita habilitar una configuración.
 
 ## Pasos para indexar el contenido existente y utilizar la nueva función de buscar y reemplazar:
 
@@ -452,7 +452,7 @@ Después de instalar las guías del Experience Manager, puede combinar las disti
    - ui\_config.json\(puede haberse configurado en perfiles de carpeta\)
    - enmendado `com.adobe.fmdita.config.ConfigManager`
    - Compruebe si alguno de los códigos personalizados estaba utilizando rutas antiguas \(como se menciona en la [Asignación de migración](#id2244LE040XA) section\): debe actualizarse a las nuevas rutas para que las personalizaciones también funcionen según lo esperado.
-1. Obtenga información acerca de las nuevas configuraciones incluidas en la versión actual \(comprobar [Notas de versión](../release-info/release-notes-4.2.1.md)\) y compruebe si alguna funcionalidad se ve afectada y, a continuación, tome las medidas adecuadas. Un ejemplo podría ser utilizar el &quot;Control de archivos y versiones mejorado&quot; introducido en la versión 4.0, para el cual necesita habilitar una configuración.
+1. Obtenga información acerca de las nuevas configuraciones incluidas en la versión actual \(comprobar [Notas de versión](../release-info/release-notes-4-2-1.md)\) y compruebe si alguna funcionalidad se ve afectada y, a continuación, tome las medidas adecuadas. Un ejemplo podría ser utilizar el &quot;Control de archivos y versiones mejorado&quot; introducido en la versión 4.0, para el cual necesita habilitar una configuración.
 
 ## Pasos para indexar el contenido existente y utilizar la nueva función de buscar y reemplazar:
 
