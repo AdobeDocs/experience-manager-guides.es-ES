@@ -4,9 +4,9 @@ description: AEM Configuración del entorno de trabajo para la publicación de P
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
 feature: Native PDF Output
 role: User, Admin
-source-git-commit: a41fed965ed9fe33994478d51030eefdad1037de
+source-git-commit: 1baed01b2e573d79d4baaa6a551966ce59449136
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -181,12 +181,6 @@ Si el problema persiste incluso después de corregir la configuración del entor
 
 Valide el valor de la propiedad timeout para el nodo nodejs en /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs en el repositorio CRX. El valor predeterminado es 300.
 
-### Error al extraer la excepción de dependencia (cadena demasiado larga)
-![Excepción de cadena demasiado larga](..//assets/publishing/string-too-long-error.png)
-
-Para solucionar esta excepción:
-1. Elimine algunos estilos que no sean necesarios para reducirlos.
-2. Cree varias hojas de estilo en lugar de una sola css grande.
 
 
 AEM Si encuentra algún problema al realizar cualquiera de los pasos anteriores, publique su pregunta en la Comunidad de guías de la comunidad de la comunidad de la [foro](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) para obtener asistencia.
