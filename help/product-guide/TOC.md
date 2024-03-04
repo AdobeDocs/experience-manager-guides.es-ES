@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: 03335bcff4987d486e3b1650c5ad6954dbb4c23a
+source-git-commit: 8fc1a5232bcc9049b16def8d629ab45a278a2c8f
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 4%
+source-wordcount: '1711'
+ht-degree: 5%
 
 ---
 
@@ -21,31 +21,31 @@ ht-degree: 4%
          - [Instrucciones de implementación](./release-info/deploy-xml-on-aemaacs.md)
          - Versiones de 2023 {#2023-releases}
             - Versión de diciembre {#2312-release}
-               - [¿Qué hay de nuevo?](./release-info/whats-new-2023-12-0.md)
+               - [Novedades](./release-info/whats-new-2023-12-0.md)
                - [Notas de la versión](./release-info/release-notes-2023-12-0.md)
             - Versión de noviembre {#2311-release}
-               - [¿Qué hay de nuevo?](./release-info/whats-new-2023-11-0.md)
+               - [Novedades](./release-info/whats-new-2023-11-0.md)
                - [Notas de la versión](./release-info/release-notes-2023-11-0.md)
             - Versión de octubre {#2310-release}
-               - [¿Qué hay de nuevo?](./release-info/whats-new-2023-10-0.md)
+               - [Novedades](./release-info/whats-new-2023-10-0.md)
                - [Notas de la versión](./release-info/release-notes-2023-10-0.md)
             - Versión de septiembre {#2309-release}
-               - [¿Qué hay de nuevo?](./release-info/whats-new-2023-9-0.md)
+               - [Novedades](./release-info/whats-new-2023-9-0.md)
                - [Notas de la versión](./release-info/release-notes-2023-9-0.md)
             - Versión de julio {#2307-release}
-               - [¿Qué hay de nuevo?](./release-info/whats-new-2023-7-0.md)
+               - [Novedades](./release-info/whats-new-2023-7-0.md)
                - [Notas de la versión](./release-info/release-notes-2023-7-0.md)
             - Versión de junio {#2306-release}
-               - [¿Qué hay de nuevo?](./release-info/whats-new-2023-6-0.md)
+               - [Novedades](./release-info/whats-new-2023-6-0.md)
                - [Notas de la versión](./release-info/release-notes-2023-6-0.md)
             - Versión de abril {#2304-release}
-               - [¿Qué hay de nuevo?](./release-info/whats-new-2023-4-0.md)
+               - [Novedades](./release-info/whats-new-2023-4-0.md)
                - [Notas de la versión](./release-info/release-notes-2023-4-0.md)
             - Versión de marzo {#2303-release}
-               - [¿Qué hay de nuevo?](./release-info/whats-new-2023-3-0.md)
+               - [Novedades](./release-info/whats-new-2023-3-0.md)
                - [Notas de la versión](./release-info/release-notes-2023-3-0.md)
             - Versión de febrero {#2302-release}
-               - [¿Qué hay de nuevo?](./release-info/whats-new-2023-2-0.md)
+               - [Novedades](./release-info/whats-new-2023-2-0.md)
                - [Notas de la versión](./release-info/release-notes-2023-2-0.md)
          - Versiones de 2022 {#2022-releases}
             - [Notas de la versión de noviembre](./release-info/release-notes-2022-11-0.md)
@@ -387,6 +387,7 @@ ht-degree: 4%
       - [Aprender a publicar PDF nativos - Manos en el laboratorio - BYOS](./knowledge-base/expert-sessions/native-pdf-publishing-hands-on-lab-sep2023.md)
       - [AEM Esquema de extensión de las guías de la](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
       - [Integración de origen de datos externo](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
+      - [Traducir contenido en las guías: parte 2](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
    - Artículos {#kb-articles}
       - Creación {#authoring}
          - Informes {#reports}
