@@ -4,9 +4,9 @@ description: Obtenga información acerca de las correcciones de errores y cómo 
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
 feature: Release Notes
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Para obtener más información sobre las nuevas funciones y mejoras, consulte [N
 ## Actualice a la versión 4.3.1 de las guías del Experience Manager
 
 
-Puede actualizar fácilmente su versión actual de Guides a la versión 4.3.1. Antes de continuar con la actualización a la versión 4.3.1 de las Guías del Experience Manager, debe tener en cuenta los siguientes puntos: Puede actualizar la versión actual de las Guías del Experience Manager a la versión 4.3.1
+Puede actualizar fácilmente su versión actual de las Guías del Experience Manager a la versión 4.3.1. Antes de continuar con la actualización a la versión 4.3.1 de las Guías del Experience Manager, debe tener en cuenta los siguientes puntos: Puede actualizar la versión actual de las Guías del Experience Manager a la versión 4.3.1
 
 
 - Si utiliza las versiones 4.3.0, 4.2 o 4.2.1, puede actualizar directamente a la versión 4.3.1.

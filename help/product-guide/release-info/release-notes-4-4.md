@@ -1,9 +1,9 @@
 ---
 title: Notas de versión | Instrucciones de actualización y problemas corregidos en la versión 4.4.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las correcciones de errores y cómo actualizar a la versión 4.4.0 de las guías de Adobe Experience Manager
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '1808'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,14 @@ Para obtener más información sobre las nuevas funciones y mejoras, consulte [N
 ## Actualización a la versión 4.4.0 de las guías del Experience Manager
 
 
-Puede actualizar fácilmente su versión actual de Guides a la versión 4.4.0. Antes de continuar actualizando a la versión 4.4.0 de las Guías del Experience Manager, debe tener en cuenta los siguientes puntos:
+Puede actualizar fácilmente su versión actual de las Guías del Experience Manager a la versión 4.4.0. Antes de continuar actualizando a la versión 4.4.0 de las Guías del Experience Manager, debe tener en cuenta los siguientes puntos:
 
 
 - Si utiliza las versiones 4.3.1, 4.3.0 o 4.2.1 (revisión 4.2.1.3), puede actualizar directamente a la versión 4.4.0.
 - Si utiliza las versiones 4.2, 4.1 o 4.1.x, debe actualizar a las versiones 4.3.1, 4.3.0 o 4.2.1 (revisión 4.2.1.3) antes de actualizar a la versión 4.4.0.
 - Si utiliza la versión 4.0, debe actualizar a la versión 4.2 antes de actualizar a la versión 4.3.x.
 - Si utiliza la versión 3.8.5, debe actualizar a la versión 4.0 antes de actualizar a la versión 4.2.
-- Si su versión es anterior a la 3.8.5, consulte la sección Guías del Experience Manager de actualización en la guía de instalación específica del producto.
+- Si su versión es anterior a la 3.8.5, consulte la sección Actualizar guías del Experience Manager en la guía de instalación específica del producto disponible en [Archivo del PDF de ayuda de Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 

@@ -1,28 +1,29 @@
 ---
 title: Descargar e instalar
-description: Descubra cómo descargar e instalar
+description: Obtenga información sobre cómo descargar e instalar
 exl-id: 6387dd19-1bd1-4ce8-9428-968a6b838fbb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 0%
+source-wordcount: '73'
+ht-degree: 8%
 
 ---
 
 # Descargar e instalar {#id1645E0O04MK}
 
-AEM Las guías de la aplicación están disponibles a través del repositorio de GitHub. AEM Puede descargar las guías de la desde el repositorio de GitHub e instalarlo.
+A partir de la versión 2024.2.0, las guías del Experience Manager solo están disponibles como complemento automatizado para Experience Manager as a Cloud Service.
+
+Si utiliza diciembre de 2023 o versiones anteriores, puede descargar las guías de Adobe Experience Manager desde el repositorio de GitHub e instalarlo.
+
 
 - **[AEM Implementar módulo de guías de](download-install-dxml-first-time.md)**
 
 - **[Configurar Dispatcher](download-install-configure-dispatcher.md)**
 
 - **[AEM Verificar la instalación de guías de](download-install-verify-dxml-installation.md)**
-
-- **[AEM Guías de actualización](download-install-upgrade-dxml.md)**
 
 - **[Anulaciones de configuración](download-install-additional-config-override.md)**
 

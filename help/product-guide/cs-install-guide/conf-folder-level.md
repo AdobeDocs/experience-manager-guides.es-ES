@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '3967'
+source-wordcount: '4285'
 ht-degree: 0%
 
 ---
@@ -405,6 +405,43 @@ Si ha actualizado un ajuste preestablecido de salida existente o desea que un nu
 
 1. Clic **OK** para aplicar los cambios de los ajustes preestablecidos de salida seleccionados en todas las asignaciones DITA existentes.
 
+
+
+## Configuración de sugerencias inteligentes con tecnología de IA en el editor web {#conf-ai-smart-suggestions}
+
+Para ![AEM nube de ](assets/aem-cloud-icon.svg) Guías del Experience Manager as a Cloud Service .
+
+Puede configurar las sugerencias inteligentes con tecnología de IA y ayudar a los autores a reutilizar el contenido existente y crear fácilmente referencias de contenido correctas y coherentes. El **Configuración de IA** permite controlar la configuración del panel Sugerencias inteligentes en el Editor web.
+
+Realice los siguientes pasos para configurar la IA estándar en el perfil global o de nivel de carpeta:
+1. Inicie sesión en Adobe Experience Manager como administrador o usuario con derechos administrativos en un perfil de nivel de carpeta.
+1. Seleccione el **Adobe Experience Manager** en la parte superior y elija **Herramientas**.
+1. Seleccionar **Guías** en la lista de herramientas y seleccione las **Perfiles de carpeta** mosaico.
+1. Seleccione el mosaico de perfil que desea configurar.
+
+   >[!NOTE]
+   >
+   >Puede configurar Sugerencias inteligentes basadas en IA para el perfil global o de nivel de carpeta.
+
+1. En la página de perfil, seleccione **Configuración de IA** pestaña.
+   ![Pestaña Configuración de IA en el perfil global](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
+
+1. Clic **Editar**.
+1. Como administrador, puede configurar las siguientes opciones:
+
+   **Caracteres mínimos**: introduzca el número mínimo de caracteres que los autores deben escribir para obtener las sugerencias. Por ejemplo, si este número es 7, el autor debe agregar al menos 7 caracteres para ver una sugerencia inteligente.
+
+   **Máximo de sugerencias**: introduzca el número máximo de sugerencias que pueden obtener los autores al crear el contenido. Por ejemplo, si este número es 5, el autor puede ver cinco sugerencias inteligentes o menos.
+
+   **Archivos y carpetas**: seleccione los archivos o carpetas desde los que se deben mostrar las sugerencias inteligentes. *Para mantener la coherencia del contenido, se recomienda que ninguna de las dos entradas de la lista tenga archivos comunes entre ellas*. Una vez seleccionados los archivos y carpetas, se muestran.
+
+1. Haga clic en **Guardar**.
+
+   >[!NOTE]
+   >
+   > Los detalles del último estado indexado se muestran en la parte superior después de guardar el archivo.
+
+Más información sobre cómo ver y agregar [Sugerencias inteligentes basadas en IA](../user-guide/authoring-ai-based-smart-suggestions.md) para agregar referencias de contenido durante la creación en el Editor web.
 
 ## Configurar y personalizar el Editor Web XML {#id2065G300O5Z}
 

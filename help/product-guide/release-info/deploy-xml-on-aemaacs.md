@@ -1,35 +1,28 @@
 ---
-title: Cómo agregar [!DNL AEM Guides] a su [!DNL AEM as a Cloud Service] entorno
+title: Cómo agregar [!DNL Experience Manager Guides] a su [!DNL Experience Manager as a Cloud Service] entorno
 description: Aprenda a añadir [!DNL AEM Guides] a su [!DNL AEM as a Cloud Service] entorno
 exl-id: a1e020c2-360c-4d71-b5fd-8179d9ceacda
 feature: Installation
 role: Leader
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
 
-# [!DNL AEM Guides] implementación as a Cloud Service
+# [!DNL Adobe Experience Manager Guides] implementación as a Cloud Service
 
-Aprenda a añadir [!DNL Guides] a su [!DNL AEM as a Cloud Service] entorno.
+Aprenda a añadir [!DNL Experience Manager Guides] a su [!DNL Experience Manager as a Cloud Service] entorno.
 
-## Implementación manual mediante la canalización de Git de Cloud Manager
 
-Si ha comprado [!DNL AEM Guides] as a Cloud Service antes del 29 de marzo de 2022, siga estas instrucciones de implementación:
-
-* Si comienza con nuevo, puede reemplazar el código generado automáticamente por [!UICONTROL Cloud Manager] con el código del siguiente repositorio que ya tiene integrado el complemento XML: https://github.com/Adobe-TCS/XML-documentation-for-AEMaaCS
-
-* Si ya ha protegido las personalizaciones en [!UICONTROL Cloud Manager] Para obtener las instrucciones sobre cómo añadir el complemento XML en el código existente, consulte el siguiente repositorio de Git: https://github.com/Adobe-TCS/DoX-Installer-for-AEMaaCS
-
-## Implementación mediante Cloud Manager
-
-Si es un cliente de que ha comprado [!DNL AEM Guides] as a Cloud Service el 29/03/2022 o posteriormente, siga estas instrucciones para agregar [!DNL Guides] a su [!DNL AEM as a Cloud Service] entorno:
+>[!NOTE]
+>
+> A partir de la versión 2024.2.0, las guías del Experience Manager solo están disponibles como complemento automatizado para Experience Manager as a Cloud Service. Si utiliza implementaciones manuales para las guías del Experience Manager, elimine la línea `<module>dox.installer</module> from file dox/pom.xml` en la nube, administre el código base de Git antes de habilitar las guías del Experience Manager para su programa.
 
 1. Inicie sesión en [!UICONTROL Cloud Manager].
 
-1. Edite el programa para el que desea configurar [!DNL AEM Guides].
+1. Edite el programa para el que desea configurar [!DNL Experience Manager Guides].
 
 1. Cambiar a **[!UICONTROL Soluciones y complementos]** pestaña.
 
@@ -37,10 +30,10 @@ Si es un cliente de que ha comprado [!DNL AEM Guides] as a Cloud Service el 29/0
 
 1. Seleccionar **[!UICONTROL Guías]** y seleccione **[!UICONTROL Guardar]**.
 
-AEM Ha configurado correctamente su programa para el aprovisionamiento automático de la solución Guías de la aplicación de forma automática.
+Ha configurado correctamente su programa para el aprovisionamiento automático de la solución Guías de Experience Manager.
 
-![AEM Configuración de la solución Guides](assets/addon-configuration.png)
+![Configuración de la solución Guías del Experience Manager](assets/addon-configuration.png)
 
 >[!NOTE]
 >
->Para instalar [!DNL AEM Guides] en cualquier entorno bajo el programa integrado, debe ejecutar la canalización asociada al entorno. No se requiere ninguna configuración adicional en la base de código Git de CM para la instalación [!DNL AEM Guides].
+>Para instalar [!DNL Experience Manager Guides] en cualquier entorno bajo el programa integrado, debe ejecutar la canalización asociada al entorno. No se requiere ninguna configuración adicional en la base de código Git de CM para la instalación [!DNL Experience Manager Guides].
