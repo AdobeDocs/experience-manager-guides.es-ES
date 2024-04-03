@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: 46fae421d3fb3bedaa2841c29d7d20f539bdf793
+source-git-commit: fa6486d7a1ca392742968fc4adad3e3910a91903
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1749'
 ht-degree: 6%
 
 ---
@@ -171,7 +171,7 @@ ht-degree: 6%
          - [Base de conocimiento](./user-guide/generate-output-knowledge-base.md)
          - [HTML5](./user-guide/generate-output-html5.md)
          - [EPUB](./user-guide/generate-output-epub.md)
-         - [Personalizado](./user-guide/generate-output-custom.md)
+         - [Personalizada](./user-guide/generate-output-custom.md)
          - [JSON](./user-guide/generate-output-json.md)
       - [Utilice variables para establecer las opciones Ruta de destino, Nombre del sitio o Nombre de archivo](./user-guide/generate-output-use-variables.md)
       - [Crear, editar, duplicar o quitar un ajuste preestablecido de salida](./user-guide/generate-output-create-edit-preset.md)
@@ -435,6 +435,9 @@ ht-degree: 6%
                - [Personalización](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
       - Publicación {#publishing}
          - [AEM Configuración del entorno para la publicación nativa de PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+
+         - [Generación de la tabla de contenido de Bookmap en la publicación nativa de PDF](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+
          - [FMPS y guías](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Arquitectura y rendimiento de microservicios](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [Configuración de la publicación basada en microservicios](./knowledge-base/publishing/configure-microservices.md)
