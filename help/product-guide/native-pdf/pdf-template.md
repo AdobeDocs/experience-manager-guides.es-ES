@@ -5,7 +5,7 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: e3fcfeb94c77ee9e499425608048fc882eaa293b
+source-git-commit: 7790aa9dce9a586b8b422dc6deeecab3d53aca8d
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Puede crear plantillas de PDF personalizadas con diseños de página específico
 Para crear una nueva plantilla de PDF, realice los siguientes pasos:
 
 1. En el Editor Web, vaya a **Output** pestaña.
-1. Seleccionar **Plantillas** <img src="./assets/template.svg" alt= "icono de plantillas" width="25"> en el panel izquierdo.
+1. Seleccionar **Plantillas** ![icono de plantillas](./assets/template.svg) en el panel izquierdo.
 
    <img src="assets/create-pdf-template.png" alt="Crear plantilla de PDF" width="400">
 
