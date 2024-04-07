@@ -2,10 +2,12 @@
 title: Publicación de índices (tabla de contenido) mediante PDF nativo
 description: Publicar una tabla de contenido y otra lista de libros para su mapa de datos con NativePDF
 feature: Native PDF Output
+author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: 6ccaef5d35d492fe8dbe0f8b52af8d11258f3d2a
+exl-id: c551f0a8-f973-4c5a-bd34-f52890a91342
+source-git-commit: 7638f3634ad45bbadda64ec6e3f706cbb65d696c
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -36,6 +38,31 @@ La especificación DITA permite colocar el índice y las listas de libros dentro
       <indexlist/>
     </booklists>
   </backmatter>
+```
+
+Estructura de muestra del bookmap con el TOC , la lista de figuras y la lista de tablas en el frontmatter y la lista de índices en el backmatter.
+
+```
+<bookmap>
+  <title>My Bookmap Title </title>
+  <frontmatter>
+    <booklists>
+      <toc/>
+      <figurelist/>
+      <tablelist/>
+    </booklists>
+  </frontmatter>
+
+  <chapter href="chapter1.ditamap">
+  <chapter href="chapter2.ditamap">
+  </chapter>
+
+  <backmatter>
+    <booklists>
+      <indexlist/>
+    </booklists>
+  </backmatter>
+</bookmap>
 ```
 
 El índice y las listas de libros se generan automáticamente en función de la estructura definida en el mapa de libros.
@@ -71,6 +98,7 @@ Si publica Ditamap, el PDF nativo proporciona la funcionalidad para generar TDC 
 <br>
 <br>
 
-AEM Publica tus preguntas en la Comunidad de Guías de la [foro](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) para cualquier consulta.
+AEM Publicación en la comunidad de Guías de [foro](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) para cualquier consulta.
+
 
 
