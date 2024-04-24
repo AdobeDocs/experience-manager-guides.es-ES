@@ -2,7 +2,7 @@
 title: Configuración de las sugerencias inteligentes para la creación
 description: Obtenga información sobre cómo configurar las sugerencias inteligentes para la creación
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: b2042431e96f2cbd90eea9c8cfcdb3e7033e26bb
+source-git-commit: d3e0c475ebd50a2664ea45c293d34b3a10772633
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 1%
@@ -34,7 +34,9 @@ Realice los siguientes pasos para crear configuraciones de IMS en la consola de 
    *Agregue la API de administración de E/S a su proyecto.*
 
 1. Crear un nuevo **Credencial de OAuth** y guárdelo.
-   ![Mosaico de credenciales de OAuth en la API de configuración](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
+
+   ![Mosaico de credenciales de OAuth en la API de configuración](assets/conf-ss-OAuth-credential.png)
+
    *Configure las credenciales de OAuth en la API.*
 
 1. En el  **Proyectos** pestaña, elija **Servidor OAuth a servidor** y, a continuación, seleccione las credenciales recién creadas.
