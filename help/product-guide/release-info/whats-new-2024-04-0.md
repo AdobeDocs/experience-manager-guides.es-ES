@@ -1,7 +1,7 @@
 ---
 title: Notas de versión | Novedades de la versión 2024.4.0 de las guías de Adobe Experience Manager
 description: Conozca las funciones nuevas y mejoradas de la versión 2024.4.0 de Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 9a0d2886012bd1695387a93984ccac5127384db3
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '1806'
 ht-degree: 0%
@@ -223,3 +223,4 @@ Las credenciales de la cuenta de servicio (JWT) se han quedado obsoletas en favo
 
 
 El servicio de publicación en la nube para guías del Experience Manager ahora está protegido por la autenticación basada en OAuth de IMS de Adobe. Obtenga información sobre cómo [configurar la publicación basada en microservicios con autenticación OAuth](../knowledge-base/publishing/configure-microservices-imt-config.md).
+

@@ -4,7 +4,7 @@ description: AEM Descubra las funciones del editor web en las guías de la. Cono
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 43bdcba4642c9d75585bc571acf0cb0da22a5f4c
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '18678'
 ht-degree: 0%
@@ -231,7 +231,7 @@ Esto evita que los usuarios guarden cualquier archivo que rompa una regla defini
       1. Introduzca el nombre del grupo de idiomas. Cada idioma debe tener un nombre único. Puede ver un error si el campo de nombre está vacío o si el nombre no es único.
       1. Seleccione los idiomas en la lista desplegable. Puede seleccionar varios idiomas.
 
-     Escriba los primeros caracteres del idioma o el código de idioma para filtrar los idiomas deseados. Por ejemplo, escriba &quot;en&quot; para filtrar todos los idiomas que contienen &quot;en&quot; al principio de su nombre o código.
+     Escriba los primeros caracteres del idioma o el código de idioma para filtrar los idiomas deseados. Por ejemplo, escriba &#39;en&#39; para filtrar todos los idiomas que contienen &#39;en&#39; al principio de su nombre o código.
       1. Seleccionar **Listo** para agregar los idiomas seleccionados al grupo. Se muestran los idiomas. Cuando se agregan tres o más idiomas, **Mostrar más** muestra. Puede seleccionar **Mostrar más** para ver todos los idiomas presentes en el grupo.
          >[!TIP]
          >
@@ -342,7 +342,7 @@ También puede escribir un carácter o cadena en el cuadro de búsqueda y buscar
 
 ![insertar elemento](images/insert-element.png){width="300" align="left"}
 
-*Escriba &quot;t&quot; para buscar todos los elementos válidos que comiencen por &quot;t&quot;.*
+*Escriba &#39;t&#39; para buscar todos los elementos válidos que comiencen por &#39;t&#39;.*
 
 Si está trabajando dentro de un elemento de bloque como un `note`y, a continuación, utilice el icono Insertar elemento para insertar un nuevo elemento después de `note` Elemento. En la siguiente captura de pantalla, se ha insertado un elemento de nota dentro del elemento p \(párrafo\):
 
@@ -2014,3 +2014,4 @@ Con la función Cambios rastreados del panel derecho, puede ver la información 
 > La función Cambios rastreados muestra todas las actualizaciones de las que se ha realizado un seguimiento mediante la función Habilitar/Deshabilitar el seguimiento de cambios de la barra de herramientas principal. Para obtener más información, consulte [Habilitar/deshabilitar el seguimiento de cambios](#id205DF0203Y4).
 
 **Tema principal:**[ Trabajar con el editor web](web-editor.md)
+
