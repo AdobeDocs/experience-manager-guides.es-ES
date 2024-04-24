@@ -4,7 +4,7 @@ description: AEM Descubra las funciones del editor web en las guías de la. Cono
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+source-git-commit: 1b338bb702267640bc3f5b5de4b00051979b562f
 workflow-type: tm+mt
 source-wordcount: '18678'
 ht-degree: 0%
@@ -233,6 +233,7 @@ Esto evita que los usuarios guarden cualquier archivo que rompa una regla defini
 
      Escriba los primeros caracteres del idioma o el código de idioma para filtrar los idiomas deseados. Por ejemplo, escriba &#39;en&#39; para filtrar todos los idiomas que contienen &#39;en&#39; al principio de su nombre o código.
       1. Seleccionar **Listo** para agregar los idiomas seleccionados al grupo. Se muestran los idiomas. Cuando se agregan tres o más idiomas, **Mostrar más** muestra. Puede seleccionar **Mostrar más** para ver todos los idiomas presentes en el grupo.
+
          >[!TIP]
          >
          > Alternar **Mostrar más** hasta **Mostrar menos** y ver solo algunos idiomas.
@@ -303,6 +304,7 @@ Las preferencias de usuario están disponibles para todos los autores. Con las p
   ![pestaña apariencia de las preferencias de usuario](images/user_preference_editor_appearance.png){width="550" align="left"}
 
    - **Ver archivos por**: seleccione la forma predeterminada de ver los archivos en el Editor web. Puede ver la lista de archivos por títulos o nombres de archivo desde los distintos paneles del **Autor** vista.
+
      >[!NOTE]
      >
      > De forma predeterminada, los archivos se muestran por título en el Editor Web.
@@ -846,7 +848,9 @@ El panel izquierdo le permite acceder a las siguientes funciones:
 **Favoritos** -  ![](images/favorite-collections.svg)
 
 Si trabaja en un conjunto de archivos o carpetas, puede agregarlos a su lista de favoritos para acceder a ellos rápidamente. La lista Favoritos muestra la lista de documentos que ha agregado y otra lista de documentos favoritos de otros usuarios a la que se puede acceder públicamente.
+
 De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón por encima de un archivo, puede ver el título y la ruta del archivo como información sobre herramientas.
+
 >[!NOTE]
 >
 > Como administrador, también puede elegir ver la lista de archivos por nombres de archivo en el Editor Web. Seleccione el **Nombre de archivo** de la opción **Ver archivos por** sección en **Preferencias de usuario** ![](images/user_preference_editor_icon.svg).
@@ -878,6 +882,7 @@ Para agregar un archivo a su colección favorita, utilice cualquiera de los sigu
 También puede realizar muchas acciones utilizando el menú Opciones disponible para una colección Favoritos:
 
 ![](images/favorites-options.png){width="400" align="left"}
+
 - **Cambiar nombre**: cambie el nombre de la colección seleccionada.
 - **Eliminar**: elimine la colección seleccionada.
 - **Actualizar**: obtenga una nueva lista de archivos y carpetas del repositorio.
@@ -965,11 +970,12 @@ Esto está sincronizado con el cuadro de búsqueda de la ventana del repositorio
 
 
 - Seleccione el **Cerrar filtro** ![icono de cerrar](images/close-icon.svg) para cerrar el filtro y volver a la vista de árbol del repositorio.
+
   >[!NOTE]
   >
   >El administrador del sistema también puede configurar los filtros de texto y mostrar u ocultar otros filtros. Para obtener más información, consulte *Configuración de filtros de texto* de la sección Instalar y configurar las guías de Adobe Experience Manager as a Cloud Service.
-
-  Se muestra la lista de archivos filtrados que contienen el texto buscado. Por ejemplo, los archivos que contienen el texto `general purpose` aparecen en la captura de pantalla anterior. Puede seleccionar varios archivos de la lista filtrada para arrastrarlos y soltarlos en un mapa abierto para editarlos.
+  >
+  >Se muestra la lista de archivos filtrados que contienen el texto buscado. Por ejemplo, los archivos que contienen el texto `general purpose` aparecen en la captura de pantalla anterior. Puede seleccionar varios archivos de la lista filtrada para arrastrarlos y soltarlos en un mapa abierto para editarlos.
 
 
 
@@ -1067,6 +1073,7 @@ Las distintas opciones del menú Opciones se explican a continuación:
   ![](images/rename-move-asset.png){width="550" align="left"}
 
   >[!NOTE]
+  >
   > También puede arrastrar y soltar un archivo en otra carpeta de destino.
 
   **Escenarios de exclusión**
@@ -1078,6 +1085,7 @@ Las distintas opciones del menú Opciones se explican a continuación:
    - Si algún otro usuario desprotege el archivo, no puede cambiarle el nombre ni moverlo, no verá la opción Cambiar nombre o Mover a para el archivo.
 
   >[!NOTE]
+  >
   > Si el administrador le ha concedido los permisos sobre una carpeta, solo entonces la variable **Cambiar nombre** o **Mover a** se muestran las opciones de.
 
   <details>
@@ -1206,6 +1214,7 @@ Introduzca una **Título** para la carpeta, que se convierte automáticamente en
 Al hacer clic en el icono Vista de mapa, se obtiene una lista de temas dentro del archivo de mapa. Si no ha abierto ningún fichero de mapa, la vista de mapa aparecerá en blanco. Al hacer doble clic en cualquier fichero de mapa, se abre el fichero de mapa en esta vista. Puede hacer doble clic en cualquier archivo del mapa para abrirlo en el Editor Web.
 
 De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón por encima de un archivo, puede ver el título y la ruta del archivo como información sobre herramientas.
+
 >[!NOTE]
 >
 >Como administrador, también puede elegir ver el nombre de archivo del mapa principal que está abierto actualmente en la vista de mapa. Seleccione el **Nombre de archivo** de la opción **Ver archivos por** sección en **Preferencias de usuario** ![](images/user_preference_editor_icon.svg).
@@ -1255,12 +1264,13 @@ Puede realizar las siguientes acciones mediante el menú Opciones del archivo de
 
 - **Ver en la IU de Assets**: utilice esta opción para mostrar una previsualización del archivo de asignación en la interfaz de usuario de Assets. En esta vista, todos los archivos de tema del mapa se muestran en una sola vista página a página unificada.
 - **Descargar mapa**: seleccione esta opción para abrir **Descargar mapa** Cuadro de diálogo.
+
 En el **Descargar mapa** , puede elegir las opciones siguientes:
-   - **Usar línea base**: seleccione esta opción para obtener una lista de las líneas base creadas para el mapa DITA. Si desea descargar el archivo de asignación y su contenido en función de una Línea base específica, seleccione la Línea base en la lista desplegable. Para obtener más información sobre cómo trabajar con líneas de base, consulte [Trabajar con Línea base](./generate-output-use-baseline-for-publishing.md).
-   - **Acoplar jerarquía de archivos**: seleccione esta opción para guardar todos los temas a los que se hace referencia y los archivos multimedia en una sola carpeta.
+
+- **Usar línea base**: seleccione esta opción para obtener una lista de las líneas base creadas para el mapa DITA. Si desea descargar el archivo de asignación y su contenido en función de una Línea base específica, seleccione la Línea base en la lista desplegable. Para obtener más información sobre cómo trabajar con líneas de base, consulte [Trabajar con Línea base](./generate-output-use-baseline-for-publishing.md).
+- **Acoplar jerarquía de archivos**: seleccione esta opción para guardar todos los temas a los que se hace referencia y los archivos multimedia en una sola carpeta.
 
   También puede descargar el archivo de asignación sin seleccionar ninguna opción. En ese caso, se descargan las últimas versiones persistentes de los temas a los que se hace referencia y los archivos multimedia.
-
 
   Después de hacer clic en **Descargar** botón, la solicitud del paquete de exportación de asignación se pone en cola. El **Correcto** se muestra si el paquete se ha creado correctamente.  Puede hacer clic en **Descargar** del menú contextual **Correcto** Cuadro de diálogo.
 
@@ -1387,6 +1397,7 @@ Una de las características principales de DITA es la capacidad de reutilizar co
 Puede simplemente arrastrar y soltar contenido reutilizable del panel en el tema actual y se insertará de forma fácil y rápida. También puede obtener una vista previa del contenido antes de insertarlo en el documento.
 
 De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón por encima de un archivo, puede ver el título y la ruta del archivo como información sobre herramientas.
+
 >[!NOTE]
 >
 > Como administrador, también puede elegir ver la lista de archivos por nombres de archivo en el Editor Web. Seleccione el **Nombre de archivo** de la opción **Ver archivos por** sección en **Preferencias de usuario** ![](images/user_preference_editor_icon.svg).
@@ -1770,7 +1781,9 @@ Con el menú Opciones de una plantilla existente, puede elegir **Editar** o **Du
 **Revisar** -  ![](images/active-review-tasklist-icon.svg)
 
 AEM Guías de revisión proporciona la característica para mostrar todas las tareas de revisión de los proyectos. Puede ver todos los proyectos de revisión y las tareas de revisión activas dentro de los proyectos de revisión de los que forma parte desde el **Revisar** panel.  A continuación, puede abrir las tareas de revisión para ver los comentarios de los distintos revisores.
+
 El panel de revisión muestra las tareas de revisión. De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón por encima de un archivo, puede ver el título y la ruta del archivo como información sobre herramientas.
+
 >[!NOTE]
 >
 > Como administrador, también puede elegir ver la lista de archivos por nombres de archivo en el Editor Web. Seleccione el **Nombre de archivo** de la opción **Ver archivos por** sección en **Preferencias de usuario** ![](images/user_preference_editor_icon.svg).
@@ -1805,6 +1818,7 @@ Para ver los comentarios de revisión de las tareas de revisión activas que est
    >[!NOTE]
    > 
    > El **Revisar** y el panel **Comentarios** los paneles están sincronizados en todo momento. En el panel Comentarios, los comentarios se cargan en función de la tarea de revisión cargada en el panel Revisar.
+   >
    > Para obtener más información sobre cómo abordar los comentarios, consulte [Comentarios de revisión de direcciones](review-address-review-comments.md#).
 
 **Buscar y reemplazar** -  ![](images/FindAndReplace_icon.svg)
@@ -1814,6 +1828,7 @@ El icono Buscar y reemplazar se encuentra en la parte inferior del panel izquier
 ![](images/map-find-replace.png){width="800" align="left"}
 
 De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón por encima de un archivo, puede ver el título y la ruta del archivo como información sobre herramientas.
+
 >[!NOTE]
 >
 > Como administrador, también puede elegir ver la lista de nombres de archivo en el Editor Web. Seleccione el **Nombre de archivo** de la opción **Ver archivos por** sección en **Preferencias de usuario** ![](images/user_preference_editor_icon.svg).
@@ -1822,6 +1837,7 @@ Para realizar la búsqueda y el reemplazo globales, realice los siguientes pasos
 
 1. Abra el global **Buscar y reemplazar** panel.
 1. Haga clic en **Buscar en** desplegable seleccione una de las siguientes opciones para realizar la búsqueda.
+
    - **Mapa actual**: para buscar en el mapa abierto actualmente
 
      >[!NOTE]
@@ -1875,9 +1891,7 @@ Para realizar la búsqueda y el reemplazo globales, realice los siguientes pasos
 
 1. Pulse Intro o seleccione **Buscar** icon \( ![](images/search-icon.svg)\) para realizar la búsqueda.
 1. Seleccione un archivo de la lista de resultados de la búsqueda. El archivo se abre en el área de edición de contenido con el término buscado resaltado en el contenido.
-
 1. Clic **Reemplazar una sola incidencia** \( ![](images/replace-icon.svg)\) para reemplazar el término de búsqueda resaltado actualmente en el tema o haga clic en Siguiente coincidencia ![](images/next-match-in-search.png) o ![](images/previous-match-in-search.png) Coincidencia anterior para desplazarse a la siguiente o anterior aparición del texto.
-
 1. Clic **Reemplazar todo en el archivo** \( ![](images/replace-all-in-file-icon.svg)\) para reemplazar todas las apariciones del término buscado en un solo archivo con el término de reemplazo con un solo clic. Se mostrará una notificación después de reemplazar todas las ocurrencias en el archivo seleccionado.
 
    >[!NOTE]
@@ -1904,6 +1918,7 @@ También puede utilizar la variable **Buscar en el mapa** de la opción **Opcion
 El área de edición de contenido es donde se muestra el contenido del tema o mapa. Puede realizar todas las ediciones de contenido en esta área. Proporciona una vista WYSIWYG del contenido que está editando. Puede tener varios temas abiertos al mismo tiempo, que se muestran en sus respectivas pestañas.
 
 De forma predeterminada, puede ver los títulos de los archivos en las pestañas. Al pasar el ratón por encima de un archivo, puede ver el título y la ruta del archivo como información sobre herramientas.
+
 >[!NOTE]
 >
 > Como administrador, también puede elegir ver la lista de archivos por nombres de archivo en las pestañas. Seleccione el **Nombre de archivo** de la opción **Ver archivos por** sección en **Preferencias de usuario** ![](images/user_preference_editor_icon.svg).
@@ -1985,6 +2000,7 @@ La sección Referencias le permite acceder a las siguientes funciones:
 - **Vínculos de salida:** Los vínculos de salida enumeran los documentos a los que se hace referencia en el documento actual.
 
 De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón por encima de un archivo, puede ver el título y la ruta del archivo como información sobre herramientas.
+
 >[!NOTE]
 >
 > Como administrador, también puede elegir ver la lista de archivos por nombres de archivo en el Editor Web. Seleccione el **Nombre de archivo** de la opción **Ver archivos por** sección en **Preferencias de usuario** ![](images/user_preference_editor_icon.svg).
@@ -2014,4 +2030,3 @@ Con la función Cambios rastreados del panel derecho, puede ver la información 
 > La función Cambios rastreados muestra todas las actualizaciones de las que se ha realizado un seguimiento mediante la función Habilitar/Deshabilitar el seguimiento de cambios de la barra de herramientas principal. Para obtener más información, consulte [Habilitar/deshabilitar el seguimiento de cambios](#id205DF0203Y4).
 
 **Tema principal:**[ Trabajar con el editor web](web-editor.md)
-
