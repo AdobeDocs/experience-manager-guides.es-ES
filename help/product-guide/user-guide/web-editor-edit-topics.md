@@ -4,9 +4,9 @@ description: Aprenda a editar temas en el editor web. AEM Obtenga información a
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 05848b381999bf00d480b618ccb604c1798cc5dd
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -35,23 +35,34 @@ El Editor Web incluye una serie de características de edición que permiten cre
    >
    > AEM Si no desea confirmar los cambios en el repositorio de la, haga clic en **Cerrar** y haga clic en **Cerrar sin guardar** en el cuadro de diálogo Cambios no guardados.
 
-   **Actualizar el explorador mientras edita los archivos**
+## Actualizar el explorador mientras edita los archivos
+
 Las Guías del Experience Manager proporcionan la compatibilidad para actualizar el explorador mientras edita el contenido en el Editor Web. Esta función le ayuda a seguir editando contenido en caso de que encuentre un error de aplicación mientras trabaja. Si pulsa el botón de actualización del explorador mientras se abren uno o más archivos con cambios no guardados para su edición, se le advertirá de que se pueden perder los cambios no guardados. Tiene la opción de cancelar la operación de actualización y guardar los archivos para conservar los cambios.
 
-   Incluso al actualizar el explorador, las vistas de los paneles izquierdo y derecho se conservan en el editor web. Guías del Experience Manager restaura el último estado guardado de los archivos abiertos en el Editor Web al actualizar el explorador. Por ejemplo, los archivos abiertos en el panel Repositorio se vuelven a abrir. El panel Mapa se conserva junto con el mapa abierto anteriormente.
+Incluso al actualizar el explorador, las vistas de los paneles izquierdo y derecho se conservan en el editor web. Guías del Experience Manager restaura el último estado guardado de los archivos abiertos en el Editor Web al actualizar el explorador. Por ejemplo, los archivos abiertos en el panel Repositorio se vuelven a abrir. El panel Mapa se conserva junto con el mapa abierto anteriormente.
 
-   El tema activo o el mapa DITA se vuelve a abrir en el área de edición de contenido.
+El tema activo o el mapa DITA se vuelve a abrir en el área de edición de contenido.
 
-   El panel derecho también se vuelve a abrir y muestra la misma vista que antes de la actualización.
+El panel derecho también se vuelve a abrir y muestra la misma vista que antes de la actualización.
 
-   **Indicador de copia de trabajo**
+## Indicador de copia de trabajo
+
 AEM Guías de trabajo proporciona el indicador de copia de trabajo que muestra si la \(copia de trabajo\) actual del archivo está sincronizada con la versión guardada o no. Si ha realizado cambios en la copia actual y no ha guardado el archivo, aparecerá una marca \* junto con el título en la ficha de archivo del tema. Este indicador actúa como un recordatorio para guardar los cambios y desaparece al guardar el archivo.
 
-   ![](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![indicador de copia de trabajo](images/working-copy-text-update-indicator.png){width="550" align="left"}
 
-   AEM Guías también indica si la última copia \(de trabajo\) guardada del archivo está sincronizada con la versión guardada o no. Si hay cambios sin guardar entre la copia de trabajo y la última versión guardada, aparecerá una marca \* junto con la información de la versión que se muestra en la esquina superior derecha de la ficha del archivo del tema. Este indicador sirve como recordatorio para guardar y crear una versión a partir de la copia \(de trabajo\) actual del archivo.
+AEM Guías también indica si la última copia \(de trabajo\) guardada del archivo está sincronizada con la versión guardada o no. Si hay cambios sin guardar entre la copia de trabajo y la última versión guardada, aparecerá una marca \* junto con la información de la versión que se muestra en la esquina superior derecha de la ficha del archivo del tema. Este indicador sirve como recordatorio para guardar y crear una versión a partir de la copia \(de trabajo\) actual del archivo.
 
-   ![](images/version-update-indicator.png){width="550" align="left"}
+![Indicador de actualización de versión](images/version-update-indicator.png){width="550" align="left"}
+
+
+
+
+## Busque un archivo abierto en la Vista de repositorio
+
+Mientras se abre un archivo en el Editor Web, las Guías del Experience Manager proporcionan la función para buscar el archivo en la Vista Repositorio. Por ejemplo, localiza el tema actual mientras lo está editando.
+
+Puede desactivar la función para localizar el archivo con la variable **Buscar siempre archivos en el repositorio** de la opción **Aspecto** de la pestaña **Preferencias de usuario**.
 
 
 **Tema principal:**[ Trabajar con el editor web](web-editor.md)

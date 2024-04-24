@@ -4,10 +4,10 @@ description: AEM Activar la salida de mapas DITA en Guías de. Obtenga informaci
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 66d22560d40012a7475026ed44cec7bf301c1a97
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 2%
+source-wordcount: '444'
+ht-degree: 1%
 
 ---
 
@@ -27,14 +27,62 @@ Una vez creada una colección de mapas para la activación masiva, el siguiente 
 
    ![](images/bulk-activation-collection-open.png){width="800" align="left"}
 
-1. \(*Opcional*\) Aplique los filtros necesarios del carril izquierdo para filtrar el mapa en función de su \(estado\), ajuste preestablecido de salida o idioma modificado:
-1. Realice una de las siguientes acciones:
+1. \(*Opcional*\) Aplique los filtros necesarios del carril izquierdo para filtrar el mapa en función de su \(estado\), ajuste preestablecido de salida o idioma modificado.
 
-   - Para activar la salida de las asignaciones seleccionadas, seleccione los archivos de asignación y haga clic en **Publicación rápida**.
-   - Para activar la salida de todas las asignaciones DITA con sus ajustes preestablecidos configurados, active la casilla de verificación situada junto a la \(columna\) Mapa y, a continuación, haga clic en **Publicación rápida.**
-     ![](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+   >[!NOTE]
+   >
+   >Genere la salida para el mapa utilizando el ajuste preestablecido de salida antes de activarlos en la colección de mapas.
 
 
-Una vez activada la salida para los archivos de mapa seleccionados, la columna Publicado se actualiza con la fecha y la hora actuales.
+Vea las diferentes formas de activar la colección en función de su configuración.
 
-**Tema principal:**[ Activación masiva de contenido publicado](conf-bulk-activation.md)
+<details>
+<summary> Cloud Services </summary>
+
+![bulk-collection-publish en cloud service](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+
+Puede activar el resultado en **Previsualizar** o **Publish** instancias.
+
+**Vista previa**
+
+* Para activar la salida de los mapas seleccionados, seleccione la salida de mapa pregenerada y seleccione **Publicar en** > **Previsualizar**.
+* Para activar la salida de todos los mapas DITA con sus ajustes preestablecidos configurados, seleccione la casilla de verificación situada junto a la **Mapa** y, a continuación, seleccione **Publicar en** > **Publish**.
+
+
+**Publish**
+
+* Para activar la salida de los mapas seleccionados, seleccione la salida de mapa pregenerada y seleccione **Publicar en** > **Publish**.
+
+* Para activar la salida de todos los mapas DITA con sus ajustes preestablecidos configurados, seleccione la casilla de verificación situada junto al mapa (columna) y, a continuación, seleccione **Publicar en** > **Publish**.
+
+
+>[!NOTE]
+> 
+> La casilla de verificación para una salida de mapa solo está activada si se ha generado la salida para un mapa.
+
+Se muestra un mensaje de éxito cuando el resultado del mapa está en la cola para su publicación.
+
+Una vez que se activa la salida para los archivos de mapa seleccionados, se actualiza la pestaña Historial de auditoría y aparece la última salida activada en la parte superior. El **Publicado** se actualiza con la fecha y hora de publicación.
+
+</details>
+
+<details>    
+<summary>  Software On-Premise </summary>
+
+
+Realice una de las siguientes acciones:
+
+* Para activar la salida de los mapas seleccionados, seleccione la salida de mapa pregenerada y seleccione **Publicación rápida**.
+* Para activar la salida de todos los mapas DITA con sus ajustes preestablecidos configurados, seleccione la casilla de verificación situada junto al mapa (columna) y, a continuación, seleccione **Publicación rápida.**
+  ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+
+  >[!NOTE]
+  > 
+  >La casilla de verificación para una salida de mapa solo está activada si se ha generado la salida para un mapa.
+
+
+Se muestra un mensaje de éxito cuando el resultado del mapa está en la cola para su publicación.
+
+Una vez que se activa la salida para los archivos de mapa seleccionados, se actualiza la pestaña Historial de auditoría y aparece la última salida activada en la parte superior. El **Publicado** se actualiza con la fecha y hora de publicación.
+
+**Tema principal: **[Activación masiva de contenido publicado](conf-bulk-activation.md)

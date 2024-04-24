@@ -4,9 +4,9 @@ description: AEM Aprenda a trabajar con el editor de mapas avanzado en Guías de
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6201434d3dd8336bf9fe1bce6368d5dbb9c56162
 workflow-type: tm+mt
-source-wordcount: '3695'
+source-wordcount: '3788'
 ht-degree: 0%
 
 ---
@@ -340,7 +340,12 @@ Para editar temas a través de un mapa DITA, realice los siguientes pasos:
 
      Puede elegir guardar todos los temas seleccionados o anular la selección de los temas que no desee guardar.
 
-   - Puede incorporar el tema mediante las opciones **Guardar como nueva versión y desbloquear** botón. Al guardar una revisión del tema, se crea una nueva revisión y también se libera el bloqueo.
+   - Puede incorporar el tema mediante las opciones **Guardar como nueva versión y desbloquear** botón. Al guardar una versión del tema, se crea una nueva versión y también se libera el bloqueo.
+
+     Se recomienda guardar los cambios antes de proteger los archivos.  Al guardar los cambios, se valida el archivo XML.
+
+   - También puede seleccionar y registrar varios temas con la variable **Guardar como nueva versión y desbloquear** botón. Al guardar una versión de los temas, se crea una nueva versión para cada tema y también se libera el bloqueo. También puede ver el progreso de protección de los temas desde el **Guardar como nueva versión y desbloquear** Cuadro de diálogo. Cuando se registran los archivos, aparece un mensaje de éxito.
+
    - Si el administrador ha activado la opción de proteger archivos al cerrar, se le mostrará un mensaje para guardar los archivos cada vez que se cierren los archivos desprotegidos. Con esta opción habilitada, al cerrar el editor con archivos modificados, se muestra la lista de archivos desprotegidos que deben guardarse. Los archivos retirados se muestran con un icono de bloqueo:
 
      ![](images/save-on-close.PNG){width="550" align="left"}

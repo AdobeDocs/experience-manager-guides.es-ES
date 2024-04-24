@@ -4,9 +4,9 @@ description: AEM Utilice los datos de su fuente de datos en las guías de la. Ap
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 2e5bf87b65cca6b522fcb97db1f40f98f020927a
 workflow-type: tm+mt
-source-wordcount: '2066'
+source-wordcount: '2389'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,11 @@ ht-degree: 0%
 
 A **fuente de datos** es un sistema en el que se almacenan y administran los datos de su organización. Estos son los sistemas de registro como JIRA, bases de datos SQL, PIM o PLM. AEM Guías de proporciona la función para conectarse con la fuente de datos y utilizar los datos de ellas.
 
+También puede conectarse a archivos de datos JSON mediante un conector de archivo. Cargue el archivo JSON desde el equipo o navegue desde los recursos de Adobe Experience Manager. A continuación, cree fragmentos de contenido o temas utilizando los generadores.
+
 ## Panel Fuentes de datos
 
-Seleccionar **Fuentes de datos** ![](images/data-source-icon.svg) en el panel izquierdo para ver las fuentes de datos conectadas. El panel Fuentes de datos se abre y muestra todas las fuentes de datos conectadas.
+Seleccionar **Fuentes de datos** ![fuente de datos](images/data-source-icon.svg) en el panel izquierdo para ver las fuentes de datos conectadas. El panel Fuentes de datos se abre y muestra todas las fuentes de datos conectadas.
 
 En función de la configuración, el administrador puede configurar un conector de fuente de datos:
 
@@ -80,11 +82,23 @@ Realice los siguientes pasos para crear un fragmento de contenido mediante el ge
 1. Seleccione una fuente de datos para ver los generadores de fragmentos de contenido disponibles para la fuente de datos seleccionada.
 
    ![](images/code-snippet-generator.png){width="300" align="left"}
+
    *El panel Fuentes de datos enumera los generadores de fragmentos de contenido disponibles.*
 
 1. Seleccionar **Añadir** para agregar un nuevo generador de fragmentos de contenido. El **Añadir generador de fragmentos de contenido** se abre el panel.
 
-1. Introduzca la consulta en el cuadro de texto Consulta de datos.
+1. Introduzca la consulta en **Consulta de datos** cuadro de texto.  Seleccionar **Copiar consulta de muestra** para copiar rápidamente una consulta de datos. En lugar de crear manualmente la consulta, puede copiar y pegar la consulta de ejemplo en el **Consulta de datos** cuadro de texto. A continuación, simplemente edite la consulta según sus necesidades de datos.
+
+   >[!NOTE]
+   >
+   >Experience Manager proporciona diferentes consultas de muestra para todos los recursos en los distintos orígenes de datos. Estos se asignan a la fuente de datos desde la que se recuperan los datos.
+
+1. Si utiliza un conector de archivos, puede cargar el archivo JSON desde el equipo o examinar un archivo JSON desde los recursos de Adobe Experience Manager.
+
+   >[!NOTE]
+   >
+   > Verá las opciones para cargar o examinar archivos en lugar de una consulta de datos si utiliza un conector de archivo.
+
 1. Seleccione la plantilla que se asigna a la fuente de datos desde el **Plantilla de asignación de datos** desplegable.
 Las plantillas listas para usar del origen de datos seleccionado se muestran en la lista desplegable. Por ejemplo, puede ver la plantilla &quot;sql-table&quot; para la fuente de datos denominada &quot;PostgreSQL&quot;.
 
@@ -93,6 +107,12 @@ Las plantillas listas para usar del origen de datos seleccionado se muestran en 
    > Si el administrador ha configurado plantillas personalizadas, también se le mostrarán esas plantillas en la lista desplegable (según las configuraciones de ruta de plantilla realizadas por el administrador).
    >   
    >También puede utilizar las herramientas de Velocity en las plantillas. Obtenga más información sobre cómo [usar las herramientas de Velocity](#use-velocity-tools).
+
+1. El **Recurso** aparece el menú desplegable para algunos conectores como REST Client, Salsify, Akeneo y Microsoft ADO.  Seleccione cualquier recurso del menú desplegable y conéctese a él para crear un fragmento de contenido o un tema con el generador.
+
+   >[!NOTE]
+   >
+   > El administrador puede configurar los recursos predeterminados o agregar recursos para varias direcciones URL al configurar los conectores de origen de datos.
 
 1. Clic **Buscar** para recuperar los datos del origen de datos y aplicar la plantilla a los datos resultantes de la consulta SQL.
 
@@ -144,6 +164,8 @@ El generador de temas puede crear los temas que contienen los datos y un mapa DI
 
 
 
+
+
 ### Crear un tema
 
 Realice los siguientes pasos para crear un tema con el generador de temas:
@@ -166,7 +188,18 @@ Realice los siguientes pasos para crear un tema con el generador de temas:
 
    *Agregue los detalles Consulta de datos, Plantilla de asignación de datos y Nodo raíz para el generador de temas y asígnele un nombre único en el panel Recuperar configuración.*
 
-   1. Introduzca la consulta en **Consulta de datos** cuadro de texto.
+   1. Introduzca la consulta en **Consulta de datos** cuadro de texto. Seleccionar **Copiar consulta de muestra** para copiar rápidamente una consulta de datos. En lugar de crear manualmente la consulta, puede copiar y pegar la consulta de ejemplo en el **Consulta de datos** cuadro de texto. A continuación, simplemente edite la consulta según sus necesidades de datos.
+
+      >[!NOTE]
+      >
+      >Experience Manager proporciona diferentes consultas de muestra para todos los recursos en los distintos orígenes de datos. Estos se asignan a la fuente de datos desde la que se recuperan los datos.
+
+   1. Si utiliza un conector de archivos, puede cargar el archivo JSON desde el equipo o examinar un archivo JSON desde los recursos de Adobe Experience Manager.
+
+      >[!NOTE]
+      >
+      > Verá las opciones para cargar o examinar archivos en lugar de una consulta de datos si utiliza un conector de archivo.
+
    1. Seleccione la plantilla que se asigna a la fuente de datos desde el **Plantilla de asignación de datos** desplegable.
 
       >[!NOTE]

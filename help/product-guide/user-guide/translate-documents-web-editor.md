@@ -4,9 +4,9 @@ description: Traduzca el contenido a varios idiomas desde el editor web. AEM Obt
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: ce7619538b229625277a552071bed8800e67f677
 workflow-type: tm+mt
-source-wordcount: '1925'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -36,19 +36,37 @@ Antes de realizar los pasos de este procedimiento, asegúrese de haber creado la
 
 ## Crear un proyecto de traducción
 
-1. En el panel Repositorio, abra el fichero de mapa DITA en la vista de mapa.
-1. Haga clic en **Administrar** pestaña. El panel Traducción muestra el **Idiomas disponibles** lista.
-1. Desde el **Idiomas disponibles** , seleccione la configuración regional a la que desea traducir el proyecto. Puede elegir **Seleccionar todo** para traducir el proyecto a todos los idiomas disponibles.
+1. En el **Repositorio** , abra el fichero de mapa DITA en la vista de mapa.
+1. Haga clic en **Administrar** pestaña. El **Panel de traducción** muestra los grupos de idiomas disponibles.
 
-   >[!NOTE]
-   >
-   > La lista contiene las carpetas de idioma junto con sus códigos de idioma. Por ejemplo, francés \(fr\) y alemán \(de\).
+1. Como usuario, puede ver los grupos de idiomas configurados en el perfil de carpeta. Los grupos de idiomas muestran las carpetas de idioma junto con sus códigos de idioma. Por ejemplo, el grupo de idiomas denominado G1 contiene las carpetas de idioma italiano \(it\), alemán \(de\), francés \(fr\) e inglés \(en\).
+
+   ![panel de traducción](images/translation-languages.png){width="300" align="left"}
+
+   *Seleccione los grupos de idiomas o idiomas en los que desea traducir los documentos.*
+
 
    >[!IMPORTANT]
    >
-   > La lista muestra solo los idiomas para los que se crea una carpeta de idioma paralela al idioma de origen. Tampoco se muestra una carpeta de idioma creada en cualquier otro nivel, como un nivel por debajo de la carpeta de idioma de origen. Asegúrese de crear todas las carpetas de idioma de destino en el mismo nivel que la carpeta de idioma de origen.
+   > Solo puede seleccionar y traducir a los idiomas para los que ha creado la carpeta de destino paralela al idioma de origen. Tampoco se muestra una carpeta de idioma creada en cualquier otro nivel, como un nivel por debajo de la carpeta de idioma de origen. Asegúrese de crear todas las carpetas de idioma de destino en el mismo nivel que la carpeta de idioma de origen.
 
-   ![](images/translation-languages.png){width="300" align="left"}
+
+
+1. Puede seleccionar cualquier grupo de idiomas como destino para la traducción. Si usted **Seleccionar todo**, los archivos seleccionados se traducen a todos los idiomas disponibles dentro de los grupos de idiomas existentes.
+
+   La opción de carpeta de idioma aparece atenuada y muestra un signo de advertencia:
+
+   - Si falta la carpeta de destino de un idioma.
+   - Si el idioma de destino es el mismo que el origen.
+
+
+   >[!NOTE]
+   >
+   > Si crea la carpeta de destino para un idioma después de crear el grupo de idiomas, actualice el explorador para habilitar el idioma en los grupos de idiomas.
+
+1. Si elige un idioma concreto, aparece como seleccionado en todos los grupos de idiomas que ha seleccionado. Por lo tanto, cuando se traduce a cualquier idioma, se traduce de una sola vez para todos los grupos de idiomas. Por ejemplo, si el alemán está presente en los grupos de idiomas G1 y G2, se selecciona para ambos.
+
+1. Desde el **Otros idiomas**, puede elegir cualquier idioma para el que haya creado la carpeta de destino, pero no forma parte de ningún grupo de idiomas.
 
 1. También puede seleccionar una de las siguientes opciones para traducir el proyecto:
 
@@ -113,7 +131,7 @@ AEM Guías de traducción permite a los administradores configurar las reglas de
 
 Los archivos SRX deben tener el siguiente nombre `<language-code>.srx`. Por ejemplo, en-US o ar-AE.
 
->[Nota]
+>[!NOTE]
 >El título no distingue entre mayúsculas y minúsculas, por lo que puede tener &quot;en-US&quot;, &quot;en-us&quot; o &quot;EN-us&quot;. AEM Además, las guías de la pueden resolver &#39;-&#39; (guión) o &#39;_&#39; (guion bajo). Por lo tanto, puede tener &quot;en-US&quot; o &quot;en_US&quot;.
 
 AEM Además, puede colocar estos archivos en cualquier carpeta debajo de la raíz de recursos que se encuentre en la carpeta, que es: `./content/dam`.
@@ -188,5 +206,19 @@ Algunas de las referencias del panel de traducción pueden estar en curso. Estas
 Haga clic en el nombre de la referencia en el cuadro de diálogo para abrirla en el modo de vista previa. También puede hacer clic en el proyecto de traducción para iniciar la traducción.
 
 ![](images/translation-in-progress.png){width="550" align="left"}
+
+
+## Eliminar o deshabilitar automáticamente un proyecto de traducción completado
+
+>[!NOTE]
+> 
+>Esta función está disponible para los nuevos proyectos de traducción que cree con la versión 2404 o posterior de las guías del Experience Manager.  No afecta a ningún proyecto existente.
+
+El administrador puede configurar las **Limpieza del proyecto de traducción una vez finalizado** en la opción **Traducción** pestaña en **Configuración del editor** para deshabilitar o eliminar los proyectos de traducción automáticamente.
+
+Para realizar la administración de documentos, las guías del Experience Manager permiten eliminar los proyectos de traducción una vez completada la traducción.
+
+También puede deshabilitar los proyectos de traducción si desea usarlos más adelante. Al eliminar un proyecto, se eliminan todos los archivos y carpetas presentes en el proyecto. Al deshabilitar un proyecto no se elimina, sino que se mantiene en el repositorio. Sin embargo, no puede actualizar ni editar un proyecto deshabilitado.  Eliminar o deshabilitar un proyecto no afectará el estado de traducción de ninguna referencia.
+
 
 **Tema principal:**[ Trabajar con el editor web](web-editor.md)

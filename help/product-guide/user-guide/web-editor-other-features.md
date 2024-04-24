@@ -4,9 +4,9 @@ description: AEM Explore otras funciones del editor web en Guías de la. AEM Apr
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: caf00a014838751675aed11e5687a81fe7ad2e7c
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2532'
 ht-degree: 0%
 
 ---
@@ -159,15 +159,25 @@ Puede ver las siguientes opciones en función de si el archivo está bloqueado/d
 
 **Insertar ecuaciones de MathML**
 
-- AEM Guías de le ofrece una compatibilidad predeterminada para insertar ecuaciones de MathML mediante la integración con [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) aplicación. Para insertar una ecuación de MathML, haga clic en **Insertar elemento** icono y tipo matemático. Al seleccionar un elemento matemático de la lista, se muestra el cuadro de diálogo Insertar MathML:
+- Las guías del Experience Manager le proporcionan una compatibilidad predeterminada para insertar ecuaciones de MathML mediante la integración con [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) aplicación. Para insertar una ecuación de MathML, seleccione la opción **Insertar elemento** icono y tipo matemático. Cuando selecciona un elemento matemático de la lista, la variable **Insertar MathML** se muestra:
 
-![](images/insert-mathml-equation.png){width="550" align="left"}
+![insertar ecuación matemática en el editor de matemáticas](images/insert-mathml-equation.png){width="550" align="left"}
 
-Con las herramientas de ecuación MathML, cree la ecuación y haga clic en Insertar para añadirla al documento. La ecuación se inserta con un fondo gris claro, como se muestra a continuación:
+Con las herramientas de ecuación MathML, cree la ecuación y haga clic en **Insertar** para añadirlo a su documento. La ecuación se inserta con un fondo gris claro, como se muestra a continuación:
 
-![](images/sample-mathml-equation.PNG){width="400" align="left"}
+![ecuación matemática de muestra](images/sample-mathml-equation.PNG){width="400" align="left"}
 
 En cualquier momento puede actualizar una ecuación haciendo clic con el botón derecho en una ecuación existente y seleccionando **Editar MathML** en el menú contextual.
+
+- **Validación de ecuaciones en el editor MathML**
+
+  Las Guías del Experience Manager validan las ecuaciones de MathML al guardar un tema que las contiene.
+Cuando se inserta una ecuación con el editor MathML, las guías del Experience Manager resaltan la ecuación en rojo si hay algún problema de sintaxis. Puede corregirla antes de insertarla. Si no realiza ningún cambio, pero selecciona **Insertar**, muestra una advertencia.
+
+  ![validar ecuación matemática](images/validate-mathml-equation.png){width="400" align="left"}
+
+  Si inserta la ecuación de MathML que contiene un error de sintaxis, se produce un error de validación al intentar guardar el tema.
+
 
 **Insertar notas al pie**
 
@@ -203,11 +213,30 @@ Además del menú contextual de la ruta de exploración, también se puede acced
 
 - Al desajustar un elemento, puede quitar la etiqueta del elemento del texto seleccionado y combinarlo con su elemento principal. Por ejemplo, si tiene un `p` dentro de un `note` puede desenvolver el elemento `p` para combinar el texto directamente dentro del elemento `note` Elemento. El **Desajustar elemento** está disponible en el menú contextual de la ruta de exploración del tema. Para desenvolver un elemento, haga clic con el botón derecho en el elemento para abrir el menú contextual y, finalmente, seleccione **Desajustar elemento** para quitar el elemento y combinar el texto del elemento con su elemento principal.
 
+**Gestión de espacios en blanco para elementos DITA**
+
+- En XML, los espacios en blanco incluyen espacios, tabulaciones, retornos de carro y líneas en blanco. Guías del Experience Manager convierte varios espacios en blanco consecuentes en un espacio. Esto le ayuda a conservar la vista WYSIWYG del editor web.
+
+  >[!NOTE]
+  >
+  >En algunos elementos en los que es necesario conservar los espacios en blanco según las reglas DITA, se conservan los múltiples espacios en blanco consiguientes. Por ejemplo, `<pre>` y `<codeblock>` elementos.
+
+
 **Conservación de saltos de línea y sangría**
 
 - Los elementos DITA que contienen saltos de línea y espacios son compatibles y se representan según su definición en los modos Autor, Fuente o Vista previa, y también en la salida publicada final. La siguiente captura de pantalla muestra el contenido de la `msgblock` elemento en el que los saltos de línea y los espacios \(sangría\) se han conservado:
 
 ![](images/new-line-support_cs.png){width="500" align="left"}
+
+
+
+**Administrar espacios de no separación en el Editor web**
+
+- Puede insertar espacios de no separación en el documento mediante la variable **Insertar caracteres especiales**  ![icono insertar caracteres especiales](images/insert-special-chars-icon.svg) o el icono **Alt** + **Espacio** teclas de método abreviado.  Estos espacios de no separación aparecen como un indicador mientras edita un tema en el Editor Web. Puede desactivar la visualización de los espacios de no separación con la variable **Mostrar indicador de espacio de no separación en el modo Autor** de la opción **Aspecto** de la pestaña **Preferencias de usuario** ![Icono de preferencias de usuario](images/user_preference_editor_icon.svg)..
+
+- Si copia y pega contenido con un espacio de no separación de cualquier origen externo en la **Autor** vista, el espacio de no separación se convierte en un espacio.
+Sin embargo, si copia y pega contenido con un espacio de no separación desde el **Autor** vista, se conserva.
+
 
 **ID de elemento generado automáticamente**
 

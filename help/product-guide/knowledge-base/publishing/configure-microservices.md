@@ -4,24 +4,28 @@ description: AEM Aprenda a configurar nuevas publicaciones basadas en microservi
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: f929d4fd74e98e2025d80c14dbef6aeb464c0dd5
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
 
-# AEM Configuración de una nueva publicación basada en microservicios para guías de la aplicación de la as a Cloud Service
+# Configuración de la publicación basada en microservicios con autenticación JWT
 
-AEM El nuevo microservicio de publicación permite a los usuarios ejecutar grandes cargas de trabajo de publicación simultáneamente en guías de publicación as a Cloud Service y aprovechar la plataforma Adobe I/O Runtime sin servidor líder del sector.
-
-AEM Para cada solicitud de publicación, Guías de publicación ejecuta un contenedor as a Cloud Service que se adapta horizontalmente según las solicitudes de los usuarios. AEM Esto proporciona a los usuarios las funciones para ejecutar varias solicitudes de publicación y obtener un mejor rendimiento que sus grandes servidores locales de la aplicación de forma local (On-).
+[!BADGE Cloud Service]{type=Informative}
 
 >[!NOTE]
 >
-> AEM La publicación basada en microservicios en las guías de admite los tipos de ajustes preestablecidos de salida PDF (tanto nativos como basados en DITA-OT), HTML 5, JSON y PERSONALIZADOS.
+> Las credenciales de la cuenta de servicio (JWT) han quedado obsoletas y pasan a ser credenciales de servidor a servidor OAuth. Las aplicaciones que utilizan las credenciales de la cuenta de servicio (JWT) dejarán de funcionar a partir del 1 de enero de 2025. Debe migrar a la nueva credencial antes del 1 de enero de 2025 para garantizar que la aplicación siga funcionando. Más información sobre [migración de la credencial de cuenta de servicio (JWT) a la credencial de servidor a servidor OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
 
-Como el nuevo servicio de publicación en la nube está protegido por la autenticación basada en JWT de Adobe IMS, los clientes deben seguir los pasos que se indican a continuación para integrar sus entornos con los flujos de trabajo de autenticación seguros basados en tokens de Adobe y comenzar a utilizar la nueva solución de publicación escalable basada en la nube.
+
+
+La publicación basada en microservicios en para guías de Adobe Experience Manager as a Cloud Service admite los tipos de ajustes preestablecidos de salida PDF (tanto nativos como basados en DITA-OT), HTML 5, JSON y PERSONALIZADO.
+
+Como las credenciales de la cuenta de servicio (JWT) han quedado obsoletas, se recomienda utilizar la autenticación basada en OAuth de Adobe IMS. Obtenga información sobre cómo [configurar la publicación basada en microservicios con autenticación OAuth](configure-microservices-imt-config.md).
+
+Para el servicio de publicación en la nube protegido por la autenticación basada en JWT de Adobe IMS, los clientes deben seguir los pasos indicados a continuación para integrar sus entornos con los flujos de trabajo de autenticación seguros basados en tokens de Adobe y comenzar a utilizar la nueva solución de publicación escalable basada en la nube.
 
 
 ## Creación de configuraciones de IMS en la consola de Adobe Developer
@@ -80,7 +84,7 @@ Siga estos pasos para agregar la configuración de IMS al entorno:
 >
 > Debe abrir, copiar y pegar el contenido de la clave privada y el archivo JSON de detalles de servicio en la columna de valor del panel Configuración, como se muestra en la captura de pantalla anterior.
 
-AEM Una vez que haya agregado la configuración de IMS al entorno, realice los siguientes pasos para vincular estas propiedades con guías de usuario mediante OSGi:
+Una vez añadida la configuración de IMS al entorno, realice los siguientes pasos para vincular estas propiedades con las guías del Experience Manager mediante OSGi:
 
 1. En su código de proyecto Git de Cloud Manager, agregue los dos archivos siguientes (Para ver el contenido de los archivos, consulte [Apéndice](#appendix)).
 

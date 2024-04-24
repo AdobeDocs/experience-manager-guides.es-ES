@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo crear un ajuste preestablecido de 
 exl-id: f12c91fd-3f95-478e-a9cd-68d037206ee8
 feature: Publishing
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: b82f1f3b42f85cce8420d3962c69cd3bafc5728d
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1050'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ El **General** La pestaña contiene las siguientes configuraciones:
 La pestaña Advanced contiene las siguientes configuraciones:
 
 - Activar control de versiones
-- Limpiar archivos temporales DITA-OT
+- Descargar archivos temporales
 
 Para obtener más información, consulte [Configuración del PDF](#id231KIM004X1).
 
@@ -63,7 +63,7 @@ Las siguientes opciones están disponibles para la salida del PDF:
 | Nombre de transformación | Especifique el tipo de salida que desea generar. Esto es necesario si desea generar resultados con su propio complemento personalizado, que está integrado en el complemento DITA-OT. Por ejemplo, si desea generar una salida XHTML, especifique `xhtml`. Para obtener una lista de las transformaciones disponibles en DITA-OT, consulte [Transformaciones DITA-OT (formatos de salida)](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html) en la Guía del usuario de OASIS DITA-OT. |
 | Nombre de archivo | Especifique el nombre de archivo con el que desea guardar el PDF.<br><br>También puede utilizar variables al establecer el Nombre de archivo del PDF. Para obtener más información sobre el uso de variables, consulte [Utilice variables para establecer las opciones Ruta de destino, Nombre del sitio o Nombre de archivo](generate-output-use-variables.md#id18BUG70K05Z).<br><br>**Nota**: si no se proporciona un nombre de fichero, se utilizará el título del mapa DITA para generar el nombre de fichero final del PDF. Si el mapa no tiene título, se utilizará el nombre de fichero del mapa DITA para nombrar al PDF final. El nombre del archivo se sanea utilizando las reglas configuradas en el sistema para gestionar cualquier carácter no válido. |
 | Ruta de destino | AEM La ruta dentro del repositorio de la en la que se almacena el PDF.<br><br>También puede utilizar variables al establecer la Ruta de destino. Para obtener más información sobre el uso de variables, consulte [Utilice variables para establecer las opciones Ruta de destino, Nombre del sitio o Nombre de archivo](generate-output-use-variables.md#id18BUG70K05Z). |
-| Limpiar archivos temporales DITA-OT | Seleccione esta opción para limpiar los archivos temporales generados por DITA-OT. La ubicación donde DITA-OT almacena los archivos temporales se encuentra en el registro de generación de salida.<br><br>Si se producen errores al generar la salida mediante DITA-OT, se puede anular la selección de esta opción para conservar los ficheros temporales. A continuación, puede utilizar esos archivos para solucionar errores de generación de resultados. |
+| Descargar archivos temporales | Seleccione esta opción para descargar los archivos temporales generados por DITA-OT. La ubicación donde DITA-OT almacena los archivos temporales se encuentra en el registro de generación de salida. Si se producen errores al generar la salida mediante DITA-OT, seleccione esta opción para conservar los ficheros temporales. A continuación, puede utilizar esos archivos para solucionar errores de generación de resultados.<br> <br>  Después de generar la salida, seleccione la opción **Descargar archivos temporales** ![icono descargar archivos temporales](images/download-temp-files-icon.png) para descargar la carpeta ZIP que contiene los archivos temporales. <br><br> **Nota**: Si selecciona algunas propiedades de archivo y luego descarga los archivos temporales, también obtendrá la variable *metadata.xml* en la carpeta ZIP. |
 | Usar línea base | Si ha creado una Línea base para el mapa DITA seleccionado, seleccione esta opción para especificar la versión que desea publicar.<br><br>Consulte [Trabajar con línea base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obtener más información. |
 | Propiedades de archivo | Seleccione las propiedades que desee procesar como metadatos. Estas propiedades se definen desde la página Propiedades del fichero de mapa DITA o de mapa de libros. Las propiedades que seleccione en la lista desplegable aparecerán en la **Propiedades de archivo** field. Seleccione el icono en forma de cruz situado junto a la propiedad para eliminarla. <br><br>Nota: También se pueden transferir los metadatos a la salida mediante la publicación DITA-OT. Para obtener más información, consulte [Pasar los metadatos a la salida utilizando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 

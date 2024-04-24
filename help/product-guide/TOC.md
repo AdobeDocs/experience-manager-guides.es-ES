@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: 6ff99d32dd7a30c1104a79da4f223defe109f190
+source-git-commit: e8febe389ed805375d4b79570cd9a0e023e046f3
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1777'
 ht-degree: 6%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 6%
       - Cloud Services{#cloud-release-notes}
          - [Instrucciones de implementación](./release-info/deploy-xml-on-aemaacs.md)
          - Versiones de 2024 {#2024-releases}
+            - Versión 2024.4.0 {#2404-release}
+               - [Novedades](./release-info/whats-new-2024-04-0.md)
+               - [Problemas solucionados](./release-info/fixed-issues-2024-04-0.md)
+               - [Instrucciones de actualización](./release-info/upgrade-instructions-2024-04-0.md)
             - Versión 2024.2.0 {#2402-release}
                - [Novedades](./release-info/whats-new-2024-2-0.md)
                - [Problemas solucionados](./release-info/fixed-issues-2024-2-0.md)
@@ -115,7 +119,7 @@ ht-degree: 6%
                - [Otras funciones del editor web](./user-guide/web-editor-other-features.md)
                - [Vistas del Editor web](./user-guide/web-editor-views.md)
                - [Compatibilidad con archivos de Schematron](./user-guide/support-schematron-file.md)
-               - [Sugerencias inteligentes (beta) con tecnología de IA para crear contenido](./user-guide/authoring-ai-based-smart-suggestions.md)
+               - [Sugerencias inteligentes con tecnología de IA para crear contenido](./user-guide/authoring-ai-based-smart-suggestions.md)
                - [Creación de documentos de Markdown desde el editor web](./user-guide/web-editor-markdown-topic.md)
                - [Añadir citas al contenido](./user-guide/web-editor-apply-citations.md)
                - [Uso de datos de las fuentes de datos](./user-guide/web-editor-content-snippet.md)
@@ -171,7 +175,7 @@ ht-degree: 6%
          - [Base de conocimiento](./user-guide/generate-output-knowledge-base.md)
          - [HTML5](./user-guide/generate-output-html5.md)
          - [EPUB](./user-guide/generate-output-epub.md)
-         - [Personalizada](./user-guide/generate-output-custom.md)
+         - [Personalizado](./user-guide/generate-output-custom.md)
          - [JSON](./user-guide/generate-output-json.md)
       - [Utilice variables para establecer las opciones Ruta de destino, Nombre del sitio o Nombre de archivo](./user-guide/generate-output-use-variables.md)
       - [Crear, editar, duplicar o quitar un ajuste preestablecido de salida](./user-guide/generate-output-create-edit-preset.md)
@@ -317,6 +321,7 @@ ht-degree: 6%
       - Trabajo con DITA-OT y especialización personalizadas {#custom-dita-ot-spec-cs}
          - [Utilizar la especialización personalizada DITA-OT y DITA](./cs-install-guide/dita-ot-specialization.md)
       - Configurar nombres de archivo basados en UUID y no en UUID {#conf-non-uuid-filename-cs}
+         - [Configuración del posprocesamiento para una carpeta](./cs-install-guide/conf-folder-post-processing.md)
          - [Configurar nombres de archivo](./cs-install-guide/conf-file-names.md)
          - [Configurar nombres de archivo automáticos basados en UUID](./cs-install-guide/conf-auto-uuid-filenames.md)
          - [Configure Regx para caracteres de nombre de archivo válidos](./cs-install-guide/conf-file-names-valid-regx.md)
@@ -441,7 +446,9 @@ ht-degree: 6%
 
          - [FMPS y guías](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Arquitectura y rendimiento de microservicios](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
-         - [Configuración de la publicación basada en microservicios](./knowledge-base/publishing/configure-microservices.md)
+         - [Configuración de la publicación basada en microservicios con autenticación JWT](./knowledge-base/publishing/configure-microservices.md)
+         - [Configuración de la publicación basada en microservicios con autenticación OAuth](./knowledge-base/publishing/configure-microservices-imt-config.md)
+
          - [AEM Publicación de puntos de referencia en la nube de](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          - [Configuración de una DITA-OT personalizada](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
       - Flujos de trabajo {#workflows}
