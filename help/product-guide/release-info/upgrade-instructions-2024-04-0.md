@@ -1,9 +1,10 @@
 ---
 title: Notas de versión | Instrucciones de actualización y problemas corregidos en las guías de Adobe Experience Manager, versión 2024.04.0
 description: Obtenga información acerca de la matriz de compatibilidad y cómo actualizar a la versión 2024.04.0 de Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+exl-id: deca46e5-12cc-497f-84af-61ee02da3d65
+source-git-commit: 989f1628adf417167525a068845203380573b077
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -45,6 +46,12 @@ Esta sección enumera la matriz de compatibilidad para las aplicaciones de softw
 ## Actualizar a la versión 2024.04.0
 
 Las guías del Experience Manager se actualizan automáticamente al actualizar la versión actual (la más reciente) de Experience Manager as a Cloud Service.
+
+>[!NOTE]
+>
+> Una vez que empiece a utilizar la versión actual (la más reciente), compare las configuraciones anuladas con las más recientes para obtener las últimas funciones:
+>- ui_config.json (puede haberse configurado en perfiles de carpeta)
+
 
 
 Realice los siguientes pasos para las guías del Experience Manager as a Cloud Service si no lo ha hecho anteriormente para su versión existente:
@@ -130,4 +137,3 @@ Las guías del Experience Manager tienen un [**reescritura sling personalizada**
 Si tiene otra reescritura de sling personalizada en la base de código, utilice una `'order'` valor mayor que 50, ya que el reescritor sling de las Guías del Experience Manager utiliza `'order'` 50. Para anular esto, necesita un valor >50. Para obtener más información, consulte [Canalizaciones de reescritura de salida](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 Durante esta actualización, dado que el `'order'` Si el valor cambia de 1000 a 50, debe combinar la reescritura personalizada existente, si la hay, con `fmdita-rewriter`.
-
