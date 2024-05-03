@@ -1,24 +1,24 @@
 ---
 title: Icono de configuración para tipos de datos personalizados
 description: AEM Obtenga información sobre cómo definir iconos para tipos de datos personalizados para mostrar su icono en diferentes interfaces de usuario en
-source-git-commit: 60d4aeec9841fdab8ff97d975fbbe4a640ccf9e8
+source-git-commit: de281989de21d8bf4ba771670d7cb871a089b1e1
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
 
-# Configuración del icono para tipos de datos personalizados (tema o mapa)
+# Configuración del icono para tipos de datos personalizados/especializados (tema o mapa)
 
 
 ## Declaración de problema
 
-AEM Con el esquema personalizado utilizado en las guías de recursos, puede crear temas o tipos de asignación personalizados y, con él, puede observar que los temas o los mapas personalizados no se muestran en la interfaz de usuario del editor web o de Assets. Vea la siguiente captura de pantalla como referencia
+AEM Con el esquema personalizado utilizado en las guías de recursos, puede crear temas o tipos de asignación personalizados y, con él, puede observar que los tipos de temas o mapas personalizados no se muestran en el editor web o en la interfaz de usuario de Assets. Vea la siguiente captura de pantalla como referencia
 
 ![captura de pantalla como referencia](../assets/authoring/custom-ditatype-icon-notshown.png)
 
 
-Por lo tanto, para asignar un icono a los tipos de tema/mapa personalizados, debe hacer lo siguiente:
+Por lo tanto, para asignar un icono a los tipos de tema o mapa personalizados, debe hacer lo siguiente:
 - Buscar el tipo de tema o asignación personalizado
 - Escriba estilos para añadir el icono deseado para el tipo personalizado
 
