@@ -1,14 +1,13 @@
 ---
 title: Sugerencias inteligentes con tecnología de IA para crear contenido
 description: Aprenda a ver y utilizar sugerencias inteligentes con tecnología de IA en el editor web.
-source-git-commit: eea4a30b91fd5c28647fd7ea95dd8058ec411adc
+exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
+source-git-commit: 75425d82ee55485503ea6678030c5e919e50a691
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
-
-
 
 # Sugerencias inteligentes con tecnología de IA para crear contenido
 
@@ -76,6 +75,8 @@ Realice los siguientes pasos para ver las sugerencias inteligentes para agregar 
 1. También puede seleccionar **Aceptar** o **Rechazar** en el **Reutilización de contenido** Cuadro de sugerencias para ver las recomendaciones adecuadas.
 
 
-
 Esta función inteligente es práctica y minimiza el esfuerzo de búsqueda manual de contenido, lo que le permite concentrarse más en la generación de nuevo contenido. También facilita una mejor colaboración en equipo y ayuda a mantener la coherencia en el contenido creado por varios autores.
 
+>[!NOTE]
+>
+>Las sugerencias inteligentes no conservan los datos más allá de la sesión actual. Para obtener respuestas, las sugerencias inteligentes se basan únicamente en el índice creado en el contenido que reside en la base de datos interna. No se utilizan herramientas de IA externas, lo que garantiza que los datos permanezcan en el sistema.

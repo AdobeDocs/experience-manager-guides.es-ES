@@ -5,9 +5,9 @@ exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 60e905bf4027ee6c0390bf067b95517ab770ed7b
+source-git-commit: eb6d678a27f5a000b83dbc662f4f9ddbba68d8f9
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '93'
 ht-degree: 5%
 
 ---
@@ -18,11 +18,11 @@ AEM Antes de instalar Guías de la 4.4, asegúrese de que su sistema cumpla los 
 
 **Adobe Experience Manager**
 
-- Paquete de servicio 19, 18 o 17 de la versión 6.5
+- Paquete de servicio 20, 19, 18 o 17 de la versión 6.5
 
 >[!IMPORTANT]
 >
-> AEM AEM Para generar la salida del sitio, la instancia de publicación del sitio debe tener el paquete de servicio 19, 18 o 17 .
+> AEM AEM Para generar la salida del sitio, la instancia de publicación del sitio debe tener el paquete de servicio 20, 19, 18 o 17 .
 
 **Sistemas operativos**
 
