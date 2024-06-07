@@ -4,9 +4,9 @@ description: AEM Cree y administre líneas de base desde el editor web en Guías
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: c4c5fa16daf3f713f85783152094c8af59eb4f8c
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -60,8 +60,12 @@ Puede crear una línea base desde el Editor Web realizando los siguientes pasos:
 
    ![Crear una línea base](images/dynamic-baseline.png){width="300" align="left"}
 
-   - **Seleccionar etiquetas**: si los temas tienen etiquetas especificadas, utilice la variable **Seleccionar etiquetas** desplegable para elegir de la [etiquetas enumeradas](#labels-list).
+   - **Etiquetas**: si los temas tienen etiquetas especificadas, utilice la variable **Etiquetas** desplegable para elegir de la [etiquetas enumeradas](#labels-list).
 Las etiquetas seleccionadas primero reciben una prioridad mayor que las posteriores.
+
+     >[!NOTE]
+     >
+     >Mientras se extraen las etiquetas, aparece un cargador y la lista desplegable está desactivada.
 
      Para las líneas de base dinámicas, las etiquetas se extraen de la última versión guardada y de la copia de trabajo actual del mapa. Por ejemplo, si ha creado etiquetas   `Label Release A.1.0 ` y `Label Release A.1.1` para las versiones 1.0 y 1.1 del Tema A y etiquetas `Label Release B.1.0` y `Label Release B.1.1` para las versiones 1.0 y 1.1 del Tema B . A continuación, puede agregar el Tema A al Mapa A en la versión 1.0 y el Tema B al Mapa A en 1.0* (copia de trabajo). En este caso, puede ver lo siguiente  `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0`, y `Label Release B.1.1` en el menú desplegable de etiquetas de línea de base dinámica.
 

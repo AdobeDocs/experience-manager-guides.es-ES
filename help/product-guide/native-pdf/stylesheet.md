@@ -5,9 +5,9 @@ exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: f98aa2b4b196ee0fd46542317894163b64b8a486
 workflow-type: tm+mt
-source-wordcount: '3525'
+source-wordcount: '3778'
 ht-degree: 1%
 
 ---
@@ -374,3 +374,63 @@ En el ejemplo siguiente, crearemos un título de ventana nueva (`wintitle`) esti
 La siguiente captura de pantalla muestra el estilo wintitle que se está aplicando al texto &quot;Control principal&quot;.
 
 <img src="./assets/other-style-wintitle.png" width="500">
+
+
+## Definir un estilo único para un diseño de una sola página
+
+Al publicar la salida del PDF nativo, todos los estilos se combinan en el PDF final y es crucial asignar un estilo único a cada plantilla dentro de CSS.
+Utilice nombres de estilos CSS distintos para aplicar fuentes y estilos específicos a diferentes secciones de un PDF. Por ejemplo, puede definir la fuente que desee para la página de portada con el siguiente CSS.
+
+```css
+...
+[data-page-layout="Front"] * { 
+    font-size: 18pt; 
+}  
+...
+```
+
+
+El resto del documento utilizará la fuente predeterminada especificada para la etiqueta de cuerpo en `content.css` o `layout.css`. Esto garantiza que los estilos no se combinen y que cada sección conserve su diseño deseado. Si desea tamaños de fuente diferentes, cree estilos específicos para ellos.
+
+Por ejemplo, puede definir los estilos siguientes para definir el tamaño de fuente 18 en los párrafos de la portada y el tamaño de fuente 11 pt para la portada:
+
+```css
+[data-page-layout="Front"] p { //For all paragraphs inside Front page
+  font-size: 18pt; 
+} 
+  
+[data-page-layout="Back"] p { //For all paragraphs inside Back page
+  font-size: 11pt; 
+}
+```
+
+>[!NOTE]
+>
+En el ejemplo anterior, &quot;Front&quot; y &quot;Back&quot; son los nombres de ejemplo de los archivos de diseño que puede utilizar en las plantillas.
+
+
+## Definir estilo CSS personalizado para el contenido de prefijos y sufijos
+
+Si define los estilos CSS personalizados, se les da la primera prioridad al generar la salida del PDF nativo.
+El siguiente estilo CSS predeterminado oculta el contenido de prefijo y sufijo.
+
+```css
+...
+.prefix-content, .suffix-content{
+    display: none;
+} 
+...
+```
+
+Para permitir estos prefijos dentro de `<note>` , incluya el siguiente CSS en su `content.css`:
+
+```css
+...
+.prefix-content{
+    display: inline !important;
+}
+...
+```
+
+El `<note>` genera un elemento adicional `<span>` con la clase prefix-content correspondiente a su atributo type. Esta regla CSS identifica el `.prefix-content` clase dentro de `<note>` elementos con un atributo type, que permite aplicar estilo o manipular el contenido del prefijo según sea necesario.
+

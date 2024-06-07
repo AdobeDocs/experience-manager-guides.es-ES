@@ -4,7 +4,7 @@ description: AEM Explore otras funciones del editor web en Guías de la. AEM Apr
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: caf00a014838751675aed11e5687a81fe7ad2e7c
+source-git-commit: d30f05ff614693beca5d9cf7f206a36f3dadfc8b
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 0%
@@ -182,6 +182,7 @@ Cuando se inserta una ecuación con el editor MathML, las guías del Experience 
 **Insertar notas al pie**
 
 - Inserte una nota al pie en el contenido utilizando `fn` Elemento. En el modo Autor, el valor de la nota al pie se muestra alineado con el contenido. Sin embargo, cuando cambia al modo Vista previa o publica el documento, la nota al pie aparece al final del tema.
+
 
 **Cambiar el nombre o reemplazar un elemento**
 

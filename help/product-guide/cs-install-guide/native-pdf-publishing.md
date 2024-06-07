@@ -5,9 +5,9 @@ exl-id: 00bc894a-031e-4d09-bd30-331399fedbc8
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 3bdc3c6370bbad67f9c31f538a49bee105fec0f9
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ Para obtener más información, consulte lo siguiente:
 * [Diseño de una página](../native-pdf/design-page-layout.md)
 * [Compatibilidad con variables de idioma](../native-pdf/native-pdf-language-variables.md)
 * [Variables en la salida del PDF](../native-pdf/native-pdf-variables.md)
+* [Añadir un código de barras a la salida del PDF](../native-pdf/add-barcode.md)
 * Estilos de contenido comunes {#content-styles}
    * [Trabajar con los estilos de contenido comunes](../native-pdf/stylesheet.md)
    * [Trabajar con estilos de barras de cambios personalizados](../native-pdf/change-bar-style.md)

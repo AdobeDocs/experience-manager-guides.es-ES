@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo utilizar la publicación de PDF na
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Web Editor, Native PDF Output
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: e78749b1d5b4ba944cbca69ba65c6d28355b2c34
 workflow-type: tm+mt
-source-wordcount: '3293'
+source-wordcount: '3362'
 ht-degree: 0%
 
 ---
@@ -212,3 +212,10 @@ Si selecciona la opción **Descargar archivos temporales** en la opción Advance
 
 AEM Las guías de idioma también proporcionan compatibilidad con variables de idioma. Seleccionar **Variables de idioma** <img src="./assets/language-variables.svg" width="25">  en el panel izquierdo para definir una versión localizada de las etiquetas integradas, como Nota, Precaución y Advertencia o texto estático en la salida del PDF. Para obtener más información, consulte [Compatibilidad con variables de idioma](../native-pdf/native-pdf-language-variables.md).
 
+
+
+### Compatibilidad con documentos de Markdown
+
+Las guías del Experience Manager también son compatibles con los documentos de Markdown.  Los archivos Markdown son fáciles de crear y también proporcionan una variedad de opciones de formato. Obtenga información sobre cómo [Crear documentos Markdown desde el editor web](../user-guide/web-editor-markdown-topic.md).
+
+Se pueden añadir temas de Markdown al mapa DITA y generar la salida del PDF mediante los ajustes preestablecidos de salida del PDF nativo.  Obtenga información sobre cómo configurar o [crear un ajuste preestablecido de salida de PDF](#create-a-pdf-output-preset-create-output-preset).

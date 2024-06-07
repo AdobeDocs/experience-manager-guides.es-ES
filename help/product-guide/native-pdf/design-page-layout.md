@@ -5,9 +5,9 @@ exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: aad652509c54b516fca49b7ca28d7dd5547f9a1b
 workflow-type: tm+mt
-source-wordcount: '4825'
+source-wordcount: '4972'
 ht-degree: 0%
 
 ---
@@ -352,25 +352,39 @@ Los campos son muy útiles cuando desea insertar un fragmento de información pr
 
 Existen las siguientes categorías para los campos que puede insertar en el diseño de página:
 
+* Metadatos
+* Título del tema
+* Título del capítulo
+* Título del mapa
+* Número de página
+* Número de capítulo
+* Total de páginas
 * Fecha
 * Hora
-* Título del tema
-* Título de proyecto
-* Número de página
-* Página total
-* Título del capítulo
-* Número de capítulo
-* Metadatos
+
 
 Cada una de estas categorías de campos contiene diferentes variaciones en las que se puede insertar la información del campo. Por ejemplo, un campo Fecha puede tener diferentes variaciones como `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` y demás. Del mismo modo, Número de página puede tener variaciones en forma de formatos romanos, decimales o incluso específicos de la configuración regional, como _Árabe_, _Devanagari_, _Hebreo_, y más.
 
-Además de los campos predefinidos, también puede agregar información de metadatos como variables o campos en el diseño de página. Estos metadatos se almacenan en el contenido del mapa DITA de origen y se pueden insertar fácilmente en el diseño de página.
 
-También puede seleccionar las propiedades de los metadatos entre los recursos y agregarlas al diseño de página. Los metadatos del recurso se publican para la salida del PDF. Estas propiedades de metadatos de los recursos se establecen desde el **Propiedades** del mapa DITA o del fichero bookmap.
+Además de los campos predefinidos, también puede agregar información de metadatos como variables o campos en el diseño de página. Estos metadatos se almacenan en el DITA de origen **Asignación de contenido**, o se puede seleccionar desde la DITA **Asignar propiedades de archivo** o el **Propiedades del archivo de tema** y se insertan fácilmente en el diseño de página.
+
+Puede seleccionar los metadatos de las siguientes opciones:
+
+* **Asignación de contenido** incluye los metadatos que ha definido en la `<topicmeta>` del mapa DITA.
+* **Asignar propiedades de archivo** incluye los metadatos, a los que puede acceder desde el **Propiedades** página de un mapa DITA.
+* **Propiedades del archivo de tema** incluye los metadatos, a los que puede acceder desde el **Propiedades** página de un tema.
+
+
+Puede combinar metadatos de **Asignar propiedades de archivo** y **Propiedades del archivo de tema** en un solo documento. Por ejemplo, puede publicar un PDF con el título del mapa en la portada y el título del tema en el encabezado de otras páginas. Para ello, puede añadir los metadatos del título de la asignación desde el **Asignar propiedades de archivo** al diseño de portada. A continuación, añada los metadatos del título del tema desde el **Propiedades del archivo de tema**  al encabezado en Diseño de página de capítulos y temas.
+
+Si un tema termina en una página y el otro empieza en la misma página, se seleccionan los metadatos del primer tema. También puede agregar propiedades personalizadas e insertarlas como campos en el diseño de página.
+
 
 >[!NOTE]
 >
 > Los campos de metadatos se muestran según la selección del recurso o el mapa en la **Desde** desplegable.
+
+
 
 
 <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
@@ -395,7 +409,7 @@ En el siguiente ejemplo, insertaremos un número de página y un título de cap�
 
 1. Seleccione el **Número de página** de la lista Campo, la variable **default(1)** formato de número de página de la lista Formato y haga clic en **Insertar**.
 
-   <img src="./assets/insert-page-number-field.svg" width="400">
+   <img src="./assets/insert-page-number-field.png" width="400">
 
    >[!NOTE]
    >

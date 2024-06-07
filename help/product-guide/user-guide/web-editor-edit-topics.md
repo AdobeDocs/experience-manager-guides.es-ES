@@ -4,9 +4,9 @@ description: Aprenda a editar temas en el editor web. AEM Obtenga información a
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 05848b381999bf00d480b618ccb604c1798cc5dd
+source-git-commit: d30f05ff614693beca5d9cf7f206a36f3dadfc8b
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,24 @@ El Editor Web incluye una serie de características de edición que permiten cre
    >[!NOTE]
    >
    > AEM Si no desea confirmar los cambios en el repositorio de la, haga clic en **Cerrar** y haga clic en **Cerrar sin guardar** en el cuadro de diálogo Cambios no guardados.
+
+
+## Selección parcial del contenido entre elementos
+
+Las guías del Experience Manager también permiten seleccionar contenido entre elementos. Después de seleccionar el contenido, puede realizar las siguientes operaciones:
+- Formato y eliminación: ponga en negrita, cursiva, subrayado o incluso elimine el contenido seleccionado. El contenido de las etiquetas abiertas válidas se combina y aparece en un solo elemento. Por ejemplo, puede seleccionar el contenido de un párrafo y ampliar la selección a otro párrafo. A continuación, si aplica negrita al contenido seleccionado, todo el contenido en negrita de las etiquetas abiertas se combina y aparece en un solo elemento de párrafo.
+
+Del mismo modo, si elimina el contenido seleccionado, se combina el contenido restante después de la eliminación en las etiquetas abiertas.
+
+- Rodee el contenido con un elemento válido: realice los siguientes pasos para envolver el contenido con un elemento válido:
+   - Seleccione el contenido de un elemento.
+   - Seleccione el ![añadir](images/Add_icon.svg) en la barra de herramientas secundaria de la parte superior para ver el **Envolver con elemento** Cuadro de diálogo. El cuadro de diálogo muestra los elementos válidos para el contenido seleccionado.
+     >[!NOTE]
+     >
+     > También puede ver el cuadro de diálogo Envolver con elemento seleccionando el menú contextual del contenido seleccionado.
+
+   - Seleccione un elemento del cuadro de diálogo. El contenido seleccionado se encuentra dentro de ese elemento. Por ejemplo, si selecciona el contenido en un párrafo y, a continuación, elige la variable `<note>` del elemento **Envolver con elemento** , el contenido seleccionado aparece debajo de una nota.\
+     ![cuadro de diálogo rodear elemento](./images/surround-element.png) {width="300" align="left"}
 
 ## Actualizar el explorador mientras edita los archivos
 

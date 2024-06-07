@@ -5,10 +5,10 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 11%
+source-wordcount: '756'
+ht-degree: 9%
 
 ---
 
@@ -68,9 +68,26 @@ En función del flujo de trabajo de traducción utilizado en la configuración, 
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `component.translation` | Booleano: <br> - Si utiliza la traducción humana, entonces *Deshabilitar* \( `false`\) el **Flujo de trabajo de traducción basado en componentes** opción. <br> - Si utiliza la traducción automática, a continuación, *Habilitar \( `true`\)* el **Flujo de trabajo de traducción basado en componentes** opción. |
 
+
+
+## Configuración del flujo de trabajo de traducción heredado
+
+Se recomienda utilizar el flujo de trabajo de traducción más reciente, que proporciona un rendimiento mejorado. Sin embargo, si desea utilizar el flujo de trabajo de traducción heredado, puede configurarlo.
+
+Siga las instrucciones que se indican en [Anulaciones de configuración](download-install-additional-config-override.md#) para crear el archivo de configuración. En el archivo de configuración, proporcione los siguientes detalles (propiedad) para configurar el flujo de trabajo de traducción heredado:
+
+
+
+
+| PID | Clave de propiedad | Valor de propiedad |
+|---|------------|--------------|
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Booleano: <br> - Si utiliza el flujo de trabajo de traducción más reciente, *Deshabilitar* \( `false`\) el **Ejecutar flujo de trabajo de traducción heredado** opción. El flujo de trabajo de traducción más reciente está habilitado de forma predeterminada. <br> - Si utiliza la traducción heredada, *Habilitar \( `true`\)* el **Ejecutar flujo de trabajo de traducción heredado** opción. |
+
+
+
 >[!NOTE]
 >
-> Si utiliza el conector de traducción, asegúrese de haber configurado el conector como se describe en la sección *[Configuración del marco de trabajo de integración de traducción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* AEM tema en la documentación de la.
+> Si utiliza el conector de traducción, asegúrese de haber configurado el conector como se describe en la sección *[Configuración del marco de trabajo de integración de traducción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* en la documentación de Adobe Experience Manager.
 
 >[!IMPORTANT]
 >
