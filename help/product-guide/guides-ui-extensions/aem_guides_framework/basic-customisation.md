@@ -2,7 +2,8 @@
 title: Personalizar la aplicación
 description: Personalizar la aplicación
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 3e454c48-2168-41a5-bbab-05c8a5b5aeb1
+source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -18,20 +19,21 @@ Nuestra aplicación sigue una estructura MVC (Modelo, Vista, Controlador)
 El modelo define los distintos atributos y almacena sus valores. Se puede acceder a los valores de los distintos atributos almacenados en el modelo desde el controlador mediante la sintaxis
 
 ```typescript
-this.model.attributeName
+this.getValue('attributeName')
 ```
 
 Para la personalización en la aplicación, todos los atributos recién creados se añadirán en un mapa del modelo.
 Para establecer un nuevo atributo en el modelo, se utilizará la siguiente sintaxis en el controlador:
 
 ```typescript
-this.model.extraProps.set("key", value)
+// If a key is not already in model then it will be added to extraProps
+this.setValue('key', value)
 ```
 
 Para acceder a un atributo añadido al modelo utilizaremos la siguiente sintaxis:
 
 ```typescript
-const value = this.model.extraProps.get("key")
+const value = this.getValue("key")
 ```
 
 ## Ver
@@ -87,13 +89,13 @@ en este caso, `extraProps.buttonLabel` contiene la etiqueta del botón
 
 ```typescript
   controller: {
-    init: function () {
-      this.model.extraProps.set("buttonLabel", "Submit")
+    init: function (context) {
+      context.setValue("buttonLabel", "Submit")
     },
 
     switchButtonLabel(){
-        const buttonLabel = this.model.extraProps.get("buttonLabel") === "Submit"? "Cancel" : "Submit"
-        this.model.extraProps.set("buttonLabel", buttonLabel)
+        const buttonLabel = this.getValue("buttonLabel") === "Submit"? "Cancel" : "Submit"
+        this.setValue("buttonLabel", buttonLabel)
     }
   }
 ```

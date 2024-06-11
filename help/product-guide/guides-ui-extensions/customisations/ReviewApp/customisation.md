@@ -2,13 +2,13 @@
 title: Personalización
 description: Personalización de la aplicación de revisión
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 9f6a4e9f-fc13-40b5-a30f-151c94faff81
+source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
 
 ---
-
 
 # Personalización de la aplicación de revisión
 
@@ -28,10 +28,10 @@ Vamos a actualizar el `commentRationale` a &quot;Esta es una frase importante&qu
 Esto se puede hacer con la sintaxis:
 
 ```typescript
- this.updateExtraProps(
-        {'commentRationale': 'This is an important sentence.',
-        'severity': 'CRITICAL'}
-      )
+  this.next('updateExtraProps', {
+    'commentRationale': 'This is an important sentence.',
+    'severity': 'CRITICAL'
+  })
 ```
 
 El fragmento de código anterior gestiona la actualización y el guardado de los valores. Los valores guardados se pueden representar en la interfaz de usuario definiendo la vista.
@@ -65,7 +65,7 @@ Supongamos que queremos enviar un extraProp, `userInfo`, cada vez que se envía 
 ```typescript
     onNewCommentEvent(args){
       const events = _.get(args, "events")
-      const currTopicIndex = tcx.model.getValue(tcx.model.KEYS.REVIEW_CURR_TOPIC) || this.model.currTopicIndex || "0"
+      const currTopicIndex = tcx.model.getValue(tcx.model.KEYS.REVIEW_CURR_TOPIC) || this.getValue('currTopicIndex') || "0"
       const event = _.get(_.get(events, currTopicIndex), '0')
       const newComment = _.get(args, 'newComment')
       const newReply = _.get(args, 'newReply')
@@ -88,7 +88,8 @@ En el fragmento de código anterior, comprobamos si el evento enviado era un com
           'userEmail': userData?.email || '',
         }
         const data = {... event, extraProps}
-        this.sendExtraProps(
+        this.next(
+          'sendExtraProps',
           data
         )
       })
