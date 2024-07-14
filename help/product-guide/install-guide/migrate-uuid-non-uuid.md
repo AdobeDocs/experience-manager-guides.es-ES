@@ -19,7 +19,7 @@ Puede migrar el contenido que no sea UUID a UUID.
 
 >[!IMPORTANT]
 >
-> AEM Antes de migrar contenido al servidor UUID, asegúrese de que tiene instalado un servidor que no sea UUID con una versión compatible de las Guías de usuario de.
+> Antes de migrar contenido al servidor UUID, asegúrese de que tiene instalado un servidor que no sea UUID con una versión compatible de AEM Guides.
 
 
 

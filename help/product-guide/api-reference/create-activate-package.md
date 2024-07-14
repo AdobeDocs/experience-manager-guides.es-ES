@@ -1,6 +1,6 @@
 ---
 title: API de REST para crear y activar paquetes
-description: Obtenga información sobre la API de REST para crear y activar paquetes
+description: Obtenga información acerca de la API de REST para crear y activar paquetes
 exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
 feature: Rest API Packages
 role: Developer
@@ -14,20 +14,20 @@ ht-degree: 0%
 
 # API de REST para crear y activar paquetes {#id198CF0260Y4}
 
-La siguiente API de REST le permite crear y activar paquetes CRX.
+La siguiente API de REST le permite crear y activar paquetes de CRX.
 
-## Crear y activar el paquete
+## Crear y activar paquete
 
-Una método POST que crea y activa el paquete CRX.
+Método de POST que crea y activa un paquete de CRX.
 
-**Solicitar URL**:
-http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/activate&lt;/port-number\>&lt;/aem-guides-server\>
+**URL de solicitud**:
+http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/activate
 
 **Parámetros**:
-El solicitud consulta consiste en la cadena de reglas JSON. La tipo de contenido del petición POST debe establecerse en `application/json; charset=UTF-8`.
+La consulta de solicitud consiste en la cadena de reglas JSON. El tipo de contenido de la solicitud del POST debe establecerse en `application/json; charset=UTF-8`.
 
 **Ejemplo**:
-En el siguiente ejemplo se muestra la llamada a la API mediante el comando curl:
+El siguiente ejemplo muestra la llamada de API mediante el comando curl:
 
 ```XML
 curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UTF-8"  -k -X POST -d "{[JSON rules string](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}" http://<*aem-guides-server*>:<*port-number*>/bin/fmdita/activate
@@ -40,21 +40,20 @@ curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UT
 
 **Valores válidos**
 
-`preview` o `publish` para Cloud Service y `publish` para software local
+`preview` o `publish` para el Cloud Service y `publish` para el software On-Premise
 
-- Por Cloud Service, si el parámetro contiene un valor no válido, se produce un error en el activación del paquete.
+- Para el Cloud Service, si el parámetro contiene un valor no válido, se produce un error en la activación del paquete.
 
-- En el caso del software local, si el parámetro contiene un valor no válido, se registra el error y la publicación se realiza utilizando el valor predeterminado, `publish`.
+- Para el software On-Premise, si el parámetro contiene un valor no válido, el error se registra y la publicación se realiza con el valor predeterminado `publish`.
 
-Si no define el parámetro opcional, `activationTarget`, se activa utilizando el agente de publicar predeterminado tanto para el software Cloud Service como para el local.
-
-
-
-El siguiente ejemplo muestra la llamada a la API utilizando el comando curl con el parámetro opcional:
+Si no define el parámetro opcional `activationTarget`, se activará usando el agente de publicación predeterminado tanto para el Cloud Service como para el software On-Premise.
 
 
-    &#39;&#39;&#39;XML
+
+El siguiente ejemplo muestra la llamada de API mediante el comando curl con un parámetro opcional:
+
+
+    &quot;XML
     
-    curl -u &lt;*username*>:&lt;*password*> -H &quot;Content-Type: aplicación/json; charset=UTF-8&quot; -k -X POST -d &quot;{[JSON rules string](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}&quot; http://&lt;*aem-guides-server*>:&lt;*port-number*>/bin/fmdita/activate?activationTarget=&#39;&lt;validActivationTargetValue>&#39;
-    &#39;&#39;&#39;
-&lt;/validActivationTargetValue>&lt;/*port-number*>&lt;/*aem-guides-server*>&lt;/*password*>&lt;/*username*>
+    curl -u &lt;*username*>:&lt;*password*> -H &quot;Content-Type: application/json; charset=UTF-8&quot; -k -X POST -d &quot;{[JSON rules string](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}&quot; http://&lt;*aem-guides-server*>:&lt;*port-number*>/bin/fmdita/activate?activationTarget=`&lt;validActivation TargetValue>`
+    &quot;

@@ -1,6 +1,6 @@
 ---
-title: Notas de la versión para [!DNL AEM Guides], versión de enero de 2022
-description: Versión de enero de [!DNL Adobe Experience Manager Guides] as a Cloud Service
+title: Notas de la versión de  [!DNL AEM Guides], enero de 2022
+description: Lanzamiento de enero de  [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
@@ -11,18 +11,18 @@ ht-degree: 0%
 
 ---
 
-# Versión de enero de [!DNL Adobe Experience Manager Guides] as a Cloud Service
+# Lanzamiento de enero de [!DNL Adobe Experience Manager Guides] as a Cloud Service
 
 ## Actualización a la versión de enero
 
-Actualice el actual [!DNL Adobe Experience Manager Guides] as a Cloud Service (denominado posteriormente [!DNL AEM Guides] as a Cloud Service) realizando los siguientes pasos:
+As a Cloud Service Actualice la configuración actual de [!DNL Adobe Experience Manager Guides] (más adelante denominada [!DNL AEM Guides] as a Cloud Service) realizando los siguientes pasos:
 1. Consulte el código Git de los Cloud Service y cambie a la rama configurada en la canalización de Cloud Service correspondiente al entorno que desee actualizar.
-1. Actualizar `<dox.version>` propiedad en `/dox/dox.installer/pom.xml` de su código Git de Cloud Service a 2022.1.78.
-1. Confirme los cambios y ejecute la canalización de Cloud Service para actualizar a la versión de enero de [!DNL AEM Guides] as a Cloud Service.
+1. Actualice la propiedad `<dox.version>` en el archivo `/dox/dox.installer/pom.xml` de su código Git de Cloud Service a 2022.1.78.
+1. Confirme los cambios y ejecute la canalización de Cloud Service para actualizar a la versión de enero del as a Cloud Service [!DNL AEM Guides].
 
 ## Matriz de compatibilidad
 
-En esta sección se muestra la matriz de compatibilidad para las aplicaciones de software compatibles con [!DNL AEM Guides] Versión as a Cloud Service de enero de 2022.
+As a Cloud Service Esta sección enumera la matriz de compatibilidad para las aplicaciones de software compatibles con [!DNL AEM Guides] en la versión de enero de 2022.
 
 ### FRAMEMAKER y FRAMEMAKER PUBLISHING SERVER
 
@@ -34,7 +34,7 @@ En esta sección se muestra la matriz de compatibilidad para las aplicaciones de
 
 ### Conector de oxígeno
 
-| [!DNL AEM Guides] Versión de Cloud | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
+| [!DNL AEM Guides] versión de nube | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2022.1.0 | 2.4.0 | 2.4.0 | 2,2 | 2,2 |
 |  |  |  |  |  |
@@ -63,11 +63,11 @@ Se han introducido muchas mejoras y nuevas funciones en el editor web:
 
 * También se ha agregado compatibilidad con el esquema de temas en el Editor web. Ahora puede crear y utilizar el esquema de asunto mediante el panel Esquema del asunto. Con la adición del esquema de asunto, ahora puede utilizar sus propios metadatos y taxonomía corporativos.
 
-![Régimen del sujeto](assets/subject-scheme-panel.png)
+![Esquema del asunto](assets/subject-scheme-panel.png)
 
 * En esta versión se ha introducido una nueva herramienta de punto interactivo de glosario para administrar los glosarios de forma masiva. Con esta herramienta, puede convertir rápidamente texto en glosario y glosario en términos en lote para un mapa seleccionado o temas abiertos.
 
-![Hotspot de glosario](assets/glossary-hotspot-tool.png)
+![Punto interactivo del glosario](assets/glossary-hotspot-tool.png)
 
 * Funcionalidad de actualización añadida en el panel Contenido reutilizable que le permite actualizar rápidamente el contenido reutilizable en los archivos de referencia.
 * El nuevo indicador de copia de trabajo le muestra si su archivo actual (copia de trabajo) está sincronizado con la versión guardada o no.
@@ -76,7 +76,7 @@ Se han introducido muchas mejoras y nuevas funciones en el editor web:
 
 * El filtro de búsqueda en el panel del repositorio y el cuadro de diálogo de exploración de archivos se han mejorado para ofrecer más opciones de filtrado, que se pueden personalizar aún más.
 
-![Buscar filtros en el repositorio](assets/repository-filter-search.png)
+![Filtros de búsqueda en el repositorio](assets/repository-filter-search.png)
 
 * Ahora puede cargar archivos .docx desde el Editor web.
 
@@ -85,7 +85,7 @@ Se han introducido muchas mejoras y nuevas funciones en el editor web:
 Ahora puede crear y publicar sus documentos en FrameMaker. El FrameMaker se envía con un conector incorporado a Adobe Experience Manager. En FrameMaker, dispone de una interfaz fácil de usar que le permite mantener las versiones de sus documentos en un entorno distribuido y colaborativo.
 
 Una vez creado el contenido, FrameMaker permite publicar los documentos en diferentes formatos: PDF, HTML 5, EPUB y DITA. También puede realizar las distintas operaciones de administración de archivos, como desprotección, desprotección con dependientes, protección, actualización, etc.
-Para crear con FrameMaker en [!DNL AEM Guides] as a Cloud Service versión de FrameMaker de uso 2020.4 y posterior.
+Para crear con FrameMaker en [!DNL AEM Guides], utilice la versión de FrameMaker 2020.4 o superior del as a Cloud Service.
 
 ### Nuevo panel de traducción
 
@@ -103,16 +103,16 @@ Se ha introducido un nuevo panel de traducción en el Editor web con las siguien
 
 * Los autores ahora pueden pasar metadatos de nivel de tema y mapa a la publicación DITA-OT. Esto resulta útil cuando las plantillas de PDF personalizadas están diseñadas para utilizar propiedades de metadatos de archivo como etiquetas, autor, estado del documento, etc.
 
-![Metadatos DITA-OT](assets/custom-meta-data-output-preset.png)
+![metadatos DITA-OT](assets/custom-meta-data-output-preset.png)
 
-* Se ha agregado una nueva configuración para permitir a los usuarios conservar o eliminar las versiones de los temas que se eliminan cuando **Eliminar y crear** AEM se utiliza en la generación de resultados del sitio de la.
+* AEM Se ha agregado una nueva configuración para permitir que los usuarios conserven o eliminen las versiones de los temas que se eliminan cuando se usa la opción **Eliminar y crear** en la generación de resultados del sitio de la.
 
 ### Administración de archivos mejorada
 
 Ahora se pueden ver las siguientes mejoras mientras se trabaja con archivos en AEM Assets:
 * Se ha introducido una nueva experiencia de carga de archivos y un nuevo cuadro de diálogo para elegir una estrategia de resolución de conflictos.
 
-![Conflicto de carga de archivos](assets/file-upload-name-conflict.png)
+![Conflicto de carga de archivo](assets/file-upload-name-conflict.png)
 
 * Capacidad para crear una nueva versión del archivo cargado con la posibilidad de evitar sobrescribir un archivo desprotegido.
 * Ahora puede ver una previsualización de imágenes directamente desde la vista Historial de versiones. Además, para los ficheros DITA y no DITA, el Historial de versiones muestra la información de la versión actual por separado.
@@ -134,8 +134,8 @@ AEM Al actualizar archivos desde el Servidor de en Oxygen, aparece un mensaje de
 
 ### Otras mejoras de las funciones
 
-* Ahora puede crear un nuevo **Proyecto Dita** plantilla bajo el **/apps/projects/templates** ruta.
-* Ahora descargue el predeterminado **ui_config.json** desde los perfiles de carpeta. Esto se puede utilizar para combinar cambios personalizados de los existentes **ui_config.json** al actualizar.
+* Ahora puede crear una nueva plantilla de **proyecto Dita** en la ruta **/apps/projects/templates**.
+* Ahora descargue el archivo predeterminado **ui_config.json** de sus perfiles de carpeta. Se puede usar para combinar cambios personalizados del archivo **ui_config.json** existente al actualizar.
 * No es necesario borrar la caché del explorador aunque haya nuevas versiones de los archivos JS presentes.
 
 ## Problemas solucionados
@@ -163,13 +163,13 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * El atributo conrefend no se actualiza cuando se mueve el archivo de origen. (7698)
 * El trabajo con documentos de tipo de tema de referencia conduce a varios problemas de interfaz de usuario. (7656)
 * Los archivos DITAVAL no se muestran cuando el autor añade ditavalef en un mapa. (7594)
-* Se encuentra espacio inesperado en cada espacio en blanco `<entry>` cuando se agrega el atributo outputclass a `<tgroup>` Elemento. (7532)
-* El botón Fuente no funciona para los temas abiertos a través del panel de mapas. (7465)
+* Se encuentra espacio inesperado en cada elemento `<entry>` vacío cuando se agrega el atributo outputclass al elemento `<tgroup>`. (7532)
+* El botón Source no funciona para los temas abiertos a través del panel de mapas. (7465)
 * La impresión Pretty inserta líneas y espacios en blanco que se pueden ver cuando el archivo se abre en FrameMaker u oxígeno. (7408)
 * AEM Los mapas con href=&quot;/&quot; en cualquiera de los temas no se publican en los sitios de la. (7405)
 * Se han encontrado problemas de rendimiento en el editor cuando el mapa raíz tiene un gran número de keydefs. (7400)
 * El estado del documento de un mapa con plantilla personalizada no se hereda de su perfil de estados correspondiente. (7359)
-* `<tm>` se representa incorrectamente como un elemento de bloque. (7286)
+* El elemento `<tm>` se representó incorrectamente como elemento de bloque. (7286)
 * Las plantillas duplicadas se muestran en el panel de plantillas del editor cuando se crea una nueva plantilla. (5814)
 * Las plantillas definidas en ui_config para imágenes para establecer atributos adicionales no se aplican a los casos de arrastrar y soltar. (5713)
 * Apariencia predeterminada incorrecta de uicontrol en cascada. (5483)
@@ -178,7 +178,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * Una colección de asignaciones recién creada no aparece en la lista, ni siquiera después de actualizar la página.(8603)
 * No se puede cerrar el tema desbloqueado. (8545)
 * Cambiar entre el modo de origen y el de autor marca el tema como sucio y requiere que se vuelva a guardar el contenido.(8524)
-* El panel Reutilizar contenido se bloquea al buscar caracteres especiales `[` o `*` .(8279)
+* El panel Reutilizar contenido se bloquea al buscar caracteres especiales `[` o `*`(8279)
 * El cursor no se muestra en la barra de búsqueda cuando se abre el cuadro de diálogo insertar elemento con el método abreviado de teclado Alt+Entrar.(7912)
 * La opción Buscar solo busca en nombres de archivo y no en contenido. (7784)
 
@@ -209,14 +209,14 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * AEM El carácter de espacio en blanco se agrega automáticamente después de una etiqueta &#39;tm; en la salida del sitio de la. (7964)
 * No se pueden ver los vídeos de YouTube AEM en la salida del sitio de. (7401)
 * El filtro por etiqueta falla en el contenido referenciado después de que el usuario haga clic en examinar todos los temas en la pestaña de línea de base del panel de mapas. (7388)
-* Publicar tema con elemento `<tm>` Tener el valor de propiedad SM o reg se muestra incorrectamente en la salida generada. (7239)
+* El tema de publicación con el elemento `<tm>` con valor de propiedad SM o reg se muestra incorrectamente en la salida generada. (7239)
 * La publicación de línea de base con imagen no selecciona la última versión de la imagen en la salida publicada. (7231)
 * Los temas referenciados relacionados se muestran en la pestaña Línea base. (5424)
 * La publicación incremental de un tema con conkeyref en su título no funciona como se esperaba. (4474)
 * El título de la página no se utiliza para generar la URL de salida aunque se haya marcado esa configuración. (8257)
 * Publicación de línea de base que selecciona la versión actual de las imágenes en lugar del nodo inmovilizado. Esto también se ve si una imagen tiene espacios o caracteres especiales en el nombre del archivo. (8274, 8322)
 * La publicación incremental falla para el mapa DITA con el esquema de asunto de tipo con mapref. (8218)
-* Se agrega un valor nulo cada vez que se agrega una asignación al panel de publicación masiva. (8695)
+* Se agrega nulo cada vez que se agrega un mapa al tablero de Publish en lote. (8695)
 * Al utilizar la publicación de línea de base con imagen como referencia en el tema, la imagen no se publica en la salida. (8564)
 * AEM La publicación falla con una excepción si se elimina la línea de base utilizada en la publicación del sitio de. (8572)
 * La regeneración del tema no funciona. (8091)
@@ -228,7 +228,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * La función de búsqueda guardada (recopilación inteligente) se interrumpe si se añade un predicado DITA a los filtros de búsqueda. (8048)
 * La reversión de la imagen a una versión anterior no funciona. (DXML-7903)
 * La opción Eliminar también está visible para los autores que no tienen permiso para eliminar. (7322)
-* La superposición de CCMS para el Editor de recursos interrumpe el procesamiento de la opción Eliminar. (8093)
+* La superposición de CCMS para el Editor de Assets interrumpe el procesamiento de la opción Eliminar. (8093)
 * No se está eliminando el perfil de documento. (8604)
 * Las referencias se rompen al realizar &quot;Seleccionar todo&quot; y mover el contenido multimedia/digital a otra carpeta. (8621)
 * Se producen referencias incorrectas en el origen al mover los recursos. (8627)
@@ -243,7 +243,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 
 ## Problemas conocidos
 
-El Adobe ha identificado los siguientes problemas conocidos para [!DNL AEM Guides] Versión as a Cloud Service de enero de 2022.
+El Adobe as a Cloud Service ha identificado los siguientes problemas conocidos para la versión de [!DNL AEM Guides] de enero de 2022.
 
 
 ### Problemas conocidos con la solución
@@ -251,19 +251,19 @@ El Adobe ha identificado los siguientes problemas conocidos para [!DNL AEM Guide
 Utilice la solución dada para los siguientes problemas conocidos:
 
 * La autenticación web no funciona para el conector Oxygen en Mac.
-  **Solución**: utilice el conector de oxígeno en Windows por ahora.
+  **Solución alternativa**: por ahora, use el conector de oxígeno en Windows.
 
 * En el navegador Firefox, los comentarios de revisión no se pueden importar sin abrir una vista en paralelo.
-  **Solución**: utilice el explorador Chrome por ahora.
+  **Solución alternativa**: utilice el explorador Chrome por ahora.
 
 * Las referencias se rompen al mover las imágenes o los archivos multimedia que tienen espacio(s) en los nombres de archivo.
-  **Solución**: cambie el nombre del archivo y elimine los espacios del nombre del archivo antes de moverlos.
+  **Solución alternativa**: cambie el nombre del archivo y quite los espacios del nombre del archivo antes de moverlos.
 
-* El tablero de mapas no se carga intermitentemente en la última versión del navegador Chrome.
-  **Solución**: Actualice la página del panel de asignaciones.
+* El tablero de mapas no se carga intermitentemente en la última versión del explorador Chrome.
+  **Solución alternativa**: Actualice la página del panel de asignaciones.
 
 ### Otros problemas conocidos
 
-* Si el oxígeno está conectado con [!DNL AEM Guides] solución que utiliza autenticación web y falla el cierre de sesión.
+* Si Oxygen está conectado con la solución [!DNL AEM Guides] mediante autenticación web, el cierre de sesión falla.
 * Las tareas de revisión no se pueden reasignar a los usuarios.
-* Los problemas están presentes en la IU de recopilación de mapas como si el texto estuviera distorsionado y **Seleccionar todo** La funcionalidad de no funciona correctamente.
+* Hay problemas en la IU de recopilación de mapas, como que el texto está distorsionado y que la funcionalidad **Seleccionar todo** no funciona correctamente.

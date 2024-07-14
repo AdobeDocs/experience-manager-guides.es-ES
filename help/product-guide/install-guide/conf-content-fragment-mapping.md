@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # Creación de una asignación entre un tema y un fragmento de contenido
 
-AEM Guías de proporciona la función para crear una asignación basada en JSON entre un tema y un modelo de fragmento de contenido. Puede utilizar esta asignación para publicar contenido presente en algunos o todos los elementos de un tema en un fragmento de contenido.
+AEM Guides proporciona la función para crear una asignación basada en JSON entre un tema y un modelo de fragmento de contenido. Puede utilizar esta asignación para publicar contenido presente en algunos o todos los elementos de un tema en un fragmento de contenido.
 
 1. Para descargar *contentFragmentMapping.json*, inicie sesión en Adobe Experience Manager como administrador.
-1. Seleccione el vínculo Adobe Experience Manager en la parte superior y elija **Herramientas**.
-1. Seleccione Guías de la lista de herramientas y seleccione la **Perfiles de carpeta**.
-1. Seleccione el **Perfil global** mosaico.
-1. Seleccione el **Configuración del editor XML** y seleccione la pestaña **Editar** en la parte superior.
-1. Seleccione el **Descargar** para descargar el *contentFragmentMapping.json*  en su sistema local. A continuación, puede realizar cambios en el archivo y luego cargarlo.
+1. Seleccione el enlace de Adobe Experience Manager en la parte superior y elija **Herramientas**.
+1. Seleccione Guías de la lista de herramientas y seleccione **Perfiles de carpeta**.
+1. Seleccione el mosaico **Perfil global**.
+1. Seleccione la ficha **Configuración del editor XML** y seleccione el icono **Editar** de la parte superior.
+1. Seleccione el icono **Descargar** para descargar el archivo *contentFragmentMapping.json* en su sistema local. A continuación, puede realizar cambios en el archivo y luego cargarlo.
 
 1. Debe seguir las siguientes validaciones:
 
@@ -94,4 +94,4 @@ Archivo de muestra:
 ]
 ```
 
-Puede publicar todo el tema con la asignación predeterminada. Seleccione el `Full Topic` asignación desde el menú desplegable en **Publicar como fragmento de contenido** y tengan el campo &quot;topicData&quot; en el modelo de fragmento de contenido.
+Puede publicar todo el tema con la asignación predeterminada. Seleccione la asignación `Full Topic` del menú desplegable en el cuadro de diálogo **Publish como fragmento de contenido** y tenga el campo &quot;topicData&quot; en el modelo de fragmento de contenido.

@@ -2,7 +2,8 @@
 title: Icono
 description: Icono
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 5ba41c77-7329-49fc-bce5-02682261ea8e
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 6%
@@ -14,7 +15,7 @@ ht-degree: 6%
 Para mostrar un icono utilizamos el componente, icono.
 El componente de área de texto en la JUI representa un HTML `<icon/>`.
 
-Iconos disponibles en [Iconos de espectro de Adobe](https://spectrum.adobe.com/page/icons/) son compatibles con nuestra aplicación.
+Los iconos disponibles en [Adobe Spectrum Icons](https://spectrum.adobe.com/page/icons/) son compatibles con nuestra aplicación.
 
 ```js title="icon.js"
 const iconJSON =  {

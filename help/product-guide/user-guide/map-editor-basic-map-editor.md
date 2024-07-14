@@ -1,6 +1,6 @@
 ---
 title: Trabajo con el Editor de mapas básico
-description: AEM Aprenda a trabajar con el Editor de mapas básico en las guías de la. Conocer las funciones del editor de mapas básico a nivel de mapa y a nivel de tema. Crear y editar tablas de relaciones en un mapa DITA.
+description: Aprenda a trabajar con el Editor de mapas básico en AEM Guides. Conocer las funciones del editor de mapas básico a nivel de mapa y a nivel de tema. Crear y editar tablas de relaciones en un mapa DITA.
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 feature: Authoring, Map Editor
 role: User
@@ -29,7 +29,7 @@ Siga estos pasos para crear el archivo de asignación:
 
 1. En la interfaz de usuario de Assets, vaya al archivo de asignación que desee editar.
 
-1. Para obtener un bloqueo exclusivo en el archivo de asignación, seleccione el archivo de asignación y haga clic en **Desproteger**.
+1. Para obtener un bloqueo exclusivo en el archivo de asignación, selecciónelo y haga clic en **Desproteger**.
 
    >[!NOTE]
    >
@@ -41,7 +41,7 @@ Siga estos pasos para crear el archivo de asignación:
 
    ![](images/dita-map-01.png){width="800" align="left"}
 
-1. Uso del **Referencias** , vaya a la carpeta que contiene los temas o las asignaciones secundarias que desea agregar.
+1. Con el carril **Referencias**, vaya a la carpeta que contiene los temas o subasignaciones que desee agregar.
 
    >[!NOTE]
    >
@@ -78,15 +78,15 @@ Puede buscar e incluir los temas necesarios desde DAM. Al hacer clic en este ico
 
 Introduzca las palabras clave que quiera buscar; estas palabras clave coinciden en los valores de nombre de archivo, contenido e incluso atributo del tema. Una vez que los resultados de la búsqueda estén disponibles, seleccione los temas deseados y haga clic en el botón Comprobar para añadir los archivos seleccionados al final de la estructura del mapa. Puede filtrar los resultados de búsqueda especificando los parámetros Fecha de modificación.
 
-**B: Grupo**
+**B: grupo**
 
-Haga clic en la casilla de verificación situada a la izquierda de los temas y haga clic en Agrupar en la barra de herramientas para agrupar los temas seleccionados. Para obtener más información sobre la agrupación de temas, consulte la [grupo de temas](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) documentación en Especificación del lenguaje DITA de OASIS.
+Haga clic en la casilla de verificación situada a la izquierda de los temas y haga clic en Agrupar en la barra de herramientas para agrupar los temas seleccionados. Para obtener más información sobre la agrupación de temas, consulte la documentación de [topicgroup](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) en Especificación del lenguaje DITA OASIS.
 
 **C: Eliminar**
 
 Haga clic en la casilla de verificación situada a la izquierda de un tema y haga clic en Eliminar en la barra de herramientas para quitar los temas seleccionados del mapa.
 
-**D: Mostrar números/Ocultar números**
+**D: Mostrar Números/Ocultar Números**
 
 Mostrar la numeración \(u ocultar\) de los temas del mapa.
 
@@ -94,19 +94,19 @@ Mostrar la numeración \(u ocultar\) de los temas del mapa.
 
 Compruebe si la asignación es válida o tiene errores.
 
-**F: Modo predeterminado/Modo XML**
+**F: modo predeterminado/modo XML**
 
-En el **Modo predeterminado**, al hacer clic en un vínculo de tema, se muestra la vista previa del tema en una nueva pestaña. Haciendo clic en **Modo predeterminado** cambia su modo a **Modo XML**. Entrada **Modo XML**, al hacer clic en cualquier lugar de una fila de tema, se muestra el XML subyacente de referencias de tema dentro del tema. En la vista XML de origen, hay un **Sangría automática** que reorganiza el código XML en un formato presentable y fácilmente legible. Si está editando un mapa manualmente, la vista de origen también realiza comprobaciones de validación. Si el XML contiene errores, lo mismo se resalta en la variable **Modo XML** y no se le permite guardar el fichero de mapa DITA. Si desea ver el XML de todo el mapa, haga clic en cualquier lugar fuera del límite del tema.
+En **Modo predeterminado**, al hacer clic en un vínculo de tema, se muestra la vista previa del tema en una nueva pestaña. Al hacer clic en el icono **Modo predeterminado**, se cambia su modo a **Modo XML**. En **Modo XML**, al hacer clic en cualquier lugar de una fila de tema, se muestra el XML subyacente de referencias de tema dentro del tema. En la vista XML de origen, hay una opción **Sangría automática** que reorganiza el código XML en un formato presentable y fácilmente legible. Si está editando un mapa manualmente, la vista de origen también realiza comprobaciones de validación. Si el XML contiene errores, lo mismo se resaltará en el **Modo XML** y no se le permitirá guardar el archivo de asignación DITA. Si desea ver el XML de todo el mapa, haga clic en cualquier lugar fuera del límite del tema.
 
 
-**Nota:** En el modo predeterminado, puede utilizar los métodos abreviados del teclado para deshacer \(`Ctrl+z`\) o rehacer \(`Ctrl+y`\) la última acción.
+**Nota:** En el modo predeterminado puede usar los métodos abreviados de teclado para deshacer \(`Ctrl+z`\) o rehacer \(`Ctrl+y`\) la última acción.
 
 
 ![](images/dita-map-invalid-source.png){width="650" align="left"}
 
 **G: Asignar propiedades**
 
-Muestre el cuadro de diálogo Propiedades del mapa, donde puede establecer los atributos y la información de metadatos del mapa. Para añadir un atributo, haga clic en **Añadir** botón en la esquina inferior izquierda del cuadro de diálogo para obtener el **Atributo** lista desplegable. En la lista, seleccione el atributo que desee añadir. Si el atributo seleccionado tiene valores predefinidos especificados en la DTD, dichos valores se presentarán en una nueva lista desplegable. Puede seleccionar el valor deseado en la lista desplegable. Si no hay ningún valor predefinido, se le mostrará un cuadro de texto para introducir un valor para el atributo seleccionado.
+Muestre el cuadro de diálogo Propiedades del mapa, donde puede establecer los atributos y la información de metadatos del mapa. Para agregar un atributo, haga clic en el botón **Agregar** en la esquina inferior izquierda del cuadro de diálogo para obtener la lista desplegable **Atributo**. En la lista, seleccione el atributo que desee añadir. Si el atributo seleccionado tiene valores predefinidos especificados en la DTD, dichos valores se presentarán en una nueva lista desplegable. Puede seleccionar el valor deseado en la lista desplegable. Si no hay ningún valor predefinido, se le mostrará un cuadro de texto para introducir un valor para el atributo seleccionado.
 
 ![](images/map-properties.png){width="300" align="left"}
 
@@ -120,42 +120,42 @@ Cuando pasa el puntero del ratón sobre un tema o un archivo de submapa en el Ed
 
 Haga clic en los iconos de flecha izquierda o derecha para mover el tema a izquierda o derecha. Al mover un tema de esta manera, se convierte en un \(anidamiento\) secundario o secundario \(eliminar anidamiento\) con respecto al tema anterior.
 
-**B: Propiedades**
+**B: propiedades**
 
-Haga clic en el icono Propiedades para abrir el cuadro de diálogo Propiedades de Topicref. Con este cuadro de diálogo, puede establecer los atributos del tema y la información de metadatos. Para obtener más información sobre el tema estándar atributos y metadatos, consulte la [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentación en Especificación del lenguaje DITA de OASIS.
+Haga clic en el icono Propiedades para abrir el cuadro de diálogo Propiedades de Topicref. Con este cuadro de diálogo, puede establecer los atributos del tema y la información de metadatos. Para obtener más información acerca de los atributos y metadatos del tema estándar, consulte la documentación de [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) en Especificación del lenguaje DITA OASIS.
 
 
 ![](images/map-properties-metadata.png){width="350" align="left"}
 
-**C: Agregar nueva referencia**
+**C: Agregar Nueva Referencia**
 
 Haga clic en el icono Añadir nueva referencia para añadir una nueva referencia como secundaria del tema actual.
 
-**D: Agregar nueva definición de clave**
+**D: Agregar Nueva Definición De Clave**
 
 Haga clic en el icono Clave para añadir una nueva definición de clave. Cualquier clave anulada o una clave que ya se haya definido en el mapa aparece en rojo. Si hace clic en el icono Propiedades en una definición de clave, aparece el cuadro de diálogo Propiedades de Keydef.
 
 ## Trabajo con tablas de relación en el Editor de mapas básico {#id1944B0I0COB}
 
-AEM Los editores de mapas de guías incluyen una potente función que permite crear y editar tablas de relaciones en el mapa DITA.
+Los editores de mapas de AEM Guides incluyen una potente función que permite crear y editar tablas de relaciones en el mapa DITA.
 
 Siga estos pasos para trabajar con tablas de relación en el Editor de mapas básico:
 
-1. En la interfaz de usuario de Assets, vaya al mapa DITA en el que desea crear la tabla de relaciones.
+1. En la interfaz de usuario de Assets, desplácese hasta el mapa DITA en el que desee crear la tabla de relaciones.
 
 1. Haga clic en el mapa DITA para abrirlo en la consola de mapas DITA.
 
-1. Seleccione el **Temas** para ver una lista de los temas disponibles en el mapa DITA.
+1. Seleccione la ficha **Temas** para ver una lista de los temas disponibles en el mapa DITA.
 
    >[!TIP]
    >
-   > La pestaña Temas ofrece la opción de descargar el archivo de asignación con sus dependientes. Para obtener más información, consulte [Exportación de un fichero de mapa DITA](authoring-download-assets.md#id218UBA00IXA).
+   > La pestaña Temas ofrece la opción de descargar el archivo de asignación con sus dependientes. Para obtener más información, consulte [Exportar un archivo de mapa DITA](authoring-download-assets.md#id218UBA00IXA).
 
 1. En la barra de herramientas principal, haga clic en **Editar**.
 
    El archivo de mapa se abre en el Editor de mapas básico.
 
-1. Seleccionar **Relacionable** en la barra de herramientas.
+1. Seleccione **Reltable** en la barra de herramientas.
 
    ![](images/reltable.png){width="650" align="left"}
 
@@ -167,7 +167,7 @@ Siga estos pasos para trabajar con tablas de relación en el Editor de mapas bá
 
    ![](images/create-reltable.png){width="550" align="left"}
 
-1. Para agregar un encabezado a la tabla de relaciones, haga clic en **Añadir nuevo encabezado**.
+1. Para agregar un encabezado a la tabla de relaciones, haga clic en **Agregar nuevo encabezado**.
 
 1. Para agregar una columna a la tabla de relaciones, haga clic en **Agregar una columna**.
 
@@ -190,4 +190,4 @@ Si desea eliminar un tema de la tabla, haga clic en el icono en forma de cruz si
 
 Si desea eliminar la tabla de relaciones, haga clic en cualquier lugar fuera de la tabla de relaciones y haga clic en Eliminar.
 
-**Tema principal:**[ Trabajo con el editor de mapas](map-editor.md)
+**Tema principal:**[ Trabajar con el editor de mapas](map-editor.md)

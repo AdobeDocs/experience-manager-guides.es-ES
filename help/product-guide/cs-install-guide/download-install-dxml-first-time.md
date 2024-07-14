@@ -1,6 +1,6 @@
 ---
-title: AEM Implementar módulo de guías de
-description: AEM Obtenga información sobre cómo implementar el módulo Guías de
+title: Implementación del módulo AEM Guides
+description: Obtenga información sobre cómo implementar el módulo de AEM Guides
 exl-id: 3bb28304-d8e2-45eb-8297-546eed428b8c
 feature: Installation
 role: Admin
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Implementación del módulo Guías de Adobe Experience Manager {#id213BCL00KEV}
+# Implementación del módulo Adobe Experience Manager Guides {#id213BCL00KEV}
 
-Puede empezar implementando guías del Experience Manager a través de Cloud Manager. Para implementar el módulo, puede seguir las instrucciones mencionadas en [AEM Implementación as a Cloud Service de guías de](../release-info/deploy-xml-on-aemaacs.md)
+Puede empezar implementando Experience Manager Guides a través de Cloud Manager. Para implementar el módulo, puede seguir las instrucciones que se mencionan en [AEM Guides as a Cloud Service deployment](../release-info/deploy-xml-on-aemaacs.md)
 
 
 

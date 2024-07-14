@@ -2,13 +2,13 @@
 title: Botón
 description: Botón
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 40e3f254-f94e-4f43-8ff5-2e6e1eb1cb6f
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 5%
 
 ---
-
 
 # Botón
 
@@ -24,8 +24,8 @@ const buttonJSON = {
 };
 ```
 
-Esto producirá un botón con una etiqueta de `Yes, login`. Las otras propiedades incluyen, entre otras, variant, label y on-click.
-> **_NOTA:_**  El `on-<events>` es la sintaxis para invocar los comandos en los controladores.
+Esto producirá un botón con la etiqueta `Yes, login`. Las otras propiedades incluyen, entre otras, variant, label y on-click.
+> **_NOTA:_** `on-<events>` es la sintaxis para invocar los comandos en los controladores.
 
 El botón procesado tendrá este aspecto:
 

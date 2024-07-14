@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Configurar el guardado automático de archivos en el Editor web {#id199CC0J0M5Z}
 
-Una de las funciones más comunes del editor basado en explorador es la capacidad de guardar datos después de un período de tiempo específico. AEM El Editor web de las guías de la aplicación también admite el guardado automático de archivos de temas y mapas en el intervalo de tiempo especificado. Cuando se activa esta función, se guarda la copia de trabajo del tema o del mapa. No se crea una nueva versión del tema o del mapa. Para crear una nueva versión, debe hacer clic en el icono Guardar revisión de la barra de herramientas del Editor Web.
+Una de las funciones más comunes del editor basado en explorador es la capacidad de guardar datos después de un período de tiempo específico. El editor web de AEM Guides también admite el guardado automático de archivos de temas y mapas en el intervalo de tiempo especificado. Cuando se activa esta función, se guarda la copia de trabajo del tema o del mapa. No se crea una nueva versión del tema o del mapa. Para crear una nueva versión, debe hacer clic en el icono Guardar revisión de la barra de herramientas del Editor Web.
 
 La función de guardado automático no está activada de forma predeterminada y debe activarla desde configMgr. Realice los siguientes pasos para habilitar la función de guardado automático en el editor web:
 
@@ -26,11 +26,11 @@ La función de guardado automático no está activada de forma predeterminada y 
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Busque y haga clic en **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** paquete.
+1. Busque y haga clic en el paquete **com.adobe.fmdita.xmleditor.config.XmlEditorConfig**.
 
-1. En el *XmlEditorConfig* configuración, seleccione la **Guardar automáticamente** opción.
+1. En la configuración de *XmlEditorConfig*, seleccione la opción **Guardar automáticamente**.
 
-1. En el **Intervalo de guardado automático** , especifique el intervalo de tiempo en segundos para almacenar en déclencheur la función de guardado automático.
+1. En el campo **Intervalo de guardado automático**, especifique el intervalo de tiempo en segundos para almacenar en déclencheur la característica de guardado automático.
 
 1. Haga clic en **Guardar**.
 

@@ -1,16 +1,17 @@
 ---
 title: 'Traducir contenido en las guías: parte 2'
 description: Aprenda a traducir el contenido a varios idiomas.
-source-git-commit: 87fe100d312fafbfd5b336f7c5ca618bc20cdebb
+exl-id: b61d4432-62bf-4fb5-8264-ac50dc93215b
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 1%
 
 ---
 
-# AEM Traducción de contenido mediante guías de usuario: parte 2
+# Traducción de contenido mediante AEM Guides: parte 2
 
-AEM Guías de incluye potentes funcionalidades que le permiten traducir el contenido a varios idiomas. AEM Las guías de traducción admiten los flujos de trabajo de traducción humana y automática. En esta sesión, exploraremos los últimos desarrollos dentro de la traducción de las guías y entenderemos los mecanismos de marco disponibles y el proceso de traducción con una demostración en vivo.
+AEM Guides incluye potentes funcionalidades que le permiten traducir el contenido a varios idiomas. AEM Guides admite los flujos de trabajo de traducción automática y humana. En esta sesión, exploraremos los últimos desarrollos dentro de la traducción de las guías y entenderemos los mecanismos de marco disponibles y el proceso de traducción con una demostración en vivo.
 
 
 ## Grabación de sesión
@@ -20,9 +21,9 @@ AEM Guías de incluye potentes funcionalidades que le permiten traducir el conte
 ## Lo más destacado
 
 - **Fecha** - 29 de febrero de 2024
-- **Número de asistentes** - 57
+- **Cantidad de asistentes** - 57
 - **Duración** - 60 minutos
-- **Audiencia** - Clientes, socios y empleados de Adobe
+- **Audiencia**: clientes, socios y empleados de Adobe
 
 ## Puntos clave
 
@@ -36,14 +37,14 @@ En esta sesión, aprendió lo siguiente:
 
 ## Recursos relacionados
 
-- **Documentación** - [en el Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/translate-content/translation.html?lang=en)
+- **Documentación** - [en Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/translate-content/translation.html?lang=en)
 
-- **Foro de la comunidad** - Para interacciones de la comunidad específicas de la sesión en Experience League, visite  [AEM Foro de guías de](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Foro de la comunidad**: para interacciones de la comunidad específicas de la sesión en Experience League, visita [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
 >[!NOTE]
 >
-> AEM Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de las Guías de:
+> Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de AEM Guides:
 > - Diciembre de 2024 (para la nube)
 > - 4.4 (para dispositivos que no sean en la nube)
 
@@ -51,4 +52,4 @@ En esta sesión, aprendió lo siguiente:
 
 ## Contáctenos.
 
-Si tiene cualquier pregunta, envíenos un correo electrónico a <techcomm@adobe.com>
+Para cualquier consulta, envíenos un correo electrónico a <techcomm@adobe.com>

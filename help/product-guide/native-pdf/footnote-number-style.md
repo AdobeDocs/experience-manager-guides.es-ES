@@ -1,5 +1,5 @@
 ---
-title: Función de publicación nativa de PDF | Usar estilos personalizados en las notas al pie
+title: Función nativa de PDF Publish | Usar estilos personalizados en las notas al pie
 description: Aprenda a aplicar estilo a los números de las notas al pie.
 exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 feature: Output Generation
@@ -31,8 +31,8 @@ Puede cambiar los estilos de las llamadas y los marcadores de notas al pie y adm
 
 Utilice el ejemplo dado para agregar un corchete antes y después de la llamada y el marcador de la nota al pie:
 
-* Añada el prefijo &quot;(&quot; y el sufijo &quot;)&quot; utilizando el atributo content en `footnote-call` estilo, que agregará los corchetes alrededor del número de nota al pie en el contenido del tema.
-* Añada el prefijo &quot;(&quot; y el sufijo &quot;)&quot; utilizando el atributo content en `footnote-marker` estilo, que agregará los corchetes alrededor del número de nota al pie en la parte inferior de la página.
+* Agregue el prefijo &quot;(&quot; y el sufijo &quot;)&quot; utilizando el atributo content en el estilo `footnote-call`, que agregará los corchetes alrededor del número de nota al pie en el contenido del tema.
+* Agregue el prefijo &quot;(&quot; y el sufijo &quot;)&quot; utilizando el atributo content en el estilo `footnote-marker`, que agregará los corchetes alrededor del número de nota al pie en la parte inferior de la página.
 
 ```css
 ...
@@ -51,7 +51,7 @@ content: "(" counter(footnote, decimal) ")";
 
 <img src="./assets/pdf-output-footer-numbers.png" alt="Pie de página en salida de PDF" width="500" border="2px">
 
-*Agregue corchetes alrededor de la llamada de nota al pie y del marcador de nota al pie.*
+*Agregue corchetes a la llamada de nota al pie y al marcador de nota al pie.*
 
 **Ejemplo 2**:
 
@@ -71,11 +71,12 @@ En la salida, puede ver algo así como:
 
 <img src="./assets/footnote-number-2.png" alt="Pie de página en salida de PDF" width="500" border="2px">
 
-*Agregar un asterisco a una llamada de nota al pie y un marcador.*
+*Agregar asterisco a una llamada y marcador de nota al pie.*
 
 ## Ocultar una llamada de nota al pie
 
-También puede aplicar un estilo a las llamadas de notas al pie con atributos específicos. Por ejemplo, use el estilo siguiente para ocultar una nota al pie con los identificadores: La llamada de nota al pie está oculta en el contenido principal, pero el marcador de nota al pie aparece en la parte inferior de la página.
+También puede aplicar un estilo a las llamadas de notas al pie con atributos específicos. Por ejemplo, utilice el siguiente estilo para ocultar una nota al pie con los ID:
+La llamada de nota al pie está oculta en el contenido principal, pero el marcador de nota al pie aparece en la parte inferior de la página.
 
 ```css
 .fn[id]::footnote-call {
@@ -115,7 +116,7 @@ De forma predeterminada, las notas al pie se numeran continuamente en un documen
 
 ### Diseños de página
 
-Puede especificar un número en los diseños de página para reiniciar la numeración de las notas al pie en las diferentes secciones de un documento de PDF. Por ejemplo, seleccione un número del **Reiniciar la numeración desde** en el panel Propiedades de página para reiniciar la numeración de las notas al pie de cada capítulo.
+Puede especificar un número en los diseños de página para reiniciar la numeración de las notas al pie en las diferentes secciones de un documento de PDF. Por ejemplo, seleccione un número del campo **Reiniciar numeración desde** en el panel Propiedades de página para reiniciar la numeración de las notas al pie de página de cada capítulo.
 
 ### Estilos CSS
 

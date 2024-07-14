@@ -14,24 +14,24 @@ ht-degree: 0%
 
 # Instalación de Adobe Experience Manager {#id213BCI020E8}
 
-AEM Guías de es un complemento que se instala sobre Adobe Experience Manager. AEM AEM La instalación de la aplicación requiere la comprensión de algunos conceptos básicos de la y escenarios de implementación recomendados. AEM Los siguientes vínculos le ayudarán a iniciarse en la instalación de la:
+AEM Guides es un complemento que se instala sobre Adobe Experience Manager. AEM AEM La instalación de la aplicación requiere la comprensión de algunos conceptos básicos de la y escenarios de implementación recomendados. AEM Los siguientes vínculos le ayudarán a iniciarse en la instalación de la:
 
-- [AEM Conceptos básicos de](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
+- AEM [Conceptos básicos de la](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
 
-- [AEM Implementaciones recomendadas de](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
+- AEM [Implementaciones recomendadas de](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
 
 
 >[!IMPORTANT]
 >
-> AEM Si utiliza Java 11 con 6.5.x, es posible que tenga un problema: *JDK 11 causas`NoClassDefFoundError`*. Consulte [JDK 11 causa NoClassDefFoundError \| AEM,5](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) para resolver este problema.
+> AEM Si usa Java 11 con la versión 6.5.x de la, podría tener un problema: *JDK 11 causa`NoClassDefFoundError`*. Consulte [JDK 11 causa NoClassDefFoundError \| AEM Artículo de 6.5](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) para resolver este problema.
 
-Una vez que haya identificado la estrategia de implementación que mejor funciona para su organización, realice el proceso de instalación tal como se describe en la *[Primeros pasos](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* AEM en la documentación de la.
+AEM Una vez que haya identificado la estrategia de implementación que mejor se adapta a su organización, realice el proceso de instalación tal como se describe en la sección *[Introducción](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* de la documentación de.
 
 AEM Si planea actualizar la instancia de, debe seguir la secuencia indicada:
 
-1. AEM Desinstalar guías de la.
+1. Desinstale AEM Guides.
 1. AEM Actualice la instancia de la.
-1. AEM Instale las guías de la.
+1. Instale AEM Guides.
 
 >[!IMPORTANT]
 >

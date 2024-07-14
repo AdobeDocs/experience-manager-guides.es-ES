@@ -1,6 +1,6 @@
 ---
 title: Trabajar con oxígeno
-description: AEM Obtenga información sobre la compatibilidad de Oxygen XML Editor con la creación y publicación de contenido en las Guías de.
+description: Obtenga información sobre la compatibilidad del Editor XML de Oxygen con la creación y publicación de contenido en AEM Guides.
 exl-id: 7c1a610c-e203-4298-9b29-457aef5e8c94
 feature: Authoring, Desktop Tools
 role: User
@@ -17,6 +17,6 @@ Oxygen XML Author viene con funciones de creación fáciles de usar y proporcion
 
 Puede producir resultados en PDF, ePub, HTML y muchos otros formatos, utilizando la misma fuente.
 
-*Póngase en contacto con el equipo de éxito del cliente para habilitar esta función en el entorno. Esta opción no está habilitada como parte de la compatibilidad predeterminada.*
+*Póngase en contacto con el equipo de éxito del cliente para habilitar esta característica en el entorno. Esto no está habilitado como parte de la compatibilidad predeterminada.*
 
-**Tema principal:**[ Creación de contenido con herramientas de escritorio](author-desktop-tools.md)
+**Tema principal:**[ Contenido de autor con herramientas de escritorio](author-desktop-tools.md)

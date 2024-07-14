@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Para crear una recopilación de mapas de activación masiva, realice los siguientes pasos:
 
-1. Seleccionar **Guías** de la lista de herramientas.
+1. Seleccione **Guías** de la lista de herramientas.
 
-1. Seleccione el vínculo Adobe Experience Manager en la parte superior y elija **Herramientas**.
+1. Seleccione el enlace de Adobe Experience Manager en la parte superior y elija **Herramientas**.
 
-1. Seleccione el **Tablero de publicación masiva** mosaico.
+1. Seleccione el mosaico **Tablero de Publish en lotes**.
 
    Por primera vez, se muestra una página de colecciones en blanco. Si ha creado colecciones de activación masiva anteriormente, estas se muestran en esta página.
 
@@ -29,9 +29,9 @@ Para crear una recopilación de mapas de activación masiva, realice los siguien
 
    Se muestra un mensaje de éxito al crear la colección de mapas de activación masiva.
 
-1. Clic **Abrir** en el mensaje de éxito.
+1. Haga clic en **Abrir** en el mensaje de éxito.
 
-1. Seleccionar **Editar** y luego seleccione **Agregar asignaciones**.
+1. Seleccione **Editar** y luego **Agregar asignaciones**.
 
 1. Busque y agregue las asignaciones DITA que desee agregar a la colección de asignaciones de activación masiva.
 
@@ -45,53 +45,53 @@ Para crear una recopilación de mapas de activación masiva, realice los siguien
 
 Los ficheros de mapa DITA se añaden a la recopilación de mapas de activación masiva.
 
-![ colección de activación masiva creada](images/bulk-activation-collection-created.png){width="800" align="left"}
+![ creó la colección de activación masiva](images/bulk-activation-collection-created.png){width="800" align="left"}
 
 ## Pestaña Mapas y ajustes preestablecidos
 
-El **Mapas y ajustes preestablecidos** presenta información en las columnas siguientes:
+La pestaña **Mapas y ajustes preestablecidos** presenta información en las siguientes columnas:
 
-- **Mapa**: muestra el título del fichero de mapa DITA.
-- **Ruta de mapa**: muestra la ruta completa del fichero de mapa DITA.
+- **Mapa**: muestra el título del archivo de mapa DITA.
+- **Ruta de acceso al mapa**: muestra la ruta de acceso completa del archivo de mapa DITA.
 
-- **UUID**: Muestra el identificador único asociado al archivo.
+- **UUID**: muestra el identificador único asociado con el archivo.
 
 - **Idioma**: muestra el código de idioma del mapa DITA.
-- **Preestablecido**: Muestra el título del ajuste preestablecido de salida configurado en el archivo de asignación. También muestra el icono en función del tipo de ajuste preestablecido de salida.
+- **Ajuste preestablecido**: muestra el título del ajuste preestablecido de salida configurado en el archivo de asignación. También muestra el icono en función del tipo de ajuste preestablecido de salida.
 
   >[!NOTE]
   >
-  > La pequeña ![](images/global-preset-icon.svg) El icono indica un ajuste preestablecido de nivel de perfil de carpeta.
+  > El icono pequeño ![](images/global-preset-icon.svg) indica un ajuste preestablecido de nivel de perfil de carpeta.
 
-- **Modificado**: indica si el mapa DITA se actualiza después de la última publicación. En función de esta información, puede decidir si desea activar o no la salida para este mapa DITA.
-- **Generado**: Muestra la fecha y la hora de la última salida generada.
-- **Publicado**: Muestra la fecha y la hora de la última salida publicada (o activada). Si selecciona el vínculo, la variable **Resultados de activación** , que contiene los registros con información sobre la ruta raíz en la que se activa el contenido.
+- **Modificado**: indica si el mapa DITA se ha actualizado después de la última publicación. En función de esta información, puede decidir si desea activar o no la salida para este mapa DITA.
+- **Generado**: muestra la fecha y la hora del último resultado generado.
+- **Publicado**: Muestra la fecha y la hora de la última salida publicada (o activada). Si selecciona el vínculo, se muestra la página **Resultados de la activación**, que contiene los registros con información sobre la ruta raíz en la que se activa el contenido.
 
 ## Pestaña Historial de auditoría
 
-El **Historial de auditoría** presenta información sobre las salidas de mapa activadas en las siguientes columnas:
-- **Mapa**: muestra el título del fichero de mapa DITA.
-- **Ruta de mapa**: muestra la ruta completa del fichero de mapa DITA.
-- **UUID** : Muestra el identificador único asociado al archivo.
+La ficha **Historial de auditoría** presenta información sobre los resultados de mapa activados en las siguientes columnas:
+- **Mapa**: muestra el título del archivo de mapa DITA.
+- **Ruta de acceso al mapa**: muestra la ruta de acceso completa del archivo de mapa DITA.
+- **UUID** : Muestra el identificador único asociado con el archivo.
 - **Idioma**: muestra el código de idioma del mapa DITA.
-- **Preestablecido**: Muestra el título del ajuste preestablecido de salida configurado en el archivo de asignación. También muestra el icono en función del tipo de ajuste preestablecido de salida.
-- **Estado**: muestra el estado de la activación como correcta o incorrecta.
-- **Destino**: si genera la salida en Guías del Experience Manager as a Cloud Service, puede ver el destino de la salida como Publicar o Vista previa.
+- **Ajuste preestablecido**: muestra el título del ajuste preestablecido de salida configurado en el archivo de asignación. También muestra el icono en función del tipo de ajuste preestablecido de salida.
+- **Estado**: muestra el estado de activación como correcto o incorrecto.
+- **Destino**: si genera la salida en Experience Manager Guides as a Cloud Service, puede ver el destino de la salida como Publish o Vista previa.
 
   >[!NOTE]
   >
-  > La pequeña ![](images/global-preset-icon.svg) El icono indica un ajuste preestablecido de nivel de perfil de carpeta.
+  > El icono pequeño ![](images/global-preset-icon.svg) indica un ajuste preestablecido de nivel de perfil de carpeta.
 
 - **Modificado**: indica si el mapa DITA se actualizó después de la última publicación. En función de esta información, puede decidir si desea activar la salida para este mapa DITA.
 - **Publicado**: Muestra la fecha y la hora de la última salida publicada (o activada). Si selecciona el vínculo, se muestra la página Resultados de la activación, que contiene los registros con información sobre la ruta raíz en la que se activa el contenido.
-  ![ ficha historial de auditoría de recopilación de activación masiva creada](images/bulk-collection-audit-history.png){width="800" align="left"}
+  ![ creó la pestaña del historial de auditoría de la colección de activación masiva](images/bulk-collection-audit-history.png){width="800" align="left"}
 
-  *Vea la información sobre las salidas de mapa activadas en la **Historial de auditoría**pestaña.*
+  *Vea la información acerca de los resultados del mapa activado en la ficha **Historial de auditoría**.*
 
 
   >[!NOTE]
   >
-  > Los resultados en la **Historial de auditoría** Las pestañas se ordenan según el **Publicado** columna.
+  > Los resultados de la ficha **Historial de auditoría** se ordenan según la columna **Publicado**.
 
 
 
@@ -99,10 +99,10 @@ El **Historial de auditoría** presenta información sobre las salidas de mapa a
 
 Las siguientes opciones de filtrado están disponibles en el panel izquierdo:
 
-- **Modificado**: puede seleccionar Sí o No. Si selecciona Sí, sólo se mostrarán los mapas DITA modificados. Un mapa modificado es un mapa que se ha generado desde la última vez que se publicó.
-- **Preestablecido**: seleccione un ajuste preestablecido para el que desee filtrar los archivos de asignación. Esta columna muestra el título del ajuste preestablecido de salida configurado en el archivo de asignación. Por ejemplo, si elige *AEM Sitio web de* preestablecido, solo se muestran las asignaciones que tienen el *AEM Sitio web de* Ajuste preestablecido de salida configurado en ellos.
-- **Idioma**: Puede seleccionar cualquiera de los códigos de idioma disponibles y mostrar solo el idioma seleccionado en la pestaña Mapas y ajustes preestablecidos.
+- **Modificado**: Puede seleccionar Sí o No. Si selecciona Sí, sólo se mostrarán los mapas DITA modificados. Un mapa modificado es un mapa que se ha generado desde la última vez que se publicó.
+- **Ajuste preestablecido**: seleccione un ajuste preestablecido para el que desee filtrar los archivos de asignación. Esta columna muestra el título del ajuste preestablecido de salida configurado en el archivo de asignación. AEM AEM Por ejemplo, si elige el ajuste preestablecido *Sitio*, solo se mostrarán los mapas que tengan configurado el ajuste preestablecido de salida *Sitio* en ellos.
+- **Idioma**: puede seleccionar cualquiera de los códigos de idioma disponibles y mostrar solo el idioma seleccionado en la pestaña Mapas y ajustes preestablecidos.
 
-Los filtros se actualizan cuando se cambia del **Mapas y ajustes preestablecidos** a la pestaña **Historial de auditoría** y viceversa.
+Los filtros se actualizan cuando cambia de la ficha **Mapas y ajustes preestablecidos** a la ficha **Historial de auditoría** y viceversa.
 
-**Tema principal: **[Activación masiva de contenido publicado](conf-bulk-activation.md)
+**Tema principal: **[Activación masiva del contenido publicado](conf-bulk-activation.md)

@@ -23,7 +23,10 @@ Método de GET que registra un conector de origen de datos.
 **URL de solicitud**:
 `http://server:port/bin/guides/v1/konnect/config/register?path=<uploaded file path>`
 
-**Parámetro**: |Nombre|Tipo|Descripción|Requerida| ----|----|--------|----------- |`path`AEM |Cadena|Sí|Cadena que señala a una ruta de acceso en el repositorio de. Puede ser una ruta en el `/content/dam or /var/dxml`.|
+**Parámetro**:
+|Nombre|Tipo|Descripción|Requerida|
+----|----|--------|-----------
+AEM |`path`|Cadena|Sí|Cadena que señala a una ruta de acceso en el repositorio de. Puede ser una ruta de acceso en `/content/dam or /var/dxml`.|
 
 **Ejemplo**:\
 `http://host:4502/bin/guides/v1/konnect/config/register?path=/var/dxml/konnect/jira.json`

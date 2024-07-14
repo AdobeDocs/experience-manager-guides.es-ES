@@ -14,9 +14,9 @@ ht-degree: 1%
 
 # Configurar la solicitud para proteger un archivo al cerrar {#id222HC040PE8}
 
-Cuando el usuario intenta cerrar un archivo que se abre en el Editor Web utilizando **Cerrar** en la pestaña del archivo o en el **Cerrar** opción en el menú Opciones, aparece un cuadro de diálogo si el archivo tiene datos sin guardar o una versión sin guardar. Se solicitará al usuario que desbloquee el archivo si está bloqueado.
+Cuando el usuario intenta cerrar un archivo que está abierto en el Editor Web con el botón **Cerrar** de la ficha del archivo o con la opción **Cerrar** del menú Opciones, aparece un cuadro de diálogo si el archivo tiene datos sin guardar o una versión sin guardar. Se solicitará al usuario que desbloquee el archivo si está bloqueado.
 
-El **Desbloquear el archivo** La casilla de verificación no está activada de forma predeterminada y debe activarla desde configMgr. Realice los siguientes pasos para habilitar la opción de forma predeterminada en el Editor web:
+La casilla de verificación **Desbloquear el archivo** no está habilitada de manera predeterminada y debe habilitarla desde configMgr. Realice los siguientes pasos para habilitar la opción de forma predeterminada en el Editor web:
 
 1. Abra la página Configuración de la consola web de Adobe Experience Manager.
 
@@ -26,15 +26,15 @@ El **Desbloquear el archivo** La casilla de verificación no está activada de f
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Busque y haga clic en **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** paquete.
+1. Busque y haga clic en el paquete **com.adobe.fmdita.xmleditor.config.XmlEditorConfig**.
 
-1. Seleccione el **Pedir registro de entrada al cerrar** opción.
+1. Seleccione la opción **Pedir protección al cerrar**.
 
 1. Haga clic en **Guardar**.
 
 
-Cuando esta configuración está habilitada, la variable **Desbloquear el archivo** La casilla de verificación está seleccionada de forma predeterminada en el cuadro de diálogo.
+Cuando esta configuración está habilitada, la casilla de verificación **Desbloquear el archivo** está seleccionada de forma predeterminada en el cuadro de diálogo.
 
-Para obtener más información, consulte *Escenarios de archivo, cerrar y guardar* de la guía as a Cloud Service Uso de guías de Adobe Experience Manager.
+Para obtener más información, consulte la sección *Cerrar archivo y guardar escenarios* en la guía as a Cloud Service sobre el uso de Adobe Experience Manager Guides.
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)

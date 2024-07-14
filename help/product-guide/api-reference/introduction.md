@@ -1,6 +1,6 @@
 ---
 title: Introducción
-description: AEM Introducción a la Guía de referencia de la API para guías de
+description: Introducción a la Guía de referencia de API para AEM Guides
 exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 # Introducción {#id1761C0007W7}
 
-Guías de Adobe Experience Manager \(más adelante denominadas *AEM Guías de*\) es una solución empresarial integral que permite a Adobe Experience Manager AEM \(\) disponer de funciones de la solución de gestión de contenido de componentes \(CCMS\) para la creación y entrega de contenido basado en DITA. AEM AEM Los clientes pueden acceder a los flujos de trabajo de las Guías de usuario de forma programática mediante las API de Guías de usuario para integrarlos con otras aplicaciones empresariales. Estas API también las pueden utilizar los socios de Adobe AEM para mejorar la propuesta de valor de las guías de la mediante la ampliación de su funcionalidad o la integración con otras aplicaciones o servicios.
+Adobe Experience Manager Guides \(más adelante denominado *AEM Guides*\) es una solución empresarial integral que permite a Adobe Experience Manager AEM \(\) disponer de funcionalidades de la solución de administración de contenido de componentes \(CCMS\) para la creación y entrega de contenido basado en DITA. Los clientes pueden acceder a los flujos de trabajo de AEM Guides mediante programación utilizando las API de AEM Guides para integrarlos con otras aplicaciones empresariales. Estas API también las pueden utilizar los socios de Adobe para mejorar la propuesta de valor de AEM Guides ampliando su funcionalidad o integrándola con otras aplicaciones o servicios.
 
-## AEM API de guías de
+## API de AEM Guides
 
-AEM Las API de Guías de están disponibles en dos formatos: HTTP y Java. AEM Estas API exponen las funciones clave de las guías de la aplicación a los desarrolladores de aplicaciones. Con estas funciones, los desarrolladores pueden crear sus propios complementos para ampliar los flujos de trabajo predeterminados. Las API están disponibles para administrar salidas para contenido DITA, trabajar con mapas DITA, añadir atributos condicionales a perfiles de nivel de carpeta y convertir documentos de HTML y de Word a formato DITA.
+Las API de AEM Guides están disponibles en dos formatos: HTTP y Java. Estas API exponen funciones clave de AEM Guides a los desarrolladores de aplicaciones. Con estas funciones, los desarrolladores pueden crear sus propios complementos para ampliar los flujos de trabajo predeterminados. Las API están disponibles para administrar salidas para contenido DITA, trabajar con mapas DITA, añadir atributos condicionales a perfiles de nivel de carpeta y convertir documentos de HTML y de Word a formato DITA.
 
 ## Instalación de los JAR en el repositorio local de Apache Maven {#install-jar-local}
 
-AEM Para poder utilizar los archivos JAR expuestos por las Guías de, debe instalarlos en su repositorio local de Apache Maven. Siga estos pasos para instalar los JAR en su ubicación del repositorio de Maven:
+Para poder utilizar los archivos JAR expuestos por AEM Guides, debe instalarlos en su repositorio local de Apache Maven. Siga estos pasos para instalar los JAR en su ubicación del repositorio de Maven:
 
-1. AEM Extraiga el contenido del archivo \(.zip\) del paquete de guías de la aplicación en el sistema local.
+1. Extraiga el contenido del archivo \(.zip\) del paquete de AEM Guides en el sistema local.
 
 2. En el símbolo del sistema, vaya a la siguiente carpeta en la ruta de contenido extraída:
 
@@ -42,13 +42,13 @@ AEM Para poder utilizar los archivos JAR expuestos por las Guías de, debe insta
    >
    > En el comando anterior, X.x debe reemplazarse por el número de versión real en los parámetros Dfile y Dversion.
 
-4. \(*Opcional*\) Instale la dependencia en el repositorio local del proyecto Maven. Puede conseguirlo creando una carpeta en su proyecto de Maven y ejecutando a continuación el `mvn install` comando proporcionado en el paso anterior con el siguiente parámetro adicional:
+4. \(*Opcional*\) Instale la dependencia en el repositorio local del proyecto Maven. Puede conseguirlo creando una carpeta en su proyecto Maven y luego ejecutando el comando `mvn install` dado en el paso anterior con el siguiente parámetro adicional:
 
    ```
    -DlocalRepositoryPath=<path_to_project_repository>
    ```
 
-   A continuación, para exponer la carpeta de repositorio local del proyecto al proceso de generación de Maven, agregue una `repository` en el archivo pom.xml principal como se muestra a continuación:
+   A continuación, para exponer la carpeta de repositorio local del proyecto al proceso de generación de Maven, agregue un elemento `repository` en el archivo pom.xml principal como se muestra a continuación:
 
    ```XML
    <repositories>
@@ -74,7 +74,7 @@ Después de instalar los JAR de API en el repositorio local de Maven, realice lo
 
    >[!IMPORTANT]
    >
-   > En el siguiente fragmento de código, X.x debe reemplazarse por el número de versión real y el nombre de archivo del JAR de la API. Esta información es la misma que se proporciona en el paso 3 del [proceso de instalación](#install-jar-local).
+   > En el siguiente fragmento de código, X.x debe reemplazarse por el número de versión real y el nombre de archivo del JAR de la API. Esta información será la misma que se proporciona en el paso 3 del [proceso de instalación](#install-jar-local).
 
    ```XML
    <plugin>
@@ -171,7 +171,7 @@ Después de instalar los JAR de API en el repositorio local de Maven, realice lo
 
 Realice los siguientes pasos para configurar y utilizar los JAR de la API de servicio del repositorio público de Maven en sus proyectos:
 
-1. AEM Para utilizar el JAR de la API de servicio en un proyecto, configure el repositorio Maven público de las Guías de en el archivo pom.xml.
+1. Para utilizar el JAR de la API de servicio en un proyecto, configure el repositorio Maven público de AEM Guides en el archivo pom.xml.
 2. Configure el repositorio público de Maven en el archivo settings.xml de Maven de la siguiente manera:
 
    ```XML
@@ -186,7 +186,7 @@ Realice los siguientes pasos para configurar y utilizar los JAR de la API de ser
 
    >[!NOTE]
    >
-   > AEM Utilice la misma versión del JAR de API que el paquete de Guías de que ha instalado en el servidor.
+   > Utilice la misma versión del JAR de API que el paquete de AEM Guides que ha instalado en el servidor.
 
 4. Configure la dependencia de Maven como se muestra a continuación:
 
@@ -199,11 +199,11 @@ Realice los siguientes pasos para configurar y utilizar los JAR de la API de ser
    ```
 
 
-AEM Una vez que el JAR de la API de servicio se agrega como dependencia de proyecto en el archivo pom.xml del proyecto, puede crear y utilizar las API de Java de Guías en el proyecto.
+Una vez agregado el JAR de la API de servicio como dependencia del proyecto en el archivo pom.xml del proyecto, puede generar y utilizar las API de Java de AEM Guides en su proyecto.
 
-## AEM Uso del JAR de API del repositorio de Maven Central para guías de as a Cloud Service
+## Uso del JAR de API del repositorio de Maven Central para AEM Guides as a Cloud Service
 
-AEM Para las guías de la as a Cloud Service, el JAR de la API se ha implementado en Maven Central. Puede utilizar el JAR de la API sin ninguna configuración.
+Para AEM Guides as a Cloud Service, el JAR de la API se ha implementado en Maven Central. Puede utilizar el JAR de la API sin ninguna configuración.
 
 >[!NOTE]
 >
@@ -225,9 +225,9 @@ Para utilizar el JAR de API, debe añadir la dependencia al pom.xml de su proyec
 
 ## Recursos adicionales
 
-AEM A continuación se muestra una lista de otros recursos útiles de las guías de la, que están disponibles en la [Aprendizaje y asistencia](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) página:
+A continuación se muestra una lista de otros recursos útiles de AEM Guides, que están disponibles en la página [Aprendizaje y asistencia](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
 
 - Guía del usuario
 - Guía de instalación y configuración
 - Guía de inicio rápido
-- [Página de archivado de ayuda](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(acceder a la documentación de la versión anterior\)
+- [Página de archivo de ayuda](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(acceder a la documentación de la versión anterior\)

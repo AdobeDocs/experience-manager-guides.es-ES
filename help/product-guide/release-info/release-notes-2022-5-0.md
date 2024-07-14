@@ -1,6 +1,6 @@
 ---
-title: Notas de versión | Guías de Adobe Experience Manager as a Cloud Service, versión de mayo de 2022
-description: Lanzamiento de mayo de las guías de Adobe Experience Manager as a Cloud Service
+title: Notas de versión | Adobe Experience Manager Guides as a Cloud Service, versión de mayo de 2022
+description: Lanzamiento de Adobe Experience Manager Guides as a Cloud Service en mayo
 exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
 feature: Release Notes
 role: Leader
@@ -11,18 +11,18 @@ ht-degree: 0%
 
 ---
 
-# Lanzamiento de mayo de las guías de Adobe Experience Manager as a Cloud Service
+# Lanzamiento de Adobe Experience Manager Guides as a Cloud Service en mayo
 
 ## Actualización a la versión de mayo
 
-Actualice las guías de Adobe Experience Manager actuales as a Cloud Service (más adelante denominadas *AEM Guías de as a Cloud Service*) realizando los siguientes pasos:
+Actualice la configuración actual del as a Cloud Service de Adobe Experience Manager Guides (más adelante denominado *AEM Guides as a Cloud Service*) realizando los siguientes pasos:
 1. Consulte el código Git de los Cloud Service y cambie a la rama configurada en la canalización de Cloud Service correspondiente al entorno que desee actualizar.
-1. Actualizar `<dox.version>` propiedad en `/dox/dox.installer/pom.xml` de su código Git de Cloud Service a 2022.5.144.
-1. Confirme los cambios y ejecute la canalización de Cloud Service AEM para actualizar a la versión de mayo de las guías de los as a Cloud Service.
+1. Actualice la propiedad `<dox.version>` en el archivo `/dox/dox.installer/pom.xml` de su código Git de Cloud Service a 2022.5.144.
+1. Confirme los cambios y ejecute la canalización de Cloud Service para actualizar a la versión de mayo de AEM Guides as a Cloud Service.
 
 ## Matriz de compatibilidad
 
-AEM En esta sección se enumera la matriz de compatibilidad para las aplicaciones de software compatibles con las guías de la aplicación de la versión as a Cloud Service para mayo de 2022 de las Guías de.
+Esta sección enumera la matriz de compatibilidad para las aplicaciones de software compatibles con la versión de mayo de 2022 de AEM Guides as a Cloud Service.
 
 ### FRAMEMAKER y FRAMEMAKER PUBLISHING SERVER
 
@@ -35,7 +35,7 @@ AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir
 
 ### Conector de oxígeno
 
-| AEM Versión de Guides as a Cloud de | Ventanas de conector de oxígeno | Conector de oxígeno Mac |
+| Versión de AEM Guides as a Cloud | Ventanas de conector de oxígeno | Conector de oxígeno Mac |
 | --- | --- | --- |
 | 2022.5.0 | 2.6.9 | 2.6.9 |
 |  |  |  |
@@ -43,11 +43,11 @@ AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir
 
 ## Nuevas funciones y mejoras
 
-AEM En la versión de mayo de, Guides as a Cloud Service proporciona muchas mejoras y nuevas funciones:
+AEM Guides as a Cloud Service ofrece muchas mejoras y nuevas funciones en la versión de mayo:
 
 ### Editor web mejorado
 
-* **Creación de mapas basados en plantillas personalizadas**
+* **Crear asignaciones basadas en plantillas personalizadas**
 
 Ahora dispone de la potente función para crear plantillas de mapas personalizadas. Se pueden utilizar para crear mapas DITA junto con las plantillas de temas y las plantillas de mapas a las que se hace referencia en la plantilla de mapas.
 
@@ -59,7 +59,7 @@ También puede hacer referencia a otras plantillas de mapas y plantillas de tema
 
 La plantilla de mapa personalizada puede ayudarle a replicar muy fácilmente las plantillas de mapa y toda la estructura de carpetas de referencia. Estas plantillas personalizadas son especialmente útiles para crear y recrear varios mapas con estructuras y referencias recursivas.
 
-* El **Insertar palabra clave** se ha mejorado la función de. Ahora puede encontrar más fácilmente una palabra clave para insertarla, ya que las palabras clave se enumeran en orden alfabético. También puede buscar palabras clave escribiendo una cadena de búsqueda en el cuadro Buscar.
+* Se ha mejorado la característica **Insertar palabra clave**. Ahora puede encontrar más fácilmente una palabra clave para insertarla, ya que las palabras clave se enumeran en orden alfabético. También puede buscar palabras clave escribiendo una cadena de búsqueda en el cuadro Buscar.
 
 ![insertar palabra clave](assets/insert-keyword.png)
 
@@ -74,13 +74,13 @@ La plantilla de mapa personalizada puede ayudarle a replicar muy fácilmente las
 ### Proceso de traducción mejorado
 
 * **Capacidad para crear un proyecto de traducción de ámbito**
-Si necesita crear únicamente el ámbito para traducir un proyecto, puede seleccionar **Crear un nuevo proyecto de traducción de ámbito**. Esto no enviará las copias para su traducción y se mantendrá el estado de traducción original de los archivos.
+Si necesita crear solamente el ámbito para traducir un proyecto, puede seleccionar **Crear un nuevo proyecto de traducción de ámbito**. Esto no enviará las copias para su traducción y se mantendrá el estado de traducción original de los archivos.
 
 ![proyecto de traducción de ámbito](assets/scoping-translation-project.png)
 
 * Si rechaza la traducción de uno o más temas de un trabajo de traducción, el estado de traducción En curso de todos los temas rechazados vuelve a su estado original.
 
-* El **Idiomas** La lista muestra las carpetas de idioma junto con sus códigos de idioma. Por ejemplo, francés (fr) y alemán (de).
+* La lista **Idiomas** muestra las carpetas de idioma junto con sus códigos de idioma. Por ejemplo, francés (fr) y alemán (de).
 
 * La función de traducción ahora también admite el código de idioma, que incluye tanto el país como el idioma. Por ejemplo, `fr-fr`, `en-us`.
 
@@ -88,19 +88,19 @@ Si necesita crear únicamente el ámbito para traducir un proyecto, puede selecc
 
 * Al cargar un mapa DITA fuera de la carpeta de idioma, no se registra ninguna excepción en el servidor.
 
-Para obtener más información sobre la traducción, consulte *Traducir documentos desde el editor web* de Uso de las guías de Adobe Experience Manager as a Cloud Service.
+Para obtener más información sobre la traducción, consulte *Traducir documentos desde el editor web* en Uso de Adobe Experience Manager Guides as a Cloud Service.
 
 
 ### Publicación mejorada
 
-* También puede acceder a las **Publicar tablero** en la pestaña Salidas mientras genera resultados desde el panel de asignación. En el tablero de publicación hay disponible una lista de todas las tareas de publicación activas.
+* También puede acceder al **Tablero de Publish** desde la pestaña Salidas mientras genera resultados desde el tablero de asignaciones. Hay disponible una lista de todas las tareas de publicación activas en el panel de Publish.
 
 ![salidas en cola](assets/queued-output.png)
 
 * Desde el panel de mapas puede seleccionar varios archivos DITAVAL para generar contenido condicionado. Puede mantener el orden de los archivos añadiendo o eliminando archivos. AEM También puede pasar el ratón sobre el nombre del archivo para ver la ruta en el repositorio de donde se almacena el archivo.
 
 * **Función obsoleta**
-AEM El formato as a Cloud Service ya no admite la generación de formato de salida DITA para documentos de FrameMaker. Esta opción DITA también se ha eliminado de los ajustes preestablecidos de salida del tablero de mandos Mapa.
+AEM as a Cloud Service ya no admite la generación del formato de salida DITA para documentos de FrameMaker. Esta opción DITA también se ha eliminado de los ajustes preestablecidos de salida del tablero de mandos Mapa.
 
 ### Publicación basada en artículos mejorada
 
@@ -108,7 +108,7 @@ El Editor XML proporciona la capacidad de asignar más de una categoría de prod
 
 ### Otras mejoras de las funciones
 
-* El modo de previsualización también admite `deliveryTarget` atributo de procesamiento condicional en DITA. Está disponible como opción en el filtro desplegable junto con **audiencia**, **plataforma**, **producto**, props, **otras props**.
+* El modo de vista previa también admite el atributo de procesamiento condicional `deliveryTarget` en DITA. Está disponible como opción en el filtro desplegable junto con **audiencia**, **plataforma**, **producto**, props y **otras props**.
 * AEM Se ha proporcionado la opción de sincronizar a la fuerza entre el servidor de en Oxygen y el sistema local.
 
 ## Problemas solucionados
@@ -117,14 +117,14 @@ A continuación se enumeran los errores corregidos en varias áreas:
 
 * En el panel de revisión del Editor Web, el usuario no puede responder a los comentarios de revisión. (9667)
 * La aplicación se queda en blanco al hacer clic en una carpeta en blanco después de actualizarla mediante el menú Opciones. (9639)
-* Se está creando una nueva versión cuando **Guardar y cerrar** el archivo protegido. (9638)
-* El botón Cerrar no se muestra cuando **Guardar como nueva versión** La casilla de verificación está activada. (9637)
+* Se está creando una nueva versión al **guardar y cerrar** el archivo protegido. (9638)
+* El botón Cerrar no se muestra cuando la casilla de verificación **Guardar como nueva versión** está habilitada. (9637)
 * El PDF correcto no se publica si primero se publica mediante un PDF independiente para cada capítulo y, a continuación, un solo archivo de PDF (la opción Crear archivos de PDF independientes está desactivada). (9632)
 * El panel de mapas está generando un problema de metadatos para los usuarios no administradores. (9620)
 * Una vez creada una línea de base, el estado se establece en failed en la interfaz de usuario (la llamada de obtener estado falla) si el servidor tiene más de 10000 archivos. (9608)
 * El almacenamiento de datos grandes en propiedades provoca un error de publicación, ya que el flujo de trabajo de publicación dividido falla. (9586)
-* El estado de los filtros de atributos condicionales no se conserva al cambiar entre Vista previa en origen y de nuevo en modo de Vista previa. (9553)
-* El nombre de la asignación de libros aparece en blanco en la vista de repositorio en caso de que no se proporcione ningún nombre a través de la variable `mainbooktitle` etiqueta. (9538)
+* El estado de los filtros de atributos condicionales no se conserva al cambiar entre la Vista previa a Source y el modo de Vista previa de nuevo. (9553)
+* El nombre del mapa de libros está en blanco en la vista del repositorio en caso de que no se proporcione ningún nombre a través de la etiqueta `mainbooktitle`. (9538)
 * El error HTTP 400 se produce al abrir un archivo cargado con Oxygen. (9535)
 * Los ajustes preestablecidos de un mapa abierto anteriormente permanecen visibles en la pestaña Salida al abrir un mapa sin ajustes preestablecidos definidos. (9523)
 * La funcionalidad de búsqueda para Etiquetas y atributos no funciona en el panel Esquema. (9506)
@@ -133,7 +133,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * Los archivos se desprotegen automáticamente al revertir a cualquier versión. (9482)
 * Las diferencias de marca de tiempo incorrectas se muestran en la IU de Assets al revertir una versión de archivo. (9480)
 * Se añaden varios elementos de los resultados de búsqueda al insertar elementos en el elemento topicref del mapa DITA. (9474)
-* Si la configuración **Crear nueva versión para el archivo cargado** está activado, se crea una nueva versión al revertir y guardar en cualquier nodo inmovilizado. (9473)
+* Si la opción **Crear nueva versión para el archivo cargado** está activada, se crea una nueva versión al revertir y guardar en cualquier nodo inmovilizado. (9473)
 * El texto de visualización de la referencia de clave y de la referencia de clave de contenido no se mantiene al cambiar la dirección URL del vínculo, si el texto de visualización no se añade al definir la referencia de clave. (9458)
 * En el Historial de versiones, el número de versión y la etiqueta no se muestran para la versión actual. (9446)
 * El editor se bloquea cuando se abren ciertos archivos de contenido en el editor. (9443)
@@ -144,12 +144,12 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * El error siempre se registra al crear contenido nuevo. (9388)
 * Los recursos DITA recién creados siempre los extrae otro usuario. (9387)
 * Rename element no funciona correctamente al convertir topicref en glossref. (9380)
-* La etiqueta de versión no se presenta como lista desplegable en **Guardar como nueva versión** diálogo. (9379)
-* Las condiciones no se aplican al cambiar entre distintas versiones de **Mostrar diferencia** desplegable. (9366)
+* La etiqueta de versión no se muestra como lista desplegable en el cuadro de diálogo **Guardar como nueva versión**. (9379)
+* No se están aplicando las condiciones al cambiar entre distintas versiones del menú desplegable **Mostrar diferencia**. (9366)
 * Se producen varios problemas al utilizar los filtros de vista previa. (9365)
 * No se pueden insertar recursos no DITA y DITAVAL en topicref. (9363)
 * La traducción aprobada no se integra al idioma de destino cuando el código de idioma de destino contiene cinco caracteres como `fr_ca`. (9357)
-* No se pueden buscar archivos usando **Buscar archivos en la carpeta** desde el **Más opciones** y la aplicación deja de responder. (9337)
+* No se pueden buscar archivos usando **Buscar archivos en la carpeta** desde el menú **Más opciones** y la aplicación deja de responder. (9337)
 * El cuadro de diálogo Examinar se bloquea si hay un gran número de claves. (9332)
 * Los archivos DITAVAL no funcionan mientras se realiza la publicación basada en artículos. (9330)
 * AEM El orden de las notas al pie es incorrecto en la salida del sitio de la. (9327)
@@ -165,16 +165,16 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * Los problemas de experiencia o funciones se producen al volver a cargar el perfil de carpeta. (9103)
 * Al eliminar el editor de diseño de página, no se cierra desde el panel central de la vista Autor. (9087)
 * El error de validación se produce en el Editor Web al quitar una imagen y guardar la nueva versión del documento. (8985)
-* No se pueden ver todos los `glossrefs` en el panel Glosario (contenido específico). (8886)
-* `xref` sin texto no se muestra en la salida de publicación basada en artículos. (8764)
+* No se pueden ver todos los(as) `glossrefs` en el panel Glosario (contenido específico). (8886)
+* `xref` sin texto no se mostrará en la salida de publicación basada en artículos. (8764)
 * Las referencias se rompen al mover imágenes o archivos multimedia que tienen un espacio en los nombres de archivo. (8624)
 * Las referencias se rompen al elegir `Select All` y mover los archivos multimedia o el contenido DITA a otra carpeta. (8622)
-* Los trabajos de salida con un estado como &quot;Esperando&quot; o &quot;Ejecutando&quot; no se limpian en el panel de publicación.  (8569)
+* Los trabajos de salida con un estado como &quot;Esperando&quot; o &quot;Ejecutando&quot; no se limpian en el panel de Publish.  (8569)
 * La función de depuración de salida falla si hay un gran número de nodos de historial de salida restantes presentes. (8568)
 * El paquete DITA Add on evita la detección de recursos duplicados DAM. (8417)
 * Botón Crear tarea de revisión habilitado para archivos que no son DITA. (8401)
 * El cuadro de diálogo Insertar referencias se abre al agregar subjectref a un mapa mediante la interfaz de usuario. (8212)
-* Se ha encontrado espacio inesperado en cada espacio en blanco `entry` cuando se agrega el atributo outputclass a `tgroup` Elemento. (7532)
+* Se encontró espacio inesperado en cada elemento `entry` vacío cuando se agrega el atributo outputclass al elemento `tgroup`. (7532)
 * El panel Repositorio no muestra los iconos de bloqueo de archivos protegidos o desprotegidos en cuanto se completa la acción. (5817)
 * El icono de bloqueo se muestra en la vista del repositorio incluso cuando el archivo se registra desde el editor.  (5756)
 * AEM Faltan sitios en los ajustes preestablecidos de la interfaz de usuario en la pestaña Salida. (9567)

@@ -1,6 +1,6 @@
 ---
 title: Revisar temas o mapas
-description: AEM Revise de forma eficaz los temas o mapas en las Guías de para una evaluación de contenido sin problemas. AEM Conozca las funciones para autores y revisores en las Guías de.
+description: Revise eficazmente los temas o mapas en AEM Guides para facilitar la evaluación del contenido. Conocer las funciones de los autores y revisores de AEM Guides.
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Casi todos los documentos técnicos deben pasar por múltiples rondas de revisiones. En la mayoría de los casos, un ciclo de revisión implica más de un revisor. Responder a los comentarios de varios revisores siempre es un desafío para los autores. Además, en un escenario de varios revisores, resulta útil que un revisor también pueda ver los comentarios realizados por otros revisores.
 
-AEM Algunas de las principales características que ofrecen las guías de la comunidad de la que se puede acceder a través de la página web de *iniciadores \(o autores\)* son:
+Algunas de las características principales que AEM Guides ofrece a los *iniciadores \(o autores\)* son:
 
 - Cree un proyecto DITA para el flujo de trabajo de revisión.
 - Enviar uno o varios temas para su revisión en una única tarea de revisión.
@@ -35,7 +35,7 @@ AEM Algunas de las principales características que ofrecen las guías de la com
 - Importar automáticamente los comentarios \(eliminados o insertados\) en la versión del tema que se compartió para revisión.
 
 
-Funciones disponibles para *revisores*:
+Características disponibles para *revisores*:
 
 - Obtenga una vista compuesta de los temas compartidos para su revisión.
 - Cambiar entre la vista compuesta y la vista de tema individual.
@@ -51,9 +51,9 @@ Funciones disponibles para *revisores*:
 
 >[!NOTE]
 >
-> Consulte la *Revisar* de la guía de prácticas recomendadas para prácticas recomendadas sobre la creación de tareas de revisión.
+> Consulte la sección *Revisar* de la guía de prácticas recomendadas para conocer las prácticas recomendadas sobre la creación de tareas de revisión.
 
-- **[Creación de un proyecto DITA](authoring-create-dita-project.md)**
+- **[Crear un proyecto DITA](authoring-create-dita-project.md)**
 
 - **[Enviar temas para revisión](review-send-topics-for-review.md)**
 
@@ -63,4 +63,4 @@ Funciones disponibles para *revisores*:
 
 - **[Comentarios de revisión de direcciones](review-address-review-comments.md)**
 
-- **[Administrar tareas de revisión mediante el panel Revisar](review-manage-tasks-review-dashboard.md)**
+- **[Administrar tareas de revisión mediante el panel de revisión](review-manage-tasks-review-dashboard.md)**

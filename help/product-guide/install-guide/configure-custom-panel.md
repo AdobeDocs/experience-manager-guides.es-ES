@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Siga estos pasos para agregar un panel personalizado en el panel izquierdo del editor web:
 
-1. Crear un *clientlib* y añada su archivo JavaScript y CSS a esta carpeta.
-1. Actualice la propiedad categories del *clientlib* asignándole el valor de. *apps.fmdita.xml\_editor.page\_overrides*.
+1. Cree una carpeta *clientlib* y agregue su archivo JavaScript y CSS a esta carpeta.
+1. Actualice la propiedad categories de la carpeta *clientlib* asignándole el valor de *apps.fmdita.xml\_editor.page\_overrides*.
 
 Código de muestra para configurar un panel personalizado:
 

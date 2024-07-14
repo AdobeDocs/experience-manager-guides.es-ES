@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Compatibilidad con variables de idioma
 
-AEM Guías de proporciona la función para utilizar variables de idioma. Puede utilizar variables de idioma para definir cadenas localizadas en la salida del PDF o para localizar cualquier texto estático en las plantillas de salida. Puede utilizar estilos CSS para localizar las cadenas procedentes de un archivo CSS.
+AEM Guides proporciona la función para utilizar variables de idioma. Puede utilizar variables de idioma para definir cadenas localizadas en la salida del PDF o para localizar cualquier texto estático en las plantillas de salida. Puede utilizar estilos CSS para localizar las cadenas procedentes de un archivo CSS.
 
 ## Usar variables de idioma en la salida del PDF
 
@@ -30,21 +30,21 @@ Por ejemplo, puede tener las siguientes maneras de presentar la etiqueta `Note` 
 
 <img alt= "salida al documento que contiene las variables de idioma" src="./assets/language-variable-output.png" width="550">
 
-*Una nota de ejemplo en inglés, francés y alemán.*
+*Una nota de ejemplo en los idiomas inglés, francés y alemán.*
 
 >[!NOTE]
 >
-> AEM Si el valor de cualquier variable no está definido en un idioma determinado, Guías de usuario elige la cadena del idioma de la interfaz de usuario de la aplicación como mecanismo de reserva.
+> Si el valor de cualquier variable no está definido en un idioma determinado, AEM Guides elige la cadena del idioma de la interfaz de usuario (interfaz de usuario de la aplicación) como mecanismo de reserva.
 >
-> Si no ha definido el valor en el idioma de la interfaz de usuario, busca Inglés (`en_us`), o bien escoge el inglés(`en`) y muestra el mismo valor en la salida del PDF.
+> Si no ha definido el valor en el idioma de la interfaz de usuario, busca inglés (`en_us`) o bien selecciona el valor inglés(`en`) y muestra lo mismo en la salida del PDF.
 
 ## Tipos de variables de idioma
 
-AEM Las guías de usuario admiten dos tipos de variables: variables de aplicación y de usuario.
+AEM Guides admite dos tipos de variables: variables de aplicación y de usuario.
 
 ### Variables de la aplicación
 
-AEM Guías de la aplicación proporciona un conjunto de variables de aplicación predefinidas o listas para usar. AEM Puede utilizar estas variables predefinidas para agregar información acerca de un documento específico de las guías de la aplicación de la aplicación de. Por ejemplo, la variable `chapter-number` , si se incluye en una página, muestra el número de capítulo al que pertenece la página. El `author-label` muestra el nombre del autor del documento.
+AEM Guides proporciona un conjunto de variables de aplicación predefinidas o listas para usar. Puede utilizar estas variables predefinidas para agregar información sobre un documento específico de AEM Guides. Por ejemplo, la variable `chapter-number`, si se incluye en una página, muestra el número de capítulo al que pertenece la página. La variable `author-label` muestra el nombre del autor del documento.
 
 >[!NOTE]
 >
@@ -66,46 +66,46 @@ También puede crear nuevas variables de idioma. Por ejemplo, puede crear una va
 ## Añadir una nueva variable de idioma
 
 1. En el Editor web, vaya a la pestaña Output.
-1. Seleccionar **Variables de idioma** <img src="./assets/language-variables.svg" width="25"> en el panel izquierdo.
-1. Seleccionar **Editar** para abrir **Variables de idioma** ventana. La aplicación y las variables de usuario presentes en el idioma seleccionado se enumeran en orden alfabético. Los valores se muestran según el idioma seleccionado. Por ejemplo, si selecciona el idioma francés, &quot;Tip&quot; se muestra como &quot;Conseil&quot;.
-1. Desde el **Idioma** , seleccione el idioma en el que desee editar una variable.
+1. Seleccionar **variables de idioma** <img src="./assets/language-variables.svg" width="25"> en el panel izquierdo.
+1. Seleccione **Editar** para abrir la ventana **Variables de idioma**. La aplicación y las variables de usuario presentes en el idioma seleccionado se enumeran en orden alfabético. Los valores se muestran según el idioma seleccionado. Por ejemplo, si selecciona el idioma francés, &quot;Tip&quot; se muestra como &quot;Conseil&quot;.
+1. En el menú desplegable **Idioma**, seleccione el idioma en el que desee editar una variable.
 
    >[!NOTE]
    >
-   > Si no ve los idiomas deseados, habilite el idioma deseado en la **Configuración de variable de idioma**. Seleccionar configuración <img src="./assets/settings-icon.svg" width="25">  para abrir **Configuración de variables de idioma** diálogo.
+   > Si no ve los idiomas deseados, habilite el idioma deseado en **Configuración de la variable de idioma**. Seleccionar configuración <img src="./assets/settings-icon.svg" width="25"> para abrir el diálogo **Configuración de variables de idioma**.
 
-1. Introduzca el nombre de la variable en la variable **Nombre** y su valor en la columna **Valor** columna.
+1. Escriba el nombre de la variable en la columna **Nombre** y su valor en la columna **Valor**.
 
    >[!NOTE]
    >
-   >Puede utilizar cualquier contenido de HTML como valor de variable para mostrar el valor de la variable en un formato específico. Por ejemplo, puede agregar lo siguiente `<b>` etiqueta al valor de la variable para mostrar el Publicador en negrita.
+   >Puede utilizar cualquier contenido de HTML como valor de variable para mostrar el valor de la variable en un formato específico. Por ejemplo, puede agregar la etiqueta `<b>` al valor de la variable para mostrar el Publicador en negrita.
 
-1. Seleccionar **Añadir variable de idioma** <img src="./assets/add-language-variable.svg" width="25"> para agregar una nueva variable de idioma al idioma seleccionado. Al agregar una variable a un idioma, se agrega automáticamente a todos los idiomas. No se puede crear una variable con el mismo nombre que una variable existente. Se muestra un error.
+1. Seleccionar **Agregar variable de idioma** <img src="./assets/add-language-variable.svg" width="25"> para agregar una nueva variable de idioma al idioma seleccionado. Al agregar una variable a un idioma, se agrega automáticamente a todos los idiomas. No se puede crear una variable con el mismo nombre que una variable existente. Se muestra un error.
 
 >[!NOTE]
 >
-> Si no selecciona. **Añadir variable de idioma**, la variable no se crea y se agrega a la lista
+> Si no selecciona **Agregar variable de idioma**, la variable no se crea ni se agrega a la lista
 
 ## Exportar e importar variables de idioma
 
-Las guías del Experience Manager proporcionan la compatibilidad para exportar e importar las variables de idioma presentes en el idioma seleccionado. Puede exportar fácilmente todas las variables de idioma junto con los valores definidos. Esto incluye variables de aplicación y de usuario. Utilice el archivo exportado para realizar los cambios deseados en los valores o localizarlos en otros idiomas.
+Experience Manager Guides proporciona compatibilidad para exportar e importar las variables de idioma presentes en el idioma seleccionado. Puede exportar fácilmente todas las variables de idioma junto con los valores definidos. Esto incluye variables de aplicación y de usuario. Utilice el archivo exportado para realizar los cambios deseados en los valores o localizarlos en otros idiomas.
 
-También puede importar el archivo XML, que contiene las variables de idioma. Las guías del Experience Manager solo importan las variables de idioma que ya están definidas, incluidas las variables de aplicación y de usuario. No importa ninguna variable que aún no esté definida.
+También puede importar el archivo XML, que contiene las variables de idioma. Experience Manager Guides solo importa las variables de idioma que ya están definidas, incluidas las variables de aplicación y de usuario. No importa ninguna variable que aún no esté definida.
 
 ### Exportar variables de idioma
 
-Para exportar las variables de idioma de un idioma, seleccione el idioma en la lista desplegable y seleccione **Exportar** <img src="./assets/language-variable-export-icon.svg" alt="icono de exportación" width="25">.
-Crea un archivo XML con el formato `language_variable_<ln>` donde `<ln>` es el código del idioma seleccionado. Por ejemplo, `language_variable_en.xml` para inglés y `language_variable_fr.xml` para francés.
+Para exportar las variables de idioma de un idioma, selecciona el idioma en la lista desplegable y selecciona **Exportar** <img src="./assets/language-variable-export-icon.svg" alt="icono de exportación" width="25">.
+Crea un archivo XML con el formato `language_variable_<ln>`, donde `<ln>` es el código del idioma seleccionado. Por ejemplo, `language_variable_en.xml` para inglés y `language_variable_fr.xml` para francés.
 
 >[!NOTE]
 > 
->Si hay cambios sin guardar en las variables de idioma, no se pueden exportar. Guarde los cambios para ver el habilitado **Exportar** <img src="./assets/language-variable-export-icon.svg" alt="icono de importación" width="25"> icono.
+>Si hay cambios sin guardar en las variables de idioma, no se pueden exportar. Guarde los cambios para ver la **exportación** habilitada Icono <img src="./assets/language-variable-export-icon.svg" alt="icono de importación" width="25">.
 
 ### Importar variables de idioma
 
 Para importar las variables de idioma:
 
-1. Seleccione un idioma en la lista desplegable y seleccione **Importar** <img src="./assets/language-variable-import-icon.svg" width="25">.
+1. Seleccione un idioma en el menú desplegable y seleccione **Importar** <img src="./assets/language-variable-import-icon.svg" width="25">.
 2. Busque y seleccione el XML, que contiene las variables de idioma. Por ejemplo, language_variable_en.xml.
 Puede importar archivos XML en el siguiente formato:
 
@@ -127,29 +127,29 @@ Las variables con el mismo ID se importan una vez importado el archivo. Los valo
 
 ### Opciones de una variable de idioma
 
-Pase el ratón sobre la variable para ver **Opciones** menú para ello.
+Pase el ratón sobre la variable para ver el menú **Opciones** correspondiente.
 
 <img width="550" alt="menú opciones para variables de idioma" src="./assets/language-variable-user-options.png">
 
-*Utilice el **Opciones**para eliminar, previsualizar o duplicar una variable de idioma.*
+*Use el menú&#x200B;**Opciones**para eliminar, obtener una vista previa o duplicar una variable de idioma.*
 
-Puede obtener una vista previa de las variables aplicación y usuario. Para ver cómo se muestra el valor de la variable en la salida, seleccione **Previsualizar** desde el **Opciones** de la variable seleccionada.
+Puede obtener una vista previa de las variables aplicación y usuario. Para ver cómo se muestra el valor de la variable en la salida, seleccione **Vista previa** en el menú **Opciones** de la variable seleccionada.
 También puede elegir **Eliminar** o **Duplicar** las variables de usuario. Al eliminar una variable de un idioma, se elimina automáticamente de todos los idiomas.
 
 ### Editar o revertir las variables de la aplicación
 
-También puede editar los valores de una variable de aplicación. Posteriormente, puede revertir una variable de aplicación al valor original. **Revertir variable** <img src="./assets/application-variable-revert.svg" width="25">  aparece para una variable de aplicación con un valor modificado.
+También puede editar los valores de una variable de aplicación. Posteriormente, puede revertir una variable de aplicación al valor original. **Revertir variable** <img src="./assets/application-variable-revert.svg" width="25"> aparece para una variable de aplicación con un valor modificado.
 
 ## Usar variables de idioma en las plantillas de salida
 
-Debe agregar variables de idioma en los documentos localizados. Puede insertar estas variables de idioma dentro del diseño de página que aparece en las distintas páginas de los documentos localizados. Por ejemplo, puede agregar la variable de idioma para la variable `author-name` que aparece en el área de encabezado del diseño de página (o en cualquier otra parte como el pie de página o el cuerpo).
+Debe agregar variables de idioma en los documentos localizados. Puede insertar estas variables de idioma dentro del diseño de página que aparece en las distintas páginas de los documentos localizados. Por ejemplo, puede agregar la variable de idioma para `author-name` que aparece en el área de encabezado del diseño de página (o cualquier otra parte como el pie de página o el cuerpo).
 
 
 
 <img alt="diseño de página de un pdf" src="./assets/language-variable-page-layout.png" width="550">
 
 
-*El autor y el nombre de la marca se localizan en la salida del PDF generada para el idioma francés.*
+*El autor y el nombre de la marca se localizaron en la salida del PDF generada para el idioma francés.*
 
 Para insertar una variable de idioma como su `copyright-label` en el área de encabezado, realice los siguientes pasos:
 
@@ -157,11 +157,11 @@ Para insertar una variable de idioma como su `copyright-label` en el área de en
 
    >[!NOTE]
    >
-   > Ver [Personalizar un diseño de página](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) para abrir un diseño de página para personalizarlo o editarlo.
+   > Ver la sección [Personalizar un diseño de página](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) para abrir un diseño de página y personalizarlo o editarlo.
 
 1. Seleccione el encabezado para activarlo e insertar una variable.
 1. Seleccionar **Insertar variable**  <img src="./assets/insert-language-variable.svg" width="25"> en la barra de herramientas.
-1. En el **Insertar variable** , seleccione el nombre de la variable de idioma que desea insertar y haga clic en **Insertar** para insertarlo en el área de encabezado.
+1. En el elemento emergente **Insertar variable**, seleccione el nombre de la variable de idioma que desea insertar y haga clic en **Insertar** para insertarla en el área de encabezado.
 
    >[!NOTE]
    >
@@ -172,13 +172,13 @@ Para insertar una variable de idioma como su `copyright-label` en el área de en
 
 <img alt="insertar variable en el área de encabezado" src="./assets/language-variable-header.png" width="550">
 
-*El `copyright-label` se ha añadido en el área de encabezado.*
+*Se agregó el `copyright-label` en el área de encabezado.*
 
 ### Aplicar estilo de contenido a variables de idioma
 
-Además del valor que asigna a una variable de idioma, también puede utilizar etiquetas de HTML para mostrar el valor de la variable en un formato específico. Por ejemplo, puede mostrar el valor del `publisher-label` en negrita.
+Además del valor que asigna a una variable de idioma, también puede utilizar etiquetas de HTML para mostrar el valor de la variable en un formato específico. Por ejemplo, puede mostrar el valor de `publisher-label` en negrita.
 
-- También puede dar formato a los estilos de los valores mediante <span> etiqueta. Por ejemplo, con la variable de idioma page-number, puede mostrar el número de página en formato de número romano en inglés y especificar el formato para otros idiomas.
+- También puede dar formato a los estilos de los valores mediante la etiqueta <span>. Por ejemplo, con la variable de idioma page-number, puede mostrar el número de página en formato de número romano en inglés y especificar el formato para otros idiomas.
 
   Valor para inglés:
   `<span data-field="page-number" data-format="upper-roman">1</span>`
@@ -186,11 +186,11 @@ Además del valor que asigna a una variable de idioma, también puede utilizar e
   Valor para tamil:
   `<span data-field="page-number" data-format="tamil">1</span>`
 
-Del mismo modo, puede agregar variables de idioma y dar formato a otros campos enumerados en la función Insertar campos de los diseños de página. Para obtener más información sobre cómo añadir campos, consulte [Añadir campos y metadatos](../native-pdf/design-page-layout.md#add-fields-metadata).
+Del mismo modo, puede agregar variables de idioma y dar formato a otros campos enumerados en la función Insertar campos de los diseños de página. Para obtener más información sobre cómo agregar campos, vea [Agregar campos y metadatos](../native-pdf/design-page-layout.md#add-fields-metadata).
 
 - También puede agregar imágenes localizadas en los valores. Por ejemplo, se puede añadir un icono de imagen en el lenguaje de número de capítulo y obtener imágenes localizadas del icono en la salida del PDF.
 
-  En inglés, el valor de variable de una imagen puede ser similar a `<img src="banner-en.jpg">`y para la misma variable en alemán, puede ser `<img src="banner-de.jpg">`. Por lo tanto, recoge las imágenes en función del idioma.
+  En inglés, el valor de la variable para una imagen puede ser como `<img src="banner-en.jpg">`, y para la misma variable en alemán, puede ser `<img src="banner-de.jpg">`. Por lo tanto, recoge las imágenes en función del idioma.
 
 ## Localice las cadenas mediante estilos CSS
 

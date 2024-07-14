@@ -1,6 +1,6 @@
 ---
 title: Generar resultados de archivos .book o .fm
-description: AEM Obtenga información sobre cómo generar resultados de archivos .book o .fm en las Guías de.
+description: Obtenga información sobre cómo generar resultados de archivos .book o .fm en AEM Guides.
 exl-id: 24132198-52da-4c0b-bee3-5c728ec96995
 feature: Publishing FrameMaker Documents
 role: User
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Siga estos pasos para generar resultados para documentos de FrameMaker:
 
-1. En la interfaz de usuario de Assets, vaya a y haga clic en `.book` o `.fm` archivo que desea publicar.
+1. En la interfaz de usuario de Assets, navegue hasta el archivo `.book` o `.fm` que desee publicar y haga clic en él.
 
    Aparecerá la consola de mapas DITA con la lista de ajustes preestablecidos de salida disponibles para generar resultados.
 
@@ -28,6 +28,6 @@ Siga estos pasos para generar resultados para documentos de FrameMaker:
 
 >[!NOTE]
 >
-> Puede ver el estado actual de la solicitud de generación de resultados haciendo clic en Salidas. Para obtener más información, consulte [Ver el estado de la tarea de generación de resultados](fm-output-view-status.md).
+> Puede ver el estado actual de la solicitud de generación de resultados haciendo clic en Salidas. Para obtener más información, vea [Ver el estado de la tarea de generación de resultados](fm-output-view-status.md).
 
-**Tema principal:**[ Generación de resultados de documentos de FrameMaker](fm-output-generatation.md)
+**Tema principal:**[ Generar salida de documentos de FrameMaker](fm-output-generatation.md)

@@ -18,11 +18,11 @@ La siguiente API basada en Java permite generar resultados para un mapa DITA. Es
 
 Detalles del paquete:
 
-- ID de grupo: **com.adobe.fmdita**
+- Id. de grupo: **com.adobe.fmdita**
 
-- ID del artefacto: **api**
+- ID de artefacto: **api**
 
-- Versión: **3,4**
+- Versión: **3.4**
 
 - Paquete: ****com.adobe.fmdita.api.maps****
 
@@ -32,12 +32,12 @@ Detalles del paquete:
   public class **PublishUtils** extends Object
   ```
 
-  El **`PublishUtils`** contiene un método para generar resultados para uno o varios ajustes preestablecidos de salida.
+  La clase **`PublishUtils`** contiene un método para generar resultados para uno o varios ajustes preestablecidos de salida.
 
 
 ## Generar salida
 
-El ``generateOutput`` Este método genera la salida de un fichero de mapa DITA utilizando los ajustes preestablecidos de salida especificados.
+El método ``generateOutput`` genera resultados para un archivo de mapa DITA utilizando los ajustes preestablecidos de salida especificados.
 
 **Sintaxis**:
 
@@ -48,6 +48,12 @@ String outputName)
 throws GuidesApiException
 ```
 
-**Parámetros**: |Nombre|Tipo|Descripción| |----|----|-----------| |`session`|javax.jcr.Session|Una sesión JCR válida.| |``sourcePath``AEM |Cadena|Ruta de acceso \(en el repositorio de\) del archivo de asignación DITA para el que se debe generar la salida.| |``outputName``|Cadena|Nombre del ajuste preestablecido de salida\(s\) que se va a utilizar para generar la salida. Se pueden especificar varios ajustes preestablecidos de salida utilizando un delimitador de barra vertical \(&quot;\|&quot;\), por ejemplo `aemsite\|pdfoutput`.|
+**Parámetros**:
+|Nombre|Tipo|Descripción|
+|----|----|-----------|
+|`session`|javax.jcr.Session|Una sesión JCR válida.|
+AEM |``sourcePath``|Cadena|Ruta de acceso \(en el repositorio de\) del archivo de asignación DITA para el que se debe generar la salida.|
+|``outputName``|Cadena|Nombre del ajuste preestablecido de salida\(s\) que se va a utilizar para generar la salida. Se pueden especificar varios ajustes preestablecidos de salida utilizando un delimitador de barra vertical \(&quot;\|&quot;\), por ejemplo `aemsite\|pdfoutput`.|
 
-**Excepción**: lanzamientos ``javax.jcr.RepositoryException``, `java.io.IOException`, y `java.lang.Exception`.
+**Excepción**:
+Lanza ``javax.jcr.RepositoryException``, `java.io.IOException` y `java.lang.Exception`.

@@ -2,7 +2,8 @@
 title: Área de texto
 description: Área de texto
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 4c576acc-fa6a-4c41-9b92-443ba51dc8ee
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 3%
@@ -30,8 +31,8 @@ const textAreaJSON =  {
 },
 ```
 
-Aquí, `on-keyup` es la sintaxis para invocar los comandos en los controladores.
-Esto producirá un textArea en el que al pulsar INTRO se invocará el evento `submitName`
+En este caso, `on-keyup` es la sintaxis para invocar los comandos de los controladores.
+Esto producirá un área de texto donde al presionar ENTRAR se llamará al evento `submitName`
 
 El área de texto procesada tendrá este aspecto:
 

@@ -5,18 +5,18 @@ source-wordcount: '240'
 ht-degree: 2%
 
 ---
-# Instalación y configuración de las guías de Adobe Experience Manager 4.2
+# Instalación y configuración de Adobe Experience Manager Guides 4.2
 
 - [Exención de responsabilidad](rebranding-disclaimer.md)
 - [Acerca de esta guía](introduction.md)
 - [Descargar e instalar](download-install.md)
    - [Requisitos técnicos](download-install-technical-requirements.md)
    - [Instalación de Adobe Experience Manager](download-install-AEM.md)
-   - [AEM Descargar e instalar guías de la comunidad de usuarios por primera vez](download-install-aemg-first-time.md)
+   - [Descargue e instale AEM Guides por primera vez](download-install-aemg-first-time.md)
    - [Configurar Dispatcher](download-install-configure-dispatcher.md)
-   - [AEM Verificar la instalación de guías de](download-install-verify-aemg-installation.md)
-   - [Actualizar guías de Adobe Experience Manager](upgrade-xml-documentation.md)
-   - [AEM Desinstalación de guías de](download-install-unistall-aemg.md)
+   - [Verificar la instalación de AEM Guides](download-install-verify-aemg-installation.md)
+   - [Actualizar Adobe Experience Manager Guides](upgrade-xml-documentation.md)
+   - [Desinstalación de AEM Guides](download-install-unistall-aemg.md)
    - [Recommendations para la optimización del rendimiento](download-install-recommend-perf-optimiz.md)
 - [Migración de contenido de no UUID a UUID](migrate-uuid-non-uuid.md)
 - [Administración de usuarios y seguridad](user-admin-sec.md)
@@ -43,7 +43,7 @@ ht-degree: 2%
    - [Configurar la solicitud para proteger un archivo al cerrar](conf-checkin-file-close.md)
    - [Configurar los caracteres especiales permitidos](conf-special-chars.md)
    - [Generar automáticamente ID de elementos](auto-generate-ids.md)
-   - [AEM Personalizar diccionario predeterminado](customize-aem-custom-dictionary.md)
+   - [AEM Personalizar el diccionario predeterminado de](customize-aem-custom-dictionary.md)
    - [Configuración de filtros de texto](config-text-filters.md)
    - [Configuración del número de LimitReads de una consulta](conf-query-limitreads.md)
    - [Instalación de paquetes para la publicación basada en artículos](configure-article-based-publishing.md)

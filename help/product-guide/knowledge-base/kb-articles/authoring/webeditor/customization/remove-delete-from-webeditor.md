@@ -1,21 +1,21 @@
 ---
 title: Eliminar la opción "Eliminar" del menú contextual del archivo en el editor web para usuarios específicos
 description: Aprenda a personalizar el editor web eliminando la opción "Eliminar" del menú contextual del archivo para usuarios/grupos específicos
-source-git-commit: aacc04e2fb6ca061825e5e219ad6e03bf711b3d0
+exl-id: 31b4dd53-3938-42e1-bbc6-64806d668696
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
-
 # Quitar la opción &quot;Eliminar&quot; del menú contextual del archivo en el editor web
 
-AEM En este artículo aprenderemos a ocultar la opción &quot;Eliminar&quot; del menú contextual del archivo en el Editor Web de guías para usuarios o grupos específicos. Para otras personalizaciones en las opciones del menú contextual de archivo, consulte Extensión de las guías. Se pueden encontrar más detalles [aquí](https://github.com/adobe/guides-extension/tree/main).
+En este artículo aprenderemos a ocultar la opción &quot;Eliminar&quot; del menú contextual de archivos en AEM Guides Web Editor para usuarios o grupos específicos. Para otras personalizaciones en las opciones del menú contextual de archivo, consulte Extensión de las guías. Se pueden encontrar más detalles [aquí](https://github.com/adobe/guides-extension/tree/main).
 
 Como puede ver en el siguiente fragmento, el menú contextual del archivo tiene la opción &#39;Eliminar&#39; disponible para este usuario específico.
 
-![Menú contextual Archivo con Eliminar](../../../assets/authoring/file-contextmenu-Delete.png)
+![Menú contextual de archivo con Eliminar](../../../assets/authoring/file-contextmenu-Delete.png)
 
 Ahora veamos cómo podemos ocultar la opción &quot;Eliminar&quot; para este usuario.
 
@@ -28,7 +28,7 @@ Ahora veamos cómo podemos ocultar la opción &quot;Eliminar&quot; para este usu
 - Incluya privilegios &quot;jcr:removeChildNodes&quot; y &quot;jcr:removeNode&quot;.
 - Elija &quot;Tipo de permiso&quot; como &quot;denegado&quot; y haga clic en &quot;Agregar&quot; como se muestra a continuación.
 
-![Permiso de usuario Denegar ACE](../../../assets/authoring/permission-ACE-Delete.png)
+![Permiso de usuario denegado ACE](../../../assets/authoring/permission-ACE-Delete.png)
 
 ![Lista de control de acceso en permisos](../../../assets/authoring/delete-acl.png)
 
@@ -42,7 +42,7 @@ Ahora veamos cómo podemos ocultar la opción &quot;Eliminar&quot; para este usu
 
 El menú contextual del archivo ahora tendrá este aspecto:
 
-![Menú contextual Archivo sin Eliminar](../../../assets/authoring/file-contextmenu-Delete-removed.png)
+![Menú contextual de archivo sin eliminar](../../../assets/authoring/file-contextmenu-Delete-removed.png)
 
 ```
 Please note that these steps would also remove 'move' and 'rename' options from the Web Editor as they are also tied to delete process at the backend.

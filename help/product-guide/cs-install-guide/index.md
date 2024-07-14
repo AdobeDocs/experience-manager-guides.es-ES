@@ -5,14 +5,14 @@ source-wordcount: '227'
 ht-degree: 2%
 
 ---
-# Instalación y configuración as a Cloud Service de Adobe Experience Manager Guides
+# Instalación y configuración de Adobe Experience Manager Guides as a Cloud Service
 
 - [Exención de responsabilidad](rebranding-disclaimer.md)
 - [Acerca de esta guía](introduction.md)
 - [Descargar e instalar](download-install.md)
-   - [AEM Implementar módulo de guías de](download-install-dxml-first-time.md)
+   - [Implementación del módulo AEM Guides](download-install-dxml-first-time.md)
    - [Configurar Dispatcher](download-install-configure-dispatcher.md)
-   - [AEM Verificar la instalación de guías de](download-install-verify-dxml-installation.md)
+   - [Verificar la instalación de AEM Guides](download-install-verify-dxml-installation.md)
    - [Anulaciones de configuración](download-install-additional-config-override.md)
    - [Recommendations para la optimización del rendimiento](download-install-recommend-perf-optimiz.md)
 - [Administración de usuarios y seguridad](user-admin-sec.md)
@@ -39,7 +39,7 @@ ht-degree: 2%
    - [Configurar la solicitud para proteger un archivo al cerrar](conf-checkin-file-close.md)
    - [Configurar los caracteres especiales permitidos](conf-special-chars.md)
    - [Generar automáticamente ID de elementos](auto-generate-ids.md)
-   - [AEM Personalizar diccionario predeterminado](customize-aem-custom-dictionary.md)
+   - [AEM Personalizar el diccionario predeterminado de](customize-aem-custom-dictionary.md)
    - [Configuración de filtros de texto](config-text-filters.md)
    - [Configurar filtros para cuadro de diálogo de exploración de archivos](conf-custom-file-filters.md)
    - [Instalación de paquetes para la publicación basada en artículos](configure-article-based-publishing.md)

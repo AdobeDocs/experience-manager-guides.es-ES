@@ -1,5 +1,5 @@
 ---
-title: Función de publicación nativa de PDF | Usar JavaScript para trabajar con contenido o estilo
+title: Función nativa de PDF Publish | Usar JavaScript para trabajar con contenido o estilo
 description: Aprenda a crear hojas de estilo de uso y a crear estilos para el contenido.
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
@@ -14,12 +14,12 @@ ht-degree: 1%
 
 # Usar JavaScript para trabajar con contenido o estilo
 
-La función Publicación de PDF nativo permite ejecutar JavaScript para manipular el contenido o el estilo aplicados al contenido antes de que se genere el PDF final. Esta función le proporciona un control completo sobre cómo se genera la salida final. Por ejemplo, es posible que desee agregar información de aviso legal a la salida del PDF, que reside en otro PDF. Con JavaScript, puede añadir la información de aviso legal una vez que el PDF se haya creado para el contenido base, pero antes de que se genere el PDF final.\
-Para admitir la ejecución de JavaScript, la función de publicación de PDF nativo le ofrece las siguientes funciones de devolución de llamada:
+La función Publicación de PDF nativo permite ejecutar JavaScript para manipular el contenido o el estilo aplicados al contenido antes de que se genere el PDF final. Esta función le proporciona un control completo sobre cómo se genera la salida final. Por ejemplo, es posible que desee agregar información de aviso legal a la salida del PDF, que reside en otro PDF. Con JavaScript, puede añadir la información de aviso legal una vez que se haya creado el PDF para el contenido base, pero antes de que se genere el PDF final.\
+Para admitir la ejecución de JavaScript, la característica Publicación nativa de PDF le ofrece las siguientes funciones de devolución de llamada:
 
-* `window.pdfLayout.onBeforeCreateTOC(callback)`: Esta función de llamada de retorno se ejecuta antes de que se genere la tabla de contenido.
-* `window.pdfLayout.onBeforePagination(callback)`: Esta función de llamada de retorno se ejecuta después de generar la TDC, pero antes de que se añadan saltos de página en el PDF.
-* `window.pdfLayout.onAfterPagination(callback)`: Esta función de llamada de retorno se ejecuta después de añadir la tabla de contenido y los saltos de página en el PDF.
+* `window.pdfLayout.onBeforeCreateTOC(callback)`: esta función de devolución de llamada se ejecuta antes de que se genere la TDC.
+* `window.pdfLayout.onBeforePagination(callback)`: esta función de llamada de retorno se ejecuta después de generar la TDC, pero antes de que se agreguen los saltos de página en el PDF.
+* `window.pdfLayout.onAfterPagination(callback)`: esta función de llamada de retorno se ejecuta después de agregar la TDC y los saltos de página en el PDF.
 
 >[!NOTE]
 >
@@ -30,11 +30,11 @@ En función del tipo de contenido o modificación de estilo que desee realizar, 
 En el ejemplo siguiente, la posición de los títulos de las figuras cambia de arriba a abajo de las imágenes. Para ello, debe habilitar la opción de ejecución de JavaScript en el ajuste preestablecido. Para ello, realice los siguientes pasos:
 
 1. Abra la programación para editarla.
-1. Vaya a la **Avanzadas** pestaña.
-1. Seleccione el **Habilitar JavaScript** opción.
+1. Vaya a la ficha **Avanzado**.
+1. Seleccione la opción **Habilitar JavaScript**.
 1. Guarde el ajuste preestablecido y cierre.
 
-A continuación, cree un archivo JavaScript con el siguiente código y guárdelo en la carpeta Recursos de la plantilla:
+A continuación, cree un archivo JavaScript con el siguiente código y guárdelo en la carpeta Resources de su plantilla:
 
 ```css
 ...
@@ -63,9 +63,9 @@ window.addEventListener('DOMContentLoaded', function () {
 
 >[!NOTE]
 >
->El `window.addEventListener('DOMContentLoaded', function ()` se debe llamar a la función antes de utilizar las funciones de llamada de retorno.
+>Se debe llamar a la función `window.addEventListener('DOMContentLoaded', function ()` antes de utilizar las funciones de devolución de llamada.
 
-A continuación, se debe llamar a esta secuencia de comandos desde un archivo de plantilla que se utiliza para generar la salida del PDF. Para nuestro ejemplo, lo añadiremos en la plantilla del índice. Asegúrese de que la variable `<script>` se añade dentro de un `<div>` dentro de `<body>` etiqueta. Si lo agrega en el `<head>` o fuera del `<body>` , el script no se ejecutará.
+A continuación, se debe llamar a esta secuencia de comandos desde un archivo de plantilla que se utiliza para generar la salida del PDF. Para nuestro ejemplo, lo añadiremos en la plantilla del índice. Asegúrese de que la etiqueta `<script>` se agrega dentro de una etiqueta `<div>` predefinida dentro de la etiqueta `<body>`. Si lo agrega en la etiqueta `<head>` o fuera de la etiqueta `<body>`, el script no se ejecutará.
 
 <img src="./assets/js-added-resources-template.png" width="500">
 

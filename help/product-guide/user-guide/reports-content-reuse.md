@@ -1,6 +1,6 @@
 ---
 title: Informe de reutilización de contenido
-description: AEM Obtenga información sobre cómo ver el informe de reutilización de contenido en las Guías de. Genere el informe para buscar el porcentaje de reutilización de contenido.
+description: Obtenga información sobre cómo ver el informe de reutilización de contenido en AEM Guides. Genere el informe para buscar el porcentaje de reutilización de contenido.
 exl-id: ccae4303-75b1-4077-829a-7ef6a14fd8ad
 feature: Report Generation
 role: User
@@ -23,15 +23,15 @@ Siga estos pasos para ver el informe de reutilización de contenido:
 
 1. Haga clic en el vínculo Adobe Experience Manager en la parte superior y elija **Herramientas**.
 
-1. Seleccionar **Guías** de la lista de herramientas.
+1. Seleccione **Guías** de la lista de herramientas.
 
-1. Haga clic en **Informe de reutilización de contenido** mosaico.
+1. Haga clic en el mosaico **Informe de reutilización de contenido**.
 
-1. Clic **Examinar** para elegir una ruta de acceso donde residen los temas o escriba la ruta de acceso manualmente.
+1. Haga clic en **Examinar** para elegir una ruta de acceso donde residan los temas o escriba la ruta manualmente.
 
    El informe se genera analizando el contenido de las carpetas principal y todas las secundarias.
 
-1. Clic **Generar informe** para obtener el informe de reutilización de contenido.
+1. Haga clic en **Generar informe** para obtener el informe de reutilización de contenido.
 
    ![](images/content-reuse-uuid.png){width="800" align="left"}
 
@@ -47,13 +47,13 @@ Siga estos pasos para ver el informe de reutilización de contenido:
 
       - **Título**: título del tema. Al hacer clic en el vínculo del título del tema, se abre la vista previa del tema.
 
-      - **UUID**: el identificador único universal \(UUID\) del archivo.
+      - **UUID**: El identificador único universal \(UUID\) del archivo.
 
-      - **Tamaño**: Tamaño de los archivos en bytes.
+      - **Tamaño**: tamaño de los archivos en bytes.
 
-      - **Estado**: el estado actual del documento (borrador, en revisión o revisado).
+      - **Estado**: el estado actual del documento: Borrador, En revisión o Revisado.
 
-      - **Número de veces reutilizadas**: Número de veces que se ha reutilizado el tema correspondiente. Esto se calcula como la suma total de las entradas de las columnas Referenciado por menos 1.
+      - **Número de veces que se reutilizó**: Número de veces que se reutilizó el tema correspondiente. Esto se calcula como la suma total de las entradas de las columnas Referenciado por menos 1.
 
       - **Referido por**: Temas en los que se ha hecho referencia al tema correspondiente. Aquí, solo se tienen en cuenta las referencias directas \(primer nivel\). Los temas múltiples se separan con comas. El UUID del archivo al que se hace referencia también se menciona entre corchetes. Al hacer clic en el vínculo del título del tema, se abre la vista previa del tema.
 

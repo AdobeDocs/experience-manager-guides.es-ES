@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # Generar automáticamente ID de elementos {#id20CIL40016I}
 
-AEM Guías de documentos genera un ID de documento para cualquier documento nuevo que cree. Por ejemplo, al crear un mapa DITA, un ID como `map.ditamap_random_digits` se asigna al ID del mapa. También puede definir elementos en los que se genera y asigna automáticamente un ID.
+AEM Guides genera un ID de documento para cualquier documento nuevo que cree. Por ejemplo, al crear un mapa DITA, se asigna un identificador como `map.ditamap_random_digits` al identificador del mapa. También puede definir elementos en los que se genera y asigna automáticamente un ID.
 
-AEM Guías de proporciona una configuración sencilla en la que debe definir los elementos en los que se genera automáticamente un ID y un patrón para el ID. De forma predeterminada, algunos elementos como `section`, `table`, `ul`, `ol`, están configuradas para la generación automática de ID. AEM Puede añadir otros elementos a esta lista para que, cada vez que estos elementos se inserten en un documento, las Guías de generen y asignen un ID basado en el patrón determinado
+AEM Guides proporciona ajustes de configuración sencillos en los que debe definir los elementos en los que se genera automáticamente un ID y un patrón para el ID. De manera predeterminada, algunos elementos como `section`, `table`, `ul`, `ol`, están configurados para la generación automática del identificador. Puede añadir otros elementos a esta lista para que, cada vez que se inserten en un documento, AEM Guides genere y asigne un ID basado en el patrón determinado
 
-Siga las instrucciones que se indican en [Anulaciones de configuración](download-install-additional-config-override.md#) para crear el archivo de configuración. En el archivo de configuración, proporcione los siguientes detalles \(property\) para configurar los ID de elementos generados automáticamente:
+Siga las instrucciones indicadas en [Anulaciones de configuración](download-install-additional-config-override.md#) para crear el archivo de configuración. En el archivo de configuración, proporcione los siguientes detalles \(property\) para configurar los ID de elementos generados automáticamente:
 
 | PID | Clave de propiedad | Valor de propiedad |
 |---|------------|--------------|
@@ -28,6 +28,6 @@ Para configurar un patrón para un ID generado automáticamente, cree un archivo
 
 | PID | Clave de propiedad | Valor de propiedad |
 |---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.pattern` | El valor predeterminado de este campo es `${elementName}_${id}`. El `${elementName}` El valor se reemplaza con el nombre del elemento. El `${id}` genera un número secuencial para el elemento. Por ejemplo, si asigna al elemento de párrafo ID generados automáticamente, el primer párrafo del tema o documento obtendrá un ID como p\_1, el siguiente párrafo obtendrá p\_2, y así sucesivamente. Sin embargo, en otro documento, se reinicia el proceso de generación de ID. Esto significa que en un documento diferente, ID como p\_1 y p\_2 se pueden asignar a elementos de párrafo. **Valor predeterminado**: ``${elementName}_${id}`` |
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.pattern` | El valor predeterminado de este campo está establecido en `${elementName}_${id}`. El valor `${elementName}` se reemplaza con el nombre del elemento. La variable `${id}` genera un número secuencial para el elemento. Por ejemplo, si asigna al elemento de párrafo ID generados automáticamente, el primer párrafo del tema o documento obtendrá un ID como p\_1, el siguiente párrafo obtendrá p\_2, y así sucesivamente. Sin embargo, en otro documento, se reinicia el proceso de generación de ID. Esto significa que en un documento diferente, ID como p\_1 y p\_2 se pueden asignar a elementos de párrafo. **Valor predeterminado**: ``${elementName}_${id}`` |
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)

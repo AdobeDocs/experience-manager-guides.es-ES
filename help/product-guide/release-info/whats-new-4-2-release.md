@@ -1,6 +1,6 @@
 ---
-title: Notas de versión | Novedades de la versión 4.2 de las guías de Adobe Experience Manager
-description: Conozca las funciones nuevas y mejoradas de las versiones 4.2 de las guías de Adobe Experience Manager
+title: Notas de versión | Novedades de la versión 4.2 de Adobe Experience Manager Guides
+description: Conozca las funciones nuevas y mejoradas de las versiones 4.2 de Adobe Experience Manager Guides
 exl-id: 46367ccf-58ff-4889-8314-cdd5bf5d0f1d
 feature: What's New
 role: Leader
@@ -11,19 +11,19 @@ ht-degree: 0%
 
 ---
 
-# Novedades de la versión 4.2 de las guías de Adobe Experience Manager (febrero de 2023)
+# Novedades de la versión 4.2 de Adobe Experience Manager Guides (febrero de 2023)
 
-Este artículo cubre las funciones nuevas y mejoradas de la versión 4.2 de las guías de Adobe Experience Manager (que posteriormente se denominarán *AEM Guías de*).
+Este artículo cubre las funciones nuevas y mejoradas de la versión 4.2 de Adobe Experience Manager Guides (más adelante denominada *AEM Guides*).
 
-Para obtener más información sobre las instrucciones de actualización, la matriz de compatibilidad y los problemas corregidos en esta versión, consulte la [Notas de versión](release-notes-4-2.md) artículo.
+Para obtener más información sobre las instrucciones de actualización, la matriz de compatibilidad y los problemas corregidos en esta versión, consulte el artículo [Notas de la versión](release-notes-4-2.md).
 
 ## Generar informes desde el editor web
 
-AEM Las guías de usuario incluyen una función en el editor web que permite comprobar la integridad general de los documentos técnicos y generar informes para ellos.
+AEM Guides incluye una función en el editor web que permite comprobar la integridad general de los documentos técnicos y generar informes para ellos.
 Puede ver la lista de temas y administrar los metadatos de todas las referencias para el mapa actual desde el
-**Informes** en el Editor Web.
+Ficha **Informes** en el editor web.
 
-**Generar la vista Lista de temas**
+**Generar vista de lista de temas**
 
 Puede generar la Lista de temas que proporciona información detallada sobre los temas, como el tipo de referencia, el estado del documento y el autor. También puede generar el CSV para descargar la instantánea actual de los temas en el mapa DITA.
 
@@ -46,26 +46,27 @@ AEM Ahora, las guías de usuario de proporcionan un UX mejorado que le ayuda a r
 * Barra de herramientas contextual que le ayuda a resaltar o tachar texto rápidamente.
 * Menú Opciones para editar o eliminar sus propios comentarios.
 * Para los comentarios obsoletos, tiene acceso a la vista en paralelo que le ayuda a comparar la versión anterior del tema con la versión de revisión actual
-* Al utilizar los filtros, los comentarios del panel derecho se filtran según la selección y el número de comentarios del panel izquierdo se actualiza en consecuencia.
+* Al utilizar los filtros, los comentarios del panel derecho se filtran según la selección y el
+El número de comentarios del panel izquierdo se actualiza en consecuencia.
 
 
 <img alt="revisar tarea" src="assets/comment-pop-up-panel.png" width="600">
 
 
-Para obtener más información, consulte la *Revisar temas o mapas* de la guía Uso de guías de Adobe Experience Manager.
+Para obtener más información, consulte la sección *Revisar temas o mapas* en la guía Usar Adobe Experience Manager Guides.
 
 ## Mejoras de traducción
 
 Ahora tiene mejoras más fáciles de usar en el panel de traducción que le ayudan a traducir fácilmente sus documentos desde el Editor web.
 
 
-**Columna Etiqueta de versión añadida al panel de traducción**
+Se agregó la columna **Etiqueta de versión al panel de traducción**
 
 En el panel de traducción, también puede ver la columna Etiqueta de versión. Muestra la etiqueta de la versión seleccionada del archivo de origen. Esto puede ayudarle a seleccionar todos los archivos con una etiqueta específica y traducirlos de una sola vez.
 
-**Ver la diferencia de versión de los archivos sin sincronizar en el panel de traducción**
+**Ver la diferencia de versión de los archivos que no están sincronizados en el panel de traducción**
 
-Ahora puede comprobar las diferencias entre la versión seleccionada y la última versión de origen traducida de los temas. También puede optar por traducir el **Fuera de sincronización** archivos basados en los cambios realizados entre las dos versiones de un tema.
+Ahora puede comprobar las diferencias entre la versión seleccionada y la última versión de origen traducida de los temas. También puede optar por traducir los archivos de **Fuera de sincronización** en función de los cambios realizados entre las dos versiones de un tema.
 
 <img src="assets/translation-version-diff.png" alt="comité de traducción" width="600">
 
@@ -73,7 +74,7 @@ Ahora puede comprobar las diferencias entre la versión seleccionada y la últim
 
 **Pasar la etiqueta de versión a la versión de destino**
 
-AEM Guías de le permite pasar la etiqueta del archivo de origen al archivo de destino. Esto le ayuda a identificar fácilmente la versión de origen del archivo traducido.
+AEM Guides permite pasar la etiqueta del archivo de origen al archivo de destino. Esto le ayuda a identificar fácilmente la versión de origen del archivo traducido.
 
 <img alt="etiquetas de traducción" src="assets/translation-pass-source-label.png" width="600">
 
@@ -81,26 +82,27 @@ Por ejemplo, si tiene algunos archivos de origen con la etiqueta de versión Rel
 
 **Forzar sincronización de recursos sin sincronizar**
 
-AEM Si realiza cambios en algunos de los recursos, Guías de recursos los marca como Desincronizados. Puede volver a traducir los recursos modificados o elegir descartar el estado Fuera de sincronización. Por ejemplo, si ha realizado algunos cambios menores que realmente no necesitan traducción, puede marcar su estado como Sincronizado.
+Si realiza cambios en algunos de los recursos, AEM Guides los marca como Desincronizados. Puede volver a traducir los recursos modificados o elegir descartar el estado Fuera de sincronización. Por ejemplo, si ha realizado algunos cambios menores que realmente no necesitan traducción, puede marcar su estado como Sincronizado.
 
-**Ver proyectos de traducción en curso de un tema o mapa**
+**Ver proyectos de traducción en curso para un tema o mapa**
 
-Algunas de las referencias del panel de traducción pueden estar en curso. AEM Ahora, Guías de proporciona una función que le ayuda a ver la lista de todos los proyectos de traducción en curso (junto con el idioma de destino) que contienen la referencia seleccionada.
+Algunas de las referencias del panel de traducción pueden estar en curso. Ahora AEM Guides proporciona una función que le ayuda a ver la lista de todos los proyectos de traducción en curso (junto con el idioma de destino) que contienen la referencia seleccionada.
 
-Para obtener más información, consulte la *Traducir documentos desde el editor web* de la guía Uso de guías de Adobe Experience Manager.
+Para obtener más información, consulte la sección *Traducir documentos del editor web* en la guía Uso de Adobe Experience Manager Guides.
 
 ## Generar resultados en varios formatos desde el editor web
 
-Ahora puede generar fácilmente el resultado de sus temas o mapa DITA desde el Editor Web. AEM Puede configurar varios ajustes preestablecidos de salida, como Sitio de la aplicación, PDF, HTML 5, JSON (un formato de salida sin encabezado) y salida personalizada. Utilícelos para generar los resultados correspondientes. Puede definir atributos en los temas DITA y, a continuación, utilizar el ajuste preestablecido de condición para aplicar una condición al publicar la salida. También se puede utilizar la función de publicación Línea base para publicar selectivamente una versión específica del tema o mapa DITA.
+Ahora puede generar fácilmente el resultado de sus temas o mapa DITA desde el Editor Web. AEM Puede configurar varios ajustes preestablecidos de salida como Sitio, PDF, HTML 5, etc., de forma que se puedan configurar varios ajustes preestablecidos.
+JSON (un formato de salida sin encabezado) y salida personalizada. Utilícelos para generar los resultados correspondientes. Puede definir atributos en los temas DITA y, a continuación, utilizar el ajuste preestablecido de condición para aplicar una condición al publicar la salida. También se puede utilizar la función de publicación Línea base para publicar selectivamente una versión específica del tema o mapa DITA.
 
 **Administrar ajustes preestablecidos de salida del perfil global y de carpeta**
 
-AEM Las guías de proporcionan la función para crear y administrar ajustes preestablecidos de salida para los Perfiles global y de carpeta. A continuación, puede utilizar fácilmente estos ajustes preestablecidos de salida para generar resultados para todas las asignaciones relacionadas con ese perfil global o de carpeta.
+AEM Guides proporciona la función para crear y administrar ajustes preestablecidos de salida para los Perfiles global y de carpeta. A continuación, puede utilizar fácilmente estos ajustes preestablecidos de salida para generar resultados para todas las asignaciones relacionadas con ese perfil global o de carpeta.
 
 <img alt="añadir ajuste preestablecido" src="assets/add-global-output-preset.png" width="400">
 
 
-Estos ajustes preestablecidos globales aparecen en **Output** de todas las asignaciones relacionadas. Puede utilizarlas para generar la salida de todas las asignaciones relacionadas. Puede seleccionar el ajuste preestablecido como ajuste preestablecido por defecto del PDF para generar la salida del PDF. También puede **Editar**, **Cambiar nombre**, **Duplicar**, o **Eliminar** un ajuste preestablecido de salida existente del **Opciones** menú.
+Estos ajustes preestablecidos globales aparecen en la ficha **Output** de todas las asignaciones relacionadas. Puede utilizarlas para generar la salida de todas las asignaciones relacionadas. Puede seleccionar el ajuste preestablecido como ajuste preestablecido por defecto del PDF para generar la salida del PDF. También puede **Editar**, **Cambiar nombre**, **Duplicar** o **Eliminar** un ajuste preestablecido de salida existente del menú **Opciones**.
 
 >[!NOTE]
 >
@@ -108,12 +110,12 @@ Estos ajustes preestablecidos globales aparecen en **Output** de todas las asign
 
 ## Buscar y reemplazar el texto en el nivel de mapa
 
-Ahora puede buscar archivos dentro de un mapa que contengan texto específico. El texto buscado se resalta en los archivos. También puede reemplazar la palabra o frase buscada por otra palabra o frase dentro de los archivos. Seleccione el **Reemplazar una sola incidencia** para reemplazar la incidencia actual y el **Reemplazar todo en archivo** para reemplazar todas las ocurrencias en el archivo seleccionado. Puede seleccionar **Reemplazar todo** para reemplazar todas las ocurrencias del término buscado en todos los archivos.
+Ahora puede buscar archivos dentro de un mapa que contengan texto específico. El texto buscado se resalta en los archivos. También puede reemplazar la palabra o frase buscada por otra palabra o frase dentro de los archivos. Seleccione el icono **Reemplazar una sola incidencia** para reemplazar la incidencia actual y el icono **Reemplazar todo en el archivo** para reemplazar todas las ocurrencias en el archivo seleccionado. Puede seleccionar el icono **Reemplazar todo** para reemplazar todas las apariciones del término buscado en todos los archivos.
 
 <img src="assets/map-find-replace.png" alt="mapa buscar reemplazar" width="600">
 
 
-De forma predeterminada, las opciones **Archivo de retirada antes de reemplazar** y **Crear nueva versión tras reemplazar** están seleccionados, por lo que se extrae un archivo antes de reemplazar el texto y se crea una nueva versión después de reemplazar el texto. También se puede buscar la cadena en las referencias indirectas dentro del mapa DITA. De forma predeterminada, esta opción está desactivada, por lo que la búsqueda solo se realiza en las referencias directas.
+De forma predeterminada, las opciones **Desproteger archivo antes de reemplazar** y **Crear nueva versión después de reemplazar** están seleccionadas, de modo que se desprotege un archivo antes de reemplazar el texto y se crea una nueva versión después de reemplazar el texto. También se puede buscar la cadena en las referencias indirectas dentro del mapa DITA. De forma predeterminada, esta opción está desactivada, por lo que la búsqueda solo se realiza en las referencias directas.
 
 ## Vista Presentación en el editor de mapas
 
@@ -126,44 +128,45 @@ La vista Presentación contiene una barra de herramientas independiente que le a
 Puede insertar referencias de temas, grupos de temas y definiciones de claves en un mapa. Puede reorganizar los temas presentes en un mapa moviéndolos hacia arriba, hacia abajo, a la izquierda o a la derecha. También puede arrastrar y soltar los temas para moverlos en un mapa. El editor de mapas también proporciona los iconos para bloquear o desbloquear archivos, comprobar el historial de versiones y realizar una administración de etiquetas de versión.
 
 
-La vista Presentación también proporciona el **Opciones de vista** para mostrar u ocultar el número de línea, mostrar u ocultar la casilla de verificación, o mostrar el nombre de archivo o el título de los temas de un mapa.
+La vista Presentación también proporciona la casilla de verificación **Opciones de vista** para mostrar u ocultar el número de línea, mostrar u ocultar, o mostrar el nombre de archivo o el título de los temas de un mapa.
 También puede ver los temas en función de los filtros condicionales aplicados.
 
-Además de organizar los temas en el archivo de asignación, también puede agregar, mover, copiar, pegar o eliminar referencias utilizando **Opciones** menú disponible para un elemento en la vista Presentación.
+Además de organizar los temas del archivo de asignación, también puede agregar, mover, copiar, pegar o eliminar referencias mediante el menú **Opciones** disponible para un elemento en la vista Presentación.
 
 <img src="assets/layout-inline-attributes.png" alt=" atributos de diseño de mapa" width="600">
 
 
 El panel derecho muestra las Propiedades de contenido y las Propiedades de mapa en la vista Diseño del Editor de mapas. Ahora también puede establecer la información de metadatos para los temas o el mapa. Puede definir el título de navegación, el texto de vínculo, la descripción breve y las palabras clave para el tema o el mapa seleccionado.
 
-Para obtener más información, consulte *Vista Presentación* de la guía Uso de guías de Adobe Experience Manager.
+Para obtener más información, consulte la sección *Vista de diseño* en la guía Uso de Adobe Experience Manager Guides.
 
 ## Panel Generación rápida
 
-AEM Ahora, Guías de proporciona el panel Generación rápida, que le ayuda a generar y ver rápidamente la salida de los ajustes preestablecidos creados para su mapa DITA.
+Ahora, AEM Guides proporciona el panel Generación rápida, que le ayuda a generar y ver rápidamente la salida de los ajustes preestablecidos creados para su mapa DITA.
 
 <img src="assets/quick-generate-map-view.png" alt=" generar panel rápidamente" width="600">
 
-En el **Generación rápida** , puede ver la lista de todos los ajustes preestablecidos de salida creados para el mapa DITA. También puede ver rápidamente el resultado generado para los ajustes preestablecidos. Al finalizar la generación de resultados, aparece un mensaje de éxito o error. También puede ver el registro de errores que contiene detalles del error que se produjo en el proceso de generación.
+En el panel **Generación rápida**, puede ver la lista de todos los ajustes preestablecidos de salida creados para su mapa DITA. También puede ver rápidamente el resultado generado para los ajustes preestablecidos. Al finalizar la generación de resultados, aparece un mensaje de éxito o error. También puede ver el registro de errores que contiene detalles del error que se produjo en el proceso de generación.
 
 ## Crear una línea base dinámica basada en etiquetas
 
-AEM Ahora, Guías de le proporciona la función para crear líneas de base dinámicas basadas en etiquetas. Si genera una línea de base, descarga una línea de base o crea un proyecto de traducción utilizando una línea de base, los archivos se seleccionan dinámicamente en función de las etiquetas actualizadas. Esta función resulta útil, ya que no es necesario modificar la línea de base al actualizar las etiquetas.
+Ahora AEM Guides le proporciona la función para crear líneas de base dinámicas basadas en etiquetas. Si genera una línea de base, descarga una línea de base o crea un proyecto de traducción utilizando una línea de base, los archivos se seleccionan dinámicamente en función de las etiquetas actualizadas. Esta función resulta útil, ya que no es necesario modificar la línea de base al actualizar las etiquetas.
 
 <img src="assets/dynamic-baseline.png" alt=" línea base dinámica" width="400">
 
 ## Eliminar y duplicar archivos del panel del repositorio
 
-Ahora puede eliminar fácilmente archivos (de uno en uno) de la **Opciones** menú del archivo seleccionado del panel repositorio. Se muestra un mensaje de confirmación antes de eliminar el archivo. Si no se hace referencia al archivo desde ningún otro archivo, se elimina y se muestra un mensaje de éxito.
+Ahora puede eliminar archivos fácilmente (un solo archivo a la vez) del menú **Opciones** del archivo seleccionado del panel del repositorio. Se muestra un mensaje de confirmación antes de eliminar el archivo. Si no se hace referencia al archivo desde ningún otro archivo, se elimina y se muestra un mensaje de éxito.
 
 <img src="assets/options-menu-repo-view-file-level.png" alt="menú opciones de archivo " width="500">
 
-También puede crear un duplicado o una copia del archivo seleccionado. De forma predeterminada, el archivo se crea con un sufijo (como filename_1.extension).
+También puede crear un duplicado o una copia del archivo seleccionado. El archivo se crea con de forma predeterminada
+un sufijo (como filename_1.extension).
 
 
 ## Otras mejoras del editor web
 
-* AEM En Guías de la, puede realizar algunas operaciones comunes para imágenes y archivos multimedia mediante el menú contextual. Ahora también puede localizar la imagen o el medio seleccionado en el repositorio o ver la vista previa del archivo en la interfaz de usuario de Assets.
+* En AEM Guides, puede realizar algunas operaciones comunes para archivos de imágenes y multimedia mediante el menú contextual. Ahora también puede localizar la imagen o el medio seleccionado en el repositorio o ver la vista previa del archivo en la interfaz de usuario de Assets.
 
 * El nombre del perfil de carpeta actual se muestra como una etiqueta para el icono Preferencias de usuario en la barra de herramientas principal. Esto le ayuda a identificar el perfil de carpeta en el que está trabajando.
 
@@ -171,11 +174,11 @@ También puede crear un duplicado o una copia del archivo seleccionado. De forma
 
 ## Depuración de versiones seleccionadas de archivos
 
-A medida que crea y mantiene el contenido, es posible que se creen muchas versiones para los archivos DITA en el repositorio. AEM Guías de permite depurar versiones anteriores de los archivos DITA del repositorio y liberar espacio en disco.
+A medida que crea y mantiene el contenido, es posible que se creen muchas versiones para los archivos DITA en el repositorio. AEM Guides permite depurar versiones anteriores de los archivos DITA del repositorio y liberar espacio en disco.
 
 <img src="assets/preview-purge-report.png" alt="Previsualizar informe de depuración" width="500">
 
-AEM Guías no elimina la primera versión del archivo o una versión que se incluye en una línea de base, ni tiene una etiqueta aplicada. La operación de purga ni siquiera elimina los archivos que se incluyen en una traducción o en un flujo de trabajo de revisión. Puede elegir el número de versiones que desea conservar y también decidir eliminar los archivos que sean anteriores al número de días definido.
+AEM Guides no elimina la primera versión del archivo o una versión que se incluya en una línea de base, ni le ha aplicado una etiqueta. La operación de purga ni siquiera elimina los archivos que se incluyen en una traducción o en un flujo de trabajo de revisión. Puede elegir el número de versiones que desea conservar y también decidir eliminar los archivos que sean anteriores al número de días definido.
 
 Antes de iniciar la operación de depuración, puede obtener una vista previa del informe para ver las versiones que se van a purgar. A continuación, puede decidir iniciar o cancelar la operación de depuración.
 
@@ -185,7 +188,7 @@ Una vez finalizada la operación de depuración, puede comprobar el informe de d
 
 ## Ver el título en lugar del UUID en el editor de oxígeno
 
-AEM Ahora, Guías de le permite elegir **Uso del título en el editor y el administrador de mapas** en Configuración. Si selecciona esta opción, el título del fichero se mostrará en la ficha del fichero cuando se abra en el Editor o en el Administrador de mapas DITA. Si no selecciona esta opción, el UUID del archivo se muestra en la pestaña del archivo.
+Ahora AEM Guides te permite elegir la opción **Usar título en el editor y el administrador de mapas** en la configuración. Si selecciona esta opción, el título del fichero se mostrará en la ficha del fichero cuando se abra en el Editor o en el Administrador de mapas DITA. Si no selecciona esta opción, el UUID del archivo se muestra en la pestaña del archivo.
 
 ## IU de metadatos disponible para ajustes preestablecidos de PDF
 
@@ -208,8 +211,8 @@ Ahora también puede utilizar las siguientes variables integradas para definir l
 * `${map_title}`
 * `${preset_name}`
 * `${language_code}`
-* `${map_parentpath}` (Solo para la ruta de salida)
-* `${path_after_langfolder}` (Solo para la ruta de salida)
+* `${map_parentpath}` (solo para ruta de salida)
+* `${path_after_langfolder}` (solo para ruta de salida)
 
 ## PDF nativo | Generación de una tabla de contenido para mapas DITA y reordenación de diseños de página
 
@@ -221,4 +224,4 @@ Ahora puede agregar un marcador personalizado a un contenido en particular en la
 
 ## PDF nativo | Aplicar un estilo personalizado a las entradas del índice y al contenido del tema
 
-AEM Guías de proporciona la función para aplicar un estilo personalizado en las entradas de la tabla de contenido o en un tema concreto de la salida del PDF. Por ejemplo, puede cambiar el color del texto de la tabla de contenido y el título del tema. También puede aplicar estilos a todo el contenido dentro del tema.
+AEM Guides proporciona la función para aplicar un estilo personalizado en las entradas de la tabla de contenido o en un tema concreto de la salida del PDF. Por ejemplo, puede cambiar el color del texto de la tabla de contenido y el título del tema. También puede aplicar estilos a todo el contenido dentro del tema.

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Configuración de un conector de fuente de datos
 
-AEM Guías de proporciona conectores predeterminados para bases de datos JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce y Elasticsearch. También puede añadir otros conectores ampliando las interfaces predeterminadas. La siguiente configuración le ayuda a añadir fácilmente las distintas fuentes de datos. Una vez agregados, puede ver los orígenes de datos en el Editor Web.
+AEM Guides proporciona conectores predeterminados para bases de datos JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), Adobe Commerce y Elasticsearch. También puede añadir otros conectores ampliando las interfaces predeterminadas. La siguiente configuración le ayuda a añadir fácilmente las distintas fuentes de datos. Una vez agregados, puede ver los orígenes de datos en el Editor Web.
 
 Realice los siguientes pasos para configurar un conector de origen de datos y, a continuación, utilizarlo desde el Editor web:
 
@@ -40,7 +40,7 @@ Un archivo de configuración de ejemplo para la autenticación básica de Jira c
 }
 ```
 
-Por ejemplo, guardar como `jira.json`.
+Por ejemplo, guarde como `jira.json`.
 
 Archivo de configuración de ejemplo para la autenticación básica de Jira con token:
 
@@ -59,7 +59,7 @@ Archivo de configuración de ejemplo para la autenticación básica de Jira con 
 }
 ```
 
-Por ejemplo, guardar como `jira.json`.
+Por ejemplo, guarde como `jira.json`.
 
 Archivo de configuración de muestra para la autenticación básica de Jira con el token con la palabra clave &quot;Basic&quot; presente en él:
 
@@ -78,7 +78,7 @@ Archivo de configuración de muestra para la autenticación básica de Jira con 
 }
 ```
 
-Por ejemplo, guardar como `jira.json`.
+Por ejemplo, guarde como `jira.json`.
 
 Archivo de instalación de ejemplo para la autenticación básica de MySql:
 
@@ -99,7 +99,7 @@ Archivo de instalación de ejemplo para la autenticación básica de MySql:
 }
 ```
 
-Por ejemplo, guardar como `mysql.json`.
+Por ejemplo, guarde como `mysql.json`.
 
 Archivo de configuración de ejemplo para la autenticación básica de PostgreSQL:
 
@@ -120,7 +120,7 @@ Archivo de configuración de ejemplo para la autenticación básica de PostgreSQ
 }
 ```
 
-Por ejemplo, guardar como `postgres.json`.
+Por ejemplo, guarde como `postgres.json`.
 
 Archivo de instalación de ejemplo para la autenticación básica de Microsoft SQL Server:
 
@@ -141,7 +141,7 @@ Archivo de instalación de ejemplo para la autenticación básica de Microsoft S
 }
 ```
 
-Por ejemplo, guardar como `mssqlserver.json`.
+Por ejemplo, guarde como `mssqlserver.json`.
 
 Archivo de configuración de ejemplo para la autenticación básica de SQLite:
 
@@ -162,7 +162,7 @@ Archivo de configuración de ejemplo para la autenticación básica de SQLite:
 }
 ```
 
-Por ejemplo, guardar como `sqqlite.json`.
+Por ejemplo, guarde como `sqqlite.json`.
 
 
 
@@ -185,7 +185,7 @@ Archivo de instalación de ejemplo para H2DB:
 }
 ```
 
-Por ejemplo, guardar como `sqqlite.json`.
+Por ejemplo, guarde como `sqqlite.json`.
 
 
 
@@ -208,7 +208,7 @@ Archivo de configuración de ejemplo para la autenticación básica de MariaDb:
 }
 ```
 
-Por ejemplo, guardar como `mariadb.json`.
+Por ejemplo, guarde como `mariadb.json`.
 
 
 Archivo de configuración de ejemplo para la autenticación básica de Elasticsearch:
@@ -228,7 +228,7 @@ Archivo de configuración de ejemplo para la autenticación básica de Elasticse
 }
 ```
 
-Por ejemplo, guardar como `ES.json`.
+Por ejemplo, guarde como `ES.json`.
 
 La consulta de búsqueda elástica debe incluir el índice y la consulta:
 
@@ -260,11 +260,11 @@ Archivo de configuración de ejemplo para Adobe Commerce NoAuth:
 }
 ```
 
-Por ejemplo, guardar como `commerce.json`.
+Por ejemplo, guarde como `commerce.json`.
 
 ### Personalización de la configuración de un conector
 
-AEM Las guías de usuario de le permiten personalizar algunos valores del archivo de configuración para satisfacer las necesidades del usuario.
+AEM Guides permite personalizar algunos valores del archivo de configuración para satisfacer las necesidades del usuario.
 
 | Nombre de la propiedad | Descripción |
 |---|---|
@@ -277,10 +277,10 @@ Otros campos se personalizan según la clase de configuración seleccionada para
 
 Cargue el archivo en alguna ubicación de AEM Assets.
 
-Por ejemplo,  `/content/dam/jira.json`
+Por ejemplo, `/content/dam/jira.json`
 
 ## Crear configuración mediante la API de REST
 
-Puede registrar la configuración mediante la API de REST. Para obtener más información, consulte *API de REST para registrar un conector de fuente de datos* de la Referencia de API para Guías de Adobe Experience Manager.
+Puede registrar la configuración mediante la API de REST. Para obtener más información, consulte la API *REST para registrar un conector de origen de datos* en la sección Referencia de la API para Adobe Experience Manager Guides.
 
-Una vez configurado el origen de datos, el conector se muestra en el panel Fuentes de datos del Editor web. A continuación, puede conectarse al origen de datos e insertar un fragmento de contenido en los temas. Para obtener más información, consulte [Inserción de un fragmento de contenido desde la fuente de datos](../user-guide/web-editor-content-snippet.md).
+Una vez configurado el origen de datos, el conector se muestra en el panel Fuentes de datos del Editor web. A continuación, puede conectarse al origen de datos e insertar un fragmento de contenido en los temas. Para obtener más información, vea [Insertar un fragmento de contenido de su fuente de datos](../user-guide/web-editor-content-snippet.md).

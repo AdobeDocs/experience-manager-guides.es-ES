@@ -11,7 +11,9 @@ ht-degree: 2%
 
 # Resumen de sesión
 
-Un diseño bien definido de una experiencia web resulta en una marca y un diseño de aplicación coherentes, junto con uniformidad y coherencia en toda la experiencia o páginas digitales de la plataforma.
+Un diseño bien definido de una experiencia web resulta en una marca de aplicación coherente
+y diseño junto con uniformidad y coherencia en todo el entorno digital.
+experiencia/páginas de la plataforma.
 AEM Todo esto se puede lograr a través de diferentes variaciones de resultados del sitio ofrecidas por las guías del administrador de experiencias de Adobe, que ofrecen una amplia gama de opciones de rendimiento.
 AEM En esta sesión, aprenderá a generar diferentes variaciones del resultado de los sitios de.
 
@@ -31,20 +33,20 @@ En esta sesión, aprenderá sobre lo siguiente:
 ## Lo más destacado
 
 - **Fecha** - 27 de junio de 2024
-- **Número de asistentes** - 120
+- **Cantidad de asistentes** - 120
 - **Duración** - 60 minutos
-- **Audiencia** - Clientes, socios y empleados de Adobe
+- **Audiencia**: clientes, socios y empleados de Adobe
 
 ## Recursos relacionados
 
 
-- [AEM Publicación de salida del sitio](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
+- AEM [Publicación de salida del sitio de](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
 
-- [KB Output publishing](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
+- [KB de publicación de salida](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
 
-- [AEM Plantillas de](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
+- AEM [Plantillas de](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 
-- **Foro de la comunidad** - Para interacciones de la comunidad específicas de la sesión en Experience League, visite [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Foro de la comunidad**: para interacciones de la comunidad específicas de la sesión en Experience League, visita [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
@@ -52,4 +54,4 @@ En esta sesión, aprenderá sobre lo siguiente:
 
 ## Contáctenos.
 
-Si tiene cualquier pregunta, envíenos un correo electrónico a <techcomm@adobe.com>
+Para cualquier consulta, envíenos un correo electrónico a <techcomm@adobe.com>

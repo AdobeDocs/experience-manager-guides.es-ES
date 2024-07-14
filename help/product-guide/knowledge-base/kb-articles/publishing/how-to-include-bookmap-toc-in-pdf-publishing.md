@@ -16,7 +16,8 @@ ht-degree: 0%
 
 ## Configure su Bookmap
 
-Incluya el `<toc>`  Elemento: Dentro del mapa de libros `<frontmatter>`, busque el elemento `<booklists>` Elemento.  Anidar una `<toc>` elemento interior `<booklists>` así:
+Incluir el elemento `<toc>`:
+Dentro del elemento `<frontmatter>` del mapa de libros, busque el elemento `<booklists>`.  Anide un elemento `<toc>` dentro de `<booklists>` de esta manera:
 
 ```
 <frontmatter>
@@ -27,7 +28,7 @@ Incluya el `<toc>`  Elemento: Dentro del mapa de libros `<frontmatter>`, busque 
 </frontmatter>
 ```
 
-La especificación DITA permite colocar el índice y las listas de libros dentro de la `<backmatter>` también en la sección.
+La especificación DITA también permite colocar el índice y las listas de libros dentro de la sección `<backmatter>`.
 
 
 ```
@@ -77,7 +78,7 @@ Puede controlar el diseño mediante un diseño de página independiente para la 
 
 El orden de la tabla de contenido y otras listas de libros en PDF solo se basa en la estructura del mapa de libros.
 
-![tdc](../assets/publishing/toc.png)
+![toc](../assets/publishing/toc.png)
 
 
 ## Preguntas más frecuentes
@@ -92,13 +93,13 @@ Si publica Ditamap, el PDF nativo proporciona la funcionalidad para generar TDC 
 
 ## Recursos adicionales:
 
-- [Documentación del diseño de página de diseño del PDF nativo](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [Aspectos básicos del PDF nativo sesión de experto pregrabada](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [Documentación de diseño de página de diseño de PDF nativo](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [Sesión de expertos pregrabada de elementos esenciales del PDF nativo](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
 
-AEM Publicación en la comunidad de Guías de [foro](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) para cualquier consulta.
+Post en la Comunidad de AEM Guides [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) para cualquier consulta.
 
 
 

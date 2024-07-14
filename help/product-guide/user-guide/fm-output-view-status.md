@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Ver el estado de la tarea de generación de resultados {#viewing_output_history}
 
-Una vez iniciada la tarea de generación de salida para un documento de FrameMaker AEM, Guías de la envía esta tarea a la cola de generación de salida. Esta cola se actualiza en tiempo real y muestra el estado de cada tarea de generación de salida de la cola.
+Una vez iniciada la tarea de generación de resultados para un documento de FrameMaker, AEM Guides envía esta tarea a la cola de generación de resultados. Esta cola se actualiza en tiempo real y muestra el estado de cada tarea de generación de salida de la cola.
 
 Realice los siguientes pasos para ver la cola de generación de resultados:
 
@@ -36,4 +36,4 @@ Realice los siguientes pasos para ver la cola de generación de resultados:
      En esta lista, puede tener tareas que se hayan ejecutado correctamente o tareas que hayan fallado. Para las tareas que se han completado correctamente, el proceso de publicación crea un archivo de registro \(logs.txt\) al que se puede acceder haciendo clic en el vínculo en la columna Generated At.
 
 
-**Tema principal:**[ Generación de resultados de documentos de FrameMaker](fm-output-generatation.md)
+**Tema principal:**[ Generar salida de documentos de FrameMaker](fm-output-generatation.md)

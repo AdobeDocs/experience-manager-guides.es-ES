@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Configuración de una plantilla de mapa DITA personalizada {#id1774F04F05Z}
 
-AEM Las guías de la aplicación incluyen dos plantillas de mapa integradas: DITA map y Bookmap. Puede crear mapas basados en estas plantillas; o bien, puede definir sus propias plantillas de mapas que se pueden utilizar para crear nuevos mapas.
+AEM Guides incluye dos plantillas de mapas predeterminadas: DITA map y Bookmap. Puede crear mapas basados en estas plantillas; o bien, puede definir sus propias plantillas de mapas que se pueden utilizar para crear nuevos mapas.
 
 Siga estos pasos para agregar las plantillas de asignación personalizadas:
 
@@ -24,9 +24,9 @@ Siga estos pasos para agregar las plantillas de asignación personalizadas:
 
    >[!NOTE]
    >
-   > Para configurar una ubicación personalizada para almacenar plantillas de temas o mapas, consulte [Configurar la ruta de carpeta de la plantilla DITA personalizada](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)
+   > Para configurar una ubicación personalizada para almacenar plantillas de temas o asignaciones, consulte [Configurar la ruta de la carpeta de plantillas DITA personalizada](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)
 
-1. Clic **Crear** \> **Plantilla DITA**.
+1. Haga clic en **Crear** \> **Plantilla DITA**.
 
 1. En la página Modelo, seleccione el tipo de plantilla de mapa que desea crear.
 
@@ -36,7 +36,7 @@ Siga estos pasos para agregar las plantillas de asignación personalizadas:
 
 1. Haga clic en **Siguiente**.
 
-1. En la nueva página Propiedades de plantilla, introduzca un **Título** y **Nombre** para la plantilla.
+1. En la nueva página Propiedades de plantilla, escriba un **Título** y un **Nombre** para la plantilla.
 
    >[!NOTE]
    >
@@ -49,10 +49,10 @@ Siga estos pasos para agregar las plantillas de asignación personalizadas:
    Puede elegir abrir la plantilla para editarla en el Editor de mapas o guardar el archivo de plantilla en la ubicación del almacén de plantillas. Una vez creada la plantilla, puede utilizar el Editor de mapas para personalizarla según sus necesidades de creación. Una vez preparada una plantilla, asegúrese de asociarla con un perfil global o de nivel de carpeta.
 
 
-La próxima vez que cree un nuevo mapa, la plantilla se mostrará en la página Modelo. Para obtener más información sobre la creación de un mapa DITA, consulte la *Uso de guías de Adobe Experience Manager*.
+La próxima vez que cree un nuevo mapa, la plantilla se mostrará en la página Modelo. Para obtener más información sobre cómo crear un mapa DITA, consulte *Usar Adobe Experience Manager Guides*.
 
 >[!TIP]
 >
-> Consulte la *Plantillas personalizadas* de la guía de prácticas recomendadas para conocer las prácticas recomendadas sobre el uso de plantillas de mapas personalizadas.
+> Consulte la sección *Plantillas personalizadas* en la guía de prácticas recomendadas para conocer las prácticas recomendadas sobre el uso de plantillas de mapas personalizadas.
 
-**Tema principal:** [Configuración de plantillas de temas y mapas](conf-template-tags.md)
+**Tema principal:** [Configurar plantillas de temas y asignaciones](conf-template-tags.md)

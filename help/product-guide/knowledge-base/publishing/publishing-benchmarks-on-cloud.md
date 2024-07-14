@@ -11,23 +11,23 @@ ht-degree: 8%
 
 ---
 
-# AEM Análisis de publicación de guías de AEM en AEMaaCS
+# Parámetros de publicación de AEM Guides en AEMaaCS
 
-AEM Actualmente, el servicio en la nube de Guides tiene algunos límites en la publicación de tamaños de mapa que el equipo de Guides está trabajando activamente para resolver.
+Actualmente, AEM Guides Cloud Service tiene algunos límites en la publicación de tamaños de mapa que el equipo de guías está trabajando activamente para resolver.
 
-El equipo de Guides ha introducido un microservicio de publicación escalable para admitir mapas grandes y varias publicaciones simultáneas. Para obtener más información sobre el nuevo microservicio de publicación, consulte [publicación de arquitectura de microservicios](publish-microservice-architecture-and-performance.md)
+El equipo de Guides ha introducido un microservicio de publicación escalable para admitir mapas grandes y varias publicaciones simultáneas. Para obtener más información acerca del nuevo microservicio de publicación, consulte [arquitectura de microservicios de publicación](publish-microservice-architecture-and-performance.md)
 
-AEM Para configurar el nuevo servicio de publicación para cualquier entorno en la nube de, consulte [configurar nueva publicación basada en microservicios](configure-microservices.md)
+AEM Para configurar el nuevo servicio de publicación para cualquier entorno de nube de, consulte [configurar nueva publicación basada en microservicios](configure-microservices.md)
 
 
 ## Entorno de ejecución
 
-    AEM Versión de la versión: 2023.5.11983.20230511T173830Z
-    Versión del complemento de la guía: 2023.6.0
-    AEM AEM Plantilla de sitio de la página: Guías de la páginaPlantilla de OOTB
-    Versión de DITA-OT: 3.5.4
-    Tipo de flujo de trabajo de publicación: dividir flujo de trabajo de publicación
-    Salida admitida por el microservicio: PDF nativo, PDF (Dita-OT)
+AEM AEM     Versión de: 2023.5.11983.20230511T173830Z
+    Versión del complemento de guía: 2023.6.0
+    Plantilla de sitio de: Plantilla OOTB de AEM Guides
+    Versión DITA-OT: 3.5.4
+    Tipo de flujo de trabajo de Publish: Flujo de trabajo de Publish dividido
+    Salida compatible con el microservicio: PDF nativo, PDF (Dita-OT)
 
 ## Números de generación de salida
 

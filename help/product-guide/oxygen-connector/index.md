@@ -5,8 +5,8 @@ source-wordcount: '15'
 ht-degree: 6%
 
 ---
-# Complemento de oxígeno para guías de Adobe Experience Manager
+# Complemento de oxígeno para Adobe Experience Manager Guides
 
 - [Exención de responsabilidad](rebranding-disclaimer.md)
-- [Complemento de oxígeno para guías de Adobe Experience Manager](use-aem-connector.md)
+- [Complemento de oxígeno para Adobe Experience Manager Guides](use-aem-connector.md)
 

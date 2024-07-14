@@ -21,7 +21,7 @@ controladores:
    - Panel Favoritos: `collection_tree_controller`
    - Vínculos de referencia de propiedades de archivo: `file_references_links_controller`
    - Panel de búsqueda del repositorio: `repository_search_controller`
-   - Panel de esquema del asunto: `subject_scheme_tree_controller`
+   - Panel de esquema de asunto: `subject_scheme_tree_controller`
 
 - `folder_options`
 controladores:
@@ -46,7 +46,7 @@ controladores:
 
 También puede crear su propio menú contextual definiendo un nuevo ID único.
 
-Ahora, cada menú contextual tiene un `controller id` asociado a él. Este controlador gestiona el `on-event` funcionalidad para las distintas opciones del menú contextual
+Ahora cada menú contextual tiene un `controller id` asociado. Este controlador administra la funcionalidad `on-event` para las distintas opciones del menú contextual
 
 Tomemos un ejemplo para entender
 
@@ -118,7 +118,7 @@ const fileOptions = {
 
 Ahora vamos a entender lo que está haciendo este código.
 
-1. `id` se utiliza para identificar el menú contextual que queremos personalizar.
-2. `contextMenuWidget` se utiliza para definir el `widget id` o el `component` que llama al menú contextual y gestiona el `events`.
+1. `id` se usa para identificar el menú contextual que queremos personalizar.
+2. `contextMenuWidget` se usa para definir `widget id` o `component` que llama al menú contextual y administra `events`.
 
-El resto sigue siendo el mismo, por lo que `view` se utiliza para definir los elementos, `target` identifica dónde reemplazar, anexar o anteponer la opción y la variable `contextMenuWidget` el controlador gestiona el `on-click` eventos.
+El resto sigue siendo el mismo, por lo que `view` se utiliza para definir los elementos, `target` identifica dónde reemplazar, anexar o anteponer la opción y el controlador `contextMenuWidget` administra los eventos `on-click`.

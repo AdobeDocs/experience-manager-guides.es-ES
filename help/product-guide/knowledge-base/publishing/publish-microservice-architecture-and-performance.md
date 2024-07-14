@@ -17,13 +17,13 @@ Este artículo comparte la información sobre la arquitectura y los números de 
 
 >[!NOTE]
 >
-> AEM La publicación basada en microservicios en las guías de admite los tipos de ajustes preestablecidos de salida PDF (tanto nativos como basados en DITA-OT), HTML 5, JSON y PERSONALIZADOS.
+> La publicación basada en microservicios en AEM Guides admite los tipos de ajustes preestablecidos de salida PDF (tanto nativos como basados en DITA-OT), HTML 5, JSON y PERSONALIZADOS.
 
 ## Problemas con los flujos de trabajo de publicación existentes en la nube
 
 La publicación DITA es un proceso que consume muchos recursos y que depende principalmente de la CPU y la memoria del sistema disponibles. La necesidad de estos recursos aumenta aún más si los editores publican asignaciones grandes con muchos temas o si se activan varias solicitudes de publicación paralelas.
 
-AEM Si no utiliza el nuevo servicio, todas las publicaciones se realizan en el mismo pod Kubernetes(k8) que también ejecuta el servidor en la nube de. Un pod k8 típico tiene un límite en la cantidad de memoria y CPU que puede usar. AEM Si los usuarios de Guías de usuario publican cargas de trabajo grandes o paralelas, este límite puede incumplirse rápidamente. AEM K8 reinicia los pods que están intentando usar más recursos que el límite configurado, lo que puede tener un serio impacto en la propia instancia de la nube de la.
+AEM Si no utiliza el nuevo servicio, todas las publicaciones se realizan en el mismo pod Kubernetes(k8) que también ejecuta el servidor en la nube de. Un pod k8 típico tiene un límite en la cantidad de memoria y CPU que puede usar. Si los usuarios de AEM Guides publican cargas de trabajo grandes o paralelas, este límite puede incumplirse rápidamente. AEM K8 reinicia los pods que están intentando usar más recursos que el límite configurado, lo que puede tener un serio impacto en la propia instancia de la nube de la.
 
 Esta restricción de recursos fue la principal motivación para crear un servicio dedicado que nos pueda permitir ejecutar varias cargas de trabajo de publicación simultáneas y grandes en la nube.
 
@@ -44,7 +44,7 @@ Todas estas comunicaciones están protegidas por Adobe IMS mediante autenticaci�
 
 ## Análisis de rendimiento
 
-Esta sección muestra las cifras de rendimiento del microservicio. AEM Se compara el desempeño del microservicio con la oferta local de Guías de la, ya que la antigua arquitectura de la nube tenía problemas en la publicación simultánea o en la publicación de mapas muy grandes.
+Esta sección muestra las cifras de rendimiento del microservicio. Compara el rendimiento del microservicio con la oferta local de AEM Guides, ya que la arquitectura de la nube antigua tenía problemas en la publicación simultánea o en la publicación de mapas muy grandes.
 
 Si publica un mapa grande en modo local, es posible que tenga que modificar los parámetros de la pila Java o que se produzcan errores de memoria insuficiente. En la nube, el microservicio ya está diseñado y tiene una pila Java y otras configuraciones óptimas listas para usar.
 
@@ -78,6 +78,6 @@ Si publica un mapa grande en modo local, es posible que tenga que modificar los 
 
 ## Ventajas adicionales
 
-AEM Alguna parte de cada solicitud de publicación debe ejecutarse en la instancia de para recuperar el contenido de publicación correcto y enviarlo al microservicio. AEM AEM La nueva arquitectura de la nube utiliza trabajos en la nube en lugar de flujos de trabajo en la nube, como en el caso de la arquitectura antigua, para crear flujos de trabajo en la nube. AEM AEM Este cambio permite a los administradores de Guías de administración configurar individualmente la configuración de cola de publicación en la nube sin afectar a otros trabajos de ni a las configuraciones de flujo de trabajo.
+AEM Alguna parte de cada solicitud de publicación debe ejecutarse en la instancia de para recuperar el contenido de publicación correcto y enviarlo al microservicio. AEM AEM La nueva arquitectura de la nube utiliza trabajos en la nube en lugar de flujos de trabajo en la nube, como en el caso de la arquitectura antigua, para crear flujos de trabajo en la nube. Este cambio permite a los administradores de AEM Guides AEM configurar individualmente la cola de publicación en la nube sin afectar a otros trabajos de la aplicación ni a las configuraciones de flujo de trabajo de la administración de flujos de trabajo.
 
-Encontrará más detalles sobre cómo configurar el nuevo microservicio de publicación aquí: [Configurar Microservicio](configure-microservices.md)
+Encontrará detalles sobre cómo configurar el nuevo microservicio de publicación aquí: [Configurar microservicio](configure-microservices.md)

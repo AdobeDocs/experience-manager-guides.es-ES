@@ -2,7 +2,8 @@
 title: Marco de jui
 description: Entender El Marco De Jui
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: c193cf90-5916-4d8c-88f1-be5014beca1c
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 1%
@@ -19,13 +20,13 @@ Para que podamos extenderlo de manera efectiva.
 JUI es un módulo de MVC sobre los componentes React y Adobe React Spectrum. JUI es la interfaz de usuario de JSON. Consta de varios repositorios de Git.
 
 JUI-Core es la biblioteca principal con toda la lógica para convertir la configuración JSON en componentes de React en funcionamiento y vincularla con una instancia de clase de controlador relevante.
-La biblioteca JUI-React-Spectrum tiene widgets envolventes de componentes de Adobe de React Spectrum
+JUI-React-Spectrum  La biblioteca tiene widgets envolventes de componentes del espectro React de Adobe
 
 ## Diseño principal de JUI
 
 ### Diseño de IU de MVC
 
-![Flujo JUI MVC](./imgs/jui-mvc-flow.png)
+![Flujo MVC de JUI](./imgs/jui-mvc-flow.png)
 
 ### Widget
 

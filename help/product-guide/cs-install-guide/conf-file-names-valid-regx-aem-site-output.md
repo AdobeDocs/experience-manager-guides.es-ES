@@ -14,9 +14,9 @@ ht-degree: 1%
 
 # AEM Configure nombres de archivo válidos para la salida del sitio de la {#id214GK0X0KXA}
 
-AEM De forma similar a la lista de caracteres de nombre de archivo válidos permitidos para los temas DITA, también se puede configurar una lista de caracteres de nombre de archivo válidos para la salida de sitio de la publicación de datos de página (). Algunos de los caracteres conocidos que no están permitidos en una dirección URL son: ``'<>`@$``. Estos caracteres están configurados para convertirse automáticamente en un guion bajo &quot;`_`AEM &quot; cuando se encuentran al generar nombres de archivo de salida del sitio de la.
+AEM De forma similar a la lista de caracteres de nombre de archivo válidos permitidos para los temas DITA, también se puede configurar una lista de caracteres de nombre de archivo válidos para la salida de sitio de la publicación de datos de página (). Algunos de los caracteres conocidos que no están permitidos en una dirección URL son: ``'<>`@$``. AEM Estos caracteres se configuran para que se conviertan automáticamente en un guion bajo &quot;`_`&quot; cuando se encuentren al generar nombres de archivo de salida del sitio de la lista de nombres de archivo de salida del sitio.
 
-Siga las instrucciones que se indican en [Anulaciones de configuración](download-install-additional-config-override.md#) para crear el archivo de configuración. AEM En el archivo de configuración, proporcione los siguientes detalles \(property\) para establecer caracteres válidos en la salida del sitio de la:
+Siga las instrucciones indicadas en [Anulaciones de configuración](download-install-additional-config-override.md#) para crear el archivo de configuración. AEM En el archivo de configuración, proporcione los siguientes detalles \(property\) para establecer caracteres válidos en la salida del sitio de la:
 
 | PID | Clave de propiedad | Valor de propiedad |
 |---|------------|--------------|

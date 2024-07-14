@@ -18,6 +18,6 @@ En este tema se explica cómo trabajar con nombres de archivo para los archivos 
 
 - **[Configurar nombres de archivo automáticos basados en UUID](conf-auto-uuid-filenames.md)**
 
-- **[Configure Regx para caracteres de nombre de archivo válidos](conf-file-names-valid-regx.md)**
+- **[Configurar regx para caracteres de nombre de archivo válidos](conf-file-names-valid-regx.md)**
 
-- **[AEM Configure nombres de archivo válidos para la salida del sitio de la](conf-file-names-valid-regx-aem-site-output.md)**
+- AEM **[Configurar nombres de archivo válidos para la salida de sitio de la red de](conf-file-names-valid-regx-aem-site-output.md)**

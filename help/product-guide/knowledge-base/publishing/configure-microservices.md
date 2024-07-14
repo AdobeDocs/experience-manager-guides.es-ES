@@ -1,6 +1,6 @@
 ---
-title: AEM Configuración de una nueva publicación basada en microservicios para guías de la aplicación de la as a Cloud Service
-description: AEM Aprenda a configurar nuevas publicaciones basadas en microservicios para guías de.
+title: Configuración de una nueva publicación basada en microservicios para AEM Guides as a Cloud Service
+description: Aprenda a configurar la nueva publicación basada en microservicios para AEM Guides.
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 feature: Microservice in AEM Guides
 role: User, Admin
@@ -17,34 +17,34 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Las credenciales de la cuenta de servicio (JWT) han quedado obsoletas y pasan a ser credenciales de servidor a servidor OAuth. Las aplicaciones que utilizan las credenciales de la cuenta de servicio (JWT) dejarán de funcionar a partir del 1 de enero de 2025. Debe migrar a la nueva credencial antes del 1 de enero de 2025 para garantizar que la aplicación siga funcionando. Más información sobre [migración de la credencial de cuenta de servicio (JWT) a la credencial de servidor a servidor OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
+> Las credenciales de la cuenta de servicio (JWT) han quedado obsoletas y pasan a ser credenciales de servidor a servidor OAuth. Las aplicaciones que utilizan las credenciales de la cuenta de servicio (JWT) dejarán de funcionar a partir del 1 de enero de 2025. Debe migrar a la nueva credencial antes del 1 de enero de 2025 para garantizar que la aplicación siga funcionando. Obtenga más información acerca de [migración de la credencial de cuenta de servicio (JWT) a la credencial de servidor a servidor OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
 
 
 
-La publicación basada en microservicios en para guías de Adobe Experience Manager as a Cloud Service admite los tipos de ajustes preestablecidos de salida PDF (tanto nativos como basados en DITA-OT), HTML 5, JSON y PERSONALIZADO.
+La publicación basada en microservicios en para Adobe Experience Manager Guides as a Cloud Service admite los tipos de ajustes preestablecidos de salida PDF (tanto nativos como basados en DITA-OT), HTML 5, JSON y PERSONALIZADO.
 
-Como las credenciales de la cuenta de servicio (JWT) han quedado obsoletas, se recomienda utilizar la autenticación basada en OAuth de Adobe IMS. Obtenga información sobre cómo [configurar la publicación basada en microservicios con autenticación OAuth](configure-microservices-imt-config.md).
+Como las credenciales de la cuenta de servicio (JWT) han quedado obsoletas, se recomienda utilizar la autenticación basada en OAuth de Adobe IMS. Aprenda a [configurar la publicación basada en microservicios con autenticación OAuth](configure-microservices-imt-config.md).
 
 Para el servicio de publicación en la nube protegido por la autenticación basada en JWT de Adobe IMS, los clientes deben seguir los pasos indicados a continuación para integrar sus entornos con los flujos de trabajo de autenticación seguros basados en tokens de Adobe y comenzar a utilizar la nueva solución de publicación escalable basada en la nube.
 
 
-## Creación de configuraciones de IMS en la consola de Adobe Developer
+## Creación de configuraciones de IMS en Adobe Developer Console
 
-**Función necesaria para crear las confusiones**: administrador del sistema
+**Rol necesario para crear las confusiones**: Administrador del sistema
 
-Realice los siguientes pasos para crear configuraciones de IMS en la consola de Adobe Developer:
+Realice los siguientes pasos para crear configuraciones de IMS en Adobe Developer Console:
 
-1. Abra Developer Console: `https://developer.adobe.com/console`.
+1. Abrir Developer Console: `https://developer.adobe.com/console`.
 
-1. Cambiar a **Proyectos** desde la parte superior.
+1. Cambie a la ficha **Proyectos** desde la parte superior.
 
    <img src="assets/projects-tab.png" alt="pestaña proyectos" width="500">
 
-1. Para crear un nuevo proyecto vacío, seleccione **Proyecto vacío** desde el **Crear nuevo proyecto** desplegable.
+1. Para crear un nuevo proyecto vacío, selecciona **Proyecto vacío** en la lista desplegable **Crear nuevo proyecto**.
 
    <img src="assets/create-new-project.png" alt="crear nuevo proyecto" width="500">
 
-1. Seleccionar **API** desde el **Agregar al proyecto** para agregar la API de administración de E/S a su proyecto.
+1. Seleccione **API** del menú desplegable **Agregar al proyecto** para agregar la API de administración de E/S a su proyecto.
 
    <img src="assets/add-project.png" alt="agregar proyecto" width="300">
 
@@ -58,11 +58,11 @@ Realice los siguientes pasos para crear configuraciones de IMS en la consola de 
 
    <img src="assets/save-api.png" alt="guardar api" width="600">
 
-1. Volver atrás a **Proyectos** y haga clic en **Resumen del proyecto** a la izquierda.
+1. Vuelva a la ficha **Proyectos** y haga clic en **Información general del proyecto** a la izquierda.
 
    <img src="assets/project-overview.png" alt="resumen del proyecto" width="500">
 
-1. Clic **Descargar** en la parte superior para descargar el servicio JSON.
+1. Haga clic en el botón **Descargar** de la parte superior para descargar el JSON del servicio.
 
    <img src="assets/download-json.png" alt="descargar json" width="500">
 
@@ -73,9 +73,9 @@ Ahora ha configurado los detalles de autenticación JWT y también ha descargado
 Siga estos pasos para agregar la configuración de IMS al entorno:
 
 1. Abra Experience Manager y, a continuación, seleccione el programa que contiene el entorno que desea configurar.
-1. Cambiar a **Entornos** pestaña.
+1. Cambie a la ficha **Entornos**.
 1. Haga clic en el nombre del entorno que desea configurar. Debe ir a la página Información del entorno.
-1. Cambiar a **Configuración** pestaña.
+1. Cambie a la ficha **Configuración**.
 1. Cargue la clave privada y el JSON del proyecto como se muestra en la captura de pantalla siguiente. Asegúrese de utilizar los mismos nombres y configuraciones que se resaltan a continuación.
 
    <img src="assets/ims-config-environment.png" alt="configuraciones de ims" width="500">
@@ -84,9 +84,9 @@ Siga estos pasos para agregar la configuración de IMS al entorno:
 >
 > Debe abrir, copiar y pegar el contenido de la clave privada y el archivo JSON de detalles de servicio en la columna de valor del panel Configuración, como se muestra en la captura de pantalla anterior.
 
-Una vez añadida la configuración de IMS al entorno, realice los siguientes pasos para vincular estas propiedades con las guías del Experience Manager mediante OSGi:
+Una vez añadida la configuración de IMS al entorno, realice los siguientes pasos para vincular estas propiedades con Experience Manager Guides mediante OSGi:
 
-1. En su código de proyecto Git de Cloud Manager, agregue los dos archivos siguientes (Para ver el contenido de los archivos, consulte [Apéndice](#appendix)).
+1. En su código de proyecto Git de Cloud Manager, agregue los dos archivos siguientes (para ver el contenido de los archivos, consulte [Apéndice](#appendix)).
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
@@ -101,7 +101,7 @@ Una vez hecho esto, debería poder usar la nueva publicación en la nube basada 
 1. ¿Se puede utilizar una sola clave en varios entornos de nube?
    * Sí, puede generar una clave privada y utilizarla para todos los entornos, pero debe configurar variables de entorno para todos los entornos y utilizar la misma clave.
 1. AEM Si las configuraciones de OSGi para utilizar microservicios están habilitadas, ¿funcionará el proceso de publicación en un servidor local con la misma base de código?
-   * No, si el indicador `dxml.use.publish.microservice` se establece en `true` a continuación, siempre busca configuraciones de microservicio. Establecer `dxml.use.publish.microservice` hasta `false` para que la publicación funcione en su local.
+   * No, si el indicador `dxml.use.publish.microservice` está establecido en `true`, siempre buscará configuraciones de microservicio. Establezca `dxml.use.publish.microservice` en `false` para que la publicación funcione en su sitio local.
 1. ¿Cuánta memoria se asigna al proceso DITA cuando se utiliza la publicación basada en microservicios? ¿Se conduce mediante parámetros de hormiga de perfil DITA?
    * Con la publicación basada en microservicios, la asignación de memoria no se controla mediante parámetros de hormiga de perfil DITA. La memoria total disponible en el contenedor de servicios es de 8 GB, de los cuales 6 GB se asignan al proceso DITA-OT.
 
@@ -123,8 +123,8 @@ Una vez hecho esto, debería poder usar la nueva publicación en la nube basada 
 **Archivo**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **Contenido**:
-* `dxml.use.publish.microservice`: cambie para habilitar la publicación basada en microservicios mediante DITA-OT
-* `dxml.use.publish.microservice.native.pdf`: cambie para habilitar la publicación de PDF nativos basada en microservicios
+* `dxml.use.publish.microservice`: cambiar para habilitar la publicación basada en microservicios mediante DITA-OT
+* `dxml.use.publish.microservice.native.pdf`: cambiar para habilitar la publicación de PDF nativos basada en microservicios
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

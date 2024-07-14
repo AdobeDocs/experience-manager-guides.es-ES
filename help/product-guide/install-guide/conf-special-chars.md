@@ -20,13 +20,13 @@ Siga estos pasos para sobrescribir la lista predeterminada de caracteres especia
 
 1. AEM Inicie sesión en la aplicación y abra el modo CRXDE Lite.
 
-1. crear `symbols.json` en la siguiente ubicación:
+1. crear `symbols.json` archivo en la siguiente ubicación:
 
    ```json
    /apps/fmdita/xmleditor/
    ```
 
-1. Añada la definición de carácter especial en la variable `symbols.json` archivo como:
+1. Agregar la definición de carácter especial en el archivo `symbols.json` como:
 
    ```json
    {"symbols": [{"label": "Arrows",
@@ -39,11 +39,11 @@ Siga estos pasos para sobrescribir la lista predeterminada de caracteres especia
    ```
 
 
-La estructura del `symbols.json` se explica a continuación:
+La estructura del archivo `symbols.json` se explica a continuación:
 
-- `"label": "Arrows"`: Esto especifica la categoría de los caracteres especiales. En el fragmento, seleccione una categoría con el nombre `"Arrows"` está definida.
+- `"label": "Arrows"`: esto especifica la categoría de los caracteres especiales. En el fragmento, se define una categoría con el nombre `"Arrows"`.
 - `"items"`: define la colección de caracteres especiales de la categoría.
-- `"name": "←", "title": "Left Arrow"`: Esta es la definición del carácter especial. Comienza con el `"name"` etiqueta, que no debe cambiarse. El nombre va seguido del carácter especial. El `"title"` es el nombre o título del carácter especial que aparece como información de objeto para ese carácter especial.
+- `"name": "←", "title": "Left Arrow"`: esta es la definición del carácter especial. Comienza con la etiqueta `"name"`, que no se debe cambiar. El nombre va seguido del carácter especial. `"title"` es el nombre o título del carácter especial que aparece como información de objeto para ese carácter especial.
 
   Puede definir varias definiciones de caracteres especiales dentro de una categoría.
 

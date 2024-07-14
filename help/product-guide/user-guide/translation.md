@@ -1,6 +1,6 @@
 ---
 title: Aprenda a traducir contenido
-description: AEM Traduzca el contenido a varios idiomas en las guías de la. Obtenga información acerca de los flujos de trabajo de traducción humana y automática.
+description: Traduzca el contenido a varios idiomas en AEM Guides. Obtenga información acerca de los flujos de trabajo de traducción humana y automática.
 exl-id: 88df750c-fb26-47f1-a884-b9e2f96b96ea
 feature: Translation
 role: User
@@ -13,11 +13,11 @@ ht-degree: 1%
 
 # Traducir contenido {#id1645H700L67}
 
-AEM Guías de incluye potentes funcionalidades que le permiten traducir el contenido a varios idiomas. AEM Las guías de traducción admiten los flujos de trabajo de traducción humana y automática.
+AEM Guides incluye potentes funcionalidades que le permiten traducir el contenido a varios idiomas. AEM Guides admite los flujos de trabajo de traducción automática y humana.
 
-- **Traducción humana** - Los recursos se envían a su proveedor de traducción y los traductores profesionales los traducen. AEM Cuando se completan, se devuelven los recursos traducidos y, a continuación, se importan de nuevo en el archivo de recursos de la página de la aplicación de la nueva versión de.
+- **Traducción humana**: Assets se envía a su proveedor de traducción y lo traducen traductores profesionales. AEM Cuando se completan, se devuelven los recursos traducidos y, a continuación, se importan de nuevo en el archivo de recursos de la página de la aplicación de la nueva versión de.
 
-- **Traducción automática** AEM : Este es el servicio predeterminado en el que el contenido se traduce inmediatamente mediante traducción automática en tiempo real. AEM La interfaz predeterminada de usuario proporciona la capacidad de conectarse a Microsoft Translator
+- AEM **Traducción automática**: este es el servicio predeterminado en el que el contenido se traduce inmediatamente usando la traducción automática en tiempo real. AEM La interfaz predeterminada de usuario proporciona la capacidad de conectarse a Microsoft Translator
 
   >[!NOTE]
   >
@@ -26,6 +26,6 @@ AEM Guías de incluye potentes funcionalidades que le permiten traducir el conte
 
 - **[Prácticas recomendadas para la traducción de contenido](translation-first-time.md)**
 
-- **[Ver estado de traducción](translation-view-trans-state-6234.md)**
+- **[Ver estado de la traducción](translation-view-trans-state-6234.md)**
 
 - **[Traducir temas modificados](translation-modified-topics-6234.md)**

@@ -16,23 +16,23 @@ ht-degree: 0%
 
 ## Preparar archivos de InDesign para la conversión {#id195DBF0045Z}
 
-InDesign proporciona a los autores un completo conjunto de funciones para crear documentos atractivos y complejos. A menudo, esto significa que las distintas partes de un documento se colocan visualmente en la página, pero sin intentar proporcionar ningún flujo entre esos marcos de texto. Si la variable &#39;*orden lectura*&#39; de los marcos de texto no está definida, el archivo IDML contendrá artículos que pueden no seguir ningún orden significativo. El resultado final será uno o más temas DITA con párrafos, tablas y gráficos en orden aleatorio.
+InDesign proporciona a los autores un completo conjunto de funciones para crear documentos atractivos y complejos. A menudo, esto significa que las distintas partes de un documento se colocan visualmente en la página, pero sin intentar proporcionar ningún flujo entre esos marcos de texto. Cuando no se define el &#39;*orden de lectura*&#39; de los marcos de texto, el archivo IDML contendrá artículos que pueden no seguir ningún orden significativo. El resultado final será uno o más temas DITA con párrafos, tablas y gráficos en orden aleatorio.
 
 Aunque es posible editar el contenido DITA en un orden razonable en un editor DITA, es mucho más fácil corregir el fichero de InDesign antes de crear el fichero IDML. Esto se puede hacer sin alterar el aspecto del documento de origen. También tiene la ventaja de hacer accesible el documento fuente definiendo correctamente el orden de lectura.
 
 ***Marcos de texto de subprocesamiento***
 
-El InDesign utiliza el término *&#39;subprocesos&#39;* para el proceso de vincular un marco a otro. Para obtener más información sobre los marcos de texto de subprocesamiento, consulte *[Texto de subprocesamiento](https://helpx.adobe.com/in/indesign/using/threading-text.html)* tema en la documentación de InDesign.
+El InDesign utiliza el término *&#39;threading&#39;* para el proceso de vincular un fotograma a otro. Para obtener más información acerca de los marcos de texto de subprocesamiento, vea el tema *[Subprocesamiento de texto](https://helpx.adobe.com/in/indesign/using/threading-text.html)* en la documentación del InDesign.
 
-***Superposición de fotogramas***
+***Marcos superpuestos***
 
 Algunos documentos de InDesign utilizan marcos superpuestos sin subprocesos por motivos de diseño. Puede resultar muy difícil combinar este contenido en el hilo principal. La mejor opción puede ser editar el resultado en el entorno DITA.
 
 ***historias de InDesign***
 
-Cada flujo de contenido enlazado en un documento de InDesign se denomina *historia*&#39;. Para obtener los mejores resultados, se recomienda mantener limitada la cantidad de historias. Sin embargo, hay algunas partes del documento que pueden no ser necesarias en la salida DITA. Por ejemplo, los pies de página rara vez son necesarios, pero pueden aparecer en medio de un tema si no se gestionan con cuidado.
+Cada flujo de contenido enlazado en un documento de InDesign se denomina &#39;*story*&#39;. Para obtener los mejores resultados, se recomienda mantener limitada la cantidad de historias. Sin embargo, hay algunas partes del documento que pueden no ser necesarias en la salida DITA. Por ejemplo, los pies de página rara vez son necesarios, pero pueden aparecer en medio de un tema si no se gestionan con cuidado.
 
-La forma más sencilla de excluir texto que no es necesario en el documento es darle un carácter especial *Etiqueta de párrafo* que solo se utiliza para el contenido no deseado. Por ejemplo, en lugar de reutilizar un *\[Párrafo básico\]* para el pie de página, cree un *Pie* etiqueta. A continuación, en el archivo MapStyle, simplemente configure el *Pie* párrafos que se eliminarán de esta manera:
+La manera más fácil de excluir texto que no se requiere en el documento es darle una *Etiqueta de párrafo* especial que solo se usa para el contenido no deseado. Por ejemplo, en lugar de reutilizar un *\[párrafo básico\]* para el pie de página, cree una etiqueta *Pie de página* dedicada. A continuación, en el archivo MapStyle, simplemente configure *Footer* párrafos para que se suelten de esta manera:
 
 ```XML
 <paraRule style="Footer" local="0" refactor="drop">
@@ -42,11 +42,11 @@ La forma más sencilla de excluir texto que no es necesario en el documento es d
 
 ***Asignación a tipos de documento DITA***
 
-Es esencial que el documento de origen tenga al menos un estilo de párrafo o un elemento que pueda marcar el inicio de un tema. Es común que los documentos se utilicen *Encabezado1* como el nombre de los títulos de nivel superior del documento. A continuación, se puede crear una asignación a partir de ese estilo a un tipo de documento DITA específico. Si el documento está bien organizado y el uso de *Encabezado1* es constante durante todo, entonces obtendrá buenos resultados.
+Es esencial que el documento de origen tenga al menos un estilo de párrafo o un elemento que pueda marcar el inicio de un tema. Es común que los documentos usen *Heading1* como nombre de los títulos de nivel superior del documento. A continuación, se puede crear una asignación a partir de ese estilo a un tipo de documento DITA específico. Si el documento está bien organizado y el uso de *Heading1* es constante en todo, obtendrá buenos resultados.
 
-***Varios tipos de documento DITA***
+***Varios tipos de documentos DITA***
 
-Si alguno de los *Encabezado1* es necesario convertir los párrafos a diferentes tipos de documento DITA y, a continuación, duplicar el estilo de párrafo en InDesign. Asigne a estos estilos un nombre fácil de reconocer, como *Heading1\_genTask* o *Encabezado1\_solución de problemas* según corresponda. A continuación, configure el archivo mapStyle como se muestra a continuación:
+Si es necesario convertir algunos de los *párrafos Heading1* a diferentes tipos de documento DITA, duplique el estilo de párrafo en InDesign. Asigne a estos estilos un nombre fácil de reconocer, como *Heading1\_genTask* o *Heading1\_Troubleshooting*, según corresponda. A continuación, configure el archivo mapStyle como se muestra a continuación:
 
 ```XML
 <doctypes>
@@ -80,8 +80,8 @@ La regla de borde en InDesign puede aplicarse en los siguientes niveles:
 
 El proceso de conversión de InDesign a DITA aplica la regla de borde de la siguiente manera:
 
-- Los estilos de tabla se asignan a la variable `colspec/@colsep` para reglas verticales. Las reglas horizontales se asignan a `row/@rowsep` atributo. En ambos casos, si el borde no está definido, el atributo no se crea.
-- Los estilos de celda se asignan al `entry/@colsep` y `entry/@rowsep` atributos. Estos valores anularán cualquier regla de borde derivada del estilo de tabla.
+- Los estilos de tabla se asignan al atributo `colspec/@colsep` para las reglas verticales. Las reglas horizontales se asignan al atributo `row/@rowsep`. En ambos casos, si el borde no está definido, el atributo no se crea.
+- Los estilos de celda se han asignado a los atributos `entry/@colsep` y `entry/@rowsep`. Estos valores anularán cualquier regla de borde derivada del estilo de tabla.
 - Las anulaciones locales aplican el formato directamente a la celda y anulan los estilos de tabla y los estilos de celda.
 
 ***Patrones alternativos***
@@ -166,21 +166,21 @@ A continuación se muestra un ejemplo del archivo de asignación:
 
 El archivo de asignación es un archivo XML con una estructura simple que enumera todos los estilos de párrafo de origen y códigos de estilo de carácter. A continuación se explica el contenido del archivo:
 
-**Asignación de estilos**
+**Asignación de estilo**
 
-En el `styleMap` , puede especificar dos atributos opcionales: `@map_date` y `@map_version` para registrar la versión del archivo de asignación.
+En el elemento `styleMap`, puede especificar dos atributos opcionales: `@map_date` y `@map_version` para registrar la versión del archivo de asignación.
 
 **Tipo de documento**
 
-El `doctypes` enumera las asignaciones de temas y mapas DITA compatibles.
+El elemento `doctypes` enumera las asignaciones de temas y mapas DITA compatibles.
 
 **Asignar reglas de párrafo de tipo de documento**
 
-El `mapDoctypeParaRule` es obligatorio. Los atributos de este elemento no se deben editar porque el elemento raíz del XML de origen siempre se asigna a la raíz de la asignación DITA `map` Elemento.
+El elemento `mapDoctypeParaRule` es obligatorio. Los atributos de este elemento no se deben editar porque el elemento raíz del XML de origen siempre está asignado al elemento raíz `map` de la asignación DITA.
 
 **Regla de párrafo de tipo de documento**
 
-El `doctypeParaRule` es obligatorio. Esto proporciona al proceso de conversión una forma de identificar el inicio de un nuevo tema. Normalmente, la variable `@style` se utiliza solo con el atributo `@local` atributo establecido en 0. Sin embargo, si siempre hay anulaciones de formato local en el estilo elegido, deberá agregar una regla para cada estilo más sus anulaciones locales. Esto es fácil de reconocer en el archivo de asignación generado donde sería posible encontrar esto o algo similar:
+El elemento `doctypeParaRule` es obligatorio. Esto proporciona al proceso de conversión una forma de identificar el inicio de un nuevo tema. Normalmente, el atributo `@style` se utiliza solo con el atributo `@local` establecido en 0. Sin embargo, si siempre hay anulaciones de formato local en el estilo elegido, deberá agregar una regla para cada estilo más sus anulaciones locales. Esto es fácil de reconocer en el archivo de asignación generado donde sería posible encontrar esto o algo similar:
 
 ```XML
 <paraRule style="Heading 1" local="0" mapTo="p">
@@ -191,13 +191,13 @@ El `doctypeParaRule` es obligatorio. Esto proporciona al proceso de conversión 
 </paraRule>
 ```
 
-En el ejemplo anterior, hay dos `paraRule` elementos para `@style` = &quot;Heading1&quot;. Simplemente, cree un equivalente `doctypeParaRule` elementos con la variable `@mapToDoctype` establezca el atributo como sea necesario.
+En el ejemplo anterior, hay dos elementos `paraRule` para `@style` = &quot;Heading1&quot;. Simplemente, cree elementos `doctypeParaRule` equivalentes con el atributo `@mapToDoctype` establecido como obligatorio.
 
 Los atributos utilizados en `doctypeParaRule` se explican a continuación:
 
 - `@style`: nombre de un estilo en el documento de InDesign de origen.
-- `@local`: consulte [\#id194CG0V005Z](#id194CG0V005Z).
-- `@mapToDoctype`: nombre de un tipo de tema DITA de una lista enumerada de todos los temas válidos `doctypes`.
+- `@local`: vea [\#id194CG0V005Z](#id194CG0V005Z).
+- `@mapToDoctype`: nombre de un tipo de tema DITA de una lista enumerada de todos los `doctypes` válidos.
 
 **Reglas de ajuste de elementos**
 
@@ -205,13 +205,13 @@ Las reglas de ajuste de elementos definen las formas de ajustar o mover elemento
 
 ***`wrap`elemento***
 
-Este es un elemento opcional. El `wrap` enumera los elementos que se ajustarán o moverán. El ajuste se suele utilizar cuando una serie de elementos debe recibir un elemento principal común. Por ejemplo, varias `li` elementos que se agrupan en una `ol` Elemento. Además, `wrap` se puede utilizar para mover elementos como títulos para figuras y tablas.
+Este es un elemento opcional. El elemento `wrap` enumera los elementos que se ajustarán o moverán. El ajuste se suele utilizar cuando una serie de elementos debe recibir un elemento principal común. Por ejemplo, se están envolviendo varios elementos `li` en un elemento `ol`. Además, `wrap` se puede usar para mover elementos como títulos para figuras y tablas.
 
 Los atributos utilizados en `wrap` se explican a continuación:
 
-- `@element`: Un signo más después del nombre de un elemento muestra que todos los elementos adyacentes con el mismo nombre se ajustarán al elemento llamado en la variable `@wrapper`atributo.
-- `@wrapper`: Nombre del elemento envolvente.
-- `@context`: Proporciona una forma de refinar aún más la forma en que se ajusta un elemento determinado. El siguiente ejemplo muestra una forma de asignar una serie de `li` elementos en una lista ordenada `ol` o una lista desordenada `ul` según el `@context` value \(el contexto se define en la variable `paraRule` element\):
+- `@element`: un signo más después de un nombre de elemento muestra que todos los elementos adyacentes con el mismo nombre se ajustarán en el elemento denominado en el atributo `@wrapper`.
+- `@wrapper`: nombre del elemento envolvente.
+- `@context`: proporciona una forma de restringir aún más la forma en que se ajusta un elemento determinado. El ejemplo siguiente muestra una forma de asignar una serie de elementos `li` en una lista ordenada `ol` o en una lista sin ordenar `ul` según el valor `@context` \(el contexto está definido en el elemento `paraRule`\):
 
   ```XML
   <wrap elements="li+" context="number" wrapper="ol">
@@ -223,9 +223,9 @@ Los atributos utilizados en `wrap` se explican a continuación:
   ```
 
 
-El siguiente ejemplo muestra cómo crear un `fig` elemento de un `title` y un `image` elemento:
+El ejemplo siguiente muestra cómo crear un elemento `fig` a partir de un elemento `title` y un elemento `image`:
 
-- `@elements`: Los elementos enumerados y separados por una coma se incluyen dentro del elemento llamado en la variable `@wrapper` atributo. Debido a la práctica común de incluir títulos de figuras debajo de la imagen, el título será el siguiente `title` inmediatamente después del elemento `image`.
+- `@elements`: los elementos enumerados y separados por una coma se incluirán en el elemento denominado en el atributo `@wrapper`. Debido a la práctica común de incluir títulos de figuras debajo de la imagen, el título será el elemento `title` inmediatamente después de `image`.
 
   La siguiente regla de ajuste:
 
@@ -251,12 +251,12 @@ El siguiente ejemplo muestra cómo crear un `fig` elemento de un `title` y un `i
   </fig>
   ```
 
-- `@wrapper`: Nombre del elemento envolvente.
-- `@context`: Proporciona una forma de refinar aún más la forma en que se ajusta un elemento determinado \(el contexto se define en la variable `paraRule` element\).
+- `@wrapper`: nombre del elemento envolvente.
+- `@context`: proporciona una forma de restringir aún más la forma en que se ajusta un elemento determinado \(el contexto se define en el elemento `paraRule`\).
 
-El siguiente ejemplo muestra cómo mover una `title` en un `table`:
+El siguiente ejemplo muestra cómo mover un(a) `title` a un(a) `table`:
 
-- `@elements`: La `title` que se encuentra inmediatamente antes o inmediatamente después de un elemento `table` se incluirá en el elemento llamado en la variable `@wrapper` atributo. Un predicado de estilo XPath puede identificar la posición del elemento title como `[before]` o `[after]`.
+- `@elements`: el elemento `title` que se encuentra inmediatamente antes o inmediatamente después de `table` se incluirá en el elemento denominado en el atributo `@wrapper`. Un predicado de estilo XPath puede identificar la posición del elemento title como `[before]` o `[after]`.
 
   Ejemplo: La siguiente regla de ajuste:
 
@@ -286,18 +286,18 @@ El siguiente ejemplo muestra cómo mover una `title` en un `table`:
            <colspec colname="1" colwidth="0.3*">
   ```
 
-- `@wrapper`: Nombre del elemento envolvente.
+- `@wrapper`: nombre del elemento envolvente.
 
-- `@context`: Proporciona una forma de refinar aún más la forma en que se ajusta un elemento determinado \(el contexto se define en la variable `paraRule` element\).
+- `@context`: proporciona una forma de restringir aún más la forma en que se ajusta un elemento determinado \(el contexto se define en el elemento `paraRule`\).
 
 
 **Reglas de estilo de párrafo**
 
-El `<paragraphStyleRule>` Los elementos de se describen a continuación:
+Los elementos `<paragraphStyleRule>` se describen a continuación:
 
 ***`paraRule`elemento***
 
-El `paraRule` es obligatorio. Esto especifica las reglas de asignación para todos los estilos de párrafo. En un documento de InDesign, todo el texto está contenido en una subestructura de Estilos de párrafo, incluso los párrafos sin ningún estilo reciben un nombre `[No paragraph style]`. Los corchetes indican un nombre de estilo de InDesign integrado.
+El elemento `paraRule` es obligatorio. Esto especifica las reglas de asignación para todos los estilos de párrafo. En un documento de InDesign, todo el texto está contenido en una subestructura de Estilos de párrafo, incluso los párrafos sin ningún estilo se denominan `[No paragraph style]`. Los corchetes indican un nombre de estilo de InDesign integrado.
 
 >[!NOTE]
 >
@@ -306,29 +306,29 @@ El `paraRule` es obligatorio. Esto especifica las reglas de asignación para tod
 Los atributos utilizados en `paraRule` se explican a continuación:
 
 - `@style`: nombre de un estilo en el documento de InDesign de origen.
-- `@local`: consulte [\#id194CG0V005Z](#id194CG0V005Z).
+- `@local`: vea [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapTo`: nombre de un elemento de destino DITA.
 
-- `@context`: este atributo se utiliza para vincular a un **envolver** cuando hay más de una opción de envoltorio disponible. Ejemplo: el `li` elemento puede estar envuelto en una `ol`, o a `ul` Elemento. Para identificar los diferentes tipos de lista, puede utilizar un nombre de estilo específico o la variable `@local` que puede mostrar lo siguiente:
-   - `local="p[-|-|-|-|-|b|-|-]"` Donde el &#39;`b`&#39; en el campo 6 indica un elemento de lista con viñetas. En este caso establecido `@context` a &#39;`bullet`&#39;.
-   - `local="p[-|-|-|-|-|n|-|-]"` Donde el &#39;`n`&#39; en el campo 6 indica un elemento de lista numerado. En este caso establecido `@context` a &#39;`number`&#39;.
+- `@context`: este atributo se usa para vincularse a una regla **wrap** específica cuando hay más de una opción de envoltorio disponible. Ejemplo: el elemento `li` puede estar envuelto en un elemento `ol` o `ul`. Para identificar los diferentes tipos de lista, puede utilizar un nombre de estilo específico o el atributo `@local` que puede mostrar lo siguiente:
+   - `local="p[-|-|-|-|-|b|-|-]"` Donde el &#39;`b`&#39; del campo 6 indica un elemento de lista con viñetas. En este caso, establezca `@context` en &#39;`bullet`&#39;.
+   - `local="p[-|-|-|-|-|n|-|-]"` Donde el &#39;`n`&#39; del campo 6 indica un elemento de lista numerado. En este caso, establezca `@context` en &#39;`number`&#39;.
 
-- `@commentOut`: Este atributo permite ajustar el elemento de destino en los comentarios XML para que la información no se pierda, pero el usuario la pueda gestionar manualmente. Esto resulta útil si no se puede forzar que el contenido de origen se ajuste a las reglas de estructura DITA.
+- `@commentOut`: este atributo habilita el ajuste del elemento de destino en los comentarios XML para que la información no se pierda, pero el usuario la pueda administrar manualmente. Esto resulta útil si no se puede forzar que el contenido de origen se ajuste a las reglas de estructura DITA.
 
 - `@refactor`: este atributo opcional tiene una opción de dos valores:
 
-- `unwrap`: el elemento coincidente se elimina al conservar su contenido.
+- `unwrap`: el elemento coincidente se quita al conservar su contenido.
 
-- `drop`: se elimina el elemento coincidente y todo su contenido.
+- `drop`: se quitan el elemento coincidente y todo su contenido.
 
 
 **Reglas de estilo de carácter**
 
-El `charRule` Los elementos de se describen a continuación:
+Los elementos `charRule` se describen a continuación:
 
 >[!NOTE]
 >
-> No habrá asignación para el estilo de carácter integrado `[No character style]` cuando `local="0"`, ya que se eliminan durante el preprocesamiento.
+> No habrá asignación para el estilo de carácter integrado `[No character style]` cuando `local="0"`, ya que se quitan durante el preprocesamiento.
 
 ***`charRule`elemento***
 
@@ -339,12 +339,12 @@ Estas son las reglas de asignación para todos los estilos de carácter. En un d
 Los atributos utilizados en `charRule` se explican a continuación:
 
 - `@style`: nombre de un estilo en el documento de InDesign de origen.
-- `@local`: consulte [\#id194CG0V005Z](#id194CG0V005Z).
+- `@local`: vea [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapTo`: nombre de un elemento de destino DITA.
 - `@refactor`: este atributo opcional tiene una opción de dos valores:
-   - `unwrap`: el elemento coincidente se elimina al conservar su contenido.
+   - `unwrap`: el elemento coincidente se quita al conservar su contenido.
 
-   - `drop`: se elimina el elemento coincidente y todo su contenido.
+   - `drop`: se quitan el elemento coincidente y todo su contenido.
 
 
 **Reglas de atributo**
@@ -361,10 +361,10 @@ Este elemento puede ser un elemento secundario de los siguientes contextos de el
 
 El propósito de las reglas de atributos es administrar los atributos de los elementos coincidentes.
 
-Según el contexto, los siguientes atributos están disponibles en el `attributeRules` elemento:
+Dependiendo del contexto, los atributos siguientes están disponibles en el elemento `attributeRules`:
 
-- `@createID`: genera un ID único para los elementos coincidentes. Valores permitidos `true` o `false`. Disponible en todos los contextos.
-- `@copyAll`: copia todos los atributos del contenido XML de origen solo para archivos de origen estructurados. Los valores permitidos son `true` o `false`. Disponible para contextos `mapDoctypeParaRule`, `mapDoctypeElemRule`, `doctypeElemRule` y `elementRule`.
+- `@createID`: genera un identificador único para los elementos coincidentes. Valores permitidos `true` o `false`. Disponible en todos los contextos.
+- `@copyAll`: copia todos los atributos del contenido XML de origen sólo para archivos de origen estructurados. Los valores permitidos son `true` o `false`. Disponible para los contextos `mapDoctypeParaRule`, `mapDoctypeElemRule`, `doctypeElemRule` y `elementRule`.
 
 
 Los atributos utilizados en `attributeRules` se explican a continuación:
@@ -373,10 +373,10 @@ Los atributos utilizados en `attributeRules` se explican a continuación:
 >
 > Este elemento puede contener varios elementos secundarios.
 
-- `addNew`: Agrega un nuevo atributo al elemento coincidente. Disponible para todos los contextos. Tiene dos atributos:
+- `addNew`: agrega un nuevo atributo al elemento coincidente. Disponible para todos los contextos. Tiene dos atributos:
    - `@name`: debe ser un nombre XML válido, preferiblemente válido para el contexto DITA.
    - `@value`: puede ser texto literal o una expresión XPath simple.
-- `copyAtt`: Copia un solo atributo en el destino mientras lo cambia de nombre opcionalmente en el proceso. El valor no cambia. Disponible para contextos `mapDoctypeParaRule`, `mapDoctypeElemRule`, `doctypeElemRule` y `elementRule`. Cuando este elemento está presente, la variable `@copyAllAtts` se supone que el valor es `false`. Tiene dos atributos:
+- `copyAtt`: copia un solo atributo en el destino mientras lo cambia de nombre de manera opcional en el proceso. El valor no cambia. Disponible para los contextos `mapDoctypeParaRule`, `mapDoctypeElemRule`, `doctypeElemRule` y `elementRule`. Cuando este elemento está presente, se supone que el valor `@copyAllAtts` es `false`. Tiene dos atributos:
    - `@name`: debe ser el nombre de un atributo presente en el elemento XML de origen.
    - `@mapTo`: debe ser un nombre XML válido, preferiblemente válido para el contexto DITA.
 
@@ -384,73 +384,73 @@ Los atributos utilizados en `attributeRules` se explican a continuación:
 
 En cualquier documento de InDesign, es posible que los estilos de párrafo y los estilos de carácter lleven cientos de invalidaciones de formato diferentes. La mayoría de estas propiedades no proporcionan ninguna función útil en el proceso de conversión. Sin embargo, hemos identificado un conjunto básico de funciones de formato que no afectan a la semántica del documento y necesitan influir en el proceso de conversión.
 
-El `@local` Los atributos se presentan como un formato delimitado especial en el que se proporcionan ocho campos junto con un prefijo para mostrar el tipo de anulación del formato. A continuación se enumeran los campos de códigos de formato:
+Los atributos `@local` se presentan como un formato delimitado especial en el que se proporcionan ocho campos junto con un prefijo para mostrar el tipo de invalidación de formato. A continuación se enumeran los campos de códigos de formato:
 
-- Prefijo **p** para la anulación local de estilo para o **c** para la anulación local del estilo de carácter.
-- **Estilo de fuente** que es el nombre de la familia y propiedades como &#39;***Cursiva condensada en negrita***&#39;.
+- Prefijo **p** para la invalidación local de estilo para o **c** para la invalidación local de estilo de carácter.
+- **Estilo de fuente** que es el nombre de la familia y propiedades como &#39;***Negrita cursiva condensada***&#39;.
 - **Tamaño de fuente** en puntos.
 - **Posición del carácter** para superíndice o subíndice.
-- **En** para subrayado.
-- **Golpe** para tachado.
-- **Código de lista** para identificar el tipo de lista como con viñetas o numerada; no siempre se utiliza en el InDesign.
+- **Menos de** para el guion bajo.
+- **Tachar** para tachar.
+- **Código de lista** para identificar el tipo de lista como con viñetas o numerada; no siempre se usa en el InDesign.
 - **Código de viñeta** enumera todos los tipos de viñetas definidos en el documento.
 - **Código de número** enumera todos los estilos de numeración definidos en el documento.
 
-El uso cuidadoso de esta función permite perder el formato local, lo que puede ayudar a mejorar la calidad de una transferencia del contenido con estilo a DITA. Este ejemplo puede resolverse en cursiva, texto de 16 puntos en una lista con viñetas: `p[Italic|16|-|-|-|b|-|-]`.
+El uso cuidadoso de esta función permite perder el formato local, lo que puede ayudar a mejorar la calidad de una transferencia del contenido con estilo a DITA. Este ejemplo se puede resolver en cursiva, texto de 16 puntos en una lista con viñetas: `p[Italic|16|-|-|-|b|-|-]`.
 
 **Asignación de estructura**
 
-El archivo de asignación de estructura es similar al archivo de asignación de estilo con una estructura simple que enumera todos los elementos de origen y los tipos de atributos relevantes. Dos atributos, `@map_date` y `@map_version` se proporcionan para registrar la versión del archivo de asignación que se va a utilizar.
+El archivo de asignación de estructura es similar al archivo de asignación de estilo con una estructura simple que enumera todos los elementos de origen y los tipos de atributos relevantes. Se proporcionan dos atributos, `@map_date` y `@map_version`, para registrar la versión del archivo de asignación que se va a utilizar.
 
 **Tipo de documento**
 
-El `doctypes` enumera las asignaciones de temas y mapas DITA compatibles.
+El elemento `doctypes` enumera las asignaciones de temas y mapas DITA compatibles.
 
 **Asignar reglas de elemento de tipo de documento**
 
-El `mapDoctypeElemRule` es obligatorio. Los atributos de este elemento no se deben editar porque el elemento raíz del XML de origen siempre se asigna a la raíz de la asignación DITA `map` Elemento.
+El elemento `mapDoctypeElemRule` es obligatorio. Los atributos de este elemento no se deben editar porque el elemento raíz del XML de origen siempre está asignado al elemento raíz `map` de la asignación DITA.
 
 **Reglas de ajuste de elementos**
 
 **`elementRules`elemento** Esto enumera todos los elementos.
 
-**`elementRule`elemento** El `elementRule` es obligatorio. Estas son las reglas de asignación para todos los elementos de origen. Aunque un documento de InDesign no contiene elementos de estilo no estructurados, se omiten para el contenido estructurado a menos que la etiqueta &#39;***modo híbrido*** El procesamiento de está habilitado.
+**`elementRule`elemento** El elemento `elementRule` es obligatorio. Estas son las reglas de asignación para todos los elementos de origen. Aunque un documento de InDesign contiene elementos de estilo no estructurados, estos se omiten para el contenido estructurado a menos que el procesamiento de &#39;***modo híbrido***&#39; esté habilitado.
 
 Los atributos utilizados en `elementRule` se explican a continuación:
 
 - `@elementName`: nombre de un elemento del documento de InDesign de origen.
 
-- `@local`: consulte [\#id194CG0V005Z](#id194CG0V005Z). \(Solo es útil para documentos híbridos\).
+- `@local`: vea [\#id194CG0V005Z](#id194CG0V005Z). \(Solo es útil para documentos híbridos\).
 
 - `@mapTo`: nombre de un elemento de destino DITA.
 
 - `@refactor`: este atributo opcional tiene una opción de dos valores:
 
-   - `unwrap`: el elemento coincidente se elimina al conservar su contenido.
+   - `unwrap`: el elemento coincidente se quita al conservar su contenido.
 
-   - `drop`: se elimina el elemento coincidente y todo su contenido.
+   - `drop`: se quitan el elemento coincidente y todo su contenido.
 
-- `@context`: este atributo se utiliza para vincular a una regla de ajuste específica cuando hay más de una opción de envoltorio disponible. Ejemplo: el `li` elemento puede estar envuelto en una `ol`, o a `ul` Elemento.
+- `@context`: este atributo se usa para vincular a una regla de ajuste específica cuando hay más de una opción de contenedor disponible. Ejemplo: el elemento `li` puede estar envuelto en un elemento `ol` o `ul`.
 
-- `@commentOut`: Este atributo permite ajustar el elemento de destino en los comentarios XML para que la información no se pierda, pero el usuario la pueda gestionar manualmente. Esto resulta útil si no se puede forzar que el contenido de origen se ajuste a las reglas de estructura DITA.
+- `@commentOut`: este atributo habilita el ajuste del elemento de destino en los comentarios XML para que la información no se pierda, pero el usuario la pueda administrar manualmente. Esto resulta útil si no se puede forzar que el contenido de origen se ajuste a las reglas de estructura DITA.
 
 
-## AEM Guías de solución de problemas
+## Solución de problemas de AEM Guides
 
-AEM Una vez que haya instalado y configurado las Guías de, puede solucionar los problemas.
+Una vez que haya instalado y configurado AEM Guides, puede solucionar los problemas.
 
 ## Validar referencias
 
 Puede ejecutar los scripts dados para validar las referencias. Estos scripts pueden ayudarle a identificar las referencias rotas y, a continuación, aplicarles parches o corregirlas.
 
-- `/bin/fmdita/validatebtree?operation=validate` : informa de cualquier referencia de contenido interrumpido, pero no las corrige.
-- `/bin/fmdita/validatebtree?operation=patch`: enumera las referencias de contenido rotas y los parches o las correcciones.
+- `/bin/fmdita/validatebtree?operation=validate`: informa de cualquier referencia de contenido interrumpido, pero no las corrige.
+- `/bin/fmdita/validatebtree?operation=patch`- enumera las referencias de contenido interrumpido y las revisa o corrige.
 
 **Validar script**
 
 Realice los siguientes pasos para comprobar las referencias mediante el script de validación disponible en el paquete del producto:
 
-1. Ejecute el script de validación \[`/bin/fmdita/validatebtree?operation=validate`\] para comprobar si hay referencias rotas nuevas.
+1. Ejecute el script de validación \[`/bin/fmdita/validatebtree?operation=validate`\] para comprobar si hay alguna referencia rota nueva.
 1. Si la secuencia de comandos validate informa de algún error, puede aplicar parches con la secuencia de comandos patch.
 1. Registre los detalles que se proporcionan a continuación y, si es necesario, compártalos con el equipo de éxito del cliente:
 1. 
@@ -462,20 +462,20 @@ Realice los siguientes pasos para comprobar las referencias mediante el script d
 
 Realice los siguientes pasos para aplicar parches a cualquier referencia rota mediante la secuencia de comandos patch disponible en el paquete del producto:
 
-1. Ejecutar el script de parche `[/bin/fmdita/validatebtree?operation=patch]` para corregir las referencias rotas. La ejecución del script tarda unos minutos e imprime los registros a medida que progresa. Una vez finalizada la ejecución, se imprime &quot;`Done`&quot; al final.
+1. Ejecute el script de parche `[/bin/fmdita/validatebtree?operation=patch]` para corregir las referencias rotas. La ejecución del script tarda unos minutos e imprime los registros a medida que progresa. Una vez finalizada la ejecución, se imprime &quot;`Done`&quot; al final.
 
-   **Nota:* Se recomienda copiar y guardar los registros como referencia.
+   **Nota:* Se recomienda copiar y guardar los registros para fines de referencia.
 
 1. Una vez que el script de parche se haya ejecutado correctamente, puede realizar las siguientes comprobaciones:
 1. 
-   - Compruebe un nuevo nodo &quot;`references_backup_<timestamp>"` se ha creado en `/content/fmdita`
+   - Compruebe que se ha creado un nuevo nodo &quot;`references_backup_<timestamp>"`&quot; en `/content/fmdita`
 - Compruebe que las referencias se hayan corregido
 
-**Logger**
+**Registrador**
 
 También puede crear un registrador independiente para esta ejecución de script, según los detalles que se indican a continuación:
 
-- Añadir un registrador en la clase &quot;`adobe.fmdita.common.BTreeReferenceValidator`&quot;
-- Configúrelo en. `DEBUG`
+- Agregar un registrador en la clase &quot;`adobe.fmdita.common.BTreeReferenceValidator`&quot;
+- Definirlo en `DEBUG`
 
 El archivo de registro creado registrará toda la información relacionada con la ejecución de secuencias de comandos y resulta útil en caso de que se agote el tiempo de espera de la sesión del explorador, al tiempo que se activa la secuencia de comandos desde el explorador.

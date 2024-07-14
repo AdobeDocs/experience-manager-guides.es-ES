@@ -1,6 +1,6 @@
 ---
 title: Traducir temas modificados
-description: AEM Obtenga información sobre cómo volver a traducir un tema modificado en Guías de.
+description: Obtenga información sobre cómo volver a traducir un tema modificado en AEM Guides.
 exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 feature: Translation
 role: User
@@ -19,11 +19,11 @@ Realice los siguientes pasos para enviar un tema modificado para su retraducció
 
 1. Pulse en el fichero de mapa DITA de la carpeta de copia de idioma de origen.
 
-1. Haga clic en **Traducción** pestaña.
+1. Haga clic en la ficha **Traducción**.
 
-1. En el **Filtrar** panel de la izquierda, seleccione **Traducir idiomas** que desea comprobar el estado de y haga clic en **Listo**.
+1. En el panel **Filtro** de la izquierda, seleccione los **Idiomas de traducción** para los que desea comprobar el estado y haga clic en **Listo**.
 
-   Puede ver el estado de traducción de cada tema. Los temas que tienen otra revisión del tema disponible que la que se envió para su traducción muestran un **Obsoleto** estado.
+   Puede ver el estado de traducción de cada tema. Los temas que tienen disponible otra revisión del tema distinta a la que se envió para su traducción, muestran el estado **Obsoleto**.
 
    >[!NOTE]
    >
@@ -35,19 +35,19 @@ Realice los siguientes pasos para enviar un tema modificado para su retraducció
 
 1. Haga clic en la casilla de verificación para seleccionar los temas que desea enviar para su retraducción.
 
-   Cuando selecciona una fecha sin sincronizar, la variable **Crear/actualizar copias de idioma** aparece en el panel Referencias y la opción **Descartar estado de falta de sincronización** botón situado encima de **Filtrar** icono.
+   Cuando selecciona una fecha sin sincronizar, la opción **Crear/actualizar copias de idioma** aparece en el panel Referencias y el botón **Descartar estado sin sincronización** situado encima del icono **Filtrar**.
 
-   Puede usar el complemento **Descartar fuera de sincronización** para anular el estado Obsoleto de los temas del mapa DITA. Por ejemplo, si ha realizado algunos cambios en la versión en inglés del tema que no necesitan traducción, puede utilizar este botón y cambiar el estado Obsoleto del tema seleccionado.
+   Puede usar el botón **Descartar sincronización insuficiente** para anular el estado Obsoleto de los temas del mapa DITA. Por ejemplo, si ha realizado algunos cambios en la versión en inglés del tema que no necesitan traducción, puede utilizar este botón y cambiar el estado Obsoleto del tema seleccionado.
 
    >[!NOTE]
    >
-   > Si hace clic en **Descartar estado de falta de sincronización** establece el estado del tema en Actualizado para los temas obsoletos seleccionados.
+   > Si hace clic en el botón **Descartar estado de desincronización**, se establece el estado del tema como Actualizado para los temas seleccionados sin fecha.
 
-1. Clic **Actualizar copias de idioma** y configure el trabajo de traducción.
+1. Haga clic en **Actualizar copias de idioma** y configure el trabajo de traducción.
 
 1. Puede elegir crear un nuevo proyecto de traducción o agregar temas a un proyecto de traducción existente. Proporcione los detalles necesarios para configurar el proyecto de traducción.
 
-1. Clic **Inicio**.
+1. Haga clic en **Iniciar**.
 
    Se muestra un mensaje de confirmación que indica que el tema se ha enviado para su traducción.
 
@@ -55,7 +55,7 @@ Realice los siguientes pasos para enviar un tema modificado para su retraducció
 
    ![](images/incremental-job.PNG){width="300" align="left"}
 
-1. Para iniciar la traducción, haga clic en la flecha de la tarjeta del trabajo de traducción y seleccione **Inicio** de la lista. Un mensaje notifica que el trabajo se ha iniciado.
+1. Para iniciar la traducción, haga clic en la flecha de la tarjeta del trabajo de traducción y seleccione **Start** en la lista. Un mensaje notifica que el trabajo se ha iniciado.
 
    También puede ver el estado del tema que se está traduciendo al hacer clic en los puntos suspensivos en la parte inferior de la tarjeta de trabajo de traducción.
 
@@ -65,11 +65,11 @@ Realice los siguientes pasos para enviar un tema modificado para su retraducció
 
 1. Una vez finalizada la traducción, el estado cambia a **Listo para revisión**. Haga clic en los puntos suspensivos para ver los detalles del tema y realice una de las siguientes acciones en la barra de herramientas:
 
-   - Clic **Mostrar en Assets** para ver y verificar la traducción.
+   - Haga clic en **Mostrar en Assets** para ver y comprobar la traducción.
 
-   - Clic **Aceptar traducción** si cree que los cambios se han traducido correctamente. Se muestra un mensaje de confirmación.
+   - Haga clic en **Aceptar traducción** si cree que los cambios se han traducido correctamente. Se muestra un mensaje de confirmación.
 
-   - Clic **Rechazar traducción** si cree que hay que volver a hacer el trabajo. Se muestra un mensaje de rechazo.
+   - Haga clic en **Rechazar traducción** si cree que es necesario volver a realizar el trabajo. Se muestra un mensaje de rechazo.
 
    >[!NOTE]
    >

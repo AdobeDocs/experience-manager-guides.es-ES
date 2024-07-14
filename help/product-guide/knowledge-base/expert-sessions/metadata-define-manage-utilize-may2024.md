@@ -1,18 +1,18 @@
 ---
 title: 'Definir, administrar, utilizar: metadatos'
 description: Definir, administrar y utilizar metadatos
-source-git-commit: 876e512febc9a4529d70b96303af21917e41961f
+exl-id: 3ebcb752-ba73-4c4c-9340-125b1e984cd1
+source-git-commit: 73c12f4f7e426c0c62150fe20770fa3599e6d095
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 1%
 
 ---
 
-
 # Definir, administrar y utilizar metadatos
 
 Tanto si planea organizar el contenido, clasificarlo en distintos tipos, publicarlo para varios grupos de usuarios finales, exponer el contenido para su búsqueda en un motor de IA o permitir que los usuarios finales busquen en distintas facetas, necesita crear estrategias de metadatos para el contenido.
-Las guías de Adobe Experience Manager le permiten definir, aplicar y utilizar metadatos de forma eficaz para el contenido administrado en el sistema. Aprenderemos a hacerlo, en esta sesión.
+Adobe Experience Manager Guides le permite definir, aplicar y utilizar metadatos de forma eficaz para el contenido administrado en el sistema. Aprenderemos a hacerlo, en esta sesión.
 
 
 ## Grabación de sesión
@@ -25,7 +25,7 @@ Las guías de Adobe Experience Manager le permiten definir, aplicar y utilizar m
 - **Fecha** - 9 de mayo de 2024
 - **Número de asistentes** - 100+
 - **Duración** - 60 minutos
-- **Audiencia** - Clientes, socios y empleados de Adobe
+- **Audiencia**: clientes, socios y empleados de Adobe
 
 ## Puntos clave
 
@@ -50,12 +50,12 @@ En esta sesión, aprendió lo siguiente:
 
 ### Foro de la comunidad
 
-- Para interacciones de la comunidad específicas de la sesión en Experience League, visite  [AEM Foro de guías de](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- Para interacciones de comunidad específicas de sesión en Experience League, visita [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
 >[!NOTE]
 >
-> AEM Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de las Guías de:
+> Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de AEM Guides:
 > - Marzo de 2024 (para la nube)
 > - 4.4 (para dispositivos que no sean en la nube)
 
@@ -63,4 +63,4 @@ En esta sesión, aprendió lo siguiente:
 
 ## Contáctenos.
 
-Si tiene cualquier pregunta, envíenos un correo electrónico a <techcomm@adobe.com>
+Para cualquier consulta, envíenos un correo electrónico a <techcomm@adobe.com>

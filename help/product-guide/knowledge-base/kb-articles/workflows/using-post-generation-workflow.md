@@ -1,5 +1,5 @@
 ---
-title: Flujo de trabajo de generación posterior
+title: Flujo de trabajo de generación de Post
 description: Resumen del flujo de trabajo de generación posterior con un ejemplo
 exl-id: e19fdc0b-0ec6-46ce-81ed-e9490d12c029
 feature: Workflow Configuration
@@ -11,13 +11,13 @@ ht-degree: 2%
 
 ---
 
-# AEM Publicación de guías de usuario - Flujo de trabajo de generación posterior
+# Publicación de AEM Guides: flujo de trabajo de generación de Post
 
-AEM Guías le proporciona la flexibilidad para especificar un flujo de trabajo de generación posterior a la salida. AEM Puede realizar algunas tareas de posprocesamiento en la salida que se genera mediante las guías de.
+AEM Guides le ofrece la flexibilidad de especificar un flujo de trabajo de generación posterior a la salida. Puede realizar algunas tareas de posprocesamiento en la salida que se genera mediante AEM Guides.
 Por ejemplo, es posible que desee establecer ciertas propiedades en la salida del PDF o que desee enviar un correo electrónico a un conjunto de usuarios una vez generada la salida.
 
 
-## ¿Cuáles son los pasos necesarios para utilizar los flujos de trabajo de generación posterior?
+## Pasos necesarios para utilizar los flujos de trabajo de generación de Post
 
 ### Creación de un proceso de flujo de trabajo
 
@@ -29,18 +29,18 @@ Cree un proceso de flujo de trabajo basado en Java o ECMA que realice la operaci
 ### Crear un modelo del flujo de trabajo
 
 Con el proceso de flujo de trabajo personalizado que creó en el paso anterior, cree un modelo de flujo de trabajo y agréguele ese paso de proceso.
-- También debe añadir un paso de proceso obligatorio &quot;*Finalizar generación posterior*&quot; como último paso del flujo de trabajo.
+- También debe agregar un paso de proceso obligatorio &quot;*Finalizar la generación de Post*&quot; como último paso del flujo de trabajo.
 
 Consulte el modelo de flujo de trabajo de muestra siguiente:
 
-![Modelo de flujo de trabajo de generación posterior](../assets/workflows/pgwf-workflow-model.png)
+![Modelo de flujo de trabajo de generación de Post](../assets/workflows/pgwf-workflow-model.png)
 
 
 ### Usar este flujo de trabajo de generación posterior en un mapa
 
-AEM El flujo de trabajo de generación de publicaciones es una propiedad que se puede configurar en cualquier ajuste preestablecido de salida dentro del mecanismo de publicación de las guías de. Ejemplo:
+El flujo de trabajo de generación de Post es una propiedad que se puede configurar en cualquier ajuste preestablecido de salida dentro del mecanismo de publicación de AEM Guides. Ejemplo:
 
-![Flujo de trabajo de generación de publicaciones en ajustes preestablecidos de salida](../assets/workflows/pgwf-preset-settings.png)
+![Flujo de trabajo de generación de Post en el ajuste preestablecido de salida](../assets/workflows/pgwf-preset-settings.png)
 
 
 Suponiendo que el modelo seleccionado ya se ha creado.
@@ -53,6 +53,6 @@ Ahora puede ejecutar la publicación con este ajuste preestablecido y validar el
 
 ## Muestra
 
-Para su referencia, puede utilizar el siguiente paquete e instalarlo a través del administrador de paquetes para probar el flujo de trabajo de generación posterior de muestra (*como se indica en las capturas de pantalla anteriores*)
+Para su referencia, puede usar el siguiente paquete e instalarlo a través del administrador de paquetes para probar el flujo de trabajo de generación posterior de muestra (*como se menciona en las capturas de pantalla anteriores*)
 
 [Modelo de flujo de trabajo de generación posterior basado en ECMA de muestra](../assets/workflows/sample-pgwf-ecma-test-wfmetadata.zip)

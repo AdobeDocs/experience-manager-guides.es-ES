@@ -1,6 +1,6 @@
 ---
 title: 'Publicación de PDF nativos: aprendizaje con ejemplos (parte 1)'
-description: Con el motor de publicación de PDF nativo, puede controlar el diseño de contenido del documento mientras manipula las secciones deseadas según sea necesario mediante CSS, HTML y JavaScript fáciles de actualizar.
+description: Con el motor de publicación PDF nativo, puede controlar el diseño de contenido del documento mientras manipula las secciones deseadas según sea necesario mediante CSS, HTML y JavaScript fáciles de actualizar.
 exl-id: ddaf4e83-9958-42c5-b172-4c9f8e923910
 feature: Native PDF Output
 role: User, Admin
@@ -26,9 +26,9 @@ En esta sesión, con la ayuda de algunos ejemplos, aprenderá a utilizar las fun
 ## Lo más destacado
 
 - **Fecha** - 1 de junio de 2023
-- **Número de asistentes** - 82
+- **Cantidad de asistentes** - 82
 - **Duración** - 60 minutos
-- **Audiencia** - Clientes, socios y empleados de Adobe
+- **Audiencia**: clientes, socios y empleados de Adobe
 
 ## Puntos clave
 
@@ -46,21 +46,21 @@ En esta sesión, aprendió lo siguiente sobre la publicación de PDF nativos:
 
 - **Información general funcional sobre la publicación de PDF nativos** - [en el Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **Casos de uso comunes documentados** - [en el Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
+- **Casos de uso común documentados** - [en el Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
-- **Foro de la comunidad** - Para interacciones de la comunidad específicas de la sesión en Experience League, visite  [AEM Foro de guías de](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Foro de la comunidad**: para interacciones de la comunidad específicas de la sesión en Experience League, visita [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> AEM Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de las Guías de:
+> Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de AEM Guides:
 > - Local 4.2 o posterior
 > - Cloud Service 2303 y posterior
 
 ## Próxima sesión de expertos
 
-- **Tema** - PDF nativo que publica &quot;Hands on lab - BYOS&quot; - Aprendizaje interactivo
-- **Programado para el** - 7 de septiembre de 2023
+- **Tema** - Publicación de PDF nativo &quot;Manos en el laboratorio - BYOS&quot; - Aprendizaje interactivo
+- **Programado para el día** - 7 de septiembre de 2023
 
 ## Contáctenos.
 
-Si tiene cualquier pregunta, envíenos un correo electrónico a <techcomm@adobe.com>
+Para cualquier consulta, envíenos un correo electrónico a <techcomm@adobe.com>

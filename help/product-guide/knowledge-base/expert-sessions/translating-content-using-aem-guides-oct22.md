@@ -13,7 +13,7 @@ ht-degree: 4%
 
 # Traducir contenido
 
-AEM Guías de traducción proporciona la solución definitiva para la creación de contenido multilingüe con capacidades de traducción sólidas.
+AEM Guides proporciona la solución definitiva para la creación de contenido multilingüe con funciones de traducción sólidas.
 
 ## Resumen de sesión
 
@@ -26,9 +26,9 @@ En esta sesión, aprenderá sobre el proceso de traducción, el mecanismo de int
 ## Lo más destacado
 
 - **Fecha** - 27 de octubre de 2022
-- **Número de asistentes** - 94
+- **Cantidad de asistentes** - 94
 - **Duración** - 60 minutos
-- **Audiencia** - Clientes, socios y empleados de Adobe
+- **Audiencia**: clientes, socios y empleados de Adobe
 
 ## Puntos clave
 
@@ -40,18 +40,18 @@ En esta sesión, aprenderá lo siguiente:
 
 ## Recursos relacionados
 
-- **Vídeos de funciones** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **Vídeos de características** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
 - **Guía del usuario** - [Traducir contenido](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 
-- **Foro de la comunidad** - Para interacciones de la comunidad específicas de la sesión en Experience League, visite [AEM Foro de guías de](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
+- **Foro de la comunidad**: para interacciones de la comunidad específicas de la sesión en Experience League, visita [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
 
 >[!NOTE]
 >
-> AEM Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de las Guías de:
+> Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de AEM Guides:
 > - Local 4.1 o posterior
 > - Cloud Service 2207 o posterior
 
 ## Contáctenos.
 
-Si tiene cualquier pregunta, envíenos un correo electrónico a <techcomm@adobe.com>
+Para cualquier consulta, envíenos un correo electrónico a <techcomm@adobe.com>

@@ -1,6 +1,6 @@
 ---
-title: AEM Verificar la instalación de guías de
-description: AEM Obtenga información sobre cómo verificar la instalación de las guías de
+title: Verificar la instalación de AEM Guides
+description: Obtenga información sobre cómo verificar la instalación de AEM Guides
 exl-id: 4e566c57-a522-4605-bc70-47155f20b429
 feature: Installation
 role: Admin
@@ -12,21 +12,21 @@ ht-degree: 0%
 
 ---
 
-# AEM Verificar la instalación de guías de {#id213BD030FBE}
+# Verificar la instalación de AEM Guides {#id213BD030FBE}
 
-AEM Una vez que haya instalado las guías de la aplicación, debe comprobar si la instalación se ha realizado correctamente o no. Siga estos pasos para comprobar la instalación:
+Una vez instalado AEM Guides, debe comprobar si la instalación se ha realizado correctamente o no. Siga estos pasos para comprobar la instalación:
 
-1. Acceda a la consola de desarrollador del Cloud Service.
+1. Acceda a la Developer Console de su Cloud Service.
 
-   Para obtener más información sobre el acceso a Developer Console, consulte [Acceso a Developer Console](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=es) AEM en la documentación de.
+   Para obtener más información sobre cómo acceder a Developer Console, consulte [Acceso a Developer Console AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=es) en la documentación de.
 
 1. AEM Acceda a la lista de paquetes OSGi en la lista de paquetes de.
 
-   Para obtener más información sobre el acceso a paquetes, consulte [Paquetes](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles) AEM en la documentación de.
+   AEM Para obtener más información sobre cómo acceder a los paquetes, consulte [Paquetes](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles) en la documentación de la.
 
 1. Busque fmdita en la lista de paquetes y compruebe su estado.
 
-   El estado debe mostrar *Activo* para paquetes implementados correctamente. AEM Si alguno de los paquetes no tiene un estado Activo, compruebe los registros de la para solucionar el problema de instalación.
+   El estado debería mostrar *Activo* para los paquetes implementados correctamente. AEM Si alguno de los paquetes no tiene un estado Activo, compruebe los registros de la para solucionar el problema de instalación.
 
 
 **Tema principal:**[ Descargar e instalar](download-install.md)

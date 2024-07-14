@@ -1,6 +1,6 @@
 ---
 title: Configurar caracteres especiales adicionales en la barra de herramientas del Editor Web
-description: AEM Aprenda a configurar caracteres especiales adicionales en el editor web de guías de.
+description: Aprenda a configurar caracteres especiales adicionales en el editor web de AEM Guides.
 feature: Web Editor
 role: User
 exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90

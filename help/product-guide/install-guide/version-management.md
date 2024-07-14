@@ -18,7 +18,7 @@ El control de versiones es un aspecto importante de cualquier sistema de gestió
 
 Como administrador, puede aplicar reglas que restrinjan a los usuarios la edición de un archivo sin desprotegerlo. Del mismo modo, puede asegurarse de que todos los archivos desprotegidos vuelven a protegerse para evitar la pérdida de datos.
 
-En un entorno multiuso, también es importante asegurarse de que los usuarios no eliminen archivos del sistema. Este requisito es más importante para los archivos desprotegidos por otros usuarios. Puede permitir o impedir que los usuarios sobrescriban los archivos desprotegidos por otros usuarios. AEM Para evitar que los usuarios eliminen accidentalmente del sistema los archivos desprotegidos, Guías de usuario proporciona una configuración que puede utilizar. Además de los archivos desprotegidos, también puede controlar la eliminación de archivos que contengan referencias o a los que se haga referencia desde otros archivos. Además, también puede crear una nueva versión para el archivo cargado.
+En un entorno multiuso, también es importante asegurarse de que los usuarios no eliminen archivos del sistema. Este requisito es más importante para los archivos desprotegidos por otros usuarios. Puede permitir o impedir que los usuarios sobrescriban los archivos desprotegidos por otros usuarios. Para evitar que los usuarios eliminen accidentalmente archivos desprotegidos del sistema, AEM Guides proporciona una configuración que puede utilizar. Además de los archivos desprotegidos, también puede controlar la eliminación de archivos que contengan referencias o a los que se haga referencia desde otros archivos. Además, también puede crear una nueva versión para el archivo cargado.
 
 ## Crear nueva versión para el archivo cargado
 
@@ -36,24 +36,24 @@ Para crear una nueva versión del archivo cargado, realice los siguientes pasos:
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Busque y haga clic en **com.adobe.fmdita.config.ConfigManager** paquete.
+1. Busque y haga clic en el paquete **com.adobe.fmdita.config.ConfigManager**.
 
-1. Seleccione el **Crear nueva versión para el archivo cargado** opción.
+1. Seleccione la opción **Crear nueva versión para el archivo cargado**.
 
    Esta opción está desactivada de forma predeterminada.
 
-   Cuando se selecciona la opción, se produce un nuevo mecanismo de administración de versiones que anula el comportamiento de carga predeterminado para cualquier carga posterior, y guarda el contenido del archivo cargado como una nueva versión. AEM AEM Si la opción no está seleccionada, las guías de usuario utilizan el mecanismo de administración de versiones por defecto de la aplicación de la.
+   Cuando se selecciona la opción, se produce un nuevo mecanismo de administración de versiones que anula el comportamiento de carga predeterminado para cualquier carga posterior, y guarda el contenido del archivo cargado como una nueva versión. Si la opción no está seleccionada, AEM Guides AEM utiliza el mecanismo de administración de versiones predeterminado del.
 
 1. Haga clic en **Guardar**.
 
 
 >[!NOTE]
 >
-> Si activa la propiedad, puede cargar archivos en lotes de 70 o menos **Crear nueva versión para el archivo cargado** \(create.ver.new.content\) y utilice el **IU de Assets** para cargar recursos de forma masiva.
+> Puede cargar archivos en lotes de 70 o menos si habilita la propiedad **Crear nueva versión para el archivo cargado** \(create.ver.new.content\) y usa la **interfaz de usuario de Assets** para cargar recursos de forma masiva.
 
 ## Configurar opciones para permitir la edición de archivos desprotegidos
 
-AEM El Editor Web de guías de la aplicación permite crear y actualizar temas de DITA. Puede configurar el Editor Web para permitir la edición únicamente de los documentos que se han extraído del repositorio. Esto garantiza que ningún otro escritor sobrescriba accidentalmente un tema abierto para su edición por otro escritor. Una vez abierto un tema para su edición, un autor puede proteger el archivo en el momento de cerrarlo.
+El editor web de AEM Guides permite crear y actualizar temas DITA. Puede configurar el Editor Web para permitir la edición únicamente de los documentos que se han extraído del repositorio. Esto garantiza que ningún otro escritor sobrescriba accidentalmente un tema abierto para su edición por otro escritor. Una vez abierto un tema para su edición, un autor puede proteger el archivo en el momento de cerrarlo.
 
 Otra regla importante es garantizar que los archivos que se han desprotegido vuelvan a desprotegerse en el sistema. Esto evita que los usuarios cierren accidentalmente los archivos sin volver a protegerlos.
 
@@ -67,15 +67,15 @@ Siga estos pasos para habilitar estas funciones:
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Busque y haga clic en **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** paquete.
+1. Busque y haga clic en el paquete **com.adobe.fmdita.xmleditor.config.XmlEditorConfig**.
 
-1. Seleccione el **Desactivar la edición sin cierre de compra** opción.
+1. Seleccione la opción **Deshabilitar edición sin desprotección**.
 
    ![](assets/xml-editor-config.png){width="650" align="left"}
 
    Con esta opción, los usuarios no verán la opción Editar en la barra de herramientas hasta que desprotejan un archivo.
 
-1. Seleccione el **Solicitar el registro de entrada al cerrar** opción para mostrar un mensaje de advertencia cada vez que se cierra un archivo desprotegido sin guardarlo ni volver a registrarlo en el repositorio.
+1. Seleccione la opción **Pedir protección al cerrar** para mostrar un mensaje de advertencia cada vez que se cierre un archivo desprotegido sin guardarlo ni volver a protegerlo en el repositorio.
 
 1. Haga clic en **Guardar**.
 
@@ -100,9 +100,9 @@ Para permitir que los usuarios sobrescriban el archivo durante la carga que haya
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Busque y haga clic en **com.adobe.fmdita.config.ConfigManager** paquete.
+1. Busque y haga clic en el paquete **com.adobe.fmdita.config.ConfigManager**.
 
-1. Seleccione el **Sobrescribir archivo retirado al cargar** opción.
+1. Seleccione la opción **Sobrescribir archivo desprotegido al cargar**.
 
    Esta opción está activada de forma predeterminada. Con esta opción seleccionada, los usuarios podrán sobrescribir los archivos desprotegidos. Si no se selecciona la opción, se impide que el archivo se sobrescriba si lo ha desprotegido él u otro usuario.
 
@@ -121,34 +121,34 @@ Para evitar que los usuarios eliminen accidentalmente archivos que ellos u otros
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Busque y haga clic en **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** paquete.
+1. Busque y haga clic en el paquete **com.adobe.fmdita.xmleditor.config.XmlEditorConfig**.
 
-1. Seleccione el **Impedir la eliminación del contenido extraído** opción.
+1. Seleccione la opción **Impedir la eliminación del contenido desprotegido**.
 
    Esta opción está activada de forma predeterminada. Con esta opción seleccionada, los usuarios no podrán eliminar los archivos desprotegidos.
 
 1. Haga clic en **Guardar**.
 
 
-Para admitir esta función, se ha agregado una nueva propiedad de índice `drivelock` se añade en `oak:index`:
+Para admitir esta característica, se agrega una nueva propiedad de índice `drivelock` en `oak:index`:
 
 `/oak:index/damAssetLucene/indexRules/dam:Asset/properties/drivelock`
 
 ![](assets/index-property-oak-index-drivelock.png){width="800" align="left"}
 
-Además de la nueva propiedad index, asegúrese de que las siguientes propiedades están configuradas en `/oak:index/damAssetLucene`:
+Además de la nueva propiedad index, asegúrese de que las siguientes propiedades están establecidas en `/oak:index/damAssetLucene`:
 
 - `jcr:primaryType`=`"oak:QueryIndexDefinition"`
 - `async`=`"async"`
 - `compatVersion`=`"{Long}2"`
 - `evaluatePathRestrictions`=`"{Boolean}true"`
 - `reindex`=`"{Boolean}false"`
-- `reindexCount`=`"{Long}3"` *\(este es el recuento de cuántas veces se ha realizado la reindexación, se ha sustituido por la instalación del paquete\)*
+- `reindexCount`=`"{Long}3"` *\(este es el recuento de cuántas veces se ha realizado la reindexación, se ha reemplazado por la instalación de nuestro paquete\)*
 - `type`=`"lucene"`
 
 >[!NOTE]
 >
-> Puede cambiar el valor de `reindex` hasta `"{Boolean}true"`. Esto permitirá obtener resultados de búsqueda más rápidos para los archivos desprotegidos dentro de una jerarquía de carpetas.
+> Puede cambiar el valor de `reindex` a `"{Boolean}true"`. Esto permitirá obtener resultados de búsqueda más rápidos para los archivos desprotegidos dentro de una jerarquía de carpetas.
 
 ## Impedir la eliminación de archivos referenciados
 
@@ -171,9 +171,9 @@ Para definir quién puede eliminar un archivo que contenga referencias o al que 
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Busque y haga clic en **com.adobe.fmdita.config.ConfigManager** paquete.
+1. Busque y haga clic en el paquete **com.adobe.fmdita.config.ConfigManager**.
 
-1. Busque el **Bloquear eliminación de recursos referenciados** opción.
+1. Busque la opción **Bloquear eliminación para Assets de referencia**.
 
 1. En función de a quién desee conceder acceso para su eliminación, especifique una de las siguientes constantes:
 
@@ -181,7 +181,7 @@ Para definir quién puede eliminar un archivo que contenga referencias o al que 
 
      ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
 
-   - allow\_unsafe\_delete\_for\_delete\_assets\_group: un administrador o un usuario que pertenece a *delete-assets* El grupo puede eliminar archivos. Si algún otro usuario intenta eliminar archivos con referencias, no se le permitirá eliminar dichos archivos hasta que se eliminen todas las referencias. La siguiente captura de pantalla aparece cuando un usuario, que no tiene permisos de, intenta eliminar archivos.
+   - allow\_unsafe\_delete\_for\_delete\_assets\_group: Un administrador o un usuario que pertenezca al grupo *delete-assets* tiene permiso para eliminar archivos. Si algún otro usuario intenta eliminar archivos con referencias, no se le permitirá eliminar dichos archivos hasta que se eliminen todas las referencias. La siguiente captura de pantalla aparece cuando un usuario, que no tiene permisos de, intenta eliminar archivos.
 
      ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
 
@@ -192,7 +192,7 @@ Para definir quién puede eliminar un archivo que contenga referencias o al que 
 
 ## Depuración de versiones anteriores de archivos DITA
 
-Al actualizar contenido y crear nuevas versiones, las versiones anteriores de los ficheros DITA se mantienen en el repositorio. Es posible que se creen muchas versiones para los archivos DITA durante un periodo y que, colectivamente, ocupen una gran cantidad de espacio en el repositorio. AEM Guías de le permite configurar las versiones anteriores que deben eliminarse del repositorio.
+Al actualizar contenido y crear nuevas versiones, las versiones anteriores de los ficheros DITA se mantienen en el repositorio. Es posible que se creen muchas versiones para los archivos DITA durante un periodo y que, colectivamente, ocupen una gran cantidad de espacio en el repositorio. AEM Guides le permite configurar las versiones anteriores que deben eliminarse del repositorio.
 
 Puede acceder a esta utilidad mediante la URL determinada si tiene derechos administrativos:
 
@@ -213,15 +213,15 @@ Siga estos pasos para purgar las versiones anteriores:
    ![](assets/preview-purge-report.png){width="350" align="left"}
 
 1. 
-   - **Número de versiones que se conservarán de la última versión**: introduzca el número de versiones que deben conservarse y no depurarse. Por ejemplo, si se introduce 5, se conservan las últimas 5 versiones y las versiones anteriores a ellas pueden depurarse en caso de que se cumplan otras condiciones de depuración.
-- **Conservar Versiones Creadas Dentro Del Periodo \(En Días\)**: introduzca la antigüedad máxima de una versión en días. Las versiones anteriores al número determinado de días pueden depurarse si se cumplen otras condiciones de depuración. Por ejemplo, si se introduce 100, todas las versiones creadas antes de 100 días cumplen los requisitos para ser depuradas en caso de que se cumplan otras condiciones de depuración.
-- **Ruta**: seleccione la ruta del archivo o la carpeta cuyos archivos desea purgar.
+   - **Número de versiones que se deben conservar de la última versión**: escriba el número de versiones que se deben conservar y no purgar. Por ejemplo, si se introduce 5, se conservan las últimas 5 versiones y las versiones anteriores a ellas pueden depurarse en caso de que se cumplan otras condiciones de depuración.
+- **Conservar versiones creadas dentro del intervalo de tiempo \(en días\)**: escriba la antigüedad máxima de una versión en días. Las versiones anteriores al número determinado de días pueden depurarse si se cumplen otras condiciones de depuración. Por ejemplo, si se introduce 100, todas las versiones creadas antes de 100 días cumplen los requisitos para ser depuradas en caso de que se cumplan otras condiciones de depuración.
+- **Ruta**: seleccione la ruta de acceso del archivo o carpeta cuyos archivos desea purgar.
 
   >[!NOTE]
   >
   > Sólo se pueden depurar ficheros DITA.
 
-1. Clic **Previsualizar informe de purga**.
+1. Haga clic en **Previsualizar informe de purga**.
 
    >[!NOTE]
    >
@@ -230,13 +230,13 @@ Siga estos pasos para purgar las versiones anteriores:
    Se genera el informe de depuración de versiones.
 
 1. Descargue el informe de purga de versiones y compruebe los archivos y las versiones que se purgarán.
-1. Puede elegir entre **Cancelar purga** o **Iniciar purga**.
+1. Puede elegir **Cancelar purga** o **Iniciar purga**.
 
    ![](assets/download-purge-report.png){width="350" align="left"}
 
    Se muestra el estado de depuración.
 
-   Clic **Descargar informe de purga de versiones** para ver las versiones depuradas. Este informe proporciona el estado de depuración de todas las versiones, junto con los motivos por los que se retuvo una versión en particular o por los que se depuró.
+   Haga clic en **Descargar informe de purga de versiones** para ver las versiones purgadas. Este informe proporciona el estado de depuración de todas las versiones, junto con los motivos por los que se retuvo una versión en particular o por los que se depuró.
 
 
 >[!NOTE]

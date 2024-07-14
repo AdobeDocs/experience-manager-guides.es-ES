@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # Requisitos técnicos {#id213BCG003XA}
 
-AEM Antes de instalar Guías de la 4.4, asegúrese de que su sistema cumpla los siguientes requisitos técnicos:
+Antes de instalar AEM Guides 4.4, asegúrese de que su sistema cumple los siguientes requisitos técnicos:
 
 **Adobe Experience Manager**
 
@@ -22,7 +22,7 @@ AEM Antes de instalar Guías de la 4.4, asegúrese de que su sistema cumpla los 
 
 >[!IMPORTANT]
 >
-> AEM AEM Para generar la salida del sitio, la instancia de publicación del sitio debe tener el paquete de servicio 20, 19, 18 o 17 .
+> AEM AEM Para generar la salida del sitio, la instancia de publicación de la debe tener el Service Pack 20, 19, 18 o 17
 
 **Sistemas operativos**
 
@@ -31,7 +31,7 @@ AEM Antes de instalar Guías de la 4.4, asegúrese de que su sistema cumpla los 
 - Red Hat Linux 7 y 6
 
 
-**Java Development Kit**
+**Kit de desarrollo de Java**
 
 - Oracle SE 11 JRE 11.x
 

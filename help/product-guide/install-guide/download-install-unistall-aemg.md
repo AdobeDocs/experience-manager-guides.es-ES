@@ -1,6 +1,6 @@
 ---
-title: AEM Desinstalación de guías de
-description: AEM Obtenga información sobre cómo desinstalar las guías de
+title: Desinstalación de AEM Guides
+description: Obtenga información sobre cómo desinstalar AEM Guides
 exl-id: 6c6b9692-cdec-426f-bc3b-f09d0091da39
 feature: Installation
 role: Admin
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# AEM Desinstalación de guías de {#id21BHG0C0SXA}
+# Desinstalación de AEM Guides {#id21BHG0C0SXA}
 
-AEM Puede desinstalar las guías de la mediante el Administrador de paquetes CRX. Durante la desinstalación, el contenido del repositorio se revierte a la instantánea realizada inmediatamente antes de la instalación del paquete.
+Puede desinstalar AEM Guides mediante el Administrador de paquetes de CRX. Durante la desinstalación, el contenido del repositorio se revierte a la instantánea realizada inmediatamente antes de la instalación del paquete.
 
-AEM Siga estos pasos para desinstalar las guías de la:
+Siga estos pasos para desinstalar AEM Guides:
 
-1. AEM Inicie sesión en la instancia de y navegue hasta el Administrador de paquetes CRX. La URL predeterminada para acceder al administrador de paquetes es:
+1. AEM Inicie sesión en la instancia de y vaya al Administrador de paquetes de CRX. La URL predeterminada para acceder al administrador de paquetes es:
 
    ```http
    http://<server name>:<port>/crx/packmgr/index.jsp
@@ -26,8 +26,8 @@ AEM Siga estos pasos para desinstalar las guías de la:
 
 1. Busque el paquete com.adobe.fmdita.
 1. Haga clic en el paquete para expandirlo.
-1. Clic **Más** para abrir el menú desplegable.
-1. Clic **Desinstalar** y espere a que se complete la desinstalación.
+1. Haga clic en **Más** para abrir el menú desplegable.
+1. Haz clic en **Desinstalar** y espera a que se complete la desinstalación.
 1. Si ya no necesita este paquete, haga clic en **Eliminar** después de desinstalar el paquete.
 
 ## Después de la desinstalación
@@ -46,7 +46,7 @@ Para limpiar los archivos residuales después de la desinstalación, realice los
    http://<host>:<port>/libs/granite/ui/content/dumplibs.rebuild.html?back=true
    ```
 
-1. Clic **Invalidar caché**.
+1. Haga clic en **Invalidar caché**.
 1. Limpie la caché del explorador.
 
 **Tema principal:**[ Descargar e instalar](download-install.md)

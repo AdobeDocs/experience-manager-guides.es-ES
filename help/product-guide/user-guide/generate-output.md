@@ -1,6 +1,6 @@
 ---
 title: Generación de salida
-description: AEM Genere resultados en el sitio de, PDF, HTML 5, EPUB, personalizado y JSON a través de complementos DITA-OT, publicación de PDF AEM nativos y FMPS en las guías de los.
+description: AEM Genere resultados en el sitio de, PDF, HTML 5, EPUB, personalizado y JSON a través de complementos DITA-OT, publicación de PDF nativos y FMPS en AEM Guides.
 exl-id: fd5e4c17-13c1-4679-8d88-af9de92aec9a
 feature: Publishing
 role: User
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # Generación de salida {#id1645H8040HD}
 
-AEM Guías de publicación tiene capacidades de publicación integradas para generar resultados en una variedad de formatos estándar de la industria. AEM AEM La versión actual de las guías de la aplicación le permite generar salidas en los formatos más utilizados: Sitio, PDF, HTML 5, EPUB, JSON y salida personalizada a través de DITA-OT, Publicación nativa de PDF y FMPS.
+AEM Guides tiene funciones de publicación integradas para generar resultados en una variedad de formatos estándar del sector. La versión actual de AEM Guides AEM le permite generar resultados en los formatos más utilizados: Sitio, PDF, HTML 5, EPUB, JSON y salida personalizada a través de DITA-OT, Publicación nativa de PDF y FMPS.
 
 Como editor, puede generar varias salidas con solo hacer clic en unos pocos clics. Puede generar resultados para un mapa DITA completo o publicar selectivamente sólo algunos temas que haya actualizado. También se puede utilizar la función de publicación Línea base para publicar selectivamente una versión específica del tema o mapa DITA.
 
 >[!NOTE]
 >
-> AEM Guías también admite la generación de resultados para archivos de temas y mapas de LwDITA.
+> AEM Guides también admite la generación de resultados para archivos de temas y mapas LwDITA.
 
-AEM Como especialista en producción, Guías de publicación también le facilita la automatización del proceso de publicación mediante la creación del panel de publicación y la ejecución de flujos de trabajo posteriores a la publicación. El Tablero de publicación también le ofrece una vista unificada de todas las tareas de publicación en cola y en ejecución en el sistema. Puede optar por finalizar o cancelar cualquier tarea de publicación desde el Panel de publicación. Puede crear y asociar las plantillas de diseño personalizadas para generar resultados en un diseño específico. AEM Además, las guías de la aplicación le permiten utilizar complementos DITA-OT personalizados para reutilizar el proceso de generación de PDF existente.
+Como especialista en producción, AEM Guides también le facilita la automatización del proceso de publicación mediante la creación del tablero de Publish y la ejecución de flujos de trabajo posteriores a la publicación. El Tablero de publicación también le ofrece una vista unificada de todas las tareas de publicación en cola y en ejecución en el sistema. Puede optar por finalizar o cancelar cualquier tarea de publicación desde el panel de Publish. Puede crear y asociar las plantillas de diseño personalizadas para generar resultados en un diseño específico. Además, AEM Guides le permite utilizar complementos DITA-OT personalizados para reutilizar el proceso de generación de PDF existente.
 
 También puede crear varios ajustes preestablecidos y generar resultados desde el Editor Web.
 
@@ -37,7 +37,7 @@ La información de las secciones siguientes está destinada a los editores que u
 
 - [Usar la colección de mapas para generar resultados](generate-output-use-map-collection-output-generation.md#)
 
-- [Administrar tareas de publicación mediante el panel Publicar](generate-output-publish-dashboard.md#)
+- [Administrar tareas de publicación mediante el panel de Publish](generate-output-publish-dashboard.md#)
 
 - [Solución de problemas básica](generate-output-basic-troubleshooting.md#)
 

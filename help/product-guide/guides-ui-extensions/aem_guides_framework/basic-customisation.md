@@ -39,13 +39,13 @@ const value = this.getValue("key")
 ## Ver
 
 La vista define la interfaz de usuario de la aplicación. Utilizamos archivos JSON para definir la vista de nuestros archivos. Aquí, definimos los componentes, el css (como se indica en la clase extra de componentes) y procesamos los valores almacenados en el modelo.
-En nuestra aplicación, cada vista se define mediante un JSON. Se hace referencia a los JSON mediante sus ID únicos, denominados `id`.
+En nuestra aplicación, cada vista se define mediante un JSON. Se hace referencia a los JSON mediante sus identificadores únicos denominados `id`.
 
 ## Controlador
 
 El controlador se utiliza para controlar eventos y procesar los datos. El controlador se utiliza para recuperar y enviar datos desde el servidor, es la interfaz entre lo que se muestra en la interfaz de usuario y lo que se almacena en el servidor.
 
-- Para establecer los valores en la inicialización, se utiliza el `init` función.
+- Para establecer los valores en la inicialización, se utiliza la función `init`.
 - Para agregar un método al controlador utilizamos la siguiente sintaxis:
 
 ```typescript
@@ -54,7 +54,7 @@ methodName: function(args){
 }
 ```
 
-El `methodName` aquí sirve como `key` para hacer referencia al método en el archivo JSON (vista) o en otras funciones
+El `methodName` sirve como `key` para hacer referencia al método en el JSON (vista) o en otras funciones
 
 - Para llamar a un método en el controlador utilizamos la sintaxis
 
@@ -69,7 +69,7 @@ Agregaremos un botón que cambia su valor de etiqueta con un clic
 
 ### Ver ejemplo
 
-A continuación, definimos el JSON de un botón que muestra un texto dinámico almacenado en el modelo bajo el nombre de la variable `buttonLabel`.
+A continuación, definimos el JSON de un botón que muestra un texto dinámico almacenado en el modelo bajo el nombre de variable `buttonLabel`.
 En este ejemplo, al hacer clic en el botón se cambia la etiqueta.
 
 ```JSON
@@ -101,4 +101,4 @@ en este caso, `extraProps.buttonLabel` contiene la etiqueta del botón
 ```
 
 El siguiente GIF muestra el código anterior en acción
-![basic_customization](imgs/basic_customisation.gif "Botón de personalización básica")
+![personalización_básica](imgs/basic_customisation.gif "Botón de personalización básica")

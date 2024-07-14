@@ -4,22 +4,22 @@ description: Obtenga información sobre cómo deshabilitar el posprocesamiento p
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: fedd04f4a261ec199f86cb38ecd57e76b9393ae5
+exl-id: 42722c6f-1b1c-4a7e-89ef-a373623eb774
+source-git-commit: 5d99274da8fdacbd255d426fa4913b5773ca45f8
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 1%
 
 ---
 
-
 # Deshabilitar el posprocesamiento de una carpeta
 
-De forma predeterminada, todos los recursos cargados se procesan mediante el flujo de trabajo de recursos de actualización de DAM. Guías del Experience Manager ejecuta un procesamiento adicional, denominado posprocesamiento, como parte de este flujo de trabajo. Esto también ayuda a generar los UUID
+De forma predeterminada, todos los recursos cargados se procesan mediante el flujo de trabajo de recursos de actualización de DAM. Experience Manager Guides ejecuta un procesamiento adicional, denominado posprocesamiento, como parte de este flujo de trabajo. Esto también ayuda a generar los UUID
 
-Al cargar los archivos y carpetas en *Adobe Experience Manager Assets* También puede deshabilitar el posprocesamiento y la generación de UUID.
+Al cargar los archivos y carpetas en el servidor *Adobe Experience Manager Assets*, también puede deshabilitar el posprocesamiento y la generación de UUID.
 
 
-Siga las instrucciones de [Anulaciones de configuración](download-install-additional-config-override.md#) para crear el archivo de configuración. En el archivo de configuración, proporcione los siguientes detalles (propiedad) para deshabilitar el posprocesamiento en una ruta determinada o ignorar el posprocesamiento de una carpeta:
+Use las instrucciones de [Anulaciones de configuración](download-install-additional-config-override.md#) para crear el archivo de configuración. En el archivo de configuración, proporcione los siguientes detalles (propiedad) para deshabilitar el posprocesamiento en una ruta determinada o ignorar el posprocesamiento de una carpeta:
 
 | PID | Clave de propiedad | Valor de propiedad |
 |---|------------|--------------|

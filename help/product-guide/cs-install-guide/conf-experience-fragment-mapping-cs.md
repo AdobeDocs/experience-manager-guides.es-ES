@@ -4,7 +4,8 @@ description: Obtenga información sobre cómo configurar la asignación basada e
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: f252537d15d7e8f8651dddb0ae635905705e4adf
+exl-id: 2b59db60-61b5-4a7e-bbf1-35cab8b89323
+source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -13,14 +14,14 @@ ht-degree: 0%
 
 # Creación de una asignación entre un tema y un fragmento de experiencia
 
-Guías de Adobe Experience Manager proporciona la función para crear una asignación basada en JSON entre un tema y una plantilla de fragmento de experiencia. Puede utilizar esta asignación para publicar contenido presente en algunos o todos los elementos de un tema en un Fragmento de experiencia.
+Adobe Experience Manager Guides proporciona la función para crear una asignación basada en JSON entre un tema y una plantilla de fragmento de experiencia. Puede utilizar esta asignación para publicar contenido presente en algunos o todos los elementos de un tema en un Fragmento de experiencia.
 
-1. Para descargar *experienceFragmentMapping.json*, inicie sesión en Adobe Experience Manager como administrador.
-1. Seleccione el vínculo Adobe Experience Manager en la parte superior y elija **Herramientas**.
-1. Seleccione Guías de la lista de herramientas y seleccione la **Perfiles de carpeta**.
-1. Seleccione el mosaico de perfil que desea configurar. Puede configurar la asignación para el perfil global o de nivel de carpeta. Por ejemplo, seleccione la opción **Perfil global** mosaico.
-1. Seleccione el **Configuración del editor XML** y seleccione la pestaña **Editar** en la parte superior.
-1. Seleccione el **Descargar** para descargar el *experienceFragmentMapping.json*  en su sistema local. A continuación, puede realizar cambios en el archivo y luego cargarlo.
+1. Para descargar *experienceFragmentMapping.json*, inicia sesión en Adobe Experience Manager como administrador.
+1. Seleccione el enlace de Adobe Experience Manager en la parte superior y elija **Herramientas**.
+1. Seleccione Guías de la lista de herramientas y seleccione **Perfiles de carpeta**.
+1. Seleccione el mosaico de perfil que desea configurar. Puede configurar la asignación para el perfil global o de nivel de carpeta. Por ejemplo, seleccione el mosaico **Perfil global**.
+1. Seleccione la ficha **Configuración del editor XML** y seleccione el icono **Editar** de la parte superior.
+1. Seleccione el icono **Descargar** para descargar el archivo *experienceFragmentMapping.json* en su sistema local. A continuación, puede realizar cambios en el archivo y luego cargarlo.
 
 1. Debe seguir las siguientes validaciones:
 
@@ -45,11 +46,11 @@ Guías de Adobe Experience Manager proporciona la función para crear una asigna
 
 1. Guarde el archivo y cárguelo.
 
-Guías del Experience Manager convierte el tema completo en HTML, que luego se puede asignar a los componentes principales utilizados en el Fragmento de experiencia. Por ejemplo, el contenido de una `<p>` La etiqueta se puede asignar para crear un componente de texto en el Fragmento de experiencia.
+Experience Manager Guides convierte el tema completo en HTML, que luego se puede asignar a los componentes principales utilizados en el Fragmento de experiencia. Por ejemplo, el contenido de una etiqueta `<p>` se puede asignar para crear un componente de texto en el Fragmento de experiencia.
 * `name`: especifique el elemento HTML. Por ejemplo, `<div>`, `<img>`
 * `class`: especifique la etiqueta de elemento DITA correspondiente al elemento HTML. Por ejemplo, `<p>` `<image>`
-* `resourceType`: especifique el tipo de recurso aplicable al componente utilizado en el fragmento de experiencia. Por ejemplo, `wcm/foundation/components/text` es el resourceType para wcm `text` componente.
-* `attributeMap`: proporcione información adicional al componente, como si un componente de texto debe representarse como `RichText` o contiene el `fileReference` de un componente de imagen.
+* `resourceType`: especifique el tipo de recurso aplicable al componente utilizado en el fragmento de experiencia. Por ejemplo, `wcm/foundation/components/text` es el resourceType para el componente wcm `text`.
+* `attributeMap`: proporcione información adicional al componente, como si un componente de texto debe representarse como `RichText` o contiene `fileReference` de un componente de imagen.
 
 
 
@@ -156,7 +157,6 @@ Archivo de muestra:
 
 
 
-Al publicar los fragmentos de experiencias desde el editor web, seleccione la opción `Template` en el menú desplegable de **Generar Fragmento De Experiencia** para ver la asignación disponible para la plantilla en el **Asignación** field. Si no hay ninguna asignación personalizada para una plantilla, se muestra la asignación predeterminada. Puede utilizar la asignación predeterminada para publicar todo el tema como un Fragmento de experiencia.
+Al publicar los fragmentos de experiencias desde el editor web, seleccione `Template` en el menú desplegable del cuadro de diálogo **Generar fragmento de experiencias** para ver la asignación disponible para la plantilla en el campo **Asignación**. Si no hay ninguna asignación personalizada para una plantilla, se muestra la asignación predeterminada. Puede utilizar la asignación predeterminada para publicar todo el tema como un Fragmento de experiencia.
 
-Para obtener más información, consulte [Publicar fragmentos de experiencias](../user-guide/publish-experience-fragment.md).
-
+Para obtener más información, vea [Fragmentos de experiencias de Publish](../user-guide/publish-experience-fragment.md).

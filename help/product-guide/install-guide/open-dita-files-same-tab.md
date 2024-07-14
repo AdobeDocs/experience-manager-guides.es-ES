@@ -24,18 +24,18 @@ En algunos flujos de trabajo, al hacer clic en un vínculo de un tema o de un ar
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Busque y haga clic en **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** paquete.
+1. Busque y haga clic en el paquete **com.adobe.fmdita.xmleditor.config.XmlEditorConfig**.
 
-1. Seleccione el **Abrir tema/mapa DITA en la misma ficha** opción.
+1. Seleccione la opción **Abrir tema/mapa DITA en la misma ficha**.
 
 1. Haga clic en **Guardar**.
 
 
 Esta configuración afecta a los siguientes lugares desde donde puede acceder a los archivos de tema o asignación:
 
-- Crear tema DITA \(al final del flujo de trabajo, al hacer clic en el **Abrir tema** button\)
+- Crear tema DITA \(al final del flujo de trabajo, al hacer clic en el botón **Abrir tema**\)
 
-- Crear mapa DITA \(al final del flujo de trabajo, al hacer clic en el icono **Abrir mapa** button\)
+- Crear mapa DITA \(al final del flujo de trabajo, al hacer clic en el botón **Abrir mapa**\)
 
 - Pestaña Temas de la consola de mapas DITA
 

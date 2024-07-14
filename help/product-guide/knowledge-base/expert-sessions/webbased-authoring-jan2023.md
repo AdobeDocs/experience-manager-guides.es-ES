@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Creación de contenido basado en web
 
-AEM Guías de viene con un editor web integrado para crear contenido estructurado. Puede trabajar con una experiencia de creación simplificada basada en la web, pero aun así puede elegir utilizar o habilitar potentes funcionalidades como validación de contenido condicional, revisión ortográfica, reutilización de contenido, validación de referencias, nombres prácticos y ecuaciones matemáticas de autor.
+AEM Guides viene con un editor web integrado para crear contenido estructurado. Puede trabajar con una experiencia de creación simplificada basada en la web, pero aun así puede elegir utilizar o habilitar potentes funcionalidades como validación de contenido condicional, revisión ortográfica, reutilización de contenido, validación de referencias, nombres prácticos y ecuaciones matemáticas de autor.
 
 ## Resumen de sesión
 
@@ -26,9 +26,9 @@ En esta sesión, aprenderá a crear, publicar y administrar contenido mediante e
 ## Lo más destacado
 
 - **Fecha** - 19 de enero de 2023
-- **Número de asistentes** - 89
+- **Cantidad de asistentes** - 89
 - **Duración** - 60 minutos
-- **Audiencia** - Clientes, socios y empleados de Adobe
+- **Audiencia**: clientes, socios y empleados de Adobe
 
 ## Puntos clave
 
@@ -40,18 +40,18 @@ En esta sesión, aprenderá lo siguiente:
 
 ## Recursos relacionados
 
-- **Vídeos de funciones** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **Vídeos de características** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
 - **Guía del usuario** - [Contenido del autor](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
 
-- **Foro de la comunidad** - Para interacciones de la comunidad específicas de la sesión en Experience League, visite  [AEM Foro de guías de](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Foro de la comunidad**: para interacciones de la comunidad específicas de la sesión en Experience League, visita [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> AEM Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de las Guías de:
+> Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de AEM Guides:
 > - Local 4.1.3 o posterior
 > - Cloud Service 2211 y posterior
 
 ## Contáctenos.
 
-Si tiene cualquier pregunta, envíenos un correo electrónico a <techcomm@adobe.com>
+Para cualquier consulta, envíenos un correo electrónico a <techcomm@adobe.com>

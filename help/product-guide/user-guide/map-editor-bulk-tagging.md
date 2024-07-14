@@ -1,6 +1,6 @@
 ---
 title: Etiquetado masivo de contenido DITA
-description: AEM Utilice el etiquetado masivo de contenido en las guías de la aplicación para mejorar la capacidad de detección de contenido DITA. Obtenga información sobre cómo aplicar, quitar, mostrar u ocultar etiquetas masivas en un solo tema o en varios.
+description: Utilice el etiquetado masivo de contenido en AEM Guides para mejorar la capacidad de detección de contenido DITA. Obtenga información sobre cómo aplicar, quitar, mostrar u ocultar etiquetas masivas en un solo tema o en varios.
 exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
 feature: Metadata Management
 role: User
@@ -15,19 +15,19 @@ ht-degree: 0%
 
 Las etiquetas permiten agrupar o clasificar contenido dentro del repositorio de contenido y también en la salida publicada. Si ha aplicado etiquetas a su contenido, puede encontrar fácilmente temas relacionados dentro de un mapa DITA que puede ayudarle a crear contenido. Con el resultado publicado, los usuarios finales podrán localizar el contenido correcto más rápido con las etiquetas adecuadas.
 
-AEM Guías de le permite etiquetar contenido DITA en unos pocos clics. Puede utilizar la función de etiquetado por lotes para aplicar varias etiquetas en varios temas, en un mapa DITA o en un submapa. O bien, también puede aplicar etiquetas a un tema individual. AEM El etiquetado es la función nativa en la práctica. Puede encontrar más detalles acerca de la creación y administración de etiquetas en la sección de [Administración de etiquetas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) AEM en la documentación de la.
+AEM Guides le permite etiquetar contenido DITA en unos pocos clics. Puede utilizar la función de etiquetado por lotes para aplicar varias etiquetas en varios temas, en un mapa DITA o en un submapa. O bien, también puede aplicar etiquetas a un tema individual. AEM AEM El etiquetado es la característica nativa de la documentación de, por lo que puede encontrar más detalles sobre la creación y administración de etiquetas en la sección [Administración de etiquetas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) de la documentación de la.
 
-AEM AEM De forma predeterminada, Guías de no concede acceso de lectura a ningún usuario de la carpeta en la que se almacenen todas las etiquetas del repositorio de la. AEM Para utilizar etiquetas definidas en el repositorio de la, debe solicitar al administrador del sistema que conceda acceso a la carpeta donde se almacenan las etiquetas.
+De forma predeterminada, AEM Guides AEM no concede acceso de lectura a ningún usuario de la carpeta en la que se almacenen todas las etiquetas del repositorio de la. AEM Para utilizar etiquetas definidas en el repositorio de la, debe solicitar al administrador del sistema que conceda acceso a la carpeta donde se almacenan las etiquetas.
 
 ## Aplicación de etiquetas masivas
 
 Utilice la función de etiquetado masivo para aplicar varias etiquetas a la vez. Siga estos pasos para aplicar etiquetas a los temas de un mapa DITA:
 
-1. En la interfaz de usuario de Assets, vaya al archivo de mapa DITA y haga clic en él.
+1. En la interfaz de usuario de Assets, vaya al fichero de mapa DITA y haga clic en él.
 
    Aparecerá la consola de mapas DITA con la lista de ajustes preestablecidos de salida disponibles para generar resultados.
 
-1. Clic **Temas**.
+1. Haga clic en **Temas**.
 
    Se mostrará una lista de los temas disponibles en el mapa DITA. Los UUID de &quot;temas&quot; se muestran debajo del título del tema.
 
@@ -40,7 +40,7 @@ Utilice la función de etiquetado masivo para aplicar varias etiquetas a la vez.
    >
    > La captura de pantalla anterior muestra un submapa seleccionado y expandido. Al seleccionar el submapa, también se seleccionan todos los temas del submapa.
 
-1. Clic **Aplicar etiquetas**.
+1. Haga clic en **Aplicar etiquetas**.
 
    Aparecerá el cuadro de diálogo Seleccionar etiquetas.
 
@@ -65,13 +65,13 @@ Siga estos pasos para aplicar etiquetas a un tema individual:
 
    Aparecerá la página de propiedades del tema.
 
-1. En la pestaña Básico, haga clic en el icono Examinar situado junto a **Etiquetas** field.
+1. En la pestaña Básico, haga clic en el icono Examinar junto al campo **Etiquetas**.
 
 1. Seleccione una o varias etiquetas que desee aplicar al tema seleccionado.
 
 1. Confirme la selección.
 
-1. Clic **Aplicar etiquetas**.
+1. Haga clic en **Aplicar etiquetas**.
 
    Las etiquetas seleccionadas se aplican al tema y se muestran en el campo Etiquetas.
 
@@ -84,23 +84,23 @@ Según sus necesidades comerciales, puede cambiar la información de etiquetado 
 
 Siga estos pasos para quitar todas las etiquetas de uno o varios temas:
 
-1. En la interfaz de usuario de Assets, vaya al archivo de mapa DITA y haga clic en él.
+1. En la interfaz de usuario de Assets, vaya al fichero de mapa DITA y haga clic en él.
 
    Aparecerá la consola de mapas DITA con la lista de ajustes preestablecidos de salida disponibles para generar resultados.
 
-1. Clic **Temas**.
+1. Haga clic en **Temas**.
 
    Se mostrará una lista de los temas disponibles en el mapa DITA.
 
 1. Seleccione los temas de los que desea quitar etiquetas.
 
-1. Clic **Quitar etiquetas**.
+1. Haga clic en **Quitar etiquetas**.
 
    >[!NOTE]
    >
    > Si el icono Eliminar etiquetas no está visible, asegúrese de que no ha habilitado la función Ocultar etiquetas.
 
-1. En el cuadro de diálogo Confirmar eliminación, haga clic en **OK** para quitar etiquetas de los temas seleccionados.
+1. En el cuadro de diálogo Confirmar eliminación, haga clic en **Aceptar** para quitar las etiquetas de los temas seleccionados.
 
 
 ## Mostrar u ocultar etiquetas

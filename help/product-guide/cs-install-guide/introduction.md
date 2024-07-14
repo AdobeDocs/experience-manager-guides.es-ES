@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # Acerca de esta guía {#id175MC0P0S5Z}
 
-Guías de Adobe Experience Manager \(más adelante denominadas *AEM Guías de*\) es una potente solución de administración de contenido de componentes de nivel empresarial basada en la nube \(CCMS\). Permite la compatibilidad nativa con DITA en Adobe Experience Manager AEM, lo que permite a los gestionar la creación y la entrega de contenido basado en DITA. Permite a los autores crear contenido mediante un editor web integrado fácil de usar y publicarlo en varios formatos de salida.
+Adobe Experience Manager Guides \(más adelante denominado *AEM Guides*\) es una potente solución de administración de contenido de componentes de nivel empresarial basada en la nube \(CCMS\). Permite la compatibilidad nativa con DITA en Adobe Experience Manager AEM, lo que permite a los gestionar la creación y la entrega de contenido basado en DITA. Permite a los autores crear contenido mediante un editor web integrado fácil de usar y publicarlo en varios formatos de salida.
 
-AEM Esta guía proporciona las instrucciones para descargar, instalar y configurar guías de. AEM En esta guía, encontrará instrucciones detalladas para configurar guías de publicación según las necesidades de creación y publicación de su organización.
+Esta guía proporciona instrucciones para descargar, instalar y configurar AEM Guides. En esta guía, encontrará instrucciones detalladas para configurar AEM Guides según sus necesidades de creación y publicación en la organización.
 
 Esta guía está diseñada para los siguientes tipos de audiencias:
 
-- AEM Administradores, que instalarían y administrarían Guías de.
+- Administradores, que instalarían y administrarían AEM Guides.
 
 - Los editores, que ejecutarían la tarea de publicación para generar resultados en varios formatos.
 
@@ -29,53 +29,53 @@ Esta guía está diseñada para los siguientes tipos de audiencias:
 
 La información de esta guía está organizada de la siguiente manera:
 
-- [Acerca de esta guía](#id175MC0P0S5Z): Este tema proporciona una introducción a esta guía, a la audiencia objetivo y a cómo se organiza la información en esta guía.
+- [Acerca de esta guía](#id175MC0P0S5Z): En este tema se proporciona una introducción a esta guía, a la audiencia objetivo y a cómo se organiza la información en esta guía.
 
-- [Descargar e instalar](download-install.md#)AEM : En este tema se describe cómo descargar, instalar o actualizar guías de usuario de.
+- [Descargar e instalar](download-install.md#): En este tema se describe cómo descargar, instalar o actualizar AEM Guides.
 
-- [Administración de usuarios y seguridad](user-admin-sec.md#)AEM AEM : En este tema se describe el concepto principal de usuarios y autenticación en y los grupos de usuarios predeterminados creados por las guías de usuario de.
+- AEM [Administración y seguridad de usuarios](user-admin-sec.md#): En este tema se describe el concepto básico de usuarios y autenticación en los grupos de usuarios predeterminados y los grupos de usuarios creados por AEM Guides en los grupos de usuarios predeterminados de los que se crea la aplicación.
 
-- [Utilizar la especialización personalizada DITA-OT y DITA](dita-ot-specialization.md#): En este tema se explica cómo configurar complementos DITA-OT personalizados y utilizar la especialización DITA.
+- [Usar la especialización DITA-OT y DITA personalizada](dita-ot-specialization.md#): en este tema se explica cómo configurar complementos DITA-OT personalizados y utilizar la especialización DITA.
 
-- [Configuración de estados de documento](customize-doc-state.md#): En este tema se explica cómo configurar estados personalizados para los documentos DITA.
+- [Configurar estados de documentos](customize-doc-state.md#): en este tema se explica cómo configurar estados personalizados para los documentos DITA.
 
-- [Migrar contenido existente](migrate-content.md#)AEM : En este tema se describe cómo incorporar el contenido existente en el repositorio de.
+- AEM [Migrar contenido existente](migrate-content.md#): En este tema se describe cómo incorporar el contenido existente en el repositorio de la aplicación de la aplicación de la aplicación de la aplicación de la aplicación de la aplicación de seguridad de datos de usuario de la plataforma de almacenamiento de datos.
 
 - [Configurar nombres de archivo](conf-file-names.md#): En este tema se explica cómo configurar la opción para asignar automáticamente nombres de archivo y definir una regex para los caracteres de nombre de archivo válidos.
 
-- [Configuración de plantillas de temas y mapas](conf-template-tags.md#): En este tema se describe cómo configurar las plantillas de temas y asignaciones para satisfacer sus necesidades de creación. AEM AEM Obtenga información sobre el sistema de etiquetado en las etiquetas y cómo configurar las etiquetas para que funcionen con las guías de la.
+- [Configurar plantillas de temas y asignaciones](conf-template-tags.md#): En este tema se describe cómo configurar plantillas de temas y asignaciones para satisfacer sus necesidades de creación. AEM Obtenga información sobre el sistema de etiquetado en las etiquetas y cómo configurarlas para que funcionen con AEM Guides.
 
-- [Personalizar editor web](conf-web-editor.md#): En este tema se explican las distintas personalizaciones que se pueden realizar en el Editor Web para mejorar su funcionalidad.
+- [Personalizar editor web](conf-web-editor.md#): En este tema se explican las distintas personalizaciones que puede realizar en el editor web para mejorar su funcionalidad.
 
-- [Incluir @navtitle atributo de forma predeterminada](auto-add-navtitle.md#): En este tema se explica cómo agregar el `@navtitle` a un archivo de referencia en un mapa de forma predeterminada.
+- [Incluir atributo @navtitle de forma predeterminada](auto-add-navtitle.md#): En este tema se explica cómo agregar el atributo `@navtitle` a un archivo de referencia en un mapa de forma predeterminada.
 
-- [Configuración de perfiles globales o de nivel de carpeta](conf-folder-level.md#): En este tema se explica el proceso de creación de perfiles de carpeta y la concesión de permisos a usuarios específicos.
+- [Configurar perfiles globales o de nivel de carpeta](conf-folder-level.md#): En este tema se explica el proceso de creación de perfiles de carpeta y de concesión de permisos a usuarios específicos.
 
 - [Administración de versiones](version-management.md#): En este tema se describe cómo configurar la desprotección automática de archivos para los archivos que se abren para su edición en el Editor Web.
 
-- [Configuración de la generación de salida](conf-output-generation.md#): En este tema se describen las distintas configuraciones que se pueden realizar para personalizar el proceso de generación de resultados predeterminado.
+- [Configurar opciones de generación de resultados](conf-output-generation.md#): En este tema se describen las distintas configuraciones que puede realizar para personalizar el proceso de generación de resultados predeterminado.
 
-- [Configuración y personalización de flujos de trabajo](customize-workflows.md#)AEM : En este tema se describen varias configuraciones para personalizar los flujos de trabajo predeterminados enviados en las Guías de.
+- [Configurar y personalizar flujos de trabajo](customize-workflows.md#): En este tema se describen varias configuraciones para personalizar los flujos de trabajo predeterminados enviados en AEM Guides.
 
-- [Traducir contenido](translation.md#)AEM : Este tema proporciona vínculos a los artículos de ayuda relevantes de la documentación de la para ayudarle a comprender y configurar el marco de trabajo de traducción. Además, aprenda a habilitar el flujo de trabajo de traducción basado en componentes.
+- AEM [Traducir contenido](translation.md#): En este tema se proporcionan vínculos a los artículos de ayuda relevantes de la documentación de la traducción para ayudarle a comprender y configurar el marco de trabajo de traducción. Además, aprenda a habilitar el flujo de trabajo de traducción basado en componentes.
 
-- [Configuración de la búsqueda para la IU de AEM Assets](conf-dita-search.md#): En este tema se describe cómo configurar la búsqueda de contenido DITA en la interfaz de usuario de Assets y añadir los atributos personalizados en la búsqueda.
+- [Configurar la búsqueda para la interfaz de usuario de AEM Assets](conf-dita-search.md#): en este tema se describe cómo configurar la búsqueda de contenido DITA en la interfaz de usuario de Assets y cómo agregar los atributos personalizados en la búsqueda.
 
 
 ## Descripción general de Adobe Experience Manager AEM \(\)
 
-[Adobe Experience Manager AEM \(\)](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html) es una solución completa de administración de contenido para crear sitios web, aplicaciones móviles y formularios. AEM le ayuda a administrar el contenido y los recursos de marketing. AEM La está disponible as a Cloud Service. AEM as a Cloud Service AEM AEM AEM le ayuda a proporcionar a sus clientes experiencias personalizadas basadas en contenido combinando la potencia del sistema de administración de contenido de la con la administración de recursos digitales de la red. Algunos de los recursos clave que pueden ayudarle a empezar e implementar en los recursos as a Cloud Service de la son los siguientes:
+[Adobe Experience Manager AEM \(\)](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html?lang=es) es una solución de administración de contenido completa para crear sitios web, aplicaciones móviles y formularios. AEM le ayuda a administrar el contenido y los recursos de marketing. AEM La está disponible as a Cloud Service. AEM as a Cloud Service AEM AEM le ayuda a proporcionar a sus clientes experiencias personalizadas basadas en contenido combinando la potencia del sistema de administración de contenido de la con la administración de recursos digitales de la red de recursos de la red de recursos digitales de la red. Algunos de los recursos clave que pueden ayudarle a empezar e implementar en AEM as a Cloud Service son los siguientes:
 
-- [Información general as a Cloud Service de Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=en)
-- [Introducción al Recorrido AEM de migración para la migración a los as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=en)
-- [Inicio de la incorporación al Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=enhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
+- [Información general as a Cloud Service del Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=en)
+- [Introducción al Recorrido de migración a AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=en)
+- [Iniciar la incorporación al Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=enhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
 - [Implementación de aplicaciones para AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=en)
 - [Implementación en AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en)
 - [Guía as a Cloud Service de Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=es)
 
 ## Recursos adicionales
 
-AEM A continuación se muestra una lista de otros recursos útiles de las guías de la, que están disponibles en la [Aprendizaje y asistencia](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) página:
+A continuación se muestra una lista de otros recursos útiles de AEM Guides, que están disponibles en la página [Aprendizaje y asistencia](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
 
 - Guía del usuario
 - Guía de referencia de API

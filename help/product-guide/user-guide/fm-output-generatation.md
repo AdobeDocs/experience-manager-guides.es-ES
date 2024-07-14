@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Generación de resultados de documentos de FrameMaker {#id1645H8040HD}
 
-AEM A partir de las Guías de FrameMaker 1.1, también puede publicar documentos de la versión \(`.book` y `.fm`AEM \) disponible en el repositorio de la. Si un archivo de libro contiene una combinación de documentos DITA y de FrameMaker AEM, las guías de recursos también le permiten publicar documentos de este tipo. Los documentos de FrameMaker se pueden publicar en los siguientes formatos:
+A partir de AEM Guides 1.1, también puede publicar los documentos de FrameMaker AEM \(`.book` y `.fm`\) disponibles en el repositorio de la. Si un archivo de libro contiene una combinación de documentos DITA y de FrameMaker, AEM Guides permite publicar también dichos documentos. Los documentos de FrameMaker se pueden publicar en los siguientes formatos:
 
 - PDF
 
@@ -22,7 +22,7 @@ AEM A partir de las Guías de FrameMaker 1.1, también puede publicar documentos
 - EPUB
 
 
-Como autor, solo tiene que hacer clic en algunos vínculos y se generará el resultado. Puede generar resultados para un archivo de libro completo o puede publicar archivos de FrameMaker individuales de forma selectiva. Antes de generar la salida, también puede realizar cambios en los archivos de FrameMaker. AEM Cuando se selecciona un archivo .fm o .book en el repositorio de, se obtiene el **Abrir en FrameMaker** en la barra de herramientas. Al hacer clic en este botón, se abre el archivo seleccionado en el FrameMaker.
+Como autor, solo tiene que hacer clic en algunos vínculos y se generará el resultado. Puede generar resultados para un archivo de libro completo o puede publicar archivos de FrameMaker individuales de forma selectiva. Antes de generar la salida, también puede realizar cambios en los archivos de FrameMaker. AEM Cuando selecciona un archivo .fm o .book en el repositorio de la biblioteca, obtiene el botón **Abrir en el FrameMaker** de la barra de herramientas. Al hacer clic en este botón, se abre el archivo seleccionado en el FrameMaker.
 
 La información de las secciones siguientes está destinada a los editores que utilizan los flujos de trabajo de generación de resultados para publicar documentos de FrameMaker:
 

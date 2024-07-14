@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Cargar contenido DITA existente {#id176FF000JUI}
 
-AEM Lo más probable es que tenga un repositorio de contenido DITA existente que le gustaría utilizar con guías de. AEM Para dicho contenido existente, puede utilizar cualquiera de los siguientes métodos para cargar el contenido en lote en el repositorio de.
+Lo más probable es que tenga un repositorio de contenido DITA existente que desee utilizar con AEM Guides. AEM Para dicho contenido existente, puede utilizar cualquiera de los siguientes métodos para cargar el contenido en lote en el repositorio de.
 
 ## Uso de una herramienta WebDAV
 
@@ -28,7 +28,7 @@ Siga estos pasos para usar WinSCP para cargar archivos:
 
    Aparecerá el cuadro de diálogo Inicio de sesión.
 
-1. En el cuadro de diálogo Inicio de sesión, especifique una configuración de Nuevo sitio eligiendo WebDAV como **Protocolo de archivo** y proporcionar otros detalles de conexión, como:
+1. En el cuadro de diálogo Inicio de sesión, especifique una configuración de Nuevo sitio eligiendo WebDAV como **Protocolo de archivos** y proporcionando otros detalles de conexión como:
 
    - AEM la URL donde se aloja el servidor de la,
 
@@ -49,20 +49,20 @@ Siga estos pasos para utilizar el conector de de FrameMaker AEM para cargar cont
 
 1. Iniciar FrameMaker.
 
-1. Abra el **Connection Manager** diálogo.
+1. Abra el cuadro de diálogo **Connection Manager**.
 
    ![](assets/fm-aem-connector.png){width="550" align="left"}
 
 1. AEM Introduzca los siguientes detalles para conectarse al repositorio de la:
 
-   - **Nombre** AEM : introduzca un nombre descriptivo para identificar la conexión con el servidor de la.
-   - **Servidor** AEM : introduzca la dirección URL y el número de puerto del servidor de.
+   - AEM **Nombre**: escriba un nombre descriptivo para identificar la conexión con el servidor de la.
+   - AEM **Servidor**: Escriba la dirección URL y el número de puerto del servidor de la.
 
-   - **Nombre de usuario**/**Contraseña** AEM : introduzca el nombre de usuario y la contraseña para acceder al servidor de la.
+   - AEM **Nombre de usuario**/**Contraseña**: Escriba el nombre de usuario y la contraseña para tener acceso al servidor de.
 
-1. Clic **Connect**.
+1. Haga clic en **Conectar**.
 
-   AEM Una vez que la conexión se haya establecido correctamente, los recursos del repositorio de se mostrarán en la ventana Administrador de repositorios.
+   Una vez que la conexión se haya establecido correctamente, Assets AEM del repositorio de se mostrará en la ventana Administrador de repositorios.
 
    ![](assets/fm-repo-manager.png){width="550" align="left"}
 
@@ -83,9 +83,9 @@ Realice los siguientes pasos para comprobar los nombres de archivo con un patró
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Busque y haga clic en *com.adobe.fmdita.config.ConfigManager* paquete.
+1. Busque y haga clic en el paquete *com.adobe.fmdita.config.ConfigManager*.
 
-1. En el **Patrones de nombre de archivo UUID** , especifique un patrón para comprobar los nombres de los archivos importados.
+1. En la propiedad **UUID Filename Patterns**, especifique un motivo para comprobar los nombres de los archivos importados.
 
    Si un archivo no sigue el patrón especificado, se agrega un UUID a la propiedad del archivo y todas las referencias al archivo se actualizan con el UUID asignado al archivo.
 
@@ -97,12 +97,12 @@ Realice los siguientes pasos para comprobar los nombres de archivo con un patró
 Puede utilizar cualquiera de los siguientes métodos para cargar el contenido con UUID:
 
 - Arrastre y suelte contenido desde el sistema local.
-- Utilice el **Crear** \> **Archivos** AEM flujo de trabajo desde la interfaz de usuario de Assets.
+- AEM Use el flujo de trabajo **Crear** \> **Archivos** desde la interfaz de usuario de Assets de la.
 - Utilice una herramienta como WinSCP.
 
-Si utiliza una herramienta como WinSCP, puede definir la acción que se va a realizar en un archivo duplicado estableciendo el valor **Mover el archivo antiguo con el mismo UUID a la nueva carpeta** en configMgr. AEM Esta opción define qué acción se realiza en un archivo que está disponible en alguna otra ubicación del repositorio de. Esta configuración está disponible en la variable *com.adobe.fmdita.config.ConfigManager* paquete en configMgr.
+Si usa una herramienta como WinSCP, puede definir la acción que se realizará en un archivo duplicado estableciendo la opción **Mover archivo antiguo con el mismo UUID a una carpeta nueva** en configMgr. AEM Esta opción define qué acción se realiza en un archivo que está disponible en alguna otra ubicación del repositorio de. Esta opción está disponible en el paquete *com.adobe.fmdita.config.ConfigManager* de configMgr.
 
-De forma predeterminada, la variable **Mover el archivo antiguo con el mismo UUID a la nueva carpeta** La opción está activada. Esto implica que cuando el archivo que se está cargando está presente en alguna otra carpeta del repositorio, el archivo existente se mueve a la ubicación actual y se sobrescribe con el archivo que se está cargando. Si no selecciona esta opción, el archivo se sobrescribe en su ubicación existente.
+De manera predeterminada, la opción **Mover el archivo antiguo con el mismo UUID a la carpeta nueva** está activada. Esto implica que cuando el archivo que se está cargando está presente en alguna otra carpeta del repositorio, el archivo existente se mueve a la ubicación actual y se sobrescribe con el archivo que se está cargando. Si no selecciona esta opción, el archivo se sobrescribe en su ubicación existente.
 
 **Notas adicionales sobre cómo trabajar con archivos basados en UUID**:
 
@@ -136,11 +136,11 @@ curl --user <username>:<password> --data jcr:primaryType=sling:Folder "<server f
 
 Especifique los siguientes parámetros para crear una carpeta:
 
-- `<username>:<passowrd>`AEM : especifique el nombre de usuario y la contraseña para acceder al repositorio de. Este usuario debe tener los privilegios de creación de carpetas.
+- AEM `<username>:<passowrd>`: especifique el nombre de usuario y la contraseña para tener acceso al repositorio de. Este usuario debe tener los privilegios de creación de carpetas.
 
-- `jcr:primaryType=sling:Folder`: especifique este parámetro *como está* para crear un recurso de tipo folder.
+- `jcr:primaryType=sling:Folder`: especifique este parámetro *como está* para crear un recurso de tipo carpeta.
 
-- `<server folder path>`AEM : Ruta de la carpeta completa que incluye el nombre de la nueva carpeta que desea crear en el repositorio de. Por ejemplo, si especifica la ruta como `http://192.168.1.1:4502/content/dam/projects/AEM-Guides`, luego la carpeta `AEM-Guides` se crea dentro de `projects` en DAM.
+- AEM `<server folder path>`: ruta de acceso completa de la carpeta, incluido el nombre de la nueva carpeta que desea crear en el repositorio de la. Por ejemplo, si especifica la ruta como `http://192.168.1.1:4502/content/dam/projects/AEM-Guides`, la carpeta `AEM-Guides` se creará dentro de la carpeta `projects` en DAM.
 
 
 **Cargar un archivo**
@@ -153,14 +153,14 @@ curl --user <username>:<password> -T "<local file path>" "<server folder path>"
 
 Especifique los siguientes parámetros para cargar un archivo:
 
-- `<username>:<passowrd>`AEM : especifique el nombre de usuario y la contraseña para acceder al repositorio de. Este usuario debe tener privilegios de escritura en `server folder path`.
+- AEM `<username>:<passowrd>`: especifique el nombre de usuario y la contraseña para tener acceso al repositorio de. Este usuario debe tener privilegios de escritura en `server folder path`.
 
-- ``local file path``: Ruta de archivo completa en el sistema local que desea cargar.
+- ``local file path``: ruta de archivo completa del sistema local que desea cargar.
 
-- `<server folder path>`AEM : Ruta de carpeta completa en el servidor en el que desea cargar el archivo.
+- AEM `<server folder path>`: complete la ruta de acceso a la carpeta en el servidor de donde desee cargar el archivo.
 
 
-**Añadir metadatos**
+**Agregar metadatos**
 
 Ejecute el siguiente comando para agregar metadatos a un archivo:
 
@@ -170,11 +170,11 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 
 Especifique los siguientes parámetros para agregar información de metadatos:
 
-- `<username>:<passowrd>`AEM : especifique el nombre de usuario y la contraseña para acceder al repositorio de. Este usuario debe tener privilegios de escritura en ``metadata node path``.
+- AEM `<username>:<passowrd>`: especifique el nombre de usuario y la contraseña para tener acceso al repositorio de. Este usuario debe tener privilegios de escritura en ``metadata node path``.
 
-- ``-F<attribute name>=<value>``: La `<attribute name>` es el nombre del atributo de metadatos, como `audience` y el `<value>` podría ser `internal`. Puede especificar varios pares de nombre-valor de atributo separados por espacio.
+- ``-F<attribute name>=<value>``: `<attribute name>` es el nombre del atributo de metadatos, como `audience` y `<value>` podría ser `internal`. Puede especificar varios pares de nombre-valor de atributo separados por espacio.
 
-- `<metadata node path>`: Ruta de carpeta completa que incluye el nombre del archivo y su nodo de metadatos. Por ejemplo, si especifica la ruta como `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`, la información de metadatos especificada se establece en `intro.xml` archivo.
+- `<metadata node path>`: ruta de carpeta completa que incluye el nombre de archivo y su nodo de metadatos. Por ejemplo, si especifica la ruta de acceso como `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`, la información de metadatos especificada se establecerá en el archivo `intro.xml`.
 
 
 **Tema principal:**[ Migrar contenido existente](migrate-content.md)

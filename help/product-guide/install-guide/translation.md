@@ -1,5 +1,5 @@
 ---
-title: AEM Traducción de contenido en guías de
+title: Traducción de contenido en AEM Guides
 description: Aprenda a traducir contenido
 exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
@@ -23,24 +23,24 @@ Automatice la traducción del contenido de la página, los activos y el contenid
 
 La traducción de contenido implica los siguientes pasos:
 
-1. AEM Conéctese con su [proveedor de servicios de traducción](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) y crear [configuraciones del marco de integración de traducciones](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. AEM Conéctese con su [proveedor de servicios de traducción](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) y cree [configuraciones del marco de trabajo de integración de traducción](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
 
-1. Asocie las páginas del maestro de idioma con el [configuraciones del servicio de traducción y del marco de trabajo](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. Asocie las páginas del maestro de idioma con el [servicio de traducción y las configuraciones del marco de trabajo](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
 
-1. Identificar el tipo de [contenido para traducir](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
+1. Identifique el tipo de [contenido para traducir](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
 
 1. [Preparar el contenido para su traducción](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html) creando el maestro de idioma y las páginas raíz de las copias de idioma.
 
-1. Crear [proyectos de traducción](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) para recopilar el contenido que se va a traducir y preparar el proceso de traducción.
+1. Cree [proyectos de traducción](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) para recopilar el contenido que se va a traducir y para preparar el proceso de traducción.
 
-1. Utilice los proyectos de traducción para lo siguiente [administrar la traducción de contenido](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) proceso.
+1. Use los proyectos de traducción para [administrar el proceso de traducción de contenido](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html).
 
 
 AEM AEM Cuando el proveedor de servicios de traducción no proporciona un conector para la integración con la traducción, a continuación, admite la exportación manual y la importación de contenido traducido en formato XML, de forma que se admita el uso de la.
 
 >[!TIP]
 >
-> Consulte la *Traducción* s sección de la Guía de prácticas recomendadas para prácticas recomendadas de traducción de contenido.
+> Consulte la sección *Traducción* s en la guía de prácticas recomendadas para conocer las prácticas recomendadas sobre la traducción de contenido.
 
 ## Configuración de la ficha Traducción en el tablero de mandos de asignación DITA
 
@@ -54,9 +54,9 @@ La opción Ocultar ficha de traducción no está activada de forma predeterminad
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Busque y haga clic en **com.adobe.fmdita.config.ConfigManager** paquete.
+1. Busque y haga clic en el paquete **com.adobe.fmdita.config.ConfigManager**.
 
-1. Seleccione el **Pestaña Ocultar traducción** , para ocultar la pestaña traducción en el panel de mapas.
+1. Seleccione la opción **Ocultar ficha de traducción** para ocultar la ficha de traducción en el panel de asignaciones.
 
    >[!NOTE]
    >
@@ -78,17 +78,17 @@ En función del flujo de trabajo de traducción utilizado en la configuración, 
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Busque y haga clic en **com.adobe.fmdita.config.ConfigManager** paquete.
+1. Busque y haga clic en el paquete **com.adobe.fmdita.config.ConfigManager**.
 
-1. Configure las variables **Flujo de trabajo de traducción DITA basado en componentes** según su configuración:
+1. Configure la opción **Flujo de trabajo de traducción DITA basado en componentes** según su configuración:
 
-   - Si utiliza la traducción humana, *Deshabilitar* el **Flujo de trabajo de traducción basado en componentes** opción.
+   - Si usa traducción humana, *deshabilite* la opción **Flujo de trabajo de traducción basado en componentes**.
 
-   - Si utiliza la traducción automática, *Activar* el **Flujo de trabajo de traducción basado en componentes** opción.
+   - Si está usando traducción automática, *Habilite* la opción **Flujo de trabajo de traducción basado en componentes**.
 
    >[!NOTE]
    >
-   > Si utiliza el conector de traducción, asegúrese de haber configurado el conector como se describe en la sección *[Configuración del marco de trabajo de integración de traducción](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* AEM tema en la documentación de la.
+   > AEM Si está usando un conector de traducción, asegúrese de que ha configurado el conector tal como se describe en el tema *[Configuración del marco de trabajo de integración de traducción](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* de la documentación de.
 
 1. Haga clic en **Guardar**.
 
@@ -143,12 +143,12 @@ De forma predeterminada, la opción posprocesar archivos temporales está desact
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Busque y haga clic en **com.adobe.fmdita.config.ConfigManager** paquete.
+1. Busque y haga clic en el paquete **com.adobe.fmdita.config.ConfigManager**.
 
-1. Configure las variables **Copias de idioma posteriores al procesamiento** según su configuración:
+1. Configure la opción **Post-process language copies** según su configuración:
 
-   - \(*Predeterminado*\) Si no desea ejecutar la operación de posprocesamiento en los archivos temporales, *Deshabilitar* el **Copias de idioma posteriores al procesamiento** opción.
+   - \(*Predeterminado*\) Si no desea ejecutar la operación de posprocesamiento en los archivos temporales, *Deshabilitar* la opción **Post-process language copies**.
 
-   - Si desea ejecutar la operación de posprocesamiento en los archivos temporales, *Activar* el **Copias de idioma posteriores al procesamiento** opción.
+   - Si desea ejecutar la operación de posprocesamiento en los archivos temporales, *habilite* la opción **Copias de idioma de procesamiento de Post**.
 
 1. Haga clic en **Guardar**.

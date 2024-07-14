@@ -13,11 +13,11 @@ ht-degree: 1%
 
 # AEM Configuración del entorno de trabajo para la publicación de PDF nativos
 
-AEM Guías de incluye un motor de publicación PDF nativo que permite a los usuarios diseñar, desarrollar y publicar el contenido en formato PDF.
+AEM Guides incluye un motor de publicación de PDF nativo que permite a los usuarios diseñar, desarrollar y publicar el contenido en formato de PDF.
 
 Permite crear diferentes diseños de página, plantillas CSS y diseñar las plantillas de PDF junto con los diseños de página y CSS.
 
-Los pasos para configurar este PDF AEM nativo en las Guías de difieren según el sistema operativo. AEM Siga los pasos de configuración que se indican a continuación en función del sistema operativo en el que se haya instalado la.
+Los pasos para configurar este PDF nativo en AEM Guides difieren según el sistema operativo. AEM Siga los pasos de configuración que se indican a continuación en función del sistema operativo en el que se haya instalado la.
 
 ## Requisitos previos
 
@@ -97,7 +97,7 @@ El motor de publicación de PDF nativo necesita un JDK de Oracle AEM para genera
 7. Abra el terminal en crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/ location.
 8. Elimine el directorio node_modules con el comando siguiente
 
-   **rm -rf módulos_nodos**
+   **rm -rf node_modules**
 
 9. Descomprima node_modules.zip con el comando siguiente
 
@@ -142,11 +142,13 @@ La importación manual de los módulos de nodos descargados para el sistema oper
 
    C:/{aem-installation-folder}/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
-   i) encontrar . -type d -exec chmod 0755 {} \; ii) buscar . -type f -exec chmod 0755 {} \; iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install —unsafe-perm —scripts-prepend-node-path
+   i) encontrar . -type d -exec chmod 0755 {} \;
+ii) encontrar . -type f -exec chmod 0755 {} \;
+iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install —unsafe-perm —scripts-prepend-node-path
 
 8. Compruebe si Java está instalado con el comando siguiente
 
-   i) Ejecutar **./node-darwin/bin/node** comando de la carpeta /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
+   i) Ejecutar **.comando /node-darwin/bin/node** de la carpeta /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
    ![mac](../assets/publishing/mac.png)
 
@@ -157,7 +159,7 @@ Comando: apt install fontconfig
 
 10. Genere un PDF nativo a partir de ajustes preestablecidos en el editor web.
 
-## Solución de problemas
+## Resolución de problemas
 
 A continuación se muestran los errores comunes que pueden producirse durante la generación de PDF cuando las variables de entorno no se configuran correctamente.
 
@@ -173,14 +175,14 @@ Si el problema persiste incluso después de corregir la configuración del entor
 
 ### Faltan bibliotecas en el sistema operativo RHEL 7 Linux
 
-![faltan bibliotecas](../assets/publishing/missing-libraries.png)
+![bibliotecas faltantes](../assets/publishing/missing-libraries.png)
 
-### Tiempo de espera del proceso de publicación. El proceso no se completó en un tiempo determinado de 0 ms
+### Tiempo de espera del proceso Publish. El proceso no se completó en un tiempo determinado de 0 ms
 
 ![tiempo de espera del proceso de publicación](../assets/publishing/publish-process-timeout.png)
 
-Valide el valor de la propiedad timeout para el nodo nodejs en /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs en el repositorio CRX. El valor predeterminado es 300.
+Valide el valor de la propiedad timeout para el nodo nodejs en /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs en el repositorio de CRX. El valor predeterminado es 300.
 
 
 
-AEM Si encuentra algún problema al realizar cualquiera de los pasos anteriores, publique su pregunta en la Comunidad de guías de la comunidad de la comunidad de la [foro](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) para obtener asistencia.
+Si encuentra algún problema al realizar cualquiera de los pasos anteriores, publique su pregunta en el [foro](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) de la comunidad de AEM Guides para obtener asistencia.

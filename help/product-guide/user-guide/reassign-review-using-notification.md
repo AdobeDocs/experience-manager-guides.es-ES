@@ -1,6 +1,6 @@
 ---
 title: Reasignar tarea de revisión mediante notificación
-description: AEM Reasignar una tarea de revisión mediante notificaciones en las Guías de. Saber cómo reasignar una tarea de revisor desde la notificación de la bandeja de entrada.
+description: Reasignar una tarea de revisión mediante notificaciones en AEM Guides. Saber cómo reasignar una tarea de revisor desde la notificación de la bandeja de entrada.
 exl-id: 6cd01564-aa26-4773-9c95-9dc519706f27
 feature: Reviewing
 role: User
@@ -18,12 +18,12 @@ Puede reasignar una tarea de revisión asignada a usted a otro usuario que se ha
 Tenga en cuenta que la reasignación solo se puede realizar para tareas de revisor y no para tareas de propietario.
 
 1. **Tarea del revisor**: Cualquier tarea asignada a un revisor para una revisión.
-1. **Tarea del propietario**: una tarea que se crea solo para el propietario. Cuando crea y asigna una tarea de revisión a un revisor, el propietario también recibe una tarea de propietario con el nombre Close &lt; nombre de la tarea de revisión\> \(por ejemplo close-reviewtask1\), pero esta tarea de propietario no se puede reasignar a nadie.
+1. **Tarea propietaria**: Una tarea que se crea solamente para el propietario. Cuando crea y asigna una tarea de revisión a un revisor, el propietario también recibe una tarea de propietario con el nombre Close &lt; nombre de la tarea de revisión\> \(por ejemplo close-reviewtask1\), pero esta tarea de propietario no se puede reasignar a nadie.
 
 Realice los siguientes pasos para volver a asignar una tarea de revisión desde la notificación de la bandeja de entrada:
 
 1. Seleccione la notificación Revisar tarea en la bandeja de entrada.
-1. Seleccionar **Reasignar** en la parte superior.
+1. Seleccione el icono **Reasignar** de la parte superior.
 1. Seleccione el nombre de usuario al que desea volver a asignar la tarea.
 
    >[!IMPORTANT]
@@ -32,10 +32,10 @@ Realice los siguientes pasos para volver a asignar una tarea de revisión desde 
 
    ![](images/reassign-user-inbox.png){width="800" align="left"}
 
-1. Seleccionar **Reasignar**.
+1. Seleccione **Reasignar**.
 
 Una vez reasignada la tarea de revisión, la columna Usuario asignado muestra el nombre del revisor al que se ha reasignado la tarea.
 
 El revisor asignado recibe una notificación en la bandeja de entrada para la tarea de revisión reasignada.
 
-**Tema principal:**[ Revisar temas o mapas](review.md)
+**Tema principal:**[ Revisar temas o asignaciones](review.md)

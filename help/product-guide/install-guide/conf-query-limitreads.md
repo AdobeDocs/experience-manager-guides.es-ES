@@ -24,9 +24,9 @@ Para aumentar el número de nodos que una consulta puede leer a la vez, realice 
    http://<server name>:<port>/system/console/jmx
    ```
 
-1. Busque y haga clic en **QueryEngineSettings**.
+1. Busque **QueryEngineSettings** y haga clic en él.
 
-1. Cambiar el valor del atributo para **LimitReads** atributo.
+1. Cambie el valor del atributo **LimitReads**.
 
 1. Haga clic en **Guardar**.
 

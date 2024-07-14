@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Configurar la visualización de vínculos basados en UUID {#id2035G20M0QN}
 
-De forma predeterminada, cuando se crea un vínculo con la opción Insertar referencia o Insertar contenido reutilizado del Editor Web, el vínculo se crea con el UUID del contenido al que se hace referencia. El **Vínculo** la propiedad \(en el panel Propiedades\) del contenido al que se hace referencia se puede configurar para mostrar la ruta de archivo relativa del contenido al que se hace referencia o el UUID. Esta pantalla está controlada por el **Habilitar UUID** en configMgr. De forma predeterminada, está activado, lo que implica que el UUID del contenido al que se hace referencia se muestra en el panel Propiedades.
+De forma predeterminada, cuando se crea un vínculo con la opción Insertar referencia o Insertar contenido reutilizado del Editor Web, el vínculo se crea con el UUID del contenido al que se hace referencia. La propiedad **Link** \(en el panel Propiedades\) del contenido al que se hace referencia se puede configurar para mostrar la ruta de archivo relativa del contenido al que se hace referencia o el UUID. Esta pantalla está controlada por la opción **Enable UUIDs** de configMgr. De forma predeterminada, está activado, lo que implica que el UUID del contenido al que se hace referencia se muestra en el panel Propiedades.
 
 Realice los siguientes pasos para mostrar la ruta relativa o el UUID del contenido al que se hace referencia en el editor web:
 
@@ -26,11 +26,11 @@ Realice los siguientes pasos para mostrar la ruta relativa o el UUID del conteni
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Busque y haga clic en **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** paquete.
+1. Busque y haga clic en el paquete **com.adobe.fmdita.xmleditor.config.XmlEditorConfig**.
 
-1. En el *XmlEditorConfig* configuración, la variable **Habilitar UUID** está activada de forma predeterminada. Esto implica que el UUID del contenido al que se hace referencia se muestra en la variable **Vínculo** en el panel Propiedades.
+1. En la configuración de *XmlEditorConfig*, la opción **Habilitar UUIDs** está habilitada de manera predeterminada. Esto implica que el UUID del contenido al que se hace referencia se muestra en la propiedad **Link** del panel Propiedades.
 
-   Si desea mostrar la ruta relativa del contenido vinculado, anule la selección del **Habilitar UUID** opción.
+   Si desea mostrar la ruta relativa del contenido vinculado, anule la selección de la opción **Habilitar UUID**.
 
 1. Haga clic en **Guardar**.
 

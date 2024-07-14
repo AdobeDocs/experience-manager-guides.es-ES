@@ -26,9 +26,9 @@ Realice los siguientes pasos para asignar automáticamente el nombre de archivo 
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Busque y haga clic en *com.adobe.fmdita.xmleditor.config.XmlEditorConfig* paquete.
+1. Busque y haga clic en el paquete *com.adobe.fmdita.xmleditor.config.XmlEditorConfig*.
 
-1. Seleccione el **Usar nombres de archivo de sistema basados en UUID** opción.
+1. Seleccione la opción **Usar nombres de archivo del sistema basados en UUID**.
 
 1. Haga clic en **Guardar**.
 

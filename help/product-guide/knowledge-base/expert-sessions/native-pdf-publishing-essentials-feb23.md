@@ -1,6 +1,6 @@
 ---
 title: Aspectos básicos de publicación de PDF nativo
-description: Obtenga información sobre cómo publicar PDF AEM mediante el motor de PDF nativo en Guías de.
+description: Obtenga información sobre cómo publicar un PDF con el motor de PDF nativo en AEM Guides.
 exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
 feature: Native PDF Output
 role: User, Admin
@@ -13,11 +13,11 @@ ht-degree: 1%
 
 # Aspectos básicos de publicación de PDF nativo
 
-AEM Guías de incluye un motor de publicación integrado de PDF que proporciona a los usuarios la capacidad de crear, desarrollar y publicar contenido en formato PDF. Su completo conjunto de funciones permite crear diversos diseños de página, personalizar las hojas de estilo y diseñar los diversos componentes de PDF necesarios para una publicación de contenido perfecta.
+AEM Guides cuenta con un motor de publicación integrado de PDF que proporciona a los usuarios la capacidad de crear, desarrollar y publicar contenido en formato de PDF. Su completo conjunto de funciones permite crear diversos diseños de página, personalizar las hojas de estilo y diseñar los diversos componentes de PDF necesarios para una publicación de contenido perfecta.
 
 ## Resumen de sesión
 
-En esta sesión, aprenderá a publicar PDF AEM utilizando el motor de PDF nativo en las Guías de la aplicación de
+En esta sesión, aprenderá a publicar PDF utilizando el motor de PDF nativo en AEM Guides
 
 ## Grabación de sesión
 
@@ -26,9 +26,9 @@ En esta sesión, aprenderá a publicar PDF AEM utilizando el motor de PDF nativo
 ## Lo más destacado
 
 - **Fecha** - 23 de febrero de 2023
-- **Número de asistentes** - 135
+- **Cantidad de asistentes** - 135
 - **Duración** - 60 minutos
-- **Audiencia** - Clientes, socios y empleados de Adobe
+- **Audiencia**: clientes, socios y empleados de Adobe
 
 ## Puntos clave
 
@@ -41,18 +41,18 @@ En esta sesión, aprenderá lo siguiente:
 
 ## Recursos relacionados
 
-- **Vídeos de funciones** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **Vídeos de características** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Guía del usuario** - [Publicación nativa de PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
+- **Guía de usuario** - [Publicación de PDF nativo](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
-- **Foro de la comunidad** - Para interacciones de la comunidad específicas de la sesión en Experience League, visite  [AEM Foro de guías de](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Foro de la comunidad**: para interacciones de la comunidad específicas de la sesión en Experience League, visita [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> AEM Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de las Guías de:
+> Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de AEM Guides:
 > - Local 4.2 o posterior
 > - Cloud Service 2211 y posterior
 
 ## Contáctenos.
 
-Si tiene cualquier pregunta, envíenos un correo electrónico a <techcomm@adobe.com>
+Para cualquier consulta, envíenos un correo electrónico a <techcomm@adobe.com>

@@ -32,13 +32,13 @@ Comprendamos esto con un ejemplo en el que queremos mostrar la descripción brev
 
 ### Añadir el CSS personalizado al perfil de carpeta
 
-Utilice los perfiles de carpeta para comprobar la *css_layout.css* en la pestaña &quot;Configuración del editor XML&quot; y añada el archivo CSS con estilos personalizados
+Use los perfiles de carpeta para comprobar *css_layout.css* en la pestaña &quot;Configuración del editor XML&quot; y agregar el archivo CSS con estilos personalizados
 
-[utilice este vínculo para obtener más información sobre el perfil de carpeta y la configuración del diseño de la plantilla CSS](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
+[use este vínculo para obtener más información sobre el perfil de carpeta y la configuración del diseño de la plantilla CSS](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
 
 Utilice lo siguiente para configurar el estilo anterior en el editor web:
-- Uso [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) y cárguelo en el perfil de carpeta que elija
-- Instalación del paquete adjunto [webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) AEM uso del administrador de paquetes de datos para instalar los recursos utilizados en el archivo CSS anterior
+- Use [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) y cárguelo en el perfil de carpeta que elija
+- AEM Instale el paquete adjunto [webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) mediante el administrador de paquetes para instalar los recursos utilizados en el archivo CSS anterior
 
 ```
 This will install the resources at path "/content/dam/resources" which will include sub-folders "fonts" and "images"
@@ -58,4 +58,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## Referencias
 
-También le puede interesar la sesión de expertos sobre las configuraciones y personalizaciones de los editores web que se explica en [Sesión de experto en el editor web](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)
+También le puede interesar la sesión de expertos sobre las configuraciones y personalizaciones de webeditor que se tratan en [Sesión de expertos sobre webeditor](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)

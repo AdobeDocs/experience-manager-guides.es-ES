@@ -1,6 +1,6 @@
 ---
 title: Administrar contenido
-description: AEM Administre contenido e identifique sus funciones y permisos en las Guías de. Conozca los conceptos clave de la administración de contenido y del trabajo con los perfiles globales o de nivel de carpeta.
+description: Administre contenido e identifique sus funciones y permisos en AEM Guides. Conozca los conceptos clave de la administración de contenido y del trabajo con los perfiles globales o de nivel de carpeta.
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
 feature: Content Management
 role: User
@@ -13,7 +13,7 @@ ht-degree: 10%
 
 # Administrar contenido {#id164JBG0M0T1}
 
-AEM Antes de comenzar con la creación real de contenido, debe familiarizarse con algunos conceptos básicos de administración de contenido en las guías de la. A continuación, comience con la creación de diferentes grupos de usuarios y la organización de sus recursos.
+Antes de empezar a crear contenido, debe familiarizarse con algunos conceptos básicos de administración de contenido en AEM Guides. A continuación, comience con la creación de diferentes grupos de usuarios y la organización de sus recursos.
 
 ## Conceptos clave
 
@@ -21,7 +21,7 @@ AEM A continuación se indican algunos conceptos clave de la administración de 
 
 **Administración de recursos**
 
-AEM AEM Las guías de la utilizan la administración de recursos digitales \(DAM\) para administrar los archivos DITA. Los archivos que carga o registra en DAM se almacenan como recursos digitales. Puede administrar y editar sus recursos en AEM Assets. Para obtener más información sobre la administración de recursos, consulte [Administrar recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
+AEM Guides AEM utiliza la administración de recursos digitales \(DAM\) de los usuarios de la administración de recursos para administrar los archivos DITA. Los archivos que carga o registra en DAM se almacenan como recursos digitales. Puede administrar y editar sus recursos en AEM Assets. Para obtener más información sobre la administración de recursos, consulte [Administrar recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
 
 **Administración de vínculos**
 
@@ -29,21 +29,21 @@ Mueva o cambie el nombre de los archivos o la estructura de carpetas en el repos
 
 **Administración de versiones**
 
-AEM Guías de proporciona administración de versiones para los recursos digitales. Puede activar fácilmente esta funcionalidad desde la aplicación de creación DITA que desee. Permite a los escritores realizar las funciones estándar de control de versiones, como el registro y la desprotección.
+AEM Guides proporciona administración de versiones para sus recursos digitales. Puede activar fácilmente esta funcionalidad desde la aplicación de creación DITA que desee. Permite a los escritores realizar las funciones estándar de control de versiones, como el registro y la desprotección.
 
-Para obtener más información sobre cómo crear versiones o revertir a una versión específica, consulte [Rama, reversión y versiones posteriores](web-editor-preview-topics.md#id193PG0Y051X).
+Para obtener más información sobre cómo crear versiones o revertir a una versión específica, vea [Ramificar, revertir y versiones posteriores](web-editor-preview-topics.md#id193PG0Y051X).
 
-**Gestión DITA nativa**
+**Administración DITA nativa**
 
-AEM AEM AEM Aunque Guías de la mantiene la estructura de los ficheros DITA, también permite a los usuarios gestionar DITA de forma nativa mediante la asignación de elementos para asignar los elementos DITA a componentes de la. El tratamiento nativo de DITA se utiliza en funciones como la previsualización de temas, la publicación en AEM Sites y los flujos de trabajo de revisión.
+Aunque AEM Guides AEM AEM mantiene la estructura de los ficheros DITA, también permite a los usuarios gestionar DITA de forma nativa mediante la asignación de elementos para asignar los elementos DITA a componentes de la. El tratamiento nativo de DITA se utiliza en funciones como la previsualización de temas, la publicación en AEM Sites y los flujos de trabajo de revisión.
 
 ## Identificación de la función y los permisos {#id181TF0K0MHT}
 
-AEM Guías de proporciona tres grupos predeterminados. Estos grupos son: *Autores*, *Revisores*, y *Editores*. Según el grupo con el que esté asociado, tiene permisos para realizar tareas específicas como se menciona en la tabla siguiente. Por ejemplo, la tarea de publicación solo la puede realizar un editor, pero no un autor o un revisor. Del mismo modo, un autor puede crear un nuevo tema y un revisor solo puede revisar un tema.
+AEM Guides proporciona tres grupos listos para usar. Estos grupos son: *Autores*, *Revisores* y *Editores*. Según el grupo con el que esté asociado, tiene permisos para realizar tareas específicas como se menciona en la tabla siguiente. Por ejemplo, la tarea de publicación solo la puede realizar un editor, pero no un autor o un revisor. Del mismo modo, un autor puede crear un nuevo tema y un revisor solo puede revisar un tema.
 
 >[!TIP]
 >
-> Consulte la *Permisos* de la guía de prácticas recomendadas para conocer las prácticas recomendadas sobre la configuración de permisos de usuario.
+> Consulte la sección *Permisos* en la guía de prácticas recomendadas para conocer las prácticas recomendadas sobre la configuración de permisos de usuario.
 
 En la tabla siguiente se enumeran varias tareas y los grupos que pueden realizarlas:
 
@@ -64,11 +64,11 @@ En la tabla siguiente se enumeran varias tareas y los grupos que pueden realizar
 | Compartir | Sí |   | Sí |
 | **Estado del documento** |
 | Crear/editar perfil de estado del documento |   |   | Sí |
-| Cambiar estado del documento[2](#fntarg_2) | Sí | Sí | Sí |
+| Cambiar el estado del documento[2](#fntarg_2) | Sí | Sí | Sí |
 | **Funciones disponibles en la consola de mapas DITA \(ficha Ajustes preestablecidos de salida\)** |
 | Generar |   |   | Sí |
 | Editar |   |   | Sí |
-| Duplicar |   |   | Sí |
+| Duplicado |   |   | Sí |
 | Crear |   |   | Sí |
 | Eliminar ajuste preestablecido |   |   | Sí |
 | **Funciones disponibles en la consola de mapas DITA \(ficha Salidas\)** |
@@ -79,24 +79,24 @@ En la tabla siguiente se enumeran varias tareas y los grupos que pueden realizar
 | **Funciones disponibles en la consola de mapas DITA \(ficha Líneas bases\)** |
 | Crear |   |   | Sí |
 | Editar |   |   | Sí |
-| Duplicar |   |   | Sí |
+| Duplicado |   |   | Sí |
 | Quitar |   |   | Sí |
 | Consola de mapas DITA \(ficha Informes\) | Sí |   | Sí |
 | **Funciones disponibles en la consola de mapas DITA \(Ajustes preestablecidos de condición\)** |
 | Crear/editar ajuste preestablecido de condición |   |   | Sí |
 
-[1](#fnsrc_1) If *Autores* y *Editores* están invitados a una revisión.
+[1](#fnsrc_1) Si *Autores* y *Editores* están invitados a una revisión.
 
-[2](#fnsrc_2) Según los derechos otorgados al usuario en el perfil de estado del documento.
+[2](#fnsrc_2) según los derechos otorgados al usuario en el perfil de estado del documento.
 
 ## Requisitos previos para la creación de contenido
 
-**Trabajo con perfiles globales o de nivel de carpeta**
+**Trabajar con perfiles globales o de nivel de carpeta**
 
 En una empresa, diferentes grupos o productos pueden utilizar diferentes plantillas de creación, plantillas de salida, perfiles de atributos condicionales \(o esquemas de asunto\) y configuraciones del Editor web. La configuración de estos solo a nivel empresarial \(o global\) puede dificultar la experiencia de los autores, ya que verán plantillas o perfiles que no son relevantes para ellos.
 
-AEM Las guías de permiten configurar la creación de plantillas \(tema o mapa\), plantillas de salida, atributos condicionales y configuraciones del Editor Web en un nivel \(global\) empresarial, así como en un nivel de carpeta. De este modo, puede separar las configuraciones para diferentes departamentos o productos de la empresa.
+AEM Guides permite configurar la creación de plantillas \(topic o map\), plantillas de salida, atributos condicionales y configuraciones del editor web en el nivel \(global\) empresarial, así como en el nivel de carpeta. De este modo, puede separar las configuraciones para diferentes departamentos o productos de la empresa.
 
 Además, puede delegar las configuraciones específicas de la carpeta a un departamento o a administradores de productos para descentralizar la administración.
 
-Para obtener más información sobre la configuración de perfiles globales y de nivel de carpeta, consulte *Configuración de perfiles globales o de nivel de carpeta* en Instalar y configurar las guías de Adobe Experience Manager as a Cloud Service.
+Para obtener más información sobre la configuración de perfiles globales y de nivel de carpeta, consulte *Configuración de perfiles globales o de nivel de carpeta* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.

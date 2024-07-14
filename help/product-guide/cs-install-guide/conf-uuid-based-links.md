@@ -14,9 +14,9 @@ ht-degree: 1%
 
 # Configurar la visualización de vínculos basados en UUID {#id2035G20M0QN}
 
-De forma predeterminada, cuando se crea un vínculo con la opción Insertar referencia o Insertar contenido reutilizado del Editor Web, el vínculo se crea con el UUID del contenido al que se hace referencia. El **Vínculo** la propiedad \(en el panel Propiedades\) del contenido al que se hace referencia se puede configurar para mostrar la ruta de archivo relativa del contenido al que se hace referencia o el UUID. De forma predeterminada, el UUID del contenido al que se hace referencia se muestra en el panel Propiedades.
+De forma predeterminada, cuando se crea un vínculo con la opción Insertar referencia o Insertar contenido reutilizado del Editor Web, el vínculo se crea con el UUID del contenido al que se hace referencia. La propiedad **Link** \(en el panel Propiedades\) del contenido al que se hace referencia se puede configurar para mostrar la ruta de archivo relativa del contenido al que se hace referencia o el UUID. De forma predeterminada, el UUID del contenido al que se hace referencia se muestra en el panel Propiedades.
 
-Siga las instrucciones que se indican en [Anulaciones de configuración](download-install-additional-config-override.md#) para crear el archivo de configuración. En el archivo de configuración, proporcione los siguientes detalles \(property\) para mostrar la ruta relativa o el UUID del contenido al que se hace referencia en el Editor web:
+Siga las instrucciones indicadas en [Anulaciones de configuración](download-install-additional-config-override.md#) para crear el archivo de configuración. En el archivo de configuración, proporcione los siguientes detalles \(property\) para mostrar la ruta relativa o el UUID del contenido al que se hace referencia en el Editor web:
 
 | PID | Clave de propiedad | Valor de propiedad |
 |---|------------|--------------|

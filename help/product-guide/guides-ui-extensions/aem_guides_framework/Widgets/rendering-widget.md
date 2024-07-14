@@ -2,7 +2,8 @@
 title: Widgets de procesamiento
 description: Cómo funciona el procesamiento en los widgets JUI
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 381cc7b9-c957-40be-9db4-8347eefe2fa7
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -11,9 +12,9 @@ ht-degree: 0%
 
 # Widgets de procesamiento
 
-Podemos procesar un widget haciendo referencia a él mediante su `id`
+Podemos procesar un widget haciendo referencia a él con su `id`
 
-Para procesar el widget `widget_languages` en cualquier parte de la aplicación podemos usar la sintaxis simple:
+Para procesar el widget `widget_languages` en cualquier lugar de la aplicación, podemos usar la sintaxis simple:
 
 ```json
 {
@@ -67,7 +68,7 @@ const listJSON = {
 }
 ```
 
-Aquí `@files` es una lista de objetos de archivo que contienen campos
+Aquí `@files` hay una lista de objetos de archivo que contienen campos
 
 ```typescript
 - fileName: string

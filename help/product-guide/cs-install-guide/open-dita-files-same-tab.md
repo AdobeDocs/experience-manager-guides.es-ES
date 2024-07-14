@@ -16,17 +16,17 @@ ht-degree: 0%
 
 En algunos flujos de trabajo, al hacer clic en un vínculo de un tema o de un archivo de mapa, se abre en una nueva pestaña. Esto podría generar muchas pestañas abiertas en el explorador, lo que podría afectar a la productividad. Puede cambiar este comportamiento al abrir un tema o un archivo de asignación en una nueva pestaña y forzarlo a abrirse en la propia pestaña actual.
 
-Siga las instrucciones que se indican en [Anulaciones de configuración](download-install-additional-config-override.md#) para crear el archivo de configuración. En el archivo de configuración, proporcione los siguientes detalles \(property\) para abrir un tema o archivo de asignación en una nueva pestaña:
+Siga las instrucciones indicadas en [Anulaciones de configuración](download-install-additional-config-override.md#) para crear el archivo de configuración. En el archivo de configuración, proporcione los siguientes detalles \(property\) para abrir un tema o archivo de asignación en una nueva pestaña:
 
 | PID | Clave de propiedad | Valor de propiedad |
 |---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.openinsametab` | Boolean \(true/false\). <br> **Valor predeterminado**: `false` |
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.openinsametab` | Booleano \(true/false\). <br> **Valor predeterminado**: `false` |
 
 Esta configuración afecta a los siguientes lugares desde donde puede acceder a los archivos de tema o asignación:
 
-- Crear tema DITA \(al final del flujo de trabajo, al hacer clic en el **Abrir tema** button\)
+- Crear tema DITA \(al final del flujo de trabajo, al hacer clic en el botón **Abrir tema**\)
 
-- Crear mapa DITA \(al final del flujo de trabajo, al hacer clic en el icono **Abrir mapa** button\)
+- Crear mapa DITA \(al final del flujo de trabajo, al hacer clic en el botón **Abrir mapa**\)
 
 - Pestaña Temas de la consola de mapas DITA
 

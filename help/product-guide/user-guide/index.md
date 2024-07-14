@@ -5,12 +5,12 @@ source-wordcount: '409'
 ht-degree: 2%
 
 ---
-# Uso de guías de Adobe Experience Manager as a Cloud Service
+# Uso de Adobe Experience Manager Guides as a Cloud Service
 
 - [Exención de responsabilidad](rebranding-disclaimer.md)
-- [Acerca de las guías de Adobe Experience Manager as a Cloud Service](intro.md)
-   - [AEM Cómo funcionan las guías de](intro-how-dxml-works.md)
-   - [AEM Características principales de las guías de](intro-dxml-features.md)
+- [Acerca de Adobe Experience Manager Guides as a Cloud Service](intro.md)
+   - [Cómo funciona AEM Guides](intro-how-dxml-works.md)
+   - [Funciones clave de AEM Guides](intro-dxml-features.md)
 - [Administrar contenido](authoring.md)
    - [Cargar archivos](authoring-upload-existing-files.md)
    - [Administración de archivos y carpetas](authoring-file-management.md)
@@ -19,7 +19,7 @@ ht-degree: 2%
    - [Crear y previsualizar temas](create-preview-topics.md)
       - [Crear temas](web-editor-create-topics.md)
       - [Previsualización de un tema](web-editor-preview-topics.md)
-   - [AEM Creación de contenido mediante guías de](authoring-content-xml-doc.md)
+   - [Creación de contenido mediante AEM Guides](authoring-content-xml-doc.md)
       - [Trabajar con el editor web](web-editor.md)
          - [Iniciar el editor web](web-editor-launch-editor.md)
          - [Editar temas en el editor web](web-editor-edit-topics.md)
@@ -78,7 +78,7 @@ ht-degree: 2%
    - [Trabajar con línea base](generate-output-use-baseline-for-publishing.md)
    - [Generar salida para un mapa DITA desde la consola de mapas](generate-output-for-a-dita-map.md)
    - [Usar la colección de mapas para generar resultados](generate-output-use-map-collection-output-generation.md)
-   - [Administrar tareas de publicación mediante el panel Publicar](generate-output-publish-dashboard.md)
+   - [Administrar tareas de publicación mediante el panel de Publish](generate-output-publish-dashboard.md)
    - [Solución de problemas básica](generate-output-basic-troubleshooting.md)
    - [Activación masiva de contenido publicado](conf-bulk-activation.md)
       - [Creación de una colección de mapas de activación masiva](conf-bulk-activation-create-map-collection.md)

@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Publicación de PDF nativa
 
-AEM Con las guías de la aplicación, puede generar PDF de temas individuales o un archivo de asignación mediante la función de generación de resultados del PDF nativo. Puede personalizar y utilizar plantillas de PDF al generar la salida del PDF. Puede crear y diseñar diseños de página para presentar las distintas secciones de la salida del PDF según sus necesidades.
+Con AEM Guides, puede generar PDF de temas individuales o un archivo de asignación mediante la función de generación de resultados del PDF nativo. Puede personalizar y utilizar plantillas de PDF al generar la salida del PDF. Puede crear y diseñar diseños de página para presentar las distintas secciones de la salida del PDF según sus necesidades.
 
-AEM Además, las Guías de también admiten variables de idioma para ayudarle a definir cadenas localizadas. También permite definir estilos para varios elementos presentes en la salida del PDF. Si es un usuario avanzado, también puede trabajar directamente con CSS para crear diseños de página avanzados.
+Además, AEM Guides también admite variables de idioma para ayudarle a definir cadenas localizadas. También permite definir estilos para varios elementos presentes en la salida del PDF. Si es un usuario avanzado, también puede trabajar directamente con CSS para crear diseños de página avanzados.
 
 
 Para obtener más información, consulte lo siguiente:

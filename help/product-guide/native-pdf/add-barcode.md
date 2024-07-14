@@ -1,13 +1,13 @@
 ---
-title: Función de publicación nativa de PDF | Añadir código de barras
+title: Función nativa de PDF Publish | Añadir código de barras
 description: Aprenda a añadir códigos de barras.
-source-git-commit: a766353908829ab433173f8fd003ecad0c9d1bf1
+exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
+source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 1%
 
 ---
-
 
 # Añadir un código de barras a la salida del PDF
 
@@ -24,7 +24,7 @@ Para generar un código de barras, realice los siguientes pasos:
 
 ### Actualice el CSS de la plantilla para procesar un valor de código de barras
 
-Modifique la `layout.css` para procesar un código de barras durante la generación del PDF. Se admiten varios tipos de código de barras como qrcode y pdf417.  Para obtener más información, consulte [Tipos de códigos de barras](#barcode-types).
+Modifique el archivo `layout.css` para procesar un código de barras durante la generación del PDF. Se admiten varios tipos de código de barras como qrcode y pdf417.  Para obtener más información, vea [Tipos de código de barras](#barcode-types).
 
 
 
@@ -50,7 +50,7 @@ Puede generar el código de barras de diferentes maneras. Algunos de los ejemplo
 
 Agregue un marcador de posición de código de barras en el encabezado de la plantilla y aplique el estilo:
 
-1. Editar **Plantillas** > **Diseños de página**
+1. Editar **plantillas** > **diseños de página**
 1. Seleccione un diseño de página. Por ejemplo, puede seleccionar el diseño de página BackCover, que contiene el encabezado o pie de página.
 1. Añada el siguiente intervalo a la ubicación en la que desea insertar el código de barras.
 
@@ -58,9 +58,9 @@ Agregue un marcador de posición de código de barras en el encabezado de la pla
 
    >[!NOTE]
    >
-   > Utilice el mismo nombre de clase que ha definido en la variable `layout.css`.
+   > Utilice el mismo nombre de clase que definió en `layout.css`.
 
-1. Reemplazar `<Sample barcode>` con el valor que desea que lea el escáner de código de barras.
+1. Reemplace `<Sample barcode>` por el valor que desea que lea el analizador de códigos de barras.
 
 Puede ver el código de barras al generar el PDF de salida mediante la plantilla, que incluye el diseño de página. Una vez realizados los pasos anteriores, puede generar la salida del PDF con un código de barras.
 
@@ -70,7 +70,7 @@ La siguiente captura de pantalla muestra un código de barras de muestra en una 
 
 **Ejemplo 2**
 
-Modifique la `Common.plt` archivo en el **Básico** para agregar un código de barras después del título del proyecto.
+Modifique el archivo `Common.plt` en la plantilla **Básico** para agregar un código de barras después del título del proyecto.
 
 Para crear un código de barras para un número ISBN, agregue un número ISBN. A continuación, utilice el número ISBN para generar el código de barras.
 
@@ -89,7 +89,7 @@ Para crear un código de barras para un número ISBN, agregue un número ISBN. A
 
 Para crear un código de barras utilizando los metadatos de asignación:
 
-Utilice cualquier metadato presente en `<topicmeta>` de un mapa DITA para mostrar como código de barras. Asegúrese de utilizar la sintaxis XPath correcta. Por ejemplo, puede agregar un `<resourceid>` en el `<topicmeta>` de un mapa DITA.
+Utilice cualquier metadato presente en el elemento `<topicmeta>` de un mapa DITA para mostrarlo como código de barras. Asegúrese de utilizar la sintaxis XPath correcta. Por ejemplo, puede agregar un(a) `<resourceid>` en el(la) `<topicmeta>` de un mapa DITA.
 
 En el ejemplo siguiente, el ID de recurso sirve como entrada principal para generar el código de barras.
 
@@ -156,6 +156,3 @@ Algunos de los códigos de barras más utilizados son los siguientes:
 | Código azteca | aztec-code | Código Azteca simbología de código de barras Según ISO/IEC 24778:2008. |                            |
 | Matriz de datos | data-matrix | Simbología de código de barras ECC 200 según ISO/IEC 16022:2006. |
 | Código uno | código uno |                            |
-
-
-

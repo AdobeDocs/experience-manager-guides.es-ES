@@ -18,11 +18,11 @@ Las siguientes API basadas en Java permiten convertir documentos de HTML y Word 
 
 **Detalles del paquete**:
 
-- ID de grupo: **com.adobe.fmdita**
+- Id. de grupo: **com.adobe.fmdita**
 
-- ID del artefacto: **api**
+- ID de artefacto: **api**
 
-- Versión: **3,2**
+- Versión: **3.2**
 
 - Paquete: **com.adobe.fmdita.api.conversion**
 
@@ -32,12 +32,12 @@ Las siguientes API basadas en Java permiten convertir documentos de HTML y Word 
   public class ConversionUtils extends Object
   ```
 
-  El **ConversionUtils** contiene métodos para convertir documentos de HTML y Word al formato DITA.
+  La clase **ConversionUtils** contiene métodos para convertir documentos de HTML y Word al formato DITA.
 
 
 ## Convertir documentos de HTML
 
-El `convertHtmlToDita` convierte los documentos de HTML en formato DITA.
+El método `convertHtmlToDita` convierte los documentos de HTML al formato DITA.
 
 **Sintaxis**:
 
@@ -49,13 +49,20 @@ public static void convertHtmlToDita(Session session,
                   throws RepositoryException, WorkflowException
 ```
 
-**Parámetros**: |Nombre|Tipo|Descripción| |----|----|-----------| |`session`|javax.jcr.Session|Una sesión JCR válida.| |`inputFile`|Cadena|Ruta absoluta de los archivos del HTML AEM de origen en el repositorio de la.| |`destPath`|Cadena|Ruta absoluta de la ubicación de destino donde se guardarán los archivos DITA convertidos.| |`createRev`|Booleano|Especifique si se ha creado una revisión de los archivos \( `true`\) en el destino especificado o no \( `false`\). Esto solo se tiene en cuenta cuando la ubicación de destino contiene una versión existente de los archivos convertidos.|
+**Parámetros**:
+|Nombre|Tipo|Descripción|
+|----|----|-----------|
+|`session`|javax.jcr.Session|Una sesión JCR válida.|
+|`inputFile`|Cadena|Ruta absoluta de los archivos del HTML AEM de origen en el repositorio de la.|
+|`destPath`|Cadena|Ruta absoluta de la ubicación de destino donde se guardarán los archivos DITA convertidos.|
+|`createRev`|Booleano|Especifique si se crea una revisión de los archivos \( `true`\) en el destino especificado o no \( `false`\). Esto solo se tiene en cuenta cuando la ubicación de destino contiene una versión existente de los archivos convertidos.|
 
-**Excepción**: lanzamientos `RepositoryException`.
+**Excepción**:
+Lanza `RepositoryException`.
 
 ## Convertir documentos de Word
 
-El ``convertWordToDita`` convierte los documentos de Word en formato DITA.
+El método ``convertWordToDita`` convierte los documentos de Word al formato DITA.
 
 **Sintaxis**:
 
@@ -68,6 +75,14 @@ public static void convertWordToDita(Session session,
                   throws RepositoryException, WorkflowException
 ```
 
-**Parámetros**: |Nombre|Tipo|Descripción| |----|----|-----------| |`session`|javax.jcr.Session|Una sesión JCR válida.| |`inputFile`AEM |Cadena|Ruta absoluta de los archivos de Word de origen en el repositorio de la.| |`destPath`|Cadena|Ruta absoluta de la ubicación de destino donde se guardarán los archivos DITA convertidos.| |`style2tagMap`|Cadena|Ruta absoluta del archivo de asignación de estilos que se utilizará para la conversión.| |`createRev`|Booleano|Especifique si se ha creado una revisión de los archivos \( `true`\) en el destino especificado o no \( `false`\). Esto solo se tiene en cuenta cuando la ubicación de destino contiene una versión existente de los archivos convertidos.|
+**Parámetros**:
+|Nombre|Tipo|Descripción|
+|----|----|-----------|
+|`session`|javax.jcr.Session|Una sesión JCR válida.|
+AEM |`inputFile`|Cadena|Ruta absoluta de los archivos de Word de origen en el repositorio de la.|
+|`destPath`|Cadena|Ruta absoluta de la ubicación de destino donde se guardarán los archivos DITA convertidos.|
+|`style2tagMap`|Cadena|Ruta absoluta del archivo de asignación de estilos que se utilizará para la conversión.|
+|`createRev`|Booleano|Especifique si se crea una revisión de los archivos \( `true`\) en el destino especificado o no \( `false`\). Esto solo se tiene en cuenta cuando la ubicación de destino contiene una versión existente de los archivos convertidos.|
 
-**Excepción**: lanzamientos `RepositoryException`.
+**Excepción**:
+Lanza `RepositoryException`.

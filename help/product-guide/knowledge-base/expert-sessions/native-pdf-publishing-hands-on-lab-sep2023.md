@@ -26,9 +26,9 @@ En esta sesión, obtendrá información valiosa sobre la publicación de PDF nat
 ## Lo más destacado
 
 - **Fecha** - 7 de septiembre de 2023
-- **Número de asistentes** - 65
+- **Cantidad de asistentes** - 65
 - **Duración** - 75 minutos
-- **Audiencia** - Clientes, socios y empleados de Adobe
+- **Audiencia**: clientes, socios y empleados de Adobe
 
 ## Puntos clave
 
@@ -52,21 +52,21 @@ En esta sesión, aprendió lo siguiente sobre la publicación de PDF nativos:
 
 - **Información general funcional sobre la publicación de PDF nativos** - [en el Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **Casos de uso comunes documentados** - [en el Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
+- **Casos de uso común documentados** - [en el Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
-- **Foro de la comunidad** - Para interacciones de la comunidad específicas de la sesión en Experience League, visite  [AEM Foro de guías de](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Foro de la comunidad**: para interacciones de la comunidad específicas de la sesión en Experience League, visita [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> AEM Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de las Guías de:
+> Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de AEM Guides:
 > - Local 4.2 o posterior
 > - Cloud Service 2309 y posterior
 
 ## Próxima sesión de expertos
 
-- **Tema** - Marco de extensión de guías
-- **Programado para el** - 2 de noviembre de 2023
+- **Tema** - Marco de trabajo de extensión de guías
+- **Programado para el día** - 2 de noviembre de 2023
 
 ## Contáctenos.
 
-Si tiene cualquier pregunta, envíenos un correo electrónico a <techcomm@adobe.com>
+Para cualquier consulta, envíenos un correo electrónico a <techcomm@adobe.com>

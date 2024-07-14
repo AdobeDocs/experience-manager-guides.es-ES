@@ -1,5 +1,5 @@
 ---
-title: Función de publicación nativa de PDF | Trabajar con estilos de barras de cambios personalizados
+title: Función nativa de PDF Publish | Trabajar con estilos de barras de cambios personalizados
 description: Aprenda a aplicar estilos en las barras de cambios.
 exl-id: a81ec56c-ccbb-4599-a696-8edef7a73cdd
 feature: Output Generation
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Trabajar con estilos de barras de cambios personalizados
 
-Una barra de cambios es una línea vertical que identifica visualmente el contenido nuevo o revisado. AEM Guías de le permite mostrar una barra de cambios a la izquierda del contenido modificado dentro de los temas y también los temas modificados en la TDC de la salida del PDF.
+Una barra de cambios es una línea vertical que identifica visualmente el contenido nuevo o revisado. AEM Guides le permite mostrar una barra de cambios a la izquierda del contenido modificado dentro de los temas y también los temas modificados en la TDC de la salida del PDF.
 
-Para obtener más información sobre cómo mostrar la barra de cambios, consulte *Crear PDF con barra de cambios entre versiones publicadas* configuración en [Salida de PDF de publicación](../web-editor/native-pdf-web-editor.md).
+Para obtener más información sobre cómo mostrar la barra de cambios, consulte *Crear PDF con barra de cambios entre versiones publicadas* en [Salida de PDF de Publish](../web-editor/native-pdf-web-editor.md).
 
 ## Contenido cambiado en los temas
 
@@ -27,9 +27,9 @@ Puede modificar los estilos siguientes para mostrar el contenido cambiado y entr
 
 >[!NOTE]
 >
->Estos estilos forman parte de `layout.css` y puede editarlos según sea necesario.
+>Estos estilos forman parte del archivo `layout.css` y puede editarlos según sea necesario.
 
-Por ejemplo, puede utilizar el atributo color en la variable `.inserted-block` estilo para definir la forma en que aparece el contenido insertado en la salida de PDF publicada.
+Por ejemplo, puede utilizar el atributo color en el estilo `.inserted-block` para definir la forma en que el contenido insertado aparece en la salida publicada del PDF.
 
 
 ```css
@@ -46,7 +46,7 @@ Por ejemplo, puede utilizar el atributo color en la variable `.inserted-block` e
 ...
 ```
 
-Del mismo modo, puede utilizar la variable `.deleted-block` estilo para definir la forma en que el contenido eliminado aparece en la salida publicada del PDF.
+Del mismo modo, puede utilizar el estilo `.deleted-block` para definir la forma en que el contenido eliminado aparece en la salida publicada del PDF.
 
 ```css
 ...
@@ -63,9 +63,9 @@ Del mismo modo, puede utilizar la variable `.deleted-block` estilo para definir 
 ...
 ```
 
-Puede utilizar `.inserted-change-bar` y `.deleted-change-bar` estilo para modificar el aspecto de las barras de cambios que aparecen a la izquierda del contenido actualizado.
+Puede utilizar los estilos `.inserted-change-bar` y `.deleted-change-bar` para modificar el aspecto de las barras de cambio que aparecen a la izquierda del contenido actualizado.
 
-Por ejemplo, puede utilizar `-ro-change-bar-color` atributo en `.inserted-change-bar` estilo para mostrar la barra de cambios insertada en color verde. También puede utilizar `-ro-change-bar-color` atributo en `.deleted-change-bar` estilo para mostrar la barra de cambios eliminada en color rojo.
+Por ejemplo, puede utilizar el atributo `-ro-change-bar-color` en el estilo `.inserted-change-bar` para mostrar la barra de cambios insertada en color verde. También puede usar el atributo `-ro-change-bar-color` en el estilo `.deleted-change-bar` para mostrar la barra de cambios eliminada en color rojo.
 
 ```css
 ...
@@ -83,7 +83,7 @@ Por ejemplo, puede utilizar `-ro-change-bar-color` atributo en `.inserted-change
 
 ## Se ha cambiado el tema de la tabla de contenido (TDC)
 
-También puede agregar una barra de cambios a la izquierda de los temas modificados en la tabla de contenido de la salida del PDF. Puede utilizar `-ro-change-bar-color` en el `.changed-topic` estilo para agregar una barra de cambios en el color que elija para los temas actualizados en la lista de TDC.
+También puede agregar una barra de cambios a la izquierda de los temas modificados en la tabla de contenido de la salida del PDF. Puede usar el atributo `-ro-change-bar-color` en el estilo `.changed-topic` para agregar una barra de cambio en el color que elija para los temas actualizados en la lista de TDC.
 
 Por ejemplo, puede agregar una barra de cambios de color verde.
 

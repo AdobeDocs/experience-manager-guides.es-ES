@@ -16,17 +16,17 @@ ht-degree: 0%
 
 El editor web proporciona una potente función de traducción para traducir el contenido a varios idiomas.
 
-Puede usar el complemento **Administrar** en el Editor Web para traducir el contenido. Esta pestaña está disponible de forma predeterminada.
+Puede usar la ficha **Administrar** del Editor web para traducir el contenido. Esta pestaña está disponible de forma predeterminada.
 
-Para ocultar la variable **Administrar** en el Editor Web, realice los siguientes pasos:
+Para ocultar la ficha **Administrar** en el Editor web, realice los siguientes pasos:
 
-1. Iniciar sesión en **Adobe Experience Manager** como administrador.
-1. Haga clic en **Adobe Experience Manager** en la parte superior y elija **Herramientas**.
-1. Seleccionar **Guías** en la lista de herramientas y haga clic en **Perfiles de carpeta**.
-1. Haga clic en **Perfil global** mosaico.
+1. Inicie sesión en **Adobe Experience Manager** como administrador.
+1. Haz clic en el vínculo **Adobe Experience Manager** de la parte superior y elige **Herramientas**.
+1. Seleccione **Guías** de la lista de herramientas y haga clic en **Perfiles de carpeta**.
+1. Haga clic en el mosaico **Perfil global**.
 1. Haga clic en **Configuración del editor XML**.
-1. Haga clic en **Editar** en la parte superior.
-1. Descargue la `ui\_config.json` file.Remove el siguiente fragmento de código del archivo descargado:
+1. Haz clic en el icono **Editar** de la parte superior.
+1. Descargar el archivo de `ui\_config.json`. Quite el siguiente fragmento de código del archivo descargado:
 
    ```json
    {
@@ -46,6 +46,6 @@ Para ocultar la variable **Administrar** en el Editor Web, realice los siguiente
 
 1. Cargue el archivo ui\_config.json actualizado.
 
-Tenga en cuenta que la variable **Administrar** el filtro ya no está disponible.
+Tenga en cuenta que el filtro **Administrar** ya no está disponible.
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)

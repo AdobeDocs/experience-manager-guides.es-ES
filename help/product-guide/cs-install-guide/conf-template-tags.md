@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Configuración de plantillas de temas y mapas {#id181AH2003PF}
 
-AEM Las guías de la aplicación incluyen plantillas de mapa de temas y DITA. Puede crear su propia plantilla personalizada y compartirla con los autores. En este tema se describe el proceso de uso de plantillas de temas y mapas personalizadas.
+AEM Guides incluye plantillas de asignación de temas y DITA. Puede crear su propia plantilla personalizada y compartirla con los autores. En este tema se describe el proceso de uso de plantillas de temas y mapas personalizadas.
 
 - **[Configurar plantilla de tema DITA personalizada](conf-template-tags-custom-dita-topic-template.md)**
 
-- **[Configuración de una plantilla de mapa DITA personalizada](conf-template-tags-custom-dita-map-templates.md)**
+- **[Configurar plantilla de mapa DITA personalizada](conf-template-tags-custom-dita-map-templates.md)**

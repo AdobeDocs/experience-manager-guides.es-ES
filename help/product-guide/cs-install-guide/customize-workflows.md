@@ -18,18 +18,18 @@ Los flujos de trabajo permiten automatizar las actividades \(\) de Adobe Experie
 
 AEM Para obtener más información sobre los flujos de trabajo en la, consulte:
 
-- [Administración de instancias de flujo de trabajo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html)
+- [Administrar instancias de flujo de trabajo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html)
 
-- Aplicación y participación en flujos de trabajo: [Uso de flujos de trabajo de proyecto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html).
+- Aplicando y participando en flujos de trabajo: [Trabajando con flujos de trabajo del proyecto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html).
 
 
-AEM En las secciones de este tema se describen las distintas personalizaciones que se pueden realizar en los flujos de trabajo predeterminados incluidos en las guías del usuario.
+Las secciones de este tema le guiarán por varias personalizaciones que puede realizar en los flujos de trabajo predeterminados enviados en AEM Guides.
 
 ## Personalizar flujo de trabajo de revisión {#id176NE0C00HS}
 
-El equipo de creación de contenido de cada organización trabaja de forma específica para satisfacer sus necesidades empresariales. En algunas organizaciones hay un editor dedicado, mientras que otras organizaciones podrían tener un sistema automatizado de revisión editorial. Por ejemplo, en una organización, un flujo de trabajo típico de creación y publicación podría incluir tareas como: cada vez que un autor termina de crear contenido, va automáticamente a los revisores y, cuando se completa la revisión, va al editor para generar el resultado final. AEM AEM En la práctica, las actividades que realice en el contenido y los recursos se pueden combinar en forma de proceso y asignarse a un flujo de trabajo de. AEM Para obtener más información sobre los flujos de trabajo en la, consulte [Administración de flujos de trabajo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html) AEM en la documentación de.
+El equipo de creación de contenido de cada organización trabaja de forma específica para satisfacer sus necesidades empresariales. En algunas organizaciones hay un editor dedicado, mientras que otras organizaciones podrían tener un sistema automatizado de revisión editorial. Por ejemplo, en una organización, un flujo de trabajo típico de creación y publicación podría incluir tareas como: cada vez que un autor termina de crear contenido, va automáticamente a los revisores y, cuando se completa la revisión, va al editor para generar el resultado final. AEM AEM En la práctica, las actividades que realice en el contenido y los recursos se pueden combinar en forma de proceso y asignarse a un flujo de trabajo de. AEM AEM Para obtener más información acerca de los flujos de trabajo en la, consulte [Administración de flujos de trabajo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html) en la documentación de la aplicación de la.
 
-AEM Guías de le permite personalizar el flujo de trabajo de revisión predeterminado. Puede utilizar los cuatro procesos personalizados siguientes relacionados con la revisión con el resto de los flujos de trabajo de creación o publicación.
+AEM Guides permite personalizar el flujo de trabajo de revisión predeterminado. Puede utilizar los cuatro procesos personalizados siguientes relacionados con la revisión con el resto de los flujos de trabajo de creación o publicación.
 
 - **Crear revisión**: este proceso prepara los metadatos necesarios para crear una tarea de revisión. Por ejemplo, asignará permiso de revisión a los revisores, establecerá el estado de los temas como en revisión, establecerá las escalas de tiempo de revisión y mucho más. De los cuatro procesos, este es el único proceso obligatorio que debe incluirse en el flujo de trabajo personalizado. En el flujo de trabajo, puede elegir incluir o excluir los otros tres procesos.
 
@@ -37,7 +37,7 @@ AEM Guías de le permite personalizar el flujo de trabajo de revisión predeterm
 
 - **Enviar correo electrónico de revisión**: este proceso envía el correo electrónico de revisión al iniciador y a los revisores.
 
-- **Programar trabajo para cerrar la revisión**: Este proceso garantiza que el proceso de revisión se complete al llegar al plazo.
+- **Programar trabajo para cerrar revisión**: este proceso garantiza que el proceso de revisión se complete al llegar a la fecha límite.
 
 
 Al crear un flujo de trabajo de revisión personalizado, la primera tarea consiste en establecer los metadatos requeridos que necesita el proceso Crear revisión. Para ello, puede crear un script ECMA. A continuación, se muestra un ejemplo del script ECMA que asigna los metadatos:
@@ -57,20 +57,20 @@ workflowdata.getMetaDataMap().put("projectPath","/content/projects/review");
 workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
 ```
 
-Puede crear este script en la `/etc/workflows/scripts` nodo. En la tabla siguiente se describen las propiedades que asigna este script ECMA:
+Puede crear este script en el nodo `/etc/workflows/scripts`. En la tabla siguiente se describen las propiedades que asigna este script ECMA:
 
 | Propiedad | Tipo | Descripción |
 |--------|----|-----------|
 | `initiator` | Cadena | ID del usuario que inicia la tarea de revisión. |
 | `operation` | Cadena | Un valor estático establecido como `AEM_REVIEW`. |
 | `orgTopics` | Cadena | Ruta de los temas que se comparten para su revisión. Especifique varios temas separados por comas. |
-| `payloadJson` | Objeto JSON | Especifique los siguientes valores: -   `base`: ruta de la carpeta principal que contiene el tema enviado para revisión. <br> -   `asset`: ruta del tema enviado para su revisión. <br> -   `referrer`: déjelo en blanco. |
-| `deadline` | Cadena | Especifique la hora en `yyyy-MM-dd'T'HH:mm:ss.SSSXXX` formato. |
+| `payloadJson` | Objeto JSON | Especifique los siguientes valores: -   `base`: ruta de acceso de la carpeta principal que contiene el tema enviado para revisión. <br> -   `asset`: ruta de acceso del tema enviado para revisión. <br> -   `referrer`: déjelo en blanco. |
+| `deadline` | Cadena | Especifique la hora en formato `yyyy-MM-dd'T'HH:mm:ss.SSSXXX`. |
 | `title` | Cadena | Escriba un título para la tarea de revisión. |
 | `description` | Cadena | Escriba una descripción para la tarea de revisión. |
 | `assignee` | Cadena | ID de usuario de los usuarios a los que desea enviar el tema para su revisión. |
 | `status` | Entero | Un valor estático establecido como 1. |
-| `startTime` | Largo | Utilice el `System.currentTimeMillis()` para obtener la hora actual del sistema. |
+| `startTime` | Largo | Utilice la función `System.currentTimeMillis()` para obtener la hora actual del sistema. |
 
 Una vez creado el script, llámelo antes de llamar al proceso Crear revisión en el flujo de trabajo. A continuación, según sus necesidades, puede llamar a los demás procesos de flujo de trabajo de revisión.
 
@@ -78,28 +78,28 @@ Una vez creado el script, llámelo antes de llamar al proceso Crear revisión en
 
 AEM Para mejorar el rendimiento del motor de flujo de trabajo, puede depurar con regularidad las instancias de flujo de trabajo completadas del repositorio de la. AEM Si utiliza las configuraciones de flujo de trabajo predeterminadas, todas las instancias de flujo de trabajo completadas se limpian después de un período de tiempo específico. AEM Esto también provoca que todos los flujos de trabajo de revisión se eliminen del repositorio de la.
 
-Puede evitar que los flujos de trabajo de revisión se depuren automáticamente si elimina el modelo de flujo de trabajo de revisión \(información\) de la configuración de depuración automática. Debe utilizar el **Configuración de depuración del flujo de trabajo de Adobe Granite** para quitar los modelos de flujo de trabajo de revisión de la lista de depuración automática.
+Puede evitar que los flujos de trabajo de revisión se depuren automáticamente si elimina el modelo de flujo de trabajo de revisión \(información\) de la configuración de depuración automática. Debe usar la **Configuración de depuración del flujo de trabajo de Granite de Adobe** para quitar los modelos de flujo de trabajo de revisión de la lista de depuración automática.
 
-En el **Configuración de depuración del flujo de trabajo de Adobe Granite**, asegúrese de que enumera al menos un flujo de trabajo que pueda purgar con seguridad. AEM Por ejemplo, puede utilizar cualquiera de los siguientes flujos de trabajo creados por las guías de:
+En la **Configuración de depuración del flujo de trabajo de Granite de Adobe**, asegúrese de que incluye al menos un flujo de trabajo que pueda purgar con seguridad. Por ejemplo, puede utilizar cualquiera de los siguientes flujos de trabajo creados por AEM Guides:
 
 - /etc/workflow/models/publishditamap/jcr:content/model
 - /etc/workflow/models/post-dita-project-creation-tasks/ jcr:content/model
 
-Añadir un flujo de trabajo en **Configuración de depuración del flujo de trabajo de Adobe Granite** AEM garantiza que purgue solo los flujos de trabajo enumerados en la configuración de. AEM Esto evita que la información del flujo de trabajo de revisión se depure.
+Añadir un flujo de trabajo en la **configuración de depuración del flujo de trabajo de Granite de Adobe AEM** garantiza que las depuraciones solo se realicen en los flujos de trabajo enumerados en la configuración. AEM Esto evita que la información del flujo de trabajo de revisión se depure.
 
-Para obtener más información sobre la configuración de **Configuración de depuración del flujo de trabajo de Adobe Granite**, consulte *Administración de instancias de flujo de trabajo* AEM en la documentación de.
+Para obtener más información sobre la configuración de la configuración de depuración de flujo de trabajo de **Adobe AEM Granite**, consulte *Administración de instancias de flujo de trabajo* en la documentación de.
 
 ### Personalizar plantillas de correo electrónico
 
-AEM Algunos flujos de trabajo de las guías de usuario utilizan las notificaciones por correo electrónico. Por ejemplo, si inicia una tarea de revisión, se envía una notificación por correo electrónico a los revisores. AEM Sin embargo, para asegurarse de que se envía la notificación por correo electrónico, debe habilitar esta funcionalidad en la aplicación de. AEM Para habilitar la notificación por correo electrónico en los informes de correo electrónico, consulte el artículo [Envío de correo electrónico](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=es#sending-email) AEM en la documentación de.
+Varios flujos de trabajo de AEM Guides utilizan las notificaciones por correo electrónico. Por ejemplo, si inicia una tarea de revisión, se envía una notificación por correo electrónico a los revisores. AEM Sin embargo, para asegurarse de que se envía la notificación por correo electrónico, debe habilitar esta funcionalidad en la aplicación de. AEM AEM Para habilitar la notificación por correo electrónico en los mensajes de correo electrónico en la documentación de, consulte el artículo [Envío de correo electrónico](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=es#sending-email) en la documentación de la.
 
-AEM Las Guías de correo electrónico contienen un conjunto de plantillas de correo electrónico que puede personalizar. Siga estos pasos para personalizar estas plantillas:
+AEM Guides contiene un conjunto de plantillas de correo electrónico que puede personalizar. Siga estos pasos para personalizar estas plantillas:
 
-1. Utilice el Administrador de paquetes para descargar `/libs/fmdita/mail` archivo.
+1. Use el Administrador de paquetes para descargar el archivo `/libs/fmdita/mail`.
 
    >[!NOTE]
    >
-   > No realice ninguna personalización en los archivos de configuración predeterminados disponibles en el ``libs`` nodo. Debe crear una superposición de ``libs`` nodo en el ``apps`` y actualice los archivos necesarios en la ``apps`` solo nodo.
+   > No realice ninguna personalización en los archivos de configuración predeterminados disponibles en el nodo ``libs``. Debe crear una superposición del nodo ``libs`` en el nodo ``apps`` y actualizar los archivos necesarios solo en el nodo ``apps``.
 
 1. La carpeta de correo contiene las siguientes plantillas personalizables:
 
@@ -112,7 +112,7 @@ AEM Las Guías de correo electrónico contienen un conjunto de plantillas de cor
 
 ## Personalizar flujo de trabajo de generación posterior a la salida {#id17A6GI004Y4}
 
-AEM Guías le proporciona la flexibilidad para especificar un flujo de trabajo de generación posterior a la salida. AEM Puede realizar algunas tareas de posprocesamiento en la salida que se genera mediante las guías de. AEM Por ejemplo, es posible que desee aplicar algunas etiquetas CQ a la salida del sitio generada, o establecer ciertas propiedades en la salida del PDF, o puede que desee enviar un correo electrónico a un conjunto de usuarios una vez generada la salida.
+AEM Guides le ofrece la flexibilidad de especificar un flujo de trabajo de generación posterior a la salida. Puede realizar algunas tareas de posprocesamiento en la salida que se genera mediante AEM Guides. AEM Por ejemplo, es posible que desee aplicar algunas etiquetas CQ a la salida del sitio generada, o establecer ciertas propiedades en la salida del PDF, o puede que desee enviar un correo electrónico a un conjunto de usuarios una vez generada la salida.
 
 Puede crear un nuevo modelo de flujo de trabajo para utilizarlo como flujo de trabajo de generación posterior a la salida. Cuando se activa un flujo de trabajo de generación posterior a la salida, este comparte información contextual a través del mapa de metadatos del flujo de trabajo, que puede utilizar para realizar el procesamiento en la salida generada. En la tabla siguiente se describe la información contextual compartida como metadatos:
 
@@ -132,7 +132,7 @@ Para utilizar los metadatos de generación de salida, puede crear un script ECMA
 
 >[!NOTE]
 >
-> Puede crear este script en la ``/etc/workflows/scripts`` nodo.
+> Puede crear este script en el nodo ``/etc/workflows/scripts``.
 
 ```javascript
 var session = workflowSession.getSession(); // Obtain session object to read/write the repository.
@@ -155,4 +155,4 @@ generatedPath;
 */
 ```
 
-Una vez creado el script, invoque al script personalizado en el flujo de trabajo. A continuación, según sus necesidades, puede llamar a los demás procesos de flujo de trabajo. Una vez diseñado el flujo de trabajo personalizado, llame al método *Finalizar generación posterior* como último paso del proceso de flujo de trabajo. El *Finalizar generación posterior* Este paso garantiza que el estado de la tarea de generación de resultados se actualice a *Finalizado* al finalizar el proceso de generación de resultados. Después de crear un flujo de trabajo de generación posterior a la salida personalizado, puede configurarlo con cualquiera de los ajustes preestablecidos de generación de salida. Seleccione el flujo de trabajo necesario en la *Ejecutar flujo de trabajo posterior a generación* propiedad del ajuste preestablecido requerido. Cuando se ejecuta una tarea de generación de resultados mediante el ajuste preestablecido de salida configurado, el estado de la tarea \(en la pestaña Salida\) cambia a *Procesamiento posterior*.
+Una vez creado el script, invoque al script personalizado en el flujo de trabajo. A continuación, según sus necesidades, puede llamar a los demás procesos de flujo de trabajo. Una vez que haya diseñado el flujo de trabajo personalizado, llame a *Finalizar generación de Post* como último paso en el proceso de flujo de trabajo. El paso *Finalizar generación de Post* garantiza que el estado de la tarea de generación de resultados se actualice a *Finalizado* al finalizar el proceso de generación de resultados. Después de crear un flujo de trabajo de generación posterior a la salida personalizado, puede configurarlo con cualquiera de los ajustes preestablecidos de generación de salida. Seleccione el flujo de trabajo necesario en la propiedad *Ejecutar flujo de trabajo de generación de Post* del ajuste preestablecido requerido. Cuando ejecuta una tarea de generación de resultados mediante el ajuste preestablecido de salida configurado, el estado de la tarea \(en la pestaña Salida\) cambia a *Post-Processing*.

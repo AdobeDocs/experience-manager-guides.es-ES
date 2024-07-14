@@ -13,14 +13,14 @@ ht-degree: 0%
 
 # Control de la calidad del contenido en el editor web
 
-AEM Este artículo ofrece una descripción general de las posibilidades de validación dentro del editor web de Guides de.
+Este artículo ofrece una descripción general de las posibilidades de validación dentro del editor web de AEM Guides.
 Al diseñar, el editor web aprovecha la configuración de esquema DITA en el sistema para obligar a los usuarios a crear contenido compatible con DITA. Con esto, todo el contenido almacenado en el sistema es contenido DITA estructurado, reutilizable y válido.
 
-Más allá de la compatibilidad con las reglas DITA, el editor web también admite la validación de contenido en función de &quot;*Schematron*&quot; reglas.
+Más allá de la compatibilidad con las reglas DITA, el editor web también admite la validación de contenido basado en reglas de &quot;*Schematron*&quot;.
 
-&quot;*Schematron*&quot; hace referencia a un lenguaje de validación basado en reglas que se utiliza para definir pruebas para un archivo XML. Puede importar los archivos de Schematron y también editarlos en el Editor Web. Con un fichero &quot;Schematron&quot; se pueden definir determinadas reglas y, a continuación, validarlas para un tema DITA o un mapa. Las reglas de Schematron pueden garantizar la coherencia de la estructura XML mediante la imposición de restricciones definidas como reglas. Estas restricciones están impulsadas por PYME que son propietarias de la calidad y coherencia del contenido.
+&quot;*Schematron*&quot; hace referencia a un lenguaje de validación basado en reglas que se usa para definir pruebas para un archivo XML. Puede importar los archivos de Schematron y también editarlos en el Editor Web. Con un fichero &quot;Schematron&quot; se pueden definir determinadas reglas y, a continuación, validarlas para un tema DITA o un mapa. Las reglas de Schematron pueden garantizar la coherencia de la estructura XML mediante la imposición de restricciones definidas como reglas. Estas restricciones están impulsadas por PYME que son propietarias de la calidad y coherencia del contenido.
 
-    NOTA: El editor web es compatible con ISO Schematron.
+    NOTA: el editor web admite el Esquemas ISO.
 
 
 ## Saber cómo funciona &quot;Schematron&quot; en el editor web
@@ -32,7 +32,7 @@ Consulte la sección &quot;Compatibilidad con archivos de Schematron&quot; en la
 
 ### Aplicar reglas de validación al guardar el archivo
 
-La configuración de Editor web permite a los usuarios avanzados configurar las reglas o archivos de Schematron que se ejecutarán cada vez que un usuario actualice el contenido. Para obtener más información, consulte la sección Validación en [Guía del usuario](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
+La configuración de Editor web permite a los usuarios avanzados configurar las reglas o archivos de Schematron que se ejecutarán cada vez que un usuario actualice el contenido. Para obtener más información, consulte la sección &quot;Validación&quot; en [Guía del usuario](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
 
 ![Establecer reglas a partir de la configuración del editor web](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
 
@@ -49,7 +49,8 @@ Sí, como autor/usuario mientras crea contenido, puede utilizar el panel Schemat
 
 ### Reglas compatibles
 
-AEM La versión actual de las Guías de admite la validación mediante reglas basadas en la &quot;Afirmación&quot; únicamente. (consulte [recurso o informe](https://schematron.com/document/205.html)) Todavía no se admiten reglas basadas en &quot;Informes&quot;.
+La versión actual de AEM Guides admite la validación mediante reglas basadas en la &quot;Afirmación&quot; únicamente. (ver [recurso vs. informe](https://schematron.com/document/205.html))
+Aún no se admite ninguna regla basada en &quot;Informes&quot;.
 
 
 ### Ejemplos y más ayuda sobre las reglas de Schematron
@@ -100,6 +101,6 @@ AEM La versión actual de las Guías de admite la validación mediante reglas ba
 
 #### Recursos
 
-- Comprensión  [Conceptos básicos de Schematron](https://da2022.xatapult.com/#what-is-schematron)
-- Más información sobre [Reglas de aserción en Schematron](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
+- Explicación de [conceptos básicos de Schematron](https://da2022.xatapult.com/#what-is-schematron)
+- Más información sobre [Reglas de afirmación en Schematron](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
 - [Archivo de Schematron de muestra](../../../assets/authoring/sample_schematron.sch)

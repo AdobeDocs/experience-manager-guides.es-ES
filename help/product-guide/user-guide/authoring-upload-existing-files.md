@@ -13,19 +13,19 @@ ht-degree: 0%
 
 # Cargar archivos {#id176FF000JUI}
 
-AEM Lo más probable es que tenga un repositorio de contenido DITA existente que le gustaría utilizar con guías de. AEM Para dicho contenido existente, puede utilizar cualquiera de los siguientes métodos para cargar por lotes el contenido en el repositorio de la:
+Lo más probable es que tenga un repositorio de contenido DITA existente que desee utilizar con AEM Guides. AEM Para dicho contenido existente, puede utilizar cualquiera de los siguientes métodos para cargar por lotes el contenido en el repositorio de la:
 
 >[!IMPORTANT]
 >
-> Consulte [Añadir recursos digitales a Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) AEM para obtener información detallada en los métodos de carga de contenido admitidos en la documentación de, haga lo siguiente en la documentación de.
+> Consulte [Agregar recursos digitales a Adobe Experience Manager as a Cloud Service Assets AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) para obtener información detallada sobre los métodos de carga de contenido admitidos en la documentación de.
 
 ## Interfaz de usuario de la consola Assets
 
-AEM Puede seleccionar contenido en el escritorio y arrastrarlo en la interfaz de usuario de la interfaz de usuario de la aplicación \(explorador web\) a la carpeta de destino. Para obtener más información, consulte [Cargar recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) AEM en la documentación de.
+AEM Puede seleccionar contenido en el escritorio y arrastrarlo en la interfaz de usuario de la interfaz de usuario de la aplicación \(explorador web\) a la carpeta de destino. AEM Para obtener más información, consulte [Cargar recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) en la documentación de la documentación de la.
 
 ## Aplicación de escritorio de AEM 
 
-AEM Utilice la aplicación de escritorio de si es un profesional creativo y desea administrar los recursos en su escritorio local. Puede abrir y editar estos recursos con las aplicaciones de escritorio. También puede mantener las versiones y compartir los archivos con otros usuarios. Para obtener más información, consulte [AEM aplicación de escritorio de](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html).
+AEM Utilice la aplicación de escritorio de si es un profesional creativo y desea administrar los recursos en su escritorio local. Puede abrir y editar estos recursos con las aplicaciones de escritorio. También puede mantener las versiones y compartir los archivos con otros usuarios. AEM Para obtener más información, consulte [aplicación de escritorio de ](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html).
 
 ## Ingestor masivo de recursos
 
@@ -33,9 +33,9 @@ Si tiene migraciones a gran escala e ingestas masivas ocasionales, utilice el In
 
 ## Usar FrameMaker para carga masiva
 
-Adobe FrameMaker AEM incluye un potente conector de que permite cargar fácilmente los documentos DITA y de otros FrameMakeres \(`.book` y `.fm`AEM \) a la dirección de correo electrónico Puede utilizar varias funcionalidades de carga de archivos, como cargar un solo archivo o cargar una carpeta completa con o sin dependencias \(como referencias de contenido, referencias cruzadas y gráficos\).
+Adobe FrameMaker AEM incluye un potente conector de que le permite cargar fácilmente los documentos DITA y de otros FrameMaker AEM \(`.book` y `.fm`\) existentes en el servidor de correo electrónico de. Puede utilizar varias funcionalidades de carga de archivos, como cargar un solo archivo o cargar una carpeta completa con o sin dependencias \(como referencias de contenido, referencias cruzadas y gráficos\).
 
-Para obtener más información sobre el uso de la función de carga masiva en FrameMaker, consulte la sección *Crear una carpeta CRX y cargar archivos* en la Guía del usuario de FrameMaker.
+Para obtener más información acerca del uso de la característica de carga masiva en FrameMaker, consulte la sección *Crear una carpeta de CRX y cargar archivos* en la Guía del usuario de FrameMaker.
 
 ## Tratamiento de errores al cargar contenido {#id201MI0I04Y4}
 
@@ -43,7 +43,7 @@ Si se produce un error al cargar uno o más archivos, se muestra un mensaje al f
 
 ![](images/uuid-files-failed-to-upload_cs.png){width="650" align="center"}
 
-Para obtener más información sobre los distintos escenarios de carga de archivos, consulte [Cargar contenido DITA](authoring-file-management.md#).
+Para obtener más información sobre cómo cargar los distintos escenarios de archivos, consulte [Cargar contenido DITA](authoring-file-management.md#).
 
 AEM AEM Si utiliza una herramienta como una aplicación de escritorio o un ingestor masivo de recursos, la acción que se va a realizar en un archivo duplicado se controla mediante una configuración en el servidor de. Póngase en contacto con el administrador del sistema para conocer esta configuración.
 

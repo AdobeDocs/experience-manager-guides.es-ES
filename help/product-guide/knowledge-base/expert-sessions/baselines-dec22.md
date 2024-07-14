@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Administrar contenido mediante líneas de base
 
-AEM La administración de versiones en Guías de se realiza mediante una línea de base que le permite elegir una versión de los temas y recursos, que luego se puede utilizar para la publicación o traducción.
+La administración de versiones en AEM Guides se realiza mediante una línea de base que le permite elegir una versión de los temas y recursos, que luego se puede utilizar para publicar o traducir.
 
 ## Resumen de sesión
 
@@ -26,32 +26,32 @@ En esta sesión, aprenderá a utilizar líneas de base para administrar el conte
 ## Lo más destacado
 
 - **Fecha** - 8 de diciembre de 2022
-- **Número de asistentes** - 64
+- **Cantidad de asistentes** - 64
 - **Duración** - 60 minutos
-- **Audiencia** - Clientes, socios y empleados de Adobe
+- **Audiencia**: clientes, socios y empleados de Adobe
 
 ## Puntos clave
 
 En esta sesión, aprenderá lo siguiente:
-- AEM Diferentes operaciones de línea de base en las guías de la
+- Diferentes operaciones de línea base en AEM Guides
 - Descargar, publicar y traducir con una línea de base
 - Prácticas recomendadas para usar una línea de base
-- Un vistazo a una nueva funcionalidad, **Crear líneas base dinámicas**
+- Un vistazo a una nueva función, **Crear líneas de base dinámicas**
 
 ## Recursos relacionados
 
-- **Vídeos de funciones** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **Vídeos de características** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Guía del usuario** - [Trabajar con línea base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
+- **Guía del usuario** - [Trabajar con línea de base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 
-- **Foro de la comunidad** - Para interacciones de la comunidad específicas de la sesión en Experience League, visite [AEM Foro de guías de](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Foro de la comunidad**: para interacciones de la comunidad específicas de la sesión en Experience League, visita [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
->AEM Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de las Guías de:
+>Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de AEM Guides:
 > - On-Prem 4.1 y posterior
 > - Cloud Service 2211 y posterior
 
 ## Contáctenos.
 
-Si tiene cualquier pregunta, envíenos un correo electrónico a <techcomm@adobe.com>
+Para cualquier consulta, envíenos un correo electrónico a <techcomm@adobe.com>

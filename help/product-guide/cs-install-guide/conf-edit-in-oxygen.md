@@ -14,9 +14,9 @@ ht-degree: 1%
 
 # Configurar la opción de edición en Oxígeno
 
-AEM Guías de también permite a los usuarios editar sus temas DITA y mapas DITA en el complemento Conector de oxígeno.
+AEM Guides también permite a los usuarios editar sus temas DITA y mapas DITA en el complemento Conector de oxígeno.
 
-Siga las instrucciones que se indican en [Anulaciones de configuración](download-install-additional-config-override.md#) para crear el archivo de configuración. En el archivo de configuración, proporcione los siguientes detalles (propiedad) para configurar el **Editar en oxígeno** opción:
+Siga las instrucciones indicadas en [Anulaciones de configuración](download-install-additional-config-override.md#) para crear el archivo de configuración. En el archivo de configuración, proporcione los siguientes detalles (propiedad) para configurar la opción **Editar en oxígeno**:
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Oculte la opción Crear mapa digital en las opciones del menú contextual de la carpeta para usuarios o grupos específicos.
 description: Aprenda a personalizar el editor web ocultando la opción "DitaMap" del menú contextual de carpeta para usuarios/grupos específicos
-source-git-commit: ea8fb646287f68676b6530b4cc5f56e7ba2d9b0c
+exl-id: 796bfe3a-3950-4ade-9215-c33534791055
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
 
 ---
-
 
 # Mostrar/ocultar &quot;Crear DitaMAP&quot; del menú contextual de carpeta en el editor web
 
@@ -16,14 +16,14 @@ En este caso de uso, ocultaremos esta opción para todos los usuarios que no sea
 
 ## Requisitos previos
 
-AEM Aprovecharemos el paquete de extensión de las guías de la aplicación que le permite personalizar la interfaz de usuario de su aplicación según sus necesidades.
-Por favor, pase por esto [documentación](https://github.com/adobe/guides-extension/tree/main) para obtener más información sobre cómo funciona el marco de trabajo de extensión de Guides.
+Aprovecharemos el paquete de extensión de AEM Guides que le permite personalizar la interfaz de usuario de su aplicación según sus necesidades.
+Consulte esta [documentación](https://github.com/adobe/guides-extension/tree/main) para obtener más información sobre cómo funciona el marco de trabajo de extensión de guías.
 
 Ahora vamos a empezar y aprender a personalizar el menú contextual de la carpeta para ocultar esta opción para todos los usuarios que no sean autores.
 
 Como puede ver en el siguiente fragmento, la opción &quot;create DitaMap&quot; es visible para un usuario autor.
 
-![Mostrar la opción crear DitaMap](../../../assets/authoring/ditamap-show-author.png)
+![Mostrar opción para crear DitaMap](../../../assets/authoring/ditamap-show-author.png)
 
 Ahora veamos cómo podemos ocultar esta opción mediante el marco de trabajo de extensión de Guides.
 
@@ -60,7 +60,7 @@ const folderOptions = {
 };
 ```
 
-- **Creación de un nuevo widget para gestionar la lógica**
+- **Creación de un widget nuevo para controlar la lógica**
 
   Se necesita una nueva creación de widget (customoptions.ts) para escribir la lógica que oculte esta opción solo para usuarios que no sean autores. Para lograrlo, hemos utilizado la clave &quot;show&quot; que actúa como alternativa en nuestra estructura JSON.
 
@@ -113,7 +113,7 @@ controller: {
   },
 ```
 
-- **Adición del código personalizado**
+- **Agregando el código personalizado**
 
   Importe folder_options.ts y customoptions.ts al archivo index.ts en /src.
 
@@ -122,15 +122,15 @@ controller: {
 - AEM Inicie sesión en el grupo de usuarios con un usuario que no forme parte del grupo de autores. La opción Crear DitaMap estaría oculta en cualquier menú contextual de carpeta, como se muestra a continuación.
 Este caso de uso se ha añadido a GIT; consulte los recursos relacionados a continuación.
 
-![Ocultar la opción Crear DitaMap](../../../assets/authoring/ditamap-hide-non-author.png)
+![Ocultar la opción create DitaMap](../../../assets/authoring/ditamap-hide-non-author.png)
 
 ### Recursos relacionados
 
-- **Repositorio base de Extension Framework** - [GIT](https://github.com/adobe/guides-extension/tree/main)
+- **Repositorio base de módulo de extensión** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
-- **Documentación** - [en el Experience League](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+- **Documentación** - [en Experience League](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **Casos de uso comunes documentados** - [en el Experience League](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **Casos de uso común documentados** - [en el Experience League](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
 - **Repositorio público con ejemplos** - [en GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Rama de referencia sc-expert-session
 

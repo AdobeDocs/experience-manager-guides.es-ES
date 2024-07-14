@@ -1,6 +1,6 @@
 ---
 title: Iniciar el editor web
-description: AEM Obtenga información sobre cómo iniciar el editor web desde la página de navegación de la, la interfaz de usuario de AEM Assets AEM y la consola de mapas de DITA en las guías de la.
+description: AEM Obtenga información sobre cómo iniciar el editor web desde la página de navegación de la, la interfaz de usuario de AEM Assets y la consola de mapas de DITA en AEM Guides.
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
@@ -27,15 +27,15 @@ AEM Al iniciar sesión en la sesión de, se le mostrará la página Navegación:
 
 ![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-Haciendo clic en **Guías** Este vínculo le lleva directamente al Editor web.
+Al hacer clic en el vínculo **Guías**, accederá directamente al Editor web.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
 Cuando haya iniciado el Editor Web sin seleccionar ningún archivo, aparecerá una pantalla en blanco. AEM Puede abrir un archivo para editarlo desde el repositorio o desde la colección de Favoritos de la aplicación.
 
-- Haga clic en **Guías** icono (![](images/aem-guides-icon.png) AEM ), para volver a la página Navegación de la.
+- AEM Haga clic en el icono **Guías** (![](images/aem-guides-icon.png) ) para volver a la página Navegación de la.
 
-- El **Cerrar** le lleva a un destino basado en su configuración:
+- El botón **Cerrar** le lleva a un destino de acuerdo con su configuración:
 
 
 
@@ -43,14 +43,14 @@ Cuando haya iniciado el Editor Web sin seleccionar ningún archivo, aparecerá u
 
   <summary> Cloud Services </summary>
 
-  Si utiliza Cloud Service, haga clic en **Cerrar** AEM para volver a la página Navegación de la.
+  Si utiliza Cloud Service AEM, haga clic en el botón **Cerrar** para volver a la página Navegación de la barra de herramientas de la barra de herramientas de la barra de herramientas de la barra de herramientas.
   </details>
 
   <details>
 
   <summary> Software On-Premise</summary>
 
-  AEM Si utiliza el software On-Premise de guías de usuario de (4.2.1 y versiones posteriores), haga clic en **Cerrar** a la derecha para volver a la ruta del archivo actual en la interfaz de usuario de Assets.
+  Si utiliza el software On-premise de AEM Guides (4.2.1 y versiones posteriores), haga clic en el botón **Cerrar** de la derecha para volver a la ruta de acceso del archivo actual en la interfaz de usuario de Assets.
 
   </details>
 
@@ -72,11 +72,11 @@ Otra ubicación desde la que puede iniciar el Editor web es desde la interfaz de
    >
    > Asegúrese de tener los permisos de lectura y escritura en la carpeta que contiene el tema que desea editar.
 
-1. Para obtener un bloqueo exclusivo sobre el tema, seleccione el tema y haga clic en **Desproteger**.
+1. Para obtener un bloqueo exclusivo sobre el tema, selecciónelo y haga clic en **Desproteger**.
 
    >[!IMPORTANT]
    >
-   > Si el administrador ha configurado la variable **Desactivar la edición sin cierre de compra** , debe retirar el archivo antes de editar. Si no desprotege el archivo, no podrá ver la opción de edición.
+   > Si el administrador ha configurado la opción **Deshabilitar edición sin desprotección**, debe desproteger el archivo antes de editarlo. Si no desprotege el archivo, no podrá ver la opción de edición.
 
 1. Cierre el modo de selección de recursos y haga clic en el tema que desee editar.
 
@@ -94,7 +94,7 @@ Otra ubicación desde la que puede iniciar el Editor web es desde la interfaz de
 
    ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
 
-1. Clic **Editar** para abrir el tema en el Editor Web.
+1. Haga clic en **Editar** para abrir el tema en el editor web.
 
    ![](images/edit-mode.png){width="800" align="left"}
 
@@ -103,17 +103,17 @@ Otra ubicación desde la que puede iniciar el Editor web es desde la interfaz de
 
 Para abrir el Editor Web desde la consola de mapas DITA, siga estos pasos:
 
-1. En la interfaz de usuario de Assets, vaya al fichero de mapa DITA que contiene el tema que se debe editar y haga clic en él.
+1. En la interfaz de usuario de Assets, desplácese hasta el fichero de mapa DITA que contiene el tema que desea editar y haga clic en él.
 
    Se muestra la consola de mapas DITA.
 
-1. Clic **Temas**.
+1. Haga clic en **Temas**.
 
    Se muestra una lista de temas en el fichero de asignación. El UUID de los temas se muestra debajo del título del tema.
 
 1. Seleccione el archivo de tema que desee editar.
 
-1. Clic **Editar tema**.
+1. Haga clic en **Editar tema**.
 
    ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
 
@@ -121,7 +121,7 @@ Para abrir el Editor Web desde la consola de mapas DITA, siga estos pasos:
 
    >[!IMPORTANT]
    >
-   > Si el administrador ha configurado la variable **Desactivar la edición sin cierre de compra** , debe retirar el archivo antes de editar. Si no desprotege el archivo, el documento se abrirá en el editor en modo de solo lectura.
+   > Si el administrador ha configurado la opción **Deshabilitar edición sin desprotección**, debe desproteger el archivo antes de editarlo. Si no desprotege el archivo, el documento se abrirá en el editor en modo de solo lectura.
 
 
 **Tema principal:**[ Trabajar con el editor web](web-editor.md)

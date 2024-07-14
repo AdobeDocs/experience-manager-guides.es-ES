@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Configuración de un conector de fuente de datos desde la interfaz de usuario
 
-Las guías del Experience Manager vienen con el **Fuentes de datos** que le ayuda a configurar conectores predeterminados para fuentes de datos. Puede configurar los conectores de cliente JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), Adobe Commerce, Elasticsearch y REST genérico.
+Experience Manager Guides viene con la herramienta **Fuentes de datos** que le ayuda a configurar conectores predeterminados para fuentes de datos. Puede configurar los conectores de cliente JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), Adobe Commerce, Elasticsearch y REST genérico.
 
 
-Además de estos conectores predeterminados, las guías del Experience Manager proporcionan los conectores para las fuentes de datos de Salsify, Akeneo y Microsoft Azure DevOps Boards (ADO). Puede descargar e instalar estos conectores de código abierto desde el [Repositorio de Maven Central](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). A continuación, los usuarios pueden configurar estos conectores.
-Obtenga información sobre cómo [instalar un conector de código abierto](#install-open-source-connector).
+Además de estos conectores predeterminados, Experience Manager Guides proporciona los conectores para las fuentes de datos de Salsify, Akeneo y Microsoft Azure DevOps Board (ADO). Puede descargar e instalar estos conectores de código abierto desde el [repositorio de Maven Central](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). A continuación, los usuarios pueden configurar estos conectores.
+Aprenda a [instalar un conector de código abierto](#install-open-source-connector).
 
 
 
@@ -26,11 +26,11 @@ También puede conectarse a archivos de datos JSON mediante un conector de archi
 
 Para configurar un conector, realice los siguientes pasos:
 
-1. Seleccione el **Adobe Experience Manager** en la parte superior y seleccione Herramientas.
-1. Seleccionar **Guías** de la lista de herramientas.
-1. Seleccione el **Fuentes de datos** mosaico. El **Fuentes de datos** se muestra la página. Puede ver las fuentes de datos conectadas.
+1. Seleccione el vínculo **Adobe Experience Manager** de la parte superior y elija Herramientas.
+1. Seleccione **Guías** de la lista de herramientas.
+1. Seleccione el mosaico **Fuentes de datos**. Se muestra la página **Fuentes de datos**. Puede ver las fuentes de datos conectadas.
 
-   Puede alternar entre las **Vista de lista** o **Vista en mosaico** para ver las distintas fuentes de datos conectadas como una lista o como mosaicos.
+   Puede alternar entre la **vista de lista** o la **vista de mosaico** para ver los distintos orígenes de datos conectados como una lista o como mosaicos.
 
    <img src="./assets/data-sources-create-window.png" alt= "fuentes de datos enumeradas en la página fuentes de datos" width="800">
 
@@ -46,38 +46,38 @@ Para configurar un conector, realice los siguientes pasos:
 
    >[!TIP]
    >
-   >* Pase el ratón sobre <img src="./assets/info-details.svg" alt= "icono de información" width="25"> cerca del campo para ver más detalles sobre él.
+   >* Pase el ratón sobre <img src="./assets/info-details.svg" alt= "icono de información" width="25"> cerca del campo para ver más detalles al respecto.
    > * Los campos con * son obligatorios. Por ejemplo, puede introducir los siguientes detalles para el conector del Elasticsearch.
 
-   * **Nombre**: introduzca el nombre de la fuente de datos.
-   * **Tipo de autenticación**: seleccione el tipo de autenticación de la lista desplegable. Por ejemplo, Autenticación básica de nombre de usuario y contraseña
-   * **Nombre de usuario**: introduzca su nombre de usuario.
-   * **Contraseña**: introduzca su nombre de usuario y contraseña.
-   * **URL**: Añada la dirección URL de la API.
+   * **Nombre**: escriba el nombre del origen de datos.
+   * **Tipo de autenticación**: seleccione el tipo de autenticación en la lista desplegable. Por ejemplo, Autenticación básica de nombre de usuario y contraseña
+   * **Nombre de usuario**: Escriba su nombre de usuario.
+   * **Contraseña**: Escriba su nombre de usuario y contraseña.
+   * **URL**: agregue la URL de la API.
 
 
-1. Seleccione el **Excluir plantillas de fábrica** para excluir las plantillas de fábrica de la utilización para la generación de temas y fragmentos de código. No aparecerán debajo de la etiqueta **Plantilla de asignación de datos** menú desplegable en  **Añadir generador de fragmentos de contenido** o el **Agregar generador de temas** Cuadro de diálogo.
+1. Seleccione la opción **Excluir plantillas de fábrica** para excluir las plantillas de fábrica de su uso para generar temas y fragmentos de código. No aparecerán en el menú desplegable **Plantilla de asignación de datos** del cuadro de diálogo **Agregar generador de fragmentos de contenido** o **Agregar generador de temas**.
 
 
-1. Seleccionar **Probar conexión**. Puede ver el **Probar conexión** botón habilitado solo después de agregar los detalles necesarios. Vea un mensaje de éxito si los detalles de la conexión son correctos. De lo contrario, podría ver un mensaje de error.
+1. Seleccione **Probar conexión**. Solo podrá ver el botón **Probar conexión** habilitado después de agregar los detalles necesarios. Vea un mensaje de éxito si los detalles de la conexión son correctos. De lo contrario, podría ver un mensaje de error.
 
 
 
-1. Seleccionar **Guardar** en la parte superior para guardar el conector.     Ver el **Guardar** botón habilitado después de completar todos los detalles y de que la conexión se haya realizado correctamente.
+1. Seleccione **Guardar** en la parte superior para guardar el conector.     Vea el botón **Guardar** habilitado después de completar todos los detalles y de que la conexión se haya realizado correctamente.
 
 
    Si el conector se ha guardado correctamente, puede ver el origen de datos conectado en la página.
 
-**Conexión a varios recursos**
+**Conectarse a varios recursos**
 
 Puede agregar o utilizar varios recursos basados en distintas direcciones URL para algunos conectores, como Cliente REST genérico, Salsify, Akeneo y Tableros de DevOps de Microsoft Azure (ADO). A continuación, conéctese con ellos para crear fragmentos de contenido o temas utilizando los generadores correspondientes.
 
 Siga estos pasos para crear un recurso:
 
-1. Seleccionar ![añadir icono](assets/Add_icon.svg) en el **sección de recurso de URL** para añadir un recurso para cada URL.
-1. Configure todos los detalles en la variable **Añadir recurso** Cuadro de diálogo.
-1. Clic **Añadir**.
-1. Puede editar ![icono de edición](assets/edit_pencil_icon.svg) o eliminar ![eliminar](assets/Delete_icon.svg) el recurso de la lista de recursos de URL.
+1. Seleccione ![agregar icono](assets/Add_icon.svg) en la **sección de recursos de URL** para agregar un recurso para cada URL.
+1. Configure todos los detalles en el cuadro de diálogo **Agregar recurso**.
+1. Haga clic en **Agregar**.
+1. Puede editar ![editar icono](assets/edit_pencil_icon.svg) o eliminar ![eliminar](assets/Delete_icon.svg) el recurso de la lista de recursos de la URL.
 
 1. También puede utilizar los recursos predeterminados disponibles para fuentes de datos como Salsify, Akeneo y Microsoft ADO. Cambie las opciones OFF para el recurso que no desee configurar para un origen de datos.
 
@@ -87,9 +87,9 @@ Esto le permite recuperar rápidamente datos de cualquiera de los recursos de un
 
 ## Instalación de un conector de código abierto{#install-open-source-connector}
 
-Para publicar una dependencia presente en [Repositorio de Maven Central](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) Para acceder a los Cloud Service, debe incluir e incrustar la dependencia de un conector de código abierto.
+Para publicar una dependencia presente en el [repositorio de Maven Central](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) para los Cloud Service, debe incluir e incrustar la dependencia para un conector de código abierto.
 
-1. Añadir la dependencia en `all/pom.xml`  en el código de su proyecto Git de Cloud Manager. Por ejemplo, puede agregar la siguiente dependencia para el conector de fuente de datos de los paneles de DevOps de Microsoft Azure.
+1. Agregue la dependencia en `all/pom.xml` en su código de proyecto Git de Cloud Manager. Por ejemplo, puede agregar la siguiente dependencia para el conector de fuente de datos de los paneles de DevOps de Microsoft Azure.
 
 
    ```
@@ -104,11 +104,11 @@ Para publicar una dependencia presente en [Repositorio de Maven Central](https:/
 1. Incruste la dependencia añadida.
 
        &quot;
-       &lt;embedded>
-       &lt;groupid>com.adobe.aem.addon.guides&lt;/groupid>
-       &lt;artifactid>konnect-azure-devops&lt;/artifactid>
-       &lt;type>jarra&lt;/type>
-       &lt;target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install&lt;/target>
+       &lt;incrustado>
+       &lt;groupId>com.adobe.aem.addon.guides&lt;/groupId>
+       &lt;artifactId>konnect-azure-devops&lt;/artifactId>
+       &lt;type>jar&lt;/type>
+       &lt;target>/apps/aemdoxonaemcsstageprogram-seller-packages/content/install&lt;/target>
        &lt;/embedded>
        &quot;
    
@@ -118,23 +118,23 @@ El conector está instalado en su entorno.
 
 ## Funciones disponibles para un conector
 
-* Alternar entre **Vista de lista** o **Vista en mosaico**  para ver las distintas fuentes de datos conectadas como una lista o como mosaicos.
-* Seleccione la casilla de verificación de un solo conector. Clic **Seleccionar todo** para seleccionar todos los conectores. Puede hacer clic en **Deseleccionar todo** cuando se seleccionan todos los conectores.
+* Alterne entre la **vista de lista** o la **vista de mosaico** para ver los distintos orígenes de datos conectados como una lista o como mosaicos.
+* Seleccione la casilla de verificación de un solo conector. Haga clic en **Seleccionar todo** para seleccionar todos los conectores. Puede hacer clic en **Anular la selección de todos** cuando todos los conectores estén seleccionados.
 
 <img src="./assets/data-sources-features.png" alt= "características de las fuentes de datos en la página fuentes de datos" width="800">
 
 *Editar, volver a conectar, duplicar o eliminar un conector de origen de datos.*
 
-Puede utilizar las siguientes funciones para el conector en la **Fuentes de datos** página:
+Puede utilizar las siguientes características para el conector en la página **Fuentes de datos**:
 
 * **Editar**: edite los detalles de configuración del conector seleccionado.
 
 * **Volver a conectar**: vuelva a conectar a un conector desconectado.
 
-* **Duplicar**: cree un nuevo conector duplicado utilizando el conector actual como base. El conector duplicado se crea con un sufijo (como connectorname_1) de forma predeterminada. Por ejemplo, sample-elastic-search_1.
+* **Duplicate**: cree un nuevo conector duplicado usando el conector actual como base. El conector duplicado se crea con un sufijo (como connectorname_1) de forma predeterminada. Por ejemplo, sample-elastic-search_1.
 Se visualiza un error si existe el conector con el mismo nombre.
 
 * **Eliminar**: elimine el conector seleccionado.
 
 
-Una vez configurada la fuente de datos, el conector se enumera en la sección **Panel Fuentes de datos** en el Editor web. A continuación, puede conectarse al origen de datos e insertar un fragmento de contenido en los temas. Para obtener más información, consulte [Inserción de un fragmento de contenido desde la fuente de datos](../user-guide/web-editor-content-snippet.md).
+Una vez que haya configurado el origen de datos, el conector aparecerá en la lista del **panel Fuentes de datos** del Editor web. A continuación, puede conectarse al origen de datos e insertar un fragmento de contenido en los temas. Para obtener más información, vea [Insertar un fragmento de contenido de su fuente de datos](../user-guide/web-editor-content-snippet.md).

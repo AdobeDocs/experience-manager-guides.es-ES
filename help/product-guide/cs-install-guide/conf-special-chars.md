@@ -18,13 +18,13 @@ El editor web permite insertar algunos caracteres especiales de forma predetermi
 
 Siga estos pasos para sobrescribir la lista predeterminada de caracteres especiales:
 
-1. Crear `symbols.json` en la siguiente ubicación del repositorio de Git de Cloud Manager:
+1. Cree el archivo `symbols.json` en la siguiente ubicación del repositorio Git de Cloud Manager:
 
    ```
    /apps/fmdita/xmleditor/
    ```
 
-1. Añada la definición de carácter especial en la variable `symbols.json` archivo como:
+1. Agregar la definición de carácter especial en el archivo `symbols.json` como:
 
    ```
    {"symbols": [{"label": "Arrows",
@@ -37,11 +37,11 @@ Siga estos pasos para sobrescribir la lista predeterminada de caracteres especia
    ```
 
 
-La estructura del `symbols.json` se explica a continuación:
+La estructura del archivo `symbols.json` se explica a continuación:
 
-- `"label": "Arrows"`: Esto especifica la categoría de los caracteres especiales. En el fragmento, seleccione una categoría con el nombre `"Arrows"` está definida.
+- `"label": "Arrows"`: esto especifica la categoría de los caracteres especiales. En el fragmento, se define una categoría con el nombre `"Arrows"`.
 - `"items"`: define la colección de caracteres especiales de la categoría.
-- `"name": "←", "title": "Left Arrow"`: Esta es la definición del carácter especial. Comienza con el `"name"` etiqueta, que no debe cambiarse. El nombre va seguido del carácter especial. El `"title"` es el nombre o título del carácter especial que aparece como información de objeto para ese carácter especial.
+- `"name": "←", "title": "Left Arrow"`: esta es la definición del carácter especial. Comienza con la etiqueta `"name"`, que no se debe cambiar. El nombre va seguido del carácter especial. `"title"` es el nombre o título del carácter especial que aparece como información de objeto para ese carácter especial.
 
   Puede definir varias definiciones de caracteres especiales dentro de una categoría.
 

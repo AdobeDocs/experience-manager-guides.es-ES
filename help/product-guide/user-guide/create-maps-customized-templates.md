@@ -1,6 +1,6 @@
 ---
 title: Creación de mapas basados en plantillas personalizadas
-description: AEM Aprenda a crear una plantilla de personalizaciones, utilizarla para crear nuevos archivos de asignación y pasar el título definido a un mapa DITA en las guías de la.
+description: Aprenda a crear una plantilla de personalizaciones, utilizarla para crear nuevos archivos de asignación y pasar el título definido a un mapa DITA en AEM Guides.
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
@@ -23,7 +23,7 @@ Puede hacer referencia a otras plantillas de mapas y plantillas de temas desde l
 
 ## Creación de plantillas personalizadas
 
-AEM Guías de le permite crear mapas y temas personalizados a partir de la carpeta dita-templates. Puede utilizar estas plantillas personalizadas para crear el mapa y el tema. También puede compartir estas plantillas con los autores para que puedan utilizarlas en la creación de sus archivos. Con estas plantillas, puede permitir a los autores mantener copias independientes de ciertos recursos que están dentro de la carpeta de plantillas.
+AEM Guides permite crear temas y mapas personalizados a partir de la carpeta dita-templates. Puede utilizar estas plantillas personalizadas para crear el mapa y el tema. También puede compartir estas plantillas con los autores para que puedan utilizarlas en la creación de sus archivos. Con estas plantillas, puede permitir a los autores mantener copias independientes de ciertos recursos que están dentro de la carpeta de plantillas.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ AEM Guías de le permite crear mapas y temas personalizados a partir de la carpe
 
 
 Puede crear plantillas de temas y asignaciones de las siguientes maneras:
-1. Panel Plantillas del [Panel izquierdo](./web-editor-features.md#left-panel-id2051ea0m0hs)
+1. Panel de plantillas del [panel izquierdo](./web-editor-features.md#left-panel-id2051ea0m0hs)
 1. [Plantillas en la IU de Assets](#templates-assets-ui)
 1. [Menú Opciones](#templates-in-assets-ui)
 
@@ -41,14 +41,14 @@ Puede crear plantillas de temas y asignaciones de las siguientes maneras:
 
 Siga estos pasos para crear una plantilla de tema:
 
-1. En el **IU de Assets**, vaya a la carpeta dita-templates.
+1. En la **interfaz de usuario de Assets**, vaya a la carpeta dita-templates.
 
    ![](images/dita-templates.png){width="800" align="left"}
 
-1. Clic **temas** carpeta para abrirla.Haga clic en **Crear \> plantilla DITA**.
-1. En la página Modelo, seleccione **Tema** y luego haga clic en **Siguiente.**
+1. Haga clic en la carpeta **topics** para abrirla. Haga clic en **Crear \> plantilla DITA**.
+1. En la página Modelo, seleccione **Tema** y haga clic en **Siguiente.**
 1. En la página Propiedades, especifique la plantilla de tema **Título**.
-1. Especifique el archivo **Nombre**
+1. Especifique el archivo **Name**
 
    >[!NOTE]
    >
@@ -61,15 +61,15 @@ Siga estos pasos para crear una plantilla de tema:
 
 Realice los siguientes pasos para crear una plantilla de asignación:
 
-1. En el **IU de Assets**, vaya a la carpeta dita-templates.
-1. Clic **mapas** para abrirla.
-1. Clic **Crear \> plantilla DITA.**
+1. En la **interfaz de usuario de Assets**, vaya a la carpeta dita-templates.
+1. Haga clic en la carpeta **maps** para abrirla.
+1. Haga clic en **Crear \> plantilla DITA.**
 
    ![](images/create-dita-template.png){width="300" align="left"}
 
 1. En la página Modelo, seleccione **Mapa** y haga clic en **Siguiente**.
 1. En la página Propiedades, especifique la plantilla de asignación **Título**.
-1. Especifique el archivo **Nombre**.
+1. Especifique el archivo **Name**.
 
    >[!NOTE]
    >
@@ -81,12 +81,12 @@ Realice los siguientes pasos para crear una plantilla de asignación:
 
 Para crear un mapa o una plantilla de tema, realice los siguientes pasos:
 
-1. Seleccione el **Mapa** o **Tema** en la carpeta de plantillas actual. Por ejemplo, la carpeta `dita-templates`.
-1. Desde el **Opciones** menú, seleccione **Crear plantilla de mapa** o **Crear plantilla de tema**.
+1. Seleccione la carpeta **Map** o **Topic** en la carpeta de plantillas actual. Por ejemplo, la carpeta `dita-templates`.
+1. En el menú **Opciones**, seleccione **Crear plantilla de mapa** o **Crear plantilla de tema**.
 
-   El **Crear nueva plantilla de mapa** o el **Crear nueva plantilla de tema** se abre.
+   Se abre el cuadro de diálogo **Crear nueva plantilla de mapa** o **Crear nueva plantilla de tema**.
 1. Introduzca el título y el nombre de la nueva plantilla.
-1. Elija el tipo de plantilla que desea crear en la **Plantilla** lista desplegable.
+1. Elija el tipo de plantilla que desea crear en la lista desplegable **Plantilla**.
 
 Aparecerá el mensaje creado para la plantilla de mapa. Puede agregar la plantilla a su perfil global o de nivel de carpeta. A continuación, la nueva plantilla aparece en el tema o en el proceso de creación de mapas, y se pueden crear mapas o temas mediante ella.
 
@@ -97,13 +97,13 @@ En función de la configuración, aprenda a configurar la ruta de carpeta de la 
 <details>
     <summary> Cloud Services </summary>
 
-Obtenga información sobre cómo [configurar ruta de carpeta de plantilla DITA personalizada](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) en la Guía de instalación y configuración de Cloud Service.
+Aprenda a [configurar la ruta de la carpeta de plantillas DITA personalizada](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) en la Guía de instalación y configuración de Cloud Service.
 </details>
 
 <details>
     <summary> Software On-Premise</summary>
 
-Obtenga información sobre cómo [configurar ruta de carpeta de plantilla DITA personalizada](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) en la Guía de instalación y configuración in situ.
+Aprenda a [configurar la ruta de la carpeta de la plantilla DITA personalizada](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) en la Guía de instalación y configuración On-Premise.
 </details>
 
 ## Pasar el título definido en las plantillas
@@ -157,15 +157,15 @@ Ejemplos
 
 >[!NOTE]
 >
-> El administrador debe configurar y poner a disposición de la creación la plantilla de mapa. Para obtener más información, consulte *Configuración de plantillas de creación* de la sección Instalar y configurar las guías de Adobe Experience Manager as a Cloud Service.
+> El administrador debe configurar y poner a disposición de la creación la plantilla de mapa. Para obtener más información, consulte la sección *Configuración de plantillas de creación* en el as a Cloud Service Instalar y configurar Adobe Experience Manager Guides.
 
 Realice los siguientes pasos para crear un mapa con la plantilla de mapa personalizada:
 
-1. En el **IU de Assets,** vaya a la carpeta en la que desea crear el mapa.
-1. Clic **Crear \> mapa DITA**.
-1. En la página Modelo, seleccione la plantilla de mapa que desee utilizar y haga clic en **Siguiente**. Por ejemplo, si ha creado una plantilla de mapa &quot;plantilla de prueba&quot;, selecciónela.
-1. En la página Propiedades, especifique el mapa **Título**.
-1. Especifique el archivo **Nombre**.
+1. En la **interfaz de usuario de Assets,** vaya a la carpeta donde desea crear el mapa.
+1. Haga clic en **Crear \> mapa DITA**.
+1. En la página Modelo, seleccione la plantilla de asignación que desee usar y haga clic en **Siguiente**. Por ejemplo, si ha creado una plantilla de mapa &quot;plantilla de prueba&quot;, selecciónela.
+1. En la página Propiedades, especifique el mapa **Title**.
+1. Especifique el archivo **Name**.
 
    >[!NOTE]
    >
@@ -176,9 +176,9 @@ Realice los siguientes pasos para crear un mapa con la plantilla de mapa persona
 
 El mapa genera todos los recursos a los que se hace referencia dentro de la carpeta de plantillas. Algunos tipos de recursos a los que se hace referencia en un mapa pueden ser los siguientes:
 
-- Si el mapa contiene la referencia a una plantilla de tema, se crea una copia de ella dentro de la carpeta, en la misma jerarquía que en la carpeta de temas de `dita-templates` carpeta.
-- Si el mapa contiene la referencia a una plantilla de mapa, se crea una copia de ella dentro de la carpeta, en la misma jerarquía que en la carpeta de mapas de `dita-templates` carpeta.
-- Si el mapa contiene la referencia genérica a un tema o mapa fuera de `dita-templates/topics` o `dita-templates/maps` carpeta, solo se hace referencia a la misma y no se crea ninguna copia.
+- Si el mapa contiene la referencia a una plantilla de tema, se crea una copia de ella dentro de la carpeta, en la misma jerarquía que en la carpeta de temas de la carpeta `dita-templates`.
+- Si el mapa contiene la referencia a una plantilla de mapa, se crea una copia de ella dentro de la carpeta, en la misma jerarquía que en la carpeta de mapas de la carpeta `dita-templates`.
+- Si la asignación contiene la referencia genérica a un tema o asignación fuera de la carpeta `dita-templates/topics` o `dita-templates/maps`, solo se hace referencia a la misma y no se crea ninguna copia.
 
   >[!NOTE]
   >
@@ -189,4 +189,4 @@ El mapa genera todos los recursos a los que se hace referencia dentro de la carp
 
 - Si se crea otro mapa o tema en el mismo nivel de la carpeta, los nombres de los recursos recién creados se anexan con 0,1,2, etc. Puede elegir abrir la asignación para editarla o guardar el archivo de asignación en el repositorio.
 
-**Tema principal:**[ Trabajo con el editor de mapas](map-editor.md)
+**Tema principal:**[ Trabajar con el editor de mapas](map-editor.md)

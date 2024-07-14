@@ -16,7 +16,7 @@ ht-degree: 0%
 
 En una empresa, diferentes grupos o productos pueden utilizar diferentes plantillas de creación, plantillas de salida, perfiles de atributos condicionales \(o esquemas de asunto\) y configuraciones del Editor web. La configuración de estos solo a nivel empresarial \(o global\) puede dificultar la experiencia de los autores, ya que verán plantillas o perfiles que no son relevantes para ellos.
 
-AEM Las guías de permiten configurar la creación de plantillas \(tema o mapa\), plantillas de salida, atributos condicionales y configuraciones del Editor Web en un nivel \(global\) empresarial, así como en un nivel de carpeta. De este modo, puede separar las configuraciones para diferentes departamentos o productos de la empresa.
+AEM Guides permite configurar la creación de plantillas \(topic o map\), plantillas de salida, atributos condicionales y configuraciones del editor web en el nivel \(global\) empresarial, así como en el nivel de carpeta. De este modo, puede separar las configuraciones para diferentes departamentos o productos de la empresa.
 
 Además, puede delegar las configuraciones específicas de la carpeta a un departamento o a administradores de productos para descentralizar la administración.
 
@@ -24,11 +24,11 @@ Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede est
 
 ![](assets/folder-profile-tabs.png){width="800" align="left"}
 
-- **General**: la pestaña general solo está disponible cuando establece la configuración del nivel de carpeta \(o proyecto/producto\). Puede configurar opciones, como las rutas de carpeta en las que se aplicará la configuración y los usuarios que tengan derechos administrativos para crear o actualizar configuraciones.
+- **General**: La ficha General sólo está disponible cuando está configurando la configuración de nivel de carpeta \(o proyecto/producto\). Puede configurar opciones, como las rutas de carpeta en las que se aplicará la configuración y los usuarios que tengan derechos administrativos para crear o actualizar configuraciones.
 
-- **Atributos condicionales**: utilice esta pestaña para configurar atributos condicionales en el nivel global o de carpeta. Un atributo condicional es una combinación del nombre y valor del atributo, y también puede definir una etiqueta para él. Puede utilizar los atributos DITA estándar o sus propios atributos personalizados. Los atributos condicionales que defina a nivel global estarán disponibles para todos los usuarios de los proyectos. Si ha definido atributos condicionales de nivel de carpeta, estos se combinan con los atributos condicionales definidos globalmente.
+- **Atributos condicionales**: utilice esta ficha para configurar atributos condicionales a nivel global o de carpeta. Un atributo condicional es una combinación del nombre y valor del atributo, y también puede definir una etiqueta para él. Puede utilizar los atributos DITA estándar o sus propios atributos personalizados. Los atributos condicionales que defina a nivel global estarán disponibles para todos los usuarios de los proyectos. Si ha definido atributos condicionales de nivel de carpeta, estos se combinan con los atributos condicionales definidos globalmente.
 
-- **Plantilla de creación**: utilice esta pestaña para configurar las plantillas que los autores utilizarán para crear contenido DITA. Las siguientes plantillas de temas están disponibles de forma predeterminada:
+- **Plantilla de creación**: utilice esta ficha para configurar las plantillas que los autores utilizarán para crear contenido DITA. Las siguientes plantillas de temas están disponibles de forma predeterminada:
 
    - Glosario
 
@@ -40,7 +40,7 @@ Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede est
 
    - Tarea
 
-   - Solución de problemas
+   - Resolución de problemas
 
    - En blanco
 
@@ -56,7 +56,7 @@ Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede est
 
    - Bookmap
 
-- **Ajuste preestablecido de salida**: De forma similar a las plantillas de creación, hay cinco ajustes preestablecidos de salida preconfigurados:
+- **Ajuste preestablecido de salida**: de forma similar a las plantillas de creación, hay cinco ajustes preconfigurados de salida:
 
    - AEM Sitio web de
 
@@ -68,9 +68,9 @@ Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede est
 
    - Personalizado
 
-  Los editores pueden utilizar estos ajustes preestablecidos de salida predeterminados para publicar contenido. Un administrador del perfil global o de nivel de carpeta puede configurar estos ajustes preestablecidos. Una vez configurados, los editores pueden acceder a los ajustes preestablecidos de publicación para las asignaciones DITA recién creadas. También puede aplicar ajustes preestablecidos de publicación a mapas DITA existentes. Consulte [Aplicar cambios preestablecidos](#id18AGD0K0OHS) para obtener más información.
+  Los editores pueden utilizar estos ajustes preestablecidos de salida predeterminados para publicar contenido. Un administrador del perfil global o de nivel de carpeta puede configurar estos ajustes preestablecidos. Una vez configurados, los editores pueden acceder a los ajustes preestablecidos de publicación para las asignaciones DITA recién creadas. También puede aplicar ajustes preestablecidos de publicación a mapas DITA existentes. Consulte [Aplicar cambios de ajustes preestablecidos](#id18AGD0K0OHS) para obtener más información.
 
-- **Configuraciones del editor XML**: utilice esta pestaña para personalizar el aspecto y las distintas funciones del editor web. Las siguientes opciones configurables están disponibles para el editor web:
+- **Configuraciones del editor XML**: utilice esta ficha para personalizar el aspecto y las diversas características del editor Web. Las siguientes opciones configurables están disponibles para el editor web:
 
    - Configuración de IU del Editor XML
    - Diseño de plantilla CSS
@@ -92,21 +92,21 @@ Siga estos pasos para configurar el perfil global:
 
 1. Haga clic en el vínculo Adobe Experience Manager en la parte superior y elija **Herramientas**.
 
-1. Seleccionar **Guías** en la lista de herramientas y haga clic en **Perfiles de carpeta**.
+1. Seleccione **Guías** de la lista de herramientas y haga clic en **Perfiles de carpeta**.
 
    Por primera vez, la página Perfiles de carpeta se muestra únicamente con el mosaico Perfil global.
 
    ![](assets/folder-profile-global.png){width="800" align="left"}
 
-1. Haga clic en **Perfil global** mosaico.
+1. Haga clic en el mosaico **Perfil global**.
 
 1. Para configurar **Atributos condicionales**, consulte [Configurar atributos condicionales para perfiles globales o de nivel de carpeta](#id1889D0I305Z).
 
-1. Para configurar **Plantilla de creación**, consulte [Configuración de plantillas de creación](#id1889D0IL0Y4).
+1. Para configurar **la plantilla de creación**, consulte [Configurar las plantillas de creación](#id1889D0IL0Y4).
 
-1. Para configurar **Valores de salida**, consulte [Configurar ajustes preestablecidos de salida](#id18AGD0IH0Y4).
+1. Para configurar **ajustes preestablecidos de salida**, consulte [Configurar ajustes preestablecidos de salida](#id18AGD0IH0Y4).
 
-1. Para configurar el Editor XML, consulte [Configurar y personalizar el Editor Web XML](#id2065G300O5Z).
+1. Para configurar el Editor XML, vea [Configurar y personalizar el Editor Web XML](#id2065G300O5Z).
 
 1. Después de realizar todas las actualizaciones necesarias, guarde y cierre el **Perfil global**.
 
@@ -119,7 +119,7 @@ Siga estos pasos para configurar un perfil de nivel de carpeta:
 
 1. Haga clic en el vínculo Adobe Experience Manager en la parte superior y elija **Herramientas**.
 
-1. Seleccionar **Guías** en la lista de herramientas y haga clic en **Perfiles de carpeta** mosaico.
+1. Seleccione **Guías** de la lista de herramientas y haga clic en el mosaico **Perfiles de carpeta**.
 
    Por primera vez, la página Perfiles de carpeta se muestra únicamente con el mosaico Perfil global predeterminado.
 
@@ -127,7 +127,7 @@ Siga estos pasos para configurar un perfil de nivel de carpeta:
 
    ![](assets/create-folder-profile.png){width="300" align="left"}
 
-1. Introduzca los siguientes detalles en la **Crear perfil de carpeta** diálogo:
+1. Escriba los siguientes detalles en el diálogo **Crear perfil de carpeta**:
    - Nombre del perfil de carpeta.
    - Ruta de la carpeta donde se aplicará el perfil.
 
@@ -143,7 +143,7 @@ Siga estos pasos para configurar un perfil de nivel de carpeta:
 
    Se muestra una pestaña General con el nombre del perfil de carpeta y la información de carpeta configurada.
 
-1. Clic **Editar** para agregar varias carpetas y usuarios que tengan acceso administrativo para modificar el perfil de carpeta.
+1. Haga clic en **Editar** para agregar varias carpetas y usuarios que tendrán acceso administrativo para modificar el perfil de la carpeta.
 
    >[!NOTE]
    >
@@ -155,13 +155,13 @@ Siga estos pasos para configurar un perfil de nivel de carpeta:
    >
    > Asegúrese de que la carpeta que elija aquí no tenga asociado ningún otro perfil de nivel de carpeta.
 
-1. Para agregar un usuario, seleccione un usuario del **Usuarios administradores** y haga clic en **Añadir**.
+1. Para agregar un usuario, selecciónelo en la lista desplegable **Usuarios administradores** y haga clic en **Agregar**.
 
    >[!NOTE]
    >
    > Puede agregar varios usuarios al perfil de carpeta desde la lista desplegable. También puede quitar un usuario administrador existente de la lista haciendo clic en el icono Eliminar situado junto al ID de usuario.
 
-1. Después de agregar todas las carpetas y usuarios necesarios al perfil de carpeta, haga clic en **Guardar**.
+1. Después de agregar todas las carpetas y usuarios necesarios al perfil de carpeta, haz clic en **Guardar**.
 
 
 Ahora está listo para configurar los atributos condicionales, las plantillas de creación, los ajustes preestablecidos de salida y el Editor XML.
@@ -178,7 +178,7 @@ Realice los siguientes pasos para configurar atributos condicionales estándar c
 
 1. Haga clic en el vínculo Adobe Experience Manager en la parte superior y elija **Herramientas**.
 
-1. Seleccionar **Guías** en la lista de herramientas y haga clic en **Perfiles de carpeta** mosaico.
+1. Seleccione **Guías** de la lista de herramientas y haga clic en el mosaico **Perfiles de carpeta**.
 
 1. Haga clic en el mosaico de perfil que desee configurar.
 
@@ -186,23 +186,23 @@ Realice los siguientes pasos para configurar atributos condicionales estándar c
    >
    > Puede elegir configurar atributos condicionales en el perfil global o en un perfil de nivel de carpeta.
 
-1. En la página de perfil, haga clic en **Atributos condicionales** pestaña.
+1. En la página de perfil, haga clic en la ficha **Atributos condicionales**.
 
-1. Clic **Editar**.
+1. Haga clic en **Editar**.
 
-1. Clic **Añadir**.
+1. Haga clic en **Agregar**.
 
-1. Introduzca el **Nombre**, **Valor**, y a **Etiqueta** para el atributo condicional.
+1. Escriba **Name**, **Value** y **Label** para el atributo condicional.
 
    Puede guardar un perfil con solo el nombre del atributo. Sin embargo, un atributo solo se puede utilizar cuando tiene un valor especificado. Si se especifican tanto el valor - como la etiqueta para un atributo, el editor web muestra la etiqueta del atributo condicional. Además, la etiqueta se muestra al administrador de publicación en el momento de crear un ajuste preestablecido condicional.
 
-   La siguiente captura de pantalla muestra la definición de `platform` con posibles valores y etiquetas.
+   La siguiente captura de pantalla muestra la definición del atributo `platform` con posibles valores y etiquetas.
 
    ![](assets/add_profile.png){width="650" align="left"}
 
-1. Si desea agregar más valores para el mismo atributo, haga clic en **+** e introduzca el valor y la etiqueta adicionales.
+1. Si desea agregar más valores para el mismo atributo, haga clic en el icono **+** e introduzca el valor y la etiqueta adicionales.
 
-1. Si desea añadir más atributos, haga clic en **Añadir**.
+1. Si desea agregar más atributos, haga clic en **Agregar**.
 
 1. Haga clic en **Guardar**.
 
@@ -217,11 +217,11 @@ Si utiliza un atributo personalizado, debe ser un atributo DITA válido admitido
 
    >[!IMPORTANT]
    >
-   > El archivo DTD especializado debe formar parte de la implementación de código personalizado. Las DTD en /etc forman parte de la implementación del producto y, por lo tanto, se sobrescriben con la instalación de cualquier nueva versión. Se recomienda añadir DTD especializado en /apps dentro de la carpeta del proyecto e incluir la ruta DTD/catálogo en el perfil DITA.Para obtener más información, consulte [Integración de la especialización DITA](dita-ot-specialization.md#id211MB0E00XA).
+   > El archivo DTD especializado debe formar parte de la implementación de código personalizado. Las DTD en /etc forman parte de la implementación del producto y, por lo tanto, se sobrescriben con la instalación de cualquier nueva versión. Se recomienda añadir DTD especializada en /apps dentro de la carpeta del proyecto e incluir la ruta DTD/catálogo en el perfil DITA. Para obtener más información, consulte [Integrar la especialización DITA](dita-ot-specialization.md#id211MB0E00XA).
 
 1. Abra la página Configuración de la consola web de Adobe Experience Manager.
 
-1. Busque y haga clic en *com.adobe.fmdita.config.ConfigManager* paquete.
+1. Busque y haga clic en el paquete *com.adobe.fmdita.config.ConfigManager*.
 
 1. Guarde la configuración.
 
@@ -231,9 +231,9 @@ Si utiliza un atributo personalizado, debe ser un atributo DITA válido admitido
 
    /libs/fmdita/config/condAttrList.xml
 
-1. Cree un nodo de superposición de `config` carpeta dentro de `apps` nodo.
+1. Cree un nodo de superposición de la carpeta `config` dentro del nodo `apps`.
 
-1. Vaya a y agregue los atributos personalizados al archivo condAttrList.xml en `apps` nodo:
+1. Vaya a y agregue los atributos personalizados al archivo condAttrList.xml en el nodo `apps`:
 
    `/apps/fmdita/config/condAttrList.xml`
 
@@ -244,9 +244,9 @@ Si utiliza un atributo personalizado, debe ser un atributo DITA válido admitido
 
 ## Configuración de plantillas de creación {#id1889D0IL0Y4}
 
-AEM Las guías de la aplicación incluyen 7 plantillas de creación listas para usar y 2 plantillas de mapa DITA. Puede elegir que solo haya unas pocas plantillas disponibles para los autores. En caso de que utilice una plantilla personalizada, la misma se puede configurar y poner a disposición para la creación. La pestaña Plantilla de creación se utiliza en la configuración de Perfiles de carpeta para añadir o quitar plantillas de tema o asignación de perfiles globales o de nivel de carpeta.
+AEM Guides incluye 7 plantillas de creación predeterminadas y 2 plantillas de mapa DITA. Puede elegir que solo haya unas pocas plantillas disponibles para los autores. En caso de que utilice una plantilla personalizada, la misma se puede configurar y poner a disposición para la creación. La pestaña Plantilla de creación se utiliza en la configuración de Perfiles de carpeta para añadir o quitar plantillas de tema o asignación de perfiles globales o de nivel de carpeta.
 
-Incluso antes de configurar el tema o asignar plantillas a nivel global o de carpeta, también puede definir una ubicación para almacenar las plantillas de creación personalizadas. Para configurar una ubicación personalizada para almacenar las plantillas de creación, consulte [Configurar la ruta de carpeta de la plantilla DITA personalizada](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
+Incluso antes de configurar el tema o asignar plantillas a nivel global o de carpeta, también puede definir una ubicación para almacenar las plantillas de creación personalizadas. Para configurar una ubicación personalizada para almacenar plantillas de creación, consulte [Configurar ruta de carpeta de plantillas DITA personalizada](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
 
 Realice los siguientes pasos para agregar el tema o asignar plantillas a un perfil de carpeta:
 
@@ -254,7 +254,7 @@ Realice los siguientes pasos para agregar el tema o asignar plantillas a un perf
 
 1. Haga clic en el vínculo Adobe Experience Manager en la parte superior y elija **Herramientas**.
 
-1. Seleccionar **Guías** en la lista de herramientas y haga clic en **Perfiles de carpeta** mosaico.
+1. Seleccione **Guías** de la lista de herramientas y haga clic en el mosaico **Perfiles de carpeta**.
 
 1. Haga clic en el mosaico de perfil que desee configurar.
 
@@ -262,14 +262,14 @@ Realice los siguientes pasos para agregar el tema o asignar plantillas a un perf
    >
    > Puede elegir configurar la plantilla de creación en el perfil global o en un perfil de nivel de carpeta.
 
-1. En la página de perfil, haga clic en **Plantilla de creación** pestaña.
-1. Clic **Editar**.
+1. En la página de perfil, haga clic en la ficha **Plantilla de creación**.
+1. Haga clic en **Editar**.
 
    Puede obtener las opciones para añadir plantillas de temas y mapas buscando desde la ubicación predeterminada o buscándolo.
 
    >[!NOTE]
    >
-   > De forma predeterminada, todas las plantillas de creación se almacenan en la carpeta /content/dam/dita-templates. El `dita-templates` La carpeta contiene `topics` y `maps` subcarpetas para almacenar el tema y asignar plantillas. Puede agregar las plantillas personalizadas \(.dita, .xml o .ditamapfiles\) en las carpetas de plantillas predeterminadas. Una vez que añada la plantilla a la carpeta predeterminada, podrá añadirlas en el perfil global o de carpeta. Para obtener más información sobre la creación de plantillas personalizadas mediante el Editor Web, consulte [Crear una plantilla de creación personalizada](#id1917D0EG0HJ).
+   > De forma predeterminada, todas las plantillas de creación se almacenan en la carpeta /content/dam/dita-templates. La carpeta `dita-templates` contiene `topics` y `maps` subcarpetas para almacenar el tema y asignar plantillas. Puede agregar las plantillas personalizadas \(.dita, .xml o .ditamapfiles\) en las carpetas de plantillas predeterminadas. Una vez que añada la plantilla a la carpeta predeterminada, podrá añadirlas en el perfil global o de carpeta. Para obtener más información acerca de cómo crear plantillas personalizadas mediante el Editor Web, vea [Crear una plantilla de creación personalizada](#id1917D0EG0HJ).
 
    ![](assets/search-author-temp.png){width="550" align="left"}
 
@@ -277,13 +277,13 @@ Realice los siguientes pasos para agregar el tema o asignar plantillas a un perf
 
    Para agregar una plantilla, realice una de las siguientes acciones:
 
-   - Elegir **Buscar o escribir** e introduzca o seleccione el nombre de una plantilla en la lista desplegable. La lista desplegable consta de todas las plantillas predeterminadas y cualquier plantilla nueva que haya creado.
+   - Elija **Buscar o Escriba** y escriba o seleccione el nombre de una plantilla en la lista desplegable. La lista desplegable consta de todas las plantillas predeterminadas y cualquier plantilla nueva que haya creado.
 
      ![](assets/default-template-list.png){width="350" align="left"}
 
-   - Clic **Examinar** y seleccione una plantilla de DAM.
+   - Haga clic en **Examinar** y seleccione una plantilla de DAM.
 
-1. Clic **Añadir**.
+1. Haga clic en **Agregar**.
 
    Las plantillas seleccionadas se añaden a la lista de plantillas.
 
@@ -300,7 +300,7 @@ Si ha configurado las plantillas en un perfil de nivel de carpeta, las plantilla
 
 ## Crear una plantilla de creación personalizada {#id1917D0EG0HJ}
 
-AEM Guías de creación proporciona una forma sencilla de crear plantillas. Como administrador del sistema, puede utilizar el Editor Web para crear plantillas desde cero. A continuación, puede añadir la nueva plantilla al perfil global o asignarla a una carpeta específica mediante el perfil específico de la carpeta.
+AEM Guides es una forma sencilla de crear plantillas. Como administrador del sistema, puede utilizar el Editor Web para crear plantillas desde cero. A continuación, puede añadir la nueva plantilla al perfil global o asignarla a una carpeta específica mediante el perfil específico de la carpeta.
 
 Siga estos pasos para crear una plantilla de creación personalizada:
 
@@ -310,9 +310,9 @@ Siga estos pasos para crear una plantilla de creación personalizada:
 
    >[!NOTE]
    >
-   > Para configurar una ubicación personalizada para almacenar plantillas de temas o mapas, consulte [Configurar la ruta de carpeta de la plantilla DITA personalizada](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)
+   > Para configurar una ubicación personalizada para almacenar plantillas de temas o asignaciones, consulte [Configurar la ruta de la carpeta de plantillas DITA personalizada](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)
 
-1. Clic **Crear** \> **Plantilla DITA**.
+1. Haga clic en **Crear** \> **Plantilla DITA**.
 
 1. En la página Modelo, seleccione el tipo de plantilla de tema DITA que desea crear.
 
@@ -322,13 +322,13 @@ Siga estos pasos para crear una plantilla de creación personalizada:
 
 1. Haga clic en **Siguiente**.
 
-1. En la nueva página Propiedades de plantilla, introduzca un **Título**, **Nombre**, y **Descripción** para la plantilla.
+1. En la nueva página Propiedades de plantilla, escriba un **Título**, **Nombre** y **Descripción** para la plantilla.
 
    >[!NOTE]
    >
    > El nombre se sugiere automáticamente en función del Título de la plantilla. Si desea especificar manualmente el nombre, asegúrese de que el nombre no contenga espacios, apóstrofos ni llaves, y termine con .dita.
 
-1. *\(Opcional\)* Haga clic en **Añadir una miniatura** para buscar y seleccionar una miniatura para asociarla a la plantilla.
+1. *\(Opcional\)* Haga clic en el botón **Agregar una miniatura** al explorador y seleccione una miniatura para asociarla a la plantilla.
 
 1. Haga clic en **Crear**.
 
@@ -341,11 +341,11 @@ Siga estos pasos para crear una plantilla de creación personalizada:
 
 En una configuración empresarial típica, se pueden utilizar diferentes plantillas de salida para diferentes productos o guías del usuario. Además, podría haber algunos procesos comunes de generación de resultados que deberían utilizar todos los editores y un conjunto de procesos específicos de generación de resultados para un grupo específico de editores o proyectos.
 
-AEM Guías de permiten al administrador crear ajustes preestablecidos de salida con ajustes específicos que luego pueden utilizar todos los editores o un conjunto específico de ellos para generar resultados. Por ejemplo, el administrador puede crear un ajuste preestablecido de salida para generar una guía del usuario que sea común en todos los editores. Y, otro para crear los manuales de programación que son específicos para un conjunto de editores. Ambos ajustes preestablecidos se pueden configurar para utilizar diferentes plantillas de salida. En este ejemplo, el ajuste preestablecido de publicación común para generar la guía del usuario se puede configurar a nivel global. Además, el ajuste preestablecido de salida para generar el manual de usuario de programación se puede configurar a nivel de carpeta.
+AEM Guides permite al administrador crear ajustes preestablecidos de salida con configuraciones específicas que luego pueden utilizar todos los editores o un conjunto específico de ellos para generar resultados. Por ejemplo, el administrador puede crear un ajuste preestablecido de salida para generar una guía del usuario que sea común en todos los editores. Y, otro para crear los manuales de programación que son específicos para un conjunto de editores. Ambos ajustes preestablecidos se pueden configurar para utilizar diferentes plantillas de salida. En este ejemplo, el ajuste preestablecido de publicación común para generar la guía del usuario se puede configurar a nivel global. Además, el ajuste preestablecido de salida para generar el manual de usuario de programación se puede configurar a nivel de carpeta.
 
 Una vez creados en el sistema los ajustes preestablecidos de salida por defecto, todos los mapas DITA creados posteriormente utilizarán los ajustes preestablecidos por defecto para generar salida. Sin embargo, todos los mapas DITA existentes seguirían utilizando los ajustes preestablecidos de salida configurados anteriormente con ellos. Si desea aplicar el nuevo ajuste preestablecido de salida en todas las asignaciones DITA existentes, deberá ejecutar el flujo de trabajo Aplicar cambios preestablecidos.
 
-Además de los ajustes preestablecidos configurados en el nivel global o empresarial, un editor seguiría teniendo derechos para crear más ajustes preestablecidos de salida. Sin embargo, estos ajustes preestablecidos están vinculados al mapa DITA para el que se han creado. Para obtener más información sobre la creación de ajustes preestablecidos de salida normales para un mapa DITA, consulte *Crear, editar, duplicar o quitar un ajuste preestablecido de salida* en el *Uso de guías de Adobe Experience Manager*.
+Además de los ajustes preestablecidos configurados en el nivel global o empresarial, un editor seguiría teniendo derechos para crear más ajustes preestablecidos de salida. Sin embargo, estos ajustes preestablecidos están vinculados al mapa DITA para el que se han creado. Para obtener más información sobre cómo crear ajustes preestablecidos de salida normales para un mapa DITA, consulte *Crear, editar, duplicar o quitar un ajuste preestablecido de salida* en *Uso de Adobe Experience Manager Guides*.
 
 Realice los siguientes pasos para configurar los ajustes preestablecidos de salida globales o específicos de carpeta:
 
@@ -353,7 +353,7 @@ Realice los siguientes pasos para configurar los ajustes preestablecidos de sali
 
 1. Haga clic en el vínculo Adobe Experience Manager en la parte superior y elija **Herramientas**.
 
-1. Seleccionar **Guías** en la lista de herramientas y haga clic en **Perfiles de carpeta** mosaico.
+1. Seleccione **Guías** de la lista de herramientas y haga clic en el mosaico **Perfiles de carpeta**.
 
 1. Haga clic en el mosaico de perfil que desee configurar.
 
@@ -361,20 +361,20 @@ Realice los siguientes pasos para configurar los ajustes preestablecidos de sali
    >
    > Puede elegir configurar los ajustes preestablecidos de salida en el perfil global o en un perfil específico de carpeta.
 
-1. En la página de perfil. haga clic en **Valores de salida** pestaña.
+1. En la página de perfil. haga clic en la ficha **Valores de salida**.
 
    AEM Se muestra una lista de ajustes preestablecidos de salida listos para usar, que incluyen Sitio, PDF, HTML 5, EPUB y PERSONALIZADO, entre otros,.
 
 1. Realice una de las siguientes acciones para crear o editar un ajuste preestablecido de salida:
 
-   - Clic **Crear** para crear un nuevo ajuste preestablecido de salida desde cero.
+   - Haga clic en **Crear** para crear un nuevo ajuste preestablecido de salida desde cero.
    - Haga clic en Duplicar para crear una copia del ajuste preestablecido de salida seleccionado. Puede realizar cambios en el ajuste preestablecido duplicado y guardarlo.
 
-   - Clic **Editar** para abrir la configuración del ajuste preestablecido seleccionado y editarlo.
+   - Haga clic en **Editar** para abrir la configuración del ajuste preestablecido seleccionado y editarlo.
 
-     Para obtener información sobre los ajustes preestablecidos de salida, consulte *Explicación de los ajustes preestablecidos de salida* en las Guías de uso de Adobe Experience Manager.
+     Para obtener información acerca de la configuración de los ajustes preestablecidos de salida, consulte *Explicación de los ajustes preestablecidos de salida* en Uso de Adobe Experience Manager Guides.
 
-1. Clic **Guardar** para guardar la configuración preestablecida.
+1. Haga clic en **Guardar** para guardar la configuración del ajuste preestablecido.
 
 
 Todos los mapas DITA creados o cargados posteriormente tendrán el ajuste preestablecido de salida nuevo o actualizado.
@@ -389,7 +389,7 @@ Si ha actualizado un ajuste preestablecido de salida existente o desea que un nu
 
 1. Haga clic en el vínculo Adobe Experience Manager en la parte superior y elija **Herramientas**.
 
-1. Seleccionar **Guías** en la lista de herramientas y haga clic en **Perfiles de carpeta** mosaico.
+1. Seleccione **Guías** de la lista de herramientas y haga clic en el mosaico **Perfiles de carpeta**.
 
 1. Haga clic en el mosaico de perfil que desee configurar.
 
@@ -397,30 +397,30 @@ Si ha actualizado un ajuste preestablecido de salida existente o desea que un nu
    >
    > Puede elegir configurar los ajustes preestablecidos de salida en el perfil global o en un perfil específico de carpeta.
 
-1. En la página de perfil. haga clic en **Valores de salida** pestaña.
+1. En la página de perfil. haga clic en la ficha **Valores de salida**.
 
    AEM Se muestra una lista de ajustes preestablecidos de salida listos para usar, que incluyen Sitio, PDF, HTML 5, EPUB y PERSONALIZADO, entre otros,.
 
 1. Seleccione el ajuste preestablecido de salida que desee aplicar a las asignaciones DITA existentes.
 
-1. Clic **Aplicar cambios preestablecidos** en la barra de herramientas principal.
+1. Haga clic en **Aplicar cambios de ajustes preestablecidos** en la barra de herramientas principal.
 
 1. En el cuadro de diálogo Aplicar cambios preestablecidos, puede elegir entre lo siguiente:
 
-   - **Seleccionar la opción Sobrescribir ajuste preestablecido existente**: si selecciona esta opción, cualquier actualización realizada en los ajustes preestablecidos de salida existentes sobrescribirá la configuración en todos los mapas DITA existentes en los que se utilice dicho ajuste preestablecido. Sin embargo, si lo hace, se perderá cualquier ajuste preestablecido condicional existente y la información de línea de base asociada al mapa.
+   - **Seleccionar la opción Sobrescribir ajuste preestablecido existente**: si selecciona esta opción, cualquier actualización que haya realizado en los ajustes preestablecidos de salida existentes sobrescribirá la configuración en todas las asignaciones DITA existentes en las que se utilice ese ajuste preestablecido. Sin embargo, si lo hace, se perderá cualquier ajuste preestablecido condicional existente y la información de línea de base asociada al mapa.
 
-   - **No se selecciona la opción Sobrescribir ajuste preestablecido existente**: si no selecciona esta opción, las actualizaciones realizadas en los ajustes preestablecidos de salida existentes no afectarán a los mapas DITA existentes. A las asignaciones DITA existentes solo se añaden los ajustes preestablecidos recién añadidos. Tenga en cuenta que el mapa DITA recién creado obtiene los ajustes preestablecidos de salida actualizados y los ajustes preestablecidos recién añadidos.
+   - **No se selecciona la opción Sobrescribir ajuste preestablecido existente**: si no selecciona esta opción, las actualizaciones que haya realizado en los ajustes preestablecidos de salida existentes no afectarán a los mapas DITA existentes. A las asignaciones DITA existentes solo se añaden los ajustes preestablecidos recién añadidos. Tenga en cuenta que el mapa DITA recién creado obtiene los ajustes preestablecidos de salida actualizados y los ajustes preestablecidos recién añadidos.
 
-1. Clic **OK** para aplicar los cambios de los ajustes preestablecidos de salida seleccionados en todas las asignaciones DITA existentes.
+1. Haga clic en **Aceptar** para aplicar los cambios de los ajustes preestablecidos de salida seleccionados en todas las asignaciones DITA existentes.
 
 
 ## Configurar y personalizar el Editor Web XML {#id2065G300O5Z}
 
 De forma predeterminada, el Editor Web XML incluye muchas características que ayudan a los autores a crear documentos DITA. Si trabaja en un entorno restrictivo, puede elegir qué características se exponen a los autores. La ficha Configuración del editor XML permite controlar fácilmente las características y también cambiar el aspecto del editor Web. Como administrador, puede personalizar los siguientes componentes del editor web:
 
-**Configuración de IU del Editor XML**
+**Configuración de la interfaz de usuario del editor XML**
 
-Esta opción controla la barra de herramientas y los demás elementos de interfaz de usuario del Editor Web. Haga clic en **Descargar** icono para descargar el archivo ui\_config.json más reciente en su sistema local. A continuación, puede realizar cambios en el archivo y cargarlo. Haga clic en **Descargar predeterminado** para descargar el archivo ui\_config.json predeterminado en su sistema local. Siempre puede descargar el archivo predeterminado, realizar cambios en él y cargarlo.Dependiendo de dónde esté cargando el archivo, del perfil global o de nivel de carpeta, los cambios se aplican en consecuencia. Para obtener más información sobre cómo personalizar el Editor XML mediante el archivo ui\_config.json, consulte [Personalizar barra de herramientas](conf-web-editor-customize-toolbar.md#).
+Esta opción controla la barra de herramientas y los demás elementos de interfaz de usuario del Editor Web. Haga clic en el icono **Descargar** para descargar el archivo ui\_config.json más reciente en su sistema local. A continuación, puede realizar cambios en el archivo y cargarlo. Haga clic en el icono **Descargar predeterminado** para descargar el archivo ui\_config.json predeterminado en su sistema local. Siempre puede descargar el archivo predeterminado, realizar cambios en él y cargarlo.Dependiendo de dónde esté cargando el archivo, del perfil global o de nivel de carpeta, los cambios se aplican en consecuencia. Para obtener más información acerca de cómo personalizar el Editor XML mediante el archivo ui\_config.json, consulte [Personalizar barra de herramientas](conf-web-editor-customize-toolbar.md#).
 
 **Diseño de plantilla CSS**
 
@@ -432,7 +432,7 @@ Descargue el archivo disponible en esta sección para personalizar el aspecto de
 
 Guarde este archivo y cárguelo en la sección Diseño de plantilla CSS. La próxima vez que descargue el archivo, obtendrá el archivo CSS más reciente que se esté utilizando en el Editor Web.
 
-**Fragmentos del editor XML**
+**Fragmentos de editor XML**
 
 Con el archivo de configuración de esta sección, puede crear algunos fragmentos predeterminados y compartirlos con los autores. A continuación se muestra la estructura predeterminada del archivo:
 
@@ -483,6 +483,6 @@ En el ejemplo anterior, &quot;label1&quot; es el identificador de la secuencia d
 >
 > Para que las configuraciones en el nivel de carpeta surtan efecto, los usuarios deberán seleccionar el perfil en sus Preferencias de usuario en el Editor web.
 
-**Rootmap**
+**Mapa raíz**
 
 Si los autores trabajan con un mapa raíz específico, puede buscar y seleccionar ese mapa raíz aquí. Tenga en cuenta que solo puede definir el mapa de raíz para un perfil de nivel de carpeta.

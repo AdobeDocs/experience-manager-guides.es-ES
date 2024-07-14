@@ -1,6 +1,6 @@
 ---
 title: Compatibilidad con archivos de Schematron
-description: AEM Obtenga información sobre cómo importar y validar un tema de DITA, utilizar instrucciones de informe Assert para comprobar reglas, utilizar expresiones regex y definir patrones abstractos en archivos de Schematron de guías de usuario de.
+description: Obtenga información sobre cómo importar y validar un tema DITA, utilizar instrucciones de informe Assert para comprobar reglas, utilizar expresiones regex y definir patrones abstractos en archivos de Schematron de AEM Guides.
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
@@ -27,9 +27,9 @@ Siga estos pasos para importar los archivos de Schematron:
 ![](images/scematron-panel-add.png){width="300" align="left"}
 
 1. Vaya a la carpeta requerida (donde desea cargar los archivos) en *Vista de repositorio*.
-1. Haga clic en **Opciones** para abrir el menú contextual y elegir. **Cargar recursos**.
-1. En el **Cargar recursos** , puede cambiar la carpeta de destino en el **Seleccionar carpeta de recursos** field.
-1. Clic **Elegir archivos** y examine para seleccionar los archivos de Schematron. Puede seleccionar uno o varios archivos de Schematron y, a continuación, hacer clic en **Cargar**.
+1. Haz clic en el icono **Opciones** para abrir el menú contextual y elige **Cargar Assets**.
+1. En el diálogo **Cargar Assets**, puede cambiar la carpeta de destino en el campo **Seleccionar carpeta de recursos**.
+1. Haga clic en **Elegir archivos** y busque los archivos de Schematron. Puede seleccionar uno o más archivos de Schematron y luego hacer clic en **Cargar**.
 
 ## Validación de un tema o asignación DITA con Schematron
 
@@ -59,7 +59,7 @@ La compatibilidad con Schematron en el Editor Web le ayuda a validar los archivo
 
 ## Usar instrucciones de aserción e informe para comprobar las reglas{#schematron-assert-report}
 
-AEM Las guías de la aplicación también admiten las instrucciones Assert y Report de Schematron. Estas instrucciones le ayudan a validar los temas DITA.
+AEM Guides también admite las instrucciones de aserción e informe de Schematron. Estas instrucciones le ayudan a validar los temas DITA.
 
 ### Instrucción Assert
 
@@ -107,7 +107,7 @@ No one word titles.
 
 ## Definir patrones abstractos{#schematron-abstract-patterns}
 
-AEM Guías de también admite patrones abstractos en Schematron. Puede definir patrones abstractos genéricos y reutilizarlos.  Puede crear parámetros de marcador de posición que especifiquen el patrón real.
+AEM Guides también admite patrones abstractos en Schematron. Puede definir patrones abstractos genéricos y reutilizarlos.  Puede crear parámetros de marcador de posición que especifiquen el patrón real.
 
 
 El uso de patrones abstractos puede simplificar el esquema de Schematron al reducir la duplicación de reglas y facilitar la administración y actualización de la lógica de validación. También puede facilitar la comprensión del esquema, ya que puede definir una lógica de validación compleja en un único patrón abstracto que se puede reutilizar en todo el esquema.

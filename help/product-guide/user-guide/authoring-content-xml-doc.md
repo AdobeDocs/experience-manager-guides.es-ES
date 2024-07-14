@@ -1,6 +1,6 @@
 ---
-title: AEM Creación de contenido mediante guías de
-description: AEM Cree contenido de forma eficaz mediante las guías de. AEM Obtenga información sobre cómo crear, editar y publicar documentos en las guías de la.
+title: Creación de contenido mediante AEM Guides
+description: Cree contenido de forma eficaz mediante AEM Guides. Obtenga información sobre cómo crear, editar y publicar documentos en AEM Guides.
 exl-id: 9e29dde4-a9de-41e0-86c8-ca949bd3669c
 feature: Authoring
 role: User
@@ -11,19 +11,19 @@ ht-degree: 0%
 
 ---
 
-# AEM Creación de contenido mediante guías de {#id221EB0P0E20}
+# Creación de contenido mediante AEM Guides {#id221EB0P0E20}
 
-AEM Guías de viene con los tres editores listos para usar. puede utilizarlos para crear, editar y publicar sus documentos.
+AEM Guides viene con los tres editores predeterminados. puede utilizarlos para crear, editar y publicar sus documentos.
 
-1. **Editor web**: utilícelo para crear y editar documentos estructurados.
-1. **Editor de mapas**: utilícelo para crear y editar ficheros DITA de mapa y de mapa de libros.
-1. **Editor Ditaval**: utilícelo para generar una salida condicional.
+1. **Editor Web**: úselo para crear y editar documentos estructurados.
+1. **Editor de mapas**: utilícelo para crear y editar archivos de mapas DITA y de mapas de libros.
+1. **Editor Ditaval**: utilícelo para generar resultados condicionales.
 
 - **[Trabajar con el editor web](web-editor.md)**
 
-- **[Trabajo con el editor de mapas](map-editor.md)**
+- **[Trabajar con el editor de mapas](map-editor.md)**
 
-- **[editor DITAVAL](ditaval-editor.md)**
+- **[Editor DITAVAL](ditaval-editor.md)**
 
 
-**Tema principal:**[ Contenido del autor](authoring-content.md)
+**Tema principal:**[ Contenido de autor](authoring-content.md)

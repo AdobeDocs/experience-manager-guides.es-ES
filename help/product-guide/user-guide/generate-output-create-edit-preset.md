@@ -1,6 +1,6 @@
 ---
 title: Crear, editar, duplicar o quitar un ajuste preestablecido de salida
-description: AEM Obtenga información sobre cómo crear, editar, duplicar y eliminar un ajuste preestablecido de salida personalizado en Guías de.
+description: Obtenga información sobre cómo crear, editar, duplicar y eliminar un ajuste preestablecido de salida personalizado en AEM Guides.
 exl-id: 0522a49d-4dce-4456-bfdc-7ff9261ae04c
 feature: Publishing
 role: User
@@ -77,4 +77,4 @@ Siga estos pasos para eliminar un ajuste preestablecido de salida existente:
    El ajuste preestablecido se quita de la lista Ajustes preestablecidos de salida.
 
 
-**Tema principal:**[ Generación de salida](generate-output.md)
+**Tema principal:**[ Generación de resultados](generate-output.md)
