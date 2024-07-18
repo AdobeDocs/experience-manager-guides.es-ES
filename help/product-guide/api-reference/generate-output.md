@@ -5,10 +5,10 @@ exl-id: e19439df-39ec-47fd-9da5-24f51750a7e5
 feature: Java-Based API Publishing
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a255007fc9fe169f926e356ec9d2a8f5a2fdbe29
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -49,11 +49,12 @@ throws GuidesApiException
 ```
 
 **Parámetros**:
-|Nombre|Tipo|Descripción|
+
+| Nombre | Tipo | Descripción |
 |----|----|-----------|
-|`session`|javax.jcr.Session|Una sesión JCR válida.|
-AEM |``sourcePath``|Cadena|Ruta de acceso \(en el repositorio de\) del archivo de asignación DITA para el que se debe generar la salida.|
-|``outputName``|Cadena|Nombre del ajuste preestablecido de salida\(s\) que se va a utilizar para generar la salida. Se pueden especificar varios ajustes preestablecidos de salida utilizando un delimitador de barra vertical \(&quot;\|&quot;\), por ejemplo `aemsite\|pdfoutput`.|
+| `session` | javax.jcr.Session | Una sesión JCR válida. |
+| ``sourcePath`` | Cadena | AEM Ruta \(en el repositorio de la\) del archivo de mapa DITA para el que se debe generar la salida. |
+| ``outputName`` | Cadena | Nombre de los ajustes preestablecidos de salida\(s\) que se utilizarán para generar la salida. Se pueden especificar varios ajustes preestablecidos de salida utilizando un delimitador de barra vertical \(&quot;\|&quot;\), por ejemplo `aemsite\|pdfoutput`. |
 
 **Excepción**:
 Lanza ``javax.jcr.RepositoryException``, `java.io.IOException` y `java.lang.Exception`.
