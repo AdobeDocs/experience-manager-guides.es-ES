@@ -5,10 +5,10 @@ feature: Bulk Activation Event Handler
 role: Developer
 level: Experienced
 exl-id: 08b153d7-3d13-4804-9e3e-38790dbea1f3
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 9b8971bf7065a94a2e42669094249c822c555718
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -27,15 +27,16 @@ com/adobe/fmdita/replication/complete
 ```
 
 **Parámetros**:
-|Nombre|Tipo|Descripción|
+
+| Nombre | Tipo | Descripción |
 |----|----|-----------|
-|`path`|Cadena|Ruta del archivo que activó este evento. <br> Por ejemplo, `/content/output/sites/ditamap1-ditamap`. <br> Es una lista de rutas serializadas como una matriz JSON.|
-|`messageType`|Cadena|Tipo de mensaje. <br>Opción posible: `REPLICATION`|
-|`action`|Cadena|Esta es la acción realizada. <br>Opción posible: `BulkReplicate`|
-|`user`|Cadena|El usuario que inició la operación.|
-|`result`|Cadena|Resultado de la activación masiva. Es un objeto JSON serializado: <br>`{"success":boolean,"code":integer,"message":"" }`|
-|`agentId`|Cadena|Id. de agente utilizado en la replicación. Por ejemplo, `"publish"`.|
-|`importMode`|Cadena|Modo de importación utilizado en la activación. Las opciones posibles son: <br>`REPLACE, MERGE, UPDATE`.|
+| `path` | Cadena | Ruta del archivo que activó este evento. <br> Por ejemplo, `/content/output/sites/ditamap1-ditamap`. <br> Es una lista de rutas serializadas como una matriz JSON. |
+| `messageType` | Cadena | El tipo de mensaje. <br>Opción posible: `REPLICATION` |
+| `action` | Cadena | Esta es la acción realizada. <br>Opción posible: `BulkReplicate` |
+| `user` | Cadena | El usuario que inició la operación. |
+| `result` | Cadena | El resultado de la activación masiva. Es un objeto JSON serializado: <br>`{"success":boolean,"code":integer,"message":"" }` |
+| `agentId` | Cadena | AgentId utilizado en la replicación. Por ejemplo, `"publish"`. |
+| `importMode` | Cadena | Modo de importación utilizado en la activación. Las opciones posibles son: <br>`REPLACE, MERGE, UPDATE`. |
 
 
 **Listener de eventos de muestra**:
