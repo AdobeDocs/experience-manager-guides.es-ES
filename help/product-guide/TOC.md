@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: 05a21c8b18d5eb79447423d48e1d65b4d6b44242
+source-git-commit: d16d9915b826a754f834ad82f413e860c2da12d2
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1824'
 ht-degree: 6%
 
 ---
@@ -403,7 +403,7 @@ ht-degree: 6%
    - [API basadas en Java para trabajar con líneas de base y etiquetas](./api-reference/create-baseline-label-java.md)
    - [API basada en Java para trabajar con perfiles de carpeta](./api-reference/folder-profile-java.md)
    - [API basada en Java para crear y activar paquetes](./api-reference/create-activate-package-java.md)
-   - [controlador de eventos de procesamiento de Post](./api-reference/post-process-event.md)
+   - [Controlador de eventos de posprocesamiento](./api-reference/post-process-event.md)
    - [Controlador de eventos de activación masiva completa](./api-reference/bulk-activation-complete-event.md)
    - [Controlador de eventos del proceso de conversión](./api-reference/conversion-complete-event.md)
 - Base de conocimiento {#knowledge-base}
@@ -459,9 +459,12 @@ ht-degree: 6%
             - [Personalización sencilla](./guides-ui-extensions/customisations/add-button.md)
             - [Personalización de menús contextuales](./guides-ui-extensions/customisations/context-menus.md)
             - [Personalizar barra de herramientas y barra superior](./guides-ui-extensions/customisations/toolbar-topbar.md)
+            - [Ejemplos](./guides-ui-extensions/examples.md)
+            - [Json personalizables](./guides-ui-extensions/JSONs.md)
             - Revisar {#review-app-customisations}
                - [Componentes](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Personalización](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
+               - [Cuadro de diálogo personalizado](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - Publicación {#publishing}
 
          - [AEM Configuración del entorno para la publicación nativa de PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
@@ -477,7 +480,7 @@ ht-degree: 6%
          - [Configuración de una DITA-OT personalizada](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
 
       - Flujos de trabajo {#workflows}
-         - [Flujo de trabajo de generación de Post](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+         - [Flujo de trabajo de generación posterior](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - Traducción {#translation}
          - [Excluir párrafos de la traducción](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
       - Casos de uso {#use-cases}

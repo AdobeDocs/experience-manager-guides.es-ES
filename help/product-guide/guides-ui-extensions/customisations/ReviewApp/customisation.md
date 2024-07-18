@@ -3,7 +3,7 @@ title: Personalización
 description: Personalización de la aplicación de revisión
 role: User, Admin
 exl-id: 9f6a4e9f-fc13-40b5-a30f-151c94faff81
-source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
+source-git-commit: 492f72768e0de74a91eb7acc9db8264e21bfc810
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Para facilitar la personalización de la aplicación de revisión, hemos proporc
 ## Revisar-Comentario
 
 - id.: `review_comment`
-- gancho: `this.updateExtraProps`:
+- gancho: `this.next('updateExtraProps')`:
 
 Como se ha mencionado [aquí](../../aem_guides_framework/basic-customisation.md), cualquier atributo nuevo agregado durante la personalización pasa a ser de `this.model.extraProps`. El método `updateExtraProps` le permite agregar atributos a un comentario de revisión, controlando también la actualización y el almacenamiento del atributo agregado en el servidor.
 
@@ -80,8 +80,20 @@ Supongamos que queremos enviar un extraProp, `userInfo`, cada vez que se envíe 
 En el fragmento de código anterior, comprobamos si el evento enviado era un comentario o una respuesta nuevos. En caso de un nuevo comentario o respuesta, se llama al método `setUserInfo`
 
 ```typescript
+    const getUserInfo = (userId) => {
+      return $.ajax({
+        url: '/bin/dxml/xmleditor/userinfo',
+        data: {
+          username: userId,
+        },
+        success: (data) => {
+          return data
+        }
+      })
+    }
+
     setUserInfo(event) {
-      this.loader?.getUserInfo(event.user).subscribe(userData => {
+      getUserInfo(event.user).done(userData => {
         const extraProps = {
           "userFirstName": userData?.givenName || '',
           "userLastName": userData?.familyName || '',
