@@ -5,10 +5,10 @@ exl-id: 6277e52d-1b05-4dd7-8d2b-4b94f329e2d7
 feature: Rest API DITA Map
 role: Developer
 level: Experienced
-source-git-commit: d0196ffbe5a779445d627871c2940f7eea40f1ce
+source-git-commit: 65ad1dcd69e120ff96aabdeb3e31baa9669299a8
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -41,19 +41,21 @@ Método de POST que inicia una exportación para un mapa DITA con todos sus depe
 http:*//&lt;aem-guides-server\>: &lt;port-number\>/bin/dxml/async-export*
 
 **Parámetros**:
-|Nombre|Tipo|Descripción|Requerida|
-----|----|--------|-----------
-AEM |`ditamap`|Cadena|Sí|Ruta absoluta del archivo de mapa DITA en el repositorio de la.|
-|`baseline`|Cadena|No|Título de la línea de base que se usa para recuperar el contenido con versiones. <br> **Nota:** El valor distingue entre mayúsculas y minúsculas.|
-|`flatFS`|Booleano|No|\(Opcional\) Si se establece en true, se devuelve una estructura plana de archivos en el archivo ZIP. Por ejemplo, si el mapa DITA hace referencia a contenido de varias carpetas, todos los ficheros a los que se hace referencia se extraerán en una sola carpeta. En caso de que haya archivos con el mismo nombre, se cambiará el nombre de esos archivos añadiendo un sufijo numérico. Todas las referencias \(en el mapa DITA y en los temas\) se gestionan automáticamente, ya que se actualizan en función de la nueva ubicación de los archivos en la estructura de carpetas plana. Si se establece en false, la estructura de carpetas se mantiene tal como está en el archivo ZIP. Si el mapa DITA hace referencia a ficheros de varias ubicaciones, todas esas ubicaciones se crearán también en el fichero ZIP. Al restaurar el archivo ZIP, se crea la estructura de carpetas exacta en la ubicación de destino. <br>: el valor predeterminado de este parámetro es false.|
+
+| Nombre | Tipo | Requerido | Descripción |
+|----|----|--------|-----------|
+| `ditamap` | Cadena | Sí | AEM Ruta absoluta del fichero de mapa DITA en el repositorio de la. |
+| `baseline` | Cadena | No | Título de la línea de base que se utiliza para recuperar el contenido con versiones. <br> **Nota:** El valor distingue entre mayúsculas y minúsculas. |
+| `flatFS` | Booleano | No | \(Opcional\) Si se establece en true, se devuelve una estructura plana de archivos en el archivo ZIP. Por ejemplo, si el mapa DITA hace referencia a contenido de varias carpetas, todos los ficheros a los que se hace referencia se extraerán en una sola carpeta. En caso de que haya archivos con el mismo nombre, se cambiará el nombre de esos archivos añadiendo un sufijo numérico. Todas las referencias \(en el mapa DITA y en los temas\) se gestionan automáticamente, ya que se actualizan en función de la nueva ubicación de los archivos en la estructura de carpetas plana. Si se establece en false, la estructura de carpetas se mantiene tal como está en el archivo ZIP. Si el mapa DITA hace referencia a ficheros de varias ubicaciones, todas esas ubicaciones se crearán también en el fichero ZIP. Al restaurar el archivo ZIP, se crea la estructura de carpetas exacta en la ubicación de destino. <br>: el valor predeterminado de este parámetro es false. |
 
 **Valores de respuesta**:
-|Elemento|Descripción|
+
+| Elemento | Descripción |
 |-------|-----------|
-|`status`|Estado de retorno de la operación realizada. Las opciones posibles son: INICIADO, FALLIDO, EN CURSO, CORRECTO, FALTANTE, ELIMINADO|
-|`jobId`|ID único del trabajo. Se puede utilizar más adelante para consultar el estado.|
-|errorMessage|Mensaje de error del trabajo en caso de error \(si el estado es FAILED, MISSING o DELETED\).|
-|`filePath`|Ruta de archivo del ZIP. Solo está presente cuando se completa el trabajo y el estado es CORRECTO. Se puede usar para descargar el archivo ZIP.|
+| `status` | Estado de devolución de la operación realizada. Las opciones posibles son: INICIADO, ERROR, EN CURSO, CORRECTO, FALTANTE, ELIMINADO |
+| `jobId` | El ID único del trabajo. Se puede utilizar más adelante para consultar el estado. |
+| errorMessage | El mensaje de error del trabajo en caso de error \(si el estado es FAILED, MISSING o DELETED\). |
+| `filePath` | Ruta de archivo del ZIP. Solo está presente cuando se completa el trabajo y el estado es CORRECTO. Se puede utilizar para descargar el archivo ZIP. |
 
 ## Consultar estado de exportación de mapa DITA
 
@@ -63,14 +65,16 @@ Método de GET que recupera el estado de exportación de un mapa DITA con todos 
 http:*//&lt;aem-guides-server\>: &lt;port-number\>/bin/dxml/async-export*
 
 **Parámetros**
-|Nombre|Tipo|Descripción|Requerida|
-----|----|--------|-----------
-|`jobId`|Cadena|Sí|Id. de trabajo recuperado cuando se inició el trabajo de exportación.|
+
+| Nombre | Tipo | Requerido | Descripción |
+|----|----|--------|-----------|
+| `jobId` | Cadena | Sí | ID de trabajo recuperado cuando se inició el trabajo de exportación. |
 
 **Valores de respuesta**:
-|Elemento|Descripción|
+
+| Elemento | Descripción |
 |-------|-----------|
-|`status`|El estado del trabajo de exportación. Las opciones posibles son: INICIADO, FALLIDO, EN CURSO, CORRECTO, FALTANTE, ELIMINADO|
-|`jobId`|ID único del trabajo. Se puede utilizar más adelante para consultar el estado.|
-|`errorMessage`|El mensaje de error del trabajo en caso de error \(si el estado es FAILED, MISSING o DELETED\).|
-|`filePath`|Ruta de archivo del ZIP. Solo está presente cuando se completa el trabajo y el estado es CORRECTO. Se puede usar para descargar el archivo ZIP.|
+| `status` | El estado del trabajo de exportación. Las opciones posibles son: INICIADO, ERROR, EN CURSO, CORRECTO, FALTANTE, ELIMINADO |
+| `jobId` | El ID único del trabajo. Se puede utilizar más adelante para consultar el estado. |
+| `errorMessage` | El mensaje de error del trabajo en caso de error \(si el estado es FAILED, MISSING o DELETED\). |
+| `filePath` | Ruta de archivo del ZIP. Solo está presente cuando se completa el trabajo y el estado es CORRECTO. Se puede utilizar para descargar el archivo ZIP. |

@@ -5,10 +5,10 @@ exl-id: f091782e-ab54-4db4-9018-9bcbff9da7b2
 feature: Rest API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: bda1af0da134fce53b4a4118278fa1ef2fe34c69
+source-git-commit: add4730e396fe7384a20fb2c6c04730c20a83e71
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -44,12 +44,13 @@ Método de GET que convierte documentos de HTML en formato DITA.
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/conversion
 
 **Parámetros**:
-|Nombre|Tipo|Descripción|Requerida|
-----|----|--------|-----------
-|`operation`|Cadena|Sí|Nombre de la operación a la que se llama. El valor de este parámetro es ``html2dita``. <br> **Nota:** El valor no distingue entre mayúsculas y minúsculas.|
-|`inputFile`|Cadena|Sí|Ruta absoluta de los archivos del HTML AEM de origen en el repositorio de la.|
-|`destPath`|Cadena|Sí|Ruta absoluta de la ubicación de destino donde se guardarán los archivos DITA convertidos.|
-|`createRev`|Booleano|Sí|Especifique si se crea o no una revisión de los archivos \( `true`\) en el destino especificado \( `false`\). Esto solo se tiene en cuenta cuando la ubicación de destino contiene una versión existente de los archivos convertidos.|
+
+| Nombre | Tipo | Requerido | Descripción |
+|----|----|--------|-----------|
+| `operation` | Cadena | Sí | Nombre de la operación a la que se llama. El valor de este parámetro es ``html2dita``. <br> **Nota:** El valor no distingue entre mayúsculas y minúsculas. |
+| `inputFile` | Cadena | Sí | Ruta absoluta de los archivos del HTML AEM de origen en el repositorio de la. |
+| `destPath` | Cadena | Sí | Ruta absoluta de la ubicación de destino donde se guardarán los ficheros DITA convertidos. |
+| `createRev` | Booleano | Sí | Especifique si se crea una revisión de los archivos \( `true`\) en el destino especificado o no \( `false`\). Esto solo se tiene en cuenta cuando la ubicación de destino contiene una versión existente de los archivos convertidos. |
 
 **Valores de respuesta**:
 Devuelve una respuesta HTTP 200 \(Correcto\).
