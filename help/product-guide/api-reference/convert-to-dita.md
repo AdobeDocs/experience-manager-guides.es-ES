@@ -5,10 +5,10 @@ exl-id: f091782e-ab54-4db4-9018-9bcbff9da7b2
 feature: Rest API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: add4730e396fe7384a20fb2c6c04730c20a83e71
+source-git-commit: e979823b7947b561165fde92023ae9c440182e94
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -63,12 +63,13 @@ Método de GET que convierte documentos de InDesign en formato DITA.
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/conversion
 
 **Parámetros**:
-|Nombre|Tipo|Descripción|Requerida|
-----|----|--------|-----------
-|``operation``|Cadena|Sí|Nombre de la operación a la que se llama. El valor de este parámetro es ``idml2dita``. <br> **Nota:** El valor no distingue entre mayúsculas y minúsculas.|
-|`inputFile`|Cadena|Sí|Ruta absoluta de los archivos de InDesign AEM de origen en el repositorio de la.|
-|`destPath`|Cadena|Sí|Ruta absoluta de la ubicación de destino donde se guardarán los archivos DITA convertidos.|
-|`createRev`|Booleano|Sí|Especifique si se crea o no una revisión de los archivos \( `true`\) en el destino especificado \( `false`\). Esto solo se tiene en cuenta cuando la ubicación de destino contiene una versión existente de los archivos convertidos.|
+
+| Nombre | Tipo | Requerido | Descripción |
+|----|----|--------|-----------|
+| ``operation`` | Cadena | Sí | Nombre de la operación a la que se llama. El valor de este parámetro es ``idml2dita``. <br> **Nota:** El valor no distingue entre mayúsculas y minúsculas. |
+| `inputFile` | Cadena | Sí | Ruta absoluta de los archivos de InDesign AEM de origen en el repositorio de la. |
+| `destPath` | Cadena | Sí | Ruta absoluta de la ubicación de destino donde se guardarán los ficheros DITA convertidos. |
+| `createRev` | Booleano | Sí | Especifique si se crea una revisión de los archivos \( `true`\) en el destino especificado o no \( `false`\). Esto solo se tiene en cuenta cuando la ubicación de destino contiene una versión existente de los archivos convertidos. |
 
 **Valores de respuesta**:
 Devuelve una respuesta HTTP 200 \(Correcto\).
