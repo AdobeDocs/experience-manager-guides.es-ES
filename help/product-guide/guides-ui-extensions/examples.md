@@ -1,9 +1,9 @@
 ---
 title: Ejemplos
 description: Lista de ejemplos de personalización
-source-git-commit: 7770bc791ae87748cfe191cfaff3f929f77b4533
+source-git-commit: fc0b19ac44ca9cbc1e9c5cf046f9a0a24f2a1794
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,9 @@ En este archivo, calculamos y asignamos el ID de comentario único, mencionado e
 
 6. [Aceptar con cuadro de diálogo de modificación](./examples/review_app_examples/accept_with_modification_dialog.ts)
 Este es un ejemplo de adición de nuevos widgets a la aplicación. Aquí hemos creado un nuevo cuadro de diálogo, que tiene dos campos de texto de entrada: `Revised Text` y `Adjudicator Comment Rationale`
+
+7. [Guardar revisión](./examples/save_revision.ts)
+Este es un ejemplo de cómo actualizar un cuadro de diálogo existente. En esta sección agregamos un botón para publicar. Permitimos modificar el contenido del cuadro de diálogo. Consulte su json aquí: [`save_revision`](./jsons/dialogs/save_revision.json)
 
 ![Aceptar Con Cuadro De Diálogo De Modificación](./imgs/accept_with_modification_dialogue.png)
 
