@@ -2,7 +2,7 @@
 title: Notas de versión | Novedades de la versión 2024.06.0 de Adobe Experience Manager Guides
 description: Conozca las funciones nuevas y mejoradas de la versión 2024.06.0 de Adobe Experience Manager Guides as a Cloud Service.
 exl-id: c885b8ba-5230-4d51-8f38-311b3a33fe0a
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: 2455307ef747b2f2574666ee773d931b302f58ca
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 2%
@@ -36,7 +36,6 @@ Para obtener más información, vea [Fragmentos de experiencias de Publish](../u
 Experience Manager Guides también proporciona algunas mejoras útiles en los fragmentos de contenido:
 
 - Puede filtrar fácilmente el contenido con condiciones mientras publica en un fragmento de contenido, mediante un archivo DITAVAL o atributos condicionales.
-
 - También puede publicar y ver los fragmentos de contenido de un tema desde la sección **Salidas** en las **Propiedades del archivo**.
 
 ![ficha de opciones de propiedades de archivo](./assets/file-properties-outputs-tab.png){width="300" align="left"}

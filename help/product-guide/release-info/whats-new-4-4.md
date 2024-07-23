@@ -3,9 +3,9 @@ title: Notas de versión | Novedades de la versión 4.4.0 de Adobe Experience Ma
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 4.4.0 de Adobe Experience Manager Guides
 role: Leader
 exl-id: 63a2e93b-b4cf-4423-88e4-b01c6a52a532
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,7 @@ Ahora Experience Manager Guides proporciona una función de historial de version
 ![Cuadro de diálogo Historial de versiones](assets/version-history-dialog-web-editor.png){width="800" align="left"}
 *Obtener una vista previa de los cambios en las distintas versiones de un tema.*
 
-
-Obtenga más información acerca de la descripción de la característica **Historial de versiones** en la sección [Panel izquierdo](../user-guide/web-editor-features.md#id2051EA0M0HS).
+Obtenga más información acerca de la descripción de la característica **Historial de versiones** en la sección [Panel izquierdo (heredado)](/help/legacy-product-guide/user-guide/web-editor-features.md#id2051EA0M0HS).
 
 ## Administrar ajustes preestablecidos de condición
 
@@ -116,7 +115,7 @@ Más información sobre cómo [traducir contenido](../user-guide/translation.md)
 Ahora puede encontrar fácilmente los elementos en el cuadro de diálogo Insertar elemento.  Puede escribir una cadena en el cuadro de búsqueda y obtener una lista de todos los elementos válidos que comienzan con la cadena introducida.
 
 Por ejemplo, al editar un párrafo que desea insertar un elemento, puede buscar un carácter &#39;t&#39; para obtener
-todos los elementos válidos que comiencen por &quot;t&quot;.
+todos los elementos válidos que comienzan con &#39;t&#39;.
 
 
 ![Cuadro de diálogo Insertar](assets/insert-element.png){width="300" align="left"}
@@ -177,7 +176,7 @@ AEM Los vínculos de mapas cruzados (XREF con ámbito del mismo nivel) que se re
 
 ## AEM Configure la dirección URL de la salida del sitio de para utilizar el título del documento
 
-Experience Manager Guides AEM le permite, como administrador, configurar la dirección URL de la salida del sitio de la. AEM Si el nombre de archivo no existe o contiene todos los caracteres especiales, puede configurarlos para reemplazarlos con un separador en la dirección URL de la salida del sitio de la página de la página de la página de inicio de sesión (). También puede reemplazarlos con el nombre del primer tema secundario. AEM Aprenda a [configurar la dirección URL de la salida del sitio de para que use el título del documento](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title).
+Experience Manager Guides AEM le permite, como administrador, configurar la dirección URL de la salida del sitio de la. AEM Si el nombre de archivo no existe o contiene todos los caracteres especiales, puede configurarlos para reemplazarlos con un separador en la dirección URL de la salida del sitio de la página de la página de la página de la página de salida de la página de la página. También puede reemplazarlos con el nombre del primer tema secundario. AEM Aprenda a [configurar la dirección URL de la salida del sitio de para que use el título del documento](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title).
 
 
 ## Varios ajustes preestablecidos de salida de Publish en paralelo
@@ -264,7 +263,7 @@ Además de publicar las páginas según el documento de origen, también puede c
 
 ### Ordenar términos del glosario según los criterios de ordenación
 
-Ahora, también puede ordenar los términos del glosario en función de los criterios de ordenación. Puede utilizar la etiqueta &quot;sort-as&quot; para definir un criterio de ordenación para los términos del glosario. A continuación, puede ordenarlos en función de los criterios de ordenación en lugar de los términos. Esto le permite ordenar los términos del glosario según los términos utilizados en distintos idiomas. También puede definir un único criterio de ordenación para un término del glosario con una frase o un grupo de palabras.
+Ahora, también puede ordenar los términos del glosario en función de los criterios de ordenación. Puede utilizar la etiqueta &quot;ordenar como&quot; para definir un criterio de ordenación para los términos del glosario. A continuación, puede ordenarlos en función de los criterios de ordenación en lugar de los términos. Esto le permite ordenar los términos del glosario según los términos utilizados en distintos idiomas. También puede definir un único criterio de ordenación para un término del glosario con una frase o un grupo de palabras.
 Para obtener más información, vea [Configuración avanzada de PDF](../native-pdf/components-pdf-template.md#advanced-pdf-settings).
 
 
