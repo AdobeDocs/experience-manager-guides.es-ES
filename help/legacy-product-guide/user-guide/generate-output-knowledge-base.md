@@ -3,7 +3,8 @@ title: Base de conocimiento
 description: Aprenda a crear ajustes preestablecidos de la base de conocimiento desde el editor web y el panel de mapas. Configure el ajuste preestablecido de salida de la Base de conocimiento en AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+exl-id: 5fc81de9-9ae0-4cd4-a7ef-b52eed2479f7
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 1%
@@ -51,12 +52,13 @@ En el editor web, se han organizado las siguientes configuraciones en las pesta�
 | Categorías | Seleccione una categoría del menú desplegable para publicar los temas del índice de esa categoría en el sitio de Salesforce. |
 
 También puede ver las siguientes opciones en los ajustes preestablecidos de Salesforce y ServiceNow:
+
 | Opciones | Descripción |
-| — | — |
-|Quitar el encabezado del tema del cuerpo del artículo.|Seleccione esta opción para quitar el encabezado del tema del artículo en la salida publicada. |
-|Cargar como borrador | Seleccione esta opción para cargar el tema y compartirlo como borrador antes de ponerlo a disposición de los usuarios.|
-|Cargar imágenes| Seleccione esta opción si desea que las imágenes de los temas se incluyan en la salida publicada.|
-|Cargar documentos vinculados| Seleccione esta opción para incluir los documentos vinculados en los temas de la salida publicada.|
+| --- | --- |
+| Elimine el encabezado del tema del cuerpo del artículo. | Seleccione esta opción para quitar el encabezado del tema del artículo en la salida publicada. |
+| Cargar como borrador | Seleccione esta opción para cargar el tema y compartirlo como borrador antes de ponerlo a disposición de los usuarios. |
+| Cargar imágenes | Seleccione esta opción si desea que las imágenes de los temas se incluyan en la salida publicada. |
+| Cargar documentos vinculados | Seleccione esta opción para incluir los documentos vinculados en los temas de la salida publicada. |
 
 
 ### Adobe Experience Manager
@@ -73,6 +75,7 @@ También puede ver las siguientes opciones en los ajustes preestablecidos de Sal
 | Categoría | Seleccione una categoría del menú desplegable para publicar los temas del índice de esa categoría en el sitio de Adobe de Experience Manager. |
 | Plantilla de sección y plantilla de artículo | Estos son los componentes estructurales utilizados para organizar el contenido de la salida. Están predefinidas en la plantilla del sitio de Adobe Experience Manager. |
 | Flujo de trabajo de generación posterior | Al elegir esta opción, se muestra una nueva lista desplegable Flujo de trabajo de generación de publicaciones que contiene todos los flujos de trabajo configurados en Adobe Experience Manager Debe seleccionar un flujo de trabajo que desee ejecutar después de completar el flujo de trabajo de generación de resultados.<br>Obtenga más información acerca de cómo [personalizar el flujo de trabajo de generación posterior a la salida](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4) en la sección Guía de instalación y configuración. |
+
 >[!TIP]
 > 
 >Seleccione **Actualizar** ![icono de actualización](images/navtitle-refresh-icon.svg) para rellenar las respectivas plantillas en los campos según la plantilla de la base de conocimiento que haya seleccionado.

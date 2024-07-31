@@ -5,10 +5,10 @@ exl-id: 388ae654-c4f9-4bb7-ba98-370b8919e3a6
 feature: Java-Based API Folder Profiles
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -54,13 +54,14 @@ Session session) throws GuidesApiException
 ```
 
 **Parámetros**:
-|Nombre|Tipo|Descripción|
+
+| Nombre | Tipo | Descripción |
 |----|----|-----------|
-|``attributeNames``|Cadena|Lista de nombres de atributos.|
-|``values``|Cadena|Lista de valores para los atributos dados.|
-|`labels`|Cadena|Lista de etiquetas para los pares `attribute`- `value`. [1](#fntarg_1)|
-|`profileName`|Cadena|Nombre del perfil de nivel de carpeta al que se deben aplicar estos atributos, valores y etiquetas. **Importante:** Todos los atributos-valores-etiquetas existentes definidos en el perfil se sobrescriben.|
-|`session`|javax.jcr.Session|Una sesión JCR válida.|
+| ``attributeNames`` | Cadena | Una lista de nombres de atributos. |
+| ``values`` | Cadena | Una lista de valores para los atributos dados. |
+| `labels` | Cadena | Una lista de etiquetas para los pares `attribute`- `value`. [1](#fntarg_1) |
+| `profileName` | Cadena | El nombre del perfil de nivel de carpeta al que se deben aplicar estos atributos, valores y etiquetas. **Importante:** Todos los atributos-valores-etiquetas existentes definidos en el perfil se sobrescriben. |
+| `session` | javax.jcr.Session | Una sesión JCR válida. |
 
 **Devuelve**:
 `true` para éxito. En caso de error, se genera una excepción.

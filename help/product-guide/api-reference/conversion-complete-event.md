@@ -5,10 +5,10 @@ exl-id: 8033935d-2113-4e39-ab74-b7431b89f948
 feature: Conversion Process Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -26,10 +26,11 @@ Los detalles del evento se explican a continuación:
 com/adobe/fmdita/conversion/complete 
 ```
 
-**Parámetros**:\
-|Nombre|Tipo|Descripción|
+**Parámetros**:
+
+| Nombre | Tipo | Descripción |
 |----|----|-----------|
-|`status`|Cadena|Estado de retorno de la operación realizada. Las opciones posibles son: -   CORRECTO: el proceso de conversión se completó correctamente. <br> -   COMPLETADO CON ERRORES: el proceso de conversión se ha completado, pero con algunos errores. <br>-   FAILED: Error en el proceso de conversión debido a un error grave.|
-AEM |`filePath`|Cadena|Ruta absoluta del archivo de origen \(que se va a convertir\) en el repositorio de.|
-|`outputPath`|Cadena|Ruta absoluta de la ubicación de destino donde se guardarán los archivos DITA convertidos.|
-|`logPath`|Cadena|Ruta absoluta del nodo donde se guardará el registro de conversión.|
+| `status` | Cadena | Estado de devolución de la operación realizada. Las opciones posibles son: -   CORRECTO: el proceso de conversión se completó correctamente. <br> -   COMPLETADO CON ERRORES: el proceso de conversión se ha completado, pero con algunos errores. <br>-   FAILED: Error en el proceso de conversión debido a un error grave. |
+| `filePath` | Cadena | AEM Ruta absoluta del archivo de origen \(que se va a convertir\) en el repositorio de. |
+| `outputPath` | Cadena | Ruta absoluta de la ubicación de destino donde se guardarán los ficheros DITA convertidos. |
+| `logPath` | Cadena | Ruta absoluta del nodo donde se guardará el registro de conversión. |

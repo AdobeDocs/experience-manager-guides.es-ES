@@ -5,10 +5,10 @@ exl-id: bd91fc90-75f8-487c-99d1-2637e9cf9924
 feature: Java-Based API Dita Map
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -57,13 +57,14 @@ public static void zipMapWithDependents(Session session,
 ```
 
 **Parámetros**:
-|Nombre|Tipo|Descripción|
+
+| Nombre | Tipo | Descripción |
 |----|----|-----------|
-|`session`|javax.jcr.Session|Una sesión JCR válida.|
-AEM |`sourcePath`|Cadena|Ruta de acceso \(en el repositorio de\) del archivo de asignación DITA que debe descargarse.|
-|`outputStream`|java.io.OuoutputStream|Flujo en el que se escribirá el ZIP.|
-|`baseline`|Cadena|Título de la línea de base que se usa para recuperar el contenido con versiones. <br> **Nota:** El valor distingue entre mayúsculas y minúsculas.|
-|plainFS|Boolean|\(Opcional\) Si se establece en true, se devuelve una estructura plana de archivos en el archivo ZIP. Por ejemplo, si el mapa DITA hace referencia a contenido de varias carpetas, todos los ficheros a los que se hace referencia se extraerán en una sola carpeta. En caso de que haya archivos con el mismo nombre, se cambiará el nombre de esos archivos añadiendo un sufijo numérico. Todas las referencias \(en el mapa DITA y en los temas\) se gestionan automáticamente, ya que se actualizan en función de la nueva ubicación de los archivos en la estructura de carpetas plana. Si se establece en false, la estructura de carpetas se mantiene tal como está en el archivo ZIP. Si el mapa DITA hace referencia a ficheros de varias ubicaciones, todas esas ubicaciones se crearán también en el fichero ZIP. Al restaurar el archivo ZIP, se crea la estructura de carpetas exacta en la ubicación de destino. <br>: el valor predeterminado de este parámetro es false.|
+| `session` | javax.jcr.Session | Una sesión JCR válida. |
+| `sourcePath` | Cadena | AEM Ruta \(en el repositorio de la\) del archivo de mapa DITA que debe descargarse. |
+| `outputStream` | java.io.OutputStream | Flujo en el que se escribe el ZIP. |
+| `baseline` | Cadena | Título de la línea de base que se utiliza para recuperar el contenido con versiones. <br> **Nota:** El valor distingue entre mayúsculas y minúsculas. |
+| plainFS | Booleano | \(Opcional\) Si se establece en true, se devuelve una estructura plana de archivos en el archivo ZIP. Por ejemplo, si el mapa DITA hace referencia a contenido de varias carpetas, todos los ficheros a los que se hace referencia se extraerán en una sola carpeta. En caso de que haya archivos con el mismo nombre, se cambiará el nombre de esos archivos añadiendo un sufijo numérico. Todas las referencias \(en el mapa DITA y en los temas\) se gestionan automáticamente, ya que se actualizan en función de la nueva ubicación de los archivos en la estructura de carpetas plana. Si se establece en false, la estructura de carpetas se mantiene tal como está en el archivo ZIP. Si el mapa DITA hace referencia a ficheros de varias ubicaciones, todas esas ubicaciones se crearán también en el fichero ZIP. Al restaurar el archivo ZIP, se crea la estructura de carpetas exacta en la ubicación de destino. <br>: el valor predeterminado de este parámetro es false. |
 
 **Devuelve**:
 El contenido del ZIP se escribe en `outputStream`.
@@ -93,12 +94,13 @@ public static CompletableFuture<Node> zipMapWithDependencies(Session session,
 ```
 
 **Parámetros**:
-|Nombre|Tipo|Descripción|
+
+| Nombre | Tipo | Descripción |
 |----|----|-----------|
-|`session`|javax.jcr.Session|Una sesión JCR válida.|
-AEM |`sourcePath`|Cadena|Ruta de acceso \(en el repositorio de\) del archivo de asignación DITA que debe descargarse.|
-|`baseline`|Cadena|Título de la línea de base que se usa para recuperar el contenido con versiones. <br> **Nota:** El valor distingue entre mayúsculas y minúsculas.|
-|plainFS|Boolean|\(Opcional\) Si se establece en true, se devuelve una estructura plana de archivos en el archivo ZIP. Por ejemplo, si el mapa DITA hace referencia a contenido de varias carpetas, todos los ficheros a los que se hace referencia se extraerán en una sola carpeta. En caso de que haya archivos con el mismo nombre, se cambiará el nombre de esos archivos añadiendo un sufijo numérico. Todas las referencias \(en el mapa DITA y en los temas\) se gestionan automáticamente, ya que se actualizan en función de la nueva ubicación de los archivos en la estructura de carpetas plana. Si se establece en false, la estructura de carpetas se mantiene tal como está en el archivo ZIP. Si el mapa DITA hace referencia a ficheros de varias ubicaciones, todas esas ubicaciones se crearán también en el fichero ZIP. Al restaurar el archivo ZIP, se crea la estructura de carpetas exacta en la ubicación de destino.<br>: el valor predeterminado de este parámetro es false.|
+| `session` | javax.jcr.Session | Una sesión JCR válida. |
+| `sourcePath` | Cadena | AEM Ruta \(en el repositorio de la\) del archivo de mapa DITA que debe descargarse. |
+| `baseline` | Cadena | Título de la línea de base que se utiliza para recuperar el contenido con versiones. <br> **Nota:** El valor distingue entre mayúsculas y minúsculas. |
+| plainFS | Booleano | \(Opcional\) Si se establece en true, se devuelve una estructura plana de archivos en el archivo ZIP. Por ejemplo, si el mapa DITA hace referencia a contenido de varias carpetas, todos los ficheros a los que se hace referencia se extraerán en una sola carpeta. En caso de que haya archivos con el mismo nombre, se cambiará el nombre de esos archivos añadiendo un sufijo numérico. Todas las referencias \(en el mapa DITA y en los temas\) se gestionan automáticamente, ya que se actualizan en función de la nueva ubicación de los archivos en la estructura de carpetas plana. Si se establece en false, la estructura de carpetas se mantiene tal como está en el archivo ZIP. Si el mapa DITA hace referencia a ficheros de varias ubicaciones, todas esas ubicaciones se crearán también en el fichero ZIP. Al restaurar el archivo ZIP, se crea la estructura de carpetas exacta en la ubicación de destino.<br>: el valor predeterminado de este parámetro es false. |
 
 **Devuelve**:
 El nodo del archivo zip está dentro de la clase `CompletableFuture`. El usuario puede seguir manejándolo asincrónicamente y puede usar el `.get()`método del futuro para bloquear el subproceso cuando se necesite el nodo. El valor devuelto también puede terminar con un error, y eso se puede controlar con el método `.exceptionally()`.
@@ -117,10 +119,11 @@ public static List<HashMap<String,String>> getBaselineList(
 ```
 
 **Parámetros**:
-|Nombre|Tipo|Descripción|
+
+| Nombre | Tipo | Descripción |
 |----|----|-----------|
-|`session`|javax.jcr.Session|Una sesión JCR válida.|
-AEM |`sourcePath`|Cadena|Ruta de acceso \(en el repositorio de\) del archivo de asignación DITA para el que se va a recuperar la información de línea de base.|
+| `session` | javax.jcr.Session | Una sesión JCR válida. |
+| `sourcePath` | Cadena | AEM Ruta \(en el repositorio de\) del fichero de mapa DITA para el que se va a recuperar la información de línea base. |
 
 **Devuelve**:
 Lista de `HashMap` objetos. Cada objeto `HashMap` representa una línea de base y contiene el nombre y el título de la línea de base.
@@ -142,10 +145,11 @@ public static List<HashMap<String,String>> getConditionalPresetList (
 ```
 
 **Parámetros**:
-|Nombre|Tipo|Descripción|
+
+| Nombre | Tipo | Descripción |
 |----|----|-----------|
-|`session`|javax.jcr.Session|Una sesión JCR válida.|
-AEM |`sourcePath`|Cadena|Ruta de acceso \(en el repositorio de\) del archivo de asignación DITA para el que se va a recuperar la información de ajuste preestablecido condicional.|
+| `session` | javax.jcr.Session | Una sesión JCR válida. |
+| `sourcePath` | Cadena | AEM Ruta \(en el repositorio de\) del fichero de mapa DITA para el que se va a recuperar la información de ajuste preestablecido condicional. |
 
 **Devuelve**:
 Lista de `HashMap` objetos. Cada objeto `HashMap` representa un ajuste preestablecido condicional y contiene el nombre y el título del ajuste preestablecido condicional.
@@ -167,11 +171,12 @@ public static String getDitavalFromConditionalPreset
 ```
 
 **Parámetros**:
-|Nombre|Tipo|Descripción|
+
+| Nombre | Tipo | Descripción |
 |----|----|-----------|
-|`session`|javax.jcr.Session|Una sesión JCR válida.|
-AEM |`sourcePath`|Cadena|Ruta de acceso \(en el repositorio de\) del archivo de asignación DITA para el que se va a recuperar el archivo DITAVAL.|
-|`cpName`|Cadena|Nombre del ajuste preestablecido condicional en el mapa DITA para el que se va a recuperar el archivo DITAVAL.|
+| `session` | javax.jcr.Session | Una sesión JCR válida. |
+| `sourcePath` | Cadena | AEM Ruta \(en el repositorio de\) del fichero de mapa DITA para el que se va a recuperar el fichero DITAVAL. |
+| `cpName` | Cadena | Nombre del ajuste preestablecido condicional en el mapa DITA para el que se va a recuperar el fichero DITAVAL. |
 
 **Devuelve**:
 Ruta del fichero DITAVAL correspondiente al ajuste preestablecido condicional definido en el fichero de mapa DITA.
@@ -189,9 +194,10 @@ public static List
 ```
 
 **Parámetros**:
-|Nombre|Tipo|Descripción|
+
+| Nombre | Tipo | Descripción |
 |----|----|-----------|
-|`rootNode`|javax.jcr.Node|Nodo raíz para el cual se recuperarán todas las dependencias.|
+| `rootNode` | javax.jcr.Node | Nodo raíz para el que se van a recuperar todas las dependencias. |
 
 **Devuelve**:
 Lista de nodos que contiene todas las dependencias del nodo raíz.
