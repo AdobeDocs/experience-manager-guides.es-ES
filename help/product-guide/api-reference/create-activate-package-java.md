@@ -5,10 +5,10 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: 4ce78061ddb193d3c16241ff32fa87060c9c7bd6
+source-git-commit: 1bb422427822e7f369e0c1be7de6b12ec012075e
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -71,12 +71,13 @@ throws GuidesApiException
 ```
 
 **Parámetros**:
-|Nombre|Tipo|Descripción|
+
+| Nombre | Tipo | Descripción |
 |----|----|-----------|
-|`json`|Cadena|Cadena JSON que determina el paquete de CRX que se va a crear. Utilice el siguiente formato para crear la cadena JSON: <br>- `activate`: Es del tipo booleano \(`true`/`false`\). Determina si el paquete de CRX creado en la instancia de autor se replica en la instancia de publicación. <br> - `rules`: es de tipo matriz JSON. Una matriz de reglas JSON, que se procesan secuencialmente para crear el paquete de CRX. <br> - `rootPath`: es de tipo cadena. Ruta base en la que se ejecutan las consultas de nodo/propiedad. Si no hay consultas de nodo/propiedad presentes, la ruta raíz y todos los nodos presentes bajo la ruta raíz se incluyen en el paquete de CRX. <br> - `nodeQueries`: es de tipo matriz Regex. Matriz de expresiones regulares que se utiliza para incluir archivos específicos en la ruta raíz. <br> - `propertyQueries`: es de tipo matriz JSON. Una matriz de objetos JSON con cada objeto JSON que consta de una consulta XPath que se ejecutará en la ruta raíz y el nombre de una propiedad presente en cada nodo JCR después de ejecutar la consulta. El valor de la propiedad en cada nodo JCR debe ser una ruta o una matriz de rutas. Las rutas presentes en esta propiedad se añaden al paquete de CRX.|
-|`outputstream`|java.io.OutputStream|Se usa para escribir el resultado de varias fases, como la ejecución de consultas, la inclusión de archivos, la creación de paquetes de CRX o la activación. Cualquier error encontrado durante el proceso de creación o activación se escribe en `outputstream`. Esto resulta útil para la depuración.|
-|`session`|Cadena|Sesión JCR válida con permiso de activación.|
-|`activationTarget`|Cadena|(*Opcional*) `preview` o `publish` para el Cloud Service y `publish` para el software On-Premise <br> - Para el Cloud Service, si el parámetro contiene un valor no válido, se produce un error en la activación del paquete. <br>: para el software local, si el parámetro contiene un valor no válido, el error se registra y la publicación se realiza con el valor predeterminado `publish`. |
+| `json` | Cadena | Cadena JSON que determina el paquete de CRX que se va a crear. Utilice el siguiente formato para crear la cadena JSON: <br>- `activate`: Es del tipo booleano \(`true`/`false`\). Determina si el paquete de CRX creado en la instancia de autor se replica en la instancia de publicación. <br> - `rules`: es de tipo matriz JSON. Una matriz de reglas JSON, que se procesan secuencialmente para crear el paquete de CRX. <br> - `rootPath`: es de tipo cadena. Ruta base en la que se ejecutan las consultas de nodo/propiedad. Si no hay consultas de nodo/propiedad presentes, la ruta raíz y todos los nodos presentes bajo la ruta raíz se incluyen en el paquete de CRX. <br> - `nodeQueries`: es de tipo matriz Regex. Matriz de expresiones regulares que se utiliza para incluir archivos específicos en la ruta raíz. <br> - `propertyQueries`: es de tipo matriz JSON. Una matriz de objetos JSON con cada objeto JSON que consta de una consulta XPath que se ejecutará en la ruta raíz y el nombre de una propiedad presente en cada nodo JCR después de ejecutar la consulta. El valor de la propiedad en cada nodo JCR debe ser una ruta o una matriz de rutas. Las rutas presentes en esta propiedad se añaden al paquete de CRX. |
+| `outputstream` | java.io.OutputStream | Se utiliza para escribir el resultado de varias fases, como la ejecución de consultas, la inclusión de archivos, la creación de paquetes de CRX o la activación. Cualquier error encontrado durante el proceso de creación o activación se escribe en `outputstream`. Esto resulta útil para la depuración. |
+| `session` | Cadena | Una sesión JCR válida con permiso de activación. |
+| `activationTarget` | Cadena | (*Opcional*) `preview` o `publish` para el Cloud Service y `publish` para el software On-Premise <br> - Para el Cloud Service, si el parámetro contiene un valor no válido, se produce un error en la activación del paquete. <br>: para el software local, si el parámetro contiene un valor no válido, el error se registra y la publicación se realiza con el valor predeterminado `publish`. |
 
 **Excepción**:
 
