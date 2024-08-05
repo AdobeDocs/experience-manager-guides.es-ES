@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo migrar el contenido del software O
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0c29d3cffa9f9a741ba5f7bd6150d234fbe8341e
+source-git-commit: af7b3595c10793a8faf72310083547f90b6568f0
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 1%
@@ -74,8 +74,7 @@ Realice los siguientes pasos para migrar el contenido de Experience Manager Guid
 1. Después de la creación, seleccione los tres puntos y seleccione **Copiar clave de extracción**.
 
 
-1. Haga clic en **Copiar al portapapeles**.
-Cree su primer proyecto.
+1. Haga clic en **Copiar al portapapeles**. Cree su primer proyecto.
    ![clave de extracción](./assets/migration-copy-to-clipboard.png)
 
 1. Seleccione **Adobe Experience Manager** en la parte superior y, a continuación, seleccione el mosaico **Distribución de software**.
@@ -125,17 +124,14 @@ o
 1. Seleccione el **conjunto de migración** y, a continuación, seleccione **Extraer** en la parte superior.
    ![extracción de conjunto de migración ](./assets/migration-extract.png)
 
-1. Compruebe los detalles en el elemento emergente **Extracción del conjunto de migración** para las rutas y configuraciones que seleccionó y haga clic en **Extraer**.
-La extracción tardará unos minutos y verá el estado como actualizado.
+1. Compruebe los detalles en el elemento emergente **Extracción del conjunto de migración** para las rutas y configuraciones que seleccionó y haga clic en **Extraer**. La extracción tardará unos minutos y verá el estado como actualizado.
    ![extracción del conjunto de migración](./assets/migration-set-extraction.png)
 
 1. Una vez completada la extracción y indicada por el estado `finished`, vaya a Cloud Acceleration Manager y seleccione el proyecto que creó en el paso 18.
 Para obtener más información, seleccione los tres puntos y, a continuación, seleccione **Ver detalles**.
 
 
-1. En la ventana emergente de detalles del conjunto de migración, compruebe la configuración del conjunto de migración y cierre la ventana emergente.
-
-   Puede ver las rutas y otras configuraciones como se muestra en la siguiente captura de pantalla:
+1. En la ventana emergente de detalles del conjunto de migración, compruebe la configuración del conjunto de migración y cierre la ventana emergente. Puede ver las rutas y otras configuraciones como se muestra en la siguiente captura de pantalla:
    ![detalles de migración](./assets/migration-details.png)
 
 
@@ -146,8 +142,6 @@ Para obtener más información, seleccione los tres puntos y, a continuación, s
 1. Elija el conjunto de migración, seleccione el servidor requerido de su entorno y haga clic en **Ingesta**.
 
    ![nueva ingesta](./assets/migration-new-ingestion.png)
-
-
 
 ## Ejecutar la herramienta de transferencia de contenido en una instancia de Publish
 
