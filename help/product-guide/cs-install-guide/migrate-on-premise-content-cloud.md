@@ -4,18 +4,29 @@ description: Obtenga información sobre cómo migrar el contenido del software O
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: af7b3595c10793a8faf72310083547f90b6568f0
+source-git-commit: f1c21c6a2683c99d2fcf91b6e5bd4626b3de653b
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1000'
 ht-degree: 1%
 
 ---
 
 # Migrar contenido de On-Premise a Cloud Service
 
-Experience Manager as a Cloud Service ofrece una base tecnológica escalable, segura y ágil para Experience Manager Assets, Forms y Screens. Esto permite a los especialistas en marketing y a los profesionales de TI centrarse en ofrecer experiencias impactantes a escala.
+Experience Manager as a Cloud Service ofrece una base tecnológica escalable, segura y ágil para Experience Manager Guides, Assets, Forms y Screens. Esto permite a los especialistas en marketing y a los profesionales de TI centrarse en ofrecer experiencias impactantes a escala.
 Con Experience Manager as a Cloud Service, sus equipos pueden centrarse en la innovación en lugar de planificar las actualizaciones de los productos. Las nuevas funciones del producto se prueban a fondo y se entregan a sus equipos sin interrupción para que siempre puedan acceder a la última versión de Adobe Experience Manager.
+
 Este artículo proporciona un proceso detallado paso a paso para migrar el contenido On-Premise o de Managed Services Experience Manager Guides a los Cloud Service, lo que garantiza una transición sin problemas a la plataforma basada en la nube.
+
+## Requisitos previos
+
+* Adobe Experience Manager 6.4 o versiones posteriores
+* Experience Manager Guides debe estar en la versión UUID. Si utiliza una versión de Adobe Experience Manager Guides que no es UUID, primero migre a UUID siguiendo los pasos de [Migrar contenido que no sea DITA](./migrate-content-non-dita.md).
+* Acceso a **Cloud Acceleration Manager** para la instancia de nube a la que desea migrar el contenido
+* Se admite un tamaño de repositorio de hasta 20 TB
+* Tamaño total del índice Lucene de 25 GB
+* La longitud del nombre de un nodo debe ser inferior a 150 bytes
+
 
 ## Proceso de migración
 
@@ -36,15 +47,11 @@ Para obtener más información sobre la versión más reciente, vea [Notas de la
 > 
 > Solo es compatible la versión 2.0.0 y posteriores, y se recomienda utilizar la versión más reciente.
 
-### Requisitos previos
-
-* Adobe Experience Manager 6.4 o versiones posteriores
-* Se admite un tamaño de repositorio de hasta 20 TB
-* Tamaño total del índice Lucene de 25 GB
-* La longitud del nombre de un nodo debe ser inferior a 150 bytes
 
 
-Realice los siguientes pasos para migrar el contenido de Experience Manager Guides a Experience Manager as a Cloud Service.
+
+
+Siga estos pasos para migrar el contenido de Experience Manager Guides a Experience Manager as a Cloud Service.
 
 1. Inicie sesión en [experience.adobe.com](https://experience.adobe.com/) y seleccione **Experience Manager**.
 
@@ -100,9 +107,9 @@ Realice los siguientes pasos para migrar el contenido de Experience Manager Guid
    ![](./assets/migration-create-migration-set.png)
 
 1. Proporcione la ruta que desee migrar y haga clic en **Guardar**.
-Por ejemplo, `/content/we-retail`
+Por ejemplo, `/content/sites`
 o
-   `/content/dam/wknd-events`
+   `/content/dam/tech-docs`
    ![rutas incluidas](./assets/migration-included-paths.png)
 
 
