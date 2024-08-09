@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo migrar el contenido del software O
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: f1c21c6a2683c99d2fcf91b6e5bd4626b3de653b
+source-git-commit: 645d9983b66c740444f24e2283806b5ec4a4ee79
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Este artículo proporciona un proceso detallado paso a paso para migrar el conte
 ## Requisitos previos
 
 * Adobe Experience Manager 6.4 o versiones posteriores
-* Experience Manager Guides debe estar en la versión UUID. Si utiliza una versión de Adobe Experience Manager Guides que no es UUID, primero migre a UUID siguiendo los pasos de [Migrar contenido que no sea DITA](./migrate-content-non-dita.md).
+* Experience Manager Guides debe estar en la versión UUID. Si utiliza una versión de Adobe Experience Manager Guides que no es UUID, primero migre a UUID siguiendo los pasos de [Migrar contenido que no sea DITA](../install-guide/migrate-uuid-non-uuid.md).
 * Acceso a **Cloud Acceleration Manager** para la instancia de nube a la que desea migrar el contenido
 * Se admite un tamaño de repositorio de hasta 20 TB
 * Tamaño total del índice Lucene de 25 GB
