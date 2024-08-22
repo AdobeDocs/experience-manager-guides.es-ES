@@ -1,15 +1,15 @@
 ---
 title: Propagar metadatos de AEM Assets a la salida generada por el complemento DITA-OT
 description: AEM Configuración del complemento y el contenido DITA-OT en la para insertar metadatos en la salida generada
-source-git-commit: d1694535e27b0b605111f71f1f11c47ddb30536e
+source-git-commit: b48f5a342989d3be48bbc1e8af51a2ce477d0ac7
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
 
 
-# Acerca de este artículo
+# Propagar metadatos de AEM Assets a la salida generada por el complemento DITA-OT
 
 En este artículo explicaremos cómo implementar cambios en el complemento DITA-OT para leer el archivo metadata.xml _(disponible en archivos temporales)_ y utilizar las propiedades, pasadas por el flujo de trabajo de publicación de AEM Guides, en los complementos DITA-OT y establecerlo en la salida generada.
 
