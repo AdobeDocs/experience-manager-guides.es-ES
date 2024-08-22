@@ -1,7 +1,7 @@
 ---
 title: Propagar metadatos de AEM Assets a la salida generada por el complemento DITA-OT
 description: AEM Configuración del complemento y el contenido DITA-OT en la para insertar metadatos en la salida generada
-source-git-commit: 5a427e14f13ba6e7344f48a9edb3f153a4958ba2
+source-git-commit: d1694535e27b0b605111f71f1f11c47ddb30536e
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 0%
@@ -22,7 +22,7 @@ En un nivel superior, a continuación se muestran los pasos que aprenderá en es
 ## Fondo
 
 Con AEM Guides, puede utilizar los complementos DITA-OT para publicar en los formatos de salida que desee mediante los complementos configurados.
-AEM también puede pasar metadatos de los recursos administrados en DAM de la al proceso DITA-OT para usarlos en la salida generada; consulte la documentación sobre [cómo configurar ditamap/topics para pasar metadatos a través de ajustes preestablecidos de salida](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
+AEM también puede pasar metadatos de los recursos administrados en DAM de la al proceso DITA-OT para usarlos en la salida generada; consulte la documentación sobre [cómo configurar ditamap/topics para pasar metadatos a través del ajuste preestablecido de salida](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
 
 
 ## Suposiciones
@@ -59,7 +59,7 @@ Consulte la siguiente captura de pantalla para comprender los pasos descritos an
 
 #### Acceso al archivo metadata.xml en el directorio temporal
 
-En el paquete de archivos temporales descargado verá un archivo metadata.xml donde puede ver la estructura de las propiedades y los valores (véase la captura de pantalla siguiente)
+En el paquete de archivos temporales descargados, verá un archivo metadata.xml donde puede ver la estructura de las propiedades y los valores (véase la captura de pantalla siguiente)
 ![construcciones y estructura metadata.xml](../../assets/publishing/publish-tempfiles-metadata-structure.png)
 
 ##### Comprender metadata.xml
