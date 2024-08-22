@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: 3c861e42bb01255f19cb2c901a3bca94d7949b76
+source-git-commit: 135f78ae723f3d77a3e7448f5af79b2261b89b1e
 workflow-type: tm+mt
-source-wordcount: '1842'
-ht-degree: 6%
+source-wordcount: '1848'
+ht-degree: 7%
 
 ---
 
@@ -469,16 +469,14 @@ ht-degree: 6%
                - [Personalización](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
                - [Cuadro de diálogo personalizado](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - Publicación {#publishing}
-
+         - DITA-OT {#dita-ot}
+            - [AEM Usar metadatos de la en el complemento](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
          - [AEM Configuración del entorno para la publicación nativa de PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-
          - [Generación de la tabla de contenido de Bookmap en la publicación nativa de PDF](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
-
          - [FMPS y guías](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Arquitectura y rendimiento de microservicios](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [Configuración de la publicación basada en microservicios con autenticación JWT](./knowledge-base/publishing/configure-microservices.md)
          - [Configuración de la publicación basada en microservicios con autenticación OAuth](./knowledge-base/publishing/configure-microservices-imt-config.md)
-
          - [AEM Publicación de puntos de referencia en la nube de](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          - [Configuración de una DITA-OT personalizada](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
 
