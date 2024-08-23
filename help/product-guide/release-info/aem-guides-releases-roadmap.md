@@ -3,9 +3,9 @@ title: Adobe Experience Manager Guides publica la hoja de ruta 2024
 description: Obtenga información sobre las versiones en directo y futuras de Adobe Experience Manager Guides local y Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 25615614851005496631c35671f2e652e1e60799
+source-git-commit: cefa1e87ba70308a9da9e2a8c6c352c00e38db1a
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '257'
 ht-degree: 24%
 
 ---
@@ -27,7 +27,7 @@ Las versiones para Experience Manager Guides as a Cloud Service están planifica
 | Adobe Experience Manager Guides 2024.2.0 | Actualización automática | jueves, 06 de marzo de 2024 | [Aquí](whats-new-2024-2-0.md) | [Aquí](upgrade-instructions-2024-2-0.md) | [Aquí](fixed-issues-2024-2-0.md) | Actualizado |
 | Adobe Experience Manager Guides 2024.4.0 | Actualización automática | sábado, 26 de abril de 2024 | [Aquí](whats-new-2024-04-0.md) | [Aquí](upgrade-instructions-2024-04-0.md) | [Aquí](fixed-issues-2024-04-0.md) | Actualizado |
 | Adobe Experience Manager Guides 2024.6.0 | Actualización automática | 10-12 de junio de 2024 | [Aquí](whats-new-2024-06-0.md) | [Aquí](upgrade-instructions-2024-06-0.md) | [Aquí](fixed-issues-2024-06-0.md) | Actualizado |
-| Adobe Experience Manager Guides 2024.9.0 | Actualización automática | Del 2 al 04 de septiembre de 2024 |  |  |  | Para garantizar la mejor experiencia, trasladamos esta versión al siguiente ciclo después de identificar una oportunidad de mejora importante. En breve compartiremos la fecha de lanzamiento actualizada con usted. |
+| Adobe Experience Manager Guides 2024.9.0 | Actualización automática | Del 2 al 04 de septiembre de 2024 |  |  |  | Para garantizar la mejor experiencia, vamos a trasladar esta versión al siguiente ciclo, ya que hemos identificado un showstopper. En breve compartiremos la fecha de lanzamiento actualizada. |
 
 ## [!DNL Experience Manager Guides] On-Premise y Managed Services (calendario de 2024) {#aem-guides-roadmap-on-prem}
 
