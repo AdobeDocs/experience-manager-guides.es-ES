@@ -3,10 +3,10 @@ title: Adobe Experience Manager Guides publica la hoja de ruta 2024
 description: Obtenga información sobre las versiones en directo y futuras de Adobe Experience Manager Guides local y Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: c57dab25cba0c3bd6502b6d586799266db746eab
+source-git-commit: c6f8e96f2225044c02c501d86e96eab11d86d24a
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 27%
+source-wordcount: '256'
+ht-degree: 24%
 
 ---
 
@@ -27,7 +27,7 @@ Las versiones para Experience Manager Guides as a Cloud Service están planifica
 | Adobe Experience Manager Guides 2024.2.0 | Actualización automática | jueves, 06 de marzo de 2024 | [Aquí](whats-new-2024-2-0.md) | [Aquí](upgrade-instructions-2024-2-0.md) | [Aquí](fixed-issues-2024-2-0.md) | Actualizado |
 | Adobe Experience Manager Guides 2024.4.0 | Actualización automática | sábado, 26 de abril de 2024 | [Aquí](whats-new-2024-04-0.md) | [Aquí](upgrade-instructions-2024-04-0.md) | [Aquí](fixed-issues-2024-04-0.md) | Actualizado |
 | Adobe Experience Manager Guides 2024.6.0 | Actualización automática | 10-12 de junio de 2024 | [Aquí](whats-new-2024-06-0.md) | [Aquí](upgrade-instructions-2024-06-0.md) | [Aquí](fixed-issues-2024-06-0.md) | Actualizado |
-| Adobe Experience Manager Guides 2024.9.0 | Actualización automática | Del 2 al 04 de septiembre de 2024 |  |  |  | Público destinatario |
+| Adobe Experience Manager Guides 2024.9.0 | Actualización automática | Del 2 al 04 de septiembre de 2024 |  |  |  | Se ha aplazado debido a una parada de última hora, y ahora formará parte del próximo ciclo. La fecha para el mismo se actualizará pronto. |
 
 ## [!DNL Experience Manager Guides] On-Premise y Managed Services (calendario de 2024) {#aem-guides-roadmap-on-prem}
 
