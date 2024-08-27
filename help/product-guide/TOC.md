@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: 135f78ae723f3d77a3e7448f5af79b2261b89b1e
+source-git-commit: 62c69ba7765f89b03381a5526e616a9118426fb9
 workflow-type: tm+mt
 source-wordcount: '1848'
 ht-degree: 7%
@@ -450,12 +450,12 @@ ht-degree: 7%
                - [Icono](./guides-ui-extensions/aem_guides_framework/components/icon.md)
                - [Etiqueta](./guides-ui-extensions/aem_guides_framework/components/label.md)
                - [Lista](./guides-ui-extensions/aem_guides_framework/components/list.md)
-               - [Área de texto](./guides-ui-extensions/aem_guides_framework/components/textArea.md)
+               - [Área de texto](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
             - Widgets {#framework-widgets}
                - [Widgets de renderización](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [Widgets básicos](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
          - Introducción {#getting-started}
-            - [Introducción](./guides-ui-extensions/getting-started/Introduction.md)
+            - [Introducción](./guides-ui-extensions/getting-started/introduction.md)
             - [Guía de instalación](./guides-ui-extensions/getting-started/integrating-customisations.md)
             - [Introducción al repositorio de extensiones](./guides-ui-extensions/getting-started/extension-repo-intro.md)
          - Personalizaciones {#customisations}
@@ -463,7 +463,7 @@ ht-degree: 7%
             - [Personalización de menús contextuales](./guides-ui-extensions/customisations/context-menus.md)
             - [Personalizar barra de herramientas y barra superior](./guides-ui-extensions/customisations/toolbar-topbar.md)
             - [Ejemplos](./guides-ui-extensions/examples.md)
-            - [Json personalizables](./guides-ui-extensions/JSONs.md)
+            - [Json personalizables](./guides-ui-extensions/jsons.md)
             - Revisar {#review-app-customisations}
                - [Componentes](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Personalización](./guides-ui-extensions/customisations/ReviewApp/customisation.md)

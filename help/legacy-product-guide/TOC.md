@@ -3,8 +3,8 @@ user-guide-title: Experience Manager Guides (heredado)
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
 hide: yes
-badgeAll: label="Guía heredada&#58; más información" type="Informative" url="/help/legacy-product-guide/legacy.md" tooltip="Guía heredada"
-source-git-commit: f0b3d688733fcdf2116c74e4b7d2aab2097a0b51
+badgeAll: label="Guía heredada: más información" type="Informative" url="/help/legacy-product-guide/legacy.md" tooltip="Guía heredada"
+source-git-commit: 62c69ba7765f89b03381a5526e616a9118426fb9
 workflow-type: tm+mt
 source-wordcount: 529
 ht-degree: 4%
@@ -177,12 +177,12 @@ ht-degree: 4%
           - [Icon](./guides-ui-extensions/aem_guides_framework/components/icon.md)
           - [Label](./guides-ui-extensions/aem_guides_framework/components/label.md)
           - [List](./guides-ui-extensions/aem_guides_framework/components/list.md)
-          - [Textarea](./guides-ui-extensions/aem_guides_framework/components/textArea.md)
+          - [Textarea](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
         - Widgets {#framework-widgets}
           - [Rendering Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
           - [Basic Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
       - Getting Started {#getting-started}
-        - [Introduction](./guides-ui-extensions/getting-started/Introduction.md)
+        - [Introduction](./guides-ui-extensions/getting-started/introduction.md)
         - [Installation guide](./guides-ui-extensions/getting-started/integrating-customisations.md)
         - [Extension Repositry intro](./guides-ui-extensions/getting-started/extension-repo-intro.md)
       - Customisations {#customisations}
