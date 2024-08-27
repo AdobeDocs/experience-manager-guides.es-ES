@@ -3,7 +3,7 @@ user-guide-title: Experience Manager Guides (heredado)
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
 hide: yes
-badgeAll: label="Guía heredada: más información" type="Informative" url="/help/legacy-product-guide/legacy.md" tooltip="Guía heredada"
+badgeAll: label="Guía heredada&#58; más información" type="Informative" url="/help/legacy-product-guide/legacy.md" tooltip="Guía heredada"
 source-git-commit: 62c69ba7765f89b03381a5526e616a9118426fb9
 workflow-type: tm+mt
 source-wordcount: 529
