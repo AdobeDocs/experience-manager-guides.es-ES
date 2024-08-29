@@ -5,14 +5,19 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 8f3a89fc-7d18-453d-909d-6dff5e275cab
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: b0c7b944b66c4a4167beece4f827f3d5789531b5
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
 
 # Migrar contenido con versiones
+
+>[!NOTE]
+>
+> Puede migrar el contenido que no sea UUID al contenido UUID en Experience Manager Guides. Este artículo se archivará en noviembre de 2024.
+>Vea [**Migración de contenido que no es UUID a UUID**](./migrate-non-uuid-uuid-new.md) para obtener la documentación más reciente y detallada.
 
 Siga estos pasos para migrar el contenido con versiones que no sean UUID al contenido UUID.
 
@@ -87,7 +92,7 @@ Realice las siguientes comprobaciones en la versión no UUID (4.1 no UUID o 4.3.
 
 1. AEM Asegúrese de que el espacio libre disponible sea al menos diez veces el espacio que ocupa el usuario (directorio crx-quickstart) durante la migración. Una vez completada la migración, puede recuperar la mayor parte del espacio en disco ejecutando compactación (consulte [Limpieza de revisión](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)).
 
-1. Habilitar *Habilitar iniciadores de flujo de trabajo de procesamiento de Post* en `com.adobe.fmdita.config.ConfigManager` y *Habilitar procesamiento posterior de versiones* en `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
+1. Habilitar *Habilitar iniciadores de flujo de trabajo de procesamiento posterior* en `com.adobe.fmdita.config.ConfigManager` y *Habilitar procesamiento posterior de la versión* en `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
 
 1. Instale la versión UUID de la versión compatible sobre la versión que no es UUID. Por ejemplo, si utiliza la versión 4.1 sin UUID, debe instalar la versión 4.1 de UUID y ejecutar la migración.
 
@@ -98,7 +103,7 @@ Realice las siguientes comprobaciones en la versión no UUID (4.1 no UUID o 4.3.
    * Flujo de trabajo de recursos de actualización DAM
    * Flujo de trabajo de reescritura de metadatos DAM
 
-1. Deshabilite *Habilitar los iniciadores del flujo de trabajo de procesamiento de Post* en `com.adobe.fmdita.config.ConfigManager` y deshabilite *Habilitar procesamiento posterior de versiones* en `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
+1. Deshabilite *Habilitar iniciadores de flujo de trabajo de procesamiento posterior* en `com.adobe.fmdita.config.ConfigManager` y deshabilite *Habilitar procesamiento posterior de versión* en `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
 
 1. Deshabilite la propiedad Habilitar validación (`validation.enabled`) en el servicio de etiquetado CQ por día.
 
