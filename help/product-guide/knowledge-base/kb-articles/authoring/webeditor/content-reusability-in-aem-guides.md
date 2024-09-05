@@ -3,9 +3,9 @@ title: Reutilización de contenido DITA en AEM Guides
 description: Este breve artículo explica cómo AEM Guides y DITA le ayudan a ahorrar tiempo y esfuerzo al utilizar la reutilización de contenido
 role: User, Admin
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
-source-git-commit: 4160c990bafe41611714ef66ee361aba0ef47c0a
+source-git-commit: 12d7f9c3479d2fa8e8f0adad7cb89993cd17dec0
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe AEM Guides aprovecha los puntos fuertes de DITA para proporcionar una interfaz fácil de usar para la reutilización de contenido.
 
-En este artículo hablaríamos de :
+Este artículo analizará:
 
 1. [Reutilización mediante referencia de tema (](#reusability-using-topic-referencestopicref)
 2. [Reutilización mediante referencia de contenido (](#reusability-using-content-reference-conref--conkeyref)
@@ -79,7 +79,7 @@ Desea reutilizar el fragmento KYC individual para los temas &quot;Cuenta de alma
 
 Aquí `conref=kyc_procedures.dita#indvidual_kyc` key_processes.dita es el identificador de archivo y #individual_kyc es el identificador de fragmento.
 
-Kyc_procedure.dita sigue siendo la única fuente de información. Si hay cambios en el proceso de KYC según lo requerido por las regulaciones, simplemente necesita actualizar un tema, y esos cambios se reflejan automáticamente en todos los temas que se refieren a él.
+Kyc_procedure.dita sigue siendo la única fuente de información. Si los cambios regulatorios requieren actualizaciones en el proceso KYC, actualice la ruta del tema con la nueva. Los cambios se reflejarán automáticamente en todos los temas que hagan referencia a él.
 
 Con AEM Guides, son dos clics
 
@@ -91,7 +91,7 @@ Paso 1: Haga clic en Insertar contenido reutilizable
 Paso 2: Seleccione el archivo y el fragmento que debe reutilizarse.
 ![conref](../../assets/publishing/content-reusability_image2.png)
 
-Al igual que &quot;conref&quot;, puede utilizar &quot;conkeyref&quot; donde, en lugar de proporcionar una ruta de contenido, puede hacer referencia al contenido mediante claves.
+Al igual que &quot;conref&quot;, puede utilizar &quot;conkeyref&quot; donde, en lugar de proporcionar una ruta de contenido, se hace referencia al contenido mediante una clave
 
 Ejemplo de código:
 
@@ -111,7 +111,7 @@ La definición de la clave tiene este aspecto:
 </map>
 ```
 
-Clave: &quot;Key_procedure&quot; seguirá siendo la única fuente de información. Si hay cambios en el proceso KYC según lo requerido por las regulaciones, simplemente necesita actualizar una ruta de tema con una nueva ruta de tema, y esos cambios se reflejarán automáticamente en todos los temas que se refieran a ella.
+Clave: &quot;Key_procedure&quot; sigue siendo la única fuente de información. Si hay cambios en el proceso KYC según lo requerido por las regulaciones, simplemente necesita actualizar una ruta de tema con una nueva ruta de tema, y esos cambios se reflejan automáticamente en todos los temas que se refieren a ella.
 
 ```
 <map id="ABC_manual">
@@ -133,7 +133,7 @@ Paso 1: Haga clic en Insertar contenido reutilizable
 Paso 2: Seleccione el mapa raíz (opcional), la clave y el fragmento que debe reutilizarse.
 ![conkeyref](../../assets/publishing/content-reusability_image3.png)
 
-El mapa raíz se seleccionó automáticamente porque ya estaba abierto en la vista del mapa
+Aquí el mapa raíz se seleccionó automáticamente porque ya estaba abierto en la vista del mapa.
 
 
 ## Reutilización del contenido con un solo clic en AEM Guides
@@ -154,14 +154,16 @@ Paso 2: Una vez agregado, arrastre y suelte el fragmento que desee reutilizar en
 
 - ### No se muestra todo el contenido después de seleccionar el archivo o la clave en el cuadro de diálogo Reutilizar contenido
 
-Debe asignar ID a fragmentos (elementos Dita ) que desee reutilizar en otros temas
+Asignar ID a fragmentos (elementos Dita) que desee reutilizar en otros temas
 
 - ## Las claves no se muestran en el cuadro de diálogo Reutilizar contenido
 
-Asegúrese de haber abierto el mapa raíz/mapa principal en la vista de mapa que tiene una definición de clave o agregue la ruta del mapa raíz manualmente en el mismo cuadro de diálogo.
+  Asegúrese de haber abierto el mapa raíz/mapa principal en la vista de mapa, que tiene una definición de clave, o agregue la ruta del mapa raíz manualmente en el mismo cuadro de diálogo.
 
 
 <br>
+<br>
+<br>
 
 
-Post en la Comunidad de AEM Guides [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) para cualquier consulta.
+Publica en la comunidad de AEM Guides [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) para cualquier consulta.
