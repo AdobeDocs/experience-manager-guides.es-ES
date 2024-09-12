@@ -3,7 +3,9 @@ title: AEM Aumente el rendimiento de traducción de los archivos DITA en las gu�
 description: Prácticas recomendadas, sugerencias y trucos para aumentar el rendimiento del proyecto de traducción DITA en AEM Guides
 feature: Translation
 role: User, Admin
-source-git-commit: d25e7b1b8a1be15e1d627e74a23bbb33b7fc6e94
+author: Pulkit Nagpal (punagpal)
+exl-id: d7e4f3ae-2143-4767-b7ab-c89f5e5eef59
+source-git-commit: 18fe3cbb1439d489d243d98a546ef1095104a863
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%

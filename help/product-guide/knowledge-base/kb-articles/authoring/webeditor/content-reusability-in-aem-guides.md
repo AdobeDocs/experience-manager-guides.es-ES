@@ -2,8 +2,9 @@
 title: Reutilización de contenido DITA en AEM Guides
 description: Este breve artículo explica cómo AEM Guides y DITA le ayudan a ahorrar tiempo y esfuerzo al utilizar la reutilización de contenido
 role: User, Admin
+author: Pulkit Nagpal(punagpal)
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
-source-git-commit: 12d7f9c3479d2fa8e8f0adad7cb89993cd17dec0
+source-git-commit: f971be4be9e2d32618616727cd9c682941dd3fb2
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
