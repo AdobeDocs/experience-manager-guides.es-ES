@@ -5,14 +5,21 @@ exl-id: bd91fc90-75f8-487c-99d1-2637e9cf9924
 feature: Java-Based API Dita Map
 role: Developer
 level: Experienced
-source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
+source-git-commit: 8c80a4da8e61909aab0f2db81ef97149774b36c4
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1068'
 ht-degree: 3%
 
 ---
 
 # API basadas en Java para trabajar con mapas DITA {#id175UB30E05Z}
+
+>[!NOTE]
+>
+> Puede utilizar las API basadas en Java disponibles en Experience Manager Guides para crear complementos personalizados y ampliar los flujos de trabajo predeterminados. Este artículo se archivará en noviembre de 2024.
+> Consulta [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) para obtener la documentación más reciente y detallada sobre el uso de la API basada en Java.
+
+
 
 Las siguientes API basadas en Java le permiten trabajar con mapas DITA en AEM Guides. Estas API están disponibles en forma de paquete. Debe incluir este paquete en su código para utilizar estas API.
 

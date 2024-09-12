@@ -4,9 +4,9 @@ description: Aprenda a editar temas en el editor web. Obtenga información sobre
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: d30f05ff614693beca5d9cf7f206a36f3dadfc8b
+source-git-commit: 2a22aa0746602f7ecd6b3d6cf616a68d45309bdf
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,13 @@ El Editor Web incluye una serie de características de edición que permiten cre
 ## Selección parcial del contenido entre elementos
 
 Experience Manager Guides también le permite seleccionar contenido entre elementos. Después de seleccionar el contenido, puede realizar las siguientes operaciones:
+
 - Formato y eliminación: ponga en negrita, cursiva, subrayado o incluso elimine el contenido seleccionado. El contenido de las etiquetas abiertas válidas se combina y aparece en un solo elemento. Por ejemplo, puede seleccionar el contenido de un párrafo y ampliar la selección a otro párrafo. A continuación, si aplica negrita al contenido seleccionado, todo el contenido en negrita de las etiquetas abiertas se combina y aparece en un solo elemento de párrafo.
 
 Del mismo modo, si elimina el contenido seleccionado, se combina el contenido restante después de la eliminación en las etiquetas abiertas.
 
 - Rodee el contenido con un elemento válido: realice los siguientes pasos para envolver el contenido con un elemento válido:
+
    - Seleccione el contenido de un elemento.
    - Seleccione el icono ![add](images/Add_icon.svg) en la barra de herramientas secundaria de la parte superior para ver el cuadro de diálogo **Rodear con elemento**. El cuadro de diálogo muestra los elementos válidos para el contenido seleccionado.
      >[!NOTE]
@@ -74,7 +76,27 @@ AEM Guides también indica si la última copia \(de trabajo\) guardada del archi
 ![Indicador de actualización de versión](images/version-update-indicator.png){width="550" align="left"}
 
 
+## Abrir archivos bloqueados en los modos Autor y Source
 
+Cuando un fichero DITA o Markdown está bloqueado o extraído por otro usuario, no es posible editar o modificar el contenido. Sin embargo, aún puede ver el archivo en formato de solo lectura en los modos **Autor** y **Source**, además del modo **Vista previa**.
+
+En el modo de solo lectura, puede ver el contenido, las etiquetas y los atributos en los modos **Autor** o **Source**. También puede modificar las propiedades del archivo.
+
+La barra de herramientas muestra los siguientes iconos para el acceso de solo lectura:
+
+- Alternar vista de etiquetas
+- Historial de versiones
+- Etiqueta de versión
+
+Experience Manager Guides también muestra el indicador **Acceso de solo lectura** cerca del número de versión.
+
+![ver archivo de solo lectura en modo de autor](images/locked-file-editor.png)
+
+Puede acceder a la vista **Diseño** para obtener mapas DITA de solo lectura. Esta vista permite ver el mapa DITA y sus propiedades, pero evita ediciones.
+
+>[!NOTE]
+>
+> Los usuarios administrativos de nivel de carpeta deben actualizar *ui_config.json* para que pueda acceder de manera armoniosa a los archivos de solo lectura en los modos Autor, Source y Diseño.
 
 ## Busque un archivo abierto en la Vista de repositorio
 

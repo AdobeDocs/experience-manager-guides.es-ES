@@ -5,9 +5,9 @@ exl-id: ddc1393b-b269-40e5-9627-96dad82b42e9
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b04f20af6e1f85746e13dad464513bf60b039378
 workflow-type: tm+mt
-source-wordcount: '2093'
+source-wordcount: '2122'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Existen dos maneras de utilizar el complemento DITA-OT personalizado para la pub
 
 De forma predeterminada, AEM Guides incluye un perfil preconfigurado que contiene las configuraciones de las plantillas predeterminadas que se utilizan para editar y publicar contenido. Puede crear perfiles personalizados con plantillas personalizadas para utilizarlas al editar documentos y complementos DITA-OT personalizados para publicar contenido.
 
-El paquete DITA-OT predeterminado disponible con AEM Guides viene con el procesador Apache FOP XSL-FO, que no admite la representación de ecuaciones MathML. Si utiliza ecuaciones de MathML en el contenido, asegúrese de haber integrado un complemento del motor de renderización de MathML para Apache FOP o utilice un procesador XSL-FO diferente.
+El paquete DITA-OT predeterminado disponible con AEM Guides viene con el procesador Apache FOP XSL-FO, que no admite la representación de ecuaciones de MathML. Si utiliza ecuaciones de MathML en el contenido, asegúrese de haber integrado un complemento del motor de renderización de MathML para Apache FOP o utilice un procesador XSL-FO diferente.
 
 >[!IMPORTANT]
 >
@@ -171,6 +171,8 @@ Realice los siguientes pasos para crear un nuevo perfil y configurarlo para util
    >
    > La información de Perfil predeterminado se muestra en la página Perfiles. Si ha actualizado AEM Guides de la versión 2.2 a la versión 2.5.1 o 2.6, todos los cambios realizados mediante el administrador de configuración se seleccionan automáticamente y se almacenan en el perfil predeterminado.
 
+
+
 1. Puede elegir editar el perfil predeterminado, crear un nuevo perfil o duplicar la configuración del perfil predeterminado para crear un nuevo perfil.
 
    >[!NOTE]
@@ -178,6 +180,12 @@ Realice los siguientes pasos para crear un nuevo perfil y configurarlo para util
    > No puede eliminar el perfil predeterminado. Sin embargo, todos los perfiles nuevos que cree se pueden editar y eliminar.
 
 1. AEM En la configuración de **Esquema** \> **Catálogo**, especifique la ruta de los archivos DTD y XSD `catalog.xml` personalizados del repositorio de la.
+
+   >[!NOTE]
+   >
+   > AEM Si está utilizando el esquema personalizado, debe definir la ruta de los archivos DTD y XSD catalog.xml personalizados en el repositorio de en la opción **Integrar catálogos**.
+
+
 
 1. Seleccione la opción **Agregar catálogo de ID de sistema**.
 

@@ -5,9 +5,9 @@ exl-id: 4597d1be-5426-4eba-8490-e42d0e565427
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1644bfba3332b0f023aa8d70aefd2680d4220d8a
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
@@ -130,27 +130,42 @@ Realice los siguientes pasos para convertir los documentos de InDesign existente
 
    `/libs/fmdita/config/idml2dita_io.xml`
 
-1. Cree un nodo de superposición de la carpeta `config` dentro del nodo `apps`.
+1. Para crear una configuración personalizada según sus necesidades, cree un nodo de superposición de la carpeta `config` dentro del nodo `apps`.
+
+1. Copie los siguientes archivos o carpetas de la carpeta `libs` a la carpeta de aplicaciones:
+
+   - `/fmdita/config/idml2dita_io.xml`
+   - `/fmdita/idml2dita/config`
+   - `/fmdita/idml2dita/xsl`
 
 1. Vaya al archivo de configuración disponible en el nodo `apps`:
 
    `/apps/fmdita/config/idml2dita_io.xml`
 
-   Configure los siguientes parámetros en el archivo `idml2dita_io.xml`:
+1. Agregue la asignación de las configuraciones presentes en la carpeta `idml12dita` dentro del archivo `idml2dita_io.xml`.
+1. Agregue las siguientes propiedades en el archivo `idml2dita_io.xml`:
 
-   - En el elemento `inputDir`, especifique la ubicación de la carpeta de entrada donde están disponibles los documentos de InDesign de origen. Por ejemplo, si los documentos de InDesign están almacenados en una carpeta denominada `indesigntodita` en `projects`, especifique la ubicación como: `/content/dam/idmlfiles/indesigntodita/`
+   ```
+   <entry key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
+   
+   <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
+   ```
 
-   - En el elemento `outputDir`, especifique la ubicación de la carpeta de salida o mantenga la ubicación de salida predeterminada para guardar el documento DITA convertido. Si la carpeta de salida especificada no existe en DAM, el flujo de trabajo de conversión crea la carpeta de salida.
+Configure los siguientes parámetros en el archivo `idml2dita_io.xml`:
 
-   - En el elemento `mapStyle`, especifique la ubicación del archivo de asignación que contiene asignaciones para estilos de documento de InDesign a elementos DITA. La asignación predeterminada se almacena en el archivo ubicado en:
+- En el elemento `inputDir`, especifique la ubicación de la carpeta de entrada donde están disponibles los documentos de InDesign de origen. Por ejemplo, si los documentos de InDesign están almacenados en una carpeta denominada `indesigntodita` en `projects`, especifique la ubicación como: `/content/dam/idmlfiles/indesigntodita/`
 
-     ```XML
-     /stmap.adobeidml.xml
-     ```
+- En el elemento `outputDir`, especifique la ubicación de la carpeta de salida o mantenga la ubicación de salida predeterminada para guardar el documento DITA convertido. Si la carpeta de salida especificada no existe en DAM, el flujo de trabajo de conversión crea la carpeta de salida.
 
-     >[!NOTE]
-     >
-     > Para obtener más información acerca de la estructura del archivo `stmap.adobeidml.xml` y cómo personalizarlo, consulte la sección [Preparar el archivo de asignación para la migración de InDesign a DITA](appendix.md#id194AF0003HT) en *Apéndice*.
+- En el elemento `mapStyle`, especifique la ubicación del archivo de asignación que contiene asignaciones para estilos de documento de InDesign a elementos DITA. La asignación predeterminada se almacena en el archivo ubicado en:
+
+```XML
+    /stmap.adobeidml.xml
+```
+
+>[!NOTE]
+>
+> Para obtener más información acerca de la estructura del archivo `stmap.adobeidml.xml` y cómo personalizarlo, consulte la sección [Preparar el archivo de asignación para la migración de InDesign a DITA](appendix.md#id194AF0003HT) en *Apéndice*.
 
 1. Guarde el archivo `idml2dita_io.xml`.
 

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: ff34f8b21d3e930ed332a360e90040a14b219f75
+source-git-commit: 3540c27fcfb856a0ee6b669c3d7a573331324817
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1879'
 ht-degree: 7%
 
 ---
@@ -72,6 +72,11 @@ ht-degree: 7%
             - [Notas de la versión de enero](./release-info/release-notes-2022-1-0.md)
       - Local/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] versiones](./release-info/latest-release-info.md)
+         - Versión 4.6.0 {#460-release}
+            - [Novedades](./release-info/whats-new-4-6.md)
+            - [Problemas solucionados](./release-info/fixed-issues-4-6-0.md)
+            - [Instrucciones de actualización](./release-info/upgrade-instructions-4-6-0.md)
+
          - Versión 4.4.0 {#440-release}
             - [Novedades](./release-info/whats-new-4-4.md)
             - [Problemas solucionados](./release-info/fixed-issues-4-4.md)
@@ -206,6 +211,7 @@ ht-degree: 7%
       - [Solución de problemas básica](./user-guide/generate-output-basic-troubleshooting.md)
       - [Fragmentos de contenido de Publish](./user-guide/publish-content-fragment.md)
       - [Fragmentos de experiencia de Publish](./user-guide/publish-experience-fragment.md)
+      - [Páginas de Publish AEM Sites](./user-guide/publish-aem-sites.md)
       - Activación masiva del contenido {#bulk-activation}
          - [Activación masiva de contenido publicado](./user-guide/conf-bulk-activation.md)
          - [Creación de una colección de mapas de activación masiva](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -247,8 +253,8 @@ ht-degree: 7%
       - Migración de contenido {#content-migration}
          - [Migración de contenido de no UUID a UUID](./install-guide/migrate-uuid-non-uuid.md)
          - Proceso de migración {#migration-process}
-            - [Migración de contenido que no sea UUID con versiones](./install-guide/migrate-non-uuid-uuid-new.md)
-            - [Migrar contenido no UUID con versiones (heredadas)](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+            - [Migración de contenido que no sea UUID con versiones](./install-guide/migrate-non-uuid-uuid.md)
+            - [Migrar contenido no UUID con versiones (heredadas)](./install-guide/migrate-non-uuid-uuid-with-versions-legacy.md)
          - [Migrar contenido existente](./install-guide/migrate-content.md)
          - [Cargar contenido DITA existente](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [Migración de contenido no DITA](./install-guide/migrate-content-non-dita.md)
@@ -284,7 +290,6 @@ ht-degree: 7%
          - [Configuración de filtros de texto](./install-guide/config-text-filters.md)
          - [Configuración del número de LimitReads de una consulta](./install-guide/conf-query-limitreads.md)
          - [Instalación de paquetes para la publicación basada en artículos](./install-guide/configure-article-based-publishing.md)
-         - [Configuración de un conector de fuente de datos](./install-guide/conf-data-source-connector.md)
          - [Configuración de un conector de fuente de datos desde la interfaz de usuario](./install-guide/conf-data-source-connector-tools.md)
          - [Establecer el Editor de mapas avanzado como predeterminado](./install-guide/conf-map-editor.md)
          - [Incluir @navtitle atributo de forma predeterminada](./install-guide/auto-add-navtitle.md)
@@ -377,7 +382,8 @@ ht-degree: 7%
          - [Configuración de perfiles globales o de nivel de carpeta](./cs-install-guide/conf-folder-level.md)
       - Configurar versiones {#version-mgt-cs}
          - [Administración de versiones](./cs-install-guide/version-management.md)
-      - Trabajar con la configuración de generación de resultados {#output-gen-config-cs}
+      - Trabajar con editores XML basados en escritorio {#desktop-xml-editor}
+         - Trabajar con la configuración de generación de resultados {#output-gen-config-cs}
          - [Configuración de la generación de salida](./cs-install-guide/conf-output-generation.md)
          - [Publicación de PDF nativa](./cs-install-guide/native-pdf-publishing.md)
          - [Configuración del proceso de nodo para la publicación nativa de PDF](./native-pdf/configure-node-options.md)
@@ -468,6 +474,10 @@ ht-degree: 7%
                - [Componentes](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Personalización](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
                - [Cuadro de diálogo personalizado](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
+      - Origen de datos externo {#external-data-source}
+         - [Integración de fuentes de datos](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
+         - [Configuración de un conector de fuente de datos](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
+
       - Publicación {#publishing}
          - DITA-OT {#dita-ot}
             - [AEM Usar metadatos de la en el complemento](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)

@@ -4,7 +4,7 @@ description: Busque vídeos de tutoriales para Experience Manager Guides (anteri
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
 feature: AEM Guides Tutorials
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: fb4b5fa72cc0643810e4c299dd827803687f0bc4
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 2%
@@ -36,7 +36,6 @@ Con la solución [!DNL AEM Guides], las empresas pueden ofrecer experiencias per
 * **[Generación de resultados con [!DNL AEM Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**
 
   _Obtenga información sobre cómo generar resultados usando [!DNL Adobe Experience Manager Guides]. Obtenga información acerca de las diversas características disponibles para la generación de resultados: informes, líneas de base, condiciones, solución de problemas, publicación en lotes y activación._
-
 
 <!--
 
@@ -90,9 +89,9 @@ Dummy links cause validation to fail
 
 -->
 
-
 ## Recursos adicionales
 
 * [[!DNL AEM Guides] Guía del usuario en línea](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
 * [[!DNL AEM Guides] Guías del PDF](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League AEM - Explorar el](https://experienceleague.adobe.com/?lang=es#recommended/solutions/experience-manager)
+

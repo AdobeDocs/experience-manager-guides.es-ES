@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 98fec02367c7e3f33f2511e51675d9e02e41170a
+source-git-commit: 5e02c3bdecda68dfcaac225626a2a47e4af5f30f
 workflow-type: tm+mt
-source-wordcount: '5940'
+source-wordcount: '6943'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,14 @@ ht-degree: 0%
 >
 > Siga las instrucciones de actualización específicas de la versión con licencia del producto.
 
-Puede actualizar su versión actual de Experience Manager Guides a la versión 4.4.0:
+Puede actualizar su versión actual de Experience Manager Guides a la versión 4.6.0:
 
-- Si utiliza las versiones 4.3.1.5, 4.3.1, 4.3.0 o 4.2.1 (revisión 4.2.1.3), puede actualizar directamente a la versión 4.4.0.
-- Si utiliza las versiones 4.2, 4.1 o 4.1.x, debe actualizar a las versiones 4.3.1, 4.3.0 o 4.2.1 (revisión 4.2.1.3) antes de actualizar a la versión 4.4.0.
+
+- Si utiliza las versiones 4.4, 4.3.1 o 4.3.0 , puede actualizar directamente a la versión 4.6.0.
+- Si utiliza las versiones 4.2, 4.2.1 (revisión 4.2.1.3), 4.1 o 4.1.x, debe actualizar a la versión 4.4 antes de actualizar a la versión 4.6.0.
 - Si utiliza la versión 4.0, debe actualizar a la versión 4.2 antes de actualizar a la versión 4.3.x.
 - Si utiliza la versión 3.8.5, debe actualizar a la versión 4.0 antes de actualizar a la versión 4.2.
-- Si su versión es anterior a la 3.8.5, consulte la sección Actualización de Experience Manager Guides en la guía de instalación específica del producto.
+- Si tiene una versión anterior a la 3.8.5, consulte la sección Actualizar Experience Manager Guides en la guía de instalación específica del producto disponible en [Archivo del PDF de ayuda de Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -40,6 +41,8 @@ Para obtener más información, consulte los siguientes procedimientos:
 - [Actualización a la versión 4.3.1](#upgrade-version-4-3-1)
 - [Actualización a la versión 4.3.1.5](#upgrade-version-4-3-1-5)
 - [Actualización a la versión 4.4.0](#upgrade-version-4-4-0)
+- [Actualización a la versión 4.6.0](#upgrade-version-4-6-0)
+
 
 
 >[!IMPORTANT]
@@ -174,7 +177,7 @@ Después de instalar Experience Manager Guides, puede combinar las distintas con
 >
 > El modelo dam-update-asset se puede personalizar. Por lo tanto, si se ha realizado alguna personalización, es necesario sincronizar las personalizaciones y Experience Manager Guides en la copia de trabajo del modelo.
 
-1. **Flujo de trabajo del recurso de actualización DAM \(cambios en el procesamiento de Post\):**
+1. **Flujo de trabajo del recurso de actualización DAM \(Cambios posteriores al procesamiento\):**
 
 1. Abrir URL:
 
@@ -184,21 +187,21 @@ Después de instalar Experience Manager Guides, puede combinar las distintas con
 
 1. Seleccione **flujo de trabajo del recurso de actualización DAM**.
 1. Haz clic en **Editar**.
-1. Si el componente **DXML Post Process Initiator** está presente, asegúrese de que las personalizaciones estén sincronizadas.
-1. Si el componente **DXML Post Process Initiator** está ausente, realice los siguientes pasos para insertarlo:
+1. Si el componente **Iniciador de procesamiento posterior DXML** está presente, asegúrese de que las personalizaciones estén sincronizadas.
+1. Si el componente **Iniciador de procesamiento posterior DXML** no está presente, realice los siguientes pasos para insertarlo:
 
 1. Haga clic en **Insertar componente** \(Responsable del posprocesamiento de Experience Manager Guides como paso final del proceso\).
 1. Configure el **paso del proceso** con los siguientes detalles:
 
    **Ficha común**
 
-   **Título:** Iniciador de proceso de DXML Post
+   **Título:** Iniciador de procesamiento posterior DXML
 
    **Descripción**: paso del iniciador posterior del proceso DXML que almacenará en déclencheur un trabajo sling para el posprocesamiento DXML del recurso modificado/creado
 
    **Ficha de proceso**
 
-   - Seleccione **Iniciador de proceso DXML de Post** de la lista desplegable **Proceso**
+   - Seleccione **Iniciador de procesamiento posterior DXML** de la lista desplegable **Proceso**
 
    - Seleccionar **avance de controlador**
 
@@ -391,7 +394,7 @@ Después de instalar Experience Manager Guides, puede combinar las distintas con
 >
 > El modelo dam-update-asset se puede personalizar. Por lo tanto, si se ha realizado alguna personalización, es necesario sincronizar las personalizaciones y Experience Manager Guides en la copia de trabajo del modelo.
 
-1. **Flujo de trabajo del recurso de actualización DAM \(cambios en el procesamiento de Post\):**
+1. **Flujo de trabajo del recurso de actualización DAM \(Cambios posteriores al procesamiento\):**
 
 1. Abrir URL:
 
@@ -401,21 +404,21 @@ Después de instalar Experience Manager Guides, puede combinar las distintas con
 
 1. Seleccione **flujo de trabajo del recurso de actualización DAM**.
 1. Haz clic en **Editar**.
-1. Si el componente **DXML Post Process Initiator** está presente, asegúrese de que las personalizaciones estén sincronizadas.
-1. Si el componente **DXML Post Process Initiator** está ausente, realice los siguientes pasos para insertarlo:
+1. Si el componente **Iniciador de procesamiento posterior DXML** está presente, asegúrese de que las personalizaciones estén sincronizadas.
+1. Si el componente **Iniciador de procesamiento posterior DXML** no está presente, realice los siguientes pasos para insertarlo:
 
 1. Haga clic en **Insertar componente** \(Responsable del posprocesamiento de Experience Manager Guides como paso final del proceso\).
 1. Configure el **paso del proceso** con los siguientes detalles:
 
    **Ficha común**
 
-   **Título:** Iniciador de proceso de DXML Post
+   **Título:** Iniciador de procesamiento posterior DXML
 
    **Descripción**: paso del iniciador posterior del proceso DXML que almacenará en déclencheur un trabajo sling para el posprocesamiento DXML del recurso modificado/creado
 
    **Ficha de proceso**
 
-   - Seleccione **Iniciador de proceso DXML de Post** de la lista desplegable **Proceso**
+   - Seleccione **Iniciador de procesamiento posterior DXML** de la lista desplegable **Proceso**
 
    - Seleccionar **avance de controlador**
 
@@ -619,7 +622,7 @@ Después de instalar Experience Manager Guides, puede combinar las distintas con
 >
 > El modelo dam-update-asset se puede personalizar. Por lo tanto, si se ha realizado alguna personalización, es necesario sincronizar las personalizaciones y Experience Manager Guides en la copia de trabajo del modelo.
 
-1. **Flujo de trabajo del recurso de actualización DAM \(cambios en el procesamiento de Post\):**
+1. **Flujo de trabajo del recurso de actualización DAM \(Cambios posteriores al procesamiento\):**
 
 1. Abrir URL:
 
@@ -629,21 +632,21 @@ Después de instalar Experience Manager Guides, puede combinar las distintas con
 
 1. Seleccione **flujo de trabajo del recurso de actualización DAM**.
 1. Haz clic en **Editar**.
-1. Si el componente **DXML Post Process Initiator** está presente, asegúrese de que las personalizaciones estén sincronizadas.
-1. Si el componente **DXML Post Process Initiator** está ausente, realice los siguientes pasos para insertarlo:
+1. Si el componente **Iniciador de procesamiento posterior DXML** está presente, asegúrese de que las personalizaciones estén sincronizadas.
+1. Si el componente **Iniciador de procesamiento posterior DXML** no está presente, realice los siguientes pasos para insertarlo:
 
 1. Haga clic en **Insertar componente** \(Responsable del posprocesamiento de Experience Manager Guides como paso final del proceso\).
 1. Configure el **paso del proceso** con los siguientes detalles:
 
    **Ficha común**
 
-   **Título:** Iniciador de proceso de DXML Post
+   **Título:** Iniciador de procesamiento posterior DXML
 
    **Descripción**: paso del iniciador posterior del proceso DXML que almacenará en déclencheur un trabajo sling para el posprocesamiento DXML del recurso modificado/creado
 
    **Ficha de proceso**
 
-   - Seleccione **Iniciador de proceso DXML de Post** de la lista desplegable **Proceso**
+   - Seleccione **Iniciador de procesamiento posterior DXML** de la lista desplegable **Proceso**
 
    - Seleccionar **avance de controlador**
 
@@ -822,7 +825,7 @@ Después de instalar Experience Manager Guides, puede combinar las distintas con
 >
 > El modelo dam-update-asset se puede personalizar. Por lo tanto, si se ha realizado alguna personalización, es necesario sincronizar las personalizaciones y Experience Manager Guides en la copia de trabajo del modelo.
 
-1. **Flujo de trabajo del recurso de actualización DAM \(cambios en el procesamiento de Post\):**
+1. **Flujo de trabajo del recurso de actualización DAM \(Cambios posteriores al procesamiento\):**
 
 1. Abrir URL:
 
@@ -832,21 +835,21 @@ Después de instalar Experience Manager Guides, puede combinar las distintas con
 
 1. Seleccione **flujo de trabajo del recurso de actualización DAM**.
 1. Haz clic en **Editar**.
-1. Si el componente **DXML Post Process Initiator** está presente, asegúrese de que las personalizaciones estén sincronizadas.
-1. Si el componente **DXML Post Process Initiator** está ausente, realice los siguientes pasos para insertarlo:
+1. Si el componente **Iniciador de procesamiento posterior DXML** está presente, asegúrese de que las personalizaciones estén sincronizadas.
+1. Si el componente **Iniciador de procesamiento posterior DXML** no está presente, realice los siguientes pasos para insertarlo:
 
 1. Haga clic en **Insertar componente** \(Responsable del posprocesamiento de Experience Manager Guides como paso final del proceso\).
 1. Configure el **paso del proceso** con los siguientes detalles:
 
    **Ficha común**
 
-   **Título:** Iniciador de proceso de DXML Post
+   **Título:** Iniciador de procesamiento posterior DXML
 
    **Descripción**: paso del iniciador posterior del proceso DXML que almacenará en déclencheur un trabajo sling para el posprocesamiento DXML del recurso modificado/creado
 
    **Ficha de proceso**
 
-   - Seleccione **Iniciador de proceso DXML de Post** de la lista desplegable **Proceso**
+   - Seleccione **Iniciador de procesamiento posterior DXML** de la lista desplegable **Proceso**
 
    - Seleccionar **avance de controlador**
 
@@ -977,3 +980,163 @@ Durante esta actualización, dado que el valor `'order'` ha cambiado de 1000 a 5
 
 
 **Tema principal:**[ Descargar e instalar](download-install.md)
+
+
+## Actualización a la versión 4.6.0 {#upgrade-version-4-6-0}
+
+La actualización a la versión 4.6.0 depende de la versión actual de Experience Manager Guides. Si utiliza las versiones 4.4.0, 4.3.1, 4.3.0, 4.2 o 4.2.1 (revisión 4.2.1.3), puede actualizar directamente a la versión 4.6.0
+
+>[!NOTE]
+>
+>El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
+
+****Requisitos previos****
+
+Antes de iniciar el proceso de actualización de Experience Manager Guides 4.6.0, asegúrese de lo siguiente:
+
+1. Se ha actualizado a la versión de Experience Manager Guides 4.3.1, 4.3.0 o 4.2.1 (revisión 4.2.1.3) y se han completado los pasos de instalación correspondientes.
+1. (Opcional) Cerró todas las tareas de traducción.
+1. Se ha cambiado el nivel de registro a **INFO** para la clase `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` y se han anexado estos registros a un nuevo archivo de registro, por ejemplo, `logs/translation_upgrade.log`.
+
+
+## Instalar versión 4.6.0
+
+1. Descargue el paquete de la versión 4.6.0 del [Portal de distribución de software de Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html).
+1. Instale el paquete de la versión 4.6.0.
+1. Puede elegir ENTRAR en el déclencheur para iniciar el trabajo de actualización del mapa de traducción. Para obtener más información, consulte [Habilitar el déclencheur del script mediante un servlet](#enable-trigger-serverlet-4-6-0).
+
+1. Después de completar la instalación del paquete, espere a que aparezca el siguiente mensaje en los registros:
+
+   `Completed the post deployment setup script`
+
+   El mensaje anterior indica que se han completado todos los pasos de la instalación.
+
+   Si encuentra cualquiera de los siguientes prefijos ERROR, informe de ellos a su equipo de éxito del cliente:
+
+   - Error en el script de configuración posterior a la implementación
+   - Excepción al transferir el mapa de traducción
+   - No se puede portar el mapa de traducción de v1 a v2 para la propiedad
+1. Actualice el complemento Conector de oxígeno lanzado con la versión 4.6.0 \(si es necesario\).
+1. Borre la caché del explorador después de instalar el paquete.
+
+## Después de instalar la versión 4.6.0
+
+Después de instalar Experience Manager Guides, puede combinar las distintas configuraciones aplicables desde la versión recién instalada con la configuración.
+
+>[!NOTE]
+>
+> El modelo dam-update-asset se puede personalizar. Por lo tanto, si se ha realizado alguna personalización, es necesario sincronizar las personalizaciones y Experience Manager Guides en la copia de trabajo del modelo.
+
+1. **Flujo de trabajo del recurso de actualización DAM \(Cambios posteriores al procesamiento\):**
+
+1. Abrir URL:
+
+   ```
+   http://localhost:4502/libs/cq/workflow/admin/console/content/models.html 
+   ```
+
+1. Seleccione **flujo de trabajo del recurso de actualización DAM**.
+1. Haz clic en **Editar**.
+1. Si el componente **Iniciador de procesamiento posterior DXML** está presente, asegúrese de que las personalizaciones estén sincronizadas.
+1. Si el componente **Iniciador de procesamiento posterior DXML** no está presente, realice los siguientes pasos para insertarlo:
+
+1. Haga clic en **Insertar componente** \(Responsable del posprocesamiento de Experience Manager Guides como paso final del proceso\).
+1. Configure el **paso del proceso** con los siguientes detalles:
+
+   **Ficha común**
+
+   **Título:** Iniciador de procesamiento posterior DXML
+
+   **Descripción**: paso del iniciador posterior del proceso DXML que almacenará en déclencheur un trabajo sling para el posprocesamiento DXML del recurso modificado/creado
+
+   **Ficha de proceso**
+
+   - Seleccione **Iniciador de procesamiento posterior DXML** de la lista desplegable **Proceso**
+
+   - Seleccionar **avance de controlador**
+
+   - Seleccionar **Listo**
+
+1. Haga clic en **Sincronizar** en la parte superior derecha después de completar los cambios. Recibirá una notificación de éxito.
+
+   >[!NOTE]
+   >
+   > Actualice y compruebe que los cambios personalizados y el paso posterior al procesamiento de Experience Manager Guides estén presentes en el modelo final de flujo de trabajo.
+
+1. Una vez validado **flujo de trabajo del recurso de actualización DAM**, compruebe las configuraciones del iniciador correspondientes. AEM Para ello, vaya a la interfaz de flujo de trabajo de la y abra los iniciadores.
+
+   ```http
+   http://localhost:4502/libs/cq/workflow/content/console.html
+   ```
+
+   Busque y realice cambios \(si es necesario\) en los dos iniciadores siguientes \(que deberían estar activos\) correspondientes a **flujo de trabajo de recursos de actualización de DAM**:
+
+1. Lanzador para &quot;*Nodo creado*&quot; para **flujo de trabajo del recurso de actualización DAM**- para la condición `"jcr:content/jcr:mimeType!=video"`, el valor &#39;Globbing&#39; debe ser:
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - &#39;excludeList&#39; debe tener `"event-user-data:changedByWorkflowProcess"`.
+   - Lanzador para &quot;*Nodo modificado*&quot; para **flujo de trabajo de recursos de actualización DAM -** para la condición &quot;`jcr:content/jcr:mimeType!=video`&quot;, el valor &#39;Globbing&#39; debe ser:
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - `excludeList` debe tener `"event-user-data:changedByWorkflowProcess"`.
+
+1. Una vez completada la actualización, asegúrese de que cualquiera de las personalizaciones/superposiciones se valide y actualice para que coincida con el nuevo código de la aplicación. A continuación se ofrecen algunos ejemplos:
+   - Cualquier componente superpuesto de /libs/fmidator/libs debe compararse con el nuevo código de producto y las actualizaciones deben realizarse en archivos superpuestos en /apps.
+   - Cualquier categoría clientlib utilizada desde el producto debe revisarse para ver si hay cambios. Cualquier configuración anulada \(ejemplos abajo\) debe compararse con las más recientes para obtener las últimas funciones:
+   - elementmapping.xml
+   - ui\_config.json\(puede haberse configurado en perfiles de carpeta\)
+   - se modificó `com.adobe.fmdita.config.ConfigManager`
+
+1. Si ha añadido personalizaciones en damAssetLucene, es posible que tenga que volver a aplicarlas. Después de realizar estos cambios, establezca reindex como true. Esto reindexará todos los nodos existentes con las personalizaciones. Una vez finalizado, el indicador de reindexación se volverá a establecer en &quot;false&quot;. Esto puede tardar unas horas, según la cantidad de recursos que haya en el sistema.
+
+## Pasos para reindexar los índices de Experience Manager Guides
+
+1. Abra `crx/de` y vaya a la ruta de acceso del índice: `/oak:index/guidesAssetProperties`
+2. Establezca la propiedad reindex como `true` (`false` de forma predeterminada) y haga clic en **Guardar todo**.
+3. Una vez completado el reíndice, la propiedad reindex se vuelve a establecer en `false` y el recuento de reíndices se incrementa en 1.
+
+   >[!NOTE]
+   >
+   > Esto puede tardar unos minutos, según la cantidad de datos presentes.
+4. Siga los mismos pasos para otros índices agregados o modificados: `guidesBulkActivation`, `guidesPeerLinkIndex` y `guidesKonnectTemplateIndex`.
+
+## Pasos para indexar el contenido existente
+
+
+
+Siga estos pasos para indexar el contenido existente:
+
+- Ejecute una solicitud de POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de los mapas para indexarlas, de forma predeterminada se indexarán todas las asignaciones || Ejemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+
+- La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID de trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+
+- Una vez completado el trabajo, la solicitud de GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
+
+
+>[!NOTE]
+>
+> AEM Si está utilizando el esquema personalizado, debe definir la ruta de los archivos DTD y XSD catalog.xml personalizados en el repositorio de en la opción **Integrar catálogos**.
+
+
+
+
+## Pasos para gestionar el conflicto `'fmdita rewriter'`
+
+Experience Manager Guides tiene un módulo [**reescritor de sling personalizado**](../cs-install-guide/conf-output-generation.md#custom-rewriter) para administrar los vínculos generados en caso de mapas cruzados (vínculos entre los temas de dos mapas diferentes).
+
+Si tiene otra reescritura de sling personalizada en la base de código, utilice un valor de `'order'` mayor que 50, ya que la reescritura de sling de Experience Manager Guides utiliza `'order'` 50.  Para anular esto, necesita un valor >50. Para obtener más información, vea [Canalizaciones de reescritura de salida](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+
+Durante esta actualización, dado que el valor `'order'` ha cambiado de 1000 a 50, debe combinar la reescritura personalizada existente, si la hay, con `'fmdita-rewriter'`.
+
+
+
+
+
+
+**Tema principal:** [Descargar e instalar](download-install.md)
