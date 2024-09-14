@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: 3540c27fcfb856a0ee6b669c3d7a573331324817
+source-git-commit: a9f8622dc5a2647bcff32c8895700d5c5933be4a
 workflow-type: tm+mt
-source-wordcount: '1879'
-ht-degree: 7%
+source-wordcount: '1889'
+ht-degree: 6%
 
 ---
 
@@ -482,6 +482,7 @@ ht-degree: 7%
          - DITA-OT {#dita-ot}
             - [AEM Usar metadatos de la en el complemento](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
          - [AEM Configuración del entorno para la publicación nativa de PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+         - [Añadir la promoción de marca empresarial a la primera página de un PDF](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
          - [Generación de la tabla de contenido de Bookmap en la publicación nativa de PDF](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
          - [FMPS y guías](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Arquitectura y rendimiento de microservicios](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
