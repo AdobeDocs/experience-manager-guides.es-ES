@@ -5,9 +5,9 @@ exl-id: a0eeb43c-06e4-4922-a005-704e8929063f
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 83971ee35a19cf0146ddd034b1ae7a345f587663
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '489'
 ht-degree: 1%
 
 ---
@@ -55,4 +55,20 @@ La próxima vez que cree un nuevo mapa, la plantilla se mostrará en la página 
 >
 > Consulte *la sección Plantillas personalizadas* en la guía de prácticas recomendadas para conocer las prácticas recomendadas sobre el uso de plantillas de mapas personalizadas.
 
-**Tema principal:**[ Configurar plantillas de temas y asignaciones](conf-template-tags.md)
+
+## Personalización del número de referencias en un mapa DITA
+
+Se puede configurar el umbral para el procesamiento asincrónico en función del número de referencias del mapa DITA. De forma predeterminada, las asignaciones con más de 5 referencias se crearán mediante operaciones asincrónicas, mientras que las asignaciones con menos referencias seguirán utilizando operaciones sincrónicas.
+
+
+Siga las instrucciones indicadas en [Anulaciones de configuración](download-install-additional-config-override.md#) para crear el archivo de configuración. En el fichero de configuración, proporcione los siguientes detalles (propiedad) para especificar el número de referencias en la plantilla de mapa DITA para mantener el proceso síncrono:
+
+| PID | Clave de propiedad | Valor de propiedad |
+|---|------------|--------------|
+| com.adobe.fmdita.xmleditor.config.XmlEditorConfig | xmleditor.asyncmapcreation | > 0 <br> **Valor predeterminado**: 5 |
+
+Al crear un mapa DITA con referencias de temas grandes mediante una plantilla personalizada, la creación del mapa fallaría en el servidor de la nube si el tiempo total de procesamiento supera los 60 segundos.
+
+Para evitarlo, configure la **creación asincrónica de asignaciones de datos** en XmlEditorConfig, que permite que las tareas se ejecuten en paralelo y reduzca los tiempos de procesamiento para asignaciones DITA más grandes.
+
+**Tema principal:** [Configurar plantillas de temas y asignaciones](conf-template-tags.md)

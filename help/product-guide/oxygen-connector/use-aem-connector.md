@@ -6,9 +6,9 @@ hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: 6c89275df6bdcd031c45956aeb06b6c3e5753208
+source-git-commit: b2b26a85236245f989866ab8ee801a930ed8a8c4
 workflow-type: tm+mt
-source-wordcount: '6293'
+source-wordcount: '6347'
 ht-degree: 0%
 
 ---
@@ -346,7 +346,7 @@ AEM Una vez que se haya conectado al repositorio de, puede abrir los archivos pa
 
 1. Haga clic con el botón derecho en un archivo del panel de AEM Guides que desee abrir para editarlo.
 
-1. Seleccione **Abrir** en el menú contextual.
+1. Seleccione **Abrir** en el menú contextual. O puede hacer doble clic en el archivo para abrirlo.
 
    El archivo se abre en el editor de Oxygen XML Author.
 
@@ -354,12 +354,14 @@ AEM Una vez que se haya conectado al repositorio de, puede abrir los archivos pa
 
    Cuando pasa el puntero del ratón sobre la pestaña de un archivo, se muestra la ruta del servidor junto con su UUID. En la captura de pantalla anterior, se resalta el UUID del documento.
 
+>[!NOTE]
+>
+>Al pasar el ratón por encima de las imágenes o los vídeos de un tema en el editor de Oxygen XML Author, solo se muestra el UUID del elemento seleccionado. Para localizarlo en el repositorio, haga clic con el botón derecho en la imagen mostrada o en la etiqueta del objeto (solo en el caso de vídeos, audios y otros archivos multimedia) y seleccione **Mostrar en el repositorio**.
+
+
 
 Si ha seleccionado la opción \(en el cuadro de diálogo Preferencias\) **Desproteger automáticamente el archivo al abrirlo**, al abrirlo, el archivo se desprotege automáticamente y está disponible para su edición. Para abrir un archivo, puedes hacer doble clic en el nombre de un archivo o hacer clic con el botón derecho en el nombre del archivo y elegir **Abrir** en el menú contextual. Si no se selecciona esta opción, el archivo se abre en modo de solo lectura.
 
->[!NOTE]
->
->También puede hacer doble clic en un archivo para abrirlo.
 
 ### Abrir archivo en el editor de AEM Guides {#id195GH0V30KX}
 

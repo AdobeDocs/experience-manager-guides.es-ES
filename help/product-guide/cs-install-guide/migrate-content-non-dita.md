@@ -5,9 +5,9 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: cddbd7a19d4dfaa3f6549ed1bd511eeeb02acbb2
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -137,12 +137,29 @@ Realice los siguientes pasos para convertir los documentos de InDesign existente
 1. Vaya al archivo de configuración predeterminado disponible en la siguiente ubicación:
 
    `/libs/fmdita/config/idml2dita_io.xml`
+1. Para crear una configuración personalizada según sus necesidades, cree un nodo de superposición de la carpeta `config` dentro del nodo `apps`.
 
-1. Cree un nodo de superposición de la carpeta `config` dentro del nodo `apps`.
+1. Copie los siguientes archivos o carpetas de la carpeta `libs` a la carpeta de aplicaciones:
+
+   - `/fmdita/config/idml2dita_io.xml`
+   - `/fmdita/idml2dita/config`
+   - `/fmdita/idml2dita/xsl`
 
 1. Vaya al archivo de configuración disponible en el nodo `apps`:
 
    `/apps/fmdita/config/idml2dita_io.xml`
+
+1. Agregue la asignación de las configuraciones presentes en la carpeta `idml12dita` dentro del archivo `idml2dita_io.xml`.
+1. Agregue las siguientes propiedades en el archivo `idml2dita_io.xml`:
+
+   ```
+   <entry          key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
+   
+   <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
+   ```
+
+1. Cree un nodo de superposición de la carpeta `config` dentro del nodo `apps`.
+
 
    Configure los siguientes parámetros en el archivo `idml2dita_io.xml`:
 
