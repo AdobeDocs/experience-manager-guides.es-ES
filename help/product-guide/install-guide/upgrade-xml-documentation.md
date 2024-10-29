@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 5e02c3bdecda68dfcaac225626a2a47e4af5f30f
+source-git-commit: f74362c78532ddd7721faf66789281a8c0704194
 workflow-type: tm+mt
-source-wordcount: '6943'
+source-wordcount: '6995'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,11 @@ ht-degree: 0%
 >
 > Siga las instrucciones de actualización específicas de la versión con licencia del producto.
 
-Puede actualizar su versión actual de Experience Manager Guides a la versión 4.6.0:
+Puede actualizar su versión actual de Experience Manager Guides a la versión 4.6.1:
 
 
-- Si utiliza las versiones 4.4, 4.3.1 o 4.3.0 , puede actualizar directamente a la versión 4.6.0.
+- Si utiliza la versión 4.6.0, puede actualizar directamente a la versión 4.6.1.
+- Si utiliza las versiones 4.4, 4.3.1 o 4.3.0 , debe actualizar a la versión 4.6.0 antes de actualizar a la 4.6.1.
 - Si utiliza las versiones 4.2, 4.2.1 (revisión 4.2.1.3), 4.1 o 4.1.x, debe actualizar a la versión 4.4 antes de actualizar a la versión 4.6.0.
 - Si utiliza la versión 4.0, debe actualizar a la versión 4.2 antes de actualizar a la versión 4.3.x.
 - Si utiliza la versión 3.8.5, debe actualizar a la versión 4.0 antes de actualizar a la versión 4.2.
@@ -984,11 +985,15 @@ Durante esta actualización, dado que el valor `'order'` ha cambiado de 1000 a 5
 
 ## Actualización a la versión 4.6.0 {#upgrade-version-4-6-0}
 
-La actualización a la versión 4.6.0 depende de la versión actual de Experience Manager Guides. Si utiliza las versiones 4.4.0, 4.3.1, 4.3.0, 4.2 o 4.2.1 (revisión 4.2.1.3), puede actualizar directamente a la versión 4.6.0
+>[!TIP]
+>
+> Se recomienda instalar la revisión 4.6.1 sobre la versión 4.6.0. El proceso de actualización para la versión 4.6.1 sigue los mismos pasos que en la versión 4.6.0.
+
+La actualización a la versión 4.6.0 depende de la versión actual de Experience Manager Guides. Si utiliza las versiones 4.4.0, 4.3.1, 4.3.0, 4.2 o 4.2.1 (revisión 4.2.1.3), puede actualizar directamente a la versión 4.6.0.
 
 >[!NOTE]
 >
->El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
+> El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
 
 ****Requisitos previos****
 
