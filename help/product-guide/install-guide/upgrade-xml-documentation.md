@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: f74362c78532ddd7721faf66789281a8c0704194
+source-git-commit: 2362870e0e3e6c08df03e8c547bb77de7faa0a02
 workflow-type: tm+mt
-source-wordcount: '6995'
+source-wordcount: '7008'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 >
 > Siga las instrucciones de actualización específicas de la versión con licencia del producto.
 
-Puede actualizar su versión actual de Experience Manager Guides a la versión 4.6.1:
+Puede actualizar su versión actual de Experience Manager Guides a la versión 4.6.0 Service Pack 1:
 
 
-- Si utiliza la versión 4.6.0, puede actualizar directamente a la versión 4.6.1.
-- Si utiliza las versiones 4.4, 4.3.1 o 4.3.0 , debe actualizar a la versión 4.6.0 antes de actualizar a la 4.6.1.
+- Si utiliza la versión 4.6.0, puede actualizar directamente al paquete de servicio 1 4.6.0.
+- Si utiliza las versiones 4.4, 4.3.1 o 4.3.0 , debe actualizar a la versión 4.6.0 antes de actualizar al paquete de servicio 1 4.6.0.
 - Si utiliza las versiones 4.2, 4.2.1 (revisión 4.2.1.3), 4.1 o 4.1.x, debe actualizar a la versión 4.4 antes de actualizar a la versión 4.6.0.
 - Si utiliza la versión 4.0, debe actualizar a la versión 4.2 antes de actualizar a la versión 4.3.x.
 - Si utiliza la versión 3.8.5, debe actualizar a la versión 4.0 antes de actualizar a la versión 4.2.
@@ -48,11 +48,11 @@ Para obtener más información, consulte los siguientes procedimientos:
 
 >[!IMPORTANT]
 >
-> Antes de comenzar la actualización, realice una copia de seguridad completa del sistema para evitar la pérdida de datos.
+> Antes de comenzar a actualizar, realice una copia de seguridad completa del sistema para evitar la pérdida de datos.
 
-## Actualice de la versión 3.8.5 a la versión 4.0 {#id2256DK003E1}
+## Actualización de la versión 3.8.5 a la versión 4.0 {#id2256DK003E1}
 
-Si utiliza la versión 3.8.5 de Experience Manager Guides, puede actualizar a la versión 4.0 de Experience Manager Guides. Con la función de actualización, no es necesario desinstalar la versión anterior de Experience Manager Guides.
+Si está utilizando la versión 3.8.5 de Experience Manager Guides, puede actualizar a la versión 4.0 de Experience Manager Guides. Con la función de actualización, no es necesario desinstalar la versión anterior de Experience Manager Guides.
 
 Antes de ejecutar el proceso, hay ciertas tareas que debe completar. Las siguientes subsecciones le guiarán por los requisitos previos, la generación de informes y el proceso de migración. Además, después de instalar la versión 4.0 de Experience Manager Guides, puede personalizar varias configuraciones en función de la configuración del cliente.
 
@@ -87,14 +87,14 @@ Esta API está diseñada para evaluar el estado actual del sistema e informar si
 | Punto final | /bin/dxml/upgrade/3xto4x/report |
 | --- | --- |
 | Tipo de solicitud | **GET AEM**: puede usar un explorador web en el que haya iniciado sesión en la instancia de administrador de la instancia de la cuenta de usuario de la cuenta de usuario de la cuenta de usuario de la cuenta de usuario de la cuenta de usuario de la cuenta de usuario. |
-| Respuesta esperada | -   Si se pueden mover todos los nodos requeridos, se le aprobará una comprobación. <br>-   Si un nodo está presente en la ubicación de destino, se producirá un error relevante. Limpie el repositorio \(elimine el nodo /var/xml\), vuelva a instalar el paquete de actualización y, a continuación, almacene en déclencheur este extremo de nuevo. <br>**Nota:** Este no es un error común porque 3.x Experience Manager Guides no usa anteriormente la ubicación de destino. <br> -   Si este script no se ejecuta correctamente, no continúe y genere un informe para el equipo de éxito del cliente. |
+| Respuesta esperada | -   Si se pueden mover todos los nodos requeridos, se le aprobará una comprobación. <br>- En caso de que un nodo esté presente en la ubicación del destino, obtendrá un error relevante. Limpie el repositorio \(elimine nodo /var/dxml\) y vuelva a instalar el paquete de actualización y, a continuación, vuelva a activar este extremo. <br>**Nota:** Este no es un error común porque 3.x Experience Manager Guides no usa anteriormente la ubicación de destino. <br> - Si esta secuencia de comandos no se realiza correctamente, no continúe e informe al equipo de éxito del cliente. |
 
 **API de migración de datos del sistema**
 
-Esta API está diseñada para migrar los datos del sistema como se menciona en la sección **Asignación de migración**.
+Esta API está diseñada para migrar los datos del sistema como se menciona en la sección Asignación **de** migración.
 
-1. No ejecute este script si la API Comprobar compatibilidad de actualización falla \(no continuar\).
-1. Una vez que la API de comprobación de compatibilidad de actualización devuelva un resultado correcto, puede ejecutar el script de actualización.
+1. No ejecute esta secuencia de comandos si se produce un error en la API Comprobar compatibilidad de actualización \(no continuar\).
+1. Una vez que la API Comprobar compatibilidad de actualización se realice correctamente, puede ejecutar el script de actualización.
 
 | Punto final | /bin/dxml/upgrade/3xto4x |
 | --- | --- |
@@ -105,8 +105,8 @@ Esta API está diseñada para migrar los datos del sistema como se menciona en l
 
 | Origen | Público destinatario |
 |------|------|
-| /content/fmdita | /var/dxml |
-| /content/dxml | /var/dxml |
+| /contenido/fmdita | /var/dxml |
+| /contenido/dxml | /var/dxml |
 | /etc/fmdita | /libs/fmdita |
 
 ## Instalar versión 4.0 {#id23598G006XA}
@@ -127,13 +127,13 @@ AEM Cargue el paquete en la instancia de servidor de la existente mediante el Ad
    - Asegúrese de que se gestionan las siguientes opciones en las reglas de Dispatcher:
    - El patrón de URL /home/users/\*/preferences está en la lista blanca.
    - El patrón de URL /libs/cq/security/userinfo.json no se almacena en caché.
-1. Borrar caché de Dispatcher \(para borrar cualquier `clientlibs` almacenado en caché\).
+1. Borre la caché del dispatcher \(para borrar cualquier `clientlibs` almacenamiento en caché\).
 
-## Actualización a la versión 4.2 {#id22A3F500SXA}
+## Actualizar a la versión 4.2 {#id22A3F500SXA}
 
-La actualización a la versión 4.2 depende de la versión actual de Experience Manager Guides.
+La actualización a la versión 4.2 depende de la versión actual de Experience Manager guías.
 
-Si utiliza las versiones 4.0, 4.1 o 4.1.x, puede actualizar directamente a la versión 4.2.
+Si está utilizando la versión 4.0, 4.1 o 4.1.x, puede actualizar directamente a la versión 4.2.
 
 ****Requisitos previos****
 
@@ -176,9 +176,9 @@ Después de instalar Experience Manager Guides, puede combinar las distintas con
 
 >[!NOTE]
 >
-> El modelo dam-update-asset se puede personalizar. Por lo tanto, si se ha realizado alguna personalización, es necesario sincronizar las personalizaciones y Experience Manager Guides en la copia de trabajo del modelo.
+> El modelo dam-update-recurso puede personalizarse. Por lo tanto, si se han realizado personalizaciones, debemos sincronizar las personalizaciones y las guías de Experience Manager en la copia de trabajo del modelo.
 
-1. **Flujo de trabajo del recurso de actualización DAM \(Cambios posteriores al procesamiento\):**
+1. **DAM flujo de trabajo de actualización de recursos \(cambios Post procesamiento electrónico\):**
 
 1. Abrir URL:
 
@@ -186,17 +186,17 @@ Después de instalar Experience Manager Guides, puede combinar las distintas con
    http://localhost:4502/libs/cq/workflow/admin/console/content/models.html
    ```
 
-1. Seleccione **flujo de trabajo del recurso de actualización DAM**.
-1. Haz clic en **Editar**.
-1. Si el componente **Iniciador de procesamiento posterior DXML** está presente, asegúrese de que las personalizaciones estén sincronizadas.
-1. Si el componente **Iniciador de procesamiento posterior DXML** no está presente, realice los siguientes pasos para insertarlo:
+1. Seleccione **DAM flujo de trabajo** de actualización de recursos.
+1. Haga clic en **Editar**.
+1. Si el **componente DXML Post Process Initiator** está presente, asegúrese de que las personalizaciones están sincronizadas.
+1. Si el **componente DXML Post Process Initiator** está ausente, realice los siguientes pasos para insertarlo:
 
-1. Haga clic en **Insertar componente** \(Responsable del posprocesamiento de Experience Manager Guides como paso final del proceso\).
-1. Configure el **paso del proceso** con los siguientes detalles:
+1. Haga clic en **Insertar componente** \(Responsable de Experience Manager guías entrada procesamiento como paso final del proceso\).
+1. Configure el paso **Proceso con los** siguientes detalles:
 
-   **Ficha común**
+   **pestaña común**
 
-   **Título:** Iniciador de procesamiento posterior DXML
+   **Título:** DXML Post Process Initiator
 
    **Descripción**: paso del iniciador posterior del proceso DXML que almacenará en déclencheur un trabajo sling para el posprocesamiento DXML del recurso modificado/creado
 
@@ -313,24 +313,24 @@ La actualización a la versión 4.2.1 depende de la versión actual de Experienc
 
 ****Requisitos previos****
 
-Antes de iniciar el proceso de actualización de Experience Manager Guides 4.2.1, asegúrese de lo siguiente:
+Antes de inicio el proceso de actualización de las Guías de Experience Manager 4.2.1, asegúrese de que:
 
 1. Se ha actualizado a la versión de Experience Manager Guides 4.1, 4.1.x o 4.2.
 1. Se cerraron todas las tareas de traducción.
-1. Se ha cambiado el nivel de registro a **INFO** para la clase `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` y se han anexado estos registros a un nuevo archivo de registro, por ejemplo, `logs/translation_upgrade.log.`
+1. Se ha cambiado el nivel de registro a **INFO** para `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` la clase y se añaden estos registros en una nueva archivo de registro, por ejemplo: `logs/translation_upgrade.log.`
 
 >[!NOTE]
 >
-> Debe cerrar todas las revisiones activas. Si las tareas de revisión no se cierran al actualizar a la versión 4.2, las tareas de revisión en curso más antiguas siguen llevando a los usuarios a las páginas de revisión más antiguas y las tareas de revisión creadas después de la actualización mostrarán las actualizaciones más recientes en la funcionalidad.
+> Debe cerrar todas las revisiones activas. Si las tareas de revisión no se cierran durante la actualización a 4.2, las tareas de revisión en curso más antiguas siguen llevando a los usuarios a las páginas de revisión más antiguas, y las tareas de revisión creadas después de la actualización mostrarán las últimas actualizaciones en el funcionalidad.
 
-## Instalar versión 4.2.1
+## Instale la versión 4.2.1
 
-1. Descargue el paquete de la versión 4.2.1 del [Portal de distribución de software de Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html).
+1. Descargue el paquete de la versión 4.2.1 Adobe Systems Portal](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) de distribución de [software.
 1. Instale el paquete de la versión 4.2.1.
-1. Puede elegir ENTRAR en el déclencheur para iniciar el trabajo de actualización del mapa de traducción. Para obtener más información, consulte [Habilitar el déclencheur del script mediante un servlet](#enable-trigger-serverlet).
+1. Puede elegir pulsar el activador para inicio el trabajo de actualización del mapa de traducción. Para obtener más información, consulte [Activar el activador de secuencias de comandos a través de un Servlet](#enable-trigger-serverlet).
 
 
-1. Después de completar la instalación del paquete, espere a que aparezca el siguiente mensaje en los registros:
+1. Después de completar la instalación del paquete, espere el siguiente mensaje\(s\) en los registros:
 
    `Completed the post deployment setup script`
 
@@ -347,7 +347,7 @@ Antes de iniciar el proceso de actualización de Experience Manager Guides 4.2.1
 
 ### Habilitar el déclencheur del script mediante un servlet{#enable-trigger-serverlet}
 
-POST:
+EXPONER:
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -459,15 +459,15 @@ Después de instalar Experience Manager Guides, puede combinar las distintas con
    - Cualquier categoría clientlib utilizada desde el producto debe revisarse para ver si hay cambios. Cualquier configuración anulada \(ejemplos abajo\) debe compararse con las más recientes para obtener las últimas funciones:
    - elementmapping.xml
    - ui\_config.json\(puede haberse configurado en perfiles de carpeta\)
-   - se modificó `com.adobe.fmdita.config.ConfigManager`
+   - irreparable `com.adobe.fmdita.config.ConfigManager`
    - Compruebe si alguno de los códigos personalizados estaba usando rutas antiguas \(como se menciona en la sección [Asignación de migración](#id2244LE040XA)\) - debe actualizarse a las nuevas rutas para que las personalizaciones también funcionen según lo esperado.
-1. Obtenga información sobre las nuevas configuraciones que se introdujeron en la versión actual \(compruebe [Notas de la versión](../release-info/release-notes-4-2-1.md)\) y vea si alguna funcionalidad se ve afectada y, a continuación, tome las medidas adecuadas. Un ejemplo podría ser utilizar el &quot;Control de archivos y versiones mejorado&quot; introducido en la versión 4.0, para el cual necesita habilitar una configuración.
+1. Obtenga información sobre las nuevas configuraciones que se introdujeron en la versión actual \(compruebe [Notas de la versión](../release-info/release-notes-4-2-1.md)\) y vea si alguna funcionalidad se ve afectada y, a continuación, tome las medidas adecuadas. Un ejemplo podría ser hacer uso de &quot;Manejo mejorado de archivos y versiones&quot; introducido en la versión 4.0, para lo cual necesita habilitar una configuración.
 
-## Pasos para indexar el contenido existente y utilizar la nueva función de buscar y reemplazar:
+## Pasos para indexar las contenido existentes para utilizar la nueva búsqueda y reemplazo:
 
-Realice los siguientes pasos para indexar el contenido existente y utilice el nuevo texto de búsqueda y reemplazo a nivel de mapa:
+Realice los siguientes pasos para indexar los contenido existentes y utilice el nuevo texto de buscar y reemplazar a nivel de mapa:
 
-- Asegúrese de que se ha completado la indexación `damAssetLucene`. Puede tardar hasta unas horas, según la cantidad de datos presentes en el servidor. Puede confirmar que la reindexación se ha completado comprobando que el campo de reindexación está configurado como falso en
+- Asegúrese de que se ha completado la `damAssetLucene` indexación. Puede tardar hasta unas horas, dependiendo de la cantidad de datos presentes en el servidor. Puede confirmar que la reindexación se ha completado comprobando que el campo de reindexación está configurado como false en
   `http://<server:port>/oak:index/damAssetLucene`.  Además, si ha agregado personalizaciones en `damAssetLucene`, es posible que tenga que volver a aplicarlas.
 
 - Ejecute una solicitud de POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de las asignaciones para indexarlas; de forma predeterminada, todas las asignaciones se indexarán \|\| Por ejemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
@@ -579,7 +579,7 @@ Antes de iniciar el proceso de actualización de Experience Manager Guides 4.3.1
 
 ### Habilitar el déclencheur del script mediante un servlet{#enable-trigger-serverlet-4-3-1}
 
-POST:
+EXPONER:
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -683,7 +683,7 @@ Después de instalar Experience Manager Guides, puede combinar las distintas con
    - `excludeList` debe tener `"event-user-data:changedByWorkflowProcess"`.
 
 1. Una vez completada la actualización, asegúrese de que cualquiera de las personalizaciones/superposiciones se valide y actualice para que coincida con el nuevo código de la aplicación. A continuación se ofrecen algunos ejemplos:
-   - Cualquier componente superpuesto de /libs/fmidator/libs debe compararse con el nuevo código de producto y las actualizaciones deben realizarse en archivos superpuestos en /apps.
+   - Cualquier componente superpuesto de /libs/fmditaor/libs debe compararse con el nuevo código de producto y las actualizaciones deben realizarse en archivos superpuestos en /apps.
    - Cualquier categoría clientlib utilizada desde el producto debe revisarse para ver si hay cambios. Cualquier configuración anulada \(ejemplos abajo\) debe compararse con las más recientes para obtener las últimas funciones:
    - elementmapping.xml
    - ui\_config.json\(puede haberse configurado en perfiles de carpeta\)
@@ -898,7 +898,7 @@ Después de instalar Experience Manager Guides, puede combinar las distintas con
 
 >[!NOTE]
 >
-> No es necesario que realice estos pasos si actualiza desde la versión 4.3.0 o 4.3.1.
+> No es necesario realizar estos pasos si actualiza desde 4.3.0 o 4.3.1.
 
 Realice los siguientes pasos para indexar el contenido existente y utilice el nuevo texto de búsqueda y reemplazo a nivel de mapa:
 
@@ -959,9 +959,9 @@ Respuesta:
 }
 ```
 
-En el JSON de respuesta anterior, la clave `lockNodePath` contiene la ruta al nodo creado en el repositorio que señala al trabajo enviado. Se eliminará automáticamente una vez finalizado el trabajo y, hasta entonces, puede hacer referencia a este nodo para consultar el estado actual del trabajo.
+En el JSON de respuesta anterior, la clave `lockNodePath` contiene la ruta al nodo creado en el repositorio que apunta al trabajo enviado. Se eliminará automáticamente una vez finalizado el trabajo y, hasta entonces, puede hacer referencia a este nodo para consultar el estado actual del trabajo.
 
-Busque `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Completed porting of translation map from V1 to V2` y `com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2` antes de continuar con los siguientes pasos.
+Look para y `com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2` antes `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Completed porting of translation map from V1 to V2` de continuar con los pasos siguientes.
 
 >[!NOTE]
 >
@@ -987,7 +987,7 @@ Durante esta actualización, dado que el valor `'order'` ha cambiado de 1000 a 5
 
 >[!TIP]
 >
-> Se recomienda instalar la revisión 4.6.1 sobre la versión 4.6.0. El proceso de actualización para la versión 4.6.1 sigue los mismos pasos que en la versión 4.6.0.
+> Se recomienda instalar el paquete de servicio 1 4.6.0 sobre la versión 4.6.0. El proceso de actualización para el paquete de servicio 1 de la versión 4.6.0 sigue los mismos pasos que en la versión 4.6.0.
 
 La actualización a la versión 4.6.0 depende de la versión actual de Experience Manager Guides. Si utiliza las versiones 4.4.0, 4.3.1, 4.3.0, 4.2 o 4.2.1 (revisión 4.2.1.3), puede actualizar directamente a la versión 4.6.0.
 
@@ -1014,7 +1014,7 @@ Antes de iniciar el proceso de actualización de Experience Manager Guides 4.6.0
 
    `Completed the post deployment setup script`
 
-   El mensaje anterior indica que se han completado todos los pasos de la instalación.
+   El mensaje anterior indica que se han completado todos los pasos de instalación.
 
    Si encuentra cualquiera de los siguientes prefijos ERROR, informe de ellos a su equipo de éxito del cliente:
 
@@ -1022,17 +1022,17 @@ Antes de iniciar el proceso de actualización de Experience Manager Guides 4.6.0
    - Excepción al transferir el mapa de traducción
    - No se puede portar el mapa de traducción de v1 a v2 para la propiedad
 1. Actualice el complemento Conector de oxígeno lanzado con la versión 4.6.0 \(si es necesario\).
-1. Borre la caché del explorador después de instalar el paquete.
+1. Borre la Caché del explorador después de instalar el paquete.
 
 ## Después de instalar la versión 4.6.0
 
-Después de instalar Experience Manager Guides, puede combinar las distintas configuraciones aplicables desde la versión recién instalada con la configuración.
+Después de instalar Experience Manager guías, puede combinar las diversas configuraciones aplicables de la versión recién instalada a su configuración.
 
 >[!NOTE]
 >
-> El modelo dam-update-asset se puede personalizar. Por lo tanto, si se ha realizado alguna personalización, es necesario sincronizar las personalizaciones y Experience Manager Guides en la copia de trabajo del modelo.
+> El modelo dam-update-recurso puede personalizarse. Por lo tanto, si se han realizado personalizaciones, debemos sincronizar las personalizaciones y las guías de Experience Manager en la copia de trabajo del modelo.
 
-1. **Flujo de trabajo del recurso de actualización DAM \(Cambios posteriores al procesamiento\):**
+1. **DAM flujo de trabajo de actualización de recursos \(cambios Post procesamiento electrónico\):**
 
 1. Abrir URL:
 
@@ -1091,9 +1091,9 @@ Después de instalar Experience Manager Guides, puede combinar las distintas con
 
    - `excludeList` debe tener `"event-user-data:changedByWorkflowProcess"`.
 
-1. Una vez completada la actualización, asegúrese de que cualquiera de las personalizaciones/superposiciones se valide y actualice para que coincida con el nuevo código de la aplicación. A continuación se ofrecen algunos ejemplos:
-   - Cualquier componente superpuesto de /libs/fmidator/libs debe compararse con el nuevo código de producto y las actualizaciones deben realizarse en archivos superpuestos en /apps.
-   - Cualquier categoría clientlib utilizada desde el producto debe revisarse para ver si hay cambios. Cualquier configuración anulada \(ejemplos abajo\) debe compararse con las más recientes para obtener las últimas funciones:
+1. Una vez completada la actualización, asegúrese de que cualquiera de las personalizaciones o superposiciones se validan y actualizan para que coincidan con el nuevo código aplicación. A continuación se ofrecen algunos ejemplos:
+   - Cualquier componente superpuesto de /libs/fmditaor/libs debe compararse con el nuevo código de producto y las actualizaciones deben realizarse en archivos superpuestos en /apps.
+   - Cualquier categoría de clientlib utilizada desde el producto debe revisarse para ver si hay cambios. Las configuraciones anuladas \(ejemplos a continuación\) deben compararse con las más recientes para obtener las últimas funciones:
    - elementmapping.xml
    - ui\_config.json\(puede haberse configurado en perfiles de carpeta\)
    - se modificó `com.adobe.fmdita.config.ConfigManager`
@@ -1135,7 +1135,7 @@ Siga estos pasos para indexar el contenido existente:
 
 Experience Manager Guides tiene un módulo [**reescritor de sling personalizado**](../cs-install-guide/conf-output-generation.md#custom-rewriter) para administrar los vínculos generados en caso de mapas cruzados (vínculos entre los temas de dos mapas diferentes).
 
-Si tiene otra reescritura de sling personalizada en la base de código, utilice un valor de `'order'` mayor que 50, ya que la reescritura de sling de Experience Manager Guides utiliza `'order'` 50.  Para anular esto, necesita un valor >50. Para obtener más información, vea [Canalizaciones de reescritura de salida](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+Si tiene otra reescritura de sling personalizada en la base de código, utilice un valor de `'order'` mayor que 50, ya que la reescritura de sling de Experience Manager Guides utiliza `'order'` 50.  Para anular esto, necesita un valor >50. Para obtener más información, vista [Output Reescritura de canalizaciones](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 Durante esta actualización, dado que el valor `'order'` ha cambiado de 1000 a 50, debe combinar la reescritura personalizada existente, si la hay, con `'fmdita-rewriter'`.
 

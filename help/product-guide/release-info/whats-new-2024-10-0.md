@@ -2,7 +2,7 @@
 title: Notas de versión | Novedades de la versión 2024.10.0 de Adobe Experience Manager Guides
 description: Obtenga información sobre las funciones nuevas y mejoradas de la versión 2024.10.0 de Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 545e51cbd970aa3df01a0fe2461a2e730c0db66a
+source-git-commit: b5ee4610811209719c7f0ff4bd03d8ae55f2d934
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 1%
@@ -11,7 +11,7 @@ ht-degree: 1%
 
 # Novedades de la versión 2024.10.0 (octubre de 2024)
 
-Este artículo cubre las nuevas y mejoradas funciones introducidas con la versión 2024.10.0 de Adobe Experience Manager Guides as a Cloud Service.
+Este artículo cubre las funciones nuevas y mejoradas introducidas con la versión 2024.10.0 de Adobe Experience Manager Guides as a Cloud Service.
 
 Para ver la lista de problemas corregidos en esta versión, consulte [Problemas solucionados en la versión 2024.10.0](fixed-issues-2024-10-0.md).
 
