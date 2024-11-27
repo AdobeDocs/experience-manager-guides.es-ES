@@ -3,7 +3,7 @@ title: Comentarios de revisión de direcciones
 description: Aprenda a dirigir comentarios de revisión como autor en AEM Guides. Descubra cómo un autor puede editar, filtrar, aceptar o rechazar comentarios en un documento.
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 # Comentarios de revisión de direcciones {#id2056B0X0KBI}
 
 
-Como autor, puede dirigir los comentarios de un tema mediante el Editor Web. Los comentarios se cargan en función de la tarea de revisión seleccionada en el panel Revisar. Para obtener más información, vea la descripción de la característica del panel **Revisar** ![](images/active-review-tasklist-icon.svg) en la sección [Panel izquierdo](/help/product-guide/user-guide/web-editor-features.md#id2051EA0M0HS).
+Como autor, puede dirigir los comentarios de un tema mediante el Editor Web. Los comentarios se cargan en función de la tarea de revisión seleccionada en el panel Revisar. Para obtener más información, vea la descripción de la característica del panel **Revisar** ![](images/active-review-tasklist-icon.svg) en la sección [Panel izquierdo](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
 En las secciones siguientes se describen las formas de editar comentarios en el Editor Web.
 

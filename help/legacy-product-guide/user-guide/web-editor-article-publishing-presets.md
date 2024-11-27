@@ -3,7 +3,7 @@ title: Cree ajustes preestablecidos de salida desde el editor web
 description: Cree ajustes preestablecidos de salida desde el editor web. Obtenga información sobre cómo editar, cambiar el nombre, duplicar y eliminar un ajuste preestablecido de salida en AEM Guides.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%

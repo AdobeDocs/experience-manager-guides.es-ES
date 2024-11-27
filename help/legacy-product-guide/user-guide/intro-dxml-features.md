@@ -3,7 +3,7 @@ title: Funciones clave de AEM Guides
 description: Explore las funciones clave de AEM Guides, la creación DITA, la administración de contenido, la revisión basada en web, la traducción, la localización, la publicación multicanal y la integración de FrameMaker.
 feature: Introduction
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 0%

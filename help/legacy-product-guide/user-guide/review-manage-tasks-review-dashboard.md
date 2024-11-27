@@ -3,7 +3,7 @@ title: Administrar tareas de revisión mediante el panel Revisar
 description: Administre las tareas de revisión desde el Panel de revisión en AEM Guides. Conozca las acciones que se realizan en la pestaña tarea, contenido y revisores, y compruebe el estado de una tarea de revisión.
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%

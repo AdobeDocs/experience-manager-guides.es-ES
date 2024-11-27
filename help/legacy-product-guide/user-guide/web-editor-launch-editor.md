@@ -1,9 +1,9 @@
 ---
 title: Iniciar el editor web
-description: AEM Obtenga información sobre cómo iniciar el editor web desde la página de navegación de la, la interfaz de usuario de AEM Assets y la consola de mapas de DITA en AEM Guides.
+description: AEM Obtenga información sobre cómo iniciar el editor web desde la página de navegación de la, la interfaz de usuario de los AEM Assets y la consola de mapas de DITA en AEM Guides.
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%

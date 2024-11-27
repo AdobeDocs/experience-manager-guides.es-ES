@@ -3,7 +3,7 @@ title: Publicación basada en artículos desde el editor web
 description: Obtenga información sobre cómo publicar uno o más artículos desde el editor web. Generar resultados para uno o varios temas de un mapa DITA en AEM Guides.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%

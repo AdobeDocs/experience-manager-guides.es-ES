@@ -3,7 +3,7 @@ title: Administración de metadatos
 description: Obtenga información sobre cómo definir y administrar metadatos en AEM Guides. Utilice el etiquetado inteligente y masivo para encontrar fácilmente temas relacionados dentro de un mapa DITA.
 feature: Metadata Management
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 2%

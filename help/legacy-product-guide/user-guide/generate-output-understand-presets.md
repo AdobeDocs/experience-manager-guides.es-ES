@@ -3,7 +3,7 @@ title: Explicación de los ajustes preestablecidos de salida
 description: Comprenda los ajustes preestablecidos de salida en AEM Guides. AEM Cree ajustes preestablecidos de salida desde el editor web y el panel de asignaciones para los formatos de sitio, PDF, HTML 5, EPUB, personalizado y JSON de la.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: Generación de resultados de documentos de FrameMaker
 description: Obtenga información sobre cómo generar resultados de documentos de FrameMaker AEM en guías de para publicarlos en formato PDF, HTML 5 y EPUB.
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%

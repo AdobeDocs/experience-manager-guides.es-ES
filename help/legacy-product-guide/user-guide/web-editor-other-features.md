@@ -3,7 +3,7 @@ title: Otras funciones del editor web
 description: Explore otras funciones del editor web en AEM Guides. Aprenda a utilizar estas funciones para mejorar la creación en AEM Guides.
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 0%
@@ -158,7 +158,7 @@ Puede ver las siguientes opciones en función de si el archivo está bloqueado/d
 
 **Insertar ecuaciones de MathML**
 
-- Experience Manager Guides le ofrece compatibilidad para insertar ecuaciones de MathML mediante la integración con la aplicación [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro). Para insertar una ecuación de MathML, seleccione el icono **Insertar elemento** y escriba matemático. Cuando selecciona un elemento matemático de la lista, aparece el cuadro de diálogo **Insertar MathML**:
+- Experience Manager Guides le ofrece compatibilidad para insertar ecuaciones de MathML mediante la integración con la aplicación [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro). Para insertar una ecuación de MathML, seleccione el icono **Insertar elemento** y escriba mathml. Cuando selecciona un elemento matemático de la lista, aparece el cuadro de diálogo **Insertar MathML**:
 
 ![insertar ecuación matemática en el editor de matemáticas](images/insert-mathml-equation.png){width="550" align="left"}
 
@@ -166,12 +166,12 @@ Con las herramientas de ecuaciones de MathML, cree la ecuación y haga clic en *
 
 ![ecuación matemática de ejemplo](images/sample-mathml-equation.PNG){width="400" align="left"}
 
-En cualquier momento puede actualizar una ecuación haciendo clic con el botón derecho en una ecuación existente y seleccionando **Editar MathML** del menú contextual.
+En cualquier momento puedes actualizar una ecuación haciendo clic con el botón derecho en una ecuación existente y seleccionando **Editar MathML** en el menú contextual.
 
-- **Validación de ecuaciones en el editor MathML**
+- **Validación de ecuaciones en el editor de MathML**
 
-  Experience Manager Guides valida las ecuaciones de MathML al guardar un tema que las contiene.
-Cuando se inserta una ecuación con el editor MathML, Experience Manager Guides resalta la ecuación en rojo si hay algún problema de sintaxis. Puede corregirla antes de insertarla. Si no hace ningún cambio pero selecciona **Insertar**, se muestra una advertencia.
+  Experience Manager Guides valida las ecuaciones de MathML cuando se guarda un tema que las contiene.
+Cuando se inserta una ecuación con el editor de MathML, Experience Manager Guides resalta la ecuación en rojo si hay algún problema de sintaxis. Puede corregirla antes de insertarla. Si no hace ningún cambio pero selecciona **Insertar**, se muestra una advertencia.
 
   ![validar ecuación matemática](images/validate-mathml-equation.png){width="400" align="left"}
 
@@ -215,7 +215,7 @@ Además del menú contextual de la ruta de exploración, también se puede acced
 
 **Administración de espacios en blanco para elementos DITA**
 
-- En XML, los espacios en blanco incluyen espacios, tabulaciones, retornos de carro y líneas en blanco. Experience Manager Guides convierte varios espacios en blanco consecuentes en un espacio. Esto le ayuda a conservar la vista WYSIWYG del editor web.
+- En XML, los espacios en blanco incluyen espacios, tabulaciones, retornos de carro y líneas en blanco. Experience Manager Guides convierte varios espacios en blanco consecuentes en un espacio. Esto le ayuda a conservar la vista de WYSIWYG del editor web.
 
   >[!NOTE]
   >

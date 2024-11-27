@@ -3,7 +3,7 @@ title: Utilice variables para establecer las opciones Ruta de destino, Nombre de
 description: Aprenda a utilizar variables para establecer las opciones Ruta de destino, Nombre del sitio o Nombre de archivo. Conozca las variables listas para usarse admitidas en AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: Solución de problemas básica
 description: Resuelva los problemas con la solución de problemas básica en AEM Guides. Aprenda a ver, copiar y comprobar el archivo de registro en un editor de texto y a resolver los errores de compilación de JSP.
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%

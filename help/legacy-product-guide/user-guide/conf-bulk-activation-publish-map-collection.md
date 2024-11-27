@@ -3,7 +3,7 @@ title: Activar salida
 description: Activar la salida de mapas DITA en AEM Guides. Obtenga información sobre cómo activar el contenido en la instancia de publicación.
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 1%
@@ -42,7 +42,7 @@ Vea las diferentes formas de activar la colección en función de su configuraci
 
 Puede activar el resultado en las instancias **Preview** o **Publish**.
 
-**Vista previa**
+**Previsualizar**
 
 * Para activar la salida de los mapas seleccionados, seleccione la salida de mapa pregenerada y seleccione **Publish to** > **Preview**.
 * Para activar la salida de todas las asignaciones DITA con sus ajustes preestablecidos configurados, seleccione la casilla de verificación situada junto a la columna **Map** y, a continuación, seleccione **Publish to** > **Publish**.

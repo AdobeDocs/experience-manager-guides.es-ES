@@ -3,9 +3,9 @@ title: Traducir documentos desde el editor web
 description: Traduzca el contenido a varios idiomas desde el editor web. Obtenga información sobre cómo crear un proyecto de traducción, agregar reglas, ver versiones y descartar archivos sin sincronizar en AEM Guides.
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2343'
 ht-degree: 0%
 
 ---
@@ -111,11 +111,15 @@ En un proyecto XLIFF, el contenido se exporta al formato XLIFF estándar del sec
    - Puede seleccionar **Crear un nuevo proyecto de traducción multilingüe** que incluirá trabajos de traducción para todos los idiomas que haya seleccionado para la traducción. Por ejemplo, si ha seleccionado francés, alemán y español, se creará un proyecto que contiene trabajos de traducción para los tres idiomas.
    - Si ya tiene un proyecto de traducción, puede agregarle temas. Seleccione la opción Agregar a **Proyecto de traducción existente** de la lista Proyecto y elija un proyecto de la lista Proyecto de traducción existente. Puede ordenar estos proyectos por orden más reciente, ascendente o descendente.
 
-     >[!NOTE]
-     >
-     > Si el proyecto existente es un proyecto de ámbito, tiene &#39;\(Ámbito\)&#39; anexado en su nombre.
+- Si selecciona **Proyecto de traducción existente**, esta operación actualiza la entrada de recursos existente en el proyecto si el recurso ya se ha agregado y el estado del trabajo de traducción relacionado está en el estado *Borrador*.
+   - Si el idioma de destino no está presente en el proyecto, se crea un nuevo proyecto para el proyecto de traducción en un solo idioma y se crea un nuevo trabajo para el proyecto de traducción en varios idiomas.
+   - Si el trabajo ya está presente para el idioma de destino y el estado del trabajo no está en el estado *Borrador*, se creará un nuevo trabajo dentro del mismo proyecto para agregar los recursos que se traducirán.
 
-   - Si necesita crear el ámbito para traducir un proyecto, puede seleccionar **Crear un nuevo proyecto de traducción de ámbito**. Esto no enviará las copias para su traducción y se mantendrá el estado de traducción original de los archivos. No afecta a la copia de idioma de destino de los temas a los que se hace referencia y que se envían para su análisis.
+  >[!NOTE]
+  >
+  > Si el proyecto existente es un proyecto de ámbito, tiene &#39;\(Ámbito\)&#39; anexado en su nombre.
+
+- Si necesita crear el ámbito para traducir un proyecto, puede seleccionar **Crear un nuevo proyecto de traducción de ámbito**. Esto no enviará las copias para su traducción y se mantendrá el estado de traducción original de los archivos. No afecta a la copia de idioma de destino de los temas a los que se hace referencia y que se envían para su análisis.
 1. En el campo **Título del proyecto**, introduzca un título.
 1. Haga clic en **Crear** para crear un nuevo proyecto de traducción.
 
@@ -218,7 +222,7 @@ El administrador puede configurar la opción **Limpieza del proyecto de traducci
 
 Para realizar la administración de documentos, Experience Manager Guides permite eliminar los proyectos de traducción una vez completada la traducción.
 
-También puede deshabilitar los proyectos de traducción si desea usarlos más adelante. Al eliminar un proyecto, se eliminan todos los archivos y carpetas presentes en el proyecto. Al deshabilitar un proyecto no se elimina, sino que se mantiene en el repositorio. Sin embargo, no puede actualizar ni editar un proyecto deshabilitado.  Eliminar o deshabilitar un proyecto no afectará el estado de traducción de ninguna referencia.
+También puede deshabilitar los proyectos de traducción si desea usarlos más adelante. Al eliminar un proyecto, se eliminan todos los archivos y carpetas presentes en el proyecto. Al deshabilitar un proyecto no se elimina, sino que se mantiene en el repositorio. Pero no puede actualizar ni editar un proyecto deshabilitado.  Eliminar o deshabilitar un proyecto no afectará el estado de traducción de ninguna referencia.
 
 
 **Tema principal:**[ Trabajar con el editor web](web-editor.md)

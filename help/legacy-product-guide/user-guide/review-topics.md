@@ -3,7 +3,7 @@ title: Revisar temas
 description: Obtenga información sobre cómo revisar temas y utilizar las funciones como revisor, vista de documento, vista de tema, barra de herramientas contextual, modo de vista previa, agregar archivos adjuntos a comentarios y panel de condiciones en AEM Guides.
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2351'
 ht-degree: 0%
@@ -141,7 +141,7 @@ A continuación, se describen las tareas que puede realizar mediante el panel Co
 
 - Todos los usuarios participantes pueden responder a los comentarios enviados por otros usuarios. En un comentario, haga clic en **Responder** y presione Entrar para enviar una respuesta.
 
-**Modo de vista previa**
+**Modo de previsualización**
 
 - Al abrir un tema en el modo Vista previa, se muestra cómo se mostrará cuando un autor lo vea después de aplicar todos los cambios. Por ejemplo, todo el texto insertado se muestra como texto normal y todo el texto tachado \(eliminado\) se elimina del contenido.
 

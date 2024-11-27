@@ -3,9 +3,9 @@ title: Conozca las funciones del editor web
 description: Descubra las funciones del editor web en AEM Guides. Conocer la interfaz del editor web, incluida la barra de herramientas principal, la barra de herramientas secundaria, el panel izquierdo, el área de edición de contenido y el panel derecho.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
-source-wordcount: '18678'
+source-wordcount: '18802'
 ht-degree: 0%
 
 ---
@@ -150,11 +150,11 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
 
 - **Perfil de Publish**: contiene los perfiles de Publish que se pueden usar para publicar la salida de **Knowledge Base**. Puede crear un nuevo perfil para una base de conocimiento de Target. Por ejemplo, Salesforce o ServiceNow.
 
-   - **Crear un perfil de Publish de Salesforce**
+   - **Crear un perfil de Salesforce Publish**
 
      **Requisitos previos**
 
-      - Cree una aplicación conectada de Salesforce. Para obtener más información, consulte [Habilitar la configuración de OAuth para la integración de API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
+      - Cree una aplicación conectada de para Salesforce. Para obtener más información, consulte [Habilitar la configuración de OAuth para la integración de API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
 
       - Al configurar la aplicación conectada, asegúrese de lo siguiente:
 
@@ -171,12 +171,12 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
   Se pueden utilizar para crear el perfil de Publish de Salesforce.
 
 
-   - Para crear un perfil de Publish de Salesforce, seleccione la base de conocimiento **Salesforce** en la lista desplegable **Tipo de servidor**. Introduzca un Nombre de perfil. En la **dirección URL del sitio**, escriba el sitio del consumidor que usaría para publicar el resultado y agregue la **clave del consumidor** y el **secreto del consumidor** proporcionados por el sitio del consumidor de Salesforce. A continuación, **Valide** y **guarde** el perfil recién creado.
+   - Para crear un perfil de Publish de Salesforce, seleccione la base de conocimiento **Salesforce** en la lista desplegable **Tipo de servidor**. Introduzca un Nombre de perfil. En la **dirección URL del sitio**, escriba el sitio del consumidor que usaría para publicar la salida y, a continuación, agregue la **clave del consumidor** y el **secreto del consumidor** proporcionados por el sitio del consumidor de Salesforce. A continuación, **Valide** y **guarde** el perfil recién creado.
      ![perfil de publicación de salesforce en la configuración del editor](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
      >
-     >Para configurar un proxy para Salesforce en Experience Manager Guides AEM, utilice la configuración proxy de componentes HTTP de Apache en la interfaz de usuario de. AEM Aprenda a [configurar el proxy para el Verificador de vínculos de la](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+     >Para configurar un proxy para Salesforce en Experience Manager Guides AEM, utilice la Configuración proxy de componentes HTTP de Apache en la interfaz de usuario de. AEM Aprenda a [configurar el proxy para el Verificador de vínculos de la](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
    - **Crear un perfil de Publish de ServiceNow**
@@ -197,9 +197,9 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
 
      ![Perfil de publicación ServiceNow](./images/service-now-publish-profile.png){width="550" align="left"}
 
-  Una vez validado, puede seleccionar el perfil de Publish en los ajustes preestablecidos de salida de un mapa DITA y utilizarlo para generar el resultado en el servidor **Salesforce** o **ServiceNow** que haya elegido.
+  Una vez validado, puede seleccionar el perfil de Publish en los ajustes preestablecidos de salida de un mapa DITA y utilizarlo para generar la salida en el servidor **Salesforce** o **ServiceNow** que haya elegido.
 
-  Obtenga más información sobre el ajuste preestablecido de salida [Knowledge Base](/help/product-guide/user-guide/generate-output-knowledge-base.md).
+  Obtenga más información sobre el ajuste preestablecido de salida [Knowledge Base](../user-guide/generate-output-knowledge-base.md).
 
 
 - **Validación**: esta pestaña contiene opciones para configurar las validaciones de Schematron en el editor web. Puede activar las siguientes funciones:
@@ -605,7 +605,7 @@ Si está en la vista Mapa y expande el mapa principal, puede retirar todos los a
 
 La información sobre herramientas para Proteger/Desproteger está determinada por la propiedad title del archivo `ui_config.json`.
 
-Para obtener más información, vea [Configurar el título de los iconos Proteger y Desproteger](/help/product-guide/install-guide/conf-checkin-checkout-title.md) en la Guía de instalación y configuración On-Premise.
+Para obtener más información, vea [Configurar el título de los iconos Proteger y Desproteger](../install-guide/conf-checkin-checkout-title.md) en la Guía de instalación y configuración On-Premise.
 
 
 **Alternar vista de etiquetas** - ![](images/Label_icon.svg)
@@ -1142,7 +1142,7 @@ Las distintas opciones del menú Opciones se explican a continuación:
 
   >[!NOTE]
   >
-  >Póngase en contacto con el equipo de éxito del cliente para habilitar esta función en el entorno. Esta opción no está habilitada como parte de la compatibilidad predeterminada. Para obtener más información, consulte la sección [Configurar la opción para editar en Oxígeno](/help/product-guide/cs-install-guide/conf-edit-in-oxygen.md) en la Guía de instalación y configuración.
+  >Póngase en contacto con el equipo de éxito del cliente para habilitar esta función en el entorno. Esta opción no está habilitada como parte de la compatibilidad predeterminada. Para obtener más información, consulte la sección [Configurar la opción para editar en Oxígeno](../cs-install-guide/conf-edit-in-oxygen.md) en la Guía de instalación y configuración.
 
 
 - **Vista en la interfaz de usuario de Assets**: utilícela para mostrar una vista previa de un archivo .dita/.xml en la interfaz de usuario de Assets. En el caso de un archivo .ditamap/.bookmap, todos los archivos de tema dentro del mapa se muestran en una sola vista página a página unificada.
@@ -1507,7 +1507,22 @@ Para añadir o definir una condición, haga clic en el icono + situado junto al 
 
 ![](images/conditional-panel-create-cond.png){width="400" align="left"}
 
-En la lista Atributo, seleccione el atributo condicional que desea definir, introduzca un valor para la condición y, a continuación, especifique la etiqueta que se muestra en el panel Condiciones. También puede definir un color para la condición. Este color se establece como color de fondo del contenido al que se aplica la condición
+En la lista Atributo, seleccione el atributo condicional que desea definir, introduzca un valor para la condición y, a continuación, especifique la etiqueta que se muestra en el panel Condiciones. Defina un grupo para la condición. Puede agregar varias condiciones a un grupo. También puede definir un color para la condición. Este color se establece como color de fondo del contenido al que se aplica la condición.
+
+Puede agrupar las condiciones y estructurarlas en carpetas anidadas. Los grupos ayudan a crear condiciones en varios niveles y a organizarlas mejor para usarlas en el contenido.
+
+Por ejemplo, puede crear grupos de condiciones de productos como *Acrobat* y *AEM Guides*. Puede seleccionar los atributos condicionales para ambos grupos. En cada grupo, puede tener valores específicos como *Usuario*, *Administrador*, *Revisor* y *Autor*.
+
+>[!NOTE]
+>
+> Escriba para crear un nuevo grupo o seleccione un grupo existente para un atributo en particular.
+
+Puede usar `/` y definir subgrupos definir subgrupos como `AEM Guides/Cloud Service`.
+
+
+
+![condiciones organizadas en una jerarquía anidada](images/conditions-nested-hierarchy.png){width="300" align="left"}
+
 
 Para editar una condición, elija **Editar** en el menú Opciones. Aparecerá el cuadro de diálogo Editar condición:
 
@@ -1805,7 +1820,7 @@ Para ver los comentarios de revisión de las tareas de revisión activas que est
    - Seleccione ![](images/filter-search-icon.svg) para abrir el cuadro de diálogo **Filtro**. Puede seleccionar todos los proyectos o solo los específicos. Los proyectos seleccionados se enumeran en el panel **Revisar**.
      ![](images/active-review-select-project.png){width="300" align="left"}
 
-     La opción **Tareas iniciadas por mí** está habilitada de manera predeterminada. Le permite ver únicamente las tareas que ha iniciado.
+     La opción **Tareas iniciadas por mí** está habilitada de manera predeterminada. Le permite ver únicamente las tareas que ha iniciado. El estado de alternancia de esta opción se mantiene incluso después de actualizar la página.
 
 1. De forma predeterminada, en el proyecto de revisión verá una lista plana de temas que tienen comentarios asociados. Aplique los filtros necesarios del carril izquierdo para filtrar los temas en función de los comentarios de revisión presentes en ellos:
 

@@ -3,7 +3,7 @@ title: Otras funciones de los editores de mapas
 description: Descubra algunas funciones comunes en los editores de mapas básicos y avanzados. Aprenda a resolver referencias clave en el editor de mapas.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%

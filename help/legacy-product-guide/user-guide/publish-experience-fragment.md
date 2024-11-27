@@ -3,7 +3,7 @@ title: Publish un tema a un fragmento de experiencia
 description: Publish un tema o los elementos dentro de un tema a un Fragmento de experiencia en AEM Guides.  Obtenga información sobre cómo ver los fragmentos de experiencias presentes para un tema y volver a publicarlos.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Por ejemplo:
 
 
 
-     El administrador puede agregar las asignaciones en el archivo *experienceFragmentMapping.json*.  Obtenga más información acerca de cómo [crear una asignación entre un tema y un Fragmento de experiencia](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md) en la Guía de instalación y configuración.
+     El administrador puede agregar las asignaciones en el archivo *experienceFragmentMapping.json*.  Obtenga más información acerca de cómo [crear una asignación entre un tema y un Fragmento de experiencia](../cs-install-guide/conf-experience-fragment-mapping-cs.md) en la Guía de instalación y configuración.
 
    * También puede seleccionar diferentes condiciones para publicar el contenido.  Seleccione una de las siguientes opciones:
 

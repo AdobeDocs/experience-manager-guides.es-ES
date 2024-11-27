@@ -3,7 +3,7 @@ title: Creación de mapas basados en plantillas personalizadas
 description: Aprenda a crear una plantilla de personalizaciones, utilizarla para crear nuevos archivos de asignación y pasar el título definido a un mapa DITA en AEM Guides.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -93,18 +93,17 @@ Aparecerá el mensaje creado para la plantilla de mapa. Puede agregar la plantil
 El administrador también puede crear una carpeta y configurarla para que sea la carpeta en la que puede crear y guardar las plantillas.
 
 En función de la configuración, aprenda a configurar la ruta de carpeta de la plantilla DITA personalizada:
+<details>
+    <summary> Cloud Services </summary>
 
-+++ Cloud Services
+Aprenda a [configurar la ruta de la carpeta de plantillas DITA personalizada](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) en la Guía de instalación y configuración de Cloud Service.
+</details>
 
-Aprenda a [configurar la ruta de la carpeta de plantillas DITA personalizada](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z){target="_blank"} en la Guía de instalación y configuración de Cloud Service.
+<details>
+    <summary> Software On-Premise</summary>
 
-+++
-
-+++ Software On-Premise
-
-Aprenda a [configurar la ruta de la carpeta de la plantilla DITA personalizada](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) en la Guía de instalación y configuración On-Premise.
-
-+++
+Aprenda a [configurar la ruta de la carpeta de la plantilla DITA personalizada](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) en la Guía de instalación y configuración On-Premise.
+</details>
 
 ## Pasar el título definido en las plantillas
 

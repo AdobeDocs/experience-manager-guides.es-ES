@@ -3,7 +3,7 @@ title: Inserción de un fragmento de contenido desde la fuente de datos
 description: Utilice datos de su fuente de datos en AEM Guides. Aprenda a insertar un fragmento de contenido desde la fuente de datos. Cree un tema con el generador de temas.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -26,18 +26,18 @@ En función de la configuración, el administrador puede configurar un conector 
 <summary> Cloud Services </summary>
 
 
-- Si usa la versión de octubre de 2023 o posterior, aprenda a [configurar un conector de origen de datos desde la interfaz de usuario](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) en la Guía de instalación y configuración de Cloud Service.
+- Si usa la versión de octubre de 2023 o posterior, aprenda a [configurar un conector de origen de datos desde la interfaz de usuario](../cs-install-guide/conf-data-source-connector-tools.md) en la Guía de instalación y configuración de Cloud Service.
 
-- Si usa la versión de julio de 2023 o septiembre de 2023, aprenda a [configurar un conector de origen de datos](/help/product-guide/cs-install-guide/conf-data-source-connector.md) en la Guía de instalación y configuración de Cloud Service.
+- Si usa la versión de julio de 2023 o septiembre de 2023, aprenda a [configurar un conector de origen de datos](../cs-install-guide/conf-data-source-connector.md) en la Guía de instalación y configuración de Cloud Service.
 
 </details>
 
 <details>    
 <summary>  Software On-Premise </summary>
 
-- Si usa la versión 4.3.1 o posterior, aprenda a [configurar un conector de origen de datos desde la interfaz de usuario](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) en la Guía de instalación y configuración in situ.
+- Si usa la versión 4.3.1 o posterior, aprenda a [configurar un conector de origen de datos desde la interfaz de usuario](../cs-install-guide/conf-data-source-connector-tools.md) en la Guía de instalación y configuración in situ.
 
-- Si usa la versión 4.3, aprenda a [configurar un conector de origen de datos](/help/product-guide/cs-install-guide/conf-data-source-connector.md) en la Guía de instalación y configuración in situ.
+- Si usa la versión 4.3, aprenda a [configurar un conector de origen de datos](../cs-install-guide/conf-data-source-connector.md) en la Guía de instalación y configuración in situ.
 </details>
 
 
@@ -103,7 +103,7 @@ Las plantillas listas para usar del origen de datos seleccionado se muestran en 
 
    >[!NOTE]
    >  
-   > Si el administrador ha configurado plantillas personalizadas, también se le mostrarán esas plantillas en la lista desplegable (según las configuraciones de ruta de plantilla realizadas por el administrador).
+   > Si el administrador ha configurado plantillas personalizadas, también se mostrarán dichas plantillas en la lista desplegable (según las configuraciones de ruta de plantilla realizadas por el administrador).
    >   
    >También puede utilizar las herramientas de Velocity en las plantillas. Más información sobre cómo [usar las herramientas de Velocity](#use-velocity-tools).
 
@@ -119,7 +119,7 @@ Las plantillas listas para usar del origen de datos seleccionado se muestran en 
 
    1. La vista previa muestra cómo se mostrarán los datos cuando se inserten en el contenido. La vista previa muestra una pequeña fracción de los datos con el formato de la plantilla seleccionada.
 Por ejemplo:
-      - Si ha seleccionado la plantilla de tabla SQL, puede ver los datos SQL en formato de tabla.
+      - Si ha seleccionado la plantilla de tabla SQL, puede ver los datos SQL en formato tabular.
       - Si ha seleccionado la plantilla de lista ordenada por jira, puede ver una lista ordenada para los problemas de Jira.
 
    1. La vista de origen muestra los datos en la vista de origen DITA.
