@@ -3,10 +3,10 @@ user-guide-title: Experience Manager Guides (heredado)
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
 hide: yes
-badgeAll: label="Guía heredada&#58; más información" type="Informative" url="/help/legacy-product-guide/legacy.md" tooltip="Guía heredada"
-source-git-commit: 62c69ba7765f89b03381a5526e616a9118426fb9
+badgeAll: label="Guía heredada: más información" type="Informative" url="/help/legacy-product-guide/legacy.md" tooltip="Guía heredada"
+source-git-commit: 328f74790de401c0595bcc4009110bc36f5104bf
 workflow-type: tm+mt
-source-wordcount: 529
+source-wordcount: 543
 ht-degree: 4%
 
 ---
@@ -107,6 +107,8 @@ ht-degree: 4%
       - [Introducción a los ajustes preestablecidos de salida](./user-guide/generate-output-understand-presets.md)
       - Ajustes preestablecidos de salida en AEM Guides {#output-presets-aemg}
          - [AEM Sitio web de](./user-guide/generate-output-aem-site.md)
+         - [Ajustes preestablecidos de AEM Sites en el tablero de mapas](./user-guide/generate-output-aem-site-map-dashboard.md)
+         - [Ajustes preestablecidos de AEM Sites en el editor web](./user-guide/generate-output-aem-site-web-editor.md)
          - [PDF](./user-guide/generate-output-pdf.md)
          - [Base de conocimiento](./user-guide/generate-output-knowledge-base.md)
          - [HTML5](./user-guide/generate-output-html5.md)
