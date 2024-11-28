@@ -1,7 +1,7 @@
 ---
 title: Sugerencias inteligentes con tecnología de IA para crear contenido
 description: Aprenda a ver y utilizar sugerencias inteligentes con tecnología de IA en el editor web.
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Mientras crea contenido, la función **Sugerir contenido reutilizable** de la he
 Esto le ayuda a reutilizar contenido existente del repositorio de documentación y a crear contenido coherente. Por ejemplo, está creando un documento que contiene información sobre **Adobe Firefly**, incluido un párrafo sobre **Adobe**. En ese caso, puede ver y agregar rápidamente la referencia de contenido desde otro tema, como **Adobe Photoshop**, que incluye el mismo párrafo.
 >[!NOTE]
 >
-> En los [perfiles globales o de nivel de carpeta](../cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions), el administrador debe definir los archivos o carpetas que se van a indizar para las sugerencias inteligentes, el número mínimo de caracteres que se deben especificar para ver las sugerencias y el número máximo de sugerencias que se pueden ver en la lista.
+> En los [perfiles globales o de nivel de carpeta](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions), el administrador debe definir los archivos o carpetas que se van a indizar para las sugerencias inteligentes, el número mínimo de caracteres que se deben especificar para ver las sugerencias y el número máximo de sugerencias que se pueden ver en la lista.
 
 Realice los siguientes pasos para ver las sugerencias inteligentes para agregar referencias de contenido adecuadas al tema:
 

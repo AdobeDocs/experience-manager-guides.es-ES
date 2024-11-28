@@ -3,7 +3,7 @@ title: Base de conocimiento
 description: Aprenda a crear ajustes preestablecidos de la base de conocimiento desde el editor web y el panel de mapas. Configure el ajuste preestablecido de salida de la Base de conocimiento en AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 2%
@@ -31,7 +31,7 @@ En el editor web, se han organizado las siguientes configuraciones en las pesta�
 | --- | --- |
 | Aplicación de condiciones mediante | Seleccione una de las siguientes opciones:<br><br>* **Ninguna aplicada**: Seleccione esta opción si no desea aplicar ninguna condición en la salida publicada.<br>* **archivo DITAVAL**: seleccione los archivos DITAVAL para generar contenido personalizado. Puede seleccionar varios archivos DITAVAL mediante el cuadro de diálogo de exploración o escribiendo la ruta del archivo. Utilice el icono en forma de cruz situado cerca del nombre del archivo para eliminarlo. Los archivos DITAVAL se evalúan en el orden especificado, por lo que las condiciones especificadas en el primer archivo tienen prioridad sobre las condiciones coincidentes especificadas en archivos posteriores. Puede mantener el orden de los archivos añadiendo o eliminando archivos. Si el archivo DITAVAL se mueve a otra ubicación o se elimina, no se elimina automáticamente del ajuste preestablecido. Debe actualizar la ubicación en caso de que los archivos se muevan o eliminen. Puede pasar el ratón sobre el nombre del archivo para ver la ruta en el repositorio de Adobe Experience Manager donde está almacenado el archivo. Solo puede seleccionar archivos DITAVAL y se muestra un error si selecciona cualquier otro tipo de archivo.<br>* **Ajuste preestablecido de condición**: seleccione un ajuste preestablecido de condición en el menú desplegable para aplicar una condición al publicar la salida. La opción está visible si se ha añadido una condición presente en la ficha Ajustes preestablecidos de condición de la consola de mapa DITA. Para obtener más información acerca de los ajustes preestablecidos de condición, vea [Usar ajustes preestablecidos de condición](generate-output-use-condition-presets.md#id1825FL004PN). |
 | Usar línea base | Si ha creado una Línea base para el mapa DITA seleccionado, seleccione esta opción para especificar la versión que desea publicar.<br><br>Ver [Trabajar con línea de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obtener más detalles. |
-| Flujo de trabajo de generación posterior | Al elegir esta opción, se muestra una nueva lista desplegable Flujo de trabajo de generación posterior que contiene todos los flujos de trabajo configurados en Adobe Experience Manager. Debe seleccionar un flujo de trabajo que desee ejecutar una vez completada la generación de resultados.<br><br>**Nota**: Obtenga más información acerca de cómo [personalizar el flujo de trabajo de generación posterior a la salida](../cs-install-guide/customize-workflows.md#id17A6GI004Y4) en la sección Guía de instalación y configuración para Cloud Service. |
+| Flujo de trabajo de generación posterior | Al elegir esta opción, se muestra una nueva lista desplegable Flujo de trabajo de generación posterior que contiene todos los flujos de trabajo configurados en Adobe Experience Manager. Debe seleccionar un flujo de trabajo que desee ejecutar una vez completada la generación de resultados.<br><br>**Nota**: Obtenga más información acerca de cómo [personalizar el flujo de trabajo de generación posterior a la salida](/help/product-guide/cs-install-guide/customize-workflows.md#id17A6GI004Y4) en la sección Guía de instalación y configuración para Cloud Service. |
 
 ### ServiceNow
 
@@ -64,7 +64,7 @@ También puede ver las siguientes opciones en los ajustes preestablecidos de Sal
 
 >[!NOTE]
 >
->Puede utilizar el ajuste preestablecido de la Base de conocimiento de Adobe Experience Manager si el administrador lo ha configurado. Para obtener más información, vea la sección [Publicación basada en artículos del Editor web](../install-guide/configure-article-based-publishing.md) en la Guía de instalación y configuración.
+>Puede utilizar el ajuste preestablecido de la Base de conocimiento de Adobe Experience Manager si el administrador lo ha configurado. Para obtener más información, vea la sección [Publicación basada en artículos del Editor web](/help/product-guide/install-guide/configure-article-based-publishing.md) en la Guía de instalación y configuración.
 
 | Opciones de Adobe Experience Manager | Descripción |
 | --- | --- |
@@ -73,7 +73,7 @@ También puede ver las siguientes opciones en los ajustes preestablecidos de Sal
 | Sitio | Utilice este campo para seleccionar la base de conocimiento de Adobe Experience Manager necesaria. Puede configurar las bases de conocimiento en el sitio de Adobe Experience Manager para almacenar el contenido en función de los permisos. Los artículos de este mapa DITA se pueden publicar en estas bases de conocimiento. |
 | Categoría | Seleccione una categoría del menú desplegable para publicar los temas del índice de esa categoría en el sitio de Adobe de Experience Manager. |
 | Plantilla de sección y plantilla de artículo | Estos son los componentes estructurales utilizados para organizar el contenido de la salida. Están predefinidas en la plantilla del sitio de Adobe Experience Manager. |
-| Flujo de trabajo de generación posterior | Al elegir esta opción, se muestra una nueva lista desplegable Flujo de trabajo de generación de publicaciones que contiene todos los flujos de trabajo configurados en Adobe Experience Manager Debe seleccionar un flujo de trabajo que desee ejecutar después de completar el flujo de trabajo de generación de resultados.<br>Obtenga más información acerca de cómo [personalizar el flujo de trabajo de generación posterior a la salida](../install-guide/customize-workflows.md#id17A6GI004Y4) en la sección Guía de instalación y configuración. |
+| Flujo de trabajo de generación posterior | Al elegir esta opción, se muestra una nueva lista desplegable Flujo de trabajo de generación de publicaciones que contiene todos los flujos de trabajo configurados en Adobe Experience Manager Debe seleccionar un flujo de trabajo que desee ejecutar después de completar el flujo de trabajo de generación de resultados.<br>Obtenga más información acerca de cómo [personalizar el flujo de trabajo de generación posterior a la salida](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4) en la sección Guía de instalación y configuración. |
 
 >[!TIP]
 > 

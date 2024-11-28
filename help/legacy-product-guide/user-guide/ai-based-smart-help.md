@@ -1,7 +1,7 @@
 ---
 title: Ayuda inteligente con tecnología de IA para buscar contenido
 description: Aprenda a ver y utilizar la ayuda inteligente con tecnología de IA en el editor web.
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Cuando abre el Editor Web, el panel **Ayuda inteligente** aparece a la derecha.
 
 >[!NOTE]
 >
-> El administrador debe configurar la característica **Ayuda inteligente**. Para obtener más información, consulte la sección [Configuración de la ayuda inteligente con tecnología de IA para buscar contenido](../cs-install-guide/conf-smart-help.md) en la Guía de instalación y configuración para Cloud Service.
+> El administrador debe configurar la característica **Ayuda inteligente**. Para obtener más información, consulte la sección [Configuración de la ayuda inteligente con tecnología de IA para buscar contenido](/help/product-guide/cs-install-guide/conf-smart-help.md) en la Guía de instalación y configuración para Cloud Service.
 
 ![Panel de ayuda inteligente](images/smart-help-panel.png){width="300" align="left"}
 
@@ -39,7 +39,7 @@ Realice los siguientes pasos para utilizar la búsqueda conversacional para enco
 
    >[!NOTE]
    >
-   > En los [perfiles globales o de nivel de carpeta](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant), el administrador debe definir las preguntas predeterminadas que aparecen en el panel.
+   > En los [perfiles globales o de nivel de carpeta](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant), el administrador debe definir las preguntas predeterminadas que aparecen en el panel.
 
 1. Escriba la pregunta para buscar el contenido relacionado en la documentación de Experience Manager Guides. Puede seleccionar la pregunta predeterminada en el panel o escribir su pregunta en el cuadro de texto.
 

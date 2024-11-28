@@ -3,7 +3,7 @@ title: Conozca las funciones del editor web
 description: Descubra las funciones del editor web en AEM Guides. Conocer la interfaz del editor web, incluida la barra de herramientas principal, la barra de herramientas secundaria, el panel izquierdo, el área de edición de contenido y el panel derecho.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '18802'
 ht-degree: 0%
@@ -605,7 +605,7 @@ Si está en la vista Mapa y expande el mapa principal, puede retirar todos los a
 
 La información sobre herramientas para Proteger/Desproteger está determinada por la propiedad title del archivo `ui_config.json`.
 
-Para obtener más información, vea [Configurar el título de los iconos Proteger y Desproteger](../install-guide/conf-checkin-checkout-title.md) en la Guía de instalación y configuración On-Premise.
+Para obtener más información, vea [Configurar el título de los iconos Proteger y Desproteger](/help/product-guide/install-guide/conf-checkin-checkout-title.md) en la Guía de instalación y configuración On-Premise.
 
 
 **Alternar vista de etiquetas** - ![](images/Label_icon.svg)
@@ -1142,7 +1142,7 @@ Las distintas opciones del menú Opciones se explican a continuación:
 
   >[!NOTE]
   >
-  >Póngase en contacto con el equipo de éxito del cliente para habilitar esta función en el entorno. Esta opción no está habilitada como parte de la compatibilidad predeterminada. Para obtener más información, consulte la sección [Configurar la opción para editar en Oxígeno](../cs-install-guide/conf-edit-in-oxygen.md) en la Guía de instalación y configuración.
+  >Póngase en contacto con el equipo de éxito del cliente para habilitar esta función en el entorno. Esta opción no está habilitada como parte de la compatibilidad predeterminada. Para obtener más información, consulte la sección [Configurar la opción para editar en Oxígeno](/help/product-guide/cs-install-guide/conf-edit-in-oxygen.md) en la Guía de instalación y configuración.
 
 
 - **Vista en la interfaz de usuario de Assets**: utilícela para mostrar una vista previa de un archivo .dita/.xml en la interfaz de usuario de Assets. En el caso de un archivo .ditamap/.bookmap, todos los archivos de tema dentro del mapa se muestran en una sola vista página a página unificada.

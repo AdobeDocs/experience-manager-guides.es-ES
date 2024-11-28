@@ -3,7 +3,7 @@ title: Inserción de un fragmento de contenido desde la fuente de datos
 description: Utilice datos de su fuente de datos en AEM Guides. Aprenda a insertar un fragmento de contenido desde la fuente de datos. Cree un tema con el generador de temas.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -26,18 +26,18 @@ En función de la configuración, el administrador puede configurar un conector 
 <summary> Cloud Services </summary>
 
 
-- Si usa la versión de octubre de 2023 o posterior, aprenda a [configurar un conector de origen de datos desde la interfaz de usuario](../cs-install-guide/conf-data-source-connector-tools.md) en la Guía de instalación y configuración de Cloud Service.
+- Si usa la versión de octubre de 2023 o posterior, aprenda a [configurar un conector de origen de datos desde la interfaz de usuario](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) en la Guía de instalación y configuración de Cloud Service.
 
-- Si usa la versión de julio de 2023 o septiembre de 2023, aprenda a [configurar un conector de origen de datos](../cs-install-guide/conf-data-source-connector.md) en la Guía de instalación y configuración de Cloud Service.
+- Si usa la versión de julio de 2023 o septiembre de 2023, aprenda a [configurar un conector de origen de datos](/help/product-guide/cs-install-guide/conf-data-source-connector.md) en la Guía de instalación y configuración de Cloud Service.
 
 </details>
 
 <details>    
 <summary>  Software On-Premise </summary>
 
-- Si usa la versión 4.3.1 o posterior, aprenda a [configurar un conector de origen de datos desde la interfaz de usuario](../cs-install-guide/conf-data-source-connector-tools.md) en la Guía de instalación y configuración in situ.
+- Si usa la versión 4.3.1 o posterior, aprenda a [configurar un conector de origen de datos desde la interfaz de usuario](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) en la Guía de instalación y configuración in situ.
 
-- Si usa la versión 4.3, aprenda a [configurar un conector de origen de datos](../cs-install-guide/conf-data-source-connector.md) en la Guía de instalación y configuración in situ.
+- Si usa la versión 4.3, aprenda a [configurar un conector de origen de datos](/help/product-guide/cs-install-guide/conf-data-source-connector.md) en la Guía de instalación y configuración in situ.
 </details>
 
 

@@ -3,7 +3,7 @@ title: Creación de mapas basados en plantillas personalizadas
 description: Aprenda a crear una plantilla de personalizaciones, utilizarla para crear nuevos archivos de asignación y pasar el título definido a un mapa DITA en AEM Guides.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -96,13 +96,13 @@ En función de la configuración, aprenda a configurar la ruta de carpeta de la 
 <details>
     <summary> Cloud Services </summary>
 
-Aprenda a [configurar la ruta de la carpeta de plantillas DITA personalizada](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) en la Guía de instalación y configuración de Cloud Service.
+Aprenda a [configurar la ruta de la carpeta de plantillas DITA personalizada](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) en la Guía de instalación y configuración de Cloud Service.
 </details>
 
 <details>
     <summary> Software On-Premise</summary>
 
-Aprenda a [configurar la ruta de la carpeta de la plantilla DITA personalizada](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) en la Guía de instalación y configuración On-Premise.
+Aprenda a [configurar la ruta de la carpeta de la plantilla DITA personalizada](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) en la Guía de instalación y configuración On-Premise.
 </details>
 
 ## Pasar el título definido en las plantillas
