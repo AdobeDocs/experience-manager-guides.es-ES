@@ -3,7 +3,7 @@ title: Usar ajustes preestablecidos de condición
 description: Conocer el uso de ajustes preestablecidos de condición en AEM Guides. AEM Obtenga información sobre cómo crear, editar, copiar y eliminar ajustes preestablecidos de condición en la aplicación de.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 2%
@@ -71,7 +71,7 @@ Realice una de las siguientes acciones:
    >
    > Verá una advertencia si selecciona otro ajuste preestablecido o lo cierra sin guardarlo.
 
-Una vez creado un ajuste preestablecido de condición, aparecerá en el menú desplegable **Ajustes preestablecidos de condición** de Ajustes preestablecidos de salida. Obtenga más información acerca de cómo [salida de PDF de Publish](../web-editor/native-pdf-web-editor.md).
+Una vez creado un ajuste preestablecido de condición, aparecerá en el menú desplegable **Ajustes preestablecidos de condición** de Ajustes preestablecidos de salida. Obtenga más información acerca de cómo [salida de PDF de Publish](/help/product-guide/web-editor/native-pdf-web-editor.md).
 
 ### Cambiar nombre de ajuste preestablecido de condición
 

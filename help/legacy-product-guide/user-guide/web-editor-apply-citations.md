@@ -3,7 +3,7 @@ title: Añadir y administrar citas en el contenido
 description: Añada y administre citas en AEM Guides. Aprenda a aplicar, importar, filtrar, buscar, cambiar el estilo de las citas, editar, previsualizar, insertar, eliminar y generar resultados de contenido con citas.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -257,10 +257,10 @@ Una vez que haya insertado citas en el tema, puede publicar contenido con citas 
 
 En la salida del PDF nativo, las citas aparecen dentro del contenido donde las ha insertado. También puede crear una página Bibliografía. Al hacer clic en cualquier cita, se le redirige a la página de bibliografía.
 
-Crea un diseño de página de **Citas** en las plantillas de PDF e inclúyalo en tu documento. Todas las citas utilizadas en el libro aparecen en una página que aparece en la salida del PDF. Para obtener más información sobre cómo crear un diseño de página, vea [Crear un diseño de página](../native-pdf/components-pdf-template.md#create-page-layout).
+Crea un diseño de página de **Citas** en las plantillas de PDF e inclúyalo en tu documento. Todas las citas utilizadas en el libro aparecen en una página que aparece en la salida del PDF. Para obtener más información sobre cómo crear un diseño de página, vea [Crear un diseño de página](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
 
 
-Para cambiar la vista y el funcionamiento de la página de citas, vea [Personalizar plantillas de PDF](../native-pdf/pdf-template.md).
+Para cambiar la vista y el funcionamiento de la página de citas, vea [Personalizar plantillas de PDF](/help/product-guide/native-pdf/pdf-template.md).
 
 
 
@@ -272,4 +272,4 @@ Aplique formato a la cita cuando se añada al tema.
 
 1. En el panel Buscar, busque `<cite>`.
 
-Para obtener más información acerca de los estilos, vea [Trabajar con los estilos de contenido comunes](../native-pdf/stylesheet.md).
+Para obtener más información acerca de los estilos, vea [Trabajar con los estilos de contenido comunes](/help/product-guide/native-pdf/stylesheet.md).
