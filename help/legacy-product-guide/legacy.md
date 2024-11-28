@@ -1,14 +1,17 @@
 ---
 title: Heredado
 description: Descripción heredada
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+exl-id: 25cd90ed-ae73-4185-90f5-6ace9d76a796
+source-git-commit: 87174a44458596b9c4642e248d1f734a92bbe9dc
 workflow-type: tm+mt
-source-wordcount: '7'
-ht-degree: 14%
+source-wordcount: '58'
+ht-degree: 1%
 
 ---
 
+
 # Información general heredada
 
+Esta guía del usuario está diseñada para los usuarios de la interfaz de usuario antigua de Experience Manager Guides. Si está usando la nueva interfaz, consulte la guía del usuario actualizada para la nueva experiencia del usuario, disponible [aquí](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aem-guide/intro).
 
-Más aquí
+Para una transición sin problemas, asegúrese de utilizar la guía que coincida con su interfaz actual.
