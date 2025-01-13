@@ -5,9 +5,9 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: f7ce1dc72edfcec939e5bd25bbf82c2e3907a326
+source-git-commit: ea3083542e955a56c27cd833600370a7962c6b8d
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '854'
 ht-degree: 8%
 
 ---
@@ -100,7 +100,9 @@ En función del flujo de trabajo de traducción utilizado en la configuración, 
 
 >[!IMPORTANT]
 > 
-> Se recomienda utilizar el flujo de trabajo de traducción más reciente, que proporciona un rendimiento mejorado. Sin embargo, si hay personalizaciones habilitadas en el proceso de traducción actual, considere la posibilidad de utilizar el flujo de trabajo de traducción heredada.
+> Se recomienda utilizar el flujo de trabajo de traducción más reciente, disponible en AEM Guides 4.6.0 y versiones posteriores, para un rendimiento mejorado. Sin embargo, si ha habilitado cualquier personalización en el proceso de traducción y este se ve afectado por el nuevo flujo de trabajo, considere la posibilidad de volver al flujo de trabajo de traducción heredado como solución alternativa.
+
+
 
 De forma predeterminada, la opción del flujo de trabajo de traducción heredado está desactivada. Puede configurar esta opción realizando los siguientes pasos:
 

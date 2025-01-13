@@ -5,9 +5,9 @@ exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: b28b7d96cce69f677b0bcf891b94d7ac84eb1eb0
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -114,17 +114,5 @@ Esto se puede hacer en tiempo de ejecución a través de la consola Felix o medi
 **Resultado de este cambio**
 AEM AEM Un número mayor de **Límite de páginas del sitio en el montón** de la propiedad optimiza el proceso de generación de resultados del sitio en el sitio en el sitio en el que se ha puesto en marcha la.
 
-## Optimizar número de subprocesos de posprocesamiento \(obligatorio, según el caso de uso\)
-
-**¿Cuál es el cambio?**
-Este cambio es necesario si se carga contenido DITA de forma masiva.
-
-Establezca la propiedad de **Post Process Threads** en `com.adobe.fmdita.config.ConfigManager` en `1`.
-
-**¿Cuándo se debe configurar?**
-Esto se puede hacer en tiempo de ejecución.
-
-**Resultado de este cambio**
-Este cambio reduce el tiempo de posprocesamiento en cargas masivas de ficheros DITA.
 
 **Tema principal:**[ Descargar e instalar](download-install.md)
