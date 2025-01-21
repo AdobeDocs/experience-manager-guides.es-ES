@@ -1,7 +1,7 @@
 ---
 title: Utilice el asistente de IA para crear documentos de forma inteligente `
 description: Aprenda a utilizar el asistente de IA para crear documentos con eficiencia inteligente en el editor web.
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -109,12 +109,12 @@ Por ejemplo, puede enumerar los requisitos del sistema y generar una breve descr
 
 
 1. Seleccione el contenido.
-1. Seleccione **Crear descripción breve ![ai create icono de descripción breve](./images/ai-create-shortdesc-icon.svg)** para crear una descripción breve para el tema actual.
+1. Seleccione **Crear descripción breve** ![ai icono de creación de descripción breve](./images/ai-create-shortdesc-icon.svg) para crear una descripción breve para el tema actual.
 1. Seleccione **Accept** para crear una nueva descripción breve si la descripción breve aún no está presente. Si existe una descripción breve, debe confirmarla antes de reemplazarla por la nueva descripción breve.
 
 También puede realizar las siguientes acciones:
-- Seleccione **Regenerar** para generar otra descripción breve del tema, como las herramientas de IA.
 
+- Seleccione **Regenerar** para generar otra descripción breve del tema, como las herramientas de IA.
 - Seleccione **Expand** para abrir el editor **Create shortdesc**.
 
 ![asistente de ia crea un editor de descripción breve](./images/ai-assistant-create-short-desc.png)

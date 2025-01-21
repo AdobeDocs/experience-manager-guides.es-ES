@@ -4,7 +4,7 @@ description: Aprenda a trabajar con el editor de mapas avanzado en AEM Guides. C
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 6201434d3dd8336bf9fe1bce6368d5dbb9c56162
+source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Realice los siguientes pasos para crear el archivo de asignación con el Editor 
 
    - **B** - \(*Barra de herramientas secundaria*\) Esta es la barra de herramientas secundaria que le permite trabajar con archivos de asignación. Para obtener más información sobre las funcionalidades disponibles a través de la barra de herramientas secundaria, consulte [Características disponibles en la barra de herramientas del Editor de mapas avanzado](#id205DEC0005Z).
 
-   - **C** - \(*Vistas de mapas*\): Permite cambiar el Editor de mapas entre el Diseño, Autor, Source y Vista previa. La vista **Diseño** permite organizar los temas en un mapa DITA. Esto proporciona la vista de árbol o jerárquica del mapa. La vista **Autor** le permite editar los temas en el Editor de mapas. Esto también proporciona la vista WYSIWYG del archivo de mapa. La vista **Source** le permite trabajar con el XML subyacente del archivo de asignación. La vista previa le ofrece una vista consolidada de todos los temas y subasignaciones dentro del archivo de asignación. El vínculo **Cerrar** cierra el archivo de asignación.
+   - **C** - \(*Vistas de mapas*\): Permite cambiar el Editor de mapas entre el Diseño, Autor, Source y Vista previa. La vista **Diseño** permite organizar los temas en un mapa DITA. Esto proporciona la vista de árbol o jerárquica del mapa. La vista **Autor** le permite editar los temas en el Editor de mapas. Esto también proporciona la vista de WYSIWYG del archivo de mapa. La vista **Source** le permite trabajar con el XML subyacente del archivo de asignación. La vista previa le ofrece una vista consolidada de todos los temas y subasignaciones dentro del archivo de asignación. El vínculo **Cerrar** cierra el archivo de asignación.
 
    - **D** - \(*Panel izquierdo*\): otorga acceso al panel izquierdo que le da acceso a Favoritos, Repositorio, Mapa, Esquema y otras características. Puede expandirlo o contraerlo si hace clic en el icono Expandir barra lateral \(![](images/sidebar-expand-icon.svg)\). Para obtener más información sobre las características disponibles en el panel izquierdo, consulte [Panel izquierdo](web-editor-features.md#id2051EA0M0HS) en el editor web.
 
@@ -386,4 +386,4 @@ Puede acceder a la vista previa de un mapa desde:
    - El tema actual en la vista previa del mapa también se resalta en el árbol del mapa.
 
 
-**Tema principal:**[ Trabajar con el editor de mapas](map-editor.md)
+**Tema principal:** [Trabajar con el editor de mapas](map-editor.md)
