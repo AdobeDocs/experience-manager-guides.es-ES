@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: 74958da7f69733f1671f0ab91a4401033fbb2016
+source-git-commit: 6d0648ddaabffe84c923afe7c531eea902406c1c
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2011'
 ht-degree: 7%
 
 ---
@@ -511,4 +511,5 @@ ht-degree: 7%
       - Casos de uso {#use-cases}
          - [Trabajo con contenido condicional](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          - [Uso de claves](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
+         - [Habilitar variables de contenido contextual en aemsites mediante aemguides](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)
    - [Uso del conector de oxígeno](./oxygen-connector/use-aem-connector.md)
