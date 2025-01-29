@@ -1,9 +1,10 @@
 ---
 title: Notas de versión | Se han corregido problemas en la versión 2024.12.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las correcciones de errores en la versión 2024.12.0 de Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: f643a4a22151af2ff14288ab3885c1a6657a80ca
+exl-id: 04a57e1a-6e74-46f6-acde-5045d3dcacdc
+source-git-commit: dd404c42863f0b4a5f31b54f770c0bf296d68ab9
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '408'
 ht-degree: 1%
 
 ---
@@ -40,3 +41,30 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 ## Traducción
 
 - La traducción de mapas mediante línea de base se hace lenta y, finalmente, no puede cargar la lista de todos los temas asociados y los archivos de asignaciones. (19733)
+
+## Problemas conocidos con la solución
+
+El Adobe ha identificado los siguientes problemas conocidos en la versión 2024.12.0 de Adobe Experience Manager Guides as a Cloud Service.
+
+**Error al crear el proyecto al procesar la traducción de contenido**
+
+Al enviar contenido para su traducción, la creación del proyecto falla con los siguientes errores de registro:
+
+`com.adobe.cq.wcm.translation.impl.TranslationPrepareResource` Error al procesar el proyecto de traducción
+
+`com.adobe.cq.projects.api.ProjectException`: no se puede crear el proyecto
+
+Causado por: `org.apache.jackrabbit.oak.api.CommitFailedException`: `OakAccess0000`: acceso denegado
+
+
+**Solución alternativa**: para resolver este problema, realice los siguientes pasos:
+
+1. Añada un archivo repoinit. En caso de que el archivo no exista, créelo realizando los [pasos de creación de repoinit de ejemplo](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854).
+2. Añada la línea siguiente en el archivo e implemente el código:
+
+   ```
+   { "scripts": [ "set principal ACL for translation-job-service\n allow jcr:all on /home/users/system/cq:services/internal/translation\nend" ] }
+   ```
+
+3. Pruebe la traducción después de la implementación.
+
