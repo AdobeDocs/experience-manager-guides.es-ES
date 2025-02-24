@@ -1,13 +1,13 @@
 ---
-title: Función nativa de PDF Publish | Diseño de una página
-description: Aprenda a diseñar el diseño de página para presentar la información en diferentes secciones de la salida del PDF.
+title: Función de publicación nativa de PDF | Diseño de una página
+description: Aprenda a diseñar el diseño de página para presentar la información en diferentes secciones de la salida de PDF.
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: aad652509c54b516fca49b7ca28d7dd5547f9a1b
+source-git-commit: e8aecbdca448c321ac36804255416a4fb2561f79
 workflow-type: tm+mt
-source-wordcount: '4972'
+source-wordcount: '5017'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # Diseño de una página {#design-page-layout}
 
-Al crear un documento de PDF, tendría diferentes secciones para presentar diferentes tipos de información. Por ejemplo, un documento de PDF comenzaría desde una portada o portada, que tendría el logotipo de su compañía, el título del libro o la información de la versión. Luego habría capítulos, apéndices o páginas de glosarios. Cada sección de un documento de PDF tiene un aspecto diferente y se logra creando y personalizando el diseño de página.
+Al crear un documento de PDF, tendría diferentes secciones para presentar diferentes tipos de información. Por ejemplo, un documento de PDF comenzaría desde una portada o portada, que tendría el logotipo de su empresa, el título del libro o la información de la versión. Luego habría capítulos, apéndices o páginas de glosarios. Cada sección de un documento de PDF tiene un aspecto diferente y se logra creando y personalizando el diseño de página.
 
-Al diseñar el diseño de página, puede definir los distintos elementos que componen una página. Por ejemplo, puede definir el tamaño de página, los márgenes, el encabezado y pie de página, la orientación y otras especificaciones de página de una página. La característica Publicación de PDF nativo le permite diseñar su página según los [estándares de medios de página](https://www.w3.org/TR/css-page-3/). La mayoría de las opciones de configuración incluidas en los estándares de medios paginados se pueden personalizar fácilmente con la interfaz de usuario de la función de publicación nativa de PDF. Para aplicar otro formato de nivel avanzado, puede utilizar la vista de Source para escribir su propio código CSS.
+Al diseñar el diseño de página, puede definir los distintos elementos que componen una página. Por ejemplo, puede definir el tamaño de página, los márgenes, el encabezado y pie de página, la orientación y otras especificaciones de página de una página. La característica de publicación nativa de PDF le permite diseñar su página según los [estándares de medios de página](https://www.w3.org/TR/css-page-3/). La mayoría de las opciones de configuración incluidas en los estándares de medios paginados se pueden personalizar fácilmente con la interfaz de usuario de la función de publicación nativa de PDF. Para aplicar otro formato de nivel avanzado, puede utilizar la vista de Source para escribir su propio código CSS.
 
-Una vez diseñados los diseños de página, debe asociarlos con sus secciones respectivas en la configuración de Diseño de página del PDF. Consulte la sección [Crear y personalizar diseños de página](components-pdf-template.md#create-customize-page-layout) para obtener más información sobre cómo crear y abrir un diseño de página para personalizar.
+Una vez diseñados los diseños de página, debe asociarlos con sus secciones respectivas en la configuración de Diseño de página de PDF. Consulte la sección [Crear y personalizar diseños de página](components-pdf-template.md#create-customize-page-layout) para obtener más información sobre cómo crear y abrir un diseño de página para personalizar.
 
 ## Tipos de diseños de página {#types-of-page-layout}
 
@@ -36,7 +36,7 @@ Un documento de PDF suele contener las siguientes secciones:
 
 Estas secciones necesitarían un diseño de página correspondiente para presentar la información en un formato específico. Además, también puede tener una página en blanco que se utiliza como relleno para iniciar un nuevo capítulo desde una página par o impar. En ese caso, puede utilizar el diseño de página predeterminado o crear un diseño de página para una página en blanco. Consulte [Crear un nuevo diseño de página](components-pdf-template.md#create-page-layout) para obtener más información.
 
-La configuración de Diseños de página en la sección **Plantilla>Configuración** permite definir qué diseño de página se utilizará para las diferentes secciones del PDF. Además, cada diseño de página puede tener diferentes variantes de página inicial, derecha o izquierda.
+La configuración de Diseños de página en la sección **Plantilla>Configuración** permite definir qué diseño de página se utilizará para diferentes secciones de PDF. Además, cada diseño de página puede tener diferentes variantes de página inicial, derecha o izquierda.
 
 ### Crear las primeras variantes de diseño de página a la derecha o a la izquierda {#page-layout-variants}
 
@@ -78,7 +78,7 @@ El siguiente ejemplo lo guiará por el proceso de creación de variantes de un d
 
    >[!NOTE]
    >
-   >Para obtener una configuración avanzada, puede utilizar la vista de Source y agregar su HTML personalizado y código CSS.
+   >Para obtener una configuración avanzada, puede utilizar la vista de Source y agregar su código CSS y HTML personalizado.
 
 1. Pase el ratón sobre el diseño de **Chapter** y haga clic en **Options** para mostrar el menú contextual.
 
@@ -100,7 +100,7 @@ Al diseñar un diseño de página, es esencial tener control sobre las distintas
 
 * **Rotación de vista** : especifique el lado o la dirección en que se representa el lado superior original después de la rotación. Puede elegir entre 90 en sentido horario, 90 en sentido antihorario o 180 en sentido antihorario. Esto resulta muy útil en una situación en la que desea utilizar una combinación de diseños Vertical y Horizontal en la salida. Por ejemplo, puede utilizar vertical como diseño de página genérico y establecer un diseño de página horizontal para representar tablas anchas. En ese caso, puede configurar para que muestre el contenido de la tabla en el sentido de las agujas del reloj 90 grados. De esta forma, la página estará orientada en horizontal y el contenido rotará 90 grados para mantener la continuidad a la vista. Veremos cómo se logra esto como ejemplo más adelante en esta sección.
 
-* **Numeración de páginas**: La numeración de páginas, de forma predeterminada, es continua en un PDF. Por ejemplo, un PDF de 100 páginas podría tener números de página continuos de 1 a 100. También puede reiniciar la numeración desde un número específico en todas las secciones diferentes o desde la primera aparición de una sección.
+* **Numeración de páginas**: La numeración de páginas, de forma predeterminada, es continua en un PDF. Por ejemplo, una PDF de 100 páginas podría tener números de página continuos de 1 a 100. También puede reiniciar la numeración desde un número específico en todas las secciones diferentes o desde la primera aparición de una sección.
    * **Reiniciar desde** : especifique el número de página desde el que se iniciará la numeración para este diseño de página. Por ejemplo, puede establecer el número de página para que se reinicie cada capítulo. En ese caso, debe establecer la propiedad restart from en 1 en la variante First page layout del diseño de página del capítulo. De forma predeterminada, la numeración de páginas continúa desde la página anterior.
 
    * **Aplicar solo a la primera incidencia**: También puede comenzar desde un número específico solo para la primera incidencia de una sección. Por ejemplo, puede comenzar solamente el primer capítulo desde 1 y continuar con los números de página de otros capítulos.
@@ -136,7 +136,7 @@ Lo primero que debe definir en un diseño de página es el tamaño de la página
 
 ### Utilizar la orientación de página y la rotación de vistas {#page-orientation-rotation}
 
-Veamos un ejemplo en el que se utiliza una combinación de orientación de página vertical y horizontal y propiedades de rotación de vista. En este ejemplo, crearemos un PDF con orientación vertical predeterminada, pero se procesará una tabla en orientación horizontal con contenido en la vista de 90 grados en el sentido de las agujas del reloj. El resultado final tendrá un aspecto similar al siguiente:
+Veamos un ejemplo en el que se utiliza una combinación de orientación de página vertical y horizontal y propiedades de rotación de vista. En este ejemplo, crearemos una PDF con orientación vertical predeterminada, pero se procesará una tabla con orientación horizontal con contenido en la vista de 90 grados en el sentido de las agujas del reloj. El resultado final tendrá un aspecto similar al siguiente:
 
 <img src="./assets/portrait-landscape-page-layouts.png" width="400">
 
@@ -214,9 +214,9 @@ Siga estos pasos para realizar las tareas anteriores:
       <img src="./assets/new-style-table-outputclass.png" width="300">
 
 1. Haga clic en **Guardar todo** para guardar el archivo actualizado.
-1. Genere la salida del PDF.
+1. Genere la salida de PDF.
 
-El PDF final procesará el contenido de la tabla en modo horizontal como se muestra al principio del ejemplo.
+La PDF final mostrará el contenido de la tabla en modo horizontal como se muestra al principio del ejemplo.
 
 ### Agregar una imagen de fondo {#add-bg-image}
 
@@ -285,12 +285,12 @@ De forma predeterminada, los márgenes del encabezado y del pie de página se es
 
 1. Para cambiar el tamaño del pie de página, introduzca el valor deseado en el campo Bottom margin.
 
-Puede diseñar el área de encabezado y pie de página para que contenga varias líneas. Para ello, añada una etiqueta \&lt;p\> utilizando Insertar elementos de HTML (<img src="./assets/insert-html-element-2.svg" width="25">) en el área del encabezado o pie de página.
+Puede diseñar el área de encabezado y pie de página para que contenga varias líneas. Para ello, añada una etiqueta \&lt;p\> utilizando Insertar elementos HTML (<img src="./assets/insert-html-element-2.svg" width="25">) en el área del encabezado o pie de página.
 
 | _Rincón del desarrollador_: <img src="./assets/developer-corner-icon.svg" width="25"> |
 |---|
 
-Si desea trabajar directamente con el código CSS y el código de HTML, puede cambiar los valores de los márgenes como se muestra en el siguiente fragmento de código:
+Si desea trabajar directamente con el código CSS y HTML, puede cambiar los valores de los márgenes como se muestra en el siguiente fragmento de código:
 
 ```css
 …
@@ -366,12 +366,13 @@ Existen las siguientes categorías para los campos que puede insertar en el dise
 Cada una de estas categorías de campos contiene diferentes variaciones en las que se puede insertar la información del campo. Por ejemplo, un campo Fecha puede tener diferentes variaciones como `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY`, etc. Del mismo modo, Número de página puede tener variaciones en la forma de formatos romanos, decimales o incluso específicos de la configuración regional, como _Árabe_, _Devanagari_, _Hebreo_ y más.
 
 
-Además de los campos predefinidos, también puede agregar información de metadatos como variables o campos en el diseño de página. Estos metadatos se almacenan en el contenido de origen DITA **Map**, o bien se pueden seleccionar de las propiedades de archivo DITA **Map** o de las propiedades de archivo **Topic** y se pueden insertar fácilmente en el diseño de página.
+Además de los campos predefinidos, también puede agregar información de metadatos como variables o campos en el diseño de página. Estos metadatos pueden almacenarse en el DITA de origen **Contenido del mapa**, **Contenido del tema**, o pueden seleccionarse de las propiedades del archivo DITA **Map**, **Propiedades del archivo del tema**.
 
 Puede seleccionar los metadatos de las siguientes opciones:
 
 * **Contenido de mapa** incluye los metadatos que ha definido en el elemento `<topicmeta>` del mapa DITA.
 * **Propiedades del archivo de mapa** incluye los metadatos, a los que puede tener acceso desde la página **Propiedades** de un mapa DITA.
+* **El contenido del tema** incluye metadatos definidos en el elemento `<prolog>` de un tema DITA, como copyright, autor y otros detalles. Para recuperar elementos `<prolog>` individuales, puede utilizar expresiones XPath simples (por ejemplo, //author para el nombre del autor). Para los metadatos de atributo, incluya el símbolo `@` en la sintaxis XPath (por ejemplo, //critdates/modified/@modified para la fecha de modificación).
 * **Propiedades del archivo de tema** incluye los metadatos, a los cuales puede tener acceso desde la página **Propiedades** de un tema.
 
 
@@ -445,7 +446,7 @@ En el siguiente ejemplo, insertaremos un número de página y un título de cap�
 | _Rincón del desarrollador_: <img src="./assets/developer-corner-icon.svg" width="25"> |
 |---|
 
-Si desea trabajar directamente con el código CSS y de HTML, también puede hacerlo en la vista Source del diseño de página y realizando cambios en el código. El siguiente fragmento de código muestra la misma configuración de pie de página realizada a través del código:
+Si desea trabajar directamente con el código CSS y HTML, también puede hacerlo en la vista Source del diseño de página y realizando cambios en el código. El siguiente fragmento de código muestra la misma configuración de pie de página realizada a través del código:
 
 ```css
 …
@@ -507,7 +508,7 @@ En el siguiente ejemplo, insertaremos una tabla de contenido de capítulo en el 
 
    >[!NOTE]
    >
-   >El PDF final publicado solo mostrará las entradas del índice en función del contenido de los capítulos. Si no tiene encabezados de nivel 5 en un capítulo, no se mostrará en la salida final.
+   >La PDF final publicada solo mostrará las entradas del índice en función del contenido de los capítulos. Si no tiene encabezados de nivel 5 en un capítulo, no se mostrará en la salida final.
 
 El aspecto del índice predeterminado se puede personalizar mediante las hojas de estilo. El estilo que comienza por `chaptoc-level-#` (como `chaptoc-level-1`, `chaptoc-level-2`, etc.) se usa para personalizar los estilos del índice del capítulo. <!--For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_-->.
 

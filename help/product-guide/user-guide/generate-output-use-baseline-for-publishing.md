@@ -4,67 +4,56 @@ description: Conocer el uso de las líneas de base en AEM Guides. Obtenga inform
 exl-id: 0554947f-3038-4fd2-8a62-ac0d4b858e94
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1790'
 ht-degree: 0%
 
 ---
 
-# Trabajar con línea base {#id1825FI0J0PF}
+# Trabajo con Línea base desde el panel Mapa {#id1825FI0J0PF}
 
-La función Línea de base le permite crear una versión de los temas y recursos que luego se puede utilizar para publicar o traducir. Por ejemplo, si el mapa DITA tiene `topicA` y `imageA`, puede crear una Línea base para utilizar la tercera versión de `topicA`, pero la cuarta versión de `ImageA`. Una vez preparada una Línea de base, puede publicar o traducir temas de distintas versiones con un solo clic.
-
-La selección de una Línea base es opcional para los ajustes preestablecidos de salida y un mapa DITA puede tener más de una Línea base. Sin embargo, cada ajuste preestablecido de salida dentro de un mapa DITA sólo puede asociarse a una única Línea base. Si no se especifica ninguna Línea de base en el momento de la publicación, el resultado se publica con la última versión del contenido.
-
-Del mismo modo, la selección de una Línea base para traducir contenido es opcional. Sin embargo, si decide traducir el contenido mediante una Línea de base, el contenido de la Línea de base también se guarda junto con las copias traducidas. A continuación, puede utilizar la línea de base traducida para realizar más operaciones, como compartirla con editores externos o archivarla. Para obtener más información sobre cómo exportar una línea de base traducida, consulte [Exportar línea de base traducida](#id196SE600GHS).
+Experience Manager Guides proporciona la característica Línea base que permite a los usuarios crear líneas de base y utilizarlas para publicar o traducir temas de distintas versiones. También pueden publicar varios ajustes preestablecidos de salida del mismo mapa DITA en paralelo.
 
 >[!TIP]
 >
-> Consulte la sección *Línea base* en la guía de prácticas recomendadas para conocer las prácticas recomendadas sobre cómo trabajar con Líneas bases.
+> Vea la sección *Línea de base* en la Guía de prácticas recomendadas para obtener prácticas recomendadas sobre cómo trabajar con Líneas de base.
 
-El administrador puede configurar la pestaña Línea base en el panel de asignaciones. Para obtener más información, consulte la ficha *Configurar línea de base en el tablero de mapas DITA* en la Guía de instalación y configuración.
+El administrador puede configurar la pestaña Línea base en el panel de asignaciones. Para obtener más información, vea la ficha *Configurar línea de base en el tablero de mapas DITA* en la Guía de instalación y configuración.
 
-Para acceder a la función Línea base, realice los pasos siguientes:
+En la **pestaña Líneas bases**, puede realizar las siguientes acciones:
 
-1. En la interfaz de usuario de Assets, vaya al fichero de mapa DITA y haga clic en él.
-1. Vaya a la ficha **Líneas de base**.
+- [Crear una línea base](#create-a-baseline)
+- [Ver contenido de una línea base](#view-contents-of-a-baseline)
+- [Editar, duplicar o eliminar líneas bases](#edit-duplicate-or-remove-baselines)
+- [Agregar etiquetas a una línea de base](#add-labels-to-a-baseline)
 
-En la pestaña Líneas bases, puede realizar las siguientes acciones:
-
-- [Crear una línea base](#id195FI0I0MUQ)
-- [Ver contenido de una línea base](#id195FI0I0TLN)
-- [Editar, duplicar o eliminar líneas bases](#id195FI0I0YJL)
-- [Agregar etiquetas a una línea de base](#id184KD0T305Z)
-
-## Crear una línea base {#id195FI0I0MUQ}
+## Crear una línea base
 
 Puede crear una Línea base con una versión específica de los temas y contenido referenciado disponible en una fecha y hora específicas, o con una etiqueta definida para una versión de los temas. Puede especificar individualmente las versiones de los temas seleccionados en una Línea base para que cada vez que aplique la Línea base en el flujo de trabajo de publicación o traducción, los temas seleccionados y sus versiones correspondientes se incluyan para la generación o traducción de resultados.
 
 Realice los siguientes pasos para crear una línea base:
 
-1. En la página Líneas bases, haga clic en **Crear**.
-1. Escriba un nombre para la línea de base en **Nombre de línea de base**.
-   ![crear una línea base](images/create-baseline.png){width="800" align="left"}
-1. En **Establecer la versión basada en**, seleccione una de las siguientes opciones:
+1. Abra un archivo de mapa DITA en la interfaz de usuario de Assets y vaya a la página **Líneas de base**.
+2. Seleccione **Crear** en la parte superior izquierda.
+3. En la página Línea de base, escriba un nombre para la Línea de base en el campo **Nombre de línea de base**.
+
+   ![](images/create-baseline-assets-ui.png){width="300" align="left"}
+
+4. En **Establecer la versión basada en**, seleccione una de las siguientes opciones:
 
    - **Etiqueta**: seleccione esta opción para elegir los temas según la etiqueta aplicada. Introduzca una etiqueta para filtrar la lista en función de la cadena introducida. En la lista filtrada, puede elegir una etiqueta para seleccionar temas y otros recursos que tengan la etiqueta especificada.
 
-   Al seleccionar **Etiqueta**, también se le ofrece una opción adicional para utilizar la versión más reciente de temas a los que no se les haya aplicado la etiqueta especificada. Si no selecciona esta opción y hay algún tema o archivo multimedia que no tenga la etiqueta especificada en él, el proceso de creación de la línea base fallará. Para obtener más información sobre cómo agregar etiquetas, consulte [Usar etiquetas](web-editor-use-label.md#).
+     Al seleccionar Etiqueta, también se le ofrece una opción adicional para utilizar la última versión de temas que no tengan aplicada la etiqueta especificada. Si no selecciona esta opción y hay algún tema o archivo multimedia que no tenga la etiqueta especificada en él, el proceso de creación de la línea base fallará. Para obtener más información sobre cómo agregar etiquetas, consulte Uso de etiquetas.
 
-   - **Versión el** &lt;*marca de tiempo*\>: elige la versión de los temas en la fecha y hora especificadas. AEM Tenga en cuenta que la hora que especifique aquí corresponde a la zona horaria del servidor de la. Si el servidor se encuentra en una zona horaria diferente, los temas se recogerán según la zona horaria del servidor y no según la zona horaria local.
+   - **Versión en**: elige la versión de los temas en la fecha y hora especificadas. Tenga en cuenta que la hora que especifique aquí corresponde a la zona horaria del servidor de Adobe Experience Manager. Si el servidor se encuentra en una zona horaria diferente, los temas se recogerán según la zona horaria del servidor y no según la zona horaria local.
 
-   Una vez seleccionada una etiqueta o versión como en la fecha, todos los temas a los que se hace referencia y los archivos multimedia dentro del mapa se seleccionan según corresponda. Esta selección de temas no se muestra en la interfaz de usuario, pero se guarda en el servidor.
+     Una vez seleccionada una etiqueta o versión como en la fecha, todos los temas a los que se hace referencia y los archivos multimedia dentro del mapa se seleccionan según corresponda. Esta selección de temas no se muestra en la interfaz de usuario, pero se guarda en el servidor.
+5. Seleccione **Guardar**.
 
-   >[!NOTE]
-   >
-   >Se recomienda no usar el vínculo **Examinar todos los temas** al crear una línea de base.
+## Ver contenido de una línea base
 
-1. Haga clic en **Guardar**.
-
-## Ver contenido de una línea base {#id195FI0I0TLN}
-
-Para ver el contenido de una instantánea existente, pulse en la ficha Líneas base y seleccione la versión de instantánea que desee en la lista. La página Líneas bases se divide en tres partes: fichero de mapa DITA, contenido o temas del mapa y contenido referenciado. Si el mapa contiene submapas, los temas a los que se hace referencia en el submapa también se muestran en la sección Contenido. A continuación se describen las distintas columnas de la página Línea Base:
+Para ver el contenido de una instantánea existente, seleccione la ficha Instantánea y seleccione la versión de instantánea que desee en la lista. La página Líneas bases se divide en tres partes: fichero de mapa DITA, contenido o temas del mapa y contenido referenciado. Si el mapa contiene submapas, los temas a los que se hace referencia en el submapa también se muestran en la sección Contenido. A continuación se describen las distintas columnas de la página Línea Base:
 
 - **Nombre**: enumera el título del tema o el mapa DITA o el nombre del recurso, como el nombre de archivo de una imagen.
 
@@ -82,25 +71,25 @@ Para ver el contenido de una instantánea existente, pulse en la ficha Líneas b
 
 - **Referido por**: esta columna solo está disponible para el contenido referenciado. Indica el tema principal del recurso al que se hace referencia. Si se hace referencia a un recurso mediante varios temas, estos se separarán mediante comas.
 
-## Editar, duplicar o eliminar líneas bases {#id195FI0I0YJL}
+## Editar, duplicar o eliminar líneas bases
 
 **Editar líneas base**
 
 Realice los siguientes pasos para editar una línea base existente:
 
-1. Seleccione la Línea base y haga clic en **Editar**.
+1. Seleccione la Línea de base y seleccione **Editar**.
 1. Realice los cambios necesarios en la línea de base. Puede cambiar el nombre y la versión del tema o el contenido al que se hace referencia.
-1. Si desea utilizar una versión diferente para uno o más temas, puede seleccionarlos manualmente. Haga clic en **Examinar tema** y seleccione el tema para el que desea usar una versión diferente. En la lista desplegable Seleccionar una versión para el tema seleccionado, seleccione una versión del tema que desee usar en la línea de base y haga clic en **Aceptar**.
+1. Si desea utilizar una versión diferente para uno o más temas, puede seleccionarlos manualmente. Seleccione **Examinar tema**, seleccione el tema para el que desea usar una versión diferente. En la lista desplegable Seleccionar una versión para el tema seleccionado, seleccione una versión del tema que desee usar en la línea de base y seleccione **Aceptar**.
 
    ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
 
    La información sobre el tema y su versión seleccionada se almacenan en el servidor. Puede repetir este paso para cambiar la versión seleccionada de varios temas.
 
-1. Para cargar todos los temas y archivos multimedia referidos desde el mapa DITA, haga clic en el vínculo **Examinar todos los temas**. El UUID de los temas y archivos multimedia también se muestra debajo del título del tema o del nombre del archivo \(media\).
+1. Para cargar todos los temas y archivos multimedia referidos desde el mapa DITA, seleccione el vínculo **Examinar todos los temas**. El UUID de los temas y archivos multimedia también se muestra debajo del título del tema o del nombre del archivo \(media\).
 
    >[!NOTE]
    >
-   > Si tiene un gran conjunto de archivos en el mapa DITA, con mapas y temas anidados, hacer clic en Examinar todos los temas podría tardar algún tiempo en cargar todos los archivos.
+   > Si tiene un gran conjunto de archivos en el mapa DITA, con mapas y temas anidados, la selección de Examinar todos los temas podría tardar algún tiempo en cargar todos los archivos.
 
    El contenido del mapa se presenta en las tres secciones: el archivo de mapa, Contenido \(referencias de temas\) y Contenido de referencia \(temas anidados, mapas y otros recursos\). Una vez que tenga disponible todo el contenido al que se hace referencia, puede seleccionar individualmente la versión del tema que desee utilizar en la línea de base.
 
@@ -115,19 +104,19 @@ Realice los siguientes pasos para editar una línea base existente:
    >[!NOTE]
    >
    > Si desea especificar una versión diferente para un recurso en particular, puede hacerlo eligiendo la versión deseada de la lista desplegable **Versión**.
-1. Haga clic en **Guardar**.
+1. Seleccione **Guardar**.
 
 **Líneas bases duplicadas**
 
-Seleccione la línea de base y haga clic en **Duplicate** para crear una copia de una línea de base existente. Especifique un nombre diferente para la línea de base, elija el número de versión de los temas y del contenido referenciado y haga clic en **Guardar**.
+Seleccione la Línea base y seleccione **Duplicate** para crear una copia de una Línea base existente. Especifique un nombre diferente para la línea de base, elija el número de versión de los temas y del contenido referenciado y seleccione **Guardar**.
 
 **Quitar líneas bases**
 
-Seleccione la versión de las líneas base y haga clic en **Quitar** para quitar una línea base.
+Seleccione la versión de las líneas de base y seleccione **Quitar** para quitar una línea de base.
 
-## Agregar etiquetas a una línea de base {#id184KD0T305Z}
+## Agregar etiquetas a una línea de base
 
-Añadir etiquetas a cada tema puede llevar mucho tiempo. AEM Guides proporciona un mecanismo de un solo clic que permite añadir etiquetas a varios temas y a contenido referenciado en un mapa DITA.
+Añadir etiquetas a cada tema puede llevar mucho tiempo. Experience Manager Guides proporciona un mecanismo de un solo clic que permite añadir etiquetas a varios temas y a contenido referenciado en un mapa DITA.
 
 Realice los siguientes pasos para agregar una etiqueta a varios temas y contenido referenciado en un mapa DITA:
 
@@ -137,7 +126,7 @@ Realice los siguientes pasos para agregar una etiqueta a varios temas y contenid
    >
    > Asegúrese de que la línea de base no tenga la última versión de ningún tema o recurso. Una etiqueta solo se puede agregar a un tema o recurso con versiones.
 
-1. Haga clic en **Agregar etiquetas**.
+1. Seleccione **Agregar etiquetas**.
 
    ![](images/add-label-baseline-uuid.png){width="800" align="left"}
 
@@ -145,15 +134,15 @@ Realice los siguientes pasos para agregar una etiqueta a varios temas y contenid
 
    Si el administrador ha configurado etiquetas predefinidas, estas se muestran en una lista desplegable. Debe elegir una etiqueta de la lista.
 
-1. Si desea aplicar la etiqueta a los temas a los que se hace referencia en las subasignaciones, seleccione la opción **Aplicar etiqueta a asignaciones secundarias y dependientes**.
+1. Si desea aplicar la etiqueta a los temas a los que se hace referencia en las subasignaciones, seleccione **Aplicar etiqueta a las asignaciones secundarias y a sus dependientes**.
 
-   - Haga clic en **Agregar**.
+   - Seleccione **Agregar**.
 La etiqueta especificada se añade al mapa DITA y a los temas y contenido a los que se hace referencia.
 
      ![](images/label-added-baseline-uuid.png){width="650" align="left"}
 
 
-## Exportar línea base traducida {#id196SE600GHS}
+## Exportar línea base traducida
 
 Puede utilizar Línea de base para traducir contenido. Por ejemplo, puede crear una Línea base para la versión 1.1 que esté lista para su traducción al francés. En la pestaña Traducción, debe utilizar Línea de base para filtrar el contenido y, a continuación, seleccionar la Línea de base para la versión 1.1 del contenido. El uso de Línea de base para traducir contenido facilita la administración del contenido.
 
@@ -169,17 +158,17 @@ Realice los siguientes pasos para exportar una línea base traducida:
 
 1. En la pestaña **Traducción**, expanda la opción **Línea de base** disponible en el carril izquierdo.
 
-   ![](images/export-baseline.png){width="800" align="left"}
+   ![](images/export-baseline-new.png){width="800" align="left"}
 
 1. Seleccione la opción **Usar línea de base** y elija la línea de base que desea exportar.
 
-1. Haga clic en **Exportar línea de base**.
+1. Seleccione **Exportar línea de base**.
 
    Se muestra el estado de exportación. Si el proceso se realiza correctamente, aparecerá un mensaje en el que se indica el idioma para el que se exporta la Línea base. En caso de error, se muestra la causa del error.
 
    Si intenta exportar la instantánea que ya se ha exportado, también aparecerá el mensaje de error de creación de instantánea.
 
-1. \(Opcional\) Para exportar una línea de base que ya se ha exportado, seleccione **Sobrescribir línea de base existente** y, a continuación, haga clic en **Exportar línea de base**.
+1. \(Opcional\) Para exportar una línea de base que ya se ha exportado, seleccione **Sobrescribir línea de base existente** y, a continuación, seleccione **Exportar línea de base**.
 
 
 **Tema principal:**[ Generación de resultados](generate-output.md)

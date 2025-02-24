@@ -4,14 +4,18 @@ description: Genere resultados desde el panel del repositorio o el panel Vista d
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
 
 # Generar resultados desde el panel Repositorio o el panel Vista de mapa {#id218CL6010AE}
+
+>[!NOTE]
+>
+> El panel Generación rápida, disponible anteriormente en Adobe Experience Manager Guides, ha quedado obsoleto a partir de la versión 4.0 y 2502. No puede acceder al panel Generación rápida para generar resultados desde el panel Repositorio o el panel Vista de mapa.
 
 También puede utilizar los ajustes preestablecidos de salida creados para el mapa DITA para generar resultados desde el panel Repositorio o el panel Vista de mapa.
 
@@ -23,7 +27,7 @@ También puede utilizar los ajustes preestablecidos de salida creados para el ma
 
 - Use la característica **Generar salida** en el panel Vista de mapa para generar la salida de los múltiples temas seleccionados.
 
-## Publish es un tema utilizado en una o varias asignaciones DITA
+## Publicar un tema utilizado en una o varias asignaciones DITA
 
 Realice los siguientes pasos para generar resultados para uno o varios temas del mapa DITA:
 

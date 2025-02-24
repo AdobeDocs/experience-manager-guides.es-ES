@@ -4,24 +4,24 @@ description: Traduzca el contenido a varios idiomas desde el editor web. Obtenga
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 8b031dde7a91e47937395286dbc20300b76835d3
+source-git-commit: f29c1225fcb95dbe05a3fc8aa471c88dc7b8ffb2
 workflow-type: tm+mt
-source-wordcount: '2343'
+source-wordcount: '2365'
 ht-degree: 0%
 
 ---
 
-# Traducir documentos desde el editor web {#id21BKF0Z0YZF}
+# Traducción de documentos desde la consola Mapa {#id21BKF0Z0YZF}
 
 >[!TIP]
 >
-> Se recomienda utilizar esta función de traducción del Editor web si ha actualizado a la versión de AEM Guides as a Cloud Service en febrero de 2022 o posterior.
+> Se recomienda utilizar esta función de traducción del Editor si ha actualizado a la versión de Adobe Experience Manager Guides as a Cloud Service de febrero de 2022 o posterior.
 
-AEM Guides incluye una potente función en el editor web que le permite traducir el contenido a varios idiomas. Puede crear un nuevo proyecto de traducción y posteriormente agregar los trabajos de traducción al proyecto de traducción existente. También puede crear un proyecto de traducción multilingüe que incluya trabajos de traducción para todos los idiomas seleccionados.
+Experience Manager Guides incluye una potente función en el editor que le permite traducir el contenido a varios idiomas. Puede crear un nuevo proyecto de traducción y posteriormente agregar los trabajos de traducción al proyecto de traducción existente. También puede crear un proyecto de traducción multilingüe que incluya trabajos de traducción para todos los idiomas seleccionados.
 
 >[!NOTE]
 >
-> El administrador puede configurar la pestaña Administrar \(utilizada para la traducción\) en el Editor web. Para obtener más información, consulte *Configuración de la característica de traducción en la sección Editor web* en el as a Cloud Service Instalar y configurar Adobe Experience Manager Guides.
+> El administrador puede configurar la pestaña Administrar \(utilizada para la traducción\) en el Editor. Para obtener más información, vea *Configurar la característica de traducción en la sección Editor* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
 ## Antes de empezar
 
@@ -36,8 +36,9 @@ Antes de realizar los pasos de este procedimiento, asegúrese de haber creado la
 
 ## Crear un proyecto de traducción
 
-1. En el panel **Repositorio**, abra el archivo de mapa DITA en la vista de mapa.
-1. Haga clic en la ficha **Administrar**. El **panel de traducción** muestra los grupos de idiomas disponibles.
+1. En el panel **Repositorio**, abra el archivo de mapa DITA en la Vista de mapa.
+1. Seleccione el icono **Abrir en la consola de mapas**.
+1. En la página de consola Mapa, vaya a la pestaña **Traducción**. El **panel de traducción** muestra los grupos de idiomas disponibles.
 
 1. Como usuario, puede ver los grupos de idiomas configurados en el perfil de carpeta. Los grupos de idiomas muestran las carpetas de idioma junto con sus códigos de idioma. Por ejemplo, el grupo de idiomas denominado G1 contiene las carpetas de idioma italiano \(it\), alemán \(de\), francés \(fr\) e inglés \(en\).
 
@@ -72,11 +73,11 @@ Antes de realizar los pasos de este procedimiento, asegúrese de haber creado la
 
    **Ninguno** Seleccione esta opción para traducir las versiones predeterminadas de los archivos. Esta opción está seleccionada de forma predeterminada.
 
-   **Usar línea de base:** Puede seleccionar una línea de base para traducir el proyecto. Haga clic en Utilizar línea base y seleccione una línea base creada en el mapa. Todos los archivos que forman parte de la Línea base seleccionada se muestran en la página Traducción. Una vez traducido el contenido, puede exportar la línea de base traducida. Para obtener más información sobre cómo exportar la línea de base traducida, consulte [Exportar línea de base traducida](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
+   **Usar línea de base:** Puede seleccionar una línea de base para traducir el proyecto. Seleccione **Usar línea de base** y elija una línea de base creada en el mapa. Todos los archivos que forman parte de la Línea base seleccionada se muestran en la página Traducción. Una vez traducido el contenido, puede exportar la línea de base traducida. Para obtener más detalles acerca de la exportación de la línea de base traducida, vea [Exportar línea de base traducida](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
    **Usar la última versión como el**: elige filtrar la versión de los temas según su fecha y hora de creación. Al seleccionar una fecha y hora, solo se muestra la última versión de los archivos creados en la fecha y la hora seleccionadas o antes.
 
-1. Haga clic en **Aplicar**. Se muestra una lista con detalles de temas y recursos asociados.
+1. Seleccione **Aplicar**. Se muestra una lista con detalles de temas y recursos asociados.
 1. Seleccione los temas que desee enviar para su traducción. También puede utilizar las opciones de filtrado de temas para las siguientes columnas:
 
    - **Título**: título del archivo de origen.  Pase el ratón sobre el título del archivo de origen para ver el título del archivo de destino o traducido.
@@ -90,7 +91,7 @@ Antes de realizar los pasos de este procedimiento, asegúrese de haber creado la
    - **Idioma de destino**: El idioma al que desea traducir el archivo de origen
    - **Estado de traducción**: las opciones disponibles son: Fuera de sincronización, Falta copia, En curso y En sincronización.
    - **Etiqueta de destino**: Etiqueta para la versión seleccionada del archivo de destino
-1. Haga clic en **Enviar para traducción** en la esquina superior derecha.
+1. Seleccione **Enviar para traducción** en la esquina superior derecha.
 
    ![](images/translation-send.png){width="800" align="left"}
 
@@ -100,64 +101,63 @@ Antes de realizar los pasos de este procedimiento, asegúrese de haber creado la
 
    Además de un nuevo proyecto de traducción, también puede seleccionar entre las siguientes opciones:
 
-   - Puede elegir **Crear una estructura** solo para el proyecto de traducción.
-   - Puede elegir **Crear un nuevo proyecto de traducción XLIFF** para convertir el contenido XML al formato de archivo de intercambio de localización XML (XLIFF). XLIFF es un formato abierto basado en XML que se utiliza para estandarizar la transferencia de datos entre varias herramientas utilizadas en el proceso de traducción de contenido. AEM Guides es compatible con la versión 1.2 de XLIFF.
+   - Puede elegir **Crear estructura solamente** para el proyecto de traducción.
+   - Puede elegir **Crear un nuevo proyecto de traducción XLIFF** para convertir el contenido XML al formato de archivo de intercambio de localización XML (XLIFF). XLIFF es un formato abierto basado en XML que se utiliza para estandarizar la transferencia de datos entre varias herramientas utilizadas en el proceso de traducción de contenido. Experience Manager Guides es compatible con la versión 1.2 de XLIFF.
 En un proyecto XLIFF, el contenido se exporta al formato XLIFF estándar del sector, que se puede proporcionar a los proveedores de traducción. El formato XLIFF permite la posible reutilización de segmentos que ya ha traducido durante la fase de traducción.\
-     Una vez traducido el contenido XLIFF, se puede importar en AEM Guides, creando una versión traducida del proyecto DITA original.
-
-     >[!NOTE]
-     >
-     > La exportación a XLIFF solo funciona con la configuración de traducción humana.
-
-   - Puede seleccionar **Crear un nuevo proyecto de traducción multilingüe** que incluirá trabajos de traducción para todos los idiomas que haya seleccionado para la traducción. Por ejemplo, si ha seleccionado francés, alemán y español, se creará un proyecto que contiene trabajos de traducción para los tres idiomas.
-   - Si ya tiene un proyecto de traducción, puede agregarle temas. Seleccione la opción Agregar a **Proyecto de traducción existente** de la lista Proyecto y elija un proyecto de la lista Proyecto de traducción existente. Puede ordenar estos proyectos por orden más reciente, ascendente o descendente.
-
-- Si selecciona **Proyecto de traducción existente**, esta operación actualiza la entrada de recursos existente en el proyecto si el recurso ya se ha agregado y el estado del trabajo de traducción relacionado está en el estado *Borrador*.
-   - Si el idioma de destino no está presente en el proyecto, se crea un nuevo proyecto para el proyecto de traducción en un solo idioma y se crea un nuevo trabajo para el proyecto de traducción en varios idiomas.
-   - Si el trabajo ya está presente para el idioma de destino y el estado del trabajo no está en el estado *Borrador*, se creará un nuevo trabajo dentro del mismo proyecto para agregar los recursos que se traducirán.
-
-  >[!NOTE]
-  >
-  > Si el proyecto existente es un proyecto de ámbito, tiene &#39;\(Ámbito\)&#39; anexado en su nombre.
-
-- Si necesita crear el ámbito para traducir un proyecto, puede seleccionar **Crear un nuevo proyecto de traducción de ámbito**. Esto no enviará las copias para su traducción y se mantendrá el estado de traducción original de los archivos. No afecta a la copia de idioma de destino de los temas a los que se hace referencia y que se envían para su análisis.
-1. En el campo **Título del proyecto**, introduzca un título.
-1. Haga clic en **Crear** para crear un nuevo proyecto de traducción.
-
-   Se crea un nuevo proyecto de traducción con la versión seleccionada de los temas. En este momento, se muestra un mensaje emergente que confirma que se ha creado el proyecto de traducción. Una vez que todas las copias de idioma de destino estén disponibles en el proyecto de traducción, recibirá una notificación en la bandeja de entrada. Una vez que las copias de idioma de destino estén disponibles en el proyecto de traducción, puede continuar e iniciar el trabajo de traducción. Para obtener más información, consulte [Iniciar el trabajo de traducción](translation-first-time.md#id225IK030OE8).
+     Una vez traducido el contenido XLIFF, se puede importar en Experience Manager Guides, creando una versión traducida del proyecto DITA original.
 
    >[!NOTE]
    >
-   > Si rechaza la traducción de uno o más temas de un trabajo de traducción, el estado de traducción de **En curso** de todos los temas rechazados vuelve a su estado original. El estado de los temas referidos se comprueba y revierte según el estado de traducción más reciente. Además, los archivos de traducción creados en el proyecto de destino no se eliminan aunque la traducción se rechace para ellos.
+   > La exportación a XLIFF solo funciona con la configuración de traducción humana.
+
+   - Puede seleccionar **Crear un nuevo proyecto de traducción multilingüe** que incluirá trabajos de traducción para todos los idiomas que haya seleccionado para la traducción. Por ejemplo, si ha seleccionado francés, alemán y español, se creará un proyecto que contiene trabajos de traducción para los tres idiomas.
+   - Si ya tiene un proyecto de traducción, puede agregarle temas. Seleccione la opción **Agregar a proyecto de traducción existente** de la lista Proyecto y elija un proyecto de la lista Proyecto de traducción existente. Puede ordenar estos proyectos por orden más reciente, ascendente o descendente.
+
+   - Si selecciona **Agregar a proyecto de traducción existente**, esta operación actualiza la entrada de recursos existente en el proyecto si el recurso ya se ha agregado y el estado del trabajo de traducción relacionado está en el estado *Borrador*.
+      - Si el idioma de destino no está presente en el proyecto, se crea un nuevo proyecto para el proyecto de traducción en un solo idioma y se crea un nuevo trabajo para el proyecto de traducción en varios idiomas.
+
+      - Si el trabajo ya está presente para el idioma de destino y el estado del trabajo no está en el estado *Borrador*, se creará un nuevo trabajo dentro del mismo proyecto para agregar los recursos que se traducirán.
+
+   >[!NOTE]
+   >
+   > Si el proyecto existente es un proyecto de ámbito, tiene &#39;\(Ámbito\)&#39; anexado en su nombre.
+
+   - Si necesita crear el ámbito para traducir un proyecto, puede seleccionar **Crear un nuevo proyecto de traducción de ámbito**. Esto no enviará las copias para su traducción y se mantendrá el estado de traducción original de los archivos. No afecta a la copia de idioma de destino de los temas a los que se hace referencia y que se envían para su análisis.
+
+1. En el campo **Título del proyecto**, introduzca un título.
+1. Seleccione **Enviar** para crear un nuevo proyecto de traducción.
+
+Se crea un nuevo proyecto de traducción con la versión seleccionada de los temas. En este momento, se muestra un mensaje emergente que confirma que se ha creado el proyecto de traducción. Una vez que todas las copias de idioma de destino estén disponibles en el proyecto de traducción, recibirá una notificación en la bandeja de entrada. Una vez que las copias de idioma de destino estén disponibles en el proyecto de traducción, puede continuar e iniciar el trabajo de traducción. Para ver los detalles, [Inicie el trabajo de traducción](translation-first-time.md#id225IK030OE8).
+
+>[!NOTE]
+>
+> Si rechaza la traducción de uno o más temas de un trabajo de traducción, el estado de traducción de **En curso** de todos los temas rechazados vuelve a su estado original. El estado de los temas referidos se comprueba y revierte según el estado de traducción más reciente. Además, los archivos de traducción creados en el proyecto de destino no se eliminan aunque la traducción se rechace para ellos.
 
 ## Añadir las reglas de traducción
 
-AEM Guides permite a los administradores configurar las reglas de traducción. El formato SRX (Intercambio de reglas de segmentación) es un estándar para intercambiar reglas de segmentación entre distintos usuarios y entornos de traducción. Puede crear una carpeta y agregarle los archivos SRX personalizados.
+Experience Manager Guides permite a los administradores configurar las reglas de traducción. El formato SRX (Intercambio de reglas de segmentación) es un estándar para intercambiar reglas de segmentación entre distintos usuarios y entornos de traducción. Puede crear una carpeta y agregarle los archivos SRX personalizados.
 
 Los archivos SRX deben tener el nombre `<language-code>.srx`. Por ejemplo, en-US o ar-AE.
 
 >[!NOTE]
->El título no distingue entre mayúsculas y minúsculas, por lo que puede tener &quot;en-US&quot;, &quot;en-us&quot; o &quot;EN-us&quot;. AEM Además, las guías de la pueden resolver &#39;-&#39; (guión) o &#39;_&#39; (guion bajo). Por lo tanto, puede tener &quot;en-US&quot; o &quot;en_US&quot;.
+> 
+> El título no distingue entre mayúsculas y minúsculas, por lo que puede tener &quot;en-US&quot;, &quot;en-us&quot; o &quot;EN-us&quot;. Además, Experience Manager Guides puede resolver &quot;-&quot; (guión) o &quot;_&quot; (guion bajo). Por lo tanto, puede tener &quot;en-US&quot; o &quot;en_US&quot;.
 
-AEM Además, puede colocar estos archivos dentro de cualquier carpeta bajo la raíz de recursos de la carpeta que es `./content/dam`, que es de la carpeta de recursos de la carpeta de destino.
-
-
+Además, puede colocar estos archivos dentro de cualquier carpeta bajo la raíz de recursos de Adobe Experience Manager que sea `./content/dam`.
 
 Una vez creada la carpeta que contiene los archivos SRX, puede añadir la ruta de la carpeta en la configuración de ubicación de Translation SRX dentro del perfil de carpeta.
 
 Se recomienda que, para un mejor rendimiento, mantenga solo los archivos SRX en la carpeta configurada en el perfil de carpeta.
 
-
-AEM Guides elige las reglas SRX según el idioma de origen del proyecto de traducción. Busca un archivo SRX personalizado para un idioma y, si no define un archivo SRX personalizado, selecciona las reglas según las reglas de traducción predeterminadas.
-
+Experience Manager Guides elige las reglas SRX según el idioma de origen del proyecto de traducción. Busca un archivo SRX personalizado para un idioma y, si no define un archivo SRX personalizado, selecciona las reglas según las reglas de traducción predeterminadas.
 
 Para obtener más información sobre la configuración de perfiles globales y de nivel de carpeta, consulte la sección *Configuración de la creación de plantillas* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
 ## Pasar la etiqueta de versión a la versión de destino
 
-AEM Guides permite pasar la etiqueta del archivo de origen al archivo de destino. Esto le ayudará a identificar fácilmente la versión de origen del archivo traducido.
+Experience Manager Guides permite pasar la etiqueta del archivo de origen al archivo de destino. Esto le ayudará a identificar fácilmente la versión de origen del archivo traducido.
 
-Para agregar la etiqueta de versión de origen en la copia de destino, el administrador del sistema debe seleccionar la opción **Propagar etiquetas de versión de origen a la versión de destino** en la pestaña **Traducción** de **Configuración del editor**.
+Para agregar la etiqueta de versión de origen en la copia de destino, el administrador del sistema debe habilitar la opción **Propagar etiquetas de versión de origen a la versión de destino** en la pestaña **Traducción** de **Configuración**.
 
 Por ejemplo, si tiene algunos archivos de origen a los que se les ha aplicado la etiqueta de versión `Release 1.0`, también puede pasar la etiqueta de origen \(`Release 1.0`\) al archivo traducido.
 
@@ -169,7 +169,7 @@ Por ejemplo, si tiene algunos archivos de origen a los que se les ha aplicado la
 
 ## Ver la diferencia de versión de los archivos sin sincronizar 
 
-AEM Guides proporciona la función para comprobar las diferencias entre la versión seleccionada y la última versión de origen traducida de los temas. Puede elegir traducir los archivos de **Fuera de sincronización** en función de los cambios realizados.
+Experience Manager Guides proporciona la función para comprobar las diferencias entre la versión seleccionada y la última versión de origen traducida de los temas. Puede elegir traducir los archivos de **Fuera de sincronización** en función de los cambios realizados.
 
 ![](images/translation-version-diff.png){width="650" align="left"}
 
@@ -194,7 +194,7 @@ Para descartar el estado Fuera de sincronización, realice los siguientes pasos:
 
    ![](images/translation-mark-in-sync.png){width="550" align="left"}
 
-1. Haga clic en **Forzar sincronización**. Establece el estado en Sincronizado para los recursos sin sincronizar seleccionados.
+1. Seleccione **Forzar sincronización**. Establece el estado en Sincronizado para los recursos sin sincronizar seleccionados.
 
 >[!NOTE]
 >
@@ -202,13 +202,13 @@ Para descartar el estado Fuera de sincronización, realice los siguientes pasos:
 
 ## Ver proyectos de traducción en curso de un mapa o un tema
 
-Algunas de las referencias del panel de traducción pueden estar en curso. Estas referencias tienen un vínculo **En curso** en la columna **Estado de traducción**. Al hacer clic en el vínculo, se abre el cuadro de diálogo **Proyectos en curso**. En el cuadro de diálogo, puede ver la lista de todos los proyectos de traducción en curso \(junto con el idioma de destino\) que contienen la referencia seleccionada.
+Algunas de las referencias del panel de traducción pueden estar en curso. Estas referencias tienen un vínculo **En curso** en la columna **Estado de traducción**. Al seleccionar el vínculo, se abre el cuadro de diálogo **Proyectos en curso**. En el cuadro de diálogo, puede ver la lista de todos los proyectos de traducción en curso \(junto con el idioma de destino\) que contienen la referencia seleccionada.
 
 >[!NOTE]
 >
-> Puede ver el vínculo En curso para los proyectos traducidos creados en la versión de AEM Guides as a Cloud Service de febrero de 2023 o posterior.
+> Puede ver el vínculo En curso para los proyectos traducidos creados en Adobe Experience Manager Guides as a Cloud Service en febrero de 2023 o posterior.
 
-Haga clic en el nombre de la referencia en el cuadro de diálogo para abrirla en el modo de vista previa. También puede hacer clic en el proyecto de traducción para iniciar la traducción.
+Seleccione el nombre de la referencia en el cuadro de diálogo para abrirla en el modo de vista previa. También puede seleccionar el proyecto de traducción para iniciar la traducción.
 
 ![](images/translation-in-progress.png){width="550" align="left"}
 
@@ -223,7 +223,7 @@ El administrador puede configurar la opción **Limpieza del proyecto de traducci
 
 Para realizar la administración de documentos, Experience Manager Guides permite eliminar los proyectos de traducción una vez completada la traducción.
 
-También puede deshabilitar los proyectos de traducción si desea usarlos más adelante. Al eliminar un proyecto, se eliminan todos los archivos y carpetas presentes en el proyecto. Al deshabilitar un proyecto no se elimina, sino que se mantiene en el repositorio. Sin embargo, no puede actualizar ni editar un proyecto deshabilitado.  Eliminar o deshabilitar un proyecto no afectará el estado de traducción de ninguna referencia.
+También puede deshabilitar los proyectos de traducción si desea usarlos más adelante. Al eliminar un proyecto, se eliminan todos los archivos y carpetas presentes en el proyecto. Al deshabilitar un proyecto no se elimina, sino que se mantiene en el repositorio. Pero no puede actualizar ni editar un proyecto deshabilitado.  Eliminar o deshabilitar un proyecto no afectará el estado de traducción de ninguna referencia.
 
 
-**Tema principal:**[ Trabajar con el editor web](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

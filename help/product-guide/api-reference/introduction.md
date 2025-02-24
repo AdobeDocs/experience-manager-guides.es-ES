@@ -5,7 +5,7 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 9024b552fd470344ba7b0068a147c37084ae0d13
+source-git-commit: 00a926e82f7d848e0c8041de758f20e79758b01b
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Introducción {#id1761C0007W7}
 
-Adobe Experience Manager Guides \(más adelante denominado *AEM Guides*\) es una solución empresarial integral que permite a Adobe Experience Manager AEM \(\) disponer de funcionalidades de la solución de administración de contenido de componentes \(CCMS\) para la creación y entrega de contenido basado en DITA. Los clientes pueden acceder a los flujos de trabajo de AEM Guides mediante programación utilizando las API de AEM Guides para integrarlos con otras aplicaciones empresariales. Estas API también las pueden utilizar los socios de Adobe para mejorar la propuesta de valor de AEM Guides ampliando su funcionalidad o integrándola con otras aplicaciones o servicios.
+Adobe Experience Manager Guides \(más adelante denominado *AEM Guides*\) es una solución empresarial integral que permite a Adobe Experience Manager \(AEM\) disponer de funcionalidades de la solución de administración de contenido de componentes \(CCMS\) para la creación y entrega de contenido basado en DITA. Los clientes pueden acceder a los flujos de trabajo de AEM Guides mediante programación utilizando las API de AEM Guides para integrarlos con otras aplicaciones empresariales. Los socios de Adobe también pueden utilizar estas API para mejorar la propuesta de valor de AEM Guides ampliando su funcionalidad o integrándola con otras aplicaciones o servicios.
 
 ## API de AEM Guides
 
-Las API de AEM Guides están disponibles en dos formatos: HTTP y Java. Estas API exponen funciones clave de AEM Guides a los desarrolladores de aplicaciones. Con estas funciones, los desarrolladores pueden crear sus propios complementos para ampliar los flujos de trabajo predeterminados. Las API están disponibles para administrar salidas para contenido DITA, trabajar con mapas DITA, añadir atributos condicionales a perfiles de nivel de carpeta y convertir documentos de HTML y de Word a formato DITA.
+Las API de AEM Guides están disponibles en dos formatos: HTTP y Java. Estas API exponen funciones clave de AEM Guides a los desarrolladores de aplicaciones. Con estas funciones, los desarrolladores pueden crear sus propios complementos para ampliar los flujos de trabajo predeterminados. Las API están disponibles para administrar salidas para contenido DITA, trabajar con mapas DITA, añadir atributos condicionales a perfiles de nivel de carpeta y convertir documentos de HTML y Words a formato DITA.
 
 ## Instalación de los JAR en el repositorio local de Apache Maven {#install-jar-local}
 
@@ -214,8 +214,8 @@ Para utilizar el JAR de API, debe añadir la dependencia al pom.xml de su proyec
 ```XML
 <dependency>
    <groupId>com.adobe.aem</groupId>
-   <artifactId>aem-guides-sdk-api</artifactId>
-   <version>2022.5</version>
+   <artifactId>aem-dox-sdk-api</artifactId>
+   <version>${RELEASE}</version>
 </dependency>
 ```
 

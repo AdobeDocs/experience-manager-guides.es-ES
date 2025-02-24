@@ -1,17 +1,17 @@
 ---
-title: Publish de un tema a un fragmento de contenido
-description: Publish un tema o los elementos dentro de un tema a un fragmento de contenido en AEM Guides.  Obtenga información sobre cómo ver los fragmentos de contenido presentes en un tema y volver a publicarlos.
+title: Publicación de un tema en un fragmento de contenido
+description: Publicar un tema o los elementos dentro de un tema en un fragmento de contenido en AEM Guides.  Obtenga información sobre cómo ver los fragmentos de contenido presentes en un tema y volver a publicarlos.
 exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
-source-git-commit: f86d8f2d2e6aa48941cf16526e608df4845420fd
+source-git-commit: 26aacde56e84c9f3a5ee5106b9271b4b12f8969a
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
 
-# Fragmentos de contenido de Publish
+# Publicar fragmentos de contenido
 
 Los fragmentos de contenido son fragmentos de contenido discretos en Adobe Experience Manager. Son contenidos estructurados basados en un modelo de contenido. Los fragmentos de contenido son contenido puro sin información de diseño. Se pueden crear y administrar de forma independiente de los canales compatibles con Adobe Experience Manager. Los fragmentos de contenido son modulares, donde el contenido se desglosa en componentes más pequeños.
 
@@ -33,14 +33,14 @@ Por ejemplo, agregue `/conf/we-retail` en la configuración de nube. Esta config
 
 1. Para generar un fragmento de contenido, seleccione **Nueva salida** ![nuevo icono de salida](./images/Add_icon.svg) de la sección **Salidas** en las **Propiedades de archivo** de un tema.
 1. Seleccione **Fragmento de contenido**.\
-   ![ficha de opciones de propiedades de archivo](./images/file-properties-outputs-tab.png) {width="300" align="left"}
+   ![ficha de opciones de propiedades de archivo](./images/file-properties-outputs-tab-new.png) {width="300" align="left"}
 
    *Agregar un nuevo fragmento de contenido desde las propiedades de archivo de un tema*.
 
 1. En el cuadro de diálogo **Generar fragmento de contenido**, rellene los siguientes detalles en las pestañas **General** y **Asignación**.
 
    Ficha **General**
-   ![Agregue el modelo de fragmento y los detalles de asignación en el cuadro de diálogo Publish como fragmento de contenido](images/generate-content-fragment.png)
+   ![Agregue el modelo de fragmento y los detalles de asignación en el cuadro de diálogo Publicar como fragmento de contenido](images/generate-content-fragment.png)
    *Agregue el filtro de ruta de acceso, nombre, título y condición para publicar un tema o sus elementos como fragmento de contenido.*
 
 
@@ -64,7 +64,7 @@ Por ejemplo, agregue `/conf/we-retail` en la configuración de nube. Esta config
 
    **Ficha Mapping**
 
-   ![Agregue el modelo de fragmento y los detalles de asignación en el cuadro de diálogo Publish como fragmento de contenido](images/content-fragment-mapping.png)
+   ![Agregue el modelo de fragmento y los detalles de asignación en el cuadro de diálogo Publicar como fragmento de contenido](images/content-fragment-mapping.png)
 
    *Seleccione el modelo de fragmento de contenido y agregue los detalles de asignación para publicar un tema o sus elementos como fragmento de contenido.*
 
@@ -77,11 +77,11 @@ El lado derecho se rellena con el contenido publicado del fragmento de contenido
      >
      > Si utiliza la versión 4.4 o versiones anteriores, seleccione una asignación en la lista desplegable. Selecciona las asignaciones del archivo *contentFragmentMapping.json*.  El administrador puede agregar las asignaciones en el archivo *contentFragmentMapping.json*. Obtenga más información acerca de cómo [crear una asignación entre un tema y un fragmento de contenido](../cs-install-guide/conf-content-fragment-mapping-cs.md) en la Guía de instalación y configuración.
 
-1. Haga clic en **Generar** para publicar el fragmento de contenido.
+1. Seleccione **Generar** para publicar el fragmento de contenido.
 
 1. Puede ver los fragmentos de contenido de un tema en la sección **Salidas** de **Propiedades del archivo**.
 
-   ![Ver los fragmentos de contenido de un tema](images/outputs-options-menu.png){width="300" align="left"}
+   ![Ver los fragmentos de contenido de un tema](images/outputs-options-menu-new.png){width="300" align="left"}
 
    *Vea los fragmentos de contenido presentes en un tema y vuelva a publicarlos.*
 
@@ -106,9 +106,3 @@ También puede realizar las siguientes acciones para un fragmento de contenido d
   > Esta acción no elimina contenido del fragmento de contenido.
 
 * **Ver**: vea el editor de fragmentos de contenido. También puede realizar cambios y guardarlos.
-
-## Migración de contenido no UUID a UUID mejorada
-
-El nuevo script de migración de contenido UUID se ha optimizado significativamente, lo que hace que la migración de contenido de no UUID a UUID sea 30 veces más rápida que el script anterior. Incluye funciones como la reanudación desde puntos de comprobación, perspectivas en directo, tiempo estimado de finalización e informes detallados, lo que garantiza un proceso de migración armonioso. En particular, el proceso de migración conserva los metadatos de los recursos sin ningún cambio. El script se ha probado y verificado en un gran conjunto de datos de 3 millones de recursos, lo que confirma su eficacia y fiabilidad para las migraciones a gran escala.
-
-Más información sobre [Migración de contenido que no sea UUID a UUID](../install-guide/migrate-non-uuid-uuid.md).

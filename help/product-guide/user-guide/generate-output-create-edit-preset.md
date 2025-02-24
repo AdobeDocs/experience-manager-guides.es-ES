@@ -4,77 +4,33 @@ description: Obtenga información sobre cómo crear, editar, duplicar y eliminar
 exl-id: 0522a49d-4dce-4456-bfdc-7ff9261ae04c
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: e6c14a478d8119c11b8541898c3314688e7fa51b
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
 
-# Crear, editar, duplicar o quitar un ajuste preestablecido de salida {#id205BEH0K09Z}
+# Editar, duplicar o eliminar un ajuste preestablecido de salida {#id205BEH0K09Z}
 
-## Crear un ajuste preestablecido de salida personalizado
+Puede administrar los ajustes preestablecidos de salida desde la consola Mapa y el panel Mapa. En ambos casos, se obtienen opciones para editar, duplicar y eliminar un ajuste preestablecido de salida, como se muestra en la siguiente sección.
 
-Siga estos pasos para crear un ajuste preestablecido de salida personalizado:
+## Uso de la consola Mapa
 
-1. En la interfaz de usuario de Assets, vaya a y haga clic en cualquier mapa DITA para abrir la consola de mapas DITA.
+Puede editar el ajuste preestablecido de salida seleccionado cambiando directamente los campos obligatorios a la configuración preestablecida necesaria.
 
-1. Asegúrese de que la pestaña Ajustes preestablecidos de salida esté seleccionada. Haga clic en Crear en la barra de herramientas.
-
-   Se muestra un formulario de creación de ajustes preestablecidos de salida en blanco.
-
-1. Introduzca los detalles necesarios para el tipo de ajuste preestablecido que desea crear.
-
-1. Haga clic en Listo para guardar los ajustes preestablecidos.
+Además, puede duplicar o eliminar un ajuste preestablecido de salida mediante el menú desplegable **Opciones**, como se muestra a continuación.
 
 
-## Edición de un ajuste preestablecido de salida
-
-Siga estos pasos para editar un ajuste preestablecido de salida existente:
-
-1. En la interfaz de usuario de Assets, vaya a y haga clic en cualquier mapa DITA para abrir la consola de mapas DITA.
-
-1. Asegúrese de que la pestaña Ajustes preestablecidos de salida esté seleccionada.
-
-1. Haga clic en el ajuste preestablecido de salida que desee editar. Haga clic en Editar en la barra de herramientas.
-
-   Se mostrará un formulario de ajuste preestablecido de salida editable con los valores del ajuste preestablecido de salida seleccionado.
-
-1. Cambie los detalles necesarios.
-
-1. Haga clic en Listo para guardar los ajustes preestablecidos editados.
+![](images/delete-preset-map-console.png){width="800" align="left"}
 
 
-## Duplicación de un ajuste preestablecido de salida
+## Uso del tablero de mapas
 
-Realice los siguientes pasos para duplicar un ajuste preestablecido de salida existente:
+Puede editar, duplicar y eliminar un ajuste preestablecido de salida utilizando el panel de asignación seleccionando la pestaña requerida en la barra superior como se muestra a continuación.
 
-1. En la interfaz de usuario de Assets, vaya a y haga clic en cualquier mapa DITA para abrir la consola de mapas DITA.
+![](images/create-new-preset-map-dashboard-new.png){width="800" align="left"}
 
-1. Asegúrese de que la pestaña Ajustes preestablecidos de salida esté seleccionada.
-
-1. Haga clic en el ajuste preestablecido de salida que desee duplicar. Haga clic en Duplicar en la barra de herramientas.
-
-   Se mostrará un formulario de ajuste preestablecido de salida editable con los valores del ajuste preestablecido de salida seleccionado.
-
-1. Cambie los detalles necesarios.
-
-1. Haga clic en Listo para guardar los ajustes preestablecidos.
-
-
-## Eliminar un ajuste preestablecido de salida
-
-Siga estos pasos para eliminar un ajuste preestablecido de salida existente:
-
-1. En la interfaz de usuario de Assets, vaya a y haga clic en cualquier mapa DITA para abrir la consola de mapas DITA.
-
-1. Seleccione el ajuste preestablecido de salida que desee eliminar.
-
-1. Haga clic en Eliminar ajuste preestablecido.
-
-1. Haga clic en Eliminar en el mensaje de confirmación.
-
-   El ajuste preestablecido se quita de la lista Ajustes preestablecidos de salida.
 
 
 **Tema principal:**[ Generación de resultados](generate-output.md)

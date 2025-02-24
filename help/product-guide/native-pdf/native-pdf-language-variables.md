@@ -1,26 +1,26 @@
 ---
 title: PDF nativo | Compatibilidad con variables de idioma
-description: Usar variables de idioma en las plantillas de salida y de salida del PDF
+description: Usar variables de idioma en las plantillas de salida y de salida de PDF
 exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6e9c998aa5c36b7e0dbb9d594dbf223017164698
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1594'
 ht-degree: 0%
 
 ---
 
 # Compatibilidad con variables de idioma
 
-AEM Guides proporciona la función para utilizar variables de idioma. Puede utilizar variables de idioma para definir cadenas localizadas en la salida del PDF o para localizar cualquier texto estático en las plantillas de salida. Puede utilizar estilos CSS para localizar las cadenas procedentes de un archivo CSS.
+Adobe Experience Manager Guides proporciona la función para utilizar variables de idioma. Puede utilizar variables de idioma para definir cadenas localizadas en la salida de PDF o para localizar cualquier texto estático en las plantillas de salida. Puede utilizar estilos CSS para localizar las cadenas procedentes de un archivo CSS.
 
-## Usar variables de idioma en la salida del PDF
+## Usar variables de idioma en la salida de PDF
 
-Puede utilizar variables de idioma para definir una versión localizada de las etiquetas integradas, como Nota, Precaución y Advertencia o texto estático en la salida del PDF. El nombre de la variable es el mismo para todos los idiomas, pero puede tener valores diferentes para los distintos idiomas. Puede actualizar el valor de estas variables en uno o más idiomas y, a continuación, el valor localizado se selecciona automáticamente en la salida del PDF.
+Puede utilizar variables de idioma para definir una versión localizada de las etiquetas predeterminadas como Nota, Precaución y Advertencia o texto estático en la salida de PDF. El nombre de la variable es el mismo para todos los idiomas, pero puede tener valores diferentes para los distintos idiomas. Puede actualizar el valor de estas variables en uno o más idiomas y, a continuación, el valor localizado se selecciona automáticamente en la salida de PDF.
 
-Por ejemplo, puede tener las siguientes maneras de presentar la etiqueta `Note` en la salida del PDF:
+Por ejemplo, puede tener las siguientes maneras de presentar la etiqueta `Note` en la salida de PDF:
 
 - Inglés: Nota
 
@@ -36,7 +36,7 @@ Por ejemplo, puede tener las siguientes maneras de presentar la etiqueta `Note` 
 >
 > Si el valor de cualquier variable no está definido en un idioma determinado, AEM Guides elige la cadena del idioma de la interfaz de usuario (interfaz de usuario de la aplicación) como mecanismo de reserva.
 >
-> Si no ha definido el valor en el idioma de la interfaz de usuario, busca inglés (`en_us`) o bien selecciona el valor inglés(`en`) y muestra lo mismo en la salida del PDF.
+> Si no ha definido el valor en el idioma de la interfaz de usuario, busca inglés (`en_us`) o bien selecciona el valor inglés (`en`) y muestra lo mismo en la salida de PDF.
 
 ## Tipos de variables de idioma
 
@@ -65,14 +65,13 @@ También puede crear nuevas variables de idioma. Por ejemplo, puede crear una va
 
 ## Añadir una nueva variable de idioma
 
-1. En el Editor web, vaya a la pestaña Output.
-1. Seleccionar **variables de idioma** <img src="./assets/language-variables.svg" width="25"> en el panel izquierdo.
+1. En el editor, vaya al panel izquierdo y seleccione **Variables de idioma**. Esta opción está disponible en la sección Más.
 1. Seleccione **Editar** para abrir la ventana **Variables de idioma**. La aplicación y las variables de usuario presentes en el idioma seleccionado se enumeran en orden alfabético. Los valores se muestran según el idioma seleccionado. Por ejemplo, si selecciona el idioma francés, &quot;Tip&quot; se muestra como &quot;Conseil&quot;.
 1. En el menú desplegable **Idioma**, seleccione el idioma en el que desee editar una variable.
 
    >[!NOTE]
    >
-   > Si no ve los idiomas deseados, habilite el idioma deseado en **Configuración de la variable de idioma**. Seleccionar configuración <img src="./assets/settings-icon.svg" width="25"> para abrir el diálogo **Configuración de variables de idioma**.
+   > Si no ve los idiomas deseados, habilite el idioma deseado en la configuración de **Configurar idiomas**. Seleccionar configuración <img src="./assets/settings-icon.svg" width="25"> para abrir el cuadro de diálogo **Configurar idiomas**.
 
 1. Escriba el nombre de la variable en la columna **Nombre** y su valor en la columna **Valor**.
 
@@ -138,7 +137,7 @@ También puede elegir **Eliminar** o **Duplicar** las variables de usuario. Al e
 
 ### Editar o revertir las variables de la aplicación
 
-También puede editar los valores de una variable de aplicación. Posteriormente, puede revertir una variable de aplicación al valor original. **Revertir variable** <img src="./assets/application-variable-revert.svg" width="25"> aparece para una variable de aplicación con un valor modificado.
+También puede editar los valores de una variable de aplicación. Posteriormente, puede revertir una variable de aplicación al valor original. **Restablecer** <img src="./assets/application-variable-revert.svg" width="25"> aparece para una variable de aplicación con un valor modificado.
 
 ## Usar variables de idioma en las plantillas de salida
 
@@ -149,7 +148,7 @@ Debe agregar variables de idioma en los documentos localizados. Puede insertar e
 <img alt="diseño de página de un pdf" src="./assets/language-variable-page-layout.png" width="550">
 
 
-*El autor y el nombre de la marca se localizaron en la salida del PDF generada para el idioma francés.*
+*El autor y el nombre de la marca están localizados en la salida de PDF generada para el idioma francés.*
 
 Para insertar una variable de idioma como su `copyright-label` en el área de encabezado, realice los siguientes pasos:
 
@@ -188,7 +187,7 @@ Además del valor que asigna a una variable de idioma, también puede utilizar e
 
 Del mismo modo, puede agregar variables de idioma y dar formato a otros campos enumerados en la función Insertar campos de los diseños de página. Para obtener más información sobre cómo agregar campos, vea [Agregar campos y metadatos](../native-pdf/design-page-layout.md#add-fields-metadata).
 
-- También puede agregar imágenes localizadas en los valores. Por ejemplo, se puede añadir un icono de imagen en el lenguaje de número de capítulo y obtener imágenes localizadas del icono en la salida del PDF.
+- También puede agregar imágenes localizadas en los valores. Por ejemplo, puede añadir un icono de imagen en el lenguaje de número de capítulo y obtener imágenes localizadas del icono en la salida de PDF.
 
   En inglés, el valor de la variable para una imagen puede ser como `<img src="banner-en.jpg">`, y para la misma variable en alemán, puede ser `<img src="banner-de.jpg">`. Por lo tanto, recoge las imágenes en función del idioma.
 
@@ -216,7 +215,7 @@ h1:before {
 }
 ```
 
-Las siguientes capturas de pantalla muestran las cadenas localizadas en la salida del PDF alemán y japonés
+Las siguientes capturas de pantalla muestran las cadenas localizadas en la salida de PDF en alemán y japonés
 
 <img alt=" salida en japonés con variable de idioma" src="./assets/localize-chapter-german.png" width="550">
 
@@ -228,7 +227,7 @@ Las siguientes capturas de pantalla muestran las cadenas localizadas en la salid
 
 ### Dar formato a los prefijos
 
-Con los estilos CSS, también puede dar formato a los prefijos. Por ejemplo, puede dar formato a la etiqueta `Note` para que aparezca en color rojo en la salida del PDF en varios idiomas.
+Con los estilos CSS, también puede dar formato a los prefijos. Por ejemplo, puede dar formato a la etiqueta `Note` para que aparezca en color rojo en la salida PDF de varios idiomas.
 
 ```
 .note .prefix-content 

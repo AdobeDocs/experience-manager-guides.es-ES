@@ -4,10 +4,10 @@ description: Utilice el tablero de publicación masiva en AEM Guides. Aprenda a 
 exl-id: 5f897c52-5d6e-4614-a14f-1806e085c21c
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 1350304943e86f4f9c5270eaedd36eacb25a6b0f
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 1%
+source-wordcount: '250'
+ht-degree: 2%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 1%
 
 Puede editar una colección de mapas de activación masiva añadiendo o eliminando archivos de mapa o ajustes preestablecidos de una colección. Para editar una recopilación de mapas de activación masiva, realice los siguientes pasos:
 
-1. Seleccione **Guías** de la lista de herramientas.
+1. Seleccione el logotipo de Adobe Experience Manager en la parte superior y elija **Herramientas**.
 
-1. Haga clic en el vínculo Adobe Experience Manager en la parte superior y elija **Herramientas**.
+1. En el panel **Herramientas**, seleccione **Guías**.
 
-1. Haga clic en el mosaico **Tablero de Publish en lotes**.
+1. Seleccione el mosaico **Panel de publicación en lotes**.
 
-   Se muestra una lista de colecciones de mapas de activación masiva.
+   El tablero de publicación en lote se muestra con una lista de colecciones de mapas de activación en lote. También puede acceder a este tablero desde el panel izquierdo de [Adobe Experience Manager Guides Home page](intro-home-page.md).
 
-1. Seleccione la colección que desea editar y haga clic en **Abrir**.
+1. Seleccione la colección que desea editar y seleccione **Abrir**.
 
-1. Haga clic en **Editar**.
+1. Seleccione **Editar**.
 
    La página de recopilación de mapas de activación masiva aparece donde se muestran los mapas junto con sus ajustes preconfigurados para cada configuración regional disponible.
-AEM Puede ver los distintos tipos de ajustes preestablecidos de salida junto con sus iconos, como Sitio, PDF, PDF nativo, HTML 5, Personalizado y Salida JSON, entre otros
+Puede ver los distintos tipos de ajustes preestablecidos de salida junto con sus iconos, como AEM Site, PDF, Native PDF, HTML5, Custom y salida JSON
 .
 
    >[!NOTE]
@@ -40,13 +40,13 @@ AEM Puede ver los distintos tipos de ajustes preestablecidos de salida junto con
 
 1. Si desea quitar un mapa de la colección, expanda el mapa y elija la opción **Seleccionar para eliminación**.
 
-1. Haga clic en **Eliminar**.
+1. Seleccione **Eliminar**.
 
    ![](images/bulk-activation-delete-map.png){width="600" align="left"}
 
    El mapa seleccionado se elimina de la colección de mapas de activación masiva.
 
-1. Haga clic en **Listo**.
+1. Seleccione **Listo**.
 
 
 **Tema principal:**[ Activación masiva del contenido publicado](conf-bulk-activation.md)

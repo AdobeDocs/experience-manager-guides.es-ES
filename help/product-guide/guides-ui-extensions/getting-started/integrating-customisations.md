@@ -3,9 +3,9 @@ title: Instalación y configuración
 description: Instalación y uso del paquete de extensión de AEM Guides
 role: User, Admin
 exl-id: 0304c8d0-35a8-4712-a9af-36557e3b247f
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: b4d6c1c8c2d413bb4137e58391554abf2fb68b8c
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ npx @adobe/create-guides-extension
 
 ![Salida de compilación](./../imgs/build_output.png)
 
-## AEM Adición de la personalización a los elementos de la
+## Añadir la personalización a AEM
 
 - Ir a `CRXDE` `crx/de/index.jsp#/`
 - En la carpeta `apps`, cree un nuevo nodo de tipo `cq:ClientLibraryFolder`
@@ -55,6 +55,11 @@ npx @adobe/create-guides-extension
 Nombre: `categories`
 Tipo: `String []`
 Valor: `apps.fmdita.review_overrides`, `apps.fmdita.xml_editor.page_overrides`
+
+>[!NOTE]
+>
+> Para la penúltima interfaz de usuario, los valores serían: `apps.fmdita.penultimate.xml_editor.page_overrides` y `apps.fmdita.review_overrides`
+
 
 ![Propiedades de carpeta](./../imgs/crxde_folder_properties.png)
 
@@ -74,9 +79,9 @@ tcx1.css
 
 - Haga un `shift + refresh` para cargar la aplicación con las personalizaciones.
 
-## Resolución de problemas
+## Solución de problemas
 
 Compruebe que todos los pasos anteriores se hayan realizado correctamente.
 Después de agregar el código a tcx.js, asegúrese de realizar una actualización completa (mayús+actualización).
-AEM Ahora, abra la, haga clic con el botón secundario y haga clic en `Inspect`
+Ahora abra AEM, haga clic con el botón derecho y haga clic en `Inspect`
 Vaya a Orígenes y busque su archivo `[node_name].js` (por ejemplo: extensions.js). Haga un Control / Cmd + D para buscar el archivo. Si el archivo `.js` existe con el código JS que pegó de `dist/guides-extension.umd.cjs` o `dist/guides-extension.js`, la instalación se ha completado

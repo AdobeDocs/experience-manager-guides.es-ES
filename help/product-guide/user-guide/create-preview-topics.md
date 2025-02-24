@@ -1,23 +1,23 @@
 ---
 title: Crear y previsualizar temas
-description: Obtenga información sobre cómo crear y previsualizar temas de DITA desde la interfaz de usuario de Assets en AEM Guides.
+description: Obtenga información sobre cómo crear y previsualizar temas DITA en Adobe Experience Manager Guides.
 exl-id: 17db1827-f5e6-48a9-8989-5e24c3671e55
 feature: Authoring
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
 
 # Crear y previsualizar temas {#id21BQE0RJ042}
 
-AEM Guides incluye una potente función para crear temas DITA desde la interfaz de usuario de Assets. A continuación, puede obtener una vista previa de los temas desde la IU de Assets. El modo de vista previa también proporciona muchas funciones útiles para ayudarle a realizar operaciones clave como ver metadatos, editar el tema en el editor web, abrir el origen y encontrar la diferencia de versión basada en web.
+Adobe Experience Manager Guides incluye una potente función para crear y previsualizar temas DITA. El modo de vista previa también proporciona muchas funciones útiles para ayudarle a realizar operaciones clave como ver metadatos, editar el tema en Editor, abrir el origen y encontrar la diferencia de versión basada en web.
 
 - **[Crear temas](web-editor-create-topics.md)**
 
 - **[Previsualizar un tema](web-editor-preview-topics.md)**
 
 
-**Tema principal:**[ Contenido de autor](authoring-content.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

@@ -4,22 +4,22 @@ description: Obtenga información sobre cómo crear una tarea de revisión y env
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2793'
 ht-degree: 0%
 
 ---
 
 # Enviar temas para revisión {#id199RD0S035Z}
 
-El flujo de trabajo de revisión crea un entorno de varios revisores en el que el iniciador especifica una lista de temas para revisión, agrega varios revisores y asigna una cronología para la tarea de revisión. AEM Guides permite a los usuarios pertenecientes a los grupos Autores y Publicadores iniciar una revisión.
+El flujo de trabajo de revisión crea un entorno de varios revisores en el que el iniciador especifica una lista de temas para revisión, agrega varios revisores y asigna una cronología para la tarea de revisión. Adobe Experience Manager Guides permite a los usuarios pertenecientes a los grupos Autores y Publicadores iniciar una revisión.
 
 Como el flujo de trabajo de revisión es específico del proyecto, el iniciador de la revisión debe ser parte del equipo del proyecto o tener derechos para crear un proyecto. En el momento de crear un proyecto, se definen los integrantes del equipo y se les asignan diversas funciones o grupos. Para obtener más información acerca de los proyectos, vea [Crear un proyecto DITA](authoring-create-dita-project.md#).
 
 Puede crear una tarea de revisión desde:
 
-- **Editor Web**: permite enviar un tema individual o un mapa DITA para su revisión. Tenga en cuenta que el flujo de trabajo para crear una tarea de revisión es común en el Editor web y la IU de Assets. Solo difiere el método para iniciar el flujo de trabajo de revisión. Para obtener información acerca de cómo iniciar el flujo de trabajo de revisión desde el Editor Web, vea la característica [Crear tarea de revisión](web-editor-features.md#id215OCJ00JXA) en el Editor Web.
+- **Editor**: permite enviar un tema individual o un mapa DITA para su revisión. Tenga en cuenta que el flujo de trabajo para crear una tarea de revisión es común en el Editor y en la IU de Assets. Solo difiere el método para iniciar el flujo de trabajo de revisión. Para obtener información sobre cómo iniciar el flujo de trabajo de revisión desde el Editor, vea la característica [Crear tarea de revisión](web-editor-features.md#id215OCJ00JXA) en el Editor.
 
 - **IU de Assets**: permite enviar uno o varios temas y un mapa DITA para su revisión. El uso compartido de documentos para su revisión desde el flujo de trabajo de la IU de Assets se trata en este tema.
 
@@ -43,11 +43,11 @@ Para crear una tarea de revisión y enviar temas para su revisión, realice los 
 
 1. Vaya a la carpeta requerida en la interfaz de usuario de Assets.
 
-1. Haga clic en el icono Seleccionar en la acción rápida y seleccione los temas que desee enviar para su revisión.
+1. Elija el icono **Seleccionar** en la acción rápida y seleccione los temas que desee enviar para su revisión.
 
    ![](images/select-asset-62.png){width="300" align="left"}
 
-1. En la barra de herramientas, haga clic en **Crear tarea de revisión**. Se muestra la página de creación de la tarea de revisión.
+1. En la barra de herramientas, seleccione **Crear tarea de revisión**. Se muestra la página de creación de la tarea de revisión.
 
    >[!NOTE]
    >
@@ -55,11 +55,13 @@ Para crear una tarea de revisión y enviar temas para su revisión, realice los 
 
    ![](images/create-review-task-023.png){width="650" align="left"}
 
-1. Escriba un **Título** para la tarea y seleccione un **Proyecto** DITA en la lista desplegable.
+1. Escriba un **Título** para la tarea y seleccione un proyecto DITA.
+
+1. En el campo desplegable **Proyecto**, seleccione un proyecto DITA para esta tarea de revisión. También puede escribir el nombre del proyecto para localizarlo rápidamente en la lista desplegable.
 
 1. En el campo desplegable **Asignar a**, seleccione los revisores a los que desee enviar los temas para su revisión.
 
-   Puede asignar una tarea de revisión a usuarios individuales del proyecto o a grupos de usuarios. Tenga en cuenta que solo puede asignar una tarea de revisión a usuarios individuales cuando forme parte del grupo de administradores del proyecto; de lo contrario, solo verá los grupos de usuarios en el campo Asignar a.
+   Puede asignar una tarea de revisión a usuarios individuales del proyecto o a grupos de usuarios. Tenga en cuenta que sólo puede asignar una tarea de revisión a usuarios individuales cuando forme parte del grupo de administradores del proyecto; de lo contrario, sólo verá los grupos de usuarios en el campo Asignar a.
 
    >[!NOTE]
    >
@@ -81,7 +83,7 @@ Para crear una tarea de revisión y enviar temas para su revisión, realice los 
 
    >[!NOTE]
    >
-   > El mapa raíz seleccionado tiene la prioridad más alta para resolver las referencias clave. Para obtener más información, consulte [Resolver referencias clave](map-editor-other-features.md#id176GD01H05Z).
+   > El mapa raíz seleccionado tiene la prioridad más alta para resolver las referencias clave. Para obtener más información, vea [Resolver referencias clave](map-editor-other-features.md#id176GD01H05Z).
 
 1. Dado que puede asignar distintos revisores a diferentes temas, la opción **Permitir que los usuarios asignados revisen cualquier tema** controla si los revisores pueden revisar todos los temas de una tarea de revisión o sólo aquellos temas para los que están asignados a la revisión.
 
@@ -89,7 +91,7 @@ Para crear una tarea de revisión y enviar temas para su revisión, realice los 
 
    Si no selecciona esta opción, los revisores agregados en el campo **Asignar a** tendrán acceso para revisar solamente los temas que estén asignados a ellos.
 
-1. Haga clic en **Siguiente**.
+1. Seleccione **Siguiente**.
 
    Se muestra la página Contenido.
 
@@ -102,7 +104,7 @@ Para crear una tarea de revisión y enviar temas para su revisión, realice los 
    - *\(Predeterminado\)* Elija la opción **Su última versión** para seleccionar la última revisión guardada de los temas.
    - Elija la opción **Versión el** y especifique la fecha y la hora para seleccionar una versión en la fecha y la hora especificadas. Si no hay ninguna versión del tema disponible en la fecha especificada, se selecciona una versión disponible inmediatamente después de la fecha y la hora especificadas.
    - Elija la opción **Seleccionar una etiqueta** y seleccione una etiqueta de la lista desplegable.
-1. Después de hacer la selección para elegir una versión, haz clic en **Aplicar**.
+1. Después de hacer la selección para elegir una versión, selecciona **Aplicar**.
 
    La versión basada en la opción seleccionada se elige para los temas.
 
@@ -110,7 +112,7 @@ Para crear una tarea de revisión y enviar temas para su revisión, realice los 
    >
    > También puede seleccionar manualmente la versión que desee en la lista desplegable **Versión** de cada tema.
 
-1. Haga clic en **Siguiente**.
+1. Seleccione **Siguiente**.
 
    Se muestra la página Revisores, donde puede agregar o quitar revisores. De forma predeterminada, los revisores agregados en el campo Asignar a se agregan automáticamente a cada tema seleccionado para la revisión.
 
@@ -123,28 +125,28 @@ Para crear una tarea de revisión y enviar temas para su revisión, realice los 
 
      >[!NOTE]
      >
-     > También puede seleccionar o deseleccionar un tema individualmente si hace clic en la casilla de verificación situada junto al tema.
+     > También puede seleccionar o deseleccionar un tema individualmente seleccionando en la casilla de verificación situada junto al tema.
 
    - **Agregar**: Muestra el cuadro de diálogo Agregar revisores. Puede escribir el nombre de un revisor o la función de usuario \(o grupo\) que desee agregar como revisor a los temas seleccionados.
    - **Quitar**: muestra el cuadro de diálogo Quitar revisores. Puede escribir el nombre de un revisor o la función de usuario \(o grupo\) que desee quitar como revisor de los temas seleccionados.
 
      >[!NOTE]
      >
-     > También puede quitar una revisión de un tema haciendo clic en el signo cruzado en el cuadro del revisor.
+     > También puede quitar una revisión de un tema seleccionando el signo cruzado en el cuadro del revisor.
 
    - **Volver a asignar**: muestra el cuadro de diálogo Volver a asignar revisores. Puede escribir el nombre del revisor o la función de usuario \(o grupo\) al que desee asignar la tarea de revisión. De este modo, se quitarán todos los revisores existentes de los temas seleccionados y se asignarán a ellos los revisores recién seleccionados.
    - **Exportar**: permite exportar los detalles de la tarea de revisión en un archivo CSV. El archivo contiene detalles como la ruta y el título del tema, el nombre del revisor y la versión de los temas enviados para su revisión.
-   - **Editar revisores**: al hacer clic en el icono ![](images/edit_pencil_icon.svg)de la lista de temas, se muestra el cuadro de diálogo Editar revisores. Puede agregar o quitar revisores para el tema seleccionado desde este cuadro de diálogo.
-1. Haga clic en **Crear** para crear la tarea de revisión.
+   - **Editar revisores**: al seleccionar el icono ![](images/edit_pencil_icon.svg)de la lista de temas, se muestra el cuadro de diálogo Editar revisores. Puede agregar o quitar revisores para el tema seleccionado desde este cuadro de diálogo.
+1. Seleccione **Crear** para crear la tarea de revisión.
 
    Se muestra un mensaje de confirmación cuando la tarea de revisión se crea correctamente. El [estado del documento](web-editor-document-states.md#) para los temas enviados a revisión está establecido en En revisión.
 
    >[!NOTE]
    >
-   > También puede hacer clic en la campana Notificaciones en la parte superior derecha de la pantalla y confirmar que la tarea de revisión se ha creado correctamente. En el panel Notificaciones, encontrará una notificación para cada uno de los revisores que formaban parte de la tarea de revisión y una notificación para el iniciador de la revisión.
+   > También puede seleccionar la campana Notificaciones en la parte superior derecha de la pantalla y confirmar que la tarea de revisión se ha creado correctamente. En el panel Notificaciones, encontrará una notificación para cada uno de los revisores que formaban parte de la tarea de revisión y una notificación para el iniciador de la revisión.
 
 
-Se envía un mensaje de correo electrónico a todos los revisores para notificarles que se les ha asignado uno o varios temas para su revisión. El correo electrónico contiene un vínculo directo en el que pueden hacer clic para acceder al tema en una ventana del explorador.
+Se envía un mensaje de correo electrónico a todos los revisores para notificarles que se les ha asignado uno o varios temas para su revisión. El correo electrónico contiene un vínculo directo que puede utilizar para acceder al tema en una ventana del explorador.
 
 Si se asignan varios temas, los revisores pueden verlos y seleccionarlos en una lista desplegable de temas del explorador web.
 
@@ -152,7 +154,7 @@ Si se asignan varios temas, los revisores pueden verlos y seleccionarlos en una 
 
 Un mapa DITA es una organización lógica de temas dentro de un libro. Cuando envía un tema individual para su revisión, el revisor no obtiene ninguna información sobre la ubicación de ese tema en el libro. Si un revisor tiene información sobre la ubicación exacta del tema que se está revisando, obtiene un mejor contexto del tema que se está revisando.
 
-AEM Guides permite enviar uno o varios temas en un mapa DITA para su revisión al mismo tiempo. El revisor puede ver el archivo de asignación completo junto con los temas que se han compartido para su revisión. Esto facilita al revisor obtener un contexto del tema en el archivo de mapa o libro.
+Experience Manager Guides permite enviar uno o varios temas en un mapa DITA para su revisión al mismo tiempo. El revisor puede ver el archivo de asignación completo junto con los temas compartidos para su revisión. Esto facilita al revisor obtener un contexto del tema en el archivo de mapa o libro.
 
 Puede compartir el mismo mapa DITA en para revisarlo en varias tareas de revisión. Por ejemplo, si en un mapa DITA hay temas A, B, C, D y E. En una tarea de revisión puede compartir A, B y C para su revisión y en otra tarea de revisión puede enviar los temas C, D y E para su revisión. El proceso de revisión permite compartir el mismo tema y asignar archivos en varias tareas de revisión. Para el tema común en varias tareas de revisión, los comentarios proporcionados en una tarea de revisión no se sobrescriben ni se combinan con los comentarios de las demás tareas de revisión.
 
@@ -174,9 +176,11 @@ Para enviar uno o varios temas junto con el archivo de asignación para su revis
 
 1. Seleccione el mapa desde el que desea enviar los temas para su revisión.
 
-1. En la barra de herramientas, haga clic en **Crear tarea de revisión**. Se muestra la página de creación de la tarea de revisión.
+1. En la barra de herramientas, seleccione **Crear tarea de revisión**. Se muestra la página de creación de la tarea de revisión.
 
-1. Escriba un **Título** para la tarea y seleccione un **Proyecto** DITA en la lista desplegable.
+1. Escriba un **Título** para la tarea.
+
+1. En el campo desplegable **Proyecto**, seleccione un proyecto DITA para esta tarea de revisión. También puede escribir el nombre del proyecto para localizarlo rápidamente en la lista desplegable.
 
    >[!NOTE]
    >
@@ -184,7 +188,7 @@ Para enviar uno o varios temas junto con el archivo de asignación para su revis
 
 1. En el campo desplegable **Asignar a**, seleccione los revisores a los que desee enviar los temas para su revisión.
 
-   Puede asignar una tarea de revisión a usuarios individuales del proyecto o a grupos de usuarios. Tenga en cuenta que solo puede asignar una tarea de revisión a usuarios individuales cuando forme parte del grupo de administradores del proyecto; de lo contrario, solo verá los grupos de usuarios en el campo Asignar a.
+   Puede asignar una tarea de revisión a usuarios individuales del proyecto o a grupos de usuarios. Tenga en cuenta que sólo puede asignar una tarea de revisión a usuarios individuales cuando forme parte del grupo de administradores del proyecto; de lo contrario, sólo verá los grupos de usuarios en el campo Asignar a.
 
    >[!NOTE]
    >
@@ -206,7 +210,7 @@ Para enviar uno o varios temas junto con el archivo de asignación para su revis
 
    Si no selecciona esta opción, los revisores agregados en el campo **Asignar a** tendrán acceso para revisar solamente los temas que estén asignados a ellos.
 
-1. Haga clic en **Siguiente**.
+1. Seleccione **Siguiente**.
 
    La página Contenido se muestra con todos los temas a los que se hace referencia desde el archivo de asignación. Si el mapa DITA contiene mapas anidados, también se enumerarán aquí los temas de los mapas anidados.
 
@@ -220,7 +224,7 @@ Para enviar uno o varios temas junto con el archivo de asignación para su revis
    - Elija la opción **Versión el** y especifique la fecha y la hora para seleccionar una versión según la fecha y la hora. Si no hay ninguna versión del tema disponible en la fecha especificada, se selecciona una versión disponible inmediatamente después de la fecha y la hora especificadas.
    - Elija la opción **Seleccionar una etiqueta** y seleccione una etiqueta de la lista desplegable. Todos los temas que contengan la etiqueta seleccionada se seleccionarán en la lista desplegable **Versión**.
    - Elija la opción **Seleccionar una línea de base** y seleccione una línea de base en la lista desplegable. Todas las versiones de temas que forman parte de la línea de base seleccionada se seleccionan en la lista desplegable **Versión**.
-1. Después de hacer la selección para elegir una versión, haz clic en **Aplicar**.
+1. Después de hacer la selección para elegir una versión, selecciona **Aplicar**.
 
    La versión basada en la opción seleccionada se elige para los temas.
 
@@ -228,7 +232,7 @@ Para enviar uno o varios temas junto con el archivo de asignación para su revis
    >
    > También puede seleccionar manualmente la versión que desee en la lista desplegable **Versión** de cada tema.
 
-1. Haga clic en **Siguiente**.
+1. Seleccione **Siguiente**.
 
    Se muestra la página Revisores, donde puede agregar o quitar revisores. De forma predeterminada, los revisores agregados en el campo Asignar a se agregan automáticamente a cada tema seleccionado para la revisión.
 
@@ -239,30 +243,30 @@ Para enviar uno o varios temas junto con el archivo de asignación para su revis
 
      >[!NOTE]
      >
-     > También puede seleccionar o deseleccionar un tema individualmente si hace clic en la casilla de verificación situada junto al tema.
+     > También puede seleccionar o deseleccionar un tema individualmente seleccionando en la casilla de verificación situada junto al tema.
 
    - **Agregar**: Muestra el cuadro de diálogo Agregar revisores. Puede escribir el nombre de un revisor o la función de usuario \(o grupo\) que desee agregar como revisor a los temas seleccionados.
    - **Quitar**: muestra el cuadro de diálogo Quitar revisores. Puede escribir el nombre de un revisor o la función de usuario \(o grupo\) que desee quitar como revisor de los temas seleccionados.
    - **Volver a asignar**: muestra el cuadro de diálogo Volver a asignar revisores. Puede escribir el nombre del revisor o la función de usuario \(o grupo\) al que desee asignar la tarea de revisión. De este modo, se quitarán todos los revisores existentes de los temas seleccionados y se asignarán a ellos los revisores recién seleccionados.
    - **Exportar**: permite exportar los detalles de la tarea de revisión en un archivo CSV. El archivo contiene detalles como la ruta y el título del tema, el nombre del revisor y la versión de los temas enviados para su revisión.
-   - **Editar revisores**: al hacer clic en el icono ![](images/edit_pencil_icon.svg)de la lista de temas, se muestra el cuadro de diálogo Editar revisores. Puede agregar o quitar revisores para el tema seleccionado desde este cuadro de diálogo.
+   - **Editar revisores**: al seleccionar el icono ![](images/edit_pencil_icon.svg)de la lista de temas, se muestra el cuadro de diálogo Editar revisores. Puede agregar o quitar revisores para el tema seleccionado desde este cuadro de diálogo.
    >[!IMPORTANT]
    >
    > Debe asignar al menos un revisor para crear la tarea de revisión.
 
-1. Haga clic en **Crear** para crear la tarea de revisión.
+1. Seleccione **Crear** para crear la tarea de revisión.
 
    Se muestra un mensaje de confirmación cuando la tarea de revisión se crea correctamente. El [estado del documento](web-editor-document-states.md#) para los temas enviados a revisión está establecido en En revisión.
 
    >[!NOTE]
    >
-   > También puede hacer clic en el panel Notificaciones en la parte superior derecha de la interfaz y confirmar que la tarea se ha creado correctamente. En el panel Notificaciones, encontrará una notificación para cada revisión que formaba parte de la tarea de revisión y una notificación para el iniciador de la revisión.
+   > También puede seleccionar el panel Notificaciones en la parte superior derecha de la interfaz y confirmar que la tarea se ha creado correctamente. En el panel Notificaciones, encontrará una notificación para cada revisión que formaba parte de la tarea de revisión y una notificación para el iniciador de la revisión.
 
    >[!IMPORTANT]
    >
    > Una vez iniciada una revisión, no se debe mover ni eliminar el mapa o los temas DITA a otra ubicación. De hacerlo, se interrumpirá el proceso de revisión.
 
 
-Se envía un mensaje de correo electrónico a todos los revisores para notificarles que se les han asignado temas para su revisión. El correo electrónico contiene un vínculo directo en el que pueden hacer clic para acceder al tema en una ventana del explorador. Los temas junto con el mapa DITA se abren en el modo de revisión.
+Se envía un mensaje de correo electrónico a todos los revisores para notificarles que se les han asignado temas para su revisión. El correo electrónico contiene un vínculo directo que puede utilizar para acceder al tema en una ventana del explorador. Los temas junto con el mapa DITA se abren en el modo de revisión.
 
-**Tema principal:**[ Revisar temas o asignaciones](review.md)
+**Tema principal:**[ Introducción a la revisión](review.md)

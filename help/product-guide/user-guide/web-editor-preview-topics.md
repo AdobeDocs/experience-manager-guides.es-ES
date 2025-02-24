@@ -1,48 +1,76 @@
 ---
 title: Previsualización de un tema
-description: Obtenga información sobre cómo obtener una vista previa de un tema en AEM Guides. Obtenga información sobre las funciones disponibles en el modo de vista previa. AEM Ramificar, revertir y realizar versiones posteriores en las guías de la.
+description: Obtenga información sobre cómo obtener una vista previa de un tema en Adobe Experience Manager Guides. Obtenga información sobre las funciones disponibles en el modo de vista previa. Ramificar, revertir y realizar posteriores versiones en Experience Manager Guides.
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
 workflow-type: tm+mt
-source-wordcount: '1859'
+source-wordcount: '1988'
 ht-degree: 0%
 
 ---
 
 # Previsualización de un tema {#id1696II000QR}
 
-Una vez creado un tema, AEM Guides genera una vista previa del mismo. El modo Vista previa proporciona varias funciones que puede utilizar para trabajar con el documento.
+Una vez creado un tema, Adobe Experience Manager Guides genera una vista previa del mismo. El modo Vista previa proporciona varias funciones que puede utilizar para trabajar con el documento.
+
+Existen dos formas de obtener una vista previa de un tema en Experience Manager Guides:
+
+- [Desde el editor](#preview-topics-from-the-editor)
+- [Desde la IU de Assets](#preview-topics-from-the-assets-ui)
+
+## Previsualizar temas desde el editor
+
+Siga estos pasos para obtener una vista previa de un tema desde el Editor:
+
+1. En el panel Repositorio, desplácese hasta el tema que desee ver.
+1. Pase el ratón sobre el tema que quiera previsualizar y seleccione **Previsualizar** en el menú Opciones.
+
+   ![](images/preview-topic.png){width="600" align="left"}
+
+   Se muestra la previsualización del tema.
+
+   ![](images/preview-pop-up.png){width="800" align="left"}
+
+**Vista previa de temas desde el modo de vista previa**
+
+Cuando abra un tema en el Editor y cambie al modo **Vista previa**, ubicado en la esquina inferior derecha del área de edición de contenido, podrá ver una vista previa del tema que esté abierto en ese momento.
+
+Para obtener más información, vea [Vistas del editor](./web-editor-views.md#preview).
+
+
+## Previsualización de temas desde la IU de Assets
 
 Siga estos pasos para obtener una vista previa de un tema:
 
 1. En la interfaz de usuario de Assets, vaya al tema que desee ver.
-1. Haga clic en el tema que desee ver.
+1. Seleccione el tema que desee ver.
 
    En la interfaz de usuario de Assets se muestra una vista previa del tema.
 
    >[!NOTE]
    >
-   > Puede ver la versión del tema activo o el mapa DITA en la esquina superior derecha de la ficha de archivo del tema.
+   > Puede ver la versión del tema activo o el mapa DITA en la esquina superior derecha de la barra de herramientas.
 
    >[!IMPORTANT]
    >
-   > AEM La colocación de las siguientes funciones en la barra de herramientas Vista previa podría diferir según la configuración del servidor de la. Algunas de las funciones podrían estar disponibles en la barra de herramientas principal, mientras que otras podrían estar disponibles en el menú Más.
+   > La colocación de las siguientes funciones en la barra de herramientas Vista previa podría diferir según la configuración del servidor de Adobe Experience Manager. Algunas de las funciones podrían estar disponibles en la barra de herramientas principal, mientras que otras podrían estar disponibles en el menú Más.
 
-## Funciones disponibles en el modo de vista previa
+## Funciones disponibles en la interfaz de usuario de Assets para vista previa
+
+Las siguientes operaciones están disponibles en la barra de herramientas al utilizar la función Vista previa de la interfaz de usuario de Assets,
 
 ![](images/preview-screen.png){width="800" align="left"}
 
-Puede realizar las siguientes operaciones desde la barra de herramientas en el modo de vista previa:
 
 **Propiedades**
 
-Ver las propiedades del tema seleccionado. AEM En función de su versión de la, puede ver propiedades como metadatos, programación \(de\)activación, referencias, estado del documento y más.
+Ver las propiedades del tema seleccionado. En función de su versión de Adobe Experience Manager, puede ver propiedades como metadatos, programar \(de\)activación, referencias, estado del documento y mucho más.
 
 >[!NOTE]
 >
-> La propiedad title de un tema se rellena automáticamente a partir de la etiqueta `title` del tema o asignación DITA. Si realiza cualquier cambio en el título mediante la ventana de propiedades, ese cambio se pierde. Si desea actualizar la propiedad title, debe hacerlo mediante el editor web.
+> La propiedad title de un tema se rellena automáticamente a partir de la etiqueta `title` del tema o asignación DITA. Si realiza cualquier cambio en el título mediante la ventana de propiedades, ese cambio se pierde. Si desea actualizar la propiedad del título, debe hacerlo con el editor.
 
 La página Propiedades contiene información útil sobre las referencias, como dónde se utiliza un mapa o un tema, o qué referencias están contenidas en un documento. La página Propiedades enumera dos tipos de referencias para un documento: **Utilizada en** y **Referencias salientes**.
 
@@ -52,39 +80,39 @@ El icono \(+\) de la sección **Referencias utilizadas en** le permite desplazar
 
 ![](images/used-in-dialog_cs.png){width="800" align="left"}
 
-Al hacer clic en el icono ![](images/right-arrow-used-in-dialog.svg) junto a un documento, se muestran los archivos de asignación o tema a los que se hace referencia en mayor profundidad en ese documento.
+Al seleccionar el icono ![](images/right-arrow-used-in-dialog.svg) junto a un documento, se muestran los archivos de asignación o tema a los que se hace referencia en mayor profundidad en ese documento.
 
 **Filtrado condicional \(A/B\)**
 
-Si el tema tiene contenido condicional, verá el icono A/B en la barra de herramientas. Al hacer clic en este icono, se abre una ventana emergente que le permite filtrar el contenido según las condiciones disponibles en el tema.
+Si el tema tiene contenido condicional, verá el icono A/B en la barra de herramientas. Al seleccionar este icono, se abrirá una ventana emergente que le permite filtrar el contenido según las condiciones disponibles en el tema.
 
 >[!NOTE]
 >
-> El contenido condicional se resalta con un color de fondo claro en el Editor web.
+> El contenido condicional se resalta con un color de fondo claro en el Editor.
 
 ![](images/conditional-popup_cs.png){width="300" align="left"}
 
 **Editar**
 
-- Abra el tema para editarlo en el Editor web. La opción **Editar** no estará disponible si el administrador ha habilitado la opción **Deshabilitar la edición sin desprotección**. Con la opción habilitada, solo verá la opción **Editar** después de desproteger un archivo de tema.
+- Abra el tema para editarlo en el Editor. La opción **Editar** no estará disponible si el administrador ha habilitado la opción **Deshabilitar edición sin bloquear el archivo**. Con la opción habilitada, solo verá la opción **Editar** después de bloquear un archivo de tema.
 
 **Resolución de clave**
 
-- Si desea utilizar un archivo de espacio de claves para el tema, haga clic en el icono Resolución de claves. A continuación, puede elegir un espacio de teclas en la ventana emergente Resolución de teclas.
+- Si desea utilizar un archivo de espacio de claves para el tema, seleccione el icono Resolución de claves. A continuación, puede elegir un espacio de teclas en la ventana emergente Resolución de teclas.
 
 **Origen**
 
-- Abra el código fuente XML de un archivo. Para ver el código XML subyacente de un mapa, tema o archivo DITAVAL, abra el archivo en el modo Vista previa y haga clic en el icono Source. La ventana emergente XML Source muestra el código fuente XML. Puede seleccionar un código específico del archivo o presionar `Ctrl`+`a` para seleccionar todo el contenido.
+- Abra el código fuente XML de un archivo. Para ver el código XML subyacente de un mapa, tema o archivo DITAVAL, abra el archivo en el modo Vista previa y seleccione el icono Source. La ventana emergente XML Source muestra el código fuente XML. Puede seleccionar un código específico del archivo o presionar `Ctrl`+`a` para seleccionar todo el contenido.
 
   >[!NOTE]
   >
-  > Para obtener la vista de código fuente de un archivo de mapa DITA, seleccione el archivo en la interfaz de usuario de Assets y haga clic en Source.
+  > Para obtener la vista del código fuente de un archivo de mapa DITA, seleccione el archivo en la interfaz de usuario de Assets y seleccione Source.
 
   ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
 
 **Compartir vínculo UUID**
 
-- AEM Guides permite compartir vínculos basados en UUID para mapas, temas y archivos de imagen DITA desde los siguientes lugares:
+- Experience Manager Guides permite compartir vínculos basados en UUID para mapas, temas y archivos de imagen DITA desde los siguientes lugares:
 
    - IU de Assets
    - Consola del mapa DITA
@@ -104,9 +132,9 @@ Si comparte el vínculo desde la consola de mapa DITA o desde el modo de vista p
 >
 > El vínculo no se puede utilizar como vínculo de referencia en otro tema, solo proporciona acceso directo al archivo en el repositorio. Además, el vínculo sigue siendo válido siempre que el archivo esté disponible en el repositorio. Aunque el archivo se mueva a otra ubicación del repositorio, el vínculo sigue siendo válido. El vínculo solo fallará cuando el archivo se elimine del repositorio.
 
-**Desproteger/Proteger**
+**Cierre de compra/Registro**
 
-- Activa o desactiva las funciones Desproteger y Proteger. Cuando se desprotege un archivo, el usuario actual obtiene un permiso de escritura exclusivo sobre el archivo. Se puede abrir un archivo desprotegido en el Editor Web para editarlo. Una vez realizados los cambios necesarios, haga clic en el icono Proteger para guardar el archivo en DAM.
+- Activa o desactiva las funciones Desproteger y Proteger. Cuando se desprotege un archivo, el usuario actual obtiene un permiso de escritura exclusivo sobre el archivo. Se puede abrir un archivo desprotegido en el Editor para editarlo. Una vez realizado el cambio necesario, seleccione el icono Proteger para guardar el archivo en DAM.
 
 Cuando se desprotege un tema, el estado del archivo se muestra como desprotegido en la vista de tarjeta y en la vista de lista.
 
@@ -124,7 +152,7 @@ Si la columna Desprotegido no está visible, seleccione **Ver configuración** e
 
 >[!TIP]
 >
-> Consulte la sección Creación de versiones del contenido en la guía de prácticas recomendadas para conocer las prácticas recomendadas sobre cómo trabajar con la desprotección y el registro de archivos.
+> Consulte la sección Versiones del contenido en la guía de prácticas recomendadas para conocer las prácticas recomendadas sobre cómo trabajar con la desprotección y el registro de archivos.
 
 **Diferencia de versión basada en web**
 
@@ -136,11 +164,11 @@ Si la columna Desprotegido no está visible, seleccione **Ver configuración** e
 
    1. Abra el tema en el modo de vista previa.
 
-   1. En el carril izquierdo, haga clic en **Historial de versiones** y seleccione una versión.
+   1. En el carril izquierdo, seleccione **Historial de versiones** y elija una versión.
 
       ![](images/timeline-versions62_cs.png){width="800" align="left"}
 
-   1. De las versiones enumeradas, seleccione la que desee usar como versión base y haga clic en **Vista previa de la versión**. La vista previa de la versión seleccionada se muestra en la ventana Version Preview.
+   1. De las versiones enumeradas, seleccione la que desee usar como versión base y seleccione **Vista previa**. La vista previa de la versión seleccionada se muestra en la ventana Version Preview.
 
    1. En la lista **Mostrar diferencias**, seleccione la versión con la que desea comparar la versión base.
 
@@ -151,9 +179,9 @@ Si la columna Desprotegido no está visible, seleccione **Ver configuración** e
       ![](images/version-difference.png){width="800" align="left"}
 
 
-### Rama, reversión y versiones posteriores {#id193PG0Y051X}
+## Rama, reversión y versiones posteriores
 
-- En un entorno de creación típico, sería necesario crear una nueva rama de un tema para adaptarla a una versión específica. Al igual que cualquier otro sistema de administración de versiones, AEM Guides permite crear una rama a partir de una versión existente de un tema o revertir a una versión anterior de un tema. Con las funciones de administración de versiones que ofrece AEM Guides, puede realizar las siguientes tareas:
+- En un entorno de creación típico, sería necesario crear una nueva rama de un tema para adaptarla a una versión específica. Al igual que cualquier otro sistema de administración de versiones, Experience Manager Guides permite crear una rama a partir de una versión existente de un tema o revertir a una versión anterior de un tema. Con las funciones de administración de versiones que ofrece Experience Manager Guides, puede realizar las siguientes tareas:
 
    - Crear una rama a partir de una versión existente de un tema
    - Crear versiones posteriores en una rama nueva
@@ -163,9 +191,9 @@ Si la columna Desprotegido no está visible, seleccione **Ver configuración** e
 
   ![](images/branching_illustration.png){width="550" align="center"}
 
-  Para cualquier tema nuevo, la primera versión se numera como 1.0. A partir de entonces, cada nueva versión del tema se guarda con un número incremental como 1.1, 1.2, etc. Una vez creada una rama de un tema, se crea una nueva rama tomando el número de versión de donde se crea la rama y agregando un 0 al final de la versión. Como se ve en la ilustración, se crea una nueva rama a partir de la versión 1.1 de un tema. La nueva rama tiene la versión 1.1.0. A partir de entonces, cada vez que se guarda una nueva versión del tema en esta rama, se obtiene un número de versión incremental como 1.1.1, 1.1.2, etc.
+  Para cualquier tema nuevo, la primera versión se numera como 1.0. A partir de entonces, cada nueva versión del tema se guarda con un número incremental como 1.1, 1.2, etc. Una vez creada una rama de un tema, se crea una nueva rama tomando el número de versión de donde se crea la rama y agregando un 0 al final de la versión. Como se muestra en la ilustración, se crea una nueva rama a partir de la versión 1.1 de un tema. La nueva rama tiene la versión 1.1.0. A partir de entonces, cada vez que se guarda una nueva versión del tema en esta rama, se obtiene un número de versión incremental como 1.1.1, 1.1.2, etc.
 
-  De forma similar a la bifurcación, también puede revertir la versión de trabajo o actual a cualquier versión que exista en el repositorio. Para revertir a una versión, simplemente seleccione la versión que desee del tema y haga clic en **Revertir a esta versión** en el panel **Historial de versiones**.
+  De forma similar a la bifurcación, también puede revertir la versión de trabajo o actual a cualquier versión que exista en el repositorio. Para revertir a una versión, simplemente seleccione la versión que desee del tema y seleccione **Revertir a esta versión** en el panel **Historial de versiones**.
 
   Realice los siguientes pasos para crear una rama, revertir a una versión y mantener las versiones posteriores de un tema:
 
@@ -181,7 +209,7 @@ Si la columna Desprotegido no está visible, seleccione **Ver configuración** e
 
    1. Seleccione el tema para el que desea crear una rama.
 
-   1. En el carril izquierdo, haga clic en **Historial de versiones**.
+   1. En el carril izquierdo, seleccione **Historial de versiones**.
 
       >[!NOTE]
       >
@@ -195,7 +223,7 @@ Si la columna Desprotegido no está visible, seleccione **Ver configuración** e
       >
       > La versión actual de un tema contiene *\(Actual\)* mencionado junto al número de versión.
 
-   1. Haga clic en **Revertir a esta versión**.
+   1. Seleccionar **Revertir a esta versión**.
 
       Aparece un mensaje que le pide que confirme la creación de una nueva rama.
 
@@ -213,9 +241,9 @@ Si la columna Desprotegido no está visible, seleccione **Ver configuración** e
 
         ![](images/new_version_without_working_copy.png){width="300" align="left"}
 
-   1. Haga clic en **OK**.
+   1. Seleccione **Aceptar**.
 
 
-  Se crea una nueva rama a partir de la versión seleccionada del tema. El proceso anterior también es aplicable para volver a una versión específica de un tema. Técnicamente, revertir a una versión específica significa que crea una rama nueva a partir de la versión seleccionada y convierte esa versión en la copia de trabajo actual del tema. También puede ver el historial de los archivos que se han revertido en el informe Historial de reversiones de la versión. Para obtener más información sobre este informe, consulte [Informe de historial de versiones de archivos revertidos](reports-reverted-file-version-history.md#).
+  Se crea una nueva rama a partir de la versión seleccionada del tema. El proceso anterior también es aplicable para volver a una versión específica de un tema. Técnicamente, revertir a una versión específica significa que crea una rama nueva a partir de la versión seleccionada y convierte esa versión en la copia de trabajo actual del tema. También puede ver el historial de los archivos que se han revertido en el informe Historial de reversiones de la versión. Para obtener más información sobre este informe, vea [Informe del historial de versiones de archivos revertidos](reports-reverted-file-version-history.md#).
 
 **Tema principal:**[ Crear y previsualizar temas](create-preview-topics.md)

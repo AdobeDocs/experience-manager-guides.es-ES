@@ -4,16 +4,16 @@ description: Obtenga información sobre cómo administrar archivos y carpetas en
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
 workflow-type: tm+mt
-source-wordcount: '3109'
+source-wordcount: '3131'
 ht-degree: 0%
 
 ---
 
 # Administración de archivos y carpetas {#id2116G0L08XA}
 
-En esta sección se explica cómo administra AEM Guides las operaciones básicas de archivo, como copiar, pegar, arrastrar y soltar y eliminar archivos. Los siguientes escenarios son posibles:
+En esta sección se explica cómo administra Adobe Experience Manager Guides las operaciones básicas de archivo, como copiar, pegar, arrastrar y soltar y eliminar archivos. Los siguientes escenarios son posibles:
 
 ## Copiar y pegar archivos
 
@@ -61,13 +61,13 @@ En esta sección se explica cómo administra AEM Guides las operaciones básicas
 
   >[!NOTE]
   >
-  > **El administrador debe habilitar la característica Crear nueva versión para el archivo cargado**. Si esta función está habilitada, se crea una nueva versión para el archivo cargado. Si la opción no está seleccionada, no se crea una versión del archivo cargado. Para obtener más información, consulte la sección *Crear nueva versión para el archivo cargado* en el as a Cloud Service Instalar y configurar Adobe Experience Manager Guides.
+  > **El administrador debe habilitar la característica Crear nueva versión para el archivo cargado**. Si esta función está habilitada, se crea una nueva versión para el archivo cargado. Si la opción no está seleccionada, no se crea una versión del archivo cargado. Para obtener más información, vea la sección *Crear nueva versión para el archivo cargado* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
   Si un archivo ya está desprotegido para ediciones por otro usuario e intenta cargar y sobrescribir el archivo existente, se producirá un error y se mostrará un error.
 
   >[!NOTE]
   >
-  >El administrador debe deshabilitar la característica **Sobrescribir archivo desprotegido al cargar**. Si esta característica está habilitada, puede sobrescribir los archivos desprotegidos. Si la función no está habilitada, no se podrá sobrescribir un archivo desprotegido. Para obtener más información, consulte la sección *Sobrescribir archivo desprotegido al cargar* en el as a Cloud Service Instalar y configurar Adobe Experience Manager Guides.
+  >El administrador debe deshabilitar la característica **Sobrescribir archivo desprotegido al cargar**. Si esta característica está habilitada, puede sobrescribir los archivos desprotegidos. Si la función no está habilitada, no se podrá sobrescribir un archivo desprotegido. Para obtener más información, vea la sección *Sobrescribir archivo desprotegido al cargar* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
 
 - *Arrastrar y soltar archivos en una ubicación diferente*: Se crea una copia nueva del archivo y también se le asigna un nuevo UUID en la nueva ubicación. En este caso, el nombre de archivo es el mismo que el nombre de archivo original.
@@ -83,7 +83,7 @@ Cuando se sobrescribe el archivo, no se produce ningún cambio en el nombre del 
 
 Si selecciona la opción **Crear versión para la copia de trabajo existente**, se creará una nueva versión a partir de la copia de trabajo del documento; se cargará el nuevo archivo, también se creará una nueva versión del archivo y se convertirá en la copia de trabajo del documento.
 
-**El administrador debe habilitar la característica Crear nueva versión para el archivo cargado**. Si esta función está habilitada, se crea una nueva versión para el archivo cargado. Si la opción no está seleccionada, no se crea una versión del archivo cargado. Para obtener más información, consulte la sección *Crear nueva versión para el archivo cargado* en el as a Cloud Service Instalar y configurar Adobe Experience Manager Guides.
+**El administrador debe habilitar la característica Crear nueva versión para el archivo cargado**. Si esta función está habilitada, se crea una nueva versión para el archivo cargado. Si la opción no está seleccionada, no se crea una versión del archivo cargado. Para obtener más información, vea la sección *Crear nueva versión para el archivo cargado* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
 
 *Arrastrar y soltar archivo en otra ubicación*: se le dan las opciones para **Sobrescribir archivo existente\(s\)**, **Mover archivo\(s\) a una nueva ubicación** y una opción para crear una versión de la copia de trabajo existente.
@@ -99,11 +99,11 @@ Con reemplazar o mover los archivos, si elige la opción de crear una versión a
 
 ## Mover archivos por lotes {#move-files-bulk}
 
-AEM Guides incluye la herramienta de movimiento masivo de archivos que ayuda a un administrador a mover una carpeta que tiene un gran número de archivos de una ubicación a otra. AEM Esta herramienta puede mover fácilmente archivos dentro de una o más carpetas a una carpeta diferente en su repositorio de carpetas. Una de las características principales de esta herramienta es que no solo mueve un gran número de archivos, sino que también mantiene las referencias hacia y desde los archivos que se mueven. Puede modificar el número de archivos que puede mover por lotes sin obstaculizar las tareas de creación y publicación.
+Experience Manager Guides incluye la herramienta de movimiento masivo de archivos que ayuda a un administrador a mover una carpeta que tiene un gran número de archivos de una ubicación a otra. Esta herramienta puede mover fácilmente archivos dentro de una o más carpetas a una carpeta diferente en su repositorio de Adobe Experience Manager. Una de las características principales de esta herramienta es que no solo mueve un gran número de archivos, sino que también mantiene las referencias hacia y desde los archivos que se mueven. Puede modificar el número de archivos que puede mover por lotes sin obstaculizar las tareas de creación y publicación.
 
 >[!NOTE]
 >
-> La herramienta de movimiento masivo solo funciona en el nivel de carpeta. AEM Si desea mover archivos de tema o asignación individuales, utilice la herramienta de movimiento normal desde la interfaz de usuario de Assets de la aplicación de la aplicación de movimiento de datos de la interfaz de usuario de la aplicación de.
+> La herramienta de movimiento masivo solo funciona en el nivel de carpeta. Si desea mover archivos de tema o asignación individuales, utilice la herramienta de movimiento normal de la interfaz de usuario de Assets de Adobe Experience Manager.
 
 Estas son algunas de las funciones que proporciona la herramienta de movimiento masivo:
 
@@ -124,14 +124,14 @@ Debe tener en cuenta los siguientes puntos antes de ejecutar el proceso por lote
 
 Para mover archivos de forma masiva, realice los siguientes pasos:
 
-1. Haga clic en el vínculo Adobe Experience Manager en la parte superior y elija **Herramientas**.
+1. Seleccione el logotipo de Adobe Experience Manager en la parte superior y elija **Herramientas**.
 1. Seleccione **Guías** de la lista de herramientas.
-1. Haga clic en el mosaico **Herramienta de movimiento en lotes**.
+1. Seleccione el mosaico **Herramienta de movimiento en lotes**.
 1. La página Herramienta de movimiento en lote se muestra en función de la configuración. Proporcione los siguientes detalles en la página **Herramienta de movimiento masivo**:
 
    <details>
 
-   <summary> Cloud Service y sistema de archivos basado en UUID On-Premise </summary>
+   <summary> Cloud Services y sistema de archivos basado en UUID On-Premise </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
@@ -146,23 +146,23 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
    - **Ruta de Source\(s\)**: especifique la ubicación de las carpetas que desea mover.
 
-      - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25">    para abrir el cuadro de diálogo examinar archivo. Seleccione las carpetas que desee mover y haga clic en **Seleccionar** para completar el proceso.
+      - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25">    para abrir el cuadro de diálogo examinar archivo. Seleccione las carpetas que desee mover y elija **Seleccionar** para completar el proceso.
 
       - También puede escribir o copiar y pegar la ubicación de origen. Pulse Intro para añadir la carpeta a la lista.
 
         Las carpetas seleccionadas se muestran junto con su ruta. Pase el ratón sobre la etiqueta de carpeta para ver la ruta completa.
-      - También puede quitar cualquier carpeta haciendo clic en **Quitar** <img src="images/remove-folder.svg" width="25"> cerca de la carpeta.
+      - También puede quitar cualquier carpeta seleccionando **Quitar** <img src="images/remove-folder.svg" width="25"> cerca de la carpeta.
 
 
    - **Ruta de destino**: especifique la ubicación a la que desea mover las carpetas de origen.
 
-      - Seleccionar **carpeta de exploración** <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo examinar archivo. Seleccione la ubicación a la que desea mover las carpetas de origen. y haga clic en Seleccionar para completar el proceso.
+      - Seleccionar **carpeta de exploración** <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo examinar archivo. Seleccione la ubicación a la que desea mover las carpetas de origen. y elija Seleccionar para completar el proceso.
       - También puede escribir o copiar y pegar la ruta de destino.
 
      La carpeta seleccionada se muestra junto con su ruta en el cuadro de texto.
 
 
-   - Haga clic en **Mover en lote**.
+   - Seleccionar **movimiento masivo**.
 
      El sistema comienza a mover archivos desde la ubicación de origen a la de destino. Una vez finalizado el proceso, se muestra un resumen del proceso de movimiento a la derecha de la página.
 
@@ -195,22 +195,22 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
    - **Ruta de Source\(s\)**: especifique la ubicación de las carpetas que desea mover.
 
-      - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25">    para abrir el cuadro de diálogo examinar archivo. Seleccione las carpetas que desee mover y haga clic en **Seleccionar** para completar el proceso.
+      - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25">    para abrir el cuadro de diálogo examinar archivo. Seleccione las carpetas que desee mover y elija **Seleccionar** para completar el proceso.
 
       - También puede escribir o copiar y pegar la ubicación de origen. Pulse Intro para añadir la carpeta a la lista.
 
         Las carpetas seleccionadas se muestran junto con su ruta. Pase el ratón sobre la etiqueta de carpeta para ver la ruta completa.
-      - También puede quitar cualquier carpeta haciendo clic en **Quitar** <img src="images/remove-folder.svg" width="25"> cerca de la carpeta.
+      - También puede quitar cualquier carpeta seleccionando **Quitar** <img src="images/remove-folder.svg" width="25"> cerca de la carpeta.
 
 
    - **Ruta de destino**: especifique la ubicación a la que desea mover las carpetas de origen.
 
-      - Seleccionar **carpeta de exploración** <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo examinar archivo. Seleccione la ubicación a la que desea mover las carpetas de origen. y haga clic en Seleccionar para completar el proceso.
+      - Seleccionar **carpeta de exploración** <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo examinar archivo. Seleccione la ubicación a la que desea mover las carpetas de origen. y elija Seleccionar para completar el proceso.
       - También puede escribir o copiar y pegar la ruta de destino.
 
         La carpeta seleccionada se muestra junto con su ruta en el cuadro de texto.
 
-   - Haga clic en **Mover en lote**.
+   - Seleccionar **movimiento masivo**.
 
      El sistema comienza a mover archivos desde la ubicación de origen a la de destino. Una vez finalizado el proceso, se muestra un resumen del proceso de movimiento a la derecha de la página.
      ![](images/bulk-move-summary-non-uuid.png){width="650" align="center"}
@@ -218,11 +218,11 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
 ## Buscar contenido DITA
 
-AEM De forma predeterminada, no reconoce contenido DITA, por lo que no proporciona ningún mecanismo para buscar contenido DITA en su repositorio. AEM Guides AEM AEM agrega una capa sobre la parte superior de la, que le permite comprender y procesar el contenido DITA. La función Buscar contenido DITA de AEM Guides AEM permite buscar contenido DITA en el repositorio de la aplicación de datos de la interfaz de usuario de la aplicación de datos de la aplicación de datos de la aplicación de datos de.
+De forma predeterminada, Adobe Experience Manager no reconoce el contenido DITA, por lo que no proporciona ningún mecanismo para buscar contenido DITA dentro de su repositorio. Experience Manager Guides agrega una capa sobre Adobe Experience Manager, que permite a Adobe Experience Manager comprender y procesar el contenido DITA. La función Buscar contenido DITA de Experience Manager Guides permite buscar contenido DITA en el repositorio de Adobe Experience Manager.
 
 >[!NOTE]
 >
->El administrador del sistema puede configurar el componente de búsqueda **DITA Element** y, a continuación, puede utilizar la función desde la interfaz de usuario de AEM Assets. Para obtener más información, consulte la sección *Agregar componente de búsqueda de elementos DITA en la interfaz de usuario de Assets* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
+>El administrador del sistema puede configurar el componente de búsqueda **DITA Element** y, a continuación, puede utilizar la función desde la interfaz de usuario de Adobe Experience Manager Assets. Para obtener más información, vea la sección *Agregar componente de búsqueda de elementos DITA en la interfaz de usuario de Assets* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
 Con la función de búsqueda, puede:
 
@@ -230,7 +230,7 @@ Con la función de búsqueda, puede:
 - Buscar contenido DITA basado en un valor de atributo; por ejemplo, `@platform`= windows
 - Utilice una combinación de elemento DITA y valor de atributo; por ejemplo, `author`= xml `AND` `@platform`= windows
 
-AEM Realice los siguientes pasos para buscar contenido DITA dentro de un repositorio de:
+Siga estos pasos para buscar contenido DITA en el repositorio de Adobe Experience Manager:
 
 1. Abra la IU de Assets.
 
@@ -259,13 +259,13 @@ AEM Realice los siguientes pasos para buscar contenido DITA dentro de un reposit
 
 **Filtro de estado de cierre de compra en la búsqueda**
 
-Además del filtro Elemento DITA, AEM Guides también permite buscar contenido en función de su estado de cierre de compra. Esto resulta útil cuando desea filtrar rápidamente los archivos que está desprotegiendo actualmente y desea volver a protegerlos.
+Además del filtro Elemento DITA, Experience Manager Guides también permite buscar contenido en función de su estado de cierre de compra. Esto resulta útil cuando desea filtrar rápidamente los archivos que está desprotegiendo actualmente y desea volver a protegerlos.
 
 Realice los siguientes pasos para buscar archivos en función de su estado de cierre de compra:
 
 1. Abra la IU de Assets.
 
-1. Haga clic en **Filtro** en el carril izquierdo.
+1. Seleccione **Filter** en el carril izquierdo.
 1. Escriba la palabra clave de búsqueda en la barra de búsqueda.
 1. Aplique los filtros necesarios desde el carril izquierdo.
 
@@ -276,7 +276,7 @@ Realice los siguientes pasos para buscar archivos en función de su estado de ci
 
 ## Eliminar archivos
 
-AEM La eliminación de archivos del repositorio de es una función restringida, que controla el administrador del sistema. En función de las configuraciones, la eliminación de archivos podría restringirse si:
+La eliminación de archivos del repositorio de Adobe Experience Manager es una función restringida que controla el administrador del sistema. En función de las configuraciones, la eliminación de archivos podría restringirse si:
 
 - Desprotegido
 - Tener referencias entrantes o salientes
@@ -285,7 +285,7 @@ También puede eliminar archivos sólo si pertenece a un grupo de usuarios espec
 
 >[!NOTE]
 >
-> Para obtener más información sobre las configuraciones en la administración de archivos, consulte las secciones *Impedir la eliminación de archivos desprotegidos* y *Impedir la eliminación de archivos a los que se hace referencia* en el as a Cloud Service Instalar y configurar Adobe Experience Manager Guides.
+> Para obtener más información sobre las configuraciones de administración de archivos, vea las secciones *Impedir la eliminación de archivos desprotegidos* y *Impedir la eliminación de archivos a los que se hace referencia* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
 Si el administrador ha concedido el permiso de eliminación de archivos a todos los usuarios, se mostrará el siguiente mensaje cuando elimine archivos que contengan referencias:
 
@@ -307,12 +307,12 @@ Si el archivo multimedia ha sufrido algún cambio, puede buscarlo y obtener una 
 
 1. Obtenga acceso al archivo en **IU de Assets**.
 1. Seleccione el archivo para el que desea ver el historial de versiones.
-1. En el carril izquierdo, haga clic en **Historial de versiones** y seleccione una versión.
+1. En el carril izquierdo, seleccione **Historial de versiones** y elija una versión.
 1. También puede ver las miniaturas de las diferentes versiones en Historial de versiones.
 
    ![](images/media-version-history-icon.png){width="800" align="center"}
 
-1. De las versiones enumeradas, seleccione la que desee usar como versión base y haga clic en **Vista previa de la versión**. La vista previa de la versión seleccionada se muestra en la ventana Version Preview.
+1. De las versiones enumeradas, seleccione la que desee usar como versión base y seleccione **Vista previa**. La vista previa de la versión seleccionada se muestra en la ventana Version Preview.
 
    ![](images/media-version-preview.png){width="650" align="center"}
 

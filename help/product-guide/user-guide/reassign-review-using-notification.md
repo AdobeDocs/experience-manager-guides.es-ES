@@ -4,9 +4,9 @@ description: Reasignar una tarea de revisión mediante notificaciones en AEM Gui
 exl-id: 6cd01564-aa26-4773-9c95-9dc519706f27
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,4 @@ Una vez reasignada la tarea de revisión, la columna Usuario asignado muestra el
 
 El revisor asignado recibe una notificación en la bandeja de entrada para la tarea de revisión reasignada.
 
-**Tema principal:**[ Revisar temas o asignaciones](review.md)
+**Tema principal:**[ Introducción a la revisión](review.md)

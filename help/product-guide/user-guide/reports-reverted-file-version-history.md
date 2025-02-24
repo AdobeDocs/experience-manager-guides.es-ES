@@ -1,12 +1,12 @@
 ---
 title: Informe de historial de versiones de archivos revertidos
-description: Ver los informes del historial de versiones de los archivos revertidos en AEM Guides. Obtenga información sobre cómo acceder a los registros de versión de reversión desde la interfaz de usuario de Assets AEM, la vista previa del tema y la selección de herramientas de.
+description: Ver los informes del historial de versiones de los archivos revertidos en AEM Guides. Obtenga información sobre cómo acceder a los registros de versiones anteriores desde la interfaz de usuario de Assets, la vista previa de temas y la selección de herramientas de AEM.
 exl-id: 74bef625-acd6-49a6-b983-881a782f68d6
 feature: Report Generation
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -15,36 +15,36 @@ ht-degree: 0%
 
 Cuando se trabaja en varias versiones simultáneas junto con varios autores, el contenido está destinado a tener varias versiones. Podría haber información común en varias versiones que distintos autores podrían utilizar en su proyecto. Para gestionar estas asignaciones de trabajo, los autores podrían terminar con varias versiones de los archivos. Estas versiones podrían ser simplemente una versión más reciente de un archivo o una versión anterior. Identificar cuándo se revirtió un archivo y por qué es una tarea compleja.
 
-AEM Guides permite generar un informe del historial de versiones para un archivo individual o para todos los archivos de una carpeta. Este historial de versiones le proporciona una vista consolidada de todas las versiones de un archivo que se revirtieron y quién creó esas versiones y el motivo para crearlas.
+Adobe Experience Manager Guides permite generar un informe del historial de versiones para un archivo individual o para todos los archivos de una carpeta. Este historial de versiones le proporciona una vista consolidada de todas las versiones de un archivo que se revirtieron y quién creó esas versiones y el motivo para crearlas.
 
 Puede acceder a este informe desde los siguientes lugares:
 
-- **IU de Assets**: seleccionando un archivo y abriendo **Historial de versiones** desde el carril izquierdo. La vista **Historial de versiones** contiene el vínculo **Revertir registros de versiones** en la parte inferior del panel. Al hacer clic en este vínculo, se muestra el historial de versiones revertidas del archivo seleccionado.
+- **IU de Assets**: seleccionando un archivo y abriendo **Historial de versiones** desde el carril izquierdo. La vista **Historial de versiones** contiene el vínculo **Revertir registros de versiones** en la parte inferior del panel. Al seleccionar este vínculo, se muestra el historial de versiones revertidas del archivo seleccionado.
 
   ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
 
-- **Vista previa del tema**: al obtener una vista previa de un tema, también puede mostrar el panel **Historial de versiones** desde el carril izquierdo. Obtendrá un panel similar a la interfaz de usuario de Assets desde donde puede hacer clic en el vínculo **Revertir registros de versión** para acceder al historial de versiones revertidas del documento activo.
+- **Vista previa del tema**: al obtener una vista previa de un tema, también puede mostrar el panel **Historial de versiones** desde el carril izquierdo. Obtendrá un panel similar a la interfaz de usuario de Assets desde donde podrá seleccionar el vínculo **Revertir registros de versión** para acceder al historial de versiones revertidas del documento activo.
 
-- AEM AEM **Sección de herramientas de la creación de informes**: también puede tener acceso a este informe desde la sección de herramientas de la creación de la aplicación de herramientas de la creación de la. AEM En el siguiente procedimiento se explica cómo acceder al historial de versiones de reversión desde la sección Herramientas para la creación de versiones de la aplicación de la versión de la aplicación de la versión de la aplicación de la.
+- **Sección de herramientas de Adobe Experience Manager**: también puede obtener acceso a este informe desde la sección de herramientas de Experience Manager. El siguiente procedimiento explica cómo puede acceder al historial de versiones de reversión desde la sección Herramientas de Experience Manager.
 
 
 Siga estos pasos para acceder al informe Revertir historial:
 
-1. Haga clic en el vínculo Adobe Experience Manager en la parte superior y elija **Herramientas**.
+1. Seleccione el logotipo de Adobe Experience Manager en la parte superior y elija **Herramientas**.
 
 1. Seleccione **Guías** de la lista de herramientas.
 
-1. Haga clic en el mosaico **Historial de reversión de versión**.
+1. Seleccione el mosaico **Historial de reversión de versión**.
 
    Se muestra una página Revertir historial de versiones en blanco en la que debe buscar y seleccionar un archivo o carpeta para generar el informe.
 
-1. Haga clic en **Mostrar registros** para generar el informe del archivo o la carpeta seleccionados.
+1. Seleccione **Mostrar registros** para generar el informe del archivo o carpeta seleccionados.
 
    ![](images/revert-version-history-report.png){width="800" align="left"}
 
    El informe contiene los siguientes detalles:
 
-   - **Nombre de archivo**: El título del tema. Al hacer clic en el vínculo del título del tema, se abre la vista previa del tema.
+   - **Nombre de archivo**: El título del tema. Al seleccionar el vínculo del título del tema, se abre la vista previa del tema.
 
    - **Marca de tiempo**: La fecha y hora en que se revirtió el tema a una versión anterior.
 
@@ -57,4 +57,4 @@ Siga estos pasos para acceder al informe Revertir historial:
    - **Comentario**: Cualquier comentario dado por el usuario que revirtió el archivo.
 
 
-**Tema principal:**[ Informes](reports-intro.md)
+**Tema principal:**[ Introducción a los informes](reports-intro.md)

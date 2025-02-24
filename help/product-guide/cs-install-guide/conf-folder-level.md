@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: c94eb03af60ef9df60f77c21bfce1c45708df2f8
+source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
 workflow-type: tm+mt
-source-wordcount: '4521'
+source-wordcount: '4755'
 ht-degree: 0%
 
 ---
@@ -52,13 +52,13 @@ Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede est
 
   Junto con las plantillas de temas, también puede definir las plantillas de mapas que estarán disponibles para los autores. Las siguientes plantillas de mapas están disponibles de forma predeterminada:
 
-   - Asignar
+   - Mapa
 
    - Bookmap
 
 - **Ajuste preestablecido de salida**: de forma similar a las plantillas, hay cinco ajustes preconfigurados de salida:
 
-   - AEM Sitio web de
+   - Sitio de AEM
 
    - PDF
 
@@ -73,6 +73,8 @@ Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede est
 - **Configuraciones del editor XML**: utilice esta ficha para personalizar el aspecto y las diversas características del editor Web. Las siguientes opciones configurables están disponibles para el editor web:
 
    - Configuración de IU del Editor XML
+   - Diseño de página del editor XML
+   - Configuración del editor XML
    - Diseño de plantilla CSS
    - Fragmentos del editor XML
    - Etiquetas de versión de contenido XML
@@ -106,7 +108,7 @@ Siga estos pasos para configurar el perfil global:
 
 1. Para configurar **ajustes preestablecidos de salida**, consulte [Configurar ajustes preestablecidos de salida](#id18AGD0IH0Y4).
 
-1. Para configurar el Editor XML, vea [Configurar y personalizar el Editor Web XML](#id2065G300O5Z).
+1. Para configurar el Editor XML, vea [Configurar y personalizar el Editor XML](#id2065G300O5Z).
 
 1. Después de realizar todas las actualizaciones necesarias, guarde y cierre el **Perfil global**.
 
@@ -230,9 +232,9 @@ Si utiliza un atributo personalizado, debe ser un atributo DITA válido admitido
 
 ## Configuración de plantillas {#id1889D0IL0Y4}
 
-AEM Guides incluye 7 plantillas de tema predeterminadas, 2 plantillas de mapa DITA y 3 plantillas de PDF. Puede elegir que solo haya unas pocas plantillas disponibles para los autores y editores. Si utiliza una plantilla personalizada, la misma se puede configurar y poner a disposición para la creación y publicación. Utiliza la ficha **Plantillas** de la configuración de Perfiles de carpeta para agregar o quitar plantillas de tema, asignación o PDF de perfiles globales o de nivel de carpeta.
+AEM Guides incluye 7 plantillas de temas predeterminadas, 2 plantillas de mapas DITA y 3 plantillas de PDF. Puede elegir que solo haya unas pocas plantillas disponibles para los autores y editores. Si utiliza una plantilla personalizada, la misma se puede configurar y poner a disposición para la creación y publicación. Utiliza la ficha **Plantillas** de la configuración de Perfiles de carpeta para agregar o quitar plantillas de tema, asignación o PDF de perfiles globales o de nivel de carpeta.
 
-Incluso antes de configurar las plantillas de tema, asignación o PDF a nivel global o de carpeta, también puede definir una ubicación para almacenar las plantillas personalizadas. Para configurar una ubicación personalizada para almacenar las plantillas, consulte [Configurar la ruta de la carpeta de plantillas DITA personalizada](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
+Incluso antes de configurar el tema, el mapa o las plantillas de PDF a nivel global o de carpeta, también puede definir una ubicación para almacenar las plantillas personalizadas. Para configurar una ubicación personalizada para almacenar las plantillas, consulte [Configurar la ruta de la carpeta de plantillas DITA personalizada](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
 
 Realice los siguientes pasos para agregar las plantillas de tema, asignación o PDF a un perfil de carpeta:
 
@@ -251,7 +253,7 @@ Realice los siguientes pasos para agregar las plantillas de tema, asignación o 
 1. En la página de perfil, haga clic en la ficha **Plantillas**.
 1. Haga clic en **Editar**.
 
-   Puede obtener las opciones para agregar plantillas de temas, mapas y PDF buscando en la ubicación predeterminada o explorando en ella.
+   Puede obtener las opciones para agregar plantillas de temas, mapas y PDF buscando desde la ubicación predeterminada o buscándolo.
 
    >[!NOTE]
    >
@@ -259,7 +261,7 @@ Realice los siguientes pasos para agregar las plantillas de tema, asignación o 
 
    ![](assets/search-author-temp.png){width="800" align="left"}
 
-1. Añada las plantillas de tema, asignación y PDF necesarias a su perfil.
+1. Añada las plantillas temáticas, de asignación y de PDF necesarias a su perfil.
 
    Para agregar una plantilla, realice una de las siguientes acciones:
 
@@ -337,7 +339,7 @@ AEM Guides permite al administrador crear ajustes preestablecidos de salida con 
 
 Una vez creados en el sistema los ajustes preestablecidos de salida por defecto, todos los mapas DITA creados posteriormente utilizarán los ajustes preestablecidos por defecto para generar salida. Sin embargo, todos los mapas DITA existentes seguirían utilizando los ajustes preestablecidos de salida configurados anteriormente con ellos. Si desea aplicar el nuevo ajuste preestablecido de salida en todas las asignaciones DITA existentes, deberá ejecutar el flujo de trabajo Aplicar cambios preestablecidos.
 
-Además de los ajustes preestablecidos configurados en el nivel global o empresarial, un editor seguiría teniendo derechos para crear más ajustes preestablecidos de salida. Sin embargo, estos ajustes preestablecidos están vinculados al mapa DITA para el que se han creado. Para obtener más información sobre cómo crear ajustes preestablecidos de salida normales para un mapa DITA, consulte *Crear, editar, duplicar o quitar un ajuste preestablecido de salida* en la guía as a Cloud Service Uso de Adobe Experience Manager Guides.
+Además de los ajustes preestablecidos configurados en el nivel global o empresarial, un editor seguiría teniendo derechos para crear más ajustes preestablecidos de salida. Sin embargo, estos ajustes preestablecidos están vinculados al mapa DITA para el que se han creado. Para obtener más información sobre cómo crear ajustes preestablecidos de salida normales para un mapa DITA, consulte *Crear, editar, duplicar o quitar un ajuste preestablecido de salida* en la guía Usar Adobe Experience Manager Guides as a Cloud Service.
 
 Realice los siguientes pasos para configurar los ajustes preestablecidos de salida globales o específicos de carpeta:
 
@@ -355,7 +357,7 @@ Realice los siguientes pasos para configurar los ajustes preestablecidos de sali
 
 1. En la página de perfil. haga clic en la ficha **Valores de salida**.
 
-   AEM Se muestra una lista de ajustes preestablecidos de salida listos para usar, que incluyen Sitio, PDF, HTML 5, EPUB y PERSONALIZADO, entre otros,.
+   Se muestra una lista de ajustes preestablecidos de salida predeterminados, que incluyen AEM Site, PDF, HTML5, EPUB y CUSTOM.
 
 1. Realice una de las siguientes acciones para crear o editar un ajuste preestablecido de salida:
 
@@ -364,7 +366,7 @@ Realice los siguientes pasos para configurar los ajustes preestablecidos de sali
 
    - Haga clic en **Editar** para abrir la configuración del ajuste preestablecido seleccionado y editarlo.
 
-     Para obtener información acerca de la configuración de ajustes preestablecidos de salida, consulte *Explicación de los ajustes preestablecidos de salida* en la guía as a Cloud Service Uso de Adobe Experience Manager Guides.
+     Para obtener información acerca de la configuración de ajustes preestablecidos de salida, consulte *Explicación de los ajustes preestablecidos de salida* en la guía Uso de Adobe Experience Manager Guides as a Cloud Service.
 
 1. Haga clic en **Guardar** para guardar la configuración del ajuste preestablecido.
 
@@ -391,7 +393,7 @@ Si ha actualizado un ajuste preestablecido de salida existente o desea que un nu
 
 1. En la página de perfil. haga clic en la ficha **Valores de salida**.
 
-   AEM Se muestra una lista de ajustes preestablecidos de salida listos para usar, que incluyen Sitio, PDF, HTML 5, EPUB y PERSONALIZADO, entre otros,.
+   Se muestra una lista de ajustes preestablecidos de salida predeterminados, que incluyen AEM Site, PDF, HTML5, EPUB y CUSTOM.
 
 1. Seleccione el ajuste preestablecido de salida que desee aplicar a las asignaciones DITA existentes.
 
@@ -407,9 +409,15 @@ Si ha actualizado un ajuste preestablecido de salida existente o desea que un nu
 
 
 
-## Configurar sugerencias inteligentes con tecnología de IA en el editor web {#conf-ai-smart-suggestions}
+## Configuración del asistente de IA para la creación y la ayuda inteligentes
 
-AEM Para la nube ![](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service .
+Para ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service .
+
+El asistente de IA de Adobe Experience Manager Guides es una potente herramienta impulsada por IA que se ha diseñado para mejorar el contenido mediante la creación inteligente y las experiencias de reutilización de contenido. Agrupa dos características de IA sólidas — **Creación** y **Ayuda** — en la interfaz de Experience Manager Guides, lo que le permite crear documentos y acceder a la información de forma más rápida y eficaz.
+
+Para obtener detalles de configuración, vea [Configuración del Asistente de IA](./conf-smart-suggestions.md).
+
+**Configurar sugerencias inteligentes con tecnología de IA**
 
 Puede configurar las sugerencias inteligentes con tecnología de IA y ayudar a los autores a reutilizar el contenido existente y crear fácilmente referencias de contenido correctas y coherentes. La pestaña **Configuración de IA** le permite controlar la configuración de **Sugerir contenido reutilizable** desde el panel Asistente de IA en el Editor web.
 
@@ -424,9 +432,10 @@ Realice los siguientes pasos para configurar la IA estándar en el perfil global
    >Puede configurar sugerencias inteligentes basadas en IA para el perfil global o de nivel de carpeta.
 
 1. En la página de perfil, seleccione la ficha **Configuración de IA**.
+
    ![Ficha de configuración de IA en el perfil global](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
 
-1. Haga clic en **Editar**.
+1. Seleccione **Editar**.
 1. Como administrador, puede configurar las siguientes opciones:
 
    **Caracteres mínimos**: escriba el número mínimo de caracteres que los autores necesitan para obtener las sugerencias. Por ejemplo, si este número es 7, el autor debe agregar al menos 7 caracteres para ver una sugerencia inteligente.
@@ -443,16 +452,13 @@ Realice los siguientes pasos para configurar la IA estándar en el perfil global
 
 Obtenga más información sobre cómo ver y agregar [sugerencias inteligentes basadas en IA](../user-guide/authoring-ai-based-smart-suggestions.md) para agregar referencias de contenido durante la creación en el Editor web.
 
+**Personalizar las preguntas predeterminadas para la ayuda inteligente**
 
+Para ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
+Puede configurar la **Ayuda** inteligente con tecnología de IA para ayudar a los autores a hacer preguntas y encontrar fácilmente el contenido requerido de la [documentación de Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
-## Configuración de la ayuda inteligente con tecnología de IA en el editor web {#conf-ai-guides-assistant}
-
-AEM Para el as a Cloud Service de Experience Manager Guides ![en la nube ](assets/aem-cloud-icon.svg).
-
-Puede configurar la **Ayuda inteligente** con tecnología de IA para ayudar a los autores a hacer preguntas y encontrar fácilmente el contenido necesario en la [Documentación de Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
-
-La ficha **Configuración del editor XML** le permite configurar las preguntas predeterminadas del **panel de Ayuda inteligente** en el editor web.
+La ficha **Configuración del editor XML** le permite configurar las preguntas predeterminadas del panel **Ayuda**.
 
 >[!NOTE]
 >
@@ -494,13 +500,27 @@ Siga estos pasos para configurar las preguntas predeterminadas:
 Obtenga más información sobre cómo usar la [Ayuda inteligente con tecnología de IA](../user-guide/ai-based-smart-help.md) para encontrar el contenido requerido en la documentación de Experience Manager Guides.
 
 
-## Configurar y personalizar el Editor Web XML {#id2065G300O5Z}
+## Configurar y personalizar el Editor XML {#id2065G300O5Z}
 
-De forma predeterminada, el Editor Web XML incluye muchas características que ayudan a los autores a crear documentos DITA. Si trabaja en un entorno restrictivo, puede elegir qué características se exponen a los autores. La ficha Configuración del editor XML permite controlar fácilmente las características y también cambiar el aspecto del editor Web. Como administrador, puede personalizar los siguientes componentes del editor web:
+De forma predeterminada, el Editor XML incluye muchas características que ayudan a los autores a crear documentos DITA. Si trabaja en un entorno restrictivo, puede elegir qué características se exponen a los autores. La pestaña Configuración del editor XML permite controlar fácilmente las funciones y también cambiar el aspecto del editor. Como administrador, puede personalizar los siguientes componentes del editor:
 
 **Configuración de la interfaz de usuario del editor XML**
 
-Esta opción controla la barra de herramientas y los demás elementos de interfaz de usuario del Editor Web. Haga clic en el icono Descargar para descargar el archivo ui\_config.json en su sistema local. A continuación, puede realizar cambios en el archivo y cargarlo. Dependiendo de dónde cargue el archivo en el perfil global o de nivel de carpeta, los cambios se aplicarán en consecuencia. Para obtener más información acerca de cómo personalizar el Editor XML mediante el archivo ui\_config.json, consulte [Personalizar barra de herramientas](conf-web-editor-customize-toolbar.md#).
+Esta configuración le permite crear extensiones JSON que reflejen las modificaciones realizadas en el archivo `ui_config.json`. Puede cargar de forma independiente estas extensiones en el nivel de perfil de carpeta, lo que ofrece una mayor flexibilidad y personalización. Por ejemplo, cuando se realizan cambios en la **configuración del editor XML**, como actualizar un botón, el sistema identifica automáticamente las diferencias. Al cargar estos cambios en la **configuración de la interfaz de usuario del editor XML** y convertirlos en extensiones JSON mediante el botón **Convertir configuración de la interfaz de usuario a JSON**, el sistema genera una extensión que incorpora la nueva funcionalidad.
+
+Obtenga más información sobre **personalizar configuraciones de JSON y convertir configuraciones de IU para el nuevo Editor de AEM Guides**.
+
+**Diseño de página del editor XML**
+
+Esta característica le permite cargar archivos CSS para aplicar estilo a las nuevas extensiones cargadas en la **configuración de la interfaz de usuario del editor XML**. El CSS cargado se aplica de forma coherente en todas las aplicaciones relevantes, lo que garantiza un aspecto unificado y pulido para las personalizaciones de la interfaz de usuario.
+
+**Configuración del editor XML**
+
+Esta opción controla la barra de herramientas y los demás elementos de interfaz de usuario del Editor. Seleccione el icono **Descargar** para descargar el archivo `ui\_config.json` en su sistema local. A continuación, puede realizar cambios en el archivo y cargarlo. Dependiendo de dónde cargue el archivo en el perfil global o de nivel de carpeta, los cambios se aplicarán en consecuencia. Para obtener más información acerca de cómo personalizar el Editor XML mediante `ui\_config.json file`, vea [Personalizar barra de herramientas](conf-web-editor-customize-toolbar.md#).
+
+>[!NOTE]
+>
+> Para la versión de AEM Guides 2502 y versiones más recientes, se recomienda utilizar la extensión JSON en lugar de `ui_config.json` para la personalización. Para obtener más información, consulte la sección **Configuración de la interfaz de usuario del editor XML** más arriba.
 
 **Diseño de plantilla CSS**
 

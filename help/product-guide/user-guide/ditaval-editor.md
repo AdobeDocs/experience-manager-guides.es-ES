@@ -1,12 +1,12 @@
 ---
 title: Uso del editor DITAVAL
-description: Obtenga información sobre cómo crear y editar archivos DITAVAL con el Editor DIVATAL en AEM Guides. Descubra cómo el editor DITAVAL admite archivos DITAVAL en las vistas de autor y origen.
+description: Obtenga información sobre cómo crear y editar archivos DITAVAL con el Editor DIVATAL en Adobe Experience Manager Guides. Descubra cómo el editor DITAVAL admite archivos DITAVAL en las vistas de autor y origen.
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -15,75 +15,85 @@ ht-degree: 0%
 
 Los archivos DITAVAL se utilizan para generar una salida condicional. En un solo tema, puede añadir condiciones utilizando atributos de elemento para condicionar el contenido. A continuación, se crea un archivo DITAVAL en el que se especifican las condiciones que deben recopilarse para generar contenido y qué condición debe excluirse de la salida final.
 
-AEM Guides permite crear y editar fácilmente archivos DITAVAL con el editor DITAVAL. El editor DITAVAL recupera los atributos \(o etiquetas\) definidos en su sistema y puede utilizarlos para crear o editar archivos DITAVAL. AEM AEM Para obtener más información acerca de cómo crear y administrar etiquetas en las etiquetas, consulte la sección [Administración de etiquetas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) en la documentación de la.
+Adobe Experience Manager Guides permite crear y editar fácilmente archivos DITAVAL con el editor DITAVAL. El editor DITAVAL recupera los atributos \(o etiquetas\) definidos en su sistema y puede utilizarlos para crear o editar archivos DITAVAL. Para obtener más información sobre cómo crear y administrar etiquetas en Adobe Experience Manager, consulte la sección [Administración de etiquetas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) en la documentación de Adobe Experience Manager.
+
+Las secciones siguientes describen las opciones disponibles para un archivo DITAVAL en Experience Manager Guides.
+
+- [Crear archivo DITAVAL](#create-ditaval-file)
+- [Editar archivo DITAVAL](#edit-ditaval-file)
+- [Vistas del editor de archivos DITAVAl](#ditaval-editor-views)
+- [Trabajar con el archivo DITAVAL en la interfaz de usuario de Assets](#working-with-ditaval-files-in-the-assets-ui)
 
 ## Crear archivo DITAVAL
 
 Siga estos pasos para crear un archivo DITAVAL:
 
-1. En la interfaz de usuario de Assets, vaya a la ubicación en la que desea crear el archivo DITAVAL.
+1. En el panel Repositorio, seleccione el icono **Nuevo archivo** y, a continuación, seleccione **Tema** en el menú desplegable.
 
-1. Haga clic en **Crear** \> **Tema DITA**.
+   ![](images/new-file-option.png){width="800" align="left"}
 
-1. En la página Modelo, seleccione Plantilla de archivo DITAVAL y haga clic en **Siguiente**.
+   También puede acceder a esta opción desde la [página principal de Experience Manager Guides](./intro-home-page.md) y desde el menú de opciones de una carpeta en la vista Repositorio.
 
-1. En la página Propiedades, especifique **Title** y **Name** para el archivo DITAVAL.
+2. Se muestra el cuadro de diálogo **Nuevo tema**.
 
-   >[!NOTE]
-   >
-   > El nombre se sugiere automáticamente en función del Título del archivo. Si desea especificar manualmente el nombre del archivo, asegúrese de que el nombre no contenga espacios, apóstrofos ni llaves, y termine con .ditaval.
+3. En el cuadro de diálogo **Nuevo tema**, proporcione los siguientes detalles:
+   - Título del tema.
+   - \(Opcional\)* El nombre de archivo del tema. El nombre del archivo se sugiere automáticamente en función del tema Título. Si el administrador ha habilitado nombres de archivo automáticos basados en la configuración de UUID, no verá el campo Nombre.
+   - Una plantilla en la que se basará el tema. Para un archivo DITAVAL, selecciona **Ditaval** en la lista desplegable.
+   - Ruta de acceso donde desea guardar el archivo de tema. De forma predeterminada, la ruta de la carpeta seleccionada actualmente en el repositorio se muestra en el campo Ruta.
 
-1. Haga clic en **Crear**. Aparecerá el mensaje Tema creado.
+   ![](images/new-topic-dialog-ditaval.png){width="300" align="left"}
 
-   AEM Puede elegir abrir el archivo DITAVAL para editarlo en el editor DITAVAL o guardar el archivo del tema en el repositorio de la.
 
+4. Seleccione **Crear**.
+
+El tema se crea en la ruta de acceso especificada. Además, el tema se abre en el Editor para editarlo.
+
+![](images/ditaval-file-editor.png){width="800" align="left"}
 
 ## Editar archivo DITAVAL
 
-Siga estos pasos para editar un archivo DITAVAL:
+Cuando crea un tema DITAVAL, se abre en el Editor para editarlo. Para editar un tema DITAVAL existente, navegue hasta la carpeta o asignación donde se encuentra el tema DITAVAL y, a continuación, seleccione **Editar** del menú **Opciones**.
 
-1. En la interfaz de usuario de Assets, vaya al archivo DITAVAL que desee editar.
+El editor DITAVAL permite realizar las siguientes tareas:
 
-1. Para obtener un bloqueo exclusivo del archivo, selecciónelo y haga clic en **Desproteger**.
+- Alternar panel izquierdo
 
-1. Seleccione el archivo y haga clic en **Editar** para abrirlo en el editor DITAVAL de AEM Guides.
+  Cambie a la vista del panel izquierdo. Si ha abierto el fichero DITAVAL a través de un mapa DITA, el mapa y el repositorio se mostrarán en este panel. Para obtener más información acerca de cómo abrir un archivo mediante el mapa DITA, vea [Editar temas mediante el mapa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
-   El editor DITAVAL permite realizar las siguientes tareas:
+- Guardar
 
-   A: Alternar panel izquierdo
-Cambie a la vista del panel izquierdo. Si ha abierto el fichero DITAVAL a través de un mapa DITA, el mapa y el repositorio se mostrarán en este panel. Para obtener más información acerca de cómo abrir un archivo mediante DITA map, vea [Editar temas mediante DITA map](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+  Guarda los cambios realizados en el archivo. Todos los cambios se guardan en la versión actual del archivo.
 
-   B: Guardar
-Guarda los cambios realizados en el archivo. Todos los cambios se guardan en la versión actual del archivo.
+- Agregar prop
 
-   C: Agregar propiedad
-Añada una sola propiedad al archivo DITAVAL.
+  Añada una sola propiedad al archivo DITAVAL.
 
-   ![](images/ditaval-editor-props.png)
+  ![](images/ditaval-editor-props-new.png)
 
-   En la primera lista desplegable se enumeran los atributos DITA permitidos que se pueden utilizar en el fichero DITAVAL. Se admiten cinco atributos: `audience`, `platform`, `product`, `props` y `otherprops`.
+  En la primera lista desplegable se enumeran los atributos DITA permitidos que se pueden utilizar en el fichero DITAVAL. Se admiten cinco atributos: `audience`, `platform`, `product`, `props` y `otherprops`.
 
-   La segunda lista desplegable muestra los valores configurados para el atributo seleccionado. A continuación, la siguiente lista desplegable muestra las acciones que se pueden configurar en el atributo seleccionado. Los valores permitidos en la lista desplegable de acciones son: `include`, `exclude`, `passthrough` y `flag`. Para obtener más información sobre estos valores, consulte la definición del elemento [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) en la documentación DITA de OASIS
+  La segunda lista desplegable muestra los valores configurados para el atributo seleccionado. A continuación, la siguiente lista desplegable muestra las acciones que se pueden configurar en el atributo seleccionado. Los valores permitidos en la lista desplegable de acciones son: `include`, `exclude`, `passthrough` y `flag`. Para obtener más información sobre estos valores, vea la definición del elemento [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) en la documentación DITA de OASIS
 
-   D: Agregar todas las propiedades
-Si desea añadir todas las propiedades o atributos condicionales definidos en el sistema con un solo clic, utilice la función Añadir todas las propiedades.
+- Añadir todas las propiedades
 
-   >[!NOTE]
-   >
-   > Si ya existen todas las propiedades condicionales definidas en el fichero DITAVAL, no se pueden añadir más propiedades. Aparece un mensaje de error en este escenario.
+  Si desea añadir todas las propiedades o atributos condicionales definidos en el sistema con un solo clic, utilice la función Añadir todas las propiedades.
 
-   ![](images/ditaval-all-props.png)
+  >[!NOTE]
+  >
+  > Si ya existen todas las propiedades condicionales definidas en el fichero DITAVAL, no se pueden añadir más propiedades. Aparece un mensaje de error en este escenario.
 
-1. Cuando haya terminado de editar su archivo DITAVAL, haga clic en **Guardar**.
+  ![](images/ditaval-all-props-new.png)
 
-   >[!NOTE]
-   >
-   > Si cierra el archivo sin guardarlo, se perderán los cambios. AEM Si no desea confirmar los cambios en el repositorio de, haga clic en **Cerrar** y, a continuación, haga clic en **Cerrar sin guardar** en el cuadro de diálogo **Cambios no guardados**.
+Cuando haya terminado de editar su archivo DITAVAL, seleccione **Guardar**.
 
+>[!NOTE]
+>
+> Si cierra el archivo sin guardarlo, se perderán los cambios. Si no desea confirmar los cambios en el repositorio de Adobe Experience Manager, seleccione **Cerrar** y, a continuación, seleccione **Cerrar sin guardar** en el cuadro de diálogo **Cambios no guardados**.
 
 ## Vistas del editor DITAVAL
 
-El editor DITAVAL de AEM Guides admite la visualización de archivos DITAVAL en dos modos o vistas diferentes:
+El editor DITAVAL de Adobe Experience Manager Guides admite la visualización de archivos DITAVAL en dos modos o vistas diferentes:
 
 **Autor**:   Esto es una vista típica de Lo que se ve es lo que se obtiene \(WYSISYG\) del editor DITAVAL. Puede agregar o quitar propiedades mediante la interfaz de usuario simple, que presenta las propiedades, sus valores y las acciones en la lista desplegable. En la vista Autor, tiene las opciones para insertar una propiedad individual e insertar todas las propiedades con un solo clic.
 
@@ -93,4 +103,38 @@ También puede encontrar la versión del archivo DITAVAL en la que está trabaja
 
 Para invocar el catálogo inteligente, coloque el cursor al final de cualquier definición de propiedad y escriba &quot;&lt;&quot;. El editor mostrará una lista de todos los elementos XML válidos que puede insertar en esa ubicación.
 
-![](images/ditaval-source-view.png)
+![](images/ditaval-source-view-new.png)
+
+
+## Uso de archivos DITAVAL en la interfaz de usuario de Assets
+
+También puede crear un archivo DITAVAL desde la interfaz de usuario de Assets. Los pasos para crear un nuevo tema de DITAVAL son los siguientes:
+
+1. En la interfaz de usuario de Assets, vaya a la ubicación en la que desea crear el archivo DITAVAL.
+
+1. Seleccione **Crear** \> **Tema DITA**.
+
+1. En la página Modelo, seleccione Plantilla de archivo DITAVAL y seleccione **Siguiente**.
+
+1. En la página Propiedades, especifique **Title** y **Name** para el archivo DITAVAL.
+
+   >[!NOTE]
+   >
+   > El nombre se sugiere automáticamente en función del Título del archivo. Si desea especificar manualmente el nombre del archivo, asegúrese de que el nombre no contenga espacios, apóstrofos ni llaves, y termine con .ditaval.
+
+1. Seleccione **Crear**.
+
+   Aparecerá el mensaje Tema creado.
+
+Puede elegir abrir el archivo DITAVAL para editarlo en el editor DITAVAL o guardar el archivo del tema en el repositorio de Adobe Experience Manager.
+
+Siga estos pasos para editar un archivo DITAVAL existente:
+
+1. En la interfaz de usuario de Assets, vaya al archivo DITAVAL que desee editar.
+
+1. Para obtener un bloqueo exclusivo del archivo, selecciónelo y seleccione **Desproteger**.
+
+1. Seleccione el archivo y seleccione **Editar** para abrir el archivo en el editor DITAVAL de Adobe Experience Manager Guides.
+
+
+

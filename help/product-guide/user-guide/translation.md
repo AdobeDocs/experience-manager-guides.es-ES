@@ -1,23 +1,23 @@
 ---
-title: Aprenda a traducir contenido
+title: Resumen de traducción de contenido
 description: Traduzca el contenido a varios idiomas en AEM Guides. Obtenga información acerca de los flujos de trabajo de traducción humana y automática.
 exl-id: 88df750c-fb26-47f1-a884-b9e2f96b96ea
 feature: Translation
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 38ea2eb35ebd75c1202c86d598ad953db3894d40
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 1%
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
 
-# Traducir contenido {#id1645H700L67}
+# Resumen de traducción de contenido {#id1645H700L67}
 
-AEM Guides incluye potentes funcionalidades que le permiten traducir el contenido a varios idiomas. AEM Guides admite los flujos de trabajo de traducción automática y humana.
+Adobe Experience Manager Guides incluye potentes funcionalidades que le permiten traducir el contenido a varios idiomas. Experience Manager Guides admite los flujos de trabajo de traducción automática y humana.
 
-- **Traducción humana**: Assets se envía a su proveedor de traducción y lo traducen traductores profesionales. AEM Cuando se completan, se devuelven los recursos traducidos y, a continuación, se importan de nuevo en el archivo de recursos de la página de la aplicación de la nueva versión de.
+- **Traducción humana**: Assets se envía a su proveedor de traducción y lo traducen traductores profesionales. Cuando se completa, se devuelven los recursos traducidos y, a continuación, se importan de nuevo en Adobe Experience Manager.
 
-- AEM **Traducción automática**: este es el servicio predeterminado en el que el contenido se traduce inmediatamente usando la traducción automática en tiempo real. AEM La interfaz predeterminada de usuario proporciona la capacidad de conectarse a Microsoft Translator
+- **Traducción automática**: este es el servicio predeterminado en Adobe Experience Manager donde el contenido se traduce inmediatamente mediante traducción automática en tiempo real. Adobe Experience Manager proporciona la capacidad predeterminada para conectarse con Microsoft Translator.
 
   >[!NOTE]
   >
@@ -25,6 +25,8 @@ AEM Guides incluye potentes funcionalidades que le permiten traducir el contenid
 
 
 - **[Prácticas recomendadas para la traducción de contenido](translation-first-time.md)**
+
+- **[Traducir documentos desde la consola de mapas](translate-documents-web-editor.md)**
 
 - **[Ver estado de la traducción](translation-view-trans-state-6234.md)**
 

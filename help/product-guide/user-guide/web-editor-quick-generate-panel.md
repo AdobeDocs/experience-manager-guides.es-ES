@@ -4,14 +4,19 @@ description: Utilice el panel de generación rápida en AEM Guides. Obtenga info
 exl-id: 5de04980-91d7-4bbc-a4b7-9bfd60ccf3c7
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
 
 # Utilice el panel Generación rápida para generar y ver resultados {#id22AKE050F5L}
+
+>[!NOTE]
+>
+> El panel Generación rápida, disponible anteriormente en Adobe Experience Manager Guides, ha quedado obsoleto a partir de la versión 4.0 y 2502. No puede acceder al panel Generación rápida para generar y ver los resultados
+
 
 AEM Guides proporciona un panel **Generación rápida** integrado dentro del Editor web. Este panel permite generar simultáneamente la salida para los ajustes preestablecidos de salida creados para un mapa DITA. Se puede generar la salida para uno o varios ajustes preestablecidos o todos los ajustes preestablecidos creados para un mapa DITA. También puede usar el panel **Generación rápida** para ver más adelante el resultado generado para los ajustes preestablecidos.
 

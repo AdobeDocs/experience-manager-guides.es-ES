@@ -4,62 +4,63 @@ description: Obtenga información sobre cómo importar y validar un tema DITA, u
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: ee784edcbaef0641784cd1eb18748fc12a4f90bb
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
 
 # Compatibilidad con archivos de Schematron
 
-&quot;Schematron&quot; hace referencia a un lenguaje de validación basado en reglas que se utiliza para definir pruebas para un archivo XML. El editor web admite archivos Schematron. Puede importar los archivos de Schematron y también editarlos en el Editor Web. Con un fichero de Schematron se pueden definir determinadas reglas y, a continuación, validarlas para un tema DITA o un mapa.
+&quot;Schematron&quot; hace referencia a un lenguaje de validación basado en reglas que se utiliza para definir pruebas para un archivo XML. El editor admite archivos de Schematron. Puede importar los archivos de Schematron y también editarlos en el Editor. Con un fichero de Schematron se pueden definir determinadas reglas y, a continuación, validarlas para un tema DITA o un mapa.
 
 >[!NOTE]
 >
-> El editor web admite ISO Schematron.
+> Editor es compatible con ISO Schematron.
 
 
 ## Importación de archivos de Schematron
 
 Siga estos pasos para importar los archivos de Schematron:
 
-![](images/scematron-panel-add.png){width="300" align="left"}
+![](images/schematron-panel.png){width="300" align="left"}
 
-1. Vaya a la carpeta requerida (donde desea cargar los archivos) en *Vista de repositorio*.
-1. Haz clic en el icono **Opciones** para abrir el menú contextual y elige **Cargar Assets**.
-1. En el diálogo **Cargar Assets**, puede cambiar la carpeta de destino en el campo **Seleccionar carpeta de recursos**.
-1. Haga clic en **Elegir archivos** y busque los archivos de Schematron. Puede seleccionar uno o más archivos de Schematron y luego hacer clic en **Cargar**.
+1. Vaya a la carpeta requerida (donde desea cargar los archivos) en *Repositorio*.
+1. Seleccione el icono **Opciones** para abrir el menú contextual y elija **Cargar recursos**.
+1. En el diálogo **Cargar recursos**, puede cambiar la carpeta de destino en el campo **Seleccionar carpeta de recursos**.
+1. Seleccione **Elegir archivos** y busque los archivos de Schematron. Puede seleccionar uno o varios archivos de Schematron y, a continuación, seleccionar **Cargar**.
 
 ## Validación de un tema o asignación DITA con Schematron
 
-Después de importar los archivos de Schematron, puede editarlos en el Editor Web. Puede utilizar los ficheros de Schematron para validar los temas o un mapa DITA. Por ejemplo, se pueden crear las reglas siguientes para un tema o mapa DITA:
+Después de importar los archivos de Schematron, puede editarlos en el Editor. Puede utilizar los ficheros de Schematron para validar los temas o un mapa DITA. Por ejemplo, se pueden crear las reglas siguientes para un tema o mapa DITA:
 
 * Se define un título para un mapa DITA.
 * Se ha añadido una breve descripción de una longitud determinada.
 * Debe haber al menos una referencia de tema en el mapa.
 
-Cuando se abre un tema en el Editor Web, aparece un panel Validación de Schematron a la derecha. Realice los siguientes pasos para agregar y validar un tema o asignación con un archivo de Schematron:
-![](images/schematron-validate.png){width="300" align="left"}
+Cuando se abre un tema en el Editor, aparece un panel de validación de Schematron a la derecha. Realice los siguientes pasos para agregar y validar un tema o asignación con un archivo de Schematron:
 
-1. Haga clic en el icono de Schematron () para abrir el panel de Schematron.
-1. Utilice Agregar archivo de Schematron para agregar archivos de Schematron.
+![](images/schematron-panel-file-validated.png){width="500" align="left"}
+
+1. Seleccione el icono de Schematron () para abrir el panel de Schematron.
+1. Use **Agregar archivo de Schematron** para agregar archivos de Schematron.
 1. Si el archivo Schematron no tiene errores, se añade y se enumera en el panel Validación. Se muestra un mensaje de error para el archivo Schematron que contiene errores.
    >[!NOTE]
    >
    >Puede utilizar el icono cruzado cerca del nombre del archivo de Schematron para eliminarlo.
-1. Haga clic en Validar con Schematron para validar el tema.
+1. Seleccione **Validar con Schematron** para validar el tema.
 
    * Si el tema no infringe ninguna regla, se muestra el mensaje de validación correcta para el archivo.
    * Si el tema rompe una regla, por ejemplo, si no contiene un título y se valida para el Schematron anterior, muestra un error de validación.
 
-1. Haga clic en el mensaje de error para resaltar el elemento que contiene el error en el tema o mapa abierto.
+1. Seleccione el mensaje de error para resaltar el elemento que contiene el error en el tema o mapa abierto.
 
-La compatibilidad con Schematron en el Editor Web le ayuda a validar los archivos con un conjunto de reglas y a mantener la coherencia y corrección en todos los temas.
+La compatibilidad con Schematron en el Editor le ayuda a validar los archivos con un conjunto de reglas y a mantener la coherencia y la corrección en todos los temas.
 
 ## Usar instrucciones de aserción e informe para comprobar las reglas{#schematron-assert-report}
 
-AEM Guides también admite las instrucciones de aserción e informe de Schematron. Estas instrucciones le ayudan a validar los temas DITA.
+Experience Manager Guides también admite las instrucciones de aserción e informe de Schematron. Estas instrucciones le ayudan a validar los temas DITA.
 
 ### Instrucción Assert
 
@@ -107,7 +108,7 @@ No one word titles.
 
 ## Definir patrones abstractos{#schematron-abstract-patterns}
 
-AEM Guides también admite patrones abstractos en Schematron. Puede definir patrones abstractos genéricos y reutilizarlos.  Puede crear parámetros de marcador de posición que especifiquen el patrón real.
+Experience Manager Guides también admite patrones abstractos en Schematron. Puede definir patrones abstractos genéricos y reutilizarlos.  Puede crear parámetros de marcador de posición que especifiquen el patrón real.
 
 
 El uso de patrones abstractos puede simplificar el esquema de Schematron al reducir la duplicación de reglas y facilitar la administración y actualización de la lógica de validación. También puede facilitar la comprensión del esquema, ya que puede definir una lógica de validación compleja en un único patrón abstracto que se puede reutilizar en todo el esquema.

@@ -1,23 +1,27 @@
 ---
-title: Vistas del Editor web
-description: Ver documentos en los modos de autor, origen y vista previa. Obtenga información sobre cómo ver contenido basado en filtros condicionales, ver las marcas de seguimiento de cambios y exportar un tema como PDF en AEM Guides.
+title: Vistas del editor de temas
+description: Ver temas en los modos de autor, origen y vista previa. Obtenga información sobre cómo ver contenido basado en filtros condicionales, ver las marcas de seguimiento de cambios y exportar un tema como PDF en AEM Guides.
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
 
-# Vistas del Editor web {#id204GK0D0V5Z}
+# Vistas del editor de temas {#id204GK0D0V5Z}
 
-El editor web de AEM Guides admite la visualización de documentos en tres modos o vistas diferentes:
+La interfaz del editor de Adobe Experience Manager admite la visualización de temas en tres modos o vistas diferentes:
+
+* [Autor](#author)
+* [Origen](#source)
+* [Vista previa](#preview)
 
 ## Autor
 
-Esto es una vista típica de Lo que se ve es Lo que se obtiene \(WYSISYG\) del Editor Web. Puede editar temas como lo haría en cualquier editor de texto enriquecido normal. En la vista Autor, tiene las opciones para guardar una revisión del documento, buscar y reemplazar contenido, insertar elementos, insertar hipervínculos, insertar referencias de contenido, etc.
+Esta es una vista típica de **Lo que se ve es lo que se obtiene** \(WYSISYG\) del Editor. Puede editar temas como lo haría en cualquier editor de texto enriquecido normal. En la vista Autor, tiene las opciones para guardar una revisión del documento, buscar y reemplazar contenido, insertar elementos, insertar hipervínculos, insertar referencias de contenido, etc.
 
 >[!NOTE]
 >
@@ -27,27 +31,27 @@ Esto es una vista típica de Lo que se ve es Lo que se obtiene \(WYSISYG\) del E
 
 La vista Source muestra el XML subyacente que compone el tema. Si se siente cómodo trabajando directamente con XML, debería utilizar la vista de Source. Además de realizar ediciones de texto normales en esta vista, también puede agregar elementos y atributos mediante el Catálogo inteligente, o buscar y reemplazar texto, elementos o atributos.
 
-- Para invocar el catálogo inteligente, coloque el cursor al final de cualquier etiqueta de elemento donde desee insertar el nuevo elemento y escriba &quot;&lt;&quot;. El editor muestra una lista de todos los elementos XML válidos que puede insertar en esa ubicación. Utilice las teclas de flecha para seleccionar el elemento que desea insertar y pulse Intro. Cuando se introduce el corchete de cierre &quot;\>, la etiqueta de cierre del elemento se añade automáticamente.
+* Para invocar el catálogo inteligente, coloque el cursor al final de cualquier etiqueta de elemento donde desee insertar el nuevo elemento y escriba &quot;&lt;&quot;. El editor muestra una lista de todos los elementos XML válidos que puede insertar en esa ubicación. Utilice las teclas de flecha para seleccionar el elemento que desea insertar y pulse Intro. Cuando se introduce el corchete de cierre &quot;\>, la etiqueta de cierre del elemento se añade automáticamente.
 
   ![](images/smart-catalog-elements.png){width="400" align="left"}
 
-- También puede cambiar un elemento fácilmente desde la vista de Source. Por ejemplo, si cambia la etiqueta de apertura de un elemento `p` a `note`, la etiqueta de cierre `p` se cambiará automáticamente a `/note`. Si reemplaza un elemento por un elemento incorrecto, se le mostrará inmediatamente el error de validación.
+* También puede cambiar un elemento fácilmente desde la vista de Source. Por ejemplo, si cambia la etiqueta de apertura de un elemento `p` a `note`, la etiqueta de cierre `p` se cambiará automáticamente a `/note`. Si reemplaza un elemento por un elemento incorrecto, se le mostrará inmediatamente el error de validación.
 
-- Si desea agregar un atributo a un elemento, coloque el cursor dentro de la etiqueta del elemento y pulse la barra espaciadora. En el catálogo inteligente se muestra una lista de atributos válidos para ese elemento. Utilice las teclas de flecha para seleccionar el elemento deseado y pulse Intro para insertar el elemento. Para especificar un valor para el atributo, introduzca el signo igual \(=\) y el editor introducirá automáticamente las comillas de apertura y cierre &quot;&quot;, donde puede especificar el valor del atributo.
+* Si desea agregar un atributo a un elemento, coloque el cursor dentro de la etiqueta del elemento y pulse la barra espaciadora. En el catálogo inteligente se muestra una lista de atributos válidos para ese elemento. Utilice las teclas de flecha para seleccionar el elemento deseado y pulse Intro para insertar el elemento. Para especificar un valor para el atributo, introduzca el signo igual \(=\) y el editor introducirá automáticamente las comillas de apertura y cierre &quot;&quot;, donde puede especificar el valor del atributo.
 
   ![](images/smart-catalog-attribute.png){width="350" align="left"}
 
-- En la vista de Source, hay una opción de sangría automática que reorganiza el código XML en un formato presentable y fácilmente legible. Además, si selecciona cualquier texto y cambia de Autor a Source o de Source a la vista Autor, el texto seleccionado también se resalta en la otra vista.
-- Otra característica potente de la vista de Source es la validación XML del documento. Si abre un documento que contiene XML no válido, se abrirá en la vista de Source con la información sobre XML no válido. Por ejemplo, en la siguiente captura de pantalla se proporciona información exacta sobre el XML erróneo en la ventana emergente de error de análisis.
+* En la vista de Source, hay una opción de sangría automática que reorganiza el código XML en un formato presentable y fácilmente legible. Además, si selecciona cualquier texto y cambia de Autor a Source o de Source a la vista Autor, el texto seleccionado también se resalta en la otra vista.
+* Otra característica potente de la vista de Source es la validación XML del documento. Si abre un documento que contiene XML no válido, se abrirá en la vista de Source con la información sobre XML no válido. Por ejemplo, en la siguiente captura de pantalla se proporciona información exacta sobre el XML erróneo en la ventana emergente de error de análisis.
 
   ![](images/invalid-topic-xml.png){width="650" align="left"}
 
   En la captura de pantalla anterior, se utiliza un resaltado cruzado para señalar la línea que contiene el XML erróneo.
 
-- La función Buscar y reemplazar permite buscar texto, elementos o atributos en la vista de Source.
-Para obtener más información, consulte la descripción de la característica **Buscar y reemplazar** en la sección [Barra de herramientas principal](web-editor-features.md#id#id2051EA0G05Z).
+* La función Buscar y reemplazar permite buscar texto, elementos o atributos en la vista de Source.
+Para obtener más información, vea la descripción de la característica **Buscar y reemplazar** en la sección [Barra de fichas](web-editor-features.md#tab-bar).
 
-- La vista de Source proporciona muchos métodos abreviados para ayudarle a desplazarse por un documento y trabajar con él rápidamente. En la tabla siguiente se enumeran las acciones admitidas y sus teclas de método abreviado:
+* La vista de Source proporciona muchos métodos abreviados para ayudarle a desplazarse por un documento y trabajar con él rápidamente. En la tabla siguiente se enumeran las acciones admitidas y sus teclas de método abreviado:
 
   | Para ello | Utilizar este acceso directo |
   |----------|-----------------|
@@ -90,9 +94,9 @@ Al abrir un tema en el modo de vista previa, se muestra cómo se mostrará cuand
 
 El modo de previsualización le ofrece las siguientes funcionalidades:
 
-- [Visualización de contenido en función de filtros condicionales](#id2114BI00VXA)
-- [Ver las marcas de seguimiento de cambios](#id2114BJ00CE8)
-- [Exportación de un tema como PDF](#id2114BL00B5U)
+* [Visualización de contenido en función de filtros condicionales](#id2114BI00VXA)
+* [Ver las marcas de seguimiento de cambios](#id2114BJ00CE8)
+* [Exportación de un tema como PDF](#id2114BL00B5U)
 
 ### Visualización de contenido en función de filtros condicionales {#id2114BI00VXA}
 
@@ -110,45 +114,39 @@ Si un documento contiene marcas de seguimiento de cambios \(o indicaciones visua
 
 Hay tres opciones de **Tracking** entre las que puedes elegir:
 
-- **Sin marcas**: en esta vista, se aceptan todas las inserciones y eliminaciones, y se presenta una vista simple del documento. En esta vista, no ve marcas de seguimiento de cambios.
-- **Original**: en esta vista, todas las inserciones se rechazan, todas las eliminaciones se restauran y se muestra una vista previa. Simplemente, se obtiene la forma original del documento antes de habilitar el modo de seguimiento de cambios.
-- **Mostrar marcas**: en esta vista, se obtienen todas las marcas para el contenido insertado y eliminado.
+* **Sin marcas**: en esta vista, se aceptan todas las inserciones y eliminaciones, y se presenta una vista simple del documento. En esta vista no se ven marcas de seguimiento de cambios.
+* **Original**: en esta vista, todas las inserciones se rechazan, todas las eliminaciones se restauran y se muestra una vista previa. Simplemente, se obtiene la forma original del documento antes de habilitar el modo de seguimiento de cambios.
+* **Mostrar marcas**: en esta vista, se obtienen todas las marcas para el contenido insertado y eliminado.
 
   La siguiente imagen muestra la previsualización de un archivo de mapa con marcas:
 
-  ![](images/preview-map-with-track-changes.PNG){width="800" align="left"}
+  ![](images/preview-map-with-track-changes.png){width="300" align="left"}
 
 
 ### Exportación de un tema como PDF {#id2114BL00B5U}
 
-PDF es uno de los formatos de salida más comunes que se utiliza en todas las etapas posibles del ciclo de desarrollo de documentos. AEM Guides proporciona la flexibilidad para generar el PDF de un tema individual o de un archivo de mapa completo. La función Exportar como PDF permite al autor, al editor o al administrador generar fácilmente la salida del PDF para un tema individual. Utiliza las configuraciones DITA-OT guardadas en el perfil de nivel de carpeta para generar el PDF.
+PDF es uno de los formatos de salida más comunes que se utiliza en todas las etapas posibles del ciclo de desarrollo de documentos. Experience Manager Guides proporciona la flexibilidad para generar la PDF de un tema individual o de un archivo de mapa completo. La función Exportar como PDF permite al autor, editor o administrador generar fácilmente la salida de PDF para un tema individual. Utiliza las configuraciones DITA-OT guardadas en el perfil de nivel de carpeta para generar PDF.
 
 Esta función admite las siguientes funcionalidades:
 
-- Generar el PDF de la copia de trabajo activa de un tema.
-- Acepte el nombre de transformación DITA-OT y los argumentos de la línea de comandos para generar el PDF.
-- Guarde la salida generada en el sistema local.
-- Resuelva las referencias de clave y contenido utilizadas en el tema antes de generar el resultado.
+* Generar el PDF de la copia de trabajo activa de un tema.
+* Acepte el nombre de transformación DITA-OT y los argumentos de la línea de comandos para generar PDF.
+* Guarde la salida generada en el sistema local.
+* Resuelva las referencias de clave y contenido utilizadas en el tema antes de generar el resultado.
 
 Para exportar un tema como PDF, siga estos pasos:
 
-1. Abra el tema en el modo de vista previa.
+1. Abra el tema en el modo de vista previa. Asegúrese de que el tema forme parte de un archivo de asignación.
 
-1. Haga clic en el icono **Exportar como PDF** \(![](images/export-as-pdf-icon.svg)\).
+1. Seleccione la opción **Descargar como PDF** en la parte superior.
 
-   Se muestra el cuadro de diálogo Exportar como PDF.
-
-   ![](images/export-as-pdf-dialog.png){width="350" align="left"}
-
-1. *\(Opcional\)* Especifique el nombre de transformación DITA-OT y los argumentos de línea de comandos que desee utilizar.
-
-1. Haga clic en **Descargar**.
+   Icono ![](images/download-as-pdf-preview.png).
 
    >[!NOTE]
    >
-   > Asegúrese de haber habilitado la ventana emergente en la configuración del explorador; de lo contrario, el PDF no se descargará.
+   > Asegúrese de haber habilitado la ventana emergente en la configuración del explorador; de lo contrario, PDF no se descargará.
 
-   El PDF se genera y abre en una nueva pestaña o se muestra un cuadro de diálogo para guardar el PDF en el sistema local.
+   El PDF se genera y abre en una nueva pestaña o se le muestra un cuadro de diálogo para guardar el PDF en el sistema local.
 
 
-**Tema principal:**[ Trabajar con el editor web](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

@@ -4,9 +4,9 @@ description: Añada y administre citas en AEM Guides. Aprenda a aplicar, importa
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
 workflow-type: tm+mt
-source-wordcount: '1887'
+source-wordcount: '1890'
 ht-degree: 0%
 
 ---
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 Las citas son referencias a la fuente de información agregada al contenido. Mediante citas, puede dar crédito a los autores de la información de origen y ayudar a los lectores a realizar un seguimiento de la información de origen. Añadir citas hace que su contenido sea más confiable y evita el plagio. También le permiten mostrar contenido bien investigado.
 
-En AEM Guides, puede añadir e importar citas y aplicarlas al contenido. Puede añadir estas citas desde cualquier fuente de libros, sitios web y diarios.
+En Adobe Experience Manager Guides, puede añadir e importar citas y aplicarlas al contenido. Puede añadir estas citas desde cualquier fuente de libros, sitios web y diarios.
 
 
-AEM Guides le ayuda a editar, previsualizar y ordenar sus citas. Después de añadir las citas al contenido, puede generar el resultado con el PDF nativo. También puede añadir la página de bibliografía o referencias en la salida del PDF nativo.
+Experience Manager Guides le ayuda a editar, previsualizar y ordenar sus citas. Después de añadir las citas al contenido, puede generar la salida con Native PDF. También puede añadir la página de bibliografía o referencias en la salida nativa de PDF.
 
-AEM Guides admite varios estilos de citas, como Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE) y American Heart Association (AHA). La recomendación es utilizarlas de forma clara y coherente.
+Experience Manager Guides admite varios estilos de citas, como Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE) y American Heart Association (AHA). La recomendación es utilizarlas de forma clara y coherente.
 
 
 >[!NOTE]
 >
->Actualmente, AEM Guides solo admite PDF nativos para citas.
+>Actualmente, Experience Manager Guides solo admite PDF nativo para las citas.
 
 
 ## Añadir citas
@@ -33,14 +33,16 @@ AEM Guides admite varios estilos de citas, como Modern Language Association (MLA
 Para añadir citas, siga estos pasos:
 
 1. Seleccione el icono **Citas** ![icono de citas](images/citations-icon.svg) en el panel izquierdo.
-Se abre el panel **Citas**.
 
-   ![](images/citation-panel.png){width="300" align="left"}
+   Se abre el panel **Citas**.
+
+   ![](images/citation-panel.png){width="350" align="left"}
 
 1. En el panel **Citas**, seleccione ![Agregar icono](images/Add_icon.svg). Desde el menú desplegable puede elegir añadir una nueva cita o importar una cita.
 
 1. Seleccione **Nueva cita** para agregar una nueva cita.
-Se abre el cuadro de diálogo **Agregar cita**.
+
+   Se abre el cuadro de diálogo **Agregar cita**.
 
    ![panel de citas en el editor web](images/citation-add.png) {width="300" align="left"}
 
@@ -49,7 +51,7 @@ Se abre el cuadro de diálogo **Agregar cita**.
 
    >[!NOTE]
    >
-   >También puede añadir el ISBN, el DOI o el ID de PubMed. AEM Guides rellena los demás campos automáticamente.
+   >También puede añadir el ISBN o DOI o PubMed ID. AEM Guides rellena los demás campos automáticamente.
 
    | Libro | Sitio web | Diario |
    | --- | ---|---|
@@ -66,10 +68,6 @@ Se abre el cuadro de diálogo **Agregar cita**.
    | **Serie** <br>Agrega la serie del libro. |  | **ID único** <br> Agrega un ID único para la cita. Un ID único es un identificador único para esa cita. |
    | **URL** <br> Agregue el vínculo web al libro. |
    | **ID único** <br> Agregue un ID único para la cita. Un ID único es un identificador único para esa cita. |
-
-
-
-
 
 1. Seleccione **Listo**.
 
@@ -97,8 +95,8 @@ Para importar citas, siga estos pasos:
    Una vez que el archivo se haya importado correctamente, puede ver las referencias en el panel de citas.
 
    >[!NOTE]
-   > <ol><li> AEM Guides importa solo las citas que son únicas y no están presentes.
-    &gt; <li> AEM Guides puede importar citas de un libro, una revista o un sitio web. Actualmente no admite citas de otras fuentes.
+   > <ol><li> Experience Manager Guides importa solo las citas que son únicas y no están presentes.
+    &gt; <li> Experience Manager Guides puede importar citas de un libro, una revista o un sitio web. Actualmente no admite citas de otras fuentes.
 
 ## Administrar citas
 
@@ -127,8 +125,8 @@ Se abre el panel **Citas**.
 
 ### Cambiar estilo de cita {#change-citation-style}
 
-El administrador del sistema puede cambiar el estilo de las citas en el menú desplegable **Citas** de la pestaña **Configuración general** en **Configuración del editor**.
-Estos estilos determinan la forma en que aparecen las citas en el panel de vista previa o en la salida del PDF nativo.
+El administrador del sistema puede cambiar el estilo de las citas en el menú desplegable **Citas** de la ficha **General** en **Configuración**.
+Estos estilos determinan la forma en que aparecen las citas en el panel de vista previa o en la salida nativa de PDF.
 
 Las siguientes opciones están disponibles en la lista desplegable:
 
@@ -166,15 +164,15 @@ Puede obtener una vista previa del contenido y el formato de la cita en el panel
 
    >[!NOTE]
    >
-   >La vista previa se basa en el estilo de cita que el administrador haya seleccionado en **Configuración del editor**.
+   >La vista previa se basa en el estilo de cita que el administrador haya seleccionado en **Configuración**.
 
-1. Haga clic en cualquier lugar de la pantalla para cerrar el cuadro de vista previa.
+1. Seleccione cualquier lugar de la pantalla para cerrar el cuadro de vista previa.
 
    ![](images/citation-preview.png){width="550" align="left"}
 
 >[!NOTE]
 >
-> También puede obtener una vista previa de una cita insertada en un tema desde la interfaz de usuario de Assets o la pestaña Vista previa del editor web.
+> También puede obtener una vista previa de una cita insertada en un tema desde la interfaz de usuario de Assets o la pestaña Vista previa del editor.
 
 ## Inserción de citas
 
@@ -193,7 +191,7 @@ Puede insertar citas al tema desde la barra de herramientas principal o el panel
    ![cuadro de diálogo de cita](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. Puede filtrar las citas escribiendo los primeros alfabetos en el panel de búsqueda del cuadro de diálogo **Cita**.
 
-1. Haga clic en **Listo**.
+1. Seleccione **Listo**.
 La cita seleccionada se agrega en la ubicación del cursor en el tema.
 
 
@@ -201,7 +199,7 @@ La cita seleccionada se agrega en la ubicación del cursor en el tema.
 
 >[!NOTE]
 > 
->Para ver el icono **Citas** en el panel izquierdo, el administrador del sistema debe seleccionar la opción **Citas** en la pestaña **Paneles** en **Configuración del editor**.
+>Para ver el icono **Citas** desde el panel izquierdo, el administrador del sistema debe habilitar la opción **Citas** en la pestaña **Paneles** en **Configuración**.
 
 1. Seleccione **Citas** ![icono de citas ](images/citations-icon.svg) en el panel izquierdo.
 1. Arrastre la cita del panel **Citas** y suéltela en el lugar apropiado del tema.
@@ -213,7 +211,7 @@ La cita seleccionada se agrega en la ubicación del cursor en el tema.
 1. Seleccione las citas que desee insertar en el cuadro de diálogo **Cita**.
 1. Seleccione **Listo** para agregarlos al tema.
 
-Una vez insertadas las citas en el tema, puede obtener una vista previa de las mismas en el Editor Web. También puede publicar contenido con citas utilizando el PDF nativo.
+Una vez insertadas las citas en el tema, puede obtener una vista previa de las mismas en el Editor Web. También puede publicar contenido con citas mediante PDF nativo.
 
 
 
@@ -254,15 +252,14 @@ En el tema, coloque el cursor al final de la cita.
 
 ## Generar salida de contenido con citas
 
-Una vez que haya insertado citas en el tema, puede publicar contenido con citas mediante el PDF nativo.
+Una vez que haya insertado citas en el tema, puede publicar contenido con citas mediante PDF nativo.
 
-En la salida del PDF nativo, las citas aparecen dentro del contenido donde las ha insertado. También puede crear una página Bibliografía. Al hacer clic en cualquier cita, se le redirige a la página de bibliografía.
+En la salida nativa de PDF, las citas aparecen dentro del contenido en el que las ha insertado. También puede crear una página Bibliografía. Al seleccionar una cita, se le redirige a la página de bibliografía.
 
-Crea un diseño de página de **Citas** en las plantillas de PDF e inclúyalo en tu documento. Todas las citas utilizadas en el libro aparecen en una página que aparece en la salida del PDF. Para obtener más información sobre cómo crear un diseño de página, vea [Crear un diseño de página](../native-pdf/components-pdf-template.md#create-page-layout).
+Crea un diseño de página de **citas** en las plantillas de PDF e inclúyalo en tu documento. Todas las citas utilizadas en el libro aparecen en una página que aparece en la salida de PDF. Para obtener más información sobre cómo crear un diseño de página, vea [Crear un diseño de página](../native-pdf/components-pdf-template.md#create-page-layout).
 
 
 Para cambiar la vista y el funcionamiento de la página de citas, vea [Personalizar plantillas de PDF](../native-pdf/pdf-template.md).
-
 
 
 ### Aplicar estilo de contenido a una cita

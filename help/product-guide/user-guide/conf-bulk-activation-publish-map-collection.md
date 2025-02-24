@@ -4,9 +4,9 @@ description: Activar la salida de mapas DITA en AEM Guides. Obtenga información
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 66d22560d40012a7475026ed44cec7bf301c1a97
+source-git-commit: a00674a98e4ba87dbc5ddac3412cedca15a205bd
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '464'
 ht-degree: 1%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 1%
 
 Una vez creada una colección de mapas para la activación masiva, el siguiente paso es activar el contenido en la instancia de publicación. Para activar el contenido, realice los siguientes pasos:
 
-1. Seleccione **Guías** de la lista de herramientas.
+1. Seleccione el logotipo de Adobe Experience Manager en la parte superior y elija **Herramientas**.
 
-1. Haga clic en el vínculo Adobe Experience Manager en la parte superior y elija **Herramientas**.
+1. En el panel **Herramientas**, seleccione **Guías**.
 
-1. Haga clic en el mosaico **Tablero de Publish en lotes**.
+1. Seleccione el mosaico **Panel de publicación en lotes**.
 
-   Se muestra una lista de colecciones de mapas de activación masiva.
+   El tablero de publicación en lote se muestra con una lista de colecciones de mapas de activación en lote. También puede acceder a este tablero desde el panel izquierdo de [Adobe Experience Manager Guides Home page](intro-home-page.md).
 
-1. Seleccione la colección que desea publicar y haga clic en **Abrir**.
+1. Seleccione la colección que desea publicar y seleccione **Abrir**.
 
    ![](images/bulk-activation-collection-open.png){width="800" align="left"}
 
@@ -43,17 +43,17 @@ Vea las diferentes formas de activar la colección en función de su configuraci
 
 Puede activar el resultado en las instancias **Preview** o **Publish**.
 
-**Vista previa**
+**Previsualizar**
 
-* Para activar la salida de los mapas seleccionados, seleccione la salida de mapa pregenerada y seleccione **Publish to** > **Preview**.
-* Para activar la salida de todas las asignaciones DITA con sus ajustes preestablecidos configurados, seleccione la casilla de verificación situada junto a la columna **Map** y, a continuación, seleccione **Publish to** > **Publish**.
+* Para activar la salida de los mapas seleccionados, seleccione la salida de mapa pregenerada y seleccione **Publicar en** > **Vista previa**.
+* Para activar la salida de todas las asignaciones DITA con sus ajustes preestablecidos configurados, seleccione la casilla de verificación situada junto a la columna **Mapa** y, a continuación, seleccione **Publicar en** > **Publicar**.
 
 
-**Publish**
+**Publicar**
 
-* Para activar la salida de los mapas seleccionados, seleccione la salida de mapa pregenerada y seleccione **Publish to** > **Publish**.
+* Para activar la salida de los mapas seleccionados, seleccione la salida de mapa pregenerada y seleccione **Publicar en** > **Publicar**.
 
-* Para activar la salida de todas las asignaciones DITA con sus ajustes preestablecidos configurados, seleccione la casilla de verificación situada junto al mapa (columna) y, a continuación, seleccione **Publish to** > **Publish**.
+* Para activar la salida de todas las asignaciones DITA con sus ajustes preestablecidos configurados, active la casilla de verificación situada junto al mapa (columna) y, a continuación, seleccione **Publicar en** > **Publicar**.
 
 
 >[!NOTE]
@@ -72,8 +72,8 @@ Una vez que se activa la salida para los archivos de mapa seleccionados, se actu
 
 Realice una de las siguientes acciones:
 
-* Para activar la salida de los mapas seleccionados, seleccione la salida de mapa pregenerada y seleccione **Quick Publish**.
-* Para activar la salida de todos los mapas DITA con sus ajustes preestablecidos configurados, active la casilla de verificación situada junto al mapa (columna) y, a continuación, seleccione **Quick Publish.**
+* Para activar la salida de los mapas seleccionados, seleccione la salida de mapa pregenerada y seleccione **Publicación rápida**.
+* Para activar la salida de todos los mapas DITA con sus ajustes preestablecidos configurados, active la casilla de verificación situada junto al mapa (columna) y, a continuación, seleccione **Publicación rápida.**
   ![publicación-colección-en-lotes](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
   >[!NOTE]

@@ -3,7 +3,8 @@ title: Funciones clave de AEM Guides
 description: Explore las funciones clave de AEM Guides, la creación DITA, la administración de contenido, la revisión basada en web, la traducción, la localización, la publicación multicanal y la integración de FrameMaker.
 feature: Introduction
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: b3e17f62-70d0-470e-9e52-73489510c62f
+source-git-commit: cbcb55fc239d9469de45a224f14361db14ec5f76
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 0%
@@ -17,7 +18,7 @@ Mejora significativa de la productividad de la creación mediante un único abas
 
 El editor basado en Web integrado permite crear y gestionar de forma sencilla y eficaz temas, mapas y archivos DITAVAL DITA. El editor incorporado tiene una interfaz de procesamiento de texto sencilla e intuitiva, que proporciona una entrada sencilla para expertos en la materia, colaboradores ocasionales y revisores que pueden no estar formados para utilizar DITA. Con la funcionalidad inteligente Insertar elemento, no tiene que preocuparse de colocar un elemento en la ubicación correcta. Siempre se inserta un elemento en la siguiente ubicación válida disponible.
 
-AEM También puede desproteger y proteger archivos desde las nuevas opciones disponibles en la barra de herramientas y en el editor web de la aplicación de forma libre de derechos de usuario, que se encuentran disponibles en la barra de herramientas y en el editor web de la aplicación.
+También puede desproteger y proteger archivos desde las nuevas opciones disponibles en la barra de herramientas de AEM y en el editor web.
 
 Si su organización utiliza una forma especializada de DITA, el editor web se puede personalizar para crear y editar documentos DITA especializados. Para obtener más información acerca del uso de la especialización DITA, consulte *Usar la especialización DITA-OT y DITA personalizada* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
@@ -47,7 +48,7 @@ Adobe Experience Manager incluye conectores integrados para los principales prov
 **Publicación multicanal óptima de contenido DITA**
 Optimice la publicación de contenido empresarial con un enfoque sencillo y de un solo toque que acelera el tiempo de comercialización.
 
-Con la compatibilidad nativa con DITA añadida al Experience Manager, generar salida para Experience Manager Sites, PDF, HTML 5, EPUBS o salida personalizada mediante DITA-OT. Puede aprovechar el resultado totalmente configurable para ofrecer experiencias de contenido altamente personalizadas, relevantes e inmersivas para los usuarios finales. También puede generar lotes fácilmente o utilizar Línea base para publicar una versión específica de la documentación.
+Con la compatibilidad nativa con DITA añadida a Experience Manager, genere resultados para Experience Manager Sites, PDF, HTML5, EPUBS o salida personalizada mediante DITA-OT. Puede aprovechar el resultado totalmente configurable para ofrecer experiencias de contenido altamente personalizadas, relevantes e inmersivas para los usuarios finales. También puede generar lotes fácilmente o utilizar Línea base para publicar una versión específica de la documentación.
 
 **Datos completos de uso de contenido y búsqueda**
 Busque y seleccione contenido relevante más rápido, lo que maximiza el ROI del contenido con cada reutilización. Realice búsquedas básicas y avanzadas utilizando atributos de contenido y metadatos de temas en todo el repositorio a través de una sencilla interfaz dentro de la herramienta de creación DITA. Los resultados se etiquetan con datos de uso del contenido para ayudarle a identificar y seleccionar fácilmente el contenido adecuado para una reutilización óptima.
@@ -59,11 +60,11 @@ Asegúrese de que la publicación no contenga errores comprobando y corrigiendo 
 Impulse una participación más profunda del usuario final y la adopción de contenido a través de experiencias de contenido muy relevantes. Con AEM Guides, puede aprovechar la amplia compatibilidad con la administración de etiquetas en Experience Manager para aplicar etiquetas relevantes al contenido de origen DITA. Utilice estas etiquetas para ofrecer experiencias de contenido altamente personalizadas a los usuarios finales.
 
 **Integración nativa con Adobe FrameMaker**
-Disfrute de una experiencia rápida y perfecta mientras trabaja con Experience Manager y FrameMaker (versión de 2015) Update 4 o posterior.
+Disfrute de una experiencia rápida y perfecta mientras trabaja con Experience Manager y FrameMaker (versión 2015) Update 4 o posterior.
 
-La integración del Experience Manager y el FrameMaker a través de un conector integrado le ayuda a trabajar sin problemas con el repositorio de contenido del Experience Manager. Aproveche el conector para empezar rápidamente a crear, revisar y buscar contenido DITA.
+La integración de Experience Manager y FrameMaker a través de un conector integrado le ayuda a trabajar sin problemas con el repositorio de contenido de Experience Manager. Aproveche el conector para empezar rápidamente a crear, revisar y buscar contenido DITA.
 
-AEM Con el conector de la en FrameMaker, puede administrar los archivos de FrameMaker. AEM El conector le permite cargar fácilmente su DITA y otros documentos de FrameMaker AEM (archivos .book y .fm) en el servidor de correo electrónico de. AEM Guides también le permite publicar documentos de FrameMaker AEM directamente desde la página de trabajo de la. Si el archivo del libro de FrameMaker contiene una combinación de archivos DITA y .fm, AEM Guides también puede publicar dichos documentos. Actualmente, puede publicar los archivos .book y .fm de FrameMaker en los formatos PDF, HTML 5 y EPUB.
+Con el conector de AEM en FrameMaker, puede administrar los archivos de FrameMaker. El conector AEM le permite cargar fácilmente su DITA y otros documentos de FrameMaker (.book y .fm) en AEM. AEM Guides también le permite publicar documentos de FrameMaker directamente desde AEM. Si el archivo de libro de FrameMaker contiene una combinación de archivos DITA y .fm, AEM Guides también puede publicar dichos documentos. Actualmente, puede publicar los archivos .book y .fm de FrameMaker en los formatos PDF, HTML5 y EPUB.
 
 ## Recursos adicionales
 
@@ -74,4 +75,4 @@ A continuación se muestra una lista de otros recursos útiles de AEM Guides, qu
 * Guía de inicio rápido
 * [Página de archivado de Help*](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) (acceso a la documentación de la versión anterior)
 
-**Tema principal:**[ Acerca de Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**Tema principal:**[ Acerca de Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)

@@ -1,19 +1,19 @@
 ---
-title: Métodos abreviados de teclado en el Editor Web
+title: Métodos abreviados de teclado en el Editor
 description: Descubra los métodos abreviados de teclado que ahorran tiempo en el editor web de AEM Guides.
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 33da473cfa8c654a5413f9d8cbe9c43acaf65766
+source-git-commit: e5f4dc964a31d3bc23db166ee391e5e3550d8cbc
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
 
-# Métodos abreviados de teclado en el Editor Web {#id2056B0A0WHT}
+# Métodos abreviados de teclado en el Editor {#id2056B0A0WHT}
 
-En el Editor Web se pueden realizar muchas operaciones mediante los métodos abreviados de teclado. En la tabla siguiente se enumeran estos métodos abreviados de teclado:
+Hay muchas operaciones en el Editor que puede realizar con los métodos abreviados del teclado. En la tabla siguiente se enumeran estos métodos abreviados de teclado:
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ En el Editor Web se pueden realizar muchas operaciones mediante los métodos abr
 | Centrarse en el editor actual | **Ctrl***+**Mayús**+***0*** | ***Comando***+**Mayús**+***0*** |
 | Guardar documento en la vista Autor o Source | ***Ctrl***+**Mayús**+***S*** | ***Comando***+**Mayús**+***S*** |
 | Guardar todos los documentos abiertos en la vista Autor o Source | ***Ctrl***+***S*** | ***Comando***+***S*** |
-| Mostrar cuadro de diálogo Insertar elemento | ***Alt***+***Entrar*** | ***Opción***+***Entrar*** |
+| Mostrar cuadro de diálogo Insertar elemento | ***Alt***+***1*** | ***Opción***+***Entrar*** |
 | Mostrar cuadro de diálogo Insertar elemento para insertar el elemento antes del elemento seleccionado | ***Alt***+***Mayús***+***Entrar*** | ***Opción***+***Mayús***+***Entrar*** |
 | Mover el cursor una palabra a la izquierda. | ***Ctrl***+***Flecha izquierda*** | ***Opción***+***Flecha izquierda*** |
 | Mover el cursor una palabra a la derecha. | ***Ctrl***+***Flecha derecha*** | ***Opción***+***Flecha derecha*** |

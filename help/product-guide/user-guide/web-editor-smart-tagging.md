@@ -4,9 +4,9 @@ description: Aprenda a añadir etiquetas inteligentes en AEM Guides. Utilice la 
 exl-id: 7fb4b881-0898-44eb-a0e8-85cb99d9593b
 feature: Metadata Management
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 9898f98d897da4da9ca76a89efd262239606ac2e
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 > La función de etiquetado inteligente no está disponible de forma predeterminada y requiere una implementación personalizada, para lo que debe consultar al administrador del sistema.
 
-AEM Guides viene con la función de añadir etiquetas inteligentes. Puede utilizar la herramienta Extracción de palabras clave XML para extraer etiquetas inteligentes. Esta herramienta utiliza inteligencia artificial para comprender el contenido y proporcionar palabras clave relevantes. Puede utilizar etiquetas inteligentes para mejorar la optimización de los motores de búsqueda \(SEO\) y ayudar a los usuarios a encontrar el contenido relacionado.
+Adobe Experience Manager Guides viene con la función de añadir etiquetas inteligentes. Puede utilizar la herramienta Extracción de palabras clave XML para extraer etiquetas inteligentes. Esta herramienta utiliza inteligencia artificial para comprender el contenido y proporcionar palabras clave relevantes. Puede utilizar etiquetas inteligentes para mejorar la optimización de los motores de búsqueda \(SEO\) y ayudar a los usuarios a encontrar el contenido relacionado.
 
 Siga estos pasos para crear etiquetas inteligentes:
 
@@ -27,7 +27,7 @@ Siga estos pasos para crear etiquetas inteligentes:
 
    ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
 
-1. Seleccione la opción Ejecutar proceso de Post. Se muestra un mensaje sobre el inicio correcto de la herramienta.
+1. Seleccione la opción Ejecutar procesamiento posterior. Se muestra un mensaje sobre el inicio correcto de la herramienta.
 1. Las etiquetas se extraen automáticamente y se pueden ver en la página Propiedades del tema seleccionado.
 
    ![](images/properties-smart-tags.png){width="800" align="left"}

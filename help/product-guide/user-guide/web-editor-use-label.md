@@ -1,32 +1,67 @@
 ---
 title: Uso de etiquetas
-description: Descubra el uso de etiquetas para diferentes versiones de un archivo en AEM Guides. Obtenga información sobre cómo agregar o eliminar una etiqueta a una versión de un tema.
+description: Descubra el uso de etiquetas para diferentes versiones de un archivo en Adobe Experience Manager Guides. Obtenga información sobre cómo agregar o eliminar una etiqueta a una versión de un tema.
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
 
 # Uso de etiquetas {#id164JBG0M0T1}
 
-AEM Guides permite agregar etiquetas a diferentes versiones de un archivo. Puede utilizar estas etiquetas para especificar la versión que desea incluir en una línea de base para la publicación. Para obtener más información acerca del uso de etiquetas para crear una línea de base, vea [Trabajar con línea de base](generate-output-use-baseline-for-publishing.md#).
+Adobe Experience Manager Guides permite agregar etiquetas a diferentes versiones de un archivo. Puede utilizar estas etiquetas para especificar la versión que desea incluir en una línea de base para la publicación. Para obtener más información acerca del uso de etiquetas para crear una línea de base, vea [Trabajar con línea de base](generate-output-use-baseline-for-publishing.md#).
 
 Por ejemplo, si desea utilizar la *versión 1.0* de un tema en la *versión 1.0* y la *versión 1.1* del mismo tema en la *versión 2.0*, puede agregar la etiqueta *versión 1.0* en la etiqueta *versión 1.0* y *versión 2.0* en la *versión 1.1*.
 
-Una vez agregadas las etiquetas, puede crear una línea de base y especificar qué versión del tema debe incluirse para la publicación mediante esa línea de base. Para ver qué versión se debe incluir o excluir en una línea base, puede utilizar la opción Historial de versiones.
+Una vez agregadas las etiquetas, puede crear una línea de base y especificar qué versión del tema debe incluirse para la publicación mediante esa línea de base. Para ver qué versión se debe incluir o excluir en una línea base, se puede utilizar la opción Historial de Versiones.
 
-## Añadir una etiqueta
+## Añadir una etiqueta desde el editor
 
-Siga estos pasos para agregar una etiqueta al tema:
+Siga estos pasos para agregar una etiqueta al tema desde el Editor:
 
-1. En la IU de Assets, seleccione un tema
-1. Haga clic en el icono del selector de carril izquierdo y seleccione **Historial de versiones**.
-1. En el Historial de versiones, haga clic en la versión a la que desee agregar una etiqueta.
+1. En el panel Repositorio, vaya a un tema y ábralo en el Editor.
+1. Seleccione **Etiqueta de versión** del menú desplegable **Menú**.
 
+   ![](images/version-label-option.png){width="400" align="left"}
+
+   Se muestra el cuadro de diálogo **Administración de etiquetas de versión**.
+
+1. En el cuadro de diálogo **Administración de etiquetas de versión**, seleccione una versión a la que desee agregar una etiqueta.
+1. Seleccione una etiqueta para la versión seleccionada y seleccione **Agregar etiqueta**.
+
+   ![](images/version-label-management-dialog-new.png){width="650" align="left"}
+
+   >[!NOTE]
+   >
+   > No se puede agregar la misma etiqueta a las distintas versiones de un tema. Sin embargo, puede agregar varias etiquetas a la misma versión de un tema.
+1. Confirme para aplicar las etiquetas en el mensaje de confirmación.
+
+   Las etiquetas se muestran en el Historial de versiones del tema seleccionado.
+
+   ![](images/label-comparison-version-history.png){width="650" align="left"}
+
+   >[!NOTE]
+   >
+   > Con una línea de base, puede agregar una etiqueta a varios temas. Para obtener más información acerca de cómo agregar etiquetas mediante línea de base, vea [Agregar etiquetas a una línea de base](generate-output-use-baseline-for-publishing.md#id184KD0T305Z).
+
+Para eliminar una etiqueta de versión de un tema, use el icono **Quitar** proporcionado con cada etiqueta agregada en el cuadro de diálogo Administración de etiquetas de versión.
+
+![](images/remove-version-label.png){width="800" align="left"}
+
+
+## Uso de etiquetas desde la interfaz de usuario de Assets
+
+También puede agregar etiquetas a un tema y eliminarlas según sea necesario en la interfaz de usuario de Assets.
+
+Siga estos pasos para agregar una etiqueta al tema desde la interfaz de usuario de Assets:
+
+1. En la interfaz de usuario de Assets, seleccione un tema y ábralo.
+1. Seleccione el icono del selector del carril izquierdo y seleccione **Historial de versiones**.
+1. En el menú desplegable Historial de versiones, seleccione la versión a la que desee agregar una etiqueta.
 1. Introduzca una etiqueta para la versión seleccionada y pulse Intro. Por ejemplo, *Versión 2.6*.
 
    >[!NOTE]
@@ -41,20 +76,9 @@ Siga estos pasos para agregar una etiqueta al tema:
 >
 > Con una línea de base, puede agregar una etiqueta a varios temas. Para obtener más información acerca de cómo agregar etiquetas mediante línea de base, vea [Agregar etiquetas a una línea de base](generate-output-use-baseline-for-publishing.md#id184KD0T305Z).
 
-## Eliminación de una etiqueta
+Para eliminar una etiqueta de versión de un tema, use el botón **Eliminar** proporcionado con cada etiqueta en el panel Historial de versiones.
 
-Siga estos pasos para eliminar una etiqueta:
-
-1. En la interfaz de usuario de Assets, seleccione un tema que tenga una etiqueta añadida.
-1. Haga clic en el icono del selector de carril izquierdo y seleccione **Historial de versiones**.
-
-   En el Historial de versiones, verá todas las versiones de un tema y las etiquetas adjuntas a ellas. La siguiente imagen muestra un ejemplo de diferentes versiones de un tema y una versión tiene etiquetas agregadas.
-
-   ![](images/labels.png){width="300" align="left"}
-
-1. Haga clic en el botón Eliminar \(**X**\) para eliminar la etiqueta.
-
-   ![](images/delete-labels.png){width="300" align="left"}
+![](images/delete-labels.png){width="300" align="left"}
 
 
-**Tema principal:**[ Trabajar con el editor web](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

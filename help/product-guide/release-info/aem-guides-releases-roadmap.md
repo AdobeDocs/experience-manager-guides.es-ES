@@ -3,10 +3,10 @@ title: Adobe Experience Manager Guides publica la hoja de ruta 2024
 description: Obtenga información sobre las versiones en directo y futuras de Adobe Experience Manager Guides local y Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 60c51989467faa464a219e30737a5f71a6254e09
+source-git-commit: 5cefa792699ca65bbf35c59025b745d825931b7c
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 31%
+source-wordcount: '353'
+ht-degree: 32%
 
 ---
 
@@ -27,13 +27,13 @@ Las versiones para Experience Manager Guides as a Cloud Service están planifica
 
 | Versión | Evento | Programación | Novedades | Instrucciones de actualización | Problemas solucionados | Estado |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.02.0 | Actualización automática | ~ 24-26 de febrero de 2025 |  |  |  | Público destinatario |
 | Adobe Experience Manager Guides 2025.04.0 | Actualización automática | ~ Abril de 2025 |  |  |  | Público destinatario |
 
 ### Versiones en directo
 
 | Versión | Evento | Programación | Novedades | Instrucciones de actualización | Problemas solucionados | Estado |
 |---|---|---|---|---|---|---|
+| Adobe Experience Manager Guides 2025.2.0 | Actualización automática | 24-26 de febrero de 2025 | [Aquí](whats-new-2025-02-0.md) | [Aquí](upgrade-instructions-2025-02-0.md) | [Aquí](fixed-issues-2025-02-0.md) | Actualizado |
 | Adobe Experience Manager Guides 2024.12.0 | Actualización automática | 13-15 de enero de 2025 |  | [Aquí](upgrade-instructions-2024-12-0.md) | [Aquí](fixed-issues-2024-12-0.md) | Actualizado |
 | Adobe Experience Manager Guides 2024.10.0 | Paquete de servicio 1 | miércoles, 29 de octubre de 2024 | - | - | [Aquí](fixed-issues-2024-10-0-sp1.md) | Actualizado |
 | Adobe Experience Manager Guides 2024.10.0 | Actualización automática | Del 14 al 16 de octubre de 2024 | [Aquí](whats-new-2024-10-0.md) | [Aquí](upgrade-instructions-2024-10-0.md) | [Aquí](fixed-issues-2024-10-0.md) | Actualizado |

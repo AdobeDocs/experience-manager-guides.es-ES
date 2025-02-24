@@ -1,17 +1,17 @@
 ---
-title: Publish un tema a un fragmento de experiencia
-description: Publish un tema o los elementos dentro de un tema a un Fragmento de experiencia en AEM Guides.  Obtenga información sobre cómo ver los fragmentos de experiencias presentes para un tema y volver a publicarlos.
+title: Publicación de un tema en un fragmento de experiencia
+description: Publicar un tema o los elementos dentro de un tema en un Fragmento de experiencia en AEM Guides.  Obtenga información sobre cómo ver los fragmentos de experiencias presentes para un tema y volver a publicarlos.
 feature: Publishing
 role: User
 exl-id: 4cdce8c2-2ccf-4bf1-8b92-4dfeb10de186
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
 
-# Fragmentos de experiencia de Publish
+# Publicar fragmentos de experiencias
 
 Los fragmentos de experiencias son fragmentos de contenido modular en Adobe Experience Manager. Estos bloques de contenido se basan en plantillas y encapsulan el contenido y su diseño. Estos fragmentos de contenido reutilizables permiten a los creadores de contenido ensamblar y ofrecer experiencias coherentes y escalables en varios canales compatibles con Experience Manager. Esta función le ayuda a crear fácilmente experiencias de marketing coherentes de forma eficaz, como boletines informativos, titulares promocionales y testimonios de clientes.
 
@@ -40,16 +40,16 @@ Por ejemplo:
      *Agregue la configuración de nube en las propiedades de la carpeta para conectarla con las plantillas de fragmento.*
 1. Para generar un fragmento de experiencia, seleccione **Nueva salida** ![nuevo icono de salida](./images/Add_icon.svg) de la sección **Salidas** en las **Propiedades de archivo** de un tema.
 1. Seleccione **Fragmento de experiencia**.\
-   ![ficha de opciones de propiedades de archivo](./images/file-properties-outputs.png){width="300" align="left"}
+   ![ficha de opciones de propiedades de archivo](./images/file-properties-outputs-new.png){width="300" align="left"}
 
    *Agregar un nuevo fragmento de experiencia desde las propiedades de archivo de un tema*.
 
    >[!NOTE]
    >
-   > También puede publicar un fragmento de experiencia desde la **vista de repositorio**. Seleccione el tema que desea publicar como fragmento de experiencia. A continuación, en el menú **Opciones**, seleccione **Publish As** > **Fragmento de experiencia**.
+   > También puede publicar un fragmento de experiencia desde la **vista de repositorio**. Seleccione el tema que desea publicar como fragmento de experiencia. A continuación, en el menú **Opciones**, seleccione **Publicar como** > **Fragmento de experiencia**.
 
 1. En el cuadro de diálogo **Generar fragmento de experiencia**, rellene los siguientes detalles:
-   ![Agregue el modelo de fragmento y los detalles de asignación en el cuadro de diálogo Publish como Fragmento de experiencia](images/experience-fragment-generate.png){width="500" align="left"}
+   ![Agregue el modelo de fragmento y los detalles de asignación en el cuadro de diálogo Publicar como fragmento de experiencia](images/experience-fragment-generate.png){width="500" align="left"}
 
    *Añada la ruta, la plantilla y los detalles de asignación para publicar un tema o sus elementos como fragmento de experiencia. Puede sobrescribir un fragmento de experiencia existente.*
 
@@ -76,10 +76,10 @@ Por ejemplo:
 
 
    * Seleccione la casilla de verificación **Sobrescribir contenido existente** si el fragmento de experiencia ya existe y desea sobrescribirlo. Experience Manager Guides muestra un error si no selecciona la casilla de verificación y el fragmento de experiencia ya existe.
-1. Haga clic en **Generar** para publicar el fragmento de experiencia.
+1. Seleccione **Generar** para publicar el fragmento de experiencia.
 1. Puede ver los fragmentos de experiencias de un tema en la sección **Salidas** de **Propiedades del archivo**. Los fragmentos de experiencias aparecen según la fecha y la hora de su publicación, con la última como la primera.
 
-   ![Ver los fragmentos de experiencias de un tema](images/experience-fragment-outputs.png){width=300 align=&quot;left&quot;}
+   ![Ver los fragmentos de experiencias de un tema](images/experience-fragment-outputs-new.png){width=300 align=&quot;left&quot;}
 
    *Vea los fragmentos de experiencias presentes en un tema y vuelva a publicarlos.*
 

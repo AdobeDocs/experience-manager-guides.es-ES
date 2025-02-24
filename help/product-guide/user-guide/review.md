@@ -1,21 +1,21 @@
 ---
-title: Revisar temas o mapas
+title: Introducción a la revisión
 description: Revise eficazmente los temas o mapas en AEM Guides para facilitar la evaluación del contenido. Conocer las funciones de los autores y revisores de AEM Guides.
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 38ea2eb35ebd75c1202c86d598ad953db3894d40
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
-# Revisar temas o mapas {#id1645H6010Q5}
+# Introducción a la revisión {#id1645H6010Q5}
 
 Casi todos los documentos técnicos deben pasar por múltiples rondas de revisiones. En la mayoría de los casos, un ciclo de revisión implica más de un revisor. Responder a los comentarios de varios revisores siempre es un desafío para los autores. Además, en un escenario de varios revisores, resulta útil que un revisor también pueda ver los comentarios realizados por otros revisores.
 
-Algunas de las características principales que AEM Guides ofrece a los *iniciadores \(o autores\)* son:
+Algunas de las características principales que Adobe Experience Manager Guides ofrece a los *iniciadores \(o autores\)* son:
 
 - Cree un proyecto DITA para el flujo de trabajo de revisión.
 - Enviar uno o varios temas para su revisión en una única tarea de revisión.
@@ -46,12 +46,12 @@ Características disponibles para *revisores*:
 - Conocer fácilmente la versión del tema en revisión.
 - Reciba una notificación cuando se le asigne una tarea para su revisión.
 - Vea las diferencias entre la versión anterior y la más reciente del tema compartido para su revisión.
-- Ver comentarios realizados por otros revisores o respuestas a los comentarios del autor en tiempo real.
+- Ver comentarios realizados por otros revisores o respuestas sobre comentarios del autor en tiempo real.
 - Acceder a los comentarios de la versión anterior del tema.
 
 >[!NOTE]
 >
-> Consulte la sección *Revisar* de la guía de prácticas recomendadas para conocer las prácticas recomendadas sobre la creación de tareas de revisión.
+> Consulte la sección *Revisar* en la guía de prácticas recomendadas para conocer las prácticas recomendadas sobre la creación de tareas de revisión.
 
 - **[Crear un proyecto DITA](authoring-create-dita-project.md)**
 

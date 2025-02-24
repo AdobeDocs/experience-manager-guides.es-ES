@@ -5,9 +5,9 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: a2e52572edf0915c1701a384d396a32de2429f53
 workflow-type: tm+mt
-source-wordcount: '5470'
+source-wordcount: '5620'
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ Para ocultar la ficha Línea base en el tablero de mandos de asignación DITA, r
 >
 > Esta configuración está habilitada de forma predeterminada y la pestaña Línea base no está disponible en el panel de asignaciones.
 
-## AEM Configuración de la publicación combinada en un sitio de existente {#id1691I0V0MGR}
+## Configuración de la publicación combinada en un sitio de AEM existente {#id1691I0V0MGR}
 
-AEM AEM Si dispone de un sitio de que contiene contenido DITA, puede configurar la salida del sitio de la aplicación para que publique contenido DITA en una ubicación predefinida dentro del sitio. AEM Por ejemplo, en la siguiente captura de pantalla de una página de sitio de la, el nodo `ditacontent` está reservado para almacenar contenido DITA:
+Si tiene un sitio de AEM con contenido DITA, puede configurar la salida del sitio de AEM para publicar contenido DITA en una ubicación predefinida dentro del sitio. Por ejemplo, en la siguiente captura de pantalla de una página de un sitio de AEM, el nodo `ditacontent` está reservado para almacenar contenido DITA:
 
 ![](assets/publish-in-aem-site.png)
 
-AEM Los nodos restantes de la página se crean directamente desde el editor del sitio de la. La configuración de publicación para publicar contenido DITA en una ubicación predefinida garantiza que el proceso de publicación de AEM Guides no modifique ningún contenido que no sea DITA.
+Los nodos restantes de la página se crean directamente desde el editor del sitio de AEM. La configuración de publicación para publicar contenido DITA en una ubicación predefinida garantiza que el proceso de publicación de AEM Guides no modifique ningún contenido que no sea DITA.
 
 Es necesario realizar las siguientes configuraciones en el sitio existente para permitir la publicación de contenido DITA en un nodo predefinido:
 
@@ -64,34 +64,34 @@ Realice los siguientes pasos para configurar las propiedades de plantilla del si
 
 La próxima vez que publique contenido DITA con las configuraciones de plantilla del sitio, el contenido se publicará en los nodos especificados en las propiedades `topicContentNode` y `topicHeadNode`.
 
-## AEM Personalizar salida del sitio {#id166TG0B30WR}
+## Personalizar salida del sitio de AEM {#id166TG0B30WR}
 
 AEM Guides admite la creación de salidas en los siguientes formatos:
 
-- AEM Sitio web de
+- Sitio de AEM
 - PDF
 - HTML5
 - EPUB
 - Salida personalizada mediante DITA-OT
 
-AEM Para la salida del sitio de la, puede asignar diferentes plantillas de diseño con diferentes tareas de salida. Estas plantillas de diseño pueden representar el contenido DITA en diferentes diseños. Por ejemplo, puede especificar distintas plantillas de diseño para audiencias internas y externas.
+Para la salida del sitio de AEM, puede asignar diferentes plantillas de diseño con diferentes tareas de salida. Estas plantillas de diseño pueden representar el contenido DITA en diferentes diseños. Por ejemplo, puede especificar distintas plantillas de diseño para audiencias internas y externas.
 
-También puede utilizar complementos personalizados DITA Open Toolkit \(DITA-OT\) con AEM Guides. Puede cargar estos complementos DITA-OT personalizados para generar salidas de PDF de una forma específica.
+También puede utilizar complementos personalizados DITA Open Toolkit \(DITA-OT\) con AEM Guides. Puede cargar estos complementos DITA-OT personalizados para generar la salida de PDF de una forma específica.
 
 >[!TIP]
 >
-> AEM AEM Consulte la sección *Publicación de sitios* en la guía de prácticas recomendadas para conocer las prácticas recomendadas sobre la creación de resultados de sitios de la lista de direcciones de correo electrónico.
+> Consulte la sección *Publicación de sitios AEM* en la guía de prácticas recomendadas para conocer las prácticas recomendadas sobre la creación de resultados de sitios AEM.
 
 
 ### Personalizar la plantilla de diseño para generar resultados {#customize_xml-add-on}
 
-AEM Guides AEM utiliza un conjunto de plantillas de diseño predefinidas para generar la salida del sitio de la. Puede personalizar las plantillas de diseño de AEM Guides para generar el resultado que se ajuste a la marca corporativa. Una plantilla de diseño es una colección de varios estilos \(CSS\), secuencias de comandos \(del lado del servidor y del lado del cliente\), recursos \(imágenes, logotipos y otros recursos\) y nodos JCR que unen todos estos recursos. Una plantilla de diseño puede ser tan sencilla como un único script del lado del servidor con solo un par de nodos JCR o una combinación compleja de estilos, recursos y nodos JCR. Las plantillas de diseño se utilizan en el subsistema de publicación de AEM Guides AEM mientras se genera la salida del sitio, y controlan la estructura, el aspecto y la presentación de la salida generada.
+AEM Guides utiliza un conjunto de plantillas de diseño predefinidas para generar la salida del sitio de AEM. Puede personalizar las plantillas de diseño de AEM Guides para generar el resultado que se ajuste a la marca corporativa. Una plantilla de diseño es una colección de varios estilos \(CSS\), secuencias de comandos \(del lado del servidor y del lado del cliente\), recursos \(imágenes, logotipos y otros recursos\) y nodos JCR que unen todos estos recursos. Una plantilla de diseño puede ser tan sencilla como un único script del lado del servidor con solo un par de nodos JCR o una combinación compleja de estilos, recursos y nodos JCR. El subsistema de publicación de AEM Guides utiliza las plantillas de diseño al generar la salida del sitio de AEM y controlan la estructura, el aspecto y la presentación de la salida generada.
 
 No hay restricciones en cuanto a la ubicación de los recursos de la plantilla de diseño en el servidor, pero suelen estar organizados lógicamente según su función. Por ejemplo, la plantilla predeterminada tiene todos sus archivos JavaScript y CSS almacenados en la carpeta `/etc/designs/fmdita/clientlibs/siteoutput/default`. Dondequiera que se encuentren estos archivos, se vinculan entre sí mediante una colección de nodos JCR. Juntos, estos nodos JCR y los archivos constituyen la plantilla de diseño completa.
 
 La plantilla de diseño predeterminada enviada con AEM Guides le permite personalizar los componentes de página de aterrizaje, tema y búsqueda. Se puede realizar una copia del diseño por defecto y de las plantillas de referencia correspondientes, así como especificar diferentes componentes para generar la salida deseada.
 
-AEM Realice los siguientes pasos para especificar su propia plantilla de diseño para utilizarla en la generación de resultados del sitio de la red de distribución de contenido ():
+Realice los siguientes pasos para especificar su propia plantilla de diseño para utilizarla en la generación de resultados del sitio de AEM:
 
 1. Utilice el Administrador de paquetes para descargar la plantilla de diseño predeterminada desde la siguiente ubicación:
 
@@ -116,7 +116,7 @@ AEM Realice los siguientes pasos para especificar su propia plantilla de diseño
    | `tocNode` | Ubicación del nodo que contendrá la TDC. La ruta es relativa a la página de aterrizaje o a la ruta de destino. |
    | `basePathProp` | Nombre de propiedad para almacenar la ruta de acceso de la raíz del sitio publicado. |
    | `indexPathProp` | Nombre de propiedad para almacenar la ruta de la página de aterrizaje/índice del sitio publicado. |
-   | `pdfPathProp` | Nombre de propiedad para almacenar la ruta del PDF del tema, si la generación del PDF del tema está habilitada. |
+   | `pdfPathProp` | Nombre de propiedad para almacenar la ruta de PDF del tema, si la generación de PDF del tema está habilitada. |
    | `pdfTypeProp` | Nombre de propiedad para almacenar el tipo de generación de PDF. Actualmente, esta propiedad siempre contiene &quot;Tema&quot;. |
    | `searchPathProp` | Nombre de propiedad para almacenar la ruta de la página de búsqueda, si la plantilla incluye una página de búsqueda. |
    | `siteTitleProp` | Nombre de propiedad para almacenar el título del sitio que se está publicando. Este título suele ser el mismo que el título del mapa que se está publicando. |
@@ -126,27 +126,27 @@ AEM Realice los siguientes pasos para especificar su propia plantilla de diseño
 
 >[!NOTE]
 >
-> AEM Después de crear un nodo de plantilla de diseño personalizado, debe actualizar la opción Diseño en los ajustes preestablecidos de salida del sitio de la para utilizar el nodo de plantilla de diseño personalizado.
+> Después de crear un nodo de plantilla de diseño personalizado, debe actualizar la opción Diseño en los ajustes preestablecidos de salida del sitio de AEM para utilizar el nodo de plantilla de diseño personalizado.
 
-Para obtener más información, consulta [Creación de tu primer sitio web de Adobe Experience Manager AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en) y [Aspectos básicos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) del desarrollo de tu propio sitio web sobre la creación de sitios web en el sitio web de.
+Para obtener más información, consulte [Creación de su primer sitio web de Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en) y [Aspectos básicos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) del desarrollo de su propio sitio web en AEM.
 
-### AEM Utilizar el título del documento para generar la salida del sitio de
+### Usar título de documento para generar salida del sitio de AEM
 
-AEM Al generar la salida del sitio de, la forma en que se generan las direcciones URL desempeña un papel importante en la capacidad de detección del contenido. Si utiliza nombres de archivo basados en UUID, la generación de direcciones URL basadas en el UUID de sus archivos no sería fácil de buscar. AEM Como administrador o editor, tiene el control sobre cómo desea generar las direcciones URL para la salida del sitio de la. AEM Guides AEM le proporciona una configuración a través de la cual puede elegir generar las direcciones URL de salida del sitio mediante el título del archivo en lugar de utilizar nombres de archivo basados en UUID. De forma predeterminada, para sistemas de archivos basados en UUID, esta opción está activada. AEM Esto implica que, cuando se genera la salida del sitio de la aplicación para sistemas de archivos basados en UUID, los títulos del archivo se utilizan para generar las direcciones URL y no los UUID de los archivos.
+Al generar la salida del sitio de AEM, la forma en que se generan las direcciones URL desempeña un papel importante en la capacidad de detección del contenido. Si utiliza nombres de archivo basados en UUID, la generación de direcciones URL basadas en el UUID de sus archivos no sería fácil de buscar. Como administrador o editor, tiene el control sobre cómo desea generar las direcciones URL para la salida del sitio de AEM. AEM Guides le proporciona una configuración a través de la cual puede elegir generar las direcciones URL de la salida del sitio de AEM utilizando el título del archivo en lugar de los nombres de archivo basados en UUID. De forma predeterminada, para sistemas de archivos basados en UUID, esta opción está activada. Esto implica que, cuando se genera la salida del sitio de AEM para sistemas de archivos basados en UUID, los títulos del archivo se utilizan para generar las direcciones URL y no los UUID de los archivos.
 
 >[!NOTE]
 >
-> AEM Además, puede configurar reglas para permitir solo un conjunto de caracteres en las direcciones URL de la salida de un sitio de. AEM Para obtener más información, consulte [Configurar las reglas de saneamiento de nombres de archivo para crear temas y publicar la salida del sitio de la](#id2164D0KD0XA).
+> Además, puede configurar reglas para permitir solo un conjunto de caracteres en las direcciones URL de la salida de un sitio de AEM. Para obtener más información, consulte [Configurar las reglas de saneamiento de nombres de archivo para crear temas y publicar la salida del sitio de AEM](#id2164D0KD0XA).
 
-Siga las instrucciones indicadas en [Anulaciones de configuración](download-install-additional-config-override.md#) para crear el archivo de configuración. AEM En el archivo de configuración, proporcione los siguientes detalles \(property\) para configurar la generación de direcciones URL en la salida del sitio de la:
+Siga las instrucciones indicadas en [Anulaciones de configuración](download-install-additional-config-override.md#) para crear el archivo de configuración. En el archivo de configuración, proporcione los siguientes detalles \(property\) para configurar la generación de direcciones URL en la salida del sitio de AEM:
 
 | PID | Clave de propiedad | Valor de propiedad |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | Boolean \(true/false\). Si desea generar un resultado utilizando el título de página, establezca esta propiedad en true. De manera predeterminada, está establecido para utilizar el nombre de archivo.<br> **Valor predeterminado**: false |
 
-### AEM Configure la dirección URL de la salida del sitio de para utilizar el título del documento
+### Configure la dirección URL de la salida del sitio de AEM para utilizar el título del documento
 
-AEM Puede utilizar los títulos de los documentos en la dirección URL de la salida del sitio de la. AEM Si el nombre de archivo no existe o contiene todos los caracteres especiales, puede configurar el sistema para que reemplace los caracteres especiales con un separador en la dirección URL de la salida del sitio de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de salida. También puede configurarlo para que los reemplace por el nombre del primer tema secundario.
+Puede utilizar los títulos de los documentos en la dirección URL de la salida del sitio de AEM. Si el nombre del archivo no existe o contiene todos los caracteres especiales, puede configurar el sistema para que reemplace los caracteres especiales con un separador en la dirección URL de la salida del sitio de AEM. También puede configurarlo para que los reemplace por el nombre del primer tema secundario.
 
 
 Para configurar los nombres de página, realice los siguientes pasos:
@@ -161,9 +161,9 @@ Para configurar los nombres de página, realice los siguientes pasos:
 Por ejemplo, si el *@navtitle* de `<topichead>` tiene todos los caracteres especiales y usted establece la propiedad `aemsite.pagetitle` en true, de manera predeterminada, usa un separador. Si establece la propiedad `nodename.systemDefinedPageName` en true, se muestra el nombre del primer tema secundario.
 
 
-### AEM Configure las reglas de saneamiento de nombres de archivo para crear temas y publicar resultados del sitio de la {#id2164D0KD0XA}
+### Configure las reglas de saneamiento de nombres de archivo para crear temas y publicar resultados en AEM Sites y otros formatos {#id2164D0KD0XA}
 
-AEM Como administrador, puede definir una lista de caracteres especiales válidos permitidos en los nombres de archivo, que finalmente forman la dirección URL de la salida de un sitio de. En versiones anteriores, se permitía a los usuarios definir nombres de archivo que contenían caracteres especiales como `@`, `$`, `>`, etc. AEM Estos caracteres especiales daban como resultado una dirección URL codificada en la generación de páginas del sitio de la.
+Como administrador, puede definir una lista de caracteres especiales válidos permitidos en los nombres de archivo, que finalmente forman la dirección URL de la salida de un sitio de AEM. En versiones anteriores, se permitía a los usuarios definir nombres de archivo que contenían caracteres especiales como `@`, `$`, `>`, etc. Estos caracteres especiales provocaban URL codificadas en la generación de páginas del sitio de AEM.
 
 A partir de la versión 3.8, se han añadido configuraciones para definir una lista de caracteres especiales permitidos en los nombres de archivo. De manera predeterminada, la configuración de nombre de archivo válida contiene &quot;`a-z A-Z 0-9 - _`&quot;. Esto implica que, al crear un archivo, puede tener cualquier carácter especial en el título del archivo, pero internamente se reemplazará con un guión \(`-`\) en el nombre del archivo. Por ejemplo, puede tener el título del archivo como Introducción 1 o Introduction@1, el nombre de archivo correspondiente generado para ambos casos sería Introducción-1.
 
@@ -173,11 +173,15 @@ Cuando defina una lista de caracteres válidos, recuerde que estos caracteres &q
 >
 > Si no configura la lista de caracteres especiales válidos, el proceso de creación de archivos podría dar algunos resultados inesperados.
 
-Siga las instrucciones indicadas en [Anulaciones de configuración](download-install-additional-config-override.md#) para crear el archivo de configuración. AEM En el archivo de configuración, proporcione los siguientes detalles \(property\) para configurar los caracteres especiales válidos en los nombres de archivo y en la salida del sitio de la:
+Siga las instrucciones indicadas en [Anulaciones de configuración](download-install-additional-config-override.md#) para crear el archivo de configuración. En el archivo de configuración, proporcione los siguientes detalles \(property\) para configurar los caracteres especiales válidos en los nombres de archivo y en la salida del sitio de AEM:
 
 | PID | Clave de propiedad | Valor de propiedad |
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Asegúrese de que la propiedad está establecida en ``'<>`@$``. Puede agregar más caracteres especiales a esta lista. |
+
+>[!NOTE]
+> 
+> La configuración anterior se aplica a todos los formatos de salida. Esto significa que, al generar una salida de PDF, HTML o personalizada, la salida final sigue las reglas de saneamiento de nombres de archivo configuradas.
 
 También puede configurar otras propiedades, como el uso de minúsculas en los nombres de archivo, el separador para controlar los caracteres no válidos y el número máximo de caracteres permitidos en los nombres de archivo. Para configurar estas propiedades, agregue los siguientes pares de valor clave en el archivo de configuración:
 
@@ -187,19 +191,19 @@ También puede configurar otras propiedades, como el uso de minúsculas en los n
 | `nodename.separator` | Cualquier carácter. <br> **Valor predeterminado**: \_ *\(guion bajo\)* |
 | `nodename.maxlength` | Valor entero.<br> **Valor predeterminado**: 50 |
 
-### AEM Configuración del acoplamiento de la estructura de nodos del sitio de la
+### Configuración del acoplamiento de la estructura de nodos del sitio de AEM
 
-AEM Cuando se genera la salida del sitio de, se crea internamente un nodo para cada elemento de los temas. Para un mapa DITA con miles de temas, esta estructura de nodos puede llegar a ser demasiado profunda. Este tipo de estructura de nodos profundamente anidados puede tener problemas de rendimiento para sitios más grandes. AEM La siguiente instantánea muestra la estructura de nodos profundamente anidados para una salida de sitio de la:
+Cuando se genera la salida del sitio de AEM, se crea internamente un nodo para cada elemento de los temas. Para un mapa DITA con miles de temas, esta estructura de nodos puede llegar a ser demasiado profunda. Este tipo de estructura de nodos profundamente anidados puede tener problemas de rendimiento para sitios más grandes. La siguiente instantánea muestra la estructura de nodos profundamente anidados para una salida de sitio de AEM:
 
 ![](assets/deep-nested-aem-site-node-structure.png)
 
 En la instantánea anterior, observe que hay un nodo creado para cada elemento `p` y sus subelementos subsiguientes, y que se crea una estructura similar para todos los demás elementos utilizados en el tema.
 
-AEM Guides AEM le permite configurar cómo se crea internamente la estructura de nodos de la salida del sitio de la manera que lo hace. Puede aplanar la estructura del nodo en elementos especificados, lo que significa que puede definir un elemento que se considerará como el elemento principal y todos los subelementos dentro de él se combinarán con el elemento principal. Por ejemplo, si decide acoplar el elemento `p`, cualquier elemento que aparezca dentro del elemento `p` se combinará con el elemento principal `p`. No se crearía una nota independiente para ningún subelemento dentro del elemento `p`. La siguiente instantánea muestra la estructura de nodos acoplada en el elemento `p`:
+AEM Guides le permite configurar cómo se crea internamente la estructura de nodos de la salida del sitio de AEM. Puede aplanar la estructura del nodo en elementos especificados, lo que significa que puede definir un elemento que se considerará como el elemento principal y todos los subelementos dentro de él se combinarán con el elemento principal. Por ejemplo, si decide acoplar el elemento `p`, cualquier elemento que aparezca dentro del elemento `p` se combinará con el elemento principal `p`. No se crearía una nota independiente para ningún subelemento dentro del elemento `p`. La siguiente instantánea muestra la estructura de nodos acoplada en el elemento `p`:
 
 ![](assets/flattened-aem-site-node-structure.png)
 
-AEM Para acoplar la estructura de nodos del sitio de la, realice los siguientes pasos:
+Para acoplar la estructura de nodos del sitio de AEM, realice los siguientes pasos:
 
 1. Identifique los elementos en los que desea acoplar la estructura del nodo:
 
@@ -231,13 +235,13 @@ AEM Para acoplar la estructura de nodos del sitio de la, realice los siguientes 
    | `com.adobe.dxml.flattening.FlatteningConfigurationService` | `flattening.enabled` | Booleano \(true/false\).<br> **Valor predeterminado**: `false` |
 
 
-AEM Ahora, cuando genere la salida del sitio de la, los nodos dentro del elemento `p` se acoplan y almacenan dentro del propio elemento `p`. Puede encontrar las nuevas propiedades de acoplamiento para el elemento `p` en CRXDE.
+Ahora, cuando genere la salida del sitio de AEM, los nodos dentro del elemento `p` se acoplan y almacenan dentro del propio elemento `p`. Puede encontrar las nuevas propiedades de acoplamiento para el elemento `p` en CRXDE.
 
 ![](assets/flatten-aem-site-note-props-crxde.png)
 
-AEM **Busque una cadena dentro del contenido en la salida de sitio de la red de distribución de datos** en la página de salida de sitio de la red
+**Busque una cadena dentro del contenido en la salida del sitio de AEM**
 
-AEM De forma predeterminada, puede buscar una cadena en los títulos solo dentro de la salida del sitio de la. AEM Puede configurar el sistema para que busque una cadena tanto en los títulos como en el contenido o el cuerpo de la salida del sitio de la lista de distribución de contenido ().
+De forma predeterminada, solo puede buscar una cadena en los títulos dentro de la salida del sitio de AEM. Puede configurar el sistema para que busque una cadena tanto en los títulos como en el contenido o el cuerpo de la salida del sitio de AEM.
 
 >[!NOTE]
 >
@@ -245,7 +249,7 @@ AEM De forma predeterminada, puede buscar una cadena en los títulos solo dentro
 
 ![](assets/flatten-aem-site-note-props-crxde-search.png)
 
-AEM Para habilitar la búsqueda, debe configurar el acoplamiento de la estructura de nodos del sitio de la red de distribución de contenido ().
+Para habilitar la búsqueda, debe configurar el acoplamiento de la estructura de nodos del sitio de AEM.
 
 ATENCIÓN:
 
@@ -255,17 +259,17 @@ Puede buscar hasta 1 MB de contenido plano. Por ejemplo, en la captura de pantal
 >
 > La búsqueda funciona en los elementos solamente si el atributo `<flatten>` está establecido en true. De manera predeterminada, AEM Guides tiene el atributo `<flatten>` establecido en true para los elementos de texto que se utilizan con más frecuencia, como &lt;p\> &lt;ul\> &lt;lId\>. Sin embargo, si ha creado algunos elementos personalizados, debe establecer el atributo `<flatten>` en true en el archivo elementmapping.xml.
 
-AEM **Impedir el acoplamiento de la estructura de nodos del sitio de la**
+**Impedir el acoplamiento de la estructura de nodos del sitio de AEM**
 
-AEM De forma similar a especificar el nodo que se va a acoplar en la salida del sitio de la aplicación, también se puede especificar un elemento que desee excluir de esta configuración. Por ejemplo, si desea acoplar nodos en el elemento `body`, pero no desea acoplar ningún elemento `table` dentro de `body`, puede agregar la propiedad de exclusión dentro de la definición del elemento `table`.
+De forma similar a especificar el nodo que se acoplará en la salida del sitio de AEM, también puede especificar el elemento que desee excluir de esta configuración. Por ejemplo, si desea acoplar nodos en el elemento `body`, pero no desea acoplar ningún elemento `table` dentro de `body`, puede agregar la propiedad de exclusión dentro de la definición del elemento `table`.
 
 Para excluir el elemento `table` del acoplamiento, agregue la siguiente propiedad a la definición del elemento `table`:
 
 `<preventancestorflattening>true|false</preventancestorflattening>`
 
-### AEM Configurar el control de versiones de las páginas eliminadas en la salida del sitio de
+### Configuración de las versiones para las páginas eliminadas en la salida del sitio de AEM
 
-AEM Cuando genera la salida del sitio de la con la opción **Eliminar y** Crear ****seleccionada para la configuración Páginas de salida existentes, se crea una versión para las páginas que se están eliminando. Puede configurar el sistema para que detenga la creación de una versión antes de la eliminación.
+Cuando genera la salida del sitio de AEM con la opción **Eliminar y** Crear ****seleccionada para la configuración Páginas de salida existentes, se crea una versión para las páginas que se están eliminando. Puede configurar el sistema para que detenga la creación de una versión antes de la eliminación.
 
 Realice los siguientes pasos para detener la creación de una versión para la página que se está eliminando:
 
@@ -386,7 +390,7 @@ Para validar los valores de metadatos pasados a DITA-OT, se puede utilizar un en
 
   Para acceder a metadata.xml:
 
-   - AEM Inicie sesión en la ubicación del servidor donde se está ejecutando la instancia de.
+   - Inicie sesión en la ubicación del servidor donde se ejecuta la instancia de AEM.
    - Migre a crx-quickstart/profiles/ditamaps/&lt;newly-created-directory-name\>/metadata.xml.
 - Formato de archivo de muestra:
 
@@ -420,15 +424,31 @@ Para validar los valores de metadatos pasados a DITA-OT, se puede utilizar un en
 >
 > Si no hay metadatos específicos para el archivo, la etiqueta &lt;meta\> con la clave no aparecerá como la propiedad para ese archivo en el archivo metadata.xml.
 
-## AEM Personalización de la asignación de elementos DITA con componentes de {#id1679J600HEL}
+## Configure el campo de argumento de línea de comandos DITA-OT para aceptar metadatos de mapa raíz
 
-Los elementos DITA de AEM Guides AEM se asignan a sus correspondientes componentes de. AEM Guides AEM utiliza esta asignación en flujos de trabajo como la publicación y la revisión para convertir un elemento DITA en un componente de correspondiente. La asignación se define en el archivo `elementmapping.xml`, al cual se puede tener acceso mediante el administrador de paquetes.
+Para utilizar el campo de argumento de línea de comandos DITA-OT para pasar metadatos de mapa raíz, realice los siguientes pasos:
+
+1. Siga las instrucciones indicadas en [Anulaciones de configuración](download-install-additional-config-override.md#) para crear el archivo de configuración.
+1. En el fichero de configuración, proporcione los siguientes detalles \(property\) para configurar el campo del argumento de la línea de comandos DITA-OT en el ajuste preestablecido:
+
+| PID | Clave de propiedad | Valor de propiedad |
+|---|------------|--------------|
+| `com.adobe.fmdita.config.ConfigManager` | `pass.metadata.args.cmd.line` | Boolean\(`true/false`\).**Valor predeterminado**: `true` |
+
+- Si se establece el valor de la propiedad en **true**, se habilita la funcionalidad de línea de comandos DITA-OT, lo que permite pasar los metadatos a través de la línea de comandos DITA-OT.
+- Si se establece el valor de la propiedad en **false**, se deshabilita la funcionalidad de línea de comandos DITA-OT. A continuación, puede utilizar el campo Propiedad en el ajuste preestablecido para pasar los metadatos.
+
+
+
+## Personalización de la asignación de elementos DITA con componentes de AEM {#id1679J600HEL}
+
+Los elementos DITA de AEM Guides se asignan a sus componentes AEM correspondientes. AEM Guides utiliza esta asignación en flujos de trabajo como la publicación y la revisión para convertir un elemento DITA en un componente de AEM correspondiente. La asignación se define en el archivo `elementmapping.xml`, al cual se puede tener acceso mediante el administrador de paquetes.
 
 >[!NOTE]
 >
 > No realice ninguna personalización en los archivos de configuración predeterminados disponibles en el nodo ``libs``. Debe crear una superposición del nodo ``libs`` en el nodo ``apps`` y actualizar los archivos necesarios solo en el nodo ``apps``.
 
-AEM Se pueden utilizar las asignaciones de elementos DITA predefinidas o se pueden asignar elementos DITA a los componentes personalizados de la aplicación de la aplicación de la aplicación de la aplicación de la aplicación de la aplicación de la aplicación de la. AEM Para utilizar los componentes de la personalizada, debe comprender la estructura del archivo `elementmapping.xml`.
+Puede utilizar las asignaciones de elementos DITA predefinidas o asignar elementos DITA a los componentes personalizados de AEM. Para usar los componentes personalizados de AEM, debe comprender la estructura del archivo `elementmapping.xml`.
 
 ### estructura de elementmapping.xml
 
@@ -573,23 +593,23 @@ En la tabla siguiente se describen los elementos del esquema de elementos DITA:
 |-------|-----------|
 | `<ditaelement>` | Nodo de nivel superior para cada elemento de asignación. |
 | `<class>` | Atributo de clase del elemento DITA de destino para el que se está escribiendo el componente.<br> Por ejemplo, el atributo de clase para el tema DITA es: <br> `- topic/topic` |
-| `<componentpath>` | AEM La ruta CRXDE del componente de asignado. |
+| `<componentpath>` | Ruta CRXDE del componente de AEM asignado. |
 | `<type>` | Valores posibles: <br> -   **COMPUESTO**: procesar también elementos secundarios <br> -   **STANDALONE**: omite el procesamiento de elementos secundarios |
-| `<attributeprop>` | AEM Se utiliza para asignar atributos y valores DITA serializados a nodos como propiedad de la propiedad de la propiedad de la propiedad de datos de. AEM Por ejemplo, si tiene `<note type="Caution">` elemento y el componente asignado para este elemento tiene `<attributeprop>attr_t</ attributeprop>`, el atributo y valor del nodo se serializa a la propiedad `attr_t` del nodo correspondiente \( `attr_t->type="caution"`\). |
+| `<attributeprop>` | Se utiliza para asignar atributos y valores DITA serializados a nodos AEM como propiedad. Por ejemplo, si tiene el elemento `<note type="Caution">` y el componente asignado para este elemento tiene `<attributeprop>attr_t</ attributeprop>`, el atributo y valor del nodo se serializa a la propiedad `attr_t` del nodo \( `attr_t->type="caution"`\) de AEM correspondiente. |
 | `<textprop>propname_t</textprop>` | Guardar la salida `getTextContent()` en la propiedad definida por `propname_t.` <br> **Nota:** Esta es una propiedad optimizada. |
 | `<xmlprop>propname_x </xmlprop>` | Guardar el XML serializado de este nodo en la propiedad definida por `propname_x.<br> `**Nota:** Esta es una propiedad optimizada. |
 | `<xpath>` | Si se proporciona un elemento XPath en la asignación de elementos, junto con el nombre del elemento y la clase, la condición XPath también debe cumplirse para que se utilice la asignación de componentes. |
 | `<target>` | Coloque el elemento DITA en el repositorio CRX en la ubicación especificada.<br> valores posibles: <br> - **head**: bajo el nodo de encabezado <br> - **text**: bajo el nodo de párrafo |
-| `<wrapelement>` | El elemento HTML dentro del que se envolverá el contenido. |
+| `<wrapelement>` | El elemento HTML en el que ajustar el contenido. |
 | `<wrapclass>` | El valor del elemento para la propiedad `wrapclass.` |
 | `<attributemap>` | Nodo contenedor que contiene uno o más `<attribute>` nodos. |
-| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | AEM Asigna los atributos DITA a las propiedades de la: <br> -   **`from`**: nombre de atributo DITA <br> -   AEM **`to`**: nombre de propiedad de componente <br> -   **`ispath`**: si el atributo es un valor de ruta \(por ejemplo: *image*\) <br> -   **`rel`**: si la ruta de acceso es el origen o el destino <br> **Nota:** Si `attrname` empieza por `%`, asigne `attrname minus '%'` a la prop &#39; `propname`&#39;. |
+| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | Asigna los atributos DITA a las propiedades de AEM: <br> -   **`from`**: nombre de atributo DITA <br> -   **`to`**: nombre de propiedad de componente de AEM <br> -   **`ispath`**: si el atributo es un valor de ruta \(por ejemplo: *image*\) <br> -   **`rel`**: si la ruta de acceso es el origen o el destino <br> **Nota:** Si `attrname` empieza por `%`, asigne `attrname minus '%'` a la prop &#39; `propname`&#39;. |
 
 **Notas adicionales**
 
 - Si planea anular la asignación de elementos predeterminada, se recomienda no realizar los cambios en el archivo `elementmapping.xml` predeterminado. Debe crear un nuevo archivo XML de asignación y colocar el archivo en otra ubicación, preferiblemente dentro de la carpeta de aplicaciones personalizadas que cree.
 
-- En el archivo `elementmapping.xml`, hay muchas entradas de asignación que hacen referencia al componente fmdita/components/dita/wrapper. Wrapper es un componente genérico que procesa construcciones DITA relativamente sencillas utilizando propiedades en su nodo de sitio para generar un HTML relevante. Utiliza la propiedad `wrapelement` para generar etiquetas envolventes y delega el procesamiento secundario a los componentes correspondientes. Esto resulta útil en casos en los que solo desea un componente contenedor. En lugar de crear un nuevo componente que procese una etiqueta contenedora específica como `div` o `p`, puede utilizar el componente Envolvente con las propiedades `wrapelement` y `wrapclass` para lograr el mismo efecto.
+- En el archivo `elementmapping.xml`, hay muchas entradas de asignación que hacen referencia al componente fmdita/components/dita/wrapper. Wrapper es un componente genérico que procesa construcciones DITA relativamente sencillas utilizando propiedades en su nodo de sitio para generar HTML relevantes. Utiliza la propiedad `wrapelement` para generar etiquetas envolventes y delega el procesamiento secundario a los componentes correspondientes. Esto resulta útil en casos en los que solo desea un componente contenedor. En lugar de crear un nuevo componente que procese una etiqueta contenedora específica como `div` o `p`, puede utilizar el componente Envolvente con las propiedades `wrapelement` y `wrapclass` para lograr el mismo efecto.
 
 - No se recomienda guardar grandes cantidades de texto en las propiedades JCR de la cadena. El cálculo del tipo de propiedad optimizada en la generación de salida garantiza que el contenido de texto grande no se guarde como tipo de cadena. En su lugar, cuando es necesario guardar contenido que supera un determinado umbral, el tipo de la propiedad se cambia a binario. De manera predeterminada, este umbral está configurado a 512 bytes, pero se puede cambiar en el Administrador de configuración \(*com.adobe.fmdita.config.ConfigManager*\) cambiando la opción **Guardar como umbral binario**.
 
@@ -600,7 +620,7 @@ En la tabla siguiente se describen los elementos del esquema de elementos DITA:
 
 ## Personalizar la consola de mapas DITA {#id188HC08M0CZ}
 
-AEM Guides le ofrece la flexibilidad de ampliar las capacidades de la consola de mapas DITA. Por ejemplo, si tiene un conjunto de informes que son diferentes de los disponibles en AEM Guides, puede agregar dichos informes a la consola de mapas. AEM Para personalizar la consola de asignaciones, debe crear una biblioteca de cliente de la biblioteca \(o ClientLib\) que contenga el código para realizar la funcionalidad que necesita.
+AEM Guides le ofrece la flexibilidad de ampliar las capacidades de la consola de mapas DITA. Por ejemplo, si tiene un conjunto de informes que son diferentes de los disponibles en AEM Guides, puede agregar dichos informes a la consola de mapas. Para personalizar la consola de asignaciones, debe crear una Biblioteca de cliente de AEM \(o ClientLib\) que contenga el código para realizar la funcionalidad que necesita.
 
 >[!NOTE]
 >
@@ -610,11 +630,11 @@ AEM Guides proporciona la categoría `apps.fmdita.dashboard-extn` para personali
 
 >[!NOTE]
 >
-> AEM Para obtener más información acerca de cómo crear la biblioteca de cliente de la aplicación, vea [Usar bibliotecas del cliente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
+> Para obtener más información acerca de cómo crear la biblioteca de cliente de AEM, vea [Usar bibliotecas del lado del cliente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## Controlar la representación de imágenes durante la generación de salida {#id177BF0G0VY4}
 
-AEM viene con un conjunto de flujos de trabajo predeterminados y controladores de medios para procesar recursos. AEM En la práctica, hay flujos de trabajo predefinidos para gestionar el procesamiento de recursos para los tipos MIME más comunes. AEM Normalmente, para cada imagen que carga, se crean varias representaciones de la misma en formato binario, lo que hace que la imagen se cree más de una vez. Estas representaciones pueden tener un tamaño diferente, con una resolución diferente, con una marca de agua agregada o cualquier otra característica modificada. AEM Para obtener más información acerca de cómo administra los recursos los recursos, vea [Procesar Assets AEM mediante controladores de medios y flujos de trabajo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) en la documentación de la documentación de.
+AEM incluye un conjunto de flujos de trabajo predeterminados y controladores de medios para procesar recursos. En AEM, hay flujos de trabajo predefinidos para gestionar el procesamiento de recursos para los tipos MIME más comunes. Normalmente, para cada imagen que carga, AEM crea varias representaciones de la misma en formato binario. Estas representaciones pueden tener un tamaño diferente, con una resolución diferente, con una marca de agua agregada o cualquier otra característica modificada. Para obtener más información sobre cómo administra AEM los recursos, consulte [Procesamiento de Assets mediante controladores de medios y flujos de trabajo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) en la documentación de AEM.
 
 AEM Guides le permite configurar qué representación de imágenes utilizar en el momento de generar la salida de sus documentos. Por ejemplo, puede elegir una de las representaciones de imágenes predeterminadas o crear una y utilizar la misma para publicar los documentos. La asignación de representación de imágenes para publicar los documentos se almacena en el archivo `/libs/fmdita/config/ **renditionmap.xml**`. Un fragmento del archivo `renditionmap.xml` es el siguiente:
 
@@ -636,7 +656,7 @@ AEM Guides le permite configurar qué representación de imágenes utilizar en e
 </renditionmap>
 ```
 
-El elemento `mimetype` especifica el tipo MIME del formato de archivo. El elemento `rendition output` especifica el tipo de formato de salida y el nombre de la representación \(por ejemplo, `cq5dam.web.1280.1280.jpeg`\) que se debe utilizar para publicar el resultado especificado. Puede especificar las representaciones de imágenes que se utilizarán para todos los formatos de salida admitidos: AEMSITE, PDF, HTML5, EPUB y PERSONALIZADO.
+El elemento `mimetype` especifica el tipo MIME del formato de archivo. El elemento `rendition output` especifica el tipo de formato de salida y el nombre de la representación \(por ejemplo, `cq5dam.web.1280.1280.jpeg`\) que se debe utilizar para publicar el resultado especificado. Puede especificar las representaciones de imágenes que se utilizarán para todos los formatos de salida admitidos: AEM SITE, PDF, HTML5, EPUB y PERSONALIZADO.
 
 Si la representación especificada no está presente, el proceso de publicación de AEM Guides busca primero la representación web de la imagen dada. Si no se encuentra ni siquiera la representación web, se utiliza la representación original de la imagen.
 
@@ -682,3 +702,4 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 >[!TIP]
 >
 > Consulte la sección *Historial de salida* en la guía de prácticas recomendadas para conocer las prácticas recomendadas sobre cómo trabajar con el historial de salida.
+

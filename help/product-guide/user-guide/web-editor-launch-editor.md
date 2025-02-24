@@ -1,62 +1,55 @@
 ---
-title: Iniciar el editor web
-description: AEM Obtenga información sobre cómo iniciar el editor web desde la página de navegación de la, la interfaz de usuario de AEM Assets y la consola de mapas de DITA en AEM Guides.
+title: Iniciar el editor
+description: Obtenga información sobre cómo iniciar el editor desde la página de navegación de AEM, la interfaz de usuario de AEM Assets y la consola de mapas en Adobe Experience Manager Guides.
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
-# Iniciar el editor web {#id2056B0140HS}
+# Iniciar el editor {#id2056B0140HS}
 
-Puede iniciar el Editor Web desde las ubicaciones siguientes:
+Puede iniciar el Editor desde las siguientes ubicaciones:
 
-- [AEM Página de navegación de](#id2056BG00RZJ)
-- [IU de AEM Assets](#id2056BG0307U)
-- [Consola de mapa DITA](#id2056BG090BF)
+- [Página de navegación de Adobe Experience Manager](#adobe-experience-manager-navigation-page)
+- [IU de Adobe Experience Manager Assets](#adobe-experience-manager-assets-ui)
+- [Consola de mapas](#map-console)
 
-En las secciones siguientes se describen los detalles de cómo puede tener acceso al Editor Web y cómo puede iniciarlo desde varias ubicaciones.
+En las secciones siguientes se describen los detalles de cómo puede acceder al Editor e iniciarlo desde varias ubicaciones.
 
-## AEM Página de navegación de {#id2056BG00RZJ}
+## Página de navegación de Adobe Experience Manager
 
-AEM Al iniciar sesión en la sesión de, se le mostrará la página Navegación:
+Al iniciar sesión en Experience Manager, se le muestra la página Navegación:
 
 ![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-Al hacer clic en el vínculo **Guías**, accederá directamente al Editor web.
+Si selecciona el vínculo **Guías**, accederá a la [página de inicio de Adobe Experience Manager Guides](./intro-home-page.md).
+
+![](images/aem-home-page.png){width="800" align="left"}
+
+Para iniciar el Editor, ve a la barra de navegación y, a continuación, selecciona **Editor** en la lista desplegable. La Página de inicio está seleccionada de forma predeterminada.
+
+![](images/editor-home-page-dropdown.png){width="350" align="left"}
+
+Cuando haya iniciado el Editor sin seleccionar ningún archivo, aparecerá una pantalla en blanco en el Editor. Puede abrir un archivo para editarlo desde Experience Manager **Repositorio** o sus **colecciones**.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
-Cuando haya iniciado el Editor Web sin seleccionar ningún archivo, aparecerá una pantalla en blanco. AEM Puede abrir un archivo para editarlo desde el repositorio o desde la colección de Favoritos de la aplicación.
-
-- AEM Haga clic en el icono **Guías** (![](images/aem-guides-icon.png) ) para volver a la página Navegación de la.
-
-- El botón **Cerrar** le lleva a un destino de acuerdo con su configuración:
+También puede iniciar el Editor abriendo los archivos existentes presentes en el widget **Archivos recientes** y el widget **Colecciones** de la [experiencia de la página principal de Adobe Experience Manager Guides](./intro-home-page.md).
 
 
+Para volver a la página Navegación de Experience Manager, seleccione el logotipo de Adobe Experience Manager en la esquina superior izquierda del encabezado superior.
 
-  <details>
 
-  <summary> Cloud Services </summary>
+## IU de Adobe Experience Manager Assets
 
-  Si utiliza Cloud Service AEM, haga clic en el botón **Cerrar** para volver a la página Navegación de la barra de herramientas de la barra de herramientas de la barra de herramientas de la barra de herramientas.
-  </details>
+Otra ubicación desde la que puede iniciar el Editor es desde la interfaz de usuario de Experience Manager Assets. Puede seleccionar uno o varios temas y abrirlos directamente en el Editor.
 
-  <details>
-
-  <summary> Software On-Premise</summary>
-
-  Si utiliza el software On-premise de AEM Guides (4.2.1 y versiones posteriores), haga clic en el botón **Cerrar** de la derecha para volver a la ruta de acceso del archivo actual en la interfaz de usuario de Assets.
-
-  </details>
-
-## IU de AEM Assets {#id2056BG0307U}
-
-Otra ubicación desde la que puede iniciar el Editor web es desde la interfaz de usuario de AEM Assets. Puede seleccionar uno o varios temas y abrirlos directamente en el Editor web. Para abrir un tema en el Editor Web, siga estos pasos:
+Para abrir un tema en el Editor, siga estos pasos:
 
 1. En la interfaz de usuario de Assets, vaya al tema que desee editar.
 
@@ -64,64 +57,80 @@ Otra ubicación desde la que puede iniciar el Editor web es desde la interfaz de
    >
    > También puede ver el UUID del tema.
 
-   .
-
    ![](images/assets_ui_with_uuid_cs.png){width="800" align="left"}
 
    >[!IMPORTANT]
    >
    > Asegúrese de tener los permisos de lectura y escritura en la carpeta que contiene el tema que desea editar.
 
-1. Para obtener un bloqueo exclusivo sobre el tema, selecciónelo y haga clic en **Desproteger**.
+1. Para obtener un bloqueo exclusivo sobre el tema, selecciona el tema y selecciona **Finalizar compra**.
 
    >[!IMPORTANT]
    >
-   > Si el administrador ha configurado la opción **Deshabilitar edición sin desprotección**, debe desproteger el archivo antes de editarlo. Si no desprotege el archivo, no podrá ver la opción de edición.
+   > Si el administrador ha configurado la opción **Deshabilitar edición sin bloquear el archivo**, debe desproteger el archivo antes de editarlo. Si no desprotege el archivo, no podrá ver la opción de edición.
 
-1. Cierre el modo de selección de recursos y haga clic en el tema que desee editar.
+1. Cierre el modo de selección de recursos y seleccione el tema que desea editar.
 
    Se muestra la vista previa del tema.
 
-   Puede abrir el editor web desde la vista de lista, la vista de tarjeta y el modo de vista previa.
+   Puede abrir el editor desde la vista de lista, la vista de tarjeta y el modo de vista previa.
 
    >[!IMPORTANT]
    >
-   > Si desea abrir varios temas para editarlos, seleccione los temas que desee en la interfaz de usuario de recursos y haga clic en Editar. Asegúrese de que el explorador no tenga habilitado el bloqueador de ventanas emergentes; de lo contrario, solo se abrirá el primer tema de la lista seleccionada para editarlo.
+   > Si desea abrir varios temas para editarlos, selecciónelos en la interfaz de usuario de recursos y seleccione **Editar**. Asegúrese de que el explorador no tenga un bloqueador de ventanas emergentes habilitado; de lo contrario, solo se abrirá el primer tema de la lista seleccionada para editarlo.
 
    ![](images/edit-from-preview_cs.png){width="800" align="left"}
 
-   Si no desea obtener una vista previa de un tema y desea abrirlo directamente en el Editor Web, haga clic en el icono Editar del menú de acción rápida desde la vista de tarjeta:
+   Si no desea obtener una vista previa de un tema y desea abrirlo directamente en el editor, seleccione el icono **Editar** en el menú de acción rápida de la vista de tarjeta:
 
    ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
 
-1. Haga clic en **Editar** para abrir el tema en el editor web.
+   El tema se abre en el Editor.
 
    ![](images/edit-mode.png){width="800" align="left"}
 
+También puede abrir un archivo de asignación en la interfaz de usuario de Assets e iniciar el Editor para editar los temas del archivo de asignación.
 
-## Consola de mapa DITA {#id2056BG090BF}
+Para abrir un mapa en el Editor, siga estos pasos:
 
-Para abrir el Editor Web desde la consola de mapas DITA, siga estos pasos:
-
-1. En la interfaz de usuario de Assets, desplácese hasta el fichero de mapa DITA que contiene el tema que desea editar y haga clic en él.
-
-   Se muestra la consola de mapas DITA.
-
-1. Haga clic en **Temas**.
-
-   Se muestra una lista de temas en el fichero de asignación. El UUID de los temas se muestra debajo del título del tema.
-
+1. En la interfaz de usuario de Assets, vaya y seleccione el archivo de asignación que contiene el tema que desea editar.
+1. En la consola de mapas DITA, vaya a la ficha **Temas**. Se muestra una lista de temas en el fichero de asignación.
 1. Seleccione el archivo de tema que desee editar.
-
-1. Haga clic en **Editar tema**.
+1. Seleccione **Editar tema**.
 
    ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
 
-1. El tema se abre en el Editor Web.
+1. El tema se abre en el Editor.
 
    >[!IMPORTANT]
    >
-   > Si el administrador ha configurado la opción **Deshabilitar edición sin desprotección**, debe desproteger el archivo antes de editarlo. Si no desprotege el archivo, el documento se abrirá en el editor en modo de solo lectura.
+   > Si el administrador ha configurado la opción **Deshabilitar edición sin bloquear el archivo**, debe desproteger el archivo antes de editarlo. Si no desprotege el archivo, el documento se abrirá en el editor en modo de solo lectura.
+
+## Consola de mapas
+
+Para abrir el editor desde la consola Mapa, siga estos pasos:
+
+1. Abra la página principal e inicie la consola Mapa.
+
+   ![](images/editor-map-console-dropdown.png){width="350" align="left"}
+
+   Al iniciar la consola Mapa sin seleccionar ningún archivo de mapa, se muestra una pantalla de consola Mapa en blanco. También puede abrir un archivo de asignación desde Experience Manager **Repositorio** o sus **colecciones**.
+
+   ![](images/launch-map-console.png){width="500" align="left"}
+
+1. Elija **Seleccionar asignación** para abrir un archivo de asignación que contenga los temas que desea editar en el Editor.
+1. Seleccione la ruta en la que se encuentra el archivo de mapa. El archivo de asignación seleccionado se añade a la consola Mapa.
+1. Vaya al archivo de asignación y seleccione **Abrir en editor** en la lista desplegable.
+
+   ![](images/map-console-open-in-editor.png){width="800" align="left"}
+
+   El archivo de mapa que contiene los temas está abierto para su edición en el Editor.
+
+   ![](images/map-console-edit-topics.png){width="800" align="left"}
 
 
-**Tema principal:**[ Trabajar con el editor web](web-editor.md)
+
+
+
+
+**Tema principal**: [Introducción al editor](web-editor.md)

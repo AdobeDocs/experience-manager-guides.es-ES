@@ -1,35 +1,49 @@
 ---
-title: Publicación basada en artículos desde el editor web
-description: Obtenga información sobre cómo publicar uno o más artículos desde el editor web. Generar resultados para uno o varios temas de un mapa DITA en AEM Guides.
+title: Generar salida de la base de conocimiento
+description: Obtenga información sobre cómo publicar uno o más artículos desde la consola Mapa. Generar resultados para uno o varios temas de un mapa DITA en AEM Guides.
 exl-id: d89ce69d-8d4c-4265-bfca-60763f561afd
-feature: Authoring, Features of Web Editor, Publishing
+feature: Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 4fbc9c8e28f2b68af0307255eb842065e93fbc83
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
 
-# Publicación basada en artículos desde el editor web {#id218CL05J0M1}
+# Generar salida de la base de conocimiento {#id218CL05J0M1}
 
-AEM Guides incluye una función de publicación basada en artículos integrada en el Editor web que permite a los usuarios publicar uno o más temas simultáneamente.
+Adobe Experience Manager Guides incluye una función de publicación basada en artículos que permite a los usuarios publicar uno o más artículos de la Base de conocimiento simultáneamente.
 
-AEM Este motor también viene con una plantilla de contenido OOTB, creada sobre los componentes principales de la base de datos, que permite a los usuarios crear un repositorio basado en el conocimiento del contenido técnico. Esta plantilla se puede personalizar para adaptarla a las necesidades de los clientes. Este motor permite a los usuarios crear el mapa DITA de forma aditiva y publicar temas cuando estén listos. Puede crear fácilmente los ajustes preestablecidos de salida para el mapa abierto en el panel Vista de mapa y generar rápidamente la salida para uno o más temas del mismo mapa.
+Este motor también incluye una plantilla de contenido OOTB, basada en los componentes principales de Adobe Experience Manager, que permite a los usuarios crear un repositorio basado en el conocimiento del contenido técnico. Esta plantilla se puede personalizar para adaptarla a las necesidades de los clientes. Este motor permite a los usuarios crear el mapa DITA de forma aditiva y publicar temas cuando estén listos.
 
-Si ha actualizado el contenido sólo para algunos temas del mapa DITA, no siempre tiene que publicar todo el mapa. Puede seleccionar y publicar sólo los temas actualizados desde el Editor Web.
+Si ha actualizado el contenido sólo para algunos temas del mapa DITA, no siempre tiene que publicar todo el mapa. Puede seleccionar y publicar solo los temas actualizados.
 
->[!NOTE]
->
-> AEM La publicación basada en artículos solo es aplicable a la salida del sitio de la.
+Para la publicación basada en artículos, debe crear el ajuste preestablecido de salida para el mapa DITA de la base de conocimiento. El mapa debe incluir los temas que desea publicar. También puede aplicar condiciones y especificar los detalles de AEM Sites para el ajuste preestablecido de salida. A continuación, puede generar resultados mediante la característica **Generar resultados**.
 
-Para la publicación basada en artículos, es necesario crear el ajuste preestablecido de salida para el mapa DITA desde el Editor Web. El mapa debe incluir los temas que desea publicar. AEM También puede aplicar condiciones y especificar los detalles del sitio de la para el ajuste preestablecido de salida. A continuación, puede generar la salida mediante la función Generar ajuste preestablecido.
+Siga estos pasos para generar resultados basados en artículos:
 
-También puede utilizar los ajustes preestablecidos de salida creados para el mapa DITA para generar la salida desde el panel Repositorio o el panel Vista de mapa. Se puede generar la salida para uno o varios temas, o para todo el mapa DITA.
+1. [Crear el ajuste preestablecido de Knowledge Base](./generate-output-knowledge-base.md) para la salida basada en artículos.
+1. Vaya a la pestaña **Artículos** y seleccione los temas para los que desea generar la salida.
+1. Seleccione **Generar salida** en la parte superior para generar la salida.
 
-- **[Crear ajustes preestablecidos de salida desde el editor web](web-editor-article-publishing-presets.md)**
+   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
-- **[Generar resultados desde el panel Repositorio o desde el panel Vista de mapa](web-editor-article-publishing-output.md)**
+1. En el mensaje **Confirmar archivos para publicar**, seleccione los archivos que desee publicar y confirme seleccionando **Publicar**.
+
+   ![Nuevo ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+
+   Verá el estado del proceso de generación de resultados. La columna **Temas** enumera los temas para los que se genera la salida, mientras que la columna **Estado** muestra el estado de publicación de cada tema.
 
 
-**Tema principal:**[ Trabajar con el editor web](web-editor.md)
+   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+
+   Para ver la salida, cierre el cuadro de diálogo **Salida generada** y seleccione **Ver salida** en la página preestablecida.
+
+
+   >[!NOTE]
+   >
+   > También puede Cambiar nombre, Duplicar o Eliminar un ajuste preestablecido de salida existente desde el menú Opciones.
+
+
+**Tema principal:**[ Trabajar con el editor](web-editor.md)
