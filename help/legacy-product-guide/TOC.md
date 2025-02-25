@@ -3,7 +3,7 @@ user-guide-title: IU antigua de Experience Manager Guides
 user-guide-description: Lea la documentación del producto de Adobe Experience Manager Guides mediante la interfaz de usuario antigua.
 breadcrumb-title: Documentación de AEM Guides
 hide: yes
-badgeAll: label="Guía antigua de la interfaz de usuario: más información" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Guía antigua de IU"
+badgeAll: label="Guía antigua de la interfaz de usuario&#58; más información" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Guía antigua de IU"
 source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
 source-wordcount: 555
