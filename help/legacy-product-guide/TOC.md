@@ -3,10 +3,10 @@ user-guide-title: IU antigua de Experience Manager Guides
 user-guide-description: Lea la documentación del producto de Adobe Experience Manager Guides mediante la interfaz de usuario antigua.
 breadcrumb-title: Documentación de AEM Guides
 hide: yes
-badgeAll: label="Guía antigua de la interfaz de usuario&#58; más información" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Guía antigua de IU"
-source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
+badgeAll: label="Guía antigua de la interfaz de usuario: más información" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Guía antigua de IU"
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
-source-wordcount: 555
+source-wordcount: 573
 ht-degree: 3%
 
 ---
@@ -46,6 +46,8 @@ ht-degree: 3%
                - [Vistas del Editor web](./user-guide/web-editor-views.md)
                - [Compatibilidad con archivos de Schematron](./user-guide/support-schematron-file.md)
                - [Sugerencias inteligentes con tecnología de IA para crear contenido](./user-guide/authoring-ai-based-smart-suggestions.md)
+               - [Ayuda inteligente con tecnología de IA para buscar contenido](./user-guide/ai-based-smart-help.md)
+               - [Asistente de IA para crear documentos con eficiencia inteligente](./user-guide/ai-assistant-right-panel.md)
                - [Creación de documentos de Markdown desde el editor web](./user-guide/web-editor-markdown-topic.md)
                - [Añadir citas al contenido](./user-guide/web-editor-apply-citations.md)
                - [Uso de datos de las fuentes de datos](./user-guide/web-editor-content-snippet.md)
@@ -117,6 +119,7 @@ ht-degree: 3%
       - [Solución de problemas básica](./user-guide/generate-output-basic-troubleshooting.md)
       - [Publicar fragmentos de contenido](./user-guide/publish-content-fragment.md)
       - [Publicar fragmentos de experiencias](./user-guide/publish-experience-fragment.md)
+      - [Publicación de páginas de AEM Sites](./user-guide/publish-aem-sites.md)
       - Activación masiva del contenido {#bulk-activation}
          - [Activación masiva de contenido publicado](./user-guide/conf-bulk-activation.md)
          - [Creación de una colección de mapas de activación masiva](./user-guide/conf-bulk-activation-create-map-collection.md)

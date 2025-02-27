@@ -3,7 +3,9 @@ title: Administración de archivos y carpetas
 description: Obtenga información sobre cómo administrar archivos y carpetas en AEM Guides. Copiar y pegar, arrastrar y soltar, eliminar, mover archivos y carpetas de forma masiva y buscar contenido DITA.
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '3109'
 ht-degree: 0%
@@ -60,13 +62,13 @@ En esta sección se explica cómo administra AEM Guides las operaciones básicas
 
   >[!NOTE]
   >
-  > **El administrador debe habilitar la característica Crear nueva versión para el archivo cargado**. Si esta función está habilitada, se crea una nueva versión para el archivo cargado. Si la opción no está seleccionada, no se crea una versión del archivo cargado. Para obtener más información, consulte la sección *Crear nueva versión para el archivo cargado* en el as a Cloud Service Instalar y configurar Adobe Experience Manager Guides.
+  > **El administrador debe habilitar la característica Crear nueva versión para el archivo cargado**. Si esta función está habilitada, se crea una nueva versión para el archivo cargado. Si la opción no está seleccionada, no se crea una versión del archivo cargado. Para obtener más información, consulte la sección *Crear nueva versión para el archivo cargado* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
   Si un archivo ya está desprotegido para ediciones por otro usuario e intenta cargar y sobrescribir el archivo existente, se producirá un error y se mostrará un error.
 
   >[!NOTE]
   >
-  >El administrador debe deshabilitar la característica **Sobrescribir archivo desprotegido al cargar**. Si esta característica está habilitada, puede sobrescribir los archivos desprotegidos. Si la función no está habilitada, no se podrá sobrescribir un archivo desprotegido. Para obtener más información, consulte la sección *Sobrescribir archivo desprotegido al cargar* en el as a Cloud Service Instalar y configurar Adobe Experience Manager Guides.
+  >El administrador debe deshabilitar la característica **Sobrescribir archivo desprotegido al cargar**. Si esta característica está habilitada, puede sobrescribir los archivos desprotegidos. Si la función no está habilitada, no se podrá sobrescribir un archivo desprotegido. Para obtener más información, consulte la sección *Sobrescribir archivo desprotegido al cargar* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
 
 - *Arrastrar y soltar archivos en una ubicación diferente*: Se crea una copia nueva del archivo y también se le asigna un nuevo UUID en la nueva ubicación. En este caso, el nombre de archivo es el mismo que el nombre de archivo original.
@@ -82,7 +84,7 @@ Cuando se sobrescribe el archivo, no se produce ningún cambio en el nombre del 
 
 Si selecciona la opción **Crear versión para la copia de trabajo existente**, se creará una nueva versión a partir de la copia de trabajo del documento; se cargará el nuevo archivo, también se creará una nueva versión del archivo y se convertirá en la copia de trabajo del documento.
 
-**El administrador debe habilitar la característica Crear nueva versión para el archivo cargado**. Si esta función está habilitada, se crea una nueva versión para el archivo cargado. Si la opción no está seleccionada, no se crea una versión del archivo cargado. Para obtener más información, consulte la sección *Crear nueva versión para el archivo cargado* en el as a Cloud Service Instalar y configurar Adobe Experience Manager Guides.
+**El administrador debe habilitar la característica Crear nueva versión para el archivo cargado**. Si esta función está habilitada, se crea una nueva versión para el archivo cargado. Si la opción no está seleccionada, no se crea una versión del archivo cargado. Para obtener más información, consulte la sección *Crear nueva versión para el archivo cargado* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
 
 *Arrastrar y soltar archivo en otra ubicación*: se le dan las opciones para **Sobrescribir archivo existente\(s\)**, **Mover archivo\(s\) a una nueva ubicación** y una opción para crear una versión de la copia de trabajo existente.
@@ -98,11 +100,11 @@ Con reemplazar o mover los archivos, si elige la opción de crear una versión a
 
 ## Mover archivos por lotes {#move-files-bulk}
 
-AEM Guides incluye la herramienta de movimiento masivo de archivos que ayuda a un administrador a mover una carpeta que tiene un gran número de archivos de una ubicación a otra. AEM Esta herramienta puede mover fácilmente archivos dentro de una o más carpetas a una carpeta diferente en su repositorio de carpetas. Una de las características principales de esta herramienta es que no solo mueve un gran número de archivos, sino que también mantiene las referencias hacia y desde los archivos que se mueven. Puede modificar el número de archivos que puede mover por lotes sin obstaculizar las tareas de creación y publicación.
+AEM Guides incluye la herramienta de movimiento masivo de archivos que ayuda a un administrador a mover una carpeta que tiene un gran número de archivos de una ubicación a otra. Esta herramienta puede mover fácilmente archivos dentro de una o más carpetas a una carpeta diferente en su repositorio de AEM. Una de las características principales de esta herramienta es que no solo mueve un gran número de archivos, sino que también mantiene las referencias hacia y desde los archivos que se mueven. Puede modificar el número de archivos que puede mover por lotes sin obstaculizar las tareas de creación y publicación.
 
 >[!NOTE]
 >
-> La herramienta de movimiento masivo solo funciona en el nivel de carpeta. AEM Si desea mover archivos de tema o asignación individuales, utilice la herramienta de movimiento normal desde la interfaz de usuario de Assets de la aplicación de la aplicación de movimiento de datos de la interfaz de usuario de la aplicación de.
+> La herramienta de movimiento masivo solo funciona en el nivel de carpeta. Si desea mover archivos de tema o asignación individuales, utilice la herramienta de movimiento normal de la interfaz de usuario de Assets de AEM.
 
 Estas son algunas de las funciones que proporciona la herramienta de movimiento masivo:
 
@@ -130,7 +132,7 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
    <details>
 
-   <summary> Cloud Service y sistema de archivos basado en UUID On-Premise </summary>
+   <summary> Cloud Services y sistema de archivos basado en UUID On-Premise </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
@@ -217,7 +219,7 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
 ## Buscar contenido DITA
 
-AEM De forma predeterminada, no reconoce contenido DITA, por lo que no proporciona ningún mecanismo para buscar contenido DITA en su repositorio. AEM Guides AEM AEM agrega una capa sobre la parte superior de la, que le permite comprender y procesar el contenido DITA. La función Buscar contenido DITA de AEM Guides AEM permite buscar contenido DITA en el repositorio de la aplicación de datos de la interfaz de usuario de la aplicación de datos de la aplicación de datos de la aplicación de datos de.
+De forma predeterminada, AEM no reconoce el contenido DITA, por lo que no proporciona ningún mecanismo para buscar contenido DITA dentro de su repositorio. AEM Guides agrega una capa sobre AEM, que permite a AEM comprender y procesar el contenido DITA. La función Buscar contenido DITA de AEM Guides permite buscar contenido DITA en el repositorio de AEM.
 
 >[!NOTE]
 >
@@ -229,7 +231,7 @@ Con la función de búsqueda, puede:
 - Buscar contenido DITA basado en un valor de atributo; por ejemplo, `@platform`= windows
 - Utilice una combinación de elemento DITA y valor de atributo; por ejemplo, `author`= xml `AND` `@platform`= windows
 
-AEM Realice los siguientes pasos para buscar contenido DITA dentro de un repositorio de:
+Siga estos pasos para buscar contenido DITA en el repositorio de AEM:
 
 1. Abra la IU de Assets.
 
@@ -275,7 +277,7 @@ Realice los siguientes pasos para buscar archivos en función de su estado de ci
 
 ## Eliminar archivos
 
-AEM La eliminación de archivos del repositorio de es una función restringida, que controla el administrador del sistema. En función de las configuraciones, la eliminación de archivos podría restringirse si:
+La eliminación de archivos del repositorio de AEM es una función restringida que controla el administrador del sistema. En función de las configuraciones, la eliminación de archivos podría restringirse si:
 
 - Desprotegido
 - Tener referencias entrantes o salientes
@@ -284,7 +286,7 @@ También puede eliminar archivos sólo si pertenece a un grupo de usuarios espec
 
 >[!NOTE]
 >
-> Para obtener más información sobre las configuraciones en la administración de archivos, consulte las secciones *Impedir la eliminación de archivos desprotegidos* y *Impedir la eliminación de archivos a los que se hace referencia* en el as a Cloud Service Instalar y configurar Adobe Experience Manager Guides.
+> Para obtener más información sobre las configuraciones en la administración de archivos, consulte las secciones *Impedir la eliminación de archivos desprotegidos* y *Impedir la eliminación de archivos a los que se hace referencia* en las secciones Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
 Si el administrador ha concedido el permiso de eliminación de archivos a todos los usuarios, se mostrará el siguiente mensaje cuando elimine archivos que contengan referencias:
 

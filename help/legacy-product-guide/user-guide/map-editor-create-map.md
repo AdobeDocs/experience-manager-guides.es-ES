@@ -3,7 +3,9 @@ title: Creación de un mapa
 description: Cree un mapa con el Editor de mapas en AEM Guides. Busque los pasos para crear un archivo de mapa basado en una plantilla de mapa.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 981ecaeb-9b1f-4c7a-8336-7746a739bedc
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -46,7 +48,7 @@ Realice los siguientes pasos para crear un archivo de asignación:
 
    La información de versión de un mapa recién creado se muestra como *none*. Al guardar una nueva versión, se le asigna un número de versión como 1.0. Para obtener más información acerca de cómo guardar una nueva versión, vea [Guardar como nueva versión](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
-   AEM Puede elegir abrir la asignación para editarla en el editor de asignaciones configurado o guardar el archivo de asignación en el repositorio de mapas.
+   Puede elegir abrir la asignación para editarla en el editor de asignaciones configurado o guardar el archivo de asignación en el repositorio de AEM.
 
    >[!NOTE]
    >

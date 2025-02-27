@@ -3,7 +3,9 @@ title: Administrar ajustes preestablecidos de salida del perfil global y de carp
 description: Obtenga información sobre cómo crear, editar, cambiar el nombre, duplicar y eliminar ajustes preestablecidos de salida de perfil global y de carpeta como usuarios administrativos en AEM Guides.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 4e9cd1d5-1c28-4363-917d-f58511c4f809
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -39,13 +41,13 @@ Realice los siguientes pasos para crear un ajuste preestablecido de salida para 
 
 >[!NOTE]
 >
-> AEM Guides también proporciona un ajuste preestablecido de salida de PDF para generar la salida de los mapas DITA.
+> AEM Guides también proporciona un ajuste preestablecido de salida PDF para generar la salida de los mapas DITA.
 
 **Otras operaciones del menú Opciones**
 
 También puede realizar las siguientes operaciones en el ajuste preestablecido desde el menú Opciones:
 
-- Seleccione el ajuste preestablecido como ajuste preestablecido de PDF predeterminado. A continuación, el ajuste preestablecido seleccionado se utilizaría como el ajuste preestablecido predeterminado para generar la salida del PDF utilizando la opción **Descargar como PDF** para un mapa.
+- Seleccione el ajuste preestablecido como ajuste preestablecido de PDF predeterminado. A continuación, el ajuste preestablecido seleccionado se utilizaría como ajuste preestablecido predeterminado para generar la salida de PDF con la opción **Descargar como PDF** para un mapa.
 - **Editar**, **Cambiar nombre**, **Duplicar** o **Eliminar** un ajuste preestablecido de salida existente del menú **Opciones**.
 
 >[!NOTE]

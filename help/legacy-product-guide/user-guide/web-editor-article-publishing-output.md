@@ -3,7 +3,9 @@ title: Generar resultados desde el panel Repositorio
 description: Genere resultados desde el panel del repositorio o el panel Vista de mapa en AEM Guides. Aprenda a publicar un tema utilizado en una o varias asignaciones DITA o a generar resultados para varios temas.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: ffdc2426-dc78-4deb-93cc-3292fd4fcbd8
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -22,7 +24,7 @@ También puede utilizar los ajustes preestablecidos de salida creados para el ma
 
 - Use la característica **Generar salida** en el panel Vista de mapa para generar la salida de los múltiples temas seleccionados.
 
-## Publish es un tema utilizado en una o varias asignaciones DITA
+## Publicar un tema utilizado en una o varias asignaciones DITA
 
 Realice los siguientes pasos para generar resultados para uno o varios temas del mapa DITA:
 

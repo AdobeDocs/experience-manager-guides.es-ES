@@ -3,7 +3,9 @@ title: Usar la colección de mapas para generar resultados
 description: Obtenga información sobre cómo crear y eliminar una colección de mapas y agregar o eliminar un mapa DITA. Configure, genere y cancele una tarea de generación de resultados desde una colección de mapas en AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 1%
@@ -54,7 +56,7 @@ Las siguientes opciones de filtrado y detalles de asignación se muestran en la 
 
 - **Filtro:** El carril más reciente muestra los siguientes filtros:
    - **Modificado**: Puede seleccionar Sí o No. Si selecciona Sí, sólo se mostrarán los mapas DITA modificados en la tabla Mapas y ajustes preestablecidos.
-   - **Ajuste preestablecido**: seleccione un ajuste preestablecido para el que desee filtrar los archivos de asignación. AEM AEM Por ejemplo, si elige el ajuste preestablecido *Sitio*, solo se mostrarán los mapas que tengan configurado el ajuste preestablecido de salida *Sitio* en ellos.
+   - **Ajuste preestablecido**: seleccione un ajuste preestablecido para el que desee filtrar los archivos de asignación. Por ejemplo, si elige el ajuste preestablecido *AEM Site*, solo se mostrarán los mapas que tengan configurado el ajuste preestablecido de salida *AEM Site*.
    - **Idioma**: puede seleccionar cualquiera de los códigos de idioma disponibles y mostrar solo el idioma seleccionado en la tabla Mapas y ajustes preestablecidos.
 - Tabla **Mapas y ajustes preestablecidos**: la tabla Mapas y ajustes preestablecidos presenta información en las siguientes columnas:
    - **Mapa**: muestra el título del archivo de mapa DITA.
@@ -69,7 +71,7 @@ Las siguientes opciones de filtrado y detalles de asignación se muestran en la 
 
 Para configurar y generar la salida mediante una colección de mapas, realice los siguientes pasos:
 
-1. AEM Abra la colección de mapas. Puede ver los distintos ajustes preestablecidos de salida, como el sitio de la, el PDF (incluido el PDF nativo), el HTML 5, el EPUB y los ajustes preestablecidos personalizados. También puede ver los ajustes preestablecidos de perfil global y de carpeta creados por el administrador.
+1. Abra la colección de mapas. Puede ver los distintos ajustes preestablecidos de salida, como AEM Site, PDF (incluido Native PDF), HTML5, EPUB y Ajustes preestablecidos personalizados. También puede ver los ajustes preestablecidos de perfil global y de carpeta creados por el administrador.
 
    El icono ![](images/global-preset-icon.svg) indica un ajuste preestablecido de nivel de perfil de carpeta.
 1. \(Opcional\) Realice cualquiera de las siguientes acciones según sus necesidades:
@@ -137,7 +139,7 @@ De esta forma, también se eliminarán los ajustes preestablecidos o configuraci
 
 ## Cancelar una tarea de generación de resultados de una colección de mapas
 
-De forma similar a la forma de cancelar una tarea de generación de resultados desde la [consola de mapas DITA](generate-output-for-a-dita-map.md#id2061H100T5Z) o el [panel de control de Publish](generate-output-publish-dashboard.md#), puede cancelar una tarea de generación de resultados desde una colección de mapas. Acceda a la pestaña Resultados de una colección de mapas, vaya a la tarea de publicación que desee cancelar y haga clic en el icono **Cancelar este trabajo** para cancelar la tarea de publicación.
+De forma similar a la forma de cancelar una tarea de generación de resultados desde la [consola de mapas DITA](generate-output-for-a-dita-map.md#id2061H100T5Z) o el [panel de publicación](generate-output-publish-dashboard.md#), puede cancelar una tarea de generación de resultados desde una colección de mapas. Acceda a la pestaña Resultados de una colección de mapas, vaya a la tarea de publicación que desee cancelar y haga clic en el icono **Cancelar este trabajo** para cancelar la tarea de publicación.
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 

@@ -3,7 +3,9 @@ title: Edición de una colección de mapas de activación masiva
 description: Utilice el tablero de publicación masiva en AEM Guides. Aprenda a editar una colección de mapas de activación masiva añadiendo o eliminando archivos de mapa.
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a15ee164-ec60-483e-8760-b1c290625415
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 2%
@@ -18,7 +20,7 @@ Puede editar una colección de mapas de activación masiva añadiendo o eliminan
 
 1. Haga clic en el vínculo Adobe Experience Manager en la parte superior y elija **Herramientas**.
 
-1. Haga clic en el mosaico **Tablero de Publish en lotes**.
+1. Haga clic en el mosaico **Panel de publicación en lotes**.
 
    Se muestra una lista de colecciones de mapas de activación masiva.
 
@@ -27,7 +29,7 @@ Puede editar una colección de mapas de activación masiva añadiendo o eliminan
 1. Haga clic en **Editar**.
 
    La página de recopilación de mapas de activación masiva aparece donde se muestran los mapas junto con sus ajustes preconfigurados para cada configuración regional disponible.
-AEM Puede ver los distintos tipos de ajustes preestablecidos de salida junto con sus iconos, como Sitio, PDF, PDF nativo, HTML 5, Personalizado y Salida JSON, entre otros
+Puede ver los distintos tipos de ajustes preestablecidos de salida junto con sus iconos, como AEM Site, PDF, Native PDF, HTML5, Custom y salida JSON
 .
 
    >[!NOTE]

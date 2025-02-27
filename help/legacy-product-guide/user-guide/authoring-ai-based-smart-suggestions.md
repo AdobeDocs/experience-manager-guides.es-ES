@@ -1,7 +1,9 @@
 ---
 title: Sugerencias inteligentes con tecnología de IA para crear contenido
 description: Aprenda a ver y utilizar sugerencias inteligentes con tecnología de IA en el editor web.
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 30c85d46-61ba-486c-979c-1a2ed95f5a32
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -37,7 +39,7 @@ Realice los siguientes pasos para ver las sugerencias inteligentes para agregar 
    > Solo puede ver las sugerencias de la ventanilla actual (el contenido visible en la pantalla). Para ver sugerencias de cualquier otro contenido del documento, desplácese hacia arriba o hacia abajo para mostrarlo en la ventanilla móvil y, a continuación, seleccione **Sugerir contenido reutilizable** ![ai sugerir icono de contenido reutilizable ](./images/ai-suggest-reusable-content-icon.svg).
 
 
-1. Puede ver las sugerencias inteligentes en el panel Sugerencias.  Experience Manager Guides proporciona sugerencias con contenido que es similar al contexto o tiene el mismo significado. Por ejemplo, puede buscar el tema que contenga el número de versión exacto, como &quot;versión 2023.03.12&quot;. También puede buscar &quot;Adobe tiene su sede en San José, California&quot; y encontrar contenido similar como &quot;San José tiene los cuartos de muchas compañías de software como Adobe&quot;.
+1. Puede ver las sugerencias inteligentes en el panel Sugerencias.  Experience Manager Guides proporciona sugerencias con contenido que es similar al contexto o tiene el mismo significado. Por ejemplo, puede buscar el tema que contenga el número de versión exacto, como &quot;versión 2023.03.12&quot;. También puede buscar &quot;Adobe tiene su sede en San José, California&quot; y encontrar contenido similar como &quot;San José tiene los cuartos de muchas empresas de software como Adobe&quot;.
 1. Seleccione **Información de contenido** ![Información de contenido](images/smart-suggestions-content-info-icon.svg) para ver los detalles.
 
    ![Panel de información de contenido](images/smart-suggestions-content-information.png){width="300" align="left"}

@@ -3,7 +3,9 @@ title: Uso del editor DITAVAL
 description: Obtenga información sobre cómo crear y editar archivos DITAVAL con el Editor DIVATAL en AEM Guides. Descubra cómo el editor DITAVAL admite archivos DITAVAL en las vistas de autor y origen.
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 8eee347d-840e-4eaf-9441-c7c53a7c3aa0
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 Los archivos DITAVAL se utilizan para generar una salida condicional. En un solo tema, puede añadir condiciones utilizando atributos de elemento para condicionar el contenido. A continuación, se crea un archivo DITAVAL en el que se especifican las condiciones que deben recopilarse para generar contenido y qué condición debe excluirse de la salida final.
 
-AEM Guides permite crear y editar fácilmente archivos DITAVAL con el editor DITAVAL. El editor DITAVAL recupera los atributos \(o etiquetas\) definidos en su sistema y puede utilizarlos para crear o editar archivos DITAVAL. AEM AEM Para obtener más información acerca de cómo crear y administrar etiquetas en las etiquetas, consulte la sección [Administración de etiquetas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) en la documentación de la.
+AEM Guides permite crear y editar fácilmente archivos DITAVAL con el editor DITAVAL. El editor DITAVAL recupera los atributos \(o etiquetas\) definidos en su sistema y puede utilizarlos para crear o editar archivos DITAVAL. Para obtener más información sobre cómo crear y administrar etiquetas en AEM, consulte la sección [Administración de etiquetas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) en la documentación de AEM.
 
 ## Crear archivo DITAVAL
 
@@ -34,7 +36,7 @@ Siga estos pasos para crear un archivo DITAVAL:
 
 1. Haga clic en **Crear**. Aparecerá el mensaje Tema creado.
 
-   AEM Puede elegir abrir el archivo DITAVAL para editarlo en el editor DITAVAL o guardar el archivo del tema en el repositorio de la.
+   Puede elegir abrir el archivo DITAVAL para editarlo en el editor DITAVAL o guardar el archivo del tema en el repositorio de AEM.
 
 
 ## Editar archivo DITAVAL
@@ -77,7 +79,7 @@ Si desea añadir todas las propiedades o atributos condicionales definidos en el
 
    >[!NOTE]
    >
-   > Si cierra el archivo sin guardarlo, se perderán los cambios. AEM Si no desea confirmar los cambios en el repositorio de, haga clic en **Cerrar** y, a continuación, haga clic en **Cerrar sin guardar** en el cuadro de diálogo **Cambios no guardados**.
+   > Si cierra el archivo sin guardarlo, se perderán los cambios. Si no desea confirmar los cambios en el repositorio de AEM, haga clic en **Cerrar** y, a continuación, haga clic en **Cerrar sin guardar** en el cuadro de diálogo **Cambios no guardados**.
 
 
 ## Vistas del editor DITAVAL

@@ -3,7 +3,9 @@ title: Editar temas en el editor web
 description: Aprenda a editar temas en el editor web. Obtenga información sobre las distintas funciones de edición para modificar los archivos de temas en AEM Guides.
 feature: Authoring, Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 0341bdec-9635-4ced-b1c6-789b4e1aded8
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 0%
@@ -32,7 +34,7 @@ El Editor Web incluye una serie de características de edición que permiten cre
 
    >[!NOTE]
    >
-   > AEM Si no desea confirmar los cambios en el repositorio de, haga clic en **Cerrar** y, a continuación, haga clic en **Cerrar sin guardar** en el cuadro de diálogo Cambios no guardados.
+   > Si no desea confirmar los cambios en el repositorio de AEM, haga clic en **Cerrar** y, a continuación, haga clic en **Cerrar sin guardar** en el cuadro de diálogo Cambios no guardados.
 
 
 ## Selección parcial del contenido entre elementos

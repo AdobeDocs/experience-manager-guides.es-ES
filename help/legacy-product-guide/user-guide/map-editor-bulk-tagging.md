@@ -3,7 +3,9 @@ title: Etiquetado masivo de contenido DITA
 description: Utilice el etiquetado masivo de contenido en AEM Guides para mejorar la capacidad de detección de contenido DITA. Obtenga información sobre cómo aplicar, quitar, mostrar u ocultar etiquetas masivas en un solo tema o en varios.
 feature: Metadata Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: b320e34f-ee0a-4cc3-b4f6-d322fbb29844
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -14,9 +16,9 @@ ht-degree: 0%
 
 Las etiquetas permiten agrupar o clasificar contenido dentro del repositorio de contenido y también en la salida publicada. Si ha aplicado etiquetas a su contenido, puede encontrar fácilmente temas relacionados dentro de un mapa DITA que puede ayudarle a crear contenido. Con el resultado publicado, los usuarios finales podrán localizar el contenido correcto más rápido con las etiquetas adecuadas.
 
-AEM Guides le permite etiquetar contenido DITA en unos pocos clics. Puede utilizar la función de etiquetado por lotes para aplicar varias etiquetas en varios temas, en un mapa DITA o en un submapa. O bien, también puede aplicar etiquetas a un tema individual. AEM AEM El etiquetado es la característica nativa de la documentación de, por lo que puede encontrar más detalles sobre la creación y administración de etiquetas en la sección [Administración de etiquetas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) de la documentación de la.
+AEM Guides le permite etiquetar contenido DITA en unos pocos clics. Puede utilizar la función de etiquetado por lotes para aplicar varias etiquetas en varios temas, en un mapa DITA o en un submapa. O bien, también puede aplicar etiquetas a un tema individual. El etiquetado es la característica nativa de AEM. Encontrará más detalles sobre la creación y administración de etiquetas en la sección [Administración de etiquetas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) de la documentación de AEM.
 
-De forma predeterminada, AEM Guides AEM no concede acceso de lectura a ningún usuario de la carpeta en la que se almacenen todas las etiquetas del repositorio de la. AEM Para utilizar etiquetas definidas en el repositorio de la, debe solicitar al administrador del sistema que conceda acceso a la carpeta donde se almacenan las etiquetas.
+De forma predeterminada, AEM Guides no concede acceso de lectura a ningún usuario de la carpeta en la que estén almacenadas todas las etiquetas del repositorio de AEM. Para utilizar etiquetas definidas en el repositorio de AEM, debe solicitar al administrador del sistema que conceda acceso a la carpeta donde se almacenan las etiquetas.
 
 ## Aplicación de etiquetas masivas
 

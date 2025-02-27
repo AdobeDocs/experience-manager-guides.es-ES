@@ -3,7 +3,9 @@ title: Eliminar una colección de mapas de activación masiva
 description: Obtenga información sobre cómo eliminar la recopilación de mapas de activación masiva en AEM Guides.
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 374f8265-9aa0-4a08-8afa-ae9ce0cb33e6
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
@@ -18,7 +20,7 @@ Puede eliminar una colección de mapas de activación masiva cuando ya no sea ne
 
 1. Haga clic en el vínculo Adobe Experience Manager en la parte superior y elija **Herramientas**.
 
-1. Haga clic en el mosaico **Tablero de Publish en lotes**.
+1. Haga clic en el mosaico **Panel de publicación en lotes**.
 
    Se muestra una lista de colecciones de mapas de activación masiva.
 

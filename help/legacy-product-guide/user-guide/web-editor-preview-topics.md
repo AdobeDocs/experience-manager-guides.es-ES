@@ -1,9 +1,11 @@
 ---
 title: Previsualización de un tema
-description: Obtenga información sobre cómo obtener una vista previa de un tema en AEM Guides. Obtenga información sobre las funciones disponibles en el modo de vista previa. AEM Ramificar, revertir y realizar versiones posteriores en las guías de la.
+description: Obtenga información sobre cómo obtener una vista previa de un tema en AEM Guides. Obtenga información sobre las funciones disponibles en el modo de vista previa. Bifurcar, revertir y realizar versiones posteriores en las guías de AEM.
 feature: Authoring
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 0%
@@ -27,7 +29,7 @@ Siga estos pasos para obtener una vista previa de un tema:
 
    >[!IMPORTANT]
    >
-   > AEM La colocación de las siguientes funciones en la barra de herramientas Vista previa podría diferir según la configuración del servidor de la. Algunas de las funciones podrían estar disponibles en la barra de herramientas principal, mientras que otras podrían estar disponibles en el menú Más.
+   > La colocación de las siguientes funciones en la barra de herramientas Vista previa podría diferir según la configuración del servidor de AEM. Algunas de las funciones podrían estar disponibles en la barra de herramientas principal, mientras que otras podrían estar disponibles en el menú Más.
 
 ## Funciones disponibles en el modo de vista previa
 
@@ -37,7 +39,7 @@ Puede realizar las siguientes operaciones desde la barra de herramientas en el m
 
 **Propiedades**
 
-Ver las propiedades del tema seleccionado. AEM En función de su versión de la, puede ver propiedades como metadatos, programación \(de\)activación, referencias, estado del documento y más.
+Ver las propiedades del tema seleccionado. En función de su versión de AEM, puede ver propiedades como metadatos, programación \(de\)activación, referencias, estado del documento y más.
 
 >[!NOTE]
 >

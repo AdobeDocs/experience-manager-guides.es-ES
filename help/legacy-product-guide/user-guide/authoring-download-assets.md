@@ -1,9 +1,11 @@
 ---
 title: Descargar archivos
-description: Obtenga información sobre cómo descargar archivos desde la consola de mapas DITA en AEM Guides AEM y exportar un archivo de mapa DITA en el repositorio de la.
+description: Obtenga información sobre cómo descargar archivos desde la consola de mapas DITA en AEM Guides y exportar un archivo de mapa DITA en el repositorio de AEM.
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -12,11 +14,11 @@ ht-degree: 0%
 
 # Descargar archivos {#id216MC0H0BE8}
 
-Puede descargar recursos, incluidos archivos DITA y no DITA. AEM Existen varias formas de descargar recursos, algunos métodos son nativos de los recursos y otros son compatibles con AEM Guides. AEM Para obtener información sobre la descarga de recursos nativos de la, consulte [Descargar recursos de Adobe Experience Manager AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) en la documentación de la aplicación de la. En la siguiente sección se explica el mecanismo de descarga de archivos mediante la consola de mapas DITA en AEM Guides.
+Puede descargar recursos, incluidos archivos DITA y no DITA. Existen varias formas de descargar recursos, algunos son nativos de AEM y otros son compatibles con AEM Guides. Para obtener información de descarga de recursos nativos de AEM, consulte [Descargar recursos de Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) en la documentación de AEM. En la siguiente sección se explica el mecanismo de descarga de archivos mediante la consola de mapas DITA en AEM Guides.
 
 ## Exportación de un fichero de mapa DITA
 
-AEM Una vez que tenga el fichero de mapa DITA en el repositorio de la, podrá descargar el fichero de mapa junto con sus dependientes. Esto le proporciona la flexibilidad para compartir el archivo de asignación completo para la edición, validación, revisión o simplemente la creación de una copia de seguridad sin conexión.
+Una vez que tenga el fichero de mapa DITA en el repositorio de AEM, podrá descargar el fichero de mapa junto con sus dependientes. Esto le proporciona la flexibilidad para compartir el archivo de asignación completo para la edición, validación, revisión o simplemente la creación de una copia de seguridad sin conexión.
 
 Realice los siguientes pasos para descargar un archivo de asignación DITA junto con sus archivos dependientes:
 
@@ -46,11 +48,11 @@ Realice los siguientes pasos para descargar un archivo de asignación DITA junto
 
    - Haga clic en **Descargar** para descargar el archivo de asignación en formato .zip.
 
-   - Haga clic en **Descargar más tarde** para descargar el archivo de asignación más adelante. AEM Se puede acceder al vínculo de descarga desde la bandeja de entrada de notificaciones de la. Haga clic en la notificación de asignación generada en la bandeja de entrada para descargar la asignación en formato .zip.
+   - Haga clic en **Descargar más tarde** para descargar el archivo de asignación más adelante. Se puede acceder al vínculo de descarga desde la bandeja de entrada de notificaciones de AEM. Haga clic en la notificación de asignación generada en la bandeja de entrada para descargar la asignación en formato .zip.
 
    >[!NOTE]
    >
-   > AEM De forma predeterminada, las asignaciones descargadas permanecen durante cinco días en la Bandeja de entrada de notificaciones de la.
+   > De forma predeterminada, las asignaciones descargadas permanecen durante cinco días en la Bandeja de entrada de notificaciones de AEM.
 
 ![](images/download-map-inbox.png){width="300" align="left"}
 

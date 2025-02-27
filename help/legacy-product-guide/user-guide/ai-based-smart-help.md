@@ -1,7 +1,8 @@
 ---
 title: Ayuda inteligente con tecnología de IA para buscar contenido
 description: Aprenda a ver y utilizar la ayuda inteligente con tecnología de IA en el editor web.
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 Experience Manager Guides proporciona Smart Help basada en GenAI, una característica de búsqueda conversacional que le ayuda a encontrar contenido relevante en la [documentación de Adobe Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 Puede hacer sus preguntas y obtener respuestas de una manera informativa. La respuesta a la consulta se basa en el contenido de la documentación del producto. Esta búsqueda es completamente conversacional. Puede hacer preguntas y luego, en función de la respuesta, también puede hacer más preguntas. La respuesta también incluye vínculos a documentos de origen, a los que puede hacer referencia para obtener más información.
 
-Por ejemplo, es posible que desee crear un tema en Experience Manager Guides para su documentación. Puede preguntar: *¿Cómo crear un tema?* Recibirá una respuesta y los vínculos de los artículos relacionados. A continuación, si desea aprender a generar la salida del PDF para el documento, puede hacer preguntas al respecto. Por ejemplo, *¿Cómo publicar un tema en un PDF?* o *¿Cómo se genera la salida del PDF para un tema?*
+Por ejemplo, es posible que desee crear un tema en Experience Manager Guides para su documentación. Puede preguntar: *¿Cómo crear un tema?* Recibirá una respuesta y los vínculos de los artículos relacionados. A continuación, si desea aprender a generar la salida de PDF para el documento, puede hacer preguntas al respecto. Por ejemplo, *¿Cómo publicar un tema en un PDF?* o *¿Cómo generar la salida de PDF para un tema?*
 
 
 
@@ -25,7 +26,7 @@ Cuando abre el Editor Web, el panel **Ayuda inteligente** aparece a la derecha.
 
 >[!NOTE]
 >
-> El administrador debe configurar la característica **Ayuda inteligente**. Para obtener más información, consulte la sección [Configuración de la ayuda inteligente con tecnología de IA para buscar contenido](/help/product-guide/cs-install-guide/conf-smart-help.md) en la Guía de instalación y configuración para Cloud Service.
+> El administrador debe configurar la característica **Ayuda inteligente**. Para obtener más información, consulte la sección [Configuración de la ayuda inteligente con tecnología de IA para buscar contenido](/help/product-guide/cs-install-guide/conf-smart-help.md) en la Guía de instalación y configuración de Cloud Services.
 
 ![Panel de ayuda inteligente](images/smart-help-panel.png){width="300" align="left"}
 

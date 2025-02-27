@@ -3,7 +3,9 @@ title: Compatibilidad con archivos de Schematron
 description: Obtenga información sobre cómo importar y validar un tema DITA, utilizar instrucciones de informe Assert para comprobar reglas, utilizar expresiones regex y definir patrones abstractos en archivos de Schematron de AEM Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: c743baac-b6c1-4684-bbd1-8f9834ab272a
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%

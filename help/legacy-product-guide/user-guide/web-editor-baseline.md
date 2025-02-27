@@ -3,7 +3,9 @@ title: Crear y administrar líneas de base desde el editor web
 description: Cree y administre líneas de base desde el editor web en AEM Guides. Obtenga información sobre cómo crear líneas de base a partir de etiquetas y aplicar filtros a las líneas de base.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f43bc3ae-b7b6-4a8c-b42d-28ec02d0d1d6
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Se recomienda utilizar esta función Línea base del Editor Web si ha actualizado a la versión de AEM Guides as a Cloud Service en marzo o posterior.
+> Se recomienda utilizar esta función Línea base del Editor Web si ha actualizado a la versión de AEM Guides as a Cloud Service de marzo o posterior.
 
 AEM Guides proporciona la característica Línea base integrada en el Editor Web que permite a los usuarios crear líneas de base y utilizarlas para publicar o traducir temas de distintas versiones. También pueden publicar varios ajustes preestablecidos de salida del mismo mapa DITA en paralelo.
 
@@ -153,4 +155,3 @@ Con el icono Filtros del panel **Filtros de línea de base**, puede aplicar filt
 Una vez que haya editado la línea de base, puede hacer clic en el botón **Guardar** de la parte superior para guardar los cambios en la línea de base. Puede hacer clic en el botón **Restablecer** si no desea guardar el cambio y restablecer la línea de base. Al hacer clic en el botón **Restablecer**, aparece una advertencia que indica que se perderán los cambios que no se hayan guardado.
 
 **Tema principal:**[ Trabajar con el editor web](web-editor.md)
-

@@ -3,7 +3,9 @@ title: Trabajar con línea base
 description: Conocer el uso de las líneas de base en AEM Guides. Obtenga información sobre cómo crear, ver contenido, editar, duplicar, eliminar, añadir etiquetas y exportar líneas de base traducidas.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: d4892eca-2715-4bd6-8ac8-0a8edff2c4f8
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1960'
 ht-degree: 0%
@@ -51,7 +53,7 @@ Realice los siguientes pasos para crear una línea base:
 
    Al seleccionar **Etiqueta**, también se le ofrece una opción adicional para utilizar la versión más reciente de temas a los que no se les haya aplicado la etiqueta especificada. Si no selecciona esta opción y hay algún tema o archivo multimedia que no tenga la etiqueta especificada en él, el proceso de creación de la línea base fallará. Para obtener más información sobre cómo agregar etiquetas, consulte [Usar etiquetas](web-editor-use-label.md#).
 
-   - **Versión el** &lt;*marca de tiempo*\>: elige la versión de los temas en la fecha y hora especificadas. AEM Tenga en cuenta que la hora que especifique aquí corresponde a la zona horaria del servidor de la. Si el servidor se encuentra en una zona horaria diferente, los temas se recogerán según la zona horaria del servidor y no según la zona horaria local.
+   - **Versión el** &lt;*marca de tiempo*\>: elige la versión de los temas en la fecha y hora especificadas. Tenga en cuenta que la hora que especifique aquí corresponde a la zona horaria del servidor de AEM. Si el servidor se encuentra en una zona horaria diferente, los temas se recogerán según la zona horaria del servidor y no según la zona horaria local.
 
    Una vez seleccionada una etiqueta o versión como en la fecha, todos los temas a los que se hace referencia y los archivos multimedia dentro del mapa se seleccionan según corresponda. Esta selección de temas no se muestra en la interfaz de usuario, pero se guarda en el servidor.
 

@@ -3,7 +3,9 @@ title: Administrar contenido
 description: Administre contenido e identifique sus funciones y permisos en AEM Guides. Conozca los conceptos clave de la administración de contenido y del trabajo con los perfiles globales o de nivel de carpeta.
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 54b960cf-fb00-4d4a-a836-9de4738c49a8
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 10%
@@ -16,11 +18,11 @@ Antes de empezar a crear contenido, debe familiarizarse con algunos conceptos b�
 
 ## Conceptos clave
 
-AEM A continuación se indican algunos conceptos clave de la administración de contenido en las:
+Algunos conceptos clave de la administración de contenido en AEM son los siguientes:
 
 **Administración de recursos**
 
-AEM Guides AEM utiliza la administración de recursos digitales \(DAM\) de los usuarios de la administración de recursos para administrar los archivos DITA. Los archivos que carga o registra en DAM se almacenan como recursos digitales. Puede administrar y editar sus recursos en AEM Assets. Para obtener más información sobre la administración de recursos, consulte [Administrar recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
+AEM Guides utiliza la administración de recursos digitales \(DAM\) de AEM para administrar los archivos DITA. Los archivos que carga o registra en DAM se almacenan como recursos digitales. Puede administrar y editar sus recursos en AEM Assets. Para obtener más información sobre la administración de recursos, consulte [Administrar recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
 
 **Administración de vínculos**
 
@@ -34,7 +36,7 @@ Para obtener más información sobre cómo crear versiones o revertir a una vers
 
 **Administración DITA nativa**
 
-Aunque AEM Guides AEM AEM mantiene la estructura de los ficheros DITA, también permite a los usuarios gestionar DITA de forma nativa mediante la asignación de elementos para asignar los elementos DITA a componentes de la. El tratamiento nativo de DITA se utiliza en funciones como la previsualización de temas, la publicación en AEM Sites y los flujos de trabajo de revisión.
+Aunque AEM Guides mantiene la estructura de los ficheros DITA, también permite a AEM gestionar DITA de forma nativa mediante la asignación de elementos para asignar los elementos DITA a los componentes de AEM. El tratamiento nativo de DITA se utiliza en funciones como la previsualización de temas, la publicación en AEM Sites y los flujos de trabajo de revisión.
 
 ## Identificación de la función y los permisos {#id181TF0K0MHT}
 
@@ -67,7 +69,7 @@ En la tabla siguiente se enumeran varias tareas y los grupos que pueden realizar
 | **Funciones disponibles en la consola de mapas DITA \(ficha Ajustes preestablecidos de salida\)** |
 | Generar |   |   | Sí |
 | Editar |   |   | Sí |
-| Duplicado |   |   | Sí |
+| Duplicar |   |   | Sí |
 | Crear |   |   | Sí |
 | Eliminar ajuste preestablecido |   |   | Sí |
 | **Funciones disponibles en la consola de mapas DITA \(ficha Salidas\)** |
@@ -78,7 +80,7 @@ En la tabla siguiente se enumeran varias tareas y los grupos que pueden realizar
 | **Funciones disponibles en la consola de mapas DITA \(ficha Líneas bases\)** |
 | Crear |   |   | Sí |
 | Editar |   |   | Sí |
-| Duplicado |   |   | Sí |
+| Duplicar |   |   | Sí |
 | Quitar |   |   | Sí |
 | Consola de mapas DITA \(ficha Informes\) | Sí |   | Sí |
 | **Funciones disponibles en la consola de mapas DITA \(Ajustes preestablecidos de condición\)** |

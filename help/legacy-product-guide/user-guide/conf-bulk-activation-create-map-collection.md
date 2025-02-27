@@ -1,9 +1,11 @@
 ---
 title: Creación de una colección de mapas de activación masiva
-description: AEM Obtenga información sobre cómo crear una colección de mapas de activación masiva en las guías de.
+description: Obtenga información sobre cómo crear una colección de mapas de activación masiva en las guías de AEM.
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a242efde-2b29-4d2b-8a50-fd4ae7e8f239
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 0%
@@ -18,7 +20,7 @@ Para crear una recopilación de mapas de activación masiva, realice los siguien
 
 1. Seleccione el enlace de Adobe Experience Manager en la parte superior y elija **Herramientas**.
 
-1. Seleccione el mosaico **Tablero de Publish en lotes**.
+1. Seleccione el mosaico **Panel de publicación en lotes**.
 
    Por primera vez, se muestra una página de colecciones en blanco. Si ha creado colecciones de activación masiva anteriormente, estas se muestran en esta página.
 
@@ -75,7 +77,7 @@ La ficha **Historial de auditoría** presenta información sobre los resultados 
 - **Idioma**: muestra el código de idioma del mapa DITA.
 - **Ajuste preestablecido**: muestra el título del ajuste preestablecido de salida configurado en el archivo de asignación. También muestra el icono en función del tipo de ajuste preestablecido de salida.
 - **Estado**: muestra el estado de activación como correcto o incorrecto.
-- **Destino**: si genera la salida en Experience Manager Guides as a Cloud Service, puede ver el destino de la salida como Publish o Vista previa.
+- **Destino**: si genera la salida en Experience Manager Guides as a Cloud Service, puede ver el destino de la salida como Publicar o Vista previa.
 
   >[!NOTE]
   >
@@ -99,7 +101,7 @@ La ficha **Historial de auditoría** presenta información sobre los resultados 
 Las siguientes opciones de filtrado están disponibles en el panel izquierdo:
 
 - **Modificado**: Puede seleccionar Sí o No. Si selecciona Sí, sólo se mostrarán los mapas DITA modificados. Un mapa modificado es un mapa que se ha generado desde la última vez que se publicó.
-- **Ajuste preestablecido**: seleccione un ajuste preestablecido para el que desee filtrar los archivos de asignación. Esta columna muestra el título del ajuste preestablecido de salida configurado en el archivo de asignación. AEM AEM Por ejemplo, si elige el ajuste preestablecido *Sitio*, solo se mostrarán los mapas que tengan configurado el ajuste preestablecido de salida *Sitio* en ellos.
+- **Ajuste preestablecido**: seleccione un ajuste preestablecido para el que desee filtrar los archivos de asignación. Esta columna muestra el título del ajuste preestablecido de salida configurado en el archivo de asignación. Por ejemplo, si elige el ajuste preestablecido *AEM Site*, solo se mostrarán los mapas que tengan configurado el ajuste preestablecido de salida *AEM Site*.
 - **Idioma**: puede seleccionar cualquiera de los códigos de idioma disponibles y mostrar solo el idioma seleccionado en la pestaña Mapas y ajustes preestablecidos.
 
 Los filtros se actualizan cuando cambia de la ficha **Mapas y ajustes preestablecidos** a la ficha **Historial de auditoría** y viceversa.

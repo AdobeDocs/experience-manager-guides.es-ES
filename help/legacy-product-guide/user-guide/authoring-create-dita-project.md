@@ -3,7 +3,9 @@ title: Creación de un proyecto DITA
 description: Cree un proyecto DITA con una plantilla en AEM Guides. Aprenda a utilizar un proyecto DITA para iniciar las revisiones.
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 1b29c50a-04d0-4052-b893-44fb8bcc3c97
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%

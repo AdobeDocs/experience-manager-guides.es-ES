@@ -3,7 +3,9 @@ title: Generar salida para un mapa DITA desde la consola de mapas
 description: Generar salida para un mapa DITA desde la consola de mapas de AEM Guides. Obtenga información sobre la generación de resultados incrementales y cómo ver el estado, cancelar y eliminar una tarea de salida.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 5c2a8239-e6eb-482b-a11b-3732e667c880
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 0%
@@ -24,7 +26,7 @@ Realice los siguientes pasos para generar la salida de un mapa DITA:
 
    >[!NOTE]
    >
-   > AEM AEM Si está generando la salida del sitio de la, el proceso de publicación utiliza la estructura definida en el archivo `.ditamap` para crear la estructura del sitio de la publicación de la página de destino de la página para crear la estructura del sitio de la publicación de la página de destino de la página de destino.
+   > Si está generando el resultado del sitio de AEM, el proceso de publicación utiliza la estructura definida en el archivo `.ditamap` para crear la estructura del sitio de AEM.
 
 1. Haga clic en el icono Generate para iniciar el proceso de generación de resultados.
 
@@ -35,15 +37,15 @@ Puede ver el estado actual de la solicitud de generación de resultados haciendo
 >
 > Si un proceso de generación de resultados de un ajuste preestablecido está en cola o en curso, no se puede iniciar otra tarea de generación de resultados para el mismo ajuste preestablecido.
 
-Se puede generar la salida del PDF para uno o más ajustes preestablecidos de salida creados para un mapa DITA desde el Editor Web. Para obtener más información, consulte [Usar el panel Generación rápida para generar y ver los resultados de los ajustes preestablecidos](web-editor-quick-generate-panel.md#).
+Se puede generar la salida de PDF para uno o más ajustes preestablecidos de salida creados para un mapa DITA desde el Editor Web. Para obtener más información, consulte [Usar el panel Generación rápida para generar y ver los resultados de los ajustes preestablecidos](web-editor-quick-generate-panel.md#).
 
-AEM También se puede generar la salida del sitio de para uno o más temas, o todo el mapa DITA desde el Editor Web. Para obtener más información, consulte [Publicación basada en artículos desde el editor web](web-editor-article-publishing.md#id218CK0U019I).
+También se puede generar la salida del sitio de AEM para uno o más temas, o todo el mapa DITA desde el Editor Web. Para obtener más información, consulte [Publicación basada en artículos desde el editor web](web-editor-article-publishing.md#id218CK0U019I).
 
 ## Generación incremental de resultados {#generating_standalone_topic}
 
 >[!NOTE]
 >
-> AEM La generación de resultados incrementales solo se aplica a la salida del sitio de la. Además, sólo se pueden regenerar temas DITA \(.dita/.xml\) desde un mapa o submapas DITA. Si selecciona un mapa DITA, submapa, grupo de temas o un tema con `@processing-role="resource-only"`, la opción de regeneración no estará disponible.
+> La generación de resultados incrementales solo es aplicable a la salida del sitio de AEM. Además, sólo se pueden regenerar temas DITA \(.dita/.xml\) desde un mapa o submapas DITA. Si selecciona un mapa DITA, submapa, grupo de temas o un tema con `@processing-role="resource-only"`, la opción de regeneración no estará disponible.
 
 Podría haber varias instancias en las que se actualizaran sólo unos pocos temas del mapa DITA y sólo se insertaran en directo esos temas actualizados. Para gestionar estos escenarios, AEM Guides le permite crear salidas incrementales. Si se han actualizado algunos temas, no es necesario volver a generar todo el mapa DITA. Solo puede seleccionar los temas actualizados y volver a generarlos.
 
@@ -53,7 +55,7 @@ Realice los siguientes pasos para volver a generar los resultados de un tema esp
 
 >[!IMPORTANT]
 >
-> AEM Cuando se regenera la salida del sitio del sitio de la, la salida se crea utilizando la versión actual de los archivos y no la línea de base adjunta.
+> Cuando se regenera la salida del sitio de AEM, la salida se crea utilizando la versión actual de los archivos y no la línea de base adjunta.
 
 1. En la interfaz de usuario de Assets, vaya al fichero de mapa DITA y haga clic en él.
 
@@ -104,7 +106,7 @@ Realice los siguientes pasos para ver la cola de generación de resultados:
 
      Enumera las salidas que están a la espera de generarse o en proceso de generación. Las tareas en cola o en curso se muestran con un icono de color azul antes del nombre del ajuste preestablecido. También puede encontrar la configuración de generación de resultados o el ajuste preestablecido utilizado para la tarea en cola, el tipo, el usuario que inició la tarea, el tiempo desde que se puso en cola la tarea y el estado actual.
 
-     Haga clic en el vínculo para acceder a **Publish Dashboard** y ver el estado de ejecución actual. Hay disponible una lista de todas las tareas de publicación activas en el panel de Publish. **Salidas en cola** y el vínculo **Tablero de Publish** solo se muestran cuando hay salidas que están a la espera de generarse o en proceso de generación. No aparecen cuando se han completado las tareas de salida. Para obtener más información sobre el panel de Publish, consulte [Administrar tareas de publicación mediante el panel de Publish](generate-output-publish-dashboard.md#).
+     Haga clic en el vínculo para acceder a **Tablero de publicación** y ver el estado de ejecución actual. En el tablero de publicación hay disponible una lista de todas las tareas de publicación activas. **Salidas en cola** y el vínculo **Panel de publicación** solo se muestran cuando hay salidas que están a la espera de ser generadas o en proceso de generación. No aparecen cuando se han completado las tareas de salida. Para obtener más información sobre el panel de publicación, consulte [Administrar tareas de publicación mediante el panel de publicación](generate-output-publish-dashboard.md#).
 
    - **Salidas generadas**
 
@@ -116,12 +118,12 @@ Realice los siguientes pasos para ver la cola de generación de resultados:
 
      >[!NOTE]
      >
-     > Al hacer clic en un vínculo de la salida del PDF generado, se le pide que descargue el PDF. AEM Este es el comportamiento predeterminado en las versiones 6.5 y 6.4 de.
+     > Al hacer clic en un vínculo de la salida de PDF generada, se le pide que descargue PDF. Este es el comportamiento predeterminado en AEM 6.5 y 6.4.
 
 
 ## Cancelar una tarea de generación de resultados {#id2061H100T5Z}
 
-AEM Guides ofrece a los editores una forma sencilla y sencilla de cancelar cualquier tarea de publicación en curso. Como editor, puede cancelar una tarea de publicación en curso desde la consola de mapas DITA o el [Tablero de Publish](generate-output-publish-dashboard.md#).
+AEM Guides ofrece a los editores una forma sencilla y sencilla de cancelar cualquier tarea de publicación en curso. Como editor, puede cancelar una tarea de publicación en curso desde la consola de mapas DITA o el [Panel de publicación](generate-output-publish-dashboard.md#).
 
 Realice los siguientes pasos para cancelar una tarea de generación de salida desde la consola de mapas DITA:
 
@@ -141,7 +143,7 @@ Realice los siguientes pasos para cancelar una tarea de generación de salida de
 
    Si la tarea aún no se ha iniciado, el comando cancel se ejecuta en la tarea. Para una tarea que se está cancelando, el estado se establece en Cancelando.
 
-   Una vez cancelada correctamente la tarea, se mueve a la lista **Salidas generadas** con el estado **Cancelado**. Cuando pasa el ratón por encima de la tarea cancelada, se muestra el nombre del usuario que ha cancelado la tarea. En la siguiente captura de pantalla, se cancela la tarea *HTML 5*.
+   Una vez cancelada correctamente la tarea, se mueve a la lista **Salidas generadas** con el estado **Cancelado**. Cuando pasa el ratón por encima de la tarea cancelada, se muestra el nombre del usuario que ha cancelado la tarea. En la siguiente captura de pantalla, se cancela la tarea *HTML5*.
 
    ![](images/cancelled-output-task.png){width="800" align="left"}
 

@@ -3,8 +3,9 @@ title: Trabajo con el Editor de mapas avanzado
 description: Aprenda a trabajar con el editor de mapas avanzado en AEM Guides. Conozca las funciones del editor de mapas avanzado. Editar temas mediante un mapa DITA y utilizar la vista de diseño, la vista de autor y el modo de vista previa.
 feature: Authoring, Map Editor
 role: User
+hide: true
 exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
-source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%
@@ -65,7 +66,7 @@ Realice los siguientes pasos para crear el archivo de asignación con el Editor 
 
 1. En el panel izquierdo, cambie a **Vista de repositorio**.
 
-1. AEM En el repositorio de, vaya a la carpeta que contiene los temas o las asignaciones secundarias que desea agregar.
+1. En el repositorio de AEM, vaya a la carpeta que contiene los temas o las asignaciones secundarias que desea agregar.
 
 1. Seleccione el tema o el archivo de asignación en la **vista de repositorio** y arrástrelo y suéltelo en el área de edición de contenido de asignación \(middle\).
 
@@ -97,7 +98,7 @@ Realice los siguientes pasos para crear el archivo de asignación con el Editor 
 
      ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
 
-   - Para comprobar las propiedades del archivo de asignación, haga clic con el botón secundario en cualquier lugar del área de edición del mapa y elija **Propiedades** en el menú contextual. AEM En función de su versión de la, puede ver propiedades como metadatos, programación \(de\)activación, referencias, estado del documento y más.
+   - Para comprobar las propiedades del archivo de asignación, haga clic con el botón secundario en cualquier lugar del área de edición del mapa y elija **Propiedades** en el menú contextual. En función de su versión de AEM, puede ver propiedades como metadatos, programación \(de\)activación, referencias, estado del documento y más.
 
 1. Haga clic en **Guardar**.
 
@@ -272,7 +273,7 @@ Sincroniza el elemento `title` de un archivo al que se hace referencia en un map
 
 >[!NOTE]
 >
-> El administrador puede configurar la adición automática del atributo `@navtitle` a cada archivo de referencia que agregue a un mapa. Para obtener más información sobre cómo configurar la adición automática del atributo `@navtitle`, consulte *Incluir el atributo @navtitle de forma predeterminada* en Instalar y configurar el as a Cloud Service de Adobe Experience Manager Guides.
+> El administrador puede configurar la adición automática del atributo `@navtitle` a cada archivo de referencia que agregue a un mapa. Para obtener más información sobre cómo configurar la adición automática del atributo `@navtitle`, consulte *Incluir el atributo @navtitle de forma predeterminada* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
 Haga clic en el icono Actualizar atributo de título de navegación para sincronizar los valores del elemento `title` y del atributo `@navtitle`.
 

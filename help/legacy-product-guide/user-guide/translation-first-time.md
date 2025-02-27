@@ -3,7 +3,9 @@ title: Prácticas recomendadas para la traducción de contenido
 description: Conozca las prácticas recomendadas para la traducción de contenido en AEM Guides. Obtenga información sobre cómo configurar el servicio de traducción, crear un nuevo proyecto de traducción e iniciar el trabajo de traducción.
 feature: Translation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 1%
@@ -21,14 +23,14 @@ Tenga en cuenta el siguiente punto para traducir contenido:
 - La configuración de nube debe ser la misma que la de la carpeta de origen y solo debe haber una configuración de nube en una carpeta. Puede crear varias carpetas en /conf si desea utilizar varios conectores de traducción.
 - Una carpeta no debe contener más de 1000 archivos.
 - Asegúrese de que el usuario encargado de iniciar el proceso de traducción tenga permisos de lectura, modificación, creación y eliminación en las carpetas de idioma de origen y destino.
-- AEM Como la traducción de contenido requiere la creación de un proyecto de traducción, el usuario debe tener acceso para crear un proyecto en la.
+- Como la traducción de contenido requiere la creación de un proyecto de traducción, el usuario debe tener acceso para crear un proyecto en AEM.
 - Si desea utilizar ajustes preestablecidos condicionales con el mapa, debe crearlos antes de iniciar el proceso de traducción. Como los ajustes preestablecidos condicionales también se incluyen en la versión traducida del mapa, la creación de los ajustes preestablecidos antes de iniciar el proceso de traducción garantiza que estén disponibles en la versión traducida.
 - El proceso de traducción de contenido debe iniciarse desde la consola de mapas DITA y no desde la interfaz de usuario de AEM Assets.
 - El flujo de trabajo de traducción DITA basado en componentes no debe utilizarse si se está traduciendo contenido mediante traducción humana. Sin embargo, esta opción debe utilizarse para la traducción automática.
 - El contenido y los medios utilizados globalmente que no requieran localización deben mantenerse fuera de las copias de idioma.
 - Todo el contenido común que debe localizarse debe mantenerse en una carpeta común bajo la carpeta de idioma.
 
-AEM En la siguiente ilustración se muestra un ejemplo de una estructura de carpetas en las que se ha utilizado de forma global contenido y tres copias de idioma.
+La siguiente ilustración muestra un ejemplo de una estructura de carpetas en AEM cuando ha utilizado globalmente contenido y tres copias de idioma.
 
 ![](images/aem-directory_structure.png){width="800" align="left"}
 
@@ -38,9 +40,9 @@ Realice los siguientes pasos para configurar el servicio de traducción humana o
 
 1. En la interfaz de usuario de Assets, seleccione la carpeta de idioma de origen.
 
-1. Abra las propiedades de la carpeta y vaya a la ficha **Cloud Service**.
+1. Abra las propiedades de la carpeta y vaya a la ficha **Cloud Services**.
 
-1. En la ficha **Cloud Service**, configure el servicio de traducción que desee usar.
+1. En la pestaña **Cloud Services**, configure el servicio de traducción que desee usar.
 
    Puede configurar la traducción automática o humana.
 
@@ -48,7 +50,7 @@ Realice los siguientes pasos para configurar el servicio de traducción humana o
 
    >[!NOTE]
    >
-   > AEM Consulte [Configuración del marco de trabajo de integración de traducciones](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) en documentación de para obtener más información sobre la integración con servicios de traducción de terceros.
+   > Consulte [Configuración del marco de trabajo de integración de traducciones](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) en la documentación de AEM para obtener más información sobre la integración con servicios de traducción de terceros.
 
 1. Haga clic en **Guardar y cerrar** para guardar las propiedades actualizadas de la carpeta.
 

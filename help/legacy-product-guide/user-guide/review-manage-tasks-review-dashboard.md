@@ -3,7 +3,9 @@ title: Administrar tareas de revisión mediante el panel Revisar
 description: Administre las tareas de revisión desde el Panel de revisión en AEM Guides. Conozca las acciones que se realizan en la pestaña tarea, contenido y revisores, y compruebe el estado de una tarea de revisión.
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f3ed7e82-8bb8-400f-9406-367da9e0052c
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%
@@ -118,7 +120,7 @@ El informe de estado de la tarea de revisión contiene los siguientes detalles:
 - La columna Estado indica el estado de la revisión. El estado puede ser uno de los siguientes:
    - **No iniciado**: el revisor aún no ha abierto el vínculo de revisión.
    - **En curso**: el revisor ha abierto el vínculo de revisión y está revisando el tema.
-   - **Completar**: el revisor ha completado la revisión al completar la tarea de revisión asignada. AEM La tarea de revisión se encuentra en la bandeja de entrada de notificaciones de la de cada revisor.
+   - **Completar**: el revisor ha completado la revisión al completar la tarea de revisión asignada. La tarea de revisión se encuentra en la bandeja de entrada de notificaciones de AEM de cada revisor.
 - Cuando un revisor abre un vínculo de revisión y navega a un tema concreto, ese tema se agrega a la lista Temas revisados. Esto ayuda a los autores a determinar si los revisores han abierto sus secciones respectivas o no. Si se presentan comentarios, se muestran entre corchetes.
 - Número total de observaciones formuladas sobre todos los temas. En el caso de varios temas en revisión, el número de comentarios de cada tema se menciona \(entre corchetes\) con el nombre del tema.
 - La fecha en la que el revisor accedió por última vez a cualquier tema.

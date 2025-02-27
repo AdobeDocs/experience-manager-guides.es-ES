@@ -1,9 +1,11 @@
 ---
 title: Informe de historial de versiones de archivos revertidos
-description: Ver los informes del historial de versiones de los archivos revertidos en AEM Guides. Obtenga información sobre cómo acceder a los registros de versión de reversión desde la interfaz de usuario de Assets AEM, la vista previa del tema y la selección de herramientas de.
+description: Ver los informes del historial de versiones de los archivos revertidos en AEM Guides. Obtenga información sobre cómo acceder a los registros de versiones anteriores desde la interfaz de usuario de Assets, la vista previa de temas y la selección de herramientas de AEM.
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -24,7 +26,7 @@ Puede acceder a este informe desde los siguientes lugares:
 
 - **Vista previa del tema**: al obtener una vista previa de un tema, también puede mostrar el panel **Historial de versiones** desde el carril izquierdo. Obtendrá un panel similar a la interfaz de usuario de Assets desde donde puede hacer clic en el vínculo **Revertir registros de versión** para acceder al historial de versiones revertidas del documento activo.
 
-- AEM AEM **Sección de herramientas de la creación de informes**: también puede tener acceso a este informe desde la sección de herramientas de la creación de la aplicación de herramientas de la creación de la. AEM En el siguiente procedimiento se explica cómo acceder al historial de versiones de reversión desde la sección Herramientas para la creación de versiones de la aplicación de la versión de la aplicación de la versión de la aplicación de la.
+- **Sección de herramientas de AEM**: también puede obtener acceso a este informe desde la sección de herramientas de AEM. El siguiente procedimiento explica cómo puede acceder al historial de versiones de reversión desde la sección Herramientas de AEM.
 
 
 Siga estos pasos para acceder al informe Revertir historial:

@@ -3,7 +3,9 @@ title: Informe de mapa DITA del tablero de mapas
 description: Genere informes de mapas DITA desde el tablero de mapas de AEM Guides. Obtenga información sobre cómo generar el CSV de un informe de mapa DITA.
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 044fb5df-166d-44a2-9ed6-6db47e4f125e
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 0%
@@ -86,7 +88,7 @@ Siga estos pasos para generar el CSV de un informe de mapa DITA:
    ![](images/download-report-dialog.png){width="550" align="left"}
 
 
-   AEM También puede descargar el CSV del informe generado más adelante desde la bandeja de entrada de notificaciones de la.
+   También puede descargar el CSV del informe generado más adelante desde la bandeja de entrada de notificaciones de AEM.
 
    Haga clic en el informe generado en la bandeja de entrada para descargar el informe.
 

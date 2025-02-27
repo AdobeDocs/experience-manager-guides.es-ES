@@ -3,7 +3,9 @@ title: Traducir documentos desde el editor web
 description: Traduzca el contenido a varios idiomas desde el editor web. Obtenga información sobre cómo crear un proyecto de traducción, agregar reglas, ver versiones y descartar archivos sin sincronizar en AEM Guides.
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a288a4d5-5c24-4021-8bfa-4b68cecf630f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2343'
 ht-degree: 0%
@@ -14,13 +16,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Se recomienda utilizar esta función de traducción del Editor web si ha actualizado a la versión de AEM Guides as a Cloud Service en febrero de 2022 o posterior.
+> Se recomienda utilizar esta función de traducción del Editor web si ha actualizado a la versión de AEM Guides as a Cloud Service de febrero de 2022 o posterior.
 
 AEM Guides incluye una potente función en el editor web que le permite traducir el contenido a varios idiomas. Puede crear un nuevo proyecto de traducción y posteriormente agregar los trabajos de traducción al proyecto de traducción existente. También puede crear un proyecto de traducción multilingüe que incluya trabajos de traducción para todos los idiomas seleccionados.
 
 >[!NOTE]
 >
-> El administrador puede configurar la pestaña Administrar \(utilizada para la traducción\) en el Editor web. Para obtener más información, consulte *Configuración de la característica de traducción en la sección Editor web* en el as a Cloud Service Instalar y configurar Adobe Experience Manager Guides.
+> El administrador puede configurar la pestaña Administrar \(utilizada para la traducción\) en el Editor web. Para obtener más información, consulte *Configuración de la característica de traducción en la sección Editor web* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
 ## Antes de empezar
 
@@ -136,9 +138,9 @@ AEM Guides permite a los administradores configurar las reglas de traducción. E
 Los archivos SRX deben tener el nombre `<language-code>.srx`. Por ejemplo, en-US o ar-AE.
 
 >[!NOTE]
->El título no distingue entre mayúsculas y minúsculas, por lo que puede tener &quot;en-US&quot;, &quot;en-us&quot; o &quot;EN-us&quot;. AEM Además, las guías de la pueden resolver &#39;-&#39; (guión) o &#39;_&#39; (guion bajo). Por lo tanto, puede tener &quot;en-US&quot; o &quot;en_US&quot;.
+>El título no distingue entre mayúsculas y minúsculas, por lo que puede tener &quot;en-US&quot;, &quot;en-us&quot; o &quot;EN-us&quot;. Además, las guías de AEM pueden resolver &quot;-&quot; (guión) o &quot;_&quot; (guion bajo). Por lo tanto, puede tener &quot;en-US&quot; o &quot;en_US&quot;.
 
-AEM Además, puede colocar estos archivos dentro de cualquier carpeta bajo la raíz de recursos de la carpeta que es `./content/dam`, que es de la carpeta de recursos de la carpeta de destino.
+Además, puede colocar estos archivos dentro de cualquier carpeta bajo la raíz de recursos de AEM que sea `./content/dam`.
 
 
 
@@ -205,7 +207,7 @@ Algunas de las referencias del panel de traducción pueden estar en curso. Estas
 
 >[!NOTE]
 >
-> Puede ver el vínculo En curso para los proyectos traducidos creados en la versión de AEM Guides as a Cloud Service de febrero de 2023 o posterior.
+> Puede ver el vínculo En curso para los proyectos traducidos creados en AEM Guides as a Cloud Service en febrero de 2023 o posterior.
 
 Haga clic en el nombre de la referencia en el cuadro de diálogo para abrirla en el modo de vista previa. También puede hacer clic en el proyecto de traducción para iniciar la traducción.
 

@@ -3,7 +3,9 @@ title: Creación de mapas basados en plantillas personalizadas
 description: Aprenda a crear una plantilla de personalizaciones, utilizarla para crear nuevos archivos de asignación y pasar el título definido a un mapa DITA en AEM Guides.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -96,7 +98,7 @@ En función de la configuración, aprenda a configurar la ruta de carpeta de la 
 <details>
     <summary> Cloud Services </summary>
 
-Aprenda a [configurar la ruta de la carpeta de plantillas DITA personalizada](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) en la Guía de instalación y configuración de Cloud Service.
+Aprenda a [configurar la ruta de la carpeta de la plantilla DITA personalizada](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) en la Guía de instalación y configuración de Cloud Services.
 </details>
 
 <details>
@@ -156,7 +158,7 @@ Ejemplos
 
 >[!NOTE]
 >
-> El administrador debe configurar y poner a disposición de la creación la plantilla de mapa. Para obtener más información, consulte la sección *Configuración de plantillas de creación* en el as a Cloud Service Instalar y configurar Adobe Experience Manager Guides.
+> El administrador debe configurar y poner a disposición de la creación la plantilla de mapa. Para obtener más información, consulte la sección *Configuración de plantillas de creación* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
 Realice los siguientes pasos para crear un mapa con la plantilla de mapa personalizada:
 

@@ -3,7 +3,9 @@ title: Añadir y administrar citas en el contenido
 description: Añada y administre citas en AEM Guides. Aprenda a aplicar, importar, filtrar, buscar, cambiar el estilo de las citas, editar, previsualizar, insertar, eliminar y generar resultados de contenido con citas.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
+hide: true
+exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -17,14 +19,14 @@ Las citas son referencias a la fuente de información agregada al contenido. Med
 En AEM Guides, puede añadir e importar citas y aplicarlas al contenido. Puede añadir estas citas desde cualquier fuente de libros, sitios web y diarios.
 
 
-AEM Guides le ayuda a editar, previsualizar y ordenar sus citas. Después de añadir las citas al contenido, puede generar el resultado con el PDF nativo. También puede añadir la página de bibliografía o referencias en la salida del PDF nativo.
+AEM Guides le ayuda a editar, previsualizar y ordenar sus citas. Después de añadir las citas al contenido, puede generar la salida con Native PDF. También puede añadir la página de bibliografía o referencias en la salida nativa de PDF.
 
 AEM Guides admite varios estilos de citas, como Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE) y American Heart Association (AHA). La recomendación es utilizarlas de forma clara y coherente.
 
 
 >[!NOTE]
 >
->Actualmente, AEM Guides solo admite PDF nativos para citas.
+>Actualmente, AEM Guides solo admite PDF nativo para las citas.
 
 
 ## Añadir citas
@@ -127,7 +129,7 @@ Se abre el panel **Citas**.
 ### Cambiar estilo de cita {#change-citation-style}
 
 El administrador del sistema puede cambiar el estilo de las citas en el menú desplegable **Citas** de la pestaña **Configuración general** en **Configuración del editor**.
-Estos estilos determinan la forma en que aparecen las citas en el panel de vista previa o en la salida del PDF nativo.
+Estos estilos determinan la forma en que aparecen las citas en el panel de vista previa o en la salida nativa de PDF.
 
 Las siguientes opciones están disponibles en la lista desplegable:
 
@@ -212,7 +214,7 @@ La cita seleccionada se agrega en la ubicación del cursor en el tema.
 1. Seleccione las citas que desee insertar en el cuadro de diálogo **Cita**.
 1. Seleccione **Listo** para agregarlos al tema.
 
-Una vez insertadas las citas en el tema, puede obtener una vista previa de las mismas en el Editor Web. También puede publicar contenido con citas utilizando el PDF nativo.
+Una vez insertadas las citas en el tema, puede obtener una vista previa de las mismas en el Editor Web. También puede publicar contenido con citas mediante PDF nativo.
 
 
 
@@ -253,11 +255,11 @@ En el tema, coloque el cursor al final de la cita.
 
 ## Generar salida de contenido con citas
 
-Una vez que haya insertado citas en el tema, puede publicar contenido con citas mediante el PDF nativo.
+Una vez que haya insertado citas en el tema, puede publicar contenido con citas mediante PDF nativo.
 
-En la salida del PDF nativo, las citas aparecen dentro del contenido donde las ha insertado. También puede crear una página Bibliografía. Al hacer clic en cualquier cita, se le redirige a la página de bibliografía.
+En la salida nativa de PDF, las citas aparecen dentro del contenido en el que las ha insertado. También puede crear una página Bibliografía. Al hacer clic en cualquier cita, se le redirige a la página de bibliografía.
 
-Crea un diseño de página de **Citas** en las plantillas de PDF e inclúyalo en tu documento. Todas las citas utilizadas en el libro aparecen en una página que aparece en la salida del PDF. Para obtener más información sobre cómo crear un diseño de página, vea [Crear un diseño de página](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
+Crea un diseño de página de **citas** en las plantillas de PDF e inclúyalo en tu documento. Todas las citas utilizadas en el libro aparecen en una página que aparece en la salida de PDF. Para obtener más información sobre cómo crear un diseño de página, vea [Crear un diseño de página](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
 
 
 Para cambiar la vista y el funcionamiento de la página de citas, vea [Personalizar plantillas de PDF](/help/product-guide/native-pdf/pdf-template.md).

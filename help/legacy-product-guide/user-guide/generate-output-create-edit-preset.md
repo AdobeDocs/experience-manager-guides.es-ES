@@ -3,7 +3,9 @@ title: Crear, editar, duplicar o quitar un ajuste preestablecido de salida
 description: Obtenga información sobre cómo crear, editar, duplicar y eliminar un ajuste preestablecido de salida personalizado en AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f770dd7e-0c52-4a97-ba93-ddd12832d5ae
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%

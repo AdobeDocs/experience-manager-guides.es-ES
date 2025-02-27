@@ -3,7 +3,9 @@ title: Vistas del Editor web
 description: Ver documentos en los modos de autor, origen y vista previa. Obtenga información sobre cómo ver contenido basado en filtros condicionales, ver las marcas de seguimiento de cambios y exportar un tema como PDF en AEM Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: dbc27856-6903-4694-9875-77dc778c80bd
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%
@@ -120,12 +122,12 @@ Hay tres opciones de **Tracking** entre las que puedes elegir:
 
 ### Exportación de un tema como PDF {#id2114BL00B5U}
 
-PDF es uno de los formatos de salida más comunes que se utiliza en todas las etapas posibles del ciclo de desarrollo de documentos. AEM Guides proporciona la flexibilidad para generar el PDF de un tema individual o de un archivo de mapa completo. La función Exportar como PDF permite al autor, al editor o al administrador generar fácilmente la salida del PDF para un tema individual. Utiliza las configuraciones DITA-OT guardadas en el perfil de nivel de carpeta para generar el PDF.
+PDF es uno de los formatos de salida más comunes que se utiliza en todas las etapas posibles del ciclo de desarrollo de documentos. AEM Guides proporciona la flexibilidad para generar la PDF de un tema individual o de un archivo de mapa completo. La función Exportar como PDF permite al autor, editor o administrador generar fácilmente la salida de PDF para un tema individual. Utiliza las configuraciones DITA-OT guardadas en el perfil de nivel de carpeta para generar PDF.
 
 Esta función admite las siguientes funcionalidades:
 
 - Generar el PDF de la copia de trabajo activa de un tema.
-- Acepte el nombre de transformación DITA-OT y los argumentos de la línea de comandos para generar el PDF.
+- Acepte el nombre de transformación DITA-OT y los argumentos de la línea de comandos para generar PDF.
 - Guarde la salida generada en el sistema local.
 - Resuelva las referencias de clave y contenido utilizadas en el tema antes de generar el resultado.
 
@@ -145,9 +147,9 @@ Para exportar un tema como PDF, siga estos pasos:
 
    >[!NOTE]
    >
-   > Asegúrese de haber habilitado la ventana emergente en la configuración del explorador; de lo contrario, el PDF no se descargará.
+   > Asegúrese de haber habilitado la ventana emergente en la configuración del explorador; de lo contrario, PDF no se descargará.
 
-   El PDF se genera y abre en una nueva pestaña o se muestra un cuadro de diálogo para guardar el PDF en el sistema local.
+   El PDF se genera y abre en una nueva pestaña o se le muestra un cuadro de diálogo para guardar el PDF en el sistema local.
 
 
 **Tema principal:**[ Trabajar con el editor web](web-editor.md)

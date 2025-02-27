@@ -1,9 +1,11 @@
 ---
 title: Iniciar el editor web
-description: AEM Obtenga información sobre cómo iniciar el editor web desde la página de navegación de la, la interfaz de usuario de los AEM Assets y la consola de mapas de DITA en AEM Guides.
+description: Obtenga información sobre cómo iniciar el editor web desde la página de navegación de AEM, la interfaz de usuario de AEM Assets y la consola de mapas DITA en AEM Guides.
 feature: Authoring, Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 374042e4-0f1c-44cf-926c-c9fefa4b1de0
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -14,15 +16,15 @@ ht-degree: 0%
 
 Puede iniciar el Editor Web desde las ubicaciones siguientes:
 
-- [AEM Página de navegación de](#id2056BG00RZJ)
+- [Página de navegación de AEM](#id2056BG00RZJ)
 - [IU de AEM Assets](#id2056BG0307U)
 - [Consola de mapa DITA](#id2056BG090BF)
 
 En las secciones siguientes se describen los detalles de cómo puede tener acceso al Editor Web y cómo puede iniciarlo desde varias ubicaciones.
 
-## AEM Página de navegación de {#id2056BG00RZJ}
+## Página de navegación de AEM {#id2056BG00RZJ}
 
-AEM Al iniciar sesión en la sesión de, se le mostrará la página Navegación:
+Al iniciar sesión en AEM, se le muestra la página Navegación:
 
 ![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
@@ -30,9 +32,9 @@ Al hacer clic en el vínculo **Guías**, accederá directamente al Editor web.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
-Cuando haya iniciado el Editor Web sin seleccionar ningún archivo, aparecerá una pantalla en blanco. AEM Puede abrir un archivo para editarlo desde el repositorio o desde la colección de Favoritos de la aplicación.
+Cuando haya iniciado el Editor Web sin seleccionar ningún archivo, aparecerá una pantalla en blanco. Puede abrir un archivo para editarlo desde el repositorio de AEM o desde su colección de Favoritos.
 
-- AEM Haga clic en el icono **Guías** (![](images/aem-guides-icon.png) ) para volver a la página Navegación de la.
+- Haga clic en el icono **Guías** (![](images/aem-guides-icon.png) ) para volver a la página Navegación de AEM.
 
 - El botón **Cerrar** le lleva a un destino de acuerdo con su configuración:
 
@@ -42,7 +44,7 @@ Cuando haya iniciado el Editor Web sin seleccionar ningún archivo, aparecerá u
 
   <summary> Cloud Services </summary>
 
-  Si utiliza Cloud Service AEM, haga clic en el botón **Cerrar** para volver a la página Navegación de la barra de herramientas de la barra de herramientas de la barra de herramientas de la barra de herramientas.
+  Si utiliza Cloud Services, haga clic en el botón **Cerrar** para volver a la página Navegación de AEM.
   </details>
 
   <details>

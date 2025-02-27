@@ -3,7 +3,9 @@ title: Revisar temas
 description: Obtenga información sobre cómo revisar temas y utilizar las funciones como revisor, vista de documento, vista de tema, barra de herramientas contextual, modo de vista previa, agregar archivos adjuntos a comentarios y panel de condiciones en AEM Guides.
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2351'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Siga estos pasos para revisar un tema:
 
    >[!NOTE]
    >
-   > AEM También puede acceder al vínculo de revisión del tema desde el área de notificaciones de la Bandeja de entrada en la interfaz de usuario de la.
+   > También puede acceder al vínculo de revisión del tema desde el área de notificaciones de la bandeja de entrada en la interfaz de usuario de AEM.
 
 1. Según la forma en que se inicie la revisión del tema, podrá ver cualquiera de las dos pantallas siguientes:
 
@@ -30,7 +32,7 @@ Siga estos pasos para revisar un tema:
    >
    > La interfaz de usuario puede ser diferente si ha creado la revisión en:
    >
-   > - Versión de AEM Guides as a Cloud Service para noviembre de 2022 o anterior
+   > - Versión de noviembre de 2022 o anterior de AEM Guides as a Cloud Service
    > - AEM Guides versión 4.1 o anterior
 
 

@@ -3,7 +3,9 @@ title: Crear temas
 description: Aprenda a crear tipos de temas DITA utilizando plantillas personalizadas en el editor web de AEM Guides.
 feature: Authoring
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 70ab9226-82d4-4e6a-aa0b-0e298f266c2a
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -42,7 +44,7 @@ Siga estos pasos para crear un tema:
 
 1. Haga clic en **Crear**. Aparecerá el mensaje Tema creado.
 
-   AEM Puede elegir abrir el tema para editarlo en el Editor Web o guardar el archivo de tema en el repositorio de la aplicación de la aplicación de la aplicación de la aplicación de la aplicación de la aplicación de la aplicación de la aplicación de la aplicación de la aplicación de la aplicación de la aplicación de la aplicación de la aplicación de la aplicación de la aplicación.
+   Puede elegir abrir el tema para editarlo en el Editor Web o guardar el archivo del tema en el repositorio de AEM.
 
    A cada tema nuevo que cree desde la interfaz de usuario de Assets **Create** \> **DITA Topic** o el Editor web se le asigna un ID de tema único. El valor de este ID es el propio nombre de archivo. Además, un nuevo documento se guarda como la última copia de trabajo del tema en DAM. Hasta que guarde una revisión de un tema recién creado, no verá ningún número de versión en el Historial de versiones. Si abre el tema para editarlo, la información de la versión se muestra en la esquina superior derecha de la pestaña del archivo de tema:
 

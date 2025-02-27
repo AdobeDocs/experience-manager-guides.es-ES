@@ -1,19 +1,21 @@
 ---
-title: AEM Trabajar con metadatos en la
+title: Trabajo con metadatos en AEM
 description: Obtenga información sobre cómo crear recursos y agregar metadatos mediante Adobe Experience Manager Assets. Administre metadatos de AEM Guides.
 feature: Metadata Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 578ea79c-cfb7-4902-b6d5-9d8a010fe26a
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%
 
 ---
 
-# AEM Trabajar con metadatos en la {#id21BJ00QD0XA}
+# Trabajo con metadatos en AEM {#id21BJ00QD0XA}
 
 Adobe Experience Manager Assets proporciona la función para crear recursos y agregarles metadatos. Puede conservar los metadatos de cada recurso. Puede administrar metadatos con sus recursos y también organizar y procesar automáticamente los recursos en función de sus metadatos.
 
-AEM Para obtener más información acerca de la administración de metadatos en la, consulte [Administrar metadatos de recursos digitales](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=en).
+Para obtener más información sobre la administración de metadatos en AEM, consulte [Administrar metadatos de recursos digitales](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=en).
 
 **Tema principal:**[ Administrar metadatos](manage-metadata.md)

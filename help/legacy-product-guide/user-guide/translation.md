@@ -3,7 +3,9 @@ title: Aprenda a traducir contenido
 description: Traduzca el contenido a varios idiomas en AEM Guides. Obtenga información acerca de los flujos de trabajo de traducción humana y automática.
 feature: Translation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: ca9c6150-adc5-4c0c-94c1-802d59db9079
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 1%
@@ -14,9 +16,9 @@ ht-degree: 1%
 
 AEM Guides incluye potentes funcionalidades que le permiten traducir el contenido a varios idiomas. AEM Guides admite los flujos de trabajo de traducción automática y humana.
 
-- **Traducción humana**: Assets se envía a su proveedor de traducción y lo traducen traductores profesionales. AEM Cuando se completan, se devuelven los recursos traducidos y, a continuación, se importan de nuevo en el archivo de recursos de la página de la aplicación de la nueva versión de.
+- **Traducción humana**: Assets se envía a su proveedor de traducción y lo traducen traductores profesionales. Cuando se completa, se devuelven los recursos traducidos y, a continuación, se importan de nuevo en AEM.
 
-- AEM **Traducción automática**: este es el servicio predeterminado en el que el contenido se traduce inmediatamente usando la traducción automática en tiempo real. AEM La interfaz predeterminada de usuario proporciona la capacidad de conectarse a Microsoft Translator
+- **Traducción automática**: este es el servicio predeterminado en AEM donde el contenido se traduce inmediatamente usando la traducción automática en tiempo real. AEM proporciona la capacidad de conectarse a Microsoft Translator de forma predeterminada.
 
   >[!NOTE]
   >

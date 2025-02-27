@@ -1,16 +1,18 @@
 ---
-title: Publish de un tema a un fragmento de contenido
-description: Publish un tema o los elementos dentro de un tema a un fragmento de contenido en AEM Guides.  Obtenga información sobre cómo ver los fragmentos de contenido presentes en un tema y volver a publicarlos.
+title: Publicación de un tema en un fragmento de contenido
+description: Publicar un tema o los elementos dentro de un tema en un fragmento de contenido en AEM Guides.  Obtenga información sobre cómo ver los fragmentos de contenido presentes en un tema y volver a publicarlos.
 feature: Publishing
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
 
 ---
 
-# Fragmentos de contenido de Publish
+# Publicar fragmentos de contenido
 
 Los fragmentos de contenido son fragmentos de contenido discretos en Adobe Experience Manager. Son contenidos estructurados basados en un modelo de contenido. Los fragmentos de contenido son contenido puro sin información de diseño. Se pueden crear y administrar de forma independiente de los canales compatibles con Adobe Experience Manager. Los fragmentos de contenido son modulares, donde el contenido se desglosa en componentes más pequeños.
 
@@ -39,7 +41,7 @@ Por ejemplo, agregue `/conf/we-retail` en la configuración de nube. Esta config
 1. En el cuadro de diálogo **Generar fragmento de contenido**, rellene los siguientes detalles en las pestañas **General** y **Asignación**.
 
    Ficha **General**
-   ![Agregue el modelo de fragmento y los detalles de asignación en el cuadro de diálogo Publish como fragmento de contenido](images/generate-content-fragment.png)
+   ![Agregue el modelo de fragmento y los detalles de asignación en el cuadro de diálogo Publicar como fragmento de contenido](images/generate-content-fragment.png)
    *Agregue el filtro de ruta de acceso, nombre, título y condición para publicar un tema o sus elementos como fragmento de contenido.*
 
 
@@ -63,7 +65,7 @@ Por ejemplo, agregue `/conf/we-retail` en la configuración de nube. Esta config
 
    **Ficha Mapping**
 
-   ![Agregue el modelo de fragmento y los detalles de asignación en el cuadro de diálogo Publish como fragmento de contenido](images/content-fragment-mapping.png)
+   ![Agregue el modelo de fragmento y los detalles de asignación en el cuadro de diálogo Publicar como fragmento de contenido](images/content-fragment-mapping.png)
 
    *Seleccione el modelo de fragmento de contenido y agregue los detalles de asignación para publicar un tema o sus elementos como fragmento de contenido.*
 

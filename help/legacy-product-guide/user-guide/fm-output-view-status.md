@@ -1,9 +1,11 @@
 ---
 title: Ver el estado de la tarea de generación de resultados
-description: Ver la cola de generación de salida de documentos de FrameMaker. Obtenga información sobre cómo ver el estado de una tarea de generación de resultados.
+description: Vea la cola de generación de resultados de documentos de FrameMaker. Obtenga información sobre cómo ver el estado de una tarea de generación de resultados.
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%

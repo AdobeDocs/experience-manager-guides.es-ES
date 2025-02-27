@@ -3,7 +3,9 @@ title: Conozca las funciones del editor web
 description: Descubra las funciones del editor web en AEM Guides. Conocer la interfaz del editor web, incluida la barra de herramientas principal, la barra de herramientas secundaria, el panel izquierdo, el área de edición de contenido y el panel derecho.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 045cafac-393f-49e9-9432-6533a4c6dc01
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '18802'
 ht-degree: 0%
@@ -98,7 +100,7 @@ La configuración del editor solo está disponible para usuarios administrativos
 
   ![](images/editor-setting-general.png){width="650" align="left"}
 
-   - AEM **Corrección ortográfica**: Hay dos opciones: **Corrección ortográfica de la pantalla** y **Corrección ortográfica del explorador**. De forma predeterminada, el editor utiliza la función de revisión ortográfica del explorador, donde la revisión ortográfica se realiza mediante el diccionario integrado del explorador. AEM AEM Puede cambiar a la revisión ortográfica de la para utilizar el diccionario de la palabra, que también se puede personalizar para agregar su lista de palabras personalizada. AEM AEM Para obtener más información acerca de cómo personalizar el diccionario de, vea la sección *Personalizar el diccionario predeterminado de la aplicación* en el as a Cloud Service Instalar y configurar Adobe Experience Manager Guides.
+   - **Corrección ortográfica**: Hay dos opciones: **Corrección ortográfica de AEM** y **Corrección ortográfica del explorador**. De forma predeterminada, el editor utiliza la función de revisión ortográfica del explorador, donde la revisión ortográfica se realiza mediante el diccionario integrado del explorador. Puede cambiar al corrector ortográfico de AEM para utilizar el diccionario de AEM, que también se puede personalizar para agregar la lista de palabras personalizada. Para obtener más información sobre cómo personalizar el diccionario de AEM, consulte la sección *Personalizar el diccionario predeterminado de AEM* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
 
    - **Condición**
@@ -128,7 +130,7 @@ Cambiar el estilo de las citas. Elija el estilo de cita de la lista desplegable 
 
 >[!NOTE]
 >
-> Si se ha configurado un panel personalizado, también aparecerá en la lista de paneles. Puede alternar el conmutador para mostrar u ocultar el panel personalizado. Para obtener más información sobre la configuración, consulte la sección *Configurar un panel personalizado en el panel izquierdo* en el as a Cloud Service Instalar y configurar Adobe Experience Manager Guides.
+> Si se ha configurado un panel personalizado, también aparecerá en la lista de paneles. Puede alternar el conmutador para mostrar u ocultar el panel personalizado. Para obtener más información sobre la configuración, consulte la sección *Configuración de un panel personalizado en el panel izquierdo* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
 - **Lista de elementos**: como administrador, puede controlar la lista de elementos que un autor puede insertar mediante la ventana emergente [Insertar elemento](#id204SG30105Z) y también definir el nombre para mostrar del elemento. La configuración Lista de elementos permite especificar el nombre del elemento según las especificaciones DITA y una etiqueta que desee utilizar en lugar del nombre de elemento definido DITA:
 
@@ -148,9 +150,9 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Perfil de Publish**: contiene los perfiles de Publish que se pueden usar para publicar la salida de **Knowledge Base**. Puede crear un nuevo perfil para una base de conocimiento de Target. Por ejemplo, Salesforce o ServiceNow.
+- **Perfil de publicación**: contiene los perfiles de publicación que se pueden usar para publicar la salida de **Knowledge Base**. Puede crear un nuevo perfil para una base de conocimiento de Target. Por ejemplo, Salesforce o ServiceNow.
 
-   - **Crear un perfil de Salesforce Publish**
+   - **Crear un perfil de publicación de Salesforce**
 
      **Requisitos previos**
 
@@ -168,18 +170,18 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
 
   Una vez configurada la aplicación, Salesforce proporciona **clave del consumidor** y **secreto del consumidor**.
 
-  Se pueden utilizar para crear el perfil de Publish de Salesforce.
+  Se pueden utilizar para crear el perfil de publicación de Salesforce.
 
 
-   - Para crear un perfil de Publish de Salesforce, seleccione la base de conocimiento **Salesforce** en la lista desplegable **Tipo de servidor**. Introduzca un Nombre de perfil. En la **dirección URL del sitio**, escriba el sitio del consumidor que usaría para publicar la salida y, a continuación, agregue la **clave del consumidor** y el **secreto del consumidor** proporcionados por el sitio del consumidor de Salesforce. A continuación, **Valide** y **guarde** el perfil recién creado.
+   - Para crear un perfil de publicación de Salesforce, seleccione la base de conocimiento **Salesforce** en la lista desplegable **Tipo de servidor**. Introduzca un Nombre de perfil. En la **dirección URL del sitio**, escriba el sitio del consumidor que usaría para publicar la salida y, a continuación, agregue la **clave del consumidor** y el **secreto del consumidor** proporcionados por el sitio del consumidor de Salesforce. A continuación, **Valide** y **guarde** el perfil recién creado.
      ![perfil de publicación de salesforce en la configuración del editor](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
      >
-     >Para configurar un proxy para Salesforce en Experience Manager Guides AEM, utilice la Configuración proxy de componentes HTTP de Apache en la interfaz de usuario de. AEM Aprenda a [configurar el proxy para el Verificador de vínculos de la](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+     >Para configurar un proxy para Salesforce en Experience Manager Guides, utilice Configuración proxy de componentes HTTP de Apache en AEM. Obtenga información sobre cómo [configurar el proxy para AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
-   - **Crear un perfil de Publish de ServiceNow**
+   - **Crear un perfil de publicación ServiceNow**
 
      **Requisitos previos**
 
@@ -192,12 +194,12 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
 
       - Haga clic en **Guardar**.
 
-     Una vez configurada la aplicación, cree el perfil de Publish **ServiceNow**.
-   - Para crear un perfil de Publish, seleccione ServiceNow Knowledge Base en la lista desplegable **Tipo de servidor**. Escriba un perfil **Name**. En la **URL de ServiceNow**, introduzca el sitio de consumidores que utilizaría para publicar la salida y, a continuación, agregue el **Nombre de usuario** y la **Contraseña** proporcionados por el sitio de consumidores de ServiceNow. A continuación, **Valide** y **guarde** el perfil recién creado.
+     Una vez configurada la aplicación, cree el perfil de publicación **ServiceNow**.
+   - Para crear un perfil de publicación, seleccione ServiceNow Knowledge Base en la lista desplegable **Tipo de servidor**. Escriba un perfil **Name**. En la **URL de ServiceNow**, introduzca el sitio de consumidores que utilizaría para publicar la salida y, a continuación, agregue el **Nombre de usuario** y la **Contraseña** proporcionados por el sitio de consumidores de ServiceNow. A continuación, **Valide** y **guarde** el perfil recién creado.
 
      ![Perfil de publicación ServiceNow](./images/service-now-publish-profile.png){width="550" align="left"}
 
-  Una vez validado, puede seleccionar el perfil de Publish en los ajustes preestablecidos de salida de un mapa DITA y utilizarlo para generar la salida en el servidor **Salesforce** o **ServiceNow** que haya elegido.
+  Una vez validado, puede seleccionar el perfil de publicación en los ajustes preestablecidos de salida de un mapa DITA y utilizarlo para generar la salida en el servidor **Salesforce** o **ServiceNow** que haya elegido.
 
   Obtenga más información sobre el ajuste preestablecido de salida [Knowledge Base](../user-guide/generate-output-knowledge-base.md).
 
@@ -284,13 +286,13 @@ Las preferencias de usuario están disponibles para todos los autores. Con las p
 
    - **Perfiles de carpeta**: el perfil de carpeta controla varias configuraciones relacionadas con atributos condicionales, plantillas de creación, ajustes preestablecidos de salida y configuraciones del Editor web. El perfil global se muestra de forma predeterminada. Además, si el administrador ha configurado perfiles de carpeta en el sistema, esos perfiles de carpeta también se muestran en la Lista de perfiles de carpeta.
 
-     Las configuraciones del Editor Web que un administrador puede definir en el perfil de carpeta incluyen: personalización de la interfaz de usuario, incluidos los iconos de la barra de herramientas, el diseño del Editor Web, los fragmentos de código y el mapa raíz. Para obtener más información, consulte *Configuración de perfiles globales o de nivel de carpeta* en el as a Cloud Service Instalar y configurar Adobe Experience Manager Guides.
+     Las configuraciones del Editor Web que un administrador puede definir en el perfil de carpeta incluyen: personalización de la interfaz de usuario, incluidos los iconos de la barra de herramientas, el diseño del Editor Web, los fragmentos de código y el mapa raíz. Para obtener más información, consulte *Configuración de perfiles globales o de nivel de carpeta* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
      >[!NOTE]
      >
      > El nombre del perfil de carpeta actual se muestra como una etiqueta para el icono de preferencias de usuario en la barra de herramientas principal.
 
-   - AEM **Ruta de acceso base**: de forma predeterminada, al acceder al repositorio de desde el Editor Web, se muestran los recursos desde la ubicación /content/dam. Es muy probable que la carpeta de trabajo esté compuesta por unas pocas carpetas dentro de la carpeta /content/dam/. Se necesitarían unos clics para llegar a la carpeta de trabajo cada vez. Puede establecer la Ruta base en la carpeta de trabajo y, a continuación, la Vista del repositorio le mostrará el contenido desde esa ubicación por adelantado. Esto reduce el tiempo para tener acceso a la carpeta de trabajo. Además, al insertar cualquier referencia o archivo multimedia en el tema, la ubicación de exploración de archivos comienza con la carpeta establecida en la Ruta base.
+   - **Ruta básica**: de forma predeterminada, al acceder al repositorio de AEM desde el Editor web, se muestran los recursos desde la ubicación /content/dam. Es muy probable que la carpeta de trabajo esté compuesta por unas pocas carpetas dentro de la carpeta /content/dam/. Se necesitarían unos clics para llegar a la carpeta de trabajo cada vez. Puede establecer la Ruta base en la carpeta de trabajo y, a continuación, la Vista del repositorio le mostrará el contenido desde esa ubicación por adelantado. Esto reduce el tiempo para tener acceso a la carpeta de trabajo. Además, al insertar cualquier referencia o archivo multimedia en el tema, la ubicación de exploración de archivos comienza con la carpeta establecida en la Ruta base.
 
    - **Seleccionar mapa raíz**: seleccione un archivo de mapa DITA para resolver referencias clave o entradas del glosario. El mapa raíz seleccionado tiene la prioridad más alta para resolver las referencias clave. Para obtener más información, consulte [Resolver referencias clave](map-editor-other-features.md#id176GD01H05Z).
 
@@ -465,7 +467,7 @@ Al seleccionar la opción Archivo de audio o vídeo, se muestra la vista del rep
 
 >[!NOTE]
 >
-> Al agregar un vínculo de vídeo de YouTube, debe reemplazar la cadena `watch?v=` por `embed` en la dirección URL. Por ejemplo, para agregar un vínculo de vídeo de YouTube: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, debe agregarlo como: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. AEM Este cambio garantiza que el vídeo se incruste en la salida del sitio y del PDF de la.
+> Al agregar un vínculo de vídeo de YouTube, debe reemplazar la cadena `watch?v=` por `embed` en la dirección URL. Por ejemplo, para agregar un vínculo de vídeo de YouTube: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, debe agregarlo como: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. Este cambio garantiza que el vídeo se incruste en el sitio de AEM y en la salida de PDF.
 
 También puede agregar el archivo de audio o vídeo desde el cuadro de diálogo Insertar multimedia. Seleccione la opción Archivo de audio/vídeo y haga clic en el icono Examinar para iniciar la vista del repositorio. Seleccione el archivo de audio o vídeo del repositorio y haga clic en Seleccionar para añadir el vínculo del archivo en el campo Archivo de audio o vídeo. Si elige un archivo de vídeo, también se mostrará una vista previa del archivo en el área de Vista previa. Puede reproducir el archivo de vídeo para ver su previsualización.
 
@@ -509,7 +511,7 @@ Si el administrador ha habilitado la opción UUIDs en *XMLEditorConfig*, verá e
 
 **Filtrar búsqueda**
 
-AEM Puede buscar texto en los archivos presentes en la ruta seleccionada del repositorio de la. Por ejemplo, &quot;general&quot; se busca en la siguiente captura de pantalla. También puede limitar la búsqueda mediante filtros mejorados. Puede buscar todos los ficheros DITA, como los temas DITA y los mapas DITA, presentes en la ruta seleccionada.
+Puede buscar texto en los archivos presentes en la ruta seleccionada del repositorio de AEM. Por ejemplo, &quot;general&quot; se busca en la siguiente captura de pantalla. También puede limitar la búsqueda mediante filtros mejorados. Puede buscar todos los ficheros DITA, como los temas DITA y los mapas DITA, presentes en la ruta seleccionada.
 
 Puede buscar archivos que no sean DITA, como los archivos de imagen, multimedia y documentos de la ruta seleccionada. También se pueden buscar valores específicos en los atributos de elementos DITA. También puede buscar archivos que el usuario especificado haya desprotegido.
 
@@ -517,7 +519,7 @@ Puede buscar archivos que no sean DITA, como los archivos de imagen, multimedia 
 
 >[!NOTE]
 >
-> El administrador del sistema también puede configurar los filtros de texto y mostrar u ocultar otros filtros. Para obtener más información, consulte Configuración de filtros de texto en la sección Instalación y configuración del as a Cloud Service de Adobe Experience Manager Guides.
+> El administrador del sistema también puede configurar los filtros de texto y mostrar u ocultar otros filtros. Para obtener más información, consulte Configuración de filtros de texto en la sección Instalación y configuración de Adobe Experience Manager Guides as a Cloud Service.
 
 Se muestra la lista de archivos filtrados que contienen el texto buscado. Por ejemplo, en la captura de pantalla anterior se enumeran los archivos que contienen el texto &quot;general&quot;. También puede obtener una vista previa del contenido del archivo.
 
@@ -531,7 +533,7 @@ En el cuadro de diálogo Reutilizar contenido (Reuse Content), seleccione Ficher
 
 Para insertar una referencia de contenido, también puede introducir el UUID del archivo y el contenido reutilizable de ese archivo se muestra en la sección Vista previa.
 
-En función de la configuración para insertar vínculos, puede ver el UUID del contenido insertado o la ruta relativa en el panel Propiedades o en la vista de código de Source. El vínculo siempre se crea con el UUID del contenido al que se hace referencia. Consulte Configuración de vínculos basados en UUID en el as a Cloud Service Instalar y configurar Adobe Experience Manager Guides.
+En función de la configuración para insertar vínculos, puede ver el UUID del contenido insertado o la ruta relativa en el panel Propiedades o en la vista de código de Source. El vínculo siempre se crea con el UUID del contenido al que se hace referencia. Consulte Configuración de vínculos basados en UUID en Instalación y configuración de Adobe Experience Manager Guides as a Cloud Service.
 
 >[!NOTE]
 >
@@ -629,7 +631,7 @@ Las siguientes operaciones se pueden realizar en un documento con la Vista de et
 
 >[!NOTE]
 >
-> Si un usuario habilita la Vista de etiquetas desde el Editor web, permanecerá habilitada incluso en todas las sesiones. Esto significa que no tiene que volver a habilitar la Vista de etiquetas para acceder a ella más adelante.El valor predeterminado de Vista de etiquetas para una sesión de nuevo usuario está determinado por la propiedad tagsView del archivo ui\_config.json. Para obtener más información, consulte la sección *Configuración del valor predeterminado para la vista de etiquetas* en Instalar y configurar el as a Cloud Service de Adobe Experience Manager Guides.
+> Si un usuario habilita la Vista de etiquetas desde el Editor web, permanecerá habilitada incluso en todas las sesiones. Esto significa que no tiene que volver a habilitar la Vista de etiquetas para acceder a ella más adelante.El valor predeterminado de Vista de etiquetas para una sesión de nuevo usuario está determinado por la propiedad tagsView del archivo ui\_config.json. Para obtener más información, consulte la sección *Configuración del valor predeterminado para la vista de etiquetas* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
 **Habilitar/Deshabilitar el seguimiento de cambios** ![](images/track-change-icon.svg)
 
@@ -785,7 +787,7 @@ Al volver a una versión anterior, se muestra una señal visual que indica que l
 
 Las etiquetas ayudan a identificar la fase en la que un tema en particular se encuentra en el DLC \(Ciclo de vida de desarrollo de documentos\). Por ejemplo, cuando esté trabajando en un tema, puede establecer la etiqueta como &quot;Aprobado&quot;. Una vez que se publica un tema y se pone a disposición de los clientes, se le puede asignar la etiqueta &quot;Publicado&quot;.
 
-AEM Guides permite especificar etiquetas en formato de texto de forma libre o utilizar un conjunto de etiquetas predefinidas. La etiqueta personalizada permitiría a cualquier autor del sistema especificar una etiqueta según su elección. Esto proporciona flexibilidad; sin embargo, introduce etiquetas incoherentes en el sistema. Para resolver este problema, los administradores pueden configurar un conjunto de etiquetas predefinidas. Para obtener más información acerca de cómo configurar etiquetas predefinidas, vea *Configurar y personalizar el Editor Web XML* en el as a Cloud Service Instalar y configurar Adobe Experience Manager Guides.
+AEM Guides permite especificar etiquetas en formato de texto de forma libre o utilizar un conjunto de etiquetas predefinidas. La etiqueta personalizada permitiría a cualquier autor del sistema especificar una etiqueta según su elección. Esto proporciona flexibilidad; sin embargo, introduce etiquetas incoherentes en el sistema. Para resolver este problema, los administradores pueden configurar un conjunto de etiquetas predefinidas. Para obtener más información acerca de cómo configurar etiquetas predefinidas, vea *Configurar y personalizar el Editor Web XML* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
 Estas etiquetas se muestran a los autores en forma de lista desplegable siempre que necesiten especificar una etiqueta. Esto garantiza que solo se utilicen etiquetas predefinidas y coherentes en el sistema.
 
@@ -974,7 +976,7 @@ Esto está sincronizado con el cuadro de búsqueda de la ventana del repositorio
 
   >[!NOTE]
   >
-  >El administrador del sistema también puede configurar los filtros de texto y mostrar u ocultar otros filtros. Para obtener más información, consulte la sección *Configuración de filtros de texto* en el as a Cloud Service Instalar y configurar Adobe Experience Manager Guides.
+  >El administrador del sistema también puede configurar los filtros de texto y mostrar u ocultar otros filtros. Para obtener más información, consulte la sección *Configuración de filtros de texto* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
   >
   >Se muestra la lista de archivos filtrados que contienen el texto buscado. Por ejemplo, los archivos que contienen el texto `general purpose` se muestran en la captura de pantalla anterior. Puede seleccionar varios archivos de la lista filtrada para arrastrarlos y soltarlos en un mapa abierto para editarlos.
 
@@ -1029,7 +1031,7 @@ Puede realizar las siguientes acciones mediante el menú Opciones disponible par
 
 Verá distintas opciones en el menú Opciones en función de si selecciona un fichero de medios o un fichero DITA. Algunas opciones comunes disponibles para los archivos multimedia y DITA son las siguientes:
 
-- Duplicado
+- Duplicar
 - Cierre de compra/Registro de entrada
 - Vista previa
 - Mover a
@@ -1105,7 +1107,7 @@ Las distintas opciones del menú Opciones se explican a continuación:
 
      >[!NOTE]
      >
-     > Si el administrador ha impedido la eliminación de los archivos desprotegidos, sólo se mostrará el mensaje de error. Para obtener más información, consulte la sección *Impedir la eliminación de archivos desprotegidos* en el as a Cloud Service Instalar y configurar Adobe Experience Manager Guides.
+     > Si el administrador ha impedido la eliminación de los archivos desprotegidos, sólo se mostrará el mensaje de error. Para obtener más información, consulte la sección *Impedir la eliminación de archivos desprotegidos* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
    - Si el archivo se agrega a una colección de favoritos, se muestra el cuadro de diálogo **Forzar eliminación** y puede eliminarlo a la fuerza.
    - Si se hace referencia al archivo desde cualquier otro archivo, se mostrará el cuadro de diálogo **Forzar eliminación** con el mensaje de confirmación y podrá eliminar el archivo a la fuerza:
@@ -1114,7 +1116,7 @@ Las distintas opciones del menú Opciones se explican a continuación:
 
      >[!NOTE]
      >
-     > Si el administrador ha concedido permiso para eliminar archivos, se habilitará **Forzar eliminación**. De lo contrario, **Forzar eliminación** se deshabilitará y aparecerá un mensaje que indica que no tiene permiso para eliminar los archivos a los que se hace referencia. Para obtener más información, consulte la sección *Impedir la eliminación de archivos a los que se hace referencia* en el as a Cloud Service Instalar y configurar Adobe Experience Manager Guides.
+     > Si el administrador ha concedido permiso para eliminar archivos, se habilitará **Forzar eliminación**. De lo contrario, **Forzar eliminación** se deshabilitará y aparecerá un mensaje que indica que no tiene permiso para eliminar los archivos a los que se hace referencia. Para obtener más información, consulte la sección *Impedir la eliminación de archivos a los que se hace referencia* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
    - Si elimina un tema al que se hace referencia y ha abierto el archivo que contiene referencias para su edición, se mostrará el vínculo roto para el archivo al que se hace referencia.
 
@@ -1147,9 +1149,9 @@ Las distintas opciones del menú Opciones se explican a continuación:
 
 - **Vista en la interfaz de usuario de Assets**: utilícela para mostrar una vista previa de un archivo .dita/.xml en la interfaz de usuario de Assets. En el caso de un archivo .ditamap/.bookmap, todos los archivos de tema dentro del mapa se muestran en una sola vista página a página unificada.
 
-- **Descargar como PDF**: use la opción para generar la salida del PDF y descargarla.
+- **Descargar como PDF**: Use la opción para generar la salida de PDF y descargarla.
 
-- **Publish As**: utilice la opción para publicar un tema o los elementos de un tema en un fragmento de contenido.
+- **Publicar como**: use la opción para publicar un tema o los elementos de un tema en un fragmento de contenido.
 
 - **Generación rápida**: genere el resultado del archivo seleccionado. La salida solo se puede generar para archivos que formen parte de un ajuste preestablecido de salida. Para obtener más información, consulte [Publicación basada en artículos desde el editor web](web-editor-article-publishing.md#id218CK0U019I).
 
@@ -1277,11 +1279,11 @@ En el cuadro de diálogo **Descargar mapa**, puede elegir las siguientes opcione
 
   Recibirá la notificación de mapa listo para descarga si el mapa está listo para descargarse. En caso de que la descarga falle, recibirá la notificación de que la descarga del mapa ha fallado.
 
-  AEM Puede acceder al vínculo de descarga desde la bandeja de entrada de notificaciones de la. Seleccione la notificación de asignación generada en la bandeja de entrada para descargar la asignación en formato .zip.
+  Puede acceder al vínculo de descarga desde la bandeja de entrada de notificaciones de AEM. Seleccione la notificación de asignación generada en la bandeja de entrada para descargar la asignación en formato .zip.
 
   >[!NOTE]
   >
-  >  AEM De forma predeterminada, las asignaciones descargadas permanecen durante cinco días en la Bandeja de entrada de notificaciones de la.
+  >  De forma predeterminada, las asignaciones descargadas permanecen durante cinco días en la Bandeja de entrada de notificaciones de AEM.
 
 - **Generar salida**: genere la salida para el archivo de asignación seleccionado. La salida solo se puede generar para archivos que formen parte de un ajuste preestablecido de salida. Para obtener más información, consulte [Publicación basada en artículos desde el editor web](web-editor-article-publishing.md#id218CK0U019I).
 - **Cerrar**: Cierra el archivo de asignación.
@@ -1387,7 +1389,7 @@ Con la función de búsqueda, puede buscar un elemento por su nombre, ID, texto 
 
 La búsqueda distingue entre mayúsculas y minúsculas y coincide exactamente con la cadena. Los resultados de la búsqueda se ordenan según la posición del elemento en el documento.
 
-Puede buscar una cadena en el elemento si se muestra en el panel Vista de esquema. Por ejemplo, si la cadena &quot;Adobe&quot; está presente en el texto del elemento y se muestra en el panel Vista de esquema (como ha seleccionado **Mostrar texto** en la lista desplegable Opciones de vista), se filtra el elemento que lo contiene. Sin embargo, si el texto no se muestra en el panel Vista de esquema (ya que no ha seleccionado **Mostrar texto** en la lista desplegable Opciones de vista), el elemento que lo contiene no se filtra. Del mismo modo, encontrará la cadena en el ID o atributos si los ha seleccionado.
+Puede buscar una cadena en el elemento si se muestra en el panel Vista de esquema. Por ejemplo, si la cadena &quot;Adobe&quot; está presente en el texto del elemento y se muestra en el panel Vista de esquema (como seleccionó **Mostrar texto** en la lista desplegable Opciones de vista), se filtrará el elemento que lo contiene. Sin embargo, si el texto no se muestra en el panel Vista de esquema (ya que no ha seleccionado **Mostrar texto** en la lista desplegable Opciones de vista), el elemento que lo contiene no se filtra. Del mismo modo, encontrará la cadena en el ID o atributos si los ha seleccionado.
 
 
 
