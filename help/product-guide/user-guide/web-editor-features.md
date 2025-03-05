@@ -4,9 +4,9 @@ description: Descubra las funciones del Editor en Adobe Experience Manager Guide
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 14afe993292c78ed2f14178b3ab9dcbbaee7c372
+source-git-commit: 1e3a957dffc7296210eea89814cf6ca83ff1200e
 workflow-type: tm+mt
-source-wordcount: '18660'
+source-wordcount: '18659'
 ht-degree: 0%
 
 ---
@@ -1245,7 +1245,7 @@ Las distintas opciones del menú Opciones se explican a continuación:
 
 ### Mapa
 
-Cuando se selecciona el icono de vista Mapa, se muestra la vista Mapa donde se muestra una lista de temas dentro del fichero de mapa. Si no ha abierto ningún fichero de mapa, la vista Mapa aparecerá en blanco. Al hacer doble clic en cualquier fichero de mapa, se abre el fichero de mapa en esta vista. Puede hacer doble clic en cualquier archivo del mapa para abrirlo en el Editor.
+Al seleccionar el icono de vista Mapa, se muestra la vista Mapa donde se muestra una lista de temas dentro del archivo de mapa. Si no ha abierto ningún fichero de mapa, la vista Mapa aparecerá en blanco. Al hacer doble clic en cualquier fichero de mapa, se abre el fichero de mapa en esta vista. Puede hacer doble clic en cualquier archivo del mapa para abrirlo en el Editor.
 
 De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón por encima de un archivo, puede ver el título y la ruta del archivo como información sobre herramientas.
 
@@ -1572,36 +1572,36 @@ El siguiente ejemplo muestra cómo utilizar el esquema de asunto en Experience M
 
 1. Cree un archivo de esquema de temas en una herramienta de su elección. El siguiente código XML crea un esquema de asunto que enlaza los valores del atributo `platform`.
 
-   ```XML
-   <?xml version="1.0" encoding="UTF-8"?>
-   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "subjectScheme.dtd">
-   <subjectScheme id="GUID-4f942f63-9a20-4355-999f-eab7c6273270">
-       <title>rw</title>
-       <!-- Define new OS values that are merged with those in the unixOS scheme -->
-       <subjectdef keys="os">
-           <subjectdef keys="linux">    </subjectdef>
-           <subjectdef keys="mswin">    </subjectdef>
-           <subjectdef keys="zos">    </subjectdef>
-       </subjectdef>
-       <!-- Define application values -->
-       <subjectdef keys="app" navtitle="Applications">
-           <subjectdef keys="apacheserv">    </subjectdef>
-           <subjectdef keys="mysql">    </subjectdef>
-       </subjectdef>
-       <!-- Define an enumeration of the platform attribute, equal to       each value in the OS subject. This makes the following values       valid for the platform attribute: linux, mswin, zos -->
-       <enumerationdef>
-           <attributedef name="platform">    </attributedef>
-           <subjectdef keyref="os">    </subjectdef>
-       </enumerationdef>
-       <!-- Define an enumeration of the otherprops attribute, equal to       each value in the application subjects.       This makes the following values valid for the otherprops attribute:       apacheserv, mysql -->
-       <enumerationdef>
-           <attributedef name="otherprops">    </attributedef>
-           <subjectdef keyref="app">    </subjectdef>
-       </enumerationdef>
-   </subjectScheme>
-   ```
+```XML
+<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "subjectScheme.dtd">
+    <subjectScheme id="GUID-4f942f63-9a20-4355-999f-eab7c6273270">
+        <title>rw</title>
+        <!-- Define new OS values that are merged with those in the unixOS scheme -->
+        <subjectdef keys="os">
+            <subjectdef keys="linux">    </subjectdef>
+            <subjectdef keys="mswin">    </subjectdef>
+            <subjectdef keys="zos">    </subjectdef>
+        </subjectdef>
+        <!-- Define application values -->
+        <subjectdef keys="app" navtitle="Applications">
+            <subjectdef keys="apacheserv">    </subjectdef>
+            <subjectdef keys="mysql">    </subjectdef>
+        </subjectdef>
+        <!-- Define an enumeration of the platform attribute, equal to       each value in the OS subject. This makes the following values       valid for the platform attribute: linux, mswin, zos -->
+        <enumerationdef>
+            <attributedef name="platform">    </attributedef>
+            <subjectdef keyref="os">    </subjectdef>
+        </enumerationdef>
+        <!-- Define an enumeration of the otherprops attribute, equal to       each value in the application subjects.       This makes the following values valid for the otherprops attribute:       apacheserv, mysql -->
+        <enumerationdef>
+            <attributedef name="otherprops">    </attributedef>
+            <subjectdef keyref="app">    </subjectdef>
+        </enumerationdef>
+    </subjectScheme>
+```
 
-   ![](images/subject-scheme-panel-new.png){width="300" align="left"}
+![](images/subject-scheme-panel-new.png){width="300" align="left"}
 
 1. Guarde el archivo con la extensión a.ditamap y cárguelo en cualquier carpeta de DAM.
 
@@ -1630,7 +1630,7 @@ Las definiciones del asunto se definen en `subject_scheme_map_1.ditamap`
 
 
 ```XML
-  <?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?> 
     <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
     <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
 
@@ -1674,7 +1674,7 @@ Las definiciones del asunto se definen en `subject_scheme_map_1.ditamap`
 La definición de la enumeración está presente en    subject_scheme_map_2.ditamap.
 
 ```XML
-    ?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?> 
         <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
         <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
         <title>subject_scheme_map_2</title> 
