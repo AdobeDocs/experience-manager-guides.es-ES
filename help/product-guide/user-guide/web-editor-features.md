@@ -4,9 +4,9 @@ description: Descubra las funciones del Editor en Adobe Experience Manager Guide
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 236947dc7dd01d4f232058a98dcd2db99031c267
+source-git-commit: 52b94c662f04499644f2806255521b3e68da1910
 workflow-type: tm+mt
-source-wordcount: '18661'
+source-wordcount: '18660'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Una potente herramienta impulsada por IA diseñada para mejorar su productividad
 
 >[!NOTE]
 >
-> Actualmente, la función AI Assistant está disponible para Adobe Experience Manager Guides as a Cloud Service.
+>Actualmente, la función AI Assistant está disponible para Adobe Experience Manager Guides as a Cloud Service.
 
 **Expandir vista**: permite expandir la vista de página mediante el icono **Expandir**. En esta vista, la barra de encabezado que contiene el logotipo de Adobe Experience Manager está oculta. Esto maximiza el espacio de contenido para editar. Para volver a la vista estándar, usa el icono **Salir de la vista expandida**.
 
@@ -190,6 +190,7 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
       - Seleccione **Guardar**.
 
      Una vez configurada la aplicación, cree el perfil **ServiceNow**.
+
    - Para crear un perfil, seleccione ServiceNow Knowledge Base en la lista desplegable **Tipo de servidor**. Escriba un perfil **Name**. En la **URL de ServiceNow**, introduzca el sitio de consumidores que utilizaría para publicar la salida y, a continuación, agregue el **Nombre de usuario** y la **Contraseña** proporcionados por el sitio de consumidores de ServiceNow. A continuación, **Valide** y **guarde** el perfil recién creado.
 
      ![Perfil de publicación ServiceNow](./images/service-now-publish-profile.png){width="550" align="left"}
@@ -204,6 +205,7 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
    - **Ejecute la comprobación de validación antes de guardar el archivo**: Seleccione esta opción para ejecutar las validaciones de Schematron utilizando los archivos de Schematron seleccionados antes de cualquier operación de guardado. Puede añadir un archivo de Schematron seleccionando el icono +. Se muestran los archivos de Schematron seleccionados.
 
      >[!NOTE]
+     >
      >Los archivos de Schematron seleccionados persistirán para el perfil de carpeta seleccionado.
 
      ![Validación en la configuración del editor](./images/editor-setting-validation.png){width="550" align="left"}
@@ -223,18 +225,21 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
 
   ![](images/editor-setting-translation.png){width="550" align="left"}
 
-   - **Grupos de idiomas**: como administrador, puede crear un grupo de idiomas y utilizarlos como un conjunto para traducir el contenido.\
+   - **Grupos de idiomas**: como administrador, puede crear un grupo de idiomas y utilizarlos como un conjunto para traducir el contenido.
+
      Siga estos pasos para crear un nuevo grupo de idiomas:
+
       1. Seleccione **Añadir**.
       1. Introduzca el nombre del grupo de idiomas. Cada idioma debe tener un nombre único. Puede ver un error si el campo de nombre está vacío o si el nombre no es único.
       1. Seleccione los idiomas en la lista desplegable. Puede seleccionar varios idiomas.
 
-     Escriba los primeros caracteres del idioma o el código de idioma para filtrar los idiomas deseados. Por ejemplo, escriba &#39;en&#39; para filtrar todos los idiomas que contienen &#39;en&#39; al principio de su nombre o código.
+         Escriba los primeros caracteres del idioma o el código de idioma para filtrar los idiomas deseados. Por ejemplo, escriba &#39;en&#39; para filtrar todos los idiomas que contienen &#39;en&#39; al principio de su nombre o código.
+
       1. Seleccione el icono Listo para añadir los idiomas seleccionados al grupo. Se muestran los idiomas. Cuando se agregan tres o más idiomas, se muestra la opción **Mostrar más**. Puede seleccionar **Mostrar más** para ver todos los idiomas presentes en el grupo.
 
          >[!TIP]
          >
-         > Cambie **Mostrar más** por **Mostrar menos** y ver solo algunos idiomas.
+         >Cambie **Mostrar más** por **Mostrar menos** y ver solo algunos idiomas.
 
       1. Pase el ratón sobre los idiomas de un grupo para editar ![editar icono](images/edit_pencil_icon.svg) o eliminar ![eliminar](images/Delete_icon.svg) los grupos de idiomas.
       1. Guardar **configuración**.
@@ -296,7 +301,7 @@ La característica **Buscar y reemplazar** está disponible en los modos de vist
 
 ![](images/find-replace-bar.png){width="800" align="left"}
 
-Con el icono de configuración \(![](images/settings-find-replace-icon.svg)\), puede alternar las opciones de búsqueda **Ignorar mayúsculas y minúsculas** y **Sólo palabras completas**. Para realizar la búsqueda sin distinción entre mayúsculas y minúsculas, active \(o seleccione\) la opción **Ignorar mayúsculas y minúsculas**. De lo contrario, si desea realizar la búsqueda que distingue entre mayúsculas y minúsculas, desactive \(o deseleccione\) la opción **Ignorar mayúsculas y minúsculas**. También puede elegir buscar una palabra entera.
+Con el icono de configuración \(![](images/settings-find-replace-icon.svg)\), puede alternar las opciones de búsqueda **Ignorar mayúsculas y minúsculas** y **Sólo palabras completas**. Para realizar la búsqueda sin distinción entre mayúsculas y minúsculas, active (o seleccione) la opción **Ignorar mayúsculas y minúsculas**. De lo contrario, si desea realizar la búsqueda que distingue entre mayúsculas y minúsculas, desactive (o anule la selección) de la opción **Ignorar mayúsculas y minúsculas**. También puede elegir buscar una palabra entera.
 
 La búsqueda es instantánea, lo que significa que a medida que escribe la frase o palabra de búsqueda en el campo **Buscar**, el término se busca y selecciona inmediatamente en el tema. Del mismo modo, para reemplazar un texto en el tema, escribe el término de búsqueda y su reemplazo en los campos respectivos y selecciona el botón **Reemplazar** o **Reemplazar todo**.
 
@@ -364,7 +369,7 @@ Para acceder al historial de versiones y volver a una versión específica del t
 
 **Etiquetas de versión**
 
-Las etiquetas ayudan a identificar la fase en la que un tema en particular se encuentra en el DLC \(Ciclo de vida de desarrollo de documentos\). Por ejemplo, cuando esté trabajando en un tema, puede establecer la etiqueta como &quot;Aprobado&quot;. Una vez que se publica un tema y se pone a disposición de los clientes, se le puede asignar la etiqueta &quot;Publicado&quot;.
+Las etiquetas ayudan a identificar la fase en la que un tema en particular se encuentra en el DLC (ciclo de vida de desarrollo de documentos). Por ejemplo, cuando esté trabajando en un tema, puede establecer la etiqueta como &quot;Aprobado&quot;. Una vez que se publica un tema y se pone a disposición de los clientes, se le puede asignar la etiqueta &quot;Publicado&quot;.
 
 Experience Manager Guides permite especificar etiquetas en formato de texto de forma libre o utilizar un conjunto de etiquetas predefinidas. La etiqueta personalizada permitiría a cualquier autor del sistema especificar una etiqueta según su elección. Esto proporciona flexibilidad; sin embargo, introduce etiquetas incoherentes en el sistema. Para resolver este problema, los administradores pueden configurar un conjunto de etiquetas predefinidas. Para obtener más información acerca de cómo configurar etiquetas predefinidas, vea *Configurar y personalizar el Editor Web XML* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
@@ -1865,9 +1870,9 @@ Para realizar la búsqueda y el reemplazo globales, realice los siguientes pasos
 
 Para habilitar el icono **Reemplazar todo**, el administrador del sistema debe seleccionar la opción **Habilitar Reemplazar todo** en la ficha **General** de **Configuración**.
 
-    >[!NOTE]
-    >
-    > Pase el ratón sobre un archivo de la lista de resultados de búsqueda para ver Reemplazar todo en el icono Archivo que hay a su derecha. También puede obtener el icono Ignorar archivo para eliminar el archivo del resultado de búsqueda. Los archivos que omita se quitarán de la lista y el término buscado no se reemplazará en ellos.
+>[!NOTE]
+>
+> Pase el ratón sobre un archivo de la lista de resultados de búsqueda para ver el icono Reemplazar todo en Archivo a su derecha. También puede obtener el icono Ignorar archivo para eliminar el archivo del resultado de búsqueda. Los archivos que ignora se eliminan de la lista y el término buscado no se reemplaza en ellos.
 
 Solo se puede realizar una operación de reemplazo total a la vez en todo el sistema y hasta que se realice la operación verá el estado &quot;Reemplazar todo en curso&quot;. También puede anular la operación Reemplazar todo entre medias o ver el informe de registro. Si anula la operación, recibirá una notificación al respecto en la Bandeja de entrada. Se le mostrará una notificación de éxito después de reemplazar todas las ocurrencias en el archivo seleccionado.
 
