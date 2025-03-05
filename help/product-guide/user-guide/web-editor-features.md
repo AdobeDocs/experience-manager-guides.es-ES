@@ -4,9 +4,9 @@ description: Descubra las funciones del Editor en Adobe Experience Manager Guide
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: 236947dc7dd01d4f232058a98dcd2db99031c267
 workflow-type: tm+mt
-source-wordcount: '18656'
+source-wordcount: '18661'
 ht-degree: 0%
 
 ---
@@ -1253,7 +1253,7 @@ Cuando se abre un mapa en la vista de mapa, el título del mapa actual se muestr
 
 Al definir atributos clave para el tema o las referencias de mapa, puede ver el título, el icono correspondiente y la clave en el panel izquierdo. La clave se muestra como `keys=<key-name>`.
 
-![claves en la vista de mapa](images/view-key-title-map-view.png){width="300" align="left"}
+![Claves en la vista de mapa](images/view-key-title-map-view.png){width="300" align="left"}
 
 Si tiene derechos de edición sobre los archivos de mapa, también podrá editar los archivos. Para obtener más información acerca de cómo abrir y editar un tema a través del mapa DITA, vea [Editar temas a través del mapa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
@@ -1265,7 +1265,7 @@ Las siguientes opciones están disponibles para un archivo de asignación en la 
 
 Puede realizar las siguientes acciones mediante el menú Opciones del archivo de asignación:
 
-![](images/options-menu-map-view_cs.png){width="800" align="left"}
+![Menú de opciones en la vista de mapa](images/options-menu-map-view_cs.png){width="800" align="left"}
 
 - **Editar**: abre el archivo de asignación para editarlo en el Editor de mapas.
 
