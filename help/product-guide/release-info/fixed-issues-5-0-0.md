@@ -1,21 +1,21 @@
 ---
-title: Notas de versión | Se han corregido problemas en la versión 2025.02.0 de Adobe Experience Manager Guides
-description: Obtenga información acerca de las correcciones de errores en la versión 2025.02.0 de Adobe Experience Manager Guides as a Cloud Service.
-exl-id: e7dec4a2-e11a-4b78-8111-a331d20ce73d
-source-git-commit: 09283ab7c76eca669b30ec92923456c11d53a10b
+title: Notas de versión | Se han corregido problemas en la versión 5.0.0 de Adobe Experience Manager Guides
+description: Obtenga información acerca de las correcciones de errores en la versión 5.0.0 de Adobe Experience Manager Guides.
+source-git-commit: 5ae05935d254b03ad99221bd5f65dbb6a3580c5f
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1246'
 ht-degree: 1%
 
 ---
 
-# Se han corregido problemas en la versión 2025.02.0
+# Se han corregido problemas en la versión 5.0.0 (marzo de 2025)
 
-Este artículo cubre los errores corregidos en varias áreas de la versión 2025.02.0 de Adobe Experience Manager Guides as a Cloud Service.
+Este artículo cubre los errores corregidos en varias áreas de la versión 5.0.0 de Adobe Experience Manager Guides.
 
-Para obtener más información sobre las nuevas funciones y mejoras, consulte [Novedades de la versión 2025.02.0](whats-new-2025-02-0.md).
 
-Obtenga información acerca de [instrucciones de actualización para la versión 2025.02.0](upgrade-instructions-2025-02-0.md).
+Para obtener más información sobre las nuevas funciones y mejoras, consulte [Novedades de la versión 5.0.0](whats-new-5-0-0.md).
+
+Obtenga información acerca de [instrucciones de actualización para la versión 5.0.0](upgrade-instructions-5-0-0.md).
 
 
 ## Creación
@@ -62,16 +62,13 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 
 ## Administración
 
-- Se producen fugas de recursos debido a errores **ResourceResolver** sin cerrar en los registros. (18488)
 - El título y el icono del cuadro de diálogo **Forzar eliminación** no están alineados correctamente en la interfaz de usuario de Assets. (21933)
 - Cuando se actualiza cualquier JSON en el perfil de carpeta para la configuración del editor XML, la operación de guardado interrumpe la configuración del editor XML. (22414)
 - Al duplicar cualquier perfil de carpeta, su lista de usuarios administradores también se copia del perfil de carpeta original. (19067)
 - Al mover carpetas grandes (con un gran volumen de contenido DITA, hasta 200 000 elementos) desde la interfaz de usuario de Assets, se produce un error. (20107)
-- Al usar el título dinámico con `<conkeyref>`, no se resuelve correctamente en **Lista de temas de informes de guías**. (20144)
 - Si edita el perfil **Folder** con el shell unificado habilitado, se generará una interfaz de usuario en blanco. (22212)
 - Al eliminar carpetas que contienen un gran número de archivos, la operación falla. (17107)
 - Cuando cancela o elimina el trabajo de traducción o elimina el proyecto, el panel de traducción muestra el estado **En curso**. (18417)
-- Cuando se habilita el shell unificado para una instancia de nube, la vista previa del tema no se abre desde el panel de mapas. (18826)
 - Cuando envía dos versiones de un tema sin traducir simultáneamente mediante traducción no heredada y aprueba la segunda versión antes de la primera, se interrumpe el proyecto de traducción con la primera versión. (22200)
 
 
@@ -87,18 +84,20 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 
 ## Problemas conocidos
 
-Adobe ha identificado los siguientes problemas conocidos para la versión 2025.02.0:
+Adobe ha identificado los siguientes problemas conocidos para la versión 5.0.0:
 
+- En algunos casos, la funcionalidad de bloqueo de los archivos CSS no funciona como se esperaba, lo que permite a otros usuarios editar y guardar los archivos incluso cuando están bloqueados por otro usuario.
+- No se puede salir de la vista de la consola Mapa cuando la Línea base está sucia con el guardado automático habilitado.
+- La aplicación de cambios de configuración de ajustes preestablecidos no se refleja en los ajustes preestablecidos que ya se han creado dentro del mapa si el nombre del ajuste preestablecido tiene algún carácter en mayúsculas.
+- La posición del color de fondo no está alineada correctamente en la interfaz de usuario de **Panel de la condición**.
+- Cuando usa la imagen como `<keyref>`, el **Tipo de referencia** de la imagen no se muestra en el **informe multimedia**.
 - Al utilizar imágenes como variables en la plantilla de PDF, no se resuelve en la salida.
-- La funcionalidad **Localizar en el repositorio** no funciona al abrir el Editor de guías por primera vez, pero empieza a funcionar según lo esperado después de actualizar el explorador.
 - En los informes de **Lista de temas**, se produce un error al ordenar por título los recursos con `<conref>` o `<conkeyref>` en el título, lo que hace que estas entradas siempre aparezcan en la parte superior.
 - El cambio del perfil de carpeta no refleja inmediatamente los cambios en la interfaz de usuario sin actualizar el explorador.
-- Es posible que las personalizaciones del marco de extensión realizadas antes de Guides 2025.02.x.x no funcionen según lo previsto.
+- Es posible que las personalizaciones del marco de extensión realizadas antes de Guides 5.0.0 no funcionen según lo previsto.
 - La tabla de contenido completa del mapa no se actualiza al publicar selectivamente temas del mapa.
 - La publicación de un mapa que contiene un archivo Markdown con referencias de imagen internas produce un error en los servidores de Windows.
 - La lista con viñetas no se convierte en lista numerada en Markdown.
 - La publicación en un sitio nativo de AEM falla cuando se hace referencia a los archivos de marcado en un mapa.
-- La posición del color de fondo no está alineada correctamente en la interfaz de usuario de **Panel de la condición**.
-- Cuando usa la imagen como `<keyref>`, el **Tipo de referencia** de la imagen no se muestra en el **informe multimedia**.
-- En algunos casos, la funcionalidad de bloqueo de los archivos CSS no funciona como se esperaba, lo que permite a otros usuarios editar y guardar los archivos incluso cuando están bloqueados por otro usuario.
-- La aplicación de cambios de configuración de ajustes preestablecidos no se refleja en los ajustes preestablecidos que ya se han creado dentro del mapa si el nombre del ajuste preestablecido tiene algún carácter en mayúsculas.
+
+

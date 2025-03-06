@@ -1,10 +1,10 @@
 ---
-title: Traducir documentos desde el editor web
+title: Traducción de documentos desde la consola Mapa
 description: Traduzca el contenido a varios idiomas desde el editor web. Obtenga información sobre cómo crear un proyecto de traducción, agregar reglas, ver versiones y descartar archivos sin sincronizar en AEM Guides.
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: f29c1225fcb95dbe05a3fc8aa471c88dc7b8ffb2
+source-git-commit: 6b4908e9780ec70f4d11a21680bba384c9636485
 workflow-type: tm+mt
 source-wordcount: '2365'
 ht-degree: 0%
