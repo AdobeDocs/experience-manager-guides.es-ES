@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: de79a2d63328fc6142b475a776dafd7e6d12f911
+source-git-commit: fec62d9c14acbbfc632f08af003f386aa2a6ab35
 workflow-type: tm+mt
-source-wordcount: '8018'
+source-wordcount: '8021'
 ht-degree: 0%
 
 ---
@@ -1298,7 +1298,7 @@ Durante esta actualización, dado que el valor `'order'` ha cambiado de 1000 a 5
 
 ## Pasos para reindexar damAssetLucene
 
-La definición del índice se actualiza para damAssetLucene con guías. Consulte https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460 para reindexar damAssetLucene después de actualizar a la versión 5.0.0.
+La definición del índice se actualiza para damAssetLucene con guías. Consulte [este artículo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) para volver a indexar damAssetLucene después de actualizar a la versión 5.0.0.
 
 >[!NOTE]
 >
