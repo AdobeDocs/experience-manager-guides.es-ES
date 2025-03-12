@@ -5,27 +5,27 @@ exl-id: 10ab0f3c-97dc-4293-ab73-75b438c03d99
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: 6aaa5c1eeb9b74ababc7ebf427babfff101acc70
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '700'
 ht-degree: 10%
 
 ---
 
 # Administración de usuarios y seguridad {#id181AED00G5Z}
 
-Para acceder y configurar las funciones de AEM Guides, debe crear usuarios. A estos usuarios se les pueden asignar permisos para acceder a todas las funciones o a determinadas funciones de AEM Guides. AEM Aprenda a configurar y mantener la autorización de usuarios, y también comprenda la teoría detrás de cómo funciona la autenticación y la autorización en los entornos de trabajo de los usuarios de la.
+Para acceder y configurar las funciones de AEM Guides, debe crear usuarios. A estos usuarios se les pueden asignar permisos para acceder a todas las funciones o a determinadas funciones de AEM Guides. Aprenda a configurar y mantener la autorización de usuarios, y también comprenda la teoría detrás del funcionamiento de la autenticación y la autorización en AEM.
 
-AEM Los siguientes temas de la documentación de la le ayudarán a comprender la administración de usuarios y los conceptos y características relacionados con la seguridad:
+Los siguientes temas de la documentación de AEM le ayudarán a comprender la administración de usuarios y los conceptos y características relacionados con la seguridad:
 
-- AEM [Usuarios grupos y permisos](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
+- [Usuarios, grupos y permisos de AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
 
 - [Administración y seguridad de usuarios](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=es)
 
 
 ## Grupos de usuarios creados por AEM Guides {#id181TF0K0MHT}
 
-AEM Guides proporciona tres grupos predeterminados para administrar diferentes tareas en un proyecto DITA. Estos grupos son: *Autores*, *Revisores* y *Editores*. Según el grupo con el que esté asociado un usuario, se le permite realizar tareas específicas. Por ejemplo, la tarea de publicación solo la puede realizar un editor, pero no un autor o un revisor. Del mismo modo, un autor puede crear un nuevo tema y un revisor solo puede revisar un tema.
+AEM Guides proporciona tres grupos listos para usar. Estos grupos son: *Autores*, *Revisores* y *Editores*. Según el grupo con el que esté asociado un usuario, se le permite realizar tareas específicas. Por ejemplo, la tarea de publicación solo la puede realizar un editor, pero no un autor o un revisor. Del mismo modo, un autor puede crear un nuevo tema y un revisor solo puede revisar un tema.
 
 >[!TIP]
 >
@@ -54,7 +54,7 @@ En la tabla siguiente se enumeran varias tareas y los grupos que pueden realizar
 | **Funciones disponibles en la consola de mapas DITA \(ficha Ajustes preestablecidos de salida\)** |
 | Generar |   |   | Sí |
 | Editar |   |   | Sí |
-| Duplicado |   |   | Sí |
+| Duplicar |   |   | Sí |
 | Crear |   |   | Sí |
 | Eliminar ajuste preestablecido |   |   | Sí |
 | **Funciones disponibles en la consola de mapas DITA \(ficha Salidas\)** |
@@ -65,7 +65,7 @@ En la tabla siguiente se enumeran varias tareas y los grupos que pueden realizar
 | **Funciones disponibles en la consola de mapas DITA \(ficha Líneas bases\)** |
 | Crear |   |   | Sí |
 | Editar |   |   | Sí |
-| Duplicado |   |   | Sí |
+| Duplicar |   |   | Sí |
 | Quitar |   |   | Sí |
 | Consola de mapas DITA \(ficha Informes\) | Sí |   | Sí |
 | **Funciones disponibles en la consola de mapas DITA \(Ajustes preestablecidos de condición\)** |
@@ -99,7 +99,7 @@ La siguiente lista contiene algunas recomendaciones y puntos relacionados con gr
 
 - Si desea que los usuarios puedan realizar operaciones de búsqueda en DAM, haga que los usuarios sean miembros del grupo *dam-users*.
 
-- AEM Si desea otorgar derechos de administración a cualquier usuario, puede hacerlo dándole acceso a través de grupos estándar como *administradores*, *proyectos-administradores* o la configuración de OSGI \(Consola Felix\).
+- Si desea otorgar derechos de administración a cualquier usuario, puede hacerlo dándole acceso a través de grupos estándar de AEM como *administradores*, *proyectos-administradores* o la configuración OSGI \(Consola Felix\).
 
 - Para otorgar a un usuario derechos para cambiar el estado de un documento, asegúrese de agregar el usuario en la sección de transición de estado del perfil de estado del documento.
 
