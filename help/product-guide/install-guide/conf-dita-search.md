@@ -1,11 +1,11 @@
 ---
 title: Configuración de la búsqueda para la IU de AEM Assets
-description: Obtenga información sobre cómo configurar la búsqueda para la IU de AEM Assets
+description: Obtenga información sobre cómo configurar la IU de búsqueda para AEM Assets
 exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
 feature: Search Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
 workflow-type: tm+mt
 source-wordcount: '1695'
 ht-degree: 1%
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 # Configuración de la búsqueda para la IU de AEM Assets {#id192SC800MY4}
 
-AEM De forma predeterminada, no reconoce contenido DITA, por lo que no proporciona ningún mecanismo para buscar contenido DITA en su repositorio. AEM Guides AEM le permite añadir la capacidad de búsqueda de contenido DITA en el repositorio de.
+De forma predeterminada, AEM no reconoce el contenido DITA, por lo que no proporciona ningún mecanismo para buscar contenido DITA dentro de su repositorio. AEM Guides permite añadir la capacidad de búsqueda de contenido DITA en el repositorio de AEM.
 
-AEM De forma predeterminada, no reconoce contenido DITA, por lo que no proporciona ningún mecanismo para buscar contenido DITA en su repositorio. Además, no hay capacidad de OOTB para buscar contenido en función de su UUID. AEM Guides AEM le permite añadir las funciones de búsqueda de contenido DITA y búsqueda basada en UUID en el repositorio de la.
+De forma predeterminada, AEM no reconoce el contenido DITA, por lo que no proporciona ningún mecanismo para buscar contenido DITA dentro de su repositorio. Además, no hay capacidad de OOTB para buscar contenido en función de su UUID. AEM Guides permite añadir las funciones de búsqueda de contenido DITA y búsqueda basada en UUID en el repositorio de AEM.
 
 La configuración de la búsqueda de contenido DITA implica las siguientes tareas:
 
@@ -30,7 +30,7 @@ Además de agregar la capacidad de búsqueda, también puede configurar las carp
 
 ## Añadir el componente de búsqueda Elemento DITA en la IU de Assets {#id192SF0F50HS}
 
-Realice las siguientes acciones para añadir el componente de búsqueda de contenido DITA en la interfaz de usuario de AEM Assets:
+Realice lo siguiente para añadir el componente de búsqueda de contenido DITA en la interfaz de usuario de AEM Assets:
 
 1. Inicie sesión en Adobe Experience Manager como administrador.
 
@@ -136,8 +136,7 @@ En la sección del conjunto de reglas, puede especificar:
 
 Una regla consta de lo siguiente:
 
-xpath
-:   Consulta XPath que recupera los elementos o atributos de archivos DITA. La configuración predeterminada para la regla de elemento recupera todos los elementos `prolog`. Además, la configuración predeterminada de la regla de atributos recupera todos los atributos de `prolog` elementos. Puede especificar una consulta XPath para serializar los elementos o atributos que desea buscar.
+**xpath**: consulta XPath que recupera los elementos o atributos de archivos DITA. La configuración predeterminada para la regla de elemento recupera todos los elementos `prolog`. Además, la configuración predeterminada de la regla de atributos recupera todos los atributos de `prolog` elementos. Puede especificar una consulta XPath para serializar los elementos o atributos que desea buscar.
 
 La consulta XPath contiene el nombre de clase del tipo de documento. La clase `topic/topic` se utiliza para documentos DITA de tipo de tema. Si desea crear una regla para otros documentos DITA, debe utilizar los siguientes nombres de clase:
 
@@ -147,25 +146,21 @@ La consulta XPath contiene el nombre de clase del tipo de documento. La clase `t
 | Tarea | - tema/tema tarea/tarea |
 | Concepto | - tema/concepto del tema/concepto |
 | Referencia | - tema/referencia/referencia del tema |
-| Asignar | - mapa/mapa |
+| Mapa | - mapa/mapa |
 
-texto
-:   Si desea buscar el texto dentro del elemento especificado, especifique el valor yes. Si especifica no como valor, solo se serializan los atributos dentro del elemento. Los atributos que desea buscar deben especificarse en la sección de conjuntos de atributos.
+**texto**: si desea buscar el texto dentro del elemento especificado, especifique el valor yes. Si especifica no como valor, solo se serializan los atributos dentro del elemento. Los atributos que desea buscar deben especificarse en la sección de conjuntos de atributos.
 
-conjunto de atributos
-:   Especifique el ID del conjunto de atributos que desea asociar con esta regla. El valor all-attrs es un caso especial para indicar que todos los atributos de esta regla deben serializarse.
+**attributeset**: especifique el identificador del conjunto de atributos que desea asociar con esta regla. El valor all-attrs es un caso especial para indicar que todos los atributos de esta regla deben serializarse.
 
 Un conjunto de atributos contiene una lista de atributos que desea buscar en el contenido DITA. El conjunto de atributos contiene lo siguiente:
 
-id
-:   Un identificador único del conjunto de atributos. Este ID se especifica en el parámetro attributeSet de un conjunto de reglas.
+**id**: un identificador único para el conjunto de atributos. Este ID se especifica en el parámetro attributeSet de un conjunto de reglas.
 
-atributo
-:   Lista de atributos que desea buscar. Para cada atributo, debe crear una entrada individual en el elemento `attribute`.
+**atributo** - Una lista de atributos que desea buscar. Para cada atributo, debe crear una entrada individual en el elemento `attribute`.
 
 Realice los siguientes pasos para agregar elementos o atributos DITA personalizados en el archivo de serialización de búsqueda:
 
-1. AEM Inicie sesión en la aplicación y abra el modo CRXDE Lite.
+1. Inicie sesión en AEM y abra el modo CRXDE Lite.
 
 1. Vaya al archivo de configuración de serialización disponible en la siguiente ubicación:
 
@@ -196,7 +191,7 @@ La nueva información de serialización se almacena y activa para la búsqueda. 
 
 Una vez que haya realizado algún cambio en el archivo de serialización de búsqueda predeterminado, debe habilitar la opción Extracción de metadatos DITA en el paquete *com.adobe.fmdita.config.ConfigManager* y luego ejecutar el flujo de trabajo para extraer metadatos. De este modo se extraen los metadatos requeridos de los ficheros DITA existentes y éstos quedan disponibles para la búsqueda.
 
-Si crea nuevos archivos o edita cualquier archivo después de actualizar el archivo de serialización, los metadatos se extraen automáticamente de esos archivos. AEM El proceso de extracción de metadatos solo es necesario para los archivos que ya existen en el repositorio de.
+Si crea nuevos archivos o edita cualquier archivo después de actualizar el archivo de serialización, los metadatos se extraen automáticamente de esos archivos. El proceso de extracción de metadatos solo es necesario para los archivos que ya existen en el repositorio de AEM.
 
 La extracción de metadatos de ficheros DITA existentes implica dos tareas:
 
@@ -239,7 +234,7 @@ Siga estos pasos para ejecutar el flujo de trabajo de extracción de metadatos:
 
 ## Excluir archivos temporales de los resultados de búsqueda {#id197AHI0035Z}
 
-AEM De forma predeterminada, la búsqueda se realiza en todo el repositorio de. Podría haber algunas ubicaciones que le gustaría excluir de la búsqueda. Por ejemplo, cuando se inicia el flujo de trabajo de traducción de contenido, los archivos no aprobados permanecen en una ubicación de carpeta temporal. Al realizar la búsqueda, los archivos de esta ubicación temporal también se devuelven en los resultados de la búsqueda.
+De forma predeterminada, la búsqueda se realiza en todo el repositorio de AEM. Podría haber algunas ubicaciones que le gustaría excluir de la búsqueda. Por ejemplo, cuando se inicia el flujo de trabajo de traducción de contenido, los archivos no aprobados permanecen en una ubicación de carpeta temporal. Al realizar la búsqueda, los archivos de esta ubicación temporal también se devuelven en los resultados de la búsqueda.
 
 Para evitar que AEM Guides busque en la ubicación de la carpeta de traducción temporal, debe agregar la ubicación de la carpeta temporal en la lista de exclusión.
 
@@ -249,7 +244,7 @@ Realice los siguientes pasos para excluir la carpeta de traducción temporal de 
 >
 > Puede agregar cualquier otra ubicación de carpeta a la lista de exclusión mediante este procedimiento.
 
-1. AEM Inicie sesión en la aplicación y abra el modo CRXDE Lite.
+1. Inicie sesión en AEM y abra el modo CRXDE Lite.
 
 1. Vaya al nodo damAssetLucene disponible en la siguiente ubicación:
 

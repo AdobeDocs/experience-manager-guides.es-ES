@@ -5,7 +5,7 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
 workflow-type: tm+mt
 source-wordcount: '4756'
 ht-degree: 0%
@@ -548,17 +548,13 @@ Con el archivo de configuración de esta sección, puede crear algunos fragmento
 
 Se requieren los siguientes detalles para crear un fragmento de código:
 
-snippetID
-:   Un ID único para el fragmento. Puede tomar un valor alfanumérico.
+**snippetID**: un ID único para el fragmento. Puede tomar un valor alfanumérico.
 
-name
-:   Un nombre descriptivo para identificar el fragmento de código. Este nombre aparece en el panel Fragmentos de código.
+**name**: un nombre descriptivo para identificar el fragmento. Este nombre aparece en el panel Fragmentos de código.
 
-description
-:   Agregue información descriptiva para el fragmento.
+**descripción** - Agregue información descriptiva para el fragmento.
 
-valor
-:   Proporcione el código XML del fragmento de código.
+**value** - Proporcione el código XML del fragmento.
 
 >[!NOTE]
 >
