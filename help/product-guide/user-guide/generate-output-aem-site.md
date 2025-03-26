@@ -4,7 +4,7 @@ description: Descubra cómo funciona la generación de resultados incrementales 
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: b061bcbcefba1700665bed33f017a962e84a0433
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Siga estos pasos para generar resultados incrementales para AEM Sites mediante l
 1. Seleccione el ajuste preestablecido de AEM Sites para el que desea generar una salida incremental.
 1. En la ficha **Temas**, seleccione los temas que desee publicar.
 
-   ![lista de temas de aem sites](images/aem-presets-topic-list.png) {width="800" align="left"}
+   ![lista de temas de aem sites](images/aem-presets-topic-list.png) {align="left"}
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ Siga estos pasos para generar resultados incrementales para AEM Sites mediante e
    >
    > Si ha añadido nuevos temas al mapa DITA, no podrá generar esos nuevos temas desde aquí. En primer lugar, debe publicar los temas recién añadidos mediante la función de publicación de mapa DITA.
 
-   ![](images/regenerate-topics.png){width="800" align="left"}
+   ![](images/regenerate-topics.png){align="left"}
 
 1. Seleccione **Regenerar**.
 

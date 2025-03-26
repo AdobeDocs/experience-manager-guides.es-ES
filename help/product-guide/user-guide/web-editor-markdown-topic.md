@@ -4,7 +4,7 @@ description: Crear documentos Markdown desde el editor. Obtenga información sob
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1254'
 ht-degree: 2%
@@ -81,7 +81,7 @@ Features available in the tab bar are explained as follows:
 
 La barra de herramientas se encuentra justo debajo de la barra de pestañas. Las funciones disponibles en la barra de herramientas se explican de la siguiente manera:
 
-![](images/markdown-main-toolbar.png){width="800" align="left"}
+![](images/markdown-main-toolbar.png){align="left"}
 
 | Características | Descripción |
 |----------------|----------------|
@@ -104,7 +104,7 @@ El área de edición de contenido muestra la fuente Markdown del tema, donde se 
 
 Para la creación de markdown, el Editor admite tres modos de visualización diferentes para ayudar a crear contenido y dar formato:
 
-![](images/markdown-footer.png){width="800" align="left"}
+![](images/markdown-footer.png){align="left"}
 
 * Origen
 * Lado a lado
@@ -127,7 +127,7 @@ Este modo divide el Editor en dos paneles:
 
 Utilice esta vista si desea ver el resultado procesado en tiempo real al editar los temas de Markdown.
 
-**Previsualizar**
+**Vista previa**
 
 Al abrir un tema de marcado en el modo de vista previa, se muestra cómo se mostrará un tema cuando lo vea un usuario en el explorador. En esta vista, todas las funciones de edición se quitan de la barra de herramientas. Sin embargo, todavía puede acceder a las características de **Guardar como versiones nuevas**, **Bloquear/desbloquear** de la barra de herramientas y a la característica de **Propiedades del archivo** del panel derecho.
 

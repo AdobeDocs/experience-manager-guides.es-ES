@@ -4,7 +4,7 @@ description: Utilice datos de su fuente de datos en AEM Guides. Aprenda a insert
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2386'
 ht-degree: 0%
@@ -154,7 +154,7 @@ Haga clic con el botón derecho en un generador de fragmentos de contenido para 
 
 También puede usar los **datos de consulta** ![](images/data-sources-new-icon.svg) de la barra de herramientas para insertar el fragmento de datos en los temas.  Puede seleccionar un generador en la lista desplegable, editar la consulta o cambiar la plantilla e insertar los datos en el tema.
 
-![](images/add-content-snippet-generator.png){width="800" align="left"}
+![](images/add-content-snippet-generator.png){align="left"}
 
 *Editar e insertar un fragmento de datos.*
 
@@ -248,7 +248,7 @@ Realice los siguientes pasos para crear un tema con el generador de temas:
 
 
 
-   ![](images/add-topic-generator.png){width="800" align="left"}
+   ![](images/add-topic-generator.png){align="left"}
 
    *Generar nuevos temas a partir de un generador de temas existente.*
 

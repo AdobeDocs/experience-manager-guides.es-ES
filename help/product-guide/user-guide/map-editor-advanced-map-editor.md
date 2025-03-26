@@ -4,7 +4,7 @@ description: Conozca las funciones del Editor de mapas en Adobe Experience Manag
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2570'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Las siguientes opciones están disponibles en la barra de herramientas de la vis
 
 Muestra el cuadro de diálogo de búsqueda del tema. Desplácese hasta el tema o archivo de asignación que desee insertar y elija **Seleccionar** para agregarlo al mapa.
 
-![](images/insert-topic-reference-dialog.png){width="800" align="left"}
+![](images/insert-topic-reference-dialog.png){align="left"}
 
 
 **Grupo de temas** - ![](images/topic-group.svg)
@@ -140,7 +140,7 @@ Si ha aplicado alguna condición a un tema, se muestra un icono de filtro a la d
 
 La vista **Autor** permite editar el mapa DITA en el editor. Esto muestra la vista WYSIWYG del Editor de mapas y algunos de los iconos que se muestran en la vista Autor son los mismos que la vista Presentación.
 
-![](images/map-editor-author-view.png){width="800" align="left"}
+![](images/map-editor-author-view.png){align="left"}
 
 Además, puede ver los iconos siguientes y realizar las tareas relacionadas desde la vista Autor:
 
@@ -243,7 +243,7 @@ Puede crear una tarea de revisión del tema actual o asignar archivos directamen
 
 Esta vista permite editar contenido en formato sin procesar, lo que proporciona control total sobre la estructura y el formato.
 
-![](images/map-editor-source-view.png){width="800" align="left"}
+![](images/map-editor-source-view.png){align="left"}
 
 
 En esta vista, la barra de herramientas proporciona opciones básicas de edición e inserción de contenido disponibles en la lista desplegable **Menú**, que incluye Cortar, Copiar, Deshacer, Rehacer, Eliminar, Buscar y reemplazar, Etiqueta de versión, Combinar, Guardar como nueva versión, Bloquear y Desbloquear.
@@ -254,7 +254,7 @@ El modo de previsualización procesa el contenido tal como aparecerá en la sali
 
 Además de poder ver la posición de cada archivo de tema dentro de un mapa, es deseable ver el contenido del mapa en un flujo consecutivo. La función Vista previa de mapa permite ver todo el contenido del archivo de mapa con un solo clic. No es necesario generar una salida del archivo de asignación para ver el aspecto que tendrá todo el mapa una vez publicado. Simplemente puede acceder a la vista previa del mapa y todos los temas y submapas se representan en forma de libro.
 
-![](images/map-editor-preview.png){width="800" align="left"}
+![](images/map-editor-preview.png){align="left"}
 
 >[!NOTE]
 >
@@ -315,7 +315,7 @@ Para editar temas a través de un mapa DITA, realice los siguientes pasos:
 
    Puede abrir varios temas en el editor, y cada tema se abre en una nueva pestaña del editor. Incluso si el mapa DITA contiene submapas, los temas de los submapas también se abren en una nueva pestaña para su edición. Si desea ver los temas bajo un submapa, puede seleccionar y expandir el submapa.
 
-   ![](images/web-editor-multiple-topics.png){width="800" align="left"}
+   ![](images/web-editor-multiple-topics.png){align="left"}
 
    Si selecciona un fichero de mapa, el mapa se abrirá en una nueva pestaña del Editor.
 

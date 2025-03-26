@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo publicar uno o más artículos des
 exl-id: d89ce69d-8d4c-4265-bfca-60763f561afd
 feature: Publishing
 role: User
-source-git-commit: 4fbc9c8e28f2b68af0307255eb842065e93fbc83
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -27,16 +27,16 @@ Siga estos pasos para generar resultados basados en artículos:
 1. Vaya a la pestaña **Artículos** y seleccione los temas para los que desea generar la salida.
 1. Seleccione **Generar salida** en la parte superior para generar la salida.
 
-   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+   ![](images/add-preset-articles-tab_cs.png){align="left"}
 
 1. En el mensaje **Confirmar archivos para publicar**, seleccione los archivos que desee publicar y confirme seleccionando **Publicar**.
 
-   ![Nuevo ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+   ![Nuevo ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
    Verá el estado del proceso de generación de resultados. La columna **Temas** enumera los temas para los que se genera la salida, mientras que la columna **Estado** muestra el estado de publicación de cada tema.
 
 
-   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+   ![](images/add-preset-output-generated_cs.png){align="left"}
 
    Para ver la salida, cierre el cuadro de diálogo **Salida generada** y seleccione **Ver salida** en la página preestablecida.
 

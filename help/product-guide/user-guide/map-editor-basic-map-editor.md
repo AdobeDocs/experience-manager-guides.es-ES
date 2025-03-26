@@ -4,7 +4,7 @@ description: Aprenda a trabajar con el Editor de mapas básico en AEM Guides. Co
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 126cecdaa481b9da1add4ba3664c26c2bc5da068
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 > El Editor de mapas básico, disponible anteriormente en Experience Manager Guides, ha quedado obsoleto a partir de la versión 4.3 y 2307. No se puede acceder al Editor de mapas básico para crear y gestionar mapas DITA.
 >Se recomienda utilizar el Editor de mapas avanzado. El editor de mapas avanzado ofrece funciones mejoradas y mejores opciones de personalización. Más información sobre cómo usar el [Editor de mapas avanzado](../user-guide/map-editor-advanced-map-editor.md).
 
-AEM El Editor de mapas básico proporciona una función sencilla de arrastrar y soltar para agregar temas desde el repositorio de la aplicación de la aplicación de la aplicación de mapas de DITA o de la aplicación de mapas de libros de la aplicación de la aplicación de la aplicación de mapas de datos. Puede agregar temas anidados, tablas de relación \(reltable\), atributos e información de metadatos, y también validar la corrección de la asignación.
+El Editor de mapas básico proporciona una sencilla función de arrastrar y soltar para agregar temas desde el repositorio de AEM y crear el mapa o el mapa de DITA. Puede agregar temas anidados, tablas de relación \(reltable\), atributos e información de metadatos, y también validar la corrección de la asignación.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Siga estos pasos para crear el archivo de asignación:
 
    El archivo de mapa se abre para editarlo en el Editor de mapas. Con el editor de mapas, se crea un mapa utilizando los temas disponibles actualmente que se muestran en el carril Referencias.
 
-   ![](images/dita-map-01.png){width="800" align="left"}
+   ![](images/dita-map-01.png){align="left"}
 
 1. Con el carril **Referencias**, vaya a la carpeta que contiene los temas o subasignaciones que desee agregar.
 
@@ -73,13 +73,13 @@ Siga estos pasos para crear el archivo de asignación:
 
 La barra de herramientas principal del editor de mapas básico permite realizar las siguientes tareas:
 
-![](images/ditamap-toolbar-actions.png){width="800" align="left"}
+![](images/ditamap-toolbar-actions.png){align="left"}
 
 **A: Buscar**
 
 Puede buscar e incluir los temas necesarios desde DAM. Al hacer clic en este icono, se muestra el cuadro de diálogo Buscar:
 
-![](images/search-dita-map.png){width="800" align="left"}
+![](images/search-dita-map.png){align="left"}
 
 Introduzca las palabras clave que quiera buscar; estas palabras clave coinciden en los valores de nombre de archivo, contenido e incluso atributo del tema. Una vez que los resultados de la búsqueda estén disponibles, seleccione los temas deseados y haga clic en el botón Comprobar para añadir los archivos seleccionados al final de la estructura del mapa. Puede filtrar los resultados de búsqueda especificando los parámetros Fecha de modificación.
 

@@ -4,7 +4,7 @@ description: Ver los informes del historial de versiones de los archivos reverti
 exl-id: 74bef625-acd6-49a6-b983-881a782f68d6
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Siga estos pasos para acceder al informe Revertir historial:
 
 1. Seleccione **Mostrar registros** para generar el informe del archivo o carpeta seleccionados.
 
-   ![](images/revert-version-history-report.png){width="800" align="left"}
+   ![](images/revert-version-history-report.png){align="left"}
 
    El informe contiene los siguientes detalles:
 

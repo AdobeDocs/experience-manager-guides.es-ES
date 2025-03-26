@@ -4,7 +4,7 @@ description: Aprenda a dirigir comentarios de revisión como autor en AEM Guides
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Un autor puede dirigir comentarios en un documento desde el Editor Web. Se propo
 >
 > Al dirigirse a los comentarios de revisión \(para un documento de revisión activo\), asegúrese de que no abre el tema de revisión en varias pestañas con la vista de etiquetas completa habilitada, no cambie entre los modos de vista Autor y Source.
 
-![](images/comments-page-web-editor_cs-new.png){width="800" align="left"}
+![](images/comments-page-web-editor_cs-new.png){align="left"}
 
 En el modo Editor web, el panel derecho contiene los iconos Revisar y Control de cambios. El panel Revisar muestra todos los comentarios realizados por los revisores en el documento. El panel **Control de cambios** muestra el estado de todos los comentarios insertados y eliminados del documento.
 
@@ -54,11 +54,11 @@ En el modo Editor web, el panel derecho contiene los iconos Revisar y Control de
 
   Si desea incorporar el cambio sugerido \(inserción o eliminación\) de uno en uno, simplemente haga clic con el botón derecho en el comentario del contenido y seleccione Aceptar cambio o Rechazar cambio. Según su selección, el comentario se acepta o se rechaza. En caso de comentarios aceptados, el contenido se añade al contenido; y en caso de rechazo, se elimina del contenido. Además, el estado del comentario cambia en el panel Revisar.
 
-  ![](images/import-comment-accept-web-editor_cs-new.png){width="800" align="left"}
+  ![](images/import-comment-accept-web-editor_cs-new.png){align="left"}
 
   También puede utilizar el panel Control de cambios para aceptar o rechazar comentarios. Al seleccionar cualquier comentario, se resalta el comentario en el documento.
 
-  ![](images/changes-tab_cs-new.png){width="800" align="left"}
+  ![](images/changes-tab_cs-new.png){align="left"}
 
   >[!IMPORTANT]
   >

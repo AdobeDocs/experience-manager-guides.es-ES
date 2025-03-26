@@ -4,7 +4,7 @@ description: Genere informes de mapas DITA desde el tablero de mapas de AEM Guid
 exl-id: 7fe52ee0-e940-467b-9b8d-3d2371de7a84
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Siga estos pasos para ver el informe de mapa DITA:
 
 1. Seleccionar **Informes**.
 
-   ![](images/reports-page-uuid-new.png){width="800" align="left"}
+   ![](images/reports-page-uuid-new.png){align="left"}
 
    La página Informes está dividida en dos partes:
 
@@ -37,7 +37,7 @@ Siga estos pasos para ver el informe de mapa DITA:
 
      Al seleccionar un tema, se muestra un informe detallado del tema seleccionado.
 
-     ![](images/detailed-report-uuid-new.png){width="800" align="left"}
+     ![](images/detailed-report-uuid-new.png){align="left"}
 
      A continuación se describen los elementos resaltados bajo **A**, **B**, **C** y **D**:
 
@@ -82,7 +82,7 @@ Siga estos pasos para generar el CSV de un informe de mapa DITA:
 
 1. Seleccione **Generar informe** en la parte superior izquierda para generar el informe de asignación DITA.
 
-   ![](images/generate-DITA-map-report-new.png){width="800" align="left"}
+   ![](images/generate-DITA-map-report-new.png){align="left"}
 
 1. Recibirá una notificación una vez que el informe esté listo para descargarse. Seleccione **Descargar** para descargar el CSV del informe generado.
 

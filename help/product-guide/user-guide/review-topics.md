@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo revisar temas y utilizar las funci
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Siga estos pasos para revisar un tema:
 
    La siguiente pantalla aparece cuando se utiliza un mapa DITA para iniciar el flujo de trabajo de revisión:
 
-   ![](images/multiple-topics-review.png){width="800" align="left"}
+   ![](images/multiple-topics-review.png){align="left"}
 
    Las siguientes opciones están disponibles en esta pantalla:
 
@@ -63,13 +63,13 @@ Siga estos pasos para revisar un tema:
 
    Todos los temas del mapa se muestran como un solo documento compuesto. Los temas que el revisor puede revisar se muestran normalmente. No se muestran los temas que la revisión no puede revisar.
 
-   ![](images/review-read-only.png){width="800" align="left"}
+   ![](images/review-read-only.png){align="left"}
 
    En la captura de pantalla anterior, el tema Descripción general se comparte para su revisión con el revisor actual, que se muestra normalmente. Sin embargo, el tema siguiente, Historial del contenido del vuelo no se comparte para su revisión y se muestra en modo de solo lectura. El tema que está actualmente en el punto de mira también se resalta en el índice.
 
    La siguiente pantalla aparece cuando se selecciona uno o varios temas y se comparten para su revisión:
 
-   ![](images/review-composite-view.png){width="800" align="left"}
+   ![](images/review-composite-view.png){align="left"}
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ El cuadro de comentarios admite entradas de varias líneas y permite a los usuar
 
 Cuando vea un solo tema, obtendrá una opción adicional para volver a la vista de documento. En la siguiente captura de pantalla, se abre un tema concreto de un archivo de mapa para su revisión. La opción resaltada: **Mostrar vista de documento** permite al usuario volver a la vista de documento del archivo de asignación.
 
-![](images/switch-document-view.png){width="800" align="left"}
+![](images/switch-document-view.png){align="left"}
 
 **Uso de diferentes tipos de herramientas de comentarios**: puede agregar comentarios entre líneas resaltando texto, tachando texto, insertando texto o agregando una nota de comentario. A continuación se describen los distintos tipos de herramientas de comentarios que se proporcionan en la barra de herramientas Comentarios:
 
@@ -159,7 +159,7 @@ La siguiente captura de pantalla muestra el contenido en el modo *Vista previa*:
 
 Al insertar cualquiera de los comentarios, aparece la ventana emergente de comentarios. Después de proporcionar comentarios o información adicional en la ventana emergente, puede enviarla pulsando Intro. Una vez agregado el comentario, tiene la opción de agregar un archivo adjunto a ese comentario.
 
-![](images/comment-pop-up-panel.png){width="800" align="left"}
+![](images/comment-pop-up-panel.png){align="left"}
 
 En la captura de pantalla anterior, el documento contiene la ventana emergente del comentario resaltado y el comentario también se agrega en el panel Comentarios. El icono de archivo adjunto ![](images/file-attach-review.svg) está disponible junto con el comentario en ambas ubicaciones.
 
@@ -227,7 +227,7 @@ En el modo de vista previa, se muestra el contenido no condicional y el contenid
 
 - Si selecciona el icono Comentario obsoleto \(![](images/outdated-comment-icon.svg)\), se muestran las diferencias entre la versión más reciente y la versión comentada del documento. Los números de versión \(de las versiones que se comparan\) se muestran en la parte superior de los documentos.
 
-  ![](images/comments-page-review-mode.png){width="800" align="left"}
+  ![](images/comments-page-review-mode.png){align="left"}
 
   >[!NOTE]
   >

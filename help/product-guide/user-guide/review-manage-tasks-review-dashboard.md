@@ -4,7 +4,7 @@ description: Administre las tareas de revisión desde el Panel de revisión en A
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 0%
@@ -25,13 +25,13 @@ Siga estos pasos para acceder y utilizar el panel de revisión:
 
    Se muestra un panel Proyecto con mosaicos de tareas.
 
-   ![](images/review-management.png){width="800" align="left"}
+   ![](images/review-management.png){align="left"}
 
 1. Seleccione los tres puntos del mosaico **Críticas**.
 
    Se muestra el panel Revisar. En el panel se muestran todas las tareas de revisión que ha creado.
 
-   ![](images/review-dashboard.png){width="800" align="left"}
+   ![](images/review-dashboard.png){align="left"}
 
    El panel de revisión muestra los detalles sobre la tarea de revisión, como el nombre de la tarea, quién inició la revisión, la fecha en la que se inició, la fecha de vencimiento, el estado, el número de nuevos comentarios que el autor no ha aceptado o rechazado, y el nombre de los revisores. Las tareas se enumeran en el orden de las tareas recién creadas a las tareas más antiguas.
 
@@ -50,7 +50,7 @@ Siga estos pasos para acceder y utilizar el panel de revisión:
 
 ## Pestaña Tarea
 
-![](images/review-task-page.png){width="800" align="left"}
+![](images/review-task-page.png){align="left"}
 
 Puede realizar las siguientes acciones en la ficha **Tarea**:
 
@@ -71,7 +71,7 @@ Puede realizar las siguientes acciones en la ficha **Tarea**:
 
 ## Pestaña Contenido
 
-![](images/review-content-page.png){width="800" align="left"}
+![](images/review-content-page.png){align="left"}
 
 Puede realizar las siguientes acciones en la ficha **Contenido**:
 
@@ -90,7 +90,7 @@ Puede realizar las siguientes acciones en la ficha **Contenido**:
 
 ## Pestaña Revisores {#reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png){width="800" align="left"}
+![](images/reviewers-tab.png){align="left"}
 
 Puede realizar las siguientes acciones en la ficha **Revisores**:
 
@@ -111,7 +111,7 @@ Puede realizar las siguientes acciones en la ficha **Revisores**:
 
 En la página principal del Panel de revisión, si selecciona una tarea de revisión y elige **Estado**, se muestra el informe de estado de la tarea de revisión.
 
-![](images/review-status-report.png){width="800" align="left"}
+![](images/review-status-report.png){align="left"}
 
 El informe de estado de la tarea de revisión contiene los siguientes detalles:
 

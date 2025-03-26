@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo crear ajustes preestablecidos pers
 exl-id: 1bb14411-ec94-4960-92ba-3b2ff7a29932
 feature: Publishing
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Realice los siguientes pasos para crear el ajuste preestablecido personalizado d
 
 En la consola Mapa, las opciones de configuración preestablecidas están organizadas en las pestañas **General** y **Avanzado**.
 
-![](images/custom-preset-config.png){width="800" align="left"}
+![](images/custom-preset-config.png){align="left"}
 
 La ficha **General** contiene las siguientes opciones de configuración:
 

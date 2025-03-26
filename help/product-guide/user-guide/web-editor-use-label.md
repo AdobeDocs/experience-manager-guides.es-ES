@@ -4,7 +4,7 @@ description: Descubra el uso de etiquetas para diferentes versiones de un archiv
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Siga estos pasos para agregar una etiqueta al tema desde el Editor:
 
 Para eliminar una etiqueta de versión de un tema, use el icono **Quitar** proporcionado con cada etiqueta agregada en el cuadro de diálogo Administración de etiquetas de versión.
 
-![](images/remove-version-label.png){width="800" align="left"}
+![](images/remove-version-label.png){align="left"}
 
 
 ## Uso de etiquetas desde la interfaz de usuario de Assets

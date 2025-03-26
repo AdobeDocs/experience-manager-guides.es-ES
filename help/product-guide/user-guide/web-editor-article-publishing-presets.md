@@ -4,7 +4,7 @@ description: Cree ajustes preestablecidos de salida desde el editor web. Obtenga
 exl-id: cd38b039-ef91-45c9-a226-433e57b09873
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 5011481c25b4888a3e72b0e2238b10d8e2fbc191
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -41,21 +41,21 @@ Realice los siguientes pasos para crear ajustes preestablecidos de salida para e
    Se crea el ajuste preestablecido de la Base de conocimiento.
 
 
-   ![Nuevo ](images/knowledge-base-preset-dialog-box.png){width="800" align="left"}
+   ![Nuevo ](images/knowledge-base-preset-dialog-box.png){align="left"}
 
 Una vez creado el ajuste preestablecido, puede generar la salida para artículos específicos de la base de conocimiento. Para ello, vaya a la pestaña **Articles** y seleccione los temas para los que desea generar la salida.
 1. Seleccione **Generar salida** en la parte superior para generar la salida.
 
-   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+   ![](images/add-preset-articles-tab_cs.png){align="left"}
 
 1. En el mensaje **Confirmar archivos para publicar**, seleccione los archivos que desee publicar y confirme seleccionando **Publicar**.
 
-   ![Nuevo ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+   ![Nuevo ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
 Verá el estado del proceso de generación de resultados. La columna **Temas** enumera los temas para los que se genera la salida, mientras que la columna **Estado** muestra el estado de publicación de cada tema.
 
 
-![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+![](images/add-preset-output-generated_cs.png){align="left"}
 
 Para ver el resultado, cierre el cuadro de diálogo Resultado generado y seleccione **Ver resultado** en la página preestablecida.
 

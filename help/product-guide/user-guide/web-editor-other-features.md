@@ -4,7 +4,7 @@ description: Explore otras funciones del editor en Adobe Experience Manager Guid
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2406'
 ht-degree: 0%
@@ -222,7 +222,7 @@ En XML, los espacios en blanco incluyen espacios, tabulaciones, retornos de carr
 
 Los elementos DITA que contienen saltos de línea y espacios son compatibles y se representan según su definición en los modos Autor, Source o Vista previa, y también en la salida publicada final. La siguiente captura de pantalla muestra el contenido dentro del elemento `msgblock` en el que se han conservado los saltos y espacios de línea \(sangría\):
 
-![](images/new-line-support_cs.png){width="800" align="left"}
+![](images/new-line-support_cs.png){align="left"}
 
 
 

@@ -4,7 +4,7 @@ description: Generar informes de mapas DITA desde la consola de mapas de AEM Gui
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2568'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Puede ver la lista de temas, administrar los metadatos de todas las referencias,
 
 Puede localizar los cuatro informes en el panel **Informes**. En función de sus necesidades, puede seleccionar cualquiera de los informes que se muestran aquí.
 
-![](images/reports-demo.png){width="800" align="left"}
+![](images/reports-demo.png){align="left"}
 
 El panel Informes proporciona acceso a cuatro tipos diferentes de informes. Cada informe, junto con su accesibilidad y características, se analiza en detalle a continuación.
 
@@ -44,7 +44,7 @@ Se puede ver el informe de lista de temas de un mapa realizando los siguientes p
 
 1. Seleccione **Lista de temas** en el panel Informes. Se mostrará la lista de temas presentes en el mapa DITA.
 
-   ![](images/web-editor-topiclist-panel-new.png){width="800" align="left"}
+   ![](images/web-editor-topiclist-panel-new.png){align="left"}
 
 1. Desde el panel **Filtros**, puede filtrar los temas en función del **Tipo de referencia** \(directo o indirecto\), **Estado del documento** \(por ejemplo, si los temas están en estado Editar, En revisión o Revisado, se muestran\) o el **Autor** del tema.
 
@@ -78,7 +78,7 @@ Puede ver el informe de metadatos de un mapa realizando los siguientes pasos:
 1. Seleccione **Metadatos** del panel Informes. La lista de todas las referencias de un mapa se muestra junto con sus metadatos, como etiquetas, estado del documento o metadatos personalizados. Para agregar una nueva columna de metadatos personalizada, consulte [Agregar columnas de metadatos personalizadas](#add-custom-metadata-columns).
 
 
-   ![](images/web-editor-metadata-panel-new.png){width="800" align="left"}
+   ![](images/web-editor-metadata-panel-new.png){align="left"}
 
 
 1. Desde el panel **Filtros**, puede filtrar los temas según el **estado del documento** \(por ejemplo, si los temas están en estado Editar, En revisión o Revisado, se muestran\), **Referencias** \(directas o indirectas\), **Tipo de archivo** \(Mapa, Tema, Documento, Imagen, Vídeo y Otros\) de la referencia.
@@ -127,7 +127,7 @@ Para actualizar los metadatos, realice los siguientes pasos:
    >
    > No puede seleccionar ningún archivo desprotegido. También aparece un icono de desprotección cerca del título de un archivo desprotegido. Puede pasar el ratón sobre el icono para ver el nombre del usuario.
 
-   ![](images/all-selection.png){width="800" align="left"}
+   ![](images/all-selection.png){align="left"}
 
 
 1. Seleccione **Administrar** de la parte superior.
@@ -225,13 +225,13 @@ Para ver el informe de los vínculos rotos, siga estos pasos:
    - Cuando ordena por **vínculo roto**, las rutas de los vínculos rotos se muestran en la primera columna y, a continuación, los nombres de todas las referencias en las que se han utilizado se muestran en otra columna en filas independientes. Si se utiliza el mismo vínculo roto en varios archivos, estos se muestran en una fila y se muestran como filas agrupadas o secundarias. Por ejemplo, la siguiente captura de pantalla muestra dos vínculos rotos en la primera columna y la referencia en la que se utilizan; `m_ElectricalSpecs_900.ditamap` se muestra en la tercera columna en dos filas independientes.
 
 
-   ![](images/broken-link-report-new.png){width="800" align="left"}
+   ![](images/broken-link-report-new.png){align="left"}
 
 
    - Si ordena por **Utilizado en la columna**, verá la vista transpuesta en la que los nombres de las referencias en las que se han utilizado los vínculos rotos se enumeran en la primera columna, mientras que los vínculos rotos se enumeran en otra columna de la misma fila. Por ejemplo, la siguiente captura de pantalla muestra la referencia (en la que se utiliza el vínculo roto) `m_ElectricalSpecs_900.ditamap` en la primera columna y los vínculos rotos se muestran en la tercera columna de la misma fila.
 
 
-   ![](images/broken-link-filter-usedin-new.png){width="800" align="left"}
+   ![](images/broken-link-filter-usedin-new.png){align="left"}
 
 
 1. Puede filtrar los vínculos rotos en función de **Tipo de archivo** y **Tipo de vínculo**. La lista de vínculos rotos se muestra según lo que haya seleccionado en la lista desplegable. Por ejemplo, se puede elegir mostrar únicamente las referencias de contenido en el mapa DITA y un fichero sólo muestra las referencias de contenido rotas utilizadas en él.

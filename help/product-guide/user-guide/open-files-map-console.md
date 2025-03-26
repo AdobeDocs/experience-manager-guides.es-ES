@@ -3,7 +3,8 @@ title: Acerca de la apertura de archivos en la consola Mapa
 description: Obtenga información acerca de las formas de abrir un archivo de mapa DITA en la interfaz de la consola de mapas de Adobe Experience Manager Guides.
 feature: Publishing
 role: User
-source-git-commit: 2e233a1bf061eba539a4af483f5f9ba32ff613c2
+exl-id: 9443ffe8-77db-454a-b2cb-a135ada24d10
+source-git-commit: 1bde45c92d543f47a3a4482dad5aecfbf5753808
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -44,9 +45,4 @@ También puede abrir un archivo de asignación existente en la consola Mapa desd
 
    El archivo de asignación se abre en la consola Mapa.
 
-   ![Nuevo ](images/map-console.png){width="800" align="left"}
-
-
-
-
-
+   ![Nuevo ](images/map-console.png){align="left"}

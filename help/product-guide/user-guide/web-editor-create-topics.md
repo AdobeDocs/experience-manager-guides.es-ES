@@ -4,7 +4,7 @@ description: Aprenda a crear tipos de temas DITA con plantillas personalizadas e
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Siga estos pasos para crear un tema desde el Editor:
 
 El tema se crea en la ruta de acceso especificada. Además, el tema se abre en el Editor para editarlo.
 
-![](images/new-topic-editor.png){width="800" align="left"}
+![](images/new-topic-editor.png){align="left"}
 
 ## Creación de temas desde la interfaz de usuario de Assets
 
@@ -61,7 +61,7 @@ Siga estos pasos para crear un tema desde la interfaz de usuario de Assets:
 
 1. En la página Modelo, seleccione el tipo de documento DITA que desea crear y seleccione **Siguiente**.
 
-   ![](images/create_dita_topic.png){width="800" align="left"}
+   ![](images/create_dita_topic.png){align="left"}
 
    De forma predeterminada, Experience Manager Guides proporciona las plantillas de temas DITA más utilizadas. Puede configurar más plantillas de temas según sus requisitos organizativos, ver *Configuración de plantillas de creación* en Instalar y configurar Adobe Experience Manager Guides para su configuración.
 

@@ -3,7 +3,8 @@ title: Generación de salida
 description: Administre el proceso de generación de resultados en AEM Sites, PDF, HTML5, EPUB, personalizado y JSON a través de complementos DITA-OT, publicación nativa de PDF y FMPS en AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: b061bcbcefba1700665bed33f017a962e84a0433
+exl-id: 11bb3604-f45c-4df7-be74-588dbf8594af
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Una vez iniciada la tarea de generación de resultados para una asignación o re
 
 1. Seleccione **RESULTADOS**.
 
-   ![](images/output-queued.png){width="800" align="left"}
+   ![](images/output-queued.png){align="left"}
 
    La página Resultados se divide en dos partes:
 
@@ -63,17 +64,17 @@ Realice los siguientes pasos para cancelar una tarea de generación de salida de
 
 1. Seleccione el icono **Cancelar este trabajo**.
 
-   ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
+   ![](images/cancel-publish-task-map-console.png){align="left"}
 
 1. Seleccione **Sí** en el mensaje de **Confirmar cancelación**.
 
-   ![](images/confirm-cancel-output-map-console.png){width="800" align="left"}
+   ![](images/confirm-cancel-output-map-console.png){align="left"}
 
    Si la tarea aún no se ha iniciado, el comando cancel se ejecuta en la tarea. Para una tarea que se está cancelando, el estado se establece en Cancelando.
 
    Una vez cancelada correctamente la tarea, se mueve a la lista **Salidas generadas** con el estado **Cancelado**. Cuando pasa el ratón por encima de la tarea cancelada, se muestra el nombre del usuario que ha cancelado la tarea. En la siguiente captura de pantalla, se cancela la tarea *HTML5*.
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){align="left"}
 
 
 ## Eliminar una tarea de salida
@@ -90,9 +91,8 @@ Realice los siguientes pasos para quitar una tarea de salida de la lista Salida 
 
 1. Seleccione el icono Eliminar.
 
-   ![](images/delete-output-task.png){width="800" align="left"}
+   ![](images/delete-output-task.png){align="left"}
 
 1. Seleccione **Sí** en el mensaje de **Confirmar eliminación**.
 
    La tarea se elimina de la lista Resultados generados.
-

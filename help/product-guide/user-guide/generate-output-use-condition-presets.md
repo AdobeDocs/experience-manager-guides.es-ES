@@ -4,7 +4,7 @@ description: Conocer el uso de ajustes preestablecidos de condición en AEM Guid
 exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Puede crear ajustes preestablecidos de condición de dos formas:
 
 Experience Manager Guides le permite crear y administrar ajustes preestablecidos de condición desde la consola de mapas y utilizarlos dentro de los **ajustes preestablecidos de salida** para generar el resultado condicional final.
 
-<img src="images/manage-condtions-presets.png" alt= "Ajustes preestablecidos de condición en la consola de mapas" width="800" border="1px">
+<img src="images/manage-condtions-presets.png" alt= "Ajustes preestablecidos de condición en la consola de mapas" border="1px">
 
 ### Crear un ajuste preestablecido de condición
 

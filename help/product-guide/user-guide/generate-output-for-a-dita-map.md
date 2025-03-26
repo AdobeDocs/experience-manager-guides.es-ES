@@ -4,7 +4,7 @@ description: Genere la salida para un mapa DITA desde la consola de mapas y el t
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Realice los siguientes pasos para generar la salida de un mapa DITA mediante el 
 
 1. Seleccione uno o varios ajustes preestablecidos de salida que desee utilizar para generar la salida.
 
-   ![](images/generate-multiple-outputs-uuid.png){width="800" align="left"}
+   ![](images/generate-multiple-outputs-uuid.png){align="left"}
 
 1. Seleccione el icono **Generate** para iniciar el proceso de generación de resultados.
 

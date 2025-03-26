@@ -4,7 +4,7 @@ description: Genere resultados desde el panel del repositorio o el panel Vista d
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Realice los siguientes pasos para generar resultados para uno o varios temas del
    - **Mapa**: enumera los mapas DITA que contienen el tema seleccionado.
    - **Estado**: muestra el estado de publicación de cada tema.
 Para ver el resultado, pase el puntero del mouse (ratón) sobre el tema y haga clic en Ver resultados.
-     ![](images/output-multiple-maps_cs.png){width="800" align="left"}
+     ![](images/output-multiple-maps_cs.png){align="left"}
 
 
 ## Generar salida para un mapa DITA desde el editor web

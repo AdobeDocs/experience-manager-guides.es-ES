@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo iniciar el editor desde la página
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -25,11 +25,11 @@ En las secciones siguientes se describen los detalles de cómo puede acceder al 
 
 Al iniciar sesión en Experience Manager, se le muestra la página Navegación:
 
-![](images/web-editor-from-navigation-page.png){width="800" align="left"}
+![](images/web-editor-from-navigation-page.png){align="left"}
 
 Si selecciona el vínculo **Guías**, accederá a la [página de inicio de Adobe Experience Manager Guides](./intro-home-page.md).
 
-![](images/aem-home-page.png){width="800" align="left"}
+![](images/aem-home-page.png){align="left"}
 
 Para iniciar el Editor, ve a la barra de navegación y, a continuación, selecciona **Editor** en la lista desplegable. La Página de inicio está seleccionada de forma predeterminada.
 
@@ -37,7 +37,7 @@ Para iniciar el Editor, ve a la barra de navegación y, a continuación, selecci
 
 Cuando haya iniciado el Editor sin seleccionar ningún archivo, aparecerá una pantalla en blanco en el Editor. Puede abrir un archivo para editarlo desde Experience Manager **Repositorio** o sus **colecciones**.
 
-![](images/web-editor-launch-page.png){width="800" align="left"}
+![](images/web-editor-launch-page.png){align="left"}
 
 También puede iniciar el Editor abriendo los archivos existentes presentes en el widget **Archivos recientes** y el widget **Colecciones** de la [experiencia de la página principal de Adobe Experience Manager Guides](./intro-home-page.md).
 
@@ -57,7 +57,7 @@ Para abrir un tema en el Editor, siga estos pasos:
    >
    > También puede ver el UUID del tema.
 
-   ![](images/assets_ui_with_uuid_cs.png){width="800" align="left"}
+   ![](images/assets_ui_with_uuid_cs.png){align="left"}
 
    >[!IMPORTANT]
    >
@@ -79,15 +79,15 @@ Para abrir un tema en el Editor, siga estos pasos:
    >
    > Si desea abrir varios temas para editarlos, selecciónelos en la interfaz de usuario de recursos y seleccione **Editar**. Asegúrese de que el explorador no tenga un bloqueador de ventanas emergentes habilitado; de lo contrario, solo se abrirá el primer tema de la lista seleccionada para editarlo.
 
-   ![](images/edit-from-preview_cs.png){width="800" align="left"}
+   ![](images/edit-from-preview_cs.png){align="left"}
 
    Si no desea obtener una vista previa de un tema y desea abrirlo directamente en el editor, seleccione el icono **Editar** en el menú de acción rápida de la vista de tarjeta:
 
-   ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
+   ![](images/edit-topic-from-quick-action_cs.png){align="left"}
 
    El tema se abre en el Editor.
 
-   ![](images/edit-mode.png){width="800" align="left"}
+   ![](images/edit-mode.png){align="left"}
 
 También puede abrir un archivo de asignación en la interfaz de usuario de Assets e iniciar el Editor para editar los temas del archivo de asignación.
 
@@ -98,7 +98,7 @@ Para abrir un mapa en el Editor, siga estos pasos:
 1. Seleccione el archivo de tema que desee editar.
 1. Seleccione **Editar tema**.
 
-   ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
+   ![](images/edit-topics-map-console_cs.png){align="left"}
 
 1. El tema se abre en el Editor.
 
@@ -122,11 +122,11 @@ Para abrir el editor desde la consola Mapa, siga estos pasos:
 1. Seleccione la ruta en la que se encuentra el archivo de mapa. El archivo de asignación seleccionado se añade a la consola Mapa.
 1. Vaya al archivo de asignación y seleccione **Abrir en editor** en la lista desplegable.
 
-   ![](images/map-console-open-in-editor.png){width="800" align="left"}
+   ![](images/map-console-open-in-editor.png){align="left"}
 
    El archivo de mapa que contiene los temas está abierto para su edición en el Editor.
 
-   ![](images/map-console-edit-topics.png){width="800" align="left"}
+   ![](images/map-console-edit-topics.png){align="left"}
 
 
 

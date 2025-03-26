@@ -4,7 +4,7 @@ description: Cree y configure el ajuste preestablecido de AEM Sites en la consol
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '3533'
 ht-degree: 0%
@@ -122,7 +122,7 @@ La pestaña **Content** contiene las siguientes opciones de configuración:
 
 La ficha **Lista de temas** muestra la lista de temas presentes en la copia de trabajo actual del mapa DITA. De forma predeterminada, se incluyen todos los temas. Puede seleccionar temas específicos y generar la salida de AEM Sites solo para ellos. Por ejemplo, se han actualizado algunos temas para poder publicar sólo esos temas en lugar de publicar todo el mapa DITA.
 
-![lista de temas de aem sites](images/aem-presets-topic-list.png) {width="800" align="left"}
+![lista de temas de aem sites](images/aem-presets-topic-list.png) {align="left"}
 
 
 >[!NOTE]

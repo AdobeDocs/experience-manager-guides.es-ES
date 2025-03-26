@@ -4,7 +4,7 @@ description: Cree y configure los ajustes preestablecidos de sitios de AEM en AE
 feature: Publishing
 role: User
 exl-id: 641c98ca-b815-4176-abf5-a12c31ff4496
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Es muy común tener un gran conjunto de documentación distribuida en varias car
 
 Otra forma de vincular contenido es crear un vínculo con `peer` `@scope`. Para dicho contenido, el vínculo se resuelve en tiempo de ejecución seleccionando el título del archivo y el contexto configurado para el tema vinculado desde el contexto de publicación del mapa DITA. La siguiente captura de pantalla muestra el panel Propiedades de un vínculo que tiene `peer` `@scope`:
 
-![](images/peer-link-scope-link-new.png){width="800" align="left"}
+![](images/peer-link-scope-link-new.png){align="left"}
 
 Para simplificar la publicación de mapas complejos y temas que vinculan a otros temas en otros mapas, Adobe Experience Manager Guides permite establecer el contexto de publicación para cada ajuste preestablecido de salida.
 
@@ -65,7 +65,7 @@ Siga estos pasos para especificar el contexto de publicación de los archivos de
 
    Obtendrá las pestañas Configuración de ajustes preestablecidos de AEM y Contexto de publicación.
 
-   ![](images/aem-site-publish-settings.png){width="800" align="left"}
+   ![](images/aem-site-publish-settings.png){align="left"}
 
 1. Abra la ficha **Contexto de publicación**.
 
@@ -77,7 +77,7 @@ Siga estos pasos para especificar el contexto de publicación de los archivos de
 
    De forma predeterminada, todos los temas vinculados tienen seleccionados su último ajuste preestablecido de salida y su asignación.
 
-   ![](images/default-publish-context.png){width="800" align="left"}
+   ![](images/default-publish-context.png){align="left"}
 
 1. Para cambiar la selección predeterminada del mapa DITA y el ajuste preestablecido, seleccione **Editar** \(en la barra de herramientas principal\).
 

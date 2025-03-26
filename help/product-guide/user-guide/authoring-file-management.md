@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo administrar archivos y carpetas en
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '3131'
 ht-degree: 0%
@@ -310,7 +310,7 @@ Si el archivo multimedia ha sufrido algún cambio, puede buscarlo y obtener una 
 1. En el carril izquierdo, seleccione **Historial de versiones** y elija una versión.
 1. También puede ver las miniaturas de las diferentes versiones en Historial de versiones.
 
-   ![](images/media-version-history-icon.png){width="800" align="center"}
+   ![](images/media-version-history-icon.png){align="center"}
 
 1. De las versiones enumeradas, seleccione la que desee usar como versión base y seleccione **Vista previa**. La vista previa de la versión seleccionada se muestra en la ventana Version Preview.
 

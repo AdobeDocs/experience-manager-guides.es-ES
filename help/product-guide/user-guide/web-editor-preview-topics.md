@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo obtener una vista previa de un tem
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Siga estos pasos para obtener una vista previa de un tema desde el Editor:
 
    Se muestra la previsualización del tema.
 
-   ![](images/preview-pop-up.png){width="800" align="left"}
+   ![](images/preview-pop-up.png){align="left"}
 
 **Vista previa de temas desde el modo de vista previa**
 
@@ -61,7 +61,7 @@ Siga estos pasos para obtener una vista previa de un tema:
 
 Las siguientes operaciones están disponibles en la barra de herramientas al utilizar la función Vista previa de la interfaz de usuario de Assets,
 
-![](images/preview-screen.png){width="800" align="left"}
+![](images/preview-screen.png){align="left"}
 
 
 **Propiedades**
@@ -78,7 +78,7 @@ Las referencias **Utilizadas en** enumeran los documentos a los que se hace refe
 
 El icono \(+\) de la sección **Referencias utilizadas en** le permite desplazarse hacia arriba para encontrar dónde se utiliza o se hace referencia a ese tema.
 
-![](images/used-in-dialog_cs.png){width="800" align="left"}
+![](images/used-in-dialog_cs.png){align="left"}
 
 Al seleccionar el icono ![](images/right-arrow-used-in-dialog.svg) junto a un documento, se muestran los archivos de asignación o tema a los que se hace referencia en mayor profundidad en ese documento.
 
@@ -108,7 +108,7 @@ Si el tema tiene contenido condicional, verá el icono A/B en la barra de herram
   >
   > Para obtener la vista del código fuente de un archivo de mapa DITA, seleccione el archivo en la interfaz de usuario de Assets y seleccione Source.
 
-  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){align="left"}
 
 **Compartir vínculo UUID**
 
@@ -120,7 +120,7 @@ Si el tema tiene contenido condicional, verá el icono A/B en la barra de herram
 
 Se muestra una nueva opción **Compartir vínculo UUID** en la barra de herramientas de las áreas mencionadas anteriormente. La siguiente captura de pantalla muestra la opción **Compartir vínculo UUID** en el modo de vista previa de un tema:
 
-![](images/share-uuid-link_cs.png){width="800" align="left"}
+![](images/share-uuid-link_cs.png){align="left"}
 
 En la IU de recursos, esta opción está visible al seleccionar un archivo. En el modo Vista previa, esta opción está disponible de forma predeterminada en la barra de herramientas principal. En una consola de mapas DITA, esta opción está visible en la sección Ajustes preestablecidos de salida.
 
@@ -148,7 +148,7 @@ Archivo retirado en la vista de lista:
 
 Si la columna Desprotegido no está visible, seleccione **Ver configuración** en **Vista de lista** y seleccione el estado **Desprotegido** en el cuadro de diálogo **Configurar columnas**.
 
-![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
+![](images/list-view-settings-check-out_cs.png){align="left"}
 
 >[!TIP]
 >
@@ -166,17 +166,17 @@ Si la columna Desprotegido no está visible, seleccione **Ver configuración** e
 
    1. En el carril izquierdo, seleccione **Historial de versiones** y elija una versión.
 
-      ![](images/timeline-versions62_cs.png){width="800" align="left"}
+      ![](images/timeline-versions62_cs.png){align="left"}
 
    1. De las versiones enumeradas, seleccione la que desee usar como versión base y seleccione **Vista previa**. La vista previa de la versión seleccionada se muestra en la ventana Version Preview.
 
    1. En la lista **Mostrar diferencias**, seleccione la versión con la que desea comparar la versión base.
 
-      ![](images/show-diff-list-cropped.png){width="800" align="left"}
+      ![](images/show-diff-list-cropped.png){align="left"}
 
       El contenido modificado se resalta en la vista previa del tema. El contenido resaltado en verde significa que el contenido recién agregado y el contenido en rojo es el contenido eliminado.
 
-      ![](images/version-difference.png){width="800" align="left"}
+      ![](images/version-difference.png){align="left"}
 
 
 ## Rama, reversión y versiones posteriores

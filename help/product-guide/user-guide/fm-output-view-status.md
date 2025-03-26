@@ -1,10 +1,10 @@
 ---
 title: Ver el estado de la tarea de generación de resultados
-description: Ver la cola de generación de salida de documentos de FrameMaker. Obtenga información sobre cómo ver el estado de una tarea de generación de resultados.
+description: Vea la cola de generación de resultados de documentos de FrameMaker. Obtenga información sobre cómo ver el estado de una tarea de generación de resultados.
 exl-id: c358f747-f0a5-4d9e-a96f-20f30663101f
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Realice los siguientes pasos para ver la cola de generación de resultados:
 
 1. Haga clic en Salidas.
 
-   ![](images/output-queued-fm.png){width="800" align="left"}
+   ![](images/output-queued-fm.png){align="left"}
 
 1. La página Resultados se divide en dos partes:
 

@@ -4,7 +4,7 @@ description: Aprenda a crear una plantilla de personalizaciones, utilizarla para
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Realice los siguientes pasos para crear una plantilla de mapa o tema desde la in
 
 1. En la **interfaz de usuario de Assets**, vaya a la carpeta dita-templates.
 
-   ![](images/dita-templates.png){width="800" align="left"}
+   ![](images/dita-templates.png){align="left"}
 
 1. Abra la carpeta **topics** si desea crear una plantilla de **Tema**. Abra la carpeta **maps** si desea crear una plantilla **Map**.
 1. Seleccione **Crear \> plantilla DITA**.

@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo crear y eliminar una colección de
 exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 1%
@@ -54,7 +54,7 @@ Para crear una colección de mapas y añadir mapas DITA a la colección, realice
 
    Los ficheros de mapa DITA se añaden a la colección de mapas.
 
-   ![tablero de colección de mapas](./images/map-collection-dashboard.png){width="800" align="left"}
+   ![tablero de colección de mapas](./images/map-collection-dashboard.png){align="left"}
 
 **Opciones de filtrado**
 
@@ -95,7 +95,7 @@ Para configurar y generar la salida mediante una colección de mapas, realice lo
    - Active **Todos los ajustes preestablecidos** para un mapa DITA a fin de seleccionar todos los ajustes preestablecidos de una sola vez. Esta opción está desactivada de forma predeterminada.
    - Habilite **Ajustes preestablecidos de perfil de carpeta** para un mapa DITA a fin de seleccionar todos los ajustes preestablecidos de perfil de carpeta para él. Esta opción está desactivada de forma predeterminada.
 
-![editar una colección de mapas en cloud services](images/edit-map-collection-cs.png){width="800" align="left"}
+![editar una colección de mapas en cloud services](images/edit-map-collection-cs.png){align="left"}
 
 
 
@@ -112,7 +112,7 @@ Para configurar y generar la salida mediante una colección de mapas, realice lo
 
 En la colección de mapas, puede configurar las propiedades de metadatos de forma masiva para los mapas DITA. Seleccione **Configurar metadatos** para abrir la página **Metadatos de recursos**. En la página **Metadatos del recurso**, todas las asignaciones presentes en la colección se muestran a la izquierda.
 
-![configurar metadatos](images/map-collection-asset-metadata.png){width="800" align="left"}
+![configurar metadatos](images/map-collection-asset-metadata.png){align="left"}
 
 Siga estos pasos para configurar las propiedades de los metadatos:
 
@@ -147,6 +147,6 @@ De esta forma, también se eliminarán los ajustes preestablecidos o configuraci
 
 De forma similar a la forma de cancelar una tarea de generación de resultados desde la [consola de mapas DITA](generate-output-for-a-dita-map.md#id2061H100T5Z) o el [panel de publicación](generate-output-publish-dashboard.md#), puede cancelar una tarea de generación de resultados desde una colección de mapas. Acceda a la pestaña Resultados de una colección de mapas, vaya a la tarea de publicación que desee cancelar y seleccione el icono **Cancelar este trabajo** para cancelar la tarea de publicación.
 
-![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
+![](images/cancel-publish-task-map-collection.png){align="left"}
 
 **Tema principal:**[ Generación de resultados](generate-output.md)

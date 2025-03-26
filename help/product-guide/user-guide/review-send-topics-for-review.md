@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo crear una tarea de revisión y env
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2793'
 ht-degree: 0%
@@ -95,7 +95,7 @@ Para crear una tarea de revisión y enviar temas para su revisión, realice los 
 
    Se muestra la página Contenido.
 
-   ![](images/content_page_review.png){width="800" align="left"}
+   ![](images/content_page_review.png){align="left"}
 
 1. En la página Contenido, seleccione una versión del tema que desee compartir para su revisión.
 
@@ -214,7 +214,7 @@ Para enviar uno o varios temas junto con el archivo de asignación para su revis
 
    La página Contenido se muestra con todos los temas a los que se hace referencia desde el archivo de asignación. Si el mapa DITA contiene mapas anidados, también se enumerarán aquí los temas de los mapas anidados.
 
-   ![](images/content-page-map-review.png){width="800" align="left"}
+   ![](images/content-page-map-review.png){align="left"}
 
 1. En la página Contenido, seleccione una versión del tema que desee compartir para su revisión.
 
