@@ -3,7 +3,8 @@ title: Integración de Workfront
 description: Aprenda a integrar Workfront con Adobe Experience Manager Guides y a empezar a crear tareas para crear, publicar, revisar y traducir flujos de trabajo.
 feature: Authoring
 role: User
-source-git-commit: aa50c63588f18f2aabc03d8b81edca4281258876
+exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
+source-git-commit: dea9876cf0afa615f3719637c909bbda0d1d40b5
 workflow-type: tm+mt
 source-wordcount: '2436'
 ht-degree: 0%
@@ -40,7 +41,7 @@ Siga estos pasos para acceder a sus tareas de Adobe Workfront:
 
    Se muestra la página **tareas de Workfront**.
 
-   ![](./images/workfront-sign-in.png){width="800" align="left"}
+   ![](./images/workfront-sign-in.png){align="left"}
 3. Seleccione **Iniciar sesión**.
 
    Se le redirigirá a la página de Adobe Workfront Sign In.
@@ -48,7 +49,7 @@ Siga estos pasos para acceder a sus tareas de Adobe Workfront:
 
    Se le redirigirá automáticamente a la página **tareas de Workfront** en Experience Manager Guides.
 
-   ![](./images/workfront-tasks-page.png){width="800" align="left"}
+   ![](./images/workfront-tasks-page.png){align="left"}
 
 ## Funciones disponibles en la página de tareas de Workfront
 
@@ -72,7 +73,7 @@ Siga estos pasos para crear una nueva tarea de Adobe Workfront:
 
    Se muestra el cuadro de diálogo **Crear tarea**.
 
-   ![](./images/workfront-create-task.png){width="650" align="left"}
+   ![](./images/workfront-create-task.png){align="left"}
 2. En la ficha **General**, escriba los siguientes detalles de la tarea:
 
    * **Tipo de tarea**: seleccione el tipo de tarea que desea crear. Las opciones disponibles son: **Creación**, **Revisión**, **Publicación** y **Traducción**.
@@ -83,20 +84,20 @@ Siga estos pasos para crear una nueva tarea de Adobe Workfront:
    * **Usuario asignado**: seleccione un usuario asignado para la tarea.
 3. En la ficha **Assets**, seleccione **Agregar** para agregar un recurso a esta tarea.
 
-   ![](./images/workfront-create-tasks-asset.png){width="650" align="left"}
+   ![](./images/workfront-create-tasks-asset.png){align="left"}
 
    * Para las tareas de creación, publicación y traducción, se le pedirá que seleccione la ubicación del archivo requerido en el cuadro de diálogo **Seleccionar ruta**. El archivo seleccionado (un tema para la creación y asignación para la publicación y traducción) se agrega a la tarea en cuanto se selecciona el botón **Crear**.
 
-     ![](./images/attach-asset.png){width="650" align="left"}
+     ![](./images/attach-asset.png){align="left"}
 
    * Para las tareas de revisión, primero se le pide que seleccione un tipo de recurso (Mapa o Temas) y, a continuación, los archivos seleccionados se muestran de la siguiente manera:
 
 
-     ![Agregando asignaciones a una tarea de revisión](./images/attach-asset-topics.png){width="650" align="left"}
+     ![Agregando asignaciones a una tarea de revisión](./images/attach-asset-topics.png){align="left"}
 
      *Agregar temas a una tarea de revisión*
 
-     ![Agregando asignaciones a una tarea de revisión](./images/attach-asset-maps.png){width="650" align="left"}
+     ![Agregando asignaciones a una tarea de revisión](./images/attach-asset-maps.png){align="left"}
 
      *Agregando asignaciones a una tarea de revisión*
 
@@ -125,7 +126,7 @@ Se crea una nueva tarea y se enumera en la ficha **Creada por usted**.
 
 Todas las tareas que ha creado y que aún están activas se muestran en la ficha **Creado por usted** de la página de tareas de Workfront, lo que le proporciona detalles clave sobre las tareas, como el nombre del proyecto, los usuarios asignados, la fecha de creación de la tarea, la fecha de finalización de la tarea y el estado de la tarea.
 
-![](./images/workfront-tasks-created-by-you.png){width="800" align="left"}
+![](./images/workfront-tasks-created-by-you.png){align="left"}
 
 Las siguientes opciones están disponibles cuando pasa el ratón sobre una tarea presente en la pestaña Creado por usted:
 
@@ -147,7 +148,7 @@ Muestra la información de la tarea, incluidos los detalles introducidos durante
 
 Todas las tareas que se le hayan asignado y que aún estén activas se mostrarán en la ficha **Asignado a usted** de la página de tareas de Workfront, lo que le proporcionará detalles clave sobre las tareas, como el nombre del proyecto, los usuarios asignados, la fecha de vencimiento y el estado de las tareas.
 
-![](./images/workfront-tasks-assigned-to-you.png){width="800" align="left"}
+![](./images/workfront-tasks-assigned-to-you.png){align="left"}
 
 Las siguientes opciones están disponibles cuando pasa el ratón sobre una tarea presente en la pestaña Asignado a usted:
 
@@ -159,7 +160,7 @@ Permite abrir la tarea. Según el tipo de tarea, se abrirá en el editor, en la 
 
 Muestra la información de la tarea, incluidos los detalles introducidos durante la creación de la tarea, el estado de la tarea y los recursos agregados.
 
-![](images/task-details.png){width="800" align="left"}
+![](images/task-details.png){align="left"}
 
 #### Acceso a las tareas asignadas desde la sección Información general
 
@@ -167,7 +168,7 @@ También puede tener acceso a las tareas de Adobe Workfront asignadas desde la [
 
 **Sus tareas** es uno de esos widgets donde se muestra una lista de tareas de Adobe Workfront (que le han sido asignadas y siguen activas) junto con los detalles clave de la tarea, como el nombre de la tarea, el proyecto asociado, la fecha de vencimiento y el estado actual.
 
-![](./images/workfront-your-tasks-widget.png){width="800" align="left"}
+![](./images/workfront-your-tasks-widget.png){align="left"}
 
 Similar a la pestaña Asignado a ti, el widget Tus tareas también proporciona opciones para **Abrir** y ver **Detalles de la tarea** cuando pasa el ratón sobre una tarea.
 
@@ -194,11 +195,11 @@ Siga estos pasos para trabajar en una tarea de creación:
 
 1. Acceda a la tarea desde la sección [Información general](#accessing-assigned-tasks-from-overview-section) o desde la pestaña [Asignado a usted](#managing-tasks-assigned-to-you).
 
-   ![Tareas de creación en la ficha Asignado a usted](./images/authoring-task-access.png){width="650" align="left"}
+   ![Tareas de creación en la ficha Asignado a usted](./images/authoring-task-access.png){align="left"}
 
    *Tarea de creación en la ficha Asignado a usted*
 
-   ![Crear tareas en el widget Tus tareas](./images/authoring-task-access-your-tasks.png){width="650" align="left"}
+   ![Crear tareas en el widget Tus tareas](./images/authoring-task-access-your-tasks.png){align="left"}
 
    *Crear tarea en el widget Tus tareas*
 2. Pase el ratón sobre la tarea en la que quiera trabajar y seleccione  ![](images/Smock_OpenIn_18_N.svg)  para abrirlo. También puede abrir la tarea simplemente seleccionando la tarea.
@@ -206,7 +207,7 @@ Siga estos pasos para trabajar en una tarea de creación:
    Todas las tareas de creación se abren en el Editor.
 3. Revise los detalles de la tarea en la ficha **Detalles** y seleccione el archivo de **recurso** para abrirlo.
 
-   ![](./images/authoring-task-review-details-editor.png){width="650" align="left"}
+   ![](./images/authoring-task-review-details-editor.png){align="left"}
 
 4. Realice las ediciones necesarias y seleccione **Marcar como listo**.
 5. Cambie a la ficha **Comentarios** para agregar un comentario a esta tarea. Estos comentarios, agregados al nivel de tarea, también se reflejarán en el panel del proyecto de Adobe Workfront.
@@ -223,18 +224,18 @@ Siga estos pasos para trabajar en una tarea de revisión asignada.
 
 1. Acceda a la tarea desde la sección [Información general](#accessing-assigned-tasks-from-overview-section) o desde la pestaña [Asignado a usted](#managing-tasks-assigned-to-you).
 
-   ![Revisar tareas en la ficha Asignado a usted](./images/review-task-access.png){width="650" align="left"}
+   ![Revisar tareas en la ficha Asignado a usted](./images/review-task-access.png){align="left"}
 
    *Revisar la tarea en la ficha Asignado a usted*
 
-   ![Revisar tareas en el widget Tus tareas](./images/review-task-access-your-tasks.png){width="650" align="left"}
+   ![Revisar tareas en el widget Tus tareas](./images/review-task-access-your-tasks.png){align="left"}
 
    *Crear tarea en el widget Tus tareas*
 2. Pase el ratón sobre la tarea en la que quiera trabajar y seleccione  ![](images/Smock_OpenIn_18_N.svg)  para abrirlo. También puede abrir la tarea simplemente seleccionando la tarea.
 
    Para los revisores, la tarea de revisión se abrirá en la **IU de revisión**.
 
-   ![](./images/review-task-access-review-ui.png){width="650" align="left"}
+   ![](./images/review-task-access-review-ui.png){align="left"}
 
 3. Realice la revisión necesaria. Para obtener detalles sobre cómo revisar un tema, vea [revisar temas](./review-topics.md).
 4. Una vez completada la revisión, seleccione **Marcar como listo**.
@@ -248,13 +249,13 @@ Marcar la tarea como realizada por el revisor no indica la finalización de la t
 
 Se puede acceder a las tareas de revisión reasignadas al creador o los autores para su incorporación a la revisión desde la sección [Información general](#accessing-assigned-tasks-from-overview-section) o desde la pestaña [Asignado a usted](#managing-tasks-assigned-to-you).
 
-![Revisar tareas en el modo Autor](./images/review-task-author-mode.png){width="800" align="left"}
+![Revisar tareas en el modo Autor](./images/review-task-author-mode.png){align="left"}
 
 *Revisar tarea asignada de nuevo a los autores*
 
 Para estas tareas, el estado de la tarea para el usuario asignado cambia a **Creación** mientras que el tipo de tarea permanece como **Revisión**. Este cambio de estado se produce cuando todos los revisores completan la revisión.
 
-![](./images/review-tasks-with-authoring-doc-state.png){width="300" align="left"}
+![](./images/review-tasks-with-authoring-doc-state.png){align="left"}
 
 
 Al seleccionar la tarea o el icono de apertura ![](images/Smock_OpenIn_18_N.svg), se abre la tarea en el Editor, donde el autor puede [dirigir comentarios de revisión](../user-guide/review-address-review-comments.md), editar la tarea al actualizar la versión de los temas y, a continuación, volver a asignar la tarea al revisor si es necesario.
@@ -271,21 +272,21 @@ Siga estos pasos para trabajar en una tarea de traducción:
 
 1. Acceda a la tarea desde la sección [Información general](#accessing-assigned-tasks-from-overview-section) o desde la pestaña [Asignado a usted](#managing-tasks-assigned-to-you).
 
-   ![Tareas de traducción en la ficha Asignado a usted](./images/translation-tasks-access.png){width="650" align="left"}
+   ![Tareas de traducción en la ficha Asignado a usted](./images/translation-tasks-access.png){align="left"}
 
    *Tarea de traducción en la ficha Asignado a usted*
 
-   ![Tareas de traducción en el widget Tus tareas](./images/translation-tasks-access-your-tasks.png){width="650" align="left"}
+   ![Tareas de traducción en el widget Tus tareas](./images/translation-tasks-access-your-tasks.png){align="left"}
 
    *Tarea de traducción en el widget Tus tareas*
 
 2. Pase el ratón sobre la tarea en la que quiera trabajar y seleccione  ![](images/Smock_OpenIn_18_N.svg)  para abrirlo en la **consola de mapas**. También puede abrir la tarea simplemente seleccionando la tarea.
 3. Revise los detalles de la tarea y el archivo agregado para su traducción.
 
-   ![](./images/translation-tasks-review-details.png){width="650" align="left"}
+   ![](./images/translation-tasks-review-details.png){align="left"}
 4. Vaya a la pestaña **Traducción** para ver las distintas opciones de traducción. Aprenda a [traducir contenido](../user-guide/translation.md) en Experience Manager Guides.
 5. Realice la traducción requerida y seleccione **Enviar para traducción**.
-   ![](./images/translation-tasks-send-translation.png){width="650" align="left"}
+   ![](./images/translation-tasks-send-translation.png){align="left"}
 6. Vaya a la sección **Workfront** y seleccione **Marcar como listo** para indicar que la tarea se ha completado.
 7. Cambie a la ficha **Comentarios** para agregar un comentario a esta tarea. Estos comentarios, agregados al nivel de tarea, se reflejarán en el panel del proyecto de Adobe Workfront.
 
@@ -301,17 +302,17 @@ Siga estos pasos para trabajar en una tarea de publicación:
 
 1. Acceda a la tarea desde la sección [Información general](#accessing-assigned-tasks-from-overview-section) o desde la pestaña [Asignado a usted](#managing-tasks-assigned-to-you).
 
-   ![Tareas de publicación en la ficha Asignado a usted](./images/publishing-tasks-access.png){width="650" align="left"}
+   ![Tareas de publicación en la ficha Asignado a usted](./images/publishing-tasks-access.png){align="left"}
 
    *Tarea de publicación en la ficha Asignado a usted*
 
-   ![Tareas de publicación en el widget Tus tareas](./images/publishing-tasks-access-your-tasks.png){width="650" align="left"}
+   ![Tareas de publicación en el widget Tus tareas](./images/publishing-tasks-access-your-tasks.png){align="left"}
 
    *Tarea de publicación en el widget Tus tareas*
 2. Pase el ratón sobre la tarea en la que quiera trabajar y seleccione  ![](images/Smock_OpenIn_18_N.svg)  para abrirlo en la **consola de mapas**. También puede abrir la tarea simplemente seleccionando la tarea.
 3. Revise los detalles de la tarea y el archivo agregado para la publicación.
 
-   ![](./images/publishing-tasks-review-details.png){width="650" align="left"}
+   ![](./images/publishing-tasks-review-details.png){align="left"}
 4. Vaya a **Ajustes preestablecidos de salida** y realice las acciones de publicación necesarias para publicar la tarea. Para obtener más información, vea [Explicación de los ajustes preestablecidos de salida](../user-guide/generate-output-understand-presets.md/).
 5. Una vez finalizada la publicación, vaya a la sección **Workfront** y seleccione **Marcar como listo** para indicar que la tarea se ha completado.
 6. Cambie a la ficha **Comentarios** para agregar un comentario a esta tarea. Estos comentarios, agregados en el nivel de tarea, se reflejarán en el tablero del proyecto de Workfront.
