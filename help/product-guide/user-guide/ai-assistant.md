@@ -1,7 +1,8 @@
 ---
 title: Utilice el asistente de IA para crear documentos de forma inteligente `
 description: Aprenda a utilizar el asistente de IA para buscar y crear documentos de forma inteligente en Adobe Experience Manager Guides.
-source-git-commit: d51b460610617cafec07124c4fdb091aa4e37a09
+exl-id: c18e8761-333e-40ef-9e16-e71a194a754a
+source-git-commit: aab7bc0c79d3c98f062d230d1d21ec7f4e6a01c3
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -20,14 +21,14 @@ La característica **Creación** del Asistente de IA hace que su proceso de crea
 
 Para obtener más información, vea [Creación](./ai-assistant-right-panel.md).
 
-![asistente de inteligencia artificial](./images/ai-assistant-panel.png){width="300" align="left"}
+![asistente de inteligencia artificial](./images/ai-assistant-panel.png){align="left"}
 
 La característica **Ayuda** del Asistente de IA es una herramienta intuitiva basada en chat que se ha diseñado para ayudarle a comprender mejor Experience Manager Guides, solucionar problemas y buscar información en la documentación de Adobe Experience Manager Guides. En lugar de buscar en las guías del usuario y los documentos de referencia, puede usar la característica **Ayuda** para encontrar rápidamente respuestas relevantes a sus consultas. Esto ayuda a ahorrar tiempo y le permite centrarse en la creación de contenido, lo que resulta en una productividad y eficiencia mejoradas.
 
 Para obtener más información, vea [Ayuda](./ai-based-smart-help.md).
 
 
-![Panel de ayuda inteligente](images/smart-help-panel.png){width="300" align="left"}
+![Panel de ayuda inteligente](images/smart-help-panel.png){align="left"}
 
 ## Introducción al asistente de IA
 
@@ -40,7 +41,7 @@ Siga estos pasos para iniciar el asistente de IA:
 
    Se muestra la página del asistente de IA resaltando sus características clave, el vínculo de las directrices de usuario y el botón **Introducción**.
 
-   ![Panel de ayuda inteligente](images/get-started-ai.png){width="300" align="left"}
+   ![Panel de ayuda inteligente](images/get-started-ai.png){align="left"}
 
 1. Lea atentamente las directrices de usuario y, a continuación, seleccione **Introducción** para iniciar el asistente de IA.
 
@@ -51,8 +52,3 @@ Siga estos pasos para iniciar el asistente de IA:
 [Divulgaciones de IA generativa de Adobe Experience Manager Guides](./adobe-generative-ai-disclosures.md)
 
 [Configuración del asistente de IA para la creación y la ayuda inteligentes](../cs-install-guide/conf-smart-suggestions.md)
-
-
-
-
-
