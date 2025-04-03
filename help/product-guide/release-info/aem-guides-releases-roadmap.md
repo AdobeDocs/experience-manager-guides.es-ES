@@ -3,10 +3,10 @@ title: Adobe Experience Manager Guides publica la hoja de ruta 2024
 description: Obtenga información sobre las versiones en directo y futuras de Adobe Experience Manager Guides local y Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: c87f343fd8010c375d46ca8c8f50d81f6a0a2c53
+source-git-commit: 202a25afc4fc05f5a6e326798c9608703f308a7e
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 32%
+ht-degree: 31%
 
 ---
 
@@ -27,7 +27,7 @@ Las versiones para Experience Manager Guides as a Cloud Service están planifica
 
 | Versión | Evento | Programación | Novedades | Instrucciones de actualización | Problemas solucionados | Estado |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.04.0 | Actualización automática | 21-23 de abril de 2025 |  |  |  | Público destinatario |
+| Adobe Experience Manager Guides 2025.04.0 | Actualización automática | 5-07 de mayo de 2025 |  |  |  | Público destinatario |
 
 ### Versiones en directo
 
