@@ -4,9 +4,9 @@ description: Explore otras funciones del editor en Adobe Experience Manager Guid
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
 workflow-type: tm+mt
-source-wordcount: '2406'
+source-wordcount: '2399'
 ht-degree: 0%
 
 ---
@@ -213,9 +213,9 @@ Al desajustar un elemento, puede quitar la etiqueta del elemento del texto selec
 
 En XML, los espacios en blanco incluyen espacios, tabulaciones, retornos de carro y líneas en blanco. Experience Manager Guides convierte varios espacios en blanco consecuentes en un espacio. Esto le ayuda a conservar la vista de WYSIWYG del Editor.
 
-    >[!NOTE]
-    >
-    >En algunos elementos en los que es necesario conservar los espacios en blanco según las reglas DITA, se conservan los múltiples espacios en blanco resultantes. Por ejemplo, los elementos `&lt;pre>` y `&lt;codeblock>`.
+>[!NOTE]
+>
+> En algunos elementos en los que es necesario conservar los espacios en blanco según las reglas DITA, se conservan los múltiples espacios en blanco consiguientes. Por ejemplo, `<pre>` y `<codeblock>` elementos.
 
 
 **Conservando saltos de línea y sangría**
