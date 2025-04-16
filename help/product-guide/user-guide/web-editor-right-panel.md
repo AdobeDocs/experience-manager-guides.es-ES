@@ -3,7 +3,8 @@ title: Panel derecho en el editor
 description: Conozca el panel derecho en el editor. Obtenga información acerca de la interfaz y las funciones de Editor en Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 6e7d600da4373cb046e6adad3c5afe3164c9d0fa
+exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 1%
@@ -32,7 +33,7 @@ Puede acceder a la función **Propiedades de contenido** seleccionando el icono 
 
 **Tipo**: puede ver y seleccionar las etiquetas de la jerarquía completa para la etiqueta actual en el menú desplegable.
 
-**Atributos**: El panel desplegable **Atributos** está disponible en las vistas Diseño, Autor y Source. Puede añadir, editar o eliminar fácilmente los atributos.
+**Atributos**: el **panel desplegable Atributos** está disponible en las vistas Diseño, Autor y Origen. Puede agregar, editar o eliminar fácilmente los atributos.
 
 <details>
     <summary> Pasos para añadir atributos </summary>
@@ -55,9 +56,9 @@ Puede acceder a la función **Propiedades de contenido** seleccionando el icono 
 
 >[!NOTE]
 >
-> Incluso si el tema contiene contenido referenciado, puede agregar atributos mediante el panel de propiedades.
+> Incluso si el tema contiene contenido al que se hace referencia, puede agregar atributos en él mediante el panel de propiedades.
 
-Si el administrador ha creado un perfil para atributos, obtendrá esos atributos junto con sus valores configurados. Con el panel de propiedades de contenido, puede elegir esos atributos y asignarlos al contenido relevante del tema. De este modo, también puede crear contenido condicional, que luego puede utilizar para crear resultados condicionales. Para obtener más información acerca de cómo generar resultados mediante ajustes preestablecidos condicionales, vea [Usar ajustes preestablecidos de condición](generate-output-use-condition-presets.md#).
+Si su administrador ha creado un perfil para atributos, obtendrá esos atributos junto con sus valores configurados. Mediante el panel de propiedades de contenido, puede elegir esos atributos y asignarlos a contenido relevantes de su tema. De este modo, también puede crear contenido condicional, que luego puede utilizar para crear resultados condicionales. Para obtener más información acerca de cómo generar resultados mediante ajustes preestablecidos condicionales, vea [Usar ajustes preestablecidos de condición](generate-output-use-condition-presets.md#).
 
 
 
@@ -75,17 +76,17 @@ La sección General le permite acceder a las siguientes funciones:
 
 - **Nombre de archivo**: muestra el nombre de archivo del tema seleccionado. El nombre de archivo está enlazado mediante un hipervínculo a la página de propiedades del archivo seleccionado.
 - **ID**: muestra el ID del tema seleccionado.
-- **Etiquetas**: estas son las etiquetas de metadatos del tema. Se establecen en el campo de etiquetas de la página de propiedades. Puede escribirlos o seleccionarlos en la lista desplegable.  Las etiquetas aparecen debajo de la lista desplegable. Para eliminar una etiqueta, seleccione el icono en forma de cruz situado junto a la etiqueta.
+- **Etiquetas**: estas son las etiquetas de metadatos del tema. Se establecen desde el campo de etiquetas del Página de propiedades. Puede escribirlos o seleccionarlos en la lista desplegable.  Las etiquetas aparecen en la lista desplegable. Para eliminar un etiqueta, seleccione el icono de cruz situado junto al etiqueta.
 - **Editar más propiedades**: puede editar más propiedades desde la página de propiedades del archivo.
 - **Idioma**: muestra el idioma del tema. Se establece desde el campo language en la página de propiedades.
 - **Creado el**: muestra la fecha y la hora en que se creó el tema.
 - **Modificado el**: muestra la fecha y la hora en que se modificó el tema.
 - **Bloqueado por**: muestra el usuario que bloqueó el tema.
-- **Estado del documento**: puede seleccionar y actualizar el estado del documento del tema abierto actualmente. Para obtener más información, vea [Estado del documento](web-editor-document-states.md#).
+- **Estado del** documento: se puede seleccionar y actualizar el estado documento del tema abierto actualmente. Para obtener más información, vista [Estado del](web-editor-document-states.md#) documento.
 
 >[!NOTE]
 >
-> Puede copiar los valores de atributo de los distintos campos de las propiedades del archivo en el portapapeles.
+> Puede copiar los valores de atributo de los distintos campos de las propiedades de Archivo en el portapapeles.
 
 **Referencias**
 
@@ -100,13 +101,13 @@ De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón
 
 >[!NOTE]
 >
-> Como administrador, también puede elegir ver la lista de archivos por nombres de archivo en el Editor. Seleccione la opción **Nombre de archivo** de la sección **Archivos del editor muestran la configuración** en **Preferencias de usuario**.
+> Como administrador, también puede elegir ver la lista de archivos por nombres de archivo en el Editor. Seleccione la **opción Archivo nombre** de la **sección de configuración** de visualización de archivos del editor en **preferencias** de usuario.
 
 >[!NOTE]
 >
-> Todas las referencias utilizadas en y salientes se hipervinculan a los documentos. Puede abrir y editar fácilmente los documentos vinculados.
+> Todas las referencias utilizadas en y salientes están hipervinculadas al documentos. Puede abrir y editar fácilmente los documentos vinculados.
 
-Además de abrir archivos, también puede realizar muchas acciones utilizando el menú **Opciones** de la sección Referencias. Algunas de las acciones que puede realizar son Editar, Vista previa, Copiar UUID, Copiar ruta, Agregar a colecciones, Propiedades.
+Además de abrir archivos, también puede realizar muchas acciones utilizando el **menú Opciones** en la sección Referencias. Algunas de las acciones que puede realizar incluyen Editar, Vista previa, Copiar UUID, Copiar ruta, añadir a colecciones, Propiedades.
 
 ## Revisión
 
@@ -116,13 +117,13 @@ Al seleccionar el icono Revisar, se abre el panel de revisión, en el que puede 
 
 Si ha creado varios proyectos de revisión, puede seleccionar uno de la lista desplegable y acceder a los comentarios de revisión.
 
-Con el panel de revisión, puede ver y publicar respuestas a los comentarios proporcionados sobre el tema. Puede aceptar o rechazar los comentarios uno por uno.
+Con el panel de revisión, puede ver y publicar respuestas a los comentarios proporcionados sobre el tema. Puede aceptar o rechazar las comentarios una por una.
 
 >[!NOTE]
 >
-> El cuadro de comentarios y el cuadro de respuesta admiten entradas de varias líneas y permiten a los usuarios expandirlas según sea necesario para proporcionar comentarios completos así como respuestas detalladas a los comentarios. Puedes usar **Shift** + **Enter** para ir a la línea siguiente mientras escribes los comentarios o respuestas.
+> El cuadro de comentarios y el cuadro de respuesta admiten entradas de varias líneas y permiten a los usuarios expandirlo según sea necesario para proporcionar una comentarios completa, así como una respuesta detallada al comentarios. Puede usar **Mayús +** Intro **** para ir a la siguiente línea mientras escribe el comentarios o las respuestas.
 
-Para obtener más información, vea [Comentarios de revisión de direcciones](review-address-review-comments.md#).
+Para obtener más información, vista [Revisión de direcciones comentarios](review-address-review-comments.md#).
 
 ## Seguimiento de cambios
 
@@ -130,7 +131,7 @@ Con la función Cambios rastreados del panel derecho, puede ver la información 
 
 >[!NOTE]
 >
-> La característica de cambios realizados muestra todas las actualizaciones de las que se ha realizado un seguimiento mediante la característica Habilitar/Deshabilitar el seguimiento de cambios de la [barra de fichas](#tab-bar).
+> La característica de cambios realizados muestra todas las actualizaciones de las que se ha realizado un seguimiento mediante la característica Habilitar/Deshabilitar el seguimiento de cambios de la [barra de fichas](./web-editor-tab-bar.md).
 
 ## Schematron
 

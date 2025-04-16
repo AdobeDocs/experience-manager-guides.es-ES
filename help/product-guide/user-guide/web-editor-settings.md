@@ -1,18 +1,19 @@
 ---
-title: Vistas del editor de temas
-description: Ver temas en los modos de autor, origen y vista previa. Obtenga información sobre cómo ver contenido basado en filtros condicionales, ver las marcas de seguimiento de cambios y exportar un tema como PDF en AEM Guides.
-Sfeature: Authoring, Features of Web Editor
+title: Configuración del editor en Experience Manager Guides
+description: Obtenga información acerca de las distintas configuraciones disponibles en la interfaz del editor de Experience Manager Guides.
+feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 0fb079d08c31688046acf0e5a1e2ce7997d24cd6
+exl-id: fad2874f-dab5-4538-8502-f7112c51d941
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
 
 # Configuración del editor
 
-La opción **Settings** presente en la [barra de fichas] del editor solo está disponible para administradores y administradores de perfiles de carpeta, y permite configurar las siguientes opciones:
+La opción **Settings** presente en la [barra de fichas](./web-editor-tab-bar.md) del editor solo está disponible para administradores y administradores de perfiles de carpeta, y permite configurar las siguientes opciones:
 
 - [General](#general)
 - [Paneles](#panels)
@@ -42,9 +43,9 @@ La configuración General permite configurar el diccionario para utilizarlo con 
 
    - **Resaltar texto condicional en la vista de autor**: seleccione esta opción para resaltar el texto condicional en la vista de autor. El contenido condicional se resalta con el color definido para la condición.
 
-   - **Validar con atributos de condición**: seleccione esta opción para permitir la validación de los valores definidos para los atributos. Esto evita que añada cualquier valor incorrecto.
+   - **Validar con atributos** de condición: Seleccione esta opción para permitir la validación de los valores definidos para los atributos. Esto evita que agregue algún valor incorrecto.
 
-   - **Mostrar clave con el título en el panel Esquema del asunto**: seleccione esta opción para mostrar las claves junto con los títulos en el esquema del asunto. Si no selecciona esta opción, solo se muestran los títulos. Por ejemplo, aquí las teclas &quot;os&quot;, &quot;audience&quot; y &quot;other&quot; también se muestran junto con los títulos.
+   - **Mostrar clave con el título en el panel** Esquema de asignatura: Seleccione esta opción para mostrar las claves junto con los títulos en el esquema de asignatura. Si no selecciona esta opción, solo se muestran los títulos. Por ejemplo, aquí las teclas &quot;os&quot;, &quot;audience&quot; y &quot;other&quot; también se muestran junto con los títulos.
 
      ![](images/subject-scheme-title.png){width="550" align="left"}
 
@@ -64,7 +65,7 @@ Seleccione esta opción para habilitar la función [Ayudante de IA](./ai-assista
 
 ## Paneles
 
-Esta opción controla los paneles que se muestran en los paneles izquierdo y derecho de la consola Editor y Mapa. Puede alternar el botón para mostrar u ocultar el panel deseado.
+Esta opción controla los paneles que se muestran en los paneles izquierdo y derecho de la consola Editor y Mapa. Puede cambiar la botón para mostrar o ocultar el panel deseado.
 
 ![](images/editor-setting-panel.png){width="650" align="left"}
 
@@ -105,11 +106,11 @@ Con esta configuración, cuando intenta agregar un atributo a un elemento, solo 
 
 ## Colores
 
-Muestra una lista de colores de fondo preconfigurados para **Condiciones**. Los usuarios pueden seleccionar un color de fondo al aplicar una condición a un tema. Como administrador, también puede crear y agregar colores de fondo personalizados a la lista. Para agregar un nuevo color, escribe el nombre que desees en el campo **Nombre del color**, elige un color personalizado y selecciona el icono **+**. El color personalizado aparecerá al final de la lista de colores.
+Muestra una lista de colores de fondo preconfigurados para **Condiciones**. Los usuarios pueden seleccionar un color de fondo al aplicar una condición a un tema. Como administrador, también puede crear y agregar colores de fondo personalizados al lista. Para agregar un nuevo color, ingrese el nombre deseado en el **campo Nombre** Color, elija un color personalizado y seleccione el **icono +** . El color personalizado aparece al final de la lista de color.
 
-## Publicación de perfiles
+## Publish perfiles
 
-Contiene los perfiles que se pueden usar para publicar la salida de **Knowledge Base**. Puede crear un nuevo perfil para una base de conocimiento de Target. Por ejemplo, Salesforce o ServiceNow.
+Contiene los perfiles que pueden utilizarse para publicar la salida de la base **de** conocimiento. Puede crear un nuevo perfil para una base de conocimiento de Target. Por ejemplo, Salesforce o ServiceNow.
 
 **Crear un perfil de Salesforce**
 
@@ -155,7 +156,7 @@ Configure el servidor de ServiceNow para cargar los recursos.
 
   Una vez configurada la aplicación, cree el perfil **ServiceNow**.
 
-- Para crear un perfil, seleccione ServiceNow Knowledge Base en la lista desplegable **Tipo de servidor**. Escriba un perfil **Name**. En la **URL de ServiceNow**, introduzca el sitio de consumidores que utilizaría para publicar la salida y, a continuación, agregue el **Nombre de usuario** y la **Contraseña** proporcionados por el sitio de consumidores de ServiceNow. A continuación, **Valide** y **guarde** el perfil recién creado.
+- Para crear una perfil, seleccione la Base de conocimiento de ServiceNow en el **menú desplegable Tipo** de servidor. Introduzca un nombre **perfil**. En la **URL** ServiceNow, escriba el sitio del consumidor que usaría para publicar la salida y, a continuación, agregue el nombre **de usuario y** el **Contraseña** proporcionados por el sitio del consumidor de ServiceNow. A continuación, **valide** y **Guardar** el perfil recién creado.
 
   ![Perfil de publicación ServiceNow](./images/service-now-publish-profile.png){width="550" align="left"}
 
@@ -178,14 +179,14 @@ Esta pestaña contiene opciones para configurar las validaciones de Schematron e
 
   Esto evita que los usuarios guarden cualquier archivo que rompa una regla definida en los archivos de Schematron seleccionados. Si no se selecciona esta opción, el archivo no se validará antes de guardar los cambios.
 
-- **Permitir que todos los usuarios agreguen archivos de Schematron en el panel de validación**: seleccione esta opción para permitir que los usuarios agreguen cualquier archivo de Schematron en el panel Validación del Editor. Esto permite a los usuarios agregar archivos de Schematron y, a continuación, validar los temas con el archivo de Schematron. Si no se selecciona esta opción, la opción para agregar el botón **Agregar archivo de schematron** no estará disponible para los usuarios en el **panel Validación** del Editor.
+- **Permitir que todos los usuarios añadan archivos de schematron en validación panel**: Seleccione esta opción para permitir a los usuarios añadir cualquier archivo de Schematron en el panel de validación del editor. Esto permite a los usuarios agregar archivos de Schematron y luego validar los temas con el archivo de Schematron. Si no se selecciona esta opción, la opción para agregar el botón **Agregar archivo de schematron** no estará disponible para los usuarios en el **panel Validación** del Editor.
 
 
 ## Mostrar atributos
 
-Al igual que la lista Atributos, puede controlar la lista de atributos que se mostrarán en la lista de atributos de un elemento. De manera predeterminada, se han configurado cuatro **atributos de visualización**: audiencia, plataforma, producto y props para que se muestren en la lista de atributos de un elemento. También puede agregar un atributo de visualización mediante el icono **Agregar** de la parte superior. También puede eliminar cualquiera de los atributos de visualización mediante el icono **Delete**.
+Al igual que la lista Atributos, puede controlar la lista de atributos que se mostrarán en la lista de atributos de un elemento. De manera predeterminada, se han configurado cuatro **atributos de visualización**: audiencia, plataforma, producto y props para que se muestren en la lista de atributos de un elemento. También puede añadir un atributo de visualización mediante el icono añadir **** situado en la parte superior. También puede eliminar cualquiera de los atributos de visualización mediante el icono **Delete**.
 
-Los atributos definidos para un elemento se muestran en las vistas Diseño y Esquema.
+Los atributos definidos para un elemento se muestran en la Diseño y en la vista de esquema.
 
 ![](images/editor-settings-display-attributes.png){width="550" align="left"}
 
@@ -205,13 +206,13 @@ Esta pestaña contiene las opciones para crear grupos de idiomas, propagar las e
 
       Escriba los primeros caracteres del idioma o el código de idioma para filtrar los idiomas deseados. Por ejemplo, escriba &#39;en&#39; para filtrar todos los idiomas que contienen &#39;en&#39; al principio de su nombre o código.
 
-   1. Seleccione el icono Listo para añadir los idiomas seleccionados al grupo. Se muestran los idiomas. Cuando se agregan tres o más idiomas, se muestra la opción **Mostrar más**. Puede seleccionar **Mostrar más** para ver todos los idiomas presentes en el grupo.
+   1. Seleccione el icono Listo para añadir los idiomas seleccionados al grupo. Se muestran los idiomas. Cuando agrega tres o más idiomas, se muestra la **opción Mostrar más** . Puede seleccionar **Mostrar más** para vista todos los idiomas presentes en el grupo.
 
       >[!TIP]
       >
-      > Cambie **Mostrar más** por **Mostrar menos** y ver solo algunos idiomas.
+      > Alterne **Mostrar más** a **Mostrar menos** y vista solo unos pocos idiomas.
 
-   1. Pase el ratón sobre los idiomas de un grupo para editar ![editar icono](images/edit_pencil_icon.svg) o eliminar ![eliminar](images/Delete_icon.svg) los grupos de idiomas.
+   1. Pase el ratón sobre los idiomas de una grupo para editar ![el icono](images/edit_pencil_icon.svg) de edición o eliminar ![, elimine](images/Delete_icon.svg) los grupos de idiomas.
    1. Guardar **configuración**.
 
       >[!NOTE]
