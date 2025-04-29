@@ -4,9 +4,9 @@ description: Cree y administre líneas de base desde la consola de mapas de Adob
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 154d4cb2c4c51581590048e1d368f4c744402847
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -137,7 +137,7 @@ Puede duplicar una línea base y modificarla según sus necesidades.
   > El proceso para agregar o quitar etiquetas se produce de forma asíncrona, por lo que puede seguir trabajando en otros archivos. Una vez añadida o eliminada la etiqueta, se muestra un mensaje emergente que confirma que la etiqueta se ha añadido o eliminado, y también recibe una notificación en la bandeja de entrada para el mismo.
 
 - **Editar propiedades** de una línea de base estática existente que haya establecido al crear la línea de base.
-- Exportar la instantánea de una línea de base en un archivo de Microsoft Excel con la opción **Exportar línea de base**.
+- La opción **Exportar línea de base** exporta una instantánea de la línea de base en el archivo de Microsoft Excel, incluidos todos los detalles esenciales como el título, el nombre, el tipo de archivo, el número de versión, el estado del documento y otra información relevante.
 
 
 ### Lista de etiquetas {#labels-list}

@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo generar resultados de archivos .bo
 exl-id: 24132198-52da-4c0b-bee3-5c728ec96995
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: b78a34430476c15cadacb23d65bd978b3c25bd23
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Siga estos pasos para generar resultados para documentos de FrameMaker:
 
-1. En la interfaz de usuario de Assets, navegue hasta el archivo `.book` o `.fm` que desee publicar y haga clic en él.
+1. En la interfaz de usuario de Assets, desplácese hasta el archivo `.book` o `.fm` que desee publicar y selecciónelo.
 
    Aparecerá la consola de mapas DITA con la lista de ajustes preestablecidos de salida disponibles para generar resultados.
 
@@ -23,11 +23,11 @@ Siga estos pasos para generar resultados para documentos de FrameMaker:
 
 1. Seleccione uno o varios ajustes preestablecidos de salida que desee utilizar para generar la salida.
 
-1. Haga clic en el icono Generate para iniciar el proceso de generación de resultados.
+1. Seleccione el icono Generar para iniciar el proceso de generación de resultados.
 
 
 >[!NOTE]
 >
-> Puede ver el estado actual de la solicitud de generación de resultados haciendo clic en Salidas. Para obtener más información, vea [Ver el estado de la tarea de generación de resultados](fm-output-view-status.md).
+> Puede ver el estado actual de la solicitud de generación de resultados seleccionando Salidas. Para obtener más información, vea [Ver el estado de la tarea de generación de resultados](fm-output-view-status.md).
 
 **Tema principal:**[ Generar salida de documentos de FrameMaker](fm-output-generatation.md)

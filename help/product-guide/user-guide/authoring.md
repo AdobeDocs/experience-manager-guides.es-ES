@@ -4,10 +4,10 @@ description: Administre contenido e identifique sus funciones y permisos en AEM 
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
 feature: Content Management
 role: User
-source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
+source-git-commit: 461692ce786f914dd196f289efef726e42bf9660
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 10%
+source-wordcount: '584'
+ht-degree: 13%
 
 ---
 
@@ -68,7 +68,7 @@ En la tabla siguiente se enumeran varias tareas y los grupos que pueden realizar
 | **Funciones disponibles en la consola de mapas DITA \(ficha Ajustes preestablecidos de salida\)** |
 | Generar |   |   | Sí |
 | Editar |   |   | Sí |
-| Duplicar |   |   | Sí |
+| Duplicado |   |   | Sí |
 | Crear |   |   | Sí |
 | Eliminar ajuste preestablecido |   |   | Sí |
 | **Funciones disponibles en la consola de mapas DITA \(ficha Salidas\)** |
@@ -79,7 +79,7 @@ En la tabla siguiente se enumeran varias tareas y los grupos que pueden realizar
 | **Funciones disponibles en la consola de mapas DITA \(ficha Líneas bases\)** |
 | Crear |   |   | Sí |
 | Editar |   |   | Sí |
-| Duplicar |   |   | Sí |
+| Duplicado |   |   | Sí |
 | Quitar |   |   | Sí |
 | Consola de mapas DITA \(ficha Informes\) | Sí |   | Sí |
 | **Funciones disponibles en la consola de mapas DITA \(Ajustes preestablecidos de condición\)** |
@@ -88,15 +88,3 @@ En la tabla siguiente se enumeran varias tareas y los grupos que pueden realizar
 [1](#fnsrc_1) Si *Autores* y *Editores* están invitados a una revisión.
 
 [2](#fnsrc_2) según los derechos otorgados al usuario en el perfil de estado del documento.
-
-## Requisitos previos para la creación de contenido
-
-**Trabajar con perfiles globales o de nivel de carpeta**
-
-En una empresa, diferentes grupos o productos pueden utilizar diferentes plantillas de creación, plantillas de salida, perfiles de atributos condicionales \(o esquemas de asunto\) y configuraciones del Editor web. La configuración de estos solo a nivel empresarial \(o global\) puede dificultar la experiencia de los autores, ya que verán plantillas o perfiles que no son relevantes para ellos.
-
-Experience Manager Guides permite configurar la creación de plantillas \(topic o map\), plantillas de salida, atributos condicionales y configuraciones del editor web en el nivel \(global\) empresarial, así como en el nivel de carpeta. De este modo, puede separar las configuraciones para diferentes departamentos o productos de la empresa.
-
-Además, puede delegar las configuraciones específicas de la carpeta a un departamento o a administradores de productos para descentralizar la administración.
-
-Para obtener más información sobre la configuración de perfiles globales y de nivel de carpeta, consulte *Configuración de perfiles globales o de nivel de carpeta* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.

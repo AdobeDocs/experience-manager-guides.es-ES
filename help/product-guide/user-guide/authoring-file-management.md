@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo administrar archivos y carpetas en
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
 workflow-type: tm+mt
-source-wordcount: '3131'
+source-wordcount: '3201'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
    - **Ruta de Source\(s\)**: especifique la ubicación de las carpetas que desea mover.
 
-      - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25">    para abrir el cuadro de diálogo examinar archivo. Seleccione las carpetas que desee mover y elija **Seleccionar** para completar el proceso.
+      - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25">    para abrir el diálogo **Seleccionar ruta**. Seleccione las carpetas que desee mover y elija **Seleccionar** para completar el proceso. Puede seleccionar varias carpetas colocadas en diferentes ubicaciones en el explorador de rutas. Se conservará la ruta de las carpetas seleccionadas, lo que le permite revisarlas o modificarlas fácilmente cuando vuelva a abrir el cuadro de diálogo.
 
       - También puede escribir o copiar y pegar la ubicación de origen. Pulse Intro para añadir la carpeta a la lista.
 
@@ -195,7 +195,7 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
    - **Ruta de Source\(s\)**: especifique la ubicación de las carpetas que desea mover.
 
-      - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25">    para abrir el cuadro de diálogo examinar archivo. Seleccione las carpetas que desee mover y elija **Seleccionar** para completar el proceso.
+      - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25">    para abrir el diálogo **Seleccionar ruta**. Seleccione las carpetas que desee mover y elija **Seleccionar** para completar el proceso. Puede seleccionar varias carpetas colocadas en diferentes ubicaciones en el explorador de rutas. Se conservará la ruta de las carpetas seleccionadas, lo que le permite revisarlas o modificarlas fácilmente cuando vuelva a abrir el cuadro de diálogo.
 
       - También puede escribir o copiar y pegar la ubicación de origen. Pulse Intro para añadir la carpeta a la lista.
 

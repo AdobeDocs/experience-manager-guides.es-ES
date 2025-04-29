@@ -4,9 +4,9 @@ description: Explore otras funciones del editor en Adobe Experience Manager Guid
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
+source-git-commit: c8ea6eae180ce7045a0364713604711aae2bb6bd
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2556'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Hay otras funciones útiles en el editor que puede utilizar:
 
-**El menú contextual funciona en la ficha de un archivo**
+## El menú contextual funciona en la ficha de un archivo
 
 Al abrir un archivo en el Editor, puede realizar varias acciones desde el menú contextual. Puede ver distintas opciones dependiendo de si abre un archivo multimedia, un solo archivo DITA o varios archivos.
 
@@ -142,19 +142,21 @@ El editor proporciona un cuadro de diálogo de exploración inteligente de archi
 >
 > En el caso de un archivo de imagen, audio o vídeo, el cuadro de diálogo de exploración de archivos toma como valor predeterminado la ubicación del archivo y no la última utilizada.
 
-**Compatibilidad con la publicación basada en artículos**
+## Compatibilidad con la publicación basada en artículos
 
 Desde el Editor, se puede generar la salida para uno o varios temas o para todo el mapa DITA. Es necesario crear ajustes preestablecidos de salida para el mapa DITA y, a continuación, generar fácilmente la salida para uno o más temas. Si ha actualizado algunos temas en el mapa, también puede generar el resultado solo para esos temas desde el Editor. Para obtener más información, vea [Publicación basada en artículos](web-editor-article-publishing.md#id218CK0U019I).
 
-**Compatibilidad con documentos de Markdown**
+## Compatibilidad con documentos de Markdown
 
 El editor permite utilizar documentos de Markdown \(.md\) junto con documentos DITA. Se puede crear y previsualizar fácilmente un documento Markdown en el editor y añadirlo en el fichero de mapa mediante el editor de mapas DITA. Para obtener más información, vea [Documentos de Markdown del autor desde el editor](web-editor-markdown-topic.md#).
 
-**Tema de términos del glosario de soporte para DITA**
+## Compatibilidad con el tema de términos del glosario DITA
 
 El editor admite términos del glosario DITA que se pueden insertar agregando `term` o `abbreviated-form` elementos.
 
-**Insertar ecuaciones de MathML**
+## Trabajo con ecuaciones de MathML
+
+### Insertar ecuaciones de MathML
 
 Experience Manager Guides le ofrece compatibilidad para insertar ecuaciones de MathML mediante la integración con la aplicación [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro). Para insertar una ecuación de MathML, seleccione el icono **Elemento** y escriba mathml. Cuando selecciona un elemento matemático de la lista, aparece el cuadro de diálogo **Insertar MathML**:
 
@@ -164,22 +166,22 @@ Con las herramientas de ecuaciones de MathML, cree la ecuación y seleccione **I
 
 En cualquier momento puedes actualizar una ecuación haciendo clic con el botón derecho en una ecuación existente y seleccionando **Editar MathML** en el menú contextual.
 
-- **Validación de ecuaciones en el editor de MathML**
+### Validación de ecuaciones en el editor de MathML
 
-  Experience Manager Guides valida las ecuaciones de MathML cuando se guarda un tema que las contiene.
+Experience Manager Guides valida las ecuaciones de MathML cuando se guarda un tema que las contiene.
 Cuando se inserta una ecuación con el editor de MathML, Experience Manager Guides resalta la ecuación en rojo si hay algún problema de sintaxis. Puede corregirla antes de insertarla. Si no hace ningún cambio pero selecciona **Insertar**, se muestra una advertencia.
 
-  ![validar ecuación matemática](images/validate-mathml-equation.png){width="400" align="left"}
+![validar ecuación matemática](images/validate-mathml-equation.png){width="400" align="left"}
 
-  Si inserta la ecuación de MathML que contiene un error de sintaxis, se produce un error de validación al intentar guardar el tema.
+Si inserta la ecuación de MathML que contiene un error de sintaxis, se produce un error de validación al intentar guardar el tema.
 
 
-**Insertar notas al pie**
+## Insertar notas al pie
 
 Insertar nota al pie en el contenido usando el elemento `fn`. En el modo Autor, el valor de la nota al pie se muestra alineado con el contenido. Sin embargo, cuando cambia al modo Vista previa o publica el documento, la nota al pie aparece al final del tema.
 
 
-**Cambiar el nombre o reemplazar un elemento**
+## Cambiar el nombre o reemplazar un elemento
 
 El editor muestra la ruta de exploración del elemento en la parte inferior izquierda del tema. Si desea intercambiar o reemplazar un elemento por otro, puede hacerlo desde el menú contextual de la ruta de exploración. Por ejemplo, puede intercambiar el elemento `p` por `note` o cualquier otro elemento válido en el contexto.
 
@@ -195,9 +197,9 @@ Además del menú contextual de la ruta de exploración, también se puede acced
 
 - Puede acceder al cuadro de diálogo Cambiar nombre de elemento invocando el menú Opciones de un elemento del panel Esquema.
 
+## Ajuste y desajuste de un elemento
 
-
-**Agrupar un elemento**
+### Ajustar un elemento
 
 - El ajuste de un elemento permite agregar una etiqueta de elemento al texto seleccionado. El texto se puede ajustar a cualquier elemento secundario según los estándares DITA. Por ejemplo, si tiene texto bajo un elemento `note`, puede ajustar el texto a un elemento `p`.
 
@@ -205,11 +207,11 @@ Además del menú contextual de la ruta de exploración, también se puede acced
 
 - También puede seleccionar el texto o el elemento del contenido y, a continuación, seleccionar la opción **Justificar elemento** en el menú contextual.
 
-**Desenvolver un elemento**
+### Desenvolver un elemento
 
 Al desajustar un elemento, puede quitar la etiqueta del elemento del texto seleccionado y combinarlo con su elemento principal. Por ejemplo, si tiene un elemento `p` dentro de un elemento `note`, puede desenvolver el elemento `p` para combinar el texto directamente dentro del elemento `note`. La opción **Desenvolver elemento** está disponible en el menú contextual de la ruta de exploración del tema. Para desenvolver un elemento, haga clic con el botón derecho en el elemento para abrir el menú contextual y, finalmente, seleccione **Desenvolver elemento** para quitar el elemento y combinar el texto del elemento con su elemento principal.
 
-**Administración de espacios en blanco para elementos DITA**
+## Gestión de espacios en blanco para elementos DITA
 
 En XML, los espacios en blanco incluyen espacios, tabulaciones, retornos de carro y líneas en blanco. Experience Manager Guides convierte varios espacios en blanco consecuentes en un espacio. Esto le ayuda a conservar la vista de WYSIWYG del Editor.
 
@@ -218,7 +220,7 @@ En XML, los espacios en blanco incluyen espacios, tabulaciones, retornos de carr
 > En algunos elementos en los que es necesario conservar los espacios en blanco según las reglas DITA, se conservan los múltiples espacios en blanco consiguientes. Por ejemplo, `<pre>` y `<codeblock>` elementos.
 
 
-**Conservando saltos de línea y sangría**
+## Conservación de saltos de línea y sangría
 
 Los elementos DITA que contienen saltos de línea y espacios son compatibles y se representan según su definición en los modos Autor, Source o Vista previa, y también en la salida publicada final. La siguiente captura de pantalla muestra el contenido dentro del elemento `msgblock` en el que se han conservado los saltos y espacios de línea \(sangría\):
 
@@ -226,7 +228,7 @@ Los elementos DITA que contienen saltos de línea y espacios son compatibles y s
 
 
 
-**Administrar espacios de no separación en el Editor**
+## Administrar espacios de no separación en el editor
 
 - Puede insertar espacios de no separación en el documento mediante el icono **Symobol** ![](images/symbol-icon.svg) o las teclas de método abreviado **Alt** + **Espacio**.  Estos espacios de no separación aparecen como un indicador mientras edita un tema en el Editor. Puede desactivar la visualización de los espacios de no separación con la opción **Mostrar indicador de espacio de no separación en el modo Autor** de la pestaña **Apariencia** de [Preferencias de usuario](./intro-home-page.md#user-preferences).
 
@@ -234,7 +236,7 @@ Los elementos DITA que contienen saltos de línea y espacios son compatibles y s
 Sin embargo, si copia y pega contenido con un espacio de no separación de la vista **Autor**, se conservará.
 
 
-**Id. de elemento generado automáticamente**
+## ID de elemento generado automáticamente
 
 Se pueden generar automáticamente ID para los elementos del tema DITA. Estos ID son únicos dentro de un tema DITA. Por ejemplo, si genera ID para un elemento de párrafo, los ID serán p\_1, p2, p\_3, etc. Puede seleccionar varios elementos y generar ID para cada elemento seleccionado.
 
@@ -246,5 +248,24 @@ Haga lo siguiente para generar automáticamente el ID para uno o varios elemento
 
    También puede hacer clic con el botón derecho en la ruta de exploración y seleccionar **Generar ID**.
 
+
+
+## Gestión de archivos grandes en el editor
+
+A continuación se mencionan las funciones principales destinadas a mejorar el manejo de archivos grandes:
+
+- Para mejorar el rendimiento, se desactivan determinadas funciones como deshacer, rehacer, el panel de contorno y el marcador sucio. Se recomienda desglosar los temas en temas más pequeños para una experiencia óptima.
+
+- Se muestra un mensaje de alerta en la parte superior para los archivos grandes, como se muestra en el siguiente fragmento. Esta alerta resalta el número de elementos en función del valor especificado en el parámetro **largeFileTagCount** del archivo uiconfig.json. De manera predeterminada, **largeFileTagCount** está establecido en 2500.
+
+![](images/add-toast-notification.png){width="600" align="left"}
+
+
+- Además, el recuento de etiquetas se muestra en la barra inferior de la interfaz. Cuando pasa el ratón sobre este valor de recuento de etiquetas, aparece información del objeto. Al seleccionar la ficha **Más información** se proporcionan detalles sobre cómo administrar archivos grandes.
+
+![](images/add-toast-tag-count.png){width="600" align="left"}
+
+
+- El mensaje de alerta solo está disponible para archivos DITA y es visible en todas las vistas: Autor, Source y Diseño.
 
 **Tema principal:**[ Introducción al editor](web-editor.md)

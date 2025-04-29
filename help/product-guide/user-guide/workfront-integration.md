@@ -4,9 +4,9 @@ description: Aprenda a integrar Workfront con Adobe Experience Manager Guides y 
 feature: Authoring
 role: User
 exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
-source-git-commit: dea9876cf0afa615f3719637c909bbda0d1d40b5
+source-git-commit: 62b1abd012f4bbf532480e2625505cdea1c70bc7
 workflow-type: tm+mt
-source-wordcount: '2436'
+source-wordcount: '2482'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,8 @@ Siga estos pasos para crear una nueva tarea de Adobe Workfront:
 3. En la ficha **Assets**, seleccione **Agregar** para agregar un recurso a esta tarea.
 
    ![](./images/workfront-create-tasks-asset.png){align="left"}
+
+   Se muestra el diálogo **Seleccionar ruta**. Seleccione una ruta al recurso requerido. Puede añadir varios recursos seleccionando las rutas válidas en el explorador de rutas. Las rutas seleccionadas se conservarán, lo que le permite revisarlas o modificarlas fácilmente cuando vuelva a abrir el cuadro de diálogo.
 
    * Para las tareas de creación, publicación y traducción, se le pedirá que seleccione la ubicación del archivo requerido en el cuadro de diálogo **Seleccionar ruta**. El archivo seleccionado (un tema para la creación y asignación para la publicación y traducción) se agrega a la tarea en cuanto se selecciona el botón **Crear**.
 

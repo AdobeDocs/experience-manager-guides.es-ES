@@ -4,9 +4,9 @@ description: Administre las tareas de revisión desde el Panel de revisión en A
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ Puede realizar las siguientes acciones en la ficha **Tarea**:
 - Modificar **fecha de vencimiento**. Puede adelantar o posponer la fecha límite para la finalización de la tarea.
 - Seleccione la opción para restringir a los usuarios la revisión sólo de los temas asignados a ellos.
 - Seleccione **Actualizar** para actualizar los detalles modificados.
+
+  Se muestra un mensaje de notificación para confirmar si la actualización se ha realizado correctamente o no.
 - Seleccione **Completar** para marcar la tarea de revisión como completada antes de la fecha límite. Cuando la tarea de un tema individual se marca como Completada, se cierra la revisión del tema seleccionado. Sin embargo, en el caso de los temas compartidos para revisión a través de un mapa DITA, al marcar la tarea de mapa DITA como Completada se cerrará la revisión de todos los temas del mapa que se compartieron para revisión.
 - Seleccione **Duplicate** para crear una copia de la tarea de revisión. El proceso de crear una tarea de revisión duplicada es similar a crear una nueva tarea de revisión. Una vez iniciado el flujo de trabajo de tareas duplicadas, se muestra la página Crear tarea de revisión. Debe proporcionar los detalles de la nueva tarea como se explica en [Enviar temas para revisión](review-send-topics-for-review.md#).
 
