@@ -84,7 +84,7 @@ Introduzca un título y una descripción para la colección que desea crear. Si 
 
 Para añadir un archivo a las colecciones, utilice cualquiera de los siguientes métodos:
 
-- Desplácese al archivo o carpeta requerido en el vista Repositorio, seleccione el icono Opciones **&#x200B; para abrir el menú contextual y elija &#x200B;** añadir >**&#x200B; **&#x200B;colecciones&#x200B;**. En el cuadro de &#x200B;** diálogo añadir a colecciones** , puede elegir agregar el archivo o carpeta a un favorito existente o crear uno nuevo.
+- Desplácese al archivo o carpeta requerido en el vista Repositorio, seleccione el icono Opciones **&#x200B; para abrir el menú contextual y elija &#x200B;** añadir >**&#x200B; &#x200B;**&#x200B;colecciones&#x200B;**. En el cuadro de &#x200B;** diálogo añadir a colecciones** , puede elegir agregar el archivo o carpeta a un favorito existente o crear uno nuevo.
 
   ![](images/favorite-add-file-folder.png){width="300" align="left"}
 
