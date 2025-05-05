@@ -57,4 +57,4 @@ Siga estos pasos para ver el informe de estado de conversión:
       - **Salida**: ruta del documento convertido correctamente. Al hacer clic en el vínculo Output, se le lleva a la ubicación en la que se guarda la salida.
 
 
-**Tema principal:**[ Informes](reports-intro.md)
+**Tema principal:**&#x200B;[ Informes](reports-intro.md)

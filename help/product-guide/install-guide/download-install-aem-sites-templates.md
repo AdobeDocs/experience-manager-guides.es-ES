@@ -114,8 +114,10 @@ Necesita los dos tipos de plantillas siguientes:
   ![plantilla de página de sección](assets/customize-existing-aem-templates-section.png)
    - Plantilla de página de detalles o de página de tema: utilice esta plantilla para el contenido de los temas de un mapa. Todas las páginas de Sites de contenido DITA/XML se crean mediante plantillas de página de temas. Para crear estas plantillas, existen dos requisitos previos:
       - Agregue un componente de texto a la plantilla, contenido en un componente contenedor, con una propiedad obligatoria. `text="$topic.content$"`.
+
         ![plantilla de página contenedora](assets/customize-existing-aem-templates-container.png)
       - Refleje el mismo contenedor y componente de texto en la estructura de la misma plantilla, como se muestra en la siguiente captura de pantalla:
+
         ![estructura de la plantilla contenedora](assets/customize-existing-aem-templates-structure.png)
 
 ### Etiquetar página de categoría como contenedor de documentación

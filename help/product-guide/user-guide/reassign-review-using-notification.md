@@ -38,4 +38,4 @@ Una vez reasignada la tarea de revisión, la columna Usuario asignado muestra el
 
 El revisor asignado recibe una notificación en la bandeja de entrada para la tarea de revisión reasignada.
 
-**Tema principal:**[ Introducción a la revisión](review.md)
+**Tema principal:**&#x200B;[ Introducción a la revisión](review.md)

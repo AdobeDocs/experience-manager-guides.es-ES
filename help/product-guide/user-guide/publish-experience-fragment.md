@@ -36,6 +36,7 @@ Por ejemplo:
 
      Si no define una plantilla permitida para una carpeta, las plantillas se seleccionan de la carpeta principal o de la carpeta de plantillas de forma predeterminada.
    * **Solicitable**: permite cambiar el orden de los recursos dentro de una carpeta.
+
      ![agregar detalles de configuración de nube en las propiedades de la carpeta](images/experience-fragment-folder-properties.png){width="650" align="left"}
      *Agregue la configuración de nube en las propiedades de la carpeta para conectarla con las plantillas de fragmento.*
 1. Para generar un fragmento de experiencia, seleccione **Nueva salida** ![nuevo icono de salida](./images/Add_icon.svg) de la sección **Salidas** en las **Propiedades de archivo** de un tema.

@@ -42,4 +42,4 @@ AEM Para crear un sitio de publicación para la salida basada en artículos, rea
 
 AEM Puede utilizar el sitio de para publicar el artículo mediante los ajustes preestablecidos de salida del Editor web.
 
-**Tema principal:**[ Personalizar editor web](conf-web-editor.md)
+**Tema principal:**&#x200B;[ Personalizar editor web](conf-web-editor.md)

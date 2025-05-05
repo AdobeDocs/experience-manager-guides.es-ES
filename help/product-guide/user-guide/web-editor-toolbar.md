@@ -61,7 +61,7 @@ La **función de historial** de Versión en el Editor le permite verificar las v
 
 
 1. Abra un tema en el Editor.
-1. Seleccione **Versión historial** en el **** menú desplegable.
+1. Seleccione **Versión historial** en el **&#x200B;**&#x200B;menú desplegable.
 
    Aparecerá el **cuadro de diálogo Historial** Versión.
 
@@ -78,7 +78,7 @@ La **función de historial** de Versión en el Editor le permite verificar las v
 1. Habilite la **opción comentarios** etiquetas de Ver para vista las etiquetas y los comentarios aplicados a la versión actual y a las comparadas.
 1. También puede vista la siguiente información en el cuadro de **diálogo Historial** de Versión:
 
-   **** Vista previa pestaña: el contenido recién agregado está en verde fuente y el contenido eliminado está en rojo fuente.
+   **&#x200B;**&#x200B;Vista previa pestaña: el contenido recién agregado está en verde fuente y el contenido eliminado está en rojo fuente.
 
    **Metadatos** pestaña: el metadatos recién agregado está en color verde fuente y el metadatos eliminado está en rojo fuente.
 
@@ -621,4 +621,4 @@ Si un archivo está bloqueado por otro usuario, al pasar el ratón por encima de
 Como administrador, también obtienes acceso a la función **Forzar desbloqueo** que te permite desbloquear el archivo bloqueado por otros usuarios. Utilice esta función para acceder a los derechos de edición de un archivo bloqueado por otros usuarios.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Tema principal:**[ Introducción al editor](web-editor.md)
+**Tema principal:**&#x200B;[ Introducción al editor](web-editor.md)

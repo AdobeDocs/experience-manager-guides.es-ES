@@ -27,4 +27,4 @@ Puede producir salidas en PDF, ePub, HTML y muchos otros formatos, utilizando la
 
 *Póngase en contacto con el equipo de éxito del cliente para habilitar esta característica en el entorno. Esto no está habilitado como parte de la compatibilidad predeterminada.*
 
-**Tema principal:**[ Contenido de autor](authoring-content.md)
+**Tema principal:**&#x200B;[ Contenido de autor](authoring-content.md)

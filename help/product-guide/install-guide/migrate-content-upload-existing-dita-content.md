@@ -177,4 +177,4 @@ Especifique los siguientes parámetros para agregar información de metadatos:
 - `<metadata node path>`: ruta de carpeta completa que incluye el nombre de archivo y su nodo de metadatos. Por ejemplo, si especifica la ruta de acceso como `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`, la información de metadatos especificada se establecerá en el archivo `intro.xml`.
 
 
-**Tema principal:**[ Migrar contenido existente](migrate-content.md)
+**Tema principal:**&#x200B;[ Migrar contenido existente](migrate-content.md)

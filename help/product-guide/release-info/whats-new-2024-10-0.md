@@ -76,7 +76,7 @@ Si se hace referencia al mismo tema más de una vez en un archivo, puede agregar
 
 ![Ajuste preestablecido de AEM Sites heredado](assets/aem-sites-legacy.png)
 
-*Especifique el contexto de publicación para los temas vinculados desde la ficha **Referencias de mapas cruzados**del ajuste preestablecido **AEM Sites**.*
+*Especifique el contexto de publicación para los temas vinculados desde la ficha **Referencias de mapas cruzados**&#x200B;del ajuste preestablecido **AEM Sites**.*
 
 Más información sobre [Ajustes preestablecidos de AEM Sites](../user-guide/generate-output-aem-site.md).
 

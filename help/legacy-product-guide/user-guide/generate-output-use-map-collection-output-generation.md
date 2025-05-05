@@ -89,6 +89,7 @@ Para configurar y generar la salida mediante una colección de mapas, realice lo
    - Habilite cualquier ajuste preestablecido individual.
    - Active **Todos los ajustes preestablecidos** para un mapa DITA a fin de seleccionar todos los ajustes preestablecidos de una sola vez. Esta opción está desactivada de forma predeterminada.
    - Habilite **Ajustes preestablecidos de perfil de carpeta** para un mapa DITA a fin de seleccionar todos los ajustes preestablecidos de perfil de carpeta para él. Esta opción está desactivada de forma predeterminada.
+
      ![editar una colección de mapas en cloud services](images/edit-map-collection-cs.png){width="800" align="left"}
 
 
@@ -143,4 +144,4 @@ De forma similar a la forma de cancelar una tarea de generación de resultados d
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
-**Tema principal:**[ Generación de resultados](generate-output.md)
+**Tema principal:**&#x200B;[ Generación de resultados](generate-output.md)

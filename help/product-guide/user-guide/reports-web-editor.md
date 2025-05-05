@@ -63,6 +63,7 @@ Se puede ver el informe de lista de temas de un mapa realizando los siguientes p
    - **Estado del documento**: el estado del tema.
    - **Autor**: el usuario que trabajó por última vez en el tema.
    - **Mapa principal** Lista de todas las asignaciones en las que se hace referencia directamente al tema.
+
    >[!NOTE]
    >
    > Seleccione **Actualizar** para obtener una lista nueva de temas y ver cualquier cambio en el archivo de asignación o si se actualiza alguna referencia en el archivo de tema.
@@ -206,6 +207,7 @@ El informe **Multimedia** proporciona información detallada sobre los archivos 
    - **Tipo multimedia** \(seleccionado de forma predeterminada\) Tipo de multimedia. Las opciones disponibles son Audio, Vídeo o Imagen.
    - **Utilizado en** \(seleccionado de forma predeterminada\) Las referencias en las que se ha utilizado el contenido multimedia. Se puede seleccionar la referencia para editarla.
    - **Tipo de referencia** \(seleccionado de forma predeterminada\) El tipo de referencia: directa o indirecta.
+
    >[!NOTE]
    >
    > Seleccione **Actualizar** para obtener una lista nueva de contenido multimedia y ver cualquier cambio en el archivo de mapa o si se ha actualizado algún contenido multimedia del mapa DITA.
@@ -266,4 +268,4 @@ Para ver el informe de los vínculos rotos, siga estos pasos:
 1. Seleccione **Descargar** para descargar la instantánea de todos los vínculos rotos del mapa DITA. El archivo de Excel contiene las columnas seleccionadas y los vínculos rotos filtrados en la vista Vínculos rotos.
 
 
-**Tema principal:**[ Introducción a los informes](reports-intro.md)
+**Tema principal:**&#x200B;[ Introducción a los informes](reports-intro.md)

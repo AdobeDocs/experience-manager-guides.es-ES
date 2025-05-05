@@ -41,4 +41,4 @@ Para obtener más información sobre la creación de ajustes preestablecidos nat
 
 
 
-**Tema principal:**[ Explicación de los ajustes preestablecidos de salida](generate-output-understand-presets.md)
+**Tema principal:**&#x200B;[ Explicación de los ajustes preestablecidos de salida](generate-output-understand-presets.md)

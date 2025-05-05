@@ -169,4 +169,4 @@ Realice los siguientes pasos para quitar una tarea de salida de la lista Salida 
    La tarea se elimina de la lista Resultados generados.
 
 
-**Tema principal:**[ Generación de resultados](generate-output.md)
+**Tema principal:**&#x200B;[ Generación de resultados](generate-output.md)

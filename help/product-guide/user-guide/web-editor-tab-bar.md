@@ -52,4 +52,4 @@ Una potente herramienta impulsada por IA diseñada para mejorar su productividad
    - **Software On-Premise**: Si utiliza Adobe Experience Manager Guides (4.2.1 y versiones posteriores), al seleccionar la opción **Assets**, se le redirigirá a la ruta de archivo actual en la interfaz de usuario de Assets.
 - **Configuración**: lo lleva al cuadro de diálogo Configuración del editor. Para obtener más información, consulte [Trabajar con la configuración del editor](./web-editor-settings.md).
 
-**Tema principal:**[ Introducción al editor](web-editor.md)
+**Tema principal:**&#x200B;[ Introducción al editor](web-editor.md)

@@ -57,4 +57,4 @@ Siga estos pasos para acceder al informe Revertir historial:
    - **Comentario**: Cualquier comentario dado por el usuario que revirtió el archivo.
 
 
-**Tema principal:**[ Introducción a los informes](reports-intro.md)
+**Tema principal:**&#x200B;[ Introducción a los informes](reports-intro.md)

@@ -255,6 +255,7 @@ Realice los siguientes pasos para configurar atributos de generación de perfile
 1. En la ficha **Extensiones**, realice los cambios siguientes:
 
    - Haga clic en **Elegir** junto al **paquete de extensiones** y seleccione   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` en la lista **Class**. Haga clic en **OK**.
+
      ![Extensión configurada para temas DITA](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
    - Haga clic en **Elegir** junto al **Receptor de estado de extensión de autor** en **Extensiones individuales** y seleccione `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` en la lista **Clase**. Haga clic en **OK**.
    - Haga clic en **Elegir** junto al **Editor de valores de atributos personalizados de autor** en **Extensiones individuales** y seleccione `CustomValueEditor - com.adobe.o2.framework.extn` en la lista **Clase**. Haga clic en **OK**.

@@ -219,4 +219,4 @@ Si la columna Desprotegido no está visible, seleccione **Ver configuración** e
 
   Se crea una nueva rama a partir de la versión seleccionada del tema. El proceso anterior también es aplicable para volver a una versión específica de un tema. Técnicamente, revertir a una versión específica significa que crea una rama nueva a partir de la versión seleccionada y convierte esa versión en la copia de trabajo actual del tema. También puede ver el historial de los archivos que se han revertido en el informe Historial de reversiones de la versión. Para obtener más información sobre este informe, consulte [Informe de historial de versiones de archivos revertidos](reports-reverted-file-version-history.md#).
 
-**Tema principal:**[ Crear y previsualizar temas](create-preview-topics.md)
+**Tema principal:**&#x200B;[ Crear y previsualizar temas](create-preview-topics.md)

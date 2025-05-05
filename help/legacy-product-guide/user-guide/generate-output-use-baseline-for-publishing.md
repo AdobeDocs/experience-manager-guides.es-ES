@@ -183,4 +183,4 @@ Realice los siguientes pasos para exportar una línea base traducida:
 1. \(Opcional\) Para exportar una línea de base que ya se ha exportado, seleccione **Sobrescribir línea de base existente** y, a continuación, haga clic en **Exportar línea de base**.
 
 
-**Tema principal:**[ Generación de resultados](generate-output.md)
+**Tema principal:**&#x200B;[ Generación de resultados](generate-output.md)

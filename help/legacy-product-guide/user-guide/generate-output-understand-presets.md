@@ -41,4 +41,4 @@ En las siguientes secciones se explican las opciones disponibles para los format
 
 Como administrador, Experience Manager Guides le permite crear y administrar ajustes preestablecidos de salida para los Perfiles global y de carpeta. Para obtener más información, vea [Administrar ajustes preestablecidos de salida del perfil global y de carpeta](./web-editor-manage-output-presets.md).
 
-**Tema principal:**[ Generación de resultados](generate-output.md)
+**Tema principal:**&#x200B;[ Generación de resultados](generate-output.md)

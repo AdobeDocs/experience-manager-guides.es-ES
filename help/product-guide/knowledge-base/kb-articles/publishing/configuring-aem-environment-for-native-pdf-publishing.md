@@ -105,7 +105,7 @@ El motor de publicación de PDF nativo necesita un JDK de Oracle AEM para genera
 
 10. Si el comando unzip no está instalado/reconocido, se puede instalar mediante el siguiente comando
 
-   **yum install unzip**
+    **yum install unzip**
 
 11. Instale el paquete fontconfig.
 Comando: yum install fontconfig

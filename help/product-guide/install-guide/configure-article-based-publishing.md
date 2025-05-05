@@ -21,4 +21,4 @@ Para habilitar la publicación basada en artículos, descargue e instale los sig
 - Plantilla de la base de conocimiento para la publicación basada en artículos
 - Paquete de componentes para la publicación basada en artículos
 
-**Tema principal:**[ Personalizar editor web](conf-web-editor.md)
+**Tema principal:**&#x200B;[ Personalizar editor web](conf-web-editor.md)

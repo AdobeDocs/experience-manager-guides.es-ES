@@ -174,6 +174,7 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
 
 
    - Para crear un perfil de publicación de Salesforce, seleccione la base de conocimiento **Salesforce** en la lista desplegable **Tipo de servidor**. Introduzca un Nombre de perfil. En la **dirección URL del sitio**, escriba el sitio del consumidor que usaría para publicar la salida y, a continuación, agregue la **clave del consumidor** y el **secreto del consumidor** proporcionados por el sitio del consumidor de Salesforce. A continuación, **Valide** y **guarde** el perfil recién creado.
+
      ![perfil de publicación de salesforce en la configuración del editor](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
@@ -1820,6 +1821,7 @@ Para ver los comentarios de revisión de las tareas de revisión activas que est
    - Escriba el término de búsqueda o el texto que desee encontrar en el título del proyecto. A continuación, pulse Intro para realizar la búsqueda. Por ejemplo, puede buscar todos los proyectos con el término &quot;espacio&quot; en el título.
 
    - Seleccione ![](images/filter-search-icon.svg) para abrir el cuadro de diálogo **Filtro**. Puede seleccionar todos los proyectos o solo los específicos. Los proyectos seleccionados se enumeran en el panel **Revisar**.
+
      ![](images/active-review-select-project.png){width="300" align="left"}
 
      La opción **Tareas iniciadas por mí** está habilitada de manera predeterminada. Le permite ver únicamente las tareas que ha iniciado. El estado de alternancia de esta opción se mantiene incluso después de actualizar la página.
@@ -2047,4 +2049,4 @@ Con la función Cambios rastreados del panel derecho, puede ver la información 
 >
 > La función Cambios rastreados muestra todas las actualizaciones de las que se ha realizado un seguimiento mediante la función Habilitar/Deshabilitar el seguimiento de cambios de la barra de herramientas principal. Para obtener más información, consulte [Habilitar/deshabilitar el seguimiento de cambios](#id205DF0203Y4).
 
-**Tema principal:**[ Trabajar con el editor web](web-editor.md)
+**Tema principal:**&#x200B;[ Trabajar con el editor web](web-editor.md)

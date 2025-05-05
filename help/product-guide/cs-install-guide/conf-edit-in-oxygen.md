@@ -28,4 +28,4 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 >
 > Esta configuración está deshabilitada de forma predeterminada y la opción no está disponible en el Editor web.
 
-**Tema principal:**[ Personalizar editor web](conf-web-editor.md)
+**Tema principal:**&#x200B;[ Personalizar editor web](conf-web-editor.md)

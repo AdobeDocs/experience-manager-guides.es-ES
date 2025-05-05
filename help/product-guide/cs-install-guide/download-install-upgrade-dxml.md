@@ -31,4 +31,4 @@ ht-degree: 0%
 
 Después de completar el proceso de actualización, todos los usuarios deben borrar la caché del explorador antes de utilizar la versión actualizada de AEM Guides.
 
-**Tema principal:**[ Descargar e instalar](download-install.md)
+**Tema principal:**&#x200B;[ Descargar e instalar](download-install.md)

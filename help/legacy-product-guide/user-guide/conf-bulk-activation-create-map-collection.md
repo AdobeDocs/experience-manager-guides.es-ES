@@ -106,4 +106,4 @@ Las siguientes opciones de filtrado están disponibles en el panel izquierdo:
 
 Los filtros se actualizan cuando cambia de la ficha **Mapas y ajustes preestablecidos** a la ficha **Historial de auditoría** y viceversa.
 
-**Tema principal: **[Activación masiva del contenido publicado](conf-bulk-activation.md)
+**Tema principal: &#x200B;** [Activación masiva del contenido publicado](conf-bulk-activation.md)

@@ -53,6 +53,7 @@ Siga estos pasos para integrar el contenido en Experience Manager Guides:
 1. **Configurar el conector de origen de datos**
    - El conector de la fuente de datos sirve como interfaz para establecer la conectividad con las fuentes de datos externas. Debe configurar el conector para establecer la conexión e incluir los métodos de autenticación, como `Basic Auth` o `API key Auth`. Todos los detalles de configuración, incluida la información cifrada, se almacenan de forma segura en Adobe Experience Manager.
    - La capa de conector está diseñada para ser extensible, lo que le permite crear implementaciones para conectarse a varios sistemas que Experience Manager Guides no proporciona de forma predeterminada.
+
      ![Capa de conector](assets/data-source-connector-layer.jpg)
    >[!NOTE]
    >
@@ -98,8 +99,10 @@ Siga estos pasos para integrar el contenido en Experience Manager Guides:
         ```
 
       - Plantillas
+
         ![Motor de plantillas](assets/data-source-TemplatingEngine.png){width="800" align="left"}
       - Datos generados a partir de la misma fuente de datos pero con plantillas diferentes
+
         ![Datos generados](assets/data-source-templates-topics.png){width="800" align="left"}
 
 1. **Generar contenido mediante las plantillas**

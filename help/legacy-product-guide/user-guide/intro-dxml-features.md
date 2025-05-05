@@ -76,4 +76,4 @@ A continuación se muestra una lista de otros recursos útiles de AEM Guides, qu
 * Guía de inicio rápido
 * [Página de archivado de Help*](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) (acceso a la documentación de la versión anterior)
 
-**Tema principal:**[ Acerca de Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)
+**Tema principal:**&#x200B;[ Acerca de Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)

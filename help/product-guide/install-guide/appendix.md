@@ -453,7 +453,7 @@ Realice los siguientes pasos para comprobar las referencias mediante el script d
 1. Ejecute el script de validación \[`/bin/fmdita/validatebtree?operation=validate`\] para comprobar si hay alguna referencia rota nueva.
 1. Si la secuencia de comandos validate informa de algún error, puede aplicar parches con la secuencia de comandos patch.
 1. Registre los detalles que se proporcionan a continuación y, si es necesario, compártalos con el equipo de éxito del cliente:
-1. 
+1. &#x200B;
    - Registros impresos por script de validación
 - Paquete de &quot;`/content/fmdita/references`&quot;
 - Cualquier otro detalle requerido según el escenario notificado
@@ -467,7 +467,7 @@ Realice los siguientes pasos para aplicar parches a cualquier referencia rota me
    **Nota:* Se recomienda copiar y guardar los registros para fines de referencia.
 
 1. Una vez que el script de parche se haya ejecutado correctamente, puede realizar las siguientes comprobaciones:
-1. 
+1. &#x200B;
    - Compruebe que se ha creado un nuevo nodo &quot;`references_backup_<timestamp>"`&quot; en `/content/fmdita`
 - Compruebe que las referencias se hayan corregido
 

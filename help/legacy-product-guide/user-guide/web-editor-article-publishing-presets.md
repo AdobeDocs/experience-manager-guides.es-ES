@@ -61,4 +61,4 @@ Realice los siguientes pasos para crear ajustes preestablecidos de salida para e
 
 ![](images/edit-preset_cs.png){width="550" align="left"}
 
-**Tema principal:**[ Publicación basada en artículos desde el editor web](web-editor-article-publishing.md)
+**Tema principal:**&#x200B;[ Publicación basada en artículos desde el editor web](web-editor-article-publishing.md)

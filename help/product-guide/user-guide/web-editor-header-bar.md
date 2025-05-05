@@ -23,4 +23,4 @@ Utilice el icono **Expand** de la barra de herramientas para ocultar la barra de
 
 
 
-**Tema principal:**[ Introducción al editor](web-editor.md)
+**Tema principal:**&#x200B;[ Introducción al editor](web-editor.md)

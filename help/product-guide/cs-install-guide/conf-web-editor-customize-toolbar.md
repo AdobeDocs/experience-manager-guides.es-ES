@@ -51,16 +51,16 @@ Siga estos pasos para agregar una función a la barra de herramientas del Editor
    **elementos**:   Especifique la definición de todos los grupos en la barra de herramientas. Cada grupo puede contener uno o varios iconos de la barra de herramientas. Para definir iconos dentro de un grupo de barras de herramientas, debe definir de nuevo el atributo `type` dentro de `items` y establecer su valor en `buttonGroup`. Especifique uno o varios nombres de clase en la propiedad `extraclass`. Especifique el nombre de la característica en la propiedad `label`. El siguiente fragmento del archivo `ui_config.json` muestra la definición del bloque de barra de herramientas principal, seguida de la definición `buttonGroup`:
 
        &quot;
-       &quot;barra de herramientas&quot;: {
+       &quot;barra de herramientas&quot;: &lbrace;
        &quot;type&quot;: &quot;blockGroup&quot;,
        &quot;extraclass&quot;:
        &quot;operaciones de barra de herramientas&quot;,
-       &quot;elementos&quot;: [
-       {
+       &quot;elementos&quot;: &lbrack;
+       &lbrace;
        &quot;type&quot;: &quot;buttonGroup&quot;,
        &quot;extraclass&quot;: &quot;left-controls&quot;,
        &quot;label&quot;: &quot;Controles izquierdos&quot;,
-       &quot;elementos&quot;: [
+       &quot;elementos&quot;: &lbrack;
        &quot;
    
    En la colección `items`, debe especificar la definición de uno o más iconos de la barra de herramientas.
@@ -145,4 +145,4 @@ Realice los siguientes pasos para eliminar cualquier función no deseada de la b
 1. Guarde el archivo *ui\_config.json* y vuelva a cargar el Editor web.
 
 
-**Tema principal:**[ Personalizar editor web](conf-web-editor.md)
+**Tema principal:**&#x200B;[ Personalizar editor web](conf-web-editor.md)

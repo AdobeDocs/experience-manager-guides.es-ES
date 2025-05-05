@@ -125,6 +125,7 @@ Por ejemplo:
       - Si ha seleccionado la plantilla de lista ordenada por jira, puede ver una lista ordenada para los problemas de Jira.
 
    1. La vista de origen muestra los datos en la vista de origen DITA.
+
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
       *Agregar un generador de fragmentos de contenido. Ver los datos en modo de origen o vista previa.*
 

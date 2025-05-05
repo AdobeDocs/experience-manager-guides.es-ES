@@ -142,7 +142,7 @@ Siga estos pasos para purgar las versiones anteriores:
 
    ![](assets/preview-purge-report.png)
 
-1. 
+1. &#x200B;
    - **Número de versiones que se deben conservar de la última versión**: escriba el número de versiones que se deben conservar y no purgar. Por ejemplo, si se introduce 5, se conservan las últimas 5 versiones y las versiones anteriores a ellas pueden depurarse en caso de que se cumplan otras condiciones de depuración.
 - **Conservar versiones creadas dentro del intervalo de tiempo \(en días\)**: escriba la antigüedad máxima de una versión en días. Las versiones anteriores al número determinado de días pueden depurarse si se cumplen otras condiciones de depuración. Por ejemplo, si se introduce 100, todas las versiones creadas antes de 100 días cumplen los requisitos para ser depuradas en caso de que se cumplan otras condiciones de depuración.
 - **Ruta**: seleccione la ruta de acceso del archivo o carpeta cuyos archivos desea purgar.

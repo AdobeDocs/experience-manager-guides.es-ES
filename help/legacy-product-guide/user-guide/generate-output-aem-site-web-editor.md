@@ -42,8 +42,8 @@ Siga estos pasos para crear los ajustes preestablecidos de AEM Sites desde el Ed
 >[!NOTE]
 >
 >Antes de configurar los ajustes preestablecidos de AEM Sites para Experience Manager Guides, el administrador debe crear una estructura de AEM Sites con las plantillas.
-- **Software On-Premise**: Obtenga más información acerca de cómo [descargar e instalar plantillas de AEM Sites](/help/product-guide/install-guide/download-install-aem-sites-templates.md) para software On-Premise.
-- **Cloud Service**: Más información sobre cómo [descargar e instalar plantillas de AEM Sites](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) para Cloud Service.
+>- **Software On-Premise**: Obtenga más información acerca de cómo [descargar e instalar plantillas de AEM Sites](/help/product-guide/install-guide/download-install-aem-sites-templates.md) para software On-Premise.
+>- **Cloud Service**: Más información sobre cómo [descargar e instalar plantillas de AEM Sites](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) para Cloud Service.
 
 
 

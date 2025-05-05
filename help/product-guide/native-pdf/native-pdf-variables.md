@@ -112,7 +112,7 @@ Puede eliminar una variable de dos formas:
 
 **Desde el editor de variables**
 
-1. Desplácese sobre el variable del lista para vista el menú Opciones ****.
+1. Desplácese sobre el variable del lista para vista el menú Opciones **&#x200B;**.
 1. Seleccione **Eliminar** opción.
 
 El variable se elimina de todos los conjuntos de variable.

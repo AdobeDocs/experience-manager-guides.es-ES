@@ -48,4 +48,4 @@ Para obtener más información sobre cómo cargar los distintos escenarios de ar
 
 Si utiliza una herramienta como la aplicación de escritorio de AEM o el ingestor masivo de recursos, la acción que se va a realizar en un archivo duplicado se controla mediante una configuración en el servidor de AEM. Póngase en contacto con el administrador del sistema para conocer esta configuración.
 
-**Tema principal:**[ Administrar contenido](authoring.md)
+**Tema principal:**&#x200B;[ Administrar contenido](authoring.md)

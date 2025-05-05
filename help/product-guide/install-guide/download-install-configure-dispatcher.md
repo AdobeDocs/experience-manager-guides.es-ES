@@ -81,4 +81,4 @@ Cuando utilice una Dispatcher con AEM Guides, si la instancia de autor tiene una
                 }
 ```
 
-**Tema principal:**[ Descargar e instalar](download-install.md)
+**Tema principal:**&#x200B;[ Descargar e instalar](download-install.md)

@@ -48,4 +48,4 @@ Para ocultar la ficha **Administrar** en el Editor web, realice los siguientes p
 
 Tenga en cuenta que el filtro **Administrar** ya no está disponible.
 
-**Tema principal:**[ Personalizar editor web](conf-web-editor.md)
+**Tema principal:**&#x200B;[ Personalizar editor web](conf-web-editor.md)

@@ -33,4 +33,4 @@ Puede eliminar una colección de mapas de activación masiva cuando ya no sea ne
    La colección de mapas de activación masiva se elimina del sistema.
 
 
-**Tema principal:**[ Activación masiva del contenido publicado](conf-bulk-activation.md)
+**Tema principal:**&#x200B;[ Activación masiva del contenido publicado](conf-bulk-activation.md)

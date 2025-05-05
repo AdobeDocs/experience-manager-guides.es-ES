@@ -48,6 +48,7 @@ Del mismo modo, si elimina el contenido seleccionado, se combina el contenido re
 
    - Seleccione el contenido de un elemento.
    - Seleccione el icono ![add](images/Add_icon.svg) de la barra de herramientas de la parte superior para ver el cuadro de diálogo **Insertar elemento**. El cuadro de diálogo muestra los elementos válidos para el contenido seleccionado.
+
      >[!NOTE]
      >
      > También puede ver el cuadro de diálogo Insertar elemento seleccionando el menú contextual del contenido seleccionado.
@@ -114,4 +115,4 @@ Mientras abre un archivo en el Editor, Experience Manager Guides proporciona la 
 Puede desactivar la característica para localizar el archivo con la opción **Buscar siempre los archivos en el repositorio** desde la ficha **Apariencia** de **Preferencias de usuario**.
 
 
-**Tema principal:**[ Trabajar con el editor](web-editor.md)
+**Tema principal:**&#x200B;[ Trabajar con el editor](web-editor.md)

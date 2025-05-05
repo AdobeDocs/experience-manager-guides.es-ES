@@ -268,4 +268,4 @@ A continuación se mencionan las funciones principales destinadas a mejorar el m
 
 - El mensaje de alerta solo está disponible para archivos DITA y es visible en todas las vistas: Autor, Source y Diseño.
 
-**Tema principal:**[ Introducción al editor](web-editor.md)
+**Tema principal:**&#x200B;[ Introducción al editor](web-editor.md)

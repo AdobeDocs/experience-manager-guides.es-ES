@@ -74,4 +74,4 @@ En el modo Editor web, el panel derecho contiene los iconos Revisar y Cambios ra
 - **I**: aplique un filtro en los comentarios. Puede filtrar para ver los comentarios basándose en el Tipo de revisión \(todos, resaltados, eliminados, insertados o notas adhesivas\), Estado de la revisión \(todos, aceptados, rechazados o ninguno\), Revisores \(todos los revisores o revisores específicos\)\) o Versiones del tema.
 
 
-**Tema principal:**[ Revisar temas o asignaciones](review.md)
+**Tema principal:**&#x200B;[ Revisar temas o asignaciones](review.md)

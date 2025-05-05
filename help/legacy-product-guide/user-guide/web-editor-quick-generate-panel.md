@@ -30,4 +30,4 @@ Realice los siguientes pasos para generar el resultado desde el panel **Generaci
 1. Haga clic en **Generar** para generar el resultado de los ajustes preestablecidos seleccionados. Se muestra un mensaje de éxito en la generación de la salida. Si falla la generación, aparece un mensaje de error. También puede ver el registro de errores para ver los detalles del error que se produjo en el proceso de generación.
 1. Haga clic en el icono **Ver salida** \( ![](images/view-output-icon.svg)\) de un ajuste preestablecido específico para ver el resultado generado para el ajuste preestablecido.
 
-**Tema principal:**[ Trabajar con el editor web](web-editor.md)
+**Tema principal:**&#x200B;[ Trabajar con el editor web](web-editor.md)

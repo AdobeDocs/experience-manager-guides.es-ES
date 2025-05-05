@@ -29,4 +29,4 @@ Una vez instalado AEM Guides, debe comprobar si la instalación se ha realizado 
    El estado debería mostrar *Activo* para los paquetes implementados correctamente. AEM Si alguno de los paquetes no tiene un estado Activo, compruebe los registros de la para solucionar el problema de instalación.
 
 
-**Tema principal:**[ Descargar e instalar](download-install.md)
+**Tema principal:**&#x200B;[ Descargar e instalar](download-install.md)

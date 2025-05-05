@@ -184,7 +184,7 @@ Esta pestaña contiene opciones para configurar las validaciones de Schematron e
 
 ## Mostrar atributos
 
-Al igual que la lista Atributos, puede controlar la lista de atributos que se mostrarán en la lista de atributos de un elemento. De manera predeterminada, se han configurado cuatro **atributos de visualización**: audiencia, plataforma, producto y props para que se muestren en la lista de atributos de un elemento. También puede añadir un atributo de visualización mediante el icono añadir **** situado en la parte superior. También puede eliminar cualquiera de los atributos de visualización mediante el icono **Delete**.
+Al igual que la lista Atributos, puede controlar la lista de atributos que se mostrarán en la lista de atributos de un elemento. De manera predeterminada, se han configurado cuatro **atributos de visualización**: audiencia, plataforma, producto y props para que se muestren en la lista de atributos de un elemento. También puede añadir un atributo de visualización mediante el icono añadir **&#x200B;**&#x200B;situado en la parte superior. También puede eliminar cualquiera de los atributos de visualización mediante el icono **Delete**.
 
 Los atributos definidos para un elemento se muestran en la Diseño y en la vista de esquema.
 
@@ -244,4 +244,4 @@ Se muestra un error si la ruta de metadatos está en blanco. Si deja la etiqueta
 También puede definir el orden en que se muestran estas etiquetas de metadatos. Para cambiar el orden predeterminado de estas etiquetas, seleccione las barras de puntos para arrastrar y soltar las etiquetas en la ubicación deseada.
 Las etiquetas de metadatos aparecen en la misma secuencia en el cuadro de diálogo **Historial de versiones** del Editor.
 
-**Tema principal:**[ Introducción al editor](web-editor.md)
+**Tema principal:**&#x200B;[ Introducción al editor](web-editor.md)

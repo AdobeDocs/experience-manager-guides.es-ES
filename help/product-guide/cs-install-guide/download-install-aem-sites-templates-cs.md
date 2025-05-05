@@ -35,7 +35,7 @@ Siga estos pasos para crear una AEM Sites con la plantilla:
 1. Escriba `Site title` y `Site name`.
 1. Haga clic en **Crear**. El paquete se instala y se crea una plantilla de AEM Sites.
 
-AEM Más información acerca de [Agregar una plantilla de sitio a la página de inicio de sesión de la página de inicio de sesión de la página {1.](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/site-creation/site-templates#adding)
+AEM Más información acerca de [Agregar una plantilla de sitio a la página de inicio de sesión de la página de inicio de sesión de la página &lbrace;1.](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/site-creation/site-templates#adding)
 
 
 >[!NOTE]
@@ -113,8 +113,10 @@ Necesita los dos tipos de plantillas siguientes:
   ![plantilla de página de sección](assets/customize-existing-aem-templates-section.png)
    - Plantilla de página de detalles o de página de tema: utilice esta plantilla para el contenido de los temas de un mapa. Todas las páginas de Sites de contenido DITA/XML se crean mediante plantillas de página de temas. Para crear estas plantillas, existen dos requisitos previos:
       - Agregue un componente de texto a la plantilla, contenido en un componente contenedor, con una propiedad obligatoria. `text="$topic.content$"`.
+
         ![plantilla de página contenedora](assets/customize-existing-aem-templates-container.png)
       - Refleje el mismo contenedor y componente de texto en la estructura de la misma plantilla, como se muestra en la siguiente captura de pantalla:
+
         ![estructura de la plantilla contenedora](assets/customize-existing-aem-templates-structure.png)
 
 ### Etiquetar página de categoría como contenedor de documentación

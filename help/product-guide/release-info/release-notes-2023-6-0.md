@@ -154,7 +154,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 - PDF nativo | Xref está imprimiendo el contenido del título del tema href en lugar de la etiqueta Xref. (11322)
 - PDF nativo | No se puede guardar la configuración de la plantilla del PDF. (10751)
 - PDF nativo | El texto se extiende más allá del ancho de la columna al incluir varias referencias x. (10876)
-- PDF nativo | El elemento `<note>``</note>` no genera un título de espacio adicional de su tipo. (10549)
+- PDF nativo | El elemento `<note>` `</note>` no genera un título de espacio adicional de su tipo. (10549)
 - PDF nativo | Los metadatos de idioma no se pueden establecer en el PDF generado para cumplir con WCAG 2.0. (12296)
 
 

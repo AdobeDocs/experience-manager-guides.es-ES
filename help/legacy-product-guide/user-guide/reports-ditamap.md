@@ -96,4 +96,4 @@ Siga estos pasos para generar el CSV de un informe de mapa DITA:
 
 Una vez descargado el informe en la bandeja de entrada, también puede seleccionarlo y utilizar el icono Abrir de la parte superior para abrir el informe seleccionado.
 
-**Tema principal:**[ Informes](reports-intro.md)
+**Tema principal:**&#x200B;[ Informes](reports-intro.md)

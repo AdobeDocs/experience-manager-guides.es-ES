@@ -19,4 +19,4 @@ AEM Guides también admite la creación de contenido con herramientas de escrito
 - **[Trabajar con oxígeno](author-desktop-oxygen.md)**
 
 
-**Tema principal:**[ Contenido de autor](authoring-content.md)
+**Tema principal:**&#x200B;[ Contenido de autor](authoring-content.md)

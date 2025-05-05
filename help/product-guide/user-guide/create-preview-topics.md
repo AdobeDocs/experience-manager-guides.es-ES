@@ -20,4 +20,4 @@ Adobe Experience Manager Guides incluye una potente función para crear y previs
 - **[Previsualizar un tema](web-editor-preview-topics.md)**
 
 
-**Tema principal:**[ Introducción al editor](web-editor.md)
+**Tema principal:**&#x200B;[ Introducción al editor](web-editor.md)

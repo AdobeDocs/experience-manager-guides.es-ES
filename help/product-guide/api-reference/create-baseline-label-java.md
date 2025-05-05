@@ -122,7 +122,7 @@ public static void applyLabel(Session session,
 | `session` | javax.jcr.Session | Una sesión JCR válida. |
 | `sourcePath` | Cadena | AEM Ruta absoluta del fichero de mapa DITA en el repositorio de la. |
 | ``baselineName`` | Cadena | Nombre del nodo de línea base en el que se debe aplicar la etiqueta. Para obtener el nombre del nodo de línea de base, puede utilizar el método [\#id185NFF0085Z](#id185NFF0085Z) o comprobar el nodo de líneas de base del mapa DITA en CRXDE.<br> **Nota:** La etiqueta se aplica a la versión de los archivos a los que se hace referencia directamente desde el archivo de asignación en la línea de base. |
-| `label` | Cadena | Etiqueta que se aplica a los archivos de la línea de base. Asegúrese de que la etiqueta no contenga los siguientes caracteres: &amp;sol; &amp;comma; &amp; &amp;colon; &amp;comma; &amp;lbrack; &amp;comma; &amp;rbrack; &amp;comma; &amp;vert; &amp;comma; &amp;ast; <br> Si desea establecer varias etiquetas, sepárelas con una coma; por ejemplo, Label1, Label2. |
+| `label` | Cadena | Etiqueta que se aplica a los archivos de la línea de base. Asegúrese de que la etiqueta no contenga los siguientes caracteres: &sol; &comma; &amp; &colon; &comma; &lbrack; &comma; &rbrack; &comma; &vert; &comma; &ast; <br> Si desea establecer varias etiquetas, sepárelas con una coma; por ejemplo, Label1, Label2. |
 
 **Excepción**:
 Lanza `RepositoryException`.

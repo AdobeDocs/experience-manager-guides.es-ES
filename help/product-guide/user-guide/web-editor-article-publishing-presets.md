@@ -66,4 +66,4 @@ Para ver el resultado, cierre el cuadro de diálogo Resultado generado y selecci
 
 
 
-**Tema principal:**[ Publicación basada en artículos desde el editor](web-editor-article-publishing.md)
+**Tema principal:**&#x200B;[ Publicación basada en artículos desde el editor](web-editor-article-publishing.md)

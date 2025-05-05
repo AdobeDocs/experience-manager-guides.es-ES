@@ -253,4 +253,4 @@ Haga lo siguiente para generar automáticamente el ID para uno o varios elemento
    También puede hacer clic con el botón derecho en la ruta de exploración y seleccionar **Generar ID**.
 
 
-**Tema principal:**[ Trabajar con el editor web](web-editor.md)
+**Tema principal:**&#x200B;[ Trabajar con el editor web](web-editor.md)

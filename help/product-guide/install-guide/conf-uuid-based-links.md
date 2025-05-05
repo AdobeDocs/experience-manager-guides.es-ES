@@ -35,4 +35,4 @@ Realice los siguientes pasos para mostrar la ruta relativa o el UUID del conteni
 1. Haga clic en **Guardar**.
 
 
-**Tema principal:**[ Personalizar editor web](conf-web-editor.md)
+**Tema principal:**&#x200B;[ Personalizar editor web](conf-web-editor.md)

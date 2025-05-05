@@ -38,6 +38,7 @@ Realice los siguientes pasos para descargar un archivo de asignación DITA junto
 
    - **Usar Línea Base**: Seleccione esta opción para obtener una lista de Líneas Base creadas para el mapa DITA. Si desea descargar el archivo de asignación y su contenido en función de una Línea base específica, seleccione la Línea base en la lista desplegable. Para obtener más información acerca de cómo trabajar con líneas de base, vea [Trabajar con línea de base](generate-output-use-baseline-for-publishing.md#).
    - **Acoplar jerarquía de archivos**: seleccione esta opción para guardar todos los temas a los que se hace referencia y los archivos multimedia en una sola carpeta.
+
    >[!NOTE]
    >
    > También puede descargar el archivo de asignación sin seleccionar ninguna opción. En ese caso, se descarga la última versión persistente de los temas a los que se hace referencia y los archivos multimedia.
@@ -58,4 +59,4 @@ Realice los siguientes pasos para descargar un archivo de asignación DITA junto
 
 Una vez descargado el mapa, puede seleccionarlo y utilizar el icono Abrir de la parte superior para abrir el informe seleccionado.
 
-**Tema principal:**[ Administrar contenido](authoring.md)
+**Tema principal:**&#x200B;[ Administrar contenido](authoring.md)

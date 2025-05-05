@@ -146,7 +146,7 @@ Además, puede ver los iconos siguientes y realizar las tareas relacionadas desd
 
 **Insertar antes/Insertar después** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Muestra el cuadro de diálogo **Insertar elemento antes o **Insertar elemento después. Seleccione el elemento que desea insertar en el mapa. Según la operación, el nuevo elemento se inserta antes o después del elemento actual en el mapa.
+Muestra el cuadro de diálogo **Insertar elemento antes o &#x200B;** Insertar elemento después. Seleccione el elemento que desea insertar en el mapa. Según la operación, el nuevo elemento se inserta antes o después del elemento actual en el mapa.
 
 **Elemento** - ![](images/Add_icon.svg)
 

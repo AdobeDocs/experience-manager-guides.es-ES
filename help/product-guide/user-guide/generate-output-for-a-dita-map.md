@@ -70,4 +70,4 @@ También se puede generar la salida de AEM Sites para uno o más temas o todo el
 
 
 
-**Tema principal:**[ Generación de resultados](generate-output.md)
+**Tema principal:**&#x200B;[ Generación de resultados](generate-output.md)

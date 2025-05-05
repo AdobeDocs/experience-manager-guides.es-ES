@@ -65,6 +65,7 @@ AEM Realice los siguientes pasos para cargar el complemento DITA-OT personalizad
    - Ejecute el integrador \(para instalar el complemento personalizado\) en un sistema operativo Mac/Linux para evitar problemas con los separadores de archivos: como los sistemas operativos Windows y Linux tienen diferentes separadores de archivos, el complemento integrado en el sistema operativo Mac/Linux es compatible con la configuración de Windows y Linux.
    - Asegúrese de que el archivo `DITA-OT.ZIP` contenga una carpeta denominada &quot;DITA-OT&quot; que tenga todos los complementos y archivos relevantes.
    - AEM Compruebe que el archivo `DITA-OT.ZIP` que crea sea del tipo mime: &quot;nt:file&quot; \(corresponde al tipo principal de archivo ZIP cuando se carga en el archivo de tipo\). AEM Utilice una herramienta WebDAV o una implementación de código para cargar este archivo ZIP en la ruta deseada en la. AEM AEM \(No utilice el administrador de paquetes de la aplicación para implementar este archivo ZIP, ya que este ZIP no es un paquete de contenido de la aplicación, sino solo un archivo de almacenamiento.\)
+
    >[!NOTE]
    >
    > Se recomienda no sobrescribir el paquete DITA-OT predeterminado. Debe cargar el paquete DITA-OT personalizado que contiene el complemento en otra ubicación de la carpeta `apps`.

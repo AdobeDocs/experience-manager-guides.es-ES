@@ -84,7 +84,7 @@ Introduzca un título y una descripción para la colección que desea crear. Si 
 
 Para añadir un archivo a las colecciones, utilice cualquiera de los siguientes métodos:
 
-- Desplácese al archivo o carpeta requerido en el vista Repositorio, seleccione el icono Opciones ** para abrir el menú contextual y elija **añadir >** **colecciones**. En el cuadro de **diálogo añadir a colecciones** , puede elegir agregar el archivo o carpeta a un favorito existente o crear uno nuevo.
+- Desplácese al archivo o carpeta requerido en el vista Repositorio, seleccione el icono Opciones **&#x200B; para abrir el menú contextual y elija &#x200B;** añadir >**&#x200B; **&#x200B;colecciones&#x200B;**. En el cuadro de &#x200B;** diálogo añadir a colecciones** , puede elegir agregar el archivo o carpeta a un favorito existente o crear uno nuevo.
 
   ![](images/favorite-add-file-folder.png){width="300" align="left"}
 
@@ -161,7 +161,7 @@ Tiene las siguientes opciones para filtrar los archivos y limitar la búsqueda e
 
 **Filtro avanzado**
 
-Seleccione el icono de **filtro avanzado de filtrado** ![Avanzadas para vista el cuadro de diálogo Filtro ****](images/advanced-filter-gear-icon.svg)Avanzadas.
+Seleccione el icono de **filtro avanzado de filtrado** ![Avanzadas para vista el cuadro de diálogo Filtro **&#x200B;**](images/advanced-filter-gear-icon.svg)Avanzadas.
 
 Puede vista las siguientes opciones en las fichas **General** y **Avanzadas** .
 
@@ -210,7 +210,7 @@ Puede realizar las siguientes acciones mediante el menú Opciones disponible par
     <summary> Pasos para crear un tema nuevo </summary>
 
 Pasos para crear un tema nuevo:
-1. Seleccione **Nuevo** tema >****.
+1. Seleccione **Nuevo** tema >**&#x200B;**.
 2. Aparecerá **el cuadro de diálogo Nuevo tema** .
 
    ![](images/create-topic-dialog.png){width="300" align="left"}
@@ -587,7 +587,7 @@ Para insertar contenido desde el panel Contenido reutilizable, utilice cualquier
 
 ## Contorno
 
-Al seleccionar el icono Contorno ****, se obtiene la vista jerárquica de los elementos utilizados en el documento.
+Al seleccionar el icono Contorno **&#x200B;**, se obtiene la vista jerárquica de los elementos utilizados en el documento.
 
 ![](images/outline-view_cs.png){width="300" align="left"}
 
@@ -716,7 +716,7 @@ En la lista Atributo, seleccione el atributo condicional que desea definir, intr
 
 Puede grupo las condiciones y estructurarlas en carpetas anidadas. Los grupos ayudan a crear condiciones en varios niveles y a organizarlas mejor para utilizarlas al contenido.
 
-Por ejemplo, puede crear grupos de condiciones de productos gustar *Acrobat* y *AEM guías*. Puede seleccionar los atributos condicionales para ambos grupos. En cada grupo, puede tener valores específicos gustar Usuario, Administrador, Revisor *y* Autor *.*****
+Por ejemplo, puede crear grupos de condiciones de productos gustar *Acrobat* y *AEM guías*. Puede seleccionar los atributos condicionales para ambos grupos. En cada grupo, puede tener valores específicos gustar Usuario, Administrador, Revisor *y* Autor *.**&#x200B;***
 
 >[!NOTE]
 >
@@ -1054,7 +1054,7 @@ Para realizar el búsqueda y el reemplazo globales, realice los pasos siguientes
 
 Para habilitar el icono Reemplazar **todos** , el administrador del sistema debe seleccionar la opción **Habilitar Reemplazar todos** en la **pestaña general** en **Configuración**.
 
-    >[! NOTA]
+    >[ ! NOTA]
     >
     > Desplácese sobre un archivo desde la lista de resultado de búsqueda para vista Reemplazar todo en Archivo icono a la derecha. También aparece el icono Ignorar Archivo para eliminar el archivo del resultado de búsqueda. Los archivos que ignora se eliminan de la lista y el término buscado no se reemplaza en ellos.
 
@@ -1122,4 +1122,4 @@ Para vista el comentarios de revisión en las tareas de revisión activas que es
 
 </details>
 
-**Tema principal:**[ Introducción al editor](web-editor.md)
+**Tema principal:**&#x200B;[ Introducción al editor](web-editor.md)

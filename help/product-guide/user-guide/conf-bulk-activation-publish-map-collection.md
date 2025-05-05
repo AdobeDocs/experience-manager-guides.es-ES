@@ -85,4 +85,4 @@ Se muestra un mensaje de éxito cuando el resultado del mapa está en la cola pa
 
 Una vez que se activa la salida para los archivos de mapa seleccionados, se actualiza la pestaña Historial de auditoría y aparece la última salida activada en la parte superior. La columna **Publicado** se ha actualizado con la fecha y la hora de publicación.
 
-**Tema principal: **[Activación masiva del contenido publicado](conf-bulk-activation.md)
+**Tema principal: &#x200B;** [Activación masiva del contenido publicado](conf-bulk-activation.md)

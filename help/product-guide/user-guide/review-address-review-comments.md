@@ -73,4 +73,4 @@ En el modo Editor web, el panel derecho contiene los iconos Revisar y Control de
 - **I**: aplique un filtro en los comentarios. Puede filtrar para ver los comentarios basándose en el Tipo de revisión \(todas, resaltadas, eliminadas, insertadas o notas adhesivas\), Estado de la revisión \(todas, aceptadas, rechazadas o ninguna\), Revisores \(todos los revisores o revisores específicos\)\) o Versiones del tema.
 
 
-**Tema principal:**[ Introducción a la revisión](review.md)
+**Tema principal:**&#x200B;[ Introducción a la revisión](review.md)

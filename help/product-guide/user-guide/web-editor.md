@@ -34,4 +34,4 @@ Además, el editor tiene en cuenta la tecnología DITA y admite los estándares 
 - **[Usar etiquetas](web-editor-use-label.md)**
 
 
-**Tema principal:**[ Contenido de autor con Experience Manager Guides](authoring-content-xml-doc.md)
+**Tema principal:**&#x200B;[ Contenido de autor con Experience Manager Guides](authoring-content-xml-doc.md)

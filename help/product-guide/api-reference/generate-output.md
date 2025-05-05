@@ -29,7 +29,7 @@ Detalles del paquete:
 
 - Versión: **3.4**
 
-- Paquete: ****com.adobe.fmdita.api.maps****
+- Paquete: **&#x200B;**&#x200B;com.adobe.fmdita.api.maps&#x200B;**&#x200B;**
 
 - Detalles de la clase:
 

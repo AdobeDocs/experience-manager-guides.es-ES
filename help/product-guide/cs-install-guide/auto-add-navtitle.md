@@ -54,4 +54,4 @@ Para incluir el atributo `@navtitle` de forma predeterminada en las propiedades 
 
 Con esta configuración, cada archivo de referencia que agregue a un mapa contendrá el atributo `@navtitle` de forma predeterminada.
 
-**Tema principal:**[ Personalizar editor web](conf-web-editor.md)
+**Tema principal:**&#x200B;[ Personalizar editor web](conf-web-editor.md)

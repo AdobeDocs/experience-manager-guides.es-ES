@@ -65,4 +65,4 @@ Siga estos pasos para configurar la interfaz de usuario de Experience Manager Gu
 
 
 
-**Tema principal:**[ Descargar e instalar](download-install.md)
+**Tema principal:**&#x200B;[ Descargar e instalar](download-install.md)

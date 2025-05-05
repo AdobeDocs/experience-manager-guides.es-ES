@@ -115,4 +115,4 @@ Puede buscar una cadena en la salida de AEM Sites. De forma predeterminada, solo
 
 Para obtener más información, consulte la sección *Configuración del acoplamiento de la estructura del nodo del sitio de AEM* en la guía Instalar y configurar Adobe Experience Manager Guides.
 
-**Tema principal:**[ Explicación de los ajustes preestablecidos de salida](generate-output-understand-presets.md)
+**Tema principal:**&#x200B;[ Explicación de los ajustes preestablecidos de salida](generate-output-understand-presets.md)

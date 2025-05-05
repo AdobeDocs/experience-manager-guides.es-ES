@@ -102,4 +102,4 @@ Siga estos pasos para configurar los filtros de texto:
 
 Los filtros configurados están disponibles en el panel Filtros.
 
-**Tema principal:**[ Personalizar editor web](conf-web-editor.md)
+**Tema principal:**&#x200B;[ Personalizar editor web](conf-web-editor.md)

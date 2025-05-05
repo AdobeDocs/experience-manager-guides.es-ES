@@ -178,4 +178,4 @@ Actualmente, las siguientes funciones de Experience Manager Guides no son aplica
 > La característica **Buscar y reemplazar** no procesa los archivos Markdown en el nivel de repositorio. Esto incluye la búsqueda de un archivo Markdown dentro de un mapa o carpeta. Sin embargo, se puede seguir utilizando dentro del editor Markdown. Además, las opciones **Search** y **Filter** de la vista Repositorio no procesan los archivos Markdown.
 
 
-**Tema principal:**[ Introducción al editor](web-editor.md)
+**Tema principal:**&#x200B;[ Introducción al editor](web-editor.md)

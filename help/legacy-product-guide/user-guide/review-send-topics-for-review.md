@@ -247,6 +247,7 @@ Para enviar uno o varios temas junto con el archivo de asignación para su revis
    - **Volver a asignar**: muestra el cuadro de diálogo Volver a asignar revisores. Puede escribir el nombre del revisor o la función de usuario \(o grupo\) al que desee asignar la tarea de revisión. De este modo, se quitarán todos los revisores existentes de los temas seleccionados y se asignarán a ellos los revisores recién seleccionados.
    - **Exportar**: permite exportar los detalles de la tarea de revisión en un archivo CSV. El archivo contiene detalles como la ruta y el título del tema, el nombre del revisor y la versión de los temas enviados para su revisión.
    - **Editar revisores**: al hacer clic en el icono ![](images/edit_pencil_icon.svg)de la lista de temas, se muestra el cuadro de diálogo Editar revisores. Puede agregar o quitar revisores para el tema seleccionado desde este cuadro de diálogo.
+
    >[!IMPORTANT]
    >
    > Debe asignar al menos un revisor para crear la tarea de revisión.
@@ -266,4 +267,4 @@ Para enviar uno o varios temas junto con el archivo de asignación para su revis
 
 Se envía un mensaje de correo electrónico a todos los revisores para notificarles que se les han asignado temas para su revisión. El correo electrónico contiene un vínculo directo en el que pueden hacer clic para acceder al tema en una ventana del explorador. Los temas junto con el mapa DITA se abren en el modo de revisión.
 
-**Tema principal:**[ Revisar temas o asignaciones](review.md)
+**Tema principal:**&#x200B;[ Revisar temas o asignaciones](review.md)

@@ -159,7 +159,7 @@ En el siguiente ejemplo, creamos un estilo de letra capital:
 
    >[!NOTE]
    >
-   Consulte la sección [Personalizar un estilo predefinido o nuevo](components-pdf-template.md#customize-style) para abrir una hoja de estilo y personalizarla o editarla.
+   >Consulte la sección [Personalizar un estilo predefinido o nuevo](components-pdf-template.md#customize-style) para abrir una hoja de estilo y personalizarla o editarla.
 
 1. En la lista **Estilos**, expanda **Estilos de párrafo**.
 
@@ -195,7 +195,7 @@ En el siguiente ejemplo, crearemos un estilo de caracteres en línea:
 
    >[!NOTE]
    >
-   Consulte la sección [Personalizar un estilo predefinido o nuevo](components-pdf-template.md#customize-style) para abrir una hoja de estilo y personalizarla o editarla.
+   >Consulte la sección [Personalizar un estilo predefinido o nuevo](components-pdf-template.md#customize-style) para abrir una hoja de estilo y personalizarla o editarla.
 
 1. En la lista **Estilos**, expanda **Estilos de carácter**.
 
@@ -215,7 +215,7 @@ En el siguiente ejemplo, crearemos un estilo de caracteres en línea:
 
      >[!NOTE]
      >
-     También puede agregar fuentes a la plantilla, que se almacenan en la sección Recursos de la plantilla. Para obtener más información sobre cómo agregar fuentes y trabajar con recursos, vea [Trabajar con recursos](components-pdf-template.md#work-with-resources).
+     >También puede agregar fuentes a la plantilla, que se almacenan en la sección Recursos de la plantilla. Para obtener más información sobre cómo agregar fuentes y trabajar con recursos, vea [Trabajar con recursos](components-pdf-template.md#work-with-resources).
 
    * **Diseño**: puede establecer las propiedades relacionadas con el diseño, como Alto y Ancho, Margen, Relleno, Alineación, etc.
 
@@ -239,7 +239,7 @@ En el siguiente ejemplo, personalizamos el estilo de lista numerada u ordenada:
 
    >[!NOTE]
    >
-   Consulte la sección [Personalizar un estilo predefinido o nuevo](components-pdf-template.md#customize-style) para abrir una hoja de estilo y personalizarla o editarla.
+   >Consulte la sección [Personalizar un estilo predefinido o nuevo](components-pdf-template.md#customize-style) para abrir una hoja de estilo y personalizarla o editarla.
 
 1. En la lista **Estilos**, expanda **Estilos de lista**.
 
@@ -277,7 +277,7 @@ En el siguiente ejemplo, personalizamos el estilo de lista numerada u ordenada:
 
      >[!NOTE]
      >
-     Puede introducir el valor en píxeles, puntos, rem, em, porcentaje o en unidades (pulgadas).
+     >Puede introducir el valor en píxeles, puntos, rem, em, porcentaje o en unidades (pulgadas).
 
    * **Anchura del prefijo**: Este es el área ocupada por el formato de número. Se establece automáticamente en un tamaño que puede ajustarse fácilmente al formato seleccionado. Si desea aumentar el tamaño, puede reemplazar el valor predeterminado.
 
@@ -299,7 +299,7 @@ En el siguiente ejemplo, vemos cómo crear un estilo de tabla y las distintas op
 
    >[!NOTE]
    >
-   Consulte la sección [Personalizar un estilo predefinido o nuevo](components-pdf-template.md#customize-style) para abrir una hoja de estilo y personalizarla o editarla.
+   >Consulte la sección [Personalizar un estilo predefinido o nuevo](components-pdf-template.md#customize-style) para abrir una hoja de estilo y personalizarla o editarla.
 
 1. En la lista **Estilos**, haga clic con el botón derecho en **Estilo de tabla** y elija **Nuevo estilo**.
 
@@ -315,7 +315,7 @@ En el siguiente ejemplo, vemos cómo crear un estilo de tabla y las distintas op
 
      >[!NOTE]
      >
-     La siguiente configuración está disponible en la sección **General** cuando **Aplicar formato a** está establecido en **Tabla completa**.
+     >La siguiente configuración está disponible en la sección **General** cuando **Aplicar formato a** está establecido en **Tabla completa**.
 
    * **Ajuste de texto**: seleccione cómo ajustar el texto alrededor de la tabla. Esto resulta útil cuando la tabla está dentro de otro elemento de nivel de bloque y la tabla debe representarse junto con otro contenido del elemento de bloque. Las opciones de ajuste están alineadas a *izquierda* o *derecha*, o bien *ninguna*.
 
@@ -329,7 +329,7 @@ En el siguiente ejemplo, vemos cómo crear un estilo de tabla y las distintas op
 
      >[!NOTE]
      >
-     La siguiente configuración está disponible en la sección **Celda** cuando **Aplicar formato a** está establecido en **Tabla completa**.
+     >La siguiente configuración está disponible en la sección **Celda** cuando **Aplicar formato a** está establecido en **Tabla completa**.
 
    * **Relleno**: especifique el relleno entre las celdas de la tabla. Puede especificar diferentes valores de relleno para los lados superior, inferior, izquierdo y derecho.
 
@@ -355,7 +355,7 @@ En el ejemplo siguiente, se crea un estilo de título (`wintitle`) de nueva vent
 
    >[!NOTE]
    >
-   Consulte la sección [Personalizar un estilo predefinido o nuevo](components-pdf-template.md#customize-style) para abrir una hoja de estilo y personalizarla o editarla.
+   >Consulte la sección [Personalizar un estilo predefinido o nuevo](components-pdf-template.md#customize-style) para abrir una hoja de estilo y personalizarla o editarla.
 
 1. En la lista **Estilos**, expanda **Otros estilos**.
 
@@ -406,7 +406,7 @@ Por ejemplo, puede definir los estilos siguientes para definir el tamaño de fue
 
 >[!NOTE]
 >
-En el ejemplo anterior, &quot;Front&quot; y &quot;Back&quot; son los nombres de ejemplo de los archivos de diseño que puede utilizar en las plantillas.
+>En el ejemplo anterior, &quot;Front&quot; y &quot;Back&quot; son los nombres de ejemplo de los archivos de diseño que puede utilizar en las plantillas.
 
 
 ## Definir estilo CSS personalizado para el contenido de prefijos y sufijos

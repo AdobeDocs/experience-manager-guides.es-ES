@@ -68,4 +68,4 @@ Realice los siguientes pasos para agregar las opciones de filtrado de archivos p
    ![](assets/file-browse-custom-filters.png)
 
 
-**Tema principal:**[ Personalizar editor web](conf-web-editor.md)
+**Tema principal:**&#x200B;[ Personalizar editor web](conf-web-editor.md)

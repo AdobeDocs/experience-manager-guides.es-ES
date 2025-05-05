@@ -141,4 +141,4 @@ Una vez finalizada la traducción, el estado del trabajo de traducción cambia a
 >
 > Si rechaza la traducción de uno o más temas de un trabajo de traducción, el estado de traducción de **En curso** de todos los temas rechazados vuelve a su estado original. El estado de los temas referidos se comprueba y revierte según el estado de traducción más reciente. Además, los archivos de traducción creados en el proyecto de destino no se eliminan aunque la traducción se rechace para ellos.
 
-**Tema principal:**[ Traducir contenido](translation.md)
+**Tema principal:**&#x200B;[ Traducir contenido](translation.md)

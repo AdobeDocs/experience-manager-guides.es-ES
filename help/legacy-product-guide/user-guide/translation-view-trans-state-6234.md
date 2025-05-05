@@ -26,4 +26,4 @@ Siga estos pasos para ver el estado de traducción de un mapa DITA:
    >
    > Puede filtrar aún más el contenido en función de su estado de traducción \(como Fuera de sincronización, Falta copia, En curso o Sincronizado\), tipo de Source \(como Todo, DITA, Mapa DITA o Recurso\) o fecha de modificación. También puede introducir palabras clave para buscar temas específicos.
 
-**Tema principal:**[ Traducir contenido](translation.md)
+**Tema principal:**&#x200B;[ Traducir contenido](translation.md)

@@ -33,4 +33,4 @@ También puede utilizar los ajustes preestablecidos de salida creados para el ma
 - **[Generar resultados desde el panel Repositorio o desde el panel Vista de mapa](web-editor-article-publishing-output.md)**
 
 
-**Tema principal:**[ Trabajar con el editor web](web-editor.md)
+**Tema principal:**&#x200B;[ Trabajar con el editor web](web-editor.md)

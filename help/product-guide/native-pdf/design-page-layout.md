@@ -165,6 +165,7 @@ Siga estos pasos para realizar las tareas anteriores:
 1. Cambie la propiedad Ver rotación para representar el contenido en 90° en el sentido de las agujas del reloj.
 
    1. Seleccione **90°** a la derecha del reloj en la lista desplegable Ver rotación.
+
    <img src="./assets/view-rotation-page-props.png" width="300">
 
    1. Haga clic en **Guardar todo** para guardar las propiedades actualizadas del diseño de página.
@@ -179,9 +180,11 @@ Siga estos pasos para realizar las tareas anteriores:
       La hoja de estilos Diseño se abre para editarla.
 
    1. Haz clic con el botón derecho en **Otros estilos** y elige **Nuevo estilo**.
+
       <img src="./assets/stylesheet-other-new-style.png" width="300">
 
    1. En la ventana emergente Agregar estilo, escriba **landscape-style** en **classname**.
+
       <img src="./assets/stylesheet-new-landscape-style.png" width="400">
 
    1. Haga clic en **Listo**.
@@ -437,6 +440,7 @@ En el siguiente ejemplo, insertaremos un número de página y un título de cap�
    1. En el panel derecho, haga clic en **Propiedades del contenido** (<img src="./assets/content-properties-icon.png" width="25">).
 
    1. Expanda la sección de propiedades **Diseño** y establezca el valor de la propiedad **Flotante** en **derecho**.
+
       <img src="./assets/float-prop-html-content.png" width="400">
 
       El campo Título del capítulo se alinea a la derecha del pie de página.

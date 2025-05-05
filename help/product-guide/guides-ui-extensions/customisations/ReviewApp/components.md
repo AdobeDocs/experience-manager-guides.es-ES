@@ -35,12 +35,15 @@ Revise el comentario en el lado del editor xml:
 
 - Revisar respuesta de comentario: `id: comment_reply`
    - El widget para cada respuesta de comentario de revisión.
+
      ![Captura de pantalla de respuesta de comentario de revisión](./imgs/reply.png)
 
 - Nueva respuesta de comentario de revisión: `id: comment_new_reply`
    - El widget para la nueva respuesta de comentario de revisión.
+
      ![Nueva captura de pantalla de respuesta de comentario de revisión](./imgs/new_reply.png)
 
 - Cuadro de herramientas de anotaciones: `id: annotation_toolbox`
    - La barra de herramientas superior derecha de la aplicación de revisión.
+
      ![Captura de pantalla del cuadro de anotaciones](./imgs/annotation_toolbox.png)

@@ -34,7 +34,7 @@ Realice los siguientes pasos para comprobar las referencias mediante el script d
 1. Ejecute el script de validación \[`/bin/fmdita/validatebtree?operation=validate`\] para comprobar si hay alguna referencia rota nueva.
 1. Si la secuencia de comandos validate informa de algún error, puede aplicar parches con la secuencia de comandos patch.
 1. Registre los detalles que se proporcionan a continuación y, si es necesario, compártalos con el equipo de éxito del cliente:
-1. 
+1. &#x200B;
    - Registros impresos por script de validación
 - Paquete de &quot;`/content/fmdita/references`&quot;
 - Cualquier otro detalle requerido según el escenario notificado
@@ -50,7 +50,7 @@ Realice los siguientes pasos para aplicar parches a cualquier referencia rota me
 > Se recomienda copiar y guardar los registros como referencia.
 
 1. Una vez que el script de parche se haya ejecutado correctamente, puede realizar las siguientes comprobaciones:
-1. 
+1. &#x200B;
    - Compruebe que se ha creado un nuevo nodo &quot;`references_backup_<timestamp>"`&quot; en `/content/fmdita`
 - Compruebe que las referencias se hayan corregido
 
@@ -344,7 +344,7 @@ El siguiente ejemplo muestra cómo mover un(a) `title` a un(a) `table`:
 
 Los elementos `paragraphStyleRule` se describen a continuación:
 
-** elemento `paraRule`**
+**&#x200B; elemento `paraRule`**
 
 El elemento `paraRule` es obligatorio. Esto especifica las reglas de asignación para todos los estilos de párrafo. En un documento de InDesign, todo el texto está contenido en una subestructura de Estilos de párrafo, incluso los párrafos sin ningún estilo se denominan `\[No paragraph style\]`. Los corchetes indican un nombre de estilo de InDesign integrado.
 

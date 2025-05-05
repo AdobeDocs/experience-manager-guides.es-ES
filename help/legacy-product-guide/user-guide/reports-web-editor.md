@@ -42,6 +42,7 @@ Puede crear un informe de los temas realizando los siguientes pasos:
    - **Estado del documento**: el estado actual del tema.
    - **Autor**: el usuario que trabajó por última vez en el tema.
    - **Mapa principal** Lista de todas las asignaciones en las que se hace referencia directamente al tema.
+
    >[!NOTE]
    >
    > Haga clic en **Actualizar** para obtener una lista nueva de temas y ver cualquier cambio en el archivo de asignación o si se actualiza alguna referencia en el archivo de tema.
@@ -115,7 +116,7 @@ El informe **Multimedia** proporciona información detallada acerca de los archi
 1. Haga doble clic en **Multimedia** a la izquierda. Se mostrará la lista de elementos multimedia presentes en el mapa DITA.
 1. Desde el panel **Filtros** puede ordenar la lista por contenido multimedia o por los nombres de los elementos utilizados en las referencias.
 
-   - Cuando ordena por **Multimedia**, el****nombre del multimedia se muestra en la primera columna y, a continuación, los nombres de todas las referencias en las que se han utilizado se muestran en otra columna de la misma fila. Por ejemplo, la siguiente captura de pantalla muestra el archivo multimedia WarmCoolForC.gif en la primera columna y las tres referencias en las que se utiliza se muestran en la tercera columna de la misma fila.
+   - Cuando ordena por **Multimedia**, el&#x200B;**&#x200B;**&#x200B;nombre del multimedia se muestra en la primera columna y, a continuación, los nombres de todas las referencias en las que se han utilizado se muestran en otra columna de la misma fila. Por ejemplo, la siguiente captura de pantalla muestra el archivo multimedia WarmCoolForC.gif en la primera columna y las tres referencias en las que se utiliza se muestran en la tercera columna de la misma fila.
 
      ![](images/multimedia-report-file-order.png){width="650" align="left"}
 
@@ -137,6 +138,7 @@ El informe **Multimedia** proporciona información detallada acerca de los archi
    - **Tipo multimedia** \(seleccionado de forma predeterminada\) Tipo de multimedia. Las opciones disponibles son Audio, Vídeo o Imagen.
    - **Utilizado en** \(seleccionado de forma predeterminada\) Las referencias en las que se ha utilizado el contenido multimedia. Puede hacer clic en la referencia para editarla.
    - **Tipo de referencia** \(seleccionado de forma predeterminada\) El tipo de referencia: directa o indirecta.
+
    >[!NOTE]
    >
    > Haga clic en **Actualizar** para obtener una lista nueva de contenido multimedia y ver los cambios realizados en el archivo de mapa o si se ha actualizado algún contenido multimedia del mapa DITA.
@@ -159,9 +161,11 @@ Para ver el informe de los vínculos rotos, siga estos pasos:
 1. Desde el panel **Filtros** puede ordenar la lista por vínculos o por los nombres de los elementos utilizados en las referencias.
 
    - Cuando ordena por **Vínculo interrumpido**, las rutas de los vínculos rotos se muestran en la primera columna y, a continuación, los nombres de todas las referencias en las que se han utilizado se muestran en otra columna en filas independientes. Si se utiliza el mismo vínculo roto en varios archivos, estos se muestran en una fila y se muestran como filas agrupadas o secundarias. Por ejemplo, la siguiente captura de pantalla muestra tres vínculos rotos en la primera columna y la referencia en la que se utilizan; `TestMap.ditamap` se muestra en la tercera columna en tres filas independientes.
+
    ![](images/broken-link-report.png){width="800" align="left"}
 
    - Si ordena por **Usado en la columna**, verá la vista transpuesta en la que los nombres de las referencias en las que se han utilizado los vínculos rotos se enumeran en la primera columna, mientras que los vínculos rotos se enumeran en otra columna de la misma fila. Por ejemplo, la siguiente captura de pantalla muestra la referencia (en la que se utiliza el vínculo roto) `TestMap.ditamap` en la primera columna y los vínculos rotos se muestran en la tercera columna de la misma fila.
+
    ![](images/broken-link-filter-usedin.png){width="800" align="left"}
 1. Puede filtrar los vínculos rotos en función de **Tipo de archivo** y **Tipo de vínculo**. La lista de vínculos rotos se muestra según lo que haya seleccionado en la lista desplegable. Por ejemplo, se puede elegir mostrar únicamente las referencias de contenido en el mapa DITA y un fichero sólo muestra las referencias de contenido utilizadas en él.
 
@@ -194,4 +198,4 @@ Haga clic en **Actualizar** para obtener una nueva lista de vínculos rotos y ve
 1. Haga clic en **Descargar CSV** para descargar la instantánea actual de los vínculos rotos en el mapa DITA. El CSV contiene las columnas seleccionadas y los vínculos rotos filtrados en la vista Vínculos rotos. A continuación, puede abrir y ver este archivo CSV en cualquier editor CSV.
 
 
-**Tema principal:**[ Informes](reports-intro.md)
+**Tema principal:**&#x200B;[ Informes](reports-intro.md)

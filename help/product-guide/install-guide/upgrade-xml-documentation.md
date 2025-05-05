@@ -62,7 +62,7 @@ Antes de ejecutar el proceso, hay ciertas tareas que debe completar. Las siguien
 
 
 
-****Requisitos previos****
+**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
 
 Antes de inicio el proceso de actualización de las Guías Experience Manager, asegúrese de que:
 
@@ -135,7 +135,7 @@ La actualización a la versión 4.2 depende de la versión actual de Experience 
 
 Si utiliza las versiones 4.0, 4.1 o 4.1.x, puede actualizar directamente a la versión 4.2.
 
-****Requisitos previos****
+**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
 
 Antes de inicio el proceso de actualización de las Guías de Experience Manager 4.2, asegúrese de lo siguiente:
 
@@ -311,7 +311,7 @@ La actualización a la versión 4.2.1 depende de la versión actual de Experienc
 >
 >El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
 
-****Requisitos previos****
+**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 4.2.1, asegúrese de lo siguiente:
 
@@ -325,7 +325,7 @@ Antes de iniciar el proceso de actualización de Experience Manager Guides 4.2.1
 
 ## Instale la versión 4.2.1
 
-1. Descargue el paquete de la versión 4.2.1 Adobe Systems Portal](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) de distribución de [software.
+1. Descargue el paquete de la versión 4.2.1 Adobe Systems Portal[&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) de distribución de software.
 1. Instale el paquete de la versión 4.2.1.
 1. Puede elegir ENTRAR en el déclencheur para iniciar el trabajo de actualización del mapa de traducción. Para obtener más información, consulte [Habilitar el déclencheur del script mediante un servlet](#enable-trigger-of-script-via-a-servlet-for-421).
 
@@ -488,7 +488,7 @@ La actualización a la versión 4.3.0 depende de la versión actual de Experienc
 >
 >El procesamiento electrónico de la entrada y la indexación pueden tardar unas horas. Le recomendamos que inicio el proceso de actualización durante las horas de menor actividad.
 
-****Requisitos previos****
+**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
 
 Antes de inicio el proceso de actualización de las guías Experience Manager 4.3.0, asegúrese de que:
 
@@ -499,7 +499,7 @@ Antes de inicio el proceso de actualización de las guías Experience Manager 4.
 
 ## Instalar la versión 4.3.0
 
-1. Descargue el paquete de la versión 4.3.0 de Adobe Systems Portal](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) de distribución de [software.
+1. Descargue el paquete de la versión 4.3.0 de Adobe Systems Portal[&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) de distribución de software.
 1. Instale el paquete de la versión 4.3.0.
 1. Borre la Caché del explorador después de instalar el paquete.
 1. Actualice el `ui_config.json` archivo desde el **pestaña Configuración** del Editor XML del perfil Carpeta.
@@ -546,7 +546,7 @@ La actualización a la versión 4.3.1 depende de la versión actual de Experienc
 >
 >El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
 
-****Requisitos previos****
+**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 4.3.1, asegúrese de lo siguiente:
 
@@ -725,7 +725,7 @@ Realice los siguientes pasos para posprocesar el contenido existente y utilizar 
 
    | Punto final | /bin/guides/reports/upgrade |
    |---|---|
-   | Tipo de solicitud | **** POST Este script es un petición POST por lo tanto, debe ejecutarse a través de agentes gustar Postman. |
+   | Tipo de solicitud | **&#x200B;**&#x200B;POST Este script es un petición POST por lo tanto, debe ejecutarse a través de agentes gustar Postman. |
    | Respuesta esperada | La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar un petición GET con ID de trabajo al mismo extremo.<br> Ejemplo de URL: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Punto final | /bin/guides/reports/upgrade |
@@ -787,7 +787,7 @@ La actualización a la versión 4.4.0 depende de la versión actual de Experienc
 >
 >El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
 
-****Requisitos previos****
+**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 4.4.0, asegúrese de lo siguiente:
 
@@ -980,7 +980,7 @@ Si tiene otra reescritura de sling personalizada en la base de código, utilice 
 Durante esta actualización, dado que el `'order'` valor se ha cambiado de 1000 a 50, debe combinar el reescritor personalizado existente, si lo hay, con `'fmdita-rewriter'`.
 
 
-**Tema principal:**[ Descargar e instalar](download-install.md)
+**Tema principal:**&#x200B;[ Descargar e instalar](download-install.md)
 
 
 ## Actualizar a la versión 4.6.0
@@ -995,7 +995,7 @@ La actualización a la versión 4.6.0 depende de la versión actual de Experienc
 >
 > El procesamiento electrónico de la entrada y la indexación pueden tardar unas horas. Le recomendamos que inicio el proceso de actualización durante las horas de menor actividad.
 
-****Requisitos previos****
+**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
 
 Antes de inicio el proceso de actualización de las guías de Experience Manager 4.6.0, asegúrese de:
 
@@ -1150,7 +1150,7 @@ Durante esta actualización, dado que el valor `'order'` ha cambiado de 1000 a 5
 >
 > El procesamiento electrónico de la entrada y la indexación pueden tardar unas horas. Le recomendamos que inicio el proceso de actualización durante las horas de menor actividad.
 
-****Requisitos previos****
+**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
 
 Antes de inicio el proceso de actualización de las Guías de Experience Manager 5.0.0, asegúrese de que tiene:
 

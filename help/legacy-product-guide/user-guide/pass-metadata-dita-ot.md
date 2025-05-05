@@ -45,4 +45,4 @@ Realice los siguientes pasos para pasar los metadatos a la salida mediante la pu
 
 Las propiedades de metadatos seleccionadas se pasarán a la salida generada mediante DITA-OT.
 
-**Tema principal:**[ Generación de resultados](generate-output.md)
+**Tema principal:**&#x200B;[ Generación de resultados](generate-output.md)

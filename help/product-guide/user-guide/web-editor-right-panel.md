@@ -121,7 +121,7 @@ Con el panel de revisión, puede ver y publicar respuestas a los comentarios pro
 
 >[!NOTE]
 >
-> El cuadro de comentarios y el cuadro de respuesta admiten entradas de varias líneas y permiten a los usuarios expandirlo según sea necesario para proporcionar una comentarios completa, así como una respuesta detallada al comentarios. Puede usar **Mayús +** Intro **** para ir a la siguiente línea mientras escribe el comentarios o las respuestas.
+> El cuadro de comentarios y el cuadro de respuesta admiten entradas de varias líneas y permiten a los usuarios expandirlo según sea necesario para proporcionar una comentarios completa, así como una respuesta detallada al comentarios. Puede usar **Mayús +** Intro **&#x200B;**&#x200B;para ir a la siguiente línea mientras escribe el comentarios o las respuestas.
 
 Para obtener más información, vista [Revisión de direcciones comentarios](review-address-review-comments.md#).
 
@@ -141,4 +141,4 @@ Aprenda a trabajar con archivos de Schematron en Experience Manager Guides, cons
 
 
 
-**Tema principal:**[ Introducción al editor](web-editor.md)
+**Tema principal:**&#x200B;[ Introducción al editor](web-editor.md)

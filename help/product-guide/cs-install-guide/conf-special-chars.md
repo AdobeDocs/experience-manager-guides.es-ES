@@ -46,4 +46,4 @@ La estructura del archivo `symbols.json` se explica a continuación:
   Puede definir varias definiciones de caracteres especiales dentro de una categoría.
 
 
-**Tema principal:**[ Personalizar editor web](conf-web-editor.md)
+**Tema principal:**&#x200B;[ Personalizar editor web](conf-web-editor.md)

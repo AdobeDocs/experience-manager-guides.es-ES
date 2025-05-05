@@ -27,4 +27,4 @@ AEM Guides viene con los tres editores predeterminados. puede utilizarlos para c
 - **[Editor DITAVAL](ditaval-editor.md)**
 
 
-**Tema principal:**[ Contenido de autor](authoring-content.md)
+**Tema principal:**&#x200B;[ Contenido de autor](authoring-content.md)

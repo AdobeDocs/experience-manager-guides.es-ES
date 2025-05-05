@@ -50,6 +50,7 @@ Por ejemplo, agregue `/conf/we-retail` en la configuración de nube. Esta config
    * **Nombre**: escriba el nombre del fragmento de contenido. De forma predeterminada, el nombre se rellena con el título del tema y los espacios se sustituyen por &quot;_&quot;. Por ejemplo, *sample_content_fragment*. Puede editarlo.  Este nombre se utiliza para generar la dirección URL del fragmento de contenido.
 
    * Puede seleccionar diferentes condiciones para crear variantes de fragmentos de contenido. Seleccione una de las siguientes opciones:
+
      >[!NOTE]
      > 
      > Las condiciones solo se activan si los atributos de condición se definen en el tema.

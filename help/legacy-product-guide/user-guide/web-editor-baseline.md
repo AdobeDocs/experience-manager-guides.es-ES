@@ -154,4 +154,4 @@ Con el icono Filtros del panel **Filtros de línea de base**, puede aplicar filt
 
 Una vez que haya editado la línea de base, puede hacer clic en el botón **Guardar** de la parte superior para guardar los cambios en la línea de base. Puede hacer clic en el botón **Restablecer** si no desea guardar el cambio y restablecer la línea de base. Al hacer clic en el botón **Restablecer**, aparece una advertencia que indica que se perderán los cambios que no se hayan guardado.
 
-**Tema principal:**[ Trabajar con el editor web](web-editor.md)
+**Tema principal:**&#x200B;[ Trabajar con el editor web](web-editor.md)

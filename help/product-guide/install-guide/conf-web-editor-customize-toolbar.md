@@ -49,7 +49,7 @@ Siga estos pasos para agregar una función a la barra de herramientas del Editor
 
 1. En el archivo `ui_config.json`, agregue la definición de la nueva característica en la sección de barras de herramientas. Normalmente, puede crear un nuevo grupo de botones de barra de herramientas y agregarle uno o más botones de barra de herramientas. O bien, puede agregar un nuevo botón de barra de herramientas dentro de un grupo existente. Se requieren los siguientes detalles para crear un nuevo grupo de barras de herramientas:
 
-   - **type:**Especifique `blockGroup` como el valor `type`. Este valor indica que está creando un grupo de bloques que contendría uno o más grupos de barras de herramientas.
+   - **type:**&#x200B;Especifique `blockGroup` como el valor `type`. Este valor indica que está creando un grupo de bloques que contendría uno o más grupos de barras de herramientas.
 
    - **extraclass:** Nombre de la clase o clases separadas por espacio.
 
@@ -240,4 +240,4 @@ El archivo `ui_config.json` tiene tres secciones:
 1. Guarde el archivo *ui\_config.json* y vuelva a cargar el Editor web.
 
 
-**Tema principal:**[ Personalizar editor web](conf-web-editor.md)
+**Tema principal:**&#x200B;[ Personalizar editor web](conf-web-editor.md)

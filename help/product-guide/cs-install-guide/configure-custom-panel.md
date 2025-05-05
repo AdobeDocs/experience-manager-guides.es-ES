@@ -58,4 +58,4 @@ tcx.ready(function () { //Ready will call the callback after editor code is set 
 });
 ```
 
-**Tema principal:**[ Personalizar editor web](conf-web-editor.md)
+**Tema principal:**&#x200B;[ Personalizar editor web](conf-web-editor.md)

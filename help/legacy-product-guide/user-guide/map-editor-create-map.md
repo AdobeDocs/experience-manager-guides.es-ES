@@ -55,4 +55,4 @@ Realice los siguientes pasos para crear un archivo de asignación:
    > Para utilizar el Editor de mapas avanzado, acceda al archivo de asignación en el Editor web. Si el administrador ha configurado el Editor de mapas avanzado como editor por defecto en los ficheros de mapa, el fichero de mapa se abrirá directamente en el Editor de mapas avanzado para editarlo. Consulte la sección *Establecer el editor de mapas avanzado como predeterminado* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
 
-**Tema principal:**[ Trabajar con el editor de mapas](map-editor.md)
+**Tema principal:**&#x200B;[ Trabajar con el editor de mapas](map-editor.md)

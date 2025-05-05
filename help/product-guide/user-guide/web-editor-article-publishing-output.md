@@ -89,4 +89,4 @@ Realice los siguientes pasos para generar resultados para más de un tema en el 
 1. Verá el estado del proceso de generación de resultados. Para ver la salida, pase el puntero del ratón sobre el tema y haga clic en Ver salida.
 
 
-**Tema principal:**[ Publicación basada en artículos desde el editor web](web-editor-article-publishing.md)
+**Tema principal:**&#x200B;[ Publicación basada en artículos desde el editor web](web-editor-article-publishing.md)

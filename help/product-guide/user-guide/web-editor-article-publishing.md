@@ -46,4 +46,4 @@ Siga estos pasos para generar resultados basados en artículos:
    > También puede Cambiar nombre, Duplicar o Eliminar un ajuste preestablecido de salida existente desde el menú Opciones.
 
 
-**Tema principal:**[ Trabajar con el editor](web-editor.md)
+**Tema principal:**&#x200B;[ Trabajar con el editor](web-editor.md)

@@ -37,4 +37,4 @@ Realice los siguientes pasos para ver la cola de generación de resultados:
      En esta lista, puede tener tareas que se hayan ejecutado correctamente o tareas que hayan fallado. Para las tareas que se han completado correctamente, el proceso de publicación crea un archivo de registro \(logs.txt\) al que se puede acceder haciendo clic en el vínculo en la columna Generated At.
 
 
-**Tema principal:**[ Generar salida de documentos de FrameMaker](fm-output-generatation.md)
+**Tema principal:**&#x200B;[ Generar salida de documentos de FrameMaker](fm-output-generatation.md)

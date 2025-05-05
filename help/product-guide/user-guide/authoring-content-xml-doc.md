@@ -21,4 +21,4 @@ Experience Manager Guides viene con los tres editores predeterminados. puede uti
 
 
 
-**Tema principal:**[ Contenido de autor](authoring-content.md)
+**Tema principal:**&#x200B;[ Contenido de autor](authoring-content.md)

@@ -25,4 +25,4 @@ Para optimizar el rendimiento, tenga en cuenta los siguientes puntos:
   Este cambio reduce el tiempo de publicación y el uso de memoria al publicar asignaciones DITA con un gran número de temas.
 
 
-**Tema principal:**[ Descargar e instalar](download-install.md)
+**Tema principal:**&#x200B;[ Descargar e instalar](download-install.md)

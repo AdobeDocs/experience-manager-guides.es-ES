@@ -64,4 +64,4 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Especifique una ubicación para almacenar plantillas personalizadas.<br> Si la ubicación especificada existe en DAM, todas las plantillas predeterminadas de asignación y tema se copian en esa carpeta. Si la ubicación no existe, la carpeta se creará con todas las plantillas predeterminadas de asignación y tema. |
 
-**Tema principal:**[ Configurar plantillas de temas y asignaciones](conf-template-tags.md)
+**Tema principal:**&#x200B;[ Configurar plantillas de temas y asignaciones](conf-template-tags.md)
