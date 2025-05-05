@@ -39,7 +39,7 @@ En esta sesión, aprendió lo siguiente:
 
 - **Documentación** - [en Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/translate-content/translation.html?lang=en)
 
-- **Foro de la comunidad**: para interacciones de la comunidad específicas de la sesión en Experience League, visita [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Foro de la comunidad**: para interacciones de la comunidad específicas de la sesión en Experience League, visita [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=es).
 
 
 >[!NOTE]

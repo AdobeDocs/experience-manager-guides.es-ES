@@ -456,7 +456,7 @@ Obtenga más información sobre cómo ver y agregar [sugerencias inteligentes ba
 
 Para ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
-Puede configurar la **Ayuda** inteligente con tecnología de IA para ayudar a los autores a hacer preguntas y encontrar fácilmente el contenido requerido de la [documentación de Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+Puede configurar la **Ayuda** inteligente con tecnología de IA para ayudar a los autores a hacer preguntas y encontrar fácilmente el contenido requerido de la [documentación de Experience Manager Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/overview).
 
 La ficha **Configuración del editor XML** le permite configurar las preguntas predeterminadas del panel **Ayuda**.
 
@@ -508,7 +508,7 @@ De forma predeterminada, el Editor XML incluye muchas características que ayuda
 
 Esta configuración le permite crear extensiones JSON que reflejen las modificaciones realizadas en el archivo `ui_config.json`. Puede cargar de forma independiente estas extensiones en el nivel de perfil de carpeta, lo que ofrece una mayor flexibilidad y personalización. Por ejemplo, cuando se realizan cambios en la **configuración del editor XML**, como actualizar un botón, el sistema identifica automáticamente las diferencias. Al cargar estos cambios en la **configuración de la interfaz de usuario del editor XML** y convertirlos en extensiones JSON mediante el botón **Convertir configuración de la interfaz de usuario a JSON**, el sistema genera una extensión que incorpora la nueva funcionalidad.
 
-Obtenga más información sobre [personalizar configuraciones de JSON y convertir configuraciones de IU para el nuevo Editor de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Obtenga más información sobre [personalizar configuraciones de JSON y convertir configuraciones de IU para el nuevo Editor de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 **Diseño de página del editor XML**
 

@@ -31,7 +31,7 @@ Siga estos pasos para descargar e instalar plantillas de AEM Sites en Experience
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   AEM El Administrador de paquetes administra los paquetes en la instalación local de la. AEM Para obtener más información sobre cómo trabajar con el Administrador de paquetes, vea [Cómo trabajar con paquetes](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) en la documentación de la.
+   AEM El Administrador de paquetes administra los paquetes en la instalación local de la. AEM Para obtener más información sobre cómo trabajar con el Administrador de paquetes, vea [Cómo trabajar con paquetes](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/package-manager.html) en la documentación de la.
 
 1. Para cargar el paquete, haga clic en **Cargar paquete**.
 
@@ -52,7 +52,7 @@ Una vez instalados los paquetes, se crea un sitio denominado **AEMG** en la inte
 
 
 **AEMG** contiene los siguientes componentes.
-- Hay una carpeta para el idioma inglés en la carpeta **AEMG**. Puede crear copias de idioma similares según sus necesidades. Por ejemplo, un sitio web multilingüe incluye copias en inglés (en), alemán (de) y francés (fr).  Obtenga más información acerca de cómo crear una copia de idioma con el [Asistente para copia de idioma](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard).
+- Hay una carpeta para el idioma inglés en la carpeta **AEMG**. Puede crear copias de idioma similares según sus necesidades. Por ejemplo, un sitio web multilingüe incluye copias en inglés (en), alemán (de) y francés (fr).  Obtenga más información acerca de cómo crear una copia de idioma con el [Asistente para copia de idioma](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard).
 - Dentro de la carpeta de idioma inglés(en), Experience Manager Guides proporciona muchas páginas de muestra listas para usar como **Search**, **Sign in**, **Docs** y **Support**.
 
 - **Documentos** es la página de inicio de documentación de ejemplo. Sirve como ubicación central para toda la documentación relacionada con el producto
@@ -97,7 +97,7 @@ Siga estos pasos para editar las plantillas de temas:
 1. Seleccione la plantilla que desee editar.
 1. Seleccione el icono **Editar** de la parte superior.
 
-AEM Se abre el Editor de plantillas de. Puede editar la plantilla de tema. Más información sobre [Creación de plantillas de página](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author).
+AEM Se abre el Editor de plantillas de. Puede editar la plantilla de tema. Más información sobre [Creación de plantillas de página](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author).
 
 
 ## Personalizar plantillas de AEM Sites existentes

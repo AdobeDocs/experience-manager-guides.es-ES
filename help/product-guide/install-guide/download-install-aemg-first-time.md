@@ -32,7 +32,7 @@ Realice los siguientes pasos para descargar e instalar AEM Guides por primera ve
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   AEM El Administrador de paquetes administra los paquetes en la instalación local de la. AEM Para obtener más información acerca de cómo trabajar con el Administrador de paquetes, vea [Cómo trabajar con paquetes](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) en la documentación de la documentación de la aplicación de paquetes de.
+   AEM El Administrador de paquetes administra los paquetes en la instalación local de la. AEM Para obtener más información acerca de cómo trabajar con el Administrador de paquetes, vea [Cómo trabajar con paquetes](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/package-manager.html) en la documentación de la documentación de la aplicación de paquetes de.
 
    ![](assets/package-manager.png){width="650" align="left"}
 

@@ -44,9 +44,9 @@ En esta sesión, aprenderá sobre lo siguiente:
 
 - [KB de publicación de salida](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
 
-- AEM [Plantillas de](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
+- AEM [Plantillas de](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 
-- **Foro de la comunidad**: para interacciones de la comunidad específicas de la sesión en Experience League, visita [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Foro de la comunidad**: para interacciones de la comunidad específicas de la sesión en Experience League, visita [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=es).
 
 >[!NOTE]
 >

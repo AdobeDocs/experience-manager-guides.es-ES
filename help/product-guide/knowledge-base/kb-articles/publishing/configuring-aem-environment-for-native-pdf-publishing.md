@@ -185,4 +185,4 @@ Valide el valor de la propiedad timeout para el nodo nodejs en /var/dxml/profile
 
 
 
-Si encuentra algún problema al realizar cualquiera de los pasos anteriores, publique su pregunta en el [foro](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) de la comunidad de AEM Guides para obtener asistencia.
+Si encuentra algún problema al realizar cualquiera de los pasos anteriores, publique su pregunta en el [foro](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=es) de la comunidad de AEM Guides para obtener asistencia.

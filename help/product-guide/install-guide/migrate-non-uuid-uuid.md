@@ -220,5 +220,5 @@ Para obtener más información, vea [purgar versiones anteriores](../install-gui
    > AEM Si antes de la migración, la propiedad **Use el título para los nombres de página del sitio de la** dentro de `com.adobe.fmdita.config.ConfigManager`, se establece en *False*, después de la migración esta propiedad deberá actualizarse.
 
 
-1. Una vez completada la validación, se puede recuperar la mayor parte del espacio en disco ejecutando la compactación (consulte `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
+1. Una vez completada la validación, se puede recuperar la mayor parte del espacio en disco ejecutando la compactación (consulte `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=es`).
 

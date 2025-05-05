@@ -38,7 +38,7 @@ Realice los siguientes pasos para pasar los metadatos a la salida mediante la pu
 
    Este archivo se puede superponer en: `/apps/fmdita/config/metadataList`.
 
-   Para pasar una propiedad personalizada para la que ya ha definido los valores, vea [Usar metadatos de AEM en la salida DITA-OT de PDF](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
+   Para pasar una propiedad personalizada para la que ya ha definido los valores, vea [Usar metadatos de AEM en la salida DITA-OT de PDF](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=es).
 
 1. Las propiedades seleccionadas se muestran debajo de la lista desplegable.
 
@@ -73,7 +73,7 @@ Si trabaja en la **interfaz de usuario de Assets**, realice los siguientes pasos
 
    Este archivo se puede superponer en: `/apps/fmdita/config/metadataList`.
 
-   Para pasar una propiedad personalizada para la que ya ha definido los valores, vea [Usar metadatos de AEM en la salida DITA-OT de PDF](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
+   Para pasar una propiedad personalizada para la que ya ha definido los valores, vea [Usar metadatos de AEM en la salida DITA-OT de PDF](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=es).
 
 1. En el menú desplegable **Propiedades**, seleccione las propiedades personalizadas y predeterminadas necesarias. Por ejemplo, seleccione `author`, `dc:title` y `dc:description`. Estos son los estándares `metadata/properties` que se crean una vez que creamos un archivo. Las propiedades seleccionadas se muestran debajo de la lista desplegable.
 

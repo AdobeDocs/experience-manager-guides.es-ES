@@ -17,7 +17,7 @@ En una situación real, los autores tendrían acceso a la instancia de creación
 
 >[!NOTE]
 >
-> Para obtener más información acerca de cómo configurar la instancia de autor y publicación en Adobe Experience Manager, vea [Información general sobre la arquitectura de creación y publicación](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
+> Para obtener más información acerca de cómo configurar la instancia de autor y publicación en Adobe Experience Manager, vea [Información general sobre la arquitectura de creación y publicación](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=es#prerequisites).
 
 Con la función Activación masiva de Experience Manager Guides, puede activar de forma rápida y sencilla el contenido desde la creación a la publicación. La función de activación masiva le ofrece la flexibilidad de:
 

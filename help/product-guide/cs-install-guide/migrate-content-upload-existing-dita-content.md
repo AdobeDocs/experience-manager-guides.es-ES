@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Cargar contenido DITA existente {#id176FF000JUI}
 
-Lo más probable es que tenga un repositorio de contenido DITA existente que desee utilizar con AEM Guides. Para ese contenido existente, puede usar cualquiera de los métodos admitidos explicados en [Agregar recursos digitales a Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html).
+Lo más probable es que tenga un repositorio de contenido DITA existente que desee utilizar con AEM Guides. Para ese contenido existente, puede usar cualquiera de los métodos admitidos explicados en [Agregar recursos digitales a Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=es).
 
 ## Configurar patrón de nombre de archivo UUID
 

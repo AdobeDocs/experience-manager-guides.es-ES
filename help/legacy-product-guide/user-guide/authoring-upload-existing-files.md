@@ -18,19 +18,19 @@ Lo más probable es que tenga un repositorio de contenido DITA existente que des
 
 >[!IMPORTANT]
 >
-> Consulte [Agregar recursos digitales a Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) para obtener información detallada sobre los métodos de carga de contenido admitidos en AEM.
+> Consulte [Agregar recursos digitales a Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=es) para obtener información detallada sobre los métodos de carga de contenido admitidos en AEM.
 
 ## Interfaz de usuario de la consola Assets
 
-Puede seleccionar contenido en el escritorio y arrastrarlo desde la interfaz de usuario de AEM \(explorador web\) a la carpeta de destino. Para obtener más información, consulte [Cargar recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) en la documentación de AEM.
+Puede seleccionar contenido en el escritorio y arrastrarlo desde la interfaz de usuario de AEM \(explorador web\) a la carpeta de destino. Para obtener más información, consulte [Cargar recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=es#upload-assets) en la documentación de AEM.
 
 ## Aplicación de escritorio de AEM 
 
-Utilice la aplicación de escritorio de AEM si es un profesional creativo y desea administrar los recursos en su escritorio local. Puede abrir y editar estos recursos con las aplicaciones de escritorio. También puede mantener las versiones y compartir los archivos con otros usuarios. Para obtener más información, consulte [aplicación de escritorio de AEM](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html).
+Utilice la aplicación de escritorio de AEM si es un profesional creativo y desea administrar los recursos en su escritorio local. Puede abrir y editar estos recursos con las aplicaciones de escritorio. También puede mantener las versiones y compartir los archivos con otros usuarios. Para obtener más información, consulte [aplicación de escritorio de AEM](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=es).
 
 ## Ingestor masivo de recursos
 
-Si tiene migraciones a gran escala e ingestas masivas ocasionales, utilice el Ingestor masivo de recursos para cargar el contenido. Con esta herramienta, puede cargar contenido masivo desde almacenes de datos compatibles como Azure o S3. Para obtener más información, consulte [Ingestor masivo de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
+Si tiene migraciones a gran escala e ingestas masivas ocasionales, utilice el Ingestor masivo de recursos para cargar el contenido. Con esta herramienta, puede cargar contenido masivo desde almacenes de datos compatibles como Azure o S3. Para obtener más información, consulte [Ingestor masivo de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=es#asset-bulk-ingestor).
 
 ## Uso de FrameMaker para cargas masivas
 

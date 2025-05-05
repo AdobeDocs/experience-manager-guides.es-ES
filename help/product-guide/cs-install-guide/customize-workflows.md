@@ -18,16 +18,16 @@ Los flujos de trabajo permiten automatizar las actividades \(\) de Adobe Experie
 
 AEM Para obtener más información sobre los flujos de trabajo en la, consulte:
 
-- [Administrar instancias de flujo de trabajo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html)
+- [Administrar instancias de flujo de trabajo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=es)
 
-- Aplicando y participando en flujos de trabajo: [Trabajando con flujos de trabajo del proyecto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html).
+- Aplicando y participando en flujos de trabajo: [Trabajando con flujos de trabajo del proyecto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html?lang=es).
 
 
 Las secciones de este tema le guiarán por varias personalizaciones que puede realizar en los flujos de trabajo predeterminados enviados en AEM Guides.
 
 ## Personalizar flujo de trabajo de revisión {#id176NE0C00HS}
 
-El equipo de creación de contenido de cada organización trabaja de forma específica para satisfacer sus necesidades empresariales. En algunas organizaciones hay un editor dedicado, mientras que otras organizaciones podrían tener un sistema automatizado de revisión editorial. Por ejemplo, en una organización, un flujo de trabajo típico de creación y publicación podría incluir tareas como: cada vez que un autor termina de crear contenido, va automáticamente a los revisores y, cuando se completa la revisión, va al editor para generar el resultado final. AEM AEM En la práctica, las actividades que realice en el contenido y los recursos se pueden combinar en forma de proceso y asignarse a un flujo de trabajo de. AEM AEM Para obtener más información acerca de los flujos de trabajo en la, consulte [Administración de flujos de trabajo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html) en la documentación de la aplicación de la.
+El equipo de creación de contenido de cada organización trabaja de forma específica para satisfacer sus necesidades empresariales. En algunas organizaciones hay un editor dedicado, mientras que otras organizaciones podrían tener un sistema automatizado de revisión editorial. Por ejemplo, en una organización, un flujo de trabajo típico de creación y publicación podría incluir tareas como: cada vez que un autor termina de crear contenido, va automáticamente a los revisores y, cuando se completa la revisión, va al editor para generar el resultado final. AEM AEM En la práctica, las actividades que realice en el contenido y los recursos se pueden combinar en forma de proceso y asignarse a un flujo de trabajo de. AEM AEM Para obtener más información acerca de los flujos de trabajo en la, consulte [Administración de flujos de trabajo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=es) en la documentación de la aplicación de la.
 
 AEM Guides permite personalizar el flujo de trabajo de revisión predeterminado. Puede utilizar los cuatro procesos personalizados siguientes relacionados con la revisión con el resto de los flujos de trabajo de creación o publicación.
 

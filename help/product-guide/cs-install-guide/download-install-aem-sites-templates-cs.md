@@ -35,7 +35,7 @@ Siga estos pasos para crear una AEM Sites con la plantilla:
 1. Escriba `Site title` y `Site name`.
 1. Haga clic en **Crear**. El paquete se instala y se crea una plantilla de AEM Sites.
 
-AEM Más información acerca de [Agregar una plantilla de sitio a la página de inicio de sesión de la página de inicio de sesión de la página &lbrace;1.](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/site-creation/site-templates#adding)
+AEM Más información acerca de [Agregar una plantilla de sitio a la página de inicio de sesión de la página de inicio de sesión de la página &lbrace;1.](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/sites/administering/site-creation/site-templates#adding)
 
 
 >[!NOTE]
@@ -51,7 +51,7 @@ Una vez instalado el paquete, se crea un sitio denominado **AEMG** en la interfa
 
 
 **AEMG** contiene los siguientes componentes.
-- Hay una carpeta para el idioma inglés en la carpeta **AEMG**. Puede crear copias de idioma similares según sus necesidades. Por ejemplo, un sitio web multilingüe incluye copias en inglés (en), alemán (de) y francés (fr).  Obtenga más información acerca de cómo crear una copia de idioma con el [Asistente para copia de idioma](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard).
+- Hay una carpeta para el idioma inglés en la carpeta **AEMG**. Puede crear copias de idioma similares según sus necesidades. Por ejemplo, un sitio web multilingüe incluye copias en inglés (en), alemán (de) y francés (fr).  Obtenga más información acerca de cómo crear una copia de idioma con el [Asistente para copia de idioma](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard).
 - Dentro de la carpeta de idioma inglés(en), Experience Manager Guides proporciona muchas páginas de muestra listas para usar como **Search**, **Sign in**, **Docs** y **Support**.
 
 - **Documentos** es la página de inicio de documentación de ejemplo. Sirve como ubicación central para toda la documentación relacionada con el producto
@@ -96,7 +96,7 @@ Siga estos pasos para editar las plantillas de temas:
 1. Seleccione la plantilla que desee editar.
 1. Seleccione el icono **Editar** de la parte superior.
 
-AEM Se abre el Editor de plantillas de. Puede editar la plantilla de tema. Más información sobre [Creación de plantillas de página](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author).
+AEM Se abre el Editor de plantillas de. Puede editar la plantilla de tema. Más información sobre [Creación de plantillas de página](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author).
 
 
 ## Personalizar plantillas de AEM Sites existentes {#customize-existing-aem-sites-templates}

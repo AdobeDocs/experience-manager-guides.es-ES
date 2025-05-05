@@ -166,7 +166,7 @@ Cuando se ejecute el comando anterior, puede comprobar el resultado en el direct
 
 ### Implementación
 
-AEM Una vez que haya desarrollado el complemento DITA-OT, puede integrarlo en DITA-OT mediante el comando _dita —install_ del directorio DITA-OT e implementarlo en el servidor de la [consulte este artículo para obtener más información](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659)
+AEM Una vez que haya desarrollado el complemento DITA-OT, puede integrarlo en DITA-OT mediante el comando _dita —install_ del directorio DITA-OT e implementarlo en el servidor de la [consulte este artículo para obtener más información](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659?profile.language=es)
 
 
 ## Recursos

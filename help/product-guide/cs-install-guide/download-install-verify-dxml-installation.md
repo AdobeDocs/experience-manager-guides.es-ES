@@ -22,7 +22,7 @@ Una vez instalado AEM Guides, debe comprobar si la instalación se ha realizado 
 
 1. AEM Acceda a la lista de paquetes OSGi en la lista de paquetes de.
 
-   AEM Para obtener más información sobre cómo acceder a los paquetes, consulte [Paquetes](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles) en la documentación de la.
+   AEM Para obtener más información sobre cómo acceder a los paquetes, consulte [Paquetes](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=es#bundles) en la documentación de la.
 
 1. Busque fmdita en la lista de paquetes y compruebe su estado.
 

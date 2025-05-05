@@ -50,14 +50,14 @@ Y Pasos para mover las guías (uuid) a la nube:
 
 ### Documentación
 
-- AEM [Pasando a la nube de](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- AEM [Pasando a la nube de](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides: Mover el contenido UUID de local/AMS a la nube](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [Herramienta de transferencia de contenido: Preguntas frecuentes](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/content-migration/faq)
+- [Herramienta de transferencia de contenido: Preguntas frecuentes](https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/content-migration/faq)
 - [AEM Guides: Migración de contenido no uuid a la nube](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### Foro de la comunidad
 
-- Para interacciones de comunidad específicas de sesión en Experience League, visita [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- Para interacciones de comunidad específicas de sesión en Experience League, visita [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=es).
 
 
 >[!NOTE]

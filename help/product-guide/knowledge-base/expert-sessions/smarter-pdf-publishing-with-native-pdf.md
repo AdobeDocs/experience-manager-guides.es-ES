@@ -55,7 +55,7 @@ En esta sesión, tratamos sobre:
 
 ### Foro de la comunidad
 
-- Para interacciones de comunidad específicas de sesión en Experience League, visite [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- Para interacciones de comunidad específicas de sesión en Experience League, visite [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=es).
 
 
 

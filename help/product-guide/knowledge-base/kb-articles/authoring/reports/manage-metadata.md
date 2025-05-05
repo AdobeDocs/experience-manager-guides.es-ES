@@ -46,7 +46,7 @@ También puede quitar las etiquetas existentes que son comunes en los archivos s
 
 ### La lista en administrar->metadatos está vacía o incompleta
 
-`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [Instrucciones de actualización(Indexe su contenido)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [Instrucciones de actualización(Indexe su contenido)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=es#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
 
 ### Los metadatos personalizados no aparecen en la lista
 
@@ -59,7 +59,7 @@ También puede quitar las etiquetas existentes que son comunes en los archivos s
 
 - [Etiquetado masivo mediante el panel de mapas (IU de Assets)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
 - [Informes Ditamap en el editor web](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
-- AEM [Etiquetado en el código de tiempo de trabajo](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
+- AEM [Etiquetado en el código de tiempo de trabajo](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=es)
 
 
 **Póngase en contacto con su CSM respectivo para cualquier otra consulta**

@@ -17,7 +17,7 @@ ht-degree: 0%
 ## Configurar el almacén de datos \(Obligatorio\)
 
 **¿Cuál es el cambio?**
-AEM Establezca la propiedad `minRecordLength` en un valor de `100` en la configuración `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`. Para obtener más información sobre el almacén de datos de archivos y el almacén de datos S3, consulte el artículo [Configuración de almacenes de nodos y almacenes de datos en el artículo de 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html) de la sección.
+AEM Establezca la propiedad `minRecordLength` en un valor de `100` en la configuración `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`. Para obtener más información sobre el almacén de datos de archivos y el almacén de datos S3, consulte el artículo [Configuración de almacenes de nodos y almacenes de datos en el artículo de 6](https://helpx.adobe.com/es/experience-manager/6-5/sites/deploying/using/data-store-config.html) de la sección.
 
 >[!NOTE]
 >

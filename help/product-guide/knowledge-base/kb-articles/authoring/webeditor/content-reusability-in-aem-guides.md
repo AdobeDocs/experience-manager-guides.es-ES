@@ -167,4 +167,4 @@ Asignar ID a fragmentos (elementos Dita) que desee reutilizar en otros temas
 <br>
 
 
-Publica en la comunidad de AEM Guides [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) para cualquier consulta.
+Publica en la comunidad de AEM Guides [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=es) para cualquier consulta.

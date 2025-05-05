@@ -57,7 +57,7 @@ Use los perfiles de carpeta para comprobar *ui_config.json* en la pestaña &quot
 }
 ```
 
-[use este vínculo para obtener más información acerca del perfil de carpeta y la configuración de ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
+[use este vínculo para obtener más información acerca del perfil de carpeta y la configuración de ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=es)
 
 
 ### Controlar el evento en el que se hace clic para el botón nuevo

@@ -51,11 +51,11 @@ En esta sesión, aprendió lo siguiente:
 
 ## Recursos relacionados
 
-- **Vídeos de características** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
+- **Vídeos de características** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html?lang=es)
 
 - **Guía del usuario** - [Contenido del autor](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **Foro de la comunidad**: para interacciones de la comunidad específicas de la sesión en Experience League, visita [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Foro de la comunidad**: para interacciones de la comunidad específicas de la sesión en Experience League, visita [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=es).
 
 >[!NOTE]
 >
