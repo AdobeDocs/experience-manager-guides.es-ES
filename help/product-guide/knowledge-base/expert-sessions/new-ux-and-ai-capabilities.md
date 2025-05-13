@@ -1,9 +1,10 @@
 ---
 title: Nuevas funciones de UX e IA en AEM Guides
 description: Descubra cómo la experiencia del usuario y los asistentes de IA rediseñados en AEM Guides optimizan la creación, mejoran la navegación y aportan inteligencia en tiempo real a los flujos de trabajo de contenido.
-source-git-commit: 87d1ff16daea5d40924ebb59669a3474ec5bafca
+exl-id: 26daaae5-1f10-42bf-91b5-93cdb6df6625
+source-git-commit: 1b41b2eb7e917c389c6f15ff73037f89353e8269
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '271'
 ht-degree: 1%
 
 ---
@@ -27,9 +28,9 @@ En el recorrido de creación de contenido, la entrega de resultados coherentes y
 ## Puntos clave
 
 En esta sesión, tratamos sobre:
-- La página de aterrizaje personalizada rediseñada para un acceso rápido a archivos, colecciones y Workfront recientes.
+- La página de aterrizaje personalizada rediseñada para un acceso rápido a archivos, colecciones y tareas de Workfront recientes.
 - Navegación simplificada para transiciones entre creación, publicación y administración de contenido.
-- Consola de mapas dedicada que consolida las tareas de publicación, traducción e informes en un solo lugar.
+- Consola de mapas dedicada que consolida las capacidades de publicación, traducción y creación de informes en un solo lugar.
 - Reutilización de contenido más inteligente mediante sugerencias impulsadas por IA.
 - Mejoras de contenido, como traducciones, resúmenes y mejoras de contenido en tiempo real durante la creación.
 - Panel de ayuda impulsado por IA que proporciona asistencia contextual dentro del entorno de creación.
@@ -37,11 +38,11 @@ En esta sesión, tratamos sobre:
 
 ## Recursos relacionados
 
-- [Nueva experiencia para la página de inicio](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
+- [Nueva experiencia para la página de inicio](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
 
-- [Capacidades de IA](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
+- [Capacidades de IA en AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [Nueva experiencia para la página de inicio](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [Configurar el asistente de IA](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 
@@ -54,7 +55,7 @@ En esta sesión, tratamos sobre:
 
 ### Foro de la comunidad
 
-- Para interacciones de comunidad específicas de sesión en Experience League, visite [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=es).
+- Para interacciones de comunidad específicas de sesión en Experience League, visite [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
 ## Contáctenos.
