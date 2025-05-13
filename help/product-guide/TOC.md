@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: b78a34430476c15cadacb23d65bd978b3c25bd23
+source-git-commit: fd20f8d8dffd9ab566128ace61cb923279aa2d8b
 workflow-type: tm+mt
-source-wordcount: '2098'
+source-wordcount: '2106'
 ht-degree: 8%
 
 ---
@@ -129,8 +129,8 @@ ht-degree: 8%
                - [Notas de la versión 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notas de la versión 4.2](./release-info/release-notes-4-2.md)
          - [Notas de la versión 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notas de la versión 4.0.x](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notas de la versión 3.8.x](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notas de la versión 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notas de la versión 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guía del usuario (nueva interfaz de usuario) {#user-guide}
    - Introducción {#about-aemg}
       - [Acerca de  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -277,7 +277,7 @@ ht-degree: 8%
          - [Administración de archivos y carpetas](./user-guide/authoring-file-management.md)
          - [Descargar archivos](./user-guide/authoring-download-assets.md)
 - Guía del usuario (IU antigua) {#user-guide-old-ui}
-   - [Información general de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Información general de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalación y configuración {#install-guide}
    - On-Premise {#on-prem-ig}
       - [Conceptos básicos locales](./install-guide/introduction.md)
@@ -485,6 +485,7 @@ ht-degree: 8%
       - [Migrar contenido de no uuid a UUID](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
       - [Migración de contenido delta](./knowledge-base/expert-sessions/migration-delta-content.md)
       - [Publicación PDF más inteligente con PDF nativo](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
+      - [Nuevas funciones de UX e IA en AEM Guides](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
    - Artículos {#kb-articles}
       - Creación {#authoring}
          - Editor web {#webeditor}
