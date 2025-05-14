@@ -4,7 +4,7 @@ description: Conozca la Barra de herramientas en el Editor. Obtenga información
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: e49fde64cbbb2544afe23b820af6477ed1e900fc
 workflow-type: tm+mt
 source-wordcount: '5909'
 ht-degree: 0%
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 La barra de herramientas aparece cuando se abre un tema o un mapa para editarlo en el Editor. Las funciones disponibles en la barra de herramientas son las siguientes:
 
-- [Lista desplegable del menú](#menu-dropdown)
+- [Menú desplegable](#menu-dropdown)
 - [Opciones de inserción de contenido](#content-insertion-options)
-- [Versión información y Guardar como nueva versión botón](#version-information-and-save-as-new-version)
+- [Información de la versión y botón Guardar como nueva versión](#version-information-and-save-as-new-version)
 - [Bloquear/desbloquear](#lockunlock)
 
 >[!NOTE]
@@ -43,58 +43,58 @@ La característica **Buscar y reemplazar** está disponible en los modos de vist
 
 Con el icono de configuración \(![](images/settings-find-replace-icon.svg)\), puede alternar las opciones de búsqueda **Ignorar mayúsculas y minúsculas** y **Sólo palabras completas**. Para realizar la búsqueda sin distinción entre mayúsculas y minúsculas, active \(o seleccione\) la opción **Ignorar mayúsculas y minúsculas**. De lo contrario, si desea realizar la búsqueda que distingue entre mayúsculas y minúsculas, desactive \(o deseleccione\) la opción **Ignorar mayúsculas y minúsculas**. También puede elegir buscar una palabra entera.
 
-El búsqueda es instantáneo, lo que significa que a medida que escribe la frase o palabra búsqueda en el **campo Buscar** , el término se busca y selecciona inmediatamente en el tema. Del mismo modo, para reemplazar un texto en su tema, ingrese el término búsqueda y su reemplazo en los campos respectivos y seleccione el **Reemplazar** o **Reemplazar Todos botón** .
+La búsqueda es instantánea, lo que significa que a medida que escribe la frase o palabra de búsqueda en el campo **Buscar**, el término se busca y selecciona inmediatamente en el tema. Del mismo modo, para reemplazar un texto en el tema, escribe el término de búsqueda y su reemplazo en los campos respectivos y selecciona el botón **Reemplazar** o **Reemplazar todo**.
 
-En el Origen vista, la **función Buscar y reemplazar** es extremadamente útil para buscar un elemento o atributo específico. Por ejemplo, si desea reemplazar el `@product` valor del atributo, puede hacerlo fácilmente desde el vista Origen. El Autor vista no permite búsqueda sobre la base de un atributo o elemento. Sin embargo, debe tener cuidado al usar la **característica Reemplazar todos** , ya que podría sobrescribir el código XML.
+En la vista de Source, la característica **Buscar y reemplazar** es extremadamente útil para buscar un elemento o atributo específico. Por ejemplo, si desea reemplazar el valor del atributo `@product`, se puede realizar fácilmente desde la vista de Source. La vista Autor no permite buscar basándose en un atributo o elemento. Sin embargo, debe tener cuidado al usar la característica **Reemplazar todo**, ya que podría sobrescribir el código XML.
 
-**Versión historia**
+**Historial de versiones**
 
-La **función de historial** de Versión en el Editor le permite verificar las versiones disponibles de sus archivos DITA, compararlas y volver a cualquier versión desde el propio Editor. Puede comparar el contenido y la metadatos de la versión actual (que también puede ser una copia de trabajo) con cualquier versión anterior del mismo archivo. También puede vista las etiquetas y los comentarios para las versiones comparadas.
+La característica **Historial de versiones** del Editor permite comprobar las versiones disponibles de los archivos DITA, compararlos y revertirlos a cualquier versión desde el propio Editor. Puede comparar el contenido y los metadatos de la versión actual (que también puede ser una copia de trabajo) con cualquier versión anterior del mismo archivo. También puede ver las etiquetas y los comentarios de las versiones comparadas.
 
 >[!NOTE]
 >
-> Las opciones del historial de Versión solo aparecen si hay cambios realizados en la primera versión del tema o mapa.
+> Las opciones del Historial de versiones sólo aparecen si hay cambios realizados en la primera versión del tema o asignación.
 
 
 <details>
-    <summary> Pasos para acceder al historial de Versión </summary>
+    <summary> Pasos para acceder al historial de versiones </summary>
 
 
 1. Abra un tema en el Editor.
-1. Seleccione **Versión historial** en el **&#x200B;**&#x200B;menú desplegable.
+1. Seleccione **Historial de versiones** del menú desplegable **Menú**.
 
-   Aparecerá el **cuadro de diálogo Historial** Versión.
+   Aparece el cuadro de diálogo **Historial de versiones**.
 
-   ![Versión cuadro de diálogo Historial](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   ![Cuadro de diálogo Historial de versiones](images/version-history-dialog-web-editor.png){width="550" align="left"}
 
-   *Vista previa los cambios en las distintas versiones de un tema.*
+   *Obtener una vista previa de los cambios en las distintas versiones de un tema.*
 
-1. Elija una versión del tema que desee comparar o revertir en la **lista desplegable Comparar con** .
-
-   >[!NOTE]
-   >
-   > Si a una versión se le han aplicado etiquetas, también se muestran \(entre paréntesis\) junto con el número de versión.
-
-1. Habilite la **opción comentarios** etiquetas de Ver para vista las etiquetas y los comentarios aplicados a la versión actual y a las comparadas.
-1. También puede vista la siguiente información en el cuadro de **diálogo Historial** de Versión:
-
-   **&#x200B;**&#x200B;Vista previa pestaña: el contenido recién agregado está en verde fuente y el contenido eliminado está en rojo fuente.
-
-   **Metadatos** pestaña: el metadatos recién agregado está en color verde fuente y el metadatos eliminado está en rojo fuente.
-
-   ![Diferencia de metadatos para versiones ](images/metadata-version-diff.png){width="550" align="left"}
-
-   *Comparar los metadatos de diferentes versiones en el historial de Versión.*
+1. Elija una versión del tema con la que quiera comparar o revertir en la lista desplegable **Comparar con**.
 
    >[!NOTE]
    >
-   > El administrador del sistema puede cambiar los metadatos que se mostrarán en la ficha Metadatos en **Configuración**. Para obtener más información, consulte la sección **Más acciones** de la [barra de fichas](#tab-bar).
+   > Si una versión tiene etiquetas aplicadas, también se muestran \(entre corchetes\) junto con el número de versión.
+
+1. Habilite la opción **Ver etiquetas y comentarios** para ver las etiquetas y los comentarios aplicados a las versiones actuales y comparadas.
+1. También puede ver la siguiente información en el cuadro de diálogo **Historial de versiones**:
+
+   Pestaña **Vista previa**: el contenido recién agregado está en fuente verde y el contenido eliminado está en fuente roja.
+
+   Pestaña **Metadatos**: los metadatos agregados recientemente están en fuente verde y los metadatos eliminados están en fuente roja.
+
+   ![Diferencia de metadatos para las versiones ](images/metadata-version-diff.png){width="550" align="left"}
+
+   *Comparar los metadatos de distintas versiones en el historial de versiones.*
+
+   >[!NOTE]
+   >
+   > El administrador del sistema puede cambiar los metadatos que se mostrarán en la ficha Metadatos en **Configuración**. Para obtener más información, consulte la sección **Más acciones** de la [barra de fichas](./web-editor-tab-bar.md).
 
    También puede ver los detalles de usuario y hora de la versión actual y la comparada.
 
-   Una vez que elija una versión del lista desplegable, estará disponible la **opción Revertir a la versión** seleccionada. La ventana previsualización muestra las diferencias entre la versión actual y la versión seleccionada del tema.
+   Una vez que elija una versión de la lista desplegable, estará disponible la opción **Revertir a la versión seleccionada**. La ventana de vista previa muestra las diferencias entre la versión actual y la seleccionada del tema.
 
-1. Seleccione Revertir **a la versión** seleccionada para revertir la copia de trabajo con la versión seleccionada del tema.
+1. Seleccione **Revertir a la versión seleccionada** para revertir la copia de trabajo con la versión seleccionada del tema.
 
    Aparecerá el cuadro de diálogo Revertir versión.
 
@@ -113,11 +113,11 @@ La **función de historial** de Versión en el Editor le permite verificar las v
 </details>
 
 
-**Versión etiquetas**
+**Etiquetas de versión**
 
-Las etiquetas le ayudan a identificar la fase en la que se encuentra un tema determinado en el DDLC \(Ciclo de vida de desarrollo de documentos\). Por ejemplo, cuando trabaje en un tema, podría establecer la etiqueta como &quot;Aprobado&quot;. Una vez que un tema se publica y se pone a disposición de los clientes, puede asignar la etiqueta &quot;Publicado&quot; a ese tema.
+Las etiquetas ayudan a identificar la fase en la que un tema en particular se encuentra en el DLC \(Ciclo de vida de desarrollo de documentos\). Por ejemplo, cuando esté trabajando en un tema, puede establecer la etiqueta como &quot;Aprobado&quot;. Una vez que se publica un tema y se pone a disposición de los clientes, se le puede asignar la etiqueta &quot;Publicado&quot;.
 
-Experience Manager Guías permiten especificar etiquetas en una formato de texto de forma gratuito o utilizar un conjunto de etiquetas predefinidas. La etiqueta personalizada permitiría a cualquier autor del sistema especificar una etiqueta según su elección. Esto da flexibilidad; Sin embargo, introduce etiquetas incoherentes en el sistema. Para resolver este problema, los administradores pueden configurar un conjunto de etiquetas predefinidas. Para obtener más información acerca de cómo configurar etiquetas predefinidas, vea *Configurar y personalizar el Editor Web XML* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
+Experience Manager Guides permite especificar etiquetas en formato de texto de forma libre o utilizar un conjunto de etiquetas predefinidas. La etiqueta personalizada permitiría a cualquier autor del sistema especificar una etiqueta según su elección. Esto proporciona flexibilidad; sin embargo, introduce etiquetas incoherentes en el sistema. Para resolver este problema, los administradores pueden configurar un conjunto de etiquetas predefinidas. Para obtener más información acerca de cómo configurar etiquetas predefinidas, vea *Configurar y personalizar el Editor Web XML* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
 Estas etiquetas se muestran a los autores en forma de lista desplegable siempre que necesiten especificar una etiqueta. Esto garantiza que solo se utilicen etiquetas predefinidas y coherentes en el sistema.
 
@@ -128,13 +128,13 @@ Existen diferentes métodos para aplicar etiquetas a los temas: el panel [Histor
 
 1. Abra un tema en el Editor.
 
-1. Seleccione **Versión etiquetas** de la lista desplegable Menú.
+1. Seleccione **Etiquetas de versión** en el menú desplegable.
 
-   Aparecerá el cuadro de diálogo Administración Etiquetar Versión.
+   Aparece el cuadro de diálogo Administración de etiquetas de versión.
 
-   ![](images/version-label-management-dialog.png){width="650" align="left"}
+   ![](images/version-label-management-dialog.png){width="350" align="left"}
 
-   El cuadro de diálogo Versión Etiquetar Management se divide en dos partes: el panel izquierdo tiene una lista de versiones disponibles para el tema junto con el menú desplegable de etiquetas lista \(o un cuadro de texto para introducir una etiqueta\) y el panel derecho con un previsualización del tema.
+   El cuadro de diálogo Administración de etiquetas de versión se divide en dos partes: el panel izquierdo tiene una lista de versiones disponibles para el tema junto con la lista desplegable de etiquetas \(o un cuadro de texto para introducir una etiqueta\) y el panel derecho con una vista previa del tema.
 
 1. Seleccione la versión a la que desee aplicar las etiquetas.
 
@@ -163,9 +163,9 @@ Existen diferentes métodos para aplicar etiquetas a los temas: el panel [Histor
 Cuando se trabaja en un entorno de varios autores, resulta difícil realizar el seguimiento de los cambios realizados por los demás autores en un tema o mapa. La función Combinar le proporciona más control no sólo sobre la visualización de los cambios, sino también sobre los cambios que se conservan en la última versión del documento.
 
 <details>
-    <summary> Combinar archivos de temas </summary>
+    <summary> Combinar archivos de tema </summary>
 
-Para combinar los cambios en un tema, realice los pasos siguientes:
+Para combinar los cambios de un tema, realice los siguientes pasos:
 
 1. Abra un tema en el Editor.
 
@@ -175,27 +175,27 @@ Para combinar los cambios en un tema, realice los pasos siguientes:
 
    ![](images/merge-changes-in-topic.png){width="550" align="left"}
 
-1. *\(Opcional\)* También puede examinar y seleccionar un archivo nuevo desde otra ubicación del repositorio.
+1. *\(Opcional\)* También puede examinar y seleccionar un nuevo archivo de otra ubicación del repositorio.
 
-1. Seleccione una versión del archivo con la que desee comparar la versión actual del archivo.
+1. Seleccione la versión del archivo con la que desea comparar la versión actual del archivo.
 
-1. En la Opciones, elija:
+1. En Opciones, elija:
 
-   - **Realizar un seguimiento de los cambios de la versión** seleccionada: Esta opción muestra todas las actualizaciones de contenido en forma de cambios controlados. A continuación, puede elegir aceptar o rechazar los cambios en el documento uno a la vez o todo de una sola vez.
+   - **Rastrear cambios de la versión seleccionada**: esta opción muestra todas las actualizaciones de contenido en forma de cambios rastreados. A continuación, puede elegir aceptar o rechazar los cambios del documento de uno en uno o todos en una sola vez.
 
-   - **Revertir a la versión** seleccionada: Esta opción revierte la versión actual del documento a la versión seleccionada. Esta opción no le proporciona ningún control sobre qué contenido se acepta o rechaza.
+   - **Revertir a la versión seleccionada**: esta opción revierte la versión actual del documento a la versión seleccionada. Esta opción no le proporciona ningún control sobre qué contenido se acepta o rechaza.
 
 1. Seleccione **Listo**.
 
-1. Si seleccionó la **opción Controlar cambios de la versión** seleccionada, todos los cambios de la versión seleccionada se muestran en la función Cambios controlados del panel derecho.
+1. Si seleccionó la opción **Rastrear cambios de la versión seleccionada**, todos los cambios de la versión seleccionada se mostrarán en la característica Rastreo de cambios del panel derecho.
 
-   Puede elegir aceptar o rechazar todos los comentarios del panel Cambios controlados o aceptar o rechazar comentarios individuales.
+   Puede elegir aceptar o rechazar todos los comentarios del panel Cambios realizados o aceptar o rechazar comentarios individuales.
 </details>
 
 <details>
-    <summary> Combinar archivos de mapas </summary>
+    <summary> Combinación de archivos de asignación </summary>
 
-Para combinar cambios en un archivo de mapa, realice los pasos siguientes:
+Para combinar los cambios en un archivo de asignación, realice los siguientes pasos:
 
 1. Abra un mapa en el Editor.
 
@@ -205,39 +205,39 @@ Para combinar cambios en un archivo de mapa, realice los pasos siguientes:
 
    ![](images/merge-changes-in-map.png){width="550" align="left"}
 
-1. *\(Opcional\)* También puede examinar y seleccionar un archivo nuevo desde otra ubicación del repositorio.
+1. *\(Opcional\)* También puede examinar y seleccionar un nuevo archivo de otra ubicación del repositorio.
 
-1. Seleccione una versión del archivo con la que desee comparar la versión actual del archivo.
+1. Seleccione la versión del archivo con la que desea comparar la versión actual del archivo.
 
-1. En la Opciones, elija:
+1. En Opciones, elija:
 
-   - **Realizar un seguimiento de los cambios de la versión** seleccionada: Esta opción muestra todas las actualizaciones de contenido en forma de control de cambios. A continuación, puede elegir aceptar o rechazar los cambios en el documento uno a la vez o todo de una sola vez.
+   - **Rastrear cambios de la versión seleccionada**: esta opción muestra todas las actualizaciones de contenido en forma de cambios de seguimiento. A continuación, puede elegir aceptar o rechazar los cambios del documento de uno en uno o todos en una sola vez.
 
-   - **Revertir a la versión** seleccionada: Esta opción revierte la versión actual del documento a la versión seleccionada. Esta opción no le proporciona ningún control sobre qué contenido se acepta o rechaza.
+   - **Revertir a la versión seleccionada**: esta opción revierte la versión actual del documento a la versión seleccionada. Esta opción no le proporciona ningún control sobre qué contenido se acepta o rechaza.
 
 1. Seleccione **Listo**.
 
-1. Si seleccionó la **opción Controlar cambios de la versión** seleccionada, todos los cambios de la versión seleccionada se mostrarán en el panel Cambios controlados \(a la derecha\).
+1. Si seleccionó la opción **Rastrear cambios de la versión seleccionada**, todos los cambios de la versión seleccionada se mostrarán en el panel Cambios rastreados \(a la derecha\).
 
-   Puede aceptar o rechazar todos los cambios del panel Cambios controlados o aceptar o rechazar cambios individuales en el archivo de mapa.
+   Puede elegir entre aceptar o rechazar todos los cambios del panel Cambios realizados o aceptar o rechazar cambios individuales en el archivo de asignación.
 
 </details>
 
-**Crear revisión tarea**
+**Crear tarea de revisión**
 
 Puede [crear una tarea de revisión](./review-send-topics-for-review.md) del tema o archivo de asignación actual directamente desde el Editor. Abra el archivo para el que desea crear la tarea de revisión y seleccione **Crear tarea de revisión** del menú desplegable para iniciar el proceso de creación de la revisión.
 
 **Rastrear cambios**
 
-Puede realizar un seguimiento de todas las actualizaciones realizadas en un documento activando el modo Seguimiento de cambios. Después de habilitar el seguimiento de cambios, todas las inserciones y eliminaciones se capturan en el documento. Todo el contenido eliminado se resalta con Tachado y todas las inserciones se resaltan en texto de color verde. Además, también se obtienen las barras de cambio en el borde del tema Página. Una vez más, se muestra una barra roja para los contenido eliminados y una barra verde para los contenido adicionales. En caso de que haya una adición y eliminación en la misma línea, se muestran las barras verdes y rojas.
+Puede realizar un seguimiento de todas las actualizaciones realizadas en un documento activando el modo Seguimiento de cambios. Después de habilitar el seguimiento de cambios, todas las inserciones y eliminaciones se capturan en el documento. Todo el contenido eliminado se resalta con Tachado y todas las inserciones se resaltan en texto de color verde. Además, también se obtienen las barras de cambios en el borde de la página del tema. De nuevo, se muestra una barra roja para el contenido eliminado y una barra verde para el contenido añadido. En caso de que haya una adición y eliminación en la misma línea, se muestran las barras verde y roja.
 
-En la siguiente captura de pantalla se resalta el contenido eliminado e insertado junto con las barras de cambio:
+La siguiente captura de pantalla resalta el contenido eliminado e insertado junto con las barras de cambio:
 
 ![](images/track-changes-content.png){width="650" align="left"}
 
-Un caso de uso típico para seguimiento cambios en una documento puede ser para hacer una revisión por pares. Puede habilitar el control de cambios y compartir sus documento para su revisión, y el revisor luego realiza cambios con el control de cambios activado. Cuando reciba el documento, debe tener un mecanismo para vista las actualizaciones sugeridas junto con una forma conveniente de aceptar o rechazar los cambios.
+Un caso de uso típico del seguimiento de cambios en un documento puede ser para realizar una revisión por pares. Puede habilitar la función de seguimiento de cambios y compartir el documento para su revisión, y el revisor realizará los cambios con la función de seguimiento de cambios activada. Cuando reciba el documento, deberá disponer de un mecanismo para ver las actualizaciones sugeridas junto con una forma cómoda de aceptar o rechazar los cambios.
 
-Experience Manager Guías proporciona la función de control de cambios que contiene información sobre las actualizaciones realizadas en el documento. La función Cambios rastreados proporciona información sobre qué actualizaciones se realizaron, quién las hizo y a qué hora. Con la función Cambios realizados, también puede aceptar o rechazar fácilmente las actualizaciones sugeridas en el documento.
+Experience Manager Guides proporciona la característica Cambios realizados que contiene información sobre las actualizaciones realizadas en el documento. La función Cambios rastreados proporciona información sobre qué actualizaciones se realizaron, quién las hizo y a qué hora. Con la función Cambios realizados, también puede aceptar o rechazar fácilmente las actualizaciones sugeridas en el documento.
 
 Para acceder a la función, seleccione el icono **Rastrear cambios** en el panel derecho.
 
@@ -249,11 +249,11 @@ Si desea aceptar o rechazar todos los cambios con un solo clic, seleccione **Ace
 
 >[!NOTE]
 >
-> El modo Vista previa permite ver el documento con o sin las marcas del contenido modificado. Para obtener más información, vista el [modo Vista previa](web-editor-views.md#preview-mode-id19AAGL00163) .
+> El modo Vista previa permite ver el documento con o sin las marcas del contenido modificado. Para obtener más información, vea el modo [Vista previa](web-editor-views.md#preview-mode).
 
 **Etiquetas**
 
-La **función Etiquetas** del editor es un botón conmutador que controla la visibilidad de los elementos DITA. Cuando está habilitado, muestra etiquetas estructurales dentro del contenido, lo que le permite vista y administrar los elementos DITA subyacentes de manera más efectiva. Cuando está desactivado, el editor oculta estas etiquetas, lo que proporciona un entorno de creación más limpio y centrado.
+La característica **Etiquetas** del Editor es un botón de alternancia que controla la visibilidad de los elementos DITA. Cuando está activada, muestra etiquetas estructurales dentro del contenido, lo que permite ver y gestionar los elementos DITA subyacentes de forma más eficaz. Cuando está desactivado, el editor oculta estas etiquetas, lo que proporciona un entorno de creación más limpio y centrado.
 
 La siguiente captura de pantalla muestra un documento con la vista Etiquetas habilitada:
 
@@ -278,58 +278,58 @@ Las siguientes operaciones se pueden realizar en un documento con etiquetas:
 
 **Elemento** - ![](images/Add_icon.svg)
 
-Inserta un elemento válido en la ubicación válida actual o siguiente. También puede utilizar el atajo ***de teclado Alt***+***Intro*** para abrir el cuadro de diálogo Elemento. Por ejemplo, si está editando un párrafo y, luego, en el **cuadro de diálogo Elemento** , aparece una lista de elementos que se pueden insertar en el párrafo. Seleccione el elemento que desea insertar. Puede utilizar el teclado para desplazarse por la lista de elementos y presionar ***Intro*** para insertar el elemento requerido.
+Inserta un elemento válido en la ubicación válida actual o siguiente. También puede usar el método abreviado de teclado ***Alt***+***Enter*** para abrir el cuadro de diálogo Elemento. Por ejemplo, si está editando un párrafo, en el cuadro de diálogo **Elemento** aparecerá una lista de elementos que se pueden insertar en el párrafo. Seleccione el elemento que desea insertar. Puede usar el teclado para desplazarse por la lista de elementos y presionar ***Intro*** para insertar el elemento requerido.
 
-Puede vista dos tipos de elementos válidos:
+Puede ver dos tipos de elementos válidos:
 
-- **Elementos válidos en la ubicación** actual: la lista muestra los elementos que puede insertar en la ubicación del cursor actual.
+- **Elementos válidos en la ubicación actual**: La lista muestra los elementos que puede insertar en la propia ubicación del cursor actual.
 
-- **Elementos válidos fuera de la ubicación** actual: la lista muestra los elementos que se pueden insertar después de cualquiera de los elementos principales para el elemento actual dentro del elemento jerarquía.
+- **Elementos válidos fuera de la ubicación actual**: La lista muestra los elementos que puede insertar después de cualquiera de los elementos primarios del elemento actual dentro de la jerarquía de elementos.
 
-Por ejemplo, si se encuentra dentro del elemento en línea `<b>` , puede insertar elementos gustar `<u>`, `<xref>`, `<i>` en la ubicación actual. Por el contrario, puede insertar elementos gustar dentro y fuera `<table>` de la ubicación actual, o `<topic>` fuera de ella.
+Por ejemplo, si se encuentra dentro del elemento `<b>` en línea, puede insertar elementos como `<u>`, `<xref>`, `<i>` en la ubicación actual. Por el contrario, puede insertar elementos como `<table>` y `<topic>` fuera de la ubicación actual.
 
-También puede escribir un carácter o una cadena en el cuadro de búsqueda y búsqueda para los elementos que comienzan por él.
+También puede escribir un carácter o cadena en el cuadro de búsqueda y buscar los elementos que comienzan con él.
 
-![Insertar elemento](images/insert-element.png){width="300" align="left"}
+![insertar elemento](images/insert-element.png){width="300" align="left"}
 
-*Escriba &quot;t&quot; para búsqueda todos los elementos válidos que comienzan por &quot;t&quot;.*
+*Escriba &#39;t&#39; para buscar todos los elementos válidos que comiencen por &#39;t&#39;.*
 
-Si está trabajando dentro de un elemento de bloque gustar un `note`, utilice el icono Insertar elemento para insertar un nuevo elemento después del `note` elemento. En el siguiente captura de pantalla se ha insertado un elemento nota dentro del elemento p \(párrafo\):
+Si está trabajando dentro de un elemento de bloque como `note`, utilice el icono Insertar elemento para insertar un nuevo elemento después del elemento `note`. En la siguiente captura de pantalla, se ha insertado un elemento de nota dentro del elemento p \(párrafo\):
 
 ![Insertar elemento en un elemento de bloque](images/note-in-para-insert-element_cs.png){align="left"}
 
-Si pulsa Intro en el elemento de nota, se creará un nuevo párrafo dentro del propio elemento de nota. Para insertar un nuevo elemento fuera de la nota, seleccione el elemento p \(resaltado en captura de pantalla\) en los elementos ruta y luego seleccione el icono Elemento o presione ***Alt***+***Intro*** para abrir el cuadro de diálogo Insertar elemento. A continuación, seleccione el elemento deseado y pulse Intro para insertar el elemento seleccionado después del elemento de nota.
+Si pulsa Intro en el elemento de nota, se creará un nuevo párrafo dentro del propio elemento de nota. Para insertar un nuevo elemento fuera de la nota, seleccione el elemento p \(resaltado en la captura de pantalla\) en la ruta de exploración de elementos y, a continuación, seleccione el icono Elemento o pulse ***Alt***+***Entrar*** para abrir el cuadro de diálogo Insertar elemento. A continuación, seleccione el elemento deseado y pulse Intro para insertar el elemento seleccionado después del elemento de nota.
 
-También puede agregar un elemento entre dos elementos cuando aparece un cursor de bloque parpadeante.
+También puede añadir un elemento entre dos elementos cuando aparezca un cursor de bloque parpadeante.
 
 
 ![](images/Block-cursor.png){width="300" align="left"}
 
-Por ejemplo, si está trabajando en un tema DITA y el cursor de bloque parpadea entre la descripción corta y el cuerpo, puede agregar `prolog` elemento y luego agregar derechos de autor, autor y otros detalles.
+Por ejemplo, si está trabajando en un tema DITA y el cursor de bloque parpadea entre la descripción breve y el cuerpo, puede agregar el elemento `prolog` y, a continuación, agregar copyright, autor y otros detalles.
 
-Otra forma de introducir un nuevo elemento es mediante el menú contextual. Haga clic con el botón derecho en cualquier lugar del documento para invocar el menú contextual. En este menú, elija **Insertar elemento** para mostrar el cuadro de **diálogo Insertar elemento** y elija el elemento que desea insertar.
+Otra forma de introducir un nuevo elemento es mediante el menú contextual. Haga clic con el botón derecho en cualquier lugar del documento para invocar el menú contextual. En este menú, elija **Insertar elemento** para mostrar el cuadro de diálogo **Insertar elemento** y elija el elemento que desea insertar.
 
 ![](images/insert-element-before-after.png){width="300" align="left"}
 
 **Párrafo** - ![](images/Paragraph_icon.svg)
 
-Insertar elemento de párrafo en la ubicación válida actual o en la siguiente.
+Insertar elemento de párrafo en la ubicación válida actual o siguiente.
 
-**lista** con viñetas: ![](images/BulletList_icon.svg)
+**Lista con viñetas** - ![](images/BulletList_icon.svg)
 
-Crea una lista con viñetas en la ubicación válida actual o en la siguiente. Si tiene una lista con viñetas y selecciona este icono, el elemento se convierte en un párrafo normal.
+Crea una lista con viñetas en la ubicación válida actual o siguiente. Si está en una lista con viñetas y selecciona este icono, el elemento se convierte en un párrafo normal.
 
-**Número lista** - ![](images/TextNumbered_icon.svg)
+**Lista numerada** - ![](images/TextNumbered_icon.svg)
 
-Crea una lista numerada en la ubicación válida actual o en la siguiente. Si está en un lista numerado y selecciona este icono, el elemento se convierte en un párrafo normal.
+Crea una lista numerada en la ubicación válida actual o siguiente. Si está en una lista numerada y selecciona este icono, el elemento se convierte en un párrafo normal.
 
 >[!NOTE]
 >
->También puede seleccionar la **opción Dividir lista** del menú contextual de un elemento de lista para dividir el lista actual y comenzar un nuevo lista en el mismo nivel.
+>También puede seleccionar la opción **Split list** en el menú contextual de un elemento de lista para dividir la lista actual y comenzar una nueva lista en el mismo nivel.
 
 **Tabla** - ![](images/Table_icon.svg)
 
-Inserta una tabla en la ubicación válida actual o siguiente. Seleccione el icono Tabla para abrir el cuadro de diálogo Insertar tabla sencilla.
+Inserta una tabla en la ubicación válida actual o siguiente. Seleccione el icono Tabla para abrir el cuadro de diálogo Insertar tabla simple.
 
 ![](images/table-properties.png){width="550" align="left"}
 
@@ -345,7 +345,7 @@ Una vez insertada una tabla, puede modificarla mediante el menú contextual.
 
 
 
-Utilizando el menú contextual de la tabla, puede:
+Mediante el menú contextual de la tabla, puede:
 
 - Insertar celdas, filas o columnas
 
@@ -363,9 +363,9 @@ Utilizando el menú contextual de la tabla, puede:
 También puede definir atributos en varias celdas, filas completas o columnas de una tabla. Por ejemplo, para alinear la celda de la tabla, arrastre y seleccione la celda requerida. En el panel Propiedades de contenido (a la derecha), la propiedad **Type** cambia a **entry**.
 
 1. En la sección **Atributos**, seleccione **+Agregar**.
-1. Seleccione el `@valign` atributo en la **lista desplegable Atributo** lista.
-1. En la lista desplegable de valores lista, seleccione la alineación de texto que desee aplicar a las celdas de tabla seleccionadas.
-1. Seleccione **añadir.**
+1. Seleccione el atributo `@valign` de la lista desplegable **Atributo**.
+1. En la lista desplegable de valores, seleccione la alineación de texto que desee aplicar en las celdas de la tabla seleccionada.
+1. Seleccionar **Agregar.**
 
 ![](images/align-table-cell_cs.png){align="left"}
 
@@ -377,7 +377,7 @@ Inserta una imagen en la ubicación válida actual o siguiente. Seleccione el ic
 
 >[!NOTE]
 >
-> También puede agregar una imagen arrastrándola y soltándola desde el sistema local en el artículo. En este caso, el archivo de imagen se agrega mediante el flujo de trabajo **Cargar Assets**.  Para obtener más información, vea el flujo de trabajo **Cargar Assets** en la sección [Panel izquierdo](#left-panel).
+> También puede agregar una imagen arrastrándola y soltándola desde el sistema local en el artículo. En este caso, el archivo de imagen se agrega mediante el flujo de trabajo **Cargar Assets**.  Para obtener más información, vea el flujo de trabajo **Cargar Assets** en la sección [Panel izquierdo](./web-editor-left-panel.md).
 
 
 ![](images/insert-image.png){width="300" align="left"}
@@ -408,41 +408,41 @@ También puede agregar otras propiedades para un archivo de imagen seleccionando
 
 **Menú contextual para archivos de imágenes o multimedia**
 
-También puede realizar algunas operaciones comunes para imágenes y archivos de medios utilizando el menú contextual. Haga clic con el botón derecho en cualquier lugar de la imagen para invocar el menú contextual.
+También puede realizar algunas operaciones comunes para imágenes y archivos multimedia mediante el menú contextual. Haga clic con el botón derecho en cualquier lugar de la imagen para invocar el menú contextual.
 
-El menú contextual ofrece opciones para cortar, copiar o pegar la imagen o el medios. Puede insertar un elemento antes o después del elemento seleccionado. También tiene la opción de cambiar el nombre o desajustar un elemento. Puede ubicar la imagen o el medios seleccionado en el repositorio o vista el previsualización del archivo en Assets IU.
+El menú contextual proporciona opciones para cortar, copiar o pegar la imagen o el medio. Puede insertar un elemento antes o después del elemento seleccionado. También tiene la opción de cambiar el nombre o de anular el ajuste de un elemento. Puede localizar la imagen o el medio seleccionado en el repositorio o ver la vista previa del archivo en la interfaz de usuario de Assets.
 
-Las otras opciones del menú contextual permiten copiar una ruta, editar una asignación de imagen, cambiar el nombre de un elemento, crear un fragmento de código o generar ID para el elemento seleccionado.
+Las demás opciones del menú contextual permiten copiar una ruta, editar un mapa de imagen, cambiar el nombre de un elemento, crear un fragmento o generar ID para el elemento seleccionado.
 
 **Insertar/Editar mapa de imagen**
 
-Inserta un mapa de imagen en la imagen seleccionada. Una imagen con áreas se puede hacer clic que vincular a temas o páginas web se denomina mapa de imagen.
+Inserta un mapa de imagen en la imagen seleccionada. Una imagen con áreas en las que se puede hacer clic y que vinculan temas o páginas web se denomina mapa de imagen.
 
-Seleccione una imagen del tema actual y seleccione el icono Insertar/Editar Imagen mapa para abrir el cuadro de diálogo Insertar Imagen mapa.
+Seleccione una imagen en el tema actual y seleccione el icono Insertar/Editar mapa de imagen para abrir el cuadro de diálogo Insertar mapa de imagen.
 
 ![](images/insert-image-map.png){width="650" align="left"}
 
-Elija la forma preferida Rectángulo ![](images/imagemap-rectangle-toolbar.png), Círculo ![](images/imagemap-circle-toolbar.png)o Polígono ![](images/imagemap-polygon-toolbr.png) para definir un área sobre una imagen que desee utilizar como vincular. Después de definir un área, aparece el cuadro de diálogo Referencia en el que debe especificar el vincular a contenido internos o externos:
+Elija la forma preferida Rectángulo ![](images/imagemap-rectangle-toolbar.png), Círculo ![](images/imagemap-circle-toolbar.png) o Polígono ![](images/imagemap-polygon-toolbr.png) para definir un área sobre una imagen que desee utilizar como vínculo. Después de definir un área, aparece el cuadro de diálogo Referencia en el que debe especificar el vínculo al contenido interno o externo:
 
 ![](images/reference-dialog.png){width="650" align="left"}
 
-Si las áreas se superponen, puede llevar la forma hacia adelante o hacia atrás haciendo clic en el icono correspondiente en la barra de herramientas. También puede eliminar un área seleccionándola y haciendo clic en el icono Eliminar. Al hacer doble clic en un área, se abre el cuadro de diálogo Referencia, en el que puede cambiar el destino vincular. Una vez que haya marcado las áreas necesarias en la imagen, guarde los cambios seleccionando **Listo**.
+Si las áreas se superponen, puede hacer que la forma avance o retroceda haciendo clic en el icono correspondiente de la barra de herramientas. También puede quitar un área seleccionándola y haciendo clic en el icono Eliminar. Al hacer doble clic en un área, se abre el cuadro de diálogo Referencia, en el que puede cambiar el vínculo de destino. Una vez que haya marcado las áreas requeridas en la imagen, guarde los cambios seleccionando **Listo**.
 
 
 **Multimedia**
 
 Inserta diferentes tipos de archivos multimedia. Seleccione el icono desplegable Multimedia y elija el tipo de archivo que desea insertar. Los formatos multimedia admitidos son:
 
-- Audio Archivo
-- Vídeo Archivo
+- Archivo de audio
+- Archivo de vídeo
 - YouTube
 - Vimeo
 
-Al seleccionar la opción Audio o Vídeo archivo, se le mostrará la repositorio vista examinar y seleccionar el archivo deseado. Si elige YouTube o Vimeo, obtendrá el cuadro de diálogo Insertar multimedia. Pegar el vincular del archivo de vídeo en el campo Vínculo web y seleccione Insertar para añadir el vídeo en la ubicación válida actual o siguiente del documento.
+Al seleccionar la opción Archivo de audio o vídeo, se muestra la vista del repositorio para buscar y seleccionar el archivo deseado. Si elige YouTube o Vimeo, aparece el cuadro de diálogo Insertar multimedia. Pegue el vínculo del archivo de vídeo en el campo Web Link y seleccione Insert para añadir el vídeo a la ubicación válida actual o siguiente del documento.
 
 >[!NOTE]
 >
-> Al agregar un vincular de video de YouTube, debe reemplazar la cadena `watch?v=` con `embed` en el URL. Por ejemplo, para agregar un vínculo de vídeo de YouTube: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, debe agregarlo como: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. Este cambio garantiza que el vídeo se incruste en el sitio de AEM y en la salida de PDF.
+> Al agregar un vínculo de vídeo de YouTube, debe reemplazar la cadena `watch?v=` por `embed` en la dirección URL. Por ejemplo, para agregar un vínculo de vídeo de YouTube: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, debe agregarlo como: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. Este cambio garantiza que el vídeo se incruste en el sitio de AEM y en la salida de PDF.
 
 También puede agregar el archivo de audio o vídeo desde el cuadro de diálogo Insertar multimedia. Seleccione la opción Archivo de audio/vídeo y, a continuación, seleccione el icono Examinar para iniciar la vista del repositorio. Seleccione el archivo de audio o vídeo del repositorio y seleccione **Seleccionar** para agregar el vínculo del archivo en el campo Archivo de audio o vídeo. Si elige un archivo de vídeo, también se mostrará una vista previa del archivo en el área de Vista previa. Puede reproducir el archivo de vídeo para ver su previsualización.
 
@@ -450,15 +450,15 @@ También puede agregar el archivo de audio o vídeo desde el cuadro de diálogo 
 
 **Referencia cruzada**
 
-Inserte referencias de tipo: referencia de contenido, referencia de clave de contenido, referencia clave, referencia de Archivo, vínculo web o vínculo de correo electrónico.
+Insertar referencias de tipo: referencia de contenido, referencia de clave de contenido, referencia de clave, referencia de archivo, vínculo web o vínculo de correo electrónico.
 
-Seleccione el icono Seleccionar Archivo **\(para referencia de contenido y Archivo referencia\) o** el **icono Seleccionar mapa** raíz \(para referencia de clave de contenido y referencia clave\) y seleccione el archivo o la contenido que desee vincular.
+Seleccione el icono **Seleccionar archivo** \(para referencia de contenido y referencia de archivo\) o el icono **Seleccionar mapa raíz** \(para referencia de clave de contenido y referencia de clave\) y seleccione el archivo o contenido deseado al que desee vincular.
 
 ![](images/insert-references.png){width="650" align="left"}
 
-Se añadirá un vincular de la referencia seleccionada en el documento. El menú contextual del vincular le ofrece las opciones para:
+En el documento se agrega un vínculo de la referencia seleccionada. El menú contextual del vínculo le ofrece las siguientes opciones:
 
-- **Insertar elemento**: muestra un lista de elementos válidos que se pueden insertar en un contexto determinado.
+- **Insertar elemento**: muestra una lista de elementos válidos que puede insertar en un contexto determinado.
 - **Copiar UUID**: copia el UUID de la referencia insertada.
 - **Copiar ruta**: copia la ruta de acceso completa de la referencia insertada.
 - **Generar ID**: genera un ID único para la referencia insertada.
@@ -467,25 +467,25 @@ También puede buscar utilizando el UUID del archivo al que desee hacer referenc
 
 ![](images/insert-content-using-uuid-search.png){width="650" align="left"}
 
-Si su administrador ha habilitado la opción UUIDs en *XMLEditorConfig*, vista el UUID del contenido al que se hace referencia en el **Propiedad Vínculo** .
+Si el administrador ha habilitado la opción UUIDs en *XMLEditorConfig*, verá el UUID del contenido referenciado en la propiedad **Link**.
 
 ![](images/ref-link-uuid_cs.png){align="left"}
 
 >[!NOTE]
 >
-> Si la **opción Habilitar UUIDs** no está habilitada, se muestra la ruta relativa de la contenido a la que se hace referencia.
+> Si la opción **Habilitar UUIDs** no está habilitada, se muestra la ruta relativa del contenido al que se hace referencia.
 
 >[!IMPORTANT]
 >
-> Aunque la ruta relativa del contenido al que se hace referencia se muestra en el **Propiedad Vínculo** , internamente el vincular se crea utilizando el UUID del contenido al que se hace referencia.
+> Aunque la ruta relativa del contenido al que se hace referencia se muestra en la propiedad **Link**, internamente el vínculo se crea mediante el UUID del contenido al que se hace referencia.
 
 >[!TIP]
 >
-> Ver la sección Referencias de la sección Prácticas recomendadas guía para conocer las prácticas recomendadas relacionadas con las referencias a contenido.
+> Consulte la sección Referencias en la guía de prácticas recomendadas para conocer las prácticas recomendadas sobre las referencias al contenido.
 
-**Filtrar Search**
+**Filtrar búsqueda**
 
-Puede búsqueda texto en los archivos presentes en la ruta seleccionada del repositorio AEM. Por ejemplo, &quot;general&quot; se busca en la siguiente captura de pantalla. También puede reducir el búsqueda mediante filtros mejorado. Puede buscar todos los Archivos DITA gustar temas DITA y mapas DITA presentes en la ruta seleccionada.
+Puede buscar texto en los archivos presentes en la ruta seleccionada del repositorio de AEM. Por ejemplo, &quot;general&quot; se busca en la siguiente captura de pantalla. También puede limitar la búsqueda mediante filtros mejorados. Puede buscar todos los ficheros DITA, como los temas DITA y los mapas DITA, presentes en la ruta seleccionada.
 
 Puede buscar archivos que no sean DITA, como los archivos de imagen, multimedia y documentos de la ruta seleccionada. También se pueden buscar valores específicos en los atributos de elementos DITA. También puede buscar archivos que el usuario especificado haya desprotegido.
 
@@ -518,37 +518,37 @@ También puede incrustar el contenido referido dentro del tema haciendo clic con
 
 **Símbolo** - ![](images/symbol-icon.svg)
 
-Inserta caracteres especiales en el tema. Seleccione el icono Símbolo para abrir el cuadro de diálogo Insertar Carácter especial.
+Inserta caracteres especiales en el tema. Seleccione el icono Símbolo para abrir el cuadro de diálogo Insertar carácter especial.
 
 >[!NOTE]
 >
-> Experience Manager Guides proporciona cuadros de diálogo móviles y de tamaño variable. Se puede cambiar el tamaño de los cuadros de diálogo que tienen dos líneas cruzadas en la esquina inferior derecha. A continuación se muestran las líneas transversales del cuadro de diálogo Carácter especial.
+> Experience Manager Guides proporciona cuadros de diálogo móviles y de tamaño variable. Se puede cambiar el tamaño de los cuadros de diálogo que tienen dos líneas cruzadas en la esquina inferior derecha. A continuación, se muestran las líneas cruzadas del cuadro de diálogo Carácter especial.
 
 ![](images/insert-special-char.png){width="350" align="left"}
 
-En el cuadro de diálogo Insertar carácter especial, puede buscar un carácter especial utilizando su nombre. Todos los caracteres especiales se almacenan en varias categorías. Utilice la lista desplegable Seleccionar categoría y seleccione una categoría. Se muestran los caracteres especiales disponibles en la categoría seleccionada. Puede desplazarse por el lista de carácter especial utilizando las teclas de flecha o seleccionar el carácter que desee insertar. El nombre y la Code hexadecimal del carácter especial seleccionado se muestran debajo del lista. Seleccione **Insertar** para insertar el carácter seleccionado en el documento.
+En el cuadro de diálogo Insertar carácter especial, puede buscar un carácter especial utilizando su nombre. Todos los caracteres especiales se almacenan en varias categorías. Utilice la lista desplegable Seleccionar categoría y seleccione una categoría. Se muestran los caracteres especiales disponibles en la categoría seleccionada. Puede desplazarse por la lista de caracteres especiales con las teclas de dirección o seleccionar el carácter que desee insertar. El nombre y el código hexadecimal del carácter especial seleccionado se muestran debajo de la lista. Seleccione **Insertar** para insertar el carácter seleccionado en el documento.
 
 **Palabra clave** - ![](images/Keyword_icon.svg)
 
-Inserte palabra clave definido en su mapa DITA. Seleccione la opción Palabra clave para abrir el cuadro de diálogo Referencia clave.
+Palabra clave Insert definida en el mapa DITA. Seleccione la opción Palabra clave para abrir el cuadro de diálogo Referencia de clave.
 
 ![](images/insert-keyword.png){width="550" align="left"}
 
-Las palabras clave se enumeran en orden alfabético y también puede palabra clave de búsqueda\(s\) escribiendo una cadena de búsqueda en el cuadro Search. La resultado de búsqueda devolverá las palabras clave que contengan la cadena en ID o Valor. Las palabras clave definidas en su mapa DITA se enumeran en este cuadro de diálogo. Elija el palabra clave que desea insertar y seleccione **Insertar**.
+Las palabras clave se muestran en orden alfabético y también puede buscar palabra clave\(s\) escribiendo una cadena de búsqueda en el cuadro Buscar. El resultado de la búsqueda devolverá las palabras clave que contienen la cadena en ID o Value. Las palabras clave definidas en el mapa DITA se muestran en este cuadro de diálogo. Elija la palabra clave que desee insertar y seleccione **Insertar**.
 
-También puede cambiar los atributos del palabra clave insertado haciendo clic con el botón derecho en el palabra clave y seleccionando la opción Atributos. Se abre el cuadro de diálogo **Atributos de palabra clave:
+También puede cambiar los atributos de la palabra clave insertada haciendo clic con el botón derecho en la palabra clave y seleccionando la opción Atributos. Se abrirá el cuadro de diálogo **Atributos para palabra clave:
 
 ![](images/attributes-for-keyword.png){width="550" align="left"}
 
-Puede cambiar los atributos del palabra clave o agregar un nuevo atributo al palabra clave.
+Puede cambiar los atributos de la palabra clave o agregar un nuevo atributo a la palabra clave.
 
-**Fragmentos de código** - ![](images/insert-snippet-icon.svg)
+**Fragmentos** - ![](images/insert-snippet-icon.svg)
 
-Inserte un fragmento en la ubicación válida actual o en la siguiente. Para que esta función funcione, debe tener fragmentos definidos en su sistema. Para obtener más información sobre cómo agregar un fragmento, vista la descripción de la función Fragmento **en la [sección Panel izquierdo](./web-editor-left-panel.md).**
+Insertar un fragmento en la ubicación válida actual o siguiente. Para que esta función funcione, debe tener fragmentos definidos en el sistema. Para obtener más información sobre cómo agregar un fragmento, vea la descripción de la característica **Fragmento** en la sección [Panel izquierdo](./web-editor-left-panel.md).
 
-Al seleccionar la opción Fragmentos, se le muestra el catálogo Insertar fragmentos. El catálogo es sensible al contexto, lo que indica que mostrará los fragmentos solo si están permitidos en la ubicación actual.
+Al seleccionar la opción Fragmentos de código, se muestra el catálogo Insertar fragmento de código. El catálogo distingue entre contextos, lo que indica que sólo mostrará los fragmentos si están permitidos en la ubicación actual.
 
-El ejemplo siguiente muestra dos fragmentos preconfigurados: Advertencia y Error que se pueden insertar en la ubicación actual en el documento.
+En el siguiente ejemplo se muestran dos fragmentos preconfigurados: Advertencia y Error que se pueden insertar en la ubicación actual del documento.
 
 ![](images/insert-snippet.png){width="300" align="left"}
 
@@ -562,11 +562,11 @@ Cree citas y agréguelas a su contenido. Aprenda a [agregar y administrar citas 
 
 **Datos de consulta** - ![](images/data-sources-new-icon.svg)
 
-Conéctese con su fuente de datos y utilice los datos para crear contenido. Obtenga información sobre cómo [utilizar datos de la fuente de datos](./web-editor-content-snippet.md).
+Conéctese con la fuente de datos y utilice los datos para crear contenido. Obtenga información sobre cómo [utilizar datos de la fuente de datos](./web-editor-content-snippet.md).
 
-## Versión información y Guardar como nueva versión
+## Información de la versión y Guardar como nueva versión
 
-La **Versión información y Guardar como nueva función de versión** combina la versión seguimiento y contenido guardar en un solo funcionalidad.
+La característica **Información de la versión y Guardar como nueva versión** combina el seguimiento de versiones y el guardado de contenido en una sola funcionalidad.
 
 - La información de versión muestra la versión actual del tema o asignación. Aparece un asterisco (*) junto al número de versión para indicar que no se han guardado los cambios.
 
@@ -592,17 +592,17 @@ Si el administrador tiene etiquetas de versión preconfiguradas, verá esas etiq
 
 ![](images/web-editor-pre-defined-labels.PNG){width="300" align="left"}
 
-Al guardar un tema, puede agregar un comentario que especifique los cambios realizados en el tema. Este comentario se muestra en el historial de Versión del tema.
+Al guardar un tema, puede agregar un comentario que especifique los cambios realizados en el tema. Este comentario se muestra en el Historial de versiones del tema.
 
-Si su tema está bajo revisión, sus revisores recibirán un notificación diciendo que hay una versión más reciente del tema disponible. Pueden acceder fácilmente a la última revisión de su documento y continuar revisando la última versión de su tema.
+Si el tema está en revisión, los revisores recibirán una notificación que indica que hay disponible una versión más reciente del tema. Pueden acceder fácilmente a la última revisión del documento y seguir revisando la última versión del tema.
 
-Al pasar el puntero sobre el título de un tema, se le muestra el título del archivo, la ruta del archivo y el número de versión.
+Cuando pasa el puntero sobre el título de un tema, se muestra el título del archivo, la ruta de acceso del archivo y el número de versión.
 
 ![](images/mouse-hover-on-title_cs.png){align="left"}
 
 >[!NOTE]
 >
-> Una vez que haya una versión del tema disponible, también puede añadirle etiquetas. Estas etiquetas se pueden utilizar para crear una línea base para publicar una versión específica del documento. Para obtener más información sobre el uso de etiquetas en los temas, vista [Usar etiquetas](web-editor-use-label.md#).
+> Una vez que haya disponible una versión del tema, también puede agregarle etiquetas. Estas etiquetas se pueden utilizar para crear una línea de base para publicar una versión específica del documento. Para obtener más información acerca del uso de etiquetas en los temas, vea [Usar etiquetas](web-editor-use-label.md#).
 
 ## Bloquear/desbloquear
 
@@ -610,7 +610,7 @@ Bloquea o desbloquea el archivo actual. Bloquear un archivo le proporciona acces
 
 ![](images/web-editor-lock-button.png){align="left"}
 
-Si está en el Ver Mapa y expande el mapa principal, puede bloquear todos los archivos del mapa con un solo clic. Simplemente expanda el archivo de asignación principal y seleccione el archivo principal, lo que resulta en la selección de todos los archivos dentro del mapa. A continuación, puede seleccionar **Bloquear** ![](images/LockClosed_icon.svg) para bloquear todos los archivos del mapa.
+Si está en la vista Mapa y expande el mapa principal, puede bloquear todos los archivos del mapa con un solo clic. Simplemente expanda el archivo de asignación principal y seleccione el archivo principal, lo que resulta en la selección de todos los archivos dentro del mapa. A continuación, puede seleccionar **Bloquear** ![](images/LockClosed_icon.svg) para bloquear todos los archivos del mapa.
 
 En el panel Repositorio, los archivos bloqueados se muestran con un icono de bloqueo. Cuando pasa el ratón por encima de este icono de bloqueo, el nombre de usuario o bloqueado por usted se muestra como información sobre herramientas.
 
@@ -621,4 +621,4 @@ Si un archivo está bloqueado por otro usuario, al pasar el ratón por encima de
 Como administrador, también obtienes acceso a la función **Forzar desbloqueo** que te permite desbloquear el archivo bloqueado por otros usuarios. Utilice esta función para acceder a los derechos de edición de un archivo bloqueado por otros usuarios.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Tema principal:**&#x200B;[ Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)
