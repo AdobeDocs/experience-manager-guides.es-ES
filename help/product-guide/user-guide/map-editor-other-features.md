@@ -72,4 +72,4 @@ Se añade una referencia de navegación del fichero de mapa seleccionado en la u
 *Vista de diseño*
 
 
-**Tema principal:**[ Introducción al editor de mapas](map-editor.md)
+**Tema principal:**&#x200B;[ Introducción al editor de mapas](map-editor.md)

@@ -168,5 +168,5 @@ Con el icono Filtros del panel **Filtros de línea de base**, puede aplicar filt
 
 Una vez que haya editado la línea de base, seleccione **Guardar** para guardar los cambios realizados en la línea de base. Puede seleccionar **Restablecer** si no desea guardar el cambio y restablecer la línea de base. Al seleccionar **Restablecer**, se muestra una advertencia indicando que se perderán los cambios que no se hayan guardado.
 
-**Tema principal:**[ Generación de resultados](generate-output.md)
+**Tema principal:**&#x200B;[ Generación de resultados](generate-output.md)
 

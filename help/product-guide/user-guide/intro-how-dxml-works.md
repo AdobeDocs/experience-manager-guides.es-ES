@@ -20,4 +20,4 @@ El diagrama siguiente ilustra cómo funciona Experience Manager Guides con AEM y
 Al trabajar en cualquiera de los flujos de trabajo, si la sesión permanece inactiva durante mucho tiempo, se activa un mensaje de tiempo de espera de sesión para evitar la pérdida de contenido. Para obtener más información, vea [Tiempo de espera de sesión](./session-timeout-prompt.md).
 
 
-**Tema principal:**[ Acerca de Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**Tema principal:**&#x200B;[ Acerca de Adobe Experience Manager Guides as a Cloud Service](intro.md)
