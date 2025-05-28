@@ -4,7 +4,7 @@ description: Conozca la Barra de herramientas en el Editor. Obtenga información
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: e49fde64cbbb2544afe23b820af6477ed1e900fc
+source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
 workflow-type: tm+mt
 source-wordcount: '5909'
 ht-degree: 0%
@@ -380,7 +380,7 @@ Inserta una imagen en la ubicación válida actual o siguiente. Seleccione el ic
 > También puede agregar una imagen arrastrándola y soltándola desde el sistema local en el artículo. En este caso, el archivo de imagen se agrega mediante el flujo de trabajo **Cargar Assets**.  Para obtener más información, vea el flujo de trabajo **Cargar Assets** en la sección [Panel izquierdo](./web-editor-left-panel.md).
 
 
-![](images/insert-image.png){width="300" align="left"}
+![](images/insert-image-new-dialog.png){width="300" align="left"}
 
 Puede agregar un título de imagen/figura y texto alternativo para la imagen en el cuadro de diálogo Insertar imagen.
 
@@ -621,4 +621,4 @@ Si un archivo está bloqueado por otro usuario, al pasar el ratón por encima de
 Como administrador, también obtienes acceso a la función **Forzar desbloqueo** que te permite desbloquear el archivo bloqueado por otros usuarios. Utilice esta función para acceder a los derechos de edición de un archivo bloqueado por otros usuarios.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Tema principal:**&#x200B;[ Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

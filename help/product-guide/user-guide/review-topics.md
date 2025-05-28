@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo revisar temas y utilizar las funci
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 9197cb757e3b883d81eee8a72c797b74cf06e570
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2476'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,7 @@ Siga estos pasos para revisar un tema:
 
    - **G**: Número de comentarios recibidos sobre un tema. Este número cambia según el filtro que aplique.
 
+
    Todos los temas del mapa se muestran como un solo documento compuesto. Los temas que el revisor puede revisar se muestran normalmente. No se muestran los temas que la revisión no puede revisar.
 
    ![](images/review-read-only.png){align="left"}
@@ -91,6 +92,12 @@ El cuadro de comentarios admite entradas de varias líneas y permite a los usuar
 **Vista de documento y vista de tema**: de forma predeterminada, si se comparten varios temas para su revisión, se muestra a los revisores una vista de documento compuesta de los temas. En el caso de una revisión de mapa DITA, todos los temas del mapa se presentan en forma de un único documento, similar a una vista de libro. Si lo desea, también puede seleccionar un tema en particular y solo ese tema se mostrará en la pantalla de revisión.
 
 Cuando vea un solo tema, obtendrá una opción adicional para volver a la vista de documento. En la siguiente captura de pantalla, se abre un tema concreto de un archivo de mapa para su revisión. La opción resaltada: **Mostrar vista de documento** permite al usuario volver a la vista de documento del archivo de asignación.
+
+>[!NOTE]
+>
+> Cualquier resolución de pantalla con una anchura superior a 1600 píxeles es compatible con las anchuras de panel predeterminadas (izquierda y derecha), lo que garantiza que no aparezca ninguna barra de desplazamiento horizontal y que el contenido permanezca correctamente alineado en la vista de documento. Además, siempre puede cambiar el tamaño de la pantalla para mantener la vista del documento adecuada en la IU de revisión.
+
+
 
 ![](images/switch-document-view.png){align="left"}
 
@@ -250,4 +257,4 @@ Seleccione una o más de las siguientes opciones de filtrado en el cuadro de di�
 
 Para quitar el filtro y ver todos los comentarios, anule la selección de todos los filtros del cuadro de diálogo **Tipo de filtro** y seleccione **Aplicar**.
 
-**Tema principal:**&#x200B;[ Introducción a la revisión](review.md)
+**Tema principal:**[ Introducción a la revisión](review.md)

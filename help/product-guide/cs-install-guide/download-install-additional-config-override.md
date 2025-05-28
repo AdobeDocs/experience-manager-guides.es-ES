@@ -5,9 +5,9 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: dae38cf948b99c8b89c61472938ce97b571f9366
+source-git-commit: e4b213b5f0efda18fb24f100f3ee8237947890bf
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Para garantizar una transición sin problemas y minimizar las interrupciones, Ex
 
 >[!IMPORTANT]
 >
-> Esta opción de configuración para cambiar entre la IU nueva y la antigua estará disponible hasta la versión 2025.4.0. Después, la nueva interfaz de usuario se convertirá en la predeterminada y ya no se admitirá la opción de volver a la interfaz de usuario anterior.
+> Esta opción de configuración para cambiar entre la IU nueva y la antigua era compatible hasta la versión 2025.4.0. Con la versión 2025.6.0, esta configuración está obsoleta y ya no se puede utilizar para volver a la IU antigua.
 
 Siga estos pasos para configurar la interfaz de usuario de Experience Manager Guides:
 
@@ -65,4 +65,4 @@ Siga estos pasos para configurar la interfaz de usuario de Experience Manager Gu
 
 
 
-**Tema principal:**&#x200B;[ Descargar e instalar](download-install.md)
+**Tema principal:**[ Descargar e instalar](download-install.md)

@@ -4,9 +4,9 @@ description: Cree y administre líneas de base desde la consola de mapas de Adob
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 154d4cb2c4c51581590048e1d368f4c744402847
+source-git-commit: c7e76de14a3dd63eff794ecca16ebbccb3cb2d8a
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1881'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,10 @@ En **Seleccionar la versión basada en,** seleccione una de las siguientes opcio
 
 - **Fecha**: selecciona la versión de los temas en la fecha y hora especificadas.
 - **Etiqueta**: seleccione esta opción para elegir los temas según la etiqueta aplicada. Si los temas tienen etiquetas especificadas, estas se enumeran en la lista desplegable. Puede elegir una etiqueta de la lista. También puede agregar una etiqueta en el cuadro de texto.
+
+  >[!NOTE]
+  >
+  > Al elegir etiquetas, el cargador de etiquetas permanece visible hasta que todas las etiquetas se hayan recuperado y cargado por completo correctamente. Una vez cargadas, las etiquetas se muestran en un orden alfabético que no distingue entre mayúsculas y minúsculas. Se recuperan en lotes de 20, con el desplazamiento infinito habilitado en el menú desplegable para cargar lotes adicionales a medida que se desplaza.
 
   Para las referencias directas en líneas de base estáticas, las etiquetas se extraen de la última versión guardada del mapa. Por ejemplo, si ha creado las etiquetas `Label Release 1.0` y `Label Release 1.1` para las versiones 1.0 y 1.1 del Tema A y, a continuación, agrega el Tema A al mapa guardado como versión 1.0. En este caso, puede ver las etiquetas `Label Release 1.0` y `Label Release 1.1` en el menú desplegable para etiquetas de línea de base estáticas.
 
@@ -164,5 +168,5 @@ Con el icono Filtros del panel **Filtros de línea de base**, puede aplicar filt
 
 Una vez que haya editado la línea de base, seleccione **Guardar** para guardar los cambios realizados en la línea de base. Puede seleccionar **Restablecer** si no desea guardar el cambio y restablecer la línea de base. Al seleccionar **Restablecer**, se muestra una advertencia indicando que se perderán los cambios que no se hayan guardado.
 
-**Tema principal:**&#x200B;[ Generación de resultados](generate-output.md)
+**Tema principal:**[ Generación de resultados](generate-output.md)
 

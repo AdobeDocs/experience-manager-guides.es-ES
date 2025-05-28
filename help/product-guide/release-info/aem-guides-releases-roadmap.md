@@ -3,10 +3,10 @@ title: Adobe Experience Manager Guides publica la hoja de ruta 2024
 description: Obtenga información sobre las versiones en directo y futuras de Adobe Experience Manager Guides local y Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 1a3e9734119db9fe6a2657cc0c18aae9da3bbcdf
+source-git-commit: 7fbdb110dfc4c88352199f7a76891c2611238e34
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 31%
+source-wordcount: '410'
+ht-degree: 30%
 
 ---
 
@@ -27,13 +27,13 @@ Las versiones para Experience Manager Guides as a Cloud Service están planifica
 
 | Versión | Evento | Programación | Novedades | Instrucciones de actualización | Problemas solucionados | Estado |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.06.0 | Actualización automática | 2-04 de junio de 2025 |  |  |  | Público destinatario |
 | Adobe Experience Manager Guides 2025.07.0 | Actualización automática | 15-17 de julio de 2025 |  |  |  | Público destinatario |
 
 ### Versiones en directo
 
 | Versión | Evento | Programación | Novedades | Instrucciones de actualización | Problemas solucionados | Estado |
 |---|---|---|---|---|---|---|
+| Adobe Experience Manager Guides 2025.6.0 | Actualización automática | 2-04 de junio de 2025 | [Aquí](whats-new-2025-06-0.md) | [Aquí](upgrade-instructions-2025-06-0.md) | [Aquí](fixed-issues-2025-06-0.md) | Actualizado |
 | Adobe Experience Manager Guides 2025.4.0 | Actualización automática | 5-07 de mayo de 2025 | [Aquí](whats-new-2025-04-0.md) | [Aquí](upgrade-instructions-2025-04-0.md) | [Aquí](fixed-issues-2025-04-0.md) | Actualizado |
 | Adobe Experience Manager Guides 2025.2.0 | Actualización automática | 10-12 de marzo de 2025 | [Aquí](whats-new-2025-02-0.md) | [Aquí](upgrade-instructions-2025-02-0.md) | [Aquí](fixed-issues-2025-02-0.md) | Actualizado |
 | Adobe Experience Manager Guides 2024.12.0 | Actualización automática | 13-15 de enero de 2025 | - | [Aquí](upgrade-instructions-2024-12-0.md) | [Aquí](fixed-issues-2024-12-0.md) | Actualizado |

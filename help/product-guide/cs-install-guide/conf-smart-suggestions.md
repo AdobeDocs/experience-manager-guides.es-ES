@@ -2,9 +2,9 @@
 title: Configuración del asistente de IA para la creación y la ayuda inteligentes
 description: Obtenga información sobre cómo configurar el asistente de IA en Experience Manager Guides
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: 018bd7c7bc3bb9161e5bedd42d50a5c501ca2919
+source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,10 @@ Siga estos pasos para configurar el asistente de IA:
 1. [Crear configuración de IMS en Adobe Developer Console](#create-ims-configurations-in-adobe-developer-console).
 2. [Añadir configuraciones de IMS al entorno](#add-ims-configuration-to-the-environment)
 3. [Habilitar el indicador de IA en el entorno](#enable-ai-flag-in-the-environment)
-4. [Aplicar cambios al entorno](#apply-changes-to-the-environment)
-5. [Habilitar el asistente de IA en el perfil de carpeta](#enable-ai-assistant-in-folder-profile)
-6. [Configurar sugerencias inteligentes en el perfil de carpeta](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)
+4. [Añada la variable GUIDES_AI_SITE_ID en el entorno](#add-the-guides_ai_site_id-variable-in-the-environment)
+5. [Aplicar cambios al entorno](#apply-changes-to-the-environment)
+6. [Habilitar el asistente de IA en el perfil de carpeta](#enable-ai-assistant-in-folder-profile)
+7. [Configurar sugerencias inteligentes en el perfil de carpeta](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)
 
 ## Creación de configuraciones de IMS en Adobe Developer Console
 
@@ -92,6 +93,14 @@ Asegúrese de utilizar el mismo nombre y configuración que se indican en la sig
 
 Si se establece el indicador en **true**, se habilita la funcionalidad, mientras que si se establece en **false**, se deshabilita.
 
+## Añada la variable GUIDES_AI_SITE_ID en el entorno
+
+Agregue la variable `GUIDES_AI_SITE_ID` a su entorno (Cloud Manager) y establezca el valor en `id_f651abc807c84f52b425737bb93f87ba` para habilitarla.
+
+Asegúrese de utilizar el mismo nombre y configuración que se indican en la siguiente captura de pantalla.
+
+![](assets/conf-folder-guides-site-id.png){width="800" align="left"}
+
 ## Aplicar cambios al entorno
 
 Una vez que haya añadido la configuración de IMS y habilitado el indicador del asistente de IA al entorno, realice los siguientes pasos para vincular estas propiedades con AEM Guides mediante OSGi:
@@ -143,8 +152,8 @@ Para obtener más información, consulte [Configurar sugerencias inteligentes en
   "related.link.threshold":0.5,
   "emerald.url":"https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1",
   "instance.type":"prod",
-  "chat.url":"https://aem-guides-ai.adobe.io"
-}
+  "chat.url":"https://aem-guides-ai-v2.adobe.io"
+  }
 ```
 
 ## Detalles de configuración del asistente de IA
@@ -154,7 +163,7 @@ Para obtener más información, consulte [Configurar sugerencias inteligentes en
 | conref.inline.threshold | Umbral que controla la precisión/recuperación de las sugerencias recuperadas para la etiqueta que el usuario está escribiendo actualmente. | Cualquier valor comprendido entre -1,0 y 1,0. | 0,6 |
 | conref.block.threshold | Umbral que controla la precisión/recuperación de las sugerencias recuperadas para las etiquetas en todo el archivo. | Cualquier valor comprendido entre -1,0 y 1,0. | 0,7 |
 | emerald.url | Punto final para la base de datos vectorial de sugerencias inteligentes | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) |
-| chat.url | Punto de conexión para el servicio de asistente de IA | [https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io) | [https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io) |
+| chat.url | Punto de conexión para el servicio de asistente de IA | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) |
 | instance.type | Tipo de instancia de AEM. Asegúrese de que sea único para cada instancia de AEM en la que se hayan configurado las sugerencias inteligentes. Un caso de uso sería probar la función en el entorno de ensayo con &quot;instance.type&quot; = &quot;stage&quot; mientras que al mismo tiempo, la función también se configura en &quot;prod&quot;. | Cualquier clave única que identifique el entorno. Solo se permiten *valores alfanuméricos*. &quot;dev&quot;/&quot;stage&quot;/&quot;prod&quot;/&quot;test1&quot;/&quot;stage2&quot; | &quot;prod&quot; |
 
 Una vez configurada, el icono Asistente de IA se muestra en la página de inicio y el editor de Experience Manager Guides. Para obtener más información, consulte la sección [Asistente de IA](../user-guide/ai-assistant.md) en la Guía del usuario de Experience Manager.
