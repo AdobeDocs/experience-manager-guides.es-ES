@@ -1,7 +1,8 @@
 ---
 title: Notas de versión | Se han corregido problemas en la versión 2025.06.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las correcciones de errores en la versión 2025.06.0 de Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 78d8896982ff73e954de6d6daa9832faf30ed3b3
+exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
+source-git-commit: 83be0a1e051bfc524ff2448397d87349f30b4301
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 4%
@@ -18,7 +19,6 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 
 ## Creación
 
-- Al abrir un mapa DITA con el shell unificado habilitado, el editor se actualiza de forma intermitente. (GUIDES-26919)
 - Si no se cierran las conexiones de sesión JCR al actualizar o crear temas, se producen pérdidas de memoria y tiempo de inactividad del servicio. (GUIDES-26282)
 - Al arrastrar las columnas, su anchura cambia de valores de porcentaje a valores de píxel, lo que da como resultado tablas distorsionadas o mal alineadas.(GUIDES-23128)
 - Cuando el contenido se pega en `code block` o cuando se agregan espacios en `code block` y se cambia la vista, se pierde el espaciado. (GUIDES-27478)
@@ -47,6 +47,8 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 Adobe ha identificado el siguiente problema conocido para la versión 2025.06.0:
 
 - Cuando se utiliza la opción Buscar y reemplazar, después de aplicar la operación Reemplazar una sola incidencia en un archivo, no se pueden realizar más acciones en el panel Buscar y reemplazar. (GUIDES-28930)
+
+- Al abrir un mapa DITA con el shell unificado habilitado, el editor se actualiza de forma intermitente. (GUIDES-26919)
 
 - En un perfil de carpeta, cuando se elimina un recurso ya indexado de la interfaz de usuario, la ruta indexada correspondiente no se elimina y un intento de reindexación falla con un mensaje de error. (GUIDES-29147) <br>**Solución alternativa:** Debe quitar la ruta obsoleta que ya no existe antes de iniciar la reindexación.
 

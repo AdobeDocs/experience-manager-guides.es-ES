@@ -4,7 +4,8 @@ description: Obtenga información sobre cómo procesar recursos
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: b0e744baeb6867bfc9e7d212ec53e581812d8f63
+exl-id: 27786098-119c-4b7a-8275-8a89d435294f
+source-git-commit: 851dafc1f17864bf6a295de7be12ffe513c3af57
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Siga los pasos mencionados a continuación para procesar o reprocesar los recurs
 1. En el panel **Herramientas**, seleccione **Guías**.
 1. Seleccione el mosaico **Procesador de recursos**.
 
-   ![procesador de recursos de flujo](images/flow-asset-processor.png){width="550" align="left"}
+   ![procesador de recursos de flujo](images/flow-asset-processor.png){align="left"}
 
 1. Se abrirá la ventana Procesador de recursos de guías con los detalles que se muestran a continuación. Además, solo se muestra en esta ventana la información perteneciente a las últimas cinco migraciones.
 
@@ -43,7 +44,7 @@ Siga los pasos mencionados a continuación para procesar o reprocesar los recurs
 
    - **Estado**: señala al estado de reprocesamiento como En curso, Completado o Cancelado.
 
-   ![Guides-asset-processor](images/guides-asset-processor.png){width="550" align="left"}
+   ![Guides-asset-processor](images/guides-asset-processor.png){align="left"}
 
 1. Seleccione la pestaña **Nuevo proceso** en la esquina superior derecha de la ventana para iniciar una nueva tarea de procesamiento.
 
@@ -66,20 +67,16 @@ Hay opciones adicionales disponibles para la tarea de procesamiento una vez inic
 
 - **Restart** : reinicia la tarea de procesamiento de recursos que se realizó correctamente anteriormente.
 
-  ![restart-asset-processor](images/restart-asset-processor.png){width="550" align="left"}
+  ![restart-asset-processor](images/restart-asset-processor.png){align="left"}
 
 - **Reanudar**: Reanuda la tarea de procesamiento de recursos que se canceló o produjo un error.
 
-  ![resume-asset-processor](images/resume-asset-processor.png){width="550" align="left"}
+  ![resume-asset-processor](images/resume-asset-processor.png){align="left"}
 
 - **Cancelar** : Cancela la tarea de procesamiento de recursos en curso.
 
-  ![cancel-asset-processor](images/cancel-asset-processor.png){width="550" align="left"}
+  ![cancel-asset-processor](images/cancel-asset-processor.png){align="left"}
 
 - **Ver registros**: muestra los registros de la tarea de procesamiento de recursos. Para las tareas en curso, el registro muestra información de procesamiento detallada, incluido el tiempo restante estimado y el estado del recurso. Esta lista de registros muestra hasta las últimas 500 entradas. Se puede descargar el registro completo.
 
-  ![logs-asset-processor](images/logs-asset-processor.png){width="550" align="left"}
-
-
-
-
+  ![logs-asset-processor](images/logs-asset-processor.png){align="left"}
