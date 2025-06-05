@@ -2,9 +2,9 @@
 title: Notas de versión | Se han corregido problemas en la versión 2025.06.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las correcciones de errores en la versión 2025.06.0 de Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
-source-git-commit: 83be0a1e051bfc524ff2448397d87349f30b4301
+source-git-commit: c137f18d3cb85ed47547d5523c4dea08c22f9560
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '516'
 ht-degree: 4%
 
 ---
@@ -50,6 +50,6 @@ Adobe ha identificado el siguiente problema conocido para la versión 2025.06.0:
 
 - Al abrir un mapa DITA con el shell unificado habilitado, el editor se actualiza de forma intermitente. (GUIDES-26919)
 
-- En un perfil de carpeta, cuando se elimina un recurso ya indexado de la interfaz de usuario, la ruta indexada correspondiente no se elimina y un intento de reindexación falla con un mensaje de error. (GUIDES-29147) <br>**Solución alternativa:** Debe quitar la ruta obsoleta que ya no existe antes de iniciar la reindexación.
+- Para la configuración de IA en el perfil de carpeta, cuando se elimina un recurso ya indexado de la interfaz de usuario, la ruta indexada correspondiente no se elimina y un intento de reindexación falla con un mensaje de error. (GUIDES-29147) <br>**Solución alternativa:** Debe quitar la ruta obsoleta que ya no existe antes de iniciar la reindexación.
 
-- Si un mapa contiene dependencias cíclicas y se abre la Vista previa del mapa, las vistas Source, Autor y Diseño dejarán de ser accesibles hasta que se actualice la página. (GUIDES-28334) <br>**Solución alternativa:** Debe actualizar la página para restaurar el acceso a estas vistas.
+- Si un mapa contiene dependencias cíclicas y abre la Vista previa del mapa, las vistas Source, Autor y Diseño no estarán accesibles hasta que se actualice el explorador. (GUIDES-28334) <br>**Solución alternativa:** Debe actualizar el explorador para restaurar el acceso a estas vistas.
