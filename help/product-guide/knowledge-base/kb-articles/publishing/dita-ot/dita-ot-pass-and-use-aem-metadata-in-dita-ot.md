@@ -22,7 +22,7 @@ En un nivel superior, a continuación se muestran los pasos que aprenderá en es
 ## Fondo
 
 Con AEM Guides, puede utilizar los complementos DITA-OT para publicar en los formatos de salida que desee mediante los complementos configurados.
-AEM también puede pasar metadatos de los recursos administrados en DAM de la al proceso DITA-OT para usarlos en la salida generada; consulte la documentación sobre [cómo configurar ditamap/topics para pasar metadatos a través del ajuste preestablecido de salida](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
+AEM también puede pasar metadatos de los recursos administrados en DAM de la al proceso DITA-OT para usarlos en la salida generada; consulte la documentación sobre [cómo configurar ditamap/topics para pasar metadatos a través del ajuste preestablecido de salida](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
 
 
 ## Suposiciones

@@ -42,7 +42,7 @@ En esta sesión, aprendió lo siguiente sobre la publicación de PDF nativos:
 
 ## Recursos relacionados
 
-- **Pasos de configuración del PDF nativo** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
+- **Pasos de configuración del PDF nativo** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=es)
 
 - **Información general funcional sobre la publicación de PDF nativos** - [en el Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=es)
 

@@ -57,8 +57,8 @@ También puede quitar las etiquetas existentes que son comunes en los archivos s
 
 ## Otros recursos útiles
 
-- [Etiquetado masivo mediante el panel de mapas (IU de Assets)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
-- [Informes Ditamap en el editor web](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
+- [Etiquetado masivo mediante el panel de mapas (IU de Assets)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=es)
+- [Informes Ditamap en el editor web](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=es)
 - AEM [Etiquetado en el código de tiempo de trabajo](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=es)
 
 
