@@ -4,9 +4,9 @@ description: Descubra cómo funciona la generación de resultados incrementales 
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 05d3246bd8b1e1b1d870b494aa09f6acff8a0f1d
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,7 @@ Si el mapa está fragmentado y ha actualizado un solo tema en ese mapa, debe vol
 
 Realice los siguientes pasos para volver a generar los resultados de un tema específico o un grupo de temas:
 
->[!IMPORTANT]
->
-> Cuando se regenera la salida de AEM Sites, la salida se crea utilizando la versión actual de los ficheros y no la instantánea adjunta.
-
-## Generar salida incremental desde la consola Mapa
+## Generar resultados incrementales desde la consola de mapas (para sitios de AEM que utilizan la asignación de componentes compuestos)
 
 Siga estos pasos para generar resultados incrementales para AEM Sites mediante la consola Mapa:
 
@@ -36,19 +32,26 @@ Siga estos pasos para generar resultados incrementales para AEM Sites mediante l
 1. Seleccione el ajuste preestablecido de AEM Sites para el que desea generar una salida incremental.
 1. En la ficha **Temas**, seleccione los temas que desee publicar.
 
-   ![lista de temas de aem sites](images/aem-presets-topic-list.png) {align="left"}
+   - Sin línea base
+
+     ![lista de temas de aem sites](images/aem-presets-topic-list.png) {align="left"}
+
+   - Con línea base
+
+     ![lista de temas de aem sites con línea de base](images/aem-presets-topic-list-new.png) {align="left"}
 
    >[!NOTE]
    >
    > Cuando se selecciona una Línea de base en la ficha **Contenido**, la lista Tema muestra los temas y sus versiones de la Línea de base adjunta.<br><br>
    > La publicación incremental de la lista Temas debe utilizarse únicamente cuando no haya cambios en la estructura del mapa. Si se produce un cambio en la estructura del mapa/índice, todo el mapa debe publicarse una vez para actualizar el índice.
+
 1. Seleccione **Guardar** para guardar los cambios.
 1. Seleccione **Generar salida** para generar la salida.
 
 
-## Generar salida incremental desde el panel de mapas
+## Generar resultados incrementales desde el panel de mapas (para sitios de AEM que utilizan la asignación de componentes heredados)
 
-Siga estos pasos para generar resultados incrementales para AEM Sites mediante el panel de mapas:
+Siga estos pasos para generar una salida incremental para AEM Sites mediante el panel de asignaciones:
 
 1. En la interfaz de usuario de Assets, desplácese hasta el fichero de mapa DITA y selecciónelo.
 
@@ -71,6 +74,9 @@ Siga estos pasos para generar resultados incrementales para AEM Sites mediante e
    Aparecerá la página **Regenerar temas seleccionados**.
 
 1. Seleccione el ajuste preestablecido de salida que desee utilizar para regenerar los temas seleccionados.
+
+   Para el ajuste preestablecido de salida de AEM Sites que utiliza la asignación de componentes heredados, si se selecciona una línea de base, las versiones de tema incluidas en la línea de base seleccionada se utilizan para la generación de resultados. Además, la publicación incremental de la lista Temas debe utilizarse únicamente cuando no haya cambios en la estructura del mapa. Si se produce un cambio en la estructura del mapa/índice, todo el mapa debe publicarse una vez para actualizar el índice. Para obtener más información sobre cómo usar los ajustes preestablecidos del sitio de AEM, vea [Ajustes preestablecidos de AEM Sites en el tablero de mapas](./generate-output-aem-site-map-dashboard.md).
+
 
 1. Seleccione **Regenerar** para iniciar el proceso de generación de resultados.
 

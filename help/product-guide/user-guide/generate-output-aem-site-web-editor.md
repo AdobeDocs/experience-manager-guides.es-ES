@@ -4,9 +4,9 @@ description: Cree y configure el ajuste preestablecido de AEM Sites en la consol
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 8f2658bd3a724ff375d6d1a9b4474a5cdd8ce270
 workflow-type: tm+mt
-source-wordcount: '3533'
+source-wordcount: '3534'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ La ficha **Lista de temas** muestra la lista de temas presentes en la copia de t
 
 **Referencias de mapas cruzados**
 
-Esta lista contiene temas que contienen referencias entre mapas con `scope =”peer”`. Puede especificar el contexto de publicación para una lista de referencias de mapas cruzados con `scope=”peer”` a temas disponibles en otras asignaciones DITA. Esta pestaña aparece si utiliza la versión de Experience Manager Guides (UUID).
+Esta lista contiene temas que contienen referencias entre mapas con `scope ="peer"`. Puede especificar el contexto de publicación para una lista de referencias de mapas cruzados con `scope="peer"` a temas disponibles en otras asignaciones DITA. Esta pestaña aparece si utiliza la versión de Experience Manager Guides (UUID).
 
 Para obtener más información, consulte la sección [Trabajar con temas vinculados](#working-with-linked-topics) a continuación.
 
@@ -171,18 +171,20 @@ La ficha **General** contiene las siguientes opciones de configuración:
 
 **Contenido**
 
+![Nuevo ](images/aem-sites-content-tab.png){width="650" align="left"}
+
 La pestaña **Content** contiene las siguientes opciones de configuración:
 
 | Opciones de AEM Sites | Descripción |
 | --- | --- |
-| Usar línea base | Si ha creado una Línea base para el mapa DITA seleccionado, seleccione esta opción para especificar la versión que desea publicar.<br><br>Ver [Trabajar con línea de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obtener más detalles. |
+| Usar línea base | Si ha creado una Línea base para el mapa DITA seleccionado, seleccione esta opción para especificar la versión que desea publicar.<br><br>Ver [Trabajar con línea de base](./web-editor-baseline.md) para obtener más detalles. |
 | Filtrado condicional | Seleccione una de las siguientes opciones:<br><br>**None**: Seleccione esta opción si no desea aplicar ninguna condición en la salida publicada.<br>**Usando DITAVAL**: seleccione los archivos DITAVal para generar contenido condicionado. Puede seleccionar varios archivos DITAVal mediante el cuadro de diálogo de exploración o escribiendo la ruta del archivo. Utilice el icono en forma de cruz situado cerca del nombre del archivo para eliminarlo. Los archivos DITAVal se evalúan en el orden especificado, por lo que las condiciones especificadas en el primer archivo tienen prioridad sobre las condiciones coincidentes especificadas en archivos posteriores. Puede mantener el orden de los archivos añadiendo o eliminando archivos. Si el archivo DITAVal se mueve a otra ubicación o se elimina, no se elimina automáticamente del panel de asignaciones. Debe actualizar la ubicación en caso de que los archivos se muevan o eliminen. Puede pasar el ratón sobre el nombre del archivo para ver la ruta en el repositorio de AEM donde está almacenado el archivo. Solo puede seleccionar archivos DITAVal y se muestra un error si selecciona cualquier otro tipo de archivo.<br>**Ajuste preestablecido de condición**: seleccione un ajuste preestablecido de condición en la lista desplegable para aplicar una condición al publicar la salida. Esta opción está visible si se ha añadido una condición para el fichero de mapa DITA. La configuración condicional está disponible en la ficha Ajustes preestablecidos de condición de la consola de mapas DITA. Para obtener más información acerca de los ajustes preestablecidos de condición, vea [Usar ajustes preestablecidos de condición](generate-output-use-condition-presets.md#id1825FL004PN). |
 | Metadatos <br> <br>Propiedades de archivo (Assets) | Seleccione las propiedades que desee procesar como metadatos. Estas propiedades se definen desde la página Propiedades del fichero de mapa DITA o de mapa de libros. Las propiedades que seleccione en la lista desplegable aparecerán en el campo **Propiedades del archivo**. Seleccione el icono en forma de cruz situado junto a la propiedad para eliminarla. <br><br>**Nota**: las propiedades de metadatos distinguen entre mayúsculas y minúsculas.<br><br>*Si ha seleccionado una Línea base, los valores de las propiedades se basan en la versión de la Línea base seleccionada.<br>* Si no ha seleccionado una Línea de base, los valores de las propiedades se basan en la versión más reciente.<br><br>También puede pasar los metadatos a la salida mediante la publicación DITA-OT. Para obtener más información, [Pase los metadatos a la salida mediante DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Nota**: si no ha definido `cq:tags` en la opción Propiedades, los valores de `cq:tags` se seleccionarán de la copia de trabajo actual aunque haya seleccionado una Línea de base para la publicación. |
 | Metadatos <br> <br>Usar propiedades de mapa como alternativa | Si se selecciona, las propiedades definidas para el fichero de mapa también se copian en los temas en los que no se definen dichas propiedades. Tenga en cuenta los siguientes puntos al utilizar esta opción:<br><br>*Solo las propiedades String, Date o Long (únicas y de varios valores) se pueden pasar a las páginas del sitio de AEM.<br>* Los valores de metadatos de una propiedad de tipo cadena no admiten ningún carácter especial (como `@, #, " "`).<br>* Esta opción debe usarse junto con la opción `Properties`. |
 
 **Referencias de mapas cruzados**
 
-Esta lista contiene temas que contienen referencias entre mapas con `scope =”peer”`. Puede especificar el contexto de publicación para una lista de referencias de mapas cruzados con `scope=”peer”` a temas disponibles en otras asignaciones DITA. Esta pestaña aparece si utiliza la versión de Experience Manager Guides (UUID).
+Esta lista contiene temas que contienen referencias entre mapas con `scope ="peer"`. Puede especificar el contexto de publicación para una lista de referencias de mapas cruzados con `scope="peer"` a temas disponibles en otras asignaciones DITA. Esta pestaña aparece si utiliza la versión de Experience Manager Guides (UUID).
 
 Para obtener más información, consulte la sección [Trabajar con temas vinculados](#working-with-linked-topics) a continuación.
 
@@ -208,7 +210,7 @@ Siga estos pasos para especificar el contexto de publicación de los archivos de
 
    >[!NOTE]
    >
-   >La ficha **Referencias de mapas cruzados** muestra los temas que están vinculados usando solamente `scope=”peer”`. Para los vínculos con `scope=”local”`, no es necesario especificar el contexto de publicación.
+   >La ficha **Referencias de mapas cruzados** muestra los temas que están vinculados usando solamente `scope="peer"`. Para los vínculos con `scope="local"`, no es necesario especificar el contexto de publicación.
 
    Todos los temas vinculados tienen su último ajuste preestablecido de salida y mapa seleccionado de forma predeterminada. El contexto de publicación de todos los temas vinculados está establecido en la asignación `<Most recently generated>` de forma predeterminada.
 
@@ -217,8 +219,8 @@ Siga estos pasos para especificar el contexto de publicación de los archivos de
 1. Si desea utilizar el resultado publicado más recientemente de cada archivo dependiente en el mapa, seleccione **Usar contexto de publicación generado más recientemente** para todos los temas dependientes.
 Debe publicar el mapa seleccionado como mapa principal antes de publicar el mapa que contiene los temas vinculados. Si el mapa con temas vinculados no se publica, los vínculos aparecen como texto normal en lugar de como hipervínculos en la salida de AEM Sites.
 Debe seleccionar el mismo tipo de ajuste preestablecido de AEM Sites para el tema vinculado. Por ejemplo, si el ajuste preestablecido actual de AEM Sites utiliza la asignación de componentes heredados, seleccione un ajuste preestablecido de AEM Sites similar en el tema vinculado.
-1. En la lista desplegable Mapa principal, seleccione el archivo de mapa con cuya salida desee vincular la salida del mapa actual.
-Al seleccionar un archivo de asignación, se muestra el UUID del mapa en la columna UUID del mapa principal. Los ajustes preestablecidos de salida asociados con el mapa elegido se enumeran en la lista de ajustes preestablecidos del mapa principal. Por ejemplo, el Tema 1 del Mapa A contiene una referencia al Tema 2. El tema 2 puede estar presente en mapas únicos o múltiples. Puede seleccionar el mapa principal y un ajuste preestablecido específico o la salida publicada más recientemente para cada vínculo.
+1. En la lista desplegable Mapa principal, seleccione el archivo de asignación con cuya salida desee vincular la salida del mapa actual.
+Al seleccionar un archivo de asignación, se muestra el UUID del mapa en la columna UUID del mapa principal. Los ajustes preestablecidos de salida asociados con el mapa elegido se enumeran en la lista Ajustes preestablecidos del mapa principal. Por ejemplo, el Tema 1 del Mapa A contiene una referencia al Tema 2. El tema 2 puede estar presente en mapas únicos o múltiples. Puede seleccionar el mapa principal y un ajuste preestablecido específico o la salida publicada más recientemente para cada vínculo.
 
 1. Si se hace referencia al mismo tema más de una vez en un archivo, puede agregar un contexto de publicación diferente para cada instancia. Esto proporciona una mayor flexibilidad y control sobre su contenido. Por ejemplo, el tema 3 está presente tanto en el mapa B como en el mapa C. El tema 1 contiene dos referencias al tema 3. Puede elegir Mapa B como mapa principal para el primer vínculo y Mapa C como mapa principal para el segundo vínculo.
 
