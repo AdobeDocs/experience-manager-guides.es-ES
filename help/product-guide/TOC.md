@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: 0cbeef94aa1c2300feae33ad3bc53bef82ebec47
+source-git-commit: b114cbcc0f637a71a9d9b7458686a06070179983
 workflow-type: tm+mt
-source-wordcount: '2139'
-ht-degree: 9%
+source-wordcount: '2277'
+ht-degree: 8%
 
 ---
 
@@ -140,8 +140,8 @@ ht-degree: 9%
                - [Notas de la versión 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notas de la versión 4.2](./release-info/release-notes-4-2.md)
          - [Notas de la versión 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notas de la versión 4.0.x](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notas de la versión 3.8.x](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notas de la versión 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notas de la versión 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guía del usuario (nueva interfaz de usuario) {#user-guide}
    - Introducción {#about-aemg}
       - [Acerca de  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -282,6 +282,47 @@ ht-degree: 9%
       - [Creación del asistente de IA para crear documentos de forma inteligente](./user-guide/ai-assistant-right-panel.md)
       - [Sugerencias inteligentes con tecnología de IA para crear contenido](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [Preguntas frecuentes](./user-guide/ai-assistant-faq.md)
+   - Administrar contenido de aprendizaje {#learning-training-content}
+      - Guía de introducción {#get-started}
+         - Introducción {#intro-lc}
+            - [Descripción general del contenido de aprendizaje y formación](./learning-content/intro.md)
+            - [Interfaz de contenido de Acceso a aprendizaje y formación](./learning-content/access-lc-interface.md)
+         - Configure su curso {#setup-course}
+            - [Resumen del curso](./learning-content/course-overview.md)
+            - [Cree su primer curso](./learning-content/create-first-course.md)
+            - [Comprender los conceptos básicos del administrador de cursos](./learning-content/course-manager-basics.md)
+            - [Gestionar su curso](./learning-content/manage-course.md)
+         - Creación y personalización de contenido de aprendizaje {#customize-lc}
+            - [Resumen del contenido de aprendizaje](./learning-content/lc-overview.md)
+            - [Creación de contenido de aprendizaje](./learning-content/create-content.md)
+            - [Editar contenido de aprendizaje](./learning-content/edit-content.md)
+            - [Añadir componentes básicos](./learning-content/lc-basic-blocks.md)
+            - [Uso de widgets interactivos](./learning-content/lc-widgets.md)
+            - [Uso de estilos en línea](./learning-content/lc-inline-styles.md)
+         - Creación y administración de pruebas {#quiz}
+            - [Resumen de prueba](./learning-content/quiz-overview.md)
+            - [Crear prueba](./learning-content/create-quiz.md)
+            - [Editar prueba](./learning-content/edit-quiz.md)
+            - [Inserción de preguntas en una prueba](./learning-content/quiz-insert-questions.md)
+            - Banco de preguntas {#question-bank}
+               - [Crear banco de preguntas](./learning-content/create-qb.md)
+               - [Insertar preguntas del banco de preguntas](./learning-content/insert-questions.md)
+            - [Propiedades de prueba](./learning-content/quiz-properties.md)
+         - Publicación del curso {#publish-course}
+            - [Acerca de la publicación del curso](./learning-content/publish-overview.md)
+            - [Ajustes preestablecidos admitidos](./learning-content/course-presets.md)
+            - Publicar curso en formato SCORM {#scorm-output}
+               - [Crear ajuste preestablecido de salida SCORM](./learning-content/create-scorm-preset.md)
+               - [Configurar ajuste preestablecido de salida SCORM](./learning-content/config-scorm-preset.md)
+               - [Generar salida de SCORM](./learning-content/generate-scorm-output.md)
+            - Publicar curso en formato PDF {#pdf-output}
+               - [Crear ajuste preestablecido de salida de PDF](./learning-content/create-course-pdf-preset.md)
+               - [Configurar ajuste preestablecido de salida de PDF](./learning-content/config-course-pdf-preset.md)
+               - [Generar PDF](./learning-content/generate-course-pdf.md)
+      - Guía de configuración {#config-lc}
+         - [Acerca de esta guía](./lc-config-guide/introduction.md)
+         - [Configuración de perfiles de carpeta](./lc-config-guide/lc-folder-profile.md)
+         - [Configurar otras opciones](./lc-config-guide/lc-other-settings.md)
    - Apéndice {#appendix}
       - Administrar contenido {#manage-content}
          - [Conceptos clave, funciones y permisos, y requisitos previos](./user-guide/authoring.md)
@@ -291,7 +332,7 @@ ht-degree: 9%
       - Solución de problemas {#troubleshooting}
          - [Session timeout](./user-guide/session-timeout-prompt.md)
 - Guía del usuario (IU antigua) {#user-guide-old-ui}
-   - [Información general de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Información general de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalación y configuración {#install-guide}
    - On-Premise {#on-prem-ig}
       - [Conceptos básicos locales](./install-guide/introduction.md)
@@ -462,7 +503,6 @@ ht-degree: 9%
       - Búsqueda de trabajo con AEM Assets {#aem-asset-search-cs}
          - [Configuración de la búsqueda para la IU de AEM Assets](./cs-install-guide/conf-dita-search.md)
       - [Apéndice](./cs-install-guide/appendix.md)
-
 - Referencia de la API {#api-reference}
    - [Introducción](./api-reference/introduction.md)
    - [API de REST para la administración de resultados](./api-reference/output-management.md)
