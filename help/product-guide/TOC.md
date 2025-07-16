@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: b114cbcc0f637a71a9d9b7458686a06070179983
+source-git-commit: cc57af80f2556a9be9a7cc610ae0efa50e0e086b
 workflow-type: tm+mt
-source-wordcount: '2277'
+source-wordcount: '2283'
 ht-degree: 8%
 
 ---
@@ -140,8 +140,8 @@ ht-degree: 8%
                - [Notas de la versión 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notas de la versión 4.2](./release-info/release-notes-4-2.md)
          - [Notas de la versión 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notas de la versión 4.0.x](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notas de la versión 3.8.x](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notas de la versión 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notas de la versión 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guía del usuario (nueva interfaz de usuario) {#user-guide}
    - Introducción {#about-aemg}
       - [Acerca de  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -323,16 +323,19 @@ ht-degree: 8%
          - [Acerca de esta guía](./lc-config-guide/introduction.md)
          - [Configuración de perfiles de carpeta](./lc-config-guide/lc-folder-profile.md)
          - [Configurar otras opciones](./lc-config-guide/lc-other-settings.md)
+      - Tutoriales en vídeo {#lc-video}
+         - [Flujo de trabajo de autor](./lc-video-tutorials/author-workflow.md)
+         - [Flujo de trabajo del administrador](./lc-video-tutorials/admin-workflow.md)
    - Apéndice {#appendix}
       - Administrar contenido {#manage-content}
          - [Conceptos clave, funciones y permisos, y requisitos previos](./user-guide/authoring.md)
          - [Cargar archivos](./user-guide/authoring-upload-existing-files.md)
          - [Administración de archivos y carpetas](./user-guide/authoring-file-management.md)
          - [Procesar o volver a procesar recursos](./user-guide/asset-processor.md)
-      - Solución de problemas {#troubleshooting}
+      - Resolución de problemas {#troubleshooting}
          - [Session timeout](./user-guide/session-timeout-prompt.md)
 - Guía del usuario (IU antigua) {#user-guide-old-ui}
-   - [Información general de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Información general de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalación y configuración {#install-guide}
    - On-Premise {#on-prem-ig}
       - [Conceptos básicos locales](./install-guide/introduction.md)

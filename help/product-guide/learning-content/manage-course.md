@@ -3,7 +3,8 @@ title: Gestionar un curso en contenido de aprendizaje y formación
 description: Obtenga información sobre las distintas funciones presentes en Experience Manager Guides que le permiten administrar el curso de forma eficaz.
 feature: Authoring
 role: User
-source-git-commit: 5f42540a32da6e85a5c8aa0831582ce871c9088a
+exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -36,24 +37,24 @@ Puede añadir contenido existente del repositorio de contenido al curso. Siga es
 
 1. Seleccione el menú **Opciones** > **Agregar elemento existente**.
 2. Seleccione el tipo de contenido del curso que desea crear.
-3. En el cuadro de diálogo Seleccionar ruta, vaya a la ubicación de contenido y seleccione el contenido de aprendizaje que desee.
+3. En el cuadro de diálogo **Seleccionar ruta**, vaya a la ubicación del contenido y seleccione el contenido de aprendizaje que desee.
 
    ![](assets/add-existing-learning-content.png)
 4. Elija **Seleccionar**.
 
-El contenido de aprendizaje seleccionado se añade al curso desde el repositorio.
+El contenido del curso seleccionado se añade al curso desde el repositorio.
 
 ## Eliminar contenido
 
 Puede eliminar cualquier tema del curso seleccionando el menú **Opciones** para ese tema específico y luego **Eliminar**, como se muestra a continuación.
 
-![](assets/remove-learning-content.png){width="350" align="left"}
+![](assets/remove-learning-content.png)
 
 ## Creación de versiones de cursos
 
 Puede controlar las versiones del curso seleccionando el menú **Opciones** > **Versiones**.
 
-![](assets/course-versioning.png){width="650" align="left"}
+![](assets/course-versioning.png)
 
 Dispone de las siguientes opciones para crear versiones de un curso:
 
@@ -70,7 +71,3 @@ La opción **Mostrar** determina cómo se muestran los temas. Puede elegir prese
 > Esta configuración de vista se aplica solamente dentro del administrador de cursos y no afecta a la salida publicada.
 
 ![](assets/course-display-settings.png)
-
-
-
-
