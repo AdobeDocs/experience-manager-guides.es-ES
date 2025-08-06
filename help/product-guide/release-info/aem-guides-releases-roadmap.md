@@ -3,9 +3,9 @@ title: Adobe Experience Manager Guides publica la hoja de ruta 2024
 description: Obtenga información sobre las versiones en directo y futuras de Adobe Experience Manager Guides local y Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: b79084e369ecc92c4b20447069f8b0b52b4a42b8
+source-git-commit: ff74fa80826eec9fffb06c84b1dd6fa8678f4fc3
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '457'
 ht-degree: 30%
 
 ---
@@ -35,7 +35,7 @@ Las versiones para Experience Manager Guides as a Cloud Service están planifica
 
 | Versión | Evento | Programación | Novedades | Instrucciones de actualización | Problemas solucionados | Estado |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.07.0 | Actualización automática | 14-16 de julio de 2025 | [Aquí](whats-new-2025-07-0.md) | [Aquí](upgrade-instructions-2025-07-0.md) | [Aquí](fixed-issues-2025-07-0.md) | Actualizado |
+| Adobe Experience Manager Guides 2025.07.0 <br> [(Versión de AEM - 21570)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2025/2025-7-0?lang=en#21570) | Actualización automática | 14-16 de julio de 2025 | [Aquí](whats-new-2025-07-0.md) | [Aquí](upgrade-instructions-2025-07-0.md) | [Aquí](fixed-issues-2025-07-0.md) | Actualizado |
 | Adobe Experience Manager Guides 2025.6.0 | Actualización automática | 2-04 de junio de 2025 | [Aquí](whats-new-2025-06-0.md) | [Aquí](upgrade-instructions-2025-06-0.md) | [Aquí](fixed-issues-2025-06-0.md) | Actualizado |
 | Adobe Experience Manager Guides 2025.4.0 | Actualización automática | 5-07 de mayo de 2025 | [Aquí](whats-new-2025-04-0.md) | [Aquí](upgrade-instructions-2025-04-0.md) | [Aquí](fixed-issues-2025-04-0.md) | Actualizado |
 | Adobe Experience Manager Guides 2025.2.0 | Actualización automática | 10-12 de marzo de 2025 | [Aquí](whats-new-2025-02-0.md) | [Aquí](upgrade-instructions-2025-02-0.md) | [Aquí](fixed-issues-2025-02-0.md) | Actualizado |
