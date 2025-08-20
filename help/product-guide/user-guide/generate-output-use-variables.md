@@ -30,4 +30,4 @@ La siguiente tabla enumera las variables que se admiten de forma predeterminada:
 | `${system_time}` | Utiliza el tiempo actual del servidor para crear la ruta de destino. | **Nombre de archivo de mapa DITA:** <br>`SampleDita.ditamap` <br> <br> **Ruta de archivo de mapa DITA:** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**Ruta de destino** configurada como: <br> `/content/output/sites/${system_time}`<br><br>**Ubicación de salida final:**<br>`/content/output/sites/055612/SampleDita.html` |
 
 Además, también se pueden utilizar los metadatos definidos para el fichero de mapa DITA o de mapa de libros como variables. Los metadatos se encuentran en el nodo `/jcr:content/metadata` del mapa DITA o del archivo bookmap. Por ejemplo, una de las propiedades de metadatos definidas en el nodo `/jcr:content/metadata` es `dc:title`. Puede especificar `${dc:title}` y el valor del título se utilizará en el resultado final.
-**Tema principal:**[ Generación de resultados](generate-output.md)
+**Tema principal:**&#x200B;[ Generación de resultados](generate-output.md)

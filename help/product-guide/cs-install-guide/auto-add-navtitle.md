@@ -57,4 +57,4 @@ Con esta configuración, cada archivo de referencia que agregue a un mapa conten
 
 
 
-**Tema principal:**[ Personalizar editor web](conf-web-editor.md)
+**Tema principal:**&#x200B;[ Personalizar editor web](conf-web-editor.md)

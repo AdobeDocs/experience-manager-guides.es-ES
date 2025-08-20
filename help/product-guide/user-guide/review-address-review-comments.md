@@ -90,4 +90,4 @@ Si usted es el iniciador o el autor de una tarea de revisión y la abre desde la
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
-**Tema principal:**[ Introducción a la revisión](review.md)
+**Tema principal:**&#x200B;[ Introducción a la revisión](review.md)

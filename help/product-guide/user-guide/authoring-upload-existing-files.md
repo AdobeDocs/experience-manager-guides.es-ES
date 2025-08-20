@@ -49,4 +49,4 @@ Para obtener más información sobre cómo funcionan los distintos escenarios de
 
 Si utiliza una herramienta como la aplicación de escritorio de Adobe Experience Manager o el ingestor masivo de recursos, la acción que se va a realizar en un archivo duplicado se controla mediante una configuración en el servidor de Adobe Experience Manager. Póngase en contacto con el administrador del sistema para conocer esta configuración.
 
-**Tema principal:**[ Administrar contenido](authoring.md)
+**Tema principal:**&#x200B;[ Administrar contenido](authoring.md)

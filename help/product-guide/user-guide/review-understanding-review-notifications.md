@@ -59,4 +59,4 @@ Para obtener una lista completa de variables predefinidas y revisar la personali
 
 
 
-**Tema principal:**[ Introducción a la revisión](review.md)
+**Tema principal:**&#x200B;[ Introducción a la revisión](review.md)

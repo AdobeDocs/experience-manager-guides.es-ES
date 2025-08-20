@@ -78,4 +78,4 @@ Para obtener más información sobre cómo usar Public ID y System ID en los DTD
 
 
 
-**Tema principal:**[ Generación de resultados](generate-output.md)
+**Tema principal:**&#x200B;[ Generación de resultados](generate-output.md)
