@@ -4,9 +4,9 @@ description: Revise eficazmente los temas o mapas en AEM Guides para facilitar l
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-source-git-commit: 38ea2eb35ebd75c1202c86d598ad953db3894d40
+source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Algunas de las características principales que Adobe Experience Manager Guides 
 - Comparta una versión actualizada del tema para su revisión en el panel de revisión.
 
 - Acceda a los comentarios compartidos en diferentes versiones del tema.
-
+- Etiquete fácilmente a los usuarios de tareas de revisión específicas en comentarios o respuestas para realizar acciones rápidas y realizar seguimientos. Los usuarios etiquetados reciben una notificación inmediata a través de AEM y de notificaciones por correo electrónico.
 - Agrupe y filtre comentarios según la versión del tema.
 
 - Vea las diferencias paralelas entre las distintas versiones de los temas compartidos para su revisión.
@@ -41,6 +41,7 @@ Características disponibles para *revisores*:
 - Cambiar entre la vista compuesta y la vista de tema individual.
 - Utilice las herramientas de comentarios, como inserción de texto, eliminación, resaltado y nota/comentario, para proporcionar sus comentarios.
 - Adjuntar uno o varios archivos a un comentario de revisión.
+- Responder a un comentario etiquetando a los usuarios implicados en la misma tarea de revisión.
 - Descargar archivos adjuntos de un comentario.
 - Utilice el Panel de revisión para agregar comentarios o responder a comentarios de otros usuarios.
 - Conocer fácilmente la versión del tema en revisión.
@@ -57,10 +58,18 @@ Características disponibles para *revisores*:
 
 - **[Enviar temas para revisión](review-send-topics-for-review.md)**
 
+- **[Revisar temas](review-topics.md)**
+
 - **[Reasignar tarea de revisión mediante notificación](reassign-review-using-notification.md)**
 
-- **[Revisar temas](review-topics.md)**
+- **[Completar la tarea de revisión como revisor](review-complete-review-tasks.md)**
 
 - **[Comentarios de revisión de direcciones](review-address-review-comments.md)**
 
+- **[Cerrar o solicitar que se vuelva a revisar una tarea de revisión](review-close-review-task.md)**
+
 - **[Administrar tareas de revisión mediante el panel de revisión](review-manage-tasks-review-dashboard.md)**
+
+- **[Ver una tarea de revisión completada](review-view-completed-task.md)**
+
+- **[Explicación de las notificaciones de revisión](review-understanding-review-notifications.md)**

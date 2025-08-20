@@ -5,9 +5,9 @@ exl-id: a5742082-cc0b-49d9-9921-d0da1b272ea5
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 026d75e69ef002607ac375cf1af7d055fcc22b38
+source-git-commit: 01efb1f17b39fcbc48d78dd1ae818ece167f4fe5
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1762'
 ht-degree: 2%
 
 ---
@@ -18,16 +18,16 @@ Los flujos de trabajo permiten automatizar las actividades \(AEM\) de Adobe Expe
 
 Para obtener más información sobre los flujos de trabajo en AEM, consulte:
 
-- [Administrar instancias de flujo de trabajo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=es)
+- [Administrar instancias de flujo de trabajo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html)
 
-- Aplicando y participando en flujos de trabajo: [Trabajando con flujos de trabajo del proyecto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html?lang=es).
+- Aplicando y participando en flujos de trabajo: [Trabajando con flujos de trabajo del proyecto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html).
 
 
 Las secciones de este tema le guiarán por varias personalizaciones que puede realizar en los flujos de trabajo predeterminados enviados en AEM Guides.
 
 ## Personalizar flujo de trabajo de revisión {#id176NE0C00HS}
 
-El equipo de creación de contenido de cada organización trabaja de forma específica para satisfacer sus necesidades empresariales. En algunas organizaciones hay un editor dedicado, mientras que otras organizaciones podrían tener un sistema automatizado de revisión editorial. Por ejemplo, en una organización, un flujo de trabajo típico de creación y publicación podría incluir tareas como: cada vez que un autor termina de crear contenido, va automáticamente a los revisores y, cuando se completa la revisión, va al editor para generar el resultado final. En AEM, las actividades que realiza en el contenido y los recursos se pueden combinar en forma de proceso y asignar a un flujo de trabajo de AEM. Para obtener más información sobre los flujos de trabajo en AEM, consulte [Administración de flujos de trabajo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=es) en la documentación de AEM.
+El equipo de creación de contenido de cada organización trabaja de forma específica para satisfacer sus necesidades empresariales. En algunas organizaciones hay un editor dedicado, mientras que otras organizaciones podrían tener un sistema automatizado de revisión editorial. Por ejemplo, en una organización, un flujo de trabajo típico de creación y publicación podría incluir tareas como: cada vez que un autor termina de crear contenido, va automáticamente a los revisores y, cuando se completa la revisión, va al editor para generar el resultado final. En AEM, las actividades que realiza en el contenido y los recursos se pueden combinar en forma de proceso y asignar a un flujo de trabajo de AEM. Para obtener más información sobre los flujos de trabajo en AEM, consulte [Administración de flujos de trabajo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html) en la documentación de AEM.
 
 AEM Guides permite personalizar el flujo de trabajo de revisión predeterminado. Puede utilizar los cuatro procesos personalizados siguientes relacionados con la revisión con el resto de los flujos de trabajo de creación o publicación.
 
@@ -60,6 +60,7 @@ workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
 workflowdata.getMetaDataMap().put("reviewType", "AEM");
 workflowdata.getMetaDataMap().put("versionJson", "[{\"path\":\"GUID-ca6ae229-889a-4d98-a1c6-60b08a820bb3.dita\",\"review\":true,\"version\":\"1.0\",\"reviewers\":[\"projects-samplereviewproject-owner\"]}]");
 workflowdata.getMetaDataMap().put("isDitamap","false");
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 **Para Mapa**
@@ -86,6 +87,7 @@ workflowdata.getMetaDataMap().put("isDitamap", "true");
 workflowdata.getMetaDataMap().put("ditamap", "GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap");
 var ditamapHierarchy = "[{\"path\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"items\":[{\"path\":\"GUID-db5787bb-5467-4dc3-b3e5-cfde562ee745.ditamap\",\"items\":[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"items\":[],\"title\":\"\"},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"items\":[],\"title\":\"\"}],\"title\":\"\"},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"items\":[],\"title\":\"\"}]}]";
 workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 Puede crear estos scripts en el nodo `/etc/workflows/scripts`. En la tabla siguiente se describen las propiedades que están asignando los dos scripts ECMA mencionados.
@@ -104,12 +106,13 @@ Puede crear estos scripts en el nodo `/etc/workflows/scripts`. En la tabla sigui
 | `startTime` | Largo | Utilice la función `System.currentTimeMillis()` para obtener la hora actual del sistema. |
 | `projectPath` | Cadena | Ruta del proyecto de revisión al que se asignará la tarea de revisión, por ejemplo: /content/projects/samplereviewproject. |
 | `reviewType` | Cadena | Valor estático AEM. |
-| `versionJson` | Objeto JSON | versionJson es una lista de temas que aparecen en la revisión en la que cada objeto de tema tiene la siguiente estructura { &quot;path&quot;: &quot;/content/dam/1-topic.dita&quot;, &quot;version&quot;: &quot;1.1&quot;, &quot;review&quot;: true, &quot;reviewers&quot;: [&quot;projects-we_retail-editor&quot;] } |
+| `versionJson` | Objeto JSON | versionJson es una lista de temas que aparecen en la revisión en la que cada objeto de tema tiene la siguiente estructura [ { &quot;path&quot;: &quot;/content/dam/1-topic.dita&quot;, &quot;version&quot;: &quot;1.1&quot;, &quot;review&quot;: true, &quot;reviewers&quot;: [&quot;projects-we_retail-editor&quot;] } ] |
 | `isDitamap` | Booleano | false/true |
-| `ditamapHierarchy` | Objeto JSON | En caso de que el mapa se envíe para su revisión, el valor aquí debe ser como:&lbrack; { &quot;path&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;items&quot;: [ &quot;path&quot;: &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;, &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } ]. |
+| `ditamapHierarchy` | Objeto JSON | En caso de que el mapa se envíe para su revisión, el valor aquí debe ser como:[ { &quot;path&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;items&quot;: [ &quot;path&quot;: &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;, &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } ]. |
 | `ditamap` | Cadena | Especificar la ruta del mapa de dietas de la tarea de revisión |
 | `allowAllReviewers` | Booleano | false/true |
 | `notifyViaEmail` | Booleano | false/true |
+| `reviewVersion` | Cadena | Especifica la versión actual del flujo de trabajo de revisión. El valor predeterminado es `3.0`<br> Para habilitar las nuevas características del flujo de trabajo de revisión para [Autores](../user-guide/review-close-review-task.md) y [Revisores](../user-guide/review-complete-review-tasks.md), asegúrese de que `reviewVersion` esté establecido en `3.0`. |
 
 
 Una vez creado el script, llámelo antes de llamar al proceso Crear revisión en el flujo de trabajo. A continuación, según sus necesidades, puede llamar a los demás procesos de flujo de trabajo de revisión.
@@ -129,25 +132,58 @@ Añadir un flujo de trabajo en la **configuración de depuración del flujo de t
 
 Para obtener más información sobre la configuración de la **configuración de depuración del flujo de trabajo de Adobe Granite**, consulte *Administración de instancias del flujo de trabajo* en la documentación de AEM.
 
-### Personalizar plantillas de correo electrónico
+### Personalizar notificaciones por correo electrónico y AEM
 
 Varios flujos de trabajo de AEM Guides utilizan las notificaciones por correo electrónico. Por ejemplo, si inicia una tarea de revisión, se envía una notificación por correo electrónico a los revisores. Sin embargo, para asegurarse de que se envía la notificación por correo electrónico, debe habilitar esta funcionalidad en AEM. Para habilitar la notificación por correo electrónico en AEM, consulte el artículo [Envío de correo electrónico](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=es#sending-email) en la documentación de AEM.
 
-AEM Guides contiene un conjunto de plantillas de correo electrónico que puede personalizar. Siga estos pasos para personalizar estas plantillas:
+AEM Guides contiene un conjunto de notificaciones por correo electrónico y AEM que se utilizan en el flujo de trabajo de revisión y que puede personalizar. Siga estos pasos para personalizar estas notificaciones:
 
-1. Use el Administrador de paquetes para descargar el archivo `/libs/fmdita/mail`.
+1. Use el Administrador de paquetes para descargar la carpeta `/libs/fmdita/mail/review`.
 
    >[!NOTE]
    >
    > No realice ninguna personalización en los archivos de configuración predeterminados disponibles en el nodo ``libs``. Debe crear una superposición del nodo ``libs`` en el nodo ``apps`` y actualizar los archivos necesarios solo en el nodo ``apps``.
 
-1. La carpeta de correo contiene las siguientes plantillas personalizables:
+1. La carpeta `review` contiene las siguientes subcarpetas:
 
-   | Nombre de archivo de plantilla | Descripción |
+   - `aem-notification`
+   - `CSS`
+   - `email-notification`
+
+   La descripción detallada de estas subcarpetas se explica a continuación:
+
+   | Revisar subcarpetas | Descripción |
    |-----------------|-----------|
-   | closereview.html | Esta plantilla de correo electrónico se utiliza cuando se cierra una tarea de revisión. |
-   | createreview.html | Esta plantilla de correo electrónico se utiliza cuando se crea una nueva tarea de revisión. |
-   | reviewapproval.css | Este archivo CSS contiene el estilo de las plantillas de correo electrónico. |
+   | `aem-notification` | Contiene diferentes tipos de notificaciones de AEM disponibles para personalizar. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> Dentro de estas subcarpetas, se encuentran `primary.vm` y `secondary.vm` archivos que le permiten personalizar el título y la descripción de las notificaciones de AEM, respectivamente. |
+   | `CSS` | Contiene el archivo `email-notification.css` para personalizar el estilo de las notificaciones por correo electrónico. |
+   | `email-notification` | Contiene diferentes tipos de notificaciones de correo electrónico disponibles para la personalización. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> Dentro de estas subcarpetas, se encuentran `primary.vm` y `secondary.vm` archivos que le permiten personalizar el asunto y el cuerpo de las notificaciones de correo electrónico, respectivamente. |
+
+A continuación se describe la definición de cada tipo de notificación:
+
+- `closed`: Déclencheur cuando se cierra una tarea de revisión.
+- `content-updated`: Déclencheur cuando un autor o iniciador actualiza el contenido.
+- `feedback-addressed`: se produce un Déclencheur cuando el autor o el iniciador dirige los comentarios y solicita una nueva revisión al revisor.
+- `feedback-provided` Déclencheur cuando el revisor marca la tarea como completada al proporcionar comentarios de nivel de tarea al autor o al iniciador de la tarea de revisión.
+- `requested`: Déclencheur cuando un autor o iniciador crea una tarea de revisión.
+- `reviewer-removed`: Déclencheur cuando se quita la asignación de un revisor de la tarea de revisión.
+- `tag-mention`: Déclencheur cuando se menciona o se etiqueta a un usuario en los comentarios de la revisión.
+
+Al personalizar una notificación por correo electrónico o de AEM, asegúrese de usar solamente el siguiente conjunto predefinido de variables que se usan en `primary.vm` y `secondary.vm` archivos.
+
+
+| **Nombre de variable** | **Descripción** | **Tipo de datos** |
+|-------------------------|---------------------------------------------------------------|---------------|
+| `projectPath` | Ruta al proyecto que contiene la tarea de revisión | Cadena |
+| `reviewTitle` | Título de la tarea de revisión | Cadena |
+| `projectName` | Nombre del proyecto | Cadena |
+| `commentator` | Nombre del usuario que ha agregado un comentario | Cadena |
+| `commentExcerpt` | Fragmento de comentario añadido | Cadena |
+| `taskLink` | Vínculo directo a la tarea de revisión | URL |
+| `authorName` | Nombre del autor que creó o actualizó la tarea de revisión | Cadena |
+| `dueDate` | Fecha de vencimiento de la tarea de revisión | Fecha |
+| `reviewerName` | Nombre del revisor asignado a la tarea | Cadena |
+| `user` | Usuario involucrado en la tarea de revisión, como autor, revisor o incluso administrador. | Cadena |
+| `recipient` | Usuario específico que recibe la notificación | Cadena |
 
 
 ## Personalizar flujo de trabajo de generación posterior a la salida {#id17A6GI004Y4}

@@ -4,9 +4,10 @@ description: Obtenga información sobre cómo configurar perfiles de carpeta al 
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: b114cbcc0f637a71a9d9b7458686a06070179983
+exl-id: dc26ae48-c953-492c-823a-5f65157b6902
+source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1451'
 ht-degree: 0%
 
 ---
@@ -17,12 +18,23 @@ Se requiere un perfil de carpeta para separar las configuraciones de diferentes 
 
 Para empezar a configurar el perfil de la carpeta para el contenido de aprendizaje y formación, debe:
 
-1. [Crear un perfil de carpeta](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile).
-2. **Seleccione el perfil de carpeta que desea configurar**: Una vez creado el perfil de carpeta, debe seleccionar el perfil de carpeta en la página [Preferencias de usuario](../user-guide/intro-home-page.md#user-preferences) para asegurarse de que los autores y los editores tienen acceso a las plantillas correctas.
+1. **Cree diferentes carpetas para administrar las plantillas de creación y salida**: puede crear carpetas para autores y editores que trabajen en diferentes departamentos o productos de su empresa. Estas carpetas se pueden asignar a perfiles de carpeta específicos, cada uno configurado con diferentes plantillas de creación y salida para admitir la creación de cursos de aprendizaje específicos del departamento y la administración descentralizada.
+
+   Puede crear una carpeta nueva desde el panel Repositorio.
+
+   ![](assets/create-new-folder.png){width="350" align="left"}
+2. **Crear carpetas de idioma para administrar la traducción**: si traduce contenido a diferentes idiomas, debe crear las carpetas correspondientes a cada idioma. Cada una de estas carpetas de idioma contendrá el contenido correspondiente a ese idioma.
+
+   Para obtener más información, vea [Prácticas recomendadas para la traducción de contenido](../user-guide/translation-first-time.md).
+3. **Crear una carpeta para administrar Assets**: de manera similar a las carpetas, también puede crear distintas carpetas de Assets para satisfacer las necesidades de distintos departamentos. De este modo, también se asegura de que los autores y los editores tengan acceso al CSS correcto configurado en sus plantillas, imágenes y otros recursos.
+
+   ![](assets/configure-assets-folder.png){width="350" align="left"}
+4. [Cree un perfil de carpeta](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile) para asignar carpetas diferentes.
+5. **Seleccione el perfil de carpeta que desea configurar**: Una vez creado el perfil de carpeta, debe seleccionar el perfil de carpeta en la página [Preferencias de usuario](../user-guide/intro-home-page.md#user-preferences) para asegurarse de que los autores y los editores tienen acceso a las plantillas correctas.
 
    ![](assets/folder-profile.png){width="650" align="left"}
 
-3. **Configurar la configuración del perfil de la carpeta**: Para el contenido de aprendizaje y formación, se puede configurar lo siguiente en el nivel de carpeta:
+6. **Configurar la configuración del perfil de la carpeta**: Para el contenido de aprendizaje y formación, se puede configurar lo siguiente en el nivel de carpeta:
    - [Paneles](#configure-panels)
    - [Plantillas](#configure-templates)
    - [Valores de salida](#configure-output-presets)

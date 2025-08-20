@@ -4,9 +4,9 @@ description: Resuelva los problemas con la solución de problemas básica en AEM
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 262edba89ab4bf65cb6e109bd7c5df177e2e56fe
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -21,24 +21,32 @@ Realice los siguientes pasos para ver y comprobar el archivo de registro de gene
 
 1. Una vez que haya iniciado el proceso de generación de resultados, seleccione **Resultados** en la consola de mapas DITA.
 
-   La columna **General** de **Salidas generadas** muestra los iconos para dar una pista visual sobre el éxito o el fracaso de la generación de resultados.
+   La columna **Configuración de generación** de **Salidas generadas** muestra el color para dar una pista visual sobre el éxito o el fracaso de la generación de salida para diferentes ajustes preestablecidos de salida.
 
-   ![](images/output-general-settings.png){width="300" align="left"}
+   ![](images/output-general-settings-new.png){width="300" align="left"}
 
-   En la captura de pantalla anterior, el primer y el tercer iconos muestran la generación de resultados fallida. El segundo icono muestra una generación de salida correcta pero con mensajes. El último es una generación de salida correcta sin ningún mensaje.
+   En la captura de pantalla anterior:
+
+   - Rojo indica una generación de salida fallida.
+   - El verde indica una generación de salida correcta.
+   - Ámbar indica una generación de salida correcta con errores.
+
+   >[!NOTE]
+   >
+   > Los colores de la ficha **Output**, que indican el estado de varios resultados de salida, son diferentes de los colores que se usan para categorizar los distintos tipos de error en los archivos de registro.
 
 1. Seleccione el enlace en la columna **Generado a las** una vez finalizado el trabajo.
 
    El archivo de registro se abre en una nueva pestaña.
 
-   ![](images/log-file.png){align="left"}
+   ![](images/log-file-new.png){align="left"}
 
 1. Aplique los siguientes filtros para resaltar el texto en el archivo de registro:
-   - Grave: resalta los errores graves del archivo de registro con color rosa.
-   - Error: resalta los errores del archivo de registro con color naranja.
-   - Advertencia: resalta las advertencias del archivo de registro con color morado.
-   - Información: resalta los mensajes de información del archivo de registro con color azul.
-   - Excepción: Resalta las excepciones del archivo de registro con color amarillo.
+   - Grave: resalta los errores graves del archivo de registro con color rojo oscuro.
+   - Error: resalta los errores del archivo de registro con color rojo. Las excepciones se tratan como errores y se resaltan de forma similar en rojo.
+   - Advertencia: resalta las advertencias del archivo de registro con color ámbar.
+   - Información: resalta los mensajes de información del archivo de registro con color verde.
+
 1. Utilice los botones de navegación arriba y abajo para saltar al texto resaltado en el archivo de registro.
 
    También puede desplazarse por el archivo de registro y comprobar los mensajes.
@@ -91,4 +99,4 @@ Siga estos pasos para resolver este problema:
 1. Aumente el valor del parámetro *Número de llamadas por solicitud* según sus necesidades.
 
 
-**Tema principal:**&#x200B;[ Generación de resultados](generate-output.md)
+**Tema principal:**[ Generación de resultados](generate-output.md)

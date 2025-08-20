@@ -1,10 +1,10 @@
 ---
-title: Utilice el asistente de IA para crear documentos de forma inteligente &grave;
+title: Utilice el asistente de IA para crear documentos de forma inteligente `
 description: Aprenda a utilizar el asistente de IA para crear documentos con eficiencia inteligente.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: 3d344a1d1b8d51ddadd618db5296531f549dc70b
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Adobe Experience Manager Guides proporciona una herramienta de asistente de IA q
 
 >[!NOTE]
 >
-> Esta función de creación sólo está disponible para temas DITA y sólo se puede acceder a ella desde la interfaz del editor. En la página de inicio y en la consola de mapas, solo se muestra el panel **Ayuda**.
+> Esta función de creación sólo está disponible para temas DITA y sólo se puede acceder a ella desde la interfaz del editor. En la página de inicio y en la consola de mapas, solo se muestra el panel **Ayuda**. Las opciones disponibles en la función Creación las configuran en el nivel de perfil de carpeta los administradores con la configuración del editor.
 
 Después de seleccionar el texto de un tema, puede elegir realizar cualquiera de las acciones del Asistente de IA:
 

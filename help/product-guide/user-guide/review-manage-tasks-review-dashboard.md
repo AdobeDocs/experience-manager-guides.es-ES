@@ -4,9 +4,9 @@ description: Administre las tareas de revisión desde el Panel de revisión en A
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
+source-git-commit: 19e521ed790a7ac25afab88e8878250f943d9bff
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,10 @@ Siga estos pasos para acceder y utilizar el panel de revisión:
    Se muestra un panel Proyecto con mosaicos de tareas.
 
    ![](images/review-management.png){align="left"}
+
+   >[!NOTE]
+   >
+   > También puede acceder directamente al panel del proyecto desde el panel izquierdo del Editor. Abra [el panel Revisar](./web-editor-left-panel.md#review) y use el icono **Abrir el tablero del proyecto** colocado en cada proyecto de revisión enumerado en el panel Revisar.
 
 1. Seleccione los tres puntos del mosaico **Críticas**.
 
@@ -126,4 +130,4 @@ El informe de estado de la tarea de revisión contiene los siguientes detalles:
 - Número total de observaciones formuladas sobre todos los temas. En el caso de varios temas en revisión, el número de comentarios de cada tema se menciona \(entre corchetes\) con el nombre del tema.
 - La fecha en la que el revisor accedió por última vez a cualquier tema.
 
-**Tema principal:**&#x200B;[ Introducción a la revisión](review.md)
+**Tema principal:**[ Introducción a la revisión](review.md)

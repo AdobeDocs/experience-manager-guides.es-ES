@@ -5,9 +5,9 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3f61aa6615a1b9765154d55249a33136443dfa33
+source-git-commit: 01efb1f17b39fcbc48d78dd1ae818ece167f4fe5
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1854'
 ht-degree: 2%
 
 ---
@@ -18,20 +18,20 @@ Los flujos de trabajo permiten automatizar las actividades \(AEM\) de Adobe Expe
 
 Para obtener más información sobre los flujos de trabajo en AEM, consulte:
 
-- [Administrar flujos de trabajo](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/workflows.html)
+- [Administrar flujos de trabajo](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- Aplicando y participando en flujos de trabajo: [Trabajando con flujos de trabajo](https://helpx.adobe.com/es/experience-manager/6-5/sites/authoring/using/workflows.html).
+- Aplicando y participando en flujos de trabajo: [Trabajando con flujos de trabajo](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- Creando modelos de flujo de trabajo y ampliando la funcionalidad de flujo de trabajo: [Desarrollando y ampliando flujos de trabajo](https://helpx.adobe.com/es/experience-manager/6-5/sites/developing/using/workflows.html).
+- Creando modelos de flujo de trabajo y ampliando la funcionalidad de flujo de trabajo: [Desarrollando y ampliando flujos de trabajo](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
 
-- Mejora del rendimiento de los flujos de trabajo que utilizan recursos de servidor significativos: [Procesamiento de flujo de trabajo simultáneo](https://helpx.adobe.com/es/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
+- Mejora del rendimiento de los flujos de trabajo que utilizan recursos de servidor significativos: [Procesamiento de flujo de trabajo simultáneo](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
 
 Las secciones de este tema le guiarán por varias personalizaciones que puede realizar en los flujos de trabajo predeterminados enviados en AEM Guides.
 
 ## Personalizar flujo de trabajo de revisión {#id176NE0C00HS}
 
-El equipo de creación de contenido de cada organización trabaja de forma específica para satisfacer sus necesidades empresariales. En algunas organizaciones hay un editor dedicado, mientras que otras organizaciones podrían tener un sistema automatizado de revisión editorial. Por ejemplo, en una organización, un flujo de trabajo típico de creación y publicación podría incluir tareas como: cada vez que un autor termina de crear contenido, va automáticamente a los revisores y, cuando se completa la revisión, va al editor para generar el resultado final. En AEM, las actividades que realiza en el contenido y los recursos se pueden combinar en forma de proceso y asignar a un flujo de trabajo de AEM. Para obtener más información sobre los flujos de trabajo en AEM, consulte [Administración de flujos de trabajo](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/workflows.html) en la documentación de AEM.
+El equipo de creación de contenido de cada organización trabaja de forma específica para satisfacer sus necesidades empresariales. En algunas organizaciones hay un editor dedicado, mientras que otras organizaciones podrían tener un sistema automatizado de revisión editorial. Por ejemplo, en una organización, un flujo de trabajo típico de creación y publicación podría incluir tareas como: cada vez que un autor termina de crear contenido, va automáticamente a los revisores y, cuando se completa la revisión, va al editor para generar el resultado final. En AEM, las actividades que realiza en el contenido y los recursos se pueden combinar en forma de proceso y asignar a un flujo de trabajo de AEM. Para obtener más información sobre los flujos de trabajo en AEM, consulte [Administración de flujos de trabajo](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) en la documentación de AEM.
 
 AEM Guides permite personalizar el flujo de trabajo de revisión predeterminado. Puede utilizar los cuatro procesos personalizados siguientes relacionados con la revisión con el resto de los flujos de trabajo de creación o publicación.
 
@@ -108,9 +108,9 @@ Puede crear este script en el nodo `/etc/workflows/scripts`. En la tabla siguien
 | `startTime` | Largo | Utilice la función `System.currentTimeMillis()` para obtener la hora actual del sistema. |
 | `projectPath` | Cadena | Ruta del proyecto de revisión al que se asignará la tarea de revisión, por ejemplo: /content/projects/samplereviewproject. |
 | `reviewType` | Cadena | Valor estático AEM. |
-| `versionJson` | Objeto JSON | versionJson es una lista de temas que aparecen en la revisión en la que cada objeto de tema tiene la siguiente estructura { &quot;path&quot;: &quot;/content/dam/1-topic.dita&quot;, &quot;version&quot;: &quot;1.1&quot;, &quot;review&quot;: true, &quot;reviewers&quot;: [&quot;projects-we_retail-editor&quot;] } |
+| `versionJson` | Objeto JSON | versionJson es una lista de temas que aparecen en la revisión en la que cada objeto de tema tiene la siguiente estructura [ { &quot;path&quot;: &quot;/content/dam/1-topic.dita&quot;, &quot;version&quot;: &quot;1.1&quot;, &quot;review&quot;: true, &quot;reviewers&quot;: [&quot;projects-we_retail-editor&quot;] } ] |
 | `isDitamap` | Booleano | false/true |
-| `ditamapHierarchy` | Objeto JSON | En caso de que el mapa se envíe para su revisión, el valor aquí debe ser como:&lbrack; { &quot;path&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;items&quot;: [ &quot;path&quot;: &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;, &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } ]. |
+| `ditamapHierarchy` | Objeto JSON | En caso de que el mapa se envíe para su revisión, el valor aquí debe ser como:[ { &quot;path&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;items&quot;: [ &quot;path&quot;: &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;, &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } ]. |
 | `ditamap` | Cadena | Especificar la ruta del mapa de dietas de la tarea de revisión |
 | `allowAllReviewers` | Booleano | false/true |
 | `notifyViaEmail` | Booleano | false/true |

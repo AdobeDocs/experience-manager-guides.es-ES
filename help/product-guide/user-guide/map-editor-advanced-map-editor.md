@@ -4,9 +4,9 @@ description: Conozca las funciones del Editor de mapas en Adobe Experience Manag
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 02a149bbb40615c07d2744f0899a370c91eb83d2
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2578'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Además, puede ver los iconos siguientes y realizar las tareas relacionadas desd
 
 **Insertar antes/Insertar después** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Muestra el cuadro de diálogo **Insertar elemento antes o &#x200B;** Insertar elemento después. Seleccione el elemento que desea insertar en el mapa. Según la operación, el nuevo elemento se inserta antes o después del elemento actual en el mapa.
+Muestra el cuadro de diálogo **Insertar elemento antes o **Insertar elemento después. Seleccione el elemento que desea insertar en el mapa. Según la operación, el nuevo elemento se inserta antes o después del elemento actual en el mapa.
 
 **Elemento** - ![](images/Add_icon.svg)
 
@@ -219,13 +219,11 @@ Muestra el cuadro de diálogo **Reutilizar contenido**. Utilice este cuadro de d
 
 **Actualizar atributo de título de navegación** - ![](images/refresh.svg)
 
-Sincroniza el elemento `title` de un archivo al que se hace referencia en un mapa con el valor especificado en su atributo `@navtitle`. Se pueden añadir distintos tipos de ficheros de referencia en un mapa, por ejemplo, mapas de tema, de referencia, de tarea, \(sub\), etc. La mayoría de estos archivos admiten el atributo `@navtitle`. Si un archivo contiene el atributo `@navtitle`, se actualiza el atributo `@navtitle` para el mismo archivo en el mapa. Si el atributo `@navtitle` no está presente, el atributo `@navtitle` se agrega a ese archivo de referencia y su `title` también se actualiza para mostrar el `@navtitle`.
+Permite mantener sincronizados el atributo `@navtitle` y el elemento `title` de un archivo al que se hace referencia. Puede agregar distintos tipos de archivos a un mapa, como temas, tareas, referencias o submapas. La mayoría de ellos admiten el atributo `@navtitle`, que controla cómo aparece el nombre de archivo en el mapa o en la tabla de contenido. Si un archivo contiene el atributo `@navtitle`, se actualiza el atributo `@navtitle` para el mismo archivo en el mapa. Si el atributo `@navtitle` no está presente, el atributo `@navtitle` se agrega a ese archivo de referencia y su `title` también se actualiza para mostrar el `@navtitle`.
 
 >[!NOTE]
 >
-> El administrador puede configurar la adición automática del atributo `@navtitle` a cada archivo de referencia que agregue a un mapa. Para obtener más información acerca de cómo configurar la adición automática del atributo `@navtitle`, vea *Incluir @navtitle atributo de forma predeterminada* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
-
-Seleccione el icono Actualizar atributo de título de navegación para sincronizar los valores del elemento `title` y del atributo `@navtitle`.
+> El administrador puede elegir mostrar u ocultar este botón en la barra de herramientas del Editor de mapas mediante una propiedad de configuración. También pueden habilitar la adición automática del atributo `@navtitle` cuando se agreguen archivos a un mapa. Para obtener más información, vea [Incluir @navtitle atributo de forma predeterminada](../cs-install-guide/auto-add-navtitle.md)* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
 **Etiquetas**
 

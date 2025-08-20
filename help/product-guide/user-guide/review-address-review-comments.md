@@ -4,29 +4,28 @@ description: Aprenda a dirigir comentarios de revisión como autor en AEM Guides
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: f8320d0e0b5982d932c9df46f8ccf35d5f44dbac
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
 
 # Comentarios de revisión de direcciones {#id2056B0X0KBI}
 
+Como autor, puede dirigir los comentarios de un tema mediante el Editor. Los comentarios se cargan en función de la tarea de revisión seleccionada en el panel Revisar. Para obtener más información, vea la descripción de la característica del panel **Revisar** ![](images/active-review-tasklist-icon.svg) en la sección [Panel izquierdo](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
-Como autor, puede dirigir los comentarios de un tema mediante el Editor Web. Los comentarios se cargan en función de la tarea de revisión seleccionada en el panel Revisar. Para obtener más información, vea la descripción de la característica del panel **Revisar** ![](images/active-review-tasklist-icon.svg) en la sección [Panel izquierdo](../user-guide/web-editor-features.md#id2051EA0M0HS).
+Las secciones siguientes describen las formas de abordar los comentarios en el Editor.
 
-En las secciones siguientes se describen las formas de dirigir los comentarios en el Editor Web.
-
-Un autor puede dirigir comentarios en un documento desde el Editor Web. Se proporcionan indicadores visuales que indican si los comentarios insertados \(texto\), eliminados o resaltados. Además, el tipo de comentario se menciona en la parte superior de cada entrada de comentario.
+Un autor puede dirigir comentarios en un documento desde el editor. Se proporcionan indicadores visuales que indican si los comentarios insertados \(texto\), eliminados o resaltados. Además, el tipo de comentario se menciona en la parte superior de cada entrada de comentario.
 
 >[!NOTE]
 >
-> Al dirigirse a los comentarios de revisión \(para un documento de revisión activo\), asegúrese de que no abre el tema de revisión en varias pestañas con la vista de etiquetas completa habilitada, no cambie entre los modos de vista Autor y Source.
+> Al dirigirse a los comentarios de revisión \(para un documento de revisión activo\), asegúrese de no abrir el tema de revisión en varias pestañas con la vista de etiquetas completa habilitada, no cambie entre los modos de vista Autor y Source.
 
 ![](images/comments-page-web-editor_cs-new.png){align="left"}
 
-En el modo Editor web, el panel derecho contiene los iconos Revisar y Control de cambios. El panel Revisar muestra todos los comentarios realizados por los revisores en el documento. El panel **Control de cambios** muestra el estado de todos los comentarios insertados y eliminados del documento.
+En el Editor, el panel derecho contiene los iconos Revisar y Rastrear cambios. El panel Revisar muestra todos los comentarios realizados en el documento por los revisores. El panel **Rastrear cambios** muestra el estado de todos los comentarios insertados y eliminados del documento.
 
 - **A**: seleccione una tarea de revisión para ver los comentarios de revisión. Si el tema se ha compartido para su revisión en varias tareas de revisión, verá esas tareas en esta lista desplegable.
 
@@ -42,7 +41,7 @@ En el modo Editor web, el panel derecho contiene los iconos Revisar y Control de
   >
   > Si el mapa raíz de la tarea de revisión es diferente del mapa raíz de creación, muestra la información sobre él para indicar que el mapa raíz de creación y de revisión no coinciden.
 
-- **C**: si ha actualizado el tema después de iniciar la revisión, al seleccionar el icono Revertir tema a la versión de revisión, la copia de trabajo vuelve a la versión que se compartió para revisión. Esto facilita la incorporación de los comentarios de revisión directamente en la versión compartida para revisión. Después de incorporar los comentarios, puede guardar los cambios en la versión revertida o crear una nueva revisión del tema. Si elige crear una nueva revisión del tema, se crea una nueva rama a partir de la versión del tema compartida para su revisión. Por ejemplo, si compartió la versión `1.2` de un tema para su revisión mientras la versión de creación actual es `1.3`, puede utilizar este icono para volver a la versión `1.2` e incorporar comentarios de revisión. Si elige crear una nueva revisión después de incorporar cambios a la versión `1.2`, se crea una rama nueva con la versión `1.2.0` para el tema.
+- **C**: si ha actualizado el tema después de iniciar la revisión, al seleccionar el icono **Revertir tema a la versión de revisión**, se revierte la copia de trabajo a la versión compartida para revisión. Esto facilita la incorporación de los comentarios de revisión directamente en la versión compartida para revisión. Después de incorporar los comentarios, puede guardar los cambios en la versión revertida o crear una nueva revisión del tema. Si elige crear una nueva revisión del tema, se crea una nueva rama a partir de la versión del tema compartida para su revisión. Por ejemplo, si compartió la versión `1.2` de un tema para su revisión mientras la versión de creación actual es `1.3`, puede utilizar este icono para volver a la versión `1.2` e incorporar comentarios de revisión. Si elige crear una nueva revisión después de incorporar cambios a la versión `1.2`, se crea una rama nueva con la versión `1.2.0` para el tema.
 
   Normalmente, después de incorporar los comentarios de revisión, le gustaría combinar los cambios de la última versión del tema. Para ello, usa la característica [Merge](web-editor-features.md#id205DF04E0HS) para obtener todas las actualizaciones realizadas después de compartir el tema para su revisión.
 
@@ -72,5 +71,23 @@ En el modo Editor web, el panel derecho contiene los iconos Revisar y Control de
 
 - **I**: aplique un filtro en los comentarios. Puede filtrar para ver los comentarios basándose en el Tipo de revisión \(todas, resaltadas, eliminadas, insertadas o notas adhesivas\), Estado de la revisión \(todas, aceptadas, rechazadas o ninguna\), Revisores \(todos los revisores o revisores específicos\)\) o Versiones del tema.
 
+**Responder a un comentario al etiquetar a otros usuarios**
 
-**Tema principal:**&#x200B;[ Introducción a la revisión](review.md)
+Como autor e iniciador de la tarea de revisión, puede responder para revisar los comentarios y etiquetar a otros usuarios implicados en la misma tarea de revisión para dirigir su atención o asignar seguimientos. Esta funcionalidad solo está disponible para tareas de revisión activas.
+
+>[!NOTE]
+>
+> Para ver la lista de usuarios asignados a una tarea de revisión y etiquetarlos en un comentario, debe tener acceso de *Lectura* en `/home/users and /home/groups` nodos. Para obtener más información, vea [Administración de usuarios y seguridad](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Si el etiquetado sigue sin estar disponible después de confirmar el acceso, es posible que el administrador deba asignar una licencia de `user-admin` para habilitar esta funcionalidad.
+
+![](images/tag-users-review.png){width="350" align="left"}
+*Pie de ilustración:Tag usuarios como iniciador/Autor*
+
+Los usuarios etiquetados reciben un correo electrónico y una notificación de AEM, lo que garantiza que se les informe rápidamente. Para obtener más información sobre el déclencheur de las notificaciones de revisión, consulte [Explicación de las notificaciones de revisión](./review-understanding-review-notifications.md).
+
+**Acceder a comentarios de revisión mediante la IU de revisión**
+
+Si usted es el iniciador o el autor de una tarea de revisión y la abre desde la **consola Proyectos**, el tema se iniciará en la interfaz de usuario de revisión. Debido a que esta tarea no está asignada a usted, puede ver los comentarios y responder a ellos, pero no puede realizar ninguna acción de revisión. La barra de herramientas de comentarios permanece desactivada para los usuarios que no están asignados a la tarea.
+
+![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
+
+**Tema principal:**[ Introducción a la revisión](review.md)

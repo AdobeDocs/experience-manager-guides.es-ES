@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo administrar archivos y carpetas en
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
+source-git-commit: 14bbb3a055d8b528b6ed657be797c5fa96dd3e7e
 workflow-type: tm+mt
-source-wordcount: '3201'
+source-wordcount: '3263'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ En esta sección se explica cómo administra Adobe Experience Manager Guides las
 - *Si el archivo con el mismo nombre no existe en la carpeta de destino*: se crea una nueva copia del archivo y también se le asigna un nuevo UUID en la nueva ubicación. En este caso, el nombre de archivo es el mismo que el UUID.
 - *Si el archivo con el mismo nombre ya existe en la carpeta de destino*: se crea una nueva copia del archivo y también se le asigna un nuevo UUID. El nombre de archivo es el mismo que el UUID.
 
-
 ## Copiar y pegar carpetas
 
 **Copiar y pegar la carpeta en la misma ubicación**
@@ -43,6 +42,16 @@ En esta sección se explica cómo administra Adobe Experience Manager Guides las
 - *La carpeta tiene archivos con nombres de archivo en lenguaje natural*: se crea una copia nueva de la carpeta y también se asigna un nuevo UUID a todos los archivos de la carpeta en la nueva ubicación. Aquí no hay ningún cambio en los nombres de carpeta o archivo.
 
 - *La carpeta tiene archivos con nombres de archivo basados en un patrón UUID*: se crea una nueva copia de la carpeta con el mismo nombre que la carpeta original. También se asigna un nuevo UUID a todos los archivos de la nueva carpeta. Los nombres de archivo también cambian; los nombres de archivo son los mismos que el nuevo UUID.
+
+**Mensaje y notificación de éxito**
+
+La operación de copiar y pegar para carpetas en la interfaz de usuario de Assets se ejecuta asincrónicamente en segundo plano, lo que le permite seguir trabajando mientras el sistema procesa la solicitud. Se muestra un mensaje emergente para indicar que el proceso se ha iniciado.
+
+![](images/copy-folders-success-popup.png){width="350" align="left"}
+
+Una vez finalizada la operación, se activa una notificación de éxito o error para indicar si la operación se realizó correctamente o no.
+
+![](images/copy-folders-success-notification.png){width="650" align="left"}
 
 
 ## Arrastrar y soltar archivos
@@ -317,4 +326,4 @@ Si el archivo multimedia ha sufrido algún cambio, puede buscarlo y obtener una 
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Tema principal:**&#x200B;[ Administrar contenido](authoring.md)
+**Tema principal:**[ Administrar contenido](authoring.md)

@@ -3,10 +3,10 @@ title: Notas de versión | Novedades de la versión 2025.06.0 de Adobe Experienc
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 2025.06.0 de Adobe Experience Manager Guides
 role: Leader
 exl-id: 48f27aa6-d870-4228-8e62-db81699a25f7
-source-git-commit: 158c2a99ac43fd70726bedf30f4de1a970a48864
+source-git-commit: d418ffb254b11430509609b91e0174690815cf73
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 3%
+source-wordcount: '409'
+ht-degree: 4%
 
 ---
 
@@ -17,14 +17,6 @@ Este artículo cubre las funciones nuevas y mejoradas introducidas con la versi�
 Para ver la lista de problemas corregidos en esta versión, consulte [Problemas solucionados en la versión 2025.06.0](fixed-issues-2025-06-0.md).
 
 Obtenga información acerca de [instrucciones de actualización para la versión 2025.06.0](../release-info/upgrade-instructions-2025-06-0.md).
-
-## Los archivos temporales para la salida publicada ahora incluyen las direcciones URL de autor y publicación en un nuevo archivo de configuración
-
-Las mejoras de publicación más recientes para Experience Manager Guides ahora agregan un nuevo archivo `system_config.json` a los archivos temporales generados al publicar salidas de HTML, PDF y JSON mediante DITA-OT, así como salida nativa de PDF. Este archivo se incluye automáticamente en el trabajo de publicación y también se puede acceder a él mediante archivos temporales cuando se habilita la opción **Conservar archivos temporales** para los ajustes preestablecidos y se genera el resultado.
-
-El archivo `system_config.json` contiene detalles de instancias clave, como la dirección URL del autor, la dirección URL local y la dirección URL de publicación, que proporcionan un contexto más claro y mejoran la trazabilidad de las direcciones URL descargadas.
-
-Para obtener más información, vea [Comprender los ajustes preestablecidos de salida](../user-guide/generate-output-understand-presets.md).
 
 ## Tiempo de espera de sesión para evitar la pérdida accidental de contenido
 

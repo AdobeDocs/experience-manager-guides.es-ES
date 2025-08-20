@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo revisar temas y utilizar las funci
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: 9197cb757e3b883d81eee8a72c797b74cf06e570
+source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: '2655'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Revisar temas {#id2056B0W0FBI}
 
 Si es revisor, recibirá un correo electrónico de solicitud de revisión con el vínculo a los temas de la revisión. Con este vínculo puede acceder a la página de revisión, en la que puede añadir sus comentarios sobre los temas compartidos.
+
+>[!NOTE]
+>
+> Al acceder a la solicitud de revisión desde la notificación, puede optar por reasignarla a otro usuario que forme parte del mismo proyecto de revisión. Para obtener más información, vea [Reasignar tarea de revisión mediante notificación](./reassign-review-using-notification.md).
 
 Siga estos pasos para revisar un tema:
 
@@ -34,8 +38,6 @@ Siga estos pasos para revisar un tema:
    > - Versión de noviembre de 2022 o anterior de Adobe Experience Manager Guides as a Cloud Service
    > - Adobe Experience Manager Guides versión 4.1 o anterior
 
-
-
    La siguiente pantalla aparece cuando se utiliza un mapa DITA para iniciar el flujo de trabajo de revisión:
 
    ![](images/multiple-topics-review.png){align="left"}
@@ -54,7 +56,7 @@ Siga estos pasos para revisar un tema:
 
      >[!NOTE]
      >
-     > Al aplicar los filtros, solo se muestran en el panel de comentarios los comentarios que coinciden con los filtros seleccionados. El número de comentarios filtrados se muestra a la izquierda en el panel Temas.
+     > Al aplicar los filtros, solo se muestran en el panel Comentarios los comentarios que coinciden con los filtros seleccionados. El número de comentarios filtrados se muestra a la izquierda en el panel Temas.
 
    - **E**: un tema asignado para revisión al revisor actual se muestra en negro y se puede seleccionar. Cuando el revisor selecciona un vínculo de tema, ese tema se coloca en la parte superior de la pantalla.
    - **F**: Un tema que no está disponible para revisión está atenuado. El tema se muestra en modo de sólo lectura y no se le permite agregar comentarios de revisión sobre dichos temas.
@@ -162,6 +164,21 @@ La siguiente captura de pantalla muestra el contenido en el modo *Vista previa*:
 
 ![](images/review-preview-mode.png){width="550" align="left"}
 
+
+**Etiquetar usuarios de tareas en un comentario**
+
+Al colaborar en una tarea de revisión con varios revisores, puede mejorar la comunicación mediante el etiquetado de usuarios específicos tanto en los nuevos comentarios como en las respuestas. Como revisor, puede iniciar un comentario o responder a uno existente mientras etiqueta a otros usuarios implicados en la misma tarea de revisión para llamar su atención o asignar seguimientos. Esta funcionalidad solo está disponible para tareas de revisión activas.
+
+>[!NOTE]
+>
+> Para ver la lista de usuarios asignados a una tarea de revisión y etiquetarlos en un comentario, debe tener acceso de *Lectura* en `/home/users and /home/groups` nodos. Para obtener más información, vea [Administración de usuarios y seguridad](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Si el etiquetado sigue sin estar disponible después de confirmar el acceso, es posible que el administrador deba asignar una licencia de `user-admin` para habilitar esta funcionalidad.
+
+![](images/tag-users-review-ui.png){width="350" align="left"}
+
+Los usuarios etiquetados reciben un correo electrónico y una notificación de AEM, lo que garantiza que se les informe rápidamente. Para obtener más información sobre el déclencheur de las notificaciones de revisión, consulte [Explicación de las notificaciones de revisión](./review-understanding-review-notifications.md).
+
+![](images/mentioned-in-tags-author.png){width="350" align="left"}
+
 **Agregar datos adjuntos a los comentarios** -   Si desea complementar su comentario proporcionando información adicional que está disponible en algún otro archivo, puede adjuntarla a su comentario. Como revisor, puede agregar fácilmente uno o varios archivos del sistema local al comentario. Se puede agregar un archivo a todas las formas de comentarios compatibles: Resaltar, Tachar, Insertar texto o un comentario.
 
 Al insertar cualquiera de los comentarios, aparece la ventana emergente de comentarios. Después de proporcionar comentarios o información adicional en la ventana emergente, puede enviarla pulsando Intro. Una vez agregado el comentario, tiene la opción de agregar un archivo adjunto a ese comentario.
@@ -257,4 +274,4 @@ Seleccione una o más de las siguientes opciones de filtrado en el cuadro de di�
 
 Para quitar el filtro y ver todos los comentarios, anule la selección de todos los filtros del cuadro de diálogo **Tipo de filtro** y seleccione **Aplicar**.
 
-**Tema principal:**&#x200B;[ Introducción a la revisión](review.md)
+**Tema principal:**[ Introducción a la revisión](review.md)

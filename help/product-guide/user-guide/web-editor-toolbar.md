@@ -4,9 +4,9 @@ description: Conozca la Barra de herramientas en el Editor. Obtenga información
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
+source-git-commit: 3dee9b2c90515ff7681770247f215996dc2c8325
 workflow-type: tm+mt
-source-wordcount: '5909'
+source-wordcount: '5962'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,9 @@ La barra de herramientas aparece cuando se abre un tema o un mapa para editarlo 
 
 ## Menú desplegable
 
-La lista desplegable Menú proporciona acceso a las acciones de edición, Buscar y reemplazar, Historial de versiones, Etiqueta de versión, Combinar, Crear tarea de revisión, Rastrear cambios y Etiquetas.
+La lista desplegable Menú proporciona acceso a las acciones de edición, Buscar y reemplazar, Historial de versiones, Etiqueta de versión, Combinar, Crear tarea de revisión y Menú Mostrar (que incluye Rastrear cambios, Etiquetas, Espacio de no separación).
+
+![Menú desplegable para la barra de herramientas del editor](images/editor-toolbar-menu-dropdown-new.png){width="350" align="left"}
 
 La explicación detallada de estas funciones es la siguiente:
 
@@ -227,52 +229,52 @@ Para combinar los cambios en un archivo de asignación, realice los siguientes p
 
 Puede [crear una tarea de revisión](./review-send-topics-for-review.md) del tema o archivo de asignación actual directamente desde el Editor. Abra el archivo para el que desea crear la tarea de revisión y seleccione **Crear tarea de revisión** del menú desplegable para iniciar el proceso de creación de la revisión.
 
-**Rastrear cambios**
+**Mostrar menú**
 
-Puede realizar un seguimiento de todas las actualizaciones realizadas en un documento activando el modo Seguimiento de cambios. Después de habilitar el seguimiento de cambios, todas las inserciones y eliminaciones se capturan en el documento. Todo el contenido eliminado se resalta con Tachado y todas las inserciones se resaltan en texto de color verde. Además, también se obtienen las barras de cambios en el borde de la página del tema. De nuevo, se muestra una barra roja para el contenido eliminado y una barra verde para el contenido añadido. En caso de que haya una adición y eliminación en la misma línea, se muestran las barras verde y roja.
+El menú Mostrar consta de las siguientes funciones:
 
+- **Control de cambios:** Para realizar un seguimiento de todas las actualizaciones realizadas en un documento, habilite el modo Control de cambios. Después de habilitar el seguimiento de cambios, todas las inserciones y eliminaciones se capturan en el documento. Todo el contenido eliminado se resalta con Tachado y todas las inserciones se resaltan en texto de color verde. Además, también se obtienen las barras de cambios en el borde de la página del tema. De nuevo, se muestra una barra roja para el contenido eliminado y una barra verde para el contenido añadido. En caso de que haya una adición y eliminación en la misma línea, se muestran las barras verde y roja.
 La siguiente captura de pantalla resalta el contenido eliminado e insertado junto con las barras de cambio:
+  ![](images/track-changes-content.png){width="650" align="left"}
 
-![](images/track-changes-content.png){width="650" align="left"}
+  Un caso de uso típico del seguimiento de cambios en un documento puede ser para realizar una revisión por pares. Puede habilitar la función de seguimiento de cambios y compartir el documento para su revisión, y el revisor realizará los cambios con la función de seguimiento de cambios activada. Cuando reciba el documento, deberá disponer de un mecanismo para ver las actualizaciones sugeridas junto con una forma cómoda de aceptar o rechazar los cambios.
 
-Un caso de uso típico del seguimiento de cambios en un documento puede ser para realizar una revisión por pares. Puede habilitar la función de seguimiento de cambios y compartir el documento para su revisión, y el revisor realizará los cambios con la función de seguimiento de cambios activada. Cuando reciba el documento, deberá disponer de un mecanismo para ver las actualizaciones sugeridas junto con una forma cómoda de aceptar o rechazar los cambios.
+  Experience Manager Guides proporciona la característica Cambios realizados que contiene información sobre las actualizaciones realizadas en el documento. La función Cambios rastreados proporciona información sobre qué actualizaciones se realizaron, quién las hizo y a qué hora. Con la función Cambios realizados, también puede aceptar o rechazar fácilmente las actualizaciones sugeridas en el documento.
 
-Experience Manager Guides proporciona la característica Cambios realizados que contiene información sobre las actualizaciones realizadas en el documento. La función Cambios rastreados proporciona información sobre qué actualizaciones se realizaron, quién las hizo y a qué hora. Con la función Cambios realizados, también puede aceptar o rechazar fácilmente las actualizaciones sugeridas en el documento.
+  Para acceder a la función, seleccione el icono **Rastrear cambios** en el panel derecho.
 
-Para acceder a la función, seleccione el icono **Rastrear cambios** en el panel derecho.
+  ![](images/changes-panel_cs.png){width="300" align="left"}
 
-![](images/changes-panel_cs.png){width="300" align="left"}
+  Al seleccionar un cambio controlado, se selecciona el contenido modificado en el documento. Puede aceptar un cambio seleccionando el icono Aceptar cambio o rechazarlo seleccionando el botón Rechazar cambio.
 
-Al seleccionar un cambio controlado, se selecciona el contenido modificado en el documento. Puede aceptar un cambio seleccionando el icono Aceptar cambio o rechazarlo seleccionando el botón Rechazar cambio.
+  Si desea aceptar o rechazar todos los cambios con un solo clic, seleccione **Aceptar todos los cambios** o **Rechazar todos los cambios**.
 
-Si desea aceptar o rechazar todos los cambios con un solo clic, seleccione **Aceptar todos los cambios** o **Rechazar todos los cambios**.
+  >[!NOTE]
+  >
+  > El modo Vista previa permite ver el documento con o sin las marcas del contenido modificado. Para obtener más información, vea el modo [Vista previa](web-editor-views.md#preview-mode).
 
->[!NOTE]
->
-> El modo Vista previa permite ver el documento con o sin las marcas del contenido modificado. Para obtener más información, vea el modo [Vista previa](web-editor-views.md#preview-mode).
+- **Etiquetas:** La característica **Etiquetas** del Editor es un botón de alternancia que controla la visibilidad de los elementos DITA. Cuando está activada, muestra etiquetas estructurales dentro del contenido, lo que permite ver y gestionar los elementos DITA subyacentes de forma más eficaz. Cuando está desactivado, el editor oculta estas etiquetas, lo que proporciona un entorno de creación más limpio y centrado.
 
-**Etiquetas**
+  La siguiente captura de pantalla muestra un documento con la vista Etiquetas habilitada:
 
-La característica **Etiquetas** del Editor es un botón de alternancia que controla la visibilidad de los elementos DITA. Cuando está activada, muestra etiquetas estructurales dentro del contenido, lo que permite ver y gestionar los elementos DITA subyacentes de forma más eficaz. Cuando está desactivado, el editor oculta estas etiquetas, lo que proporciona un entorno de creación más limpio y centrado.
+  ![](images/tags-view.png){width="650" align="left"}
 
-La siguiente captura de pantalla muestra un documento con la vista Etiquetas habilitada:
+  Las siguientes operaciones se pueden realizar en un documento con etiquetas:
 
-![](images/tags-view.png){width="650" align="left"}
+   - **Seleccionar un elemento**: seleccione la etiqueta de apertura o cierre de un elemento para seleccionar su contenido.
 
-Las siguientes operaciones se pueden realizar en un documento con etiquetas:
+   - **Expandir o contraer etiquetas**: seleccione el signo + o - en una etiqueta para expandirla o contraerla.
 
-- **Seleccionar un elemento**: seleccione la etiqueta de apertura o cierre de un elemento para seleccionar su contenido.
+   - **Usar el menú contextual**: El menú contextual proporciona opciones para cortar, copiar o pegar el elemento seleccionado. También puede insertar un elemento antes o después del elemento seleccionado. Las demás opciones le permiten Generar ID o abrir el panel Propiedades del elemento seleccionado.
 
-- **Expandir o contraer etiquetas**: seleccione el signo + o - en una etiqueta para expandirla o contraerla.
-
-- **Usar el menú contextual**: El menú contextual proporciona opciones para cortar, copiar o pegar el elemento seleccionado. También puede insertar un elemento antes o después del elemento seleccionado. Las demás opciones le permiten Generar ID o abrir el panel Propiedades del elemento seleccionado.
-
-- **Arrastrar y soltar elementos**: seleccione la etiqueta de un elemento y arrástrela y suéltela fácilmente en el documento. Si la ubicación de colocación es una ubicación válida donde el elemento está permitido, el elemento se coloca en la ubicación de colocación.
+   - **Arrastrar y soltar elementos**: seleccione la etiqueta de un elemento y arrástrela y suéltela fácilmente en el documento. Si la ubicación de colocación es una ubicación válida donde el elemento está permitido, el elemento se coloca en la ubicación de colocación.
 
 
->[!NOTE]
->
-> Si un usuario habilita la vista Etiquetas desde el Editor, permanecerá habilitada incluso en todas las sesiones. Esto significa que no es necesario volver a habilitar la vista Etiquetas para acceder a ella más adelante. El valor predeterminado de la vista Etiquetas para la sesión de un nuevo usuario está determinado por la propiedad `tagsView` del archivo `ui\_config.json`. Para obtener más información, vea la sección [Configurar el valor predeterminado de la vista de etiquetas](../cs-install-guide/configure-default-value-tags-view.md) en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
+  >[!NOTE]
+  >
+  > Si un usuario habilita la vista Etiquetas desde el Editor, permanecerá habilitada incluso en todas las sesiones. Esto significa que no es necesario volver a habilitar la vista Etiquetas para acceder a ella más adelante. El valor predeterminado de la vista Etiquetas para la sesión de un nuevo usuario está determinado por la propiedad `tagsView` del archivo `ui\_config.json`. Para obtener más información, vea la sección [Configurar el valor predeterminado de la vista de etiquetas](../cs-install-guide/configure-default-value-tags-view.md) en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
+
+- **Espacio de no separación:** Active esta opción para mostrar un indicador de los espacios de no separación al editarlo en el Editor. Solo está visible en la vista **Autor** para el tema DITA y los mapas DITA.
 
 ## Opciones de inserción de contenido
 
@@ -621,4 +623,4 @@ Si un archivo está bloqueado por otro usuario, al pasar el ratón por encima de
 Como administrador, también obtienes acceso a la función **Forzar desbloqueo** que te permite desbloquear el archivo bloqueado por otros usuarios. Utilice esta función para acceder a los derechos de edición de un archivo bloqueado por otros usuarios.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Tema principal:**&#x200B;[ Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

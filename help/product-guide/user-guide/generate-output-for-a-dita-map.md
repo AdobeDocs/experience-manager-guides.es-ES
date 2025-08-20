@@ -4,9 +4,9 @@ description: Genere la salida para un mapa DITA desde la consola de mapas y el t
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 358d38ca761661eaee7aeac2cc7d46c53105c543
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,15 @@ Puede ver el estado actual de la solicitud de generación de resultados en la fi
 
 También se puede generar la salida de AEM Sites para uno o más temas o todo el mapa DITA desde la consola Mapa. Para obtener más información, vea [Generar salida de la base de conocimiento](web-editor-article-publishing.md#id218CK0U019I).
 
+## Combinando diferentes temas dentro de un mapa DITA utilizando el atributo `chunk`
+
+Un mapa DITA puede incluir distintos tipos de temas, como referencias, conceptos y tareas. El atributo `chunk=to-content` le permite combinar estos temas para generar un solo resultado de página en AEM Sites. Sin embargo, para publicar correctamente el tema combinado, asegúrese de que el administrador ha configurado el catálogo XML correcto en los perfiles DITA.
+
+El sistema requiere un identificador público con la palabra clave `composite` en el catálogo XML para identificar y aplicar correctamente la regla DTD adecuada.
+Esta configuración se incluye de forma predeterminada en el catálogo XML estándar. Sin embargo, si utiliza un catálogo XML personalizado, asegúrese de que el administrador haya añadido este ID público a la configuración. Sin ella, es posible que el tema combinado no se publique correctamente.
+
+Para obtener más información sobre cómo usar Public ID y System ID en los DTD/XSD personalizados, consulte [Integración de la especialización DITA](../cs-install-guide/dita-ot-specialization.md#integrate-dita-specialization-id211mb0e00xa).
 
 
 
-**Tema principal:**&#x200B;[ Generación de resultados](generate-output.md)
+**Tema principal:**[ Generación de resultados](generate-output.md)

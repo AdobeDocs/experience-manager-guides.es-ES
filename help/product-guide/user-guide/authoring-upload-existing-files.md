@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo cargar los archivos en el reposito
 exl-id: b5430242-1122-43df-a0b2-275b1dea33f2
 feature: Content Management
 role: User
-source-git-commit: f3858b1694837c7a3fa7bb222ed8ff31ce7103f8
+source-git-commit: 0259c0c0b7270d860198f17e6ea5f5829df038d5
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '476'
 ht-degree: 1%
 
 ---
@@ -17,19 +17,21 @@ Lo más probable es que tenga un repositorio de contenido DITA existente que des
 
 >[!IMPORTANT]
 >
-> Vea [Agregar recursos digitales a Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=es) para obtener información detallada en los métodos de carga de contenido admitidos en Adobe Experience Manager.
+> Vea [Agregar recursos digitales a Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) para obtener información detallada en los métodos de carga de contenido admitidos en Adobe Experience Manager.
 
 ## Interfaz de usuario de la consola Assets
 
-Puede seleccionar contenido en el escritorio y arrastrarlo desde la interfaz de usuario de Adobe Experience Manager \(explorador web\) a la carpeta de destino. Para obtener más información, vea [Cargar recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=es#upload-assets) en la documentación de Adobe Experience Manager.
+Para [agregar recursos digitales a Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling#upload-assets) mediante la interfaz de usuario de la consola de Assets, seleccione el recurso necesario en el escritorio y arrastre en la interfaz de usuario de Adobe Experience Manager \(explorador web\) a la carpeta de destino. Al cargar recursos, asegúrese de que los nombres de archivo no incluyan caracteres no admitidos o prohibidos.
+
+Para obtener más información, consulte la sección [Administración de nombres de archivo y caracteres prohibidos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling) en la documentación de Adobe Experience Manager.
 
 ## Aplicación de escritorio de Adobe Experience Manager
 
-Utilice la aplicación de escritorio de Adobe Experience Manager si es un profesional creativo y desea administrar los recursos en su escritorio local. Puede abrir y editar estos recursos con las aplicaciones de escritorio. También puede mantener las versiones y compartir los archivos con otros usuarios. Para obtener más información, vea [Aplicación de escritorio de Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=es).
+Utilice la aplicación de escritorio de Adobe Experience Manager si es un profesional creativo y desea administrar los recursos en su escritorio local. Puede abrir y editar estos recursos con las aplicaciones de escritorio. También puede mantener las versiones y compartir los archivos con otros usuarios. Para obtener más información, vea [Aplicación de escritorio de Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html).
 
 ## Ingestor masivo de recursos
 
-Si tiene migraciones a gran escala e ingestas masivas ocasionales, utilice el Ingestor masivo de recursos para cargar el contenido. Con esta herramienta, puede cargar contenido masivo desde almacenes de datos compatibles como Azure o S3. Para obtener más información, vea [Ingestor masivo de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=es#asset-bulk-ingestor).
+Si tiene migraciones a gran escala e ingestas masivas ocasionales, utilice el Ingestor masivo de recursos para cargar el contenido. Con esta herramienta, puede cargar contenido masivo desde almacenes de datos compatibles como Azure o S3. Para obtener más información, vea [Ingestor masivo de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
 
 ## Uso de FrameMaker para cargas masivas
 
@@ -47,4 +49,4 @@ Para obtener más información sobre cómo funcionan los distintos escenarios de
 
 Si utiliza una herramienta como la aplicación de escritorio de Adobe Experience Manager o el ingestor masivo de recursos, la acción que se va a realizar en un archivo duplicado se controla mediante una configuración en el servidor de Adobe Experience Manager. Póngase en contacto con el administrador del sistema para conocer esta configuración.
 
-**Tema principal:**&#x200B;[ Administrar contenido](authoring.md)
+**Tema principal:**[ Administrar contenido](authoring.md)

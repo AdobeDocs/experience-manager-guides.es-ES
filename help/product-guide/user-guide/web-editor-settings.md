@@ -4,9 +4,9 @@ description: Obtenga información acerca de las distintas configuraciones dispon
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: fad2874f-dab5-4538-8502-f7112c51d941
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 84cc3db0e14217a7ba92143cb63b94329d5c26e1
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '2112'
 ht-degree: 0%
 
 ---
@@ -33,23 +33,26 @@ La opción **Settings** presente en la [barra de fichas](./web-editor-tab-bar.md
 
 ## General
 
-La configuración General permite configurar el diccionario para utilizarlo con el Editor. Esta ficha contiene cuatro secciones: **Corrección ortográfica**, **Condición**, **Creación** y **Citas**.
+La Configuración general permite configurar los ajustes para utilizar el Editor. Esta ficha contiene cinco secciones: **Asistente de IA**, **Creación**, **Citas**, **Condición** y **Corrección ortográfica**.
 
-![](images/editor-setting-general.png){width="650" align="left"}
+![](images/editor-setting-general-new.png){width="350" align="left"}
 
-- **Corrección ortográfica**: Hay dos opciones: **Corrección ortográfica de AEM** y **Corrección ortográfica del explorador**. De forma predeterminada, el editor utiliza la función de revisión ortográfica del explorador, en la que la revisión ortográfica se realiza mediante el diccionario integrado del explorador. Puede cambiar al corrector ortográfico de AEM para utilizar el diccionario de Adobe Experience Manager, que también se puede personalizar para agregar la lista de palabras personalizada. Para obtener más información sobre cómo personalizar el diccionario de AEM, vea la sección [Personalizar el diccionario predeterminado de AEM](../cs-install-guide/customize-aem-custom-dictionary.md) en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
+- **Ayudante de IA**
+Seleccione esta opción para habilitar la función [Ayudante de IA](./ai-assistant.md) en Experience Manager Guides. Anule la selección para deshabilitar la función.
 
-- **Condición**
+  Después de habilitar la opción **Ayudante de IA**, puede configurar qué opciones aparecen en la **pestaña Creación** para autores mediante el menú **Creación de acciones rápidas**, como se muestra a continuación.\
+  Estos cambios se aplican al perfil de carpeta específico con el que está trabajando. Si crea un nuevo perfil de carpeta, heredará la configuración del editor definida en el perfil de carpeta **Global** de forma predeterminada. Puede modificar esta configuración según sea necesario mediante **Configuración del editor** y guardar la configuración actualizada.\
+  Para obtener una descripción detallada de las opciones disponibles para la creación con el Asistente de IA, vea [Crear documentos de forma inteligente con el Asistente de IA](./ai-assistant-right-panel.md).
 
-   - **Resaltar texto condicional en la vista de autor**: seleccione esta opción para resaltar el texto condicional en la vista de autor. El contenido condicional se resalta con el color definido para la condición.
+  Desde el menú **Creación de acciones rápidas**, puede:
 
-   - **Validar con atributos** de condición: Seleccione esta opción para permitir la validación de los valores definidos para los atributos. Esto evita que agregue algún valor incorrecto.
+   - utilice los conmutadores para habilitar o deshabilitar las opciones específicas a las que los autores pueden acceder al trabajar con el Ayudante de IA.
 
-   - **Mostrar clave con el título en el panel** Esquema de asignatura: Seleccione esta opción para mostrar las claves junto con los títulos en el esquema de asignatura. Si no selecciona esta opción, solo se muestran los títulos. Por ejemplo, aquí las teclas &quot;os&quot;, &quot;audience&quot; y &quot;other&quot; también se muestran junto con los títulos.
+   - Para cambiar el orden en que aparecen las opciones, arrástrelas y suéltelas según sea necesario.
 
-     ![](images/subject-scheme-title.png){width="550" align="left"}
+  ![](images/authoring-quick-actions.png){width="350" align="left"}
 
-   - **Mostrar esquema de asunto en el panel Condiciones**: seleccione esta opción para ver un esquema de asunto en el panel Condiciones. Si anula la selección de esta opción, las condiciones definidas se muestran en el panel Condiciones.
+
 
 - **Creación**
 
@@ -59,13 +62,25 @@ La configuración General permite configurar el diccionario para utilizarlo con 
 
   Cambiar el estilo de las citas. Elija el estilo de cita de la lista desplegable que desee utilizar en su proyecto. Para obtener más información, vea [Cambiar estilos de cita](./web-editor-apply-citations.md#change-citation-style).
 
-- **Ayudante de IA**
-Seleccione esta opción para habilitar la función [Ayudante de IA](./ai-assistant.md) en Experience Manager Guides. Anule la selección para deshabilitar la función.
+- **Condición**
+
+   - **Resaltar texto condicional en la vista de autor**: seleccione esta opción para resaltar el texto condicional en la vista de autor. El contenido condicional se resalta con el color definido para la condición.
+
+   - **Validar con atributos de condición**: seleccione esta opción para permitir la validación de los valores definidos para los atributos. Esto evita que añada cualquier valor incorrecto.
+
+   - **Mostrar clave con el título en el panel Esquema del asunto**: seleccione esta opción para mostrar las claves junto con los títulos en el esquema del asunto. Si no selecciona esta opción, solo se muestran los títulos. Por ejemplo, aquí las teclas &quot;os&quot;, &quot;audience&quot; y &quot;other&quot; también se muestran junto con los títulos.
+
+     ![](images/subject-scheme-title.png){width="550" align="left"}
+
+   - **Mostrar esquema de asunto en el panel Condiciones**: seleccione esta opción para ver un esquema de asunto en el panel Condiciones. Si anula la selección de esta opción, las condiciones definidas se muestran en el panel Condiciones.
+
+- **Corrección ortográfica**
+Hay dos opciones: **revisión ortográfica de AEM** y **revisión ortográfica del explorador**. De forma predeterminada, el editor utiliza la función de revisión ortográfica del explorador, en la que la revisión ortográfica se realiza mediante el diccionario integrado del explorador. Puede cambiar al corrector ortográfico de AEM para utilizar el diccionario de Adobe Experience Manager, que también se puede personalizar para agregar la lista de palabras personalizada. Para obtener más información sobre cómo personalizar el diccionario de AEM, vea la sección [Personalizar el diccionario predeterminado de AEM](../cs-install-guide/customize-aem-custom-dictionary.md) en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
 
 ## Paneles
 
-Esta opción controla los paneles que se muestran en los paneles izquierdo y derecho de la consola Editor y Mapa. Puede cambiar la botón para mostrar o ocultar el panel deseado.
+Esta opción controla los paneles que se muestran en los paneles izquierdo y derecho de la consola Editor y Mapa. Puede alternar el botón para mostrar u ocultar el panel deseado.
 
 ![](images/editor-setting-panel.png){width="650" align="left"}
 
@@ -106,17 +121,17 @@ Con esta configuración, cuando intenta agregar un atributo a un elemento, solo 
 
 ## Colores
 
-Muestra una lista de colores de fondo preconfigurados para **Condiciones**. Los usuarios pueden seleccionar un color de fondo al aplicar una condición a un tema. Como administrador, también puede crear y agregar colores de fondo personalizados al lista. Para agregar un nuevo color, ingrese el nombre deseado en el **campo Nombre** Color, elija un color personalizado y seleccione el **icono +** . El color personalizado aparece al final de la lista de color.
+Muestra una lista de colores de fondo preconfigurados para **Condiciones**. Los usuarios pueden seleccionar un color de fondo al aplicar una condición a un tema. Como administrador, también puede crear y agregar colores de fondo personalizados a la lista. Para agregar un nuevo color, escribe el nombre que desees en el campo **Nombre del color**, elige un color personalizado y selecciona el icono **+**. El color personalizado aparecerá al final de la lista de colores.
 
-## Publish perfiles
+## Publicación de perfiles
 
-Contiene los perfiles que pueden utilizarse para publicar la salida de la base **de** conocimiento. Puede crear un nuevo perfil para una base de conocimiento de Target. Por ejemplo, Salesforce o ServiceNow.
+Contiene los perfiles que se pueden usar para publicar la salida de **Knowledge Base**. Puede crear un nuevo perfil para una base de conocimiento de Target. Por ejemplo, Salesforce o ServiceNow.
 
 **Crear un perfil de Salesforce**
 
 **Requisitos previos**
 
-- Cree una aplicación conectada de para Salesforce. Para obtener más información, consulte [Habilitar la configuración de OAuth para la integración de API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
+- Cree una aplicación conectada de para Salesforce. Para obtener más información, consulte [Habilitar la configuración de OAuth para la integración de API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5).
 
 - Al configurar la aplicación conectada, asegúrese de lo siguiente:
 
@@ -156,7 +171,7 @@ Configure el servidor de ServiceNow para cargar los recursos.
 
   Una vez configurada la aplicación, cree el perfil **ServiceNow**.
 
-- Para crear una perfil, seleccione la Base de conocimiento de ServiceNow en el **menú desplegable Tipo** de servidor. Introduzca un nombre **perfil**. En la **URL** ServiceNow, escriba el sitio del consumidor que usaría para publicar la salida y, a continuación, agregue el nombre **de usuario y** el **Contraseña** proporcionados por el sitio del consumidor de ServiceNow. A continuación, **valide** y **Guardar** el perfil recién creado.
+- Para crear un perfil, seleccione ServiceNow Knowledge Base en la lista desplegable **Tipo de servidor**. Escriba un perfil **Name**. En la **URL de ServiceNow**, introduzca el sitio de consumidores que utilizaría para publicar la salida y, a continuación, agregue el **Nombre de usuario** y la **Contraseña** proporcionados por el sitio de consumidores de ServiceNow. A continuación, **Valide** y **guarde** el perfil recién creado.
 
   ![Perfil de publicación ServiceNow](./images/service-now-publish-profile.png){width="550" align="left"}
 
@@ -179,14 +194,14 @@ Esta pestaña contiene opciones para configurar las validaciones de Schematron e
 
   Esto evita que los usuarios guarden cualquier archivo que rompa una regla definida en los archivos de Schematron seleccionados. Si no se selecciona esta opción, el archivo no se validará antes de guardar los cambios.
 
-- **Permitir que todos los usuarios añadan archivos de schematron en validación panel**: Seleccione esta opción para permitir a los usuarios añadir cualquier archivo de Schematron en el panel de validación del editor. Esto permite a los usuarios agregar archivos de Schematron y luego validar los temas con el archivo de Schematron. Si no se selecciona esta opción, la opción para agregar el botón **Agregar archivo de schematron** no estará disponible para los usuarios en el **panel Validación** del Editor.
+- **Permitir que todos los usuarios agreguen archivos de Schematron en el panel de validación**: seleccione esta opción para permitir que los usuarios agreguen cualquier archivo de Schematron en el panel Validación del Editor. Esto permite a los usuarios agregar archivos de Schematron y, a continuación, validar los temas con el archivo de Schematron. Si no se selecciona esta opción, la opción para agregar el botón **Agregar archivo de schematron** no estará disponible para los usuarios en el **panel Validación** del Editor.
 
 
 ## Mostrar atributos
 
-Al igual que la lista Atributos, puede controlar la lista de atributos que se mostrarán en la lista de atributos de un elemento. De manera predeterminada, se han configurado cuatro **atributos de visualización**: audiencia, plataforma, producto y props para que se muestren en la lista de atributos de un elemento. También puede añadir un atributo de visualización mediante el icono añadir **&#x200B;**&#x200B;situado en la parte superior. También puede eliminar cualquiera de los atributos de visualización mediante el icono **Delete**.
+Al igual que la lista Atributos, puede controlar la lista de atributos que se mostrarán en la lista de atributos de un elemento. De manera predeterminada, se han configurado cuatro **atributos de visualización**: audiencia, plataforma, producto y props para que se muestren en la lista de atributos de un elemento. También puede agregar un atributo de visualización mediante el icono **Agregar** de la parte superior. También puede eliminar cualquiera de los atributos de visualización mediante el icono **Delete**.
 
-Los atributos definidos para un elemento se muestran en la Diseño y en la vista de esquema.
+Los atributos definidos para un elemento se muestran en las vistas Diseño y Esquema.
 
 ![](images/editor-settings-display-attributes.png){width="550" align="left"}
 
@@ -206,13 +221,13 @@ Esta pestaña contiene las opciones para crear grupos de idiomas, propagar las e
 
       Escriba los primeros caracteres del idioma o el código de idioma para filtrar los idiomas deseados. Por ejemplo, escriba &#39;en&#39; para filtrar todos los idiomas que contienen &#39;en&#39; al principio de su nombre o código.
 
-   1. Seleccione el icono Listo para añadir los idiomas seleccionados al grupo. Se muestran los idiomas. Cuando agrega tres o más idiomas, se muestra la **opción Mostrar más** . Puede seleccionar **Mostrar más** para vista todos los idiomas presentes en el grupo.
+   1. Seleccione el icono Listo para añadir los idiomas seleccionados al grupo. Se muestran los idiomas. Cuando se agregan tres o más idiomas, se muestra la opción **Mostrar más**. Puede seleccionar **Mostrar más** para ver todos los idiomas presentes en el grupo.
 
       >[!TIP]
       >
-      > Alterne **Mostrar más** a **Mostrar menos** y vista solo unos pocos idiomas.
+      > Cambie **Mostrar más** por **Mostrar menos** y ver solo algunos idiomas.
 
-   1. Pase el ratón sobre los idiomas de una grupo para editar ![el icono](images/edit_pencil_icon.svg) de edición o eliminar ![, elimine](images/Delete_icon.svg) los grupos de idiomas.
+   1. Pase el ratón sobre los idiomas de un grupo para editar ![editar icono](images/edit_pencil_icon.svg) o eliminar ![eliminar](images/Delete_icon.svg) los grupos de idiomas.
    1. Guardar **configuración**.
 
       >[!NOTE]
@@ -244,4 +259,4 @@ Se muestra un error si la ruta de metadatos está en blanco. Si deja la etiqueta
 También puede definir el orden en que se muestran estas etiquetas de metadatos. Para cambiar el orden predeterminado de estas etiquetas, seleccione las barras de puntos para arrastrar y soltar las etiquetas en la ubicación deseada.
 Las etiquetas de metadatos aparecen en la misma secuencia en el cuadro de diálogo **Historial de versiones** del Editor.
 
-**Tema principal:**&#x200B;[ Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

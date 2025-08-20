@@ -4,10 +4,10 @@ description: Crear documentos Markdown desde el editor. Obtenga información sob
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 779be011c078fb3c2fae4fc6a92e3e2d734672b0
 workflow-type: tm+mt
-source-wordcount: '1254'
-ht-degree: 2%
+source-wordcount: '1197'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ Markdown es un lenguaje de marcado ligero que puede ayudarle a agregar elementos
 Siga estos pasos para crear un tema de Markdown desde el Editor:
 
 1. En el panel Repositorio, seleccione ![](images/Add_icon.svg) y, a continuación, seleccione **Tema** de la lista desplegable.
-1. En el cuadro de diálogo **Nuevo tema**, proporcione los siguientes detalles:
+2. En el cuadro de diálogo **Nuevo tema**, proporcione los siguientes detalles:
 
    ![](images/create-markdown-dialog.png){width="300" align="left"}
 
@@ -29,10 +29,10 @@ Siga estos pasos para crear un tema de Markdown desde el Editor:
    * **Plantilla**: Seleccione **Markdown** en la lista desplegable. La plantilla **Tema** está seleccionada de manera predeterminada.
    * **Ruta**: busque la ruta en la que desea guardar el archivo de tema. De forma predeterminada, la ruta de la carpeta seleccionada actualmente en el repositorio se muestra en el campo Ruta.
 
-   >
+   >[!NOTE]
    >
    > En caso de una actualización, debe agregar la plantilla Markdown al perfil de carpeta actual en uso. Puede [crear una nueva plantilla de markdown desde el Editor](./web-editor-features.md#templates) o usar una plantilla existente para la creación de markdown. Para obtener más información sobre cómo agregar plantillas de creación en Experience Manager Guides, vea [Configurar perfiles globales o de nivel de carpeta](../cs-install-guide/conf-folder-level.md).
-1. Seleccione **Crear**.
+3. Seleccione **Crear**.
 
    El tema Markdown se crea en la ruta seleccionada y está abierto para su edición.
 
@@ -158,7 +158,7 @@ La sección Referencias le permite acceder a las siguientes funciones:
 * **Utilizado en**: el Utilizado en referencias enumera los documentos a los que se hace referencia o se utiliza el archivo actual.
 * **Vínculos de salida**: Los vínculos de salida enumeran los documentos a los que se hace referencia en el documento actual.
 
->
+>[!NOTE]
 >
 > Todas las referencias de los vínculos de entrada y de salida utilizados se vinculan mediante hipervínculos a los documentos. Puede abrir y editar fácilmente los documentos vinculados.
 
@@ -170,12 +170,9 @@ Actualmente, las siguientes funciones de Experience Manager Guides no son aplica
 2. Combinar
 3. Asistente de IA
 4. Seguimiento de cambios
-5. Buscar y reemplazar
-6. Buscar y filtrar
-
->[!NOTE]
->
-> La característica **Buscar y reemplazar** no procesa los archivos Markdown en el nivel de repositorio. Esto incluye la búsqueda de un archivo Markdown dentro de un mapa o carpeta. Sin embargo, se puede seguir utilizando dentro del editor Markdown. Además, las opciones **Search** y **Filter** de la vista Repositorio no procesan los archivos Markdown.
 
 
-**Tema principal:**&#x200B;[ Introducción al editor](web-editor.md)
+
+
+
+**Tema principal:**[ Introducción al editor](web-editor.md)
