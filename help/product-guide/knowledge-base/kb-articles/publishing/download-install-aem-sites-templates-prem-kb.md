@@ -35,7 +35,7 @@ Antes de continuar con la configuración, asegúrese de que se cumplen los sigui
 ## Instalación de paquetes mediante el Administrador de paquetes de CRX
 
 1. **Instalar el paquete de componentes:**
-   1. Vaya a [**Administrador de paquetes CRX**](http://<your-aem-instance>/crx/packmgr).
+   1. Vaya a [**Administrador de paquetes CRX**](http://&lt;your-aem-instance>/crx/packmgr).
    2. Cargue e instale el paquete on-premise-guides-components.all-1.x.0.zip.
 
 2. **Instale el paquete de Sites:** Cargue e instale el paquete aemg-docs.all-1.x.0.zip mediante el Administrador de paquetes de CRX.
