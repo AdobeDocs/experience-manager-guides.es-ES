@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: 3b306a873f3b71078256407d977e8bdd5af1180b
+source-git-commit: 9cdd4c94ccf71585ef2c630da8c7b3808f68bb3b
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2349'
 ht-degree: 8%
 
 ---
@@ -144,8 +144,8 @@ ht-degree: 8%
                - [Notas de la versión 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notas de la versión 4.2](./release-info/release-notes-4-2.md)
          - [Notas de la versión 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notas de la versión 4.0.x](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notas de la versión 3.8.x](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notas de la versión 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notas de la versión 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guía del usuario (nueva interfaz de usuario) {#user-guide}
    - Introducción {#about-aemg}
       - [Acerca de  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -342,7 +342,7 @@ ht-degree: 8%
       - Resolución de problemas {#troubleshooting}
          - [Session timeout](./user-guide/session-timeout-prompt.md)
 - Guía del usuario (IU antigua) {#user-guide-old-ui}
-   - [Información general de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Información general de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalación y configuración {#install-guide}
    - On-Premise {#on-prem-ig}
       - [Conceptos básicos locales](./install-guide/introduction.md)
@@ -607,6 +607,10 @@ ht-degree: 8%
          - DITA-OT {#dita-ot}
             - [Usar metadatos de AEM en el complemento](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
             - [Configuración de una DITA-OT personalizada](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
+         - AEM Sites templates {#aem-site-templates}
+            - [Descargar e instalar plantillas de AEM Sites para Cloud Services](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-cs-kb.md)
+            - [Descargar e instalar plantillas de AEM Sites para servicios locales](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-prem-kb.md)
+            - [Personalizar plantillas de AEM Sites existentes](./knowledge-base/kb-articles/publishing/customize-exsisting-site-template-kb.md)
          - [FMPS y guías](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Arquitectura y rendimiento de microservicios](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [Configuración de la publicación basada en microservicios con autenticación JWT](./knowledge-base/publishing/configure-microservices.md)
