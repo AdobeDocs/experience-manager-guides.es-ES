@@ -3,9 +3,10 @@ title: Solicitar una revisión o cerrar una tarea de revisión como autor
 description: Obtenga información sobre el flujo de trabajo de cerrar una tarea de revisión o volver a solicitar una revisión como autor en Experience Manager Guides.
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
+source-git-commit: 439be49e8f4c8cfacb16679257352f4197574365
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -45,13 +46,18 @@ Realice los siguientes pasos para solicitar una nueva revisión o cerrar una tar
 4. Seleccione **Actualizar tarea** para realizar más acciones en la tarea de revisión seleccionada.
 5. En el cuadro de diálogo **Actualizar tarea**, elija una de las siguientes acciones:
 
-   - **Solicitar nueva revisión**: inicia otra ronda de revisión. Puede seleccionar una versión diferente del tema para revisarlo. De forma predeterminada, está seleccionada la última versión (o la última versión editada) del tema o archivo de asignación enviado para su revisión. Los revisores que hayan completado la revisión anterior recibirán una notificación para proporcionar comentarios sobre la versión actualizada. A otros revisores que no hayan marcado la tarea de revisión como completada se les notifica la actualización del tema.
+   - **Solicitar nueva revisión**: inicia otra ronda de revisión. Puede seleccionar una versión diferente del tema para revisarlo. De forma predeterminada, está seleccionada la última versión (o la última versión editada) del tema o archivo de asignación enviado para su revisión. También puede usar la opción **Editar versiones** para establecer la versión de los temas seleccionados en **Última versión**, **Versión en** y **Línea de base** según sea necesario.  Los revisores que hayan completado la revisión anterior recibirán una notificación para proporcionar comentarios sobre la versión actualizada. A otros revisores que no hayan marcado la tarea de revisión como completada se les notifica la actualización del tema.
 
    - **Cerrar revisión**: Cierra la tarea de revisión. El botón **Actualizar tarea** presente en la parte inferior del panel Revisar cambia a **Cerrada** y se envía una notificación a todos los usuarios involucrados en la tarea de revisión indicando su cierre.
 
-   Para obtener más información sobre el déclencheur de las notificaciones de revisión, consulte [Explicación de las notificaciones de revisión](./review-understanding-review-notifications.md).
+   Para obtener detalles sobre cómo revisar el déclencheur de las notificaciones, consulte [Explicación de las notificaciones de revisión](./review-understanding-review-notifications.md).
 
-   ![](images/update-task-dialog.png).
+   ![](images/update-task-dialog.png){width="350" align="left"}
+
+   >[!NOTE]
+   >
+   > El cuadro de diálogo **Actualizar tarea** también incluirá una columna **Estado del documento** para indicar el estado actual de los temas de revisión enumerados al usar Experience Manager Guides as a Cloud Services.
+
 
 6. Seleccione **Confirmar**.
 
