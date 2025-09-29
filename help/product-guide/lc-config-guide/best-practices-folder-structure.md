@@ -73,5 +73,5 @@ Para asignar permisos, vaya a **Herramientas** > **Seguridad** > **Permisos**.
 
 Estos permisos ayudan a garantizar que los usuarios puedan crear o modificar contenido únicamente dentro de sus carpetas designadas.
 
-Para obtener más información, vea [Permisos en AEM](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security#permissions-in-aem).
+Para obtener más información, vea [Permisos en AEM](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/security/security#permissions-in-aem).
 
