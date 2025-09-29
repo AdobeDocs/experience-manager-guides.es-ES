@@ -1,11 +1,12 @@
 ---
 title: Ajustes preestablecidos admitidos
-description: Ofrece una introducción a los ajustes preestablecidos admitidos para publicar un curso en el contenido de aprendizaje y formación
+description: Proporciona una introducción a los ajustes preestablecidos admitidos para publicar un curso en Aprendizaje y formación del producto
 feature: Authoring
 role: User
-source-git-commit: 54956963caf6384e129da97ed0f2100913893977
+exl-id: 32f30bba-4600-4d75-b0bb-1093490ec11e
+source-git-commit: 37eeecfa5683ce9de95f576b185e98bf180fab18
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -18,6 +19,4 @@ Al publicar un curso, puede elegir SCORM y PDF para entregar el contenido en el 
 
 - **PDF:** El ajuste preestablecido de salida de PDF le permite publicar el contenido del curso en un formato profesional, listo para imprimir. El formato PDF lo hace ideal para compartir contenido con fines de revisión o archivo.
 
-
-
-
+Para obtener un vídeo introductorio sobre cómo crear, configurar y generar resultados para un ajuste preestablecido, vea [Crear y configurar ajustes preestablecidos](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content).

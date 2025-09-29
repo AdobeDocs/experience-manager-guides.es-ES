@@ -1,12 +1,13 @@
 ---
 title: Uso de estilos en línea
-description: Aprenda a utilizar varios estilos en línea al crear contenido de aprendizaje en el contenido de aprendizaje y formación
+description: Aprenda a utilizar varios estilos en línea al crear contenido de aprendizaje en la formación y el aprendizaje del producto
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 78b62eb3-bc61-4c39-96b2-c0511d659ebf
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 1%
+source-wordcount: '261'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +19,14 @@ Aplique estilos en línea para personalizar el aspecto de texto específico dire
 >
 > Estas opciones de estilo solo serán visibles si el administrador las ha activado.
 
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469533/aem-guides-learning-content)
+
+
+Están disponibles las siguientes opciones de estilo en línea.
+
 ![](assets/content-properties-learning-content.png){width="350" align="left"}
 
-Las opciones disponibles son las siguientes:
 
 - **Fuente:** Le permite personalizar el aspecto del texto mediante diversas opciones, como la familia de fuentes, el grosor de fuente, la decoración del texto, el tamaño de fuente, etc. Esta configuración le ayuda a aplicar estilo al contenido, como se muestra en el ejemplo siguiente.
 

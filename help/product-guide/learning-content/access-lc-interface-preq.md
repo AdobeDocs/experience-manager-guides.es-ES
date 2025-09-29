@@ -1,9 +1,10 @@
 ---
 title: Explorar la interfaz y los requisitos previos
-description: Explore la interfaz y los requisitos previos al trabajar con el contenido de aprendizaje y formación en Adobe Experience Manager Guides.
+description: Explore la interfaz y los requisitos previos al trabajar con la formación y el aprendizaje de productos en Adobe Experience Manager Guides.
 feature: Authoring
 role: User
-source-git-commit: eda6c57d80359b1c70266708dc444f4880e1bf6c
+exl-id: b55af490-ebd5-4aa0-a5f3-84d835175dc9
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 2%
@@ -44,13 +45,3 @@ La página Preferencias de usuario consta de dos pestañas:
 - **Aspecto**: proporciona las opciones para seleccionar los temas para la aplicación y la vista de origen del contenido de aprendizaje.
 
 Para obtener más información, vea [Preferencias de usuario](../user-guide/intro-home-page.md#user-preferences) en Experience Manager Guides.
-
-
-
-
-
-
-
-
-
-

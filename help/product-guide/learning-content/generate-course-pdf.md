@@ -1,9 +1,10 @@
 ---
 title: Generar PDF
-description: Obtenga información sobre cómo generar resultados de PDF en contenido de aprendizaje y formación.
+description: Obtenga información sobre cómo generar resultados de PDF en Formación y aprendizaje de productos.
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 364aa6a4-4ef6-4f7d-b207-ee011b79183c
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 4%
@@ -26,8 +27,3 @@ Siga estos pasos para generar una PDF:
 1. Puede descargar PDF seleccionando **Ver salida** en el mensaje de éxito y en la barra de herramientas.
 
    ![](assets/view-output.png){width="650" align="left"}
-
-
-
-
-

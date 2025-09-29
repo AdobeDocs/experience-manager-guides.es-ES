@@ -1,13 +1,13 @@
 ---
-title: Gestionar un curso en contenido de aprendizaje y formación
+title: Administre un curso de formación y aprendizaje sobre productos
 description: Obtenga información sobre las distintas funciones presentes en Experience Manager Guides que le permiten administrar el curso de forma eficaz.
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
+source-git-commit: 0c3cb192391248adcca4b845b5e4237531fc0ab7
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 0%
+source-wordcount: '567'
+ht-degree: 1%
 
 ---
 
@@ -23,13 +23,15 @@ Siga estos pasos para agregar contenido nuevo en el curso:
 
    ![](assets/learning-course-content.png)
 2. Seleccione el tipo de contenido que desea crear. Las opciones disponibles son:
-   - **Contenido de aprendizaje**: el material principal de un curso consiste en piezas cortas enfocadas como pasos, ejemplos o explicaciones que enseñan una habilidad o idea específica. Para obtener más información, vea [Crear y personalizar contenido de aprendizaje](./create-content.md).
-   - **Resumen del aprendizaje**: Una revisión rápida al final del capítulo de un curso que recuerda a los alumnos los puntos clave que acaban de aprender.
+   - **Información general**: El primer tema del curso que proporciona una introducción rápida a lo que cubre el curso.
+   - **Tema**: el material principal de un curso consiste en piezas cortas enfocadas, como pasos, ejemplos o explicaciones, que enseñan una habilidad o idea específica. Para obtener más información, vea [Crear y personalizar tema](./create-content.md).
+   - **Resumen**: una revisión rápida al final del capítulo de un curso que recuerda a los alumnos los puntos clave que acaban de aprender.
    - **Prueba**: conjunto de preguntas que se usa para comprobar si alguien entiende bien lo que ha aprendido. Para obtener más información, vea [Crear y administrar prueba](./create-quiz.md).
    - **Banco de preguntas**: conjunto compartido de preguntas reutilizables que se pueden usar para crear pruebas de forma rápida y coherente. Para obtener más información, vea [Banco de preguntas](./create-qb.md).
-   - **Grupo de aprendizaje**: un grupo de aprendizaje ayuda a organizar el contenido de aprendizaje relacionado, como capítulos, temas y otros módulos, en un orden lógico, creando una jerarquía clara que facilita la administración y reutilización de los materiales de aprendizaje.
+   - **Grupo**: un grupo de aprendizaje ayuda a organizar los temas relacionados, como capítulos, temas y otros módulos, en un orden lógico, creando una jerarquía clara que facilita la administración y reutilización de los materiales de formación.
 3. Seleccione **Crear**.
-El contenido seleccionado se crea y se añade al curso.
+
+El contenido seleccionado se crea y se añade al curso. Para ver un vídeo de información general, vea [Agregar contenido nuevo a un curso](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
 
 ## Añadir contenido existente
 
@@ -44,11 +46,19 @@ Puede añadir contenido existente del repositorio de contenido al curso. Siga es
 
 El contenido del curso seleccionado se añade al curso desde el repositorio.
 
+>[!NOTE]
+>
+>También puede usar la opción **Agregar archivo existente**>**Archivo (zip solo de recursos)** para incluir un archivo zip que se descomprima e integre en la estructura de carpetas de la salida final de SCORM. Esto ayuda a optimizar el empaquetado de recursos durante la publicación del curso.
+
+Para ver un vídeo introductorio, vea [Agregar contenido existente al curso](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
+
 ## Eliminar contenido
 
-Puede eliminar cualquier tema del curso seleccionando el menú **Opciones** para ese tema específico y luego **Eliminar**, como se muestra a continuación.
+Puede quitar cualquier tema del curso si selecciona el menú **Opciones** para ese tema específico y, a continuación, selecciona **Quitar entrada**, como se muestra a continuación.
 
 ![](assets/remove-learning-content.png)
+
+Para ver un vídeo introductorio, vea [Quitar contenido del curso](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).
 
 ## Creación de versiones de cursos
 
@@ -71,3 +81,5 @@ La opción **Mostrar** determina cómo se muestran los temas. Puede elegir prese
 > Esta configuración de vista se aplica solamente dentro del administrador de cursos y no afecta a la salida publicada.
 
 ![](assets/course-display-settings.png)
+
+Para ver un vídeo introductorio, vea [Mostrar opciones](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).

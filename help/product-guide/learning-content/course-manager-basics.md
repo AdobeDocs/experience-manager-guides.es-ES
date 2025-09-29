@@ -1,9 +1,10 @@
 ---
 title: Conceptos básicos del responsable de cursos
-description: Comprenda los conceptos básicos del administrador de cursos al trabajar con contenido de aprendizaje y formación en Adobe Experience Manager Guides.
+description: Comprenda los conceptos básicos del administrador de cursos al trabajar con la formación y el aprendizaje de productos en Adobe Experience Manager Guides.
 feature: Authoring
 role: User
-source-git-commit: 33b6080ec0a98e85f96e0ccb46c91bbffb882d2a
+exl-id: 091cd47e-558b-49d7-ae47-b600fc8fe79d
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%

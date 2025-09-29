@@ -1,16 +1,23 @@
 ---
 title: Editar prueba
-description: Aprenda a editar las pruebas en el contenido de aprendizaje y formación
+description: Aprenda a editar las pruebas en la Formación y aprendizaje de productos
 feature: Authoring
 role: User
-source-git-commit: 54956963caf6384e129da97ed0f2100913893977
+exl-id: a8d967ce-9850-445f-b5fc-63ee14ee0dfa
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
 
 # Editar prueba
+
+Antes de sumergirnos en el proceso paso a paso, aquí hay un breve vídeo introductorio que muestra cómo editar una prueba en el editor de pruebas.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3475209/aem-guides-learning-content)
+
+**Pasos para editar una prueba**
 
 Siga estos pasos para editar la prueba:
 
@@ -20,6 +27,5 @@ Siga estos pasos para editar la prueba:
    ![](assets/quiz-lock.png){width="650" align="left"}
 
 1. Puede [agregar preguntas al cuestionario](./quiz-insert-questions.md), así como [insertar preguntas del banco de preguntas](./insert-questions.md).
-1. Para guardar el trabajo, use **Guardar como nueva versión** para crear una nueva versión o presione Ctrl+S para sobrescribir el archivo existente.
+1. Para guardar tu trabajo, usa **Guardar como nueva versión** para crear una nueva versión o presiona `Ctrl+S` para sobrescribir el archivo existente.
 1. Después de guardar la prueba, puedes **desbloquear** el tema para que otros lo editen.
-

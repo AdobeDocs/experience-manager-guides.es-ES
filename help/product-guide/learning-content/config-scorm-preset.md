@@ -1,9 +1,10 @@
 ---
 title: Configuración de ajustes preestablecidos de SCORM
-description: Obtenga información acerca de las distintas configuraciones de ajustes preestablecidos de SCORM en el contenido de aprendizaje y formación
+description: Obtenga información acerca de las distintas configuraciones de ajustes preestablecidos de SCORM en Formación y aprendizaje del producto
 feature: Authoring
 role: User
-source-git-commit: 110082f38f170d277dfd745a4fce77ad030707c3
+exl-id: b3000708-6120-4725-bea1-0b8e58048948
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -27,5 +28,3 @@ Una vez creado el ajuste preestablecido, configure las opciones de SCORM. Las op
   ![](assets/scorm-publish-tab.png){width="650" align="left"}
 
 Una vez configurados todos los cambios, guárdelos para el ajuste preestablecido de SCORM con **Guardar** en la esquina derecha de la barra de herramientas de la página de ajustes preestablecidos de SCORM.
-
-

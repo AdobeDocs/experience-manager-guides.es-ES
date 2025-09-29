@@ -1,20 +1,27 @@
 ---
-title: Añadir componentes básicos al contenido de aprendizaje
-description: Obtenga información sobre los componentes básicos que puede añadir al contenido de aprendizaje en el contenido de aprendizaje y formación
+title: Añadir componentes básicos
+description: Obtenga información acerca de los componentes básicos que puede agregar al tema o al contenido de aprendizaje en Formación y aprendizaje del producto
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
-# Añadir componentes básicos al contenido de aprendizaje
+# Añadir componentes básicos al tema
 
-Puede utilizar las funciones básicas de edición disponibles en la barra de herramientas Contenido de aprendizaje, como se describe a continuación:
+Para comprender mejor cómo crear un tema de aprendizaje y añadirle componentes básicos, el siguiente vídeo ofrece una breve descripción general de las funciones disponibles.
 
-- **Widgets**: agrega widgets como acordeón, carrusel, puntos interactivos y más al contenido de aprendizaje mediante el menú **Insertar**, como se muestra a continuación. Para obtener más información sobre los widgets interactivos, vea [Usar widgets interactivos](./lc-widgets.md).
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469535/learning-content-aem-guides)
+
+
+Puede utilizar las funciones básicas de edición disponibles en la barra de herramientas del Editor, como se describe a continuación:
+
+- **Widgets**: agrega widgets como acordeón, carrusel, puntos interactivos y más al tema o al contenido de aprendizaje mediante el menú **Insertar**, como se muestra a continuación. Para obtener más información sobre los widgets interactivos, vea [Usar widgets interactivos](./lc-widgets.md).
 
   ![](assets/widgets-learning-content.png){width="650" align="left"}
 
@@ -50,5 +57,3 @@ Puede utilizar las funciones básicas de edición disponibles en la barra de her
 - **Hipervínculos**: agrega hipervínculos a la ubicación requerida del contenido. Puede usarlo desde el menú **Más** de la barra de herramientas. Puede ser una referencia de archivo, una URL web o un vínculo de correo electrónico, como se muestra a continuación.
 
   ![](assets/hyperlink-learning-content.png){width="650" align="left"}
-
-

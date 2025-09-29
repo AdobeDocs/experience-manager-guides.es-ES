@@ -1,11 +1,12 @@
 ---
 title: Insertar preguntas del banco de preguntas
-description: Aprenda a insertar preguntas del banco de preguntas en las pruebas para el contenido de aprendizaje y formación.
+description: Aprenda a insertar preguntas del banco de preguntas en las pruebas para formación y aprendizaje sobre productos
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: dfc247f7-31f9-4bcf-84e2-151993603b89
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -14,9 +15,11 @@ ht-degree: 0%
 
 Realice los siguientes pasos para insertar preguntas del banco de preguntas en el cuestionario:
 
-1. Seleccione la opción **Insertar del banco de preguntas** en el menú desplegable **Preguntas** de la barra de herramientas, como se muestra a continuación. Se abre el cuadro de diálogo **Insertar del banco de preguntas**.
+1. Seleccione la opción **Insertar del banco de preguntas** en el menú desplegable **Preguntas** de la barra de herramientas, como se muestra a continuación.
 
    ![](assets/insert-from-question-bank.png){width="350" align="left"}
+
+   Se muestra el cuadro de diálogo **Insertar del banco de preguntas de HTML**.
 
 1. Especifique la ruta al banco de preguntas almacenado en el repositorio y seleccione las preguntas que desee insertar en el cuestionario, como se muestra a continuación. También puede seleccionar todas las preguntas del banco de preguntas, usando **Seleccionar todo**.
 
@@ -26,10 +29,12 @@ Realice los siguientes pasos para insertar preguntas del banco de preguntas en e
 
    ![](assets/specific-questions.png){width="650" align="left"}
 
-1. Además, puede habilitar la opción **Elegir pregunta aleatoria** mediante el conmutador. Una vez activadas, puede definir la cantidad de preguntas que desea seleccionar aleatoriamente. La prueba mostrará un marcador de posición indicando que se ha insertado una pregunta aleatoria, como se muestra en la segunda captura de pantalla. Durante la publicación, el sistema selecciona e inserta automáticamente el número especificado de preguntas aleatorias del banco de preguntas.
+1. Además, puede habilitar la opción **Elegir pregunta aleatoria** mediante la opción. Una vez activadas, puede definir la cantidad de preguntas que desea seleccionar aleatoriamente. La prueba mostrará un marcador de posición indicando que se ha insertado una pregunta aleatoria, como se muestra en la segunda captura de pantalla. Durante la publicación, el sistema selecciona e inserta automáticamente el número especificado de preguntas aleatorias del banco de preguntas.
 
    ![](assets/random-question-question-bank.png){width="650" align="left"}
 
    Las preguntas aleatorias se añaden en la prueba como se muestra a continuación.
 
    ![](assets/inserted-question.png){width="650" align="left"}
+
+Para ver un vídeo de información general, vea [Uso del banco de preguntas](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides).
