@@ -4,7 +4,7 @@ description: Obtenga información sobre las distintas funciones presentes en Exp
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 0c3cb192391248adcca4b845b5e4237531fc0ab7
+source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 1%
@@ -48,7 +48,7 @@ El contenido del curso seleccionado se añade al curso desde el repositorio.
 
 >[!NOTE]
 >
->También puede usar la opción **Agregar archivo existente**>**Archivo (zip solo de recursos)** para incluir un archivo zip que se descomprima e integre en la estructura de carpetas de la salida final de SCORM. Esto ayuda a optimizar el empaquetado de recursos durante la publicación del curso.
+>También puede usar la opción **Agregar archivo existente** > **Archivo (zip solo de recursos)** para incluir un archivo zip que se descomprima e integre en la estructura de carpetas de la salida final de SCORM. Esto ayuda a optimizar el empaquetado de recursos durante la publicación del curso.
 
 Para ver un vídeo introductorio, vea [Agregar contenido existente al curso](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
 
