@@ -1,13 +1,13 @@
 ---
 title: Tutoriales para Experience Manager Guides
-description: Busque vídeos de tutoriales para Experience Manager Guides (anteriormente XML Documentation para Adobe Experience Manager). Obtenga información acerca de la compatibilidad nativa con DITA y la creación estructurada en Experience Manager.
+description: Busque vídeos de tutoriales para Experience Manager Guides (anteriormente XML Documentation para Adobe Experience Manager). Obtenga información sobre la compatibilidad nativa con DITA y la creación estructurada en Experience Manager.
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
 feature: AEM Guides Tutorials
 role: User
 source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -25,22 +25,22 @@ Con la solución [!DNL Experience Manager Guides], las empresas pueden ofrecer e
 
 ## Novedades
 
-* **[[!DNL Experience Manager Guides] Curso de introducción](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html?lang=es){target="blank"}**
+* **[[!DNL Experience Manager Guides] Curso de introducción](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}**
 
   _Aprenda a crear, organizar y publicar contenido con [!DNL Adobe Experience Manager Guides]._
 
-* **[[!DNL Experience Manager Guides] Creación en el editor integrado](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=es){target="blank"}**
+* **[[!DNL Experience Manager Guides] Creación en el editor integrado](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
 
   _Aprenda a crear contenido con el editor web nativo en [!DNL Adobe Experience Manager Guides]. Obtenga una comprensión completa de las preferencias de usuario, la configuración del editor, las barras de herramientas y mucho más._
 
-* **[Generación de resultados con [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html?lang=es){target="blank"}**
+* **[Generación de resultados con [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**
 
   _Obtenga información sobre cómo generar resultados usando [!DNL Adobe Experience Manager Guides]. Obtenga información acerca de las diversas características disponibles para la generación de resultados: informes, líneas de base, condiciones, solución de problemas, publicación en lotes y activación._
 
 
 ## Recursos adicionales
 
-* [[!DNL Experience Manager Guides] Guía del usuario (IU antigua)](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-* [[!DNL AEM Guides] Información y asistencia](https://helpx.adobe.com/es/support/xml-documentation-for-experience-manager.html)
+* [[!DNL Experience Manager Guides] Guía del usuario (IU antigua)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+* [[!DNL AEM Guides] Información y asistencia](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League - Explorar AEM](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html?lang=es)
 
