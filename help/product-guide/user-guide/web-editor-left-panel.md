@@ -155,7 +155,7 @@ Tiene las siguientes opciones para filtrar los archivos y limitar la búsqueda e
 - **Archivos DITA**: Puede buscar todos los **temas DITA** y **mapas DITA** presentes en la ruta seleccionada. Están seleccionadas de forma predeterminada.
 - **Archivos que no son DITA**: puede buscar **archivos Ditaval**, **archivos de imagen**, **multimedia**, **documentos** y **JSON** en la ruta seleccionada.
 
-  ![filtro de búsqueda rápida ](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![filtro de búsqueda rápida &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *Utilice los filtros rápidos para buscar archivos DITA y no DITA.*
 
@@ -1142,4 +1142,4 @@ Para ver los comentarios de revisión de las tareas de revisión activas que est
 
 </details>
 
-**Tema principal:**[ Introducción al editor](web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)

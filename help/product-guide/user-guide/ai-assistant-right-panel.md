@@ -1,5 +1,5 @@
 ---
-title: Utilice el asistente de IA para crear documentos de forma inteligente `
+title: Utilice el asistente de IA para crear documentos de forma inteligente &grave;
 description: Aprenda a utilizar el asistente de IA para crear documentos con eficiencia inteligente.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
 source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
@@ -24,7 +24,7 @@ Después de seleccionar el texto de un tema, puede elegir realizar cualquiera de
 ## Sugerir contenido reutilizable
 
 
-Use la característica **Sugerir contenido reutilizable** ![ai sugerir icono de contenido reutilizable ](./images/ai-suggest-reusable-content-icon.svg) para crear contenido de manera consistente y precisa. Puede seleccionar el contenido y Experience Manager Guides proporciona sugerencias sobre cómo reutilizar el contenido existente en el repositorio.
+Use la característica **Sugerir contenido reutilizable** ![ai sugerir icono de contenido reutilizable &#x200B;](./images/ai-suggest-reusable-content-icon.svg) para crear contenido de manera consistente y precisa. Puede seleccionar el contenido y Experience Manager Guides proporciona sugerencias sobre cómo reutilizar el contenido existente en el repositorio.
 Más información sobre cómo usar [sugerencias inteligentes con tecnología de IA para crear contenido](authoring-ai-based-smart-suggestions.md).
 
 

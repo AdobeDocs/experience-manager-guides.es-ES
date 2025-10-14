@@ -1,5 +1,5 @@
 ---
-title: Utilice el asistente de IA para crear documentos de forma inteligente `
+title: Utilice el asistente de IA para crear documentos de forma inteligente &grave;
 description: Aprenda a utilizar el asistente de IA para crear documentos con eficiencia inteligente en el editor web.
 hide: true
 exl-id: c7d37da8-e838-47a2-b469-287bcd841933
@@ -18,7 +18,7 @@ Experience Manager Guides proporciona una herramienta de asistente de IA que le 
 >[!NOTE]
 >
 > Para agregar la función Asistente de IA en el panel derecho, el administrador del sistema debe seleccionar la opción **Asistente de IA** en la pestaña **Paneles** en el **icono de configuración de Workspace** ![Workspace](./images/editor_settings_icon.svg).
-> > Además, debe retirar el documento para ver el icono del asistente de IA.
+> &#x200B;> Además, debe retirar el documento para ver el icono del asistente de IA.
 
 Esta función sólo está disponible para temas DITA. Después de seleccionar el texto de un tema, puede elegir realizar cualquiera de las acciones del Asistente de IA:
 
@@ -29,7 +29,7 @@ Esta función sólo está disponible para temas DITA. Después de seleccionar el
 ## Sugerir contenido reutilizable
 
 
-Use la característica **Sugerir contenido reutilizable** ![ai sugerir icono de contenido reutilizable ](./images/ai-suggest-reusable-content-icon.svg) para crear contenido de manera consistente y precisa. Puede seleccionar el contenido y Experience Manager Guides proporciona sugerencias sobre cómo reutilizar el contenido existente en el repositorio.
+Use la característica **Sugerir contenido reutilizable** ![ai sugerir icono de contenido reutilizable &#x200B;](./images/ai-suggest-reusable-content-icon.svg) para crear contenido de manera consistente y precisa. Puede seleccionar el contenido y Experience Manager Guides proporciona sugerencias sobre cómo reutilizar el contenido existente en el repositorio.
 Más información sobre cómo usar [sugerencias inteligentes con tecnología de IA para crear contenido](authoring-ai-based-smart-suggestions.md).
 
 
