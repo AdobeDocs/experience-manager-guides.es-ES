@@ -198,4 +198,4 @@ Haga clic en **Actualizar** para obtener una nueva lista de vínculos rotos y ve
 1. Haga clic en **Descargar CSV** para descargar la instantánea actual de los vínculos rotos en el mapa DITA. El CSV contiene las columnas seleccionadas y los vínculos rotos filtrados en la vista Vínculos rotos. A continuación, puede abrir y ver este archivo CSV en cualquier editor CSV.
 
 
-**Tema principal:**&#x200B;[ Informes](reports-intro.md)
+**Tema principal:**&#x200B;[&#x200B; Informes](reports-intro.md)

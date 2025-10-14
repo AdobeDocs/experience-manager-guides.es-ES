@@ -156,7 +156,7 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
 
      **Requisitos previos**
 
-      - Cree una aplicación conectada de para Salesforce. Para obtener más información, consulte [Habilitar la configuración de OAuth para la integración de API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
+      - Cree una aplicación conectada de para Salesforce. Para obtener más información, consulte [Habilitar la configuración de OAuth para la integración de API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5).
 
       - Al configurar la aplicación conectada, asegúrese de lo siguiente:
 
@@ -753,7 +753,7 @@ Para acceder al historial de versiones y volver a una versión específica del t
    Pestaña **Vista previa**: el contenido recién agregado está en fuente verde y el contenido eliminado está en fuente roja.
 
    Pestaña **Metadatos**: los metadatos agregados recientemente están en fuente verde y los metadatos eliminados están en fuente roja.
-   ![Diferencia de metadatos para las versiones ](images/metadata-version-diff.png){width="550" align="left"}
+   ![Diferencia de metadatos para las versiones &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
    *Comparar los metadatos de distintas versiones en el historial de versiones.*
 
    >[!NOTE]
@@ -937,7 +937,7 @@ Tiene las siguientes opciones para filtrar los archivos y limitar la búsqueda e
 - **Archivos DITA**: Puede buscar todos los **temas DITA** y **mapas DITA** presentes en la ruta seleccionada. Están seleccionadas de forma predeterminada.
 - **Archivos no DITA**: Puede buscar **Archivos Ditaval**, **Archivos de imagen**, **Multimedia**, **Documentos** y **Json** en la ruta seleccionada.
 
-![filtro de búsqueda rápida ](images/repository-filter-search-quick.png) {width="300" align="left"}
+![filtro de búsqueda rápida &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
 
 *Utilice los filtros rápidos para buscar archivos DITA y no DITA.*
 
@@ -1971,7 +1971,7 @@ Puede acceder a la función **Propiedades de contenido** seleccionando el icono 
 
 1. En el panel desplegable **Atributo**, seleccione el atributo en la lista desplegable y especifique el valor de un atributo.  Luego haga clic en **Agregar**.
 
-   ![panel de atributos con varios atributos ](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![panel de atributos con varios atributos &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Para editar el atributo, pasa el ratón sobre él y selecciona **Editar** ![editar-icono](images/edit_pencil_icon.svg).
    ![editar atributos](images/edit-attributes-content-properties.png){width="300" align="left"}
@@ -2006,7 +2006,7 @@ La sección General le permite acceder a las siguientes funciones:
 - **Idioma**: muestra el idioma del tema. Se establece desde el campo language en la página de propiedades.
 - **Creado el**: muestra la fecha y la hora en que se creó el tema.
 - **Desprotegido por**: muestra el usuario que desprotegió el tema.
-- **Estado del documento**: puede seleccionar y actualizar el estado del documento del tema abierto actualmente. Para obtener más información, vea [Estado del documento ](web-editor-document-states.md#)*.*
+- **Estado del documento**: puede seleccionar y actualizar el estado del documento del tema abierto actualmente. Para obtener más información, vea [Estado del documento &#x200B;](web-editor-document-states.md#)*.*
 
 **Nota:** Puede copiar en el portapapeles los valores de atributo de los distintos campos de las propiedades del archivo.
 
@@ -2049,4 +2049,4 @@ Con la función Cambios rastreados del panel derecho, puede ver la información 
 >
 > La función Cambios rastreados muestra todas las actualizaciones de las que se ha realizado un seguimiento mediante la función Habilitar/Deshabilitar el seguimiento de cambios de la barra de herramientas principal. Para obtener más información, consulte [Habilitar/deshabilitar el seguimiento de cambios](#id205DF0203Y4).
 
-**Tema principal:**&#x200B;[ Trabajar con el editor web](web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Trabajar con el editor web](web-editor.md)

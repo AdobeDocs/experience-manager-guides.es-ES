@@ -94,7 +94,7 @@ Para obtener más información sobre la administración de definiciones jerárqu
 
 Utilice el menú contextual para previsualizar rápidamente el archivo (.dita, .xml, audio, vídeo o imagen) sin abrirlo. Ahora puede cambiar el tamaño del panel de vista previa y, si el contenido contiene algún vínculo de referencia, puede seleccionarlo para abrirlo en una nueva pestaña.
 
-![Panel de vista previa ](assets/quick-preview_cs.png){width="800" align="left"}
+![Panel de vista previa &#x200B;](assets/quick-preview_cs.png){width="800" align="left"}
 
 *Obtener una vista previa del archivo en el panel.*
 

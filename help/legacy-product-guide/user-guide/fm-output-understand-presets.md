@@ -18,4 +18,4 @@ AEM Guides admite la creación de resultados para documentos de FrameMaker en lo
 
 En las siguientes secciones se explican las opciones disponibles para los formatos de salida admitidos.
 
-**Tema principal:**&#x200B;[ Generar salida de documentos de FrameMaker](fm-output-generatation.md)
+**Tema principal:**&#x200B;[&#x200B; Generar salida de documentos de FrameMaker](fm-output-generatation.md)

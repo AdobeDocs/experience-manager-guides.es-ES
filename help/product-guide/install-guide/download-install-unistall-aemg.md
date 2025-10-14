@@ -49,4 +49,4 @@ Para limpiar los archivos residuales después de la desinstalación, realice los
 1. Haga clic en **Invalidar caché**.
 1. Limpie la caché del explorador.
 
-**Tema principal:**&#x200B;[ Descargar e instalar](download-install.md)
+**Tema principal:**&#x200B;[&#x200B; Descargar e instalar](download-install.md)

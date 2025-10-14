@@ -149,4 +149,4 @@ De forma similar a la forma de cancelar una tarea de generación de resultados d
 
 ![](images/cancel-publish-task-map-collection.png){align="left"}
 
-**Tema principal:**&#x200B;[ Generación de resultados](generate-output.md)
+**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)

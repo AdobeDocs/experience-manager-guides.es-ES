@@ -88,4 +88,4 @@ Realice los siguientes pasos para cancelar una tarea de generación de resultado
    ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
-**Tema principal:**&#x200B;[ Generación de resultados](generate-output.md)
+**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)

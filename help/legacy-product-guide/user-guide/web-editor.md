@@ -47,4 +47,4 @@ Además, el editor web admite DITA y admite los estándares DITA 1.3 y 1.2, DITA
 - **[Usar etiquetas](web-editor-use-label.md)**
 
 
-**Tema principal:**&#x200B;[ Contenido de autor con AEM Guides](authoring-content-xml-doc.md)
+**Tema principal:**&#x200B;[&#x200B; Contenido de autor con AEM Guides](authoring-content-xml-doc.md)

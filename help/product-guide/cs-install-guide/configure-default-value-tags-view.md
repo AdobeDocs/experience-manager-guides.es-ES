@@ -37,4 +37,4 @@ AEM Guides le permite configurar el estado predeterminado de la vista Etiquetas 
 >
 > La preferencia del usuario en el Editor Web para habilitar/deshabilitar la Vista de etiquetas tiene prioridad sobre este valor predeterminado. Por lo tanto, si un usuario habilita la Vista de etiquetas desde el Editor web, permanecerá habilitada incluso en todas las sesiones.
 
-**Tema principal:**&#x200B;[ Personalizar editor web](conf-web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)

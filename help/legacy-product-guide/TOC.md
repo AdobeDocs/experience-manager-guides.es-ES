@@ -21,8 +21,8 @@ ht-degree: 3%
    - Introducción {#about-aem-guide}
       - [Acerca de  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] funciones clave y de trabajo {#aemg-works-features}
-         - [Cómo funciona [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
-         - [Características clave  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
+         - [Cómo funciona [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+         - [Características clave  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
    - Administrar contenido {#manage-content}
       - [Conceptos clave, funciones y permisos, y requisitos previos](./user-guide/authoring.md)
       - [Cargar archivos](./user-guide/authoring-upload-existing-files.md)

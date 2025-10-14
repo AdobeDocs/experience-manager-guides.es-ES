@@ -59,4 +59,4 @@ El atributo `platform` está almacenado en el sistema. Siempre que un autor deci
 
 ![](images/properties-tab.png){width="350" align="left"}
 
-**Tema principal:**&#x200B;[ Generación de resultados](generate-output.md)
+**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)

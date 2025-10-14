@@ -66,7 +66,7 @@ Ahora puede elegir la forma predeterminada de ver los archivos en el Editor Web.
 
 Puede definir atributos de condición en los temas DITA. A continuación, utilice los atributos de condición en el ajuste preestablecido de condición para publicar el contenido en un mapa DITA. Experience Manager Guides ahora también le permite crear y administrar ajustes preestablecidos de condición desde el Editor web. También puede editarlos, duplicarlos o eliminarlos fácilmente.
 
-![Ajustes preestablecidos de condición de la ficha Administrar del editor web ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+![Ajustes preestablecidos de condición de la ficha Administrar del editor web &#x200B;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
 Para obtener más información, vea [Usar ajustes preestablecidos de condición](../user-guide/generate-output-use-condition-presets.md).
 

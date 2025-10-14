@@ -55,4 +55,4 @@ Realice los siguientes pasos para descargar e instalar AEM Guides por primera ve
 >
 > AEM Realice el procedimiento de instalación en todas las instancias de los servidores de la instalación de la aplicación de.
 
-**Tema principal:**&#x200B;[ Descargar e instalar](download-install.md)
+**Tema principal:**&#x200B;[&#x200B; Descargar e instalar](download-install.md)

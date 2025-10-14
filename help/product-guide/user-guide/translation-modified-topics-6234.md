@@ -78,4 +78,4 @@ Realice los siguientes pasos para enviar un tema modificado para su retraducció
 1. Vuelva al archivo de mapa DITA en la carpeta de idioma de origen en la interfaz de usuario de Assets. Los temas retraducidos ahora están sincronizados.
 
 
-**Tema principal:**&#x200B;[ Resumen de traducción de contenido](translation.md)
+**Tema principal:**&#x200B;[&#x200B; Resumen de traducción de contenido](translation.md)

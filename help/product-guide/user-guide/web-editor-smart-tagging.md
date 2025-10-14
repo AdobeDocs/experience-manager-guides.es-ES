@@ -39,4 +39,4 @@ Siga estos pasos para crear etiquetas inteligentes:
 
 *Póngase en contacto con el equipo de éxito del cliente para habilitar esta característica en el entorno. Esto no está habilitado como parte de la compatibilidad predeterminada.*
 
-**Tema principal:**&#x200B;[ Administrar metadatos](manage-metadata.md)
+**Tema principal:**&#x200B;[&#x200B; Administrar metadatos](manage-metadata.md)

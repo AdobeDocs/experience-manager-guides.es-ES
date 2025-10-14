@@ -25,4 +25,4 @@ Para obtener más información acerca de las vistas del Editor disponibles para 
 >
 > Si está trabajando en un archivo de asignación, se mostrarán diferentes opciones o vistas en el área de edición de contenido , incluida una vista **Diseño** para el archivo de asignación. Para obtener más información, vea [Funciones del editor de mapas](./map-editor-advanced-map-editor.md).
 
-**Tema principal:**&#x200B;[ Introducción al editor](web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)

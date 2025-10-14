@@ -85,7 +85,7 @@ Antes de continuar con la configuración, asegúrese de que se cumplen los sigui
    2. Cree una nueva página de producto en la estructura del sitio OOTB.
    3. Vaya a **Documentos de AEMG** > **Inglés** > **Documentos**.
 
-      ![Crear página en la estructura del sitio de AEM ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
+      ![Crear página en la estructura del sitio de AEM &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
 
    4. Seleccione el mosaico **Página de inicio** y, a continuación, seleccione **Siguiente**.
 

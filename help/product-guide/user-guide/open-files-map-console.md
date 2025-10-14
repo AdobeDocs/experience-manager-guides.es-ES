@@ -17,7 +17,7 @@ Siga estos pasos para abrir un archivo de mapa DITA en la consola de mapas:
 
 1. Abra **la consola de mapas** desde la página principal.
 
-   ![Nuevo ](images/map-console-home-page.png){width="800"align="left"}
+   ![Nuevo &#x200B;](images/map-console-home-page.png){width="800"align="left"}
 
 2. Dado que no se ha seleccionado ningún archivo de asignación, se le pedirá que seleccione un archivo de asignación para utilizar las funciones de gestión y publicación de mapas.
 
@@ -45,4 +45,4 @@ También puede abrir un archivo de asignación existente en la consola Mapa desd
 
    El archivo de asignación se abre en la consola Mapa.
 
-   ![Nuevo ](images/map-console.png){align="left"}
+   ![Nuevo &#x200B;](images/map-console.png){align="left"}

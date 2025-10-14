@@ -186,7 +186,7 @@ Puede insertar citas al tema desde la barra de herramientas principal o el panel
 
 ### Desde la barra de herramientas principal
 
-1. Seleccione el icono de **citas** ![citas ](images/citations-icon.svg) en la barra de herramientas principal.
+1. Seleccione el icono de **citas** ![citas &#x200B;](images/citations-icon.svg) en la barra de herramientas principal.
 1. En el cuadro de diálogo **Citas**, elija la cita. También puede seleccionar varias citas.
    ![cuadro de diálogo de cita](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. Puede filtrar las citas escribiendo los primeros alfabetos en el panel de búsqueda del cuadro de diálogo **Cita**.
@@ -201,7 +201,7 @@ La cita seleccionada se agrega en la ubicación del cursor en el tema.
 > 
 >Para ver el icono **Citas** desde el panel izquierdo, el administrador del sistema debe habilitar la opción **Citas** en la pestaña **Paneles** en **Configuración**.
 
-1. Seleccione **Citas** ![icono de citas ](images/citations-icon.svg) en el panel izquierdo.
+1. Seleccione **Citas** ![icono de citas &#x200B;](images/citations-icon.svg) en el panel izquierdo.
 1. Arrastre la cita del panel **Citas** y suéltela en el lugar apropiado del tema.
 
    También puede seleccionar **Insertar** de ![](images/options.svg) **Opciones** para insertar una cita.

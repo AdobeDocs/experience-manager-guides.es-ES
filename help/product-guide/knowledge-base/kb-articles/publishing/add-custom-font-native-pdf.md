@@ -26,15 +26,15 @@ Este proceso consta de 3 pasos:
 
 ## Paso 1 : Cargue la fuente personalizada en la carpeta de recursos de la plantilla
 
-![Cargar e importar fuentes personalizadas ](../assets/publishing/custom-font1.png)
+![Cargar e importar fuentes personalizadas &#x200B;](../assets/publishing/custom-font1.png)
 
 ## Paso 2: Realice los cambios necesarios en la hoja de estilo de las plantillas de PDF
 
-![Cara de fuente en la hoja de estilo de la plantilla de PDF ](../assets/publishing/custom-font2.png)
+![Cara de fuente en la hoja de estilo de la plantilla de PDF &#x200B;](../assets/publishing/custom-font2.png)
 
 ## Paso 3 (opcional) : Fuente utilizada incrustada en el PDF
 
-![Incrustación de fuente personalizada en el PDF DITA ](../assets/publishing/custom-font3.png)
+![Incrustación de fuente personalizada en el PDF DITA &#x200B;](../assets/publishing/custom-font3.png)
 
 ## Preguntas más frecuentes
 

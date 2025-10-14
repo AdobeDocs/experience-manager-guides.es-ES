@@ -28,4 +28,4 @@ Las siguientes opciones están disponibles para la salida de EPUB:
 | Ruta de destino | Ruta de acceso dentro del repositorio de AEM en la que se almacena la salida de EPUB. |
 | Ejecutar flujo de trabajo posterior a generación | Al elegir esta opción, se muestra una nueva lista desplegable Flujo de trabajo de generación posterior que contiene todos los flujos de trabajo configurados en AEM. Debe seleccionar un flujo de trabajo que desee ejecutar después de completar el flujo de trabajo de generación de resultados. |
 
-**Tema principal:**&#x200B;[ Generar salida de documentos de FrameMaker](fm-output-generatation.md)
+**Tema principal:**&#x200B;[&#x200B; Generar salida de documentos de FrameMaker](fm-output-generatation.md)

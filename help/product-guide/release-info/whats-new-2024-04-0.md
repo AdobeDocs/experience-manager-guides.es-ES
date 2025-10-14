@@ -68,7 +68,7 @@ Ahora, además de activar el resultado para la colección de activación masiva 
 Esta característica le ayuda a activar el contenido en una instancia de vista previa, lo que le permite comprobar cómo se ve y funciona antes de activarlo en la instancia de **Publish**.
 
 
-![ creó la pestaña del historial de auditoría de la colección de activación masiva](assets/bulk-collection-audit-history.png){width="800" align="left"}
+![&#x200B; creó la pestaña del historial de auditoría de la colección de activación masiva](assets/bulk-collection-audit-history.png){width="800" align="left"}
 
 *Vea la información acerca de los resultados del mapa activado en la ficha **Historial de auditoría**.*
 
@@ -160,7 +160,7 @@ Ahora tiene una mejor experiencia al filtrar archivos. La funcionalidad renovada
 
 Disfrute de ventajas como un acceso más rápido a los archivos relevantes y una interfaz de usuario más intuitiva, lo que hace que su experiencia de búsqueda sea más fluida y eficiente.
 
-![filtro de búsqueda rápida ](assets/repository-filter-search-quick.png) {width="300" align="left"}
+![filtro de búsqueda rápida &#x200B;](assets/repository-filter-search-quick.png) {width="300" align="left"}
 
 *Utilice los filtros rápidos para buscar archivos DITA y no DITA.*
 

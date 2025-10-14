@@ -115,4 +115,4 @@ Esto se puede hacer en tiempo de ejecución a través de la consola Felix o medi
 AEM AEM Un número mayor de **Límite de páginas del sitio en el montón** de la propiedad optimiza el proceso de generación de resultados del sitio en el sitio en el sitio en el que se ha puesto en marcha la.
 
 
-**Tema principal:**&#x200B;[ Descargar e instalar](download-install.md)
+**Tema principal:**&#x200B;[&#x200B; Descargar e instalar](download-install.md)

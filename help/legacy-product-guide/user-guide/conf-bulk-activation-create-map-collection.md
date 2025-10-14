@@ -46,7 +46,7 @@ Para crear una recopilación de mapas de activación masiva, realice los siguien
 
 Los ficheros de mapa DITA se añaden a la recopilación de mapas de activación masiva.
 
-![ creó la colección de activación masiva](images/bulk-activation-collection-created.png){width="800" align="left"}
+![&#x200B; creó la colección de activación masiva](images/bulk-activation-collection-created.png){width="800" align="left"}
 
 ## Pestaña Mapas y ajustes preestablecidos
 
@@ -85,7 +85,7 @@ La ficha **Historial de auditoría** presenta información sobre los resultados 
 
 - **Modificado**: indica si el mapa DITA se actualizó después de la última publicación. En función de esta información, puede decidir si desea activar la salida para este mapa DITA.
 - **Publicado**: Muestra la fecha y la hora de la última salida publicada (o activada). Si selecciona el vínculo, se muestra la página Resultados de la activación, que contiene los registros con información sobre la ruta raíz en la que se activa el contenido.
-  ![ creó la pestaña del historial de auditoría de la colección de activación masiva](images/bulk-collection-audit-history.png){width="800" align="left"}
+  ![&#x200B; creó la pestaña del historial de auditoría de la colección de activación masiva](images/bulk-collection-audit-history.png){width="800" align="left"}
 
   *Vea la información acerca de los resultados del mapa activado en la ficha **Historial de auditoría**.*
 

@@ -124,7 +124,7 @@ Experience Manager Guides ahora proporciona una experiencia de usuario mejorada 
 También le permite duplicar una línea de base basada en la etiqueta. La versión de referencia se selecciona en función de la etiqueta dada (si existe) mientras se duplica o, de lo contrario, elige la versión de la línea de base duplicada.
 
 
-![duplicar una línea de base ](assets/duplicate-baseline.png) {width="300" align="left"}
+![duplicar una línea de base &#x200B;](assets/duplicate-baseline.png) {width="300" align="left"}
 
 *Duplicar una línea de base basándose en una etiqueta o crear una copia exacta.*
 

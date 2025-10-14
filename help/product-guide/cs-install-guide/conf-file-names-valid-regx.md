@@ -32,4 +32,4 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 >
 > AEM De forma similar a la lista de caracteres de nombre de archivo válidos, también puede especificar una lista de caracteres de nombre de archivo válidos para la salida de sitio de la lista de nombres de archivo de salida de la página de datos de sitio de. AEM Para obtener más información, consulte [Configurar nombres de archivo válidos para la salida de sitio de la red de distribución de datos](conf-file-names-valid-regx-aem-site-output.md#).
 
-**Tema principal:**&#x200B;[ Configurar nombres de archivo](conf-file-names.md)
+**Tema principal:**&#x200B;[&#x200B; Configurar nombres de archivo](conf-file-names.md)

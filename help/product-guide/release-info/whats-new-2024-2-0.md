@@ -27,7 +27,7 @@ Ahora puede mejorar el recorrido de la creación con Sugerencias inteligentes, u
 
 Para mantener el contenido correcto y coherente, la búsqueda y las sugerencias se limitan al contenido propiedad de su organización y coinciden estrechamente con las palabras clave que busca.
 
-![Panel de sugerencias inteligentes en el editor web ](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
+![Panel de sugerencias inteligentes en el editor web &#x200B;](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
 
 
 *Ver sugerencias inteligentes para buscar y agregar referencias de contenido coincidentes desde el repositorio de contenido.*

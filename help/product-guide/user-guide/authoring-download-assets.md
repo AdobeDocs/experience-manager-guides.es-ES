@@ -111,4 +111,4 @@ Realice los siguientes pasos para descargar un archivo de asignación DITA junto
 
 Una vez descargado el mapa, puede seleccionarlo y utilizar el icono Abrir de la parte superior para abrir el informe seleccionado.
 
-**Tema principal:**&#x200B;[ Administrar contenido](authoring.md)
+**Tema principal:**&#x200B;[&#x200B; Administrar contenido](authoring.md)

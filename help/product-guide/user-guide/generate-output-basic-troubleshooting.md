@@ -99,4 +99,4 @@ Siga estos pasos para resolver este problema:
 1. Aumente el valor del parámetro *Número de llamadas por solicitud* según sus necesidades.
 
 
-**Tema principal:**&#x200B;[ Generación de resultados](generate-output.md)
+**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)

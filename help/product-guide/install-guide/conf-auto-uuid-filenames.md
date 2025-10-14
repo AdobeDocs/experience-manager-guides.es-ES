@@ -37,4 +37,4 @@ Realice los siguientes pasos para asignar automáticamente el nombre de archivo 
 >
 > Esta opción está desactivada de forma predeterminada. Cuando esta opción está activada, los autores no verán la opción de especificar el nombre del archivo al crear un nuevo tema o archivo de asignación. Se puede crear un nuevo tema o archivo de asignación desde la interfaz de usuario de Assets y el editor web.
 
-**Tema principal:**&#x200B;[ Configurar nombres de archivo](conf-file-names.md)
+**Tema principal:**&#x200B;[&#x200B; Configurar nombres de archivo](conf-file-names.md)

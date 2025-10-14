@@ -50,4 +50,4 @@ Puede ver los distintos tipos de ajustes preestablecidos de salida junto con sus
 1. Haga clic en **Listo**.
 
 
-**Tema principal:**&#x200B;[ Activación masiva del contenido publicado](conf-bulk-activation.md)
+**Tema principal:**&#x200B;[&#x200B; Activación masiva del contenido publicado](conf-bulk-activation.md)

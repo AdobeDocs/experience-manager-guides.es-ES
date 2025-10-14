@@ -28,4 +28,4 @@ Siga estos pasos para ver el estado de traducción de un mapa DITA:
 
    ![](images/translation-status-new.png){align="left"}
 
-**Tema principal:**&#x200B;[ Resumen de traducción de contenido](translation.md)
+**Tema principal:**&#x200B;[&#x200B; Resumen de traducción de contenido](translation.md)

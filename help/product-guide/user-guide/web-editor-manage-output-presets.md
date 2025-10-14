@@ -56,4 +56,4 @@ También puede realizar las siguientes operaciones en el ajuste preestablecido d
 >
 > Cuando se elimina un ajuste preestablecido de salida en Perfiles globales y de carpeta, se reflejará en todas las asignaciones relacionadas y no aparecerá en la pestaña **Ajustes preestablecidos de salida**.
 
-**Tema principal:**&#x200B;[ Trabajar con el editor web](web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Trabajar con el editor web](web-editor.md)

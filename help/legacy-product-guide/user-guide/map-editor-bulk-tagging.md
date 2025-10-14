@@ -108,4 +108,4 @@ Siga estos pasos para quitar todas las etiquetas de uno o varios temas:
 
 Si tiene una larga lista de etiquetas aplicadas a los temas, puede que le resulte un poco engorroso navegar. Puede ocultar etiquetas fácilmente desde la vista de la consola de mapas DITA haciendo clic en el icono Ocultar etiquetas. Del mismo modo, cuando las etiquetas no están visibles, al hacer clic en Mostrar etiquetas se muestran todas las etiquetas.
 
-**Tema principal:**&#x200B;[ Administrar metadatos](manage-metadata.md)
+**Tema principal:**&#x200B;[&#x200B; Administrar metadatos](manage-metadata.md)

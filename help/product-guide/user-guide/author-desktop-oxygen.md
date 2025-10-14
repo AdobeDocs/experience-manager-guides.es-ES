@@ -19,4 +19,4 @@ Puede producir resultados en PDF, ePub, HTML y muchos otros formatos, utilizando
 
 *Póngase en contacto con el equipo de éxito del cliente para habilitar esta característica en el entorno. Esto no está habilitado como parte de la compatibilidad predeterminada.*
 
-**Tema principal:**&#x200B;[ Contenido de autor con herramientas de escritorio](author-desktop-tools.md)
+**Tema principal:**&#x200B;[&#x200B; Contenido de autor con herramientas de escritorio](author-desktop-tools.md)

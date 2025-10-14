@@ -79,4 +79,4 @@ A continuación se muestra una lista de otros recursos útiles de Experience Man
 * Guía de inicio rápido
 * [Página de archivado de Help*](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/archive.html) (acceso a la documentación de la versión anterior)
 
-**Tema principal:**&#x200B;[ Acerca de Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**Tema principal:**&#x200B;[&#x200B; Acerca de Adobe Experience Manager Guides as a Cloud Service](intro.md)

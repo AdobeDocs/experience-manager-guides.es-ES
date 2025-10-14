@@ -42,4 +42,4 @@ Esta asignación raíz se aplicará a todos los recursos \(carpetas y subcarpeta
 
 **Vista de edición de tema**: haga clic en el icono Resolución de clave mientras edita un tema DITA y seleccione el archivo DITA que se utilizará para resolver las referencias de clave.
 
-**Tema principal:**&#x200B;[ Trabajar con el editor de mapas](map-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Trabajar con el editor de mapas](map-editor.md)

@@ -35,4 +35,4 @@ Esta configuración afecta a los siguientes lugares desde donde puede acceder a 
 - Pestaña Informes de la consola de mapas DITA
 
 
-**Tema principal:**&#x200B;[ Personalizar editor web](conf-web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)

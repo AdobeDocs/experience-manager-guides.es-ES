@@ -37,4 +37,4 @@ En este tema se explica el proceso de creación de un mapa DITA y, a continuaci�
 - **[Otras características de los editores de mapas](map-editor-other-features.md)**
 
 
-**Tema principal:**&#x200B;[ Contenido de autor con AEM Guides](authoring-content-xml-doc.md)
+**Tema principal:**&#x200B;[&#x200B; Contenido de autor con AEM Guides](authoring-content-xml-doc.md)

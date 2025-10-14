@@ -31,7 +31,7 @@ Siga estos pasos para generar resultados basados en artículos:
 
 1. En el mensaje **Confirmar archivos para publicar**, seleccione los archivos que desee publicar y confirme seleccionando **Publicar**.
 
-   ![Nuevo ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
+   ![Nuevo &#x200B;](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
    Verá el estado del proceso de generación de resultados. La columna **Temas** enumera los temas para los que se genera la salida, mientras que la columna **Estado** muestra el estado de publicación de cada tema.
 
@@ -46,4 +46,4 @@ Siga estos pasos para generar resultados basados en artículos:
    > También puede Cambiar nombre, Duplicar o Eliminar un ajuste preestablecido de salida existente desde el menú Opciones.
 
 
-**Tema principal:**&#x200B;[ Trabajar con el editor](web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Trabajar con el editor](web-editor.md)

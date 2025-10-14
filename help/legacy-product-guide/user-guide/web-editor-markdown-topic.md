@@ -62,4 +62,4 @@ Siga estos pasos para crear un tema de Markdown desde el Editor web:
 >
 > Si no ha guardado los cambios, aparecerá una ventana emergente y se le pedirá que guarde el tema antes de cerrarlo.
 
-**Tema principal:**&#x200B;[ Trabajar con el editor web](web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Trabajar con el editor web](web-editor.md)

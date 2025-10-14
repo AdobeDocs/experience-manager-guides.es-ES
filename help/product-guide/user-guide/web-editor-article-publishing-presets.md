@@ -41,7 +41,7 @@ Realice los siguientes pasos para crear ajustes preestablecidos de salida para e
    Se crea el ajuste preestablecido de la Base de conocimiento.
 
 
-   ![Nuevo ](images/knowledge-base-preset-dialog-box.png){align="left"}
+   ![Nuevo &#x200B;](images/knowledge-base-preset-dialog-box.png){align="left"}
 
 Una vez creado el ajuste preestablecido, puede generar la salida para artículos específicos de la base de conocimiento. Para ello, vaya a la pestaña **Articles** y seleccione los temas para los que desea generar la salida.
 1. Seleccione **Generar salida** en la parte superior para generar la salida.
@@ -50,7 +50,7 @@ Una vez creado el ajuste preestablecido, puede generar la salida para artículos
 
 1. En el mensaje **Confirmar archivos para publicar**, seleccione los archivos que desee publicar y confirme seleccionando **Publicar**.
 
-   ![Nuevo ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
+   ![Nuevo &#x200B;](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
 Verá el estado del proceso de generación de resultados. La columna **Temas** enumera los temas para los que se genera la salida, mientras que la columna **Estado** muestra el estado de publicación de cada tema.
 
@@ -66,4 +66,4 @@ Para ver el resultado, cierre el cuadro de diálogo Resultado generado y selecci
 
 
 
-**Tema principal:**&#x200B;[ Publicación basada en artículos desde el editor](web-editor-article-publishing.md)
+**Tema principal:**&#x200B;[&#x200B; Publicación basada en artículos desde el editor](web-editor-article-publishing.md)

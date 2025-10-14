@@ -125,4 +125,4 @@ El informe de estado de la tarea de revisión contiene los siguientes detalles:
 - Número total de observaciones formuladas sobre todos los temas. En el caso de varios temas en revisión, el número de comentarios de cada tema se menciona \(entre corchetes\) con el nombre del tema.
 - La fecha en la que el revisor accedió por última vez a cualquier tema.
 
-**Tema principal:**&#x200B;[ Revisar temas o asignaciones](review.md)
+**Tema principal:**&#x200B;[&#x200B; Revisar temas o asignaciones](review.md)

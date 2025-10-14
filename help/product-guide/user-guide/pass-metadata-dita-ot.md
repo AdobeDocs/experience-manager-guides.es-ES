@@ -86,4 +86,4 @@ Las propiedades de metadatos seleccionadas se pasarán a la salida generada medi
 
 
 
-**Tema principal:**&#x200B;[ Generación de resultados](generate-output.md)
+**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)

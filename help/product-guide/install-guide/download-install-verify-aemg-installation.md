@@ -35,4 +35,4 @@ Una vez instalado AEM Guides, debe comprobar si la instalación se ha realizado 
 >
 > Existen varias recomendaciones de optimización del rendimiento que puede considerar para mejorar el rendimiento del sistema. Consulte [Recommendations para la optimización del rendimiento](download-install-recommend-perf-optimiz.md#) para obtener más información.
 
-**Tema principal:**&#x200B;[ Descargar e instalar](download-install.md)
+**Tema principal:**&#x200B;[&#x200B; Descargar e instalar](download-install.md)

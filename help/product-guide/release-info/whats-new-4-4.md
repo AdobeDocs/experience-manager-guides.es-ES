@@ -33,7 +33,7 @@ Obtenga más información acerca de la descripción de la característica **Hist
 
 Puede definir atributos de condición en los temas DITA. A continuación, utilice los atributos de condición en el ajuste preestablecido de condición para publicar el contenido en un mapa DITA. Experience Manager Guides ahora también proporciona una experiencia enriquecida en el editor web, que le ayuda a crear y administrar ajustes preestablecidos de condición de forma más eficaz. También puede editarlos, duplicarlos o eliminarlos fácilmente.
 
-![Ajustes preestablecidos de condición de la ficha Administrar del editor web ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+![Ajustes preestablecidos de condición de la ficha Administrar del editor web &#x200B;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
 Para obtener más información, vea [Usar ajustes preestablecidos de condición](../user-guide/generate-output-use-condition-presets.md).
 
@@ -80,7 +80,7 @@ Las opciones **Actualización manual** y **Actualización automática** son más
 También le permite duplicar una línea de base basada en la etiqueta. La versión de referencia se selecciona en función de la etiqueta dada (si existe) mientras se duplica o, de lo contrario, elige la versión de la línea de base duplicada.
 
 
-![duplicar una línea de base ](assets/duplicate-baseline.png) {width="300" align="left"}
+![duplicar una línea de base &#x200B;](assets/duplicate-baseline.png) {width="300" align="left"}
 
 *Duplicar una línea de base basándose en una etiqueta o crear una copia exacta.*
 

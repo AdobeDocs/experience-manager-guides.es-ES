@@ -107,4 +107,4 @@ Mientras se abre un archivo en el Editor Web, Experience Manager Guides proporci
 Puede desactivar la característica para localizar el archivo con la opción **Buscar siempre los archivos en el repositorio** desde la ficha **Apariencia** de **Preferencias de usuario**.
 
 
-**Tema principal:**&#x200B;[ Trabajar con el editor web](web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Trabajar con el editor web](web-editor.md)

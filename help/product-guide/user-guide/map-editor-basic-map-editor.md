@@ -195,4 +195,4 @@ Si desea eliminar un tema de la tabla, haga clic en el icono en forma de cruz si
 
 Si desea eliminar la tabla de relaciones, haga clic en cualquier lugar fuera de la tabla de relaciones y haga clic en Eliminar.
 
-**Tema principal:**&#x200B;[ Trabajar con el editor de mapas](map-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Trabajar con el editor de mapas](map-editor.md)

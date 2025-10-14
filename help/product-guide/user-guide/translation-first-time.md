@@ -79,4 +79,4 @@ Una vez finalizada la traducción, el estado del trabajo de traducción cambia a
 >- Si rechaza, elimina o cancela el trabajo de traducción de un tema presente en varios proyectos (para cualquiera de los proyectos), el estado de traducción **En curso** del tema no se revierte, pero ese proyecto se elimina de la lista de proyectos **En curso** para ese recurso dado.
 >- Además, si cancela o elimina el trabajo de traducción o elimina todo el proyecto, el estado de la traducción **En curso** vuelve a su estado original.
 
-**Tema principal:**&#x200B;[ Resumen de traducción de contenido](translation.md)
+**Tema principal:**&#x200B;[&#x200B; Resumen de traducción de contenido](translation.md)

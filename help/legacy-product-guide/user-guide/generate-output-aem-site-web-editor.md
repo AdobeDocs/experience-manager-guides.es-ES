@@ -33,7 +33,7 @@ Siga estos pasos para crear los ajustes preestablecidos de AEM Sites desde el Ed
 1. Seleccione **AEM Sites** de la lista desplegable **Type** en el cuadro de diálogo **Nuevo ajuste preestablecido de salida**.
 1. Anule la selección de la opción **Usar asignación de componentes heredados** del cuadro de diálogo **Nuevo ajuste preestablecido de salida**.
 
-![Nuevo ](images/new-aem-sites-dialog-box.png)
+![Nuevo &#x200B;](images/new-aem-sites-dialog-box.png)
 
 
 

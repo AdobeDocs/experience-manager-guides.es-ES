@@ -104,4 +104,4 @@ Una vez marcado un documento como aprobado, ya no está disponible para su edici
    El estado del documento cambia a Borrador y el documento se abre en el Editor Web en modo de edición.
 
 
-**Tema principal:**&#x200B;[ Trabajar con el editor web](web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Trabajar con el editor web](web-editor.md)

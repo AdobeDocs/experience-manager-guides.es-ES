@@ -41,4 +41,4 @@ Ajustes preestablecidos de salida JSON.
 - **[Eliminar una colección de mapas de activación masiva](conf-bulk-activation-delete-map-collection.md)**
 
 
-**Tema principal:**&#x200B;[ Generación de resultados](generate-output.md)
+**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)

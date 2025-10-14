@@ -77,4 +77,4 @@ Siga estos pasos para crear un proyecto DITA:
 1. Haz clic en **Abrir** para abrir la página del proyecto.
 
 
-**Tema principal:**&#x200B;[ Revisar temas o asignaciones](review.md)
+**Tema principal:**&#x200B;[&#x200B; Revisar temas o asignaciones](review.md)

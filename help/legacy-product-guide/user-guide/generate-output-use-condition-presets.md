@@ -168,4 +168,4 @@ Puede eliminar uno o más ajustes preestablecidos de condición de la ficha **Aj
 1. Haga clic en el botón **Quitar**.
 1. Haga clic en **Quitar** para confirmar la acción.
 
-**Tema principal:**&#x200B;[ Generación de resultados](generate-output.md)
+**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)

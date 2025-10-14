@@ -21,4 +21,4 @@ AEM Guides incluye una potente función para crear temas DITA desde la interfaz 
 - **[Previsualizar un tema](web-editor-preview-topics.md)**
 
 
-**Tema principal:**&#x200B;[ Contenido de autor](authoring-content.md)
+**Tema principal:**&#x200B;[&#x200B; Contenido de autor](authoring-content.md)

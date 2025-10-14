@@ -18,4 +18,4 @@ Puede empezar implementando Experience Manager Guides a través de Cloud Manager
 
 
 
-**Tema principal:**&#x200B;[ Descargar e instalar](download-install.md)
+**Tema principal:**&#x200B;[&#x200B; Descargar e instalar](download-install.md)
