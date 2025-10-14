@@ -5,9 +5,9 @@ exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 8c992afc1cc56052e6c07ac3cea6e7d3412259b2
+source-git-commit: 8e57d4048f4aa13d7f77f25082d4e7aa329ee355
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '414'
 ht-degree: 5%
 
 ---
@@ -22,6 +22,9 @@ Adobe Experience Manager Guides expone el evento `com/adobe/guides/postprocess/c
 - Crear
 - Modificar
 
+>[!NOTE]
+>
+> El evento posterior al procesamiento se activa habilitando el indicador `fire.processing.events`, que es un parámetro de configuración en `fmdita config manager`. Cuando se establece en true, almacena en déclencheur los eventos (com/adobe/guides/postprocess/complete) para rastrear la finalización posterior al procesamiento. De forma predeterminada, se establece en false (deshabilitado).
 
 Debe crear un controlador de eventos Adobe Experience Manager para leer las propiedades disponibles en este evento y realizar un procesamiento posterior.
 

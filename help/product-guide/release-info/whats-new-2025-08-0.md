@@ -2,7 +2,8 @@
 title: Notas de versión | Novedades de la versión 2025.08.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 2025.08.0 de Adobe Experience Manager Guides
 role: Leader
-source-git-commit: d418ffb254b11430509609b91e0174690815cf73
+exl-id: c3461d0a-6394-4275-9d54-b2b1545d7c18
+source-git-commit: 1a44af3522060ebc531393d4d01b1cd00eb02c10
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 2%
@@ -39,7 +40,7 @@ La última actualización presenta una configuración mejorada para **Crear acci
 
 Una vez habilitada la opción **Asistente de IA**, los administradores pueden elegir selectivamente qué acciones rápidas están visibles en la pestaña **Creación**, lo que ayuda a optimizar las interacciones de autor. Esta configuración de visibilidad es específica para cada perfil de carpeta.
 
-Obtenga más información acerca del [asistente de IA en la configuración del editor](../user-guide/web-editor-settings.md#general) en Experience Manager Guides.
+Obtenga más información acerca del [asistente de IA en la configuración del editor](../cs-install-guide/workspace-settings.md#general) en Experience Manager Guides.
 
 ![](assets/authoring-quick-actions.png){width="350" align="left"}
 
@@ -93,9 +94,3 @@ Con esta versión, se ha reestructurado la configuración de las **preferencias 
 Además, en la barra de herramientas del Editor, algunos toggles de acceso rápido para habilitar o deshabilitar los cambios de seguimiento, las etiquetas y los espacios de no separación ahora se agrupan en la opción **Mostrar** en el menú desplegable de Menú para mejorar el uso.
 
 Para obtener más información, vea [Barra de herramientas en el editor](../user-guide/web-editor-toolbar.md#menu-dropdown).
-
-
-
-
-
-

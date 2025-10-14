@@ -4,9 +4,9 @@ description: Explore otras funciones del editor en Adobe Experience Manager Guid
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: c8ea6eae180ce7045a0364713604711aae2bb6bd
+source-git-commit: b00f8ba0e27cc26c48e1b058e25c05c4b6e9dffd
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2652'
 ht-degree: 0%
 
 ---
@@ -246,8 +246,19 @@ Haga lo siguiente para generar automáticamente el ID para uno o varios elemento
 1. Seleccione el contenido al que desea asignar los ID.
 1. Haga clic con el botón derecho y seleccione **Generar ID** en el menú contextual.
 
-   También puede hacer clic con el botón derecho en la ruta de exploración y seleccionar **Generar ID**.
+También puede hacer clic con el botón derecho en la ruta de exploración y seleccionar **Generar ID**.
 
+## Identificación de ID duplicados para elementos en un mapa o tema dentro de la vista Autor
+
+Si un tema o un mapa determinado contiene elementos con ID duplicados, aparecerá el botón **ID duplicados** en la esquina inferior derecha del área de edición de contenido junto a las vistas del editor.
+
+![](images/duplicate-element-IDs.png){width="350" align="left"}
+
+Al seleccionar **ID duplicados**, se abre una ventana emergente con todos los ID duplicados. Puede seleccionar el ID mostrado en la ventana emergente para navegar hasta el elemento correspondiente y actualizarlo con un ID único.
+
+>[!NOTE]
+>
+> El botón **Identificadores duplicados** solo está disponible en la vista **Autor**, y se permiten identificadores de elementos similares en diferentes temas anidados.
 
 
 ## Gestión de archivos grandes en el editor
@@ -268,4 +279,4 @@ A continuación se mencionan las funciones principales destinadas a mejorar el m
 
 - El mensaje de alerta solo está disponible para archivos DITA y es visible en todas las vistas: Autor, Source y Diseño.
 
-**Tema principal:**&#x200B;[ Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

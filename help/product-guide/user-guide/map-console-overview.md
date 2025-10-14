@@ -4,9 +4,9 @@ description: Obtenga información acerca de la consola Mapa y las distintas func
 feature: Publishing
 role: User
 exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,12 @@ La interfaz de la consola Mapa se divide principalmente en dos secciones: **Barr
 
    - **Conmutador de navegación**: permite una navegación perfecta a otras páginas - Editor o Página de inicio:
    - **Archivo de asignación seleccionado**: Muestra el nombre del archivo de asignación seleccionado actualmente. Puede abrirlo en el Editor o elegir un archivo de asignación diferente para la consola Mapa.
-   - **Más acciones**: Proporciona opciones para navegar a la **IU de Assets** y a la **configuración**. Para obtener más información, consulte la sección **Más acciones** del documento [Conocer las características del editor](./web-editor-features.md#tab-bar).
+   - **Más acciones**: Proporciona opciones para navegar a la **IU de Assets** y a la **configuración de Workspace**. Para obtener más información, vea la [barra de fichas](./web-editor-tab-bar.md).
+
+  >[!NOTE]
+  >
+  > Si usa Adobe Experience Manager Guides en una configuración local, la opción de configuración de Workspace seguirá apareciendo como **Configuración** en el menú Más acciones.
+
    - **Expandir vista**: permite expandir la vista de página mediante el icono **Expandir**. En esta vista, la barra de encabezado está oculta, lo que maximiza el espacio de contenido. Para volver a la vista estándar, usa el icono **Salir de la vista expandida**.
 
   >[!NOTE]
@@ -50,7 +55,7 @@ Para obtener más información, vea [Generación de resultados](./generate-outpu
 
 **Creación y administración de informes**
 
-En una configuración organizativa, debe verificar la integridad general de la documentación técnica antes de empezar a trabajar en ella o publicar los documentos. Esta necesidad se vuelve aún más esencial en entornos multiusuario y a gran escala. Con la consola Mapa, puede acceder a informes de Experience Manager Guides que ofrecen una perspectiva útil del estado general del contenido del repositorio y de cómo se utiliza el contenido en el proceso de documentación.
+En una configuración organizativa, debe verificar la integridad general de la documentación técnica antes de empezar a trabajar en ella o publicar los documentos. Esta necesidad se vuelve aún más esencial en entornos multiusuario y a gran escala. Con la consola Mapa, puede acceder a informes de Experience Manager Guides que proporcionan una insight útil sobre el estado general del contenido del repositorio y sobre cómo se utiliza el contenido en el proceso de documentación.
 
 Para obtener más información, vea [Informes en Experience Manager Guides](./reports-intro.md).
 

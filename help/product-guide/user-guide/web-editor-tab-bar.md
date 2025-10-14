@@ -3,9 +3,10 @@ title: Barra de fichas en el editor
 description: Conozca la barra de pestañas del editor. Obtenga información acerca de la interfaz y las funciones de Editor en Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b3597cac602cf5a22aff9d8db108e3652591d662
+exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
+source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -50,6 +51,10 @@ Una potente herramienta impulsada por IA diseñada para mejorar su productividad
    - **Cloud Services**: Si usas Cloud Services, al seleccionar la opción **Assets** accederás a la página Navegación de AEM.
 
    - **Software On-Premise**: Si utiliza Adobe Experience Manager Guides (4.2.1 y versiones posteriores), al seleccionar la opción **Assets**, se le redirigirá a la ruta de archivo actual en la interfaz de usuario de Assets.
-- **Configuración**: lo lleva al cuadro de diálogo Configuración del editor. Para obtener más información, consulte [Trabajar con la configuración del editor](./web-editor-settings.md).
+- **Configuración de Workspace**: lo lleva al cuadro de diálogo Configuración de Workspace. Para obtener más información, vea [Configurar las opciones de Workspace](../cs-install-guide/workspace-settings.md).
 
-**Tema principal:**&#x200B;[ Introducción al editor](web-editor.md)
+>[!NOTE]
+>
+> Si usa Adobe Experience Manager Guides en una configuración local, la opción de configuración de Workspace seguirá apareciendo como **Configuración** en el menú Más acciones.
+
+**Tema principal:**[ Introducción al editor](web-editor.md)

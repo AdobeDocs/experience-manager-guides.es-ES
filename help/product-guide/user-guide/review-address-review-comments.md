@@ -4,9 +4,9 @@ description: Aprenda a dirigir comentarios de revisión como autor en AEM Guides
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: f8320d0e0b5982d932c9df46f8ccf35d5f44dbac
+source-git-commit: 35480e842f6c05811333a14e80c0e9b6431e9176
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,10 @@ En el Editor, el panel derecho contiene los iconos Revisar y Rastrear cambios. E
 - **G**: busca un texto dentro de los comentarios.
 - **H**: aceptar o rechazar un comentario.
 
-- **I**: aplique un filtro en los comentarios. Puede filtrar para ver los comentarios basándose en el Tipo de revisión \(todas, resaltadas, eliminadas, insertadas o notas adhesivas\), Estado de la revisión \(todas, aceptadas, rechazadas o ninguna\), Revisores \(todos los revisores o revisores específicos\)\) o Versiones del tema.
+- **I**: aplique un filtro en los comentarios. Puede filtrar para ver los comentarios basándose en el Tipo de revisión \(todas, resaltadas, eliminadas, insertadas o notas adhesivas\), Estado de la revisión \(todas, aceptadas, rechazadas o ninguna\), Revisores \(todos los revisores o revisores específicos\)\) o Versiones del tema. De forma predeterminada, no se selecciona ninguno de los filtros.
 
-**Responder a un comentario al etiquetar a otros usuarios**
+  ![](images/review-comments-author-filter.png){width="350" align="left"}
+  **Responder a un comentario al etiquetar a otros usuarios**
 
 Como autor e iniciador de la tarea de revisión, puede responder para revisar los comentarios y etiquetar a otros usuarios implicados en la misma tarea de revisión para dirigir su atención o asignar seguimientos. Esta funcionalidad solo está disponible para tareas de revisión activas.
 
@@ -90,4 +91,4 @@ Si usted es el iniciador o el autor de una tarea de revisión y la abre desde la
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
-**Tema principal:**&#x200B;[ Introducción a la revisión](review.md)
+**Tema principal:**[ Introducción a la revisión](review.md)

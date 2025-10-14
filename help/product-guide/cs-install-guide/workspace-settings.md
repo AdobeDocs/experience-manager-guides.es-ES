@@ -3,17 +3,16 @@ title: Configuración de Workspace en Experience Manager Guides
 description: Obtenga información acerca de las distintas configuraciones disponibles en la interfaz del editor de Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-exl-id: fad2874f-dab5-4538-8502-f7112c51d941
-source-git-commit: a1e0571e596a44ee67d49658a718e24d9ab3b467
+source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
 workflow-type: tm+mt
-source-wordcount: '2113'
+source-wordcount: '2132'
 ht-degree: 0%
 
 ---
 
 # Configuración de Workspace
 
-La opción **Workspace settings** presente en la [barra de fichas](./web-editor-tab-bar.md) del editor solo está disponible para administradores y administradores de perfiles de carpeta, y permite configurar las siguientes opciones:
+La opción **Workspace settings** presente en la [barra de fichas](../user-guide/web-editor-tab-bar.md) del editor solo está disponible para administradores y administradores de perfiles de carpeta, y permite configurar las siguientes opciones:
 
 - [General](#general)
 - [Paneles](#panels)
@@ -29,20 +28,21 @@ La opción **Workspace settings** presente en la [barra de fichas](./web-editor-
 
 >[!NOTE]
 >
-> Si va a actualizar cualquier configuración predeterminada, debe volver a abrir los documentos para que los cambios entren en vigor.
+> - Si usa Adobe Experience Manager Guides en una configuración local, la opción de configuración de Workspace seguirá apareciendo como **Configuración** en el menú Más acciones.
+> - Si va a actualizar cualquier configuración predeterminada, debe volver a abrir los documentos para que los cambios entren en vigor.
 
 ## General
 
 La Configuración general permite configurar los ajustes para utilizar el Editor. Esta ficha contiene cinco secciones: **Asistente de IA**, **Creación**, **Citas**, **Condición** y **Corrección ortográfica**.
 
-![](images/editor-setting-general.png){width="350" align="left"}
+![](../user-guide/images/editor-setting-general.png){width="350" align="left"}
 
 - **Ayudante de IA**
-Seleccione esta opción para habilitar la función [Ayudante de IA](./ai-assistant.md) en Experience Manager Guides. Anule la selección para deshabilitar la función.
+Seleccione esta opción para habilitar la función [Ayudante de IA](../user-guide/ai-assistant.md) en Experience Manager Guides. Anule la selección para deshabilitar la función.
 
   Después de habilitar la opción **Ayudante de IA**, puede configurar qué opciones aparecen en la **pestaña Creación** para autores mediante el menú **Creación de acciones rápidas**, como se muestra a continuación.\
   Estos cambios se aplican al perfil de carpeta específico con el que está trabajando. Si crea un nuevo perfil de carpeta, heredará la configuración de Workspace definida en el perfil de carpeta **Global** de forma predeterminada. Puede modificar esta configuración según sea necesario mediante la **configuración de Workspace** y guardar la configuración actualizada.\
-  Para obtener una descripción detallada de las opciones disponibles para la creación con el Asistente de IA, vea [Crear documentos de forma inteligente con el Asistente de IA](./ai-assistant-right-panel.md).
+  Para obtener una descripción detallada de las opciones disponibles para la creación con el Asistente de IA, vea [Crear documentos de forma inteligente con el Asistente de IA](../user-guide/ai-assistant-right-panel.md).
 
   Desde el menú **Creación de acciones rápidas**, puede:
 
@@ -50,7 +50,7 @@ Seleccione esta opción para habilitar la función [Ayudante de IA](./ai-assista
 
    - Para cambiar el orden en que aparecen las opciones, arrástrelas y suéltelas según sea necesario.
 
-  ![](images/authoring-quick-actions-new.png){width="350" align="left"}
+  ![](../user-guide/images/authoring-quick-actions-new.png){width="350" align="left"}
 
 
 
@@ -60,7 +60,7 @@ Seleccione esta opción para habilitar la función [Ayudante de IA](./ai-assista
 
 - **Citas**
 
-  Cambiar el estilo de las citas. Elija el estilo de cita de la lista desplegable que desee utilizar en su proyecto. Para obtener más información, vea [Cambiar estilos de cita](./web-editor-apply-citations.md#change-citation-style).
+  Cambiar el estilo de las citas. Elija el estilo de cita de la lista desplegable que desee utilizar en su proyecto. Para obtener más información, vea [Cambiar estilos de cita](../user-guide/web-editor-apply-citations.md#change-citation-style).
 
 - **Condición**
 
@@ -70,7 +70,7 @@ Seleccione esta opción para habilitar la función [Ayudante de IA](./ai-assista
 
    - **Mostrar clave con el título en el panel Esquema del asunto**: seleccione esta opción para mostrar las claves junto con los títulos en el esquema del asunto. Si no selecciona esta opción, solo se muestran los títulos. Por ejemplo, aquí las teclas &quot;os&quot;, &quot;audience&quot; y &quot;other&quot; también se muestran junto con los títulos.
 
-     ![](images/subject-scheme-title.png){width="550" align="left"}
+     ![](../user-guide/images/subject-scheme-title.png){width="550" align="left"}
 
    - **Mostrar esquema de asunto en el panel Condiciones**: seleccione esta opción para ver un esquema de asunto en el panel Condiciones. Si anula la selección de esta opción, las condiciones definidas se muestran en el panel Condiciones.
 
@@ -82,11 +82,11 @@ Hay dos opciones: **revisión ortográfica de AEM** y **revisión ortográfica d
 
 Esta opción controla los paneles que se muestran en los paneles izquierdo y derecho de la consola Editor y Mapa. Puede alternar el botón para mostrar u ocultar el panel deseado.
 
-![](images/editor-setting-panel.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-panel.png){width="650" align="left"}
 
 También puede definir el orden en que se muestran las funciones presentes en los paneles. Para cambiar el orden predeterminado de las funciones disponibles en los paneles, seleccione las barras de puntos para arrastrar y soltar las pestañas de funciones en la ubicación deseada. También se puede mover una característica de la sección **Más** a la sección principal de un panel y viceversa según sea necesario. Una vez reordenadas, las funciones aparecen en la misma secuencia en los paneles derecho e izquierdo respectivos.
 
-![](images/panels-screen.png){width="650" align="left"}
+![](../user-guide/images/panels-screen.png){width="650" align="left"}
 
 
 Se pueden mostrar un máximo de ocho paneles a la vez. Los cambios realizados en la configuración del panel se aplican inmediatamente.
@@ -100,23 +100,23 @@ Se pueden mostrar un máximo de ocho paneles a la vez. Los cambios realizados en
 
 Como administrador, puede controlar la lista de elementos que un autor puede insertar en un archivo y también definir el nombre para mostrar del elemento. La configuración de la lista Elementos (Elements) permite especificar el nombre del elemento según las especificaciones de DITA y una etiqueta que se debe utilizar en lugar del nombre del elemento definido por DITA:
 
-![](images/editor-setting-element-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-element-list.png){width="650" align="left"}
 
 En la captura de pantalla anterior, al elemento `p` se le ha dado una etiqueta de párrafo y a `codeblock` se le ha dado una etiqueta de bloque de código junto con algunos otros elementos. Si selecciona la opción **Usar solo los elementos anteriores**, solo se mostrarán los elementos válidos \(en el punto de inserción actual\) de esta lista en el cuadro de diálogo **Insertar elemento**.
 
 En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos configurados de la captura de pantalla anterior en el contexto actual:
 
-![](images/editor-setting-insert-element-list.PNG){width="300" align="left"}
+![](../user-guide/images/editor-setting-insert-element-list.PNG){width="300" align="left"}
 
 ## Lista Atributos
 
 De forma similar a la lista de elementos, se puede controlar la lista de atributos y sus nombres para mostrar en la lista de atributos de un elemento. En la siguiente captura de pantalla, solo se han configurado 3 atributos para que se muestren en la lista de atributos de un elemento:
 
-![](images/editor-setting-attributes-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-attributes-list.png){width="650" align="left"}
 
 Con esta configuración, cuando intenta agregar un atributo a un elemento, solo ve la lista de atributos configurados en la lista.
 
-![](images/editor-setting-add-attributes-list.png){width="300" align="left"}
+![](../user-guide/images/editor-setting-add-attributes-list.png){width="300" align="left"}
 
 
 ## Colores
@@ -148,7 +148,7 @@ Contiene los perfiles que se pueden usar para publicar la salida de **Knowledge 
 
    - Para crear un perfil de Salesforce, seleccione la base de conocimiento **Salesforce** en la lista desplegable **Tipo de servidor**. Introduzca un Nombre de perfil. En la **dirección URL del sitio**, escriba el sitio del consumidor que usaría para publicar la salida y, a continuación, agregue la **clave del consumidor** y el **secreto del consumidor** proporcionados por el sitio del consumidor de Salesforce. A continuación, **Valide** y **guarde** el perfil recién creado.
 
-     ![perfil de publicación de salesforce en la configuración del área de trabajo](./images/salesforce-publish-profile.png){width="550" align="left"}
+     ![perfil de publicación de salesforce en la configuración del área de trabajo](../user-guide/images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
      >
@@ -173,7 +173,7 @@ Configure el servidor de ServiceNow para cargar los recursos.
 
 - Para crear un perfil, seleccione ServiceNow Knowledge Base en la lista desplegable **Tipo de servidor**. Escriba un perfil **Name**. En la **URL de ServiceNow**, introduzca el sitio de consumidores que utilizaría para publicar la salida y, a continuación, agregue el **Nombre de usuario** y la **Contraseña** proporcionados por el sitio de consumidores de ServiceNow. A continuación, **Valide** y **guarde** el perfil recién creado.
 
-  ![Perfil de publicación ServiceNow](./images/service-now-publish-profile.png){width="550" align="left"}
+  ![Perfil de publicación ServiceNow](../user-guide/images/service-now-publish-profile.png){width="550" align="left"}
 
   Una vez validado, puede seleccionar el perfil de publicación en los ajustes preestablecidos de salida de un mapa DITA y utilizarlo para generar la salida en el servidor **Salesforce** o **ServiceNow** que haya elegido.
 
@@ -190,7 +190,7 @@ Esta pestaña contiene opciones para configurar las validaciones de Schematron e
   >
   > Los archivos de Schematron seleccionados persistirán para el perfil de carpeta seleccionado.
 
-  ![Validación en la configuración del área de trabajo](./images/editor-setting-validation.png){width="550" align="left"}
+  ![Validación en la configuración del área de trabajo](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
 
   Esto evita que los usuarios guarden cualquier archivo que rompa una regla definida en los archivos de Schematron seleccionados. Si no se selecciona esta opción, el archivo no se validará antes de guardar los cambios.
 
@@ -203,13 +203,13 @@ Al igual que la lista Atributos, puede controlar la lista de atributos que se mo
 
 Los atributos definidos para un elemento se muestran en las vistas Diseño y Esquema.
 
-![](images/editor-settings-display-attributes.png){width="550" align="left"}
+![](../user-guide/images/editor-settings-display-attributes.png){width="550" align="left"}
 
 ## Traducción
 
 Esta pestaña contiene las opciones para crear grupos de idiomas, propagar las etiquetas de origen a la versión de destino y limpiar el proyecto de traducción.
 
-![](images/editor-setting-translation.png){width="550" align="left"}
+![](../user-guide/images/editor-setting-translation.png){width="550" align="left"}
 
 - **Grupos de idiomas**: como administrador, puede crear un grupo de idiomas y utilizarlos como un conjunto para traducir el contenido.
 
@@ -227,7 +227,7 @@ Esta pestaña contiene las opciones para crear grupos de idiomas, propagar las e
       >
       > Cambie **Mostrar más** por **Mostrar menos** y ver solo algunos idiomas.
 
-   1. Pase el ratón sobre los idiomas de un grupo para editar ![editar icono](images/edit_pencil_icon.svg) o eliminar ![eliminar](images/Delete_icon.svg) los grupos de idiomas.
+   1. Pase el ratón sobre los idiomas de un grupo para editar ![editar icono](../user-guide/images/edit_pencil_icon.svg) o eliminar ![eliminar](../user-guide/images/Delete_icon.svg) los grupos de idiomas.
    1. Guardar **configuración**.
 
       >[!NOTE]
@@ -250,7 +250,7 @@ Los metadatos se pueden seleccionar desde cualquier propiedad bajo el nodo `/jcr
 Se muestra un error si la ruta de metadatos está en blanco. Si deja la etiqueta en blanco, se selecciona el último elemento como etiqueta.
 
 
-![ficha de metadatos en la configuración del área de trabajo](images/editor-setting-metadata.png){width="550" align="left"}
+![ficha de metadatos en la configuración del área de trabajo](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
 
 *Configurar los metadatos del cuadro de diálogo **Historial de versiones**.*
 
@@ -259,4 +259,4 @@ Se muestra un error si la ruta de metadatos está en blanco. Si deja la etiqueta
 También puede definir el orden en que se muestran estas etiquetas de metadatos. Para cambiar el orden predeterminado de estas etiquetas, seleccione las barras de puntos para arrastrar y soltar las etiquetas en la ubicación deseada.
 Las etiquetas de metadatos aparecen en la misma secuencia en el cuadro de diálogo **Historial de versiones** del Editor.
 
-**Tema principal:**[ Introducción al editor](web-editor.md)
+

@@ -4,9 +4,9 @@ description: Conozca el panel izquierdo del editor. Obtenga información acerca 
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 97e80f9115f84291a7190cf4c4cf25426b3a83bb
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '9390'
+source-wordcount: '9542'
 ht-degree: 0%
 
 ---
@@ -179,6 +179,15 @@ Puede ver las siguientes opciones en las fichas **General** y **Avanzado**.
 Esto está sincronizado con el cuadro de búsqueda de la ventana del repositorio. Por ejemplo, si escribe `general purpose` en el cuadro de búsqueda del panel del repositorio, también aparecerá en el cuadro de diálogo **Filtro avanzado** y viceversa.
 
 - **Buscar en**: seleccione la ruta en la que desea buscar los archivos presentes en el repositorio de Adobe Experience Manager.
+- **Archivos DITA**: Puede buscar todos los **temas DITA** y **mapas DITA** presentes en la ruta seleccionada. Están seleccionadas de forma predeterminada.
+- **Archivos que no son DITA**: puede buscar **archivos Ditaval**, **archivos de imagen**, **multimedia**, **documentos** y **JSON** en la ruta seleccionada.
+- **Bloqueado por**: muestra una lista de usuarios. La lista se pagina y se carga asincrónicamente, mostrando un conjunto limitado de usuarios a la vez y recuperando más a medida que se desplaza o navega. Esto mejora la velocidad de carga y el rendimiento general, especialmente cuando se trabaja con un gran número de usuarios.
+- **Modificado después de** / **Modificado antes de**: filtra el contenido según la fecha de modificación. Seleccione un intervalo de fechas del calendario o elija una de las siguientes opciones de lapso de tiempo:
+   - En las últimas dos horas
+   - En la última semana
+   - En el último mes
+   - En el último año
+- **Etiquetas**: filtre el contenido según las etiquetas.
 
 **Avanzado**
 
@@ -635,10 +644,8 @@ Si un elemento de bloque tiene su propio texto, se muestra junto con ese element
 
 ![](images/outline-view-block-element.png){width="550" align="left"}
 
-Si el administrador ha creado un perfil para atributos, obtendrá esos atributos junto con sus valores configurados. También puede asignar atributos de visualización configurados por el administrador en la ficha **Atributos de visualización** en **Configuración**. Los atributos definidos para un elemento se muestran en las vistas Diseño y Esquema.
+Si el administrador ha creado un perfil para atributos, obtendrá esos atributos junto con sus valores configurados. También puede asignar atributos de visualización configurados por el administrador en la ficha **Atributos de visualización** de la **configuración de Workspace** (que aparece como **Configuración** para **Local**). Los atributos definidos para un elemento se muestran en las vistas Diseño y Esquema.
 
-
-Para obtener más información, vea los *atributos de visualización* en la descripción de la característica *Configuración* del panel izquierdo.
 
 **Característica de búsqueda**
 
@@ -933,7 +940,7 @@ También puede cambiar los valores de la lista desplegable del atributo en la vi
 
 También puede ver y aplicar el esquema de asunto desde el panel Condiciones.
 
-Para ver el esquema de asunto en el panel Condiciones, el administrador del sistema debe seleccionar la opción **Mostrar esquema de asunto en el panel Condiciones** en la pestaña General de Configuración. Para obtener más información, vea la sección **Configuración** en la [barra de fichas](./web-editor-tab-bar.md).
+Para ver el esquema de asunto en el panel Condiciones, el administrador del sistema debe seleccionar la opción **Mostrar esquema de asunto en el panel Condiciones** en la pestaña General de **Configuración de Workspace** (que aparece como **Configuración** para **Local**). Para obtener más información, vea la [barra de fichas](./web-editor-tab-bar.md).
 
 El panel Condiciones muestra la estructura vertical plana de las definiciones de asunto dentro del esquema de asunto.
 
@@ -1056,7 +1063,7 @@ Para realizar la búsqueda y el reemplazo globales, realice los siguientes pasos
 1. Seleccione **Reemplazar una sola aparición** \( ![](images/replace-icon.svg)\) para reemplazar el término de búsqueda resaltado actualmente en el tema o seleccione Coincidencia siguiente ![](images/next-match-in-search.png) o ![](images/previous-match-in-search.png) Coincidencia anterior para pasar a la siguiente o anterior aparición del texto.
 1. Seleccione **Reemplazar todo** \( ![](images/replace-all-in-file-icon.svg)\)para reemplazar todas las ocurrencias del término buscado en un solo archivo con el término reemplazado en un solo clic. Se mostrará una notificación después de reemplazar todas las ocurrencias en el archivo seleccionado.
 
-Para habilitar el icono **Reemplazar todo**, el administrador del sistema debe seleccionar la opción **Habilitar Reemplazar todo** en la ficha **General** de **Configuración**.
+Para habilitar el icono **Reemplazar todo**, el administrador del sistema debe seleccionar la opción **Habilitar Reemplazar todo** en la ficha **General** de **Configuración de Workspace** (que aparece como **Configuración** para **Local**).
 
     >[!NOTE]
     >
@@ -1110,7 +1117,12 @@ Para ver los comentarios de revisión de las tareas de revisión activas que est
 
      ![](images/active-review-select-project.png){width="300" align="left"}
 
-     Habilite la opción **Tareas iniciadas por mí** para ver solamente las tareas que ha iniciado. El estado de alternancia de esta opción se mantiene incluso después de actualizar la página. Habilite la opción **Mostrar solo las tareas activas** para filtrar la lista de proyectos y mostrar las tareas que estén activas actualmente.
+     El cuadro de diálogo **Filtro** también incluye las siguientes opciones que se pueden habilitar o deshabilitar mediante la opción:
+
+      - **Tareas iniciadas por mí**: cuando está habilitada, muestra solamente las tareas que ha iniciado.
+      - **Mostrar solo las tareas activas**: cuando está habilitada, filtra la lista de proyectos para mostrar solo las tareas que están activas actualmente.
+
+     De forma predeterminada, ambas opciones están desactivadas. Además, el estado de alternancia seleccionado se mantiene incluso después de actualizar la página.
 
 1. De forma predeterminada, en el proyecto de revisión verá una lista plana de temas que tienen comentarios asociados. Aplique los filtros necesarios del carril izquierdo para filtrar los temas en función de los comentarios de revisión presentes en ellos:
 
@@ -1130,4 +1142,4 @@ Para ver los comentarios de revisión de las tareas de revisión activas que est
 
 </details>
 
-**Tema principal:**&#x200B;[ Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

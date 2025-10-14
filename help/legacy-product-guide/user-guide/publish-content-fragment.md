@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -50,7 +50,6 @@ Por ejemplo, agregue `/conf/we-retail` en la configuración de nube. Esta config
    * **Nombre**: escriba el nombre del fragmento de contenido. De forma predeterminada, el nombre se rellena con el título del tema y los espacios se sustituyen por &quot;_&quot;. Por ejemplo, *sample_content_fragment*. Puede editarlo.  Este nombre se utiliza para generar la dirección URL del fragmento de contenido.
 
    * Puede seleccionar diferentes condiciones para crear variantes de fragmentos de contenido. Seleccione una de las siguientes opciones:
-
      >[!NOTE]
      > 
      > Las condiciones solo se activan si los atributos de condición se definen en el tema.
@@ -113,4 +112,4 @@ También puede realizar las siguientes acciones para un fragmento de contenido d
 
 El nuevo script de migración de contenido UUID se ha optimizado significativamente, lo que hace que la migración de contenido de no UUID a UUID sea 30 veces más rápida que el script anterior. Incluye funciones como la reanudación desde puntos de comprobación, perspectivas en directo, tiempo estimado de finalización e informes detallados, lo que garantiza un proceso de migración armonioso. En particular, el proceso de migración conserva los metadatos de los recursos sin ningún cambio. El script se ha probado y verificado en un gran conjunto de datos de 3 millones de recursos, lo que confirma su eficacia y fiabilidad para las migraciones a gran escala.
 
-Más información sobre [Migración de contenido que no sea UUID a UUID](/help/product-guide/install-guide/migrate-non-uuid-uuid.md).
+Más información sobre [Migración de contenido que no sea UUID a UUID](/help/product-guide/install-guide/migrate-non-uuid-4-3.md).

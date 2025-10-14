@@ -4,9 +4,9 @@ description: Generar informes de mapas DITA desde la consola de mapas de AEM Gui
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2614'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,8 @@ Se puede ver el informe de lista de temas de un mapa realizando los siguientes p
    - **Ubicación de archivo** Ruta de acceso completa del tema.
    - **Tipo de referencia** El tipo de referencia: directa o indirecta.
    - **Estado del documento**: el estado del tema.
-   - **Autor**: el usuario que trabajó por última vez en el tema.
+   - **Autor**: el usuario que trabajó por última vez en el tema. La lista se pagina y se carga asincrónicamente, mostrando un conjunto limitado de usuarios a la vez y recuperando más a medida que se desplaza o navega. Esto mejora la velocidad de carga y el rendimiento general, especialmente cuando se trabaja con un gran número de usuarios.
    - **Mapa principal** Lista de todas las asignaciones en las que se hace referencia directamente al tema.
-
    >[!NOTE]
    >
    > Seleccione **Actualizar** para obtener una lista nueva de temas y ver cualquier cambio en el archivo de asignación o si se actualiza alguna referencia en el archivo de tema.
@@ -149,7 +148,7 @@ Para actualizar los metadatos, realice los siguientes pasos:
 
 Esta función le permite agregar columnas de metadatos personalizadas según los requisitos, que luego se muestran en los informes de metadatos. También proporciona una mayor flexibilidad en la creación de informes de metadatos. Para agregar una nueva columna de metadatos personalizada, realice los siguientes pasos:
 
-1. Para agregar una columna de metadatos personalizada, selecciona **Configuración** en los tres puntos de la esquina superior derecha de la página de metadatos.
+1. Para agregar una columna de metadatos personalizada, selecciona **Configuración de Workspace** (que aparece como **Configuración** para **Local**) en los tres puntos de la esquina superior derecha de la página de metadatos.
 
    ![](images/custom-metadata-setting.png){width="600" align="left"}
 
@@ -207,7 +206,6 @@ El informe **Multimedia** proporciona información detallada sobre los archivos 
    - **Tipo multimedia** \(seleccionado de forma predeterminada\) Tipo de multimedia. Las opciones disponibles son Audio, Vídeo o Imagen.
    - **Utilizado en** \(seleccionado de forma predeterminada\) Las referencias en las que se ha utilizado el contenido multimedia. Se puede seleccionar la referencia para editarla.
    - **Tipo de referencia** \(seleccionado de forma predeterminada\) El tipo de referencia: directa o indirecta.
-
    >[!NOTE]
    >
    > Seleccione **Actualizar** para obtener una lista nueva de contenido multimedia y ver cualquier cambio en el archivo de mapa o si se ha actualizado algún contenido multimedia del mapa DITA.
@@ -268,4 +266,4 @@ Para ver el informe de los vínculos rotos, siga estos pasos:
 1. Seleccione **Descargar** para descargar la instantánea de todos los vínculos rotos del mapa DITA. El archivo de Excel contiene las columnas seleccionadas y los vínculos rotos filtrados en la vista Vínculos rotos.
 
 
-**Tema principal:**&#x200B;[ Introducción a los informes](reports-intro.md)
+**Tema principal:**[ Introducción a los informes](reports-intro.md)

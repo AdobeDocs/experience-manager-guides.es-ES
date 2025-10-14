@@ -4,9 +4,9 @@ description: Conozca la página de inicio de Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: 03f117381bda7d31b50085b83f309e24f9a75210
+source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,18 @@ Las funciones disponibles en la barra de navegación se explican de la siguiente
   La característica [AI Assistant](./ai-assistant.md) solo está disponible actualmente para Adobe Experience Manager as a Cloud Service.
 - **Personalizar sección de información general**: Permite ocultar o mostrar los widgets en la sección Widgets.
 - **Perfil de carpeta en uso**: Muestra el perfil de carpeta que se está usando actualmente.
+- **Más acciones**: Proporciona acceso a opciones adicionales. Al seleccionar este botón, se abre un menú con las siguientes opciones:
+
+   - **Assets**: lo lleva a un destino basado en su configuración.
+      - **Cloud Services**: Si usas Cloud Services, al seleccionar la opción **Assets** accederás a la página Navegación de AEM.
+
+      - **Software On-Premise**: Si utiliza Adobe Experience Manager Guides (4.2.1 y versiones posteriores), al seleccionar la opción **Assets**, se le redirigirá a la ruta de archivo actual en la interfaz de usuario de Assets.
+   - **Configuración de Workspace**: lo lleva al cuadro de diálogo **Configuración de Workspace**. Para obtener más información, vea [Configurar las opciones de Workspace](../cs-install-guide/workspace-settings.md).
+
+     >[!NOTE]
+     >
+     > En la página de inicio, la opción de configuración de Workspace solo está disponible para la configuración de Cloud Services. En una configuración On-Premise, la opción More actions no está disponible en la página de inicio. Sin embargo, aún puede acceder a la configuración relevante a través de la interfaz del editor y la consola de mapas, navegando a Más opciones > Configuración.
+
 - **Expandir vista**: permite expandir la vista de página mediante el icono **Expandir**. En esta vista, la barra de encabezado está oculta, lo que maximiza el espacio de contenido. Para volver a la vista estándar, usa el icono **Salir de la vista expandida**.
 
 ## Panel izquierdo
@@ -169,7 +181,7 @@ Las preferencias de usuario están disponibles para todos los autores. Con las p
 
 - **Aspecto**: la ficha Aspecto le proporciona las opciones para seleccionar los temas de la aplicación y la vista de origen del área de edición de contenido. Utilice esta pestaña para configurar las siguientes opciones:
 
-  ![](images/user_preference_editor_appearance-new.png){align="left"}
+  ![](images/user_preference_editor_appearance.png){align="left"}
 
    - **Tema de aplicación y vista de Source**: puede elegir entre los temas Claro u Oscuro para la aplicación y la vista de origen. En el caso del tema Claro, las barras de herramientas y los paneles utilizan un fondo de color gris claro. En el caso del tema Oscuro, las barras de herramientas y los paneles utilizan un fondo de color negro. Seleccione **Usar el tema del dispositivo** para permitir que Experience Manager Guides seleccione los temas claro y oscuro en función del tema del dispositivo.
 

@@ -4,9 +4,9 @@ description: Traduzca el contenido a varios idiomas desde el editor web. Obtenga
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '2365'
+source-wordcount: '2376'
 ht-degree: 0%
 
 ---
@@ -157,7 +157,7 @@ Para obtener más información sobre la configuración de perfiles globales y de
 
 Experience Manager Guides permite pasar la etiqueta del archivo de origen al archivo de destino. Esto le ayudará a identificar fácilmente la versión de origen del archivo traducido.
 
-Para agregar la etiqueta de versión de origen en la copia de destino, el administrador del sistema debe habilitar la opción **Propagar etiquetas de versión de origen a la versión de destino** en la pestaña **Traducción** de **Configuración**.
+Para agregar la etiqueta de versión de origen en la copia de destino, el administrador del sistema debe habilitar la opción **Propagar etiquetas de versión de origen a la versión de destino** en la pestaña **Traducción** de **Configuración de Workspace** (aparece como **Configuración** para **Local**).
 
 Por ejemplo, si tiene algunos archivos de origen a los que se les ha aplicado la etiqueta de versión `Release 1.0`, también puede pasar la etiqueta de origen \(`Release 1.0`\) al archivo traducido.
 
@@ -177,7 +177,7 @@ Seleccione **Mostrar diferencia** icono \(![](images/show-difference-icon.svg)\)
 
 >[!NOTE]
 >
-> El icono \(![](images/show-difference-icon.svg)\) **Mostrar diferencia** solo aparece para los archivos DITA que tienen el estado de traducción **Fuera de sincronización**.
+> El icono \(**\)** Mostrar diferencia![](images/show-difference-icon.svg) solo aparece para los archivos DITA que tienen el estado de traducción **Fuera de sincronización**.
 
 Aparecerá el cuadro de diálogo **Diferencia de versiones**. Muestra **Última versión traducida** y el número **Versión seleccionada** a la izquierda. La ventana de vista previa muestra las diferencias entre la última versión traducida y la versión seleccionada del tema.
 
@@ -219,11 +219,11 @@ Seleccione el nombre de la referencia en el cuadro de diálogo para abrirla en e
 > 
 >Esta función está disponible para los nuevos proyectos de traducción que cree con la versión Experience Manager Guides 2404 o posterior.  No afecta a ningún proyecto existente.
 
-El administrador puede configurar la opción **Limpieza del proyecto de traducción una vez finalizado** en la pestaña **Traducción** de **Configuración del editor** para deshabilitar o eliminar los proyectos de traducción automáticamente.
+El administrador puede configurar la opción **Limpieza del proyecto de traducción una vez finalizado** en la pestaña **Traducción** de **Configuración de Workspace** (que aparece como **Configuración** para **Local**) para deshabilitar o eliminar los proyectos de traducción automáticamente.
 
 Para realizar la administración de documentos, Experience Manager Guides permite eliminar los proyectos de traducción una vez completada la traducción.
 
 También puede deshabilitar los proyectos de traducción si desea usarlos más adelante. Al eliminar un proyecto, se eliminan todos los archivos y carpetas presentes en el proyecto. Al deshabilitar un proyecto no se elimina, sino que se mantiene en el repositorio. Pero no puede actualizar ni editar un proyecto deshabilitado.  Eliminar o deshabilitar un proyecto no afectará el estado de traducción de ninguna referencia.
 
 
-**Tema principal:**&#x200B;[ Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)
