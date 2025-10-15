@@ -1,7 +1,8 @@
 ---
 title: Notas de versión | Instrucciones de actualización para la versión 5.0.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de la matriz de compatibilidad y cómo actualizar a la versión 5.0.0 de Adobe Experience Manager Guides.
-source-git-commit: 5ae05935d254b03ad99221bd5f65dbb6a3580c5f
+exl-id: 763db247-133e-40c0-807a-2f965b1ddb2f
+source-git-commit: ef8de789f8d6cf0cabc55f4d12c72b164619231c
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 6%
@@ -18,7 +19,7 @@ Para ver la lista de problemas que se han corregido en esta versión, consulte [
 
 ## Matriz de compatibilidad
 
-Esta sección enumera la matriz de compatibilidad para las aplicaciones de software compatibles con la versión 4.6.0 de Experience Manager Guides.
+Esta sección enumera la matriz de compatibilidad para las aplicaciones de software compatibles con la versión 5.0.0 de Experience Manager Guides.
 
 ### Adobe Experience Manager
 
@@ -62,7 +63,7 @@ Puede actualizar fácilmente su versión actual de Guides a la versión 5.0.0. A
 - Si está utilizando la versión 4.3.x, 4.2, 4.2.1 (revisión 4.2.1.3), 4.1 o 4.1.x, debe actualizar a la versión 4.4 antes de actualizar a la versión 5.0.0.
 - Si utiliza la versión 4.0, debe actualizar a la versión 4.2 antes de actualizar a la versión 4.3.x.
 - Si utiliza la versión 3.8.5, debe actualizar a la versión 4.0 antes de actualizar a la versión 4.2.
-- Si tiene una versión anterior a la 3.8.5, consulte la sección Actualizar Experience Manager Guides en la guía de instalación específica del producto disponible en [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/archive.html).
+- Si tiene una versión anterior a la 3.8.5, consulte la sección Actualizar Experience Manager Guides en la guía de instalación específica del producto disponible en [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >
