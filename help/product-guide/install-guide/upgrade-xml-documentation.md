@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: a29c27a263a3e06e041ffb5e81892449e64323a3
+source-git-commit: 140def886ff52d361d3c76a5e47607ab58408f04
 workflow-type: tm+mt
-source-wordcount: '9124'
+source-wordcount: '9151'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,15 @@ ht-degree: 0%
 >
 > Siga las instrucciones de actualización específicas de la versión con licencia del producto.
 
-Puede actualizar su versión actual de Experience Manager Guides a la versión 5.1.0:
+Puede actualizar su versión actual de Experience Manager Guides a la versión 5.1.0 Service Pack 1:
 
-- Si utiliza las versiones 4.6.3, 4.6.4, 5.0.0, 5.0.0 Service Pack 1 o 5.0.0 Service Pack 2, puede actualizar directamente a la versión 5.1.0.
-- Si está utilizando la versión 4.6.0, 4.6.1, debe actualizar a la versión 4.6.3 o 4.6.4 o 5.0.0 antes de actualizar a la versión 5.1.0.
+- Si utiliza la versión 5.1.0, puede actualizar directamente a la versión 5.1.0 Service Pack 1.
+- Si utiliza las versiones 4.6.0, 4.6.x, 5.0.0 o 5.0.x, debe actualizar a la versión 5.1.0.
+- Si utiliza las versiones 4.6.3, 4.6.1, 4.6 o 4.4, debe actualizar a la versión 5.0.0.
 - Si está utilizando la versión 4.3.x, 4.2, 4.2.1 (revisión 4.2.1.3), 4.1 o 4.1.x, debe actualizar a la versión 4.4 antes de actualizar a la versión 5.0.0.
 - Si utiliza la versión 4.0, debe actualizar a la versión 4.2 antes de actualizar a la versión 4.3.x.
 - Si utiliza la versión 3.8.5, debe actualizar a la versión 4.0 antes de actualizar a la versión 4.2.
-- Si tiene una versión anterior a la 3.8.5, consulte la sección Actualizar Experience Manager Guides en la guía de instalación específica del producto disponible en [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/archive.html).
+- Si tiene una versión anterior a la 3.8.5, consulte la sección Actualizar Experience Manager Guides en la guía de instalación específica del producto disponible en [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -58,11 +59,11 @@ Antes de ejecutar el proceso, hay ciertas tareas que debe completar. Las siguien
 
 >[!NOTE]
 >
-> Este proceso de actualización solo es aplicable de la versión 3.8.5 a la versión 4.0. Para el proceso de actualización de la versión 3.4 o superior a la 3.8.5, consulte la sección *Actualizar Experience Manager Guides* en la guía de instalación específica del producto disponible en [Archivo de PDF de ayuda de Adobe Experience Manager Guides](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/archive.html).
+> Este proceso de actualización solo es aplicable de la versión 3.8.5 a la versión 4.0. Para el proceso de actualización de la versión 3.4 o superior a la 3.8.5, consulte la sección *Actualizar Experience Manager Guides* en la guía de instalación específica del producto disponible en [Archivo de PDF de ayuda de Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
-**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
+****Requisitos previos****
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides, asegúrese de lo siguiente:
 
@@ -135,7 +136,7 @@ La actualización a la versión 4.2 depende de la versión actual de Experience 
 
 Si utiliza las versiones 4.0, 4.1 o 4.1.x, puede actualizar directamente a la versión 4.2.
 
-**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
+****Requisitos previos****
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 4.2, asegúrese de lo siguiente:
 
@@ -311,7 +312,7 @@ La actualización a la versión 4.2.1 depende de la versión actual de Experienc
 >
 >El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
 
-**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
+****Requisitos previos****
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 4.2.1, asegúrese de lo siguiente:
 
@@ -488,7 +489,7 @@ La actualización a la versión 4.3.0 depende de la versión actual de Experienc
 >
 >El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
 
-**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
+****Requisitos previos****
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 4.3.0, asegúrese de lo siguiente:
 
@@ -546,7 +547,7 @@ La actualización a la versión 4.3.1 depende de la versión actual de Experienc
 >
 >El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
 
-**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
+****Requisitos previos****
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 4.3.1, asegúrese de lo siguiente:
 
@@ -787,7 +788,7 @@ La actualización a la versión 4.4.0 depende de la versión actual de Experienc
 >
 >El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
 
-**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
+****Requisitos previos****
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 4.4.0, asegúrese de lo siguiente:
 
@@ -980,7 +981,7 @@ Si tiene otra reescritura de sling personalizada en la base de código, utilice 
 Durante esta actualización, dado que el valor `'order'` ha cambiado de 1000 a 50, debe combinar la reescritura personalizada existente, si la hay, con `'fmdita-rewriter'`.
 
 
-**Tema principal:**&#x200B;[&#x200B; Descargar e instalar](download-install.md)
+**Tema principal:**[ Descargar e instalar](download-install.md)
 
 
 ## Actualización a la versión 4.6.0
@@ -995,7 +996,7 @@ La actualización a la versión 4.6.0 depende de la versión actual de Experienc
 >
 > El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
 
-**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
+****Requisitos previos****
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 4.6.0, asegúrese de lo siguiente:
 
@@ -1150,7 +1151,7 @@ Durante esta actualización, dado que el valor `'order'` ha cambiado de 1000 a 5
 >
 > El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
 
-**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
+****Requisitos previos****
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 5.0.0, asegúrese de lo siguiente:
 
@@ -1298,7 +1299,7 @@ Durante esta actualización, dado que el valor `'order'` ha cambiado de 1000 a 5
 
 ## Pasos para reindexar damAssetLucene
 
-La definición del índice se actualiza para damAssetLucene con guías. Consulte [este artículo](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-16460) para volver a indexar damAssetLucene después de actualizar a la versión 5.0.0.
+La definición del índice se actualiza para damAssetLucene con guías. Consulte [este artículo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) para volver a indexar damAssetLucene después de actualizar a la versión 5.0.0.
 
 >[!NOTE]
 >
@@ -1308,13 +1309,17 @@ La definición del índice se actualiza para damAssetLucene con guías. Consulte
 
 >[!IMPORTANT]
 >
-> Si actualmente está en AEM 6.5 y planea pasar a AEM 6.5 LTS, asegúrese de completar primero la actualización de AEM antes de continuar con la actualización de Experience Manager Guides 5.1.0. Para obtener más información, vea [Actualización a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/es/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Si actualmente está en AEM 6.5 y planea pasar a AEM 6.5 LTS, asegúrese de completar primero la actualización de AEM antes de continuar con la actualización de Experience Manager Guides 5.1.0. Para obtener más información, vea [Actualización a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
-**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
+**Requisitos previos**
+
+>[!NOTE]
+>
+>Si actualiza al paquete de servicio 1 5.1.0, debe contar con la versión 5.1.0 de Experience Manager Guides.
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 5.1.0, asegúrese de lo siguiente:
 
-1. Se ha actualizado a la versión de Experience Manager Guides 4.6.3, 4.6.4, 5.0.0 o 5.0.0 Service Pack 1 y se han completado los pasos de instalación correspondientes.
+1. Se ha actualizado a la versión de Experience Manager Guides 4.6.3, 4.6.4, 5.0.0 o 5.0.0 Service Pack 1 y ha completado los pasos de instalación correspondientes.
 1. (Opcional) Cerró todas las tareas de traducción.
 1. Se ha cambiado el nivel de registro a **INFO** para la clase `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` y se han anexado estos registros a un nuevo archivo de registro, por ejemplo, `logs/translation_upgrade.log`.
 
@@ -1461,7 +1466,7 @@ Durante esta actualización, dado que el valor `'order'` ha cambiado de 1000 a 5
 
 ## Pasos para reindexar damAssetLucene
 
-La definición del índice se actualiza para damAssetLucene con guías. Consulte [este artículo](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-16460) para volver a indexar damAssetLucene después de actualizar a la versión 5.1.0.
+La definición del índice se actualiza para damAssetLucene con guías. Consulte [este artículo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) para volver a indexar damAssetLucene después de actualizar a la versión 5.1.0.
 
 >[!NOTE]
 >
