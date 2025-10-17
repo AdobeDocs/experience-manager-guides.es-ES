@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo crear un banco de preguntas en Apr
 feature: Authoring
 role: User
 exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
-source-git-commit: 6f0643ca4b43f88ead42bbeade4e3e7252263f32
+source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Antes de sumergirnos en el proceso paso a paso, aquí hay un breve vídeo introd
 
 >[!VIDEO](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)
 
-Realice los siguientes pasos para crear un banco de preguntas:
+**Pasos para crear un banco de preguntas**
 
->[!VIDEO](https://video.tv.adobe.com/v/3469321)
+Realice los siguientes pasos para crear un banco de preguntas:
 
 1. Abra un curso en **Administrador de cursos** y seleccione **Agregar nuevo** en el **menú Opciones**.
 1. Seleccione **Banco de preguntas**.

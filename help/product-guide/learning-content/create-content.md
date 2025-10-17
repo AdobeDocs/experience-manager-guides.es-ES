@@ -4,9 +4,9 @@ description: Habla sobre la creación de un tema en Formación y aprendizaje de 
 feature: Authoring
 role: User
 exl-id: a08a165d-801b-4b35-9626-b27471349327
-source-git-commit: 75a35db1b81d71f3994c3a6763647b94a2b79b36
+source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '128'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,7 @@ Antes de profundizar en el proceso paso a paso, aquí tiene un breve vídeo de i
 
 >[!VIDEO](https://video.tv.adobe.com/v/3475211/learning-content-aem-guides)
 
+**Pasos para agregar un tema a un curso**
 
 Siga estos pasos para agregar un tema a un curso:
 
