@@ -4,9 +4,9 @@ description: Obtenga información sobre las distintas funciones presentes en Exp
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
+source-git-commit: 40ce03adef1b9a50afd6698de49c09b65e565b3e
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '550'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Siga estos pasos para agregar contenido nuevo en el curso:
    - **Grupo**: un grupo de aprendizaje ayuda a organizar los temas relacionados, como capítulos, temas y otros módulos, en un orden lógico, creando una jerarquía clara que facilita la administración y reutilización de los materiales de formación.
 3. Seleccione **Crear**.
 
-El contenido seleccionado se crea y se añade al curso. Para ver un vídeo de información general, vea [Agregar contenido nuevo a un curso](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
+El contenido seleccionado se crea y se añade al curso. Para ver un vídeo introductorio, vea [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
 
 ## Añadir contenido existente
 
@@ -50,7 +50,7 @@ El contenido del curso seleccionado se añade al curso desde el repositorio.
 >
 >También puede usar la opción **Agregar archivo existente** > **Archivo (zip solo de recursos)** para incluir un archivo zip que se descomprima e integre en la estructura de carpetas de la salida final de SCORM. Esto ayuda a optimizar el empaquetado de recursos durante la publicación del curso.
 
-Para ver un vídeo introductorio, vea [Agregar contenido existente al curso](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
+Para ver un vídeo introductorio, vea [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
 
 ## Eliminar contenido
 
@@ -58,7 +58,8 @@ Puede quitar cualquier tema del curso si selecciona el menú **Opciones** para e
 
 ![](assets/remove-learning-content.png)
 
-Para ver un vídeo introductorio, vea [Quitar contenido del curso](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).
+Para ver un vídeo introductorio, vea [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).
+
 
 ## Creación de versiones de cursos
 
@@ -82,4 +83,4 @@ La opción **Mostrar** determina cómo se muestran los temas. Puede elegir prese
 
 ![](assets/course-display-settings.png)
 
-Para ver un vídeo introductorio, vea [Mostrar opciones](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).
+Para ver un vídeo introductorio, vea [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).

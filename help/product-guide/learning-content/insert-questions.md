@@ -4,9 +4,9 @@ description: Aprenda a insertar preguntas del banco de preguntas en las pruebas 
 feature: Authoring
 role: User
 exl-id: dfc247f7-31f9-4bcf-84e2-151993603b89
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: 40ce03adef1b9a50afd6698de49c09b65e565b3e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -37,4 +37,5 @@ Realice los siguientes pasos para insertar preguntas del banco de preguntas en e
 
    ![](assets/inserted-question.png){width="650" align="left"}
 
-Para ver un vídeo de información general, vea [Uso del banco de preguntas](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides).
+
+Para ver un vídeo de información general, [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides).
