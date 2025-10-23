@@ -269,4 +269,4 @@ Para enviar uno o varios temas junto con el archivo de asignación para su revis
 
 Se envía un mensaje de correo electrónico a todos los revisores para notificarles que se les han asignado temas para su revisión. El correo electrónico contiene un vínculo directo que puede utilizar para acceder al tema en una ventana del explorador. Los temas junto con el mapa DITA se abren en el modo de revisión.
 
-**Tema principal:**[ Introducción a la revisión](review.md)
+**Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)

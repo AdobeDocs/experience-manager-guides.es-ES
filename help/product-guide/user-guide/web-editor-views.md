@@ -149,4 +149,4 @@ Para exportar un tema como PDF, siga estos pasos:
    El PDF se genera y abre en una nueva pestaña o se le muestra un cuadro de diálogo para guardar el PDF en el sistema local.
 
 
-**Tema principal:**[ Introducción al editor](web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)

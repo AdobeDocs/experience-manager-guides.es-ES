@@ -230,4 +230,4 @@ El mapa genera todos los recursos a los que se hace referencia dentro de la carp
 
 - Si se crea otro mapa o tema en el mismo nivel de la carpeta, los nombres de los recursos recién creados se anexan con 0,1,2, etc. Puede elegir abrir la asignación para editarla o guardar el archivo de asignación en el repositorio.
 
-**Tema principal:**[ Introducción al editor de mapas](map-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Introducción al editor de mapas](map-editor.md)
