@@ -4,7 +4,7 @@ description: Conozca las funciones del Editor de mapas en Adobe Experience Manag
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 6235af9bf85b2d0e2007bd2279d8ac018f82ffc1
+source-git-commit: 4cb5934fab1897bd36de33f2192ae2c4392c07eb
 workflow-type: tm+mt
 source-wordcount: '2563'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Funciones del editor de mapas {#id1942D0S0IHS}
 
-La barra de herramientas del Editor de mapas es similar al Editor de temas. Las operaciones básicas como cambiar el panel izquierdo, guardar el mapa, crear una nueva versión del mapa, deshacer/rehacer la última operación y eliminar los elementos seleccionados son comunes en ambos editores. Para obtener información detallada acerca de cómo funcionan estas operaciones, vea [Conozca las características del Editor](web-editor-features.md#) sección.
+La barra de herramientas del Editor de mapas es similar al Editor de temas. Las operaciones básicas como cambiar el panel izquierdo, guardar el mapa, crear una nueva versión del mapa, deshacer/rehacer la última operación y eliminar los elementos seleccionados son comunes en ambos editores. Para obtener información detallada sobre cómo funcionan estas operaciones, vea la barra de herramientas [en la sección Editor](web-editor-toolbar.md#).
 
 Las opciones que se ven en la barra de herramientas del editor se basan en la vista Editor de mapas. Hay cuatro vistas disponibles en el editor de mapas:
 
@@ -146,7 +146,7 @@ Además, puede ver los iconos siguientes y realizar las tareas relacionadas desd
 
 **Insertar antes/Insertar después** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Muestra el cuadro de diálogo **Insertar elemento antes o &#x200B;** Insertar elemento después. Seleccione el elemento que desea insertar en el mapa. Según la operación, el nuevo elemento se inserta antes o después del elemento actual en el mapa.
+Muestra el cuadro de diálogo **Insertar elemento antes o **Insertar elemento después. Seleccione el elemento que desea insertar en el mapa. Según la operación, el nuevo elemento se inserta antes o después del elemento actual en el mapa.
 
 **Elemento** - ![](images/Add_icon.svg)
 
