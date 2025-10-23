@@ -4,7 +4,7 @@ description: Ver temas en los modos de autor, origen y vista previa. Obtenga inf
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
@@ -49,7 +49,7 @@ La vista Source muestra el XML subyacente que compone el tema. Si se siente cóm
   En la captura de pantalla anterior, se utiliza un resaltado cruzado para señalar la línea que contiene el XML erróneo.
 
 * La función Buscar y reemplazar permite buscar texto, elementos o atributos en la vista de Source.
-Para obtener más información, vea la descripción de la característica **Buscar y reemplazar** en la sección [Barra de fichas](web-editor-features.md#tab-bar).
+Para obtener más información, vea la descripción de la característica **Buscar y reemplazar** en la sección [Barra de fichas](web-editor-tab-bar.md).
 
 * La vista de Source proporciona muchos métodos abreviados para ayudarle a desplazarse por un documento y trabajar con él rápidamente. En la tabla siguiente se enumeran las acciones admitidas y sus teclas de método abreviado:
 
@@ -149,4 +149,4 @@ Para exportar un tema como PDF, siga estos pasos:
    El PDF se genera y abre en una nueva pestaña o se le muestra un cuadro de diálogo para guardar el PDF en el sistema local.
 
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

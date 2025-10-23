@@ -4,7 +4,7 @@ description: Aprenda a crear una plantilla de personalizaciones, utilizarla para
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Puede crear plantillas de temas y asignaciones de las siguientes maneras:
 
 ### Crear plantillas personalizadas desde el editor
 
-La característica **Templates** está presente en el panel [izquierdo de la interfaz del Editor](./web-editor-features.md#left-panel) y solo está disponible para los administradores. Con este panel, el administrador puede crear y administrar fácilmente plantillas que luego los autores pueden utilizar. De manera predeterminada, las plantillas se clasifican en las plantillas de tipo *map* y *topic*.
+La característica **Templates** está presente en el panel [izquierdo de la interfaz del Editor](./web-editor-left-panel.md) y solo está disponible para los administradores. Con este panel, el administrador puede crear y administrar fácilmente plantillas que luego los autores pueden utilizar. De manera predeterminada, las plantillas se clasifican en las plantillas de tipo *map* y *topic*.
 
 ![](images/templates-panel_cs.png){width="300" align="left"}
 
@@ -137,7 +137,7 @@ Aprenda a [configurar la ruta de la carpeta de la plantilla DITA personalizada](
 
 Si desea pasar el título del tema o el mapa utilizado dentro de la plantilla a los mapas DITA creados con esa plantilla, utilice llaves alrededor del título.
 
-Ejemplos
+Ejemplo
 
 ```XML
 <pubtitle>
@@ -167,7 +167,7 @@ Si no utiliza llaves alrededor del título, el mapa DITA resultante solo selecci
 >[!NOTE]
 > También se pueden utilizar llaves alrededor del texto para pasar su estructura anidada desde las plantillas personalizadas a los mapas DITA.
 
-Ejemplos
+Ejemplo
 
 ```XML
 <title>    
@@ -230,4 +230,4 @@ El mapa genera todos los recursos a los que se hace referencia dentro de la carp
 
 - Si se crea otro mapa o tema en el mismo nivel de la carpeta, los nombres de los recursos recién creados se anexan con 0,1,2, etc. Puede elegir abrir la asignación para editarla o guardar el archivo de asignación en el repositorio.
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor de mapas](map-editor.md)
+**Tema principal:**[ Introducción al editor de mapas](map-editor.md)

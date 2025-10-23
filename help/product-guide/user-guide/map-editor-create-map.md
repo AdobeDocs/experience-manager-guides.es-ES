@@ -4,7 +4,7 @@ description: Cree un mapa con el Editor de mapas en Experience Manager Guides. B
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 0%
@@ -56,17 +56,17 @@ Realice los siguientes pasos para agregar temas a un archivo de asignación desd
    ![](images/new-map-file-in-editor.png){align="left"}
 
 
-   - **A** - \(*Barra de fichas*\): Es similar a la barra de fichas del Editor. Ver [barra de fichas](./web-editor-features.md#tab-bar) en el editor para obtener más detalles.
+   - **A** - \(*Barra de fichas*\): Es similar a la barra de fichas del Editor. Ver [barra de fichas](./web-editor-tab-bar.md) en el editor para obtener más detalles.
 
    - **B** - \(*Barra de herramientas*\) Esta es la barra de herramientas que le permite trabajar con los archivos de asignación. Para obtener más información sobre las funcionalidades disponibles en la barra de herramientas, vea [Características disponibles en la barra de herramientas del Editor de mapas](#features-available-in-the-map-editors-toolbar).
 
    - **C** - \(*Vistas de mapas*\): Permite cambiar el Editor de mapas entre el Diseño, Autor, Source y Vista previa. La vista **Diseño** permite organizar los temas en un mapa DITA. Esto proporciona la vista de árbol o jerárquica del mapa. La vista **Autor** le permite editar los temas en el Editor de mapas. Esto también proporciona la vista de WYSIWYG del archivo de mapa. La vista **Source** le permite trabajar con el XML subyacente del archivo de asignación. La vista previa le ofrece una vista consolidada de todos los temas y subasignaciones dentro del archivo de asignación.
 
-   - **D** - \(*Panel izquierdo*\): otorga acceso al panel izquierdo que le da acceso a las colecciones, repositorio, mapa, esquema y otras características. Puede expandirla o contraerla seleccionando el icono Expandir/Contraer. Para obtener más información acerca de las características disponibles en el panel izquierdo, vea [Panel izquierdo](./web-editor-features.md#left-panel) en el editor.
+   - **D** - \(*Panel izquierdo*\): otorga acceso al panel izquierdo que le da acceso a las colecciones, repositorio, mapa, esquema y otras características. Puede expandirla o contraerla seleccionando el icono Expandir/Contraer. Para obtener más información acerca de las características disponibles en el panel izquierdo, vea [Panel izquierdo](./web-editor-left-panel.md) en el editor.
 
    - **E** - \(*Área central*\): Asignar área de edición de contenido.
 
-   - **F** - \(*Panel derecho*\): otorga acceso al panel Propiedades. Puede ver las propiedades de contenido y las propiedades de asignación del tema o mapa seleccionado. Para obtener más información acerca de las funcionalidades disponibles en este panel, vea [Panel derecho](web-editor-features.md#right-panel) en el editor.
+   - **F** - \(*Panel derecho*\): otorga acceso al panel Propiedades. Puede ver las propiedades de contenido y las propiedades de asignación del tema o mapa seleccionado. Para obtener más información acerca de las funcionalidades disponibles en este panel, vea [Panel derecho](web-editor-right-panel.md) en el editor.
 
 1. En el panel izquierdo, cambie a la vista **Repositorio**.
 

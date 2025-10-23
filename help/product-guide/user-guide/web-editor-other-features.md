@@ -4,7 +4,7 @@ description: Explore otras funciones del editor en Adobe Experience Manager Guid
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: b00f8ba0e27cc26c48e1b058e25c05c4b6e9dffd
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '2652'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Las distintas opciones del menú contextual se explican a continuación:
 
 ***Guardar como nueva versión***
 
-Para crear una nueva versión del archivo, seleccione **Guardar como nueva versión**. Para obtener más información sobre **Guardar** y **Guardar como nueva versión**, vea [Conocer las características del editor](web-editor-features.md#).
+Para crear una nueva versión del archivo, seleccione **Guardar como nueva versión**. Para obtener más información sobre **Guardar** y **Guardar como nueva versión**, vea la [barra de herramientas en el editor](web-editor-toolbar.md).
 
 ***Copiar***: puede elegir entre las siguientes opciones:
 
@@ -66,9 +66,9 @@ Para crear una nueva versión del archivo, seleccione **Guardar como nueva versi
 
 ***Agregar a***: puede elegir entre las siguientes opciones:
 
-- **Colecciones**: para agregar el archivo seleccionado a las colecciones, seleccione **Agregar a \> Colecciones**. Para obtener más información, vea la descripción de la característica **Colecciones** en la sección [Panel izquierdo](web-editor-features.md#left-panel).
+- **Colecciones**: para agregar el archivo seleccionado a las colecciones, seleccione **Agregar a \> Colecciones**. Para obtener más información, vea la descripción de la característica **Colecciones** en la sección [Panel izquierdo](web-editor-left-panel.md).
 
-- **Contenido reutilizable**: para copiar el archivo seleccionado en la lista de contenido reutilizable, seleccione **Agregar a \> Contenido reutilizable**. Para obtener más información, vea la descripción de la característica **Contenido reutilizable** en la sección [Panel izquierdo](web-editor-features.md#left-panel).
+- **Contenido reutilizable**: para copiar el archivo seleccionado en la lista de contenido reutilizable, seleccione **Agregar a \> Contenido reutilizable**. Para obtener más información, vea la descripción de la característica **Contenido reutilizable** en la sección [Panel izquierdo](web-editor-left-panel.md).
 
 ***Propiedades***
 
@@ -114,7 +114,7 @@ La experiencia de guardado de archivos dependerá de los tres escenarios siguien
 Puede ver las siguientes opciones en función de si el archivo está bloqueado/desbloqueado y tiene cambios guardados o no guardados:
 
 - **Desbloquear y cerrar**: se libera el bloqueo del archivo y éste se cierra.
-- **Guardar como nueva versión**: esto guardará los cambios realizados en el contenido y creará una nueva versión del archivo. También puede agregar etiquetas y comentarios para la versión recién guardada. Para obtener más información acerca de cómo guardar una nueva versión, vea [Guardar como nueva versión](web-editor-features.md#save-as-new-version).
+- **Guardar como nueva versión**: esto guardará los cambios realizados en el contenido y creará una nueva versión del archivo. También puede agregar etiquetas y comentarios para la versión recién guardada. Para obtener más información acerca de cómo guardar una nueva versión, vea [Guardar como nueva versión](web-editor-toolbar.md#version-information-and-save-as-new-version).
 
 - **Desbloquear el archivo**: Si decide desbloquear un archivo, liberará el bloqueo del archivo y los cambios se guardarán en la versión actual del archivo.
 
@@ -279,4 +279,4 @@ A continuación se mencionan las funciones principales destinadas a mejorar el m
 
 - El mensaje de alerta solo está disponible para archivos DITA y es visible en todas las vistas: Autor, Source y Diseño.
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

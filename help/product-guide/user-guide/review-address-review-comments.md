@@ -4,7 +4,7 @@ description: Aprenda a dirigir comentarios de revisión como autor en AEM Guides
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: 35480e842f6c05811333a14e80c0e9b6431e9176
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1228'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Comentarios de revisión de direcciones {#id2056B0X0KBI}
 
-Como autor, puede dirigir los comentarios de un tema mediante el Editor. Los comentarios se cargan en función de la tarea de revisión seleccionada en el panel Revisar. Para obtener más información, vea la descripción de la característica del panel **Revisar** ![](images/active-review-tasklist-icon.svg) en la sección [Panel izquierdo](../user-guide/web-editor-features.md#id2051EA0M0HS).
+Como autor, puede dirigir los comentarios de un tema mediante el Editor. Los comentarios se cargan en función de la tarea de revisión seleccionada en el panel Revisar. Para obtener más información, vea la descripción de la característica del panel **Revisar** ![](images/active-review-tasklist-icon.svg) en la sección [Panel izquierdo](../user-guide/web-editor-left-panel.md).
 
 Las secciones siguientes describen las formas de abordar los comentarios en el Editor.
 
@@ -91,4 +91,4 @@ Si usted es el iniciador o el autor de una tarea de revisión y la abre desde la
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
-**Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)
+**Tema principal:**[ Introducción a la revisión](review.md)

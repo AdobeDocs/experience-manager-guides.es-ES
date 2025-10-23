@@ -4,7 +4,7 @@ description: Conozca la Barra de herramientas en el Editor. Obtenga información
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: 3dee9b2c90515ff7681770247f215996dc2c8325
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '5962'
 ht-degree: 0%
@@ -84,7 +84,7 @@ La característica **Historial de versiones** del Editor permite comprobar las v
 
    Pestaña **Metadatos**: los metadatos agregados recientemente están en fuente verde y los metadatos eliminados están en fuente roja.
 
-   ![Diferencia de metadatos para las versiones &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Diferencia de metadatos para las versiones ](images/metadata-version-diff.png){width="550" align="left"}
 
    *Comparar los metadatos de distintas versiones en el historial de versiones.*
 
@@ -406,7 +406,7 @@ También puede agregar otras propiedades para un archivo de imagen seleccionando
 
 >[!NOTE]
 >
->También puede definir las áreas \(mapa de imagen\) en las que puede hacer clic en la imagen. Para obtener más información, vea la descripción de la característica **Insertar/Editar mapa de imagen** en la sección [Panel izquierdo](web-editor-features.md#left-panel).
+>También puede definir las áreas \(mapa de imagen\) en las que puede hacer clic en la imagen. Para obtener más información, vea la descripción de la característica **Insertar/Editar mapa de imagen** en la sección [Panel izquierdo](web-editor-left-panel.md).
 
 **Menú contextual para archivos de imágenes o multimedia**
 
@@ -623,4 +623,4 @@ Si un archivo está bloqueado por otro usuario, al pasar el ratón por encima de
 Como administrador, también obtienes acceso a la función **Forzar desbloqueo** que te permite desbloquear el archivo bloqueado por otros usuarios. Utilice esta función para acceder a los derechos de edición de un archivo bloqueado por otros usuarios.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

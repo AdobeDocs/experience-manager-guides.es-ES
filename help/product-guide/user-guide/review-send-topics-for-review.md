@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo crear una tarea de revisión y env
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '2793'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Como el flujo de trabajo de revisión es específico del proyecto, el iniciador 
 
 Puede crear una tarea de revisión desde:
 
-- **Editor**: permite enviar un tema individual o un mapa DITA para su revisión. Tenga en cuenta que el flujo de trabajo para crear una tarea de revisión es común en el Editor y en la IU de Assets. Solo difiere el método para iniciar el flujo de trabajo de revisión. Para obtener información sobre cómo iniciar el flujo de trabajo de revisión desde el Editor, vea la característica [Crear tarea de revisión](web-editor-features.md#id215OCJ00JXA) en el Editor.
+- **Editor**: permite enviar un tema individual o un mapa DITA para su revisión. Tenga en cuenta que el flujo de trabajo para crear una tarea de revisión es común en el Editor y en la IU de Assets. Solo difiere el método para iniciar el flujo de trabajo de revisión. Para obtener información sobre cómo iniciar el flujo de trabajo de revisión desde el Editor, vea la característica [Crear tarea de revisión](web-editor-left-panel.md#review) en el Editor.
 
 - **IU de Assets**: permite enviar uno o varios temas y un mapa DITA para su revisión. El uso compartido de documentos para su revisión desde el flujo de trabajo de la IU de Assets se trata en este tema.
 
@@ -250,7 +250,6 @@ Para enviar uno o varios temas junto con el archivo de asignación para su revis
    - **Volver a asignar**: muestra el cuadro de diálogo Volver a asignar revisores. Puede escribir el nombre del revisor o la función de usuario \(o grupo\) al que desee asignar la tarea de revisión. De este modo, se quitarán todos los revisores existentes de los temas seleccionados y se asignarán a ellos los revisores recién seleccionados.
    - **Exportar**: permite exportar los detalles de la tarea de revisión en un archivo CSV. El archivo contiene detalles como la ruta y el título del tema, el nombre del revisor y la versión de los temas enviados para su revisión.
    - **Editar revisores**: al seleccionar el icono ![](images/edit_pencil_icon.svg)de la lista de temas, se muestra el cuadro de diálogo Editar revisores. Puede agregar o quitar revisores para el tema seleccionado desde este cuadro de diálogo.
-
    >[!IMPORTANT]
    >
    > Debe asignar al menos un revisor para crear la tarea de revisión.
@@ -270,4 +269,4 @@ Para enviar uno o varios temas junto con el archivo de asignación para su revis
 
 Se envía un mensaje de correo electrónico a todos los revisores para notificarles que se les han asignado temas para su revisión. El correo electrónico contiene un vínculo directo que puede utilizar para acceder al tema en una ventana del explorador. Los temas junto con el mapa DITA se abren en el modo de revisión.
 
-**Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)
+**Tema principal:**[ Introducción a la revisión](review.md)
