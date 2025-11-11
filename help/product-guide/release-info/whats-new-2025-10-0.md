@@ -2,9 +2,9 @@
 title: Notas de versión | Novedades de la versión 2025.10.0 de Adobe Experience Manager Guides
 description: Obtenga información sobre las funciones nuevas y mejoradas de la versión 2025.10.0 de Adobe Experience Manager Guides
 role: Leader
-source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
+source-git-commit: bf08a48cd00170bdbe8cde312aac9776f871dbf9
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '521'
 ht-degree: 3%
 
 ---
@@ -53,5 +53,10 @@ Para obtener más información, vea [Solicitar una nueva revisión o cerrar una 
 
 Ahora hay disponible una nueva API para rastrear el estado posterior al procesamiento de recursos y carpetas individuales. Esto resulta especialmente útil en equipos que utilizan flujos de trabajo automatizados, donde la publicación solo debe producirse después de que el contenido se haya procesado por completo. La API ofrece una forma fiable de confirmar la preparación, lo que reduce el riesgo de errores de publicación causados por un procesamiento incompleto.
 
-Para obtener más información, consulte la [API para rastrear el estado posterior al procesamiento de carpetas o recursos](../api-reference/track-post-processing-status.md).
+Además, con la introducción de esta API, los eventos de procesamiento posterior de recursos no se activan automáticamente. Ahora los administradores pueden habilitar este evento mediante una configuración en `fmdita config manager`.
+
+Para obtener más información, consulte:
+
+- [API para rastrear el estado posterior al procesamiento de recursos y carpetas individuales](../api-reference/track-post-processing-status.md)
+- [Configuración del controlador de eventos de procesamiento posterior en el administrador de configuración de fmdita](../api-reference/post-process-event.md)
 
