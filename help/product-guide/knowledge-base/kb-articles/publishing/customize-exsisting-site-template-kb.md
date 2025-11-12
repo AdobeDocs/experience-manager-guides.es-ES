@@ -140,4 +140,4 @@ De forma predeterminada, las bibliotecas de cliente (clientlibs) proporcionadas 
 
 >[!NOTE]
 >
-> Asegúrese de que las plantillas se prueben en un entorno que no sea de producción antes de su implementación en producción.<br><br>Consulte la documentación oficial de [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) y [AEM Sites](https://experienceleague.adobe.com/es/docs/experience-manager-core-components/using/get-started/authoring) para obtener más detalles.
+> Asegúrese de que las plantillas se prueben en un entorno que no sea de producción antes de su implementación en producción.<br><br>Consulte la documentación oficial de [AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/overview) y [AEM Sites](https://experienceleague.adobe.com/es/docs/experience-manager-core-components/using/get-started/authoring) para obtener más detalles.
