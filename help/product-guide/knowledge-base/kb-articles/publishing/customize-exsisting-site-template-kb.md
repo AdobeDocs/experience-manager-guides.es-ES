@@ -4,9 +4,10 @@ description: Aprenda a personalizar las plantillas de sitio de AEM existentes pa
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 1cec8975e8aad56184793a023d066aa467d8cec5
+exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
+source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '919'
 ht-degree: 1%
 
 ---
@@ -32,9 +33,9 @@ Si está utilizando la plantilla predeterminada AEM Guides (AEMG Docs), las conf
 
 Los nombres de las plantillas variarán según la configuración del proyecto. Por ejemplo, en la configuración de documentos de AEMG de OOTB:
 
-- Página de contenedor de documentación: /conf/AEMG-Docs-Site/settings/wcm/templates/kb-content
+- Página de contenedor de documentación: `/conf/AEMG-Docs-Site/settings/wcm/templates/kb-content`
 
-- Página de tema: /conf/AEMG-Docs-Site/settings/wcm/templates/topic-content
+- Página de tema: `/conf/AEMG-Docs-Site/settings/wcm/templates/topic-content`
 
 **Personalización:** El proceso de personalización implica dos pasos principales:
 
@@ -85,7 +86,7 @@ Si tiene un tema DITA sobre &quot;Instrucciones de instalación&quot;, la planti
 
 >[!NOTE]
 >
-> Asegúrese de que los componentes que utilizan sling:resourceType en wcm/foundation/components se migren al core/wcm/components correspondiente.
+> Asegúrese de que los componentes que usan sling:resourceType en `wcm/foundation/components` se migren al `core/wcm/components` correspondiente.
 
 Añada lo mismo (contenedor y componente de texto) en la estructura de la misma plantilla:
 
@@ -97,7 +98,7 @@ Para habilitar las funciones de los componentes principales de AEM Guides, como 
 
 Consulte la tabla siguiente para obtener la lista de componentes y su uso:
 
-| Función | Nombre del componente | Descripción | Plantilla recomendada |
+| Característica | Nombre del componente | Descripción | Plantilla recomendada |
 |---|---|---|---|
 | Tabla de contenidos | guidessidenavigation | Procesa la tabla de contenido completa desde el mapa DITA | Contenedor de documentación |
 | Redireccionamiento de página | child direct | Redirige a la primera página de tema del mapa | Contenedor de documentación |
@@ -139,4 +140,4 @@ De forma predeterminada, las bibliotecas de cliente (clientlibs) proporcionadas 
 
 >[!NOTE]
 >
-> Asegúrese de que las plantillas se prueben en un entorno que no sea de producción antes de su implementación en producción.<br><br>Consulte la documentación oficial de [AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/overview) y [AEM Sites](https://experienceleague.adobe.com/es/docs/experience-manager-core-components/using/get-started/authoring) para obtener más detalles.
+> Asegúrese de que las plantillas se prueben en un entorno que no sea de producción antes de su implementación en producción.<br><br>Consulte la documentación oficial de [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) y [AEM Sites](https://experienceleague.adobe.com/es/docs/experience-manager-core-components/using/get-started/authoring) para obtener más detalles.

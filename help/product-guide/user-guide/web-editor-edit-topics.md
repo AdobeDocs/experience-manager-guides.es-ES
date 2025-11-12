@@ -4,9 +4,9 @@ description: Aprenda a editar temas en el Editor. Obtenga información sobre las
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: d203ca0e1a5ca90f30f33e25e425552141674fe5
+source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,6 @@ Del mismo modo, si elimina el contenido seleccionado, se combina el contenido re
 
    - Seleccione el contenido de un elemento.
    - Seleccione el icono ![add](images/Add_icon.svg) de la barra de herramientas de la parte superior para ver el cuadro de diálogo **Insertar elemento**. El cuadro de diálogo muestra los elementos válidos para el contenido seleccionado.
-
      >[!NOTE]
      >
      > También puede ver el cuadro de diálogo Insertar elemento seleccionando el menú contextual del contenido seleccionado.
@@ -108,11 +107,14 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 
  -->
 
-## Busque un archivo abierto en la vista Repositorio
+## Busque un archivo abierto en el Explorador
 
-Mientras abre un archivo en el Editor, Experience Manager Guides proporciona la función para buscar el archivo en la vista Repositorio. Por ejemplo, localiza el tema actual mientras lo está editando.
+Mientras se abre un archivo en el Editor, Experience Manager Guides proporciona la función para buscar el archivo en el Explorador. Por ejemplo, localiza el tema actual mientras lo está editando.
 
-Puede desactivar la característica para localizar el archivo con la opción **Buscar siempre los archivos en el repositorio** desde la ficha **Apariencia** de **Preferencias de usuario**.
+Puede desactivar la característica para localizar el archivo con la opción **Buscar siempre los archivos en el Explorador** desde la ficha **Apariencia** de **Preferencias de usuario**.
 
+>[!NOTE]
+>
+>A partir de la versión 2025.11.0, el nombre de la opción **Buscar siempre los archivos en el repositorio** cambiará a **Buscar siempre los archivos en el explorador**. Para la configuración On-Premise, sigue estando disponible como Localizar siempre archivos en el repositorio hasta la versión 5.1 de Experience Manager Guides.
 
-**Tema principal:**&#x200B;[&#x200B; Trabajar con el editor](web-editor.md)
+**Tema principal:**[ Trabajar con el editor](web-editor.md)

@@ -5,7 +5,7 @@ exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 8e57d4048f4aa13d7f77f25082d4e7aa329ee355
+source-git-commit: 6f212862855e5ce1125137f462b88c933d23ed26
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 5%
@@ -42,7 +42,7 @@ com/adobe/guides/postprocess/complete
 |----|----|-----------|
 | `path` | Cadena | Ruta del archivo que activó este evento. Normalmente, es el archivo en el que se ha realizado una operación. |
 | `eventType` | Cadena | El tipo de evento, es decir, CREATE o MODIFY. |
-| `status` | Cadena | Estado de devolución de la operación realizada. Las opciones posibles son: - <br>- SUCCESS: La operación de posprocesamiento se completó correctamente. <br>- ERROR: error en la operación posterior al procesamiento debido a algún error. |
+| `status` | Cadena | Estado de devolución de la operación realizada. Las opciones posibles son: <br>- SUCCESS: La operación de posprocesamiento se completó correctamente. <br>- ERROR: error en la operación posterior al procesamiento debido a algún error. |
 | `errorMsg` | Cadena | El mensaje de error en caso de que falle la operación posterior al procesamiento. |
 | `uuid` | Cadena | El UUID del archivo que activó este evento. Normalmente, es el archivo en el que se ha realizado una operación. |
 
@@ -110,6 +110,6 @@ com/adobe/fmdita/postprocess/complete
 | Nombre | Tipo | Descripción |
 |----|----|-----------|
 | `path` | Cadena | Ruta del archivo que activó este evento. Normalmente, es el archivo en el que se ha realizado una operación. |
-| `status` | Cadena | Estado de devolución de la operación realizada. Las opciones posibles son: - <br>- SUCCESS: La operación de posprocesamiento se completó correctamente. <br>- COMPLETADA CON ERRORES: la operación de posprocesamiento se completó, pero con algunos errores. <br>- ERROR: error en la operación posterior al procesamiento debido a algún error. |
+| `status` | Cadena | Estado de devolución de la operación realizada. Las opciones posibles son: <br>- SUCCESS: La operación de posprocesamiento se completó correctamente. <br>- COMPLETADA CON ERRORES: la operación de posprocesamiento se completó, pero con algunos errores. <br>- ERROR: error en la operación posterior al procesamiento debido a algún error. |
 | `message` | Cadena | Si el estado es COMPLETADO CON ERRORES o FALLIDO, este parámetro contiene los detalles sobre el error o el motivo del error. |
 | `operation` | Cadena | La operación de posprocesamiento realizada en el archivo. Las opciones posibles son: <br>- Adición <br>- Actualización <br>- Eliminación |

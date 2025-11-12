@@ -4,9 +4,10 @@ description: Obtenga información sobre cómo descargar e instalar plantillas de
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 20ba7f4582f1d155e555c9ff3ac58e1e3c400765
+exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
+source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -35,7 +36,7 @@ Antes de continuar con la configuración, asegúrese de que se cumplen los sigui
 ## Instalación de paquetes mediante el Administrador de paquetes de CRX
 
 1. **Instalar el paquete de componentes:**
-   1. Vaya a [**Administrador de paquetes CRX**](http://&lt;your-aem-instance>/crx/packmgr).
+   1. Vaya a [**Administrador de paquetes CRX**](http://<your-aem-instance>/crx/packmgr).
    2. Cargue e instale el paquete on-premise-guides-components.all-1.x.0.zip.
 
 2. **Instale el paquete de Sites:** Cargue e instale el paquete aemg-docs.all-1.x.0.zip mediante el Administrador de paquetes de CRX.
@@ -60,14 +61,14 @@ Antes de continuar con la configuración, asegúrese de que se cumplen los sigui
 
    1. Seleccione **Sitio** como **Documentos de AEMG**.
    2. Compruebe que **Publish path** y **Topic page template** se hayan establecido automáticamente en:
-      - Ruta de publicación: aemg-docs/en/docs/product1
+      - Ruta de publicación: `aemg-docs/en/docs/product1`
       - Plantilla de página de tema: Página de tema.
 
       ![Usar menú desplegable del sitio](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350" align="left"}
 
    **Opción 2: usar la ruta del sitio**
 
-   1. Establezca la **ruta del sitio** manualmente como /content/aemg-docs/en/docs/product1.
+   1. Establecer la **ruta del sitio** manualmente como `/content/aemg-docs/en/docs/product1`.
    2. Compruebe que **Plantilla de página de tema** se establece automáticamente como Página de tema.
 
       ![Usar ruta de acceso al sitio](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
@@ -78,14 +79,14 @@ Antes de continuar con la configuración, asegúrese de que se cumplen los sigui
 
 1. **Generar sitio:**
    1. Con el ajuste preestablecido configurado, ahora se puede generar el sitio de AEM para el mapa DITA correspondiente.
-   2. El sitio generado estará disponible en la ruta: /content/aemg-docs/en/docs/product1.
+   2. El sitio generado estará disponible en la ruta: `/content/aemg-docs/en/docs/product1`.
 2. **Cambiar la ruta de acceso de generación predeterminada (opcional):** Si desea cambiar la ruta de acceso predeterminada para la generación de sitios, realice los siguientes pasos:
 
    1. Vaya a **AEM Sites**.
    2. Cree una nueva página de producto en la estructura del sitio OOTB.
    3. Vaya a **Documentos de AEMG** > **Inglés** > **Documentos**.
 
-      ![Crear página en la estructura del sitio de AEM &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
+      ![Crear página en la estructura del sitio de AEM ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
 
    4. Seleccione el mosaico **Página de inicio** y, a continuación, seleccione **Siguiente**.
 
@@ -93,4 +94,3 @@ Antes de continuar con la configuración, asegúrese de que se cumplen los sigui
 
    5. Escriba **Title** y **Name** para la página.
    6. Seleccione **Crear**.
-

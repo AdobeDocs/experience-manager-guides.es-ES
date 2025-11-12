@@ -4,9 +4,9 @@ description: Comprenda cómo el nuevo microservicio permite la publicación esca
 exl-id: 948fce3f-b989-48f0-9a85-e921717e2986
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: a860507b71f25a22aac7c09824f94c4e1a2b0f6b
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,21 @@ Este artículo comparte la información sobre la arquitectura y los números de 
 
 >[!NOTE]
 >
-> La publicación basada en microservicios en AEM Guides admite los tipos de ajustes preestablecidos de salida PDF (tanto nativos como basados en DITA-OT), HTML 5, JSON y PERSONALIZADOS.
+> La publicación basada en microservicios en AEM Guides admite tipos de ajustes preestablecidos de salida de PDF (tanto nativos como basados en DITA-OT), AEM Site (mediante asignación de componentes compuestos), HTML5, JSON y CUSTOM.
 
 ## Problemas con los flujos de trabajo de publicación existentes en la nube
 
-La publicación DITA es un proceso que consume muchos recursos y que depende principalmente de la CPU y la memoria del sistema disponibles. La necesidad de estos recursos aumenta aún más si los editores publican asignaciones grandes con muchos temas o si se activan varias solicitudes de publicación paralelas.
+La publicación DITA es un proceso que consume muchos recursos y que depende principalmente de la memoria del sistema y de CPU disponibles. La necesidad de estos recursos aumenta aún más si los editores publican asignaciones grandes con muchos temas o si se activan varias solicitudes de publicación paralelas.
 
-AEM Si no utiliza el nuevo servicio, todas las publicaciones se realizan en el mismo pod Kubernetes(k8) que también ejecuta el servidor en la nube de. Un pod k8 típico tiene un límite en la cantidad de memoria y CPU que puede usar. Si los usuarios de AEM Guides publican cargas de trabajo grandes o paralelas, este límite puede incumplirse rápidamente. AEM K8 reinicia los pods que están intentando usar más recursos que el límite configurado, lo que puede tener un serio impacto en la propia instancia de la nube de la.
+Si no utiliza el nuevo servicio, todas las publicaciones se realizan en el mismo pod Kubernetes(k8) que también ejecuta el servidor en la nube de AEM. Un pod k8 típico tiene un límite en la cantidad de memoria y CPU que puede usar. Si los usuarios de AEM Guides publican cargas de trabajo grandes o paralelas, este límite puede incumplirse rápidamente. K8 reinicia los pods que intentan usar más recursos que el límite configurado, lo que puede tener un impacto grave en la propia instancia de nube de AEM.
 
 Esta restricción de recursos fue la principal motivación para crear un servicio dedicado que nos pueda permitir ejecutar varias cargas de trabajo de publicación simultáneas y grandes en la nube.
 
+Para obtener más información sobre la publicación de flujos de trabajo en la nube, consulte las [preguntas frecuentes sobre el flujo de trabajo de publicación y la escalabilidad](/help/product-guide/user-guide/publishing-scalability-faq.md).
+
 ## Introducción a la nueva arquitectura
 
-El servicio utiliza soluciones de nube de vanguardia de Adobe como App Builder, IO Eventing e IMS para crear una oferta sin servidor. Estos servicios se basan en los estándares de la industria ampliamente aceptados como Kubernetes y docker.
+El servicio utiliza las soluciones de nube más avanzadas de Adobe, como App Builder, IO Eventing e IMS, para crear una oferta sin servidor. Estos servicios se basan en los estándares de la industria ampliamente aceptados como Kubernetes y docker.
 
 Cada solicitud al nuevo microservicio de publicación se ejecuta en un contenedor de docker aislado que ejecuta solo una solicitud de publicación a la vez. Se crean varios contenedores nuevos automáticamente en caso de que se reciban nuevas solicitudes de publicación. Este contenedor único por configuración de solicitud permite al microservicio ofrecer el mejor rendimiento a los clientes sin introducir riesgos de seguridad. Estos contenedores se descartan una vez finalizada la publicación, lo que libera los recursos no utilizados.
 
@@ -39,7 +41,7 @@ Todas estas comunicaciones están protegidas por Adobe IMS mediante autenticaci�
 
 >[!NOTE]
 >
-> AEM El proceso de publicación ejecuta algunas partes dependientes del contenido de la solicitud en el propio servidor de, como la generación de listas de dependencias. Sin embargo, las partes más exhaustivas del proceso de publicación, como ejecutar DITA-OT o el motor nativo, se han descargado al nuevo servicio.
+> El proceso de publicación ejecuta algunas partes dependientes del contenido de la solicitud en el propio servidor de AEM, como la generación de listas de dependencias. Sin embargo, las partes más exhaustivas del proceso de publicación, como ejecutar DITA-OT o el motor nativo, se han descargado al nuevo servicio.
 
 
 ## Análisis de rendimiento
@@ -58,7 +60,7 @@ Si publica un mapa grande en modo local, es posible que tenga que modificar los 
 
 * On-Prem
 
-  AEM Los resultados de la publicación única son mejores en la arquitectura en la nube antigua o en las instalaciones, ya que la publicación completa se produce en el mismo pod/equipo en el que se ejecuta la publicación en la que se ejecuta la aplicación.
+  Los resultados de la publicación única son mejores en la arquitectura de la nube antigua o en las instalaciones, ya que la publicación completa se produce en el mismo pod/equipo en el que se ejecuta AEM.
 
   <img src="assets/onprem_single_publish.png" alt="pestaña proyectos" width="600">
 
@@ -78,6 +80,6 @@ Si publica un mapa grande en modo local, es posible que tenga que modificar los 
 
 ## Ventajas adicionales
 
-AEM Alguna parte de cada solicitud de publicación debe ejecutarse en la instancia de para recuperar el contenido de publicación correcto y enviarlo al microservicio. AEM AEM La nueva arquitectura de la nube utiliza trabajos en la nube en lugar de flujos de trabajo en la nube, como en el caso de la arquitectura antigua, para crear flujos de trabajo en la nube. Este cambio permite a los administradores de AEM Guides AEM configurar individualmente la cola de publicación en la nube sin afectar a otros trabajos de la aplicación ni a las configuraciones de flujo de trabajo de la administración de flujos de trabajo.
+Alguna parte de cada solicitud de publicación debe ejecutarse en la instancia de AEM para recuperar el contenido de publicación correcto y enviarlo al microservicio. La nueva arquitectura de la nube utiliza trabajos de AEM en lugar de flujos de trabajo de AEM, como ocurría en la arquitectura antigua. Este cambio permite a los administradores de AEM Guides configurar individualmente las colas de publicación en la nube sin afectar a otros trabajos de AEM ni a las configuraciones de flujo de trabajo.
 
 Encontrará detalles sobre cómo configurar el nuevo microservicio de publicación aquí: [Configurar microservicio](configure-microservices.md)

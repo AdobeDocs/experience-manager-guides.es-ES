@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo importar y validar un tema DITA, u
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ee784edcbaef0641784cd1eb18748fc12a4f90bb
+source-git-commit: 64d2f0027c35396a549d11a0186e218dd513b22a
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -45,10 +45,19 @@ Cuando se abre un tema en el Editor, aparece un panel de validación de Schematr
 
 1. Seleccione el icono de Schematron () para abrir el panel de Schematron.
 1. Use **Agregar archivo de Schematron** para agregar archivos de Schematron.
+
+   >[!NOTE]
+   >
+   > Cuando se añade un archivo Schematron no válido, se muestra un mensaje de error en el panel Validación.
+
+   ![](images/schematron-panel-error.png){width="300" align="left"}
+
 1. Si el archivo Schematron no tiene errores, se añade y se enumera en el panel Validación. Se muestra un mensaje de error para el archivo Schematron que contiene errores.
+
    >[!NOTE]
    >
    >Puede utilizar el icono cruzado cerca del nombre del archivo de Schematron para eliminarlo.
+
 1. Seleccione **Validar con Schematron** para validar el tema.
 
    * Si el tema no infringe ninguna regla, se muestra el mensaje de validación correcta para el archivo.

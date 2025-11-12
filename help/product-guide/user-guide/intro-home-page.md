@@ -4,9 +4,9 @@ description: Conozca la página de inicio de Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
+source-git-commit: c2dbf53040abc3e5873fd81050ed7e59c4faaaf0
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '2099'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 La página de inicio es la primera pantalla que ve al iniciar sesión en Experience Manager Guides. Proporciona una experiencia de pantalla de bienvenida unificada e intuitiva, que incluye una vista rápida de los archivos a los que ha accedido recientemente, las colecciones y mucho más.
 
-![](images/aem-home-page.png){align="left"}
+![](images/aem-home-page-new.png){align="left"}
 
 La página de inicio de Experience Manager Guides se divide en las siguientes secciones:
 
@@ -66,9 +66,13 @@ Las funciones disponibles en la barra de navegación se explican de la siguiente
 
 ## Panel izquierdo
 
-El panel izquierdo le permite acceder rápidamente a las funciones Información general, Colecciones de mapas, Publicación masiva, Cola de publicación y Preferencias de usuario. Puede expandir el panel seleccionando el icono **Expandir** ubicado en la esquina inferior izquierda de la interfaz. Una vez expandido, usa el icono **Contraer** para contraer el panel.
+>[!NOTE]
+>
+> El repositorio solo está disponible en el panel izquierdo para la configuración de Cloud Service a partir de la versión 2025.11.0. Para la configuración On-Premise, se sigue accediendo al repositorio desde la interfaz del editor.
 
-![](images/aem-home-left-panel.png){width="300" align="left"}
+El panel izquierdo le permite acceder rápidamente a las funciones Información general, Repositorio, Colecciones de mapas, Publicación en lote, Cola de publicación y Preferencias de usuario. Puede expandir el panel seleccionando el icono **Expandir** ubicado en la esquina inferior izquierda de la interfaz. Una vez expandido, usa el icono **Contraer** para contraer el panel.
+
+![](images/home-with-repository.png){width="300" align="left"}
 
 Lo que vea en este panel depende de la función de usuario que tenga. En la tabla siguiente se enumeran las funciones y las secciones respectivas que se muestran en el panel izquierdo.
 
@@ -80,6 +84,7 @@ Lo que vea en este panel depende de la función de usuario que tenga. En la tabl
 Las funciones disponibles en el panel izquierdo se explican de la siguiente manera:
 
 - [Información general](#overview)
+- [Repositorio](#repository)
 - [Colecciones de mapas](#map-collections)
 - [Publicación masiva](#bulk-publish)
 - [Cola de publicación](#publish-queue)
@@ -151,6 +156,10 @@ Los siguientes widgets están presentes en la sección Widgets:
 >
 > Además, si el administrador ha configurado la integración de Adobe Workfront en el sistema, el widget **Sus tareas** también se muestra en la sección Widgets. Obtenga más información acerca de la [integración de Adobe Workfront](./workfront-integration.md#working-with-the-your-tasks-widget) en Experience Manager Guides.
 
+### Repositorio
+
+El Repositorio sirve como concentrador centralizado para detectar carpetas y archivos con facilidad. Proporciona una vista de lista tabular completa de todos los archivos y carpetas, junto con sus detalles contextuales. A través de esta interfaz unificada, puede examinar archivos sin problemas y realizar búsquedas con opciones de filtrado sólidas, lo que garantiza la eficiencia y una experiencia mejorada. Más información sobre [Repositorio](./home-page-repository-view.md).
+
 ### Asignación de colecciones
 
 Experience Manager Guides permite organizar el contenido para su publicación mediante un tablero denominado **Colecciones de mapas**. Para usar esta característica, seleccione **Colecciones de mapas** en el panel izquierdo. Le lleva a la página Colecciones de mapas en la **interfaz de usuario de Assets**, donde puede [usar la colección de mapas para generar resultados.](./generate-output-use-map-collection-output-generation.md)
@@ -189,4 +198,8 @@ Las preferencias de usuario están disponibles para todos los autores. Con las p
 
    - **Los archivos del editor muestran la configuración**: seleccione la forma predeterminada de ver los archivos en el editor. Puede ver la lista de archivos por títulos o los nombres de archivo desde los distintos paneles de la vista Autor. De forma predeterminada, los archivos se muestran por título en el Editor.
 
-   - **Buscar siempre archivos en el repositorio**: seleccione esta opción para mostrar la ubicación de un archivo en el repositorio mientras lo edita en el Editor.
+   - **Buscar siempre archivos en el explorador**: seleccione esta opción para mostrar la ubicación de un archivo en el repositorio mientras lo edita en el Editor.
+
+  >[!NOTE]
+  >
+  >A partir de la versión 2025.11.0, el nombre de la opción **Buscar siempre los archivos en el repositorio** cambiará a **Buscar siempre los archivos en el explorador**. Para la configuración On-Premise, sigue estando disponible como Localizar siempre archivos en el repositorio hasta la versión 5.1 de Experience Manager Guides.

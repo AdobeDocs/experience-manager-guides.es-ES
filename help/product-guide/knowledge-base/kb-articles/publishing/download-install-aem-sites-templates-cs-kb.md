@@ -4,9 +4,10 @@ description: Obtenga información sobre cómo descargar e instalar plantillas de
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 1cec8975e8aad56184793a023d066aa467d8cec5
+exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
+source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '671'
 ht-degree: 1%
 
 ---
@@ -45,7 +46,7 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
    3. Clone el repositorio en el sistema local utilizando el nombre de usuario y la contraseña proporcionados (genere la contraseña si es necesario).
 2. **Agregar paquete al paquete Maven:**
    1. En el repositorio clonado localmente, cree un nuevo paquete Maven o añádalo a uno existente.
-   2. Asegúrese de que la estructura /jcr_root/apps/fmdita/install exista en el proyecto Maven.
+   2. Asegúrese de que la estructura `/jcr_root/apps/fmdita/` instalada exista en el proyecto Maven.
 
       ![Estructura en el proyecto Maven](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650" align="left"}
 
@@ -55,7 +56,7 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
 3. **Actualizar filtros.xml:**
 
    1. Abra el archivo filters.xml ubicado en la carpeta META-INF del directorio de contenido principal.
-   2. Añada el siguiente filtro: filter root=&quot;/apps/fmdita&quot; mode=&quot;merge&quot;/
+   2. Agregue el siguiente filtro: filter root=`/apps/fmdita` mode=`merge`/
 
 
       ![Agregar filtro](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
@@ -98,14 +99,14 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
 
    1. Seleccione **Sitio** como el creado anteriormente (por ejemplo, el sitio de documentos de AEMG).
    2. Compruebe que la plantilla **Publish path** y **Topic page** esté establecida automáticamente en:
-      - Ruta de publicación: /content/AEMG-Docs-Site/en/docs/product
+      - Ruta de publicación: `/content/AEMG-Docs-Site/en/docs/product`
       - Plantilla de página de tema: Página de tema
 
       ![Use el menú desplegable del sitio para configurar el sitio de AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
 
    **Opción 2: usar la ruta del sitio**
 
-   1. Establezca la **ruta del sitio** manualmente como /content/AEMG-Docs-Site/en/docs/product.
+   1. Establecer la **ruta del sitio** manualmente como `/content/AEMG-Docs-Site/en/docs/product`.
    2. Compruebe que la plantilla **Página de tema** se establezca automáticamente en Página de tema.
 
       ![Use la ruta de acceso del sitio para configurar el sitio de AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
@@ -116,7 +117,7 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
 
 1. **Generar sitio:**
    1. Con el ajuste preestablecido configurado, genere el sitio de AEM para el mapa DITA correspondiente.
-   2. El sitio generado estará disponible en la ruta: /content/AEMG-Docs-Site/en/docs/product.
+   2. El sitio generado estará disponible en la ruta: `/content/AEMG-Docs-Site/en/docs/product`.
 2. **Cambiar la ruta de acceso de generación predeterminada (opcional):** Si desea cambiar la ruta de acceso predeterminada para la generación de sitios, realice los siguientes pasos:
    1. Vaya a **AEM Sites**.
    2. Cree una nueva página de producto en la estructura del sitio OOTB.
@@ -133,4 +134,4 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
 
 >[!NOTE]
 >
-> Asegúrese de que todas las configuraciones se prueben en un entorno que no sea de producción antes de su implementación en producción. <br><br> Consulte la [Implementación en la documentación de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/deploying/overview) para obtener más información.
+> Asegúrese de que todas las configuraciones se prueben en un entorno que no sea de producción antes de su implementación en producción. <br><br> Consulte la [Implementación en la documentación de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview) para obtener más información.

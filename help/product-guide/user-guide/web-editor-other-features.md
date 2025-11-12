@@ -4,9 +4,9 @@ description: Explore otras funciones del editor en Adobe Experience Manager Guid
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: c84a95b4d0b5df5b29d16efa7478bbfdc953bc5b
 workflow-type: tm+mt
-source-wordcount: '2652'
+source-wordcount: '2678'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,11 @@ Para crear una nueva versión del archivo, seleccione **Guardar como nueva versi
 
 - **Mapa**: Si ha abierto un mapa DITA grande y desea encontrar la ubicación exacta de un archivo en el mapa, seleccione **Buscar en \> Mapa**. Al seleccionar la opción Localizar en mapa, el archivo \(desde donde se invoca la opción\) se encuentra y se resalta en la jerarquía del mapa. Para poder utilizar esta función, debe abrir el archivo de asignación en el Editor. Si la vista de mapa está oculta, al invocar esta función se mostrará la vista de mapa y el archivo se resaltará en la jerarquía de mapas.
 
-- **Repositorio**: similar a Localizar en Map, el **Localizar en \> Repositorio** muestra la ubicación del archivo en el repositorio \(o DAM\). La Vista de repositorio se abre y el archivo seleccionado se resalta en el repositorio. Si el archivo se encuentra dentro de una carpeta, esa carpeta se expande para mostrar la ubicación del archivo seleccionado en el repositorio.
+- **Explorador**: similar a Buscar en el mapa, el **Buscar en \> Explorador** muestra la ubicación del archivo en el Explorador \(o DAM\). La Vista del explorador se abre y el archivo seleccionado se resalta en el Explorador. Si el archivo se encuentra en una carpeta, esta se expandirá para mostrar la ubicación del archivo seleccionado en el Explorador.
 
+  >[!NOTE]
+  >
+  >A partir de la versión 2025.11.0, se cambió el nombre de **Repositorio** a **Explorador**. Para la configuración On-Premise, sigue estando disponible como Repositorio hasta la versión 5.1 de Experience Manager Guides.
 
 ***Agregar a***: puede elegir entre las siguientes opciones:
 
@@ -279,4 +282,4 @@ A continuación se mencionan las funciones principales destinadas a mejorar el m
 
 - El mensaje de alerta solo está disponible para archivos DITA y es visible en todas las vistas: Autor, Source y Diseño.
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

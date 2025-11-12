@@ -4,9 +4,9 @@ description: Conozca el panel izquierdo del editor. Obtenga información acerca 
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
+source-git-commit: 565f7b9b8139bfa3e21c91c4b60b6c9757b67429
 workflow-type: tm+mt
-source-wordcount: '9542'
+source-wordcount: '9769'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,13 @@ El panel izquierdo le permite acceder rápidamente a las colecciones, la vista d
 
 >[!NOTE]
 >
-> Se puede cambiar el tamaño del panel izquierdo. Para cambiar el tamaño del panel, coloque el cursor sobre el límite del panel, el cursor cambiará a una flecha de dos puntas, seleccione y arrastre para cambiar el tamaño del ancho del panel.
+>Se puede cambiar el tamaño del panel izquierdo. Para cambiar el tamaño del panel, coloque el cursor sobre el límite del panel, el cursor cambiará a una flecha de dos puntas, seleccione y arrastre para cambiar el tamaño del ancho del panel.
 
 El panel izquierdo le permite acceder a las siguientes funciones:
 
 - [Colecciones](#collections)
 - [Repositorio](#repository)
+- [Explorer](#explorer)
 - [Mapa](#map)
 - [Contenido reutilizable](#reusable-content)
 - [Descripción](#outline)
@@ -118,6 +119,10 @@ También puede realizar muchas acciones utilizando el menú Opciones disponible 
 
 ## Repositorio
 
+>[!NOTE]
+>
+> A partir de la versión 2025.11.0, **el repositorio** del editor quedará obsoleto y será reemplazado por **el explorador** para la configuración de **Cloud Service**. Para la configuración de **On-Premise**, seguirá viendo y utilizando el repositorio a través de la interfaz del editor hasta la versión 5.1 de Experience Manager Guides.
+
 Al seleccionar el icono Repositorio, se obtiene una lista de archivos y carpetas disponibles en DAM. De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón por encima de un archivo, puede ver el título y el nombre del archivo como información sobre herramientas.
 
 >[!NOTE]
@@ -134,7 +139,7 @@ velocidad o vea la imagen en la imagen.
 
 Seleccione un mapa y pulse Intro o haga doble clic para abrirlo en la **vista Mapa**. Para obtener más información, vea la descripción de la característica **Vista de mapa** en el panel izquierdo. Seleccione un tema y presione Intro o haga doble clic para abrirlo en el [área de edición de contenido](./web-editor-content-editing-area.md). La posibilidad de desplazarse por un archivo y abrirlo directamente desde el Editor ahorra tiempo y aumenta la productividad.
 
-**Filtrar la búsqueda en el repositorio**
+## Filtrar la búsqueda en el repositorio
 
 El Editor proporciona filtros mejorados para buscar texto. Puede buscar y filtrar un texto en los archivos presentes en la ruta seleccionada del repositorio de Adobe Experience Manager. Busca en el título, el nombre de archivo y el contenido de los archivos.
 
@@ -155,7 +160,7 @@ Tiene las siguientes opciones para filtrar los archivos y limitar la búsqueda e
 - **Archivos DITA**: Puede buscar todos los **temas DITA** y **mapas DITA** presentes en la ruta seleccionada. Están seleccionadas de forma predeterminada.
 - **Archivos que no son DITA**: puede buscar **archivos Ditaval**, **archivos de imagen**, **multimedia**, **documentos** y **JSON** en la ruta seleccionada.
 
-  ![filtro de búsqueda rápida &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![filtro de búsqueda rápida ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *Utilice los filtros rápidos para buscar archivos DITA y no DITA.*
 
@@ -206,7 +211,7 @@ Esto está sincronizado con el cuadro de búsqueda de la ventana del repositorio
   >
   >Se muestra la lista de archivos filtrados que contienen el texto buscado. Por ejemplo, los archivos que contienen el texto `personal spaceship` se muestran en la captura de pantalla anterior. Puede seleccionar varios archivos de la lista filtrada para arrastrarlos y soltarlos en un mapa abierto para editarlos.
 
-**Menú de opciones**
+### Menú Opciones
 
 Además de abrir archivos desde el panel izquierdo, también puede realizar muchas acciones mediante el menú Opciones disponible en la vista Repositorio. Verá diferentes opciones, dependiendo de si elige una carpeta, un archivo de tema o un archivo multimedia.
 
@@ -427,6 +432,23 @@ Las distintas opciones del menú Opciones se explican a continuación:
 
 - **Generar**: Utilice la opción para publicar un mapa o temas dentro de un mapa en una página de Sites, un fragmento de contenido o un fragmento de experiencia.
 
+## Explorer
+
+>[!NOTE]
+>
+> A partir de la versión 2025.11.0, el término Repositorio en el Editor será reemplazado por **Explorer** para la configuración de Cloud Service. La configuración On-Premise seguirá viendo y accediendo al repositorio en el editor.
+
+El Explorador proporciona la mayoría de las funciones disponibles anteriormente en el Repositorio, entre las que se incluyen:
+
+- Navegación por archivos y carpetas
+- Menú Opciones para archivos y carpetas
+
+Sin embargo, introduce una experiencia de búsqueda y filtrado mejorada, diseñada para mejorar la facilidad de uso y la eficiencia.
+
+Para obtener información detallada sobre el menú contextual de archivos y carpetas, vea [Menú de opciones](#options-menu).
+
+Para obtener información detallada sobre la experiencia de búsqueda, vea [Panel de búsqueda](./search-panel-explorer.md).
+
 ## Mapa
 
 Cuando se selecciona el icono de vista Mapa, se muestra la vista Mapa donde se muestra una lista de temas dentro del fichero de mapa. Si no ha abierto ningún fichero de mapa, la vista Mapa aparecerá en blanco. Al hacer doble clic en cualquier fichero de mapa, se abre el fichero de mapa en esta vista. Puede hacer doble clic en cualquier archivo del mapa para abrirlo en el Editor.
@@ -474,7 +496,7 @@ Puede realizar las siguientes acciones mediante el menú Opciones del archivo de
    - **Copiar UUID**: copie el UUID del archivo de asignación al portapapeles.
    - **Copiar ruta**: copie la ruta completa del archivo de asignación al Portapapeles.
 
-- **Ubicar en el repositorio**: Muestra la ubicación del archivo de asignación en el repositorio \(o DAM\).
+- **Localizar en el explorador**: Muestra la ubicación del archivo de asignación en el explorador\(o DAM\).
 
 - **Agregar a**: puede elegir entre las siguientes opciones:
    - **Colecciones**: agrega el archivo de asignación a las colecciones. Puede elegir agregarlo a una colección existente o nueva.
@@ -531,7 +553,7 @@ Puede realizar las siguientes acciones mediante el menú Opciones:
    - **Copiar ruta**: copie la ruta completa del archivo seleccionado al Portapapeles.
 
 
-- **Buscar en el repositorio**: Muestra la ubicación del archivo seleccionado en el repositorio \(o DAM\).
+- **Buscar en el explorador**: Muestra la ubicación del archivo seleccionado en el explorador \(o DAM\).
 - **Expandir todo**: expanda todos los temas de los archivos de asignación.
 
 - **Contraer todo**: Contraer todos los temas que forman parte del archivo de asignación actual.
@@ -956,26 +978,32 @@ Los fragmentos de código son pequeños fragmentos de contenido que se pueden re
 
 ![](images/snippets-panel_cs.png){align="left"}
 
+**Crear un fragmento**
+
 Para agregar un fragmento de código, utilice cualquiera de los métodos siguientes:
 
-- Seleccione el icono **+** junto a Fragmentos para abrir el cuadro de diálogo **Nuevo fragmento**.
+1. Seleccione el icono **+** junto a Fragmentos para abrir el cuadro de diálogo **Nuevo fragmento**.
 
-  ![](images/snippet-new-dialog.png){width="300" align="left"}
+   ![](images/snippet-new-dialog.png){width="300" align="left"}
 
-  En el cuadro de diálogo Nuevo fragmento de código, proporcione un título que aparezca en el panel Fragmentos de código, una descripción y un código XML del contenido del fragmento de código que desee crear. Seleccione **Crear** para guardar y crear el fragmento.
+   En el cuadro de diálogo Nuevo fragmento de código, escriba un Título que aparezca en el panel Fragmentos de código, una Descripción, seleccione un Formato (DITA o HTML) para el contenido y proporcione un código del contenido del fragmento de código que desee crear. Seleccione **Crear** para guardar y crear el fragmento.
 
-- En el área de edición de contenido, haga clic con el botón secundario en la ruta de exploración del elemento que desee usar como fragmento y elija **Crear fragmento** en el menú contextual. Aparecerá el cuadro de diálogo Nuevo fragmento con el código XML del elemento seleccionado rellenado en el campo **Contenido**. Escriba **Title** y **Description** para el fragmento y seleccione **Create** para guardar el fragmento.
+2. En el área de edición de contenido, haga clic con el botón secundario en la ruta de exploración del elemento que desee usar como fragmento y elija **Crear fragmento** en el menú contextual. Aparecerá el cuadro de diálogo Nuevo fragmento con el código XML del elemento seleccionado rellenado en el campo **Contenido**. Escriba **Title** y **Description** para el fragmento y seleccione **Create** para guardar el fragmento.
 
-- En el área de edición de contenido, haga clic con el botón secundario en cualquier lugar del contenido que desee usar como fragmento y elija **Crear fragmento** en el menú contextual. Aparece el cuadro de diálogo Nuevo fragmento con el código XML del elemento seleccionado rellenado en el campo **Contenido**. Escriba **Title** y **Description** para el fragmento y seleccione **Create** para guardar el fragmento.
+3. En el área de edición de contenido, haga clic con el botón secundario en cualquier lugar del contenido que desee usar como fragmento y elija **Crear fragmento** en el menú contextual. Aparece el cuadro de diálogo Nuevo fragmento con el código XML del elemento seleccionado rellenado en el campo **Contenido**. Escriba **Title** y **Description** para el fragmento y seleccione **Create** para guardar el fragmento.
 
-  La siguiente captura de pantalla resalta la ruta de exploración y el área de contenido desde donde puede invocar el menú contextual.
+   La siguiente captura de pantalla resalta la ruta de exploración y el área de contenido desde donde puede invocar el menú contextual.
 
-  ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
+   ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
 
+**Insertar un fragmento**
 
 Para insertar un fragmento de código, utilice cualquiera de los métodos siguientes:
 
-- Seleccione un fragmento de código del panel Fragmentos de código y arrástrelo y suéltelo en la ubicación deseada del tema.
+- Seleccione un fragmento de código del panel Fragmentos de código y arrástrelo y suéltelo en la ubicación deseada del tema. También puede utilizar las opciones de filtro de la parte superior del panel Fragmentos de código para restringir la vista:
+
+   - **Mostrar todos los fragmentos**: enumera todos los fragmentos disponibles, incluidos los formatos DITA y HTML.
+   - **Mostrar solo los fragmentos aplicables**: filtra la lista para mostrar solo los fragmentos que sean relevantes para el tema o contexto actual. Por ejemplo, si está trabajando en un tema DITA, los fragmentos de HTML se excluirán de la lista para garantizar la precisión contextual.
 
 - Sitúe el punto de inserción donde desee insertar el fragmento de código; en el menú Opciones del fragmento de código requerido, elija Insertar fragmento de código.
 
@@ -1142,4 +1170,4 @@ Para ver los comentarios de revisión de las tareas de revisión activas que est
 
 </details>
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

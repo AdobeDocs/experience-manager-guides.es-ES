@@ -4,24 +4,28 @@ description: Cree un mapa con el Editor de mapas en Experience Manager Guides. B
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 21c45ac9ad32d8590f6ed180816853c24a4fa3dc
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
 
 # Creación de un mapa {#id176FEN0D05Z}
 
+>[!INFO]
+>
+>A partir de la versión 2025.11.0, se cambió el nombre de **Repositorio** a **Explorador**. Para la configuración On-Premise, sigue estando disponible como Repositorio hasta la versión 5.1 de Experience Manager Guides.
+
 Adobe Experience Manager Guides proporciona dos plantillas de mapas integradas: DITA map y Bookmap. También puede crear sus propias plantillas de mapa y compartirlas con sus autores para crear archivos de mapa.
 
 Siga estos pasos para crear una asignación:
 
-1. En el panel Repositorio, seleccione el icono **Nuevo archivo** y, a continuación, seleccione **Mapa DITA** en el menú desplegable.
+1. En el panel Explorador, seleccione el icono **Nuevo archivo** y, a continuación, seleccione **Mapa DITA** en el menú desplegable.
 
    ![](images/create-map-options.png){align="left"}
 
-   También puede acceder a esta opción desde la [página principal de Experience Manager Guides](./intro-home-page.md) y desde el menú de opciones de una carpeta en la vista Repositorio.
+   También puede acceder a esta opción desde la [página principal de Experience Manager Guides](./intro-home-page.md) y desde el menú de opciones de una carpeta en la vista del explorador.
 
 2. Se muestra el cuadro de diálogo **Nuevo mapa**.
 
@@ -29,7 +33,7 @@ Siga estos pasos para crear una asignación:
    - Título del mapa.
    - \(Opcional\)* El nombre de archivo del mapa. El nombre del archivo se sugiere automáticamente en función del tema Título. Si el administrador ha habilitado nombres de archivo automáticos basados en la configuración de UUID, no verá el campo Nombre.
    - Una plantilla en la que se basará el tema. Para un archivo de mapa, las opciones disponibles son **Bookmap**, **Map** y **Esquema del asunto**.
-   - Ruta de acceso donde desea guardar el archivo de asignación. De forma predeterminada, la ruta de la carpeta seleccionada actualmente en el repositorio se muestra en el campo Ruta.
+   - Ruta de acceso donde desea guardar el archivo de asignación. De forma predeterminada, la ruta de la carpeta seleccionada actualmente en el Explorador se muestra en el campo Ruta.
 
    ![](images/new-map-dialog.png){width="300" align="left"}
 
@@ -46,7 +50,7 @@ Además de editar archivos de mapa directamente desde el Editor, también puede 
 
 Realice los siguientes pasos para agregar temas a un archivo de asignación desde la consola Mapa:
 
-1. En la vista Repositorio, desplácese hasta el archivo de asignación que desee editar y ábralo.
+1. En la vista del explorador, desplácese hasta el archivo de asignación que desee editar y ábralo.
 1. Seleccione el icono **Editar**.
 
    ![](images/edit-map-icon.png){width="450" align="left"}
@@ -62,17 +66,17 @@ Realice los siguientes pasos para agregar temas a un archivo de asignación desd
 
    - **C** - \(*Vistas de mapas*\): Permite cambiar el Editor de mapas entre el Diseño, Autor, Source y Vista previa. La vista **Diseño** permite organizar los temas en un mapa DITA. Esto proporciona la vista de árbol o jerárquica del mapa. La vista **Autor** le permite editar los temas en el Editor de mapas. Esto también proporciona la vista de WYSIWYG del archivo de mapa. La vista **Source** le permite trabajar con el XML subyacente del archivo de asignación. La vista previa le ofrece una vista consolidada de todos los temas y subasignaciones dentro del archivo de asignación.
 
-   - **D** - \(*Panel izquierdo*\): otorga acceso al panel izquierdo que le da acceso a las colecciones, repositorio, mapa, esquema y otras características. Puede expandirla o contraerla seleccionando el icono Expandir/Contraer. Para obtener más información acerca de las características disponibles en el panel izquierdo, vea [Panel izquierdo](./web-editor-left-panel.md) en el editor.
+   - **D** - \(*Panel izquierdo*\): otorga acceso al panel izquierdo que le da acceso a las colecciones, el explorador, el mapa, el esquema y otras características. Puede expandirla o contraerla seleccionando el icono Expandir/Contraer. Para obtener más información acerca de las características disponibles en el panel izquierdo, vea [Panel izquierdo](./web-editor-left-panel.md) en el editor.
 
    - **E** - \(*Área central*\): Asignar área de edición de contenido.
 
    - **F** - \(*Panel derecho*\): otorga acceso al panel Propiedades. Puede ver las propiedades de contenido y las propiedades de asignación del tema o mapa seleccionado. Para obtener más información acerca de las funcionalidades disponibles en este panel, vea [Panel derecho](web-editor-right-panel.md) en el editor.
 
-1. En el panel izquierdo, cambie a la vista **Repositorio**.
+1. En el panel izquierdo, cambie a la vista **Explorador**.
 
-1. En el repositorio de Adobe Experience Manager, vaya a la carpeta que contiene los temas o las asignaciones secundarias que desea agregar.
+1. En el Explorador de Adobe Experience Manager, vaya a la carpeta que contiene los temas o las asignaciones secundarias que desea agregar.
 
-1. Seleccione el tema o el archivo de asignación en la vista **Repositorio** y arrástrelo y suéltelo en el área de edición de contenido de asignación \(middle\).
+1. Seleccione el tema o el archivo de asignación en la vista **Explorador** y arrástrelo y suéltelo en el área de edición de contenido de asignación \(middle\).
 
    El tema se añade en el mapa.
 
@@ -136,7 +140,7 @@ Siga estos pasos para crear un mapa desde la interfaz de usuario de Assets:
 
    La información de versión de un mapa recién creado se muestra como *none*. Al guardar una nueva versión, se le asigna un número de versión como 1.0. Para obtener más información acerca de cómo guardar una nueva versión, vea [Guardar como nueva versión](web-editor-features.md#save-as-new-version).
 
-   Puede elegir abrir la asignación para editarla en el editor de asignaciones configurado o guardar el archivo de asignación en el repositorio de Adobe Experience Manager.
+   Puede elegir abrir el mapa para editarlo en el editor de mapas configurado o guardar el archivo de asignación en el Explorador.
 
    >[!NOTE]
    >

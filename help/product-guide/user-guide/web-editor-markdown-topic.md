@@ -4,7 +4,7 @@ description: Crear documentos Markdown desde el editor. Obtenga información sob
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 779be011c078fb3c2fae4fc6a92e3e2d734672b0
+source-git-commit: 639cd235778f31b139889d615f93bde3334e4988
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Markdown es un lenguaje de marcado ligero que puede ayudarle a agregar elementos
 Siga estos pasos para crear un tema de Markdown desde el Editor:
 
 1. En el panel Repositorio, seleccione ![](images/Add_icon.svg) y, a continuación, seleccione **Tema** de la lista desplegable.
-2. En el cuadro de diálogo **Nuevo tema**, proporcione los siguientes detalles:
+1. En el cuadro de diálogo **Nuevo tema**, proporcione los siguientes detalles:
 
    ![](images/create-markdown-dialog.png){width="300" align="left"}
 
@@ -32,7 +32,7 @@ Siga estos pasos para crear un tema de Markdown desde el Editor:
    >[!NOTE]
    >
    > En caso de una actualización, debe agregar la plantilla Markdown al perfil de carpeta actual en uso. Puede [crear una nueva plantilla de markdown desde el Editor](./web-editor-features.md#templates) o usar una plantilla existente para la creación de markdown. Para obtener más información sobre cómo agregar plantillas de creación en Experience Manager Guides, vea [Configurar perfiles globales o de nivel de carpeta](../cs-install-guide/conf-folder-level.md).
-3. Seleccione **Crear**.
+1. Seleccione **Crear**.
 
    El tema Markdown se crea en la ruta seleccionada y está abierto para su edición.
 
@@ -175,4 +175,4 @@ Actualmente, las siguientes funciones de Experience Manager Guides no son aplica
 
 
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

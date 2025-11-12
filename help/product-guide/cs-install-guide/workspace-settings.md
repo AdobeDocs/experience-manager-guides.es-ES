@@ -3,9 +3,9 @@ title: Configuración de Workspace en Experience Manager Guides
 description: Obtenga información acerca de las distintas configuraciones disponibles en la interfaz del editor de Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
+source-git-commit: d838a7d6e576e0f9317ebe8c7a811c3efebe9f72
 workflow-type: tm+mt
-source-wordcount: '2132'
+source-wordcount: '2151'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Esta opción controla los paneles que se muestran en los paneles izquierdo y der
 
 También puede definir el orden en que se muestran las funciones presentes en los paneles. Para cambiar el orden predeterminado de las funciones disponibles en los paneles, seleccione las barras de puntos para arrastrar y soltar las pestañas de funciones en la ubicación deseada. También se puede mover una característica de la sección **Más** a la sección principal de un panel y viceversa según sea necesario. Una vez reordenadas, las funciones aparecen en la misma secuencia en los paneles derecho e izquierdo respectivos.
 
-![](../user-guide/images/panels-screen.png){width="650" align="left"}
+![](../user-guide/images/panels-screen-new.png){width="650" align="left"}
 
 
 Se pueden mostrar un máximo de ocho paneles a la vez. Los cambios realizados en la configuración del panel se aplican inmediatamente.
@@ -188,13 +188,16 @@ Esta pestaña contiene opciones para configurar las validaciones de Schematron e
 
   >[!NOTE]
   >
-  > Los archivos de Schematron seleccionados persistirán para el perfil de carpeta seleccionado.
+  >- Los archivos de Schematron seleccionados persistirán para el perfil de carpeta seleccionado.
+  >- Cuando se añade un archivo de Schematron no válido, se muestra un mensaje de error, como se muestra a continuación.
 
-  ![Validación en la configuración del área de trabajo](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
+  ![Validación en la configuración del área de trabajo](../user-guide/images/editor-setting-validation-error.png){width="550" align="left"}
 
   Esto evita que los usuarios guarden cualquier archivo que rompa una regla definida en los archivos de Schematron seleccionados. Si no se selecciona esta opción, el archivo no se validará antes de guardar los cambios.
 
 - **Permitir que todos los usuarios agreguen archivos de Schematron en el panel de validación**: seleccione esta opción para permitir que los usuarios agreguen cualquier archivo de Schematron en el panel Validación del Editor. Esto permite a los usuarios agregar archivos de Schematron y, a continuación, validar los temas con el archivo de Schematron. Si no se selecciona esta opción, la opción para agregar el botón **Agregar archivo de schematron** no estará disponible para los usuarios en el **panel Validación** del Editor.
+
+  ![Validación en la configuración del área de trabajo](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
 
 
 ## Mostrar atributos

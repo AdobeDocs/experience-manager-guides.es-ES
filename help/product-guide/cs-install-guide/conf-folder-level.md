@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 63e81b6213e293dd6b6e7e46b611b25d8cb6a815
+source-git-commit: 1ea27a0ca99e61049d08f89a0cf5e0584b38edae
 workflow-type: tm+mt
-source-wordcount: '4794'
+source-wordcount: '5127'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Siga estos pasos para configurar el perfil global:
 
 1. Haga clic en el vínculo Adobe Experience Manager en la parte superior y elija **Herramientas**.
 
-1. Seleccione **Guías** de la lista de herramientas y haga clic en **Perfiles de carpeta**.
+1. Seleccione **Guías** de la lista de herramientas y haga clic en el mosaico **Perfiles de carpeta**.
 
    Por primera vez, la página Perfiles de carpeta se muestra únicamente con el mosaico Perfil global.
 
@@ -170,7 +170,7 @@ Ahora está listo para configurar los atributos condicionales, las plantillas, l
 
 >[!IMPORTANT]
 >
-> Al crear un perfil de carpeta, de forma predeterminada no contiene ninguna plantilla. Debe agregar las plantillas necesarias en el perfil de carpeta para que estén disponibles para los autores.
+> Al crear un perfil de carpeta, de forma predeterminada no contiene ninguna plantilla. Debe añadir las plantillas necesarias en el perfil de carpeta para que estén disponibles para los autores.
 
 ## Configurar atributos condicionales para perfiles globales o de nivel de carpeta {#id1889D0I305Z}
 
@@ -411,15 +411,15 @@ Si ha actualizado un ajuste preestablecido de salida existente o desea que un nu
 
 ## Configuración del asistente de IA para la creación y la ayuda inteligentes
 
-Para Experience Manager Guides as a Cloud Service (![nube de AEM &#x200B;](assets/aem-cloud-icon.svg)).
+Para Experience Manager Guides as a Cloud Service (![nube de AEM ](assets/aem-cloud-icon.svg)).
 
-El asistente de IA de Adobe Experience Manager Guides es una potente herramienta impulsada por IA que se ha diseñado para mejorar el contenido mediante la creación inteligente y las experiencias de reutilización de contenido. Agrupa dos características de IA sólidas — **Creación** y **Ayuda** — en la interfaz de Experience Manager Guides, lo que le permite crear documentos y acceder a la información de forma más rápida y eficaz.
+El asistente de IA de Adobe Experience Manager Guides es una potente herramienta impulsada por IA que se ha diseñado para mejorar el contenido mediante la creación inteligente y las experiencias de reutilización de contenido. Reúne dos características de IA sólidas — **Creación** y **Ayuda** — en la interfaz de Experience Manager Guides, lo que le permite autorizar documentos y acceder a información de forma más rápida y eficaz.
 
 Para obtener detalles de configuración, vea [Configuración del Asistente de IA](./conf-smart-suggestions.md).
 
 **Configurar sugerencias inteligentes con tecnología de IA**
 
-Puede configurar las sugerencias inteligentes con tecnología de IA y ayudar a los autores a reutilizar el contenido existente y crear fácilmente referencias de contenido correctas y coherentes. La pestaña **Configuración de IA** le permite controlar la configuración de **Sugerir contenido reutilizable** desde el panel Asistente de IA en el Editor web.
+Puede configurar las sugerencias inteligentes con tecnología de IA y ayudar a los autores a reutilizar el contenido existente y crear fácilmente referencias de contenido correctas y coherentes. La pestaña **Configuración de IA** le permite controlar la configuración de **Sugerir contenido reutilizable** desde el panel Asistente de IA en el Editor.
 
 Realice los siguientes pasos para configurar la IA estándar en el perfil global o de nivel de carpeta:
 1. Inicie sesión en Adobe Experience Manager como administrador o usuario con derechos administrativos en un perfil de nivel de carpeta.
@@ -438,25 +438,68 @@ Realice los siguientes pasos para configurar la IA estándar en el perfil global
 1. Seleccione **Editar**.
 1. Como administrador, puede configurar las siguientes opciones:
 
-   **Caracteres mínimos**: escriba el número mínimo de caracteres que los autores necesitan para obtener las sugerencias. Por ejemplo, si este número es 7, el autor debe agregar al menos 7 caracteres para ver una sugerencia inteligente.
+   **Caracteres mínimos**: escriba el número mínimo de caracteres que los autores deben seleccionar para obtener las sugerencias. Por ejemplo, si este número es 40, el autor debe seleccionar al menos 40 caracteres para ver una sugerencia inteligente.
 
-   **Máximo de sugerencias**: escriba el número máximo de sugerencias que los autores pueden obtener durante la creación del contenido. Por ejemplo, si este número es 5, el autor puede ver cinco sugerencias inteligentes o menos.
+   En el caso de las selecciones que no cumplen los requisitos mínimos de caracteres, se muestra el siguiente mensaje en el panel Asistente de IA:
 
-   **Archivos y carpetas**: seleccione los archivos o carpetas desde los que se deben mostrar las sugerencias inteligentes. *Para mantener la coherencia del contenido, se recomienda que no haya dos entradas en la lista que tengan archivos comunes entre ellas*. Una vez seleccionados los archivos y carpetas, se muestran.
+   ![](assets/smart-suggestions-character-limit.png)
+
+   Sin embargo, para las selecciones generales en las que no hay sugerencias disponibles, se muestra el siguiente mensaje:
+
+   ![](assets/smart-suggestions-select-another-text-message.png)
+
+   Esto ayuda a los autores a comprender si las sugerencias no están disponibles debido a una selección insuficiente de caracteres o a que realmente no hay contenido que coincida.
+
+   **Máximo de sugerencias**: Escriba el número máximo de sugerencias que los autores pueden obtener durante la creación del contenido. Por ejemplo, si este número es 5, el autor puede ver cinco sugerencias inteligentes o menos.
+
+   **Archivos y carpetas**: seleccione las carpetas desde las que se deben mostrar las sugerencias inteligentes. Solo se pueden seleccionar carpetas secundarias de la ruta de carpeta especificada en un perfil de carpeta. Para obtener más información, vea [Restricciones de perfil de carpeta](#folder-profile-restrictions).
+
+   *Para mantener la coherencia del contenido, se recomienda que no haya dos entradas en la lista que tengan archivos comunes entre ellas*. Una vez seleccionados los archivos y carpetas, se muestran.
 
 1. Haga clic en **Guardar**.
 
    >[!NOTE]
    >
-   > Los detalles del último estado indexado se muestran en la parte superior después de guardar el archivo.
+   > El último estado indexado del perfil de carpeta se muestra en la parte superior después de guardar el archivo.
 
 Obtenga más información sobre cómo ver y agregar [sugerencias inteligentes basadas en IA](../user-guide/authoring-ai-based-smart-suggestions.md) para agregar referencias de contenido durante la creación en el Editor web.
 
+### Restricciones de perfil de carpeta
+
+Para garantizar que las sugerencias inteligentes funcionen correctamente, tenga en cuenta los siguientes puntos al indexar carpetas:
+
+1. El contenido debe indexarse mediante perfiles de carpeta para que el asistente de IA proporcione sugerencias inteligentes a los autores.
+2. Al especificar una carpeta para la indexación, solo se pueden añadir las carpetas que se encuentran en el perfil de carpeta actual. Si se intenta agregar carpetas fuera de este perfil de carpetas, se generará un déclencheur de advertencia.
+
+   ![](assets/warning-message-indexing.png)
+
+   Esta restricción se aplica solo a los perfiles de nivel de carpeta. El perfil global no impone limitaciones de ruta y puede indexar carpetas que no se encuentran en ningún otro perfil de carpeta.
+3. Si se agrega una carpeta principal para la indexación, las carpetas secundarias que ya figuren en la lista se eliminan automáticamente para evitar duplicaciones. Si se añade una carpeta secundaria de una carpeta principal ya indexada, también se generará un déclencheur de advertencia.
+
+   ![](assets/parent-child-warning-message-indexing.png)
+4. Cualquier actualización, movimiento o eliminación de archivos en carpetas indizadas déclencheur la reindexación automática o la eliminación del índice.
+5. Para cada intento de indexación, se muestran los siguientes estados de indexación:
+
+   - En curso: indica que la indexación está en curso.
+   - Indexación completada: indica que la indexación ha finalizado correctamente.
+   - Error de indexación: indica que se ha producido un error en la indexación.
+   - No sincronizado: indica que la indexación no está sincronizada, normalmente se observa después de una actualización o migración, cuando no se pudo comprobar el estado de indexación actual. Puede volver a intentar la indexación para actualizar y actualizar el estado.
+
+   Cuando la indexación falla, se le proporcionan las opciones **Ver registros de errores** y **Reintentar la indexación** para solucionar y resolver el problema.
+
+   ![](assets/indexing-failed-options.png)
+
+   Los registros de errores se muestran de la siguiente manera:
+
+   ![texto alternativo](index-error-log.png)
+
+6. Se muestra una marca de tiempo para la última hora de índice para cada perfil de carpeta.
+
 **Personalizar las preguntas predeterminadas para la ayuda inteligente**
 
-Para Experience Manager Guides as a Cloud Service (![nube de AEM &#x200B;](assets/aem-cloud-icon.svg)).
+Para Experience Manager Guides as a Cloud Service (![nube de AEM ](assets/aem-cloud-icon.svg)).
 
-Puede configurar la **Ayuda** inteligente con tecnología de IA para ayudar a los autores a hacer preguntas y encontrar fácilmente el contenido requerido de la [documentación de Experience Manager Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/overview).
+Puede configurar la **Ayuda** inteligente con tecnología de IA para ayudar a los autores a hacer preguntas y encontrar fácilmente el contenido requerido de la [documentación de Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 La ficha **Configuración del editor XML** le permite configurar las preguntas predeterminadas del panel **Ayuda**.
 
@@ -502,13 +545,13 @@ Obtenga más información sobre cómo usar la [Ayuda inteligente con tecnología
 
 ## Configurar y personalizar el Editor XML {#id2065G300O5Z}
 
-De forma predeterminada, el Editor XML incluye muchas características que ayudan a los autores a crear documentos DITA. Si trabaja en un entorno restrictivo, puede elegir qué características se exponen a los autores. La pestaña Configuración del editor XML permite controlar fácilmente las funciones y también cambiar el aspecto del editor. Como administrador, puede personalizar los siguientes componentes del editor:
+De forma predeterminada, el Editor XML incluye muchas características que ayudan a los autores a crear documentos DITA. Si trabaja en un entorno restrictivo, puede elegir qué funciones se exponen a los autores. La pestaña Configuración del editor XML permite controlar fácilmente las funciones y también cambiar el aspecto del editor. Como administrador, puede personalizar los siguientes componentes del editor:
 
 **Configuración de la interfaz de usuario del editor XML**
 
 Esta configuración le permite crear extensiones JSON que reflejen las modificaciones realizadas en el archivo `ui_config.json`. Puede cargar de forma independiente estas extensiones en el nivel de perfil de carpeta, lo que ofrece una mayor flexibilidad y personalización. Por ejemplo, cuando se realizan cambios en la **configuración del editor XML**, como actualizar un botón, el sistema identifica automáticamente las diferencias. Al cargar estos cambios en la **configuración de la interfaz de usuario del editor XML** y convertirlos en extensiones JSON mediante el botón **Convertir configuración de la interfaz de usuario a JSON**, el sistema genera una extensión que incorpora la nueva funcionalidad.
 
-Obtenga más información sobre [personalizar configuraciones de JSON y convertir configuraciones de IU para el nuevo Editor de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Obtenga más información sobre [personalizar configuraciones de JSON y convertir configuraciones de IU para el nuevo Editor de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >
@@ -589,4 +632,4 @@ En el ejemplo anterior, &quot;label1&quot; es el identificador de la secuencia d
 
 **Mapa raíz**
 
-Si los autores trabajan con un mapa raíz específico, puede buscar y seleccionar ese mapa raíz aquí. Tenga en cuenta que solo puede definir el mapa de raíz para un perfil de nivel de carpeta.
+Si sus autores trabajan con un mapa raíz específico, puede buscar y seleccionar ese mapa raíz aquí. Tenga en cuenta que solo puede definir el mapa de raíz para un perfil de nivel de carpeta.
