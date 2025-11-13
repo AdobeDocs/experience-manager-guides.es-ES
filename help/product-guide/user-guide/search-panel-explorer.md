@@ -3,7 +3,7 @@ title: Panel Buscar en la interfaz del editor
 description: Aprenda a utilizar el panel Buscar en la interfaz del editor.
 feature: Authoring
 role: User
-source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
+source-git-commit: 5b4aebce91d6cad7c99bf97e3d6d592ad38fa373
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Se puede acceder al panel Buscar desde los siguientes puntos:
 
   ![](images/search-icon-editor.png){align="left"}
 
-- **Página de inicio**: se usa la opción **Mostrar en el panel de búsqueda** al navegar desde la interfaz del repositorio en la página de inicio. Para ver los detalles, [busque en el repositorio](#search-from-repository-interface-on-the-home-page).
+- **Página de inicio**: se usa la opción **Mostrar en el panel de búsqueda** al navegar desde la interfaz del repositorio en la página de inicio. Para ver los detalles, [busque en el repositorio](#search-from-the-repository-interface-on-the-home-page).
 
   ![](images/search-panel-repo.png){align="left"}
 
