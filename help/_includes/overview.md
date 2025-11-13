@@ -4,16 +4,16 @@ description: Busque vídeos de tutoriales para Experience Manager Guides (anteri
 feature: AEM Guides Tutorials
 role: User
 hide: true
-source-git-commit: b511f12dab6c4980091aabe57446cbbd84d79080
+source-git-commit: 67c4458180ff7e5690bc1ee51fe9e46bce57c9d5
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '220'
 ht-degree: 11%
 
 ---
 
 # Resumen de pruebas
 
-[!DNL Experience Manager Guides] (denominado _[!DNL AEM Guides]_&#x200B;a partir de ahora) es una potente solución de administración de contenido de componentes (CCMS) de nivel empresarial. Permite la compatibilidad nativa con DITA en Experience Manager, lo que permite a AEM gestionar la creación y la entrega de contenido basado en DITA. Permite a los autores crear contenido con cualquier herramienta de creación DITA sin conexión, como Adobe FrameMaker o un editor web integrado fácil de usar.
+[!DNL Experience Manager Guides] (denominado _[!DNL AEM Guides]_a partir de ahora) es una potente solución de administración de contenido de componentes (CCMS) de nivel empresarial. Permite la compatibilidad nativa con DITA en Experience Manager, lo que permite a AEM gestionar la creación y la entrega de contenido basado en DITA. Permite a los autores crear contenido con cualquier herramienta de creación DITA sin conexión, como Adobe FrameMaker o un editor web integrado fácil de usar.
 
 La solución [!DNL AEM Guides] proporciona todas las funciones principales de CCMS, como colaboración, revisión, traducción, búsqueda e informes para contenido DITA, lo que permite a los autores hacer más en menos tiempo mediante una reutilización eficiente del contenido y flujos de trabajo potentes. Además, los usuarios pueden aprovechar su mejor capacidad de publicación de un solo clic para generar resultados basados en DITA para los formatos más populares: Experience Manager Sites, PDF, HTML5, EPUB y salida personalizada a través de DITA-OT.
 
@@ -23,8 +23,3 @@ Con la solución [!DNL AEM Guides], las empresas pueden ofrecer experiencias per
 > 
 > Adobe Experience Manager Guides se había marcado anteriormente como _XML Documentation para Adobe Experience Manager_. Tenga en cuenta que algunas referencias de la documentación pueden seguir haciendo referencia a marcas anteriores, pero siguen siendo aplicables a la oferta actual.
 
-## Recursos adicionales
-
-* [[!DNL AEM Guides] Guía del usuario (nueva interfaz de usuario)](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/overview)
-* [[!DNL AEM Guides] Información y asistencia](https://helpx.adobe.com/es/support/xml-documentation-for-experience-manager.html)
-* [Experience League - Explorar AEM](https://business.adobe.com/es/products/experience-manager/adobe-experience-manager.html?lang=es)

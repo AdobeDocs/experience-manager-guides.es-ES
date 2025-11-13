@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
-source-git-commit: b511f12dab6c4980091aabe57446cbbd84d79080
+source-git-commit: 67c4458180ff7e5690bc1ee51fe9e46bce57c9d5
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 Cuando se trabaja en varias versiones simultáneas junto con varios autores, el contenido está destinado a tener varias versiones. Podría haber información común en varias versiones que distintos autores podrían utilizar en su proyecto. Para gestionar estas asignaciones de trabajo, los autores podrían terminar con varias versiones de los archivos. Estas versiones podrían ser simplemente una versión más reciente de un archivo o una versión anterior. Identificar cuándo se revirtió un archivo y por qué es una tarea compleja.
 
 AEM Guides permite generar un informe del historial de versiones para un archivo individual o para todos los archivos de una carpeta. Este historial de versiones le proporciona una vista consolidada de todas las versiones de un archivo que se revirtieron y quién creó esas versiones y el motivo para crearlas.
+
+{{$include /help/_includes/overview.md}}
 
 Puede acceder a este informe desde los siguientes lugares:
 
@@ -57,6 +59,6 @@ Siga estos pasos para acceder al informe Revertir historial:
 
    - **Comentario**: Cualquier comentario dado por el usuario que revirtió el archivo.
 
-{{$include /help/_includes/overview.md}}
 
-**Tema principal:**&#x200B;[&#x200B; Informes](reports-intro.md)
+
+**Tema principal:**[ Informes](reports-intro.md)
