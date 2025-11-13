@@ -59,4 +59,4 @@ Siga estos pasos para acceder al informe Revertir historial:
 
 {{test}}
 
-**Tema principal:**[ Informes](reports-intro.md)
+**Tema principal:**&#x200B;[&#x200B; Informes](reports-intro.md)
