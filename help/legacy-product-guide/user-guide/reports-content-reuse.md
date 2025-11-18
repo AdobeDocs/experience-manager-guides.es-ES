@@ -5,14 +5,31 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: 6261e1aa1966a81830fe8e5cf14337c8be4f81cb
+source-git-commit: f867f2deceddf46b5242163c6ea0b4cc1c4f1ca2
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
 
 # Informe de reutilización de contenido {#id205BB900OQD}
+
+<table style="border-collapse: collapse;">
+  <tr>
+    <td style="width:150px; white-space: nowrap;">Se aplica a:</td>
+    <td style="width:500px; white-space: nowrap;">Experience Manager Guides as a Cloud Service, Experience Manager Guides local</td>
+  </tr>
+  <tr>
+    <td style="width:150px; white-space: nowrap;">Versión:</td>
+    <td style="width:500px; white-space: nowrap;">2025.11.0, 2025.12.0</td>
+  </tr>
+  <tr>
+    <td style="width:150px; white-space: nowrap;">Versión:</td>
+    <td style="width:500px; white-space: nowrap;">4.6.0, 5.1.0</td>
+  </tr>
+</table>
+
+![](./images/test-version-info-table.svg)
 
 Otro informe útil que puede generar es el Informe de reutilización de contenido. Este informe calcula el porcentaje promedio de uso de contenido, lo que resulta muy útil para que los jefes de proyecto y los propietarios de empresa vean la cantidad de contenido que se está reutilizando.
 
@@ -63,4 +80,4 @@ Siga estos pasos para ver el informe de reutilización de contenido:
 >
 > También puede exportar el informe de reutilización de contenido en formato CSV. Para ello, haga clic en el vínculo Export a CSV en la esquina superior izquierda de la pantalla y seleccione una ubicación para guardar el archivo CSV. A continuación, puede abrir este archivo CSV en cualquier editor CSV.
 
-**Tema principal:**&#x200B;[&#x200B; Informes](reports-intro.md)
+**Tema principal:**[ Informes](reports-intro.md)
