@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: e1b332b100cc8e3937557e4617d66352c1a0dc3c
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2418'
 ht-degree: 9%
 
 ---
@@ -162,14 +162,14 @@ ht-degree: 9%
                - [Notas de la versión 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notas de la versión 4.2](./release-info/release-notes-4-2.md)
          - [Notas de la versión 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notas de la versión 4.0.x](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notas de la versión 3.8.x](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notas de la versión 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notas de la versión 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guía del usuario (nueva interfaz de usuario) {#user-guide}
    - Introducción {#about-aemg}
       - [Acerca de  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] funciones clave y de trabajo {#aemg-works-features}
-         - [Cómo funciona [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-         - [Características clave  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Cómo funciona [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+         - [Características clave  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Página de inicio {#home-page}
       - [Experiencia de la página de inicio [!DNL AEM Guides]](./user-guide/intro-home-page.md)
       - [Interfaz de repositorio](./user-guide/home-page-repository-view.md)
@@ -364,7 +364,7 @@ ht-degree: 9%
       - Resolución de problemas {#troubleshooting}
          - [Session timeout](./user-guide/session-timeout-prompt.md)
 - Guía del usuario (IU antigua) {#user-guide-old-ui}
-   - [Información general de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Información general de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalación y configuración {#install-guide}
    - On-Premise {#on-prem-ig}
       - [Conceptos básicos locales](./install-guide/introduction.md)
@@ -390,7 +390,6 @@ ht-degree: 9%
          - [Migración de contenido no DITA](./install-guide/migrate-content-non-dita.md)
       - Trabajo con DITA-OT y especialización personalizadas {#custom-dita-ot-spec}
          - [Utilizar la especialización personalizada DITA-OT y DITA](./install-guide/dita-ot-specialization.md)
-      - Configurar nombres de archivo basados en UUID y no en UUID {#conf-non-uuid-filename}
       - [Configuración del posprocesamiento para una carpeta](./install-guide/conf-folder-post-processing.md)
       - [Configurar nombres de archivo](./install-guide/conf-file-names.md)
       - [Configurar nombres de archivo automáticos basados en UUID](./install-guide/conf-auto-uuid-filenames.md)
@@ -453,7 +452,6 @@ ht-degree: 9%
                - [Aplicar estilos a las notas al pie](./native-pdf/footnote-number-style.md)
          - [Configuración de indicadores JVM para la publicación nativa de PDF](./native-pdf/configure-jvm-flags.md)
          - [Configurar la ubicación de salida base para publicar la salida](./native-pdf/configure-base-output-location.md)
-         - Trabajo con flujos de trabajo personalizados {#custom-workflow}
          - [Configuración y personalización de flujos de trabajo](./install-guide/customize-workflows.md)
       - Trabajo con configuraciones de traducción {#translate-config}
          - [Traducir contenido](./install-guide/translation.md)
