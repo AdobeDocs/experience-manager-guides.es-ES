@@ -25,24 +25,24 @@ Con la solución [!DNL AEM Guides], las empresas pueden ofrecer experiencias per
 
 ## Novedades
 
-- **[[!DNL Experience Manager Guides] Curso de introducción](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}**
+- **[[!DNL Experience Manager Guides] Curso de introducción](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html?lang=es){target="blank"}**
 
   _Aprenda a crear, organizar y publicar contenido con [!DNL Adobe Experience Manager Guides]._
 
-- **[[!DNL Experience Manager Guides] Creación en el editor integrado](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
+- **[[!DNL Experience Manager Guides] Creación en el editor integrado](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=es){target="blank"}**
 
   _Aprenda a crear contenido con el editor web nativo en [!DNL Adobe Experience Manager Guides]. Obtenga una comprensión completa de las preferencias de usuario, la configuración del editor, las barras de herramientas y mucho más._
 
-- **[Generación de resultados con [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**
+- **[Generación de resultados con [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html?lang=es){target="blank"}**
 
   _Obtenga información sobre cómo generar resultados usando [!DNL Adobe Experience Manager Guides]. Obtenga información acerca de las diversas características disponibles para la generación de resultados: informes, líneas de base, condiciones, solución de problemas, publicación en lotes y activación._
 
 
 ## Recursos adicionales
 
-- [[!DNL Experience Manager Guides] Guía del usuario (IU antigua)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-- [[!DNL AEM Guides] Información y asistencia](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
-- [Experience League - Explorar AEM](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html?lang=es)
+- [[!DNL Experience Manager Guides] Guía del usuario (IU antigua)](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+- [[!DNL AEM Guides] Información y asistencia](https://helpx.adobe.com/es/support/xml-documentation-for-experience-manager.html)
+- [Experience League - Explorar AEM](https://business.adobe.com/es/products/experience-manager/adobe-experience-manager.html?lang=es)
 
 
 
