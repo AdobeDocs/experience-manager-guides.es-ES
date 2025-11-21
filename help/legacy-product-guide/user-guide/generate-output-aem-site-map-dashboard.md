@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 41c0d4d5-5c46-4d2b-90b3-8c441fee8e99
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -115,4 +115,4 @@ Puede buscar una cadena en la salida de AEM Sites. De forma predeterminada, solo
 
 Para obtener más información, consulte la sección *Configuración del acoplamiento de la estructura del nodo del sitio de AEM* en la guía Instalar y configurar Adobe Experience Manager Guides.
 
-**Tema principal:**&#x200B;[&#x200B; Explicación de los ajustes preestablecidos de salida](generate-output-understand-presets.md)
+**Tema principal:**[ Explicación de los ajustes preestablecidos de salida](generate-output-understand-presets.md)

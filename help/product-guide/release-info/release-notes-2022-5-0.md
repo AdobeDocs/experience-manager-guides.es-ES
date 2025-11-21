@@ -1,24 +1,24 @@
 ---
 title: Notas de versión | Adobe Experience Manager Guides as a Cloud Service, versión de mayo de 2022
-description: Lanzamiento de Adobe Experience Manager Guides as a Cloud Service en mayo
+description: Lanzamiento de mayo de Adobe Experience Manager Guides as a Cloud Service
 exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
 
 ---
 
-# Lanzamiento de Adobe Experience Manager Guides as a Cloud Service en mayo
+# Lanzamiento de mayo de Adobe Experience Manager Guides as a Cloud Service
 
 ## Actualización a la versión de mayo
 
-Actualice la configuración actual del as a Cloud Service de Adobe Experience Manager Guides (más adelante denominado *AEM Guides as a Cloud Service*) realizando los siguientes pasos:
-1. Consulte el código Git de los Cloud Service y cambie a la rama configurada en la canalización de Cloud Service correspondiente al entorno que desee actualizar.
-1. Actualice la propiedad `<dox.version>` en el archivo `/dox/dox.installer/pom.xml` de su código Git de Cloud Service a 2022.5.144.
-1. Confirme los cambios y ejecute la canalización de Cloud Service para actualizar a la versión de mayo de AEM Guides as a Cloud Service.
+Actualice la configuración actual de Adobe Experience Manager Guides as a Cloud Service (más adelante denominada *AEM Guides as a Cloud Service*) siguiendo estos pasos:
+1. Consulte el código Git de Cloud Services y cambie a la rama configurada en la canalización de Cloud Services correspondiente al entorno que desea actualizar.
+1. Actualice la propiedad `<dox.version>` en el archivo `/dox/dox.installer/pom.xml` de su código Git de Cloud Services a 2022.5.144.
+1. Confirme los cambios y ejecute la canalización de Cloud Services para actualizar a la versión de mayo de AEM Guides as a Cloud Service.
 
 ## Matriz de compatibilidad
 
@@ -31,7 +31,7 @@ Esta sección enumera la matriz de compatibilidad para las aplicaciones de softw
 | No compatible | Actualización 4 de 2020 y posterior |
 | | |
 
-AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir de 2020.2 son compatibles con las versiones de FMPS.
+*Las condiciones y de línea de base creadas en AEM son compatibles con las versiones de FMPS a partir de 2020.2.
 
 ### Conector de oxígeno
 
@@ -43,7 +43,7 @@ AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir
 
 ## Nuevas funciones y mejoras
 
-AEM Guides as a Cloud Service ofrece muchas mejoras y nuevas funciones en la versión de mayo:
+AEM Guides as a Cloud Service proporciona muchas mejoras y nuevas funciones en la versión de mayo:
 
 ### Editor web mejorado
 
@@ -88,28 +88,28 @@ Si necesita crear solamente el ámbito para traducir un proyecto, puede seleccio
 
 * Al cargar un mapa DITA fuera de la carpeta de idioma, no se registra ninguna excepción en el servidor.
 
-Para obtener más información sobre la traducción, consulte *Traducir documentos desde el editor web* en Uso de Adobe Experience Manager Guides as a Cloud Service.
+Para obtener más información sobre la traducción, consulte *Traducir documentos del editor web* en Uso de Adobe Experience Manager Guides as a Cloud Service.
 
 
 ### Publicación mejorada
 
-* También puede acceder al **Tablero de Publish** desde la pestaña Salidas mientras genera resultados desde el tablero de asignaciones. Hay disponible una lista de todas las tareas de publicación activas en el panel de Publish.
+* También puede acceder a **Tablero de publicación** desde la pestaña Salidas mientras genera resultados desde el tablero de asignaciones. En el tablero de publicación hay disponible una lista de todas las tareas de publicación activas.
 
 ![salidas en cola](assets/queued-output.png)
 
-* Desde el panel de mapas puede seleccionar varios archivos DITAVAL para generar contenido condicionado. Puede mantener el orden de los archivos añadiendo o eliminando archivos. AEM También puede pasar el ratón sobre el nombre del archivo para ver la ruta en el repositorio de donde se almacena el archivo.
+* Desde el panel de mapas puede seleccionar varios archivos DITAVAL para generar contenido condicionado. Puede mantener el orden de los archivos añadiendo o eliminando archivos. También puede pasar el ratón sobre el nombre del archivo para ver la ruta en el repositorio de AEM donde está almacenado el archivo.
 
 * **Función obsoleta**
-AEM as a Cloud Service ya no admite la generación del formato de salida DITA para documentos de FrameMaker. Esta opción DITA también se ha eliminado de los ajustes preestablecidos de salida del tablero de mandos Mapa.
+AEM as a Cloud Service ya no admite la generación del formato de salida DITA para documentos FrameMaker. Esta opción DITA también se ha eliminado de los ajustes preestablecidos de salida del tablero de mandos Mapa.
 
 ### Publicación basada en artículos mejorada
 
-El Editor XML proporciona la capacidad de asignar más de una categoría de producto a un artículo mientras se publica en un perfil de Salesforce.
+El Editor XML permite asignar más de una categoría de producto a un artículo mientras se publica en un perfil de Salesforce.
 
 ### Otras mejoras de las funciones
 
 * El modo de vista previa también admite el atributo de procesamiento condicional `deliveryTarget` en DITA. Está disponible como opción en el filtro desplegable junto con **audiencia**, **plataforma**, **producto**, props y **otras props**.
-* AEM Se ha proporcionado la opción de sincronizar a la fuerza entre el servidor de en Oxygen y el sistema local.
+* Se ha proporcionado la opción de sincronizar a la fuerza el servidor de AEM en Oxygen y el sistema local.
 
 ## Problemas solucionados
 
@@ -119,7 +119,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * La aplicación se queda en blanco al hacer clic en una carpeta en blanco después de actualizarla mediante el menú Opciones. (9639)
 * Se está creando una nueva versión al **guardar y cerrar** el archivo protegido. (9638)
 * El botón Cerrar no se muestra cuando la casilla de verificación **Guardar como nueva versión** está habilitada. (9637)
-* El PDF correcto no se publica si primero se publica mediante un PDF independiente para cada capítulo y, a continuación, un solo archivo de PDF (la opción Crear archivos de PDF independientes está desactivada). (9632)
+* La PDF correcta no se publica si se publica primero mediante una PDF independiente para cada capítulo y, a continuación, un solo archivo PDF (la opción Crear archivos PDF independientes está desactivada). (9632)
 * El panel de mapas está generando un problema de metadatos para los usuarios no administradores. (9620)
 * Una vez creada una línea de base, el estado se establece en failed en la interfaz de usuario (la llamada de obtener estado falla) si el servidor tiene más de 10000 archivos. (9608)
 * El almacenamiento de datos grandes en propiedades provoca un error de publicación, ya que el flujo de trabajo de publicación dividido falla. (9586)
@@ -138,8 +138,8 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * En el Historial de versiones, el número de versión y la etiqueta no se muestran para la versión actual. (9446)
 * El editor se bloquea cuando se abren ciertos archivos de contenido en el editor. (9443)
 * Buscar en el panel Repositorio y el cuadro de diálogo de exploración de referencias de tema congela la pantalla cuando el contenido es grande. (9432)
-* AEM Los metadatos pasados a la salida del sitio de la no respetan la línea de base del contenido. (9416)
-* AEM Oxygen comprueba una versión incorrecta de un tema después de que una versión vuelva a estar en la versión de la versión de la versión de la versión de la versión de la versión de la versión de la. (9411)
+* Los metadatos pasados a la salida del sitio de AEM no respetan la línea de base del contenido. (9416)
+* Oxygen comprueba una versión incorrecta de un tema después de revertir una versión en AEM. (9411)
 * La línea de base con error deshabilita la edición en la pestaña Ajuste preestablecido del panel de asignaciones. (9403)
 * El error siempre se registra al crear contenido nuevo. (9388)
 * Los recursos DITA recién creados siempre los extrae otro usuario. (9387)
@@ -152,7 +152,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * No se pueden buscar archivos usando **Buscar archivos en la carpeta** desde el menú **Más opciones** y la aplicación deja de responder. (9337)
 * El cuadro de diálogo Examinar se bloquea si hay un gran número de claves. (9332)
 * Los archivos DITAVAL no funcionan mientras se realiza la publicación basada en artículos. (9330)
-* AEM El orden de las notas al pie es incorrecto en la salida del sitio de la. (9327)
+* El orden de las notas al pie es incorrecto en la salida del sitio de AEM. (9327)
 * La búsqueda no se realiza automáticamente cuando se cambia la ruta de selección. (9323)
 * Cuando se realiza la traducción, se crea una versión adicional para el recurso traducido. (9310)
 * No se pueden eliminar los usuarios administradores en el perfil de carpeta. (9306)
@@ -169,7 +169,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * `xref` sin texto no se mostrará en la salida de publicación basada en artículos. (8764)
 * Las referencias se rompen al mover imágenes o archivos multimedia que tienen un espacio en los nombres de archivo. (8624)
 * Las referencias se rompen al elegir `Select All` y mover los archivos multimedia o el contenido DITA a otra carpeta. (8622)
-* Los trabajos de salida con un estado como &quot;Esperando&quot; o &quot;Ejecutando&quot; no se limpian en el panel de Publish.  (8569)
+* Los trabajos de salida con un estado como &quot;Esperando&quot; o &quot;Ejecutando&quot; no se limpian en el panel de publicación.  (8569)
 * La función de depuración de salida falla si hay un gran número de nodos de historial de salida restantes presentes. (8568)
 * El paquete DITA Add on evita la detección de recursos duplicados DAM. (8417)
 * Botón Crear tarea de revisión habilitado para archivos que no son DITA. (8401)
@@ -177,14 +177,14 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * Se encontró espacio inesperado en cada elemento `entry` vacío cuando se agrega el atributo outputclass al elemento `tgroup`. (7532)
 * El panel Repositorio no muestra los iconos de bloqueo de archivos protegidos o desprotegidos en cuanto se completa la acción. (5817)
 * El icono de bloqueo se muestra en la vista del repositorio incluso cuando el archivo se registra desde el editor.  (5756)
-* AEM Faltan sitios en los ajustes preestablecidos de la interfaz de usuario en la pestaña Salida. (9567)
+* Faltan sitios en los ajustes preestablecidos de AEM en la pestaña Salida. (9567)
 * El Editor XML se bloquea al intentar editar algunos archivos DITA. (9537)
 * Al realizar una búsqueda en el Editor XML, la página se bloquea. (9452)
 * Descargar mapa con línea de base no funciona si el contenido se mueve a otra carpeta. (9331)
-* AEM La recarga falla en Oxygen cuando el archivo o los archivos ya existen en la misma ubicación en la que se encuentran en la misma ubicación. (9328)
+* La recarga falla en Oxygen cuando los archivos ya existen en AEM en la misma ubicación. (9328)
 * La posición del resaltado es incorrecta en la vista en paralelo. (9305)
-* AEM Después de registrar un documento de Oxygen en el que se ha realizado el registro, el contenido en japonés del documento se reemplaza por signos de interrogación (???). (9276)
-* AEM La carga de archivos de Oxygen a la red de distribución de archivos falla. (9157)
+* Después de registrar un documento de Oxygen a AEM, el contenido japonés del documento se reemplaza por signos de interrogación (???). (9276)
+* La carga de archivos de Oxygen a AEM falla. (9157)
 * No se envía una notificación por correo electrónico cuando se reasigna una tarea de revisión en la bandeja de entrada. (8376)
 
 ## Problemas conocidos

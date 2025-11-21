@@ -4,7 +4,7 @@ description: Uso de Schematron en el editor web
 exl-id: 3e61432f-d81e-446e-b0ad-560f5b9fa91a
 feature: Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Más allá de la compatibilidad con las reglas DITA, el editor web también admi
 
 &quot;*Schematron*&quot; hace referencia a un lenguaje de validación basado en reglas que se usa para definir pruebas para un archivo XML. Puede importar los archivos de Schematron y también editarlos en el Editor Web. Con un fichero &quot;Schematron&quot; se pueden definir determinadas reglas y, a continuación, validarlas para un tema DITA o un mapa. Las reglas de Schematron pueden garantizar la coherencia de la estructura XML mediante la imposición de restricciones definidas como reglas. Estas restricciones están impulsadas por PYME que son propietarias de la calidad y coherencia del contenido.
 
-    NOTA: el editor web admite el Esquemas ISO.
+NOTA: El editor web es compatible con ISO Schematron.
 
 
 ## Saber cómo funciona &quot;Schematron&quot; en el editor web
@@ -41,7 +41,7 @@ La configuración de Editor web permite a los usuarios avanzados configurar las 
 
 Sí, como autor/usuario mientras crea contenido, puede utilizar el panel Schematron en el editor web para cargar un archivo schematron y ejecutar validaciones en el archivo abierto en el editor.
 
-    Para que esto funcione, el administrador de perfiles de carpeta debe permitir que todos los usuarios agreguen archivos Schemtron en el panel Validación. Consulte la configuración del editor (captura de pantalla anterior)
+Para que esto funcione, el administrador de perfiles de carpeta debe permitir que todos los usuarios agreguen archivos Schemtron en el panel Validación. Consulte la configuración del editor (captura de pantalla anterior)
 
 ![Elegir archivo de Schematron](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
 ![Ejecutar validación](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)

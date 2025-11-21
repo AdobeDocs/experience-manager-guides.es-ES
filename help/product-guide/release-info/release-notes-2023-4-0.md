@@ -4,9 +4,9 @@ description: Lanzamiento de Adobe Experience Manager Guides as a Cloud Service e
 exl-id: fa339eab-d3d0-4763-adbf-6411e39aa213
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,17 @@ Para obtener más información sobre las nuevas características y mejoras, cons
 
 ## Actualización a la versión de abril de 2023
 
-Actualice la configuración as a Cloud Service de AEM Guides actual realizando los siguientes pasos:
+Actualice la configuración actual de AEM Guides as a Cloud Service realizando los siguientes pasos:
 
-1. Consulte el código Git de los Cloud Service y cambie a la rama configurada en la canalización de Cloud Service correspondiente al entorno que desea actualizar.
-2. Actualice la propiedad `<dox.version>` en el archivo `/dox/dox.installer/pom.xml` de su código Git de Cloud Service a 2023.4.249.
-3. Confirme los cambios y ejecute la canalización de Cloud Service para actualizar a la versión de abril de 2023 de AEM Guides as a Cloud Service.
+1. Consulte el código Git de Cloud Services y cambie a la rama configurada en la canalización de Cloud Services correspondiente al entorno que desea actualizar.
+2. Actualice la propiedad `<dox.version>` en el archivo `/dox/dox.installer/pom.xml` de su código Git de Cloud Services a 2023.4.249.
+3. Confirme los cambios y ejecute la canalización de Cloud Services para actualizar a la versión de abril de 2023 de AEM Guides as a Cloud Service.
 
-## Pasos para indexar el contenido existente (solo si está en una versión anterior a la versión de septiembre de AEM Guides as a Cloud Service)
+## Pasos para indexar el contenido existente (solo si tiene una versión anterior a la versión de septiembre de AEM Guides as a Cloud Service)
 
 Realice los siguientes pasos para indexar el contenido existente y utilizar el nuevo texto de buscar y reemplazar en el nivel de asignación:
 
-* Ejecute una solicitud de POST al servidor (con la autenticación correcta): `http://<server:port>/bin/guides/map-find/indexing`.
+* Ejecute una petición POST en el servidor (con la autenticación correcta): `http://<server:port>/bin/guides/map-find/indexing`.
 (Opcional: puede pasar rutas específicas de los mapas para indexarlas, de forma predeterminada se indexarán todas las asignaciones || Ejemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
@@ -54,7 +54,7 @@ Esta sección enumera la matriz de compatibilidad para las aplicaciones de softw
 | Versión de AEM Guides as a Cloud | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2023.04.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 
@@ -69,11 +69,11 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * Agregar contenido en una línea con Control de cambios activado y, a continuación, desactivar Control de cambios no lo desactiva. (11567)
 * Dificultad para arrastrar y soltar un elemento de lista; el texto se mueve en lugar del elemento de lista. (11566)
 * La revisión completada no se abre en modo de solo lectura. (11387)
-* AEM El problema se produce en la búsqueda del sitio de la (no funciona más allá de 2-3 nodos de nivel). (11352)
+* El problema se produce en la búsqueda del sitio de AEM (no funciona más allá de 2-3 nodos de nivel). (11352)
 * Al crear el elemento mostrado en verde (Control de cambios), el nuevo contenido se muestra como control de cambios aunque el control de cambios esté desactivado. (7021)
 
 ### Problema conocido con la solución
 
-El Adobe ha identificado el siguiente problema conocido para la versión de abril de 2023 de AEM Guides as a Cloud Service.
+Adobe ha identificado el siguiente problema conocido de la versión de abril de 2023 de AEM Guides as a Cloud Service.
 
 * PDF nativo | Los metadatos antiguos no se rellenan hasta que se abre explícitamente el ajuste preestablecido de salida.

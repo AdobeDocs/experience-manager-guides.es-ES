@@ -4,9 +4,9 @@ description: Obtenga información acerca de las correcciones de errores y cómo 
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
 feature: Release Notes
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1085'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Puede actualizar su versión actual de AEM Guides a la versión 4.3.0
 
 >[!NOTE]
 >
->AEM Debe instalar el paquete de servicio de antes de actualizar la versión de AEM Guides.
+>Debe instalar AEM Service Pack antes de actualizar la versión de AEM Guides.
 
 Para obtener más información, consulte [Instrucciones de actualización](../install-guide/upgrade-xml-documentation.md).
 
@@ -57,9 +57,9 @@ Para obtener más información, consulte la sección *Requisitos técnicos* en l
 | --- | --- | --- | --- | --- |
 | 4.3.0 (no UUID) | 2022 o superior | 2020.2 o superior* | 2022 o superior | 2020.3 o superior |
 | 4.3.0 (UUID) | 2022 o superior | 2020.2 o superior* | 2022 o superior | 2020.4 o superior |
-| | | | |
+| | | | | |
 
-AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir de 2020.2 son compatibles con las versiones de FMPS.
+*Las condiciones y de línea de base creadas en AEM son compatibles con las versiones de FMPS a partir de 2020.2.
 
 ### Conector de oxígeno
 
@@ -67,7 +67,7 @@ AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir
 | --- | --- | --- |--- |--- |
 | 4.3.0 (no UUID) | 2.3-regular-5 | 2.3-regular-5 | 1,6 | 1,6 |
 | 4.3.0 (UUID) | 3.0-uuid-4 | 3.0-uuid-3 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 ## Problemas solucionados
 
@@ -111,28 +111,28 @@ A continuación se enumeran los errores corregidos en varias áreas:
 
 ### Publicación
 
-- La publicación falla al cambiar el nombre de un ajuste preestablecido de PDF nativo. (12564)
-- Al duplicar una plantilla de PDF nativa, se duplica la ubicación de plantilla predeterminada en lugar de la ubicación de plantilla personalizada proporcionada. (12563)
+- La publicación falla al cambiar el nombre de un ajuste preestablecido nativo de PDF. (12564)
+- Al duplicar una plantilla de PDF nativa, se duplica la ubicación de la plantilla predeterminada en lugar de la ubicación de la plantilla personalizada proporcionada. (12563)
 - PDF nativo | Los metadatos de idioma no se pueden establecer en el PDF generado para cumplir con WCAG 2.0. (12407)
-- AEM La publicación en el sitio de falla al leer archivos temporales del pod que pueden haberse actualizado o reiniciado. (12113)
-- PDF nativo | Los atributos personalizados no se propagan al HTML temporal o al motor de PDF. (DXML-12005)
+- La publicación en el sitio de AEM falla al leer archivos temporales del pod que pueden haberse actualizado o reiniciado. (12113)
+- PDF nativo | Los atributos personalizados no se propagan al motor temporal HTML o PDF. (DXML-12005)
 - PDF nativo |  Java OutOfMemoryError se produce al publicar contenido grande. (11789)
 - PDF nativo | Xref está imprimiendo el contenido del título del tema href en lugar de la etiqueta Xref. (11322)
-- PDF nativo | No se puede guardar la configuración de la plantilla del PDF. (10751)
+- PDF nativo | No se puede guardar la configuración de la plantilla de PDF. (10751)
 - PDF nativo | El texto se extiende más allá del ancho de la columna al incluir varias referencias x. (10876)
-- PDF nativo | El elemento `<note>` `</note>` no genera un título de espacio adicional de su tipo. (10549)
+- PDF nativo | El elemento `<note>``</note>` no genera un título de espacio adicional de su tipo. (10549)
 - Salida JSON | La propiedad `fmUuid` del nodo jcr:content de JSON es diferente del &quot;id&quot; dentro de JSON. (11564)
 - Salida JSON | Si el mapa y el tema con el mismo nombre de archivo están presentes, se elimina JSON para el mapa. (11524)
 
 ## Problema conocido
 
-El Adobe ha identificado el siguiente problema conocido de la versión 4.3.0 de AEM Guides:
+Adobe ha identificado el siguiente problema conocido de la versión 4.3.0 de AEM Guides:
 
 - El diseño de página común definido en la plantilla básica no se aplica como plantilla predeterminada.
 
   Solución alternativa:
 Agregue el diseño de página común como portada y contraportada y, a continuación, comenzará a llegar para cada página.
-- AEM AEM El problema se produce en la búsqueda del sitio al buscar en la página de salida del sitio de la en el paquete de servicio 16 o 17 de la aplicación.
+- El problema se produce en la búsqueda del sitio al buscar en la página de salida del sitio de AEM en el paquete de servicio 16 o 17 de AEM.
 
   Solución alternativa:
 

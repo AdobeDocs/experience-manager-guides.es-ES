@@ -2,9 +2,10 @@
 title: Notas de versión | Instrucciones de actualización para la versión de Adobe Experience Manager Guides 4.6.0 Service Pack 1
 description: Obtenga información sobre cómo actualizar al paquete de servicio 1 versión 4.6.0 de Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 2362870e0e3e6c08df03e8c547bb77de7faa0a02
+exl-id: 26ac7ed8-2d3f-40f6-af72-7868b88e218c
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '528'
 ht-degree: 1%
 
 ---
@@ -35,9 +36,9 @@ Para obtener más información, consulte la sección [Requisitos técnicos](../i
 | --- | --- | --- | --- | --- |
 | Paquete de servicio 1 de 4.6.0 (no UUID) | 2022 o superior | 2020.2 o superior* | 2022 o superior | 2020.3 o superior |
 | Paquete de servicio 1 (UUID) de 4.6.0 | 2022 o superior | 2020.2 o superior* | 2022 o superior | 2020.4 o superior |
-| | | | |
+| | | | | |
 
-AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir de 2020.2 son compatibles con las versiones de FMPS.
+*Las condiciones y de línea de base creadas en AEM son compatibles con las versiones de FMPS a partir de 2020.2.
 
 ### Conector de oxígeno
 
@@ -45,7 +46,7 @@ AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir
 | --- | --- | --- |--- |--- |
 | Paquete de servicio 1 de 4.6.0 (no UUID) | 2.8-regular-10 | 2.8-regular-10 | 1,6 | 1,6 |
 | Paquete de servicio 1 (UUID) de 4.6.0 | 3.6-uuid.9 | 3.6-uuid.9 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   | |  |
 
 ### Versión de plantilla de base de conocimiento
 
@@ -53,7 +54,7 @@ AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir
 |---|---|---|
 | Paquete de contenido de componentes de Experience Manager Guides para Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
-### AEM Nueva versión de plantilla del sitio
+### Nueva versión de plantilla del sitio AEM
 
 | Versión de componentes | Versión del sitio |
 |---|---|
@@ -65,13 +66,13 @@ Puede actualizar fácilmente su versión actual de Guides a 4.6.0 Service Pack 1
 
 - Si utiliza la versión 4.6.0, puede actualizar directamente al paquete de servicio 1 4.6.0.
 - Si utiliza las versiones 4.4, 4.3.1 o 4.3.0 , debe actualizar a la versión 4.6.0 antes de actualizar al paquete de servicio 1 4.6.0.
-- Si utiliza las versiones 4.2, 4.2.1 (revisión 4.2.1.3), 4.1 o 4.1.x, debe actualizar a la versión 4.4 antes de actualizar a la versión 4.6.0.
+- Si está utilizando las versiones 4.2, 4.2.1 (revisión 4.2.1.3), 4.1 o 4.1.x, debe actualizar a la versión 4.4 antes de actualizar a la versión 4.6.0.
 - Si utiliza la versión 4.0, debe actualizar a la versión 4.2 antes de actualizar a la versión 4.3.x.
 - Si utiliza la versión 3.8.5, debe actualizar a la versión 4.0 antes de actualizar a la versión 4.2.
-- Si tiene una versión anterior a la 3.8.5, consulte la sección Actualizar Experience Manager Guides en la guía de instalación específica del producto disponible en [Archivo del PDF de ayuda de Adobe Experience Manager Guides](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/archive.html).
+- Si tiene una versión anterior a la 3.8.5, consulte la sección Actualizar Experience Manager Guides en la guía de instalación específica del producto disponible en [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >
->AEM Debe instalar el paquete de servicio de antes de actualizar la versión de Experience Manager Guides.
+>Debe instalar AEM Service Pack antes de actualizar la versión de Experience Manager Guides.
 
 El proceso de actualización para el paquete de servicio 1 de la versión 4.6.0 sigue los mismos pasos que en la versión 4.6.0. Para obtener instrucciones detalladas, vea [Instrucciones de actualización para las versiones On-Premise](../install-guide/upgrade-xml-documentation.md) de Experience Manager Guides.

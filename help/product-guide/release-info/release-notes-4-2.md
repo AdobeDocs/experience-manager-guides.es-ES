@@ -4,9 +4,9 @@ description: Obtenga información acerca de las correcciones de errores y cómo 
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1390'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Puede actualizar fácilmente su versión actual de AEM Guides a la versión 4.2.
 
 >[!NOTE]
 >
->AEM Debe instalar el paquete de servicio de antes de actualizar la versión de AEM Guides.
+>Debe instalar AEM Service Pack antes de actualizar la versión de AEM Guides.
 
 Para obtener más información, consulte [Instrucciones de actualización](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
 
@@ -50,9 +50,9 @@ Para obtener más información, consulte la sección *Requisitos técnicos* en l
 | --- | --- | --- | --- | --- |
 | 4.2 (no UUID) | 2022 o superior | 2020.2 o superior* | 2022 o superior | 2020.3 o superior |
 | 4.2 (UUID) | 2022 o superior | 2020.2 o superior* | 2022 o superior | 2020.4 o superior |
-| | | | |
+| | | | | |
 
-AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir de 2020.2 son compatibles con las versiones de FMPS.
+*Las condiciones y de línea de base creadas en AEM son compatibles con las versiones de FMPS a partir de 2020.2.
 
 ### Conector de oxígeno
 
@@ -60,7 +60,7 @@ AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir
 | --- | --- | --- |--- |--- |
 | 4.2 (no UUID) | 2.1-regular-4 | 2.1-regular-4 | 1,6 | 1,6 |
 | 4.2 (UUID) | 2.8-uuid-8 | 2.8-uuid-8 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 ## Problemas solucionados
 
@@ -71,7 +71,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * El panel izquierdo se rompe al añadir una pestaña. (11126)
 * Los cambios en el HTML del editor web causan problemas con `<dl>` y `<dlentry>`. (11024)
 * Algunos atributos no se tratan como condicionales y causan problemas. (10895)
-* Tres niveles o más `<indexterm>` anidados no están anidados en la exportación de PDF nativo. (10799)
+* Tres niveles o más `<indexterm>` anidados no están anidados en la exportación nativa de PDF. (10799)
 * El contenido desaparece en el cuerpo de una tarea al cambiar de la vista Autor a la vista Source. (10735)
 * Los comentarios de revisión no se colocan correctamente en una tarea de revisión. (10625)
 * La nota `<conref>` dentro de una etiqueta para no se muestra en el modo de vista previa. (10559)
@@ -87,7 +87,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * Los problemas de navegación se producen en el Editor Web después de la actualización 4.0. (10159)
 * La opción Deshacer del Editor XML lleva al usuario al principio de la página. (10091)
 * Las propiedades del nodo se eliminan después de la operación de copiar y pegar de un recurso. (10053)
-* Los ficheros de SVG añadidos a los temas DITA no se muestran en el modo de vista previa del editor. (10010)
+* Los ficheros SVG añadidos a los temas DITA no se muestran en el modo de vista previa del editor. (10010)
 * Los resultados de búsqueda para buscar y reemplazar dentro del Editor Web no se pueden leer en el modo Oscuro. (9978)
 * No existe ningún cargador al crear un mapa a partir de la plantilla de mapa. (9891)
 * La referencia en la plantilla de tema no funciona y el ID de hash copiado no se actualiza en la copia de contenido. (9890)
@@ -104,11 +104,11 @@ A continuación se enumeran los errores corregidos en varias áreas:
 ### Administración
 
 * La copia de un recurso de mapa DITA (desde la IU de recursos ) provoca líneas de base erróneas en el recurso copiado. (11218)
-* AEM El mensaje de advertencia no se muestra en la carga de un archivo que supere el límite permitido en el (2 GB de forma predeterminada). (10817)
+* El mensaje de advertencia no se muestra en la carga de un archivo que supere el límite permitido en AEM (2 GB de forma predeterminada). (10817)
 * Editor web: línea de base | El comportamiento de la columna Última es diferente en el nuevo tablero de línea de base dentro del Editor Web. (10808)
 * Traducción | El trabajo de traducción no se ha iniciado debido a un /libs/fmdita/i18n/ja.json no válido. (10543)
 * Traducción | Se produce un error en un proyecto de traducción de ámbito creado desde el panel de traducción (traducción humana). (10526)
-* Traducción | El procesamiento de Post está bloqueado para toda la carpeta de idioma cuyos recursos están presentes en un proyecto de traducción activo. (10332)
+* Traducción | El procesamiento posterior se bloquea para toda la carpeta de idioma cuyos recursos estén presentes en un proyecto de traducción activo. (10332)
 * Traducción| Los metadatos y las etiquetas no se propagan a las copias traducidas. (4696)
 * Aparecen varias ventanas emergentes para cualquier recurso si se cambia la versión y se guarda en el Editor de líneas de base. (10399)
 * La pérdida de sesión se produce en com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210). (10279)
@@ -117,26 +117,26 @@ A continuación se enumeran los errores corregidos en varias áreas:
 ### Publicación
 
 * La regeneración de temas no funciona para algunos escenarios. (10635)
-* La publicación del PDF no consigue generar la salida para un ajuste preestablecido duplicado (de un ajuste preestablecido existente). (10584)
-* El botón Ver registro no funciona en caso de que falle la generación del PDF para un ajuste preestablecido. (10576)
+* La publicación de PDF falla al generar la salida para un ajuste preestablecido duplicado (de un ajuste preestablecido existente). (10584)
+* El botón Ver registro no funciona en caso de que la generación de PDF falle para un ajuste preestablecido. (10576)
 * Publishlistener no muestra los datos solicitados en los registros de información y también contiene algunos registros no deseados.( 10567)
-* PDF nativo | La generación del PDF falla con una excepción de puntero nulo. (10950)
+* PDF nativo | La generación de PDF falla con una excepción de puntero nulo. (10950)
 * PDF nativo | conkeyref no se está resolviendo en la salida generada. (10564)
-* PDF nativo | Se producen problemas con los metadatos de un mapa al que hay que hacer referencia en la salida del PDF.( 10556)
+* PDF nativo | Se producen problemas con los metadatos de un mapa al que hay que hacer referencia en la salida de PDF.( 10556)
 * PDF nativo | Se producen problemas al girar el encabezado de Tabla. (10555)
 * PDF nativo | Se producen problemas al eliminar temas que tienen un rol de procesamiento=&#39;resource-only&#39;. (10554)
-* PDF nativo | Las referencias clave vacías se muestran en la salida del PDF. (10553)
-* PDF nativo | Los `<indexterm>` anidados no están anidados en la exportación de PDF nativo. (10521)
+* PDF nativo | Las referencias clave vacías se muestran en la salida de PDF. (10553)
+* PDF nativo | Los `<indexterm>` anidados no están anidados en la exportación nativa de PDF. (10521)
 * PDF nativo | El PDF nativo utiliza un estilo en línea en lugar del nombre de clase para las etiquetas generadas. (10498)
-* PDF nativo | Todos los temas anidados en los apéndices se transforman en h1 en el HTML temporal.( 10454)
+* PDF nativo | Todos los temas anidados en los apéndices se transforman en h1 en la HTML temporal.( 10454)
 * PDF nativo | No se pueden ocultar los temas de front-matter de la tabla de contenido. (10355)
-* PDF nativo | Atributo de marco de tabla no propagado al HTML temporal (como clase). (10353)
-* PDF nativo | Los archivos temporales del HTML agregan las clases colsep y rowsep a <td> y <th> incluso si su valor es 0 en el DITA de origen. (10352)
+* PDF nativo | El atributo de marco de tabla no se propaga a la HTML temporal (como clase). (10353)
+* PDF nativo | Los archivos temporales de HTML agregan las clases colsep y rowsep a <td> y <th> incluso si su valor es 0 en el DITA de origen. (10352)
 * PDF nativo | Al reiniciar los números de página en el diseño del capítulo, se inicia aleatoriamente la numeración desde el final del capítulo anterior. (10154)
 * PDF nativo | Las referencias clave para los keydefs con vínculos de imagen o externos no se resuelven. (10063)
-* PDF nativo | El apéndice se muestra como un capítulo en el PDF generado. (9829)
+* PDF nativo | El apéndice se muestra como un capítulo en la PDF generada. (9829)
 * La pestaña Plantilla del editor xml no se muestra a los administradores de perfil de carpeta. (10266)
-* La publicación de línea de base falla en el PDF generado mediante FrameMaker Publishing Server 2020. (10551)
+* La publicación de línea de base falla en PDF generada con FrameMaker Publishing Server 2020. (10551)
 * Error de aplicación al hacer clic en el botón Editar después de seleccionar todos los ajustes preestablecidos mediante la casilla de verificación Ajustes preestablecidos de salida en la ventana emergente Generación rápida. (10388)
 * Si la pestaña Salida del editor web tiene más ajustes preestablecidos, la sección de ajustes preestablecidos no se puede desplazar verticalmente y no muestra todos los ajustes preestablecidos disponibles. (9787)
 * No se pueden eliminar los ajustes preestablecidos del flujo de trabajo de salida al publicar mediante el editor. (9100)
@@ -144,6 +144,6 @@ A continuación se enumeran los errores corregidos en varias áreas:
 
 ## Problema conocido
 
-El Adobe de ha identificado el siguiente problema conocido de la versión 4.2 de AEM Guides:
+Adobe ha identificado el siguiente problema conocido de la versión 4.2 de AEM Guides:
 
 * Los usuarios pueden realizar operaciones de revisión incluso después de completar la tarea de revisión.

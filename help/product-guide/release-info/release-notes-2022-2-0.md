@@ -4,7 +4,7 @@ description: Lanzamiento de febrero de  [!DNL Adobe Experience Manager Guides] a
 exl-id: eb7ff475-bb5b-4d32-b291-024147fbfed1
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 ## Actualización a la versión de febrero
 
-As a Cloud Service Actualice la configuración actual de [!DNL Adobe Experience Manager Guides] (más adelante denominada [!DNL AEM Guides] as a Cloud Service) realizando los siguientes pasos:
-1. Consulte el código Git de los Cloud Service y cambie a la rama configurada en la canalización de Cloud Service correspondiente al entorno que desee actualizar.
-1. Actualice la propiedad `<dox.version>` en el archivo `/dox/dox.installer/pom.xml` de su código Git de Cloud Service a 2022.2.114.
-1. Confirme los cambios y ejecute la canalización de Cloud Service para actualizar a la versión de febrero del as a Cloud Service [!DNL AEM Guides].
+Actualice la configuración actual de [!DNL Adobe Experience Manager Guides] as a Cloud Service (más adelante denominada [!DNL AEM Guides] as a Cloud Service) siguiendo estos pasos:
+1. Consulte el código Git de Cloud Services y cambie a la rama configurada en la canalización de Cloud Services correspondiente al entorno que desea actualizar.
+1. Actualice la propiedad `<dox.version>` en el archivo `/dox/dox.installer/pom.xml` de su código Git de Cloud Services a 2022.2.114.
+1. Confirme los cambios y ejecute la canalización de Cloud Services para actualizar a la versión de febrero de [!DNL AEM Guides] as a Cloud Service.
 
 ## Matriz de compatibilidad
 
-As a Cloud Service Esta sección enumera la matriz de compatibilidad para las aplicaciones de software compatibles con la versión de febrero de 2022 de [!DNL AEM Guides].
+Esta sección enumera la matriz de compatibilidad para las aplicaciones de software compatibles con [!DNL AEM Guides] la versión de as a Cloud Service de febrero de 2022.
 
 ### FRAMEMAKER y FRAMEMAKER PUBLISHING SERVER
 
@@ -47,8 +47,8 @@ As a Cloud Service Esta sección enumera la matriz de compatibilidad para las ap
 La compatibilidad para crear un PDF nativo también se agregó en la versión de febrero de [!DNL AEM Guides] as a Cloud Service. Se ha introducido un nuevo motor de publicación con las siguientes funciones:
 * Creación de una plantilla CSS
 * Crear diferentes plantillas de página
-* Plantillas de PDF de diseño que incluyen plantillas CSS y de página
-* Contenido de temas y mapas de Publish en formato de PDF
+* Diseñar plantillas de PDF que incluyan plantillas CSS y de página
+* Publicación de contenido de temas y mapas en formato PDF
 
 ### Compatibilidad con la ruta del sitio de la base de conocimiento en la publicación basada en artículos
 
@@ -60,7 +60,7 @@ Se han añadido muchas mejoras y nuevas funciones en el editor web:
 
 * **Se mejoró el diálogo al cerrar el archivo**
 
-as a Cloud Service [!DNL AEM Guides] le pide que guarde los cambios y desbloquee los archivos bloqueados cuando intente cerrar un archivo abierto en el Editor Web. Las solicitudes se muestran según la configuración **Pedir protección al cerrar** y **Pedir nueva versión al cerrar** configurada por el administrador.
+[!DNL AEM Guides] as a Cloud Service le pide que guarde los cambios y desbloquee los archivos bloqueados cuando intente cerrar un archivo abierto en el Editor Web. Las solicitudes se muestran según la configuración **Pedir protección al cerrar** y **Pedir nueva versión al cerrar** configurada por el administrador.
 
 Según la configuración, tiene la opción de guardar los cambios y crear una nueva versión del documento. O bien, también puede proteger el archivo y guardar los cambios realizados en la versión actual.
 
@@ -68,7 +68,7 @@ Según la configuración, tiene la opción de guardar los cambios y crear una nu
 
 Para obtener más información, consulte *Cerrar archivo y guardar escenarios* en la Guía del usuario.
 
-* Se ha añadido un espacio de no separación al pallet de caracteres.  Un espacio **sin saltos** impide un salto de línea automático en un punto concreto de un documento de HTML. AEM El editor web admite un espacio de no separación tanto para la salida del sitio de la página como para la salida del HTML 5 de la página de.
+* Se ha añadido un espacio de no separación al pallet de caracteres.  Un espacio **sin saltos** impide un salto de línea automático en un punto concreto de un documento de HTML. El editor web admite un espacio de no separación tanto para el sitio de AEM como para la salida de HTML5.
 
 * Al cargar una imagen desde el editor web, se muestra un cuadro de diálogo de confirmación si ya existe una imagen con el mismo nombre. Puede mantener ambos archivos: el existente y el nuevo, o sobrescribir el archivo existente y guardar solo el nuevo.
 
@@ -76,7 +76,7 @@ Para obtener más información, consulte *Cerrar archivo y guardar escenarios* e
 
 ### Tablero de mapas
 
-Cuando selecciona descargar el mapa DITA, la solicitud se pone en cola y recibe una notificación cuando el mapa está listo para descargarse. AEM Puede elegir descargar el archivo de asignación inmediatamente o descargarlo más tarde desde el vínculo proporcionado en la bandeja de entrada de notificaciones de la.
+Cuando selecciona descargar el mapa DITA, la solicitud se pone en cola y recibe una notificación cuando el mapa está listo para descargarse. Puede elegir descargar el archivo de asignación inmediatamente o descargarlo más tarde desde el vínculo proporcionado en la bandeja de entrada de notificaciones de AEM.
 
 ![Descarga de mapa](assets/download-map-prompt.png)
 
@@ -92,7 +92,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 
 * La publicación basada en artículos no publica artículos basados en la línea de base seleccionada. (8771)
 * Los archivos DITAVAL no se respetan en la publicación basada en artículos. (8770)
-* No se puede realizar la publicación basada en artículos para el perfil de Salesforce cuando el tipo de registro es FAQ y el contenido del campo de artículo es Question. (8448)
+* No se puede realizar la publicación basada en artículos para el perfil de Salesforce cuando el tipo de registro es Preguntas frecuentes y el contenido del campo de artículo es Pregunta. (8448)
 * No se puede realizar la publicación basada en artículos para el perfil de Salesforce cuando el tipo de registro es Manual. (8447)
 
 ### Editor web
@@ -112,7 +112,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 
 * La edición de imágenes no funciona como se espera en el servidor de la nube. (8768)
 * En el panel Historial de versiones, la sección Versión actual muestra una marca de tiempo incorrecta y se ha modificado mediante información. (8765)
-* AEM La carga de archivos DITAVAL en el servidor en la nube falla cuando se utiliza la herramienta de escritorio de la. (8707)
+* La carga de archivos DITAVAL en el servidor en la nube falla cuando se utiliza la herramienta de escritorio de AEM. (8707)
 * El segundo usuario administrador no se puede agregar como primer usuario administrador a una carpeta. (8430)
 * Las propiedades no únicas de un recurso no se copian cuando se copia y se pega el recurso. (8241)
 

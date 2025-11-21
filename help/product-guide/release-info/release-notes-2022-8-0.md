@@ -4,7 +4,7 @@ description: Versión de agosto de Adobe Experience Manager Guides as a Cloud Se
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 ## Actualización a la versión de agosto
 
-Actualice la configuración actual del as a Cloud Service de Adobe Experience Manager Guides (más adelante denominado *AEM Guides as a Cloud Service*) realizando los siguientes pasos:
-1. Consulte el código Git de los Cloud Service y cambie a la rama configurada en la canalización de Cloud Service correspondiente al entorno que desee actualizar.
-1. Actualice la propiedad `<dox.version>` en el archivo `/dox/dox.installer/pom.xml` de su código Git de Cloud Service a 2022.8.167.
-1. Confirme los cambios y ejecute la canalización de Cloud Service para actualizar a la versión de agosto de AEM Guides as a Cloud Service.
+Actualice la configuración actual de Adobe Experience Manager Guides as a Cloud Service (más adelante denominada *AEM Guides as a Cloud Service*) siguiendo estos pasos:
+1. Consulte el código Git de Cloud Services y cambie a la rama configurada en la canalización de Cloud Services correspondiente al entorno que desea actualizar.
+1. Actualice la propiedad `<dox.version>` en el archivo `/dox/dox.installer/pom.xml` de su código Git de Cloud Services a 2022.8.167.
+1. Confirme los cambios y ejecute la canalización de Cloud Services para actualizar a la versión de agosto de AEM Guides as a Cloud Service.
 
 ## Matriz de compatibilidad
 
-Esta sección enumera la matriz de compatibilidad para las aplicaciones de software compatibles con la versión as a Cloud Service de AEM Guides de agosto de 2022.
+Esta sección enumera la matriz de compatibilidad para las aplicaciones de software compatibles con la versión de agosto de 2022 de AEM Guides as a Cloud Service.
 
 ### FRAMEMAKER y FRAMEMAKER PUBLISHING SERVER
 
@@ -31,7 +31,7 @@ Esta sección enumera la matriz de compatibilidad para las aplicaciones de softw
 | No compatible | Actualización 4 de 2020 y posterior |
 | | |
 
-AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir de 2020.2 son compatibles con las versiones de FMPS.
+*Las condiciones y de línea de base creadas en AEM son compatibles con las versiones de FMPS a partir de 2020.2.
 
 ### Conector de oxígeno
 
@@ -43,7 +43,7 @@ AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir
 
 ## Nuevas funciones y mejoras
 
-AEM Guides as a Cloud Service ofrece muchas mejoras y nuevas funciones en la versión de agosto:
+AEM Guides as a Cloud Service proporciona muchas mejoras y nuevas funciones en la versión de agosto:
 
 ### Vista Presentación en el editor de mapas
 
@@ -70,7 +70,7 @@ Ahora también puede establecer la información de metadatos para los temas o el
 
 ![panel derecho de vista de diseño](assets/layout-inline-attributes.png)
 
-Para obtener más información, consulte la sección *Vista de diseño* en Uso del as a Cloud Service de Adobe Experience Manager Guides.
+Para obtener más información, consulte la sección *Vista de diseño* en Uso de Adobe Experience Manager Guides as a Cloud Service.
 
 ### Atributos en línea en la configuración del editor
 
@@ -82,7 +82,7 @@ Los Atributos en línea configurados definidos para un tema se muestran con resp
 
 ### Filtros adicionales en la vista Repositorio
 
-Ahora la búsqueda de filtros en la vista del repositorio es más potente. AEM Se han agregado dos nuevos criterios de búsqueda, **Última modificación** y **Etiquetas**, para filtrar los archivos y restringir la búsqueda en el repositorio de la:
+Ahora la búsqueda de filtros en la vista del repositorio es más potente. Se han agregado dos nuevos criterios de búsqueda, **Última modificación** y **Etiquetas**, para filtrar los archivos y restringir la búsqueda en el repositorio de AEM:
 * **Última modificación**: puede buscar los archivos que se modificaron por última vez después de una fecha seleccionada pero antes de una fecha seleccionada. También tiene la opción de utilizar los criterios predefinidos y buscar los archivos que se han modificado por última vez en las últimas 2 horas, la semana pasada, el mes pasado o el año pasado.
 * **Etiquetas**: también puede buscar archivos que tengan etiquetas específicas aplicadas. Puede escribir la etiqueta o seleccionarla en la lista desplegable.
 
@@ -98,7 +98,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * El tema DITA no se actualiza automáticamente con los cambios realizados en la página **Propiedades**. (8745)
 * Cuando se añade un elemento Frontmatter a un mapa de libros DITA, no funciona correctamente. (9507)
 * PDF nativo | Se genera un PDF en blanco al usar **Generación rápida** para varios archivos cuando se selecciona un elemento vacío. (9822)
-* PDF nativo | El apéndice se publica como un capítulo en la salida del PDF. (9829)
+* PDF nativo | El apéndice se publica como un capítulo en la salida de PDF. (9829)
 * PDF nativo | Cuando se edita una imagen de SVG, no se muestra actualizada en el diseño de página. (9069)
 * Se inserta un carácter de guión normal cuando se inserta un carácter `Nonbreaking Hyphen` mediante el cuadro de diálogo **Insertar carácter especial**. (8919)
 * El Editor XML no muestra imágenes actualizadas en los temas si se han editado. (9500)
@@ -109,12 +109,12 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * No hay ninguna opción para examinar los temas o mapas presentes dentro de las subcarpetas de un mapa o plantilla de tema. (9889)
 * Cuando se actualiza y se guarda un fichero de Schematron junto con el fichero DITA, no se muestra el panel derecho (si el fichero DITA rompe las validaciones presentes en el fichero de Schematron). (986)
 * Se puede crear un nuevo ajuste preestablecido de salida duplicado si su nombre es el mismo que el de un ajuste preestablecido existente. (9997)
-* Las imágenes de SVG se dañan y no se publican correctamente al generar la salida del HTML. (9949)
+* Las imágenes de SVG se dañan y no se publican correctamente al generar la salida de HTML. (9949)
 
 
 ## Problemas conocidos
 
-El Adobe ha identificado los siguientes problemas conocidos para la versión as a Cloud Service de AEM Guides de agosto de 2022.
+Adobe ha identificado los siguientes problemas conocidos para la versión de AEM Guides as a Cloud Service de agosto de 2022.
 
 ### Problemas conocidos con la solución
 

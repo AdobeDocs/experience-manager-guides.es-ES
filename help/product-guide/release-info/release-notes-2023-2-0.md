@@ -4,31 +4,31 @@ description: Lanzamiento de Adobe Experience Manager Guides as a Cloud Service e
 exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
 
 # Lanzamiento de Adobe Experience Manager Guides as a Cloud Service en febrero de 2023
 
-Esta nota de la versión cubre las instrucciones de actualización, la matriz de compatibilidad y los problemas corregidos en la versión de febrero de 2023 de Adobe Experience Manager Guides (que más adelante se denominará *AEM Guides as a Cloud Service*).
+Esta nota de la versión cubre las instrucciones de actualización, la matriz de compatibilidad y los problemas corregidos en la versión de febrero de 2023 de Adobe Experience Manager Guides (más adelante denominada *AEM Guides as a Cloud Service*).
 
 Para obtener más información sobre las nuevas características y mejoras, consulte [Novedades de la versión de febrero de 2023 de AEM Guides as a Cloud Service](whats-new-2023-2-0.md).
 
 ## Actualización a la versión de febrero de 2023
 
-Actualice la configuración as a Cloud Service de AEM Guides actual realizando los siguientes pasos:
-1. Consulte el código Git de los Cloud Service y cambie a la rama configurada en la canalización de Cloud Service correspondiente al entorno que desea actualizar.
-2. Actualice la propiedad `<dox.version>` en el archivo `/dox/dox.installer/pom.xml` de su código Git de Cloud Service a 2023.2.235.
-3. Confirme los cambios y ejecute la canalización de Cloud Service para actualizar a la versión de febrero de 2023 de AEM Guides as a Cloud Service.
+Actualice la configuración actual de AEM Guides as a Cloud Service realizando los siguientes pasos:
+1. Consulte el código Git de Cloud Services y cambie a la rama configurada en la canalización de Cloud Services correspondiente al entorno que desea actualizar.
+2. Actualice la propiedad `<dox.version>` en el archivo `/dox/dox.installer/pom.xml` de su código Git de Cloud Services a 2023.2.235.
+3. Confirme los cambios y ejecute la canalización de Cloud Services para actualizar a la versión de febrero de 2023 de AEM Guides as a Cloud Service.
 
-## Pasos para indexar el contenido existente (solo si está en una versión anterior a la versión de septiembre de AEM Guides as a Cloud Service)
+## Pasos para indexar el contenido existente (solo si tiene una versión anterior a la versión de septiembre de AEM Guides as a Cloud Service)
 
 Realice los siguientes pasos para indexar el contenido existente y utilice el nuevo texto de búsqueda y reemplazo a nivel de mapa:
 
-* Ejecute una solicitud de POST al servidor (con la autenticación correcta): `http://<server:port>/bin/guides/map-find/indexing`.
+* Ejecute una petición POST en el servidor (con la autenticación correcta): `http://<server:port>/bin/guides/map-find/indexing`.
 (Opcional: puede pasar rutas específicas de los mapas para indexarlas, de forma predeterminada se indexarán todas las asignaciones || Ejemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
@@ -47,14 +47,14 @@ Esta sección enumera la matriz de compatibilidad para las aplicaciones de softw
 | 2023.02.0 | No compatible | 2022 o superior |
 | | | |
 
-AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir de 2020.2 son compatibles con las versiones de FMPS.
+*Las condiciones y de línea de base creadas en AEM son compatibles con las versiones de FMPS a partir de 2020.2.
 
 ### Conector de oxígeno
 
 | Versión de AEM Guides as a Cloud | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2023.02.0 | 2.8-uuid-8 | 2.8-uuid-8 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 ## Problemas solucionados
 
@@ -64,7 +64,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 
 * Los cambios en el HTML del editor web causan problemas con `<dl>` y `<dlentry>`. (11024)
 * Algunos atributos no se tratan como condicionales y causan problemas. (10895)
-* Tres niveles o más `<indexterm>` anidados no están anidados en la exportación de PDF nativo. (10799)
+* Tres niveles o más `<indexterm>` anidados no están anidados en la exportación nativa de PDF. (10799)
 * El contenido desaparece en el cuerpo de una tarea al cambiar de la vista Autor a la vista Source. (10735)
 * Los comentarios de revisión no se colocan correctamente en una tarea de revisión. (10625)
 * **Deshacer** o **Rehacer** no funcionan correctamente en algunos archivos. (10373)
@@ -79,11 +79,11 @@ A continuación se enumeran los errores corregidos en varias áreas:
 ### Administración
 
 * La copia de un recurso de mapa DITA (desde la IU de recursos ) provoca líneas de base erróneas en el recurso copiado. (11218)
-* AEM El mensaje de advertencia no se muestra en la carga de un archivo que supere el límite permitido en el (2 GB de forma predeterminada). (10817)
+* El mensaje de advertencia no se muestra en la carga de un archivo que supere el límite permitido en AEM (2 GB de forma predeterminada). (10817)
 * Editor web: línea de base | El comportamiento de la columna Última es diferente en el nuevo tablero de línea de base dentro del Editor Web. (10808)
 * Traducción | El trabajo de traducción no se ha iniciado debido a un /libs/fmdita/i18n/ja.json no válido. (10543)
 * Traducción | Se produce un error en un proyecto de traducción de ámbito creado desde el panel de traducción (traducción humana). (10526)
-* Traducción | El procesamiento de Post está bloqueado para toda la carpeta de idioma cuyos recursos están presentes en un proyecto de traducción activo. (10332)
+* Traducción | El procesamiento posterior se bloquea para toda la carpeta de idioma cuyos recursos estén presentes en un proyecto de traducción activo. (10332)
 * Aparecen varias ventanas emergentes para cualquier recurso si se cambia la versión y se guarda en el Editor de líneas de base. (10399)
 * La fuga de sesión se produce a las `com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210)`. (10279)
 
@@ -91,11 +91,11 @@ A continuación se enumeran los errores corregidos en varias áreas:
 
 * La regeneración de temas no funciona para algunos escenarios. (10635)
 * Publishlistener no muestra los datos solicitados en los registros de información y también contiene algunos registros no deseados.( 10567)
-* PDF nativo | Al crear un ajuste preestablecido de salida con la opción &quot;Añadir a perfil de carpeta&quot;, la generación del PDF falla con una excepción de puntero nulo. (10950)
+* PDF nativo | Al crear un ajuste preestablecido de salida con la opción &quot;Añadir a perfil de carpeta&quot;, la generación de PDF falla con una excepción de puntero nulo. (10950)
 * PDF nativo | Se producen problemas al girar el encabezado de Tabla. (10555)
-* PDF nativo | Los `<indexterm>` anidados no están anidados en la exportación de PDF nativo. (10521)
-* PDF nativo | Todos los temas anidados en los apéndices se transforman en h1 en el HTML temporal. (10454)
-* La publicación de línea de base falla en el PDF generado mediante FrameMaker Publishing Server 2020. (10551)
+* PDF nativo | Los `<indexterm>` anidados no están anidados en la exportación nativa de PDF. (10521)
+* PDF nativo | Todos los temas anidados en los apéndices se transforman en h1 en la HTML temporal. (10454)
+* La publicación de línea de base falla en PDF generada con FrameMaker Publishing Server 2020. (10551)
 * PDF nativo | Agregar `xref` a una imagen no procesa la imagen en el PDF generado. (11346)
 * PDF nativo | La etiqueta de imagen agrega el atributo display-inline a todas las imágenes. (10653)
 * PDF nativo | Los comentarios del borrador están ocultos de forma predeterminada en la salida generada. (10560)

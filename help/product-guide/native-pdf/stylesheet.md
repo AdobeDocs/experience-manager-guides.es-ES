@@ -1,11 +1,11 @@
 ---
-title: Función nativa de PDF Publish | Trabajar con los estilos de contenido comunes
+title: Función de publicación nativa de PDF | Trabajar con los estilos de contenido comunes
 description: Aprenda a crear hojas de estilo de uso y a crear estilos para el contenido.
 exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: f98aa2b4b196ee0fd46542317894163b64b8a486
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '3778'
 ht-degree: 1%
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 # Trabajar con los estilos de contenido comunes {#work-with-common-styles}
 
-Una hoja de estilo contiene las definiciones de estilos para los elementos que se utilizan en la salida del PDF. Puede elegir trabajar con las hojas de estilo de ejemplo o crear otras nuevas. En la mayoría de los casos, la creación de una copia de la hoja de estilo de muestra OOTB le ayudará a empezar rápidamente.
+Una hoja de estilo contiene las definiciones de estilos para los elementos que se utilizan en la salida de PDF. Puede elegir trabajar con las hojas de estilo de ejemplo o crear otras nuevas. En la mayoría de los casos, la creación de una copia de la hoja de estilo de muestra OOTB le ayudará a empezar rápidamente.
 
-El editor de estilos es un editor WYSIWYG que oculta todas las complejidades de un código CSS detrás de la interfaz de usuario. Con el editor de estilos, puede personalizar de forma fácil y rápida los estilos de los elementos que elija. Los estilos se clasifican en los siguientes encabezados:
+El editor de estilos es un editor de WYSIWYG que oculta todas las complejidades de un código CSS detrás de la interfaz de usuario. Con el editor de estilos, puede personalizar de forma fácil y rápida los estilos de los elementos que elija. Los estilos se clasifican en los siguientes encabezados:
 
 * Estilos de encabezado
 * Estilos de párrafo
@@ -93,7 +93,7 @@ Las propiedades del estilo h1 se muestran en el panel Propiedades junto con su V
    Los estilos que puede aplicar en la lista de numeración automática se muestran debajo de la propiedad Autonumérico.
 
 1. Establezca las siguientes propiedades:
-   * **Estilo**: seleccione entre una amplia gama de estilos de numeración genéricos o específicos de configuración regional. Puede elegir estilos como Árabe-Índico, Devanagari, Georgiano, Decimal, Alpha inferior y más. Para el ejemplo actual, seleccione `upper-alpha`.
+   * **Estilo**: seleccione entre una amplia gama de estilos de numeración genéricos o específicos de configuración regional. Puede elegir estilos como Árabe-Índico, Devanagari, Georgiano, Decimal, Lower-Alpha y más. Para el ejemplo actual, seleccione `upper-alpha`.
 
    * **Formato**: el formato predeterminado está establecido en `<x>`, donde el valor `x` se reemplaza por el estilo de numeración seleccionado en la propiedad Estilo. Por ejemplo, si ha seleccionado el estilo `decimal` (1), el valor de `x` se incrementa automáticamente en cada instancia del estilo `h1` y continúa como 2, 3, etc. También puede agregar texto personalizado en el campo para dar formato al estilo de encabezado. Por ejemplo, si desea que todos los encabezados h1 tengan un prefijo de `Chapter`, debe establecer este campo como `Chapter <x>`.
 
@@ -141,7 +141,6 @@ Las propiedades del estilo h1 se muestran en el panel Propiedades junto con su V
    |  | Formato | `Section <2>.<x>:` |  |
    |  | Anchura del prefijo | 125 px |  |
    |  | Fuente > Alineación del texto | Izquierda | Asegúrese de que Aplicar formato a está establecido en Numeración |
-   |  |
 
    <img src="./assets/auto-number-output.png" width="500">
 
@@ -345,7 +344,7 @@ En el siguiente ejemplo, vemos cómo crear un estilo de tabla y las distintas op
 
 ## Trabajar con otros estilos {#other-styles}
 
-Si está trabajando con contenido estructurado (DITA), observará que casi todos los elementos DITA tienen una asignación de estilo en la hoja de estilo por defecto. Por ejemplo, el estilo de un elemento `<shortdesc>` se define en la definición de estilo **Otro estilo** > **.shortdesc**. Puede personalizar fácilmente cualquiera de estos estilos y se aplicarán automáticamente en la salida del PDF generada a partir del contenido estructurado. Esto significa que, a diferencia de otros estilos personalizados, no es necesario agregar un atributo `outputclass` al contenido para estos estilos.
+Si está trabajando con contenido estructurado (DITA), observará que casi todos los elementos DITA tienen una asignación de estilo en la hoja de estilo por defecto. Por ejemplo, el estilo de un elemento `<shortdesc>` se define en la definición de estilo **Otro estilo** > **.shortdesc**. Puede personalizar fácilmente cualquiera de estos estilos y se aplicarán automáticamente en la salida de PDF generada a partir del contenido estructurado. Esto significa que, a diferencia de otros estilos personalizados, no es necesario agregar un atributo `outputclass` al contenido para estos estilos.
 
 Si desea crear una definición de estilo para cualquier elemento que no esté disponible de forma predeterminada o si tiene un elemento personalizado, puede crearlo fácilmente en la hoja de estilo. El único punto que debe tener en cuenta es crear el estilo con el mismo nombre que el nombre del elemento estructurado.
 
@@ -378,7 +377,7 @@ La siguiente captura de pantalla muestra el estilo wintitle que se está aplican
 
 ## Definir un estilo único para un diseño de una sola página
 
-Al publicar la salida del PDF nativo, todos los estilos se combinan en el PDF final y es crucial asignar un estilo único a cada plantilla dentro de CSS.
+Al publicar la salida nativa de PDF, todos los estilos se combinan en la PDF final y es crucial asignar un estilo único a cada plantilla dentro de CSS.
 Utilice nombres de estilos CSS distintos para aplicar fuentes y estilos específicos a diferentes secciones de un PDF. Por ejemplo, puede definir la fuente que desee para la página de portada con el siguiente CSS.
 
 ```css
@@ -406,12 +405,12 @@ Por ejemplo, puede definir los estilos siguientes para definir el tamaño de fue
 
 >[!NOTE]
 >
->En el ejemplo anterior, &quot;Front&quot; y &quot;Back&quot; son los nombres de ejemplo de los archivos de diseño que puede utilizar en las plantillas.
+> En el ejemplo anterior, &quot;Front&quot; y &quot;Back&quot; son los nombres de ejemplo de los archivos de diseño que puede utilizar en las plantillas.
 
 
 ## Definir estilo CSS personalizado para el contenido de prefijos y sufijos
 
-Si define los estilos CSS personalizados, se les da la primera prioridad al generar la salida del PDF nativo.
+Si define los estilos CSS personalizados, se les da la primera prioridad al generar la salida nativa de PDF.
 El siguiente estilo CSS predeterminado oculta el contenido de prefijo y sufijo.
 
 ```css

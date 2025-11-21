@@ -5,9 +5,9 @@ exl-id: 4d3e0fc1-b684-44f9-ab0d-411033024019
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3119ef32a753afac9405af31a241ae508f922ea7
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -64,12 +64,12 @@ Siga estos pasos para cargar el complemento DITA-OT personalizado en el reposito
 
    | Nombre de la propiedad | Descripción |
    |-------------|-----------|
-   | **Propiedades de perfil** |
+   | **Propiedades de perfil** |  |
    | Nombre de perfil | Proporcione un nombre único para este perfil. |
    | Reutilizar salida | *\(Opcional\)* Si su perfil se basa en un perfil existente, seleccione esta opción. Si selecciona esta opción, AEM Guides no volverá a extraer el contenido del paquete DITA-OT y reutilizará el paquete DITA-OT existente. |
    | Ruta de extracción de perfil | *\(Opcional\)* Especifique la ruta en la que DITA-OT se mantiene en el disco. De forma predeterminada, AEM Guides agrupa un paquete DITA-OT en su repositorio y se extrae en el disco en esta ruta. <br> **NOTA** Puede definir esta ruta usando cualquier variable o propiedad del sistema existente. Consulte la descripción de la propiedad [DITA-OT Environment Variables](#id181NH0YN0AX) para obtener más información. |
    | Ruta asignada | \(*Opcional*\) Especifique la ruta en el repositorio de contenido para el que se aplica este perfil. Puede especificar varias ubicaciones. |
-   | **Propiedades DITA-OT** |
+   | **Propiedades DITA-OT** |  |
    | Tiempo de espera DITA-OT | \(*Opcional*\) Especifique el tiempo \(en segundos\) durante el cual AEM Guides espera una respuesta del complemento DITA-OT. Si no se recibe ninguna respuesta en el tiempo especificado, AEM Guides finaliza la tarea de publicación y la tarea se marca como fallida. Además, los registros de errores están disponibles en el archivo de registro de generación de resultados. <br> Valor predeterminado: 300 segundos \(5 minutos\) |
    | Argumentos de DITA-OT PDF | Especifique los argumentos de línea de comandos que procesa el complemento DITA-OT personalizado para generar la salida de PDF. Para todos los perfiles DITA-OT personalizados, especifique el siguiente argumento de línea de comandos:`-lib plugins/org.dita.pdf2.fop/lib/` |
    | Argumentos de DITA-OT AEM | \(*Opcional*\) Especifique los argumentos de línea de comandos personalizados que procesa el complemento DITA-OT personalizado para generar la salida del sitio de AEM. |

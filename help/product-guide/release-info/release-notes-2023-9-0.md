@@ -4,26 +4,26 @@ description: Obtenga información acerca de las correcciones de errores y cómo 
 exl-id: 795b86a0-e763-404a-a4bb-35d3d2a42672
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1486'
+source-wordcount: '1485'
 ht-degree: 0%
 
 ---
 
 # Versión de septiembre de 2023 de Adobe Experience Manager Guides as a Cloud Service
 
-Esta nota de la versión cubre las instrucciones de actualización, la matriz de compatibilidad y los problemas corregidos en la versión de septiembre de 2023 de Adobe Experience Manager Guides (que más adelante se denominará *AEM Guides as a Cloud Service*).
+Esta nota de la versión cubre las instrucciones de actualización, la matriz de compatibilidad y los problemas corregidos en la versión de septiembre de 2023 de Adobe Experience Manager Guides (más adelante denominada *AEM Guides as a Cloud Service*).
 
 Para obtener más información sobre las nuevas características y mejoras, consulte [Novedades de la versión de septiembre de 2023 de AEM Guides as a Cloud Service](whats-new-2023-9-0.md).
 
 ## Actualizar a la versión de septiembre de 2023
 
-Actualice la configuración as a Cloud Service de AEM Guides actual realizando los siguientes pasos:
+Actualice la configuración actual de AEM Guides as a Cloud Service realizando los siguientes pasos:
 
-1. Consulte el código Git de los Cloud Service y cambie a la rama configurada en la canalización de Cloud Service correspondiente al entorno que desea actualizar.
-2. Actualice la propiedad `<dox.version>` en el archivo `/dox/dox.installer/pom.xml` de su código Git de Cloud Service a 2023.9.0.359.
-3. Confirme los cambios y ejecute la canalización de Cloud Service para actualizar a la versión de septiembre de 2023 de AEM Guides as a Cloud Service.
+1. Consulte el código Git de Cloud Services y cambie a la rama configurada en la canalización de Cloud Services correspondiente al entorno que desea actualizar.
+2. Actualice la propiedad `<dox.version>` en el archivo `/dox/dox.installer/pom.xml` de su código Git de Cloud Services a 2023.9.0.359.
+3. Confirme los cambios y ejecute la canalización de Cloud Services para actualizar a la versión de septiembre de 2023 de AEM Guides as a Cloud Service.
 
 ## Pasos para activar el déclencheur de una secuencia de comandos mediante un servlet
 
@@ -31,7 +31,7 @@ Actualice la configuración as a Cloud Service de AEM Guides actual realizando l
 
 Una vez finalizada la instalación, puede optar por PULSAR el déclencheur para iniciar el trabajo de traducción:
 
-POST:
+PUBLICACIÓN:
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -76,12 +76,12 @@ as a Cloud Service, para crear el archivo de configuración.
      |---|---|---|
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Value: 200000 Valor predeterminado: 100000 |
 
-1. Ejecute una solicitud de POST al servidor (con la autenticación correcta): `http://<server:port>//bin/guides/reports/upgrade`.
+1. Ejecute una petición POST en el servidor (con la autenticación correcta): `http://<server:port>//bin/guides/reports/upgrade`.
 
 1. La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Por ejemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Una vez completado el trabajo, la solicitud de GET anterior se responderá correctamente. Si el trabajo falla por algún motivo, los errores se pueden ver en los registros del servidor.
+1. Una vez completado el trabajo, la solicitud anterior de GET se responderá correctamente. Si el trabajo falla por algún motivo, los errores se pueden ver en los registros del servidor.
 
 1. Volver al valor predeterminado o anterior existente de `queryLimitReads` si lo ha cambiado en el paso 1.
 
@@ -91,11 +91,11 @@ as a Cloud Service, para crear el archivo de configuración.
 
 Realice los siguientes pasos para indexar el contenido existente y utilice el nuevo texto de buscar y reemplazar en el nivel de asignación y en la lista de temas de la pestaña Informes:
 
-1. Ejecute una solicitud de POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de las asignaciones para indexarlas; de forma predeterminada, todas las asignaciones se indexarán \|\| Por ejemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Ejecute una petición POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de las asignaciones para indexarlas; de forma predeterminada, todas las asignaciones se indexarán \|\| Por ejemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. También se puede pasar una carpeta raíz para indexar las asignaciones DITA de una carpeta específica (y sus subcarpetas). Por ejemplo, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Tenga en cuenta que si se pasan tanto el parámetro de rutas como el parámetro raíz, solo se tendrá en cuenta el parámetro de rutas.
 
-1. La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID de trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+1. La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 
 1. Una vez completado el trabajo, la solicitud de GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
@@ -117,7 +117,7 @@ Esta sección enumera la matriz de compatibilidad para las aplicaciones de softw
 | Versión de AEM Guides as a Cloud | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2023.09.0 | 3.1-uuid 17 | 3.1-uuid 17 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ### Versión de plantilla de base de conocimiento
@@ -159,22 +159,22 @@ A continuación se enumeran los errores corregidos en varias áreas:
 
 ### Publicación
 
-- La publicación falla al cambiar el nombre de un ajuste preestablecido de PDF nativo. (12564)
-- Al duplicar una plantilla de PDF nativa, se duplica la ubicación de plantilla predeterminada en lugar de la ubicación de plantilla personalizada proporcionada. (12563)
+- La publicación falla al cambiar el nombre de un ajuste preestablecido nativo de PDF. (12564)
+- Al duplicar una plantilla de PDF nativa, se duplica la ubicación de la plantilla predeterminada en lugar de la ubicación de la plantilla personalizada proporcionada. (12563)
 
 - PDF nativo | La inclusión de varias expresiones XFR extiende el texto más allá del ancho de columna. (13004)
-- PDF nativo | Cuando el tema y el título tienen el mismo ID, se produce una generación incorrecta de la salida del PDF. (12644)
+- PDF nativo | Cuando el tema y el título tienen el mismo ID, se produce una generación incorrecta de la salida de PDF. (12644)
 - PDF nativo | Al agregar una clase de salida a un elemento `<topicref>` principal en un mapa DITA y aplicar un estilo personalizado a la clase de salida, el estilo se aplica a los elementos dentro del cuerpo del tema, incluidos los títulos de sección.(12166)
 - La publicación incremental no funciona si un mapa DITA tiene varios ditavalrefs. (12117)
-- AEM Sitio web de | Al crear un mapa con keydef apuntando a un tema como variable y agregar processing-role=resource-only, se crean algunas páginas inesperadas. (12099)
-- AEM AEM Si alguno de los recursos de DAM de la creación se utiliza en cualquier salida que no sea el sitio de la, entonces los metadatos &quot;jcr:createdBy&quot; no reflejan el nombre del editor ni el nombre del usuario que modificó por última vez el mapa o tema de DITA. (12090)
+- Sitio de AEM | Al crear un mapa con keydef apuntando a un tema como variable y agregar processing-role=resource-only, se crean algunas páginas inesperadas. (12099)
+- Si se utiliza algún recurso de DAM de AEM en cualquier salida que no sea el sitio de AEM, los metadatos &quot;jcr:createdBy&quot; no reflejarán el nombre del editor o del usuario que modificó por última vez el tema o el mapa DITA. (12090)
 - AEM Sites | El mapa DITA con el encabezado del tema en el título de navegación (con caracteres no compatibles) conduce a direcciones URL de página incorrectas. (11978)
 - PDF nativo | Se producen problemas en la compatibilidad de topichead / topicmeta / navtitle en Frontmatter y Backmatter. (11969)
-- PDF nativo | La generación de PDF para documentos grandes requiere mucho tiempo. (11955)
+- PDF nativo | La generación de PDF para documentos grandes lleva mucho tiempo. (11955)
 - PDF nativo | Al cambiar el nombre de un ajuste preestablecido, se produce una NullPointerException mientras se genera una salida de PDF. (11889)
-- El contenido `<conref>` no se muestra en la salida del PDF. (11131)
+- El contenido de `<conref>` no se muestra en la salida de PDF. (11131)
 - Se agrega un espacio adicional dentro de los elementos `<div>` al alternar entre la vista Autor y Source en el editor de diseño de página. (10750)
-- AEM El contenido replicado en el administrador de nube de no es visible en la instancia de Publish. (9564)
+- El contenido replicado en AEM Cloud Manager no es visible en la instancia de publicación. (9564)
 
 ### Traducción
 

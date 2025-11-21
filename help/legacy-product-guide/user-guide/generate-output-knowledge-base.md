@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 5fc81de9-9ae0-4cd4-a7ef-b52eed2479f7
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 2%
@@ -60,7 +60,6 @@ También puede ver las siguientes opciones en los ajustes preestablecidos de Sal
 | Cargar como borrador | Seleccione esta opción para cargar el tema y compartirlo como borrador antes de ponerlo a disposición de los usuarios. |
 | Cargar imágenes | Seleccione esta opción si desea que las imágenes de los temas se incluyan en la salida publicada. |
 | Cargar documentos vinculados | Seleccione esta opción para incluir los documentos vinculados en los temas de la salida publicada. |
-
 
 ### Adobe Experience Manager
 

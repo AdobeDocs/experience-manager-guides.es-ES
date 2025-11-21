@@ -4,7 +4,7 @@ description: Última versión de Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '3644'
 ht-degree: 1%
@@ -49,9 +49,9 @@ Para obtener más información, consulte la sección Requisitos técnicos en la 
 | --- | --- | --- | --- | --- |
 | 4.1.3 (no UUID) | 2020.2 o superior* | 2019 | 2020.3 o superior | 2019.8 (última actualización) |
 | 4.1.3 (UUID) | 2020.2 o superior* | No compatible | 2020.4 o superior | No compatible |
-| | | | |
+| | | | |  |
 
-AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir de 2020.2 son compatibles con las versiones de FMPS.
+*Las condiciones y de línea de base creadas en AEM son compatibles con las versiones de FMPS a partir de 2020.2.
 
 ### Conector de oxígeno
 
@@ -59,7 +59,7 @@ AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir
 | --- | --- | --- |--- |--- |
 | 4.1.3 (no UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
 | 4.1.3 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 
 ## Problemas solucionados
@@ -92,9 +92,9 @@ Para obtener más información, consulte la sección Requisitos técnicos en la 
 | --- | --- | --- | --- | --- |
 | 4.1.2 (no UUID) | 2020.2 o superior* | 2019 | 2020.3 o superior | 2019.8 (última actualización) |
 | 4.1.2 (UUID) | 2020.2 o superior* | No compatible | 2020.4 o superior | No compatible |
-| | | | |
+| | | | |  |
 
-AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir de 2020.2 son compatibles con las versiones de FMPS.
+*Las condiciones y de línea de base creadas en AEM son compatibles con las versiones de FMPS a partir de 2020.2.
 
 ### Conector de oxígeno
 
@@ -102,7 +102,7 @@ AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir
 | --- | --- | --- |--- |--- |
 | 4.1.2 (no UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
 | 4.1.2 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 
 ## Problemas solucionados
@@ -149,9 +149,9 @@ Para obtener más información, consulte la sección Requisitos técnicos en la 
 | --- | --- | --- | --- | --- |
 | 4.1 (no UUID) | 2020.2 o superior* | 2019 | 2020.3 o superior | 2019.8 (última actualización) |
 | 4.1 (UUID) | 2020.2 o superior* | No compatible | 2020.4 o superior | No compatible |
-| | | | |
+| | | | | |
 
-AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir de 2020.2 son compatibles con las versiones de FMPS.
+*Las condiciones y de línea de base creadas en AEM son compatibles con las versiones de FMPS a partir de 2020.2.
 
 ### Conector de oxígeno
 
@@ -159,7 +159,7 @@ AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir
 | --- | --- | --- |--- |--- |
 | 4.1 (no UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
 | 4.1 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
-|  |  |  |
+|  |  |  | | |
 
 
 ## Nuevas funciones y mejoras
@@ -169,10 +169,11 @@ AEM Guides proporciona muchas mejoras y nuevas funciones en la versión 4.1:
 ### Publicación nativa de PDF
 
 También se ha añadido compatibilidad con la creación de un PDF nativo en la versión 4.1 de AEM Guides. Se ha introducido un nuevo motor de publicación con las siguientes funciones:
+
 * Creación de una plantilla CSS
 * Crear diferentes plantillas de página
-* Plantillas de PDF de diseño que incluyen plantillas CSS y de página
-* Contenido de temas y mapas de Publish en formato de PDF
+* Diseñar plantillas de PDF que incluyan plantillas CSS y de página
+* Publicación de contenido de temas y mapas en formato PDF
 
 ### Compatibilidad con la ruta del sitio de la base de conocimiento en la publicación basada en artículos
 
@@ -300,19 +301,19 @@ Para obtener más información sobre la traducción, consulte *Traducir document
 
 ### Publicación mejorada
 
-* También puede acceder al **Tablero de Publish** desde la pestaña Salidas mientras genera resultados desde el tablero de asignaciones. Hay disponible una lista de todas las tareas de publicación activas en el panel de Publish.
+* También puede acceder a **Tablero de publicación** desde la pestaña Salidas mientras genera resultados desde el tablero de asignaciones. En el tablero de publicación hay disponible una lista de todas las tareas de publicación activas.
 
 ![salidas en cola](assets/queued-output.png)
 
-* Desde el panel de mapas puede seleccionar varios archivos DITAVAL para generar contenido condicionado. Puede mantener el orden de los archivos añadiendo o eliminando archivos. AEM También puede pasar el ratón sobre el nombre del archivo para ver la ruta en el repositorio de donde se almacena el archivo.
+* Desde el panel de mapas puede seleccionar varios archivos DITAVAL para generar contenido condicionado. Puede mantener el orden de los archivos añadiendo o eliminando archivos. También puede pasar el ratón sobre el nombre del archivo para ver la ruta en el repositorio de AEM donde está almacenado el archivo.
 
-* AEM Se han respetado las líneas de base para los metadatos de la salida del sitio de la. También puede procesar las propiedades de una versión de línea base como metadatos. Si no se define ninguna línea de base, las propiedades de la última versión se procesan como metadatos.
+* Se han respetado las líneas de base para los metadatos de la salida del sitio de AEM. También puede procesar las propiedades de una versión de línea base como metadatos. Si no se define ninguna línea de base, las propiedades de la última versión se procesan como metadatos.
 
-* Se han agregado las opciones **Nombre de archivo** y **Argumentos de línea de comandos DITA-OT** para los ajustes preestablecidos de salida HTML 5, EPUB y Personalizado. Ahora puede especificar el nombre del archivo con el que desea guardar la salida. También puede especificar los argumentos adicionales que desea que DITA-OT procese al generar resultados.
+* Se han agregado las opciones **Nombre de archivo** y **Argumentos de línea de comandos DITA-OT** para los ajustes preestablecidos de salida personalizados, EPUB y HTML5. Ahora puede especificar el nombre del archivo con el que desea guardar la salida. También puede especificar los argumentos adicionales que desea que DITA-OT procese al generar resultados.
 
 ### Tablero de mapas
 
-Cuando selecciona descargar el mapa DITA, la solicitud se pone en cola y recibe una notificación cuando el mapa está listo para descargarse. AEM Puede elegir descargar el archivo de asignación inmediatamente o descargarlo más tarde desde el vínculo proporcionado en la bandeja de entrada de notificaciones de la.
+Cuando selecciona descargar el mapa DITA, la solicitud se pone en cola y recibe una notificación cuando el mapa está listo para descargarse. Puede elegir descargar el archivo de asignación inmediatamente o descargarlo más tarde desde el vínculo proporcionado en la bandeja de entrada de notificaciones de AEM.
 
 ![Descarga de mapa](assets/download-map-prompt.png)
 
@@ -323,7 +324,7 @@ Cuando selecciona descargar el mapa DITA, la solicitud se pone en cola y recibe 
 
 ### Función obsoleta
 
-AEM Guides ya no admite la generación del formato de salida DITA para documentos de FrameMaker. Esta opción DITA también se ha eliminado de los ajustes preestablecidos de salida del tablero de mandos Mapa.
+AEM Guides ya no admite la generación del formato de salida DITA para documentos FrameMaker. Esta opción DITA también se ha eliminado de los ajustes preestablecidos de salida del tablero de mandos Mapa.
 
 ## Problemas solucionados
 
@@ -331,13 +332,13 @@ A continuación se enumeran los errores corregidos en varias áreas:
 
 * La compatibilidad de creación no está disponible como alternativa para las referencias basadas en rutas de archivos para la publicación. (8076)
 * El paquete DITA Add on evita la detección de recursos duplicados DAM. (8417)
-* AEM Después de registrar un documento de Oxygen en el que se ha realizado el registro, el contenido en japonés del documento se reemplaza por signos de interrogación (???). (9124)
+* Después de registrar un documento de Oxygen a AEM, el contenido japonés del documento se reemplaza por signos de interrogación (???). (9124)
 * Actualizar archivos desprotegidos no funciona en el registro con autenticación Web en Oxygen. (9179)
 * El archivo no está desprotegido cuando se abre en Oxygen. (9192)
-* AEM Después de registrar un documento de Oxygen en el que se ha realizado el registro, el contenido en japonés del documento se reemplaza por signos de interrogación (???). (9276)
+* Después de registrar un documento de Oxygen a AEM, el contenido japonés del documento se reemplaza por signos de interrogación (???). (9276)
 * La autenticación web no funciona en Oxygen. (9296)
-* AEM La recarga falla en Oxygen cuando el archivo o los archivos ya existen en la misma ubicación en la que se encuentran en la misma ubicación. (9328)
-* AEM La opción no está disponible para sincronizar contenido a la fuerza entre el sistema local y el sistema de datos local. (9439)
+* La recarga falla en Oxygen cuando los archivos ya existen en AEM en la misma ubicación. (9328)
+* Opción no disponible para sincronizar contenido a la fuerza entre AEM y el sistema local. (9439)
 * La ID no se genera automáticamente para el elemento agregado mediante el cuadro de diálogo **Insertar contenido reutilizable** de la barra de herramientas secundaria. (5826)
 * No se muestra ningún cuadro de diálogo de confirmación al cargar una imagen con el mismo nombre que un archivo existente, a través del editor. (6011)
 * Un espacio de no separación no está disponible en el pallet de caracteres. (7523)
@@ -361,19 +362,19 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * La descripción de la tarea de revisión no aparece en la notificación por correo electrónico que se envía cuando se asigna una nueva tarea de revisión. (8507)
 * Descargar API de mapa | Las carpetas temporales no se limpian en caso de que se produzcan errores de proceso de descarga. (8523)
 * `columnpreview.jsp` depende del SP.  (8543)
-* Los trabajos de salida con un estado como &quot;Esperando&quot; o &quot;Ejecutando&quot; no se limpian en el panel de Publish.  (8569)
+* Los trabajos de salida con un estado como &quot;Esperando&quot; o &quot;Ejecutando&quot; no se limpian en el panel de publicación.  (8569)
 * Icono predeterminado seleccionado al generar un informe con el botón Generar, incluso cuando se define la propiedad del icono. (8573)
 * Se han producido problemas en el proceso de revisión al actualizar de 3.8.X a 4.0. (8788)
 * En el panel Revisar del editor web, si un nombre de usuario es largo, los iconos para aceptar/rechazar no se muestran claramente. (8793)
 * Saltos del árbol de referencia después de quitar un tema y realizar una operación de movimiento. (8804)
 * La DTD personalizada definida por el usuario no tiene prioridad sobre la DTD DITA estándar incrustada en DITA-OT. (9104)
 * La posición del resaltado es incorrecta en la vista en paralelo. (9305)
-* AEM La nota al pie utilizada por referencia no se desplaza a la sección de notas al pie de página en la salida del sitio de la aplicación de notas de pie de página de la página de salida de la página. (9061)
-* AEM El orden de las notas al pie es incorrecto en la salida del sitio de la. (9327)
+* La nota al pie utilizada por referencia no se desplaza a la sección de notas al pie en la salida del sitio de AEM. (9061)
+* El orden de las notas al pie es incorrecto en la salida del sitio de AEM. (9327)
 * Los recursos DITA recién creados siempre los extrae otro usuario. (9387)
 * El error siempre se registra al crear contenido nuevo. (9388)
 * La tercera pantalla del proceso de creación de la tarea de revisión no muestra la lista de glosarios. (4558)
-* Se han asignado referencias UUID incorrectas al cargar varios archivos desde el conector de FrameMaker/oxígeno. (8269)
+* Se han asignado referencias UUID incorrectas al cargar varios archivos desde el conector de FrameMaker/Oxygen. (8269)
 * No se envía una notificación por correo electrónico cuando se reasigna una tarea de revisión en la bandeja de entrada. (8376)
 * El segundo usuario administrador no se puede agregar como primer usuario administrador a una carpeta. (8430)
 * El cuadro de diálogo **Aplicar etiquetas** de la pestaña Línea de base no muestra las etiquetas en la lista desplegable. (8455)
@@ -382,9 +383,9 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * En el panel Historial de versiones, la sección Versión actual muestra una marca de tiempo incorrecta y se ha modificado mediante información. (8765)
 * La línea de base no se actualiza según la etiqueta definida. (8799)
 * Se produce un error cuando los archivos cuya carpeta principal contiene caracteres especiales en el nombre de archivo se abren en Oxígeno (con el botón **Editar en Oxígeno**). (8918)
-* AEM La carga de archivos de Oxygen a la red de distribución de archivos falla. (9157)
+* La carga de archivos de Oxygen a AEM falla. (9157)
 * Descargar mapa con línea de base no funciona si el contenido se mueve a otra carpeta. (9331)
-* AEM Oxygen comprueba una versión incorrecta de un tema después de que una versión vuelva a estar en la versión de la versión de la versión de la versión de la versión de la versión de la versión de la. (9411)
+* Oxygen comprueba una versión incorrecta de un tema después de revertir una versión en AEM. (9411)
 * Buscar en el panel Repositorio y el cuadro de diálogo de exploración de referencias de tema congela la pantalla cuando el contenido es grande. (9432)
 * Si la opción **Crear nueva versión para el archivo cargado** está activada, se crea una nueva versión al revertir y guardar en cualquier nodo inmovilizado. (9473)
 * Las diferencias de marca de tiempo incorrectas se muestran en la IU de Assets al revertir una versión de archivo. (9480)
@@ -392,7 +393,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * El icono de bloqueo se muestra en la vista del repositorio incluso cuando el archivo se registra desde el editor.  (5756)
 * No se pueden agregar elementos de contenido anterior y de contenido posterior en un mapa de libros mediante la vista Autor del Editor Web. (7652)
 * El modo de vista previa no admite el atributo de procesamiento condicional `deliveryTarget` en DITA. (7685)
-* AEM Al abrir un tema del glosario en el editor XML, se fuerza a los usuarios a que lo guarden aunque no se haya modificado. (8105)
+* Al abrir un tema del glosario en el editor XML, AEM obliga a guardarlo aunque no se haya modificado. (8105)
 * El cuadro de diálogo Insertar referencias se abre al agregar subjectref a un mapa mediante la interfaz de usuario. (8212)
 * El panel Reutilizar contenido se bloquea al buscar caracteres especiales `[` o `*`(8279)
 * Durante la creación de Glossentry, el editor web muestra el contenido como una nota. (8384)
@@ -403,7 +404,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * Faltan atributos al agregar un capítulo al mapa de libros mediante arrastrar y soltar desde la vista Favoritos. (8746)
 * El cuadro de diálogo Insertar palabra clave no tiene la capacidad de búsqueda y las palabras clave no se muestran en orden. (9094)
 * Al realizar una búsqueda en el Editor XML, la página se bloquea. (9452)
-* AEM Faltan sitios en los ajustes preestablecidos de la interfaz de usuario en la pestaña Salida. (9567)
-* Las imágenes de SVG que no se representan correctamente en los modos de autor del Editor XML. (9426)
+* Faltan sitios en los ajustes preestablecidos de AEM en la pestaña Salida. (9567)
+* Imágenes de SVG que no se representan correctamente en los modos de autor del Editor XML. (9426)
 * La línea de base no se cumple al publicar mediante Salesforce. (8953)
 * No está presente la capacidad de borrar el mapa de raíz de la configuración de preferencias de usuario. (8534)

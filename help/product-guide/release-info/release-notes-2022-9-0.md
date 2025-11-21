@@ -4,7 +4,7 @@ description: Versión de septiembre de Adobe Experience Manager Guides as a Clou
 exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 0%
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ## Actualización a la versión de septiembre
 
-Actualice la configuración actual del as a Cloud Service de Adobe Experience Manager Guides (más adelante denominado *AEM Guides as a Cloud Service*) realizando los siguientes pasos:
-1. Consulte el código Git de los Cloud Service y cambie a la rama configurada en la canalización de Cloud Service correspondiente al entorno que desea actualizar.
-1. Actualice la propiedad `<dox.version>` en el archivo `/dox/dox.installer/pom.xml` de su código Git de Cloud Service a 2022.9.178.
-1. Confirme los cambios y ejecute la canalización de Cloud Service para actualizar a la versión de septiembre de AEM Guides as a Cloud Service.
+Actualice la configuración actual de Adobe Experience Manager Guides as a Cloud Service (más adelante denominada *AEM Guides as a Cloud Service*) siguiendo estos pasos:
+1. Consulte el código Git de Cloud Services y cambie a la rama configurada en la canalización de Cloud Services correspondiente al entorno que desea actualizar.
+1. Actualice la propiedad `<dox.version>` en el archivo `/dox/dox.installer/pom.xml` de su código Git de Cloud Services a 2022.9.178.
+1. Confirme los cambios y ejecute la canalización de Cloud Services para actualizar a la versión de septiembre de AEM Guides as a Cloud Service.
 
 ## Pasos para indexar el contenido existente
 
 Realice los siguientes pasos para indexar el contenido existente y utilice el nuevo texto de búsqueda y reemplazo a nivel de mapa:
-* Ejecute una solicitud de POST al servidor (con la autenticación correcta): `http://<server:port>/bin/guides/map-find/indexin`.
+* Ejecute una petición POST en el servidor (con la autenticación correcta): `http://<server:port>/bin/guides/map-find/indexin`.
 (Opcional: puede pasar rutas específicas de los mapas para indexarlas, de forma predeterminada se indexarán todas las asignaciones ||  Ejemplo :   `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 * La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (Por ejemplo: `http://<_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)`
@@ -41,19 +41,19 @@ Esta sección enumera la matriz de compatibilidad para las aplicaciones de softw
 | No compatible | Actualización 4 de 2020 y posterior |
 | | |
 
-AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir de 2020.2 son compatibles con las versiones de FMPS.
+*Las condiciones y de línea de base creadas en AEM son compatibles con las versiones de FMPS a partir de 2020.2.
 
 ### Conector de oxígeno
 
 | Versión de AEM Guides as a Cloud | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2022.9.0 | 2.7.13 | 2.7.13 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ## Nuevas funciones y mejoras
 
-AEM Guides as a Cloud Service ofrece muchas mejoras y nuevas funciones en la versión de septiembre:
+AEM Guides as a Cloud Service proporciona muchas mejoras y nuevas funciones en la versión de septiembre:
 
 
 ### Crear una línea base dinámica basada en etiquetas
@@ -84,7 +84,7 @@ En función de las diferencias, puede decidir si desea traducir un tema o no.
 
 ### IU de metadatos disponible para ajustes preestablecidos de PDF
 
-Puede definir los metadatos a partir del ajuste preestablecido de salida de un mapa DITA. Puede establecer los metadatos de Título, Autor, Asunto y Palabras clave. Estos metadatos se asignan a los metadatos de las propiedades de archivo del PDF de salida.
+Puede definir los metadatos a partir del ajuste preestablecido de salida de un mapa DITA. Puede establecer los metadatos de Título, Autor, Asunto y Palabras clave. Estos metadatos se asignan a los metadatos de las Propiedades del archivo de su PDF de salida.
 Estos metadatos anulan los metadatos definidos en el nivel de libro. Puede definir los metadatos específicamente en cada ajuste preestablecido de salida y pasarlos al PDF de salida.
 
 ![Metadatos en ajuste preestablecido](assets/preset-metadata.png)
@@ -112,27 +112,27 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * Buscar y reemplazar | El modo oscuro no se puede leer para los resultados de búsqueda en el editor web. (9978)
 * Traducción | Los metadatos y las etiquetas no se propagan a las copias traducidas. (4696)
 * Copiar y pegar contenido (ctrl+c/ctrl+v) genera un error en el modo Autor. (10304)
-* Plantilla de PDF | Al agregar imágenes de fondo a cualquier diseño de página, se muestra Ruta de imagen absoluta y las imágenes no se muestran en el PDF de salida. (10297)
+* Plantilla de PDF | Al agregar imágenes de fondo a cualquier diseño de página, se muestra la ruta de imagen absoluta y las imágenes no se muestran en el PDF de salida. (10297)
 * PDF nativo | El título y el encabezado del capítulo no funcionan en la publicación de PDF. (9947)
 * PDF nativo | `xref` para un concepto no se ha resuelto correctamente para un tema DITA específico. (10229)
-* PDF nativo | No se puede ver el texto de rótulo de una tabla en la salida del PDF generada. (9827)
-* PDF nativo | Las referencias de los apéndices no se muestran como apéndices en la salida del PDF. (10182)
+* PDF nativo | No se puede ver el texto de rótulo de una tabla en la salida de PDF generada. (9827)
+* PDF nativo | Las referencias en los apéndices no se muestran como apéndices en la salida de PDF. (10182)
 * PDF nativo | El atributo Frame de una tabla no se propaga al HTML temporal (como clase). (10353)
 * PDF nativo | los ficheros HTML temporales añaden las clases colsep y rowsep a td y el incluso si su valor es 0 en el DITA de origen. (10352)
 * PDF nativo |  No se aceptan los metadatos para los criterios agregados en el diseño de página. (10377)
-* PDF nativo |  Error al generar el PDF para contenido específico. (9927)
-* PDF nativo | El contenido mediante conkeyref no se muestra en la salida del PDF. (9836)
+* PDF nativo |  La generación de PDF falla en un contenido específico. (9927)
+* PDF nativo | El contenido a través de conkeyref no se muestra en la salida de PDF. (9836)
 * PDF nativo | Las referencias clave para los valores de clave con imágenes o vínculos externos no se resuelven. (10063)
 * La vista Autor de un mapa no muestra el texto de marcador de posición de la lista de tablas y la lista de figuras. (10330)
 * Cuando creamos una nueva línea base, el filtro de línea base ya seleccionado no se aplica. (9954)
 * Falta el archivo de vídeo de la línea de base si el nombre de la carpeta principal tiene un carácter de espacio. 10031)
 * La creación de la línea base no elige la última versión cuando la zona horaria del usuario es diferente de la del servidor. (10190)
-* El método abreviado de teclado Control + F no abre el modal de búsqueda del explorador en la consola de Assets después de instalar AEM Guides AEM 4.1 en la versión 6.5.12 de. (10189)
+* El método abreviado Control + F no abre el modal de búsqueda del explorador en la consola de Assets después de instalar AEM Guides 4.1 en AEM 6.5.12. (10189)
 
 
 ## Problemas conocidos
 
-El Adobe ha identificado los siguientes problemas conocidos para la versión de septiembre de 2022 de AEM Guides as a Cloud Service.
+Adobe ha identificado los siguientes problemas conocidos para la versión de septiembre de 2022 de AEM Guides as a Cloud Service.
 
 
 * La línea de base dinámica no está integrada con la publicación de la base de conocimiento.

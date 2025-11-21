@@ -4,7 +4,7 @@ description: Cree y configure el ajuste preestablecido de AEM Sites en la consol
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: 358d38ca761661eaee7aeac2cc7d46c53105c543
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '3592'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Realice los siguientes pasos para crear el ajuste preestablecido de AEM Sites me
    Se crea el ajuste preestablecido de AEM Sites.
 
 
-   ![Nuevo &#x200B;](images/new-aem-sites-dialog-box.png){width="300" align="left"}
+   ![Nuevo ](images/new-aem-sites-dialog-box.png){width="300" align="left"}
 
 <!-----------------------
 ### Generate the AEM Sites output using the templates
@@ -88,7 +88,7 @@ En la consola Mapa, las opciones de configuración preestablecidas para la asign
 - Lista de temas
 - Referencias entre mapas
 
-![Nuevo &#x200B;](images/aem-sites-new-config.png){width="650" align="left"}
+![Nuevo ](images/aem-sites-new-config.png){width="650" align="left"}
 
 **General**
 
@@ -153,7 +153,7 @@ En la consola Mapa, las opciones de configuración preestablecidas para la asign
 - Contenido
 - Referencias entre mapas
 
-![Nuevo &#x200B;](images/aem-sites-preset-legacy-config.png){width="500" align="left"}
+![Nuevo ](images/aem-sites-preset-legacy-config.png){width="500" align="left"}
 
 **General**
 
@@ -171,7 +171,7 @@ La ficha **General** contiene las siguientes opciones de configuración:
 
 **Contenido**
 
-![Nuevo &#x200B;](images/aem-sites-content-tab.png){width="650" align="left"}
+![Nuevo ](images/aem-sites-content-tab.png){width="650" align="left"}
 
 La pestaña **Content** contiene las siguientes opciones de configuración:
 

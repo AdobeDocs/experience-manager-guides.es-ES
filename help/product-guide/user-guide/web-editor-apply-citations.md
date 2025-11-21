@@ -4,7 +4,7 @@ description: Añada y administre citas en AEM Guides. Aprenda a aplicar, importa
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 0%
@@ -66,8 +66,8 @@ Para añadir citas, siga estos pasos:
    | **Año** <br> Agrega el año en que se publica el libro. | **Fecha de actualización** <br> Añada la fecha en la que se actualiza el contenido del sitio web. | **Páginas** <br> Agregue el número de página o el intervalo de páginas en el que se encuentra el artículo. |
    | **Versión** <br> Agregue la versión del libro. | **ID único** <br> Agregue un ID único para la cita. Un ID único es un identificador único para esa cita. | **URL** <br>Agregue el vínculo web al diario. |
    | **Serie** <br>Agrega la serie del libro. |  | **ID único** <br> Agrega un ID único para la cita. Un ID único es un identificador único para esa cita. |
-   | **URL** <br> Agregue el vínculo web al libro. |
-   | **ID único** <br> Agregue un ID único para la cita. Un ID único es un identificador único para esa cita. |
+   | **URL** <br> Agregue el vínculo web al libro. |  |  |
+   | **ID único** <br> Agregue un ID único para la cita. Un ID único es un identificador único para esa cita. |  |  |
 
 1. Seleccione **Listo**.
 
@@ -96,7 +96,7 @@ Para importar citas, siga estos pasos:
 
    >[!NOTE]
    > <ol><li> Experience Manager Guides importa solo las citas que son únicas y no están presentes.
-   > &gt; <li> Experience Manager Guides puede importar citas de un libro, una revista o un sitio web. Actualmente no admite citas de otras fuentes.
+    &gt; <li> Experience Manager Guides puede importar citas de un libro, una revista o un sitio web. Actualmente no admite citas de otras fuentes.
 
 ## Administrar citas
 
@@ -186,7 +186,7 @@ Puede insertar citas al tema desde la barra de herramientas principal o el panel
 
 ### Desde la barra de herramientas principal
 
-1. Seleccione el icono de **citas** ![citas &#x200B;](images/citations-icon.svg) en la barra de herramientas principal.
+1. Seleccione el icono de **citas** ![citas ](images/citations-icon.svg) en la barra de herramientas principal.
 1. En el cuadro de diálogo **Citas**, elija la cita. También puede seleccionar varias citas.
    ![cuadro de diálogo de cita](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. Puede filtrar las citas escribiendo los primeros alfabetos en el panel de búsqueda del cuadro de diálogo **Cita**.
@@ -201,7 +201,7 @@ La cita seleccionada se agrega en la ubicación del cursor en el tema.
 > 
 >Para ver el icono **Citas** desde el panel izquierdo, el administrador del sistema debe habilitar la opción **Citas** en la pestaña **Paneles** en **Configuración**.
 
-1. Seleccione **Citas** ![icono de citas &#x200B;](images/citations-icon.svg) en el panel izquierdo.
+1. Seleccione **Citas** ![icono de citas ](images/citations-icon.svg) en el panel izquierdo.
 1. Arrastre la cita del panel **Citas** y suéltela en el lugar apropiado del tema.
 
    También puede seleccionar **Insertar** de ![](images/options.svg) **Opciones** para insertar una cita.

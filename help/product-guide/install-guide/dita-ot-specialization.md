@@ -5,9 +5,9 @@ exl-id: ddc1393b-b269-40e5-9627-96dad82b42e9
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: b04f20af6e1f85746e13dad464513bf60b039378
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '2122'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Si desea procesar parámetros Ant al publicar cualquier salida, AEM Guides le of
 
 ## Uso de complementos DITA-OT personalizados {#id181NH1020L7}
 
-Existen dos maneras de utilizar el complemento DITA-OT personalizado para la publicación. AEM El primer método consiste en cargar el complemento DITA-OT personalizado en el repositorio de la. El otro método es guardar el complemento DITA-OT personalizado en el servidor, crear un perfil y proporcionar la ubicación del complemento DITA-OT personalizado en el perfil.
+Existen dos maneras de utilizar el complemento DITA-OT personalizado para la publicación. El primer método es cargar el complemento DITA-OT personalizado en el repositorio de AEM. El otro método es guardar el complemento DITA-OT personalizado en el servidor, crear un perfil y proporcionar la ubicación del complemento DITA-OT personalizado en el perfil.
 
 De forma predeterminada, AEM Guides incluye un perfil preconfigurado que contiene las configuraciones de las plantillas predeterminadas que se utilizan para editar y publicar contenido. Puede crear perfiles personalizados con plantillas personalizadas para utilizarlas al editar documentos y complementos DITA-OT personalizados para publicar contenido.
 
@@ -38,9 +38,9 @@ El paquete DITA-OT predeterminado disponible con AEM Guides viene con el procesa
 >
 > Si ha actualizado AEM Guides de la versión 2.2 a la versión 2.5.1 o 2.6, todos los cambios realizados mediante el administrador de configuración se seleccionan automáticamente y se almacenan en el perfil predeterminado.
 
-AEM Realice los siguientes pasos para cargar el complemento DITA-OT personalizado en el repositorio de:
+Siga estos pasos para cargar el complemento DITA-OT personalizado en el repositorio de AEM:
 
-1. AEM Inicie sesión en la aplicación y abra el modo CRXDE Lite.
+1. Inicie sesión en AEM y abra el modo CRXDE Lite.
 
 1. Descargar el archivo de `DITA-OT.ZIP`.
 
@@ -58,14 +58,13 @@ AEM Realice los siguientes pasos para cargar el complemento DITA-OT personalizad
 
 1. Vuelva a crear el archivo ZIP manteniendo el mismo nombre \(`DITA-OT.ZIP`\) y la estructura de carpetas.
 
-1. AEM Cargue el archivo ZIP actualizado de nuevo en el repositorio de.
+1. Cargue el archivo ZIP actualizado de nuevo en el repositorio de AEM.
 
    Asegúrese de realizar las siguientes comprobaciones antes de cargar el archivo ZIP:
 
    - Ejecute el integrador \(para instalar el complemento personalizado\) en un sistema operativo Mac/Linux para evitar problemas con los separadores de archivos: como los sistemas operativos Windows y Linux tienen diferentes separadores de archivos, el complemento integrado en el sistema operativo Mac/Linux es compatible con la configuración de Windows y Linux.
    - Asegúrese de que el archivo `DITA-OT.ZIP` contenga una carpeta denominada &quot;DITA-OT&quot; que tenga todos los complementos y archivos relevantes.
-   - AEM Compruebe que el archivo `DITA-OT.ZIP` que crea sea del tipo mime: &quot;nt:file&quot; \(corresponde al tipo principal de archivo ZIP cuando se carga en el archivo de tipo\). AEM Utilice una herramienta WebDAV o una implementación de código para cargar este archivo ZIP en la ruta deseada en la. AEM AEM \(No utilice el administrador de paquetes de la aplicación para implementar este archivo ZIP, ya que este ZIP no es un paquete de contenido de la aplicación, sino solo un archivo de almacenamiento.\)
-
+   - Compruebe que el archivo `DITA-OT.ZIP` que crea sea del tipo mime: &quot;nt:file&quot; \(corresponde al tipo principal de archivo ZIP cuando se carga en AEM\). Utilice una herramienta WebDAV o una implementación de código para cargar este archivo ZIP en la ruta deseada en AEM. \(No utilice el administrador de paquetes de AEM para implementar este archivo ZIP, ya que este ZIP no es un paquete de contenido de AEM, sino solo un archivo.\)
    >[!NOTE]
    >
    > Se recomienda no sobrescribir el paquete DITA-OT predeterminado. Debe cargar el paquete DITA-OT personalizado que contiene el complemento en otra ubicación de la carpeta `apps`.
@@ -101,23 +100,23 @@ Realice los siguientes pasos para crear un nuevo perfil y configurarlo para util
 
    | Nombre de la propiedad | Descripción |
    |-------------|-----------|
-   | **Propiedades de perfil** |
+   | **Propiedades de perfil** |  |
    | Nombre de perfil | Proporcione un nombre único para este perfil. |
    | Reutilizar salida | *\(Opcional\)* Si su perfil se basa en un perfil existente, seleccione esta opción. Si selecciona esta opción, AEM Guides no volverá a extraer el contenido del paquete DITA-OT y reutilizará el paquete DITA-OT existente. |
    | Ruta de extracción de perfil | *\(Opcional\)* Especifique la ruta en la que DITA-OT se mantiene en el disco. De forma predeterminada, AEM Guides agrupa un paquete DITA-OT en su repositorio y se extrae en el disco en esta ruta.<br>**Nota** Puede definir esta ruta usando cualquier variable o propiedad del sistema existente. Consulte la descripción de la propiedad [DITA-OT Environment Variables](#id181NH0YN0AX) para obtener más información. |
    | Ruta asignada | \(*Opcional*\) Especifique la ruta en el repositorio de contenido para el que se aplica este perfil. Puede especificar varias ubicaciones. |
-   | **Propiedades DITA-OT** |
+   | **Propiedades DITA-OT** |  |
    | Tiempo de espera DITA-OT | \(*Opcional*\) Especifique el tiempo \(en segundos\) durante el que AEM Guides espera una respuesta del complemento DITA-OT. Si no se recibe ninguna respuesta en el tiempo especificado, AEM Guides finaliza la tarea de publicación y la tarea se marca como fallida. Además, los registros de errores están disponibles en el archivo de registro de generación de resultados. <br>Valor predeterminado: 300 segundos \(5 minutos\) |
-   | Argumentos del PDF DITA-OT | Especifique los argumentos de línea de comandos que procesa el complemento DITA-OT personalizado para generar la salida del PDF. Para todos los perfiles DITA-OT personalizados, especifique el siguiente argumento de línea de comandos:`-lib plugins/org.dita.pdf2.fop/lib/` |
-   | AEM Argumentos de DITA-OT | AEM \(*Opcional*\) Especifique los argumentos de línea de comandos personalizados que procesa el complemento DITA-OT personalizado para generar la salida del sitio de la. |
+   | Argumentos de DITA-OT PDF | Especifique los argumentos de línea de comandos que procesa el complemento DITA-OT personalizado para generar la salida de PDF. Para todos los perfiles DITA-OT personalizados, especifique el siguiente argumento de línea de comandos:`-lib plugins/org.dita.pdf2.fop/lib/` |
+   | Argumentos de DITA-OT AEM | \(*Opcional*\) Especifique los argumentos de línea de comandos personalizados que procesa el complemento DITA-OT personalizado para generar la salida del sitio de AEM. |
    | Rutas de biblioteca DITA-OT | \(*Opcional*\) Especifique las rutas de biblioteca adicionales del complemento DITA-OT. |
    | XML de compilación DITA-OT | \(*Opcional*\) Especifique la ruta del script de compilación Ant personalizado que se incluye con el complemento DITA-OT personalizado. Esta ruta es relativa al directorio DITA-OT del sistema de archivos. |
    | Carpeta de script DITA-OT Ant | \(Opcional\) Especifique la ruta de la carpeta de scripts DITA-OT Ant. Esta ruta es relativa al directorio DITA-OT del sistema de archivos. |
-   | Variables de entorno DITA-OT | *\(Opcional\)* Especifique las variables de entorno que desea pasar al proceso DITA-OT. De manera predeterminada, AEM Guides agrega cuatro variables: `ANT_OPTS`, `ANT_HOME`, `PATH` y `CLASSPATH`. <br> Puede reutilizar cualquiera de las variables o propiedades de entorno del sistema existentes para generar nuevas variables de entorno. Por ejemplo, si tiene `JAVA_HOME` variable de sistema definida en el sistema y desea definir una nueva variable de entorno llamada `JAVA_BIN` que se ha creado con `JAVA_HOME`. A continuación, puede agregar la definición de `JAVA_BIN` como:<br> `JAVA_BIN= ${JAVA_HOME}/bin` <br> **Nota** También puede usar las propiedades del sistema Java para generar variables de entorno. AEM Por ejemplo, si el script de inicio define una propiedad del sistema Java `java.io.tmpdir` en un directorio temporal, puede utilizar esta propiedad para definir una nueva variable como: `${java.io.tmpdir}/fmdita/dita_ot`. <br> **Importante** Para reutilizar cualquier variable o propiedad del sistema existente, debe incluirse en `${}`. |
-   | Sobrescribir salida DITA-OT | *\(Opcional\)* Si se selecciona esta opción, puede especificar el paquete DITA-OT disponible en el sistema local para generar la salida mediante DITA-OT. Esta configuración se establece al activar ConfigManager. AEM <br> Si desea especificar la ruta de un paquete DITA-OT almacenado en el servidor, anule la selección de esta opción. |
-   | AEM Ruta de archivo zip de DITA-OT/ Ruta de directorio DITA-OT local | En función de lo que seleccione en Sobrescribir salida DITA-OT, especifique la ruta completa en la que se almacena el fichero DITA-OT.zip personalizado. AEM Podría ser la ruta en su repositorio de o en el sistema local. |
+   | Variables de entorno DITA-OT | *\(Opcional\)* Especifique las variables de entorno que desea pasar al proceso DITA-OT. De manera predeterminada, AEM Guides agrega cuatro variables: `ANT_OPTS`, `ANT_HOME`, `PATH` y `CLASSPATH`. <br> Puede reutilizar cualquiera de las variables o propiedades de entorno del sistema existentes para generar nuevas variables de entorno. Por ejemplo, si tiene `JAVA_HOME` variable de sistema definida en el sistema y desea definir una nueva variable de entorno llamada `JAVA_BIN` que se ha creado con `JAVA_HOME`. A continuación, puede agregar la definición de `JAVA_BIN` como:<br> `JAVA_BIN= ${JAVA_HOME}/bin` <br> **Nota** También puede usar las propiedades del sistema Java para generar variables de entorno. Por ejemplo, si el script de inicio de AEM define una propiedad del sistema Java `java.io.tmpdir` en un directorio temporal, puede utilizar esta propiedad para definir una nueva variable como: `${java.io.tmpdir}/fmdita/dita_ot`. <br> **Importante** Para reutilizar cualquier variable o propiedad del sistema existente, debe incluirse en `${}`. |
+   | Sobrescribir salida DITA-OT | *\(Opcional\)* Si se selecciona esta opción, puede especificar el paquete DITA-OT disponible en el sistema local para generar la salida mediante DITA-OT. Esta configuración se establece al activar ConfigManager. <br> Si desea especificar la ruta de un paquete DITA-OT almacenado en el servidor de AEM, anule la selección de esta opción. |
+   | Ruta Zip DITA-OT de AEM/ Ruta del directorio DITA-OT local | En función de lo que seleccione en Sobrescribir salida DITA-OT, especifique la ruta completa en la que se almacena el fichero DITA-OT.zip personalizado. Puede ser la ruta del repositorio de AEM o del sistema local. |
    | Ruta de complemento de DITA-OT | Ruta del complemento personalizado. Este complemento se integra automáticamente con el paquete DITA-OT principal. |
-   | Integrar catálogos | AEM \(*Optional*\) ruta de acceso de los archivos DTD y XSD catalog.xml personalizados en el repositorio de la. Esto sólo debe proporcionarse cuando falten catálogos en el paquete DITA-OT. Estos catálogos se integran automáticamente con el DITA-OT principal como complemento. |
+   | Integrar catálogos | \(*Optional*\) ruta de acceso de los archivos personalizados DTD y XSD catalog.xml en el repositorio de AEM. Esto sólo debe proporcionarse cuando falten catálogos en el paquete DITA-OT. Estos catálogos se integran automáticamente con el DITA-OT principal como complemento. |
    | Agregar catálogo de ID de sistema | \(*Opcional*\) Seleccione esta opción sólo si faltan entradas de Id. público en el catálogo o si los archivos DITA utilizan únicamente los Id. de sistema relativos a la ruta de acceso del servidor desde la que se cargan. |
    | Ruta temporal DITA-OT | *\(Opcional\)* Especifique una ubicación temporal en la que los archivos DITA se copien para su procesamiento. Antes de que DITA-OT procese los archivos, se copian en esta ubicación temporal. De manera predeterminada, la ubicación de almacenamiento temporal es: <br> **Nota** Puede definir esta ruta usando cualquier variable o propiedad del sistema existente. Consulte la descripción de la propiedad [DITA-OT Environment Variables](#id181NH0YN0AX) para obtener más información. |
 
@@ -150,13 +149,13 @@ Realice los siguientes pasos para crear un nuevo perfil y configurarlo para util
 
    >[!NOTE]
    >
-   > AEM En el caso de DITA 1.3, la ubicación predeterminada para el archivo DTD `catalog.xml` en el repositorio de datos es: `/libs/fmdita/dita_resources/DITA-1.3/dtd/catalog.xml`.
+   > En el caso de DITA 1.3, la ubicación predeterminada del archivo DTD `catalog.xml` en el repositorio de AEM es: `/libs/fmdita/dita_resources/DITA-1.3/dtd/catalog.xml`.
 
 1. Especifique los detalles XSD en el archivo `catalog.xml` que también se deben incluir en la carpeta de especialización.
 
    >[!NOTE]
    >
-   > AEM En el caso de DITA 1.3, la ubicación predeterminada para el archivo catalog.xml XSD en el repositorio de datos es: `/libs/fmdita/dita_resources/DITA-1.3/xsd/catalog.xml`.
+   > En el caso de DITA 1.3, la ubicación predeterminada del archivo catalog.xml XSD en el repositorio de AEM es: `/libs/fmdita/dita_resources/DITA-1.3/xsd/catalog.xml`.
 
 1. Cargue la carpeta en la siguiente ubicación:
 
@@ -180,11 +179,11 @@ Realice los siguientes pasos para crear un nuevo perfil y configurarlo para util
    >
    > No puede eliminar el perfil predeterminado. Sin embargo, todos los perfiles nuevos que cree se pueden editar y eliminar.
 
-1. AEM En la configuración de **Esquema** \> **Catálogo**, especifique la ruta de los archivos DTD y XSD `catalog.xml` personalizados del repositorio de la.
+1. En la configuración de **Esquema** \> **Catálogo**, especifique la ruta de los archivos DTD y XSD `catalog.xml` personalizados del repositorio de AEM.
 
    >[!NOTE]
    >
-   > AEM Si está utilizando el esquema personalizado, debe definir la ruta de los archivos DTD y XSD catalog.xml personalizados en el repositorio de en la opción **Integrar catálogos**.
+   > Si utiliza el esquema personalizado, debe definir la ruta de los archivos DTD y XSD catalog.xml personalizados en el repositorio de AEM en la opción **Integrar catálogos**.
 
 
 

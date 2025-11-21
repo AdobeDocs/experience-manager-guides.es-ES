@@ -4,7 +4,7 @@ description: Cree y configure los ajustes preestablecidos de sitios de AEM en AE
 feature: Publishing
 role: User
 exl-id: 641c98ca-b815-4176-abf5-a12c31ff4496
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -114,4 +114,4 @@ Puede buscar una cadena en la salida de AEM Sites. De forma predeterminada, solo
 
 Para obtener más información, consulte la sección *Configuración del acoplamiento de la estructura del nodo del sitio de AEM* en la guía Instalar y configurar Adobe Experience Manager Guides.
 
-**Tema principal:**&#x200B;[&#x200B; Explicación de los ajustes preestablecidos de salida](generate-output-understand-presets.md)
+**Tema principal:**[ Explicación de los ajustes preestablecidos de salida](generate-output-understand-presets.md)

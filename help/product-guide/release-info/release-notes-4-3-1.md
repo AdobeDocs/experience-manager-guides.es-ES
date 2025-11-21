@@ -4,9 +4,9 @@ description: Obtenga información acerca de las correcciones de errores y cómo 
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
 feature: Release Notes
 role: Leader
-source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1307'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Puede actualizar su versión actual de Experience Manager Guides a la versión 4
 
 >[!NOTE]
 >
->AEM Debe instalar el paquete de servicio de antes de actualizar la versión de Experience Manager Guides.
+>Debe instalar AEM Service Pack antes de actualizar la versión de Experience Manager Guides.
 
 Para obtener más información, consulte [Instrucciones de actualización](../install-guide/upgrade-xml-documentation.md).
 
@@ -57,9 +57,9 @@ Para obtener más información, consulte la sección *Requisitos técnicos* en l
 | --- | --- | --- | --- | --- |
 | 4.3.1 (no UUID) | 2022 o superior | 2020.2 o superior* | 2022 o superior | 2020.3 o superior |
 | 4.3.1 (UUID) | 2022 o superior | 2020.2 o superior* | 2022 o superior | 2020.4 o superior |
-| | | | |
+| | | | | |
 
-AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir de 2020.2 son compatibles con las versiones de FMPS.
+*Las condiciones y de línea de base creadas en AEM son compatibles con las versiones de FMPS a partir de 2020.2.
 
 ### Conector de oxígeno
 
@@ -67,7 +67,7 @@ AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir
 | --- | --- | --- |--- |--- |
 | 4.3.1 (no UUID) | 2.3-regular-5 | 2.3-regular-5 | 1,6 | 1,6 |
 | 4.3.1 (UUID) | 3.2-uuid-5 | 3.2-uuid-5 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   | | |
 
 
 
@@ -107,25 +107,25 @@ A continuación se enumeran los errores corregidos en varias áreas:
 
 ### Publicación
 
-- PDF nativo | El orden de los temas no se corrige cuando se genera la salida del PDF. (13157)
+- PDF nativo | El orden de los temas no se corrige cuando se genera la salida de PDF. (13157)
 - PDF nativo| No hay ninguna etiqueta de estilo predeterminada disponible para el elemento `<p>`. (12559)
 - PDF nativo | Los estilos en línea aplicados al área de contenido no se aplican a los temas de la materia principal y de la materia secundaria. (13510)
-- AEM El atributo `DeliveryTarget` no se propaga al generar la salida del sitio de la.  (13132)
-- El flujo de trabajo **Publish AEM** se atasca al generar la salida del sitio de la aplicación para el contenido con ciertos errores. (12000)
+- El atributo `DeliveryTarget` no se propaga al generar la salida del sitio de AEM.  (13132)
+- El flujo de trabajo **Publish** se atascó al generar la salida del sitio AEM para contenido con ciertos errores. (12000)
 
 - PDF nativo | La inclusión de varias expresiones XFR extiende el texto más allá del ancho de columna. (13004)
-- PDF nativo | Cuando el tema y el título tienen el mismo ID, se produce una generación incorrecta de la salida del PDF. (12644)
+- PDF nativo | Cuando el tema y el título tienen el mismo ID, se produce una generación incorrecta de la salida de PDF. (12644)
 - PDF nativo | Al agregar una clase de salida a un elemento `<topicref>` principal en un mapa DITA y aplicar un estilo personalizado a la clase de salida, el estilo se aplica a los elementos dentro del cuerpo del tema, incluidos los títulos de sección. (12166)
 - La publicación incremental no funciona si un mapa DITA tiene varios ditavalrefs. (12117)
-- AEM Sitio web de | Al crear un mapa con keydef apuntando a un tema como variable y agregar processing-role=resource-only, se crean algunas páginas inesperadas. (12099)
-- AEM AEM Si alguno de los recursos de DAM de la creación se utiliza en cualquier salida que no sea el sitio de la, entonces los metadatos &quot;jcr:createdBy&quot; no reflejan el nombre del editor ni el nombre del usuario que modificó por última vez el mapa o tema de DITA. (12090)
+- Sitio de AEM | Al crear un mapa con keydef apuntando a un tema como variable y agregar processing-role=resource-only, se crean algunas páginas inesperadas. (12099)
+- Si se utiliza algún recurso de DAM de AEM en cualquier salida que no sea el sitio de AEM, los metadatos &quot;jcr:createdBy&quot; no reflejarán el nombre del editor o del usuario que modificó por última vez el tema o el mapa DITA. (12090)
 - AEM Sites | El mapa DITA con el encabezado del tema en el título de navegación (con caracteres no compatibles) conduce a direcciones URL de página incorrectas. (11978)
 - PDF nativo | Se producen problemas en la compatibilidad de topichead / topicmeta / navtitle en Frontmatter y Backmatter. (11969)
-- PDF nativo | La generación de PDF para documentos grandes requiere mucho tiempo. (11955)
+- PDF nativo | La generación de PDF para documentos grandes lleva mucho tiempo. (11955)
 - PDF nativo | Al cambiar el nombre de un ajuste preestablecido, se produce una NullPointerException mientras se genera una salida de PDF. (11889)
-- El contenido `<conref>` no se muestra en la salida del PDF. (11131)
+- El contenido de `<conref>` no se muestra en la salida de PDF. (11131)
 - Se agrega un espacio adicional dentro de los elementos `<div>` al alternar entre la vista Autor y Source en el editor de diseño de página. (10750)
-- AEM El contenido replicado en el administrador de nube de no es visible en la instancia de Publish. (9564)
+- El contenido replicado en AEM Cloud Manager no es visible en la instancia de publicación. (9564)
 
 
 ### Administración
@@ -139,7 +139,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 ### Revisión
 
 - La revisión de un tema muestra comentarios incorrectos. (13453)
-- El botón Cerrar de la página Revisar de Experience Manager Guides AEM lleva a los usuarios a la página principal de la página de. (13535)
+- El botón Cerrar de la página Revisar de Experience Manager Guides lleva a los usuarios a la página principal de AEM. (13535)
 - Los archivos adjuntos no se muestran en el panel derecho del editor para un tema de revisión. (13011)
 
 

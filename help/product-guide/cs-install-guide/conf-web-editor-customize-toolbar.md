@@ -5,9 +5,9 @@ exl-id: ba82af48-9357-4f29-90ce-6793366ab432
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 5778ed2855287d1010728e689abbe6020ad56574
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -18,12 +18,11 @@ De forma predeterminada, el editor web incluye las funciones editoriales más co
 
 >[!NOTE]
 >
-> Al migrar de la IU antigua a la nueva IU de AEM Guides (aplicable a partir de las versiones 2502 y 5.0 de AEM Guides), las actualizaciones de `ui_config` deben convertirse a configuraciones de IU más flexibles y modulares. Este marco de trabajo ayuda a adoptar cambios sin problemas en la barra de herramientas del editor y en otros widgets de destino según corresponda. Para obtener más información, vea [Información general sobre Convert UI Config](https://experienceleague.adobe.com/es/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Al migrar de la IU antigua a la nueva IU de AEM Guides (aplicable a partir de las versiones 2502 y 5.0 de AEM Guides), las actualizaciones de `ui_config` deben convertirse a configuraciones de IU más flexibles y modulares. Este marco de trabajo ayuda a adoptar cambios sin problemas en la barra de herramientas del editor y en otros widgets de destino según corresponda. Para obtener más información, vea [Información general sobre Convert UI Config](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Existen dos formas de personalizar la barra de herramientas del Editor Web:
 
 - Añadir una nueva funcionalidad a la barra de herramientas
-
 - Elimine cualquier funcionalidad existente de la barra de herramientas
 
 
@@ -50,19 +49,19 @@ Siga estos pasos para agregar una función a la barra de herramientas del Editor
 
    **elementos**:   Especifique la definición de todos los grupos en la barra de herramientas. Cada grupo puede contener uno o varios iconos de la barra de herramientas. Para definir iconos dentro de un grupo de barras de herramientas, debe definir de nuevo el atributo `type` dentro de `items` y establecer su valor en `buttonGroup`. Especifique uno o varios nombres de clase en la propiedad `extraclass`. Especifique el nombre de la característica en la propiedad `label`. El siguiente fragmento del archivo `ui_config.json` muestra la definición del bloque de barra de herramientas principal, seguida de la definición `buttonGroup`:
 
-       &quot;
-       &quot;barra de herramientas&quot;: &lbrace;
-       &quot;type&quot;: &quot;blockGroup&quot;,
-       &quot;extraclass&quot;:
-       &quot;operaciones de barra de herramientas&quot;,
-       &quot;elementos&quot;: &lbrack;
-       &lbrace;
-       &quot;type&quot;: &quot;buttonGroup&quot;,
-       &quot;extraclass&quot;: &quot;left-controls&quot;,
-       &quot;label&quot;: &quot;Controles izquierdos&quot;,
-       &quot;elementos&quot;: &lbrack;
-       &quot;
-   
+   ```
+   "toolbar": {    
+   "type": "blockGroup",    
+   "extraclass": 
+   "toolbar operations",    
+   "items": [      
+   {        
+       "type": "buttonGroup",        
+       "extraclass": "left-controls",        
+       "label": "Left Controls",        
+       "items": [
+   ```
+
    En la colección `items`, debe especificar la definición de uno o más iconos de la barra de herramientas.
 
    Debe definir las siguientes propiedades para añadir un icono de la barra de herramientas:
@@ -77,10 +76,10 @@ Siga estos pasos para agregar una función a la barra de herramientas del Editor
 
    **clic**:   Especifique el nombre del comando definido para la función en el archivo JavaScript. Si el comando requiere parámetros de entrada, especifique el nombre del comando como:
 
-       &quot;Javascript
-       &quot;al hacer clic&quot;: {&quot;name&quot;: &quot;AUTHOR_INSERT_ELEMENT&quot;, &quot;args&quot;: &quot;simpletable&quot;}
-       &quot;
-   
+   ```Javascript
+   "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
+   ```
+
    **mostrar u ocultar**:   Si está definiendo la propiedad `show`, especifique los modos en que se mostrará el icono. Los valores posibles son - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(mostrar en todos los modos\) o `false` \(ocultar en todos los modos\).
 
    En lugar de `show`, también puede definir la propiedad `hide`. Los valores posibles son los mismos que en la propiedad `show` con la única diferencia de que el icono no se muestra en el modo especificado.
@@ -145,4 +144,4 @@ Realice los siguientes pasos para eliminar cualquier función no deseada de la b
 1. Guarde el archivo *ui\_config.json* y vuelva a cargar el Editor web.
 
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)
+**Tema principal:**[ Personalizar editor web](conf-web-editor.md)

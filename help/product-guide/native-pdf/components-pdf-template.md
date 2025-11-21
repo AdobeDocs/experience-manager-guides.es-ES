@@ -5,9 +5,9 @@ exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 47a6819654877e9a4e3e542fa6e5e360b3f3938f
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '4716'
+source-wordcount: '4702'
 ht-degree: 0%
 
 ---
@@ -198,7 +198,7 @@ El archivo seleccionado se importa y se enumera en la carpeta Recursos.
 Utilice la sección Configuración para establecer la configuración avanzada del diseño de página de PDF, iniciando PDF desde una página impar o par, dando formato a las referencias cruzadas y habilitando las marcas de impresión en la PDF final que se genera
 uso de la plantilla.
 
->
+>[!NOTE]
 >
 > A partir de la versión 5.0/2025.02.0 de Experience Manager Guides, la sección **Imprimir** de la configuración avanzada de PDF se ha movido al panel **Ajustes preestablecidos de salida**. Para establecer la configuración de impresión, vea [Publicar salida de PDF](../web-editor/native-pdf-web-editor.md#print).
 
@@ -247,7 +247,7 @@ Puede definir el texto que aparecerá antes y después del salto. Por ejemplo, u
    * Habilite **Glosario** en la ficha **Orden de diseño de página** para un mapa DITA.
    * Agregue el glosario en las páginas de contenido posterior de un mapa del libro.
 
-  Si no habilita la página del Glosario, los términos del Glosario del contenido no se convierten en hipervínculos en la salida de PDF.
+  Si no habilita la página Glosario, los términos del glosario del contenido no se convierten en hipervínculos en la salida de PDF.
   <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Diseños de página {#page-layouts}
@@ -420,8 +420,8 @@ AEM Guides proporciona las siguientes variables listas para usarse:
 * {chapter}: agrega una referencia cruzada a los números de capítulo. Por ejemplo, consulte en el capítulo 1.
 * {bookmarkText}: crea una referencia cruzada al texto marcado. Por ejemplo, Consulte stop_words en la página 5.
 * {captionText}: crea una referencia cruzada al título de la figura o tabla del tema. Por ejemplo, consulte Flujo de aire en la página 2.
-* {figure}: agrega una referencia cruzada al número de figura. Selecciona el número de figura de los estilos de numeración automática que ha definido para figcaption.  Por ejemplo, puede usar &quot;Ver {figure} en la página {page}&quot;. La referencia cruzada en la salida contiene el número de figura generado automáticamente y su número de página, &quot;Ver Figura 1 en la página 5&quot;.
-* {table}: agrega una referencia cruzada al número de tabla. Selecciona el número de tabla de los estilos de numeración automática que ha definido para el pie de ilustración. Por ejemplo, puede usar &quot;Ver {table} en la página {page}&quot;. La referencia cruzada de la salida contiene el número de tabla generado automáticamente y su número de página, &quot;Consulte la Tabla 1 de la página 5&quot;.
+* {figure}: agrega una referencia cruzada al número de figura. Selecciona el número de la figura de los estilos de numeración automática que ha definido para figcaption.  Por ejemplo, puede usar &quot;Ver {figure} en la página {page}&quot;. La referencia cruzada en la salida contiene el número de figura generado automáticamente y su número de página, &quot;Ver Figura 1 en la página 5&quot;.
+* {table}: agrega una referencia cruzada al número de tabla. Selecciona el número de tabla de los estilos de numeración automática definidos para el título. Por ejemplo, puede usar &quot;Ver {table} en la página {page}&quot;. La referencia cruzada de la salida contiene el número de tabla generado automáticamente y su número de página, &quot;Consulte la Tabla 1 de la página 5&quot;.
 
 
 
@@ -459,11 +459,11 @@ Por ejemplo, puede agregar una variable de idioma &quot;reference-label&quot; y 
 Cuando agrega `${lng:<variable name>}` a la sección Párrafo, las referencias cruzadas de los párrafos de la salida contienen el texto localizado y el número de página.\
 Por ejemplo, las siguientes capturas de pantalla muestran las referencias cruzadas &quot;Ver en la página 1&quot; en inglés y &quot;Einzelheiten finden Sie auf der Seite 1&quot; en alemán.
 
-<img src="./assets/english-output-corss-reference.png" alt="Resultado en inglés de una referencia cruzada en un párrafo&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Resultado en inglés de una referencia cruzada en un párrafo" width ="800" border="2px">
 
 *Referencia cruzada dentro de un párrafo cuando se publica en inglés.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Resultado alemán de una referencia cruzada en un párrafo&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="Resultado alemán de una referencia cruzada en un párrafo" width ="800" border="2px">
 
 
 *Referencia cruzada dentro de un párrafo cuando se publica en alemán.*

@@ -4,9 +4,9 @@ description: Aprenda a añadir un nuevo botón personalizado en la barra de herr
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
 feature: Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -57,15 +57,15 @@ Use los perfiles de carpeta para comprobar *ui_config.json* en la pestaña &quot
 }
 ```
 
-[use este vínculo para obtener más información acerca del perfil de carpeta y la configuración de ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=es)
+[use este vínculo para obtener más información acerca del perfil de carpeta y la configuración de ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
 
 
 ### Controlar el evento en el que se hace clic para el botón nuevo
 
-    NOTA: los pasos que se mencionan a continuación están disponibles como paquete adjunto en esta publicación
+NOTA: Los pasos que se mencionan a continuación están disponibles como paquete adjunto en esta publicación
 
 
-- Después de guardar el perfil de carpeta, cree una &quot;cq:ClientLibraryFolder&quot; en un directorio de proyecto (puede estar en */apps*) y agregue propiedades como se muestra en la captura de pantalla siguiente:
+- Después de guardar el perfil de carpeta, cree un &quot;cq:ClientLibraryFolder&quot; en un directorio de proyecto (podría estar en */apps*) y agregue propiedades como se muestra en la captura de pantalla siguiente:
   ![Configuración de la biblioteca de cliente para webeditor](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
 ```

@@ -4,7 +4,7 @@ description: Obtenga información acerca de las correcciones de errores y cómo 
 exl-id: a75ec83f-564b-4243-b5c5-341049521adb
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 1%
@@ -29,7 +29,7 @@ Puede actualizar su versión actual de AEM Guides a la versión 4.2.1
 
 >[!NOTE]
 >
->AEM Debe instalar el paquete de servicio de antes de actualizar la versión de AEM Guides.
+>Debe instalar AEM Service Pack antes de actualizar la versión de AEM Guides.
 
 Para obtener más información, consulte [Instrucciones de actualización](../install-guide/upgrade-xml-documentation.md).
 
@@ -53,9 +53,9 @@ Para obtener más información, consulte la sección *Requisitos técnicos* en l
 | --- | --- | --- | --- | --- |
 | 4.2.1 (no UUID) | 2022 o superior | 2020.2 o superior* | 2022 o superior | 2020.3 o superior |
 | 4.2.1 (UUID) | 2022 o superior | 2020.2 o superior* | 2022 o superior | 2020.4 o superior |
-| | | | |
+| | | | |  |
 
-AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir de 2020.2 son compatibles con las versiones de FMPS.
+*Las condiciones y de línea de base creadas en AEM son compatibles con las versiones de FMPS a partir de 2020.2.
 
 ### Conector de oxígeno
 
@@ -63,7 +63,7 @@ AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir
 | --- | --- | --- |--- |--- |
 | 4.2.1 (no UUID) | 2.2-regular-3 | 2.2-regular-3 | 1,6 | 1,6 |
 | 4.2.1 (UUID) | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 ## Problemas solucionados
 
@@ -72,7 +72,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 ### Creación
 
 * El Navtitle se elimina del contenido al cambiar de la vista Diseño a la vista Autor o Código fuente. (12174)
-* AEM El botón Cerrar del Editor Web no lleva a la página Navegación de la. (11948)
+* El botón Cerrar del Editor Web no lleva a la página Navegación de AEM. (11948)
 * A veces, se produce un error de aplicación al hacer clic en un mapa DITA. (11842)
 * El problema se produce al mover (arrastrar y soltar) un elemento de lista existente con el control de cambios activado. (11570)
 * El problema se produce al mover (arrastrar y soltar) un nuevo elemento de lista con el control de cambios activado. (11569)
@@ -81,7 +81,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * Dificultad para arrastrar y soltar un elemento de lista; el texto se mueve en lugar del elemento de lista. (11566)
 * Al crear el elemento mostrado en verde (Control de cambios), el nuevo contenido se muestra como control de cambios aunque el control de cambios esté desactivado. (7021)
 * El explorador (editor web) se bloquea al cargar contenido con el esquema personalizado. (11211)
-* PDF nativo | Al crear un ajuste preestablecido de salida con la opción &quot;Añadir a perfil de carpeta&quot;, la generación del PDF falla con una excepción de puntero nulo. (10950)
+* PDF nativo | Al crear un ajuste preestablecido de salida con la opción &quot;Añadir a perfil de carpeta&quot;, la generación de PDF falla con una excepción de puntero nulo. (10950)
 * PDF nativo | La etiqueta de imagen agrega el atributo display-inline a todas las imágenes. (10653)
 * La inserción de archivos multimedia de audio y vídeo falla en el formato YouTube bajo el icono **Insertar multimedia**. (11320)
 * El error de validación se produce cuando se crea un mapa con la plantilla que tiene un elemento de título especializado. (11212)
@@ -98,14 +98,14 @@ A continuación se enumeran los errores corregidos en varias áreas:
 
 * PDF nativo | La publicación de contenido que tiene una clase de salida con paréntesis() provoca la congelación de la publicación. (11936)
 * Salida JSON | La asignación de metadatos con valor de propiedad como `"value in spaces and double quotes"` produce un error de publicación. (11933)
-* AEM El problema se produce en la búsqueda del sitio de la (no funciona más allá de 2-3 nodos de nivel). (11352)
-* Editor web | AEM La ruta y la plantilla de salida no se pueden seleccionar en el ajuste preestablecido de la. (11530)
-* Al actualizar de la versión 4.1.x a la 4.2, el motor de PDF nativo no funciona y genera NullPointerException incluso para el sistema operativo compatible.(11526)
-* El proceso del PDF de descarga no funciona correctamente en el editor web. (11496)
+* El problema se produce en la búsqueda del sitio de AEM (no funciona más allá de 2-3 nodos de nivel). (11352)
+* Editor web | No se pueden seleccionar la ruta y la plantilla de salida en el ajuste preestablecido de AEM. (11530)
+* Al actualizar de la versión 4.1.x a la 4.2, el motor nativo de PDF no funciona y genera NullPointerException incluso para el sistema operativo compatible.(11526)
+* El proceso Descargar PDF no funciona correctamente en el editor web. (11496)
 * PDF nativo | Los comentarios del borrador están ocultos de forma predeterminada en la salida generada. (10560)
 * PDF nativo | el título de navegación no se respeta para topichead. (10509)
 * PDF nativo | Agregar `xref` a una imagen no procesa la imagen en el PDF generado. (11346)
-* PDF nativo | la nota al pie presente en el encabezado de la tabla lleva a texto en negrita y alineado al centro en el pie de página correspondiente dentro de la salida del PDF. (10610)
+* PDF nativo | la nota al pie presente en el encabezado de la tabla lleva a texto en negrita y alineado al centro en el pie de página correspondiente dentro de la salida de PDF. (10610)
 
 ### Traducción
 

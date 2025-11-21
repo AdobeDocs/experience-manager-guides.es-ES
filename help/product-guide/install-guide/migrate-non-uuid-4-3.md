@@ -5,7 +5,7 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: f53f4eef-5e99-4342-9919-508b90ee3571
-source-git-commit: dfac88a4a1ca0247a4b1f07982e178fd7126d2e2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1507'
 ht-degree: 1%
@@ -179,10 +179,10 @@ Para obtener más información, vea [purgar versiones anteriores](../install-gui
 
 | Resumen tras la finalización del proceso | ¿Cómo interpretar? | Acción |
 |---|---|---|
-| Número total de archivos: 4833 | Número de mapas DITA con al menos una línea de base. |
-| Número de archivos actualizados correctamente: 4705 | Número de mapas DITA, actualizados correctamente con todas las líneas de base. |
-| Número de archivos actualizados con errores: 0 | Número de mapas DITA cuyas líneas base no se actualizaron. |
-| Número de archivos omitidos: 1647 | Número de mapas DITA sin línea base. |
+| Número total de archivos: 4833 | Número de mapas DITA con al menos una línea de base. |  |
+| Número de archivos actualizados correctamente: 4705 | Número de mapas DITA, actualizados correctamente con todas las líneas de base. |  |
+| Número de archivos actualizados con errores: 0 | Número de mapas DITA cuyas líneas base no se actualizaron. |  |
+| Número de archivos omitidos: 1647 | Número de mapas DITA sin línea base. |  |
 | Número de archivos que no se pudieron actualizar: 128 | El número de objetos de línea de base que no eran válidos (estaban vacíos) se muestra en el informe (Excel). | Comprobar si hay errores distintos de: `baselineObj not found on` |
 
 
@@ -220,5 +220,5 @@ Para obtener más información, vea [purgar versiones anteriores](../install-gui
    > Si antes de la migración, la propiedad **Use el título para los nombres de página del sitio AEM** dentro de `com.adobe.fmdita.config.ConfigManager`, se establece en *False*, después de la migración esta propiedad deberá actualizarse.
 
 
-1. Una vez completada la validación, se puede recuperar la mayor parte del espacio en disco ejecutando la compactación (consulte `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=es`).
+1. Una vez completada la validación, se puede recuperar la mayor parte del espacio en disco ejecutando la compactación (consulte `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
 
