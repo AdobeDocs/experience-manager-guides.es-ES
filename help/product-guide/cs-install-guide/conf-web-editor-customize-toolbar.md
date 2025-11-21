@@ -144,4 +144,4 @@ Realice los siguientes pasos para eliminar cualquier función no deseada de la b
 1. Guarde el archivo *ui\_config.json* y vuelva a cargar el Editor web.
 
 
-**Tema principal:**[ Personalizar editor web](conf-web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)

@@ -25,4 +25,4 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.autosave` | Booleano \(true/false\).<br> **Valor predeterminado**: false |
 | `xmleditor.autosaveinterval` | Especifique el intervalo de tiempo en segundos para almacenar en déclencheur la función de guardado automático. |  |
 
-**Tema principal:**[ Personalizar editor web](conf-web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)

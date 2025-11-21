@@ -120,7 +120,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 - PDF nativo | Xref está imprimiendo el contenido del título del tema href en lugar de la etiqueta Xref. (11322)
 - PDF nativo | No se puede guardar la configuración de la plantilla de PDF. (10751)
 - PDF nativo | El texto se extiende más allá del ancho de la columna al incluir varias referencias x. (10876)
-- PDF nativo | El elemento `<note>``</note>` no genera un título de espacio adicional de su tipo. (10549)
+- PDF nativo | El elemento `<note>` `</note>` no genera un título de espacio adicional de su tipo. (10549)
 - Salida JSON | La propiedad `fmUuid` del nodo jcr:content de JSON es diferente del &quot;id&quot; dentro de JSON. (11564)
 - Salida JSON | Si el mapa y el tema con el mismo nombre de archivo están presentes, se elimina JSON para el mapa. (11524)
 

@@ -175,4 +175,4 @@ Actualmente, las siguientes funciones de Experience Manager Guides no son aplica
 
 
 
-**Tema principal:**[ Introducción al editor](web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
