@@ -4,9 +4,9 @@ description: Obtenga información acerca de los componentes básicos que puede a
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ Para comprender mejor cómo crear un tema de aprendizaje y añadirle componentes
 
 Puede utilizar las funciones básicas de edición disponibles en la barra de herramientas del Editor, como se describe a continuación:
 
-- **Widgets**: agrega widgets como acordeón, carrusel, puntos interactivos y más al tema o al contenido de aprendizaje mediante el menú **Insertar**, como se muestra a continuación. Para obtener más información sobre los widgets interactivos, vea [Usar widgets interactivos](./lc-widgets.md).
+- **Opciones de inserción**: proporciona opciones para agregar [widgets interactivos](./lc-widgets.md) como acordeón, carrusel, punto interactivo, pestañas, tarjetas giratorias y clic para mostrar, así como [elementos estructurales](./lc-other-insert-options.md) como iframe, comillas de bloque, bloque de código y más. Utilice este menú para añadir funcionalidad y variedad al contenido de aprendizaje, haciéndolo atractivo y bien estructurado.
 
-  ![](assets/widgets-learning-content.png){width="650" align="left"}
+  ![](assets/insert-menu-options-lc.png){width="650" align="left"}
 
 - **Componentes de texto**: agrega encabezados/títulos, párrafos, comillas dentro de la línea, superíndices, subíndices y citas al contenido.
 
@@ -45,15 +45,33 @@ Puede utilizar las funciones básicas de edición disponibles en la barra de her
 
   ![](assets/image-learning-content.png){width="650" align="left"}
 
-- **Multimedia**: agrega vídeo y audio al contenido desde el menú **Más** de la barra de herramientas. Puede personalizar sus propiedades mediante el panel **Propiedades de contenido**.
+- **Multimedia**: agrega vídeo y audio al contenido. Puede personalizar sus propiedades mediante el panel **Propiedades de contenido**.
 
   ![](assets/video-learning-content.png){width="650" align="left"}
 
-- **Símbolos**: agrega símbolos de su elección al contenido de una lista como se muestra a continuación. Puede usarlo desde el menú **Más** de la barra de herramientas.
+- **Contenido reutilizable**: le permite incorporar contenido existente de sus recursos o repositorio para reutilizarlo. Siga estos pasos para insertar contenido reutilizable:
+
+   1. Seleccione **Contenido reutilizable** en la barra de herramientas.
+Se abre el cuadro de diálogo **Reutilizar contenido**.
+   2. Desplácese y seleccione el tema que desee para incluir su contenido en el curso actual.
+   3. Seleccione el ID del contenido que desea añadir; junto a él se mostrará una vista previa como referencia.
+
+      ![](assets/reuse-content-dialog.png){width="650" align="left"}
+
+   4. Elija **Seleccionar**.
+
+  El contenido se inserta. Por ejemplo, la sección sobre estructura del vehículo es una parte de contenido que se reutiliza y se añade al tema del curso. El tipo se muestra como **Referencia** y su **ID** se refleja en el panel **Propiedades del contenido**.
+
+  ![](assets/reusable-content.png){width="650" align="left"}
+
+
+- **Símbolos**: agrega símbolos de su elección al contenido de una lista como se muestra a continuación.
 
   ![](assets/symbol-learning-content.png){width="350" align="left"}
 
 
-- **Hipervínculos**: agrega hipervínculos a la ubicación requerida del contenido. Puede usarlo desde el menú **Más** de la barra de herramientas. Puede ser una referencia de archivo, una URL web o un vínculo de correo electrónico, como se muestra a continuación.
+- **Hipervínculos**: agrega hipervínculos a la ubicación requerida del contenido. Puede ser una referencia de archivo, una URL web o un vínculo de correo electrónico, como se muestra a continuación.
 
   ![](assets/hyperlink-learning-content.png){width="650" align="left"}
+
+Además, el menú desplegable **Menú** proporciona acceso a las acciones de edición (Cortar, Copiar, Eliminar), Buscar y reemplazar y a la etiqueta Versión.

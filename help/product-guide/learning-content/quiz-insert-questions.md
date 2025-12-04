@@ -4,9 +4,9 @@ description: Aprenda a insertar preguntas en una prueba en la Formación y apren
 feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015
-source-git-commit: 40c12185223cdc35c069d44ceb66a38cecacf84f
+source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Siga estos pasos para insertar preguntas en una prueba:
 
-1. Elija el tipo de pregunta que desee en el menú desplegable **Preguntas** de la barra de herramientas. En función de sus necesidades, puede agregar preguntas utilizando cualquiera de los tres formatos disponibles: Verdadero o Falso, Único correcto y Múltiple correcto, como se muestra a continuación.
+1. Elija el tipo de pregunta que desee en el menú desplegable **Preguntas** de la barra de herramientas. En función de sus necesidades, puede agregar preguntas utilizando cualquiera de los cuatro formatos disponibles: Verdadero o Falso, Único correcto, Múltiple correcto y Coincidir con lo siguiente, como se muestra a continuación. Para obtener más información, vea [Tipos de preguntas](#question-types).
 
    ![](assets/question-types.png){width="650" align="left"}
 
@@ -48,3 +48,28 @@ Realice los siguientes pasos para eliminar una pregunta o una opción específic
 1. En el menú contextual, seleccione **Eliminar pregunta** (para eliminar la pregunta completa) o **Eliminar opción** (para eliminar solamente la opción seleccionada).
 
 ![](assets/delete-options-lc.png){width="650" align="left"}
+
+## Tipos de preguntas
+
+Los siguientes tipos de preguntas son compatibles con las pruebas:
+
+- **Una sola respuesta correcta**: Una pregunta con varias opciones en la que solo una respuesta es correcta.
+
+  ![](assets/single-correct.png){width="650" align="left"}
+
+- **Verdadero/Falso**: Una pregunta basada en una instrucción en la que los alumnos eligen si es Verdadero o Falso.
+
+  ![](assets/true-false.png){width="650" align="left"}
+
+
+- **Múltiples respuestas correctas**: Una pregunta con múltiples opciones en la que más de una respuesta puede ser correcta.
+
+  ![](assets/multi-correct.png){width="650" align="left"}
+
+- **Hacer coincidir lo siguiente**: Permite que los alumnos hagan coincidir elementos de dos listas para formar pares correctos. Puede agregar nuevos conjuntos de opciones desde el panel **Propiedades de contenido**. Para aumentar la complejidad, puede quitar una opción de la primera lista e incluir una coincidencia adicional en la columna Coincidencia. Esto crea un elemento de dificultad al requerir que los alumnos piensen críticamente sobre qué opción no tiene un par directo.
+
+  ![](assets/match-the-following.png){width="650" align="left"}
+
+  En el resultado publicado, la pregunta **Coincidir con lo siguiente** aparece con un menú desplegable para cada elemento, lo que le permite seleccionar la coincidencia correcta entre las opciones disponibles.
+
+  ![](assets/question-type-publishing.png){width="650" align="left"}

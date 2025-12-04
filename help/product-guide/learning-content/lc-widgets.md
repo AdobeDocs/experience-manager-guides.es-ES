@@ -4,9 +4,9 @@ description: Obtenga información acerca de los widgets interactivos que puede u
 feature: Authoring
 role: User
 exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: d4fd08c70c590496fef7a047745d4403546664fe
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -28,33 +28,22 @@ Los widgets disponibles, diseñados para mejorar la experiencia del usuario y op
 
   ![](assets/carousal-learning-content.png){width="650" align="left"}
 
-- **Puntos interactivos:** Agregar puntos interactivos a una imagen seleccionada. Comience eligiendo una imagen y luego vaya a **Insertar > Punto interactivo**. Esto abre el cuadro de diálogo de punto interactivo, donde puede configurar varias opciones, como configurar diferentes tamaños de punto interactivo, añadir los vínculos correspondientes y ajustar la capa acercando o retrocediendo las áreas.
+- **Punto interactivo:** agrega un punto interactivo a una imagen seleccionada. Comience eligiendo una imagen y luego vaya a **Insertar > Punto interactivo**. Esto abre el cuadro de diálogo de punto interactivo, donde puede configurar varias opciones, como configurar diferentes tamaños de punto interactivo, añadir los vínculos correspondientes y ajustar la capa acercando o retrocediendo las áreas.
 
   ![](assets/hotspot-learning-content.png){width="650" align="left"}
 
-- **Comillas de bloque:** Agrega citas de bloque junto con citas al contenido.
+- **Ficha:** Permite organizar el contenido en secciones interactivas.  Cada pestaña puede representar un tema o una categoría distintos; los alumnos pueden hacer clic o pulsar en las pestañas para mostrar el contenido correspondiente. Coloque el cursor donde desee que aparezca el widget de ficha en el contenido y, a continuación, vaya a **Insertar > Widget > Tab**. Esto añade un contenedor de pestañas al contenido. Ahora, empiece a agregar contenido a la pestaña que incluye un título de pestaña y su contenido correspondiente.
 
-  ![](assets/block-quote-learning-content.png){width="650" align="left"}
+  ![](assets/insert-tab-lc.png)
 
-- **Bloques de código:** Agrega un bloque de código al contenido.
+  Para agregar, eliminar y cambiar el diseño de pestañas (pestañas verticales u horizontales), utilice la sección **Propiedades de contenido** del panel derecho.
+- **Voltear tarjeta:** Agrega una tarjeta interactiva al contenido que se voltea para mostrar información adicional. Cada tarjeta tiene dos lados: delantero y trasero, lo que permite a los alumnos explorar la información de una manera atractiva.  Para insertar una tarjeta Flip, coloque el cursor en la ubicación deseada y vaya a **Insertar > Widget > Tarjeta Flip**, que agrega un contenedor de tarjeta Flip al contenido. A continuación, puede añadir un título y una imagen opcional a la parte frontal e introducir el contenido correspondiente en la parte posterior.
 
-  ![](assets/code-block-learning-content.png){width="650" align="left"}
+  ![](assets/insert-flip-card-lc.png)
 
-- **Iframes:** Inserte un iframe en el contenido para incrustar páginas web externas o recursos interactivos. Puede configurar las propiedades del iframe mediante el panel **Propiedades del contenido**, que incluye la dirección URL de origen, la anchura, la altura, la alineación y el título. Puede ver el contenido agregado en el iframe cambiando al modo **Vista previa**, como se muestra a continuación.
+  Para agregar o eliminar tarjetas o cambiar su diseño, utilice la sección **Propiedades de contenido** del panel derecho.
+- **Haga clic para mostrar:** Inserta un widget interactivo en el contenido que oculta contenido hasta que los alumnos hacen clic para mostrarlo. Esto ayuda a reducir el desorden y fomenta la exploración. Inserte el widget colocando el cursor en la ubicación deseada y seleccionando **Insertar > Widget > Haga clic para mostrar**. Una vez insertado, proporcione el título para el encabezado del widget y defina el contenido oculto que aparece cuando los alumnos interactúan.
 
-  Vista de **autor**:
+  ![](assets/insert-click-to-reveal-lc.png)
 
-  ![](assets/iframe-learning-content.png){width="650" align="left"}
-
-
-  Modo **Vista previa**:
-
-  ![](assets/iframe-learning-content-preview.png){width="650" align="left"}
-
-- **Campo de entrada:** Agregue un campo de entrada de texto junto con un botón al contenido. Puede utilizar esta combinación para capturar los datos introducidos por el usuario y las acciones específicas del déclencheur. Se añade un botón de reproducción al contenido como se muestra a continuación.
-
-  ![](assets/button-learning-content.png){width="650" align="left"}
-
-- **Más opciones:** Tiene opciones adicionales para mejorar el contenido de aprendizaje, como insertar una línea horizontal, un salto de línea, un cuadro de texto, un cuadro de texto posicionado y HTML incrustado.
-
-  ![](assets/more-options-learning-content.png){width="650" align="left"}
+  Para agregar o eliminar el widget o administrar la orientación del widget, utilice la sección **Propiedades del contenido** en el panel derecho.

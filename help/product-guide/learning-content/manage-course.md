@@ -4,10 +4,10 @@ description: Obtenga información sobre las distintas funciones presentes en Exp
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 17d71e65e2f4f79a764d822f6f1ada136a7379d7
+source-git-commit: 0171f7b798686a0a16942e98133001a4c05bb76b
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 1%
+source-wordcount: '708'
+ht-degree: 0%
 
 ---
 
@@ -84,3 +84,15 @@ La opción **Mostrar** determina cómo se muestran los temas. Puede elegir prese
 ![](assets/course-display-settings.png)
 
 Para ver un vídeo introductorio, vea [Mostrar configuración](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) ![](assets/Smock_VideoCheckedOut_18_N.svg).
+
+## Crear tarea de revisión
+
+Como autor de un curso de aprendizaje o administrador, puede crear una tarea de revisión para el curso y asignarla a un revisor para que le envíe sus comentarios. Comience por abrir el curso en el panel **Administrador de cursos** y, a continuación, seleccione **Crear tarea de revisión** del menú **Opciones**, como se muestra a continuación:
+
+![](assets/create-review-task-lc.png)
+
+Se le dirigirá a la página **Crear tarea de revisión**, donde tendrá que agregar detalles de la tarea, como el título de la tarea de revisión, especificar el proyecto DITA del que forma parte, definir las escalas de tiempo de las tareas, asignar revisores, etc. Una vez finalizado, los revisores recibirán una notificación para esta tarea. Los temas del curso seleccionados se abren en la interfaz de usuario de revisión, donde el revisor puede añadir comentarios y devolver los temas para que se actualicen.
+
+Para comprender el flujo de trabajo de revisión en Experience Manager Guides, vea [Enviar temas para revisión](../user-guide/review-send-topics-for-review.md).
+
+

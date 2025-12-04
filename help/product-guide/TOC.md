@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 42a7ba69d192815a4d21e6687bed8950d3bf8c7d
 workflow-type: tm+mt
-source-wordcount: '2418'
+source-wordcount: '2427'
 ht-degree: 9%
 
 ---
@@ -162,14 +162,14 @@ ht-degree: 9%
                - [Notas de la versión 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notas de la versión 4.2](./release-info/release-notes-4-2.md)
          - [Notas de la versión 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notas de la versión 4.0.x](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notas de la versión 3.8.x](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notas de la versión 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notas de la versión 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guía del usuario (nueva interfaz de usuario) {#user-guide}
    - Introducción {#about-aemg}
       - [Acerca de  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] funciones clave y de trabajo {#aemg-works-features}
-         - [Cómo funciona [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-         - [Características clave  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Cómo funciona [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+         - [Características clave  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Página de inicio {#home-page}
       - [Experiencia de la página de inicio [!DNL AEM Guides]](./user-guide/intro-home-page.md)
       - [Interfaz de repositorio](./user-guide/home-page-repository-view.md)
@@ -326,6 +326,7 @@ ht-degree: 9%
             - [Editar tema](./learning-content/edit-content.md)
             - [Añadir componentes básicos](./learning-content/lc-basic-blocks.md)
             - [Uso de widgets interactivos](./learning-content/lc-widgets.md)
+            - [Otras opciones del menú Insertar](./learning-content/lc-other-insert-options.md)
             - [Uso de estilos en línea](./learning-content/lc-inline-styles.md)
          - Creación y administración de pruebas {#quiz}
             - [Resumen de prueba](./learning-content/quiz-overview.md)
@@ -352,6 +353,7 @@ ht-degree: 9%
          - [Configuración de perfiles de carpeta](./lc-config-guide/lc-folder-profile.md)
          - [Prácticas recomendadas para configurar la estructura de carpetas](./lc-config-guide/best-practices-folder-structure.md)
          - [Configurar otras opciones](./lc-config-guide/lc-other-settings.md)
+         - [Métricas clave de SCORM](./lc-config-guide/learning-course-parameters.md)
       - Tutoriales en vídeo {#lc-video}
          - [Flujo de trabajo de autor](./lc-video-tutorials/author-workflow.md)
          - [Flujo de trabajo del administrador](./lc-video-tutorials/admin-workflow.md)
@@ -364,7 +366,7 @@ ht-degree: 9%
       - Resolución de problemas {#troubleshooting}
          - [Session timeout](./user-guide/session-timeout-prompt.md)
 - Guía del usuario (IU antigua) {#user-guide-old-ui}
-   - [Información general de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Información general de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalación y configuración {#install-guide}
    - On-Premise {#on-prem-ig}
       - [Conceptos básicos locales](./install-guide/introduction.md)
