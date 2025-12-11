@@ -3,9 +3,9 @@ title: Otras opciones del menú Insertar
 description: Obtenga información sobre las opciones del menú de inserción que puede utilizar en el contenido de aprendizaje.
 feature: Authoring
 role: User
-source-git-commit: 1fe46636a82b87b65fb5b29e7282636e7dec2358
+source-git-commit: e31f7744d4c01a2924a710f547375b1b497163ee
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -48,13 +48,13 @@ Las otras opciones disponibles en el menú Insertar de la barra de herramientas 
   > Adobe Experience Manager Guides no admite la edición o creación de contenido H5P. Prepare el paquete H5P externamente antes de cargarlo.
 
 
-- **Ecuación matemática:** Inserta ecuaciones de MathML en el contenido. Puede crear una ecuación de MathML y seleccionar **Insertar** para agregarla al documento.
+- **ecuación de MathML:** inserta ecuaciones de MathML en el contenido. Puede crear una ecuación de MathML y seleccionar **Insertar** para agregarla al documento.
 
   ![](./assets/insert-mathml.png){width="350" align="left"}
 
   La ecuación se inserta con un fondo gris claro. En cualquier momento puede actualizar una ecuación haciendo clic con el botón derecho en una ecuación existente y seleccionando **Editar ecuación matemática** en el menú contextual. Para obtener más información sobre la validación de ecuaciones de MathML en Experience Manager Guides, consulte [Validación de ecuaciones en el editor de MathML](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
 
-- **Comprobación de conocimientos:** Le permite agregar preguntas en los formatos disponibles (Corrección simple, Corrección múltiple, Verdadero/Falso, Coincidir con lo siguiente o insertarlas desde el banco de preguntas) al tema para revisarlo y confirmar su comprensión sin necesidad de realizar clasificaciones ni informes. Estas preguntas reflejan los formatos estándar y excluyen la puntuación, lo que las hace ideales para la autoevaluación y adecuadas como parte del contenido del curso o como tema antes de una prueba o evaluación posterior, según sea necesario.
+- **Comprobación de conocimientos:** Permite agregar preguntas en los formatos disponibles (Corrección simple, Corrección múltiple, Verdadero/Falso, Coincidir con lo siguiente o insertarlas desde el banco de preguntas) al tema para revisarlo y confirmar la comprensión sin calificar. Estas preguntas reflejan los formatos estándar y excluyen la puntuación, lo que las hace ideales para la autoevaluación y adecuadas como parte del contenido del curso o como tema antes de una prueba o evaluación posterior, si está disponible.
 
   ![](assets/knowledge-check-topic.png){width="650" align="left"}
 
