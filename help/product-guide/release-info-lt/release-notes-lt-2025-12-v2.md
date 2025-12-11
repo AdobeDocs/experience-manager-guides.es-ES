@@ -3,7 +3,7 @@ title: Notas de versión | Novedades de la versión de diciembre de 2025 de Form
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión de diciembre de 2025 de Formación del producto y contenido de aprendizaje
 role: Leader
 hidefromtoc: true
-source-git-commit: fe7e1605933f925530d7767af22770dcde90b6df
+source-git-commit: a5a5202d652096ef4de1db78b8638e605e9d80f4
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Esta nota de la versión cubre las nuevas y mejoradas funciones introducidas en 
 
   Para obtener más información, vea [Otras opciones en el menú Insertar](../learning-content/lc-other-insert-options.md).
 
-  ![](assets/knowledge-check-topic.png){width="350" align="left"}
+  ![](assets/knowledge-check-topic.png){width="650" align="left"}
 
 - **Nuevos widgets interactivos**: puede motivar a los alumnos con algunos widgets interactivos nuevos que hacen que el contenido sea más inmersivo: **Haga clic para mostrar**, **Voltear la tarjeta** y **Tabulación**.
 
@@ -36,7 +36,7 @@ Esta nota de la versión cubre las nuevas y mejoradas funciones introducidas en 
 
   Para obtener más información, vea [Tipos de preguntas de prueba](../learning-content/quiz-insert-questions.md#question-types).
 
-  ![](assets/question-types.png){width="350" align="left"}
+  ![](assets/question-types.png){width="650" align="left"}
 
 ## Revisión
 
@@ -44,7 +44,7 @@ Esta nota de la versión cubre las nuevas y mejoradas funciones introducidas en 
 
   Para obtener más información, vea [Crear tarea de revisión](../learning-content/manage-course.md#create-review-task).
 
-  ![](assets/create-review-task-lc.png){width="350" align="left"}
+  ![](assets/create-review-task-lc.png){width="650" align="left"}
 
 ## Gestión de contenido
 
@@ -52,7 +52,7 @@ Esta nota de la versión cubre las nuevas y mejoradas funciones introducidas en 
 
   Para obtener más información, vea [Agregar componentes básicos](../learning-content/lc-basic-blocks.md).
 
-  ![](assets/reusable-content.png){width="350" align="left"}
+  ![](assets/reusable-content.png){width="650" align="left"}
 
 
 
