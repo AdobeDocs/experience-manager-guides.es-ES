@@ -2,9 +2,9 @@
 title: Notas de versión | Se han corregido problemas en la versión Adobe Experience Manager Guides 5.1.0 Service Pack 3
 description: Obtenga información acerca de las correcciones de errores en la versión 5.1.0 del Service Pack 3 de Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 64d7e4f8028ade36c4fee9bb3407e70b10da6869
+source-git-commit: 82eb0e18eb285006c66b1fe2b6ecc3ca86fefe61
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '302'
 ht-degree: 1%
 
 ---
@@ -40,6 +40,12 @@ Obtenga información acerca de [instrucciones de actualización para el Service 
 ## Plataforma
 
 - Si se usa `scope="external"` para una referencia al contenido de DAM dentro de un tema o asignación, la ruta relativa del recurso se sustituirá con un GUID. (GUIDES-35605)
+
+## Problema conocido
+
+Adobe ha identificado el siguiente problema conocido para el paquete de servicio 3 de la versión 5.1.0:
+
+- Cuando marca una tarea de revisión como completada desde la página de detalles de la tarea, esta se completa y se cierra; sin embargo, su estado sigue mostrándose como **En curso** en el panel Revisar. (GUIDES-39375)
 
 
 
