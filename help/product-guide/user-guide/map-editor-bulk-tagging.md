@@ -4,18 +4,21 @@ description: Utilice el etiquetado masivo de contenido en AEM Guides para mejora
 exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
 feature: Metadata Management
 role: User
-source-git-commit: 9898f98d897da4da9ca76a89efd262239606ac2e
+source-git-commit: 4b4abf5958f251da05257d34a68471d5f36969a3
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
 
 ---
 
+
 # Etiquetado masivo de contenido DITA {#id179SG0TN05Z}
+
+![](images/test-version-info-table.svg){width="650" align="left"}
 
 Las etiquetas permiten agrupar o clasificar contenido dentro del repositorio de contenido y también en la salida publicada. Si ha aplicado etiquetas a su contenido, puede encontrar fácilmente temas relacionados dentro de un mapa DITA que puede ayudarle a crear contenido. Con el resultado publicado, los usuarios finales podrán localizar el contenido correcto más rápido con las etiquetas adecuadas.
 
-Adobe Experience Manager Guides le permite etiquetar contenido DITA en unos pocos pasos. Puede utilizar la función de etiquetado por lotes para aplicar varias etiquetas en varios temas, en un mapa DITA o en un submapa. O bien, también puede aplicar etiquetas a un tema individual. El etiquetado es la característica nativa de Adobe Experience Manager. Encontrará más detalles sobre la creación y administración de etiquetas en la sección [Administración de etiquetas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=es) de la documentación de Adobe Experience Manager.
+Adobe Experience Manager Guides le permite etiquetar contenido DITA en unos pocos pasos. Puede utilizar la función de etiquetado por lotes para aplicar varias etiquetas en varios temas, en un mapa DITA o en un submapa. O bien, también puede aplicar etiquetas a un tema individual. El etiquetado es la característica nativa de Adobe Experience Manager. Encontrará más detalles sobre la creación y administración de etiquetas en la sección [Administración de etiquetas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) de la documentación de Adobe Experience Manager.
 
 De forma predeterminada, Experience Manager Guides no concede acceso de lectura a ningún usuario de la carpeta en la que estén almacenadas todas las etiquetas del repositorio de Adobe Experience Manager. Para utilizar etiquetas definidas en el repositorio de Adobe Experience Manager, debe solicitar al administrador del sistema que conceda acceso a la carpeta donde se almacenan las etiquetas.
 
@@ -78,7 +81,7 @@ Siga estos pasos para aplicar etiquetas a un tema individual:
 1. Seleccione **Guardar y cerrar**.
 
 
-## Eliminar etiquetas
+## Quitar etiquetas
 
 Según sus necesidades comerciales, puede cambiar la información de etiquetado para cualquier tema de DITA. Puede quitar fácilmente todas las etiquetas a la vez o quitar solo las que no sean válidas en el tema.
 
@@ -107,4 +110,4 @@ Siga estos pasos para quitar todas las etiquetas de uno o varios temas:
 
 Si tiene una larga lista de etiquetas aplicadas a los temas, puede que le resulte un poco engorroso navegar. Puede ocultar etiquetas fácilmente desde la vista de la consola de mapas DITA seleccionando el icono Ocultar etiquetas. Del mismo modo, cuando las etiquetas no están visibles, al seleccionar Mostrar etiquetas se muestran todas las etiquetas.
 
-**Tema principal:**&#x200B;[&#x200B; Administrar metadatos](manage-metadata.md)
+**Tema principal:**[ Administrar metadatos](manage-metadata.md)

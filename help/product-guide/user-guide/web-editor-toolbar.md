@@ -4,9 +4,9 @@ description: Conozca la Barra de herramientas en el Editor. Obtenga información
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: 172599c2bd99f1779b04255aac5e7d505614b463
+source-git-commit: a17f9c5d5143de2ca8836ef6282a796abb766d78
 workflow-type: tm+mt
-source-wordcount: '6011'
+source-wordcount: '6173'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ La característica **Historial de versiones** del Editor permite comprobar las v
 
    Pestaña **Metadatos**: los metadatos agregados recientemente están en fuente verde y los metadatos eliminados están en fuente roja.
 
-   ![Diferencia de metadatos para las versiones &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Diferencia de metadatos para las versiones ](images/metadata-version-diff.png){width="550" align="left"}
 
    *Comparar los metadatos de distintas versiones en el historial de versiones.*
 
@@ -384,13 +384,30 @@ Inserta una imagen en la ubicación válida actual o siguiente. Seleccione el ic
 
 ![](images/insert-image-new-dialog.png){width="300" align="left"}
 
-Puede agregar un título de imagen/figura y texto alternativo para la imagen en el cuadro de diálogo Insertar imagen.
+
+En el cuadro de diálogo **Seleccionar archivo**, puede examinar el archivo de imagen necesario de **Repositorio** o **Colecciones**.
+
+>[!NOTE]
+>
+> El explorador de rutas de carpetas y archivos se introdujo con una interfaz de usuario renovada en la versión 2601 de Experience Manager Guides as a Cloud Service. La nueva interfaz está habilitada de forma predeterminada. Si prefiere seguir utilizando la interfaz de usuario existente sin estas actualizaciones, póngase en contacto con el equipo de éxito del cliente para que se deshabilite esta nueva mejora.
+
+![](images/select-file-browser-images.png)
+
+Utilice las rutas de exploración de la parte superior y el panel de navegación de carpetas de la izquierda para navegar fácilmente por las carpetas.
+
+![](images/select-file-browser-file-navigation.png)
+
+Puede buscar el archivo de imagen requerido por Nombre de archivo, Título de archivo y Contenido. También puede filtrar los resultados de búsqueda por Ruta \(para buscar\), Estado del documento, Bloqueado por, Última modificación y Etiquetas. El filtro de tipo de archivo se ha aplicado previamente a **Imágenes** y permanece deshabilitado para que otros tipos de archivo permitan selecciones de archivo válidas. Para obtener más información sobre el uso de filtros en este explorador de rutas, vea [Otras características en el editor](./web-editor-other-features.md).
+
+![](images/select-file-dialog-image-filter.png)
+
+Cuando encuentre el archivo de imagen necesario, selecciónelo y elija **Seleccionar** para insertar la imagen en el documento. Puede insertar varios formatos de archivos de imagen, como `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd`, etc.
+
+También puede agregar un título de imagen/figura y un texto alternativo para la imagen en el cuadro de diálogo Insertar imagen.
 
 >[!NOTE]
 >
 > Al insertar una imagen y especificar un texto alternativo para la misma, se agrega dentro del elemento `<alt>` de acuerdo con los estándares DITA más recientes. El uso del atributo `@alt` para texto alternativo está en desuso, pero sigue siendo compatible con versiones DITA anteriores.
-
-Con la opción **Seleccionar archivo**, puede buscar el archivo de imagen requerido por nombre de archivo. También puede filtrar los resultados de búsqueda por Ruta \(para buscar\), Colecciones, Tipo de archivo y Etiquetas. Cuando encuentre el archivo de imagen necesario, selecciónelo y elija **Seleccionar** para insertar la imagen en el documento. Puede insertar varios formatos de archivos de imagen, como `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd`, etc.
 
 Una vez insertada una imagen, puede cambiar la altura, la anchura, la ubicación y los atributos en el panel Propiedades de contenido. Seleccione el archivo de imagen y, a continuación, realice cambios en el panel de propiedades Contenido del panel derecho.
 
@@ -426,7 +443,7 @@ Seleccione una imagen en el tema actual y seleccione el icono Insertar/Editar ma
 
 Elija la forma preferida Rectángulo ![](images/imagemap-rectangle-toolbar.png), Círculo ![](images/imagemap-circle-toolbar.png) o Polígono ![](images/imagemap-polygon-toolbr.png) para definir un área sobre una imagen que desee utilizar como vínculo. Después de definir un área, aparece el cuadro de diálogo Referencia en el que debe especificar el vínculo al contenido interno o externo:
 
-![](images/reference-dialog.png){width="650" align="left"}
+![](images/reference-dialog.png){width="350" align="left"}
 
 Si las áreas se superponen, puede hacer que la forma avance o retroceda haciendo clic en el icono correspondiente de la barra de herramientas. También puede quitar un área seleccionándola y haciendo clic en el icono Eliminar. Al hacer doble clic en un área, se abre el cuadro de diálogo Referencia, en el que puede cambiar el vínculo de destino. Una vez que haya marcado las áreas requeridas en la imagen, guarde los cambios seleccionando **Listo**.
 
@@ -440,13 +457,19 @@ Inserta diferentes tipos de archivos multimedia. Seleccione el icono desplegable
 - YouTube
 - Vimeo
 
-Al seleccionar la opción Archivo de audio o vídeo, se muestra la vista del repositorio para buscar y seleccionar el archivo deseado. Si elige YouTube o Vimeo, aparece el cuadro de diálogo Insertar multimedia. Pegue el vínculo del archivo de vídeo en el campo Web Link y seleccione Insert para añadir el vídeo a la ubicación válida actual o siguiente del documento.
+Al seleccionar la opción de archivo de audio o vídeo, aparece el cuadro de diálogo **Seleccionar archivo** para examinar y seleccionar el archivo que desee en Repositorio o Colecciones.
+
+![](images/select-file-dialog-multimedia.png){width="650" align="left"}
+
+Si elige YouTube o Vimeo, obtendrá el cuadro de diálogo **Insertar multimedia**. Pegue el vínculo del archivo de vídeo en el campo Web Link y seleccione Insert para añadir el vídeo a la ubicación válida actual o siguiente del documento.
+
+![](images/insert-multimedia-dialog.png){width="350" align="left"}
 
 >[!NOTE]
 >
 > Al agregar un vínculo de vídeo de YouTube, debe reemplazar la cadena `watch?v=` por `embed` en la dirección URL. Por ejemplo, para agregar un vínculo de vídeo de YouTube: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, debe agregarlo como: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. Este cambio garantiza que el vídeo se incruste en el sitio de AEM y en la salida de PDF.
 
-También puede agregar el archivo de audio o vídeo desde el cuadro de diálogo Insertar multimedia. Seleccione la opción Archivo de audio/vídeo y, a continuación, seleccione el icono Examinar para iniciar la vista del repositorio. Seleccione el archivo de audio o vídeo del repositorio y seleccione **Seleccionar** para agregar el vínculo del archivo en el campo Archivo de audio o vídeo. Si elige un archivo de vídeo, también se mostrará una vista previa del archivo en el área de Vista previa. Puede reproducir el archivo de vídeo para ver su previsualización.
+También puede agregar el archivo de audio o vídeo desde el cuadro de diálogo **Insertar multimedia**. Seleccione la opción Archivo de audio/vídeo y, a continuación, seleccione el icono Examinar para iniciar la vista del repositorio. Seleccione el archivo de audio o vídeo del repositorio y seleccione **Seleccionar** para agregar el vínculo del archivo en el campo Archivo de audio o vídeo. Si elige un archivo de vídeo, también se mostrará una vista previa del archivo en el área de Vista previa. Puede reproducir el archivo de vídeo para ver su previsualización.
 
 ![](images/insert-multimedia.png){width="650" align="left"}
 
@@ -489,20 +512,29 @@ Si el administrador ha habilitado la opción UUIDs en *XMLEditorConfig*, verá e
 >
 > Consulte la sección Referencias en la guía de prácticas recomendadas para conocer las prácticas recomendadas sobre las referencias al contenido.
 
-**Filtrar búsqueda**
+**Filtrar la búsqueda en la vista de repositorio**
 
-Puede buscar texto en los archivos presentes en la ruta seleccionada del repositorio de AEM. Por ejemplo, &quot;general&quot; se busca en la siguiente captura de pantalla. También puede limitar la búsqueda mediante filtros mejorados. Puede buscar todos los ficheros DITA, como los temas DITA y los mapas DITA, presentes en la ruta seleccionada.
+En el diálogo **Seleccionar archivo**, puede buscar texto en los archivos presentes en la ruta seleccionada del **Repositorio**. Por ejemplo, *frenado* se busca en la siguiente captura de pantalla.
 
-Puede buscar archivos que no sean DITA, como los archivos de imagen, multimedia y documentos de la ruta seleccionada. También se pueden buscar valores específicos en los atributos de elementos DITA. También puede buscar archivos que el usuario especificado haya desprotegido.
+>[!NOTE]
+>
+> El explorador de archivos y rutas se introdujo con una interfaz de usuario renovada en la versión 2601 de Experience Manager Guides as a Cloud Service. La nueva interfaz está habilitada de forma predeterminada. Si prefiere seguir utilizando la interfaz de usuario existente sin estas actualizaciones, póngase en contacto con el equipo de éxito del cliente para que se deshabilite esta nueva mejora.
 
 ![](images/reference-search-filters.png){width="650" align="left"}
+
+Puede utilizar las rutas de exploración de la parte superior y el panel de navegación de carpetas de la izquierda para navegar fácilmente por las carpetas.
+
+![](images/select-file-browser-file-navigation.png)
+
+Puede buscar el archivo requerido por Nombre de archivo, Título de archivo y Contenido. También puede limitar la búsqueda mediante filtros mejorados desde el panel derecho. Para obtener más información, vea [Otras características del editor](./web-editor-other-features.md).
+
+![](images/select-file-dialog-image-filter.png)
+
+Se muestra la lista de archivos filtrados que contienen el texto buscado. También puede obtener una vista previa del contenido del archivo.
 
 >[!NOTE]
 >
 > El administrador del sistema también puede configurar los filtros de texto y mostrar u ocultar otros filtros. Para obtener más información, vea la sección *Configuración de filtros de texto* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
-
-Se muestra la lista de archivos filtrados que contienen el texto buscado. Por ejemplo, en la captura de pantalla anterior se enumeran los archivos que contienen el texto &quot;general&quot;. También puede obtener una vista previa del contenido del archivo.
-
 
 **Contenido reutilizable** - ![](images/reusable-content.svg)
 
@@ -542,7 +574,7 @@ Palabra clave Insert definida en el mapa DITA. Seleccione la opción Palabra cla
 
 Las palabras clave se muestran en orden alfabético y también puede buscar palabra clave\(s\) escribiendo una cadena de búsqueda en el cuadro Buscar. El resultado de la búsqueda devolverá las palabras clave que contienen la cadena en ID o Value. Las palabras clave definidas en el mapa DITA se muestran en este cuadro de diálogo. Elija la palabra clave que desee insertar y seleccione **Insertar**.
 
-También puede cambiar los atributos de la palabra clave insertada haciendo clic con el botón derecho en la palabra clave y seleccionando la opción Atributos. Se abrirá el cuadro de diálogo **Atributos para palabra clave:
+También puede cambiar los atributos de la palabra clave insertada haciendo clic con el botón derecho en la palabra clave y seleccionando la opción Atributos. Se abre el cuadro de diálogo **Atributos para la palabra clave**:
 
 ![](images/attributes-for-keyword.png){width="550" align="left"}
 
@@ -627,4 +659,4 @@ Si un archivo está bloqueado por otro usuario, al pasar el ratón por encima de
 Como administrador, también obtienes acceso a la función **Forzar desbloqueo** que te permite desbloquear el archivo bloqueado por otros usuarios. Utilice esta función para acceder a los derechos de edición de un archivo bloqueado por otros usuarios.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

@@ -4,7 +4,7 @@ description: Cree y administre líneas de base desde la consola de mapas de Adob
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: c7e76de14a3dd63eff794ecca16ebbccb3cb2d8a
+source-git-commit: eb68e4583083ff209fd717049c6e50b996cba8e8
 workflow-type: tm+mt
 source-wordcount: '1881'
 ht-degree: 0%
@@ -109,7 +109,7 @@ Puede gestionar las líneas base existentes mediante las distintas funciones del
   >
   >La operación Editar (Edit) en el caso de una instantánea dinámica permite editar las propiedades de la instantánea, ya que las referencias para las instantáneas dinámicas se generan durante la ejecución mediante las etiquetas.
 
-  ![opciones de una línea de base](images/baseline-options.png){width="500" align="left"}
+  ![opciones de una línea de base](images/baseline-options.png){align="left"}
 
 ### Acciones disponibles para una línea base existente
 
@@ -168,5 +168,5 @@ Con el icono Filtros del panel **Filtros de línea de base**, puede aplicar filt
 
 Una vez que haya editado la línea de base, seleccione **Guardar** para guardar los cambios realizados en la línea de base. Puede seleccionar **Restablecer** si no desea guardar el cambio y restablecer la línea de base. Al seleccionar **Restablecer**, se muestra una advertencia indicando que se perderán los cambios que no se hayan guardado.
 
-**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)
+**Tema principal:**[ Generación de resultados](generate-output.md)
 

@@ -4,9 +4,9 @@ description: Generar informes de mapas DITA desde la consola de mapas de AEM Gui
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
+source-git-commit: 11b0082b160a35fee0fc9d6478f5fe896de80d31
 workflow-type: tm+mt
-source-wordcount: '2614'
+source-wordcount: '2645'
 ht-degree: 0%
 
 ---
@@ -121,11 +121,13 @@ Puede aplicar etiquetas a un tema individual o utilizar la función de etiquetad
 
 Para actualizar los metadatos, realice los siguientes pasos:
 
-1. Para actualizar los metadatos, seleccione los archivos que desea actualizar. Puede seleccionar los archivos que aparecen en el panel Metadatos marcando la casilla que aparece junto a **Título**. Si desea seleccionar todos los registros, utilice la ficha **Seleccionar todo** situada encima de la barra de título, como se muestra a continuación.
+1. Para actualizar los metadatos, seleccione los archivos que desee actualizar. Puede seleccionar los archivos que aparecen en el panel Metadatos marcando la casilla que aparece junto a **Título**.
+
+   Si desea seleccionar todos los registros, utilice la ficha **Seleccionar todo** situada encima de la barra de título. Dado que los registros se cargan progresivamente a medida que se desplaza, asegúrese de desplazarse hasta el final de la lista antes de utilizar **Seleccionar todo**. Esto garantiza que los permisos de edición y el estado de bloqueo se evalúen para todos los archivos, no solo para los registros visibles actualmente.
 
    >[!NOTE]
    >
-   > No puede seleccionar ningún archivo desprotegido. También aparece un icono de desprotección cerca del título de un archivo desprotegido. Puede pasar el ratón sobre el icono para ver el nombre del usuario.
+   > Si un archivo está bloqueado por otro usuario, no se puede seleccionar para actualizar los metadatos. También aparece un icono de candado cerca del título de un archivo bloqueado. Puede pasar el ratón sobre el icono para ver el nombre del usuario.
 
    ![](images/all-selection.png){align="left"}
 
@@ -136,9 +138,7 @@ Para actualizar los metadatos, realice los siguientes pasos:
 
 1. Si desea añadir nuevas etiquetas, seleccione nuevas etiquetas en la lista desplegable para aplicarlas a todos los temas seleccionados. También puede eliminar cualquier etiqueta seleccionando el icono en forma de cruz cerca de la etiqueta.
 
-   >[!NOTE]
-   >
-   > Se muestran las etiquetas comunes aplicadas en todos los temas seleccionados.
+
 
 1. Seleccione un nuevo estado de documento si desea cambiar el estado del documento de todas las referencias seleccionadas. La lista desplegable muestra el estado posible común de todos los temas seleccionados. Por ejemplo, si el estado actual de los temas es En revisión, puede ver los estados Borrador, Aprobado o Revisado.
 1. Seleccione **Actualizar** para actualizar los metadatos. Se muestra un mensaje de confirmación para los metadatos, tanto si se actualizan correctamente como si tienen actualizaciones fallidas. También seleccionó **Descargar informe** para descargar la instantánea del informe. Esta instantánea contiene los detalles del estado actualizado de las referencias seleccionadas.
@@ -236,16 +236,16 @@ Para ver el informe de los vínculos rotos, siga estos pasos:
 
 1. Puede filtrar los vínculos rotos en función de **Tipo de archivo** y **Tipo de vínculo**. La lista de vínculos rotos se muestra según lo que haya seleccionado en la lista desplegable. Por ejemplo, se puede elegir mostrar únicamente las referencias de contenido en el mapa DITA y un fichero sólo muestra las referencias de contenido rotas utilizadas en él.
 
-   El tema DITA, el mapa DITA, la referencia de archivo, la referencia de clave, la referencia de contenido, la referencia de clave de contenido, la referencia de imagen, la referencia de archivo multimedia y la referencia de clave multimedia son valores disponibles para la lista desplegable **Tipo de vínculo**; y el tema DITA, el mapa DITA, el documento, la imagen, el vídeo, el audio y otros son valores disponibles para la lista desplegable **Tipo de archivo**.
+   El tema DITA, el mapa DITA, la referencia de archivo, la referencia de clave, la referencia de contenido, la referencia de clave de contenido, la referencia de imagen, la referencia de archivo multimedia y la referencia de clave multimedia son valores disponibles para la lista desplegable **Tipo de vínculo**, y Tema, mapa, documento, imagen, vídeo, audio y otros son valores disponibles para la lista desplegable **Tipo de archivo**.
 1. También puede utilizar las siguientes opciones de filtrado para elegir mostrar las siguientes columnas en la lista:
 
    - **Vínculo roto** (seleccionado de forma predeterminada) La ruta del vínculo roto se especifica en el mapa DITA.
 
-   - **Tipo de vínculo** (seleccionado de forma predeterminada) El tipo de vínculos. Las opciones disponibles son Tema DITA, Mapa DITA, Referencia de fichero, Referencia de clave, Referencia de contenido, Referencia de clave de contenido, Referencia de imagen, Referencia de fichero multimedia y Referencia de clave multimedia.
+   - **Tipo de vínculo** (seleccionado de forma predeterminada) El tipo de vínculos. Las opciones disponibles son Tema, Mapa, Referencia de archivo, Referencia de clave, Referencia de contenido, Referencia de clave de contenido, Referencia de imagen, Referencia de archivo multimedia y Referencia de clave multimedia.
 
    - **Utilizado en** (seleccionado de forma predeterminada) Las referencias en las que se ha utilizado el vínculo roto. Puede seleccionar la referencia para verla en el modo Autor.
 
-   - **Tipo de archivo** (seleccionado de forma predeterminada) El tipo de referencia: Tema DITA, Mapa DITA, Documento, Imagen, Vídeo, Audio y Otros.
+   - **Tipo de archivo** (seleccionado de forma predeterminada) El tipo de referencia: Tema, Mapa, Documento, Imagen, Vídeo, Audio y Otros.
 
    Seleccione **Actualizar** para obtener una lista nueva de vínculos rotos y ver cualquier cambio en el archivo de asignación o si se actualiza algún vínculo roto en el mapa DITA.
 1. Puede seleccionar en el icono **Corregir vínculo** (![](images/fix-broken-link.svg)) para corregir el vínculo roto.
@@ -266,4 +266,4 @@ Para ver el informe de los vínculos rotos, siga estos pasos:
 1. Seleccione **Descargar** para descargar la instantánea de todos los vínculos rotos del mapa DITA. El archivo de Excel contiene las columnas seleccionadas y los vínculos rotos filtrados en la vista Vínculos rotos.
 
 
-**Tema principal:**&#x200B;[&#x200B; Introducción a los informes](reports-intro.md)
+**Tema principal:**[ Introducción a los informes](reports-intro.md)

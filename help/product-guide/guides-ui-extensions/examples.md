@@ -1,13 +1,13 @@
 ---
 title: Ejemplos
 description: Lista de ejemplos de personalización
-source-git-commit: fc0b19ac44ca9cbc1e9c5cf046f9a0a24f2a1794
+exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
+source-git-commit: 924c34a2ec6249b81cbdddf72392dac600e22e9f
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
-
 
 # Ejemplos
 
@@ -27,10 +27,13 @@ En este ejemplo hemos personalizado `right tab panel` para que tenga otro `tab` 
 5. [Barra de herramientas](./examples/toolbar.ts)
 En este ejemplo hemos reemplazado los botones `Insert Element`, `Insert Paragraph`, `Insert Numbered List`, `Insert Bulleted List` con un solo botón `More Insert Options` que contiene todos estos elementos.
 
+6. [Botón Administrar en el panel Metadatos](./examples/metadata_report_manage_button.ts)
+En este ejemplo, hemos personalizado el botón **Administrar** (ubicado en el panel Metadatos de la página Informes) para que se deshabilite cuando los archivos seleccionados estén en modo de solo lectura. Esto ayuda a evitar ediciones accidentales de metadatos en archivos que no están pensados para su edición.
+
 [Revisar ejemplos de aplicaciones]
 
 1. [Cuadro de herramientas de anotaciones](./examples/review_app_examples/annotation_extension.ts)
-AEM En este ejemplo, se ha agregado otro botón al cuadro de herramientas de anotación que abre el tema de revisión actual en la vista de datos de.
+En este ejemplo hemos agregado otro botón al cuadro de herramientas de anotaciones que abre el tema de revisión actual en AEM.
 
 2. [Revisar comentario](./examples/review_app_examples/review_comment.ts)
 En este ejemplo, se ha agregado, reemplazado el nombre de usuario por información de usuario (que consta del nombre completo y el título del comentarista), se ha agregado un ID de comentario único, un icono mailTo y se han agregado campos de entrada para mencionar la gravedad y el motivo del comentario.

@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo crear una tarea de revisión y env
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: cd536b9e27b3c422fc723e9f13b12ac432fa3fc9
 workflow-type: tm+mt
-source-wordcount: '2793'
+source-wordcount: '3055'
 ht-degree: 0%
 
 ---
@@ -269,4 +269,41 @@ Para enviar uno o varios temas junto con el archivo de asignación para su revis
 
 Se envía un mensaje de correo electrónico a todos los revisores para notificarles que se les han asignado temas para su revisión. El correo electrónico contiene un vínculo directo que puede utilizar para acceder al tema en una ventana del explorador. Los temas junto con el mapa DITA se abren en el modo de revisión.
 
-**Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)
+## Agregar o quitar temas de una tarea de revisión en curso
+
+Como autor o iniciador de una tarea de revisión, puede agregar nuevos temas a una tarea de revisión en curso (si no se han enviado anteriormente para su revisión) o quitar temas de una tarea de revisión en curso sin que ello afecte al flujo de trabajo de revisión.
+
+Realice los siguientes pasos para agregar o quitar temas de una tarea de revisión en curso:
+
+1. En el panel Revisar, vaya a la tarea de revisión que desee modificar y seleccione **Abrir detalles de la tarea** en el menú contextual.
+
+   Se muestra la página **Detalles de la tarea**.
+
+1. Seleccione la ficha **CONTENT** para ver los temas incluidos actualmente en la tarea de revisión.
+1. Revise la lista de temas y modifique la selección según sea necesario.
+
+   - Seleccionar nuevos temas que no se hayan enviado anteriormente para su revisión.
+   - Anule la selección de los temas que quiera eliminar de la tarea de revisión.
+
+   >[!NOTE]
+   >
+   > Debe permanecer seleccionado al menos un tema para actualizar una tarea de revisión en curso.
+
+   ![](images/modify-review-topics.png)
+
+1. Una vez que modifique la lista de temas, las actualizaciones correspondientes se propagarán automáticamente a la ficha **REVISORES** de la página Detalles de la tarea.
+
+   ![](images/modify-reviewers.png)
+
+   Revise la lista de temas actualizada en la ficha Revisores. Para cualquier tema nuevo agregado, debe asignar revisores a menos que la opción **Permitir que los usuarios asignados revisen cualquier tema** esté habilitada para su tarea de revisión.
+1. Seleccione **Actualizar**.
+
+Una vez que se actualiza la tarea de revisión, los revisores reciben notificaciones (tanto de AEM como por correo electrónico) según su estado de revisión:
+
+- **En curso**: Los revisores que aún están trabajando en la tarea reciben una notificación avisando de que la tarea se ha actualizado.
+- **Completada**: los revisores que hayan finalizado su revisión recibirán una notificación que solicita una nueva revisión.
+
+Para obtener más información, vea [Descripción de las notificaciones de revisión](./review-understanding-review-notifications.md).
+
+
+**Tema principal:**[ Introducción a la revisión](review.md)

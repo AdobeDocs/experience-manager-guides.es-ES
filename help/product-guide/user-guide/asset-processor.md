@@ -5,10 +5,10 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-source-git-commit: 32ed6c47f8193f955df8a60fc8cdc931b28fa7a4
+source-git-commit: 62221031e445ccdbf1f2567f38fa888ff52017d4
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 1%
+source-wordcount: '651'
+ht-degree: 0%
 
 ---
 
@@ -53,20 +53,29 @@ Siga los pasos mencionados a continuación para procesar los recursos:
 
 1. Seleccione la pestaña **Nuevo proceso** en la esquina superior derecha de la ventana para iniciar una nueva tarea de procesamiento.
 
+   Se abre el cuadro de diálogo **Nuevo proceso**.
+
    ![Nuevo-procesador-recursos-procesos](images/new-asset-processor.png){width="350" align="left"}
 
-1. Seleccione la carpeta que desee procesar. También puede seleccionar las carpetas (dentro de la carpeta seleccionada principal) que desee excluir o ignorar.
+1. Proporcione los siguientes detalles en el cuadro de diálogo:
+
+   1. **Tipo de característica**: seleccione **Procesamiento de recursos** de la lista desplegable.
+   1. **Seleccionar carpetas y archivos**: Desplácese y elija una o varias carpetas y archivos para procesar.
+   1. **Seleccionar carpetas para omitir**: opcionalmente, seleccione subcarpetas dentro de la carpeta principal elegida para excluirlas del procesamiento.
+   1. **Tipo de recurso**: en el menú desplegable, seleccione el tipo de recurso específico que desea procesar (por ejemplo, Tema DITA, Mapa DITA, Markdown, HTML/CSS, DITAVAL u otros archivos). Solo se procesa el tipo de recurso seleccionado de las carpetas especificadas anteriormente.
+Ejemplo: al seleccionar un tema DITA, sólo se procesan temas DITA dentro de la carpeta seleccionada, lo que permite el filtrado con objetivo.
+   1. **Creado después de/Creado antes de**: aplique filtros de fecha para procesar los recursos creados dentro del intervalo de tiempo especificado.
 
    >[!NOTE]
    >
-   >Solo se puede seleccionar una carpeta a la vez para su procesamiento. Para operaciones específicas, puede excluir varias carpetas.
+   > Si ya se está ejecutando un proceso para una carpeta, no puede iniciar un nuevo proceso para la misma carpeta hasta que se complete la tarea actual.
 
-1. Seleccione **Crear**. Aparece una ventana emergente que muestra **Éxito y el proceso se activó correctamente**, como se muestra en el fragmento. Lo mismo se refleja en la lista. Puede ver el estado de la tarea de procesamiento en la ventana.
+1. Seleccione **Crear**. Aparece una ventana emergente que muestra **Éxito y el proceso se ha activado correctamente**. Puede ver el estado de la tarea de procesamiento en la ventana.
 
    ![Procesador de recursos de mensajes](images/message-asset-processor.png){width="350" align="left"}
 
 
-## Opciones adicionales para las tareas de procesamiento
+## Opciones adicionales para tareas de procesamiento de recursos
 
 Hay opciones adicionales disponibles para la tarea de procesamiento una vez iniciada. Puede acceder a estas opciones pasando el puntero sobre el ID de ejecución de la tarea. A continuación se ofrecen detalles sobre estas opciones:
 

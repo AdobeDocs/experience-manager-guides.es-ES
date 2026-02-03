@@ -3,9 +3,9 @@ title: Repositorio en la página de inicio
 description: Conozca el Repositorio en la página de inicio. Obtenga información sobre la interfaz y las funciones del repositorio en Adobe Experience Manager Guides en la página de inicio.
 feature: Authoring
 role: User
-source-git-commit: 1919e622b1b148d16bcdb85f79e2a1cd706fe33e
+source-git-commit: e45343812a67c6755c76f1b31b68c7201cdd8772
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
@@ -76,11 +76,11 @@ El Repositorio sirve como espacio central que proporciona una lista tabular de t
    - **Nuevo**: crea un nuevo tema, mapa o carpeta DITA.
    - **Cargar Assets**: cargue un archivo de su sistema local a la carpeta seleccionada en el repositorio.
    - **Agregar a colecciones**: Agrega la carpeta seleccionada a favoritos. Puede elegir agregarlo a una colección existente o nueva.
-   - **Volver a procesar recursos**: Déclencheur el procesamiento de todos los recursos recién creados y no procesados.
+   - **Volver a procesar recursos**: Déclencheur el procesamiento de todos los recursos de la carpeta.
 
 - **Menú de opciones para los archivos**: puede realizar las siguientes acciones mediante el menú **Opciones** de un archivo:
 
-  ![](images/options-file-repo.png){width="350" align="left"}
+  ![](images/options-file-repo-new.png){width="350" align="left"}
 
    - **Editar**: abra el archivo para editarlo.
    - **Editar en oxígeno**: seleccione esta opción para editar el archivo seleccionado en el complemento Conector de oxígeno.
@@ -99,6 +99,7 @@ El Repositorio sirve como espacio central que proporciona una lista tabular de t
    - **Eliminar**: utilice esta opción para eliminar el archivo seleccionado.
    - **Agregar a**: elige agregar a colecciones o contenido reutilizable.
    - **Copiar**: copia el UUID o la ruta completa del archivo.
+   - **Volver a procesar el recurso**: Déclencheur el procesamiento del recurso seleccionado.
    - **Propiedades**: utilice esta opción para abrir la página Propiedades del archivo seleccionado.
    - **Descargar como PDF**: Use la opción para generar la salida de PDF y descargarla.
 
@@ -116,7 +117,16 @@ Tiene las siguientes opciones para filtrar los archivos y limitar la búsqueda:
 
 - **Buscar en**: seleccione la ruta de acceso en la que desea buscar los archivos presentes en el repositorio.
 
-- **Tipo de archivo**: puede buscar todos los **temas DITA**, **mapas DITA**, **archivos DITAVAL**, **archivos de imagen**, **multimedia**, **documentos** y **JSON**.
+- **Tipo de archivo**: filtre la búsqueda según un tipo de archivo específico. Las opciones disponibles son: **Tema**, **Mapa**, **DITAVAL**, **Imagen**, **Multimedia**, **Documento** y **Otros**.
+
+- **Estado del documento**: puede filtrar la búsqueda según el estado actual del documento de los archivos. Los valores de filtro disponibles se definen en el campo `repositoryFilters` de `ui_config.json file` y están asociados al perfil de carpeta que está utilizando actualmente.
+
+  Esto significa lo siguiente:
+
+   - Si utiliza el Perfil global, se aplican los valores de filtros configurados en el Perfil global.
+   - Si selecciona un perfil de carpeta específico, se recuperan los valores de los filtros definidos en ese perfil.
+
+  Los valores de filtro predeterminados disponibles para el estado del documento son: Borrador, Editar, En revisión, Aprobado, Revisado y Listo. Para obtener detalles sobre cómo personalizar los valores de filtro para los estados de documento, vea [Configurar filtros de estado de documento](../cs-install-guide/config-doc-state-filters.md).
 
 - **Bloqueado por**: muestra una lista de usuarios. La lista se pagina y se carga asincrónicamente, mostrando un conjunto limitado de usuarios a la vez y recuperando más a medida que se desplaza o navega. Esto mejora la velocidad de carga y el rendimiento general, especialmente cuando se trabaja con un gran número de usuarios.
 
@@ -127,7 +137,7 @@ Tiene las siguientes opciones para filtrar los archivos y limitar la búsqueda:
 
 - **Etiquetas**: filtre el contenido según las etiquetas.
 
-- **elemento DITA**: filtre el contenido en función de varios elementos DITA.
+- **Elementos DITA**: filtre el contenido en función de varios elementos DITA.
 
 Después de aplicar todos los filtros necesarios, selecciona **Aplicar** en la esquina inferior derecha del panel Filtros.
 

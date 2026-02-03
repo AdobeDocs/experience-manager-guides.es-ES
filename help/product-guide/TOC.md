@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: d56c5d92a05e8652e9ce1e8b5d508c1441daf012
+source-git-commit: 34a9fcb414831c3a6437ea39fa3541ef7994dd1c
 workflow-type: tm+mt
-source-wordcount: '2452'
+source-wordcount: '2492'
 ht-degree: 9%
 
 ---
@@ -19,6 +19,11 @@ ht-degree: 9%
    - Notas de la versión {#release-notes}
       - Cloud Services {#cloud-release-notes}
          - [Instrucciones de implementación](./release-info/deploy-xml-on-aemaacs.md)
+         - Versiones de 2026 {#2026-releases}
+            - Versión 2026.01.0 {#2601-release}
+               - [Novedades](./release-info/whats-new-2026-01-0.md)
+               - [Problemas solucionados](./release-info/fixed-issues-2026-01-0.md)
+               - [Instrucciones de actualización](./release-info/upgrade-instructions-2026-01-0.md)
          - Versiones de 2025 {#2025-releases}
             - Versión 2025.11.0 {#2511-release}
                - [Novedades](./release-info/whats-new-2025-11-0.md)
@@ -169,14 +174,14 @@ ht-degree: 9%
                - [Notas de la versión 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notas de la versión 4.2](./release-info/release-notes-4-2.md)
          - [Notas de la versión 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notas de la versión 4.0.x](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notas de la versión 3.8.x](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notas de la versión 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notas de la versión 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guía del usuario (nueva interfaz de usuario) {#user-guide}
    - Introducción {#about-aemg}
       - [Acerca de  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] funciones clave y de trabajo {#aemg-works-features}
-         - [Cómo funciona [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-         - [Características clave  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Cómo funciona [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+         - [Características clave  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Página de inicio {#home-page}
       - [Experiencia de la página de inicio [!DNL AEM Guides]](./user-guide/intro-home-page.md)
       - [Interfaz de repositorio](./user-guide/home-page-repository-view.md)
@@ -374,7 +379,7 @@ ht-degree: 9%
       - Resolución de problemas {#troubleshooting}
          - [Session timeout](./user-guide/session-timeout-prompt.md)
 - Guía del usuario (IU antigua) {#user-guide-old-ui}
-   - [Información general de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Información general de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalación y configuración {#install-guide}
    - On-Premise {#on-prem-ig}
       - [Conceptos básicos locales](./install-guide/introduction.md)
@@ -471,6 +476,8 @@ ht-degree: 9%
          - [Configurar característica de procesamiento de recursos](./install-guide/configure-asset-processing.md)
       - Trabajar con limpieza de árbol B{#btree-cleanup}
          - [Configurar limpieza de árbol B](./install-guide/configure-btree-clean-up-job.md)
+      - Indexación personalizada{#custom-indexing}
+         - [Implementación del índice personalizado para Buscar y reemplazar (vista de Source)](./install-guide/custom-indexing-prem.md)
       - [Apéndice](./install-guide/appendix.md)
    - Cloud Services {#cs-ig}
       - [Acerca de esta guía](./cs-install-guide/introduction.md)
@@ -503,6 +510,7 @@ ht-degree: 9%
          - [Configuración de una plantilla de mapa DITA personalizada](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
       - Trabajar con estados de documento {#doc-state-cs}
          - [Configuración de estados de documento](./cs-install-guide/customize-doc-state.md)
+         - [Configurar filtros de estado del documento](./cs-install-guide/config-doc-state-filters.md)
       - Configuración de Workspace {#workspace-configs}
          - [Configuración de Workspace](./cs-install-guide/workspace-settings.md)
       - Trabajar con las configuraciones del editor web {#web-editor-configs-cs}
@@ -556,6 +564,8 @@ ht-degree: 9%
          - [Configurar la función de procesamiento de recursos](./cs-install-guide/configure-asset-processing-cs.md)
       - Trabajar con limpieza de árbol B{#btree-cleanup-cs}
          - [Configurar limpieza de árbol B](./cs-install-guide/configure-btree-cleanup-cs.md)
+      - Indexación personalizada{#custom-indexing-cs}
+         - [Implementación del índice personalizado para Buscar y reemplazar (vista de Source)](./cs-install-guide/custom-indexing.md)
       - [Apéndice](./cs-install-guide/appendix.md)
 - Referencia de la API {#api-reference}
    - [Introducción](./api-reference/introduction.md)
@@ -570,6 +580,7 @@ ht-degree: 9%
    - [API para iniciar el procesamiento masivo de recursos](./api-reference/bulk-assets-processing.md)
    - [Controlador de eventos de activación masiva completa](./api-reference/bulk-activation-complete-event.md)
    - [Controlador de eventos del proceso de conversión](./api-reference/conversion-complete-event.md)
+   - [Creación del proyecto de traducción](./api-reference/translation-project.md)
 - Base de conocimiento {#knowledge-base}
    - Sesión de expertos {#expert-session}
       - [Resumen de sesión de expertos](./knowledge-base/expert-sessions/expert-session.md)

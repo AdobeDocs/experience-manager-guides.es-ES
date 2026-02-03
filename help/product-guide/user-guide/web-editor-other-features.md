@@ -4,9 +4,9 @@ description: Explore otras funciones del editor en Adobe Experience Manager Guid
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: c84a95b4d0b5df5b29d16efa7478bbfdc953bc5b
+source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
 workflow-type: tm+mt
-source-wordcount: '2678'
+source-wordcount: '3653'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,132 @@ El editor proporciona un cuadro de diálogo de exploración inteligente de archi
 >
 > En el caso de un archivo de imagen, audio o vídeo, el cuadro de diálogo de exploración de archivos toma como valor predeterminado la ubicación del archivo y no la última utilizada.
 
+## Examen de archivos y carpetas en Experience Manager Guides
+
+Experience Manager Guides proporciona cuadros de diálogo intuitivos - **Seleccionar archivo** y **Seleccionar ruta** - para ayudarle a examinar y elegir archivos o carpetas dentro del repositorio de contenido de forma eficaz.
+
+>[!NOTE]
+>
+> El explorador de rutas de archivos y carpetas se introdujo con una interfaz de usuario renovada en la versión 2601 de Experience Manager Guides as a Cloud Service. La nueva interfaz está habilitada de forma predeterminada. Si prefiere seguir utilizando la interfaz de usuario existente sin estas actualizaciones, póngase en contacto con el equipo de éxito del cliente para que se deshabilite esta nueva mejora.
+
+### Exploración de archivos en Experience Manager Guides
+
+El explorador de rutas de archivos permite localizar y seleccionar rápidamente archivos específicos dentro del repositorio de contenido. Esta función está disponible para tareas como añadir un tema a un mapa, vincular una imagen o referencia cruzada, crear contenido reutilizable, etc.
+
+![](images/select-file-dialog-new.png){width="350" align="left"}
+
+Al iniciar el explorador de archivos, se abrirá el cuadro de diálogo **Seleccionar archivo**. Este cuadro de diálogo incluye dos fichas: **Repositorio** y **Colecciones**. La pestaña Repositorio está seleccionada de forma predeterminada.
+
+![](images/select-file.png){width="650" align="left"}
+
+**Funciones disponibles en la ficha Repositorio para examinar archivos**
+
+**Vista tabular de archivos y carpetas**
+
+La pestaña Repositorio proporciona una vista tabular de los archivos y carpetas del repositorio de contenido, lo que facilita la búsqueda de la ruta de archivo correcta. También puede utilizar las rutas de exploración en la parte superior y el panel de navegación de carpetas en la parte izquierda para desplazarse por las carpetas.
+
+![](images/select-file-dialog-navigate-files.png){width="650" align="left"}
+
+**Selección de un solo archivo y de varios**
+
+Para usar un archivo, simplemente selecciónelo y elija **Seleccionar**.
+
+![](images/select-file-single-file-selection.png){width="650" align="left"}
+
+En algunos casos, también puede seleccionar varios archivos en este cuadro de diálogo del explorador de rutas. Por ejemplo, al examinar archivos para buscar contenido reutilizable, puede seleccionar varios archivos y convertirlos en parte del contenido reutilizable.
+
+![](images/select-file-multiple-file-selection.png){width="650" align="left"}
+
+Actualmente, hay disponible una selección múltiple de archivos para contenido reutilizable, referencias de temas, Schematron, ajustes preestablecidos de salida (mediante DITAVAL) y Workfront.
+
+>[!NOTE]
+>
+> Al seleccionar archivos desde el cuadro de diálogo del explorador de rutas, algunas carpetas pueden aparecer deshabilitadas. Este comportamiento restringe el acceso a tipos de archivo específicos para garantizar que las selecciones sean válidas. Por ejemplo, al crear contenido reutilizable, solo se deben utilizar archivos de tema y de mapa. Para evitar el uso de un tipo de archivo no válido, como una imagen, los archivos correspondientes no se muestran o permanecen desactivados para su selección en el explorador de rutas.
+
+**Previsualizar archivos seleccionados**
+
+Puede obtener una vista previa de los archivos que ha seleccionado mediante el botón **Vista previa**, como se muestra a continuación:
+
+![](images/select-file-preview-button.png){width="650" align="left"}
+
+La vista previa del archivo seleccionado se muestra a la derecha.
+
+![](images/select-file-dialog-preview.png){width="650" align="left"}
+
+Para varias selecciones, se muestra una vista previa de todos los archivos seleccionados en el panel Vista previa para facilitar la revisión.
+
+![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+
+También puede usar el icono **Quitar** para anular la selección de algunos archivos de la vista previa.
+
+![](images/resusable-content-remove-preview.png){width="650" align="left"}
+
+**Buscar y filtrar la experiencia**
+
+Al examinar los archivos del Repositorio, puede buscar archivos por nombre, título o contenido dentro de la ruta seleccionada. Puede utilizar uno, dos o los tres criterios para la búsqueda. Si no se selecciona ninguno de los criterios, los resultados incluyen elementos comunes a los tres criterios.
+
+![](images/select-file-search.png){width="650" align="left"}
+
+Seleccione el icono **Filtrar búsqueda** \(![Icono de filtro de búsqueda](images/filter-search-icon.svg)\) para abrir el panel Filtro a la derecha.
+
+![](images/select-file-filters.png){align="left"}
+
+Tiene las siguientes opciones para filtrar los archivos y limitar la búsqueda:
+
+- **Buscar en**: seleccione la ruta de acceso en la que desea buscar los archivos presentes en el repositorio.
+
+- **Tipo de archivo**: filtre la búsqueda según un tipo de archivo específico. Las opciones disponibles son: **Tema**, **Mapa**, **DITAVAL**, **Imagen**, **Multimedia**, **Documento** y **Otros**.
+
+  >[!NOTE]
+  >
+  > En algunos casos, el filtro **Tipo de archivo** se aplica previamente en tipos de archivo específicos según la tarea y no se puede cambiar. Por ejemplo, al buscar una imagen, el filtro se configura para mostrar solo archivos de imagen y, al crear contenido reutilizable, se configura para mostrar solo archivos de tema y de mapa. Puede seguir ajustando otros filtros, como el estado del documento, las etiquetas o la fecha de la última modificación, para restringir los resultados de búsqueda.
+
+- **Estado del documento**: puede filtrar la búsqueda según el estado actual del documento de los archivos. Los valores de filtro disponibles se definen en el campo `repositoryFilters` de `ui_config.json file` y están asociados al perfil de carpeta que está utilizando actualmente.
+
+  Esto significa lo siguiente:
+
+   - Si utiliza el Perfil global, se aplican los valores de filtros configurados en el Perfil global.
+   - Si selecciona un perfil de carpeta específico, se recuperan los valores de los filtros definidos en ese perfil.
+
+  Los valores de filtro predeterminados disponibles para el estado del documento son: Borrador, Editar, En revisión, Aprobado, Revisado y Listo. Para obtener detalles sobre cómo personalizar los valores de filtro para los estados de documento, vea [Configurar filtros de estado de documento](../cs-install-guide/config-doc-state-filters.md).
+
+- **Bloqueado por**: muestra una lista de usuarios. La lista se pagina y se carga asincrónicamente, mostrando un conjunto limitado de usuarios a la vez y recuperando más a medida que se desplaza o navega. Esto mejora la velocidad de carga y el rendimiento general, especialmente cuando se trabaja con un gran número de usuarios.
+
+- **Última modificación**: filtre el contenido en función de la fecha de modificación. Seleccione un intervalo de fechas del calendario o elija una de las siguientes opciones de lapso de tiempo:
+   - En la última semana
+   - En el último mes
+   - En el último año
+
+- **Etiquetas**: filtre el contenido según las etiquetas.
+
+- **Elementos DITA**: filtre el contenido en función de varios elementos DITA.
+
+Después de aplicar todos los filtros necesarios, selecciona **Aplicar** en la esquina inferior derecha del panel Filtros.
+
+**Funciones disponibles en la ficha Colecciones para examinar archivos**
+
+La pestaña **Colecciones** proporciona una vista revisada de los archivos disponibles en sus colecciones para acceder y reutilizar rápidamente. A diferencia de la pestaña Repositorio, que muestra la jerarquía de carpetas completa, las colecciones permiten seleccionar temas, mapas e imágenes utilizados con frecuencia sin desplazarse por varias carpetas.
+
+![](images/select-file-collections.png)
+
+En la pestaña Colecciones, puede:
+
+- Utilice las rutas de exploración de la parte superior y el panel de navegación de carpetas de la derecha para navegar fácilmente por sus colecciones.
+
+  ![](images/collections-folder-navigation-panel.png)
+- Seleccione los archivos presentes en una ruta de colecciones específica y previsualícela en el panel derecho.
+
+  ![](images/collections-file-preview.png)
+
+
+
+### Carpetas del explorador dentro del repositorio
+
+La exploración de carpetas mediante el cuadro de diálogo **Seleccionar carpeta** se centra en seleccionar la ruta de carpeta correcta dentro del Repositorio para tareas como la creación de nuevos temas o la especificación de ubicaciones de salida para el contenido publicado. Ofrece una vista clara y estructurada en árbol de las carpetas, lo que hace que la navegación sea intuitiva y garantiza que el contenido se coloque en la ubicación correcta.
+
+![](images/select-path-dialog-new.png){width="300" align="left"}
+
+
 ## Compatibilidad con la publicación basada en artículos
 
 Desde el Editor, se puede generar la salida para uno o varios temas o para todo el mapa DITA. Es necesario crear ajustes preestablecidos de salida para el mapa DITA y, a continuación, generar fácilmente la salida para uno o más temas. Si ha actualizado algunos temas en el mapa, también puede generar el resultado solo para esos temas desde el Editor. Para obtener más información, vea [Publicación basada en artículos](web-editor-article-publishing.md#id218CK0U019I).
@@ -282,4 +408,4 @@ A continuación se mencionan las funciones principales destinadas a mejorar el m
 
 - El mensaje de alerta solo está disponible para archivos DITA y es visible en todas las vistas: Autor, Source y Diseño.
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

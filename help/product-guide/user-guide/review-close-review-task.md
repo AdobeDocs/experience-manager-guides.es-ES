@@ -4,9 +4,9 @@ description: Obtenga información sobre el flujo de trabajo de cerrar una tarea 
 feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 6f9265b341b4122e7f13a429cc2fecacb14ae39c
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Realice los siguientes pasos para solicitar una nueva revisión o cerrar una tar
 
    >[!NOTE]
    >
-   > También puede abrir la tarea en el panel de tareas para obtener una vista más completa. Para ello, seleccione **Abrir en el panel de tareas** del menú Opciones de cualquier tarea de revisión activa. Se abrirán los detalles de la tarea en la consola Proyectos.
+   > Puede acceder a la página **Detalles de la tarea** para administrar la tarea de revisión. Para ello, seleccione **Abrir detalles de la tarea** en el menú Opciones de cualquier tarea de revisión activa. Se abrirán los detalles de la tarea en la consola Proyectos.
 
-   ![](images/task-dashboard-selection-author-view.png)
+   ![](images/task-details-selection-author-view.png)
 3. Seleccione el icono **Comentarios de la tarea** para acceder y revisar los comentarios de nivel de tarea agregados por el revisor.
 
    ![](images/task-comments-selection-author-view.png).

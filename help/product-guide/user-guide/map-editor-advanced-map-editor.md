@@ -4,9 +4,9 @@ description: Conozca las funciones del Editor de mapas en Adobe Experience Manag
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 4cb5934fab1897bd36de33f2192ae2c4392c07eb
+source-git-commit: a487c81c5a49ec2b8ec780ffd73cc38fcb693acc
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2671'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Las siguientes opciones están disponibles en la barra de herramientas de la vis
 
 **Referencia de tema** - ![](images/topic-reference.svg)
 
-Muestra el cuadro de diálogo de búsqueda del tema. Desplácese hasta el tema o archivo de asignación que desee insertar y elija **Seleccionar** para agregarlo al mapa.
+Muestra el cuadro de diálogo Seleccionar archivo. Desplácese hasta el tema o archivo de asignación que desee insertar y elija **Seleccionar** para agregarlo al mapa.
 
 ![](images/insert-topic-reference-dialog.png){align="left"}
 
@@ -146,7 +146,7 @@ Además, puede ver los iconos siguientes y realizar las tareas relacionadas desd
 
 **Insertar antes/Insertar después** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Muestra el cuadro de diálogo **Insertar elemento antes o &#x200B;** Insertar elemento después. Seleccione el elemento que desea insertar en el mapa. Según la operación, el nuevo elemento se inserta antes o después del elemento actual en el mapa.
+Muestra el cuadro de diálogo **Insertar elemento antes o **Insertar elemento después. Seleccione el elemento que desea insertar en el mapa. Según la operación, el nuevo elemento se inserta antes o después del elemento actual en el mapa.
 
 **Elemento** - ![](images/Add_icon.svg)
 
@@ -260,15 +260,31 @@ Además de poder ver la posición de cada archivo de tema dentro de un mapa, es 
 
 Puede realizar las siguientes tareas adicionales en el modo de vista previa:
 
+**Abrir temas para editar**
+
 - Haz clic con el botón derecho en un tema y selecciona **Editar** para abrir el tema y editarlo en una pestaña nueva.
 
   >[!NOTE]
   >
   > Si no tiene derechos de edición, el tema se abrirá en modo de solo lectura.
 
+  ![](images/edit-topic-preview-mode.png){width="650" align="left"}
+
 - Vaya al tema deseado seleccionando el título del tema en el árbol de mapas \(en el panel izquierdo\).
 
 - El tema actual en la vista previa del mapa también se resalta en el árbol del mapa.
+
+**Actualizar temas o asignación**
+
+Cuando se abre un mapa en el modo Vista previa y se vuelve a él desde otra pestaña del Editor, la vista previa no se actualiza automáticamente. Para volver a cargar la vista previa del mapa, se requiere una actualización manual.
+
+Puede utilizar la funcionalidad Actualizar, disponible en el modo Vista previa del mapa, de dos formas:
+
+- **Actualización a nivel de mapa**: al seleccionar el botón **Actualizar**, se actualiza la vista previa de todo el mapa (incluidos todos los temas) y se lleva a la primera posición de desplazamiento para una vista clara.
+  ![](images/refresh-map.png){width="650" align="left"}
+
+- **Actualización a nivel de tema**: al seleccionar **Actualizar tema** en el menú contextual, se actualiza ese tema específico sin modificar la posición de desplazamiento.
+  ![](images/refresh-topic.png){width="650" align="left"}
 
 **Otras formas de obtener una vista previa de un archivo de asignación**
 

@@ -4,9 +4,9 @@ description: Publicar un tema o los elementos dentro de un tema en una salida de
 feature: Publishing
 role: User
 exl-id: acbc48b7-93a2-41c6-8565-359fbbdd1fb9
-source-git-commit: 144ecbea83b2c649a00c6b88e533327f3ce111f4
+source-git-commit: e1bac3680afda837393d86ee5f19d5877237ffe9
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,11 @@ Esta función permite publicar un tema y sus elementos sin crear un mapa DITA ni
 Para generar una página de Sites, realice los siguientes pasos:
 
 
-1. Abra el tema en el Editor y seleccione Propiedades del archivo en el panel derecho.
+1. Abra el tema en el Editor y seleccione **Propiedades del archivo** en el panel Derecho.
 1. Seleccione **Nuevo icono de salida**![nuevo icono de salida](./images/Add_icon.svg) de la sección **Salidas**.
 1. Seleccionar **página de sitios**.
 1. En el cuadro de diálogo **Generar página de sitios**, rellene los siguientes detalles:
    ![Agregue la ruta y los detalles de la plantilla en la página Generar sitios](images/aem-sites-page-generate.png){width="500" align="left"}
-
-   * Añada la ruta, el título, el nombre y los detalles de plantilla para publicar un tema o sus elementos como una página de Sites. *
 
    * **Ruta**: busque y seleccione la ruta de la carpeta donde desea publicar la página de Sites.
    * **Título**: escriba el título de la página de Sites. De forma predeterminada, el título se rellena con el título del tema. Puede editarlo. Este título se utiliza para generar el nombre de la página de Sites.
@@ -35,7 +33,7 @@ Para generar una página de Sites, realice los siguientes pasos:
    * **Plantilla de página**: seleccione la plantilla de página Sitios para crear su página Sitios. Puede ver las plantillas en la carpeta en la ruta que seleccione. El administrador también puede cargar plantillas personalizadas.
 
 
-   * También puede seleccionar diferentes condiciones para publicar el contenido.  Seleccione una de las siguientes opciones:
+   * También puede seleccionar diferentes condiciones para publicar el contenido. Seleccione una de las siguientes opciones:
 
 
       * **Ninguno**: seleccione esta opción si no desea aplicar ninguna condición en la salida publicada.
@@ -51,7 +49,7 @@ Para generar una página de Sites, realice los siguientes pasos:
 1. Seleccione **Generar** para publicar la página de Sites.
 1. Puede ver la página Sitios de un tema en la sección **Resultados** de las **propiedades de archivo**. Las páginas de Sites aparecen según la fecha y la hora de su publicación, con la última como la primera.
 
-   ![Ver la página de Sites de un tema](images/aem-sites-output-new.png){width=300 align=&quot;left&quot;}
+   ![Ver la página de Sites de un tema](images/aem-sites-output-new.png){width=300 align="left"}
 
    *Vea la página de Sites presente para un tema y vuelva a publicarla.*
 

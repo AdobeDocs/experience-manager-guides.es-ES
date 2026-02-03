@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo administrar archivos y carpetas en
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 14bbb3a055d8b528b6ed657be797c5fa96dd3e7e
+source-git-commit: 9e4fc7d482b6a37552d31ba2b07fae53018b4dc6
 workflow-type: tm+mt
 source-wordcount: '3263'
 ht-degree: 0%
@@ -104,7 +104,6 @@ Si elige la opción **Sobrescribir archivo existente\(s\)**, el archivo que se e
 Si elige la opción **Mover archivo\(s\) a la nueva ubicación**, el archivo existente se mueve a la ubicación actual y luego se sobrescribe con el archivo que se está cargando. Al mover un archivo a la nueva ubicación, no se rompen las referencias existentes desde o hacia el archivo.
 
 Con reemplazar o mover los archivos, si elige la opción de crear una versión a partir de la copia existente, se crea una nueva versión a partir de la copia de trabajo del documento; el nuevo archivo se reemplaza en la ubicación existente o se mueve a la nueva ubicación.
-
 
 ## Mover archivos por lotes {#move-files-bulk}
 
@@ -326,4 +325,4 @@ Si el archivo multimedia ha sufrido algún cambio, puede buscarlo y obtener una 
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Tema principal:**&#x200B;[&#x200B; Administrar contenido](authoring.md)
+**Tema principal:**[ Administrar contenido](authoring.md)

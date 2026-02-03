@@ -4,9 +4,9 @@ description: Traduzca el contenido a varios idiomas desde el editor web. Obtenga
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
+source-git-commit: 4165535976082c1e8f28bf15f16999b6bfe5bf9a
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '2446'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,15 @@ Antes de realizar los pasos de este procedimiento, asegúrese de haber creado la
    - **Nombre de archivo**: Nombre del archivo de origen
    - **Tipo de archivo**: tipo del archivo de origen. Las opciones disponibles son Mapa, Tema e Imagen.
    - **Tipo de referencia**: referencias directas o indirectas
-   - **Versión**: número de versión del archivo de origen
+   - **Versión**: número de versión del archivo de origen.
+
+     Si un archivo tiene cambios guardados que aún no tienen versiones (es decir, que no se han guardado como una nueva versión en el mapa), aparece un icono de información junto al archivo, que indica la presencia de cambios sin versiones.
+
+     ![](images/unversioned-changes-translation.png){width="650" align="left"}
+
+     >
+     >
+     > Para ver sólo los archivos con cambios sin versiones, habilite la opción **Mostrar recursos con cambios sin versiones solamente** en el panel Filtros. Además, el indicador sin versiones solo está visible al traducir archivos en función de sus versiones más recientes.
    - **Etiqueta de versión**: Etiqueta para la versión seleccionada del archivo de origen
    - **Versión de destino**: Número de versión del archivo de destino
    - **Estado del documento**: estado del archivo de origen. Las opciones disponibles son Borrador, En revisión y Revisado.
@@ -226,4 +234,4 @@ Para realizar la administración de documentos, Experience Manager Guides permit
 También puede deshabilitar los proyectos de traducción si desea usarlos más adelante. Al eliminar un proyecto, se eliminan todos los archivos y carpetas presentes en el proyecto. Al deshabilitar un proyecto no se elimina, sino que se mantiene en el repositorio. Pero no puede actualizar ni editar un proyecto deshabilitado.  Eliminar o deshabilitar un proyecto no afectará el estado de traducción de ninguna referencia.
 
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

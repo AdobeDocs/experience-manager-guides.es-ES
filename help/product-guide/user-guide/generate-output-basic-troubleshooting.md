@@ -4,9 +4,9 @@ description: Resuelva los problemas con la solución de problemas básica en AEM
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: 262edba89ab4bf65cb6e109bd7c5df177e2e56fe
+source-git-commit: e049cb1f3d091c701285dbe89194058b93d5e2e4
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,17 @@ Realice los siguientes pasos para ver y comprobar el archivo de registro de gene
    ![](images/log-file-new.png){align="left"}
 
 1. Aplique los siguientes filtros para resaltar el texto en el archivo de registro:
-   - Grave: resalta los errores graves del archivo de registro con color rojo oscuro.
-   - Error: resalta los errores del archivo de registro con color rojo. Las excepciones se tratan como errores y se resaltan de forma similar en rojo.
-   - Advertencia: resalta las advertencias del archivo de registro con color ámbar.
-   - Información: resalta los mensajes de información del archivo de registro con color verde.
+   - **Grave**: resalta los errores irrecuperables del archivo de registro con color rojo oscuro.
+   - **Error**: resalta los errores del archivo de registro con color rojo. Las excepciones se tratan como errores y se resaltan de forma similar en rojo.
+   - **Advertencia**: resalta las advertencias del archivo de registro con color ámbar.
+   - **Información**: resalta los mensajes de información del archivo de registro con color verde.
 
-1. Utilice los botones de navegación arriba y abajo para saltar al texto resaltado en el archivo de registro.
+1. Utilice los botones de navegación arriba y abajo para saltar al texto resaltado en el archivo de registro. También puede desplazarse por el archivo de registro y comprobar los mensajes.
 
-   También puede desplazarse por el archivo de registro y comprobar los mensajes.
+1. Puede realizar las siguientes acciones en el archivo de registro:
 
+   - **Descargar registro**: Si la lista de registros es extensa, selecciona **Descargar registro** para descargar el archivo de registro en tu dispositivo para facilitar el acceso y la revisión.
+   - **Copiar registro**: copia la lista de registros en el portapapeles, lo que le permite pegarla rápidamente en un editor de texto.
 
 ## Copie y compruebe el archivo de registro en un editor de texto
 
@@ -82,6 +84,9 @@ Realice los siguientes pasos para copiar y comprobar el archivo de registro de g
    ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
+
+
+
 ## Resolver error de compilación de JSP
 
 Si el tema DITA es demasiado grande, puede que vea el error de compilación de JSP \(`org.apache.sling.api.request.TooManyCallsException`\) en el explorador. Este error puede aparecer al abrir un tema para editarlo, revisarlo o publicarlo.
@@ -99,4 +104,4 @@ Siga estos pasos para resolver este problema:
 1. Aumente el valor del parámetro *Número de llamadas por solicitud* según sus necesidades.
 
 
-**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)
+**Tema principal:**[ Generación de resultados](generate-output.md)

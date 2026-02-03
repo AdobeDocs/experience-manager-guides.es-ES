@@ -4,9 +4,9 @@ description: Aprenda a editar temas en el Editor. Obtenga información sobre las
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
+source-git-commit: df3da8a0b4dd50ac177c3b51f04a855e9638058e
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -74,8 +74,11 @@ Experience Manager Guides proporciona el indicador de copia de trabajo que muest
 
 Experience Manager Guides también indica si la última copia \(de trabajo\) guardada del archivo está sincronizada con la versión guardada o no. Si hay cambios sin guardar entre la copia de trabajo y la última versión guardada, aparecerá una marca \* junto con la información de la versión que se muestra en la esquina superior derecha de la ficha del archivo del tema. Este indicador sirve como recordatorio para guardar y crear una versión a partir de la copia \(de trabajo\) actual del archivo.
 
-![Indicador de actualización de versión](images/version-update-indicator.png){width="550" align="left"}
+>[!NOTE]
+>
+> Cualquier cambio en los campos de metadatos disponibles en [Propiedades del archivo](./web-editor-right-panel.md#file-properties) también almacenará en déclencheur el indicador de la copia de trabajo en la versión del documento.
 
+![Indicador de actualización de versión](images/version-update-indicator.png){width="550" align="left"}
 
 ## Acceso a archivos bloqueados en los modos Autor y Source
 
@@ -117,4 +120,4 @@ Puede desactivar la característica para localizar el archivo con la opción **B
 >
 >A partir de la versión 2025.11.0, el nombre de la opción **Buscar siempre los archivos en el repositorio** cambiará a **Buscar siempre los archivos en el explorador**. Para la configuración On-Premise, sigue estando disponible como Localizar siempre archivos en el repositorio hasta la versión 5.1 de Experience Manager Guides.
 
-**Tema principal:**&#x200B;[&#x200B; Trabajar con el editor](web-editor.md)
+**Tema principal:**[ Trabajar con el editor](web-editor.md)

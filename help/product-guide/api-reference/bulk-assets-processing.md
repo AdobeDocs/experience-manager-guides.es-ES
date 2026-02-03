@@ -4,10 +4,10 @@ description: Obtenga información acerca de la API para iniciar el procesamiento
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: e2eca63a5dd56e358aeea047b37f4b0f88dc720b
+source-git-commit: 8671a26bfee2d9e3b4e70a8f2615568c08c0a370
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 11%
+source-wordcount: '587'
+ht-degree: 12%
 
 ---
 
@@ -26,6 +26,15 @@ Un método POST que inicia el procesamiento masivo de recursos para una ruta de 
 | `path` | Cadena | Sí | Ruta absoluta de la carpeta o el recurso en el repositorio de AEM que se va a procesar. |
 | `excludedPaths` | Cadena | No | Lista de rutas que se excluirán del procesamiento |
 | `type` | Cadena | Sí | Tipo de procesamiento que se va a realizar. Por ejemplo: ASSET_PROCESSING. |
+| `filter` | Objeto | No | Filtros aplicados a los recursos seleccionados |
+
+**Filtrar campos de objeto**
+
+| Nombre | Tipo | Descripción |
+|----|----|-----------|
+| fileTypes | Cadena | Tipos de recursos que procesar. Valores permitidos: DITATOPIC, DITAMAP, MARKDOWN, HTML/CSS, DITAVAL, OTROS. |
+| startTime | Entero | Límite inferior para la hora de creación del recurso |
+| endTime | Entero | Límite superior del tiempo de creación del recurso |
 
 **Ejemplo de solicitud**
 
@@ -35,7 +44,12 @@ Un método POST que inicia el procesamiento masivo de recursos para una ruta de 
   "excludedPaths": [
     "content/dam/status-fetch1/excluded-folder"
   ],
-  "type": "ASSET_PROCESSING"
+  "type": "ASSET_PROCESSING",
+  "filter": {
+        "fileTypes": ["DITAMAP", "DITATOPIC"],
+        "startTime": 1758876933000
+        "endTime": 1764932039000
+    }
 }
 ```
 

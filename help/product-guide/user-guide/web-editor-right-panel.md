@@ -4,10 +4,10 @@ description: Conozca el panel derecho en el editor. Obtenga información acerca 
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 05a44af6982a9a23e6bbddeaac52b0700e2e2170
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 1%
+source-wordcount: '1095'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ Puede acceder a la función **Propiedades de contenido** seleccionando el icono 
 
 **Tipo**: puede ver y seleccionar las etiquetas de la jerarquía completa para la etiqueta actual en el menú desplegable.
 
-**Atributos**: el **panel desplegable Atributos** está disponible en las vistas Diseño, Autor y Origen. Puede agregar, editar o eliminar fácilmente los atributos.
+**Atributos**: El panel desplegable **Atributos** está disponible en las vistas Diseño, Autor y Source. Puede añadir, editar o eliminar fácilmente los atributos.
 
 <details>
     <summary> Pasos para añadir atributos </summary>
@@ -45,7 +45,7 @@ Puede acceder a la función **Propiedades de contenido** seleccionando el icono 
 
 1. En el panel desplegable **Atributo**, seleccione el atributo en la lista desplegable y especifique el valor de un atributo.  Luego selecciona **Agregar**.
 
-   ![panel de atributos con varios atributos &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![panel de atributos con varios atributos ](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Para editar el atributo, pasa el ratón sobre él y selecciona **Editar** ![editar-icono](images/edit_pencil_icon.svg).
 
@@ -56,9 +56,9 @@ Puede acceder a la función **Propiedades de contenido** seleccionando el icono 
 
 >[!NOTE]
 >
-> Incluso si el tema contiene contenido al que se hace referencia, puede agregar atributos en él mediante el panel de propiedades.
+> Incluso si el tema contiene contenido referenciado, puede agregar atributos mediante el panel de propiedades.
 
-Si su administrador ha creado un perfil para atributos, obtendrá esos atributos junto con sus valores configurados. Mediante el panel de propiedades de contenido, puede elegir esos atributos y asignarlos a contenido relevantes de su tema. De este modo, también puede crear contenido condicional, que luego puede utilizar para crear resultados condicionales. Para obtener más información acerca de cómo generar resultados mediante ajustes preestablecidos condicionales, vea [Usar ajustes preestablecidos de condición](generate-output-use-condition-presets.md#).
+Si el administrador ha creado un perfil para atributos, obtendrá esos atributos junto con sus valores configurados. Con el panel de propiedades de contenido, puede elegir esos atributos y asignarlos al contenido relevante del tema. De este modo, también puede crear contenido condicional, que luego puede utilizar para crear resultados condicionales. Para obtener más información acerca de cómo generar resultados mediante ajustes preestablecidos condicionales, vea [Usar ajustes preestablecidos de condición](generate-output-use-condition-presets.md#).
 
 
 
@@ -76,17 +76,29 @@ La sección General le permite acceder a las siguientes funciones:
 
 - **Nombre de archivo**: muestra el nombre de archivo del tema seleccionado. El nombre de archivo está enlazado mediante un hipervínculo a la página de propiedades del archivo seleccionado.
 - **ID**: muestra el ID del tema seleccionado.
-- **Etiquetas**: estas son las etiquetas de metadatos del tema. Se establecen desde el campo de etiquetas del Página de propiedades. Puede escribirlos o seleccionarlos en la lista desplegable.  Las etiquetas aparecen en la lista desplegable. Para eliminar un etiqueta, seleccione el icono de cruz situado junto al etiqueta.
-- **Editar más propiedades**: puede editar más propiedades desde la página de propiedades del archivo.
+- **Recuento de palabras**: muestra el número total de palabras en el tema DITA correspondiente. Las palabras separadas por espacios se cuentan como palabras individuales. El recuento se actualiza cada vez que se guardan cambios en el tema. En el caso de las referencias cruzadas, solo se incluye el texto para mostrar en el recuento, mientras que las claves se excluyen.
+
+  >[!NOTE]
+  >
+  > La característica **Recuento de palabras** se introdujo en la versión 2026.01.0 de Experience Manager Guides as a Cloud Service. Los nuevos temas DITA que cree después de actualizar a esta versión tendrán automáticamente el recuento de palabras calculadas en el panel derecho. Para los temas existentes, se requiere [reprocesamiento de los recursos](./asset-processor.md).
+
+- **Etiquetas**: estas son las etiquetas de metadatos del tema. Se establecen en el campo de etiquetas de la página de propiedades. Puede escribirlos o seleccionarlos en la lista desplegable.  Las etiquetas aparecen debajo de la lista desplegable. Para eliminar una etiqueta, seleccione el icono en forma de cruz situado junto a la etiqueta.
+- **Editar más propiedades**: puede editar más propiedades ( para archivos que no están en modo **Solo lectura**) desde la página Propiedades del archivo.
+
+  >[!NOTE]
+  >
+  > Cualquier adición, eliminación o modificación de las propiedades de metadatos (ya sean predeterminadas o personalizadas) almacenará en déclencheur el [indicador de copia de trabajo](./web-editor-edit-topics.md#working-copy-indicator) en la versión del documento.
+
+
 - **Idioma**: muestra el idioma del tema. Se establece desde el campo language en la página de propiedades.
 - **Creado el**: muestra la fecha y la hora en que se creó el tema.
 - **Modificado el**: muestra la fecha y la hora en que se modificó el tema.
 - **Bloqueado por**: muestra el usuario que bloqueó el tema.
-- **Estado del** documento: se puede seleccionar y actualizar el estado documento del tema abierto actualmente. Para obtener más información, vista [Estado del](web-editor-document-states.md#) documento.
+- **Estado del documento**: puede seleccionar y actualizar el estado del documento del tema abierto actualmente. Para obtener más información, vea [Estado del documento](web-editor-document-states.md#).
 
 >[!NOTE]
 >
-> Puede copiar los valores de atributo de los distintos campos de las propiedades de Archivo en el portapapeles.
+> Puede copiar los valores de atributo de los distintos campos de las propiedades del archivo en el portapapeles.
 
 **Referencias**
 
@@ -101,13 +113,13 @@ De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón
 
 >[!NOTE]
 >
-> Como administrador, también puede elegir ver la lista de archivos por nombres de archivo en el Editor. Seleccione la **opción Archivo nombre** de la **sección de configuración** de visualización de archivos del editor en **preferencias** de usuario.
+> Como administrador, también puede elegir ver la lista de archivos por nombres de archivo en el Editor. Seleccione la opción **Nombre de archivo** de la sección **Archivos del editor muestran la configuración** en **Preferencias de usuario**.
 
 >[!NOTE]
 >
-> Todas las referencias utilizadas en y salientes están hipervinculadas al documentos. Puede abrir y editar fácilmente los documentos vinculados.
+> Todas las referencias utilizadas en y salientes se hipervinculan a los documentos. Puede abrir y editar fácilmente los documentos vinculados.
 
-Además de abrir archivos, también puede realizar muchas acciones utilizando el **menú Opciones** en la sección Referencias. Algunas de las acciones que puede realizar incluyen Editar, Vista previa, Copiar UUID, Copiar ruta, añadir a colecciones, Propiedades.
+Además de abrir archivos, también puede realizar muchas acciones utilizando el menú **Opciones** de la sección Referencias. Algunas de las acciones que puede realizar son Editar, Vista previa, Copiar UUID, Copiar ruta, Agregar a colecciones, Propiedades.
 
 ## Revisión
 
@@ -117,13 +129,13 @@ Al seleccionar el icono Revisar, se abre el panel de revisión, en el que puede 
 
 Si ha creado varios proyectos de revisión, puede seleccionar uno de la lista desplegable y acceder a los comentarios de revisión.
 
-Con el panel de revisión, puede ver y publicar respuestas a los comentarios proporcionados sobre el tema. Puede aceptar o rechazar las comentarios una por una.
+Con el panel de revisión, puede ver y publicar respuestas a los comentarios proporcionados sobre el tema. Puede aceptar o rechazar los comentarios uno por uno.
 
 >[!NOTE]
 >
-> El cuadro de comentarios y el cuadro de respuesta admiten entradas de varias líneas y permiten a los usuarios expandirlo según sea necesario para proporcionar una comentarios completa, así como una respuesta detallada al comentarios. Puede usar **Mayús +** Intro **&#x200B;**&#x200B;para ir a la siguiente línea mientras escribe el comentarios o las respuestas.
+> El cuadro de comentarios y el cuadro de respuesta admiten entradas de varias líneas y permiten a los usuarios expandirlas según sea necesario para proporcionar comentarios completos así como respuestas detalladas a los comentarios. Puedes usar **Shift** + **Enter** para ir a la línea siguiente mientras escribes los comentarios o respuestas.
 
-Para obtener más información, vista [Revisión de direcciones comentarios](review-address-review-comments.md#).
+Para obtener más información, vea [Comentarios de revisión de direcciones](review-address-review-comments.md#).
 
 ## Seguimiento de cambios
 
@@ -141,4 +153,4 @@ Aprenda a trabajar con archivos de Schematron en Experience Manager Guides, cons
 
 
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

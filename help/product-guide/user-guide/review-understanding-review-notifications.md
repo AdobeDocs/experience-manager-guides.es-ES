@@ -3,9 +3,10 @@ title: Explicación de las notificaciones de revisión
 description: Obtenga información sobre los distintos tipos de notificaciones de revisión y cómo entran en déclencheur durante las distintas fases del flujo de trabajo de revisión en Experience Manager Guides.
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+exl-id: dc452e7d-a317-4168-8015-9fa4a06666ea
+source-git-commit: 16688221c35e0b24c51cbff27953a93892cd0944
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,7 @@ La siguiente tabla proporciona información general sobre los diferentes tipos d
 | Revisor sin asignar | Se quitó la asignación de la tarea de revisión **Revisión de página principal** | Desasignado por **Autor** | Se quitó la asignación de la tarea de revisión **Revisión de página principal** | El **autor** le ha desasignado de la tarea de revisión **Revisión de página principal** en el proyecto **Revisión de WebDocs**. | **Revisor** |
 | Mención de etiqueta | Mencionado en el comentario de la tarea de revisión de **revisión de la página principal** | Mencionado por **autor** | Mencionado en el comentario de la tarea de revisión de **revisión de la página principal** | Se le ha mencionado en un comentario sobre la tarea **Revisión de página principal** en **Revisión de WebDocs** por parte de **Autor**. **Extracto del comentario:** *&quot;Actualice la estructura del encabezado para seguir las directrices de accesibilidad.&quot;* | **Usuario mencionado** |
 | Contenido actualizado durante la revisión | Se actualizó el tema en la tarea de revisión **Revisión de la página principal** | Actualizado por **Autor** | Se actualizó el tema en la tarea de revisión **Revisión de la página principal** | **El autor** ha actualizado las versiones de los temas para la tarea de revisión **Revisión de la página principal**. Se debe revisar con mucha anticipación a la fecha de vencimiento **15 de agosto de 2025**. | **Revisor** |
+| Temas añadidos o eliminados o versión actualizada mientras una tarea de revisión está en curso con el revisor o los revisores | Se han actualizado los temas en la tarea de revisión **Revisión de la página principal** | Actualizado por **Autor** | Se han actualizado los temas en la tarea de revisión **Revisión de la página principal** | **El autor** ha actualizado las versiones de los temas para la tarea de revisión **Revisión de la página principal**. Se debe revisar con mucha anticipación a la fecha de vencimiento **15 de agosto de 2025**. | **Revisor** |
 
 
 En la tabla anterior, el **texto en negrita** representa valores de muestra y está controlado por variables predefinidas que se pueden usar en las notificaciones.
@@ -59,4 +61,4 @@ Para obtener una lista completa de variables predefinidas y revisar la personali
 
 
 
-**Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)
+**Tema principal:**[ Introducción a la revisión](review.md)
