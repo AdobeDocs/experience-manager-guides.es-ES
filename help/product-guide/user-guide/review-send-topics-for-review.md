@@ -306,4 +306,4 @@ Una vez que se actualiza la tarea de revisión, los revisores reciben notificaci
 Para obtener más información, vea [Descripción de las notificaciones de revisión](./review-understanding-review-notifications.md).
 
 
-**Tema principal:**[ Introducción a la revisión](review.md)
+**Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)
