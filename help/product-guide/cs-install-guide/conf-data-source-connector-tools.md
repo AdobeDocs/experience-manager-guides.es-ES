@@ -5,7 +5,7 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: c790d5edd1ab799564aebfa96f4a41288c977a6c
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -134,3 +134,4 @@ Se visualiza un error si existe el conector con el mismo nombre.
 
 
 Una vez que haya configurado el origen de datos, el conector aparecerá en la lista del **panel Fuentes de datos** del Editor web. A continuación, puede conectarse al origen de datos e insertar un fragmento de contenido en los temas. Para obtener más información, vea [Insertar un fragmento de contenido de su fuente de datos](../user-guide/web-editor-content-snippet.md).
+

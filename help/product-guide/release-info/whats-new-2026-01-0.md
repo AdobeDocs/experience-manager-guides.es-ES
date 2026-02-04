@@ -2,9 +2,9 @@
 title: Notas de versión | Novedades de la versión 2026.01.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 2026.01.0 de Adobe Experience Manager Guides
 role: Leader
-source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
+source-git-commit: cb3b06e18391fdfc53eb5abd4096553781eab0b8
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1551'
 ht-degree: 1%
 
 ---
@@ -156,6 +156,8 @@ Para obtener más información sobre la configuración del ajuste preestablecido
 ### Compatibilidad con la asignación de componentes de nivel de elemento en la publicación de New AEM Sites (con asignación de componentes compuestos)
 
 Experience Manager Guides ahora admite la asignación de componentes a nivel de elemento en la salida de AEM Sites (mediante asignación de componentes compuestos), lo que proporciona a los equipos un control preciso sobre cómo se representan los elementos DITA mediante `componentmapping.json`. Al asignar `topicref`, títulos, imágenes, tablas y mucho más a los componentes principales de AEM adecuados, se obtiene una estructura más limpia en lugar de todo lo que se establece como predeterminado en el componente Texto. Esto mejora el rendimiento y desbloquea experiencias de Sites más ricas y modernas.
+
+Para obtener más información, vea [Asignación de componentes en AEM Sites](../cs-install-guide/component-mapping.md).
 
 ## Mejoras en el procesamiento de recursos
 
