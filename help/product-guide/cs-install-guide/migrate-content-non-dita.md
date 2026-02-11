@@ -5,9 +5,9 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 85ba88f5659e066f970583d745a56ec8c51aad7a
+source-git-commit: 77756fe76c3d615683dcd62627adfcf18bcbb633
 workflow-type: tm+mt
-source-wordcount: '2480'
+source-wordcount: '2522'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ El proceso de conversión implica las siguientes acciones en el servidor:
 - Creación y validación de temas DITA individuales y ficheros de mapa DITA.
 - Eliminación de archivos temporales.
 
-En términos generales, el proceso de conversión requiere que [prepare los archivos InDesign para la conversión](appendix.md#id195DBF0045Z) [apendice.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) y que [prepare el archivo de asignación para la migración de InDesign a DITA](appendix.md#id194AF0003HT) [apendice.md\#id194AF0003HT](appendix.md#id194AF0003HT). A continuación, deberá seguir el procedimiento dado para ejecutar el proceso de conversión.
+En términos generales, el proceso de conversión requiere que [prepare los archivos InDesign para la conversión](appendix.md#id195DBF0045Z)[apendice.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) y que [prepare el archivo de asignación para la migración de InDesign a DITA](appendix.md#id194AF0003HT)[apendice.md\#id194AF0003HT](appendix.md#id194AF0003HT). A continuación, deberá seguir el procedimiento dado para ejecutar el proceso de conversión.
 
 Realice los siguientes pasos para convertir los documentos de InDesign existentes en un documento de tipo de tema DITA:
 
@@ -294,7 +294,7 @@ Con el bloque `<config> </config>`, puede definir uno o varios bloques de config
 
 ## Migración de documentos de FrameMaker no estructurados {#id1949B050VUI}
 
-AEM Guides permite convertir los documentos FrameMaker \(`.fm` y `.book`\) no estructurados existentes en documentos DITA. Para obtener información detallada acerca del proceso, vea [Migración de documentación técnica de no estructurada a DITA en Adobe FrameMaker](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/).
+AEM Guides admite la migración de contenido de Adobe FrameMaker no estructurado (.fm y .book) a DITA estructurado. El proceso se centra en la evaluación del contenido existente, mediante un enfoque basado en plantillas, y la asignación de estilos FrameMaker a DITA a través de tablas de conversión. Después de la conversión, el contenido estructurado se puede editar, validar y publicar en formatos como PDF y HTML5 compatible con dispositivos móviles, con compatibilidad para la personalización de resultados. Para obtener más información, vea [Migración de documentación técnica de no estructurada a DITA en Adobe FrameMaker](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/).
 
 <!-- Deprecated information -
  //The first step is to create style mappings using FrameMaker and save those settings in a .sts file. Next, if you are using custom DITA, then you can map your custom elements with the source FrameMaker formats in the `ditaElems.xml` file. For example, if you have created a custom element named `impnote` to handle all important notes, then you can define this custom element in the `ditaElems.xml` file. Once this custom element is defined, AEM Guides would not raise an error while converting FrameMaker document containing `impnote` element.
@@ -399,4 +399,4 @@ Para convertir los documentos estructurados existentes al formato DITA, realice 
 
 Con el bloque `<config> </config>`, puede definir uno o varios bloques de configuraciones para la conversión. El flujo de trabajo de conversión se ejecuta y el resultado final en forma de tema DITA se guarda en la ubicación especificada en el elemento `outputDir`.
 
-**Tema principal:**&#x200B;[&#x200B; Migrar contenido existente](migrate-content.md)
+**Tema principal:**[ Migrar contenido existente](migrate-content.md)

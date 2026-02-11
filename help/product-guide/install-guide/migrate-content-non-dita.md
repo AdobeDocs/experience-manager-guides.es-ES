@@ -5,9 +5,9 @@ exl-id: 4597d1be-5426-4eba-8490-e42d0e565427
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: d3b156b8617cab8cf0702a483aef0fde7889e6a7
+source-git-commit: 77756fe76c3d615683dcd62627adfcf18bcbb633
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: '2393'
 ht-degree: 0%
 
 ---
@@ -284,7 +284,7 @@ Con el bloque `<config> </config>`, puede definir uno o varios bloques de config
 
 ## Migración de documentos de FrameMaker no estructurados {#id1949B050VUI}
 
-AEM Guides permite convertir los documentos FrameMaker \(`.fm` y `.book`\) no estructurados existentes en documentos DITA. Para obtener información detallada acerca del proceso, vea [Migración de documentación técnica de no estructurada a DITA en Adobe FrameMaker](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/).
+AEM Guides admite la migración de contenido de Adobe FrameMaker no estructurado (.fm y .book) a DITA estructurado. El proceso se centra en la evaluación del contenido existente, mediante un enfoque basado en plantillas, y la asignación de estilos FrameMaker a DITA a través de tablas de conversión. Después de la conversión, el contenido estructurado se puede editar, validar y publicar en formatos como PDF y HTML5 compatible con dispositivos móviles, con compatibilidad para la personalización de resultados. Para obtener más información, vea [Migración de documentación técnica de no estructurada a DITA en Adobe FrameMaker](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/).
 
 <!-- Deprecated information -
  //The first step is to create style mappings using FrameMaker and save those settings in a .sts file. Next, if you are using custom DITA, then you can map your custom elements with the source FrameMaker formats in the `ditaElems.xml` file. For example, if you have created a custom element named `impnote` to handle all important notes, then you can define this custom element in the `ditaElems.xml` file. Once this custom element is defined, AEM Guides would not raise an error while converting FrameMaker document containing `impnote` element.
@@ -395,4 +395,4 @@ Para convertir los documentos estructurados existentes al formato DITA, realice 
 
 Con el bloque `<config> </config>`, puede definir uno o varios bloques de configuraciones para la conversión. El flujo de trabajo de conversión se ejecuta y el resultado final en forma de tema DITA se guarda en la ubicación especificada en el elemento `outputDir`.
 
-**Tema principal:**&#x200B;[&#x200B; Migrar contenido existente](migrate-content.md)
+**Tema principal:**[ Migrar contenido existente](migrate-content.md)
