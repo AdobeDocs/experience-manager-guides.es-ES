@@ -2,9 +2,10 @@
 title: Notas de versión | Novedades de la versión 2026.01.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 2026.01.0 de Adobe Experience Manager Guides
 role: Leader
-source-git-commit: cb3b06e18391fdfc53eb5abd4096553781eab0b8
+exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
+source-git-commit: 2c20191ba998ad7da98587f1832e1fe8499d023c
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1591'
 ht-degree: 1%
 
 ---
@@ -106,9 +107,18 @@ Ahora puede realizar un seguimiento del recuento de palabras presentes en un map
 
 Para obtener más información, vea [Panel derecho en Editor](../user-guide/web-editor-right-panel.md#file-properties).
 
-### Tratamiento mejorado de archivos de solo lectura
+### Las propiedades de metadatos ya no se pueden editar para archivos de solo lectura
 
-La edición de las propiedades del archivo ahora está restringida para archivos que están en modo **Solo lectura**. Si un archivo está bloqueado por otro usuario (disponible en modo de solo lectura), no podrá cambiar ninguna propiedad de metadatos, ya sea del [panel derecho](../user-guide/web-editor-right-panel.md#file-properties), la opción **Propiedades** del [menú contextual de un archivo](../user-guide/web-editor-other-features.md#context-menu-functions-on-a-files-tab) o el [informe de metadatos](../user-guide/reports-web-editor.md#metadata-report). Esto ayuda a evitar cambios accidentales en archivos de solo lectura.
+Con esta versión, cuando la configuración `Disable Edit Without Checkout` está habilitada, las propiedades del archivo ya no se pueden editar si el archivo está en modo **Solo lectura**.
+
+Esta restricción se aplica a todos los puntos de entrada en los que se pueden modificar propiedades, incluidos los siguientes:
+
+- El **panel derecho** de la interfaz del editor
+- La opción **Propiedades** del menú contextual del archivo
+- El informe de metadatos de un mapa
+- La IU de Assets
+
+Si un archivo es de sólo lectura, primero debe desprotegerlo antes de realizar cambios en sus propiedades. Este cambio exige controles de permisos más estrictos y garantiza que las actualizaciones de propiedades sigan las mismas reglas de cierre y cierre que las ediciones de contenido.
 
 ## Revisar mejoras
 
@@ -176,19 +186,3 @@ Se han realizado las siguientes mejoras de API como parte de esta versión:
 
 - Se introducen nuevas API para crear un nuevo proyecto de traducción y rastrear su estado. Estas API ayudan a automatizar el proceso de traducción, reduciendo el esfuerzo manual y mejorando la eficacia. Para obtener más información, vea [Crear proyecto de traducción](../api-reference/translation-project.md)
 - API de procesamiento de recursos mejoradas con capacidad de filtrado mejorada para archivos y carpetas. Para obtener más información, vea [Procesar recursos](../api-reference/bulk-assets-processing.md).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
