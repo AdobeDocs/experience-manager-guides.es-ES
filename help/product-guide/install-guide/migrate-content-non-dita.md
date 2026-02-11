@@ -395,4 +395,4 @@ Para convertir los documentos estructurados existentes al formato DITA, realice 
 
 Con el bloque `<config> </config>`, puede definir uno o varios bloques de configuraciones para la conversión. El flujo de trabajo de conversión se ejecuta y el resultado final en forma de tema DITA se guarda en la ubicación especificada en el elemento `outputDir`.
 
-**Tema principal:**[ Migrar contenido existente](migrate-content.md)
+**Tema principal:**&#x200B;[&#x200B; Migrar contenido existente](migrate-content.md)
