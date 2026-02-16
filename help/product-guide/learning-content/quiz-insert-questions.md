@@ -4,9 +4,9 @@ description: Aprenda a insertar preguntas en una prueba en la Formación y apren
 feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015
-source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
+source-git-commit: 1df47cf35590f10bdfe7fdbc3501d7c47137ed56
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Siga estos pasos para insertar preguntas en una prueba:
 
-1. Elija el tipo de pregunta que desee en el menú desplegable **Preguntas** de la barra de herramientas. En función de sus necesidades, puede agregar preguntas utilizando cualquiera de los cuatro formatos disponibles: Verdadero o Falso, Único correcto, Múltiple correcto y Coincidir con lo siguiente, como se muestra a continuación. Para obtener más información, vea [Tipos de preguntas](#question-types).
+1. Elija el tipo de pregunta que desee en el menú desplegable **Preguntas** de la barra de herramientas. En función de sus necesidades, puede agregar preguntas utilizando cualquiera de los cuatro formatos disponibles: Verdadero o Falso, Único correcto, Múltiple correcto, Coincidir con lo siguiente y Respuesta corta como se muestra a continuación. Para obtener más información, vea [Tipos de preguntas](#question-types).
 
    ![](assets/question-types.png){width="650" align="left"}
 
@@ -25,11 +25,28 @@ Siga estos pasos para insertar preguntas en una prueba:
 
 1. Se inserta una pregunta en el formato seleccionado. A continuación, puede editar la pregunta según sus necesidades.
 
-1. Puede seleccionar cualquier pregunta y configurar sus propiedades mediante el panel **Propiedades de contenido**. Por ejemplo, puede especificar la respuesta correcta, establecer las marcas que se van a conceder y definir cualquier penalización para las respuestas incorrectas.
+1. Puede seleccionar cualquier pregunta y configurar sus propiedades mediante el panel **Propiedades de contenido**.
 
    ![](assets/question-properties.png){width="650" align="left"}
 
 1. Guarde todos los cambios realizados en la prueba.
+
+
+## Propiedades de pregunta
+
+Puede configurar las preguntas mediante las siguientes propiedades de la pregunta del panel **Propiedades de contenido**:
+
+![](assets/question-properties-new.png){width="350" align="left"}
+
+- **Opciones**: especifique la respuesta correcta a la pregunta
+- **Id. de pregunta**: Especifica el Id. de pregunta para cada pregunta. Si no hay un ID de pregunta, se recomienda añadirlo siempre.
+- **Puntos por respuesta correcta**: especifique los puntos que se otorgarán por la respuesta correcta.
+- **Sanción por respuesta incorrecta**: especifique los puntos que se van a deducir de una respuesta incorrecta.
+- **Etiqueta de pregunta**: habilítela para agregar una etiqueta de pregunta.
+- **Comentarios**: habilítelo para proporcionar los comentarios y obtener una respuesta correcta o incorrecta.
+- **Fijar opción en la posición**: cuando se fija una opción específica para una pregunta, permanece fija en la posición especificada en la lista de opciones, incluso si **las opciones de respuesta aleatorias para cada intento** están habilitadas en la configuración del ajuste preestablecido SCORM, que de lo contrario reorganizaría las opciones disponibles. Puede situarse sobre la opción deseada de una pregunta en el panel Propiedades de contenido y anclarla.
+
+  ![](assets/pin-question.png){width="350" align="left"}
 
 ## Insertar párrafo dentro de la prueba
 
@@ -62,7 +79,7 @@ Los siguientes tipos de preguntas son compatibles con las pruebas:
   ![](assets/true-false.png){width="650" align="left"}
 
 
-- **Múltiples respuestas correctas**: Una pregunta con múltiples opciones en la que más de una respuesta puede ser correcta.
+- **Varias respuestas correctas**: Una pregunta con varias opciones en la que más de una respuesta puede ser correcta.
 
   ![](assets/multi-correct.png){width="650" align="left"}
 
@@ -73,3 +90,8 @@ Los siguientes tipos de preguntas son compatibles con las pruebas:
   En el resultado publicado, la pregunta **Coincidir con lo siguiente** aparece con un menú desplegable para cada elemento, lo que le permite seleccionar la coincidencia correcta entre las opciones disponibles.
 
   ![](assets/question-type-publishing.png){width="650" align="left"}
+
+
+- **Respuesta breve**: permite que los alumnos respondan con una entrada de texto breve. Acepta respuestas alfanuméricas, hace coincidir las respuestas sin distinción de mayúsculas y minúsculas y, para respuestas muy largas, proporciona una barra de desplazamiento horizontal.
+
+  ![](assets/short-answer.png){width="650" align="left"}

@@ -4,9 +4,9 @@ description: Obtenga información acerca de los componentes básicos que puede a
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
-source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
+source-git-commit: 338213dd1e6f093a82bbf7d3283f81c3fdb96431
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,11 @@ Puede utilizar las funciones básicas de edición disponibles en la barra de her
 
   ![](assets/insert-menu-options-lc.png){width="650" align="left"}
 
-- **Componentes de texto**: agrega encabezados/títulos, párrafos, comillas dentro de la línea, superíndices, subíndices y citas al contenido.
+- **Componentes de texto**: agrega encabezado, párrafo, comillas dentro de la línea, superíndice, subíndice y cita al contenido.
+
+  >[!NOTE]
+  >
+  > También puede incluir un Título y un subtítulo en el contenido de aprendizaje. Para obtener detalles sobre cómo agregarlo al contenido, vea [Agregar título y subtítulo al contenido de aprendizaje](#add-title-and-subtitle-to-learning-content).
 
   ![](assets/text-learning-content.png){width="650" align="left"}
 
@@ -75,3 +79,26 @@ Se abre el cuadro de diálogo **Reutilizar contenido**.
   ![](assets/hyperlink-learning-content.png){width="650" align="left"}
 
 Además, el menú desplegable **Menú** proporciona acceso a las acciones de edición (Cortar, Copiar, Eliminar), Buscar y reemplazar y a la etiqueta Versión.
+
+## Añadir título y subtítulo al contenido de aprendizaje
+
+Siga estos pasos para incluir el título y el subtítulo en el contenido de aprendizaje:
+
+1. Abra el curso de aprendizaje en la consola Mapa.
+1. Abra el tema, la prueba o cualquier otro componente del curso al que desee añadir un título o subtítulo.
+1. Vaya al panel Propiedades del archivo y seleccione **Agregar título**.
+
+   ![](assets/add-title-lc.png)
+1. Cuando se le solicite, elija si desea utilizar el encabezado existente como título.
+
+   >[!NOTE]
+   >
+   > Si no desea usar el encabezado existente como título, primero inserte un encabezado utilizando el componente Texto en la barra de herramientas del Editor y, a continuación, seleccione **Agregar título**. Se agrega un ejemplo **Title** al contenido, el cual puede editar según sea necesario.
+1. En Propiedades del archivo, seleccione **Agregar subtítulo**.
+Se ha agregado un **subtítulo** de muestra al contenido.
+
+   ![](assets/add-subtitles-lc.png)
+
+Para quitar un título, borre la opción **Agregar título** en las propiedades del archivo. Al eliminar el título, se elimina automáticamente el subtítulo asociado.
+
+
