@@ -4,7 +4,7 @@ description: Obtenga información acerca de los componentes básicos que puede a
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
-source-git-commit: 338213dd1e6f093a82bbf7d3283f81c3fdb96431
+source-git-commit: 16e7f12ddc9e72e4344bf98e65718c0f3681b348
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -94,6 +94,7 @@ Siga estos pasos para incluir el título y el subtítulo en el contenido de apre
    >[!NOTE]
    >
    > Si no desea usar el encabezado existente como título, primero inserte un encabezado utilizando el componente Texto en la barra de herramientas del Editor y, a continuación, seleccione **Agregar título**. Se agrega un ejemplo **Title** al contenido, el cual puede editar según sea necesario.
+
 1. En Propiedades del archivo, seleccione **Agregar subtítulo**.
 Se ha agregado un **subtítulo** de muestra al contenido.
 

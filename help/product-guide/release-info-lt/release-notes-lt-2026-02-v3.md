@@ -3,9 +3,9 @@ title: Notas de versión | Novedades de la versión de febrero de 2026 de Formac
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión de febrero de 2026 de Formación del producto y contenido de aprendizaje
 role: Leader
 hidefromtoc: true
-source-git-commit: 5ba7ba00cbc9209aad9f17f0793d621f1f1838e2
+source-git-commit: 16e7f12ddc9e72e4344bf98e65718c0f3681b348
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -30,12 +30,14 @@ Las siguientes funciones se introdujeron en la versión de febrero de 2026 de Fo
 
   ![](assets/negative-scores-lc.png)
 
-- **Eliminar widgets con un clic derecho**: además de eliminar preguntas de prueba, ahora puede eliminar widgets como Acordeones, Voltear tarjetas y Pestañas con **clic derecho > Eliminar elemento**. Esta mejora amplía la funcionalidad *Eliminar pregunta* existente a los widgets, lo que le permite eliminarlos con menos clics y una navegación mínima.
+- **Eliminar widgets con un clic derecho**: además de eliminar preguntas de prueba, ahora puede eliminar widgets como Acordeones, Voltear tarjetas y otros widgets con **clic derecho > Eliminar elemento**. Esta mejora amplía la funcionalidad *Eliminar pregunta* existente a los widgets, lo que le permite eliminarlos con menos clics y una navegación mínima.
 
   Más información sobre [Usar widgets interactivos](../learning-content/lc-widgets.md).
 
   ![](assets/delete-widget-items.png)
 - **Anclar opciones de respuesta**: ahora puede fijar opciones de respuesta específicas para que su posición permanezca sin cambios, incluso cuando las respuestas se aleatorizan durante la generación de salida de SCORM. Esto es especialmente útil para opciones como *Todo lo anterior* o *Ninguno de los anteriores*.
+
+  Más información sobre [Propiedades de la pregunta](../learning-content/quiz-insert-questions.md#question-properties).
 
   ![](assets/pin-question.png)
 - **Tipo de respuesta corta**: El tipo de pregunta de respuesta corta permite que los alumnos respondan mediante respuestas alfanuméricas breves y descriptivas en lugar de seleccionar opciones predefinidas. Este tipo de pregunta anima a los alumnos a recordar y articular activamente su comprensión con sus propias palabras, lo que hace que las evaluaciones sean más atractivas para los alumnos.
@@ -64,5 +66,5 @@ Los siguientes problemas se solucionaron en la versión de febrero de 2026 de Fo
 - Cuando se utiliza Experience Manager Guides en Mozilla Firefox, la tarjeta Voltear muestra el texto de la parte frontal en sentido inverso en la parte posterior después de voltear. (GUIDES-39983)
 - Al hacer clic en la Tabla de contenido (TDC) en el panel izquierdo del curso, el curso sigue mostrando el estado de finalización aunque se haya producido un error en la prueba. (GUIDES-40398)
 - Si se intenta hacer coincidir el siguiente tipo de pregunta en una prueba de forma incorrecta en ALM, las opciones seleccionadas no aparecerán en el informe. (GUIDES-38640)
-- Al generar la salida de PDF, los estilos de creación aplicados no se conservan, lo que provoca incoherencias en el diseño.(GUIDES-38642)
+- Al generar la salida de PDF, los estilos de creación aplicados no se conservan, lo que provoca incoherencias en el diseño. (GUIDES-38642)
 
