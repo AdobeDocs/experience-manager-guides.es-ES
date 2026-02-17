@@ -143,4 +143,4 @@ Mapas de imagen:
 
 
 
-Más información sobre las prácticas recomendadas de [Seguridad](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security).
+Más información sobre las prácticas recomendadas de [Seguridad](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/introduction/security).
