@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo importar y validar un tema DITA, u
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 64d2f0027c35396a549d11a0186e218dd513b22a
+source-git-commit: dd058ef30707716054279f16527adb286a9deb8d
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '982'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 0%
 
 Siga estos pasos para importar los archivos de Schematron:
 
-![](images/schematron-panel.png){width="300" align="left"}
-
 1. Vaya a la carpeta requerida (donde desea cargar los archivos) en *Repositorio*.
 1. Seleccione el icono **Opciones** para abrir el menú contextual y elija **Cargar recursos**.
 1. En el diálogo **Cargar recursos**, puede cambiar la carpeta de destino en el campo **Seleccionar carpeta de recursos**.
@@ -41,16 +39,16 @@ Después de importar los archivos de Schematron, puede editarlos en el Editor. P
 
 Cuando se abre un tema en el Editor, aparece un panel de validación de Schematron a la derecha. Realice los siguientes pasos para agregar y validar un tema o asignación con un archivo de Schematron:
 
-![](images/schematron-panel-file-validated.png){width="500" align="left"}
+![](images/schematron-panel.png){width="350" align="left"}
 
-1. Seleccione el icono de Schematron () para abrir el panel de Schematron.
+1. Seleccione el icono Schematron para abrir el panel Schematron.
 1. Use **Agregar archivo de Schematron** para agregar archivos de Schematron.
 
    >[!NOTE]
    >
    > Cuando se añade un archivo Schematron no válido, se muestra un mensaje de error en el panel Validación.
 
-   ![](images/schematron-panel-error.png){width="300" align="left"}
+   ![](images/schematron-panel-error.png){width="350" align="left"}
 
 1. Si el archivo Schematron no tiene errores, se añade y se enumera en el panel Validación. Se muestra un mensaje de error para el archivo Schematron que contiene errores.
 
@@ -58,14 +56,42 @@ Cuando se abre un tema en el Editor, aparece un panel de validación de Schematr
    >
    >Puede utilizar el icono cruzado cerca del nombre del archivo de Schematron para eliminarlo.
 
-1. Seleccione **Validar con Schematron** para validar el tema.
+1. Seleccione **Validate** para validar el tema con los archivos de Schematron agregados.
 
    * Si el tema no infringe ninguna regla, se muestra el mensaje de validación correcta para el archivo.
    * Si el tema rompe una regla, por ejemplo, si no contiene un título y se valida para el Schematron anterior, muestra un error de validación.
 
+   >[!NOTE]
+   >
+   > Los resultados de validación se muestran según el atributo de función definido en el archivo Schematron. Para obtener más información, vea [Comprender los resultados de validación y los niveles de gravedad](#understanding-validation-results-and-serverity-levels).
+
 1. Seleccione el mensaje de error para resaltar el elemento que contiene el error en el tema o mapa abierto.
 
 La compatibilidad con Schematron en el Editor le ayuda a validar los archivos con un conjunto de reglas y a mantener la coherencia y la corrección en todos los temas.
+
+## Comprender los resultados de validación y los niveles de gravedad
+
+Los resultados de validación se muestran según el atributo de función definido en el archivo Schematron. Los problemas se clasifican en `Fatal`, `Error`, `Warn` o `Info`, con un recuento visible para cada categoría en el panel Validación.
+
+![](images/schematron-validation-errors.png){width="350" align="left"}
+
+Para determinar la gravedad de un problema, se evalúa el valor _que distingue entre mayúsculas y minúsculas_ del atributo role definido en el archivo Schematron correspondiente.
+
+El siguiente fragmento muestra los valores de atributos de función admitidos definidos en una regla de Schematron:
+
+* `<sch:assert role="error" test="@id">Element must have an ID.</sch:assert>`
+* `<sch:report role="info" test="not(@alt)">Image should have an alt attribute.</sch:report>`
+* `<sch:assert role= "fatal" test="b"> Bold must be there in <sch:name/> element</sch:assert>`
+* `<sch:assert role= "warn" test="b"> Recommended formatting is missing in <sch:name/> element</sch:assert>`
+
+Si no se especifica el atributo de rol o si se usa un valor no admitido, el problema se clasifica como `Error` en el panel Validación. Este comportamiento también se aplica a los archivos de Schematron existentes que no definen un atributo de función; en estos casos, todos los problemas se agrupan en `Error`.
+
+**Escenarios de guardado de archivos**
+
+Guardar un archivo depende de la **comprobación de validación antes de guardar el archivo** en [configuración de Workspace](../cs-install-guide/workspace-settings.md#validation):
+
+* Si está habilitado, no podrá guardar el archivo hasta que no se resuelvan los problemas de nivel `Fatal` o `Error`.
+* Cuando está deshabilitado, no se realizan las comprobaciones de validación y los archivos se pueden guardar aunque haya `Fatal` o `Error` problemas de nivel.
 
 ## Usar instrucciones de aserción e informe para comprobar las reglas{#schematron-assert-report}
 

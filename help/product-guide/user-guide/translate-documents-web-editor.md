@@ -4,9 +4,9 @@ description: Traduzca el contenido a varios idiomas desde el editor web. Obtenga
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 4165535976082c1e8f28bf15f16999b6bfe5bf9a
+source-git-commit: c619c518a3ae1629897eb90f5f15aa4742be5ef2
 workflow-type: tm+mt
-source-wordcount: '2446'
+source-wordcount: '2519'
 ht-degree: 0%
 
 ---
@@ -78,6 +78,11 @@ Antes de realizar los pasos de este procedimiento, asegúrese de haber creado la
    **Usar la última versión como el**: elige filtrar la versión de los temas según su fecha y hora de creación. Al seleccionar una fecha y hora, solo se muestra la última versión de los archivos creados en la fecha y la hora seleccionadas o antes.
 
 1. Seleccione **Aplicar**. Se muestra una lista con detalles de temas y recursos asociados.
+
+   >[!NOTE]
+   >
+   > Al traducir mapas con referencias de archivos DITAVAL y Markdown, y cuando la traducción se basa en la copia de trabajo, se incluyen referencias como imágenes y otros recursos vinculados siempre que existan en la carpeta de idioma de origen. Estas referencias aparecen en la lista de referencias del panel de traducción, lo que permite seleccionarlas explícitamente para su traducción. Durante la traducción, los recursos a los que se hace referencia se copian en la carpeta del idioma de destino y se gestionan de forma coherente con el comportamiento de traducción de imagen estándar.
+
 1. Seleccione los temas que desee enviar para su traducción. También puede utilizar las opciones de filtrado de temas para las siguientes columnas:
 
    - **Título**: título del archivo de origen.  Pase el ratón sobre el título del archivo de origen para ver el título del archivo de destino o traducido.
@@ -234,4 +239,4 @@ Para realizar la administración de documentos, Experience Manager Guides permit
 También puede deshabilitar los proyectos de traducción si desea usarlos más adelante. Al eliminar un proyecto, se eliminan todos los archivos y carpetas presentes en el proyecto. Al deshabilitar un proyecto no se elimina, sino que se mantiene en el repositorio. Pero no puede actualizar ni editar un proyecto deshabilitado.  Eliminar o deshabilitar un proyecto no afectará el estado de traducción de ninguna referencia.
 
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

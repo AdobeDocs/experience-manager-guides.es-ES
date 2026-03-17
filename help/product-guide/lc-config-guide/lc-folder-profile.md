@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: 64adc89966e60823f6b46fb062b7659ed150cfc3
+source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1657'
 ht-degree: 0%
 
 ---
@@ -36,15 +36,28 @@ Para empezar a configurar el perfil de la carpeta para el contenido de aprendiza
    ![](assets/folder-profile.png){width="650" align="left"}
 
 6. **Configurar la configuración del perfil de la carpeta**: Para el contenido de aprendizaje y formación, se puede configurar lo siguiente en el nivel de carpeta:
+   - [General](#general)
    - [Paneles](#configure-panels)
-   - [Plantillas](#configure-templates)
+   - [Plantillas de contenido](#configure-content-templates)
    - [Valores de salida](#configure-output-presets)
    - [Editor de HTML](#html-editor-settings)
    - [Publicar perfiles](#manage-publish-profiles)
 
-Para obtener acceso a esta configuración, cambie a la vista Editor y seleccione **Configuración** en el menú **Opciones**, como se muestra a continuación:
+Para obtener acceso a esta configuración, cambie a la vista Editor y seleccione **Configuración de Workspace** en el menú **Opciones**, como se muestra a continuación:
 
 ![](assets/access-editor-settings.png)
+
+## General
+
+En la pestaña General, puede configurar las siguientes opciones específicas de la función Aprendizaje de productos y contenido de aprendizaje:
+
+![](assets/lc-config-settings-general.png){width="350" align="left"}
+
+- **Contenido de aprendizaje**: use la opción **Habilitar contenido de aprendizaje** para habilitar o deshabilitar la característica en el nivel de perfil de carpeta.
+- **Editor de HTML**: esta opción le permite configurar el Editor para la creación basada en HTML. Las opciones de configuración clave presentes en esta configuración son las siguientes:
+
+   - **Ocultar estilo en línea**: habilite esta opción para evitar que los autores apliquen formato en línea al contenido del curso. Cuando se habilita, todas las opciones de estilo en línea como Fuentes, Borde, Diseño, Fondo y Columnas presentes en el panel derecho del Editor permanecen ocultas para los autores. Sin embargo, los autores aún pueden usar las opciones de estilo globales basadas en clases disponibles en el panel **Estilos**. Esto ayuda a mantener la coherencia con las directrices de estilo de su organización.
+   - **Ocultar la vista de Source para autores**: habilite esta opción para restringir el acceso al código fuente de HTML. Esto resulta útil cuando desea simplificar la edición o evitar cambios accidentales en el código subyacente.
 
 ## Configuración de paneles
 
@@ -60,15 +73,24 @@ Para el contenido de aprendizaje y formación, asegúrese de que solo están hab
 **Panel izquierdo**
 
 - **Colecciones**: permite organizar y guardar archivos usados con frecuencia o acceder rápidamente a archivos compartidos.
-- **Repositorio**: permite ver y obtener acceso a todos los mapas, temas, imágenes y otros recursos almacenados en el repositorio de contenido.
+- **Explorador**: permite ver y obtener acceso a todos los mapas, temas, imágenes y otros recursos almacenados en el repositorio de contenido.
 - **Administrador de cursos**: proporciona un área de trabajo dedicada para crear y administrar cursos.
+- **Mapa**: proporciona una vista de mapa del archivo de mapa abierto actualmente.
+- **Esquema**: muestra la jerarquía estructural del tema o mapa abierto actualmente, lo que permite una navegación rápida y acceso de nivel de elemento.
+- **Workfront**: proporciona acceso a funciones de administración de proyectos sólidas además de las capacidades principales de CCMS de Experience Manager Guides.
+- **Contenido reutilizable**: le permite administrar e insertar elementos o temas reutilizables para garantizar la coherencia y reducir la duplicación entre el contenido.
+- **Glosario**: permite crear y administrar términos del glosario e incluirlos en todos los temas para mantener una terminología coherente.
 - **Fragmentos**: permite crear y reutilizar fragmentos de contenido pequeños en diversos temas de los cursos de aprendizaje.
 - **Condiciones**: permite configurar atributos condicionales a nivel global y de carpeta.
+- **Plantillas**: Permite crear y administrar las plantillas de curso.
+- **Citas**: permite agregar y administrar citas en el contenido mediante estilos de citas admitidos.
+- **Variables de idioma**: permite definir variables de idioma para la salida publicada.
 - **Variables**: permite crear y administrar variables para usarlas en el contenido de aprendizaje.
-- **Variables de idioma**: permite definir cadenas localizadas para el texto estático o de salida publicado en plantillas.
-- **Plantillas**: Permite crear y administrar plantillas para que las utilicen los autores.
 - **Plantillas de salida**: Permite crear y administrar plantillas de salida para generar resultados en varios formatos.
 - **Buscar y reemplazar**: proporciona opciones para buscar y reemplazar texto en los archivos de un mapa o una carpeta dentro del repositorio. 
+- **Fuentes de datos**: le permite conectar fuentes de datos externas y reutilizar datos dentro del contenido.
+- **Revisar**: permite crear y administrar flujos de trabajo de revisión en Experience Manager Guides.
+- **Informes del sistema**: Permite crear y administrar informes.
 
 **Panel derecho**
 
@@ -90,7 +112,11 @@ Para el contenido de aprendizaje y formación, asegúrese de que solo están hab
 
 - **Filtros**: permite usar filtros cuando se trabaja con informes y traducciones.
 
-## Configurar plantillas
+## Configuración de plantillas de contenido
+
+>[!NOTE]
+>
+> Esta configuración solo está disponible cuando la característica de contenido de aprendizaje está habilitada en **Configuración de Workspace** > **General**.
 
 Esta configuración le permite administrar las plantillas de creación y publicación presentes en el [panel izquierdo del editor](../user-guide/web-editor-left-panel.md). Puede agregar, quitar o reordenar las plantillas de creación y salida, a las que los autores y editores podrán tener acceso.
 
@@ -180,6 +206,10 @@ También puede definir el orden en que se muestran las plantillas presentes dent
 
 ## Configurar ajustes preestablecidos de salida
 
+>[!NOTE]
+>
+> Esta configuración solo está disponible cuando la característica de contenido de aprendizaje está habilitada en **Configuración de Workspace** > **General**.
+
 La pestaña Ajustes preestablecidos de salida permite definir qué formatos de salida están disponibles para publicar un curso. Contiene dos secciones: **Tipos de ajustes preestablecidos de salida permitidos** y **Ajustes preestablecidos de salida comunes**.
 
 ![](assets/configure-course-output-presets.png){width="350" align="left"}
@@ -191,15 +221,6 @@ La pestaña Ajustes preestablecidos de salida permite definir qué formatos de s
 - **Ajustes preestablecidos de salida comunes**: en esta sección se muestran los ajustes preestablecidos de salida que los editores crean y agregan normalmente a un perfil de carpeta específico. También puede eliminar cualquier ajuste preestablecido que ya no sea necesario.
 
   ![](assets/common-output-presets.png){width="350" align="left"}
-
-## Configuración del editor de HTML
-
-Esta configuración le permite configurar el Editor para la creación basada en HTML. Las opciones de configuración clave presentes en esta configuración son las siguientes:
-
-![](assets/configure-html-editor-setting.png){width="350" align="left"}
-
-- **Ocultar estilo en línea**: habilite esta opción para evitar que los autores apliquen formato en línea al contenido del curso. Cuando se habilita, todas las opciones de estilo en línea como Fuentes, Borde, Diseño, Fondo y Columnas presentes en el panel derecho del Editor permanecen ocultas para los autores. Sin embargo, los autores aún pueden usar las opciones de estilo globales basadas en clases disponibles en el panel **Estilos**. Esto ayuda a mantener la coherencia con las directrices de estilo de su organización.
-- **Ocultar la vista de Source para autores**: habilite esta opción para restringir el acceso al código fuente de HTML. Esto resulta útil cuando desea simplificar la edición o evitar cambios accidentales en el código subyacente.
 
 ## Administrar perfiles de publicación
 

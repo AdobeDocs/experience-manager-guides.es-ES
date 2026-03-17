@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo crear una tarea de revisión y env
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: cd536b9e27b3c422fc723e9f13b12ac432fa3fc9
+source-git-commit: c36dbb3861f904bda1aee176fc5f4c0dd69b97dc
 workflow-type: tm+mt
-source-wordcount: '3055'
+source-wordcount: '3135'
 ht-degree: 0%
 
 ---
@@ -53,19 +53,20 @@ Para crear una tarea de revisión y enviar temas para su revisión, realice los 
    >
    > Puede crear una tarea de revisión sólo para los temas que tengan una revisión. Si el tema seleccionado no tiene una revisión, se le mostrará un mensaje.
 
-   ![](images/create-review-task-023.png){width="650" align="left"}
-
+   ![](images/create-review-task-023.png)
 1. Escriba un **Título** para la tarea y seleccione un proyecto DITA.
 
 1. En el campo desplegable **Proyecto**, seleccione un proyecto DITA para esta tarea de revisión. También puede escribir el nombre del proyecto para localizarlo rápidamente en la lista desplegable.
 
-1. En el campo desplegable **Asignar a**, seleccione los revisores a los que desee enviar los temas para su revisión.
+1. En el campo desplegable **Asignar a**, seleccione los revisores a los que desee enviar los temas para su revisión. También puede buscar por nombre de miembro o nombre de rol dentro del proyecto seleccionado cuando escriba.
 
-   Puede asignar una tarea de revisión a usuarios individuales del proyecto o a grupos de usuarios. Tenga en cuenta que sólo puede asignar una tarea de revisión a usuarios individuales cuando forme parte del grupo de administradores del proyecto; de lo contrario, sólo verá los grupos de usuarios en el campo Asignar a.
+   El campo *Asignar a* solo se habilita después de seleccionar un proyecto activo en el campo *Proyecto*. La lista de miembros o funciones se obtiene en función del proyecto seleccionado. Si no se selecciona ningún proyecto, el campo *Asignar a* permanece deshabilitado.
+
+   Puede asignar una tarea de revisión a usuarios individuales del proyecto o a grupos de usuarios. Tenga en cuenta que solo puede asignar una tarea de revisión a usuarios individuales cuando forme parte del grupo de administradores del proyecto; de lo contrario, solo verá los grupos de usuarios en el campo *Asignar a*.
 
    >[!NOTE]
    >
-   > El flujo de trabajo de revisión es específico del proyecto. Cuando crea proyectos, agrega los integrantes del equipo al proyecto y los asigna a grupos. Así que cuando seleccionas el proyecto aquí, puedes elegir a los miembros que son parte de ese proyecto. Para obtener más información acerca de los proyectos, vea [Crear un proyecto DITA](authoring-create-dita-project.md#).
+   > El flujo de trabajo de revisión es específico del proyecto. Cuando crea proyectos, agrega los integrantes del equipo al proyecto y los asigna a grupos. Así que, cuando seleccionas el proyecto aquí, puedes elegir a los miembros que son parte de ese proyecto. Para obtener más información acerca de los proyectos, vea [Crear un proyecto DITA](authoring-create-dita-project.md#).
 
 1. Escriba una **descripción** para la tarea.
 
@@ -92,6 +93,10 @@ Para crear una tarea de revisión y enviar temas para su revisión, realice los 
    Si no selecciona esta opción, los revisores agregados en el campo **Asignar a** tendrán acceso para revisar solamente los temas que estén asignados a ellos.
 
 1. Seleccione **Siguiente**.
+
+   >[!NOTE]
+   >
+   > El botón **Siguiente** solo se habilita después de proporcionar detalles para todos los campos obligatorios, incluidos *Título*, *Proyecto*, *Asignar a* y *Fecha de vencimiento*.
 
    Se muestra la página Contenido.
 
@@ -306,4 +311,4 @@ Una vez que se actualiza la tarea de revisión, los revisores reciben notificaci
 Para obtener más información, vea [Descripción de las notificaciones de revisión](./review-understanding-review-notifications.md).
 
 
-**Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)
+**Tema principal:**[ Introducción a la revisión](review.md)

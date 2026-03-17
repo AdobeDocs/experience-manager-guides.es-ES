@@ -4,7 +4,7 @@ description: Obtenga información sobre las distintas funciones presentes en Exp
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 0171f7b798686a0a16942e98133001a4c05bb76b
+source-git-commit: f758ef6f2d238cbb71dc395add12fc7e30172871
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Puede añadir contenido existente del repositorio de contenido al curso. Siga es
 
 1. Seleccione el menú **Opciones** > **Agregar elemento existente**.
 2. Seleccione el tipo de contenido del curso que desea crear.
-3. En el cuadro de diálogo **Seleccionar ruta**, vaya a la ubicación del contenido y seleccione el contenido de aprendizaje que desee.
+3. En el cuadro de diálogo **Seleccionar archivo**, vaya a la ubicación del contenido y seleccione el contenido de aprendizaje que desee.
 
    ![](assets/add-existing-learning-content.png)
 4. Elija **Seleccionar**.

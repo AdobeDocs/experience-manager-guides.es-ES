@@ -4,14 +4,18 @@ description: Cree y administre líneas de base desde la consola de mapas de Adob
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: eb68e4583083ff209fd717049c6e50b996cba8e8
+source-git-commit: 24ed0edbfcbe968938473e31f3abf13779d04235
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1921'
 ht-degree: 0%
 
 ---
 
 # Crear y administrar líneas base desde la consola Mapa {#id223MB0ZF043}
+
+>[!NOTE]
+>
+> Hay disponible una nueva versión de línea de base (Beta) que ofrece un rendimiento y una estabilidad mejorados con Experience Manager Guides 2026.03.0. Para utilizar esta línea de base, póngase en contacto con el equipo de éxito del cliente para activar la función. Más información sobre [Nueva línea de base (Beta)](./web-editor-baseline-v2.md).
 
 La función Línea de base le permite crear una versión de los temas y recursos que luego se puede utilizar para publicar o traducir. Por ejemplo, si el mapa DITA tiene `topicA` y `imageA`, puede crear una Línea base para utilizar la tercera versión de `topicA`, pero la cuarta versión de `ImageA`. Una vez que haya establecido una Línea base, puede publicar o traducir temas de distintas versiones en un solo paso.
 
@@ -168,5 +172,5 @@ Con el icono Filtros del panel **Filtros de línea de base**, puede aplicar filt
 
 Una vez que haya editado la línea de base, seleccione **Guardar** para guardar los cambios realizados en la línea de base. Puede seleccionar **Restablecer** si no desea guardar el cambio y restablecer la línea de base. Al seleccionar **Restablecer**, se muestra una advertencia indicando que se perderán los cambios que no se hayan guardado.
 
-**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)
+**Tema principal:**[ Generación de resultados](generate-output.md)
 

@@ -4,16 +4,16 @@ description: Obtenga información sobre cómo descargar archivos desde la consol
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-source-git-commit: e413a49a8ec5e2e129b86b50bc5750f41c101e5d
+source-git-commit: 5deb4411c82f07aa82e52b4608a71a78136c128d
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
 
 # Descargar archivos {#id216MC0H0BE8}
 
-Puede descargar recursos, incluidos archivos DITA y no DITA. Existen varias formas de descargar recursos, algunos son nativos de Adobe Experience Manager y otros son compatibles con Adobe Experience Manager Guides. Para obtener información de descarga de recursos nativos de Adobe Experience Manager, vea [Descargar recursos de Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=es) en la documentación de Adobe Experience Manager. En la siguiente sección se explica el mecanismo de descarga de archivos en Experience Manager Guides.
+Puede descargar recursos, incluidos archivos DITA y no DITA. Existen varias formas de descargar recursos, algunos son nativos de Adobe Experience Manager y otros son compatibles con Adobe Experience Manager Guides. Para obtener información de descarga de recursos nativos de Adobe Experience Manager, vea [Descargar recursos de Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) en la documentación de Adobe Experience Manager. En la siguiente sección se explica el mecanismo de descarga de archivos en Experience Manager Guides.
 
 ## Descargar un archivo de mapa DITA desde el Editor
 
@@ -37,18 +37,17 @@ Siga estos pasos para descargar un archivo de mapa DITA desde el Editor:
    - **Opciones de jerarquía de archivos**: también puede usar la lista desplegable de jerarquía de archivos para elegir cómo se administra la estructura de carpetas para los archivos de mapa descargados. Las opciones disponibles son:
 
       - **Conservar jerarquía de archivos**: seleccione esta opción en la lista desplegable para conservar la estructura de carpetas existente para los archivos descargados.
+      - **Acoplar jerarquía de archivos**: seleccione esta opción en la lista desplegable para descargar todos los temas a los que se hace referencia y los archivos multimedia en una sola carpeta.
 
-        Las opciones disponibles en este método son las siguientes:
+     Para cada opción, puede especificar cómo se gestionan los nombres de archivo de los archivos descargados. Están disponibles las siguientes opciones de nombre de archivo:
 
-         - **Usar nombre de archivo GUID**: descarga el archivo de asignación con GUID como nombre de archivo.
-
-         - **Usar nombre de archivo real**: descarga el archivo de asignación con su nombre de archivo original.
-
-      - **Acoplar jerarquía de archivos**: seleccione esta opción en la lista desplegable para descargar todos los temas a los que se hace referencia y los archivos multimedia en una sola carpeta. Solo la opción **Usar nombre de archivo GUID** está disponible para los archivos de asignación al utilizar este método.
+      - **Usar nombre de archivo GUID**: descarga el archivo de asignación con GUID como nombre de archivo.
+      - **Usar nombre de archivo real**: descarga el archivo de asignación con su nombre de archivo original. Cuando se utiliza esta opción con Acoplar jerarquía de archivos, los nombres de archivo duplicados en el mapa se resuelven automáticamente añadiendo sufijos numéricos (_2, _3, etc.) para garantizar nombres de archivo únicos.
 
    >[!NOTE]
    >
    > También puede descargar el archivo de asignación sin seleccionar ninguna opción. En ese caso, se descarga la última versión persistente de los temas a los que se hace referencia y los archivos multimedia.
+
 
 1. Seleccione **Descargar**.
 
@@ -65,6 +64,8 @@ Siga estos pasos para descargar un archivo de mapa DITA desde el Editor:
    >[!NOTE]
    >
    > De forma predeterminada, las asignaciones descargadas permanecen durante cinco días en la Bandeja de entrada de notificaciones de Adobe Experience Manager.
+
+Una vez descargado el mapa, puede seleccionarlo y utilizar el icono Abrir de la parte superior para abrir el contenido descargado. Para ver los metadatos asociados del mapa descargado, abra el archivo `metdata.json` incluido en el contenido descargado. Este archivo está disponible para las opciones *Jerarquía de archivos*: Acoplar jerarquía de archivos y Conservar jerarquía de archivos.
 
 ## Descargar un fichero de mapa DITA desde el tablero de mandos Mapa
 
@@ -109,6 +110,6 @@ Realice los siguientes pasos para descargar un archivo de asignación DITA junto
 
 ![](images/download-map-inbox.png){width="300" align="left"}
 
-Una vez descargado el mapa, puede seleccionarlo y utilizar el icono Abrir de la parte superior para abrir el informe seleccionado.
+Una vez descargado el mapa, puede seleccionarlo y utilizar el icono Abrir de la parte superior para abrir el contenido descargado.
 
-**Tema principal:**&#x200B;[&#x200B; Administrar contenido](authoring.md)
+**Tema principal:**[ Administrar contenido](authoring.md)

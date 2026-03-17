@@ -4,9 +4,9 @@ description: Obtenga información acerca de la función Aprendizaje y formación
 feature: Authoring
 role: User
 exl-id: d00bc88c-e6ec-4aa3-971a-e9fbabe9a965
-source-git-commit: 0c3cb192391248adcca4b845b5e4237531fc0ab7
+source-git-commit: a36c51352e893c3a0fc80dd17b7887d645f8070c
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,5 @@ Las funciones clave son las siguientes:
 - Reutilización de contenido
 - Creación y administración de pruebas
 - Administración de traducción líder del sector
+- Flujos de trabajo de revisión basados en web
 - Publicación multicanal mediante los formatos de salida SCORM y PDF predeterminados.
