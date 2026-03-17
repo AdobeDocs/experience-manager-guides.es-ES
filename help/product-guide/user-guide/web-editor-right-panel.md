@@ -4,9 +4,9 @@ description: Conozca el panel derecho en el editor. Obtenga información acerca 
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: 05a44af6982a9a23e6bbddeaac52b0700e2e2170
+source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Puede acceder a la función **Propiedades de contenido** seleccionando el icono 
 
 1. En el panel desplegable **Atributo**, seleccione el atributo en la lista desplegable y especifique el valor de un atributo.  Luego selecciona **Agregar**.
 
-   ![panel de atributos con varios atributos &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![panel de atributos con varios atributos ](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Para editar el atributo, pasa el ratón sobre él y selecciona **Editar** ![editar-icono](images/edit_pencil_icon.svg).
 
@@ -119,7 +119,23 @@ De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón
 >
 > Todas las referencias utilizadas en y salientes se hipervinculan a los documentos. Puede abrir y editar fácilmente los documentos vinculados.
 
-Además de abrir archivos, también puede realizar muchas acciones utilizando el menú **Opciones** de la sección Referencias. Algunas de las acciones que puede realizar son Editar, Vista previa, Copiar UUID, Copiar ruta, Agregar a colecciones, Propiedades.
+Además de abrir archivos, también puede realizar muchas acciones utilizando el menú **Opciones** de la sección Referencias. Algunas de las acciones que puede realizar son Editar, Vista previa, Copiar UUID, Copiar ruta, Agregar a colecciones y Propiedades.
+
+**Traducciones**
+
+Esta sección enumera todas las copias de idioma disponibles para el recurso abierto actualmente en el Editor, en orden alfabético. La información se presenta en una vista tabular, en la que se muestra cada código de idioma junto con el *título de archivo* correspondiente (o *nombre de archivo* en caso de que *título de archivo* no esté disponible).
+
+>[!INFO]
+>
+> Las copias de idioma se crean cuando se envía un recurso para su traducción. El inglés (`en`) actúa como idioma de origen y las copias traducidas se generan en sus respectivas carpetas de idioma de destino (por ejemplo, `de` para alemán o `fr` para francés). Si un recurso existe solamente en la carpeta `en`, no se mostrarán copias de idioma adicionales hasta que se inicie y complete la traducción para los idiomas de destino. Si el recurso no está presente en ninguna carpeta de idioma, se muestra **No hay traducciones disponibles**. Para obtener más información, vea [Prácticas recomendadas para la traducción de contenido](./translation-first-time.md).
+
+![](images/translations-right-panel.png){width="300" align="left"}
+
+Para cada copia de idioma, puede pasar el ratón sobre el archivo para localizar su ruta en el repositorio o simplemente seleccionarlo para abrirlo en el Editor. Además de abrir archivos, también puede realizar muchas acciones utilizando el menú **Opciones** de la sección Traducciones. Algunas de las acciones que puede realizar son Editar, Vista previa, Copiar UUID, Copiar ruta, Agregar a colecciones y Propiedades.
+
+![](images/translations-right-panel-options-menu.png){width="300" align="left"}
+
+
 
 ## Revisión
 
@@ -153,4 +169,4 @@ Aprenda a trabajar con archivos de Schematron en Experience Manager Guides, cons
 
 
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)
