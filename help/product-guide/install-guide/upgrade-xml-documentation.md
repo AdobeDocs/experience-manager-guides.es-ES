@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 479794862cec667baecbdb513e48a2979ef631a7
+source-git-commit: 98413b516865c77ad750bdf6f34874f5e37fb13a
 workflow-type: tm+mt
-source-wordcount: '9160'
+source-wordcount: '9148'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Puede actualizar su versión actual de Experience Manager Guides a la versión 5
 - Si está utilizando la versión 4.3.x, 4.2, 4.2.1 (revisión 4.2.1.3), 4.1 o 4.1.x, debe actualizar a la versión 4.4 antes de actualizar a la versión 5.0.0.
 - Si utiliza la versión 4.0, debe actualizar a la versión 4.2 antes de actualizar a la versión 4.3.x.
 - Si utiliza la versión 3.8.5, debe actualizar a la versión 4.0 antes de actualizar a la versión 4.2.
-- Si tiene una versión anterior a la 3.8.5, consulte la sección Actualizar Experience Manager Guides en la guía de instalación específica del producto disponible en [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/archive.html).
+- Si tiene una versión anterior a la 3.8.5, consulte la sección Actualizar Experience Manager Guides en la guía de instalación específica del producto disponible en [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -59,11 +59,11 @@ Antes de ejecutar el proceso, hay ciertas tareas que debe completar. Las siguien
 
 >[!NOTE]
 >
-> Este proceso de actualización solo es aplicable de la versión 3.8.5 a la versión 4.0. Para el proceso de actualización de la versión 3.4 o superior a la 3.8.5, consulte la sección *Actualizar Experience Manager Guides* en la guía de instalación específica del producto disponible en [Archivo de PDF de ayuda de Adobe Experience Manager Guides](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/archive.html).
+> Este proceso de actualización solo es aplicable de la versión 3.8.5 a la versión 4.0. Para el proceso de actualización de la versión 3.4 o superior a la 3.8.5, consulte la sección *Actualizar Experience Manager Guides* en la guía de instalación específica del producto disponible en [Archivo de PDF de ayuda de Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
-**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
+****Requisitos previos****
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides, asegúrese de lo siguiente:
 
@@ -136,7 +136,7 @@ La actualización a la versión 4.2 depende de la versión actual de Experience 
 
 Si utiliza las versiones 4.0, 4.1 o 4.1.x, puede actualizar directamente a la versión 4.2.
 
-**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
+****Requisitos previos****
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 4.2, asegúrese de lo siguiente:
 
@@ -312,7 +312,7 @@ La actualización a la versión 4.2.1 depende de la versión actual de Experienc
 >
 >El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
 
-**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
+****Requisitos previos****
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 4.2.1, asegúrese de lo siguiente:
 
@@ -489,7 +489,7 @@ La actualización a la versión 4.3.0 depende de la versión actual de Experienc
 >
 >El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
 
-**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
+****Requisitos previos****
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 4.3.0, asegúrese de lo siguiente:
 
@@ -547,7 +547,7 @@ La actualización a la versión 4.3.1 depende de la versión actual de Experienc
 >
 >El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
 
-**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
+****Requisitos previos****
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 4.3.1, asegúrese de lo siguiente:
 
@@ -788,7 +788,7 @@ La actualización a la versión 4.4.0 depende de la versión actual de Experienc
 >
 >El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
 
-**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
+****Requisitos previos****
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 4.4.0, asegúrese de lo siguiente:
 
@@ -981,7 +981,7 @@ Si tiene otra reescritura de sling personalizada en la base de código, utilice 
 Durante esta actualización, dado que el valor `'order'` ha cambiado de 1000 a 50, debe combinar la reescritura personalizada existente, si la hay, con `'fmdita-rewriter'`.
 
 
-**Tema principal:**&#x200B;[&#x200B; Descargar e instalar](download-install.md)
+**Tema principal:**[ Descargar e instalar](download-install.md)
 
 
 ## Actualización a la versión 4.6.0
@@ -996,7 +996,7 @@ La actualización a la versión 4.6.0 depende de la versión actual de Experienc
 >
 > El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
 
-**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
+****Requisitos previos****
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 4.6.0, asegúrese de lo siguiente:
 
@@ -1118,7 +1118,7 @@ Después de instalar Experience Manager Guides, puede combinar las distintas con
 
 Siga estos pasos para indexar el contenido existente:
 
-- Ejecute una petición POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de los mapas para indexarlas, de forma predeterminada se indexarán todas las asignaciones || Ejemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Ejecute una petición POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de las asignaciones para indexarlas; de forma predeterminada, todas las asignaciones se indexarán || Ejemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
@@ -1145,13 +1145,13 @@ Durante esta actualización, dado que el valor `'order'` ha cambiado de 1000 a 5
 
 >[!TIP]
 >
-> La actualización a la versión 5.0.0 Service Pack 3 depende de la versión actual de Experience Manager Guides. Si está utilizando la versión 5.0.0 Service Pack 2, 5.0.0 Service Pack 1 o 5.0.0, puede actualizar directamente a la versión 5.0.0 Service Pack 3.
+> La actualización a la versión 5.0.0 Service Pack 4 depende de la versión actual de Experience Manager Guides. Si utiliza la versión 5.0.x, puede actualizar directamente a la versión 5.0.0 Service Pack 4.
 
 >[!NOTE]
 >
 > El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
 
-**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
+****Requisitos previos****
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 5.0.0, asegúrese de lo siguiente:
 
@@ -1273,7 +1273,7 @@ Después de instalar Experience Manager Guides, puede combinar las distintas con
 
 Siga estos pasos para indexar el contenido existente:
 
-- Ejecute una petición POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de los mapas para indexarlas, de forma predeterminada se indexarán todas las asignaciones || Ejemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Ejecute una petición POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de las asignaciones para indexarlas; de forma predeterminada, todas las asignaciones se indexarán || Ejemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
@@ -1299,7 +1299,7 @@ Durante esta actualización, dado que el valor `'order'` ha cambiado de 1000 a 5
 
 ## Pasos para reindexar damAssetLucene
 
-La definición del índice se actualiza para damAssetLucene con guías. Consulte [este artículo](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-16460) para volver a indexar damAssetLucene después de actualizar a la versión 5.0.0.
+La definición del índice se actualiza para damAssetLucene con guías. Consulte [este artículo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) para volver a indexar damAssetLucene después de actualizar a la versión 5.0.0.
 
 >[!NOTE]
 >
@@ -1309,7 +1309,7 @@ La definición del índice se actualiza para damAssetLucene con guías. Consulte
 
 >[!IMPORTANT]
 >
-> Si actualmente está en AEM 6.5 y planea pasar a AEM 6.5 LTS, asegúrese de completar primero la actualización de AEM antes de continuar con la actualización de Experience Manager Guides 5.1.0. Para obtener más información, vea [Actualización a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/es/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Si actualmente está en AEM 6.5 y planea pasar a AEM 6.5 LTS, asegúrese de completar primero la actualización de AEM antes de continuar con la actualización de Experience Manager Guides 5.1.0. Para obtener más información, vea [Actualización a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Requisitos previos**
 
@@ -1440,7 +1440,7 @@ Después de instalar Experience Manager Guides, puede combinar las distintas con
 
 Siga estos pasos para indexar el contenido existente:
 
-- Ejecute una petición POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de los mapas para indexarlas, de forma predeterminada se indexarán todas las asignaciones || Ejemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Ejecute una petición POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de las asignaciones para indexarlas; de forma predeterminada, todas las asignaciones se indexarán || Ejemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
@@ -1466,7 +1466,7 @@ Durante esta actualización, dado que el valor `'order'` ha cambiado de 1000 a 5
 
 ## Pasos para reindexar damAssetLucene
 
-La definición del índice se actualiza para damAssetLucene con guías. Consulte [este artículo](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-16460) para volver a indexar damAssetLucene después de actualizar a la versión 5.1.0.
+La definición del índice se actualiza para damAssetLucene con guías. Consulte [este artículo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) para volver a indexar damAssetLucene después de actualizar a la versión 5.1.0.
 
 >[!NOTE]
 >
