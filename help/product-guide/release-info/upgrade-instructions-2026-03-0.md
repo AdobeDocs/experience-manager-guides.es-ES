@@ -1,7 +1,9 @@
 ---
-title: Notas de versión | Instrucciones de actualización y problemas corregidos en la versión 2026.03.0 de Adobe Experience Manager Guides
+title: Notas de la versión | Instrucciones de actualización y problemas corregidos en la versión 2026.03.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de la matriz de compatibilidad y cómo actualizar a la versión 2026.03.0 de Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 91befea8c232cd487762ea71f522004e5ca63ee0
+exl-id: 5700e649-104d-4caf-a195-6e667a71faee
+hidefromtoc: true
+source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 11%
@@ -55,4 +57,3 @@ Experience Manager Guides se actualiza automáticamente al actualizar a la últi
 > Esta versión incluye actualizaciones de la configuración del perfil de carpeta (ui_config.json). Si utiliza una configuración personalizada, asegúrese de realizar una copia de seguridad de ellas antes de actualizar. Después de la actualización, revise y ajuste la configuración para que se ajuste a los cambios introducidos en la versión más reciente.
 
 Revise y valide las configuraciones de configuración para confirmar que se han implementado correctamente. Si ha introducido algún cambio en la configuración personalizada, vea [Configuración adicional para actualizar Cloud Service](../cs-install-guide/additional-config-for-cloud-service.md) para cualquier procedimiento adicional aplicable a la versión desde la que está actualizando.
-

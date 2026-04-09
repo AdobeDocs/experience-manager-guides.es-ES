@@ -1,7 +1,9 @@
 ---
-title: Notas de versión | Se han corregido problemas en la versión 2026.03.0 de Adobe Experience Manager Guides
+title: Notas de la versión | Se han corregido problemas en la versión 2026.03.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las correcciones de errores en la versión 2026.03.0 de Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 764f6cc0b061020b78cd2808e08a5d05bd183c81
+exl-id: 6eca85f5-d7d3-4486-8b32-8af3a6cce4ee
+hidefromtoc: true
+source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 3%
@@ -60,13 +62,3 @@ Adobe ha identificado los siguientes problemas conocidos para la versión 2026.0
 - En la interfaz de usuario de Assets, el botón **Mover** no se habilita en el primer intento cuando se seleccionan más de 2 archivos o carpetas. (GUIDES-42721) <br> **Solución alternativa**: después de seleccionar más de dos archivos o carpetas, espere unos segundos antes de seleccionar la carpeta de destino.
 - Cuando navega a **Preferencias de usuario** desde el Editor y actualiza el mapa raíz mientras el modo de vista previa está abierto en el Editor, la vista previa del mapa se carga como una pantalla en blanco cuando vuelve al Editor. (GUIDES-42412) <br> **Solución alternativa**: al actualizar la vista previa con el icono **Actualizar** disponible en el modo de vista previa, se resuelve el problema.
 - Al cambiar el nombre de una plantilla existente, no se actualiza el nombre en el panel **Plantillas de salida** hasta que la página se actualiza manualmente. (GUIDES-42528)<br> **Solución alternativa**: actualice el explorador para ver el nombre actualizado de la plantilla en el panel Plantillas de salida.
-
-
-
-
-
-
-
-
-
-

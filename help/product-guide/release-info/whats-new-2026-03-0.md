@@ -1,8 +1,10 @@
 ---
-title: Notas de versión | Novedades de la versión 2026.03.0 de Adobe Experience Manager Guides
+title: Notas de la versión | Novedades de la versión 2026.03.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 2026.03.0 de Adobe Experience Manager Guides
 role: Leader
-source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
+exl-id: ae26dd14-983e-4116-ac8d-729c1f4fad20
+hidefromtoc: true
+source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 2%
@@ -112,7 +114,3 @@ Para obtener más información sobre cómo descargar archivos en Experience Mana
 Ahora puede utilizar regex para habilitar o deshabilitar el posprocesamiento para carpetas. Esta mejora permite a los administradores definir reglas de procesamiento posterior que se aplican a varias carpetas o jerarquías de carpetas completas mediante una sola configuración, en lugar de especificar rutas de carpeta individuales.
 
 Para obtener más información, vea [Use regex para habilitar o deshabilitar el procesamiento posterior](../cs-install-guide/conf-folder-post-processing.md#use-regex-to-enable-or-disable-post-processing).
-
-
-
-
