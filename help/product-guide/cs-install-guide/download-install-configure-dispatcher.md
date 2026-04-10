@@ -24,4 +24,4 @@ Dispatcher es la herramienta de almacenamiento en caché o de equilibrio de carg
 >
 > AEM as a Cloud Service no es compatible con Dispatcher para instancias de autor.
 
-**Tema principal:**[ Descargar e instalar](download-install.md)
+**Tema principal:**&#x200B;[&#x200B; Descargar e instalar](download-install.md)

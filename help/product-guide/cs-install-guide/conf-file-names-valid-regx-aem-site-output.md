@@ -23,4 +23,4 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Agregue los caracteres que desee reemplazar con un guion bajo en los nombres de los archivos de salida del sitio de AEM. <br> **Valor predeterminado**: ``'<\>\`@$`` |
 
-**Tema principal:**[ Configurar nombres de archivo](conf-file-names.md)
+**Tema principal:**&#x200B;[&#x200B; Configurar nombres de archivo](conf-file-names.md)

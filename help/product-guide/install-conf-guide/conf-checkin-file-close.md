@@ -58,4 +58,4 @@ Para obtener más información, consulte la sección *Cerrar archivo y guardar e
 
 >[!ENDTABS]
 
-**Tema principal:**[ Personalizar editor web](customize-overview.md)
+**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](customize-overview.md)

@@ -126,4 +126,4 @@ Las siguientes pestañas proporcionan instrucciones para añadir las opciones de
 >[!ENDTABS]
 
 
-**Tema principal:**[ Personalizar editor web](customize-overview.md)
+**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](customize-overview.md)

@@ -57,4 +57,4 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 
 >[!ENDTABS]
 
-**Tema principal:**[ Personalizar editor web](customize-overview.md)
+**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](customize-overview.md)

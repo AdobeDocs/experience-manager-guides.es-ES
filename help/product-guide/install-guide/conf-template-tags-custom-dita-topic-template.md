@@ -78,4 +78,4 @@ Para configurar una carpeta para las plantillas de temas DITA personalizadas, re
 
 Si la ubicación especificada existe en DAM, todas las plantillas predeterminadas de temas y asignaciones se copian en esa carpeta. Si la ubicación no existe, la carpeta se creará con todas las plantillas predeterminadas de asignación y tema.
 
-**Tema principal:**[ Configurar plantillas de temas y asignaciones](conf-template-tags.md)
+**Tema principal:**&#x200B;[&#x200B; Configurar plantillas de temas y asignaciones](conf-template-tags.md)

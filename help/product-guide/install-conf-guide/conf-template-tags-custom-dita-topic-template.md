@@ -99,4 +99,4 @@ Si la ubicación especificada existe en DAM, todas las plantillas predeterminada
 >[!ENDTABS]
 
 
-**Tema principal:**[ Configurar plantillas de temas y asignaciones](conf-template-tags.md)
+**Tema principal:**&#x200B;[&#x200B; Configurar plantillas de temas y asignaciones](conf-template-tags.md)

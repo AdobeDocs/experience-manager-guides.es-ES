@@ -38,4 +38,4 @@ Si planea actualizar la instancia de AEM, debe seguir la secuencia indicada:
 >
 > Existen varias recomendaciones de optimización del rendimiento que puede considerar para mejorar el rendimiento del sistema. Consulte [Recomendaciones para la optimización del rendimiento](download-install-recommend-perf-optimiz.md#) para obtener más información.
 
-**Tema principal:**[ Descargar e instalar](download-install.md)
+**Tema principal:**&#x200B;[&#x200B; Descargar e instalar](download-install.md)

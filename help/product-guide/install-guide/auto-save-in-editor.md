@@ -36,4 +36,4 @@ La función de guardado automático no está activada de forma predeterminada y 
 1. Haga clic en **Guardar**.
 
 
-**Tema principal:**[ Personalizar editor web](conf-web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)

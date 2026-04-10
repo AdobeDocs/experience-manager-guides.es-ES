@@ -500,4 +500,4 @@ Con el bloque `<config> </config>`, puede definir uno o varios bloques de config
 
 >[!ENDTABS]
 
-**Tema principal:**[ Migrar contenido existente](migrate-content.md)
+**Tema principal:**&#x200B;[&#x200B; Migrar contenido existente](migrate-content.md)

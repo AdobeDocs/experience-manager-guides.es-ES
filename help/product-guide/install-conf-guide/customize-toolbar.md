@@ -54,16 +54,16 @@ Las siguientes pestañas proporcionan instrucciones basadas en la configuración
    **elementos**:   Especifique la definición de todos los grupos en la barra de herramientas. Cada grupo puede contener uno o varios iconos de la barra de herramientas. Para definir iconos dentro de un grupo de barras de herramientas, debe definir de nuevo el atributo `type` dentro de `items` y establecer su valor en `buttonGroup`. Especifique uno o varios nombres de clase en la propiedad `extraclass`. Especifique el nombre de la característica en la propiedad `label`. El siguiente fragmento del archivo `ui_config.json` muestra la definición del bloque de barra de herramientas principal, seguida de la definición `buttonGroup`:
 
        &quot;
-       &quot;barra de herramientas&quot;: {
+       &quot;barra de herramientas&quot;: &lbrace;
        &quot;type&quot;: &quot;blockGroup&quot;,
        &quot;extraclass&quot;:
        &quot;operaciones de barra de herramientas&quot;,
-       &quot;elementos&quot;: [
-       {
+       &quot;elementos&quot;: &lbrack;
+       &lbrace;
        &quot;type&quot;: &quot;buttonGroup&quot;,
        &quot;extraclass&quot;: &quot;left-controls&quot;,
        &quot;label&quot;: &quot;Controles izquierdos&quot;,
-       &quot;elementos&quot;: [
+       &quot;elementos&quot;: &lbrack;
        &quot;
    
    En la colección `items`, debe especificar la definición de uno o más iconos de la barra de herramientas.
@@ -132,7 +132,7 @@ Las siguientes pestañas proporcionan instrucciones basadas en la configuración
 
 1. En el archivo `ui_config.json`, agregue la definición de la nueva característica en la sección de barras de herramientas. Normalmente, puede crear un nuevo grupo de botones de barra de herramientas y agregarle uno o más botones de barra de herramientas. O bien, puede agregar un nuevo botón de barra de herramientas dentro de un grupo existente. Se requieren los siguientes detalles para crear un nuevo grupo de barras de herramientas:
 
-   - **type:**Especifique `blockGroup` como el valor `type`. Este valor indica que está creando un grupo de bloques que contendría uno o más grupos de barras de herramientas.
+   - **type:**&#x200B;Especifique `blockGroup` como el valor `type`. Este valor indica que está creando un grupo de bloques que contendría uno o más grupos de barras de herramientas.
 
    - **extraclass:** Nombre de la clase o clases separadas por espacio.
 

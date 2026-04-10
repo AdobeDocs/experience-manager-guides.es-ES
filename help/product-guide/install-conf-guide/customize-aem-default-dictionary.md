@@ -61,4 +61,4 @@ Los autores necesitarían reiniciar su sesión del editor web para obtener la li
 
 >[!ENDTABS]
 
-**Tema principal:**[ Personalizar editor web](customize-overview.md)
+**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](customize-overview.md)

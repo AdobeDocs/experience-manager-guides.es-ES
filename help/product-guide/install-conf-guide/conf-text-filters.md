@@ -73,11 +73,11 @@ Las siguientes pestañas proporcionan instrucciones para configurar los filtros 
 
       En el fragmento de código anterior, el primer filtro es para archivos DITA. La definición del filtro toma los siguientes parámetros:
 
-      ****Título****: El nombre para mostrar del filtro. Este título aparece como la opción de filtrado en el cuadro de diálogo de exploración de archivos.
+      **&#x200B;**&#x200B;Título&#x200B;**&#x200B;**: El nombre para mostrar del filtro. Este título aparece como la opción de filtrado en el cuadro de diálogo de exploración de archivos.
 
-      ****Propiedad****: La propiedad que debe coincidir en los metadatos del archivo. Por ejemplo, para permitir solo los archivos que tienen los metadatos dita\_class en su propiedad, el filtro de propiedad toma &quot;jcr:content/metadata/dita\_class&quot; como su valor.
+      **&#x200B;**&#x200B;Propiedad&#x200B;**&#x200B;**: La propiedad que debe coincidir en los metadatos del archivo. Por ejemplo, para permitir solo los archivos que tienen los metadatos dita\_class en su propiedad, el filtro de propiedad toma &quot;jcr:content/metadata/dita\_class&quot; como su valor.
 
-      ****Operación **:**Especifique &quot;exists&quot; para que coincida con la existencia del valor especificado en el parámetro de propiedad
+      **&#x200B;**&#x200B;Operación **:**&#x200B;Especifique &quot;exists&quot; para que coincida con la existencia del valor especificado en el parámetro de propiedad
 
 1. Cargue el archivo ui\_config.json actualizado que contiene los filtros agregados.
 
@@ -165,4 +165,4 @@ Los filtros configurados están disponibles en el panel Filtros.
 
 >[!ENDTABS]
 
-**Tema principal:**[ Personalizar editor web](customize-overview.md)
+**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](customize-overview.md)

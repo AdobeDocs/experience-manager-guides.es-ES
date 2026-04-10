@@ -81,4 +81,4 @@ Puede definir varias definiciones de caracteres especiales dentro de una categor
 
 >[!ENDTABS]
 
-**Tema principal:**[ Personalizar editor web](customize-overview.md)
+**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](customize-overview.md)

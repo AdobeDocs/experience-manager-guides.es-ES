@@ -43,4 +43,4 @@ Para crear un sitio de AEM para publicar resultados basados en artículos, reali
 
 Puede utilizar el sitio de AEM para publicar el artículo mediante los ajustes preestablecidos de salida del Editor web.
 
-**Tema principal:**[ Personalizar editor web](conf-web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)
