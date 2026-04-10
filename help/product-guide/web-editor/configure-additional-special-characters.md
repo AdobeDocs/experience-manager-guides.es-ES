@@ -3,15 +3,15 @@ title: Configurar caracteres especiales adicionales en la barra de herramientas 
 description: Aprenda a configurar caracteres especiales adicionales en el editor web de AEM Guides.
 feature: Web Editor
 role: User
-exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
 
-# Cómo configurar caracteres especiales adicionales en la barra de herramientas del Editor Web
+# Cómo configurar caracteres especiales adicionales en la barra de herramientas del editor web para la instalación local
 
 Hay una opción de acceso directo en la barra de herramientas del editor web para permitir que el autor inserte ya los caracteres especiales.
 Lo mismo se puede ver en la siguiente captura de pantalla:
@@ -21,7 +21,7 @@ Lo mismo se puede ver en la siguiente captura de pantalla:
 
 Esta lista de caracteres se puede configurar aquí. Si necesita agregar más caracteres a esto, siga los siguientes pasos:
 
-+ AEM Inicie sesión en la aplicación y abra el modo CRXDE Lite.
++ Inicie sesión en AEM y abra el modo CRXDE Lite.
 
 + Cree el archivo symbol.json en la siguiente ubicación: &#39;/apps/fmdita/xmleditor/&#39; (puede copiar el archivo predeterminado desde la ubicación &#39;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&#39;)
 

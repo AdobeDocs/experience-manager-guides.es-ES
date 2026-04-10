@@ -5,7 +5,8 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: c790d5edd1ab799564aebfa96f4a41288c977a6c
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 Experience Manager Guides viene con la herramienta **Fuentes de datos** que le ayuda a configurar conectores predeterminados para fuentes de datos. Puede configurar los conectores de cliente JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), Adobe Commerce, Elasticsearch y REST genérico.
 
 
-Además de estos conectores predeterminados, Experience Manager Guides proporciona los conectores para las fuentes de datos de Salsify, Akeneo y Microsoft Azure DevOps Board (ADO). Puede descargar e instalar estos conectores de código abierto desde el [repositorio de Maven Central](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). A continuación, los usuarios pueden configurar estos conectores.
+Además de estos conectores predeterminados, Experience Manager Guides proporciona los conectores para las fuentes de datos de los paneles de desarrollo de Salsify, Akeneo y Microsoft Azure (ADO). Puede descargar e instalar estos conectores de código abierto desde el [repositorio de Maven Central](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). A continuación, los usuarios pueden configurar estos conectores.
 Aprenda a [instalar un conector de código abierto](#install-open-source-connector).
 
 
@@ -67,7 +68,7 @@ Para configurar un conector, realice los siguientes pasos:
 
 **Conectarse a varios recursos**
 
-Puede agregar o utilizar varios recursos basados en distintas direcciones URL para algunos conectores, como Cliente REST genérico, Salsify, Akeneo y Tableros de DevOps de Microsoft Azure (ADO). A continuación, conéctese con ellos para crear fragmentos de contenido o temas utilizando los generadores correspondientes.
+Puede agregar o utilizar varios recursos basados en distintas direcciones URL para algunos conectores, como Generic REST Client, Salsify, Akeneo y Microsoft Azure DevOps Boards (ADO). A continuación, conéctese con ellos para crear fragmentos de contenido o temas utilizando los generadores correspondientes.
 
 Siga estos pasos para crear un recurso:
 
@@ -85,7 +86,7 @@ Esto le permite recuperar rápidamente datos de cualquiera de los recursos de un
 
 Para publicar una dependencia presente en el [repositorio de Maven Central](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) en Cloud Services, debe incluir e incrustar la dependencia para un conector de código abierto.
 
-1. Agregue la dependencia en `all/pom.xml` en su código de proyecto Git de Cloud Manager. Por ejemplo, puede agregar la siguiente dependencia para el conector de fuente de datos de los paneles de DevOps de Microsoft Azure.
+1. Agregue la dependencia en `all/pom.xml` en su código de proyecto Git de Cloud Manager. Por ejemplo, puede agregar la siguiente dependencia para el conector de fuente de datos de los paneles de desarrollo de Azure de Microsoft.
 
 
    ```

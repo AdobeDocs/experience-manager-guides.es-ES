@@ -5,7 +5,8 @@ exl-id: 1269a652-5261-413d-9ea0-b4f75003e9d8
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 10%
@@ -18,13 +19,13 @@ Para acceder y configurar las funciones de AEM Guides, debe crear usuarios. A es
 
 Los siguientes temas de la documentación de AEM le ayudarán a comprender la administración de usuarios y los conceptos y características relacionados con la seguridad:
 
-- [Usuarios y grupos en AEM](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
+- [Usuarios y grupos en AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
-- [Permisos en AEM](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
+- [Permisos en AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
-- [Administrar usuarios y grupos](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
+- [Administrar usuarios y grupos](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
-- [Administrar permisos](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
+- [Administrar permisos](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
 
 
 ## Grupos de usuarios creados por AEM Guides {#id181TF0K0MHT}

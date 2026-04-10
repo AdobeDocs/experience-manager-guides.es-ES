@@ -5,7 +5,8 @@ exl-id: 5b09ec46-aea4-4a3f-8bab-42414e31e37d
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 1%
@@ -24,6 +25,6 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 
 Cuando esta configuración está habilitada, la casilla de verificación **Desbloquear el archivo** está seleccionada de forma predeterminada en el cuadro de diálogo.
 
-Para obtener más información, consulte la sección *Cerrar archivo y guardar escenarios* en la guía as a Cloud Service sobre el uso de Adobe Experience Manager Guides.
+Para obtener más información, consulte la sección *Cerrar archivo y guardar escenarios* en la guía Usar Adobe Experience Manager Guides as a Cloud Service.
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)
+**Tema principal:**[ Personalizar editor web](conf-web-editor.md)

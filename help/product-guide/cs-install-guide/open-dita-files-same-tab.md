@@ -5,7 +5,8 @@ exl-id: 466cbea4-c75a-488e-bde2-465cf2c184d5
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
@@ -35,4 +36,4 @@ Esta configuración afecta a los siguientes lugares desde donde puede acceder a 
 - Pestaña Informes de la consola de mapas DITA
 
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)
+**Tema principal:**[ Personalizar editor web](conf-web-editor.md)

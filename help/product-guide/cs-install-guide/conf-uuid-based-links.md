@@ -5,7 +5,8 @@ exl-id: 2ae6a27f-983b-4aa0-be29-166899aeb4ff
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 1%
@@ -22,4 +23,4 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.uuid` | Boolean \(true/false\). Si desea mostrar la ruta relativa del contenido vinculado, establezca esta propiedad en false. <br> **Valor predeterminado**: true |
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)
+**Tema principal:**[ Personalizar editor web](conf-web-editor.md)

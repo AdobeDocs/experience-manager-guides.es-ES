@@ -5,7 +5,8 @@ exl-id: 1b8c3eaa-a654-4563-9541-18a59b7d306c
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -35,6 +36,6 @@ La casilla de verificación **Guardar como nueva versión** no está habilitada 
 
 Cuando se selecciona esta opción, la casilla de verificación **Guardar como nueva versión** está seleccionada de forma predeterminada en el cuadro de diálogo.
 
-Para obtener más información, consulte la sección *Cerrar archivo y guardar escenarios* en la guía as a Cloud Service sobre el uso de Adobe Experience Manager Guides.
+Para obtener más información, consulte la sección *Cerrar archivo y guardar escenarios* en la guía Usar Adobe Experience Manager Guides as a Cloud Service.
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)
+**Tema principal:**[ Personalizar editor web](conf-web-editor.md)

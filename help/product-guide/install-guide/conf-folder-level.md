@@ -5,7 +5,8 @@ exl-id: d7bf7e69-fe12-4c48-8ce4-17b74a6c61e7
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '3896'
 ht-degree: 0%
@@ -52,13 +53,13 @@ Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede est
 
   Junto con las plantillas de temas, también puede definir las plantillas de mapas que estarán disponibles para los autores. Las siguientes plantillas de mapas están disponibles de forma predeterminada:
 
-   - Asignar
+   - Mapa
 
    - Bookmap
 
 - **Ajuste preestablecido de salida**: de forma similar a las plantillas de creación, hay cinco ajustes preconfigurados de salida:
 
-   - AEM Sitio web de
+   - Sitio de AEM
 
    - PDF
 
@@ -363,7 +364,7 @@ Realice los siguientes pasos para configurar los ajustes preestablecidos de sali
 
 1. En la página de perfil. haga clic en la ficha **Valores de salida**.
 
-   AEM Se muestra una lista de ajustes preestablecidos de salida listos para usar, que incluyen Sitio, PDF, HTML 5, EPUB y PERSONALIZADO, entre otros,.
+   Se muestra una lista de ajustes preestablecidos de salida predeterminados, que incluyen AEM Site, PDF, HTML5, EPUB y CUSTOM.
 
 1. Realice una de las siguientes acciones para crear o editar un ajuste preestablecido de salida:
 
@@ -399,7 +400,7 @@ Si ha actualizado un ajuste preestablecido de salida existente o desea que un nu
 
 1. En la página de perfil. haga clic en la ficha **Valores de salida**.
 
-   AEM Se muestra una lista de ajustes preestablecidos de salida listos para usar, que incluyen Sitio, PDF, HTML 5, EPUB y PERSONALIZADO, entre otros,.
+   Se muestra una lista de ajustes preestablecidos de salida predeterminados, que incluyen AEM Site, PDF, HTML5, EPUB y CUSTOM.
 
 1. Seleccione el ajuste preestablecido de salida que desee aplicar a las asignaciones DITA existentes.
 

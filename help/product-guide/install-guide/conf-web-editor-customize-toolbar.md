@@ -5,7 +5,8 @@ exl-id: 14a82c7e-5c07-43a8-bd9e-b221d80f6d05
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 5778ed2855287d1010728e689abbe6020ad56574
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 0%
@@ -18,7 +19,7 @@ De forma predeterminada, el editor web incluye las funciones editoriales más co
 
 >[!NOTE]
 >
-> Al migrar de la IU antigua a la nueva IU de AEM Guides (aplicable a partir de las versiones 2502 y 5.0 de AEM Guides), las actualizaciones de `ui_config` deben convertirse a configuraciones de IU más flexibles y modulares. Este marco de trabajo ayuda a adoptar cambios sin problemas en la barra de herramientas del editor y en otros widgets de destino según corresponda. Para obtener más información, vea [Información general sobre Convert UI Config](https://experienceleague.adobe.com/es/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Al migrar de la IU antigua a la nueva IU de AEM Guides (aplicable a partir de las versiones 2502 y 5.0 de AEM Guides), las actualizaciones de `ui_config` deben convertirse a configuraciones de IU más flexibles y modulares. Este marco de trabajo ayuda a adoptar cambios sin problemas en la barra de herramientas del editor y en otros widgets de destino según corresponda. Para obtener más información, vea [Información general sobre Convert UI Config](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Existen dos formas de personalizar la barra de herramientas del Editor Web:
 
@@ -49,7 +50,7 @@ Siga estos pasos para agregar una función a la barra de herramientas del Editor
 
 1. En el archivo `ui_config.json`, agregue la definición de la nueva característica en la sección de barras de herramientas. Normalmente, puede crear un nuevo grupo de botones de barra de herramientas y agregarle uno o más botones de barra de herramientas. O bien, puede agregar un nuevo botón de barra de herramientas dentro de un grupo existente. Se requieren los siguientes detalles para crear un nuevo grupo de barras de herramientas:
 
-   - **type:**&#x200B;Especifique `blockGroup` como el valor `type`. Este valor indica que está creando un grupo de bloques que contendría uno o más grupos de barras de herramientas.
+   - **type:**Especifique `blockGroup` como el valor `type`. Este valor indica que está creando un grupo de bloques que contendría uno o más grupos de barras de herramientas.
 
    - **extraclass:** Nombre de la clase o clases separadas por espacio.
 
@@ -240,4 +241,4 @@ El archivo `ui_config.json` tiene tres secciones:
 1. Guarde el archivo *ui\_config.json* y vuelva a cargar el Editor web.
 
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)
+**Tema principal:**[ Personalizar editor web](conf-web-editor.md)

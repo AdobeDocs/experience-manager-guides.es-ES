@@ -5,7 +5,8 @@ exl-id: 4d3e0fc1-b684-44f9-ab0d-411033024019
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '1700'
 ht-degree: 0%

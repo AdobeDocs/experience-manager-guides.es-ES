@@ -5,7 +5,8 @@ exl-id: 24e44618-9c4e-4547-a00d-216ef3fb4854
 feature: Version Management
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 0%
@@ -42,7 +43,7 @@ Para crear una nueva versión del archivo cargado, realice los siguientes pasos:
 
    Esta opción está desactivada de forma predeterminada.
 
-   Cuando se selecciona la opción, se produce un nuevo mecanismo de administración de versiones que anula el comportamiento de carga predeterminado para cualquier carga posterior, y guarda el contenido del archivo cargado como una nueva versión. Si la opción no está seleccionada, AEM Guides AEM utiliza el mecanismo de administración de versiones predeterminado del.
+   Cuando se selecciona la opción, se produce un nuevo mecanismo de administración de versiones que anula el comportamiento de carga predeterminado para cualquier carga posterior, y guarda el contenido del archivo cargado como una nueva versión. Si la opción no está seleccionada, AEM Guides utiliza el mecanismo de administración de versiones predeterminado de AEM.
 
 1. Haga clic en **Guardar**.
 
@@ -152,7 +153,7 @@ Además de la nueva propiedad index, asegúrese de que las siguientes propiedade
 
 ## Impedir la eliminación de archivos referenciados
 
-AEM Como administrador, puede controlar quién puede eliminar archivos del repositorio de la. Específicamente, si un archivo contiene referencias o si otro archivo hace referencia a él, puede definir quién puede eliminar dichos archivos.
+Como administrador, puede controlar quién puede eliminar archivos del repositorio de AEM. Específicamente, si un archivo contiene referencias o si otro archivo hace referencia a él, puede definir quién puede eliminar dichos archivos.
 
 Con esta configuración, puede permitir o impedir que todos los usuarios eliminen archivos, o permitir que solo un grupo de usuarios específico elimine archivos. Si se permite la eliminación de archivos, se sigue el siguiente proceso:
 
@@ -212,7 +213,7 @@ Siga estos pasos para purgar las versiones anteriores:
 
    ![](assets/preview-purge-report.png){width="350" align="left"}
 
-1. &#x200B;
+1. 
    - **Número de versiones que se deben conservar de la última versión**: escriba el número de versiones que se deben conservar y no purgar. Por ejemplo, si se introduce 5, se conservan las últimas 5 versiones y las versiones anteriores a ellas pueden depurarse en caso de que se cumplan otras condiciones de depuración.
 - **Conservar versiones creadas dentro del intervalo de tiempo \(en días\)**: escriba la antigüedad máxima de una versión en días. Las versiones anteriores al número determinado de días pueden depurarse si se cumplen otras condiciones de depuración. Por ejemplo, si se introduce 100, todas las versiones creadas antes de 100 días cumplen los requisitos para ser depuradas en caso de que se cumplan otras condiciones de depuración.
 - **Ruta**: seleccione la ruta de acceso del archivo o carpeta cuyos archivos desea purgar.

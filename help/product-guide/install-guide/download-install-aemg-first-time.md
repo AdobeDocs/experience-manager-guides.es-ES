@@ -5,7 +5,8 @@ exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: dbcc625220c9ad1fa60942b2f43c38d3d6778541
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -26,13 +27,13 @@ Realice los siguientes pasos para descargar e instalar AEM Guides por primera ve
    >
    >Antes de instalar Experience Manager Guides, asegúrese de que su sistema cumpla [los requisitos técnicos](../install-guide/download-install-technical-requirements.md).
 
-1. AEM Inicie sesión en la instancia de y vaya al Administrador de paquetes de CRX. La URL predeterminada para acceder al administrador de paquetes es:
+1. Inicie sesión en la instancia de AEM y vaya al Administrador de paquetes de CRX. La URL predeterminada para acceder al administrador de paquetes es:
 
    ```http
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   AEM El Administrador de paquetes administra los paquetes en la instalación local de la. AEM Para obtener más información acerca de cómo trabajar con el Administrador de paquetes, vea [Cómo trabajar con paquetes](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/package-manager.html) en la documentación de la documentación de la aplicación de paquetes de.
+   El Administrador de paquetes administra los paquetes en la instalación local de AEM. Para obtener más información sobre cómo trabajar con el Administrador de paquetes, consulte [Cómo trabajar con paquetes](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) en la documentación de AEM.
 
    ![](assets/package-manager.png){width="650" align="left"}
 
@@ -40,7 +41,7 @@ Realice los siguientes pasos para descargar e instalar AEM Guides por primera ve
 
 1. En el cuadro de diálogo Cargar paquete, vaya al archivo AEM Guides que descargó en el paso 1 y haga clic en **Aceptar**.
 
-   AEM El paquete se cargará en la instancia de la.
+   El paquete se carga en la instancia de AEM.
 
 1. Para instalar el paquete, haz clic en **Instalar**.
 
@@ -53,6 +54,6 @@ Realice los siguientes pasos para descargar e instalar AEM Guides por primera ve
 
 >[!NOTE]
 >
-> AEM Realice el procedimiento de instalación en todas las instancias de los servidores de la instalación de la aplicación de.
+> Realice el procedimiento de instalación en todas las instancias de servidores de AEM de la instalación.
 
-**Tema principal:**&#x200B;[&#x200B; Descargar e instalar](download-install.md)
+**Tema principal:**[ Descargar e instalar](download-install.md)

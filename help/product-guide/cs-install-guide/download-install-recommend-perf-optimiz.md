@@ -1,22 +1,23 @@
 ---
-title: Recommendations para la optimización del rendimiento
-description: Conozca Recommendations para optimizar el rendimiento
+title: Recomendaciones para la optimización del rendimiento
+description: Conozca Recommendations para la optimización del rendimiento
 exl-id: 92ac1f81-2f51-44b0-82c3-56b39e8f3027
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
 
 ---
 
-# Recommendations para la optimización del rendimiento {#id213BD0JG0XA}
+# Recomendaciones para la optimización del rendimiento {#id213BD0JG0XA}
 
 Para optimizar el rendimiento, tenga en cuenta los siguientes puntos:
 
-- AEM Para optimizar el contenido y la experiencia de indexación, consulte [Optimizar la búsqueda e indexación de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=es) en la documentación de la aplicación de la búsqueda de contenido.
+- Para optimizar el contenido y la experiencia de indexación, consulte [Optimizar la búsqueda e indexación de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=es) en la documentación de AEM.
 
 - Parche Xerces Jar mientras utiliza DITA-OT personalizado para la publicación. Esta es una configuración obligatoria, según el caso de uso. Este cambio sólo es necesario si utiliza DITA-OT personalizado para publicar resultados.
 
@@ -25,4 +26,4 @@ Para optimizar el rendimiento, tenga en cuenta los siguientes puntos:
   Este cambio reduce el tiempo de publicación y el uso de memoria al publicar asignaciones DITA con un gran número de temas.
 
 
-**Tema principal:**&#x200B;[&#x200B; Descargar e instalar](download-install.md)
+**Tema principal:**[ Descargar e instalar](download-install.md)

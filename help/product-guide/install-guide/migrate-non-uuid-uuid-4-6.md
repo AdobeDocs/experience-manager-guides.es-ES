@@ -4,7 +4,9 @@ description: Obtenga información sobre cómo migrar contenido que no es UUID a 
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 56f1bd81e74ad9b479b2dcbcf04e1ee82e9a9041
+exl-id: f17a2e02-62de-4ed6-8d1f-4c72e7488437
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 1%
@@ -219,5 +221,4 @@ Además, se puede acceder a una lista de **archivos actualizados con errores** y
    > Si antes de la migración, la propiedad **Use el título para los nombres de página del sitio AEM** dentro de `com.adobe.fmdita.config.ConfigManager`, se establece en *False*, después de la migración esta propiedad deberá actualizarse.
 
 
-1. Una vez completada la validación, se puede recuperar la mayor parte del espacio en disco ejecutando la compactación (consulte `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=es`).
-
+1. Una vez completada la validación, se puede recuperar la mayor parte del espacio en disco ejecutando la compactación (consulte `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).

@@ -5,7 +5,8 @@ exl-id: 90d5ad94-eb68-4d73-9b23-a1f3d4b802ba
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # Acerca de esta guía {#id175MC0P0S5Z}
 
-Adobe Experience Manager Guides \(más adelante denominado *AEM Guides*\) es una potente solución de administración de contenido de componentes de nivel empresarial \(CCMS\). Permite la compatibilidad nativa con DITA en Adobe Experience Manager AEM, lo que permite a los gestionar la creación y la entrega de contenido basado en DITA. Permite a los autores crear contenido con cualquier herramienta de creación DITA sin conexión, como Adobe FrameMaker o un editor web integrado fácil de usar.
+Adobe Experience Manager Guides \(más adelante denominado *AEM Guides*\) es una potente solución de administración de contenido de componentes de nivel empresarial \(CCMS\). Permite la compatibilidad nativa con DITA en Adobe Experience Manager, lo que permite a AEM gestionar la creación y la entrega de contenido basado en DITA. Permite a los autores crear contenido con cualquier herramienta de creación DITA sin conexión, como Adobe FrameMaker o un editor web integrado fácil de usar.
 
 Esta guía proporciona instrucciones para descargar, instalar y configurar AEM Guides. En esta guía, encontrará instrucciones detalladas para configurar AEM Guides según sus necesidades de creación y publicación en la organización.
 
@@ -33,17 +34,17 @@ La información de esta guía está organizada de la siguiente manera:
 
 - [Descargar e instalar](download-install.md#): En este tema se describe cómo descargar, instalar o actualizar AEM Guides.
 
-- AEM [Administración y seguridad de usuarios](user-admin-sec.md#): En este tema se describe el concepto básico de usuarios y autenticación en los grupos de usuarios predeterminados y los grupos de usuarios creados por AEM Guides en los grupos de usuarios predeterminados de los que se crea la aplicación.
+- [Administración y seguridad de usuarios](user-admin-sec.md#): En este tema se describe el concepto básico de usuarios y autenticación en AEM, así como los grupos de usuarios predeterminados creados por AEM Guides.
 
 - [Usar la especialización DITA-OT y DITA personalizada](dita-ot-specialization.md#): en este tema se explica cómo configurar complementos DITA-OT personalizados y utilizar la especialización DITA.
 
 - [Configurar estados de documentos](customize-doc-state.md#): en este tema se explica cómo configurar estados personalizados para los documentos DITA.
 
-- AEM [Migrar contenido existente](migrate-content.md#): En este tema se describe cómo incorporar el contenido existente en el repositorio de la aplicación de la aplicación de la aplicación de la aplicación de la aplicación de la aplicación de seguridad de datos de usuario de la plataforma de almacenamiento de datos.
+- [Migrar contenido existente](migrate-content.md#): en este tema se describe cómo incorporar el contenido existente en el repositorio de AEM.
 
 - [Configurar nombres de archivo](conf-file-names.md#): En este tema se explica cómo configurar la opción para asignar automáticamente nombres de archivo y definir la regex para los caracteres de nombre de archivo válidos.
 
-- [Configurar plantillas de temas y asignaciones](conf-template-tags.md#): En este tema se describe cómo configurar plantillas de temas y asignaciones para satisfacer sus necesidades de creación. AEM Obtenga información sobre el sistema de etiquetado en las etiquetas y cómo configurarlas para que funcionen con AEM Guides.
+- [Configurar plantillas de temas y asignaciones](conf-template-tags.md#): En este tema se describe cómo configurar plantillas de temas y asignaciones para satisfacer sus necesidades de creación. Obtenga información sobre el sistema de etiquetado en AEM y cómo configurar las etiquetas para que funcionen con AEM Guides.
 
 - [Personalizar editor web](conf-web-editor.md#): En este tema se explican las distintas personalizaciones que puede realizar en el editor web para mejorar su funcionalidad.
 
@@ -61,16 +62,16 @@ La información de esta guía está organizada de la siguiente manera:
 
 - [Configurar y personalizar flujos de trabajo](customize-workflows.md#): En este tema se describen las distintas configuraciones para personalizar los flujos de trabajo predeterminados enviados en AEM Guides.
 
-- AEM [Traducir contenido](translation.md#): En este tema se proporcionan vínculos a los artículos de ayuda relevantes de la documentación de la traducción para ayudarle a comprender y configurar el marco de trabajo de traducción. Además, aprenda a habilitar el flujo de trabajo de traducción basado en componentes.
+- [Traducir contenido](translation.md#): En este tema se proporcionan vínculos a los artículos de ayuda relevantes de la documentación de AEM para ayudarle a comprender y configurar el marco de trabajo de traducción. Además, aprenda a habilitar el flujo de trabajo de traducción basado en componentes.
 
-- [Configurar la búsqueda para la interfaz de usuario de AEM Assets](conf-dita-search.md#): en este tema se describe cómo configurar la búsqueda de contenido DITA en la interfaz de usuario de Assets y cómo agregar los atributos personalizados en la búsqueda.
+- [Configuración de la búsqueda para la interfaz de usuario de AEM Assets](conf-dita-search.md#): en este tema se describe cómo configurar la búsqueda de contenido DITA en la interfaz de usuario de Assets y cómo agregar los atributos personalizados en la búsqueda.
 
 
 ## Recursos adicionales
 
-A continuación se muestra una lista de otros recursos útiles de AEM Guides, que están disponibles en la página [Aprendizaje y asistencia](https://helpx.adobe.com/es/support/xml-documentation-for-experience-manager.html):
+A continuación se muestra una lista de otros recursos útiles de AEM Guides, que están disponibles en la página [Aprendizaje y asistencia](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
 
 - Guía del usuario
 - Guía de referencia de API
 - Guía de inicio rápido
-- [Página de archivo de ayuda](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/archive.html) \(acceder a la documentación de la versión anterior\)
+- [Página de archivo de ayuda](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(acceder a la documentación de la versión anterior\)

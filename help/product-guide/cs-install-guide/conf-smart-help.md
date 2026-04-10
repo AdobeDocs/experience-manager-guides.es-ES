@@ -1,17 +1,18 @@
 ---
 title: Configurar la Ayuda inteligente para buscar contenido
 description: Obtenga información sobre cómo configurar la Ayuda inteligente para buscar contenido
-source-git-commit: 48f7b38448e821a7ad5931a685dedc95303aea95
+exl-id: b5836c02-027e-459a-a7f0-f7d631f999dc
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 0%
 
 ---
 
-
 # Configurar la ayuda inteligente con tecnología de IA para buscar contenido
 
-Como administrador, puede configurar la función de Ayuda inteligente para los autores. El servicio de ayuda inteligente está protegido por la autenticación basada en autenticación IMS de Adobe. Integre su entorno con los flujos de trabajo de autenticación seguros basados en tokens de Adobe y comience a utilizar la nueva función de ayuda inteligente. Las siguientes configuraciones le ayudan a agregar la ficha **Configuración de IA** a un perfil de carpeta. Una vez agregada, puede utilizar la característica Ayuda inteligente del Editor Web.
+Como administrador, puede configurar la función de Ayuda inteligente para los autores. El servicio de ayuda inteligente está protegido por la autenticación basada en autenticación IMS de Adobe. Integre su entorno con los flujos de trabajo de autenticación seguros basados en tokens de Adobe y comience a utilizar la nueva función de Ayuda inteligente. Las siguientes configuraciones le ayudan a agregar la ficha **Configuración de IA** a un perfil de carpeta. Una vez agregada, puede utilizar la característica Ayuda inteligente del Editor Web.
 
 ## Creación de configuraciones de IMS en Adobe Developer Console
 
@@ -63,7 +64,7 @@ Ha configurado los detalles de autenticación de OAuth y descargado los detalles
 
 Siga estos pasos para agregar la configuración de IMS al entorno:
 
-1. Abra Experience Manager y seleccione el programa que contiene el entorno que desea configurar.
+1. Abra Experience Manager y, a continuación, seleccione el programa que contiene el entorno que desea configurar.
 1. Cambie a la ficha **Entornos**.
 1. Seleccione el nombre del entorno que desea configurar. Esto lo llevará a la página **Información del entorno**.
 1. Cambie a la ficha **Configuración**.
@@ -106,4 +107,4 @@ Una vez hecho esto, debería poder usar la característica **Ayuda inteligente**
 
 
 Una vez configurada, el icono de **Ayuda inteligente** ![Ayuda inteligente](assets/smart-help-icon.svg) se muestra en el panel derecho del editor web. Seleccione el icono para ver el panel **Ayuda inteligente**.
-Para obtener más información, consulte la sección [Ayuda inteligente con tecnología de IA para buscar contenido](../user-guide/ai-based-smart-help.md) en la Guía del usuario del Experience Manager.
+Para obtener más información, consulte la sección [Ayuda inteligente con tecnología de IA para buscar contenido](../user-guide/ai-based-smart-help.md) en la Guía del usuario de Experience Manager.

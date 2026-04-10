@@ -5,9 +5,10 @@ exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: e8aecbdca448c321ac36804255416a4fb2561f79
+hidefromtoc: true
+source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
 workflow-type: tm+mt
-source-wordcount: '5017'
+source-wordcount: '5016'
 ht-degree: 0%
 
 ---
@@ -100,7 +101,7 @@ Al diseñar un diseño de página, es esencial tener control sobre las distintas
 
 * **Rotación de vista** : especifique el lado o la dirección en que se representa el lado superior original después de la rotación. Puede elegir entre 90 en sentido horario, 90 en sentido antihorario o 180 en sentido antihorario. Esto resulta muy útil en una situación en la que desea utilizar una combinación de diseños Vertical y Horizontal en la salida. Por ejemplo, puede utilizar vertical como diseño de página genérico y establecer un diseño de página horizontal para representar tablas anchas. En ese caso, puede configurar para que muestre el contenido de la tabla en el sentido de las agujas del reloj 90 grados. De esta forma, la página estará orientada en horizontal y el contenido rotará 90 grados para mantener la continuidad a la vista. Veremos cómo se logra esto como ejemplo más adelante en esta sección.
 
-* **Numeración de páginas**: La numeración de páginas, de forma predeterminada, es continua en un PDF. Por ejemplo, una PDF de 100 páginas podría tener números de página continuos de 1 a 100. También puede reiniciar la numeración desde un número específico en todas las secciones diferentes o desde la primera aparición de una sección.
+* **Numeración de páginas** :The La numeración de páginas es, de manera predeterminada, continua en PDF. Por ejemplo, una PDF de 100 páginas podría tener números de página continuos de 1 a 100. También puede reiniciar la numeración desde un número específico en todas las secciones diferentes o desde la primera aparición de una sección.
    * **Reiniciar desde** : especifique el número de página desde el que se iniciará la numeración para este diseño de página. Por ejemplo, puede establecer el número de página para que se reinicie cada capítulo. En ese caso, debe establecer la propiedad restart from en 1 en la variante First page layout del diseño de página del capítulo. De forma predeterminada, la numeración de páginas continúa desde la página anterior.
 
    * **Aplicar solo a la primera incidencia**: También puede comenzar desde un número específico solo para la primera incidencia de una sección. Por ejemplo, puede comenzar solamente el primer capítulo desde 1 y continuar con los números de página de otros capítulos.
@@ -165,7 +166,6 @@ Siga estos pasos para realizar las tareas anteriores:
 1. Cambie la propiedad Ver rotación para representar el contenido en 90° en el sentido de las agujas del reloj.
 
    1. Seleccione **90°** a la derecha del reloj en la lista desplegable Ver rotación.
-
    <img src="./assets/view-rotation-page-props.png" width="300">
 
    1. Haga clic en **Guardar todo** para guardar las propiedades actualizadas del diseño de página.
@@ -180,11 +180,9 @@ Siga estos pasos para realizar las tareas anteriores:
       La hoja de estilos Diseño se abre para editarla.
 
    1. Haz clic con el botón derecho en **Otros estilos** y elige **Nuevo estilo**.
-
       <img src="./assets/stylesheet-other-new-style.png" width="300">
 
    1. En la ventana emergente Agregar estilo, escriba **landscape-style** en **classname**.
-
       <img src="./assets/stylesheet-new-landscape-style.png" width="400">
 
    1. Haga clic en **Listo**.
@@ -440,7 +438,6 @@ En el siguiente ejemplo, insertaremos un número de página y un título de cap�
    1. En el panel derecho, haga clic en **Propiedades del contenido** (<img src="./assets/content-properties-icon.png" width="25">).
 
    1. Expanda la sección de propiedades **Diseño** y establezca el valor de la propiedad **Flotante** en **derecho**.
-
       <img src="./assets/float-prop-html-content.png" width="400">
 
       El campo Título del capítulo se alinea a la derecha del pie de página.

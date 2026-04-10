@@ -5,7 +5,8 @@ exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '4702'
 ht-degree: 0%
@@ -459,11 +460,11 @@ Por ejemplo, puede agregar una variable de idioma &quot;reference-label&quot; y 
 Cuando agrega `${lng:<variable name>}` a la sección Párrafo, las referencias cruzadas de los párrafos de la salida contienen el texto localizado y el número de página.\
 Por ejemplo, las siguientes capturas de pantalla muestran las referencias cruzadas &quot;Ver en la página 1&quot; en inglés y &quot;Einzelheiten finden Sie auf der Seite 1&quot; en alemán.
 
-<img src="./assets/english-output-corss-reference.png" alt="Resultado en inglés de una referencia cruzada en un párrafo&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Resultado en inglés de una referencia cruzada en un párrafo" width ="800" border="2px">
 
 *Referencia cruzada dentro de un párrafo cuando se publica en inglés.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Resultado alemán de una referencia cruzada en un párrafo&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="Resultado alemán de una referencia cruzada en un párrafo" width ="800" border="2px">
 
 
 *Referencia cruzada dentro de un párrafo cuando se publica en alemán.*

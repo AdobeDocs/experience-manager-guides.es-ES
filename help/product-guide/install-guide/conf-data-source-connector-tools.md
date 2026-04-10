@@ -5,7 +5,8 @@ exl-id: 2a0ac0a0-b2a9-453e-851b-fb04c8903526
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 1eb4fcb33d6f905df3f543232e7040d1da42560b
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -28,7 +29,7 @@ Para configurar un conector, realice los siguientes pasos:
 
    *Ver o crear un conector de origen de datos.*
 1. Haga clic en **Crear**.
-1. Seleccione la base de datos para la que desea crear el conector. Por ejemplo, el conector del Elasticsearch.
+1. Seleccione la base de datos para la que desea crear el conector. Por ejemplo, el conector de Elasticsearch.
    >[!NOTE]
    >
    >Se muestran todas las bases de datos listas para usar disponibles.
@@ -38,7 +39,7 @@ Para configurar un conector, realice los siguientes pasos:
 
    >[!TIP]
    >* Pase el ratón sobre <img src="./assets/info-details.svg" alt= "icono de información" width="25"> cerca del campo para ver más detalles al respecto.
-   > * Los campos con * son obligatorios. Por ejemplo, puede introducir los siguientes detalles para el conector del Elasticsearch.
+   > * Los campos con * son obligatorios. Por ejemplo, puede introducir los siguientes detalles para el conector de Elasticsearch.
 
    * **Nombre**: escriba el nombre del origen de datos.
    * Tipo de autenticación: seleccione el tipo de autenticación de la lista desplegable. Por ejemplo, Autenticación básica de nombre de usuario y contraseña

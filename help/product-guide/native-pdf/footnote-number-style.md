@@ -1,11 +1,12 @@
 ---
-title: Función nativa de PDF Publish | Usar estilos personalizados en las notas al pie
+title: Función de publicación nativa de PDF | Uso de estilos personalizados en notas al pie
 description: Aprenda a aplicar estilo a los números de las notas al pie.
 exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -24,7 +25,7 @@ Cada nota al pie tiene un marcador de nota al pie en la parte inferior de la pá
 
 ## Cambiar los estilos de las llamadas y marcadores de notas al pie
 
-Puede cambiar los estilos de las llamadas y los marcadores de notas al pie y administrar su aspecto en la salida del PDF. Estos estilos le ayudan a identificar rápidamente las notas al pie en el documento.
+Puede cambiar los estilos de las llamadas y los marcadores de notas al pie y administrar su aspecto en la salida de PDF. Estos estilos le ayudan a identificar rápidamente las notas al pie en el documento.
 
 
 **Ejemplo 1**:
@@ -49,7 +50,7 @@ content: "(" counter(footnote, decimal) ")";
 
 
 
-<img src="./assets/pdf-output-footer-numbers.png" alt="Pie de página en salida de PDF" width="500" border="2px">
+<img src="./assets/pdf-output-footer-numbers.png" alt="Pie de página en la salida PDF" width="500" border="2px">
 
 *Agregue corchetes a la llamada de nota al pie y al marcador de nota al pie.*
 
@@ -69,7 +70,7 @@ También puede marcar la llamada de nota al pie y el marcador con un asterisco o
 
 En la salida, puede ver algo así como:
 
-<img src="./assets/footnote-number-2.png" alt="Pie de página en salida de PDF" width="500" border="2px">
+<img src="./assets/footnote-number-2.png" alt="Pie de página en la salida PDF" width="500" border="2px">
 
 *Agregar asterisco a una llamada y marcador de nota al pie.*
 
@@ -80,7 +81,7 @@ La llamada de nota al pie está oculta en el contenido principal, pero el marcad
 
 ```css
 .fn[id]::footnote-call {
-		display: none;
+        display: none;
                         }
 ```
 
@@ -100,13 +101,13 @@ Obtenga información sobre cómo [trabajar con las propiedades de página de un 
 Puede aplicar estilos y dar formato al área de notas al pie en un documento de PDF. Por ejemplo, puede cambiar la longitud, el estilo, el color y el ancho del borde.
 
 ```css
-	@page {
-	  @footnote {
-   		border-top-style: solid;
-   		border-top-color: #FF0000;
-   		border-top-width: 3px;
- 		        }
-	      }
+   @page {
+     @footnote {
+           border-top-style: solid;
+           border-top-color: #FF0000;
+           border-top-width: 3px;
+                 }
+         }
 ```
 
 ## Reiniciar la numeración de las notas al pie
@@ -120,7 +121,7 @@ Puede especificar un número en los diseños de página para reiniciar la numera
 
 ### Estilos CSS
 
-Utilice el siguiente estilo para restablecer la numeración de las notas al pie en cada página de la salida del PDF:
+Utilice el siguiente estilo para restablecer la numeración de las notas al pie en cada página de la salida de PDF:
 
 ```css
 @page
@@ -137,15 +138,15 @@ Normalmente, cada nota al pie aparece como un bloque o comienza en una nueva lí
 
 ```css
 .fn{
-  	display: inline;
+      display: inline;
               }
 ```
 
 ## Aplicar estilos a las referencias cruzadas de notas al pie
 
-También puede hacer referencias cruzadas a una nota al pie y hacer referencia a la misma nota varias veces en la salida del PDF. Esto le ayuda a referirse a la misma cita o nota detallada varias veces en el documento sin volver a crear una nota al pie para ella.
+También puede hacer referencias cruzadas a una nota al pie y hacer referencia a la misma nota varias veces en la salida de PDF. Esto le ayuda a referirse a la misma cita o nota detallada varias veces en el documento sin volver a crear una nota al pie para ella.
 
-Por ejemplo, la siguiente captura de pantalla muestra cómo se hace referencia a la misma nota al pie en todas las ciudades de la salida del PDF.
+Por ejemplo, la siguiente captura de pantalla muestra cómo se hace referencia al mismo pie de página en todas las ciudades de la salida de PDF.
 <img width="550" alt="referencias de nota al pie en un pdf" src="./assets/link-footnotes.png" border="2px">
 
 *Insertar la referencia cruzada a una nota al pie.*
@@ -158,8 +159,8 @@ Con los estilos CSS, también puede dar formato a las referencias cruzadas en no
 
 ```css
     .xref-fn{
-	background-color: red;
-	}
+    background-color: red;
+    }
 ```
 
 

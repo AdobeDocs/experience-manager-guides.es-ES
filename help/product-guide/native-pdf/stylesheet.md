@@ -1,11 +1,12 @@
 ---
-title: Función de publicación nativa de PDF | Trabajar con los estilos de contenido comunes
+title: Función de publicación nativa de PDF | Trabaje con los estilos de contenido comunes
 description: Aprenda a crear hojas de estilo de uso y a crear estilos para el contenido.
 exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '3778'
 ht-degree: 1%

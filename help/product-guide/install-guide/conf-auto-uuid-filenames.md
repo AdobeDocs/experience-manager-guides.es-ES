@@ -5,7 +5,8 @@ exl-id: 2a599228-6d46-494f-a57a-96c3f30e073a
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -37,4 +38,4 @@ Realice los siguientes pasos para asignar automáticamente el nombre de archivo 
 >
 > Esta opción está desactivada de forma predeterminada. Cuando esta opción está activada, los autores no verán la opción de especificar el nombre del archivo al crear un nuevo tema o archivo de asignación. Se puede crear un nuevo tema o archivo de asignación desde la interfaz de usuario de Assets y el editor web.
 
-**Tema principal:**&#x200B;[&#x200B; Configurar nombres de archivo](conf-file-names.md)
+**Tema principal:**[ Configurar nombres de archivo](conf-file-names.md)

@@ -4,7 +4,9 @@ description: Obtenga información sobre cómo configurar los filtros de estado d
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 4942b914ff278ebcf09d00da32d6f9c7cc4d7ff9
+exl-id: 682c915b-bc42-4d2e-84a0-9e88734e278e
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
@@ -27,38 +29,38 @@ Realice los siguientes pasos para configurar los filtros de estado del documento
 En el archivo `ui\_config.json` descargado, consulte la siguiente sección:
 
        &quot;
-       &quot;repositoryFilters&quot;: &lbrack;
-       &lbrace;
+       &quot;repositoryFilters&quot;: [
+       {
        &quot;title&quot;: &quot;Estado del documento&quot;,
        &quot;property&quot;: &quot;jcr:content/metadata/docstate&quot;,
-       &quot;hijos&quot;: &lbrack;
-       &lbrace;
+       &quot;hijos&quot;: [
+       {
        &quot;título&quot;: &quot;Borrador&quot;,
        &quot;value&quot;: &quot;Borrador&quot;
        ,
-       &lbrace;
+       {
        &quot;título&quot;: &quot;Editar&quot;,
        &quot;valor&quot;: &quot;Editar&quot;
        ,
-       &lbrace;
+       {
        &quot;título&quot;: &quot;En revisión&quot;,
        &quot;valor&quot;: &quot;En revisión&quot;
        ,
-       &lbrace;
+       {
        &quot;title&quot;: &quot;Approved&quot;,
        &quot;valor&quot;: &quot;Aprobado&quot;
        ,
-       &lbrace;
+       {
        &quot;título&quot;: &quot;Revisado&quot;,
        &quot;valor&quot;: &quot;Revisado&quot;
        ,
-       &lbrace;
+       {
        &quot;título&quot;: &quot;Listo&quot;,
        &quot;valor&quot;: &quot;Listo&quot;
        
-       &rbrack;
+       ]
        
-       &rbrack;
+       ]
        &quot;
    Este fragmento representa los filtros de estado de documento predeterminados disponibles en Experience Manager Guides.
 
@@ -75,4 +77,4 @@ En el archivo `ui\_config.json` descargado, consulte la siguiente sección:
 
 Los filtros configurados se muestran en el panel **Filtros** del Repositorio en la página de inicio.
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)
+**Tema principal:**[ Personalizar editor web](conf-web-editor.md)

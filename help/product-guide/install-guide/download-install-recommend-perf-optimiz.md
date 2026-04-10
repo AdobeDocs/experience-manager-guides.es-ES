@@ -1,23 +1,24 @@
 ---
-title: Recommendations para la optimización del rendimiento
-description: Conozca Recommendations para la optimización del rendimiento
+title: Recomendaciones para la optimización del rendimiento
+description: Conozca las Recomendaciones para la optimización del rendimiento
 exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: b28b7d96cce69f677b0bcf891b94d7ac84eb1eb0
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
 
-# Recommendations para la optimización del rendimiento {#id213BD0JG0XA}
+# Recomendaciones para la optimización del rendimiento {#id213BD0JG0XA}
 
 ## Configurar el almacén de datos \(Obligatorio\)
 
 **¿Cuál es el cambio?**
-AEM Establezca la propiedad `minRecordLength` en un valor de `100` en la configuración `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`. Para obtener más información sobre el almacén de datos de archivos y el almacén de datos S3, consulte el artículo [Configuración de almacenes de nodos y almacenes de datos en el artículo de 6](https://helpx.adobe.com/es/experience-manager/6-5/sites/deploying/using/data-store-config.html) de la sección.
+Establezca la propiedad `minRecordLength` en un valor de `100` en la configuración `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`. Para obtener más información sobre el almacén de datos de archivos y el almacén de datos S3, consulte el artículo [Configuración de almacenes de nodos y almacenes de datos en AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html).
 
 >[!NOTE]
 >
@@ -39,7 +40,7 @@ Excluya /var/dxml de oak:index/lucene.
 > AEM Guides nunca utiliza índices Lucene para buscar contenido en el nodo /var/xml.
 
 **¿Cuándo se debe configurar?**
-Si realiza este cambio en un sistema nuevo antes de migrar contenido, solo es necesario actualizar oak:index/lucene. De lo contrario, en un sistema existente en el que el contenido ya se ha migrado y después de realizar el cambio en oak:index/lucene, vuelva a generar los índices de Lucene \(*que puede tardar unas horas en completarse*\).
+Si está realizando este cambio en un sistema nuevo antes de migrar contenido, solo se requiere actualizar oak:index/lucene. De lo contrario, en un sistema existente en el que el contenido ya se ha migrado y después de realizar el cambio en oak:index/lucene, vuelva a generar los índices de Lucene \(*que podría tardar unas horas en completarse*\).
 
 **Resultado de este cambio**
 Este cambio evita que el nodo /var/xml se indexa y almacene en el almacén de segmentos.
@@ -51,7 +52,7 @@ Los parámetros de inicio de JVM deben ajustarse cuidadosamente en función de l
 
 - Establezca el tamaño de la pila de JVM en un mínimo de 1/4 de la memoria total disponible. Utilice el parámetro `-Xmx<size>` para establecer el tamaño de memoria de la pila. Establezca el valor de -`Xms` es igual a `-Xmx`.
 
-- Habilitar `-XX:+HeapDumpOnOutOfMemoryError` y establecer la ruta de acceso de `-XX:HeapDumpPath=</path/to/folder` `>`.
+- Habilitar `-XX:+HeapDumpOnOutOfMemoryError` y establecer la ruta de acceso de `-XX:HeapDumpPath=</path/to/folder``>`.
 
 - Activar el registro de Java GC como:
 
@@ -80,7 +81,7 @@ Esto da como resultado un tamaño de pila óptimo y una ejecución regulada del 
 ## Minificación de la biblioteca de cliente en la instancia de autor \(Opcional\)
 
 **¿Cuál es el cambio?**
-Las bibliotecas de cliente deben configurarse para que se minifiquen en las instancias de creación. Esto garantiza que haya menos bytes para descargar cuando un usuario navega por el sistema desde diferentes ubicaciones. Para realizar este cambio, establezca la configuración en **Administrador de bibliotecas de HTML** desde la consola Felix.
+Las bibliotecas de cliente deben configurarse para que se minifiquen en las instancias de creación. Esto garantiza que haya menos bytes para descargar cuando un usuario navega por el sistema desde diferentes ubicaciones. Para realizar este cambio, establezca la configuración en **HTML Library Manager** desde la consola Felix.
 
 **¿Cuándo se debe configurar?**
 Esto se puede hacer en tiempo de ejecución a través de la consola Felix o mediante la implementación de código.
@@ -101,18 +102,18 @@ Esto se puede hacer en tiempo de ejecución a través de la consola Felix o medi
 **Resultado de este cambio**
 Este cambio garantiza que, en una instancia de autor en ejecución, todos los recursos no se asignen a las operaciones de publicación. Esto mantiene los recursos del sistema disponibles para los autores, lo que mejora la experiencia del usuario.
 
-## AEM Configure el tamaño de lote de nodos para la generación de salida del sitio de la página de destino de la página \(Obligatorio, según el caso de uso\)
+## Configure el tamaño de lote de nodos para la generación de resultados del sitio de AEM \(Obligatorio, según el caso de uso\)
 
 **¿cuál es el cambio?**
 Este cambio es necesario si está generando una salida de AEM Sites.
 
-AEM Establezca la propiedad **Limitar páginas del sitio en el montón** en `com.adobe.fmdita.config.ConfigManager` a un número basado en la configuración de su sistema. Esta propiedad define el tamaño de lote de nodos que se confirmarán cuando se generen las páginas del sitio. Por ejemplo, en un sistema con un mayor número de CPU y tamaño de pila, puede aumentar el valor predeterminado de `500` a un número mayor. Debe probar la ejecución con el valor modificado para obtener un valor óptimo para esta propiedad.
+Establezca la propiedad **Limitar páginas del sitio AEM en el montón** en `com.adobe.fmdita.config.ConfigManager` a un número basado en la configuración de su sistema. Esta propiedad define el tamaño de lote de nodos que se confirmarán cuando se generen las páginas del sitio. Por ejemplo, en un sistema con un mayor número de CPU y tamaño de pila, puede aumentar el valor predeterminado de `500` a un número mayor. Debe probar la ejecución con el valor modificado para obtener un valor óptimo para esta propiedad.
 
 **¿Cuándo se debe configurar?**
 Esto se puede hacer en tiempo de ejecución a través de la consola Felix o mediante la implementación de código.
 
 **Resultado de este cambio**
-AEM AEM Un número mayor de **Límite de páginas del sitio en el montón** de la propiedad optimiza el proceso de generación de resultados del sitio en el sitio en el sitio en el que se ha puesto en marcha la.
+Un mayor número de la propiedad **Limit AEM Site Pages in Heap** optimiza el proceso de generación de resultados del sitio AEM.
 
 
-**Tema principal:**&#x200B;[&#x200B; Descargar e instalar](download-install.md)
+**Tema principal:**[ Descargar e instalar](download-install.md)

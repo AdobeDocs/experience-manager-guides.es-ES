@@ -5,7 +5,8 @@ exl-id: 7ff4305f-71bb-4155-b8e5-911cea6f0ad9
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%
@@ -46,4 +47,4 @@ La estructura del archivo `symbols.json` se explica a continuación:
   Puede definir varias definiciones de caracteres especiales dentro de una categoría.
 
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)
+**Tema principal:**[ Personalizar editor web](conf-web-editor.md)

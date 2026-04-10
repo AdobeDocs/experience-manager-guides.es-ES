@@ -5,7 +5,8 @@ exl-id: a0eeb43c-06e4-4922-a005-704e8929063f
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 83971ee35a19cf0146ddd034b1ae7a345f587663
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 1%
@@ -49,7 +50,7 @@ Siga estos pasos para agregar las plantillas de asignación personalizadas:
    Puede elegir abrir la plantilla para editarla en el Editor de mapas o guardar el archivo de plantilla en la ubicación del almacén de plantillas. Una vez creada la plantilla, puede utilizar el Editor de mapas para personalizarla según sus necesidades de creación. Una vez preparada una plantilla, asegúrese de asociarla con un perfil global o de nivel de carpeta.
 
 
-La próxima vez que cree un nuevo mapa, la plantilla se mostrará en la página Modelo. Para obtener más información sobre la creación de un mapa DITA, consulte la Guía as a Cloud Service de uso de Adobe Experience Manager Guides.
+La próxima vez que cree un nuevo mapa, la plantilla se mostrará en la página Modelo. Para obtener más información sobre la creación de un mapa DITA, consulte la guía de as a Cloud Service de Adobe Experience Manager Guides.
 
 >[!TIP]
 >

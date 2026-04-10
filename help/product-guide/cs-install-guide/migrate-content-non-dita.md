@@ -5,7 +5,8 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 2c20191ba998ad7da98587f1832e1fe8499d023c
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '2521'
 ht-degree: 0%
@@ -128,7 +129,7 @@ El proceso de conversión implica las siguientes acciones en el servidor:
 - Creación y validación de temas DITA individuales y ficheros de mapa DITA.
 - Eliminación de archivos temporales.
 
-En términos generales, el proceso de conversión requiere que [prepare los archivos InDesign para la conversión](appendix.md#id195DBF0045Z) [apendice.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) y que [prepare el archivo de asignación para la migración de InDesign a DITA](appendix.md#id194AF0003HT) [apendice.md\#id194AF0003HT](appendix.md#id194AF0003HT). A continuación, deberá seguir el procedimiento dado para ejecutar el proceso de conversión.
+En términos generales, el proceso de conversión requiere que [prepare los archivos InDesign para la conversión](appendix.md#id195DBF0045Z)[apendice.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) y que [prepare el archivo de asignación para la migración de InDesign a DITA](appendix.md#id194AF0003HT)[apendice.md\#id194AF0003HT](appendix.md#id194AF0003HT). A continuación, deberá seguir el procedimiento dado para ejecutar el proceso de conversión.
 
 Realice los siguientes pasos para convertir los documentos de InDesign existentes en un documento de tipo de tema DITA:
 
@@ -401,4 +402,4 @@ Para convertir los documentos estructurados existentes al formato DITA, realice 
 
 Con el bloque `<config> </config>`, puede definir uno o varios bloques de configuraciones para la conversión. El flujo de trabajo de conversión se ejecuta y el resultado final en forma de tema DITA se guarda en la ubicación especificada en el elemento `outputDir`.
 
-**Tema principal:**&#x200B;[&#x200B; Migrar contenido existente](migrate-content.md)
+**Tema principal:**[ Migrar contenido existente](migrate-content.md)

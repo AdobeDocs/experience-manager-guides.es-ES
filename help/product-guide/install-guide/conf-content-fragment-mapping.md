@@ -5,7 +5,8 @@ exl-id: 21446bcb-e7df-4823-acc3-1fdc7473f0d1
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -94,4 +95,4 @@ Archivo de muestra:
 ]
 ```
 
-Puede publicar todo el tema con la asignación predeterminada. Seleccione la asignación `Full Topic` del menú desplegable en el cuadro de diálogo **Publish como fragmento de contenido** y tenga el campo &quot;topicData&quot; en el modelo de fragmento de contenido.
+Puede publicar todo el tema con la asignación predeterminada. Seleccione la asignación `Full Topic` del menú desplegable en el cuadro de diálogo **Publicar como fragmento de contenido** y tenga el campo &quot;topicData&quot; en el modelo de fragmento de contenido.

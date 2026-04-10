@@ -5,7 +5,8 @@ exl-id: 5b66fd3b-6450-49ce-b06e-d2d5bab37990
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -14,13 +15,13 @@ ht-degree: 0%
 
 # Configuración de la generación de PDF de tema único {#id22ADC70M0XA}
 
-Con AEM Guides, puede generar el PDF de temas individuales o un archivo de mapa completo. Los temas se pueden publicar en formato de PDF utilizando el PDF nativo o el método DITA-OT. Utilice el método de PDF nativo para generar una salida de PDF con numerosas funciones basada en los estándares de medios paginados CSS3 y CSS del W3C. Se puede utilizar el método DITA-OT para generar una salida de PDF para un mapa desde el tablero de mapas.
+Con AEM Guides, puede generar el PDF de temas individuales o un archivo de mapa completo. Puede publicar los temas en formato PDF utilizando PDF nativo o el método DITA-OT. Utilice el método nativo de PDF para generar una salida de PDF con numerosas funciones basadas en los estándares de medios paginados CSS3 y CSS del W3C. Se puede utilizar el método DITA-OT para generar una salida de PDF para un mapa desde el tablero de mapas.
 
 >[!NOTE]
 >
-> El PDF nativo es el método predeterminado para generar un PDF en la versión actual de AEM Guides.
+> PDF nativo es el método predeterminado para generar un PDF en la versión actual de AEM Guides.
 
-Para activar la generación del PDF antiguo mediante DITA-OT desde el modo de vista previa del tema, realice los pasos siguientes:
+Para activar la generación antigua de PDF mediante DITA-OT desde el modo de vista previa del tema, realice los siguientes pasos:
 
 1. Inicie sesión en Adobe Experience Manager como administrador y descargue el archivo de configuración de la interfaz de usuario.
 
@@ -57,6 +58,6 @@ Para activar la generación del PDF antiguo mediante DITA-OT desde el modo de vi
 
 1. Guarde el archivo y cárguelo.
 
-Después de realizar los pasos dados anteriormente, si elige el mismo perfil de carpeta de Preferencias de usuario en el Editor Web, verá la opción de generación de PDF en el modo de vista previa de un tema.
+Después de realizar los pasos anteriores, si elige el mismo perfil de carpeta en Preferencias de usuario en el Editor web, verá la opción de generación de PDF en el modo de vista previa de un tema.
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)
+**Tema principal:**[ Personalizar editor web](conf-web-editor.md)

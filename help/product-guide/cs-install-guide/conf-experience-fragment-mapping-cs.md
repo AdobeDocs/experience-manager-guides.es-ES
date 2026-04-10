@@ -5,7 +5,8 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 2b59db60-61b5-4a7e-bbf1-35cab8b89323
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -159,4 +160,4 @@ Archivo de muestra:
 
 Al publicar los fragmentos de experiencias desde el editor web, seleccione `Template` en el menú desplegable del cuadro de diálogo **Generar fragmento de experiencias** para ver la asignación disponible para la plantilla en el campo **Asignación**. Si no hay ninguna asignación personalizada para una plantilla, se muestra la asignación predeterminada. Puede utilizar la asignación predeterminada para publicar todo el tema como un Fragmento de experiencia.
 
-Para obtener más información, vea [Fragmentos de experiencias de Publish](../user-guide/publish-experience-fragment.md).
+Para obtener más información, vea [Publicar fragmentos de experiencias](../user-guide/publish-experience-fragment.md).

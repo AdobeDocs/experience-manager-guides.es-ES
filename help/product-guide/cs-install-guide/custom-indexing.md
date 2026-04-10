@@ -5,7 +5,8 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 682d58df-7404-4e84-9b5f-ab40c46bef84
-source-git-commit: 1bffdade37658bd44128cac9226a349f828abd45
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 3%
@@ -220,5 +221,5 @@ La verificación principal consiste en probar la función:
 
 - [Documentación de indexación de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Guía de indexación de Apache Jackrabbit Oak](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [Documentación de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides)
+- [Documentación de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Documentación de Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)

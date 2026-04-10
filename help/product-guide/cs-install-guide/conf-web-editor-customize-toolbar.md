@@ -5,7 +5,8 @@ exl-id: ba82af48-9357-4f29-90ce-6793366ab432
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 0%
@@ -18,7 +19,7 @@ De forma predeterminada, el editor web incluye las funciones editoriales más co
 
 >[!NOTE]
 >
-> Al migrar de la IU antigua a la nueva IU de AEM Guides (aplicable a partir de las versiones 2502 y 5.0 de AEM Guides), las actualizaciones de `ui_config` deben convertirse a configuraciones de IU más flexibles y modulares. Este marco de trabajo ayuda a adoptar cambios sin problemas en la barra de herramientas del editor y en otros widgets de destino según corresponda. Para obtener más información, vea [Información general sobre Convert UI Config](https://experienceleague.adobe.com/es/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Al migrar de la IU antigua a la nueva IU de AEM Guides (aplicable a partir de las versiones 2502 y 5.0 de AEM Guides), las actualizaciones de `ui_config` deben convertirse a configuraciones de IU más flexibles y modulares. Este marco de trabajo ayuda a adoptar cambios sin problemas en la barra de herramientas del editor y en otros widgets de destino según corresponda. Para obtener más información, vea [Información general sobre Convert UI Config](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Existen dos formas de personalizar la barra de herramientas del Editor Web:
 
@@ -144,4 +145,4 @@ Realice los siguientes pasos para eliminar cualquier función no deseada de la b
 1. Guarde el archivo *ui\_config.json* y vuelva a cargar el Editor web.
 
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)
+**Tema principal:**[ Personalizar editor web](conf-web-editor.md)

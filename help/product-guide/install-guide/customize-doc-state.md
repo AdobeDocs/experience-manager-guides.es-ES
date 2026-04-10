@@ -5,7 +5,8 @@ exl-id: d7603b4e-aae4-48ca-be84-8edb51626405
 feature: Document State
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
@@ -126,12 +127,12 @@ Si no desea cambiar manualmente los estados del documento, puede crear un flujo 
 
 Siga estos pasos para automatizar el cambio de estado del documento:
 
-1. AEM Abra la página de flujo de trabajo desde la URL del servidor de.
+1. Abra la página de flujo de trabajo desde la URL del servidor de AEM.
 
    `<AEM_Server_URL>:<port>/workflow`
 
 1. Abra un flujo de trabajo desde la página de flujo de trabajo. Por ejemplo, Revisar tema.
-1. AEM Seleccione **Paso de proceso** de la sección **Flujo de trabajo** del cuadro de diálogo de la y arrastre y suelte en el flujo de trabajo.
+1. Seleccione **Paso de proceso** de la sección **Flujo de trabajo** del cuadro de diálogo de AEM y arrastre y suelte en el flujo de trabajo.
 
    ![](assets/process-step-workflow.png)
 
@@ -151,7 +152,7 @@ Siga estos pasos para automatizar el cambio de estado del documento:
 
 AEM Guides proporciona un flujo de trabajo de aprobación de documentos, que le ayuda a controlar el ciclo de vida del proceso de desarrollo de documentos. Para habilitar el flujo de trabajo de aprobación, realice los siguientes pasos:
 
-1. AEM Inicie sesión en la aplicación y abra el modo CRXDE Lite.
+1. Inicie sesión en AEM y abra el modo CRXDE Lite.
 
 1. Vaya al archivo de configuración predeterminado disponible en la siguiente ubicación:
 

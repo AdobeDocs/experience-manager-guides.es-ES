@@ -5,7 +5,8 @@ exl-id: 1ef09820-3b18-4762-b177-4d40926e21f0
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Mientras trabaja en el Editor Web, debe utilizar el cuadro de diálogo de explor
 
 Realice los siguientes pasos para agregar las opciones de filtrado de archivos personalizadas al cuadro de diálogo de exploración de archivos:
 
-1. AEM Inicie sesión en la aplicación y abra el modo CRXDE Lite.
+1. Inicie sesión en AEM y abra el modo CRXDE Lite.
 
 1. Vaya al archivo de configuración predeterminado disponible en la siguiente ubicación:
 

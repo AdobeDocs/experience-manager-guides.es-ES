@@ -5,9 +5,10 @@ exl-id: f7638cb3-faca-4170-9a8c-f6362e174c18
 feature: Version Management
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1514'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ En un entorno multiuso, también es importante asegurarse de que los usuarios no
 >
 > Esta configuración solo es aplicable durante la carga de archivos.
 
-Para habilitar la opción **Crear nueva versión para el archivo cargado**, realice los siguientes pasos:
+Las siguientes pestañas proporcionan instrucciones para habilitar la opción **Crear nueva versión para el archivo cargado** según la configuración de Experience Manager Guides: Cloud Service o Local.
 
 1. Siga las instrucciones indicadas en [Anulaciones de configuración](download-install-additional-config-override.md#) para crear el archivo de configuración.
 1. En el archivo de configuración, proporcione los siguientes detalles \(property\) para configurar la opción **Crear nueva versión para el archivo cargado**:
@@ -38,7 +39,7 @@ Para habilitar la opción **Crear nueva versión para el archivo cargado**, real
 
 >[!NOTE]
 >
-> Cuando se selecciona la opción, se produce un nuevo mecanismo de administración de versiones que anula el comportamiento de carga predeterminado que se aplica a cualquier carga posterior, se guarda el contenido del archivo cargado como una nueva versión. Si la opción no está seleccionada, AEM Guides AEM utiliza el mecanismo de administración de versiones predeterminado del.
+> Cuando se selecciona la opción, se produce un nuevo mecanismo de administración de versiones que anula el comportamiento de carga predeterminado que se aplica a cualquier carga posterior, se guarda el contenido del archivo cargado como una nueva versión. Si la opción no está seleccionada, AEM Guides utiliza el mecanismo de administración de versiones predeterminado de AEM.
 
 ## Configurar opciones para permitir la edición de archivos desprotegidos
 
@@ -92,7 +93,7 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 
 ## Impedir la eliminación de archivos referenciados
 
-AEM Como administrador, puede controlar quién puede eliminar archivos del repositorio de la. Específicamente, si un archivo contiene referencias o si otro archivo hace referencia a él, puede definir quién puede eliminar dichos archivos.
+Como administrador, puede controlar quién puede eliminar archivos del repositorio de AEM. Específicamente, si un archivo contiene referencias o si otro archivo hace referencia a él, puede definir quién puede eliminar dichos archivos.
 
 Con esta configuración, puede permitir o impedir que todos los usuarios eliminen archivos, o permitir que solo un grupo de usuarios específico elimine archivos. Si se permite la eliminación de archivos, se sigue el siguiente proceso:
 
@@ -142,7 +143,7 @@ Siga estos pasos para purgar las versiones anteriores:
 
    ![](assets/preview-purge-report.png)
 
-1. &#x200B;
+1. 
    - **Número de versiones que se deben conservar de la última versión**: escriba el número de versiones que se deben conservar y no purgar. Por ejemplo, si se introduce 5, se conservan las últimas 5 versiones y las versiones anteriores a ellas pueden depurarse en caso de que se cumplan otras condiciones de depuración.
 - **Conservar versiones creadas dentro del intervalo de tiempo \(en días\)**: escriba la antigüedad máxima de una versión en días. Las versiones anteriores al número determinado de días pueden depurarse si se cumplen otras condiciones de depuración. Por ejemplo, si se introduce 100, todas las versiones creadas antes de 100 días cumplen los requisitos para ser depuradas en caso de que se cumplan otras condiciones de depuración.
 - **Ruta**: seleccione la ruta de acceso del archivo o carpeta cuyos archivos desea purgar.

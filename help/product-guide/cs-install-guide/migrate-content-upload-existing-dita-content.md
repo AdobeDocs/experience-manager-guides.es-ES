@@ -5,7 +5,8 @@ exl-id: 2b385eef-00a7-4c25-9e78-367a0c9e44ba
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # Cargar contenido DITA existente {#id176FF000JUI}
 
-Lo más probable es que tenga un repositorio de contenido DITA existente que desee utilizar con AEM Guides. Para ese contenido existente, puede usar cualquiera de los métodos admitidos explicados en [Agregar recursos digitales a Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=es).
+Lo más probable es que tenga un repositorio de contenido DITA existente que desee utilizar con AEM Guides. Para ese contenido existente, puede usar cualquiera de los métodos admitidos explicados en [Agregar recursos digitales a Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html).
 
 ## Configurar patrón de nombre de archivo UUID
 
@@ -32,7 +33,7 @@ También puede utilizar comandos curl para crear una carpeta en DAM, cargar arch
 
 **Crear una carpeta**
 
-AEM Ejecute el siguiente comando para crear una carpeta en el repositorio de:
+Ejecute el siguiente comando para crear una carpeta en el repositorio de AEM:
 
 ```
 curl --user <username>:<password> --data jcr:primaryType=sling:Folder "<server folder path>"
@@ -40,16 +41,16 @@ curl --user <username>:<password> --data jcr:primaryType=sling:Folder "<server f
 
 Especifique los siguientes parámetros para crear una carpeta:
 
-- AEM `<username>:<passowrd>`: especifique el nombre de usuario y la contraseña para tener acceso al repositorio de. Este usuario debe tener los privilegios de creación de carpetas.
+- `<username>:<passowrd>`: especifique el nombre de usuario y la contraseña para acceder al repositorio de AEM. Este usuario debe tener los privilegios de creación de carpetas.
 
 - `jcr:primaryType=sling:Folder`: especifique este parámetro *como está* para crear un recurso de tipo carpeta.
 
-- AEM `<server folder path>`: ruta de acceso completa de la carpeta, incluido el nombre de la nueva carpeta que desea crear en el repositorio de la. Por ejemplo, si especifica la ruta como `http://192.168.1.1:4502/content/dam/projects/AEM-Guides`, la carpeta `AEM-Guides` se creará dentro de la carpeta `projects` en DAM.
+- `<server folder path>`: ruta de carpeta completa que incluye el nombre de la nueva carpeta que desea crear en el repositorio de AEM. Por ejemplo, si especifica la ruta como `http://192.168.1.1:4502/content/dam/projects/AEM-Guides`, la carpeta `AEM-Guides` se creará dentro de la carpeta `projects` en DAM.
 
 
 **Cargar un archivo**
 
-AEM Ejecute el siguiente comando para cargar un archivo en el repositorio de:
+Ejecute el siguiente comando para cargar un archivo en el repositorio de AEM:
 
 ```
 curl --user <username>:<password> -T "<local file path>" "<server folder path>"
@@ -57,11 +58,11 @@ curl --user <username>:<password> -T "<local file path>" "<server folder path>"
 
 Especifique los siguientes parámetros para cargar un archivo:
 
-- AEM `<username>:<passowrd>`: especifique el nombre de usuario y la contraseña para tener acceso al repositorio de. Este usuario debe tener privilegios de escritura en `server folder path`.
+- `<username>:<passowrd>`: especifique el nombre de usuario y la contraseña para acceder al repositorio de AEM. Este usuario debe tener privilegios de escritura en `server folder path`.
 
 - ``local file path``: ruta de archivo completa del sistema local que desea cargar.
 
-- AEM `<server folder path>`: complete la ruta de acceso a la carpeta en el servidor de donde desee cargar el archivo.
+- `<server folder path>`: ruta de acceso completa a la carpeta del servidor de AEM donde desea cargar el archivo.
 
 
 **Agregar metadatos**
@@ -74,11 +75,11 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 
 Especifique los siguientes parámetros para agregar información de metadatos:
 
-- AEM `<username>:<passowrd>`: especifique el nombre de usuario y la contraseña para tener acceso al repositorio de. Este usuario debe tener privilegios de escritura en ``metadata node path``.
+- `<username>:<passowrd>`: especifique el nombre de usuario y la contraseña para acceder al repositorio de AEM. Este usuario debe tener privilegios de escritura en ``metadata node path``.
 
 - ``-F<attribute name>=<value>``: `<attribute name>` es el nombre del atributo de metadatos, como `audience` y `<value>` podría ser `internal`. Puede especificar varios pares de nombre-valor de atributo separados por espacio.
 
 - `<metadata node path>`: ruta de carpeta completa que incluye el nombre de archivo y su nodo de metadatos. Por ejemplo, si especifica la ruta de acceso como `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`, la información de metadatos especificada se establecerá en el archivo `intro.xml`.
 
 
-**Tema principal:**&#x200B;[&#x200B; Migrar contenido existente](migrate-content.md)
+**Tema principal:**[ Migrar contenido existente](migrate-content.md)

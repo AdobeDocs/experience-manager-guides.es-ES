@@ -5,7 +5,8 @@ exl-id: 4d99c3d8-cf6a-4cf3-aaec-9009a0376c1e
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 1%
@@ -25,4 +26,4 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.autosave` | Booleano \(true/false\).<br> **Valor predeterminado**: false |
 | `xmleditor.autosaveinterval` | Especifique el intervalo de tiempo en segundos para almacenar en déclencheur la función de guardado automático. |  |
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)
+**Tema principal:**[ Personalizar editor web](conf-web-editor.md)

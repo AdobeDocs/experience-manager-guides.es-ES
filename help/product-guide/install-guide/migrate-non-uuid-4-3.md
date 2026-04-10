@@ -5,7 +5,8 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: f53f4eef-5e99-4342-9919-508b90ee3571
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1507'
 ht-degree: 1%
@@ -220,5 +221,5 @@ Para obtener más información, vea [purgar versiones anteriores](../install-gui
    > Si antes de la migración, la propiedad **Use el título para los nombres de página del sitio AEM** dentro de `com.adobe.fmdita.config.ConfigManager`, se establece en *False*, después de la migración esta propiedad deberá actualizarse.
 
 
-1. Una vez completada la validación, se puede recuperar la mayor parte del espacio en disco ejecutando la compactación (consulte `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=es`).
+1. Una vez completada la validación, se puede recuperar la mayor parte del espacio en disco ejecutando la compactación (consulte `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
 

@@ -1,11 +1,12 @@
 ---
-title: Función nativa de PDF Publish | Usar JavaScript para trabajar con contenido o estilo
+title: Función de publicación nativa de PDF | Use JavaScript para trabajar con contenido o estilo
 description: Aprenda a crear hojas de estilo de uso y a crear estilos para el contenido.
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: ad12cac61d14bc68bf73dc407a74a22c8248d7b3
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 1%
@@ -14,12 +15,12 @@ ht-degree: 1%
 
 # Usar JavaScript para trabajar con contenido o estilo
 
-La función Publicación de PDF nativo permite ejecutar JavaScript para manipular el contenido o el estilo aplicados al contenido antes de que se genere el PDF final. Esta función le proporciona un control completo sobre cómo se genera la salida final. Por ejemplo, es posible que desee agregar información de aviso legal a la salida del PDF, que reside en otro PDF. Con JavaScript, puede añadir la información de aviso legal una vez que se haya creado el PDF para el contenido base, pero antes de que se genere el PDF final.\
-Para admitir la ejecución de JavaScript, la característica Publicación nativa de PDF le ofrece las siguientes funciones de devolución de llamada:
+La función de publicación nativa de PDF le permite ejecutar JavaScript para manipular el contenido o el estilo aplicados al contenido antes de que se genere el PDF final. Esta función le proporciona un control completo sobre cómo se genera la salida final. Por ejemplo, es posible que desee agregar información de aviso legal a la salida de PDF, que reside en otro PDF. Con JavaScript, puede añadir la información de aviso legal una vez que se haya creado PDF para el contenido base, pero antes de que se genere el PDF final.\
+Para admitir la ejecución de JavaScript, la función de publicación nativa de PDF le ofrece las siguientes funciones de devolución de llamada:
 
 * `window.pdfLayout.onBeforeCreateTOC(callback)`: esta función de devolución de llamada se ejecuta antes de que se genere la TDC.
-* `window.pdfLayout.onBeforePagination(callback)`: esta función de llamada de retorno se ejecuta después de generar la TDC, pero antes de que se agreguen los saltos de página en el PDF.
-* `window.pdfLayout.onAfterPagination(callback)`: esta función de llamada de retorno se ejecuta después de agregar la TDC y los saltos de página en el PDF.
+* `window.pdfLayout.onBeforePagination(callback)`: esta función de llamada de retorno se ejecuta después de generar la TDC, pero antes de que se agreguen los saltos de página en PDF.
+* `window.pdfLayout.onAfterPagination(callback)`: esta función de llamada de retorno se ejecuta después de agregar la TDC y los saltos de página en PDF.
 
 >[!NOTE]
 >
@@ -65,7 +66,7 @@ window.addEventListener('DOMContentLoaded', function () {
 >
 >Se debe llamar a la función `window.addEventListener('DOMContentLoaded', function ()` antes de utilizar las funciones de devolución de llamada.
 
-A continuación, se debe llamar a esta secuencia de comandos desde un archivo de plantilla que se utiliza para generar la salida del PDF. Para nuestro ejemplo, lo añadiremos en la plantilla del índice. Asegúrese de que la etiqueta `<script>` se agrega dentro de una etiqueta `<div>` predefinida dentro de la etiqueta `<body>`. Si lo agrega en la etiqueta `<head>` o fuera de la etiqueta `<body>`, el script no se ejecutará.
+A continuación, se debe llamar a esta secuencia de comandos desde un archivo de plantilla que se utiliza para generar la salida de PDF. Para nuestro ejemplo, lo añadiremos en la plantilla del índice. Asegúrese de que la etiqueta `<script>` se agrega dentro de una etiqueta `<div>` predefinida dentro de la etiqueta `<body>`. Si lo agrega en la etiqueta `<head>` o fuera de la etiqueta `<body>`, el script no se ejecutará.
 
 <img src="./assets/js-added-resources-template.png" width="500">
 
@@ -73,10 +74,10 @@ La salida generada con este código y la plantilla muestran el título de la fig
 
 <img src="./assets/fig-title-below-image.png" width="500">
 
-## Agregar una marca de agua a la salida del PDF para los borradores de documentos {#watermark-draft-document}
+## Agregar una marca de agua a la salida de PDF para documentos de borrador {#watermark-draft-document}
 
 También puede utilizar JavaScript para agregar marcas de agua condicionales. Estas marcas de agua se agregan al documento cuando se cumple la condición definida.\
-Por ejemplo, puede crear un archivo JavaScript con el siguiente código para crear una marca de agua en la salida del PDF del documento que aún no está aprobado. Esta marca de agua no aparece si genera el PDF para el documento en el estado de documento &quot;Aprobado&quot;.
+Por ejemplo, puede crear un archivo JavaScript con el siguiente código para crear una marca de agua en la salida PDF del documento que aún no está aprobado. Esta marca de agua no aparece si genera el PDF para el documento en el estado de documento &quot;Aprobado&quot;.
 
 ```css
 ...
@@ -101,6 +102,6 @@ window.addEventListener('DOMContentLoaded', function () {
 ...
 ```
 
-La salida del PDF generada con este código muestra una marca de agua *Borrador* en la portada del documento:
+La salida de PDF generada con este código muestra una marca de agua *Borrador* en la portada del documento:
 
 <img src="./assets/draft-watermark.png" width="500">

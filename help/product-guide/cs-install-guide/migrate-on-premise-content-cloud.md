@@ -1,22 +1,24 @@
 ---
-title: Migración de contenido de On-Premise a Cloud Service
-description: Obtenga información sobre cómo migrar el contenido del software On-Premise a los Cloud Service
+title: Migración de contenido de On-Premise a Cloud Services
+description: Obtenga información sobre cómo migrar el contenido del software On-Premise a Cloud Services
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 645d9983b66c740444f24e2283806b5ec4a4ee79
+exl-id: da3a6f83-b21a-4b19-8b54-ee96f11e7c09
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 1%
 
 ---
 
-# Migrar contenido de On-Premise a Cloud Service
+# Migración de contenido de On-Premise a Cloud Service
 
-Experience Manager as a Cloud Service ofrece una base tecnológica escalable, segura y ágil para Experience Manager Guides, Assets, Forms y Screens. Esto permite a los especialistas en marketing y a los profesionales de TI centrarse en ofrecer experiencias impactantes a escala.
+Experience Manager as a Cloud Service proporciona una base tecnológica escalable, segura y ágil para Experience Manager Guides, Assets, Forms y Screens. Esto permite a los especialistas en marketing y a los profesionales de TI centrarse en ofrecer experiencias impactantes a escala.
 Con Experience Manager as a Cloud Service, sus equipos pueden centrarse en la innovación en lugar de planificar las actualizaciones de los productos. Las nuevas funciones del producto se prueban a fondo y se entregan a sus equipos sin interrupción para que siempre puedan acceder a la última versión de Adobe Experience Manager.
 
-Este artículo proporciona un proceso detallado paso a paso para migrar el contenido On-Premise o de Managed Services Experience Manager Guides a los Cloud Service, lo que garantiza una transición sin problemas a la plataforma basada en la nube.
+Este artículo proporciona un proceso detallado paso a paso para migrar el contenido On-Premise o de Managed Services Experience Manager Guides a Cloud Services, lo que garantiza una transición sin problemas a la plataforma basada en la nube.
 
 ## Requisitos previos
 
@@ -30,7 +32,7 @@ Este artículo proporciona un proceso detallado paso a paso para migrar el conte
 
 ## Proceso de migración
 
-**Content Transfer Tool** es una herramienta desarrollada por Adobe que puede usar para iniciar la migración del contenido existente de una instancia On-Premise o Managed Services de Adobe Experience Manager de origen a la instancia Experience Manager Cloud Service de destino.
+**Content Transfer Tool** es una herramienta desarrollada por Adobe que puede usar para iniciar la migración del contenido existente de una instancia On-Premise de Adobe Experience Manager de origen o de Managed Services a la instancia de Experience Manager Cloud Service de destino.
 Esta herramienta también transfiere las entidades principales (usuarios o grupos) automáticamente.
 
 Puede descargar la **herramienta de transferencia de contenido** como archivo ZIP desde el portal de **distribución de software**:
@@ -41,7 +43,7 @@ Puede descargar la **herramienta de transferencia de contenido** como archivo ZI
 
 ![descargar herramienta de transferencia de contenido](./assets/content-transfer-tool-software-portal.png)
 A continuación, instale el paquete a través de **Administrador de paquetes** en la instancia de Adobe Experience Manager de origen. Asegúrese de descargar la versión más reciente.
-Para obtener más información sobre la versión más reciente, vea [Notas de la versión](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=es).
+Para obtener más información sobre la versión más reciente, vea [Notas de la versión](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en).
 
 >[!NOTE]
 > 
@@ -88,7 +90,7 @@ Siga estos pasos para migrar el contenido de Experience Manager Guides a Experie
    ![portal de distribución de software](./assets/migration-software-portal.png)
 
 
-1. En el portal **Distribución de software**, seleccione **Adobe Experience Manager como Cloud Service**, busque &quot;herramienta de transferencia de contenido&quot; y descargue el paquete de la herramienta de transferencia de contenido.
+1. En el portal **Distribución de software**, seleccione **Adobe Experience Manager como ficha de Cloud Service**, busque &quot;herramienta de transferencia de contenido&quot; y descargue el paquete de la herramienta de transferencia de contenido.
 
    >[!NOTE]
    >
@@ -127,9 +129,9 @@ o
    * `/home`
    * `/etc`: se le permite seleccionar algunas `/etc` rutas en CTT.
 
-1. Haga clic en **Guardar**
+1. Haga clic en **Guardar**.
 1. Seleccione el **conjunto de migración** y, a continuación, seleccione **Extraer** en la parte superior.
-   ![extracción de conjunto de migración &#x200B;](./assets/migration-extract.png)
+   ![extracción de conjunto de migración ](./assets/migration-extract.png)
 
 1. Compruebe los detalles en el elemento emergente **Extracción del conjunto de migración** para las rutas y configuraciones que seleccionó y haga clic en **Extraer**. La extracción tardará unos minutos y verá el estado como actualizado.
    ![extracción del conjunto de migración](./assets/migration-set-extraction.png)
@@ -150,10 +152,10 @@ Para obtener más información, seleccione los tres puntos y, a continuación, s
 
    ![nueva ingesta](./assets/migration-new-ingestion.png)
 
-## Ejecutar la herramienta de transferencia de contenido en una instancia de Publish
+## Ejecutar la herramienta de transferencia de contenido en una instancia de publicación
 
-Instale la herramienta de transferencia de contenido en la instancia de Publish de origen para mover contenido a la instancia de Publish de destino.
-La herramienta de transferencia de contenido no diferencia entre contenido publicado y no publicado al ingerir contenido en un entorno de Publish. El contenido especificado en el conjunto de migración se ingiere en la instancia de destino elegida. El usuario puede ingerir un conjunto de migración en una instancia de autor, en una instancia de Publish o en ambas.
+Instale la herramienta de transferencia de contenido en la instancia de publicación de origen para mover contenido a la instancia de publicación de destino.
+La herramienta de transferencia de contenido no diferencia entre contenido publicado y no publicado al ingerir contenido en un entorno de publicación. El contenido especificado en el conjunto de migración se ingiere en la instancia de destino elegida. El usuario puede ingerir un conjunto de migración en una instancia de autor, una instancia de publicación o ambas.
 
 ### Enfoque recomendado
 
@@ -161,13 +163,13 @@ Tenga en cuenta las siguientes recomendaciones:
 
 * Use la misma versión de **Content Transfer Tool** que se usó en la instancia de autor.
 * Durante la ingesta en Publish, el nivel de Publish no se reducirá (a diferencia del autor).
-* Migre un solo nodo de Publish. Antes de comenzar la extracción, retírela del equilibrador de carga.
+* Migrar solo un nodo de publicación. Antes de comenzar la extracción, retírela del equilibrador de carga.
 
 >[!NOTE]
 >
-> Como medida de precaución, asegúrese de que no se produzcan operaciones de escritura en las instancias de Publish, incluidas las acciones iniciadas por el usuario como:
-> * Distribución de contenido de AEM as a Cloud Service Author a Publish en ese entorno
-> * Sincronización de usuarios entre instancias de Publish
+> Como medida de precaución, asegúrese de que no se produzcan operaciones de escritura en las instancias de publicación, incluidas las acciones iniciadas por el usuario como:
+> * La distribución de contenido de AEM as a Cloud Service Author a Publish en ese entorno
+> * Sincronización de usuarios entre instancias de publicación
 
 
 ## Resolución de problemas
@@ -185,7 +187,3 @@ Si la extracción falla debido al siguiente error, puede resolverlo importando e
 
 
 *Habilitar registro SSL.*
-
-
-
-
