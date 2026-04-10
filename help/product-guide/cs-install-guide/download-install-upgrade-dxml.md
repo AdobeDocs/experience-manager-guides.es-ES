@@ -26,7 +26,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
-> Para obtener más información sobre el uso de la canalización de CI/CD, consulte [Uso de la canalización de CI/CD en Adobe Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html).
+> Para obtener más información sobre el uso de la canalización de CI/CD, consulte [Uso de la canalización de CI/CD en Adobe Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html?lang=es).
 
 ## Borre la caché del explorador
 

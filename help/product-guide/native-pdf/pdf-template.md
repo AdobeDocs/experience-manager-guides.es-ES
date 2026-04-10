@@ -94,7 +94,7 @@ Seleccione esta opción para ver la plantilla en la interfaz de usuario de Asset
 
 Una vez creada la plantilla personalizada, puede elegirla en Diseños de página en el ajuste preestablecido de salida de PDF.
 
-Aprenda a [publicar una salida de PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
+Aprenda a [publicar una salida de PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=es).
 
 >[!NOTE]
 >

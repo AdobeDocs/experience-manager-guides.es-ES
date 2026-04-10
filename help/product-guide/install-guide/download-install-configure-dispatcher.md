@@ -19,7 +19,7 @@ Si planea utilizar una instancia de Dispatcher en AEM Author junto con AEM Guide
 
 >[!NOTE]
 >
-> Dispatcher es la herramienta de almacenamiento en caché o de equilibrio de carga de Adobe Experience Manager. Para obtener más información acerca del uso de Dispatcher, consulte [Información general de Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en).
+> Dispatcher es la herramienta de almacenamiento en caché o de equilibrio de carga de Adobe Experience Manager. Para obtener más información acerca del uso de Dispatcher, consulte [Información general de Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=es).
 
 ## Habilitar AllowEncodedSlashes en las direcciones URL
 

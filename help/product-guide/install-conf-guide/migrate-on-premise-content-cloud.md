@@ -41,7 +41,7 @@ Puede descargar la **herramienta de transferencia de contenido** como archivo ZI
 
 ![descargar herramienta de transferencia de contenido](./assets/content-transfer-tool-software-portal.png)
 A continuación, instale el paquete a través de **Administrador de paquetes** en la instancia de Adobe Experience Manager de origen. Asegúrese de descargar la versión más reciente.
-Para obtener más información sobre la versión más reciente, vea [Notas de la versión](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en).
+Para obtener más información sobre la versión más reciente, vea [Notas de la versión](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=es).
 
 >[!NOTE]
 > 

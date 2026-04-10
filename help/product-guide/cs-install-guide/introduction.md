@@ -65,18 +65,18 @@ La información de esta guía está organizada de la siguiente manera:
 
 ## Descripción general de Adobe Experience Manager \(AEM\)
 
-[Adobe Experience Manager \(AEM\)](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html?lang=es) es una completa solución de administración de contenido para crear sitios web, aplicaciones móviles y formularios. AEM le ayuda a administrar sus activos y contenido de marketing. AEM está disponible en as a Cloud Service. AEM as a Cloud Service le ayuda a ofrecer a sus clientes experiencias personalizadas basadas en contenido combinando la potencia del sistema de gestión de contenido de AEM con la gestión de activos digitales de AEM.Algunos de los recursos clave que pueden ayudarle a empezar e implementar en AEM as a Cloud Service son los siguientes:
+[Adobe Experience Manager \(AEM\)](https://business.adobe.com/es/products/experience-manager/adobe-experience-manager.html?lang=es) es una completa solución de administración de contenido para crear sitios web, aplicaciones móviles y formularios. AEM le ayuda a administrar sus activos y contenido de marketing. AEM está disponible en as a Cloud Service. AEM as a Cloud Service le ayuda a ofrecer a sus clientes experiencias personalizadas basadas en contenido combinando la potencia del sistema de gestión de contenido de AEM con la gestión de activos digitales de AEM.Algunos de los recursos clave que pueden ayudarle a empezar e implementar en AEM as a Cloud Service son los siguientes:
 
-- [Información general sobre Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=en)
-- [Introducción al Recorrido de migración a AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=en)
-- [Iniciar la incorporación a Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=enhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
-- [Implementación de aplicaciones para AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=en)
-- [Implementación en AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en)
+- [Información general sobre Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=es)
+- [Introducción al Recorrido de migración a AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=es)
+- [Iniciar la incorporación a Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=eshttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
+- [Implementación de aplicaciones para AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=es)
+- [Implementación en AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=es)
 - [Guía de Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=es)
 
 ## Recursos adicionales
 
-A continuación se muestra una lista de otros recursos útiles de AEM Guides, que están disponibles en la página [Aprendizaje y asistencia](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
+A continuación se muestra una lista de otros recursos útiles de AEM Guides, que están disponibles en la página [Aprendizaje y asistencia](https://helpx.adobe.com/es/support/xml-documentation-for-experience-manager.html):
 
 - Guía del usuario
 - Guía de referencia de API

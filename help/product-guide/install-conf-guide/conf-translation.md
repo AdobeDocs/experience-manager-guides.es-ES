@@ -26,32 +26,32 @@ Las siguientes pestañas proporcionan instrucciones para traducir contenido seg�
 
 >[!TAB Cloud Service]
 
-1. Conecte AEM con su [proveedor de servicios de traducción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) y cree configuraciones del marco de trabajo de integración de traducciones.
+1. Conecte AEM con su [proveedor de servicios de traducción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=es) y cree configuraciones del marco de trabajo de integración de traducciones.
 
 1. Asocie las páginas del maestro de idioma con el servicio de traducción y las configuraciones del marco de trabajo.
 
-1. Identifique el tipo de [contenido para traducir](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
+1. Identifique el tipo de [contenido para traducir](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=es).
 
-1. [Preparar el contenido para su traducción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en) creando el maestro de idioma y las páginas raíz de las copias de idioma.
+1. [Preparar el contenido para su traducción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=es) creando el maestro de idioma y las páginas raíz de las copias de idioma.
 
-1. Cree [proyectos de traducción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) para recopilar el contenido que se va a traducir y para preparar el proceso de traducción.
+1. Cree [proyectos de traducción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=es) para recopilar el contenido que se va a traducir y para preparar el proceso de traducción.
 
-1. Use los proyectos de traducción para [administrar el proceso de traducción de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en).
+1. Use los proyectos de traducción para [administrar el proceso de traducción de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=es).
 
 
 >[!TAB Local]
 
-1. Conecte AEM con su [proveedor de servicios de traducción](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) y cree [configuraciones del marco de trabajo de integración de traducciones](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. Conecte AEM con su [proveedor de servicios de traducción](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) y cree [configuraciones del marco de trabajo de integración de traducciones](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
 
-1. Asocie las páginas del maestro de idioma con el [servicio de traducción y las configuraciones del marco de trabajo](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. Asocie las páginas del maestro de idioma con el [servicio de traducción y las configuraciones del marco de trabajo](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
 
-1. Identifique el tipo de [contenido para traducir](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
+1. Identifique el tipo de [contenido para traducir](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/tc-rules.html).
 
-1. [Preparar el contenido para su traducción](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html) creando el maestro de idioma y las páginas raíz de las copias de idioma.
+1. [Preparar el contenido para su traducción](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/tc-prep.html) creando el maestro de idioma y las páginas raíz de las copias de idioma.
 
-1. Cree [proyectos de traducción](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) para recopilar el contenido que se va a traducir y para preparar el proceso de traducción.
+1. Cree [proyectos de traducción](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/tc-manage.html) para recopilar el contenido que se va a traducir y para preparar el proceso de traducción.
 
-1. Use los proyectos de traducción para [administrar el proceso de traducción de contenido](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html).
+1. Use los proyectos de traducción para [administrar el proceso de traducción de contenido](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/tc-manage.html).
 
 >[!ENDTABS]
 
@@ -143,7 +143,7 @@ En función del flujo de trabajo de traducción utilizado en la configuración, 
 
    >[!NOTE]
    >
-   > Si está usando un conector de traducción, asegúrese de haber configurado el conector tal como se describe en el tema *[Configuración del marco de trabajo de integración de traducción](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* de la documentación de AEM.
+   > Si está usando un conector de traducción, asegúrese de haber configurado el conector tal como se describe en el tema *[Configuración del marco de trabajo de integración de traducción](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/tc-tic.html)* de la documentación de AEM.
 
 1. Haga clic en **Guardar**.
 
@@ -176,7 +176,7 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 
 >[!NOTE]
 >
-> Si está usando un conector de traducción, asegúrese de haber configurado el conector tal como se describe en el tema *[Configuración del marco de trabajo de integración de traducción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* de la documentación de Adobe Experience Manager.
+> Si está usando un conector de traducción, asegúrese de haber configurado el conector tal como se describe en el tema *[Configuración del marco de trabajo de integración de traducción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=es)* de la documentación de Adobe Experience Manager.
 
 >[!IMPORTANT]
 >

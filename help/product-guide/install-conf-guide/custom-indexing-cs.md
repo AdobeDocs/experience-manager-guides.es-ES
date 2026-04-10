@@ -210,5 +210,5 @@ La verificación principal consiste en probar la función:
 
 - [Documentación de indexación de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Guía de indexación de Apache Jackrabbit Oak](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [Documentación de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
+- [Documentación de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides)
 - [Documentación de Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)

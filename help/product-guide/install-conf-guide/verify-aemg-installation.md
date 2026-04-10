@@ -29,7 +29,7 @@ Siga estos pasos para comprobar la instalación:
 
 1. Acceda a la lista de paquetes OSGi en AEM.
 
-   Para obtener más información sobre cómo acceder a los paquetes, consulte [Paquetes](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles) en la documentación de AEM.
+   Para obtener más información sobre cómo acceder a los paquetes, consulte [Paquetes](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=es#bundles) en la documentación de AEM.
 
 1. Busque fmdita en la lista de paquetes y compruebe su estado.
 
