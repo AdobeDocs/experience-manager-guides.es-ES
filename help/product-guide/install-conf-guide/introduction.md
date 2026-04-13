@@ -4,7 +4,8 @@ description: Obtenga información acerca de esta guía
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: 7e44e947348180c3954461a572efec84f34f7bf5
+exl-id: 43167f0e-158e-4599-8451-303750076731
+source-git-commit: 83ccc46ef8b3c2590fa769e43930181578ad96f9
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 1%
@@ -28,5 +29,4 @@ En la tabla siguiente se describe el flujo de trabajo completo en función de la
 
 | Cloud Service | Local |
 |-------------|------------|
-| <ul><li>[Implementación y configuración de Dispatcher](./conf-deployment-dispatcher-cs.md)</li><li>[Verificar AEM Guides](./verify-aemg-installation.md)</li><li>[Actualizar AEM Guides](./download-install-upgrade-aemg.md)</li><li> [Recomendación para la optimización del rendimiento](./perf-optimization-cs.md)</li></ul> | <ul><li>[Requisitos técnicos](./aemg-technical-requirements.md)</li><li>[Instalar AEM](./download-install-aem.md)</li><li>[Descargue e instale AEM Guides por primera vez](./download-install-aemg-first-time.md)</li><li>[Configurar Dispatcher](./conf-dispatcher.md)</li><li>[Verificar AEM Guides](./verify-aemg-installation.md)</li><li>[Desinstalar AEM Guides](./unistall-aemg.md)</li><li>[Actualizar AEM Guides](./download-install-upgrade-aemg.md)</li><li>[Recomendación para la optimización del rendimiento](./perf-optimization-on-prem.md)</li></ul> |
-
+| <ul><li>[Implementación y configuración de Dispatcher](./conf-deployment-dispatcher-cs.md)</li><li>[Verificar AEM Guides](./verify-aemg-installation.md)</li><li>[Actualizar AEM Guides](./download-install-upgrade-aemg.md)</li><li> [Recomendación para la optimización del rendimiento](./perf-optimization-cs.md)</li></ul> | <ul><li>[Requisitos técnicos](./aemg-technical-requirements.md)</li><li>[Instalar AEM](./download-install-aem.md)</li><li>[Descargue e instale AEM Guides por primera vez](./download-install-aemg-first-time.md)</li><li>[Configurar Dispatcher](./conf-dispatcher.md)</li><li>[Verificar AEM Guides](./verify-aemg-installation.md)</li><li>[Desinstalar AEM Guides](./uninstall-aemg.md)</li><li>[Actualizar AEM Guides](./download-install-upgrade-aemg.md)</li><li>[Recomendación para la optimización del rendimiento](./perf-optimization-on-prem.md)</li></ul> |
