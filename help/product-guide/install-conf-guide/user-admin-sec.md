@@ -4,7 +4,8 @@ description: Descubra cómo funcionan la administración de usuarios y la seguri
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: c5ac6537-d7e8-4408-b85d-b82d7c038591
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 10%
@@ -19,7 +20,7 @@ Los siguientes temas de la documentación de Adobe Experience Manager le ayudar�
 
 | Cloud Services | En las instalaciones |
 |---|---|
-| [Usuarios, grupos y permisos de AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=es)<br>[Administración de usuarios y seguridad](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=es) | [Usuarios y grupos en AEM](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[Permisos en AEM](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[Administración de usuarios y grupos](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[Administración de permisos](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
+| [Usuarios, grupos y permisos de AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)<br>[Administración de usuarios y seguridad](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=es) | [Usuarios y grupos en AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[Permisos en AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[Administración de usuarios y grupos](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[Administración de permisos](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
 
 
 ## Grupos de usuarios creados por AEM Guides {#id181TF0K0MHT}
@@ -47,27 +48,27 @@ En la tabla siguiente se enumeran varias tareas y los grupos que pueden realizar
 | Copiar | Sí |   | Sí |
 | Eliminar | Sí |   | Sí |
 | Compartir | Sí |   | Sí |
-| **Estado del documento** |
+| **Estado del documento** |  |  |  |
 | Crear/editar perfil de estado del documento |   |   | Sí |
 | Cambiar el estado del documento[2](#fntarg_2) | Sí | Sí | Sí |
-| **Funciones disponibles en la consola de mapas DITA \(ficha Ajustes preestablecidos de salida\)** |
+| **Funciones disponibles en la consola de mapas DITA \(ficha Ajustes preestablecidos de salida\)** |  |  |  |
 | Generar |   |   | Sí |
 | Editar |   |   | Sí |
 | Duplicado |   |   | Sí |
 | Crear |   |   | Sí |
 | Eliminar ajuste preestablecido |   |   | Sí |
-| **Funciones disponibles en la consola de mapas DITA \(ficha Salidas\)** |
+| **Funciones disponibles en la consola de mapas DITA \(ficha Salidas\)** |  |  |  |
 | Ver salida generada | Sí |   | Sí |
-| **Funciones disponibles en la consola de mapas DITA \(ficha Temas\)** |
+| **Funciones disponibles en la consola de mapas DITA \(ficha Temas\)** |  |  |  |
 | Crear tarea de revisión | Sí |   | Sí |
 | Editar | Sí |   | Sí |
-| **Funciones disponibles en la consola de mapas DITA \(ficha Líneas bases\)** |
+| **Funciones disponibles en la consola de mapas DITA \(ficha Líneas bases\)** |  |  |  |
 | Crear |   |   | Sí |
 | Editar |   |   | Sí |
 | Duplicado |   |   | Sí |
 | Quitar |   |   | Sí |
 | Consola de mapas DITA \(ficha Informes\) | Sí |   | Sí |
-| **Funciones disponibles en la consola de mapas DITA \(Ajustes preestablecidos de condición\)** |
+| **Funciones disponibles en la consola de mapas DITA \(Ajustes preestablecidos de condición\)** |  |  |  |
 | Crear/editar ajuste preestablecido de condición |   |   | Sí |
 
 ## Notas adicionales sobre los grupos de usuarios
@@ -103,8 +104,3 @@ La siguiente lista contiene algunas recomendaciones y puntos relacionados con gr
 - Para otorgar a un usuario derechos para cambiar el estado de un documento, asegúrese de agregar el usuario en la sección de transición de estado del perfil de estado del documento.
 
 [1](#fnsrc_1) Si *Autores* y *Editores* están invitados a una revisión.[2](#fnsrc_2) según los derechos otorgados al usuario en el perfil de estado del documento.
-
-
-
-
-

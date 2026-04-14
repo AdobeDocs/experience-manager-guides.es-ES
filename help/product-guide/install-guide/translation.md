@@ -6,7 +6,7 @@ feature: Translation
 role: Admin
 level: Experienced
 hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 7%
@@ -24,17 +24,17 @@ Automatice la traducción del contenido de la página, los activos y el contenid
 
 La traducción de contenido implica los siguientes pasos:
 
-1. Conecte AEM con su [proveedor de servicios de traducción](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) y cree [configuraciones del marco de trabajo de integración de traducciones](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. Conecte AEM con su [proveedor de servicios de traducción](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) y cree [configuraciones del marco de trabajo de integración de traducciones](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
 
-1. Asocie las páginas del maestro de idioma con el [servicio de traducción y las configuraciones del marco de trabajo](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. Asocie las páginas del maestro de idioma con el [servicio de traducción y las configuraciones del marco de trabajo](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
 
-1. Identifique el tipo de [contenido para traducir](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/tc-rules.html).
+1. Identifique el tipo de [contenido para traducir](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
 
-1. [Preparar el contenido para su traducción](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/tc-prep.html) creando el maestro de idioma y las páginas raíz de las copias de idioma.
+1. [Preparar el contenido para su traducción](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html) creando el maestro de idioma y las páginas raíz de las copias de idioma.
 
-1. Cree [proyectos de traducción](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/tc-manage.html) para recopilar el contenido que se va a traducir y para preparar el proceso de traducción.
+1. Cree [proyectos de traducción](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) para recopilar el contenido que se va a traducir y para preparar el proceso de traducción.
 
-1. Use los proyectos de traducción para [administrar el proceso de traducción de contenido](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/tc-manage.html).
+1. Use los proyectos de traducción para [administrar el proceso de traducción de contenido](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html).
 
 
 Cuando el proveedor de servicios de traducción no proporciona un conector para la integración con AEM, AEM admite la exportación manual y la importación de contenido traducido en formato XML.
@@ -89,7 +89,7 @@ En función del flujo de trabajo de traducción utilizado en la configuración, 
 
    >[!NOTE]
    >
-   > Si está usando un conector de traducción, asegúrese de haber configurado el conector tal como se describe en el tema *[Configuración del marco de trabajo de integración de traducción](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/tc-tic.html)* de la documentación de AEM.
+   > Si está usando un conector de traducción, asegúrese de haber configurado el conector tal como se describe en el tema *[Configuración del marco de trabajo de integración de traducción](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* de la documentación de AEM.
 
 1. Haga clic en **Guardar**.
 
@@ -153,7 +153,7 @@ De forma predeterminada, cuando se realiza una traducción por primera vez, se c
 
 
 
-<!---
+<!--
 
 This was added for 2406 CS IG
 
@@ -185,7 +185,7 @@ Based on the translation workflow used in your setup, provide the following (pro
 1.  Click **Save**.
 
 
---->
+-->
 
 
 ## Configurar el posprocesamiento de las copias de idioma temporales

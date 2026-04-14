@@ -6,7 +6,7 @@ feature: Migration
 role: Admin
 level: Experienced
 hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: 4204b6fe9e56de09bd833007a36330a42b26b57a
 workflow-type: tm+mt
 source-wordcount: '2392'
 ht-degree: 0%
@@ -289,7 +289,8 @@ Para convertir contenido de Adobe FrameMaker no estructurado (.fm y .book) en DI
 
 Después de la conversión, el contenido estructurado se puede migrar a AEM Guides.  Para obtener más información, vea [Cargar contenido DITA existente](./migrate-content-upload-existing-dita-content.md).
 
-<!-- Deprecated information -
+<!--
+Deprecated information -
  //The first step is to create style mappings using FrameMaker and save those settings in a .sts file. Next, if you are using custom DITA, then you can map your custom elements with the source FrameMaker formats in the `ditaElems.xml` file. For example, if you have created a custom element named `impnote` to handle all important notes, then you can define this custom element in the `ditaElems.xml` file. Once this custom element is defined, AEM Guides would not raise an error while converting FrameMaker document containing `impnote` element.
 
 Also, If you want to specify some additional attributes with your custom or valid DITA element, you can define those in the style2attrMap.xml file. For example, you can specify the `type` attribute with the value of `important` to be passed on with the `impnote` element. This additional information can be specified in the style2attrMap.xml file.
@@ -398,4 +399,4 @@ Para convertir los documentos estructurados existentes al formato DITA, realice 
 
 Con el bloque `<config> </config>`, puede definir uno o varios bloques de configuraciones para la conversión. El flujo de trabajo de conversión se ejecuta y el resultado final en forma de tema DITA se guarda en la ubicación especificada en el elemento `outputDir`.
 
-**Tema principal:**&#x200B;[&#x200B; Migrar contenido existente](migrate-content.md)
+**Tema principal:**[ Migrar contenido existente](migrate-content.md)

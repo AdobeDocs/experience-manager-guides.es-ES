@@ -1,10 +1,10 @@
 ---
-title: PDF nativo | Generación de salida de PDF
+title: PDF nativo | Generación de resultados de PDF
 description: Obtenga información sobre cómo utilizar la publicación nativa de PDF, crear y generar un ajuste preestablecido de salida de PDF, descargar archivos temporales después de generar la salida nativa de PDF y utilizar variables de idioma en Adobe Experience Manager Guides.
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Native PDF Output
 role: User
-source-git-commit: a6dafe6c634b872001a2b82d9d081b3e52a75b80
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '3293'
 ht-degree: 0%
@@ -60,8 +60,7 @@ Utilice para especificar la configuración básica de salida, como especificar l
 | **Usar línea de base** | Si ha creado una Línea base para el mapa DITA seleccionado, seleccione esta opción para especificar la versión que desea publicar. Ver [Trabajo con línea de base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) para obtener más detalles. |
 | **Crear PDF con barra de cambios entre versiones publicadas** | Utilice las siguientes opciones para crear un PDF que muestre las diferencias de contenido entre dos versiones con las barras de cambios:   <br><ul><li> **Línea de base de la versión anterior** Elija la versión de línea de base que desea comparar con la versión actual u otra línea de base. Aparecerá una barra de cambios en PDF para indicar el contenido modificado. Una barra de cambios es una línea vertical que identifica visualmente el contenido nuevo o revisado. La barra de cambios aparece a la izquierda del contenido que se ha insertado, modificado o eliminado. <br> **Nota**: Si selecciona **Usar línea de base** y elige una línea de base para publicar, la comparación se realizará entre las dos versiones de línea de base seleccionadas. Por ejemplo, si elige la línea de base Versión 1.3 en **Usar línea de base** y Versión 1.1 en **Línea de base de la versión anterior**, la comparación se realizará entre la línea de base Versión 1.1 y la línea de base Versión 1.3. <br><li> **Mostrar texto agregado** Seleccione esta opción para mostrar el texto insertado en color verde y subrayado. Esta opción está seleccionada de forma predeterminada. <br> <li> **Mostrar texto eliminado** Seleccione esta opción para mostrar el texto eliminado en color rojo y marcado con un tachado. Esta opción está seleccionada de forma predeterminada. <br>**Nota** También puede personalizar el estilo de la barra de cambios, el contenido insertado o el contenido eliminado mediante la hoja de estilo.<br></ul> |
 | **Idioma** | Seleccione el idioma en el que desea traducir el resultado. <br> **Nota**: Los textos de referencia cruzada como &quot;Ver en el capítulo&quot; o &quot;Ver en la página&quot; están controlados por una variable de idioma. La variable utiliza el lenguaje definido en el tema a través del atributo `xml:lang`. Si no se especifica ningún idioma, se usa el idioma preestablecido. Si faltan ambos, el valor predeterminado es inglés (en_US). |
-
-| **Flujo de trabajo de generación posterior** |Seleccione para mostrar una lista desplegable que contenga todos los flujos de trabajo configurados en AEM. Puede seleccionar el flujo de trabajo que desea ejecutar después de la finalización del flujo de trabajo de generación de PDF.|
+| **Flujo de trabajo de generación posterior** | Seleccione para mostrar una lista desplegable que contenga todos los flujos de trabajo configurados en AEM. Puede seleccionar el flujo de trabajo que desea ejecutar después de la finalización del flujo de trabajo de generación de PDF. |
 
 **Metadatos**
 
@@ -82,7 +81,7 @@ En los ajustes preestablecidos de salida, seleccione **PDF** > **Native-PDF** > 
 
 * **Proporcionar archivo XMP**
 
-  También puede rellenar directamente los campos de metadatos importando el archivo [XMP](https://www.adobe.com/es/products/xmp.html) (Extensible Metadata Platform). Puede descargar un archivo de XMP de ejemplo desde aquí.
+  También puede rellenar directamente los campos de metadatos importando el archivo [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). Puede descargar un archivo de XMP de ejemplo desde aquí.
 
 [Descargar](assets/SampleXMP.xmp)
 
@@ -124,7 +123,7 @@ Utilice para definir los diseños de página y especificar las opciones de vista
 | Configuración | Descripción |
 | --- | --- |
 | **Plantilla de PDF** | Las plantillas de PDF proporcionan una estructura clara para definir diseños de página, estilos de contenido y aplicar varias configuraciones a la salida de PDF. Seleccione en las opciones desplegables de PDF template para elegir la plantilla que prefiera. <br> También puede seleccionar **Examinar plantilla** <img src="./assets/browse-templates-icon.svg"  alt= "icono examinar plantillas" width="25"> para elegir una plantilla. En el cuadro de diálogo **Seleccionar plantilla de PDF** también puede obtener una vista previa de la miniatura y ver el título y la descripción de la plantilla seleccionada. |
-| **Visualización de página** | Utilice la Visualización de página para la vista de página que muestra cómo se muestra PDF cuando se abre. Seleccione en las opciones desplegables de Visualización de página para elegir una vista preferida. <br><ul><li> **Predeterminado** se muestra según la configuración predeterminada del visor de PDF en el equipo de un usuario.  <br> <li> **Vista de página única** muestra una página cada vez.   <br> <li> **Desplazamiento de página única** Muestra una sola página en una columna vertical continua.  <br> <li> **Vista de dos páginas** muestra dos páginas en paralelo a la vez. .<br> <li> **Desplazamiento de dos páginas** Muestra un pliego de dos páginas en paralelo con desplazamiento continuo. </ul> |
+| **Visualización de página** | Utilice la Visualización de página para la vista de página que muestra cómo se muestra PDF cuando se abre. Seleccione en las opciones desplegables de Visualización de página para elegir una vista preferida. <br><ul><li> **Predeterminado** se muestra según la configuración predeterminada del visor de PDF en el equipo de un usuario.  <br> <li> **Vista de página única** muestra una página cada vez.   <br> <li> **Desplazamiento de página única** Muestra una sola página en una columna vertical continua.  <br> <li> **Vista de dos páginas** muestra una vista de dos páginas en paralelo a la vez. .<br> <li> **Desplazamiento de dos páginas** Muestra un pliego de dos páginas en paralelo con desplazamiento continuo. </ul> |
 | **Zoom** | Seleccione esta opción para cambiar el tamaño de la vista de página que muestra cómo se muestra PDF cuando se abre.  <br><ul><li> **Predeterminado** se muestra según la configuración predeterminada del visor de PDF en el equipo de un usuario    <br> <li> **100%** Hace que la página aparezca en su tamaño real.     <br> <li> **Ajustar página** Hace que el ancho y el alto de la página se ajusten al panel del documento.   .<br> <li> **Ajustar ancho de página** Hace que el ancho de la página llene el ancho del panel del documento.  <br> <li> **Ajustar alto de página** Hace que el alto de la página ocupe el alto del panel del documento. </ul> |
 
 **Seguridad**
@@ -186,13 +185,12 @@ Utilice las siguientes opciones para especificar la configuración avanzada para
 | **Crear formulario PDF interactivo** | Seleccione esta opción si desea incluir campos de formulario de PDF interactivos y personalizables para mejorar la entrada del usuario en las salidas de PDF generadas. |
 | **Incluir cambios de seguimiento** | Seleccione esta opción si desea incluir las marcas de revisión en el PDF generado para facilitar la revisión y comparación. |
 | **Conservar archivos temporales** | Seleccione esta opción si desea conservar los archivos HTML provisionales creados al generar la salida nativa de PDF. Posteriormente, puede descargar los archivos temporales después de generar la salida. Los archivos descargados también incluirían `system_config.xml` archivo que le brinda información sobre la URL del autor, la URL local y la URL de publicación. Estas direcciones URL se configuran en la configuración de externalización de AEM y se reflejan en el archivo `system_config.xml`. |
-| **Conformidad de PDF** | Es el estándar con el que pretende guardar el PDF para asegurarse de que es compatible. Seleccione en el menú desplegable para elegir entre la lista de estándares de PDF disponibles. Para obtener más información acerca de los estándares admitidos, vea [Acerca de los estándares de PDF](https://helpx.adobe.com/es/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Conformidad de PDF** | Es el estándar con el que pretende guardar el PDF para asegurarse de que es compatible. Seleccione en el menú desplegable para elegir entre la lista de estándares de PDF disponibles. Para obtener más información acerca de los estándares admitidos, vea [Acerca de los estándares de PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Propiedades de archivo** | Seleccione los metadatos que desea pasar a la publicación nativa de PDF. La lista desplegable enumera las propiedades personalizadas y predeterminadas. Por ejemplo, `dc:description`, `dc:language`, `dc:title` y `docstate` son las propiedades predeterminadas, mientras que puede tener `author` como propiedad personalizada. Las propiedades de metadatos seleccionadas se pasan al archivo de PDF generado mediante el PDF nativo. <br> Estas propiedades se seleccionaron del archivo `metadataList` disponible en:`/libs/fmdita/config/metadataList`. <br>Este archivo se puede superponer en: `/apps/fmdita/config/metadataList`. |
 
 
 
-<!--------------
-
+<!--
 
 ### Additional notes for PDF output
 
@@ -217,4 +215,4 @@ Experience Manager Guides also provides support for your Markdown documents.  Ma
 
 You can add the Markdown topics to your DITA map and generate the PDF output using the Native PDF output presets.  Learn how to configure or [create a PDF output preset](#create-a-pdf-output-preset-create-output-preset). 
 
---------------->
+-->

@@ -4,7 +4,7 @@ description: Administre contenido e identifique sus funciones y permisos en AEM 
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
 feature: Content Management
 role: User
-source-git-commit: 461692ce786f914dd196f289efef726e42bf9660
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 13%
@@ -21,7 +21,7 @@ Algunos conceptos clave de la administración de contenido en Adobe Experience M
 
 **Administración de recursos**
 
-Experience Manager Guides utiliza la administración de recursos digitales \(DAM\) de Adobe Experience Manager para administrar los archivos DITA. Los archivos que carga o registra en DAM se almacenan como recursos digitales. Puede administrar y editar sus recursos en Adobe Experience Manager Assets. Para obtener más información acerca de la administración de recursos, vea [Administrar recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=es).
+Experience Manager Guides utiliza la administración de recursos digitales \(DAM\) de Adobe Experience Manager para administrar los archivos DITA. Los archivos que carga o registra en DAM se almacenan como recursos digitales. Puede administrar y editar sus recursos en Adobe Experience Manager Assets. Para obtener más información acerca de la administración de recursos, vea [Administrar recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
 
 **Administración de vínculos**
 
@@ -62,27 +62,27 @@ En la tabla siguiente se enumeran varias tareas y los grupos que pueden realizar
 | Copiar | Sí |   | Sí |
 | Eliminar | Sí |   | Sí |
 | Compartir | Sí |   | Sí |
-| **Estado del documento** |
+| **Estado del documento** |  |  |  |
 | Crear/editar perfil de estado del documento |   |   | Sí |
 | Cambiar el estado del documento[2](#fntarg_2) | Sí | Sí | Sí |
-| **Funciones disponibles en la consola de mapas DITA \(ficha Ajustes preestablecidos de salida\)** |
+| **Funciones disponibles en la consola de mapas DITA \(ficha Ajustes preestablecidos de salida\)** |  |  |  |
 | Generar |   |   | Sí |
 | Editar |   |   | Sí |
 | Duplicado |   |   | Sí |
 | Crear |   |   | Sí |
 | Eliminar ajuste preestablecido |   |   | Sí |
-| **Funciones disponibles en la consola de mapas DITA \(ficha Salidas\)** |
+| **Funciones disponibles en la consola de mapas DITA \(ficha Salidas\)** |  |  |  |
 | Ver salida generada | Sí |   | Sí |
-| **Funciones disponibles en la consola de mapas DITA \(ficha Temas\)** |
+| **Funciones disponibles en la consola de mapas DITA \(ficha Temas\)** |  |  |  |
 | Crear tarea de revisión | Sí |   | Sí |
 | Editar | Sí |   | Sí |
-| **Funciones disponibles en la consola de mapas DITA \(ficha Líneas bases\)** |
+| **Funciones disponibles en la consola de mapas DITA \(ficha Líneas bases\)** |  |  |  |
 | Crear |   |   | Sí |
 | Editar |   |   | Sí |
 | Duplicado |   |   | Sí |
 | Quitar |   |   | Sí |
 | Consola de mapas DITA \(ficha Informes\) | Sí |   | Sí |
-| **Funciones disponibles en la consola de mapas DITA \(Ajustes preestablecidos de condición\)** |
+| **Funciones disponibles en la consola de mapas DITA \(Ajustes preestablecidos de condición\)** |  |  |  |
 | Crear/editar ajuste preestablecido de condición |   |   | Sí |
 
 [1](#fnsrc_1) Si *Autores* y *Editores* están invitados a una revisión.

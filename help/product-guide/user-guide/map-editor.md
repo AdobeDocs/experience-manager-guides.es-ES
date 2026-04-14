@@ -4,7 +4,7 @@ description: Trabaje con el Editor de mapas en AEM Guides. Aprenda a crear y edi
 exl-id: 1c780ae2-6917-474f-8222-cb93807426e2
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -17,11 +17,11 @@ El editor de mapas de Adobe Experience Manager Guides le permite crear y editar 
 
 Tenga en cuenta que la configuración de perfiles globales y de carpeta solo está disponible para los usuarios administrativos de nivel de carpeta. Para obtener más información sobre la configuración de perfiles globales y de nivel de carpeta, consulta *Configuración de plantillas de creación* en Instalar y configurar Adobe Experience Manager Guides para tu configuración.
 
-<!------------------------------------
+<!--
 
 The Map Editor comes in two modes — the Basic Map Editor and the Advanced Map Editor. The Basic Map Editor is available only through configuration. If your administrator has enabled it, then only the Basic Map Editor will be available for use. By default, all new maps are opened for editing in the Advanced Map Editor. The Advanced Map Editor is available within the Editor itself, which is used for editing DITA topic files.
 
--------->
+-->
 
 En este tema se explica el proceso de creación de un mapa DITA y, a continuación, el uso del Editor de mapas para editar archivos de mapas.
 
@@ -38,4 +38,4 @@ En este tema se explica el proceso de creación de un mapa DITA y, a continuaci�
 - **[Funciones adicionales en el editor de mapas](map-editor-other-features.md)**
 
 
-**Tema principal:**&#x200B;[&#x200B; Contenido de autor con AEM Guides](authoring-content-xml-doc.md)
+**Tema principal:**[ Contenido de autor con AEM Guides](authoring-content-xml-doc.md)

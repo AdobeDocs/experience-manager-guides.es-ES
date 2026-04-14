@@ -4,7 +4,7 @@ description: Lanzamiento de enero de  [!DNL Adobe Experience Manager Guides] as 
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 0%
@@ -37,8 +37,6 @@ Esta sección enumera la matriz de compatibilidad para las aplicaciones de softw
 | [!DNL AEM Guides] versión de nube | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2022.1.0 | 2.4.0 | 2.4.0 | 2,2 | 2,2 |
-|  |  |  |  |  |  |
-
 
 ## Nuevas funciones y mejoras
 
@@ -197,7 +195,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 ### Tablero de mapas
 
 * No se puede ver el contenido de referencia en el título de un tema en la pestaña de temas o informes del panel de asignación. (8263)
-* Salida de AEM Sites | jcr:title de la página de sitio generada no se actualiza cuando se actualiza el título del tema DITA. (8131)
+* La salida de AEM Sites | jcr:title de la página de sitio generada no se actualiza cuando se actualiza el título del tema DITA. (8131)
 * Download MAP no descarga los archivos de vídeo utilizados dentro de los temas. (8070)
 * Los archivos multimedia no se descargan cuando se utiliza la etiqueta de objeto a través de la API de descarga de bookmap. (8057)
 * Se muestra un informe incorrecto en la pestaña Informes si algún tema tiene una referencia a un archivo cuyo título comience por una referencia. (4698)
@@ -238,7 +236,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 
 * Conversión de HTML a DITA | La tabla con &#39;tr&#39; con entradas &#39;td&#39; vacías provoca filas adicionales en la salida. (8132)
 * Conversión de HTML a DITA | HTML tiene una tabla con varios tbody y falla con la excepción. (7940)
-* Conversión de HTML a DITA | se elimina si el HTML de origen tiene comentarios. (7937)
+* Conversión de HTML a DITA | se eliminan los errores si el HTML de origen tiene comentarios. (7937)
 * La importación de ficheros DITA 1.3 hace que algunos href se transformen en vínculos mal formados. (8019)
 
 ## Problemas conocidos

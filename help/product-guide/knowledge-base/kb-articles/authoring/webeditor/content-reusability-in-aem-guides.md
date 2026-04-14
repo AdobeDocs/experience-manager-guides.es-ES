@@ -4,7 +4,7 @@ description: Este breve artículo explica cómo AEM Guides y DITA le ayudan a ah
 role: User, Admin
 author: Pulkit Nagpal(punagpal)
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
-source-git-commit: f971be4be9e2d32618616727cd9c682941dd3fb2
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -151,15 +151,15 @@ Paso 2: Una vez agregado, arrastre y suelte el fragmento que desee reutilizar en
 
 
 
-## Preguntas más frecuentes
+## Preguntas frecuentes
 
-- ### No se muestra todo el contenido después de seleccionar el archivo o la clave en el cuadro de diálogo Reutilizar contenido
+### No se muestra todo el contenido después de seleccionar el archivo o la clave en el cuadro de diálogo Reutilizar contenido
 
 Asignar ID a fragmentos (elementos Dita) que desee reutilizar en otros temas
 
-- ## Las claves no se muestran en el cuadro de diálogo Reutilizar contenido
+## Las claves no se muestran en el cuadro de diálogo Reutilizar contenido
 
-  Asegúrese de haber abierto el mapa raíz/mapa principal en la vista de mapa, que tiene una definición de clave, o agregue la ruta del mapa raíz manualmente en el mismo cuadro de diálogo.
+Asegúrese de haber abierto el mapa raíz/mapa principal en la vista de mapa, que tiene una definición de clave, o agregue la ruta del mapa raíz manualmente en el mismo cuadro de diálogo.
 
 
 <br>
@@ -167,4 +167,4 @@ Asignar ID a fragmentos (elementos Dita) que desee reutilizar en otros temas
 <br>
 
 
-Publica en la comunidad de AEM Guides [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=es) para cualquier consulta.
+Publica en la comunidad de AEM Guides [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) para cualquier consulta.
