@@ -21,7 +21,7 @@ Algunos conceptos clave de la administración de contenido en Adobe Experience M
 
 **Administración de recursos**
 
-Experience Manager Guides utiliza la administración de recursos digitales \(DAM\) de Adobe Experience Manager para administrar los archivos DITA. Los archivos que carga o registra en DAM se almacenan como recursos digitales. Puede administrar y editar sus recursos en Adobe Experience Manager Assets. Para obtener más información acerca de la administración de recursos, vea [Administrar recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
+Experience Manager Guides utiliza la administración de recursos digitales \(DAM\) de Adobe Experience Manager para administrar los archivos DITA. Los archivos que carga o registra en DAM se almacenan como recursos digitales. Puede administrar y editar sus recursos en Adobe Experience Manager Assets. Para obtener más información acerca de la administración de recursos, vea [Administrar recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=es).
 
 **Administración de vínculos**
 

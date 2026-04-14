@@ -93,13 +93,13 @@ Si publica Ditamap, Native PDF ofrece la funcionalidad de generar TDC y listas d
 
 ## Recursos adicionales:
 
-- [Documentación de diseño de página de diseño nativa de PDF](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [Sesión de expertos pregrabada de elementos esenciales de PDF nativos](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [Documentación de diseño de página de diseño nativa de PDF](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [Sesión de expertos pregrabada de elementos esenciales de PDF nativos](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
 
-Publica en la comunidad de AEM Guides [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) para cualquier consulta.
+Publica en la comunidad de AEM Guides [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=es) para cualquier consulta.
 
 
 
