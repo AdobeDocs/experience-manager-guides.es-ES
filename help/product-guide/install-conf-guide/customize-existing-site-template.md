@@ -4,14 +4,15 @@ description: Aprenda a personalizar las plantillas de sitio de AEM existentes pa
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: eabaec57-e717-45a9-8321-4057b993d7fb
+source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 1%
+source-wordcount: '944'
+ht-degree: 2%
 
 ---
 
-# Personalizar plantillas de sitio de AEM existentes
+# Personalizar nuevas plantillas de sitio de AEM
 
 Esta guía proporciona instrucciones paso a paso para personalizar las plantillas de sitio de AEM existentes y utilizarlas con AEM Guides para generar AEM Sites a partir de temas y mapas DITA.
 
@@ -139,4 +140,4 @@ De forma predeterminada, las bibliotecas de cliente (clientlibs) proporcionadas 
 
 >[!NOTE]
 >
-> Asegúrese de que las plantillas se prueben en un entorno que no sea de producción antes de su implementación en producción.<br><br>Consulte la documentación oficial de [AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/overview) y [AEM Sites](https://experienceleague.adobe.com/es/docs/experience-manager-core-components/using/get-started/authoring) para obtener más detalles.
+> Asegúrese de que las plantillas se prueben en un entorno que no sea de producción antes de su implementación en producción.<br><br>Consulte la documentación oficial de [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) y [AEM Sites](https://experienceleague.adobe.com/es/docs/experience-manager-core-components/using/get-started/authoring) para obtener más detalles.
