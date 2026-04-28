@@ -4,10 +4,11 @@ description: Aprenda a personalizar el contenido del índice
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 612f0be3-9f9d-4e30-ac57-65da227ea08f
+source-git-commit: 9dba92a79858ee8a182d833d09f9907ff895ec38
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 3%
+source-wordcount: '469'
+ht-degree: 7%
 
 ---
 
@@ -210,5 +211,6 @@ La verificación principal consiste en probar la función:
 
 - [Documentación de indexación de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Guía de indexación de Apache Jackrabbit Oak](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [Documentación de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides)
+- [Documentación de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Documentación de Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)
+
