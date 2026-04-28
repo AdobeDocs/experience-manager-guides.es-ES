@@ -28,38 +28,38 @@ Realice los siguientes pasos para configurar los filtros de estado del documento
 En el archivo `ui\_config.json` descargado, consulte la siguiente sección:
 
        &quot;
-     &quot;repositoryFilters&quot;: [
-     {
+     &quot;repositoryFilters&quot;: &lbrack;
+     &lbrace;
      &quot;title&quot;: &quot;Document state&quot;,
      &quot;property&quot;: &quot;jcr:content/metadata/docstate&quot;,
-     &quot;children&quot;: [
-     {
+     &quot;children&quot;: &lbrack;
+     &lbrace;
      &quot;title&quot;: &quot;Draft&quot;,
      &quot;value&quot;: &quot;Draft&quot;
-     },
-     {
+     &rbrace;,
+     &lbrace;
      &quot;title&quot;: &quot;Edit&quot;,
      &quot;value&quot;: &quot;Edit&quot;
      ,
-     {
+     &lbrace;
      &quot;title&quot;: &quot;In-Review&quot;,
      &quot;value&quot;: &quot;In-Review&quot;
-     },
-     {
+     &rbrace;,
+     &lbrace;
      &quot;title&quot;: &quot;Aprobado&quot;,
      &quot;valor&quot;: &quot;Aprobado&quot;
      ,
-     {
+     &lbrace;
      &quot;título&quot;: &quot;Revisado&quot;,
      &quot;valor&quot;: &quot;Revisado&quot;
      ,
-     {
+     &lbrace;
      &quot;título&quot;: &quot;Listo&quot;,
      &quot;valor&quot;: &quot;Listo&quot;
      
-     ]
+     &rbrack;
      
-     ]
+     &rbrack;
      &quot;
    Este fragmento representa los filtros de estado de documento predeterminados disponibles en Experience Manager Guides.
 
@@ -76,4 +76,4 @@ En el archivo `ui\_config.json` descargado, consulte la siguiente sección:
 
 Los filtros configurados se muestran en el panel **Filtros** del Repositorio en la página de inicio.
 
-**Tema principal:**[ Personalizar editor web](conf-web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)
