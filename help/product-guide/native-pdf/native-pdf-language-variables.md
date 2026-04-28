@@ -5,10 +5,9 @@ exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
@@ -123,7 +122,7 @@ Las variables con el mismo ID se importan una vez importado el archivo. Los valo
 >[!NOTE]
 > 
 ><ul><li>Si el archivo no es un archivo XML o si contiene un formato incorrecto que no se asigna con las variables de idioma, verá un error que indica que hay un problema con el archivo XML. 
->&gt;<li>Si el archivo no contiene variables con el mismo ID, verá una advertencia que indica que no se encuentra ninguna variable de idioma coincidente en el archivo importado.
+&gt;<li>Si el archivo no contiene variables con el mismo ID, verá una advertencia que indica que no se encuentra ninguna variable de idioma coincidente en el archivo importado.
 
 ### Opciones de una variable de idioma
 
@@ -131,7 +130,7 @@ Pase el ratón sobre la variable para ver el menú **Opciones** correspondiente.
 
 <img width="550" alt="menú opciones para variables de idioma" src="./assets/language-variable-user-options.png">
 
-*Use el menú&#x200B;**Opciones**&#x200B;para eliminar, obtener una vista previa o duplicar una variable de idioma.*
+*Use el menú&#x200B;**Opciones**para eliminar, obtener una vista previa o duplicar una variable de idioma.*
 
 Puede obtener una vista previa de las variables aplicación y usuario. Para ver cómo se muestra el valor de la variable en la salida, seleccione **Vista previa** en el menú **Opciones** de la variable seleccionada.
 También puede elegir **Eliminar** o **Duplicar** las variables de usuario. Al eliminar una variable de un idioma, se elimina automáticamente de todos los idiomas.

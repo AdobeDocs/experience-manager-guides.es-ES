@@ -5,10 +5,9 @@ exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -18,7 +17,7 @@ ht-degree: 0%
 ## Configurar el almacén de datos \(Obligatorio\)
 
 **¿Cuál es el cambio?**
-Establezca la propiedad `minRecordLength` en un valor de `100` en la configuración `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`. Para obtener más información sobre el almacén de datos de archivos y el almacén de datos S3, consulte el artículo [Configuración de almacenes de nodos y almacenes de datos en AEM 6](https://helpx.adobe.com/es/experience-manager/6-5/sites/deploying/using/data-store-config.html).
+Establezca la propiedad `minRecordLength` en un valor de `100` en la configuración `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`. Para obtener más información sobre el almacén de datos de archivos y el almacén de datos S3, consulte el artículo [Configuración de almacenes de nodos y almacenes de datos en AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html).
 
 >[!NOTE]
 >
@@ -33,7 +32,7 @@ Los ficheros DITA se guardan en el almacén de datos en lugar de en el almacén 
 ## Actualizar índice de Lucene \(Obligatorio\)
 
 **¿Cuál es el cambio?**
-Excluya /var/dxml de oak:index/lucene.
+Excluir /var/dxml de oak:index/lucene.
 
 >[!NOTE]
 >
@@ -52,7 +51,7 @@ Los parámetros de inicio de JVM deben ajustarse cuidadosamente en función de l
 
 - Establezca el tamaño de la pila de JVM en un mínimo de 1/4 de la memoria total disponible. Utilice el parámetro `-Xmx<size>` para establecer el tamaño de memoria de la pila. Establezca el valor de -`Xms` es igual a `-Xmx`.
 
-- Habilitar `-XX:+HeapDumpOnOutOfMemoryError` y establecer la ruta de acceso de `-XX:HeapDumpPath=</path/to/folder` `>`.
+- Habilitar `-XX:+HeapDumpOnOutOfMemoryError` y establecer la ruta de acceso de `-XX:HeapDumpPath=</path/to/folder``>`.
 
 - Activar el registro de Java GC como:
 
@@ -113,7 +112,7 @@ Establezca la propiedad **Limitar páginas del sitio AEM en el montón** en `com
 Esto se puede hacer en tiempo de ejecución a través de la consola Felix o mediante la implementación de código.
 
 **Resultado de este cambio**
-Un mayor número de la propiedad **Limit AEM Site Pages in Heap** optimiza el proceso de generación de resultados del sitio AEM.
+Un número mayor de **Limitar páginas del sitio AEM en el montón** optimiza el proceso de generación de resultados del sitio AEM.
 
 
-**Tema principal:**&#x200B;[&#x200B; Descargar e instalar](download-install.md)
+**Tema principal:**[ Descargar e instalar](download-install.md)

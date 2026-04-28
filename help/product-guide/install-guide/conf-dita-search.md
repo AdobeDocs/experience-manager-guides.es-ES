@@ -5,10 +5,9 @@ exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
 feature: Search Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1704'
 ht-degree: 1%
 
 ---
@@ -179,7 +178,7 @@ Realice los siguientes pasos para agregar elementos o atributos DITA personaliza
 
 1. Abra la página Configuración de la consola web de Adobe Experience Manager. La URL predeterminada para acceder a la página de configuración es:
 
-   http://&lt;server name\>:<port\>/system/console/configMgr
+   http://<server name\>:<port\>/system/console/configMgr
 
 1. Busque y haga clic en el paquete *com.adobe.fmdita.config.ConfigManager*.
 
@@ -203,7 +202,7 @@ Realice los siguientes pasos para habilitar la opción de extracción de metadat
 
 1. Abra la página Configuración de la consola web de Adobe Experience Manager. La URL predeterminada para acceder a la página de configuración es:
 
-   http://&lt;server name\>:<port\>/system/console/configMgr
+   http://<server name\>:<port\>/system/console/configMgr
 
 1. Busque y haga clic en el paquete *com.adobe.fmdita.config.ConfigManager*.
 
@@ -253,7 +252,7 @@ Realice los siguientes pasos para excluir la carpeta de traducción temporal de 
 
 1. Agregue la siguiente propiedad en el nodo damAssetLucene:
 
-   | Nombre de la propiedad | Tipo | Valor  |
+   | Nombre de la propiedad | Tipo | Valor |
    |-------------|----|-----|
    | excludedPaths | Cadena\[\] | Agregue el siguiente valor a esta propiedad: <br>/content/dam/projects/translation\_output |
 
@@ -263,6 +262,6 @@ Realice los siguientes pasos para excluir la carpeta de traducción temporal de 
 
 1. Agregue la siguiente propiedad en el nodo lucene:
 
-   | Nombre de la propiedad | Tipo | Valor  |
+   | Nombre de la propiedad | Tipo | Valor |
    |-------------|----|-----|
    | excludedPaths | Cadena\[\] | Agregue los siguientes valores a esta propiedad: <br><ul><li>/var/dxml</li><li>/content/dam/projects/translation\_output</li></ul> |

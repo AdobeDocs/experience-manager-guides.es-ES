@@ -4,11 +4,10 @@ description: Descubra las funciones del Editor en Adobe Experience Manager Guide
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-hidefromtoc: true
 hide: true
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '18659'
+source-wordcount: '18790'
 ht-degree: 0%
 
 ---
@@ -109,7 +108,7 @@ La opción **Configuración** solo está disponible para administradores y admin
    - **Citas**
 Cambiar el estilo de las citas. Elija el estilo de cita de la lista desplegable que desee utilizar en su proyecto. Para obtener más información, vea [Cambiar estilos de cita](./web-editor-apply-citations.md#change-citation-style).
 
-   - **Ayudante de IA**
+   - **Asistente de IA**
 Seleccione esta opción para habilitar la función [Ayudante de IA](./ai-assistant.md) en Experience Manager Guides. Anule la selección para deshabilitar la función.
 
 **Paneles**: esta opción controla los paneles que se muestran en los paneles izquierdo y derecho de la consola Editor y Mapa. Puede alternar el botón para mostrar u ocultar el panel deseado.
@@ -341,7 +340,7 @@ Para acceder al historial de versiones y volver a una versión específica del t
 
    Pestaña **Metadatos**: los metadatos agregados recientemente están en fuente verde y los metadatos eliminados están en fuente roja.
 
-   ![Diferencia de metadatos para las versiones &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Diferencia de metadatos para las versiones ](images/metadata-version-diff.png){width="550" align="left"}
 
    *Comparar los metadatos de distintas versiones en el historial de versiones.*
 
@@ -1000,7 +999,7 @@ Tiene las siguientes opciones para filtrar los archivos y limitar la búsqueda e
 - **Archivos DITA**: Puede buscar todos los **temas DITA** y **mapas DITA** presentes en la ruta seleccionada. Están seleccionadas de forma predeterminada.
 - **Archivos que no son DITA**: puede buscar **archivos Ditaval**, **archivos de imagen**, **multimedia**, **documentos** y **JSON** en la ruta seleccionada.
 
-  ![filtro de búsqueda rápida &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![filtro de búsqueda rápida ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *Utilice los filtros rápidos para buscar archivos DITA y no DITA.*
 
@@ -1673,7 +1672,7 @@ Las definiciones del asunto se definen en `subject_scheme_map_1.ditamap`
     </subjectScheme>
 ```
 
-La definición de la enumeración está presente en    subject_scheme_map_2.ditamap.
+La definición de la enumeración está presente en subject_scheme_map_2.ditamap.
 
 ```XML
 <?xml version="1.0" encoding="UTF-8"?> 
@@ -1975,7 +1974,7 @@ Puede acceder a la función **Propiedades de contenido** seleccionando el icono 
 
 1. En el panel desplegable **Atributo**, seleccione el atributo en la lista desplegable y especifique el valor de un atributo.  Luego selecciona **Agregar**.
 
-   ![panel de atributos con varios atributos &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![panel de atributos con varios atributos ](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Para editar el atributo, pasa el ratón sobre él y selecciona **Editar** ![editar-icono](images/edit_pencil_icon.svg).
 

@@ -5,10 +5,9 @@ exl-id: 05215bec-653b-4563-83c6-a1bb16200469
 feature: Filename Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '145'
 ht-degree: 1%
 
 ---
@@ -23,4 +22,4 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Agregue los caracteres que desee reemplazar con un guion bajo en los nombres de los archivos de salida del sitio de AEM. <br> **Valor predeterminado**: ``'<\>\`@$`` |
 
-**Tema principal:**&#x200B;[&#x200B; Configurar nombres de archivo](conf-file-names.md)
+**Tema principal:**[ Configurar nombres de archivo](conf-file-names.md)

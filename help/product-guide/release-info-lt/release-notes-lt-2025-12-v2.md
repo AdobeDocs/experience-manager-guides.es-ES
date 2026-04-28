@@ -2,10 +2,10 @@
 title: Notas de versión | Novedades de la versión de diciembre de 2025 de Formación del producto y contenido de aprendizaje
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión de diciembre de 2025 de Formación del producto y contenido de aprendizaje
 role: Leader
-hidefromtoc: true
-source-git-commit: a5a5202d652096ef4de1db78b8638e605e9d80f4
+exl-id: 72d4fd5c-194a-4671-bcec-35fc35ff3165
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,3 @@ Esta nota de la versión cubre las nuevas y mejoradas funciones introducidas en 
   Para obtener más información, vea [Agregar componentes básicos](../learning-content/lc-basic-blocks.md).
 
   ![](assets/reusable-content.png){width="650" align="left"}
-
-
-
-

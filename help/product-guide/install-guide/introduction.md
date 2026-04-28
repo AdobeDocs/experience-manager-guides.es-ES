@@ -5,10 +5,9 @@ exl-id: 90d5ad94-eb68-4d73-9b23-a1f3d4b802ba
 feature: Introduction
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -69,9 +68,9 @@ La información de esta guía está organizada de la siguiente manera:
 
 ## Recursos adicionales
 
-A continuación se muestra una lista de otros recursos útiles de AEM Guides, que están disponibles en la página [Aprendizaje y asistencia](https://helpx.adobe.com/es/support/xml-documentation-for-experience-manager.html):
+A continuación se muestra una lista de otros recursos útiles de AEM Guides, que están disponibles en la página [Aprendizaje y asistencia](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
 
 - Guía del usuario
 - Guía de referencia de API
 - Guía de inicio rápido
-- [Página de archivo de ayuda](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/archive.html) \(acceder a la documentación de la versión anterior\)
+- [Página de archivo de ayuda](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(acceder a la documentación de la versión anterior\)

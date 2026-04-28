@@ -5,8 +5,7 @@ exl-id: a9b2c479-7bf6-4c62-addd-fdfe74dc1f69
 feature: Template Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 2%
@@ -78,4 +77,4 @@ Para configurar una carpeta para las plantillas de temas DITA personalizadas, re
 
 Si la ubicación especificada existe en DAM, todas las plantillas predeterminadas de temas y asignaciones se copian en esa carpeta. Si la ubicación no existe, la carpeta se creará con todas las plantillas predeterminadas de asignación y tema.
 
-**Tema principal:**&#x200B;[&#x200B; Configurar plantillas de temas y asignaciones](conf-template-tags.md)
+**Tema principal:**[ Configurar plantillas de temas y asignaciones](conf-template-tags.md)

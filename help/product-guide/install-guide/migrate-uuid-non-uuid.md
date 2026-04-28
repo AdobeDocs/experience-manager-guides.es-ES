@@ -5,8 +5,7 @@ exl-id: f8b723bf-84c0-4fe6-936e-63970fb3e417
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -58,7 +57,7 @@ La utilidad de migración procesa los recursos a una velocidad media de ~50 ms p
 Para ver los pasos detallados sobre la migración del contenido, consulte los siguientes artículos:
 
 - [**4.3.1 sin UUID a 4.3.2 Migración de contenido UUID**](./migrate-non-uuid-4-3.md)
-- [Migración de contenido de UUID del paquete de servicio 4 **4.6.0 sin UUID a 4.6.1**](./migrate-non-uuid-uuid-4-6.md)
+- [**4.6.0 Service Pack 4 sin UUID para la migración de contenido UUID 4.6.1**](./migrate-non-uuid-uuid-4-6.md)
 
 
 

@@ -5,10 +5,9 @@ exl-id: 4d3e0fc1-b684-44f9-ab0d-411033024019
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1809'
 ht-degree: 0%
 
 ---
@@ -77,7 +76,7 @@ Siga estos pasos para cargar el complemento DITA-OT personalizado en el reposito
    | Rutas de biblioteca DITA-OT | \(*Opcional*\) Especifique las rutas de biblioteca adicionales del complemento DITA-OT. |
    | XML de compilación DITA-OT | \(*Opcional*\) Especifique la ruta del script de compilación Ant personalizado que se incluye con el complemento DITA-OT personalizado. Esta ruta es relativa al directorio DITA-OT del sistema de archivos. |
    | Carpeta de script DITA-OT Ant | \(Opcional\) Especifique la ruta de la carpeta de scripts DITA-OT Ant. Esta ruta es relativa al directorio DITA-OT del sistema de archivos. |
-   | Variables de entorno DITA-OT | *\(Opcional\)* Especifique las variables de entorno que desea pasar al proceso DITA-OT. De manera predeterminada, AEM Guides agrega cuatro variables: `ANT_OPTS`, `ANT_HOME`, `PATH` y `CLASSPATH`. <br> Puede reutilizar cualquiera de las variables o propiedades de entorno del sistema existentes para generar nuevas variables de entorno. Por ejemplo, si tiene `JAVA_HOME` variable de sistema definida en el sistema y desea definir una nueva variable de entorno llamada `JAVA_BIN` que se ha creado con `JAVA_HOME`. A continuación, puede agregar la definición de `JAVA_BIN` como:`JAVA_BIN= ${JAVA_HOME}/bin` <br> **Nota:** También puede usar las propiedades del sistema Java para generar variables de entorno. Por ejemplo, si el script de inicio de AEM define una propiedad del sistema Java `java.io.tmpdir` en un directorio temporal, puede utilizar esta propiedad para definir una nueva variable como: `${java.io.tmpdir}/fmdita/dita_ot`. <br> **Importante:** Para reutilizar cualquier variable o propiedad del sistema existente, debe estar incluida en `${}`. |
+   | Variables de entorno DITA-OT | *\(Opcional\)* Especifique las variables de entorno que desea pasar al proceso DITA-OT. De manera predeterminada, AEM Guides agrega cuatro variables: `ANT_OPTS`, `ANT_HOME`, `PATH` y `CLASSPATH`. <br> Puede reutilizar cualquiera de las variables o propiedades de entorno del sistema existentes para crear nuevas variables de entorno. Por ejemplo, si tiene `JAVA_HOME` variable de sistema definida en el sistema y desea definir una nueva variable de entorno llamada `JAVA_BIN` que se ha creado con `JAVA_HOME`. A continuación, puede agregar la definición de `JAVA_BIN` como:`JAVA_BIN= ${JAVA_HOME}/bin` <br> **Nota:** También puede usar las propiedades del sistema Java para generar variables de entorno. Por ejemplo, si el script de inicio de AEM define una propiedad del sistema Java `java.io.tmpdir` en un directorio temporal, puede utilizar esta propiedad para definir una nueva variable como: `${java.io.tmpdir}/fmdita/dita_ot`. <br> **Importante:** Para reutilizar cualquier variable o propiedad del sistema existente, debe estar incluida en `${}`. |
    | Sobrescribir salida DITA-OT | Elija si la salida DITA-OT debe sobrescribirse. Mantenga esta opción seleccionada. |
    | Ruta de archivo zip de AEM DITA-OT | Especifique la ruta completa en la que se almacena el archivo DITA-OT.zip personalizado en el repositorio de AEM. |
    | Ruta de complemento de DITA-OT | Ruta del complemento personalizado. Este complemento se integra automáticamente con el paquete DITA-OT principal. |

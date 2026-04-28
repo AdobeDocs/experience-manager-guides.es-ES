@@ -5,10 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '5127'
+source-wordcount: '5239'
 ht-degree: 0%
 
 ---
@@ -218,7 +217,7 @@ Si utiliza un atributo personalizado, debe ser un atributo DITA válido admitido
 
    >[!IMPORTANT]
    >
-   > El archivo DTD especializado debe formar parte de la implementación de código personalizado. Las DTD en /apps forman parte de la implementación del producto y, por lo tanto, se sobrescriben con la instalación de cualquier nueva versión. Se recomienda añadir DTD especializada en /var/xml/dita\_resources dentro de la carpeta del proyecto e incluir la ruta de DTD/catálogo en el perfil DITA. Para obtener más información, consulte [Integrar la especialización DITA](dita-ot-specialization.md#id211MB0E00XA).
+   > El archivo DTD especializado debe formar parte de la implementación de código personalizado. Las DTD en /apps forman parte de la implementación del producto y, por lo tanto, se sobrescriben con la instalación de cualquier nueva versión. Se recomienda añadir DTD especializada en /var/xml/dita\_resources dentro de la carpeta del proyecto e incluir la ruta de DTD/catálogo en el perfil DITA.Para obtener más información, consulte [Integración de la especialización DITA](dita-ot-specialization.md#id211MB0E00XA).
 
 1. Utilice el Administrador de paquetes para descargar el archivo /libs/fmdita/config/condAttrList.xml:
 
@@ -412,7 +411,7 @@ Si ha actualizado un ajuste preestablecido de salida existente o desea que un nu
 
 ## Configuración del asistente de IA para la creación y la ayuda inteligentes
 
-Para Experience Manager Guides as a Cloud Service (![nube de AEM &#x200B;](assets/aem-cloud-icon.svg)).
+Para Experience Manager Guides as a Cloud Service (![nube de AEM ](assets/aem-cloud-icon.svg)).
 
 El asistente de IA de Adobe Experience Manager Guides es una potente herramienta impulsada por IA que se ha diseñado para mejorar el contenido mediante la creación inteligente y las experiencias de reutilización de contenido. Reúne dos características de IA sólidas — **Creación** y **Ayuda** — en la interfaz de Experience Manager Guides, lo que le permite autorizar documentos y acceder a información de forma más rápida y eficaz.
 
@@ -498,9 +497,9 @@ Para garantizar que las sugerencias inteligentes funcionen correctamente, tenga 
 
 **Personalizar las preguntas predeterminadas para la ayuda inteligente**
 
-Para Experience Manager Guides as a Cloud Service (![nube de AEM &#x200B;](assets/aem-cloud-icon.svg)).
+Para Experience Manager Guides as a Cloud Service (![nube de AEM ](assets/aem-cloud-icon.svg)).
 
-Puede configurar la **Ayuda** inteligente con tecnología de IA para ayudar a los autores a hacer preguntas y encontrar fácilmente el contenido requerido de la [documentación de Experience Manager Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/overview).
+Puede configurar la **Ayuda** inteligente con tecnología de IA para ayudar a los autores a hacer preguntas y encontrar fácilmente el contenido requerido de la [documentación de Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 La ficha **Configuración del editor XML** le permite configurar las preguntas predeterminadas del panel **Ayuda**.
 
@@ -552,7 +551,7 @@ De forma predeterminada, el Editor XML incluye muchas características que ayuda
 
 Esta configuración le permite crear extensiones JSON que reflejen las modificaciones realizadas en el archivo `ui_config.json`. Puede cargar de forma independiente estas extensiones en el nivel de perfil de carpeta, lo que ofrece una mayor flexibilidad y personalización. Por ejemplo, cuando se realizan cambios en la **configuración del editor XML**, como actualizar un botón, el sistema identifica automáticamente las diferencias. Al cargar estos cambios en la **configuración de la interfaz de usuario del editor XML** y convertirlos en extensiones JSON mediante el botón **Convertir configuración de la interfaz de usuario a JSON**, el sistema genera una extensión que incorpora la nueva funcionalidad.
 
-Obtenga más información sobre [personalizar configuraciones de JSON y convertir configuraciones de IU para el nuevo Editor de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Obtenga más información sobre [personalizar configuraciones de JSON y convertir configuraciones de IU para el nuevo Editor de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >

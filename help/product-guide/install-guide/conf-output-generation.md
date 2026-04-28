@@ -5,11 +5,10 @@ exl-id: 6df31e3c-683c-4188-b917-9c1855d9b95b
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '5824'
-ht-degree: 0%
+source-wordcount: '5886'
+ht-degree: 1%
 
 ---
 
@@ -58,7 +57,7 @@ Para configurar AEM Guides para que utilice FMPS, actualice las siguientes propi
 
 | Propiedad | Descripción |
 |--------|-----------|
-| Dominio de inicio de sesión de FrameMaker Publishing Server | Especifique el nombre de dominio o el nombre del grupo de trabajo en el que está alojado FrameMaker Publishing Server. Según la versión de FMPS, proporcione el nombre de dominio como :-   **FMPS 2020**: la dirección IP 192.168.1.101 <br>- **FMPS 2019 y anteriores**: la dirección IP o el nombre de dominio |
+| Dominio de inicio de sesión de FrameMaker Publishing Server | Especifique el nombre de dominio o el nombre del grupo de trabajo en el que está alojado FrameMaker Publishing Server. Según la versión de FMPS, proporcione el nombre de dominio como :- **FMPS 2020**: la dirección IP como 192.168.1.101 <br>- **FMPS 2019 y anteriores**: la dirección IP o el nombre de dominio |
 | URL de FrameMaker Publishing Server | Especifique la URL de FrameMaker Publishing Server. Según la versión de FMPS, proporcione la URL de FMPS como:<br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 y anteriores**: `http://<fmps_ip>:<port>/fmserver/v1/` |
 | Versión de FMPS | Especifique el número de versión de FrameMaker Publishing Server. Según la versión de FMPS, proporcione la información de la versión como: <br>- **FMPS 2020**: 2020 <br> - **FMPS 2019 y anteriores**: 2019 o 2017 |
 | Usuario y contraseña de FrameMaker Publishing Server | Especifique el nombre de usuario y la contraseña para acceder a FrameMaker Publishing Server. |
@@ -96,7 +95,7 @@ Realice los siguientes pasos para configurar las propiedades de plantilla del si
 
 1. Añada las siguientes propiedades:
 
-   | Nombre de la propiedad | Tipo | Valor  |
+   | Nombre de la propiedad | Tipo | Valor |
    |-------------|----|-----|
    | `topicContentNode` | Cadena | Especifique el nombre del nodo donde desea publicar el contenido DITA. Por ejemplo, el nodo predeterminado donde AEM Guides publica contenido DITA es: <br>`jcr:content/contentnode` |
    | `topicHeadNode` | Cadena | Especifique el nombre del nodo donde desea almacenar la información de metadatos del contenido DITA. Por ejemplo, el nodo predeterminado donde AEM Guides almacena información de metadatos es: <br>`jcr:content/headnode` |
@@ -186,7 +185,7 @@ Realice los siguientes pasos para especificar su propia plantilla de diseño par
 >
 > Después de crear un nodo de plantilla de diseño personalizado, debe actualizar la opción Diseño en los ajustes preestablecidos de salida del sitio de AEM para utilizar el nodo de plantilla de diseño personalizado.
 
-Para obtener más información, consulte [Creación de su primer sitio web de Adobe Experience Manager 6.3](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) y [Aspectos básicos](https://helpx.adobe.com/es/experience-manager/6-3/sites/developing/using/the-basics.html) del desarrollo de su propio sitio web en AEM.
+Para obtener más información, consulte [Creación de su primer sitio web de Adobe Experience Manager 6.3](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) y [Aspectos básicos](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/the-basics.html) del desarrollo de su propio sitio web en AEM.
 
 ### Usar título de documento para generar salida del sitio de AEM
 
@@ -333,7 +332,7 @@ Para excluir el elemento `table` del acoplamiento, agregue la siguiente propieda
 
 ### Configuración de las versiones para las páginas eliminadas en la salida del sitio de AEM
 
-Cuando genera la salida del sitio de AEM con la opción **Eliminar y** Crear **&#x200B;**&#x200B;seleccionada para la configuración Páginas de salida existentes, se crea una versión para las páginas que se están eliminando. Puede configurar el sistema para que detenga la creación de una versión antes de la eliminación.
+Cuando genera la salida del sitio de AEM con la opción **Eliminar y** Crear ****seleccionada para la configuración Páginas de salida existentes, se crea una versión para las páginas que se están eliminando. Puede configurar el sistema para que detenga la creación de una versión antes de la eliminación.
 
 Realice los siguientes pasos para detener la creación de una versión para la página que se está eliminando:
 
@@ -394,7 +393,7 @@ Para añadir los metadatos necesarios en el sistema, realice los siguientes paso
 
    1. En la **Etiqueta de campo**, escriba el nombre de los metadatos— Audiencia.
 
-   1. En la configuración **Asignar a propiedad**, especifique/jcr:content/metadata/&lt;nombre de los metadatos\>. Para nuestro ejemplo, lo estableceremos en ./jcr:content/metadata/audience.
+   1. En la configuración **Asignar a propiedad**, especifique ./jcr:content/metadata/&lt;nombre de los metadatos\>. Para nuestro ejemplo, lo estableceremos en ./jcr:content/metadata/audience.
 
    Siga estos pasos para agregar todos los parámetros de metadatos necesarios.
 
@@ -643,11 +642,11 @@ AEM Guides proporciona la categoría `apps.fmdita.dashboard-extn` para personali
 
 >[!NOTE]
 >
-> Para obtener más información acerca de cómo crear la biblioteca de cliente de AEM, vea [Usar bibliotecas del lado del cliente](https://helpx.adobe.com/es/experience-manager/6-4/sites/developing/using/clientlibs.html).
+> Para obtener más información acerca de cómo crear la biblioteca de cliente de AEM, vea [Usar bibliotecas del lado del cliente](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html).
 
 ## Controlar la representación de imágenes durante la generación de salida {#id177BF0G0VY4}
 
-AEM incluye un conjunto de flujos de trabajo predeterminados y controladores de medios para procesar recursos. En AEM, hay flujos de trabajo predefinidos para gestionar el procesamiento de recursos para los tipos MIME más comunes. Normalmente, para cada imagen que carga, AEM crea varias representaciones de la misma en formato binario. Estas representaciones pueden tener un tamaño diferente, con una resolución diferente, con una marca de agua agregada o cualquier otra característica modificada. Para obtener más información sobre cómo administra AEM los recursos, consulte [Procesamiento de Assets mediante controladores de medios y flujos de trabajo](https://helpx.adobe.com/es/experience-manager/6-5/assets/using/media-handlers.html) en la documentación de AEM.
+AEM incluye un conjunto de flujos de trabajo predeterminados y controladores de medios para procesar recursos. En AEM, hay flujos de trabajo predefinidos para gestionar el procesamiento de recursos para los tipos MIME más comunes. Normalmente, para cada imagen que carga, AEM crea varias representaciones de la misma en formato binario. Estas representaciones pueden tener un tamaño diferente, con una resolución diferente, con una marca de agua agregada o cualquier otra característica modificada. Para obtener más información sobre cómo administra AEM los recursos, consulte [Procesamiento de Assets mediante controladores de medios y flujos de trabajo](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html) en la documentación de AEM.
 
 AEM Guides le permite configurar qué representación de imágenes utilizar en el momento de generar la salida de sus documentos. Por ejemplo, puede elegir una de las representaciones de imágenes predeterminadas o crear una y utilizar la misma para publicar los documentos. La asignación de representación de imágenes para publicar los documentos se almacena en el archivo `/libs/fmdita/config/ **renditionmap.xml**`. Un fragmento del archivo `renditionmap.xml` es el siguiente:
 

@@ -5,10 +5,9 @@ exl-id: d7bf7e69-fe12-4c48-8ce4-17b74a6c61e7
 feature: Profiles
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '3896'
+source-wordcount: '3974'
 ht-degree: 0%
 
 ---
@@ -218,7 +217,7 @@ Si utiliza un atributo personalizado, debe ser un atributo DITA válido admitido
 
    >[!IMPORTANT]
    >
-   > El archivo DTD especializado debe formar parte de la implementación de código personalizado. Las DTD en /etc forman parte de la implementación del producto y, por lo tanto, se sobrescriben con la instalación de cualquier nueva versión. Se recomienda añadir DTD especializada en /apps dentro de la carpeta del proyecto e incluir la ruta DTD/catálogo en el perfil DITA. Para obtener más información, consulte [Integrar la especialización DITA](dita-ot-specialization.md#id211MB0E00XA).
+   > El archivo DTD especializado debe formar parte de la implementación de código personalizado. Las DTD en /etc forman parte de la implementación del producto y, por lo tanto, se sobrescriben con la instalación de cualquier nueva versión. Se recomienda añadir DTD especializada en /apps dentro de la carpeta del proyecto e incluir la ruta DTD/catálogo en el perfil DITA.Para obtener más información, consulte [Integración de la especialización DITA](dita-ot-specialization.md#id211MB0E00XA).
 
 1. Abra la página Configuración de la consola web de Adobe Experience Manager.
 
@@ -421,7 +420,7 @@ De forma predeterminada, el Editor Web XML incluye muchas características que a
 
 **Configuración de la interfaz de usuario del editor XML**
 
-Esta opción controla la barra de herramientas y los demás elementos de interfaz de usuario del Editor Web. Haga clic en el icono **Descargar** para descargar el archivo ui\_config.json más reciente en su sistema local. A continuación, puede realizar cambios en el archivo y cargarlo. Haga clic en el icono **Descargar predeterminado** para descargar el archivo ui\_config.json predeterminado en su sistema local. Siempre puede descargar el archivo predeterminado, realizar cambios en él y cargarlo.Dependiendo de dónde esté cargando el archivo, del perfil global o de nivel de carpeta, los cambios se aplican en consecuencia. Para obtener más información acerca de cómo personalizar el Editor XML mediante el archivo ui\_config.json, consulte [Personalizar barra de herramientas](conf-web-editor-customize-toolbar.md#).
+Esta opción controla la barra de herramientas y los demás elementos de interfaz de usuario del Editor Web. Haga clic en el icono **Descargar** para descargar el archivo ui\_config.json más reciente en su sistema local. A continuación, puede realizar cambios en el archivo y cargarlo. Haga clic en el icono **Descargar predeterminado** para descargar el archivo ui\_config.json predeterminado en su sistema local. Siempre puede descargar el archivo predeterminado, realizar cambios en él y cargarlo.Dependiendo de dónde cargue el archivo en el perfil global o de nivel de carpeta, los cambios se aplicarán en consecuencia. Para obtener más información acerca de cómo personalizar el Editor XML mediante el archivo ui\_config.json, consulte [Personalizar barra de herramientas](conf-web-editor-customize-toolbar.md#).
 
 **Diseño de plantilla CSS**
 
@@ -449,13 +448,13 @@ Con el archivo de configuración de esta sección, puede crear algunos fragmento
 
 Se requieren los siguientes detalles para crear un fragmento de código:
 
-- **snippetID:**   Un ID único para el fragmento. Puede tomar un valor alfanumérico.
+- **snippetID:** Un identificador único para el fragmento. Puede tomar un valor alfanumérico.
 
-- **nombre:**   Un nombre descriptivo para identificar el fragmento de código. Este nombre aparece en el panel Fragmentos de código.
+- **nombre:** Un nombre descriptivo para identificar el fragmento. Este nombre aparece en el panel Fragmentos de código.
 
-- **descripción:**   Agregue información descriptiva para el fragmento.
+- **descripción:** Agregue información descriptiva para el fragmento.
 
-- **valor:**   Proporcione el código XML del fragmento de código.
+- **valor:** Proporcione el código XML del fragmento.
 
 >[!NOTE]
 >

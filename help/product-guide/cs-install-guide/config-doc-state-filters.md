@@ -5,10 +5,9 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 682c915b-bc42-4d2e-84a0-9e88734e278e
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -29,39 +28,39 @@ Realice los siguientes pasos para configurar los filtros de estado del documento
 En el archivo `ui\_config.json` descargado, consulte la siguiente sección:
 
        &quot;
-       &quot;repositoryFilters&quot;: &lbrack;
-       &lbrace;
-       &quot;title&quot;: &quot;Estado del documento&quot;,
-       &quot;property&quot;: &quot;jcr:content/metadata/docstate&quot;,
-       &quot;hijos&quot;: &lbrack;
-       &lbrace;
-       &quot;título&quot;: &quot;Borrador&quot;,
-       &quot;value&quot;: &quot;Borrador&quot;
-       ,
-       &lbrace;
-       &quot;título&quot;: &quot;Editar&quot;,
-       &quot;valor&quot;: &quot;Editar&quot;
-       ,
-       &lbrace;
-       &quot;título&quot;: &quot;En revisión&quot;,
-       &quot;valor&quot;: &quot;En revisión&quot;
-       ,
-       &lbrace;
-       &quot;title&quot;: &quot;Approved&quot;,
-       &quot;valor&quot;: &quot;Aprobado&quot;
-       ,
-       &lbrace;
-       &quot;título&quot;: &quot;Revisado&quot;,
-       &quot;valor&quot;: &quot;Revisado&quot;
-       ,
-       &lbrace;
-       &quot;título&quot;: &quot;Listo&quot;,
-       &quot;valor&quot;: &quot;Listo&quot;
-       
-       &rbrack;
-       
-       &rbrack;
-       &quot;
+     &quot;repositoryFilters&quot;: [
+     {
+     &quot;title&quot;: &quot;Document state&quot;,
+     &quot;property&quot;: &quot;jcr:content/metadata/docstate&quot;,
+     &quot;children&quot;: [
+     {
+     &quot;title&quot;: &quot;Draft&quot;,
+     &quot;value&quot;: &quot;Draft&quot;
+     },
+     {
+     &quot;title&quot;: &quot;Edit&quot;,
+     &quot;value&quot;: &quot;Edit&quot;
+     ,
+     {
+     &quot;title&quot;: &quot;In-Review&quot;,
+     &quot;value&quot;: &quot;In-Review&quot;
+     },
+     {
+     &quot;title&quot;: &quot;Aprobado&quot;,
+     &quot;valor&quot;: &quot;Aprobado&quot;
+     ,
+     {
+     &quot;título&quot;: &quot;Revisado&quot;,
+     &quot;valor&quot;: &quot;Revisado&quot;
+     ,
+     {
+     &quot;título&quot;: &quot;Listo&quot;,
+     &quot;valor&quot;: &quot;Listo&quot;
+     
+     ]
+     
+     ]
+     &quot;
    Este fragmento representa los filtros de estado de documento predeterminados disponibles en Experience Manager Guides.
 
 1. Puede personalizar los valores de filtro en función del flujo de trabajo de su organización. Por ejemplo, para agregar un estado de documento personalizado **Pendiente**, inserte la siguiente entrada en `children`:
@@ -77,4 +76,4 @@ En el archivo `ui\_config.json` descargado, consulte la siguiente sección:
 
 Los filtros configurados se muestran en el panel **Filtros** del Repositorio en la página de inicio.
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)
+**Tema principal:**[ Personalizar editor web](conf-web-editor.md)

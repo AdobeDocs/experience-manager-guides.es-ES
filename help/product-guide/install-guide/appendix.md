@@ -5,10 +5,9 @@ exl-id: 02da0e61-7a73-4c4c-9bd7-2664d90fa728
 feature: InDesign File Conversion
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2851'
+source-wordcount: '2865'
 ht-degree: 0%
 
 ---
@@ -454,7 +453,7 @@ Realice los siguientes pasos para comprobar las referencias mediante el script d
 1. Ejecute el script de validación \[`/bin/fmdita/validatebtree?operation=validate`\] para comprobar si hay alguna referencia rota nueva.
 1. Si la secuencia de comandos validate informa de algún error, puede aplicar parches con la secuencia de comandos patch.
 1. Registre los detalles que se proporcionan a continuación y, si es necesario, compártalos con el equipo de éxito del cliente:
-1. &#x200B;
+1. 
    - Registros impresos por script de validación
 - Paquete de &quot;`/content/fmdita/references`&quot;
 - Cualquier otro detalle requerido según el escenario notificado
@@ -465,10 +464,10 @@ Realice los siguientes pasos para aplicar parches a cualquier referencia rota me
 
 1. Ejecute el script de parche `[/bin/fmdita/validatebtree?operation=patch]` para corregir las referencias rotas. La ejecución del script tarda unos minutos e imprime los registros a medida que progresa. Una vez finalizada la ejecución, se imprime &quot;`Done`&quot; al final.
 
-   **Nota:* Se recomienda copiar y guardar los registros para fines de referencia.
+   ** Nota:* Se recomienda copiar y guardar los registros para fines de referencia.
 
 1. Una vez que el script de parche se haya ejecutado correctamente, puede realizar las siguientes comprobaciones:
-1. &#x200B;
+1. 
    - Compruebe que se ha creado un nuevo nodo &quot;`references_backup_<timestamp>"`&quot; en `/content/fmdita`
 - Compruebe que las referencias se hayan corregido
 

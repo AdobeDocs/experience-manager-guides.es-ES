@@ -5,10 +5,9 @@ exl-id: bdbdf119-b928-4ed2-bab3-d99370da8aa9
 feature: Filename Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '197'
 ht-degree: 1%
 
 ---
@@ -27,4 +26,4 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 >
 > Cuando esta opción está activada, los autores no verán la opción de especificar el nombre del archivo al crear un nuevo tema o archivo de asignación. Se puede crear un nuevo tema o archivo de asignación desde la interfaz de usuario de Assets y el editor web.
 
-**Tema principal:**&#x200B;[&#x200B; Configurar nombres de archivo](conf-file-names.md)
+**Tema principal:**[ Configurar nombres de archivo](conf-file-names.md)

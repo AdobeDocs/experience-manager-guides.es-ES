@@ -5,10 +5,9 @@ feature: Filename Configuration
 role: Admin
 level: Experienced
 exl-id: ff6e1322-9655-42aa-b353-199c70c9de49
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -58,7 +57,7 @@ Realice los siguientes pasos para deshabilitar el posprocesamiento en una ruta d
 
 >[!NOTE]
 >
-> Además de las rutas ignoradas y habilitadas configuradas mediante la configuración OSGi, el comportamiento posterior al procesamiento también se ve influido por un nodo de nivel de repositorio ubicado en `/var/dxml/postprocess/ignoredPaths`. <br> Si una carpeta se excluye inesperadamente del posprocesamiento y no aparece en la configuración de OSGi, se recomienda comprobar este nodo de repositorio. Si la ruta de acceso aparece allí y está establecida en `true`, se omitirá. Para volver a habilitar el procesamiento, puede quitar la propiedad correspondiente manualmente del nodo.
+> Además de las rutas omitidas y habilitadas configuradas mediante la configuración OSGi, el comportamiento posterior al procesamiento también se ve influido por un nodo de nivel de repositorio ubicado en `/var/dxml/postprocess/ignoredPaths`. <br> Si una carpeta se excluye inesperadamente del posprocesamiento y no aparece en la configuración de OSGi, se recomienda comprobar este nodo de repositorio. Si la ruta de acceso aparece allí y está establecida en `true`, se omitirá. Para volver a habilitar el procesamiento, puede quitar la propiedad correspondiente manualmente del nodo.
 
 ## Reglas para habilitar o deshabilitar el posprocesamiento
 

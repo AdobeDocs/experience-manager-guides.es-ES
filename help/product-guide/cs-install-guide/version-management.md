@@ -5,10 +5,9 @@ exl-id: f7638cb3-faca-4170-9a8c-f6362e174c18
 feature: Version Management
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1518'
 ht-degree: 0%
 
 ---
@@ -106,7 +105,7 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 
 | PID | Clave de propiedad | Valor de propiedad |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | Valores posibles: <br> - allow\_unsafe\_delete\_for\_all <br> -   allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valor predeterminado**: `allow_unsafe_delete_for_delete_assets_group` <br> A continuación se proporcionan los detalles de estas constantes. |
+| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | Los valores posibles son: <br> - allow\_unsafe\_delete\_for\_all <br> - allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valor predeterminado**: `allow_unsafe_delete_for_delete_assets_group` <br> A continuación se proporcionan los detalles de estas constantes. |
 
 En función de a quién desee conceder acceso para su eliminación, especifique una de las siguientes constantes:
 
@@ -143,7 +142,7 @@ Siga estos pasos para purgar las versiones anteriores:
 
    ![](assets/preview-purge-report.png)
 
-1. &#x200B;
+1. 
    - **Número de versiones que se deben conservar de la última versión**: escriba el número de versiones que se deben conservar y no purgar. Por ejemplo, si se introduce 5, se conservan las últimas 5 versiones y las versiones anteriores a ellas pueden depurarse en caso de que se cumplan otras condiciones de depuración.
 - **Conservar versiones creadas dentro del intervalo de tiempo \(en días\)**: escriba la antigüedad máxima de una versión en días. Las versiones anteriores al número determinado de días pueden depurarse si se cumplen otras condiciones de depuración. Por ejemplo, si se introduce 100, todas las versiones creadas antes de 100 días cumplen los requisitos para ser depuradas en caso de que se cumplan otras condiciones de depuración.
 - **Ruta**: seleccione la ruta de acceso del archivo o carpeta cuyos archivos desea purgar.

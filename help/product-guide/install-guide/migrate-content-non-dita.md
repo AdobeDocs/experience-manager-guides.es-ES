@@ -5,10 +5,9 @@ exl-id: 4597d1be-5426-4eba-8490-e42d0e565427
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 4204b6fe9e56de09bd833007a36330a42b26b57a
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2392'
+source-wordcount: '2448'
 ht-degree: 0%
 
 ---
@@ -225,7 +224,7 @@ Se deben tener en cuenta los siguientes puntos a la hora de cargar los documento
   </html>
   ```
 
-  Observe que cada etiqueta `ul` debe tener el atributo `class` establecido en `book`. Del mismo modo, cada `li` de la etiqueta `class` debe establecerse en `topicref`.
+  Observe que cada etiqueta `ul` debe tener el atributo `class` establecido en `book`. Del mismo modo, cada `class` de la etiqueta `li` debe establecerse en `topicref`.
 
 - Si utiliza estilos en línea, convierta los estilos en línea a clases de estilos basadas en CSS en el archivo XHTML. A continuación, utilice la asignación de atributos de estilo para convertir estos estilos basados en clases al atributo DITA `outputclass` en el archivo DITA convertido.
 
@@ -399,4 +398,4 @@ Para convertir los documentos estructurados existentes al formato DITA, realice 
 
 Con el bloque `<config> </config>`, puede definir uno o varios bloques de configuraciones para la conversión. El flujo de trabajo de conversión se ejecuta y el resultado final en forma de tema DITA se guarda en la ubicación especificada en el elemento `outputDir`.
 
-**Tema principal:**&#x200B;[&#x200B; Migrar contenido existente](migrate-content.md)
+**Tema principal:**[ Migrar contenido existente](migrate-content.md)

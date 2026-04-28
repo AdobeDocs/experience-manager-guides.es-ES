@@ -5,10 +5,9 @@ exl-id: 24e44618-9c4e-4547-a00d-216ef3fb4854
 feature: Version Management
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1668'
 ht-degree: 0%
 
 ---
@@ -19,7 +18,7 @@ El control de versiones es un aspecto importante de cualquier sistema de gestió
 
 Como administrador, puede aplicar reglas que restrinjan a los usuarios la edición de un archivo sin desprotegerlo. Del mismo modo, puede asegurarse de que todos los archivos desprotegidos vuelven a protegerse para evitar la pérdida de datos.
 
-En un entorno multiuso, también es importante asegurarse de que los usuarios no eliminen archivos del sistema. Este requisito es más importante para los archivos desprotegidos por otros usuarios. Puede permitir o impedir que los usuarios sobrescriban los archivos desprotegidos por otros usuarios. Para evitar que los usuarios eliminen accidentalmente archivos desprotegidos del sistema, AEM Guides proporciona una configuración que puede utilizar. Además de los archivos desprotegidos, también puede controlar la eliminación de archivos que contengan referencias o a los que se haga referencia desde otros archivos. Además, también puede crear una nueva versión para el archivo cargado.
+En un entorno multiuso, también es importante asegurarse de que los usuarios no eliminen archivos del sistema. Este requisito es más crítico para los archivos desprotegidos por otros usuarios.Puede permitir o impedir que los usuarios sobrescriban archivos desprotegidos por otros usuarios. Para evitar que los usuarios eliminen accidentalmente archivos desprotegidos del sistema, AEM Guides proporciona una configuración que puede utilizar. Además de los archivos desprotegidos, también puede controlar la eliminación de archivos que contengan referencias o a los que se haga referencia desde otros archivos. Además, también puede crear una nueva versión para el archivo cargado.
 
 ## Crear nueva versión para el archivo cargado
 
@@ -213,7 +212,7 @@ Siga estos pasos para purgar las versiones anteriores:
 
    ![](assets/preview-purge-report.png){width="350" align="left"}
 
-1. &#x200B;
+1. 
    - **Número de versiones que se deben conservar de la última versión**: escriba el número de versiones que se deben conservar y no purgar. Por ejemplo, si se introduce 5, se conservan las últimas 5 versiones y las versiones anteriores a ellas pueden depurarse en caso de que se cumplan otras condiciones de depuración.
 - **Conservar versiones creadas dentro del intervalo de tiempo \(en días\)**: escriba la antigüedad máxima de una versión en días. Las versiones anteriores al número determinado de días pueden depurarse si se cumplen otras condiciones de depuración. Por ejemplo, si se introduce 100, todas las versiones creadas antes de 100 días cumplen los requisitos para ser depuradas en caso de que se cumplan otras condiciones de depuración.
 - **Ruta**: seleccione la ruta de acceso del archivo o carpeta cuyos archivos desea purgar.

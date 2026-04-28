@@ -5,10 +5,9 @@ exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '4702'
+source-wordcount: '4767'
 ht-degree: 0%
 
 ---
@@ -290,7 +289,7 @@ Las siguientes configuraciones están disponibles en la sección Diseño de pág
 
   **Páginas principales** también se usa como diseño de reserva para la **tabla de contenido**, **lista de ilustraciones** y lista de tablas.  Del mismo modo, **Páginas de contenido posterior** también se usa como diseño de reserva para los diseños **Índice** y **Glosario**. Si no ha seleccionado el diseño para estas páginas, se aplica el diseño de páginas principales o secundarias seleccionado.  Si no ha seleccionado el diseño Páginas principales o páginas secundarias, se les aplica el diseño de página predeterminado.
 
-* **Diseño de página para páginas vacías**:    También puede especificar el diseño de página para las páginas vacías. El diseño seleccionado se aplicará a todas las páginas vacías. Por ejemplo, si ha diseñado un diseño de página en blanco para todas las páginas vacías, seleccione **En blanco** en la lista desplegable y todas las páginas vacías del documento tendrán el diseño de página en blanco.
+* **Diseño de página para páginas vacías**: también puede especificar el diseño de página para las páginas vacías. El diseño seleccionado se aplicará a todas las páginas vacías. Por ejemplo, si ha diseñado un diseño de página en blanco para todas las páginas vacías, seleccione **En blanco** en la lista desplegable y todas las páginas vacías del documento tendrán el diseño de página en blanco.
 
 * **Portada y página posterior**: Si ha diseñado un diseño de portada, asígnelo a la opción **Portada**. Del mismo modo, si tiene un diseño de página posterior, asígnelo a la opción **Página posterior**. Si no se han creado diseños de portada o de página posterior, se aplica el diseño de página predeterminado.
 
@@ -332,7 +331,7 @@ De forma predeterminada, todas las secciones comienzan en una nueva página. Sel
 
 >[!NOTE]
 >
-> Esta configuración solo se aplica a la sección y no a sus componentes.  Por ejemplo, si selecciona la opción **Página anterior** para **Capítulos y temas**, la sección **Capítulos y temas** se combina con la página anterior. Los diversos capítulos y temas se publican según la configuración de **General**. Por ejemplo, si en **Iniciar cualquier capítulo nuevo desde la configuración**, selecciona **Página impar**, se inserta una página en blanco después de un capítulo que termina en una página impar.
+> Esta configuración solo se aplica a la sección y no a sus componentes.  Por ejemplo, si selecciona la opción **Página anterior** para **Capítulos y temas**, la sección **Capítulos y temas** se combina con la página anterior. Los diversos capítulos y temas se publican según la configuración de **General**.Por ejemplo, si en **Iniciar cualquier capítulo nuevo desde la configuración**, selecciona **Página impar**, se inserta una página en blanco después de un capítulo que termina en una página impar.
 
 Al combinar una sección con su página anterior o siguiente, el contenido se combina y se aplica el estilo de la sección de destino en la que se combina el contenido.
 
@@ -386,11 +385,11 @@ Seleccione un orden de páginas que determine la secuencia de las páginas del d
 * **Folleto**: todas las páginas se ordenan como en un folleto.
 * **Folleto de derecha a izquierda**: todas las páginas están en orden de folleto de derecha a izquierda.
 * **Personalizado**: defina un orden personalizado de páginas en lugar de un orden predefinido.
-   * &quot;a..b&quot;: todas las páginas consecutivas de a a b.
+   * &quot;a.b&quot; — Todas las páginas consecutivas de a a b.
    * &quot;a,b,c&quot; — Nuevo orden de páginas a, b, c.
    * &quot;a*b&quot; — La página a se repite por veces.
    * &quot;-a&quot;: los números de página negativos se cuentan hacia atrás a partir de la última página y se pueden combinar con otros pedidos personalizados.
-   * &quot;X&quot; — todas las páginas del documento. Mismo resultado que &quot;1..-1&quot;.
+   * &quot;X&quot; — todas las páginas del documento. El mismo resultado que &quot;1..-1&quot;.
 
 Por ejemplo, puede dar un pedido personalizado como &quot;2, 3, 5*2, 7..10,-1,-2.
 El orden de páginas dado hace que una PDF tenga los siguientes números de página del documento original, suponiendo que tenga 25 páginas en total: 2, 3, 5, 5, 7, 8, 9, 10, 25, 24.
@@ -460,11 +459,11 @@ Por ejemplo, puede agregar una variable de idioma &quot;reference-label&quot; y 
 Cuando agrega `${lng:<variable name>}` a la sección Párrafo, las referencias cruzadas de los párrafos de la salida contienen el texto localizado y el número de página.\
 Por ejemplo, las siguientes capturas de pantalla muestran las referencias cruzadas &quot;Ver en la página 1&quot; en inglés y &quot;Einzelheiten finden Sie auf der Seite 1&quot; en alemán.
 
-<img src="./assets/english-output-corss-reference.png" alt="Resultado en inglés de una referencia cruzada en un párrafo&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Resultado en inglés de una referencia cruzada en un párrafo" width ="800" border="2px">
 
 *Referencia cruzada dentro de un párrafo cuando se publica en inglés.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Resultado alemán de una referencia cruzada en un párrafo&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="Resultado alemán de una referencia cruzada en un párrafo" width ="800" border="2px">
 
 
 *Referencia cruzada dentro de un párrafo cuando se publica en alemán.*

@@ -5,10 +5,9 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -94,7 +93,7 @@ Seleccione esta opción para ver la plantilla en la interfaz de usuario de Asset
 
 Una vez creada la plantilla personalizada, puede elegirla en Diseños de página en el ajuste preestablecido de salida de PDF.
 
-Aprenda a [publicar una salida de PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=es).
+Aprenda a [publicar una salida de PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
 >
