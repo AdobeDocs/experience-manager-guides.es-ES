@@ -43,7 +43,7 @@ Una vez que tenga el instalador, instálelo en el equipo local donde esté insta
 
 >[!IMPORTANT]
 >
->Si tiene una versión anterior del complemento instalado en el sistema, asegúrese de desinstalarlo antes de iniciar el proceso de instalación. Consulte la sección **Desinstalación de paquetes** en el artículo de [Cómo trabajar con paquetes](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) para obtener instrucciones de desinstalación.
+>Si tiene una versión anterior del complemento instalado en el sistema, asegúrese de desinstalarlo antes de iniciar el proceso de instalación. Consulte la sección **Desinstalación de paquetes** en el artículo de [Cómo trabajar con paquetes](https://helpx.adobe.com/es/experience-manager/6-4/sites/administering/using/package-manager.html) para obtener instrucciones de desinstalación.
 
 Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Author:
 
@@ -77,7 +77,7 @@ Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Auth
 
 >[!IMPORTANT]
 >
->Si tiene una versión anterior del complemento instalado en el sistema, asegúrese de desinstalarlo antes de iniciar el proceso de instalación. Consulte la sección **Desinstalación de paquetes** en las instrucciones de desinstalación del artículo [Cómo trabajar con paquetes](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html).
+>Si tiene una versión anterior del complemento instalado en el sistema, asegúrese de desinstalarlo antes de iniciar el proceso de instalación. Consulte la sección **Desinstalación de paquetes** en las instrucciones de desinstalación del artículo [Cómo trabajar con paquetes](https://helpx.adobe.com/es/experience-manager/6-4/sites/administering/using/package-manager.html).
 
 Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Author:
 
@@ -116,7 +116,7 @@ Como administrador de AEM, realice los siguientes pasos para instalar el paquete
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   El Administrador de paquetes administra los paquetes en la instalación local de AEM. Para obtener más información sobre cómo trabajar con el Administrador de paquetes, consulte [Cómo trabajar con paquetes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) en la documentación de AEM.
+   El Administrador de paquetes administra los paquetes en la instalación local de AEM. Para obtener más información sobre cómo trabajar con el Administrador de paquetes, consulte [Cómo trabajar con paquetes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=es) en la documentación de AEM.
 
    ![Administrador de paquetes](images/package-manager.png) {width="650" align="left"}
 
