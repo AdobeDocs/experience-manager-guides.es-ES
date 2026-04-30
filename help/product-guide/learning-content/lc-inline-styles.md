@@ -4,7 +4,7 @@ description: Aprenda a utilizar varios estilos en línea al crear contenido de a
 feature: Authoring
 role: User
 exl-id: 78b62eb3-bc61-4c39-96b2-c0511d659ebf
-source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
@@ -29,20 +29,20 @@ La descripción de las opciones de estilo en línea disponibles es la siguiente:
 
 - **Fuente:** Le permite personalizar el aspecto del texto mediante diversas opciones, como la familia de fuentes, el grosor de fuente, la decoración del texto, el tamaño de fuente, etc. Esta configuración le ayuda a aplicar estilo al contenido, como se muestra en el ejemplo siguiente.
 
-  ![](assets/font-learning-content.png){width="350" align="left"}
+  ![](assets/font-learning-content.png){width="350"}
 
 - **Borde**: permite definir y personalizar el borde de un elemento mediante opciones como borde, anchura, estilo (sólido, discontinuo, punteado, etc.) y color. Esta configuración ayuda a separar visualmente o resaltar secciones específicas del contenido.
 
-  ![](assets/border-learning-content.png){width="350" align="left"}
+  ![](assets/border-learning-content.png){width="350"}
 
 - **Diseño**: ayuda a controlar el posicionamiento y el espaciado de los elementos dentro del contenido. Puede ajustar propiedades como margen, relleno, alineación, tipo de visualización y más. para organizar la estructura de contenido de forma eficaz.
 
-  ![](assets/layout-learning-content.png){width="350" align="left"}
+  ![](assets/layout-learning-content.png){width="350"}
 
 - **Fondo**: permite personalizar el fondo de un elemento mediante opciones como el color de fondo, la imagen, la posición y el estilo de repetición. Esta configuración ayuda a mejorar el atractivo visual y la claridad del contenido.
 
-  ![](assets/background-learning-content.png){width="350" align="left"}
+  ![](assets/background-learning-content.png){width="350"}
 
 - **Columna**: permite organizar el contenido en varias columnas. Puede ajustar el número de columnas, el espaciado entre ellas, el ancho de las columnas y mucho más. para mejorar la legibilidad y la estructura de diseño del contenido.
 
-  ![](assets/column-learning-content.png){width="350" align="left"}
+  ![](assets/column-learning-content.png){width="350"}

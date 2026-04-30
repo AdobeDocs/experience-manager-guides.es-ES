@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo crear atributos condicionales en A
 exl-id: 5ec7666e-df6b-4b0d-b6c2-cdc395fcccc5
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Para definir atributos condicionales, realice los siguientes pasos:
 
    La siguiente captura de pantalla muestra la definición del atributo `platform` con el valor `unix` y una etiqueta de `Red Hat Linux`.
 
-   ![](images/add-profile-new.png){align="left"}
+   ![](images/add-profile-new.png)
 
 1. Si desea agregar más valores para el mismo atributo, seleccione el icono **+** e introduzca un valor y una etiqueta adicionales.
 
@@ -56,6 +56,6 @@ Para definir atributos condicionales, realice los siguientes pasos:
 
 El atributo `platform` está almacenado en el sistema. Cada vez que un autor decide utilizar el atributo `platform` en un tema DITA de una carpeta, puede ver los valores en la pestaña Propiedades del Editor.
 
-![](images/properties-tab.png){width="350" align="left"}
+![](images/properties-tab.png){width="350"}
 
-**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)
+**Tema principal:**[ Generación de resultados](generate-output.md)

@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo ver el informe de reutilización d
 exl-id: ccae4303-75b1-4077-829a-7ef6a14fd8ad
 feature: Report Generation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Siga estos pasos para ver el informe de reutilización de contenido:
 
 1. Seleccione **Generar informe** para obtener el informe de reutilización de contenido.
 
-   ![](images/content-reuse-uuid.png){align="left"}
+   ![](images/content-reuse-uuid.png)
 
    La página del informe se divide en dos partes:
 
@@ -55,11 +55,11 @@ Siga estos pasos para ver el informe de reutilización de contenido:
 
       - **Número de veces que se reutilizó**: Número de veces que se reutilizó el tema correspondiente. Esto se calcula como la suma total de las entradas de las columnas Referenciado por menos 1.
 
-      - **Referido por**: Temas en los que se ha hecho referencia al tema correspondiente. Aquí, solo se tienen en cuenta las referencias directas \(primer nivel\). Los temas múltiples se separan con comas. El UUID del archivo al que se hace referencia también se menciona entre corchetes. Al seleccionar en el vínculo del título del tema, se abre la vista previa del tema.
+      - **Referido por**: Temas en los que se ha hecho referencia al tema correspondiente. Aquí, solo se tienen en cuenta las referencias directas \(primer nivel\). Los temas múltiples se separan con comas. El UUID del archivo al que se hace referencia también se menciona entre corchetes.Al seleccionar en el vínculo del título del tema, se abre la vista previa del tema.
 
 
 >[!NOTE]
 >
 > También puede exportar el informe de reutilización de contenido en formato CSV. Para ello, seleccione Exportar a CSV en la esquina superior izquierda de la pantalla y elija una ubicación para guardar el archivo CSV. A continuación, puede abrir este archivo CSV en cualquier editor CSV.
 
-**Tema principal:**&#x200B;[&#x200B; Introducción a los informes](reports-intro.md)
+**Tema principal:**[ Introducción a los informes](reports-intro.md)

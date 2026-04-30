@@ -5,7 +5,7 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: 15a0cd40-45be-4631-8d60-4a9474bc431c
-source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -20,12 +20,12 @@ Como administrador, también puede configurar las siguientes opciones para Autor
 
   Puede acceder a los fragmentos de código desde el panel izquierdo del Editor.
 
-  ![](assets/create-snippets.png){width="350" align="left"}
+  ![](assets/create-snippets.png){width="350"}
 - **Condiciones**: como administrador, puede configurar atributos condicionales estándar compatibles con DITA en los niveles global o de carpeta. A continuación, los autores utilizan las condiciones configuradas simplemente arrastrando y soltando la condición deseada en el contenido.
 
   Puede acceder a Condiciones desde el panel izquierdo del Editor.
 
-  ![](assets/create-conditions.png){width="350" align="left"}
+  ![](assets/create-conditions.png){width="350"}
 - **Variables**: puede definir variables para que el contenido sea más portátil, coherente y fácil de actualizar. Durante la generación de resultados, las variables se sustituyen por los valores del conjunto de variables seleccionado, lo que permite producir resultados personalizados de forma eficaz.
 
   Para obtener más información, vea [Crear una variable nueva](../native-pdf/native-pdf-variables.md#create-a-new-variable)

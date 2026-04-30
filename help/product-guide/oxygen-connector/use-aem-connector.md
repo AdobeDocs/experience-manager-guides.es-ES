@@ -5,7 +5,7 @@ hide: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '6522'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Una vez que tenga el instalador, instálelo en el equipo local donde esté insta
 
 >[!IMPORTANT]
 >
->Si tiene una versión anterior del complemento instalado en el sistema, asegúrese de desinstalarlo antes de iniciar el proceso de instalación. Consulte la sección **Desinstalación de paquetes** en el artículo de [Cómo trabajar con paquetes](https://helpx.adobe.com/es/experience-manager/6-4/sites/administering/using/package-manager.html) para obtener instrucciones de desinstalación.
+>Si tiene una versión anterior del complemento instalado en el sistema, asegúrese de desinstalarlo antes de iniciar el proceso de instalación. Consulte la sección **Desinstalación de paquetes** en el artículo de [Cómo trabajar con paquetes](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) para obtener instrucciones de desinstalación.
 
 Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Author:
 
@@ -66,7 +66,7 @@ Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Auth
 
    El panel AEM Guides se muestra en Oxygen XML Author.
 
-   ![Conector de AEM](images/oxygen-aem-connector.png){width="800" align="left"}
+   ![Conector de AEM](images/oxygen-aem-connector.png){width="800"}
 
    >[!NOTE]
    >
@@ -77,7 +77,7 @@ Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Auth
 
 >[!IMPORTANT]
 >
->Si tiene una versión anterior del complemento instalado en el sistema, asegúrese de desinstalarlo antes de iniciar el proceso de instalación. Consulte la sección **Desinstalación de paquetes** en las instrucciones de desinstalación del artículo [Cómo trabajar con paquetes](https://helpx.adobe.com/es/experience-manager/6-4/sites/administering/using/package-manager.html).
+>Si tiene una versión anterior del complemento instalado en el sistema, asegúrese de desinstalarlo antes de iniciar el proceso de instalación. Consulte la sección **Desinstalación de paquetes** en las instrucciones de desinstalación del artículo [Cómo trabajar con paquetes](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html).
 
 Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Author:
 
@@ -98,7 +98,7 @@ Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Auth
 
    El panel AEM Guides se muestra en Oxygen XML Author.
 
-   ![Mac con conector AEM](images/oxygen-aem-connector-mac.png) {width="800" align="left"}
+   ![Mac con conector AEM](images/oxygen-aem-connector-mac.png) {width="800"}
 
    >[!NOTE]
    >
@@ -116,9 +116,9 @@ Como administrador de AEM, realice los siguientes pasos para instalar el paquete
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   El Administrador de paquetes administra los paquetes en la instalación local de AEM. Para obtener más información sobre cómo trabajar con el Administrador de paquetes, consulte [Cómo trabajar con paquetes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=es) en la documentación de AEM.
+   El Administrador de paquetes administra los paquetes en la instalación local de AEM. Para obtener más información sobre cómo trabajar con el Administrador de paquetes, consulte [Cómo trabajar con paquetes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) en la documentación de AEM.
 
-   ![Administrador de paquetes](images/package-manager.png) {width="650" align="left"}
+   ![Administrador de paquetes](images/package-manager.png) {width="650"}
 
 1. Para cargar el paquete Oxygen, haga clic en **Cargar paquete**.
 1. En el cuadro de diálogo Cargar paquete, vaya al archivo del paquete Oxygen que descargó en el paso 1 y haga clic en Aceptar.
@@ -127,7 +127,7 @@ Como administrador de AEM, realice los siguientes pasos para instalar el paquete
 
 1. Para iniciar el proceso de instalación, haga clic en **Instalar**.
 
-   ![Paquete de oxígeno](images/oxygen-package.png){width="650" align="left"}
+   ![Paquete de oxígeno](images/oxygen-package.png){width="650"}
 
 1. En el diálogo Instalar paquete, haga clic en **Instalar**.
 1. Una vez finalizada la instalación, haga clic en el botón Inicio en la esquina superior izquierda del Administrador de paquetes de CRX.
@@ -208,7 +208,7 @@ Realice los siguientes pasos para configurar las opciones de conexión en el com
 
 1. En el panel AEM Guides, haga clic en el icono de configuración y, a continuación, seleccione **Configuración**.
 
-   ![Configuración de conexión &#x200B;](images/settings.png){width="800" align="left"}
+   ![Configuración de conexión ](images/settings.png){width="800"}
 
 1. Especifique los siguientes detalles:
    - **URL del servidor**: URL del servidor de AEM, por ejemplo:
@@ -245,16 +245,16 @@ Realice los siguientes pasos para configurar atributos de generación de perfile
 1. En Oxygen XML Author, haga clic en **Opciones** \> **Preferencias**.
 1. En la ficha **Asociación de tipo de documento**, seleccione **DITA** y, a continuación, haga clic en **Extender**.
 
-   ![asociación de tipo de documento](images/document_type_association.png){width="650" align="left"}
+   ![asociación de tipo de documento](images/document_type_association.png){width="650"}
 
 1. En la ficha **Classpath**, seleccione `com.adobe.o2.connector` en la lista desplegable **Usar el cargador de clase principal del complemento con ID**.
 
-   ![Ficha de ruta de clase](images/dita-extension.png){width="650" align="left"}
+   ![Ficha de ruta de clase](images/dita-extension.png){width="650"}
 
 1. En la ficha **Extensiones**, realice los cambios siguientes:
 
    - Haga clic en **Elegir** junto al paquete de **Extensiones** y seleccione `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` en la lista **Clase**. Haga clic en **OK**.
-     ![Extensión configurada para temas DITA](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+     ![Extensión configurada para temas DITA](images/dita-map-extenstion-link-resolve.png) {width="650"}
    - Haga clic en **Elegir** junto al **Receptor de estado de extensión de autor** en **Extensiones individuales** y seleccione `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` en la lista **Clase**. Haga clic en **OK**.
    - Haga clic en **Elegir** junto al **Editor de valores de atributos personalizados de autor** en **Extensiones individuales** y seleccione `CustomValueEditor - com.adobe.o2.framework.extn` en la lista **Clase**. Haga clic en **OK**.
    - Haga clic en **Elegir** junto al controlador de inserción de objetos externos de **Autor** en **Extensiones individuales** y seleccione `CustomURLInsertionHandler - com.adobe.o2.ui ` en la lista **Clase**. Haga clic en **OK**.
@@ -296,7 +296,7 @@ Siga estos pasos para configurar la extensión de mapa DITA:
 
 La siguiente pantalla muestra el panel AEM Guides.
 
-![panel de conector](images/connector-panel.png){width="550" align="left"}
+![panel de conector](images/connector-panel.png){width="550"}
 
 **A**\) Muestra la barra de búsqueda.
 
@@ -349,7 +349,7 @@ Una vez que se haya conectado al repositorio de AEM, puede abrir los archivos pa
 
    El archivo se abre en el editor de Oxygen XML Author.
 
-   ![Guid en la ficha de archivo](images/guid-in-file-tab.png) {width="800" align="left"}
+   ![Guid en la ficha de archivo](images/guid-in-file-tab.png) {width="800"}
 
    Cuando pasa el puntero del ratón sobre la pestaña de un archivo, se muestra la ruta del servidor junto con su UUID. En la captura de pantalla anterior, se resalta el UUID del documento.
 
@@ -398,7 +398,7 @@ Si ha seleccionado la opción \(en el cuadro de diálogo Preferencias\) **Despro
 
 Cuando un archivo está desprotegido, el icono del archivo cambia para mostrar su estado bloqueado.
 
-![Desproteger un archivo](images/check-out-file.png){width="650" align="left"}
+![Desproteger un archivo](images/check-out-file.png){width="650"}
 
 En la captura de pantalla anterior, se muestra un archivo desprotegido por otro usuario con un icono de candado de color negro \(A\). El archivo desprotegido por el usuario actual se muestra con un candado \(B\) de color verde.
 
@@ -425,7 +425,7 @@ Al registrar un archivo, la copia local del sistema se almacena en el repositori
 
    Si no ha desprotegido los archivos dependientes y elige esta opción, sólo se desprotegerán los archivos dependientes que tenga \(por separado\). Se mostrará una lista de archivos que no se pudieron proteger:
 
-   ![errores de protección](images/check-in-error.png){width="800" align="left"}
+   ![errores de protección](images/check-in-error.png){width="800"}
 
    Se recomienda no mover un archivo desprotegido. Sin embargo, si un archivo desprotegido se mueve a una ubicación diferente, deberá cancelar la desprotección de dicho archivo. Si desea realizar actualizaciones en ese archivo, vuelva a desprotegerlo, realice cambios y vuelva a protegerlo. Si intenta proteger un archivo que se ha movido desde su ubicación original, obtendrá un error.
 
@@ -443,7 +443,7 @@ Al registrar un archivo, la copia local del sistema se almacena en el repositori
 
    Si el administrador ha predefinido una lista de etiquetas y las ha cargado en el archivo `label.json`, esas etiquetas se mostrarán como una lista desplegable. Puede elegir una o más etiquetas de la lista desplegable.
 
-   ![Cuadro de diálogo de registro](images/checkin-dropdown-labels.png){width="550" align="left"}
+   ![Cuadro de diálogo de registro](images/checkin-dropdown-labels.png){width="550"}
 
    Puede agregar varias etiquetas (separadas por comas) a la misma versión de un tema.  Por ejemplo, *Adobe*, *AEM*, *Guides*.
 Sin embargo, no se puede agregar la misma etiqueta a las distintas versiones de un tema. Si agrega una etiqueta que ya ha agregado a una versión anterior, se agrega a la versión más reciente y se elimina de la versión anterior.
@@ -467,7 +467,7 @@ Cuando tiene archivos en varias carpetas, no es fácil averiguar cuántos archiv
 
    Se muestran los archivos desprotegidos en la vista AEM Guides.
 
-   ![archivos desprotegidos](images/files-checkedout-view.png){width="550" align="left"}
+   ![archivos desprotegidos](images/files-checkedout-view.png){width="550"}
 
 1. Haga clic con el botón derecho en un archivo de esta vista para obtener las siguientes opciones:
 
@@ -537,7 +537,7 @@ Siga estos pasos para ver el historial de versiones de un archivo:
 
    El historial de versiones del archivo se muestra en el cuadro de diálogo Versiones.
 
-   ![Historial de versiones](images/version-history.png){width="550" align="left"}
+   ![Historial de versiones](images/version-history.png){width="550"}
 
 
 ### Visualización de los metadatos de un archivo {#id195GHN0H05C}
@@ -550,7 +550,7 @@ Siga estos pasos para ver los metadatos de un archivo:
 
    Los metadatos del archivo, como la clase DITA, el estado del documento, la fecha de modificación, el tamaño, el título y el UUID, se muestran en el cuadro de diálogo Metadatos.
 
-   ![Ver metadatos](images/metadata.png){width="550" align="left"}
+   ![Ver metadatos](images/metadata.png){width="550"}
 
 
 ## Buscar un tema en el repositorio de AEM {#id1826J20405Z}
@@ -565,7 +565,7 @@ Siga estos pasos para buscar temas:
 
    El resultado se muestra en la ficha Resultados de la búsqueda como una lista con la ruta de acceso del archivo. Si no hay resultados coincidentes para la consulta de búsqueda, se muestra el mensaje No se encontraron resultados en la &lt;ruta de la carpeta seleccionada\>.
 
-   ![Resultados de la búsqueda](images/search.png){width="550" align="left"}
+   ![Resultados de la búsqueda](images/search.png){width="550"}
 
 1. \(Opcional\) Haga doble clic en un archivo en el resultado de la búsqueda para abrirlo en Oxygen XML Author.
 1. Para volver a la vista Repositorio de AEM, siga uno de estos procedimientos:
@@ -646,13 +646,13 @@ Realice los siguientes pasos para agregar atributos condicionales al contenido e
 1. Seleccione la parte del contenido donde desea aplicar los atributos condicionales.
 1. Haga doble clic en el atributo condicional en el panel Atributos del Autor XML de Oxygen.
 
-   ![panel de atributos](images/attribute-panel.png){width="300" align="left"}
+   ![panel de atributos](images/attribute-panel.png){width="300"}
 
 1. En la columna **Disponible** del cuadro de diálogo Editar atributo, seleccione el atributo\(s\) y haga clic en **Agregar**.
 
    La siguiente pantalla muestra `audience` atributos.
 
-   ![Cuadro de diálogo Editar atributos](images/edit-attributes.png){width="550" align="left"}
+   ![Cuadro de diálogo Editar atributos](images/edit-attributes.png){width="550"}
 
 1. Haga clic en **OK**.
 
@@ -695,7 +695,7 @@ Solución 3:
 
 **Problema**: al ejecutar cualquier transformación DITA-OT en archivos procesados por el complemento, la transformación falla con el siguiente error:
 
-![Error de transformación DITA-OT](images/proxy-server-path-error-new.png){width="800" align="left"}
+![Error de transformación DITA-OT](images/proxy-server-path-error-new.png){width="800"}
 
 **Solución**: este problema se ha corregido agregando un servidor proxy entre DITA-OT y el complemento. Este servidor proxy procesa y comparte todos los archivos solicitados por DITA-OT para las transformaciones. El puerto predeterminado en el que se ha configurado este servidor es: `5972`. Si utiliza este puerto para algún otro servidor, puede especificar un puerto diferente para el servidor proxy.
 

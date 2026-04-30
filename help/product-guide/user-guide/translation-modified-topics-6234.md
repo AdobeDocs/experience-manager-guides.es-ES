@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo volver a traducir un tema modifica
 exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 feature: Translation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Realice los siguientes pasos para enviar un tema modificado para su retraducció
 
    Si selecciona la flecha para ver más detalles, puede ver la copia de idioma en particular que no está sincronizada.
 
-   ![](images/out-of-sync-uuid-new.png){align="left"}
+   ![](images/out-of-sync-uuid-new.png)
 
 1. Seleccione la casilla de verificación para seleccionar los temas que desea enviar para su retraducción.
 
@@ -53,7 +53,7 @@ Realice los siguientes pasos para enviar un tema modificado para su retraducció
 
 1. Vaya al proyecto de traducción en la consola Proyecto. Se crea una nueva tarjeta de trabajo de traducción en la carpeta. Seleccione los puntos suspensivos para ver los recursos de la carpeta.
 
-   ![](images/incremental-job-new.png){width="300" align="left"}
+   ![](images/incremental-job-new.png){width="300"}
 
 1. Para iniciar la traducción, seleccione la flecha de la tarjeta del trabajo de traducción y seleccione **Start** en la lista. Un mensaje notifica que el trabajo se ha iniciado.
 
@@ -78,4 +78,4 @@ Realice los siguientes pasos para enviar un tema modificado para su retraducció
 1. Vuelva al archivo de mapa DITA en la carpeta de idioma de origen en la interfaz de usuario de Assets. Los temas retraducidos ahora están sincronizados.
 
 
-**Tema principal:**&#x200B;[&#x200B; Resumen de traducción de contenido](translation.md)
+**Tema principal:**[ Resumen de traducción de contenido](translation.md)

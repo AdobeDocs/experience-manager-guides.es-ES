@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 49fd9dfe-e1a5-4388-abbd-ec5d45669b45
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Siga estos pasos para configurar la función de procesamiento de recursos:
 1. Configure la configuración `Replicate DITA assets` según sus necesidades. La configuración está habilitada de forma predeterminada.
 
 
-   ![](assets/dita-assets-replication.png){width="350" align="left"}
+   ![](assets/dita-assets-replication.png){width="350"}
 
 
 1. Seleccione **Guardar**.

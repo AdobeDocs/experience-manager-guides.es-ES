@@ -5,10 +5,10 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
-source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 1%
+source-wordcount: '705'
+ht-degree: 0%
 
 ---
 
@@ -41,14 +41,14 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
    1. Vaya a **Repositorios** en el panel izquierdo de Cloud Manager.
    2. Seleccione **Acceder a la info del repositorio** y copie el comando clonar de Git.
 
-      ![Seleccionar información de repositorio de acceso](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350" align="left"}
+      ![Seleccionar información de repositorio de acceso](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350"}
 
    3. Clone el repositorio en el sistema local utilizando el nombre de usuario y la contraseña proporcionados (genere la contraseña si es necesario).
 2. **Agregar paquete al paquete Maven:**
    1. En el repositorio clonado localmente, cree un nuevo paquete Maven o añádalo a uno existente.
    2. Asegúrese de que la estructura `/jcr_root/apps/fmdita/` instalada exista en el proyecto Maven.
 
-      ![Estructura en el proyecto Maven](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650" align="left"}
+      ![Estructura en el proyecto Maven](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650"}
 
 
    3. Coloque el archivo guides-components.all-1.x.x.zip descargado en la carpeta de instalación.
@@ -59,7 +59,7 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
    2. Agregue el siguiente filtro: filter root=`/apps/fmdita` mode=`merge`/
 
 
-      ![Agregar filtro](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
+      ![Agregar filtro](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
 
 
 4. **Configurar pom.xml:** Actualice el archivo pom.xml según los requisitos del entorno.
@@ -77,7 +77,7 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
 2. **Seleccionar plantilla:** Seleccione **AEMG Docs 1.x.x** y luego seleccione **Siguiente**.
 3. **Escriba los detalles del sitio:** Escriba el **Título del sitio** y **Nombre del sitio**.
 
-   ![Crear sitio](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350" align="left"}
+   ![Crear sitio](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350"}
 
 4. Seleccione **Crear**.
 
@@ -90,7 +90,7 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
    4. Introduzca un nombre para el ajuste preestablecido.
    5. Desmarque la opción **Usar asignación de componentes heredados**.
 
-      ![Crear nuevo ajuste preestablecido del sitio AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-output-preset.png){width="350" align="left"}
+      ![Crear nuevo ajuste preestablecido del sitio AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-output-preset.png){width="350"}
 
    6. Seleccione **Agregar** para crear el ajuste preestablecido.
 2. **Configurar ajuste preestablecido del sitio de AEM:** Hay dos opciones para configurar el sitio predeterminado (OOTB):
@@ -102,14 +102,14 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
       - Ruta de publicación: `/content/AEMG-Docs-Site/en/docs/product`
       - Plantilla de página de tema: Página de tema
 
-      ![Use el menú desplegable del sitio para configurar el sitio de AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
+      ![Use el menú desplegable del sitio para configurar el sitio de AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350"}
 
    **Opción 2: usar la ruta del sitio**
 
    1. Establecer la **ruta del sitio** manualmente como `/content/AEMG-Docs-Site/en/docs/product`.
    2. Compruebe que la plantilla **Página de tema** se establezca automáticamente en Página de tema.
 
-      ![Use la ruta de acceso del sitio para configurar el sitio de AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
+      ![Use la ruta de acceso del sitio para configurar el sitio de AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650"}
 
 3. **Guardar el ajuste preestablecido:** Guarde los cambios realizados en el ajuste preestablecido.
 
@@ -123,15 +123,15 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
    2. Cree una nueva página de producto en la estructura del sitio OOTB.
    3. Vaya a **Documentos de AEMG** > **Inglés** > **Documentos**.
 
-      ![Creación de página](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650" align="left"}
+      ![Creación de página](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650"}
 
    4. Seleccione el mosaico **Página de inicio** y, a continuación, seleccione **Siguiente**.
 
-      ![Seleccionar mosaico de inicio](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650" align="left"}
+      ![Seleccionar mosaico de inicio](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650"}
 
    5. Escriba **Title** y **Name** para la página.
    6. Seleccione **Crear**.
 
 >[!NOTE]
 >
-> Asegúrese de que todas las configuraciones se prueben en un entorno que no sea de producción antes de su implementación en producción. <br><br> Consulte la [Implementación en la documentación de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/deploying/overview) para obtener más información.
+> Asegúrese de que todas las configuraciones se prueben en un entorno que no sea de producción antes de su implementación en producción. <br><br> Consulte la [Implementación en la documentación de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview) para obtener más información.

@@ -4,9 +4,9 @@ description: Explore la interfaz y los requisitos previos al trabajar con la for
 feature: Authoring
 role: User
 exl-id: b55af490-ebd5-4aa0-a5f3-84d835175dc9
-source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '306'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ Este artículo explica cómo acceder a la interfaz de usuario y configurar el pe
 
 Siga estos pasos para acceder a la interfaz de usuario:
 
-1. Inicie sesión en la instancia de AEM. 
+1. Inicie sesión en la instancia de AEM.
 2. En la página Navegación de AEM, seleccione **Guías**.
 3. Ahora se encuentra en la **página de inicio de Experience Manager Guides**. Utilice el interruptor de navegación para cambiar a las siguientes vistas:
 
@@ -29,7 +29,7 @@ Siga estos pasos para acceder a la interfaz de usuario:
 
    Para obtener más información, vea [Experiencia con la página principal de Adobe Experience Manager Guides](../user-guide/intro-home-page.md).
 
-   ![](assets/aem-navigation-switcher.png){width="350" align="left"}
+   ![](assets/aem-navigation-switcher.png){width="350"}
 
 ## Requisitos previos
 

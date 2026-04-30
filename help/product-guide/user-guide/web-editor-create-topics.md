@@ -4,9 +4,9 @@ description: Aprenda a crear tipos de temas DITA con plantillas personalizadas e
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: c6709ffb8e415c88931e732456e2f2a5e6b63729
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Siga estos pasos para crear un tema desde el Editor:
 
 1. En el panel Repositorio, seleccione el icono **Nuevo archivo** y, a continuación, seleccione **Tema** en el menú desplegable.
 
-   ![](images/create-topic-option.png){width="500" align="left"}
+   ![](images/create-topic-option.png){width="500"}
 
    También puede acceder a esta opción desde la [página principal de Experience Manager Guides](./intro-home-page.md) y desde el menú de opciones de una carpeta en la vista Repositorio.
 
@@ -45,11 +45,11 @@ Siga estos pasos para crear un tema desde el Editor:
 
 4. Seleccione **Crear**.
 
-   ![](images/create-topic-dialog-new.png){width="300" align="left"}
+   ![](images/create-topic-dialog-new.png){width="300"}
 
 El tema se crea en la ruta de acceso especificada. Además, el tema se abre en el Editor para editarlo.
 
-![](images/new-topic-editor.png){align="left"}
+![](images/new-topic-editor.png)
 
 ## Creación de temas desde la interfaz de usuario de Assets
 
@@ -61,7 +61,7 @@ Siga estos pasos para crear un tema desde la interfaz de usuario de Assets:
 
 1. En la página Modelo, seleccione el tipo de documento DITA que desea crear y seleccione **Siguiente**.
 
-   ![](images/create_dita_topic.png){align="left"}
+   ![](images/create_dita_topic.png)
 
    De forma predeterminada, Experience Manager Guides proporciona las plantillas de temas DITA más utilizadas. Puede configurar más plantillas de temas según sus requisitos organizativos, ver *Configuración de plantillas de creación* en Instalar y configurar Adobe Experience Manager Guides para su configuración.
 
@@ -85,7 +85,7 @@ Siga estos pasos para crear un tema desde la interfaz de usuario de Assets:
 
 1. A cada tema nuevo que cree desde la interfaz de usuario de Assets **Create** \> **DITA Topic** o el editor se le asigna un ID de tema único. El valor de este ID es el propio nombre de archivo. Además, un nuevo documento se guarda como la última copia de trabajo del tema en DAM. Hasta que guarde una revisión de un tema recién creado, no verá ningún número de versión en el Historial de versiones. Si abre el tema para editarlo, la información de la versión se muestra en la esquina superior derecha de la barra de herramientas:
 
-   ![](images/topic-version-none_cs.png){width="550" align="left"}
+   ![](images/topic-version-none_cs.png){width="550"}
 
 2. La información de versión de un tema recién creado se muestra como *none*. Al guardar una nueva versión, se le asigna un número de versión como 1.0.
 
@@ -93,4 +93,4 @@ Siga estos pasos para crear un tema desde la interfaz de usuario de Assets:
 
 4. Una vez creado el tema DITA, siga guardando los cambios en la copia de trabajo y cree una nueva versión una vez que haya completado las actualizaciones del tema.
 
-**Tema principal:**&#x200B;[&#x200B; Crear y previsualizar temas](create-preview-topics.md)
+**Tema principal:**[ Crear y previsualizar temas](create-preview-topics.md)

@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo crear una colección de mapas de a
 exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Para crear una recopilación de mapas de activación masiva, realice los siguien
 
 Los ficheros de mapa DITA se añaden a la recopilación de mapas de activación masiva.
 
-![&#x200B; creó la colección de activación masiva](images/bulk-activation-collection-created.png){align="left"}
+![ creó la colección de activación masiva](images/bulk-activation-collection-created.png)
 
 ## Pestaña Mapas y ajustes preestablecidos
 
@@ -87,7 +87,7 @@ La ficha **Historial de auditoría** presenta información sobre los resultados 
 
 - **Modificado**: indica si el mapa DITA se actualizó después de la última publicación. En función de esta información, puede decidir si desea activar la salida para este mapa DITA.
 - **Publicado**: Muestra la fecha y la hora de la última salida publicada (o activada). Si selecciona el vínculo, se muestra la página Resultados de la activación, que contiene los registros con información sobre la ruta raíz en la que se activa el contenido.
-  ![&#x200B; creó la pestaña del historial de auditoría de la colección de activación masiva](images/bulk-collection-audit-history.png){align="left"}
+  ![ creó la pestaña del historial de auditoría de la colección de activación masiva](images/bulk-collection-audit-history.png)
 
   *Vea la información acerca de los resultados del mapa activado en la ficha **Historial de auditoría**.*
 
@@ -108,4 +108,4 @@ Las siguientes opciones de filtrado están disponibles en el panel izquierdo:
 
 Los filtros se actualizan cuando cambia de la ficha **Mapas y ajustes preestablecidos** a la ficha **Historial de auditoría** y viceversa.
 
-**Tema principal: &#x200B;** [Activación masiva del contenido publicado](conf-bulk-activation.md)
+**Tema principal: **[Activación masiva del contenido publicado](conf-bulk-activation.md)

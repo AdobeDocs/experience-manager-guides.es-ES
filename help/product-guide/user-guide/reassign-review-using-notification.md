@@ -4,9 +4,9 @@ description: Reasignar una tarea de revisión mediante notificaciones en AEM Gui
 exl-id: 6cd01564-aa26-4773-9c95-9dc519706f27
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Realice los siguientes pasos para volver a asignar una tarea de revisión desde 
    >
    > El revisor debe tener los permisos para reasignar y debe formar parte del grupo de usuarios-administradores.
 
-   ![](images/reassign-user-inbox.png){align="left"}
+   ![](images/reassign-user-inbox.png)
 
 1. Seleccione **Reasignar**.
 
@@ -38,4 +38,4 @@ Una vez reasignada la tarea de revisión, la columna Usuario asignado muestra el
 
 El revisor asignado recibe una notificación en la bandeja de entrada para la tarea de revisión reasignada.
 
-**Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)
+**Tema principal:**[ Introducción a la revisión](review.md)

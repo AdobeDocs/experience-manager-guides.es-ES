@@ -5,9 +5,9 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-source-git-commit: 62221031e445ccdbf1f2567f38fa888ff52017d4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Siga los pasos mencionados a continuación para procesar los recursos:
 1. En el panel **Herramientas**, seleccione **Guías**.
 1. Seleccione el mosaico **Procesador en lotes**.
 
-   ![procesador de recursos de flujo](images/flow-asset-processor.png){align="left"}
+   ![procesador de recursos de flujo](images/flow-asset-processor.png)
 
 1. La ventana Guides Bulk Processor se abre con los detalles que se muestran a continuación. Además, solo se muestra en esta ventana la información perteneciente a las últimas cinco migraciones.
 
@@ -49,13 +49,13 @@ Siga los pasos mencionados a continuación para procesar los recursos:
 
    - **Estado**: muestra el estado del procesamiento como En curso, Completado o Cancelado.
 
-   ![Guides-asset-processor](images/guides-asset-processor-new.png){align="left"}
+   ![Guides-asset-processor](images/guides-asset-processor-new.png)
 
 1. Seleccione la pestaña **Nuevo proceso** en la esquina superior derecha de la ventana para iniciar una nueva tarea de procesamiento.
 
    Se abre el cuadro de diálogo **Nuevo proceso**.
 
-   ![Nuevo-procesador-recursos-procesos](images/new-asset-processor.png){width="350" align="left"}
+   ![Nuevo-procesador-recursos-procesos](images/new-asset-processor.png){width="350"}
 
 1. Proporcione los siguientes detalles en el cuadro de diálogo:
 
@@ -72,7 +72,7 @@ Ejemplo: al seleccionar un tema DITA, sólo se procesan temas DITA dentro de la 
 
 1. Seleccione **Crear**. Aparece una ventana emergente que muestra **Éxito y el proceso se ha activado correctamente**. Puede ver el estado de la tarea de procesamiento en la ventana.
 
-   ![Procesador de recursos de mensajes](images/message-asset-processor.png){width="350" align="left"}
+   ![Procesador de recursos de mensajes](images/message-asset-processor.png){width="350"}
 
 
 ## Opciones adicionales para tareas de procesamiento de recursos
@@ -81,16 +81,16 @@ Hay opciones adicionales disponibles para la tarea de procesamiento una vez inic
 
 - **Restart** : reinicia la tarea de procesamiento de recursos que se realizó correctamente anteriormente.
 
-  ![restart-asset-processor](images/restart-asset-processor.png){width="650" align="left"}
+  ![restart-asset-processor](images/restart-asset-processor.png){width="650"}
 
 - **Reanudar**: Reanuda la tarea de procesamiento de recursos que se canceló o produjo un error.
 
-  ![resume-asset-processor](images/resume-asset-processor.png){width="650" align="left"}
+  ![resume-asset-processor](images/resume-asset-processor.png){width="650"}
 
 - **Cancelar** : Cancela la tarea de procesamiento de recursos en curso.
 
-  ![cancel-asset-processor](images/cancel-asset-processor.png){width="650" align="left"}
+  ![cancel-asset-processor](images/cancel-asset-processor.png){width="650"}
 
 - **Ver registros**: muestra los registros de la tarea de procesamiento de recursos. Para las tareas en curso, el registro muestra información de procesamiento detallada, incluido el tiempo restante estimado y el estado del recurso. Esta lista de registros muestra hasta las últimas 500 entradas. Se puede descargar el registro completo.
 
-  ![logs-asset-processor](images/logs-asset-processor.png){width="650" align="left"}
+  ![logs-asset-processor](images/logs-asset-processor.png){width="650"}

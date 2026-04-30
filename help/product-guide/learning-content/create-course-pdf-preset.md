@@ -4,7 +4,7 @@ description: Cree un ajuste preestablecido de PDF en Formación y aprendizaje de
 feature: Authoring
 role: User
 exl-id: c353cee7-eee1-4e6d-92b4-73016cb8cfa3
-source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 1%
@@ -17,7 +17,7 @@ Siga estos pasos para crear un ajuste preestablecido de salida de PDF:
 
 1. Abra el curso en **consola de mapas**.
 
-   ![](assets/open-in-map-console.png){width="350" align="left"}
+   ![](assets/open-in-map-console.png){width="350"}
 
 1. En el panel **Ajustes preestablecidos de salida**, seleccione el icono + para crear uno de salida.
 1. Seleccione **PDF** del menú desplegable **Tipo** en el cuadro de diálogo Nuevo ajuste preestablecido de salida.
@@ -28,4 +28,4 @@ Siga estos pasos para crear un ajuste preestablecido de salida de PDF:
 
 Se abre la página de ajustes preestablecidos de PDF, donde puede realizar las configuraciones necesarias.
 
-![](assets/learning-pdf-preset.png){width="650" align="left"}
+![](assets/learning-pdf-preset.png){width="650"}

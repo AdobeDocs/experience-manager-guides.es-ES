@@ -2,9 +2,10 @@
 title: Notas de versión | Novedades de la versión 2025.11.0 de Adobe Experience Manager Guides
 description: Obtenga información sobre las funciones nuevas y mejoradas de la versión 2025.11.0 de Adobe Experience Manager Guides
 role: Leader
-source-git-commit: a13fdb36efb5cfb548f8e128977469763836537a
+exl-id: 270a5faa-a16f-4939-900e-3c6c54660d2c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '512'
 ht-degree: 3%
 
 ---
@@ -22,11 +23,11 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 
 El repositorio, ahora accesible directamente desde la página de inicio, sirve como espacio centralizado para mejorar la capacidad de detección de carpetas y archivos. Incluye **panel de navegación de carpetas** dedicado y una **vista tabular personalizable del repositorio**. La experiencia renovada de búsqueda y filtrado facilita considerablemente la búsqueda y localización de archivos. Para obtener más información, vea [Conocer la interfaz del repositorio](../user-guide/home-page-repository-view.md).
 
-![](assets/repository-view-home.png){align="left"}
+![](assets/repository-view-home.png)
 
 En el Editor, la experiencia de búsqueda y filtrado de archivos es ahora coherente con la página de inicio. Se ha introducido un nuevo [panel de búsqueda](../user-guide/search-panel-explorer.md) ubicado en la parte inferior de la interfaz del editor para mostrar los resultados de búsqueda. Además, ahora se cambia el nombre del repositorio a **Explorador** en el Editor, lo que le permite examinar carpetas y archivos como antes.
 
-![](assets/search-panel-explorer.png){align="left"}
+![](assets/search-panel-explorer.png)
 
 
 ## Indexación mejorada para sugerencias inteligentes en el asistente de IA
@@ -56,7 +57,3 @@ Después de la actualización de la compilación, el sistema puede experimentar 
 Se ha introducido un proceso automatizado para mantener los recursos de `/content/dam` actualizados. El sistema déclencheur el reprocesamiento de recursos cada 15 minutos. Durante cada ciclo, los recursos que se agregaron recientemente o que permanecieron sin procesar en el intervalo de 15 minutos más reciente se recogen y se vuelven a procesar, lo que mejora la eficacia y la coherencia en todo el repositorio de contenido.
 
 Para obtener más información, vea [Procesar recursos](../user-guide/asset-processor.md).
-
-
-
-

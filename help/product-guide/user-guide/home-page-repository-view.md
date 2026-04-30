@@ -3,9 +3,10 @@ title: Repositorio en la página de inicio
 description: Conozca el Repositorio en la página de inicio. Obtenga información sobre la interfaz y las funciones del repositorio en Adobe Experience Manager Guides en la página de inicio.
 feature: Authoring
 role: User
-source-git-commit: e45343812a67c6755c76f1b31b68c7201cdd8772
+exl-id: 1466c263-d24b-4653-8361-098831002f4e
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ El Repositorio sirve como espacio centralizado para mejorar la capacidad de dete
 
 Esta interfaz unificada optimiza varias funciones, incluida la creación de nuevos archivos o carpetas, la edición de archivos, la carga de recursos y la búsqueda de archivos con opciones de filtrado sólidas, lo que garantiza la eficacia y la facilidad de uso.
 
-![](images/repository-view-home.png){align="left"}
+![](images/repository-view-home.png)
 
 La interfaz del repositorio se divide en las siguientes secciones:
 
@@ -27,16 +28,16 @@ La interfaz del repositorio se divide en las siguientes secciones:
 
 La barra de navegación del Repositorio, situada en la parte superior de la interfaz del Repositorio, proporciona un acceso rápido a las acciones esenciales que se enumeran.
 
-![](images/tab-bar-repository-view.png){align="left"}
+![](images/tab-bar-repository-view.png)
 
 
 - **Panel de navegación de carpetas**: Muestra una vista de árbol jerárquica de las carpetas del repositorio, lo que permite una navegación sin problemas. Este panel solo muestra información de nivel de carpeta. Cuando se selecciona una carpeta desde aquí, su contenido, archivos y subcarpetas se muestran en la vista Repositorio. Puede mostrar u ocultar este panel con el icono resaltado a continuación.
 
-  ![](images/folder-navigation-panel.png){align="left"}
+  ![](images/folder-navigation-panel.png)
 
 - **Rutas de exploración**: indica la ruta de acceso actual dentro del repositorio y muestra la jerarquía de carpetas que conducen a la carpeta actual. Puede seleccionarlo para volver a una carpeta específica dentro de la jerarquía.
 
-  ![](images/breadcrumbs.png){width="650" align="left"}
+  ![](images/breadcrumbs.png){width="650"}
 
 - **Actualizar**: actualiza el repositorio para reflejar los cambios más recientes.
 - **Cargar Assets**: permite cargar recursos directamente en la carpeta actual, tal como se indica en las rutas de exploración.
@@ -55,7 +56,7 @@ El Repositorio sirve como espacio central que proporciona una lista tabular de t
 
 - **Personalizar**: puede modificar las columnas mostradas mediante la opción **Personalizar** ubicada en la esquina superior derecha de la vista Repositorio. Esta opción le permite mostrar u ocultar cualquier columna y también reorganizar las columnas según sea necesario. Las columnas **Name** o **Title** son obligatorias y ambas no se pueden deshabilitar a la vez. Otros campos, como **Tipo de archivo**, **UUID**, **Estado del documento**, **Bloqueado por**, **Creado el** y **Modificado el**, se pueden habilitar o deshabilitar según sea necesario. Puede reorganizarlos simplemente arrastrando y soltando.
 
-  ![](images/customize-repo-view.png){width="350" align="left"}
+  ![](images/customize-repo-view.png){width="350"}
 
 - **Cambio de tamaño de columna**: Es posible cambiar el tamaño de las columnas seleccionando opciones en el menú desplegable de columnas.
 
@@ -67,11 +68,11 @@ El Repositorio sirve como espacio central que proporciona una lista tabular de t
    - Después de seleccionar los archivos deseados mediante la casilla de verificación, la opción **Editar** estará disponible en la esquina superior derecha de la vista Repositorio.
    - Al seleccionar **Editar** se abren los archivos seleccionados en la interfaz del Editor, donde podrá empezar a editar el archivo.
 
-     ![](images/edit-repo-view.png){align="left"}
+     ![](images/edit-repo-view.png)
 
 - **Menú de opciones para carpetas**: puede realizar las siguientes acciones mediante el menú **Opciones** disponible para una carpeta:
 
-  ![](images/options-folder-repo.png){width="350" align="left"}
+  ![](images/options-folder-repo.png){width="350"}
 
    - **Nuevo**: crea un nuevo tema, mapa o carpeta DITA.
    - **Cargar Assets**: cargue un archivo de su sistema local a la carpeta seleccionada en el repositorio.
@@ -80,7 +81,7 @@ El Repositorio sirve como espacio central que proporciona una lista tabular de t
 
 - **Menú de opciones para los archivos**: puede realizar las siguientes acciones mediante el menú **Opciones** de un archivo:
 
-  ![](images/options-file-repo-new.png){width="350" align="left"}
+  ![](images/options-file-repo-new.png){width="350"}
 
    - **Editar**: abra el archivo para editarlo.
    - **Editar en oxígeno**: seleccione esta opción para editar el archivo seleccionado en el complemento Conector de oxígeno.
@@ -107,11 +108,11 @@ El Repositorio sirve como espacio central que proporciona una lista tabular de t
 
 La opción **Buscar** ayuda a buscar los archivos necesarios en el repositorio principalmente sobre la base de **Título de archivo**, **Nombre de archivo** y **Contenido**. Puede utilizar uno, dos o los tres criterios para la búsqueda. Si no se selecciona ninguno de los criterios, los resultados incluyen elementos comunes a los tres criterios.
 
-![](images/search-in-repository.png){align="left"}
+![](images/search-in-repository.png)
 
 Seleccione el icono **Filtrar búsqueda** \(![Icono de filtro de búsqueda](images/filter-search-icon.svg)\) para abrir el panel Filtro a la derecha.
 
-![](images/Search-filters-repo.png){align="left"}
+![](images/Search-filters-repo.png)
 
 Tiene las siguientes opciones para filtrar los archivos y limitar la búsqueda:
 
@@ -143,15 +144,14 @@ Después de aplicar todos los filtros necesarios, selecciona **Aplicar** en la e
 
 Los resultados de búsqueda personalizados según el filtro seleccionado aparecen como **lista tabular de archivos solamente** (las carpetas no se muestran). Puede quitar cualquier filtro individualmente o varios filtros al mismo tiempo, y los resultados se actualizan para reflejar la selección actualizada.
 
-![](images/search-results-with-filters.png){align="left"}
+![](images/search-results-with-filters.png)
 
 Una vez que aparezcan los resultados de la búsqueda, puede seleccionar varios archivos y abrirlos en el editor con el icono **Editar**, o trabajar con todos los resultados enviando los resultados de búsqueda al editor mediante la opción **Mostrar en el panel de búsqueda**.
 
-![](images/post-search-operation.png){align="left"}
+![](images/post-search-operation.png)
 
 **Mostrar en el panel de búsqueda**
 
 La opción **Mostrar en el panel de búsqueda** está disponible después de realizar una búsqueda en el repositorio. Esta característica le permite mostrar todos los resultados de búsqueda en el **panel Buscar** dentro del Editor. Para obtener más información, vea [Panel de búsqueda](./search-panel-explorer.md).
 
-![](images/search-panel-repo.png){align="left"}
-
+![](images/search-panel-repo.png)

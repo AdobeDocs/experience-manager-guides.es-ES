@@ -4,9 +4,9 @@ description: Conozca las funciones nuevas y mejoradas de la versión de noviembr
 exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -17,18 +17,18 @@ Este artículo cubre las funciones nuevas y mejoradas de la versión de noviembr
 
 Para obtener más información sobre las instrucciones de actualización, la matriz de compatibilidad y los problemas corregidos en esta versión, vea [Notas de la versión](release-notes-2023-11-0.md).
 
-## Mejoras del PDF nativo
+## Mejoras nativas de PDF
 
 En la versión de noviembre de 2023 se realizaron las siguientes mejoras en el PDF nativo:
 
 ### Uso y duplicación de plantillas de PDF listas para usar
 
-Experience Manager Guides proporciona plantillas de PDF listas para usar o de fábrica. Duplique las plantillas de PDF de fábrica para crear las plantillas de PDF personalizadas.
+Experience Manager Guides proporciona plantillas de PDF listas para usar o de fábrica. Duplique las plantillas PDF de fábrica para crear las plantillas PDF personalizadas.
 
 Ahora, también puede previsualizar la imagen en miniatura de una plantilla al crear y duplicar una plantilla. También puede editar o eliminar esta imagen. Esta función es útil para marcar o distinguir plantillas con nombres similares.
 Más información sobre la [plantilla de PDF](../native-pdf/pdf-template.md).
 
-![Cuadro de diálogo Duplicar plantilla de PDF](assets/duplicate-template.png){width="550" align="left"}
+![Cuadro de diálogo Duplicar plantilla de PDF](assets/duplicate-template.png){width="550"}
 
 *Duplicar una plantilla de PDF existente.*
 
@@ -43,9 +43,9 @@ Ahora, también puede ordenar los términos del glosario en función de los crit
 Para obtener más información, vea [Configuración avanzada de PDF](../native-pdf/components-pdf-template.md#advanced-pdf-settings).
 
 
-### Administración de recursos mejorada para plantillas de PDF nativas
+### Administración de recursos mejorada para plantillas nativas de PDF
 
-Experience Manager Guides ahora ha mejorado la administración de recursos para plantillas de PDF nativas. Ahora puede compartir y reutilizar recursos, como imágenes, archivos CSS y archivos de fuentes, en varias plantillas de PDF nativas. Con esta mejora, la administración de los recursos de un gran conjunto de plantillas es mucho más sencilla. No es necesario crear recursos duplicados para cada plantilla y puede mantenerlos en una carpeta compartida y utilizarlos en todas las plantillas de PDF nativas.
+Experience Manager Guides ahora ha mejorado la administración de recursos para plantillas nativas de PDF. Ahora puede compartir y reutilizar recursos como imágenes, archivos CSS y archivos de fuentes en varias plantillas nativas de PDF. Con esta mejora, la administración de los recursos de un gran conjunto de plantillas es mucho más sencilla. No es necesario crear recursos duplicados para cada plantilla, y puede mantenerlos en una carpeta compartida y utilizarlos en todas las plantillas nativas de PDF.
 Para obtener más información, vea [Plantilla de PDF](../native-pdf/pdf-template.md).
 
 ## Mejoras del editor web
@@ -57,7 +57,7 @@ En la versión de noviembre de 2023 se realizaron las siguientes mejoras en el e
 
 Ahora puede elegir la forma predeterminada de ver los archivos en el Editor Web. Puede ver la lista de archivos por títulos o nombres de archivo desde los distintos paneles de la vista Autor.
 
-![Cuadro de diálogo Preferencias de usuario](assets/user-preferences-2311.png){width="550" align="left"}
+![Cuadro de diálogo Preferencias de usuario](assets/user-preferences-2311.png){width="550"}
 
 *Cambie la forma predeterminada de ver los archivos desde el cuadro de diálogo **Preferencias de usuario**.*
 
@@ -66,7 +66,7 @@ Ahora puede elegir la forma predeterminada de ver los archivos en el Editor Web.
 
 Puede definir atributos de condición en los temas DITA. A continuación, utilice los atributos de condición en el ajuste preestablecido de condición para publicar el contenido en un mapa DITA. Experience Manager Guides ahora también le permite crear y administrar ajustes preestablecidos de condición desde el Editor web. También puede editarlos, duplicarlos o eliminarlos fácilmente.
 
-![Ajustes preestablecidos de condición de la ficha Administrar del editor web &#x200B;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+![Ajustes preestablecidos de condición de la ficha Administrar del editor web ](assets/web-editor-manage-condition-presets.png){width="550"}
 
 Para obtener más información, vea [Usar ajustes preestablecidos de condición](../user-guide/generate-output-use-condition-presets.md).
 

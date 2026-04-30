@@ -5,10 +5,10 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 0%
+source-wordcount: '1052'
+ht-degree: 1%
 
 ---
 
@@ -29,12 +29,12 @@ Para crear un fragmento de contenido, realice los siguientes pasos:
 1. Cree una carpeta en la que desee guardar los fragmentos de contenido que cree en función del modelo de fragmento de contenido. Por ejemplo, &quot;stock-content-fragments&quot;.
 1. Edite las propiedades de la carpeta (por ejemplo, &quot;stock-content-fragments&quot;) y agregue la ruta de la carpeta, que contiene el modelo de fragmento de contenido en la configuración de la nube.
 Por ejemplo, agregue `/conf/we-retail` en la configuración de nube. Esta configuración conecta todos los modelos de fragmento de contenido con la carpeta.\
-   ![agregar detalles de configuración de nube en las propiedades de la carpeta](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
+   ![agregar detalles de configuración de nube en las propiedades de la carpeta](images/fragment-folder-cloud-configuration.png){width="650"}
    *Agregue la configuración de nube en las propiedades de la carpeta para conectarla con los modelos de fragmento.*
 
 1. Para generar un fragmento de contenido, seleccione **Nueva salida** ![nuevo icono de salida](./images/Add_icon.svg) de la sección **Salidas** en las **Propiedades de archivo** de un tema.
 1. Seleccione **Fragmento de contenido**.\
-   ![ficha de opciones de propiedades de archivo](./images/file-properties-outputs-tab.png) {width="300" align="left"}
+   ![ficha de opciones de propiedades de archivo](./images/file-properties-outputs-tab.png) {width="300"}
 
    *Agregar un nuevo fragmento de contenido desde las propiedades de archivo de un tema*.
 
@@ -82,7 +82,7 @@ El lado derecho se rellena con el contenido publicado del fragmento de contenido
 
 1. Puede ver los fragmentos de contenido de un tema en la sección **Salidas** de **Propiedades del archivo**.
 
-   ![Ver los fragmentos de contenido de un tema](images/outputs-options-menu.png){width="300" align="left"}
+   ![Ver los fragmentos de contenido de un tema](images/outputs-options-menu.png){width="300"}
 
    *Vea los fragmentos de contenido presentes en un tema y vuelva a publicarlos.*
 

@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor, Document State
 role: User
 hide: true
 exl-id: f8367f84-dd46-4140-8748-c3bda0cf933a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Para cambiar el estado de un documento, realice los siguientes pasos:
 
 La vista de tarjeta de la interfaz de usuario de Assets muestra el estado actual junto con la fecha de creación y el tamaño del tema o mapa DITA correspondiente.
 
-![](images/document_state.png){width="800" align="left"}
+![](images/document_state.png){width="800"}
 
 ## Usar estados de documento en DLC
 
@@ -72,11 +72,11 @@ Para utilizar la función de aprobación de documentos, realice los siguientes p
 
 1. Si el documento se encuentra en el estado para marcarse como aprobado, aparecerá el siguiente cuadro de diálogo:
 
-   ![](images/mark-approved-correct-state.png){width="300" align="left"}
+   ![](images/mark-approved-correct-state.png){width="300"}
 
    Si el documento no se puede marcar como aprobado, aparecerá el siguiente mensaje:
 
-   ![](images/mark-approved-incorrect-state.png){width="300" align="left"}
+   ![](images/mark-approved-incorrect-state.png){width="300"}
 
 1. Si el documento está listo para marcarse como aprobado, seleccione una etiqueta de la lista desplegable y haga clic en **Aprobar**.
 
@@ -86,7 +86,7 @@ Para utilizar la función de aprobación de documentos, realice los siguientes p
 
 1. Una vez que el documento se haya marcado correctamente como aprobado, se mostrará una **vista previa** del documento en modo de solo lectura.
 
-   ![](images/approved-doc-read-only.png){width="650" align="left"}
+   ![](images/approved-doc-read-only.png){width="650"}
 
    >[!NOTE]
    >
@@ -104,4 +104,4 @@ Una vez marcado un documento como aprobado, ya no está disponible para su edici
    El estado del documento cambia a Borrador y el documento se abre en el Editor Web en modo de edición.
 
 
-**Tema principal:**&#x200B;[&#x200B; Trabajar con el editor web](web-editor.md)
+**Tema principal:**[ Trabajar con el editor web](web-editor.md)

@@ -5,9 +5,9 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Realice los siguientes pasos para ver la cola de generación de resultados:
 
 1. Haga clic en Salidas.
 
-   ![](images/output-queued-fm.png){width="800" align="left"}
+   ![](images/output-queued-fm.png){width="800"}
 
 1. La página Resultados se divide en dos partes:
 
@@ -37,4 +37,4 @@ Realice los siguientes pasos para ver la cola de generación de resultados:
      En esta lista, puede tener tareas que se hayan ejecutado correctamente o tareas que hayan fallado. Para las tareas que se han completado correctamente, el proceso de publicación crea un archivo de registro \(logs.txt\) al que se puede acceder haciendo clic en el vínculo en la columna Generated At.
 
 
-**Tema principal:**&#x200B;[&#x200B; Generar salida de documentos de FrameMaker](fm-output-generatation.md)
+**Tema principal:**[ Generar salida de documentos de FrameMaker](fm-output-generatation.md)

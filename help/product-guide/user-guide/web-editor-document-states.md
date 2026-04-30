@@ -4,9 +4,9 @@ description: Conozca los tipos de estados de documento en Adobe Experience Manag
 exl-id: 3a68b2ed-b917-4f05-8b2b-d2722a740502
 feature: Authoring, Features of Web Editor, Document State
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Para cambiar el estado de un documento, realice los siguientes pasos:
 
 La vista de tarjeta de la interfaz de usuario de Assets muestra el estado actual junto con la fecha de creación y el tamaño del tema o mapa DITA correspondiente.
 
-![](images/document_state.png){align="left"}
+![](images/document_state.png)
 
 ## Usar estados de documento en DLC
 
@@ -82,11 +82,11 @@ Para utilizar la función de aprobación de documentos, realice los siguientes p
 
 1. Si el documento se encuentra en el estado para marcarse como aprobado, aparecerá el siguiente cuadro de diálogo:
 
-   ![](images/mark-approved-correct-state.png){width="300" align="left"}
+   ![](images/mark-approved-correct-state.png){width="300"}
 
    Si el documento no se puede marcar como aprobado, aparecerá el siguiente mensaje:
 
-   ![](images/mark-approved-incorrect-state.png){width="300" align="left"}
+   ![](images/mark-approved-incorrect-state.png){width="300"}
 
 1. Si el documento está listo para marcarse como aprobado, seleccione una etiqueta de la lista desplegable y seleccione **Aprobar**.
 
@@ -96,7 +96,7 @@ Para utilizar la función de aprobación de documentos, realice los siguientes p
 
 1. Una vez que el documento se haya marcado correctamente como aprobado, se mostrará una **vista previa** del documento en modo de solo lectura. Todas las opciones de edición se eliminan de los tres modos: Autor, Source y Vista previa. Sin embargo, aún tienes acceso al menú desplegable **Menú** que incluye las opciones **Historial de versiones** y **Etiquetas**.
 
-   ![](images/approved-doc-read-only.png){width="650" align="left"}
+   ![](images/approved-doc-read-only.png){width="650"}
 
    >[!NOTE]
    >
@@ -114,4 +114,4 @@ Una vez marcado un documento como aprobado, ya no está disponible para su edici
    El estado del documento cambia a Borrador y el documento se abre en el Editor en modo de edición.
 
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

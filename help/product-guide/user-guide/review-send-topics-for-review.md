@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo crear una tarea de revisión y env
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: c36dbb3861f904bda1aee176fc5f4c0dd69b97dc
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3135'
+source-wordcount: '3161'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Para crear una tarea de revisión y enviar temas para su revisión, realice los 
 
 1. Elija el icono **Seleccionar** en la acción rápida y seleccione los temas que desee enviar para su revisión.
 
-   ![](images/select-asset-62.png){width="300" align="left"}
+   ![](images/select-asset-62.png){width="300"}
 
 1. En la barra de herramientas, seleccione **Crear tarea de revisión**. Se muestra la página de creación de la tarea de revisión.
 
@@ -100,7 +100,7 @@ Para crear una tarea de revisión y enviar temas para su revisión, realice los 
 
    Se muestra la página Contenido.
 
-   ![](images/content_page_review.png){align="left"}
+   ![](images/content_page_review.png)
 
 1. En la página Contenido, seleccione una versión del tema que desee compartir para su revisión.
 
@@ -121,7 +121,7 @@ Para crear una tarea de revisión y enviar temas para su revisión, realice los 
 
    Se muestra la página Revisores, donde puede agregar o quitar revisores. De forma predeterminada, los revisores agregados en el campo Asignar a se agregan automáticamente a cada tema seleccionado para la revisión.
 
-   ![](images/add-reviewers-topics.png){width="650" align="left"}
+   ![](images/add-reviewers-topics.png){width="650"}
 
 1. En la página Revisores, puede agregar o quitar revisores. Las siguientes operaciones están disponibles en la página Revisores:
 
@@ -219,7 +219,7 @@ Para enviar uno o varios temas junto con el archivo de asignación para su revis
 
    La página Contenido se muestra con todos los temas a los que se hace referencia desde el archivo de asignación. Si el mapa DITA contiene mapas anidados, también se enumerarán aquí los temas de los mapas anidados.
 
-   ![](images/content-page-map-review.png){align="left"}
+   ![](images/content-page-map-review.png)
 
 1. En la página Contenido, seleccione una versión del tema que desee compartir para su revisión.
 
@@ -311,4 +311,4 @@ Una vez que se actualiza la tarea de revisión, los revisores reciben notificaci
 Para obtener más información, vea [Descripción de las notificaciones de revisión](./review-understanding-review-notifications.md).
 
 
-**Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)
+**Tema principal:**[ Introducción a la revisión](review.md)

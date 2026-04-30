@@ -4,9 +4,9 @@ description: Administre las tareas de revisión desde el Panel de revisión en A
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1440'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Siga estos pasos para acceder y utilizar el panel de revisión:
 
    Se muestra un panel Proyecto con mosaicos de tareas.
 
-   ![](images/review-management.png){align="left"}
+   ![](images/review-management.png)
 
    >[!NOTE]
    >
@@ -35,7 +35,7 @@ Siga estos pasos para acceder y utilizar el panel de revisión:
 
    Se muestra el panel Revisar. En el panel se muestran todas las tareas de revisión que ha creado.
 
-   ![](images/review-dashboard.png){align="left"}
+   ![](images/review-dashboard.png)
 
    El panel de revisión muestra los detalles sobre la tarea de revisión, como el nombre de la tarea, quién inició la revisión, la fecha en la que se inició, la fecha de vencimiento, el estado, el número de nuevos comentarios que el autor no ha aceptado o rechazado, y el nombre de los revisores. Las tareas se enumeran en el orden de las tareas recién creadas a las tareas más antiguas.
 
@@ -58,7 +58,7 @@ Siga estos pasos para acceder y utilizar el panel de revisión:
 
 ## Pestaña Tarea
 
-![](images/review-task-page.png){align="left"}
+![](images/review-task-page.png)
 
 Puede realizar las siguientes acciones en la ficha **Tarea**:
 
@@ -81,7 +81,7 @@ Puede realizar las siguientes acciones en la ficha **Tarea**:
 
 ## Pestaña Contenido
 
-![](images/review-content-page.png){align="left"}
+![](images/review-content-page.png)
 
 Puede realizar las siguientes acciones en la ficha **Contenido**:
 
@@ -100,7 +100,7 @@ Puede realizar las siguientes acciones en la ficha **Contenido**:
 
 ## Pestaña Revisores {#Reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png){align="left"}
+![](images/reviewers-tab.png)
 
 Puede realizar las siguientes acciones en la ficha **Revisores**:
 
@@ -121,11 +121,11 @@ Puede realizar las siguientes acciones en la ficha **Revisores**:
 
 En Experience Manager Guides, cada tarea de revisión tiene un estado que refleja su estado actual. En el panel de revisión, puede acceder a esta información seleccionando una tarea y eligiendo la opción **Estado**.
 
-![](images/review-dashboard-select-option.png){width="650" align="left"}
+![](images/review-dashboard-select-option.png){width="650"}
 
 Se abrirá un informe de estado de la tarea de revisión como se muestra a continuación:
 
-![](images/check-review-status-dashboard.png){width="650" align="left"}
+![](images/check-review-status-dashboard.png){width="650"}
 
 También puede acceder al informe de estado directamente desde el [panel Revisar](./web-editor-left-panel.md#review) del Editor. Abra una tarea de revisión activa en el panel Revisar, seleccione **Actualizar tarea** y elija **Comprobar estado de revisión**.
 
@@ -140,4 +140,4 @@ El informe de estado de la tarea de revisión contiene los siguientes detalles:
 - Número total de observaciones formuladas sobre todos los temas. En el caso de varios temas en revisión, el número de comentarios de cada tema se menciona \(entre corchetes\) con el nombre del tema.
 - La fecha en la que el revisor accedió por última vez a un tema.
 
-**Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)
+**Tema principal:**[ Introducción a la revisión](review.md)

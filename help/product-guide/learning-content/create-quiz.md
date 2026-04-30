@@ -4,7 +4,7 @@ description: Obtenga información acerca de la creación de pruebas en Aprendiza
 feature: Authoring
 role: User
 exl-id: 96c1d233-66d8-4f4e-b08a-d533d74fe0ff
-source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 1%
@@ -17,12 +17,12 @@ Siga estos pasos para añadir una prueba a un curso:
 
 1. Abra un curso en **Administrador de cursos** y seleccione **Agregar nuevo** en el menú **Opciones**.
 
-   ![](assets/workflow-quiz.png){width="650" align="left"}
+   ![](assets/workflow-quiz.png){width="650"}
 
 1. Seleccionar **prueba**.\
    Se abre el cuadro de diálogo **Nueva prueba de aprendizaje** para especificar los detalles relevantes de la prueba. Puede seleccionar la plantilla en el menú desplegable y especificar un título adecuado para la misma.
 
-   ![](assets/new-learning-quiz.png){width="350" align="left"}
+   ![](assets/new-learning-quiz.png){width="350"}
 
 1. Seleccione **Crear**.
 

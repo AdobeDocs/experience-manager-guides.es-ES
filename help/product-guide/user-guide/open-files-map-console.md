@@ -4,7 +4,7 @@ description: Obtenga información acerca de las formas de abrir un archivo de ma
 feature: Publishing
 role: User
 exl-id: 9443ffe8-77db-454a-b2cb-a135ada24d10
-source-git-commit: 1bde45c92d543f47a3a4482dad5aecfbf5753808
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Siga estos pasos para abrir un archivo de mapa DITA en la consola de mapas:
 
 1. Abra **la consola de mapas** desde la página principal.
 
-   ![Nuevo &#x200B;](images/map-console-home-page.png){width="800"align="left"}
+   ![Nuevo ](images/map-console-home-page.png){width="800"}
 
 2. Dado que no se ha seleccionado ningún archivo de asignación, se le pedirá que seleccione un archivo de asignación para utilizar las funciones de gestión y publicación de mapas.
 
@@ -27,7 +27,7 @@ Siga estos pasos para abrir un archivo de mapa DITA en la consola de mapas:
 
    El archivo de asignación se abre en la consola Mapa. De manera predeterminada, la ficha **Ajustes preestablecidos de salida** está seleccionada.
 
-   ![Nuevo](images/map-console-screen.png){width="800"align="left"}
+   ![Nuevo](images/map-console-screen.png){width="800"}
 
    >[!NOTE]
    >
@@ -45,4 +45,4 @@ También puede abrir un archivo de asignación existente en la consola Mapa desd
 
    El archivo de asignación se abre en la consola Mapa.
 
-   ![Nuevo &#x200B;](images/map-console.png){align="left"}
+   ![Nuevo ](images/map-console.png)

@@ -5,10 +5,10 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1887'
-ht-degree: 0%
+source-wordcount: '1896'
+ht-degree: 1%
 
 ---
 
@@ -36,14 +36,14 @@ Para añadir citas, siga estos pasos:
 1. Seleccione el icono **Citas** ![icono de citas](images/citations-icon.svg) en el panel izquierdo.
 Se abre el panel **Citas**.
 
-   ![](images/citation-panel.png){width="300" align="left"}
+   ![](images/citation-panel.png){width="300"}
 
 1. En el panel **Citas**, seleccione ![Agregar icono](images/Add_icon.svg). Desde el menú desplegable puede elegir añadir una nueva cita o importar una cita.
 
 1. Seleccione **Nueva cita** para agregar una nueva cita.
 Se abre el cuadro de diálogo **Agregar cita**.
 
-   ![panel de citas en el editor web](images/citation-add.png) {width="300" align="left"}
+   ![panel de citas en el editor web](images/citation-add.png) {width="300"}
 
 
 1. Rellene los campos del cuadro de diálogo **Agregar cita**.
@@ -99,7 +99,7 @@ Para importar citas, siga estos pasos:
 
    >[!NOTE]
    > <ol><li> AEM Guides importa solo las citas que son únicas y no están presentes.
-   > &gt; <li> AEM Guides puede importar citas de un libro, una revista o un sitio web. Actualmente no admite citas de otras fuentes.
+    &gt; <li> AEM Guides puede importar citas de un libro, una revista o un sitio web. Actualmente no admite citas de otras fuentes.
 
 ## Administrar citas
 
@@ -136,7 +136,7 @@ Las siguientes opciones están disponibles en la lista desplegable:
 | MLA | APA | Chicago | IEEE | AHA |
 |---|---|---|---|---|
 | Estilo de asociación de idioma moderno <br> | American Psychological Association Style | Manual de estilo de Chicago | Instituto de Ingenieros Eléctricos y Electrónicos Estilo | American Heart Association Style |
-| Ejemplo: <br> Crawford, Claire, etc. *Contenido emocional de recuerdos oscuros*.Editado por Memory, vol. 16, 2010, Amsterdam. | Ejemplo: <br> Crawford, C., J., &amp;, C. (2010). *Contenido emocional de recuerdos oscuros* (505-16 ed.). 10,1080/ 09658210902067289 | Ejemplo: <br> Crawford, Claire, etc. *Contenido emocional de recuerdos oscuros*. 505-16, 2010. | Ejemplo: <br> C. Crawford, J. , y C. , *Contenido emocional de recuerdos oscuros*. Amsterdam, 2010. | Ejemplo: <br> C. Crawford, J. , y C. , *Contenido emocional de recuerdos oscuros*. Amsterdam, 2010. |
+| Ejemplo: <br> Crawford, Claire, etc. *Contenido emocional de recuerdos oscuros*.Editado por Memory, vol. 16, 2010, Amsterdam. | Ejemplo: <br> Crawford, C., J., &amp;, C. (2010). *Contenido emocional de recuerdos oscuros* (505-16 ed.). 10.1080/ 09658210902067289 | Ejemplo: <br> Crawford, Claire, etc. *Contenido emocional de recuerdos oscuros*. 505-16, 2010. | Ejemplo: <br> C. Crawford, J. , y C. , *Contenido emocional de recuerdos oscuros*. Amsterdam, 2010. | Ejemplo: <br> C. Crawford, J. , y C. , *Contenido emocional de recuerdos oscuros*. Amsterdam, 2010. |
 
 
 ## Editar una cita
@@ -149,7 +149,7 @@ Para editar la cita, siga estos pasos:
 
 Se abre el cuadro de diálogo **Editar cita**.
 
-1. Efectúe las modificaciones necesarias. Seleccione **Listo**.
+1. Efectúe las modificaciones necesarias. Seleccione **Listo**.
 La cita seleccionada se edita.
 
 >[!NOTE]
@@ -160,9 +160,9 @@ La cita seleccionada se edita.
 
 Para obtener una vista previa de una cita, siga estos pasos:
 
-Pase el ratón sobre el nombre de la cita de la lista. Seleccionar     Icono ![](images/options.svg) **Opciones**.
+Pase el ratón sobre el nombre de la cita de la lista. Seleccione el icono ![](images/options.svg) **Opciones**.
 
-1. Seleccionar **vista previa**.
+1. Seleccione **Vista previa**.
 Puede obtener una vista previa del contenido y el formato de la cita en el panel de vista previa.
 
    >[!NOTE]
@@ -171,7 +171,7 @@ Puede obtener una vista previa del contenido y el formato de la cita en el panel
 
 1. Haga clic en cualquier lugar de la pantalla para cerrar el cuadro de vista previa.
 
-   ![](images/citation-preview.png){width="550" align="left"}
+   ![](images/citation-preview.png){width="550"}
 
 >[!NOTE]
 >
@@ -189,9 +189,9 @@ Puede insertar citas al tema desde la barra de herramientas principal o el panel
 
 ### Desde la barra de herramientas principal
 
-1. Seleccione el icono de **citas** ![citas &#x200B;](images/citations-icon.svg) en la barra de herramientas principal.
+1. Seleccione el icono de **citas** ![citas ](images/citations-icon.svg) en la barra de herramientas principal.
 1. En el cuadro de diálogo **Citas**, elija la cita. También puede seleccionar varias citas.
-   ![cuadro de diálogo de cita](images/citation-dialog-main-toolbar.png){width="300" align="left"}
+   ![cuadro de diálogo de cita](images/citation-dialog-main-toolbar.png){width="300"}
 1. Puede filtrar las citas escribiendo los primeros alfabetos en el panel de búsqueda del cuadro de diálogo **Cita**.
 
 1. Haga clic en **Listo**.
@@ -204,7 +204,7 @@ La cita seleccionada se agrega en la ubicación del cursor en el tema.
 > 
 >Para ver el icono **Citas** en el panel izquierdo, el administrador del sistema debe seleccionar la opción **Citas** en la pestaña **Paneles** en **Configuración del editor**.
 
-1. Seleccione **Citas** ![icono de citas &#x200B;](images/citations-icon.svg) en el panel izquierdo.
+1. Seleccione **Citas** ![icono de citas ](images/citations-icon.svg) en el panel izquierdo.
 1. Arrastre la cita del panel **Citas** y suéltela en el lugar apropiado del tema.
 
    También puede seleccionar **Insertar** de ![](images/options.svg) **Opciones** para insertar una cita.
@@ -228,7 +228,7 @@ Para eliminar una cita del panel Citas, siga estos pasos:
 
 1. Pase el ratón sobre el nombre de la cita de la lista.
 1. Seleccione el icono ![](images/options.svg) **Opciones**.
-1. Seleccione el   **Eliminar** ![](images/Delete_icon.svg).
+1. Seleccione **Eliminar** ![](images/Delete_icon.svg).
 Se abrirá el cuadro de diálogo de confirmación.
 1. Seleccione **Sí**.
 La cita seleccionada se elimina del panel de citas.

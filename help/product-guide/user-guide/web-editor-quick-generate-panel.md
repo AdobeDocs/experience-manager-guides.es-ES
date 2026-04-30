@@ -4,9 +4,9 @@ description: Utilice el panel de generación rápida en AEM Guides. Obtenga info
 exl-id: 5de04980-91d7-4bbc-a4b7-9bfd60ccf3c7
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ AEM Guides proporciona un panel **Generación rápida** integrado dentro del Edi
 >
 > Aparecerá el panel **Generación rápida** para el mapa DITA abierto en el panel Vista de mapa.
 
-![](images/quick-generate-map-view.png){align="left"}
+![](images/quick-generate-map-view.png)
 
 Realice los siguientes pasos para generar el resultado desde el panel **Generación rápida**:
 
@@ -34,4 +34,4 @@ Realice los siguientes pasos para generar el resultado desde el panel **Generaci
 1. Haga clic en **Generar** para generar el resultado de los ajustes preestablecidos seleccionados. Se muestra un mensaje de éxito en la generación de la salida. Si falla la generación, aparece un mensaje de error. También puede ver el registro de errores para ver los detalles del error que se produjo en el proceso de generación.
 1. Haga clic en el icono **Ver salida** \( ![](images/view-output-icon.svg)\) de un ajuste preestablecido específico para ver el resultado generado para el ajuste preestablecido.
 
-**Tema principal:**&#x200B;[&#x200B; Trabajar con el editor web](web-editor.md)
+**Tema principal:**[ Trabajar con el editor web](web-editor.md)

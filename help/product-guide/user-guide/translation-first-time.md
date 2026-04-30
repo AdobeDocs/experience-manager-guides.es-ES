@@ -4,9 +4,9 @@ description: Conozca las prácticas recomendadas para la traducción de contenid
 exl-id: f2a4df86-bba7-434c-b7f9-3587b8a4f9bc
 feature: Translation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Tenga en cuenta el siguiente punto para traducir contenido:
 
 La siguiente ilustración muestra un ejemplo de una estructura de carpetas en Adobe Experience Manager cuando ha utilizado globalmente contenido y tres copias de idioma.
 
-![](images/aem-directory_structure.png){align="left"}
+![](images/aem-directory_structure.png)
 
 ## Configuración del servicio de traducción
 
@@ -49,7 +49,7 @@ Realice los siguientes pasos para configurar el servicio de traducción humana o
 
    >[!NOTE]
    >
-   > Consulte [Configuración del marco de trabajo de integración de traducciones](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=es) en la documentación de Adobe Experience Manager para obtener más información sobre la integración con servicios de traducción de terceros.
+   > Consulte [Configuración del marco de trabajo de integración de traducciones](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) en la documentación de Adobe Experience Manager para obtener más información sobre la integración con servicios de traducción de terceros.
 
 1. Seleccione **Guardar y cerrar** para guardar las propiedades actualizadas de la carpeta.
 
@@ -79,4 +79,4 @@ Una vez finalizada la traducción, el estado del trabajo de traducción cambia a
 >- Si rechaza, elimina o cancela el trabajo de traducción de un tema presente en varios proyectos (para cualquiera de los proyectos), el estado de traducción **En curso** del tema no se revierte, pero ese proyecto se elimina de la lista de proyectos **En curso** para ese recurso dado.
 >- Además, si cancela o elimina el trabajo de traducción o elimina todo el proyecto, el estado de la traducción **En curso** vuelve a su estado original.
 
-**Tema principal:**&#x200B;[&#x200B; Resumen de traducción de contenido](translation.md)
+**Tema principal:**[ Resumen de traducción de contenido](translation.md)

@@ -2,9 +2,9 @@
 title: Sugerencias inteligentes con tecnología de IA para crear contenido
 description: Aprenda a ver y utilizar sugerencias inteligentes con tecnología de IA en el editor web.
 exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
-source-git-commit: dd6fae108ddca23d36615fe38d176723bc4cfe86
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -24,24 +24,24 @@ Realice los siguientes pasos para ver las sugerencias inteligentes para agregar 
 
 
 1. Seleccione el contenido del tema para ver las sugerencias relacionadas. Asegúrese de que la longitud de caracteres del contenido supera lo que el administrador ha establecido en el perfil de carpeta para que aparezcan las sugerencias de contenido.
-1. En el **panel de creación** del Asistente de IA, seleccione **Sugerir contenido reutilizable** ![ai sugerir icono de contenido reutilizable &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
+1. En el **panel de creación** del Asistente de IA, seleccione **Sugerir contenido reutilizable** ![ai sugerir icono de contenido reutilizable ](./images/ai-suggest-reusable-content-icon.svg).
 
 1. Seleccione una etiqueta para ver las sugerencias de creación de la etiqueta actual  Las sugerencias para ver y agregar referencias de contenido desde los archivos indexados se muestran en función del contenido de la etiqueta actual. También puede seleccionar varias etiquetas.
 
 
-1. Seleccione todas las etiquetas para ver las sugerencias en función del contenido presente en el documento completo.  El icono **Sugerir contenido reutilizable** ![ai sugerir contenido reutilizable &#x200B;](./images/ai-suggest-reusable-content-icon.svg) se muestra junto al contenido donde se encuentra una coincidencia adecuada.
+1. Seleccione todas las etiquetas para ver las sugerencias en función del contenido presente en el documento completo.  El icono **Sugerir contenido reutilizable** ![ai sugerir contenido reutilizable ](./images/ai-suggest-reusable-content-icon.svg) se muestra junto al contenido donde se encuentra una coincidencia adecuada.
 
 
 
    >[!NOTE]
    >
-   > Solo puede ver las sugerencias de la ventanilla actual (el contenido visible en la pantalla). Para ver sugerencias de cualquier otro contenido del documento, desplácese hacia arriba o hacia abajo para mostrarlo en la ventanilla móvil y, a continuación, seleccione **Sugerir contenido reutilizable** ![ai sugerir icono de contenido reutilizable &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
+   > Solo puede ver las sugerencias de la ventanilla actual (el contenido visible en la pantalla). Para ver sugerencias de cualquier otro contenido del documento, desplácese hacia arriba o hacia abajo para mostrarlo en la ventanilla móvil y, a continuación, seleccione **Sugerir contenido reutilizable** ![ai sugerir icono de contenido reutilizable ](./images/ai-suggest-reusable-content-icon.svg).
 
 
 1. Puede ver las sugerencias inteligentes en el panel Sugerencias.  Experience Manager Guides proporciona sugerencias con contenido que es similar al contexto o tiene el mismo significado. Por ejemplo, puede buscar el tema que contenga el número de versión exacto, como &quot;versión 2023.03.12&quot;. También puede buscar &quot;Adobe tiene su sede en San José, California&quot; y encontrar contenido similar como &quot;San José tiene los cuartos de muchas empresas de software como Adobe&quot;.
 1. Seleccione **Información de contenido** ![Información de contenido](images/smart-suggestions-content-info-icon.svg) para ver los detalles.
 
-   ![Panel de información de contenido](images/smart-suggestions-content-information.png){width="300" align="left"}
+   ![Panel de información de contenido](images/smart-suggestions-content-information.png){width="300"}
 
    *Ver la información detallada sobre la referencia de contenido.*
 

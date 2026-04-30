@@ -4,9 +4,10 @@ description: Obtenga información sobre cómo administrar versiones
 feature: Version Management
 role: Admin
 level: Experienced
-source-git-commit: b416334318a83e882c32318bc4769d24268cdd1c
+exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2309'
 ht-degree: 0%
 
 ---
@@ -113,7 +114,7 @@ Además, también puede configurar para que se muestre un mensaje de advertencia
 
 1. Seleccione la opción **Deshabilitar edición sin desprotección**.
 
-   ![](assets/xml-editor-config.png){width="650" align="left"}
+   ![](assets/xml-editor-config.png){width="650"}
 
    Con esta opción, los usuarios no verán la opción Editar en la barra de herramientas hasta que desprotejan un archivo.
 
@@ -209,7 +210,7 @@ Para admitir esta característica, se agrega una nueva propiedad de índice `dri
 
 `/oak:index/damAssetLucene/indexRules/dam:Asset/properties/drivelock`
 
-![](assets/index-property-oak-index-drivelock.png){width="800" align="left"}
+![](assets/index-property-oak-index-drivelock.png){width="800"}
 
 Además de la nueva propiedad index, asegúrese de que las siguientes propiedades están establecidas en `/oak:index/damAssetLucene`:
 
@@ -247,7 +248,7 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 
 | PID | Clave de propiedad | Valor de propiedad |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | Valores posibles: <br> - allow\_unsafe\_delete\_for\_all <br> -   allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valor predeterminado**: `allow_unsafe_delete_for_delete_assets_group` <br> A continuación se proporcionan los detalles de estas constantes. |
+| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | Los valores posibles son: <br> - allow\_unsafe\_delete\_for\_all <br> - allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valor predeterminado**: `allow_unsafe_delete_for_delete_assets_group` <br> A continuación se proporcionan los detalles de estas constantes. |
 
 En función de a quién desee conceder acceso para su eliminación, especifique una de las siguientes constantes:
 
@@ -279,11 +280,11 @@ En función de a quién desee conceder acceso para su eliminación, especifique 
 
    - allow\_unsafe\_delete\_for\_all: conceder permiso a todos los usuarios para eliminar archivos. En este caso, si el archivo\(s\) contiene(n) referencias o es referenciado(s) por otros archivos, también puede eliminar a la fuerza dicho archivo\(s\). Antes de eliminar el archivo, se le mostrará un mensaje con las referencias, puede cancelar la operación de eliminación, quitar las referencias y, finalmente, eliminar el archivo\(s\). O bien, puede eliminar a la fuerza el archivo sin eliminar las referencias.
 
-     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550"}
 
    - allow\_unsafe\_delete\_for\_delete\_assets\_group: Un administrador o un usuario que pertenezca al grupo *delete-assets* tiene permiso para eliminar archivos. Si algún otro usuario intenta eliminar archivos con referencias, no se le permitirá eliminar dichos archivos hasta que se eliminen todas las referencias. La siguiente captura de pantalla aparece cuando un usuario, que no tiene permisos de, intenta eliminar archivos.
 
-     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550"}
 
    - block\_unsafe\_delete\_for\_all: Impedir que todos los usuarios \(incluidos los administradores\) eliminen archivos hasta que se eliminen las referencias al archivo y desde él.
 
@@ -313,7 +314,7 @@ Siga estos pasos para purgar las versiones anteriores:
 
    ![](assets/preview-purge-report.png)
 
-1. &#x200B;
+1. 
    - **Número de versiones que se deben conservar de la última versión**: escriba el número de versiones que se deben conservar y no purgar. Por ejemplo, si se introduce 5, se conservan las últimas 5 versiones y las versiones anteriores a ellas pueden depurarse en caso de que se cumplan otras condiciones de depuración.
    - **Conservar versiones creadas dentro del intervalo de tiempo \(en días\)**: escriba la antigüedad máxima de una versión en días. Las versiones anteriores al número determinado de días pueden depurarse si se cumplen otras condiciones de depuración. Por ejemplo, si se introduce 100, todas las versiones creadas antes de 100 días cumplen los requisitos para ser depuradas en caso de que se cumplan otras condiciones de depuración.
    - **Ruta**: seleccione la ruta de acceso del archivo o carpeta cuyos archivos desea purgar.

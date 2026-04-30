@@ -4,9 +4,9 @@ description: Publicar un tema o los elementos dentro de un tema en una salida de
 feature: Publishing
 role: User
 exl-id: acbc48b7-93a2-41c6-8565-359fbbdd1fb9
-source-git-commit: e1bac3680afda837393d86ee5f19d5877237ffe9
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Para generar una página de Sites, realice los siguientes pasos:
 1. Seleccione **Nuevo icono de salida**![nuevo icono de salida](./images/Add_icon.svg) de la sección **Salidas**.
 1. Seleccionar **página de sitios**.
 1. En el cuadro de diálogo **Generar página de sitios**, rellene los siguientes detalles:
-   ![Agregue la ruta y los detalles de la plantilla en la página Generar sitios](images/aem-sites-page-generate.png){width="500" align="left"}
+   ![Agregue la ruta y los detalles de la plantilla en la página Generar sitios](images/aem-sites-page-generate.png){width="500"}
 
    * **Ruta**: busque y seleccione la ruta de la carpeta donde desea publicar la página de Sites.
    * **Título**: escriba el título de la página de Sites. De forma predeterminada, el título se rellena con el título del tema. Puede editarlo. Este título se utiliza para generar el nombre de la página de Sites.
@@ -49,7 +49,7 @@ Para generar una página de Sites, realice los siguientes pasos:
 1. Seleccione **Generar** para publicar la página de Sites.
 1. Puede ver la página Sitios de un tema en la sección **Resultados** de las **propiedades de archivo**. Las páginas de Sites aparecen según la fecha y la hora de su publicación, con la última como la primera.
 
-   ![Ver la página de Sites de un tema](images/aem-sites-output-new.png){width=300 align="left"}
+   ![Ver la página de Sites de un tema](images/aem-sites-output-new.png){width=300}
 
    *Vea la página de Sites presente para un tema y vuelva a publicarla.*
 

@@ -4,9 +4,10 @@ description: Obtenga información sobre cómo descargar e instalar plantillas de
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 53a36126-2075-40c8-8882-f77ad6435715
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -68,14 +69,14 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
    1. Vaya a **Repositorios** en el panel izquierdo de Cloud Manager.
    2. Seleccione **Acceder a la info del repositorio** y copie el comando clonar de Git.
 
-      ![Seleccionar información de repositorio de acceso](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350" align="left"}
+      ![Seleccionar información de repositorio de acceso](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350"}
 
    3. Clone el repositorio en el sistema local utilizando el nombre de usuario y la contraseña proporcionados (genere la contraseña si es necesario).
 2. **Agregar paquete al paquete Maven:**
    1. En el repositorio clonado localmente, cree un nuevo paquete Maven o añádalo a uno existente.
    2. Asegúrese de que la estructura `/jcr_root/apps/fmdita/` instalada exista en el proyecto Maven.
 
-      ![Estructura en el proyecto Maven](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650" align="left"}
+      ![Estructura en el proyecto Maven](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650"}
 
 
    3. Coloque el archivo guides-components.all-1.x.x.zip descargado en la carpeta de instalación.
@@ -86,7 +87,7 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
    2. Agregue el siguiente filtro: filter root=`/apps/fmdita` mode=`merge`/
 
 
-      ![Agregar filtro](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
+      ![Agregar filtro](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
 
 
 4. **Configurar pom.xml:** Actualice el archivo pom.xml según los requisitos del entorno.
@@ -98,7 +99,7 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
 >[!TAB Local]
 
 1. **Instalar el paquete de componentes:**
-   1. Vaya a [**Administrador de paquetes CRX**](http://&lt;your-aem-instance>/crx/packmgr).
+   1. Vaya a [**Administrador de paquetes CRX**](http://<your-aem-instance>/crx/packmgr).
    2. Cargue e instale el paquete on-premise-guides-components.all-1.x.0.zip.
 
 2. **Instale el paquete de Sites:** Cargue e instale el paquete aemg-docs.all-1.x.0.zip mediante el Administrador de paquetes de CRX.
@@ -114,7 +115,7 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
 2. **Seleccionar plantilla:** Seleccione **AEMG Docs 1.x.x** y luego seleccione **Siguiente**.
 3. **Escriba los detalles del sitio:** Escriba el **Título del sitio** y **Nombre del sitio**.
 
-   ![Crear sitio](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350" align="left"}
+   ![Crear sitio](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350"}
 
 4. Seleccione **Crear**.
 
@@ -128,7 +129,7 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
    5. Desmarque la opción **Usar asignación de componentes heredados**.
    6. Seleccione **Agregar** para crear el ajuste preestablecido.
 
-      ![Crear nuevo ajuste preestablecido del sitio AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
+      ![Crear nuevo ajuste preestablecido del sitio AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350"}
 
 
 2. **Configurar ajuste preestablecido del sitio de AEM:** Hay dos opciones para configurar el sitio predeterminado (OOTB):
@@ -140,7 +141,7 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
       - Ruta de publicación: Cloud Service: `/content/AEMG-Docs-Site/en/docs/product` y local: `aemg-docs/en/docs/product1`
       - Plantilla de página de tema: Página de tema
 
-      ![Use el menú desplegable del sitio para configurar el sitio de AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
+      ![Use el menú desplegable del sitio para configurar el sitio de AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350"}
 
    **Opción 2: usar la ruta del sitio**
 
@@ -149,11 +150,11 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
 
       Para Cloud Service:
 
-      ![Use la ruta de acceso del sitio para configurar el sitio de AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
+      ![Use la ruta de acceso del sitio para configurar el sitio de AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650"}
 
       Para local:
 
-      ![Usar ruta de acceso al sitio](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
+      ![Usar ruta de acceso al sitio](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350"}
 
 3. **Guardar el ajuste preestablecido:** Guarde los cambios realizados en el ajuste preestablecido.
 
@@ -167,15 +168,15 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
    2. Cree una nueva página de producto en la estructura del sitio OOTB.
    3. Vaya a **Documentos de AEMG** > **Inglés** > **Documentos**.
 
-      ![Creación de página](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650" align="left"}
+      ![Creación de página](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650"}
 
    4. Seleccione el mosaico **Página de inicio** y, a continuación, seleccione **Siguiente**.
 
-      ![Seleccionar mosaico de inicio](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650" align="left"}
+      ![Seleccionar mosaico de inicio](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650"}
 
    5. Escriba **Title** y **Name** para la página.
    6. Seleccione **Crear**.
 
 >[!NOTE]
 >
-> Para la configuración de Cloud Service, asegúrese de que todas las configuraciones se prueben en un entorno que no sea de producción antes de implementarlas en producción. <br><br> Consulte la [Implementación en la documentación de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/deploying/overview) para obtener más información.
+> Para la configuración de Cloud Service, asegúrese de que todas las configuraciones se prueben en un entorno que no sea de producción antes de implementarlas en producción. <br><br> Consulte la [Implementación en la documentación de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview) para obtener más información.

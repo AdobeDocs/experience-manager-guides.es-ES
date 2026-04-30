@@ -4,9 +4,9 @@ description: Ver los informes del historial de versiones de los archivos reverti
 exl-id: 74bef625-acd6-49a6-b983-881a782f68d6
 feature: Report Generation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Puede acceder a este informe desde los siguientes lugares:
 
 - **IU de Assets**: seleccionando un archivo y abriendo **Historial de versiones** desde el carril izquierdo. La vista **Historial de versiones** contiene el vínculo **Revertir registros de versiones** en la parte inferior del panel. Al seleccionar este vínculo, se muestra el historial de versiones revertidas del archivo seleccionado.
 
-  ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
+  ![](images/revert-log-from-assets-ui.png){width="300"}
 
 - **Vista previa del tema**: al obtener una vista previa de un tema, también puede mostrar el panel **Historial de versiones** desde el carril izquierdo. Obtendrá un panel similar a la interfaz de usuario de Assets desde donde podrá seleccionar el vínculo **Revertir registros de versión** para acceder al historial de versiones revertidas del documento activo.
 
@@ -40,7 +40,7 @@ Siga estos pasos para acceder al informe Revertir historial:
 
 1. Seleccione **Mostrar registros** para generar el informe del archivo o carpeta seleccionados.
 
-   ![](images/revert-version-history-report.png){align="left"}
+   ![](images/revert-version-history-report.png)
 
    El informe contiene los siguientes detalles:
 
@@ -57,4 +57,4 @@ Siga estos pasos para acceder al informe Revertir historial:
    - **Comentario**: Cualquier comentario dado por el usuario que revirtió el archivo.
 
 
-**Tema principal:**&#x200B;[&#x200B; Introducción a los informes](reports-intro.md)
+**Tema principal:**[ Introducción a los informes](reports-intro.md)

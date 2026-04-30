@@ -2,10 +2,11 @@
 title: Notas de versión | Novedades de la versión 4.4.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 4.4.0 de Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 57c3b39f0ab0fde5b18e4d4ae0e1501738997e68
+exl-id: 3e73d595-a574-4104-af46-6994685a2f4c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3050'
-ht-degree: 15%
+source-wordcount: '3068'
+ht-degree: 17%
 
 ---
 
@@ -24,17 +25,17 @@ En la versión 4.6.0 de se han realizado las siguientes mejoras en la publicaci�
 
 
 
-### Publish un tema o sus elementos en un fragmento de experiencia
+### Publicación de un tema o sus elementos en un fragmento de experiencia
 
 Un fragmento de experiencia es una unidad de contenido modular dentro de Adobe Experience Manager que integra contenido y diseño. Los fragmentos de experiencias son fundamentales para crear experiencias coherentes y atractivas que se pueden reutilizar en varios canales. Por ejemplo, puede crear fragmentos de experiencias para encabezados o pies de página con elementos de marca, titulares promocionales, testimonios de clientes y promociones de eventos.
 
-![ficha de opciones de propiedades de archivo](./assets/file-properties-outputs-4-6.png) {width="300" align="left"}
+![ficha de opciones de propiedades de archivo](./assets/file-properties-outputs-4-6.png) {width="300"}
 
-*Publish y vea los fragmentos de experiencias de un tema desde la sección **Salidas**&#x200B;en las **Propiedades del archivo**.*
+*Publicar y ver los fragmentos de experiencias de un tema desde la sección **Salidas**en las **Propiedades del archivo**.*
 
 Ahora, Experience Manager Guides le permite publicar un tema o sus elementos en un Fragmento de experiencia. Puede crear una asignación basada en JSON entre un tema o sus elementos y una plantilla de fragmento de experiencia. También puede crear variaciones de Fragmento de experiencia utilizando los filtros de condición.
 
-Obtenga más información sobre cómo [Fragmentos de experiencias de Publish](../user-guide/publish-experience-fragment.md).
+Obtenga más información sobre cómo [publicar fragmentos de experiencias](../user-guide/publish-experience-fragment.md).
 
 
 
@@ -53,9 +54,9 @@ Experience Manager Guides también proporciona algunas mejoras útiles en los fr
 
 Ahora, la publicación de fragmentos de contenido solo reemplaza el contenido asignado en lugar de sobrescribir el fragmento de contenido completo. Esta función permite que un fragmento de contenido contenga datos de varias fuentes, como varios temas o el editor de fragmentos de contenido.
 
-![Agregue el modelo de fragmento y los detalles de asignación en el cuadro de diálogo Publish como fragmento de contenido](assets/content-fragment-mapping.png)
+![Agregue el modelo de fragmento y los detalles de asignación en el cuadro de diálogo Publicar como fragmento de contenido](assets/content-fragment-mapping.png)
 
-Para obtener más información, vea [Fragmentos de contenido de Publish](../user-guide/publish-content-fragment.md).
+Para obtener más información, vea [Publicar fragmentos de contenido](../user-guide/publish-content-fragment.md).
 
 ### Ajuste preestablecido de AEM Sites reorganizado para facilitar su uso
 
@@ -81,18 +82,18 @@ Si se hace referencia al mismo tema más de una vez en un archivo, puede agregar
 
 ![Ajuste preestablecido de AEM Sites heredado](assets/aem-sites-legacy.png)
 
-*Especifique el contexto de publicación para los temas vinculados desde la ficha **Referencias de mapas cruzados**&#x200B;del ajuste preestablecido **AEM Sites**.*
+*Especifique el contexto de publicación para los temas vinculados desde la ficha **Referencias de mapas cruzados**del ajuste preestablecido **AEM Sites**.*
 
 
 
 
 
 
-### Capacidad para pasar metadatos de propiedades de archivo de tema a la salida del PDF nativo
+### Capacidad para pasar metadatos de propiedades de archivos de temas a la salida nativa de PDF
 
-Ahora, Experience Manager Guides le permite agregar los metadatos de las propiedades de archivo de un tema a los diseños de página mientras genera la salida del PDF nativo. Utilice esta función para agregar metadatos específicos del tema, como el título, las etiquetas y la descripción a los diseños de página. También puede personalizar el PDF publicado en función de los metadatos del tema, como agregar una marca de agua al fondo del tema en función del estado del documento del tema.
+Ahora, Experience Manager Guides le permite agregar los metadatos de las propiedades de archivo de un tema a los diseños de página al generar la salida nativa de PDF. Utilice esta función para agregar metadatos específicos del tema, como el título, las etiquetas y la descripción a los diseños de página. También puede personalizar el PDF publicado en función de los metadatos del tema, como agregar una marca de agua al fondo del tema en función del estado del documento del tema.
 
-![agregar pdf nativo de metadatos](./assets/add-metadata-native-pdf.png) {width="300" align="left"}
+![agregar pdf nativo de metadatos](./assets/add-metadata-native-pdf.png) {width="300"}
 
 *Agregar metadatos a los campos de los diseños de página.*
 
@@ -104,26 +105,26 @@ Aprenda a [agregar campos y metadatos](../native-pdf/design-page-layout.md#add-f
 
 ### Compatibilidad con documentos Markdown en la publicación nativa de PDF
 
-Experience Manager Guides también admite documentos Markdown en la publicación de PDF nativos. Esta función es útil y le ayuda a generar PDF para los archivos Markdown en el mapa DITA.
+Experience Manager Guides también admite documentos Markdown en la publicación nativa de PDF. Esta función es útil y le ayuda a generar PDF para los archivos Markdown del mapa DITA.
 
 Para obtener más información, vea [compatibilidad con documentos de Markdown](../web-editor/native-pdf-web-editor.md#support-for-markdown-documents).
 
 
 ### Descargar el archivo temporal mientras se genera la salida mediante DITA-OT
 
-También puede descargar los archivos temporales que se generan al publicar la salida de AEM Sites, HTML, Custom, JSON o PDF mediante DITA-OT. Esta función le ayuda a analizar cualquier problema que pueda producirse durante el proceso de generación de resultados y a solucionar problemas de forma eficaz.  
+También puede descargar los archivos temporales generados al publicar la salida de AEM Sites, HTML, Personalizado, JSON o PDF mediante DITA-OT. Esta función le ayuda a analizar cualquier problema que pueda producirse durante el proceso de generación de resultados y a solucionar problemas de forma eficaz.  
 También puede descargar el archivo metadata.xml si ha seleccionado alguna propiedad de metadatos que se haya pasado a la salida generada mediante DITA-OT. 
 
 Para obtener más información acerca de los ajustes preestablecidos, vea [Explicación de los ajustes preestablecidos de salida](../user-guide/generate-output-understand-presets.md).
 
 
-### Opción para elegir una jerarquía de archivos plana o anidada para la salida de HTML 5
+### Opción para elegir una jerarquía de archivos plana o anidada para la salida de HTML5
 
 Ahora, Experience Manager Guides le permite conservar la jerarquía de carpetas plana para los archivos temporales en los que todo el contenido se publica en formato de salida HTML5 y se guarda en una sola carpeta.
 Si no decide acoplar la jerarquía de archivos, la salida de HTML5 se genera en una jerarquía de carpetas anidada. Esto implica que la estructura de carpetas original del contenido, con archivos organizados en subcarpetas, se replica en la salida. Esta jerarquía de carpetas anidada permite una organización y categorización de archivos más complejas, lo que facilita la administración y la navegación por grandes volúmenes de datos.
 
 
-Obtenga más información sobre cómo [generar la salida de HTML5](../user-guide/generate-output-html5.md)
+Más información sobre cómo [generar la salida de HTML5](../user-guide/generate-output-html5.md)
 
 
 ## Mejoras del editor
@@ -166,7 +167,7 @@ Al editar un documento en el Editor Web, ahora puede ver una lista separada de e
 - **Elementos válidos en la ubicación actual** que puede insertar en la propia ubicación del cursor actual.
 - **Elementos válidos fuera de la ubicación actual** que se pueden insertar después de cualquiera de los elementos primarios del elemento actual dentro de la jerarquía de elementos.
 
-![Cuadro de diálogo Insertar elemento](assets/insert-element-dialog.png){width="300" align="left"}
+![Cuadro de diálogo Insertar elemento](assets/insert-element-dialog.png){width="300"}
 
 *Ver las listas separadas de elementos válidos para insertar un elemento en la ubicación actual.*
 
@@ -181,13 +182,13 @@ Obtenga más información acerca de la característica **Insertar elemento** en 
 Ahora tiene una mejor experiencia al filtrar archivos. La funcionalidad renovada para filtrar archivos ofrece una mejor forma de buscar y navegar por los archivos sin esfuerzo.
 
 
-![búsqueda de archivos en la vista del repositorio](assets/repository-filter-search-2404.png){width="300" align="left"}
+![búsqueda de archivos en la vista del repositorio](assets/repository-filter-search-2404.png){width="300"}
 
 *Busque los archivos que contienen el texto`general purpose.`*
 
 Disfrute de ventajas como un acceso más rápido a los archivos relevantes y una interfaz de usuario más intuitiva, lo que hace que su experiencia de búsqueda sea más fluida y eficiente.
 
-![filtro de búsqueda rápida &#x200B;](assets/repository-filter-search-quick.png) {width="300" align="left"}
+![filtro de búsqueda rápida ](assets/repository-filter-search-quick.png) {width="300"}
 
 *Utilice los filtros rápidos para buscar archivos DITA y no DITA.*
 
@@ -202,7 +203,7 @@ Obtenga más información sobre la función **Filtrar búsqueda** en la secció
 
 Experience Manager Guides ahora le permite agrupar condiciones y presentarlas en una jerarquía anidada, lo que le permite agregar varias condiciones a un solo grupo. Al agrupar las condiciones, puede organizarlas y aplicarlas mejor en todo el contenido.
 
-![condiciones organizadas en una jerarquía anidada](assets/conditions-nested-hierarchy.png){width="300" align="left"}
+![condiciones organizadas en una jerarquía anidada](assets/conditions-nested-hierarchy.png){width="300"}
 
 Obtenga más información acerca de la descripción de la característica **Condiciones** en la sección [Panel izquierdo](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
@@ -212,7 +213,7 @@ El cuadro de diálogo **Preferencias de usuario** del Editor web ahora incluye u
 
 Puede configurar para ver los archivos por título o nombre de archivo, y cambiar el tema de la aplicación y la vista de origen. También le ayuda a configurar los ajustes para localizar un archivo abierto en la vista del repositorio y gestionar los espacios de no separación.
 
-![pestaña apariencia de preferencias de usuario](assets/user_preference_editor_appearance.png){width="550" align="left"}
+![pestaña apariencia de preferencias de usuario](assets/user_preference_editor_appearance.png){width="550"}
 
 *Personalice el aspecto según sus preferencias.*
 
@@ -243,7 +244,7 @@ Ahora, las Propiedades de contenido **Type** aparecen como un menú desplegable.
 Este menú desplegable le ayuda a acceder rápidamente a las propiedades de contenido de la etiqueta seleccionada.
 
 
-![menú desplegable de tipo en las propiedades de contenido](assets/content-properties-type.png){width="300" align="left"}
+![menú desplegable de tipo en las propiedades de contenido](assets/content-properties-type.png){width="300"}
 
 *Seleccione una etiqueta de la jerarquía para la etiqueta actual.*
 
@@ -256,7 +257,7 @@ Obtenga más información acerca de la característica **Propiedades de contenid
 Experience Manager Guides mejora el rendimiento y la experiencia de la función de registro de archivos en lote desde el Editor de mapas. Esta mejora le ayuda a proteger los archivos de forma masiva con mayor rapidez.
 También puede ver el progreso de la operación de protección de los archivos en el cuadro de diálogo **Guardar como nueva versión y desbloquear**. Por último, el mensaje de confirmación aparece una vez finalizada la operación y se registran todos los archivos desprotegidos seleccionados.
 
-![Guardar como nueva versión y desbloquear cuadro de diálogo](./assets/save-version-lock.png){width="300" align="left"}
+![Guardar como nueva versión y desbloquear cuadro de diálogo](./assets/save-version-lock.png){width="300"}
 
 *Ver la lista y el estado de los archivos comprobados de forma masiva desde el Editor de mapas.*
 
@@ -278,7 +279,7 @@ Por ejemplo, si tiene que traducir el contenido para algunos países de Europa, 
 
 
 
-![panel de traducción](assets/translation-languages-2404.png){width="300" align="left"}
+![panel de traducción](assets/translation-languages-2404.png){width="300"}
 
 *Seleccione los grupos de idiomas o idiomas que desee traducir sus documentos.*
 
@@ -311,7 +312,7 @@ Al eliminar un proyecto, se quitan permanentemente todos los archivos y carpetas
 
 Puede desactivar los proyectos de traducción si desea utilizarlos más adelante.
 
-![](assets/editor-setting-translation.png){width="550" align="left"}
+![](assets/editor-setting-translation.png){width="550"}
 
 
 *Configurar grupos de idiomas y la configuración de limpieza para proyectos de traducción.*
@@ -342,7 +343,7 @@ Además de los conectores predeterminados existentes, las guías de Experience M
 
 Puede copiar y pegar fácilmente una consulta de datos de muestra en el generador para crear un fragmento de código de contenido o un tema. Con esta función, no es necesario recordar la sintaxis ni crear una consulta manualmente. En lugar de escribir manualmente la consulta, puede copiar y pegar una consulta de muestra, editarla y utilizarla para recuperar los datos según sus necesidades.
 
-![cuadro de diálogo para insertar fragmento de código de contenido](assets/insert-content-snippet.png){width="800" align="left"}
+![cuadro de diálogo para insertar fragmento de código de contenido](assets/insert-content-snippet.png){width="800"}
 
 *Copie y edite una consulta de muestra para crear el fragmento de código de contenido.*
 
@@ -355,11 +356,10 @@ Esta función le ayuda a utilizar los datos almacenados en sus archivos JSON y a
 
 ### Configure varias URL de recursos para un conector para crear fragmentos de contenido o temas
 
-Como administrador, puede configurar varias URL de recursos para algunos conectores, como Cliente REST genérico, Salsify, Akeneo y Tableros de DevOps de Microsoft Azure (ADO).
+Como administrador, puede configurar varias URL de recursos para algunos conectores, como Cliente REST genérico, Salsify, Akeneo y Microsoft Azure DevOps Boards (ADO).
 
 A continuación, como autor, conéctese con las fuentes de datos para crear fragmentos de código de contenido o temas mediante los generadores. Esta función es práctica, ya que no tiene que crear una fuente de datos para cada URL. Ayuda a recuperar datos rápidamente de cualquiera de los recursos de una fuente de datos concreta en un solo fragmento de contenido o tema.
 
-Ver más detalles acerca de los conectores de origen de datos y cómo [configurar un conector de origen de datos desde la interfaz de usuario](../cs-install-guide/conf-data-source-connector-tools.md).
+Vea más detalles sobre los conectores de fuentes de datos y cómo [configurar un conector de origen de datos desde la interfaz de usuario](../cs-install-guide/conf-data-source-connector-tools.md).
 
 Obtenga información sobre cómo [utilizar datos de la fuente de datos](../user-guide/web-editor-content-snippet.md).
-

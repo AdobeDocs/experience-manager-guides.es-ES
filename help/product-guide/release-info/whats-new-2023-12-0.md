@@ -4,9 +4,9 @@ description: Conozca las funciones nuevas y mejoradas de la versión de diciembr
 feature: What's New
 role: Leader
 exl-id: bf8d98e9-97fe-4195-9286-60d8517ab19c
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Este artículo cubre las funciones nuevas y mejoradas de la versión de diciembr
 Para obtener más información sobre las instrucciones de actualización, la matriz de compatibilidad y los problemas corregidos en esta versión, vea [Notas de la versión](release-notes-2023-12-0.md).
 
 
-## Usar variables en la salida del PDF
+## Usar variables en la salida de PDF
 
-Puede utilizar variables para insertar y administrar de forma dinámica información reutilizable. Experience Manager Guides le ayuda a crear, editar y previsualizar variables mientras genera la salida del PDF. Puede modificar rápidamente los valores de las variables y hacer que sus documentos sean portátiles y fáciles de actualizar.
+Puede utilizar variables para insertar y administrar de forma dinámica información reutilizable. Experience Manager Guides le ayuda a crear, editar y previsualizar variables mientras genera la salida de PDF. Puede modificar rápidamente los valores de las variables y hacer que sus documentos sean portátiles y fáciles de actualizar.
 
-![variables de pdf nativas](assets/add-variable-default.png){width="800" align="left"}
+![variables de pdf nativas](assets/add-variable-default.png){width="800"}
 
 *Crear y administrar variables en el editor web.*
 
@@ -42,14 +42,14 @@ También puede crear conjuntos de variables que anulen los valores predeterminad
 
 
 
-<img src="./assets/native-pdf-variable-output.png" alt="Pie de página en salida de PDF" width="500" border="2px">
+<img src="./assets/native-pdf-variable-output.png" alt="Pie de página en la salida PDF" width="500" border="2px">
 
-*Generar la salida del PDF mediante variables en el diseño del PDF.*
+*Generar la salida de PDF mediante variables en el diseño de PDF.*
 
-Puede aplicar estilos y utilizar marcado de HTML para dar formato a las variables.  También puede actualizar rápidamente los valores de cualquier variable siempre que sea necesario y volver a generar la salida. Por ejemplo, si necesita actualizar los detalles de una versión, puede editar el valor de la versión en la variable VersionNumber y volver a generar el resultado.
+Puede aplicar estilos y utilizar el marcado de HTML para dar formato a las variables.  También puede actualizar rápidamente los valores de cualquier variable siempre que sea necesario y volver a generar la salida. Por ejemplo, si necesita actualizar los detalles de una versión, puede editar el valor de la versión en la variable VersionNumber y volver a generar el resultado.
 
 
-Obtenga más información acerca de cómo usar [variables en la salida del PDF](../native-pdf/native-pdf-variables.md).
+Obtenga más información acerca de cómo usar [variables en la salida de PDF](../native-pdf/native-pdf-variables.md).
 
 
 
@@ -59,7 +59,7 @@ Obtenga más información acerca de cómo usar [variables en la salida del PDF](
 
 Ahora, obtendrá una experiencia renovada para agregar o editar los atributos de un elemento desde el panel **Propiedades de contenido** del Editor Web.
 
-![Panel de atributos](assets/attributes-multiple-properties.png){width="300" align="left"}
+![Panel de atributos](assets/attributes-multiple-properties.png){width="300"}
 
 *Agregar atributos desde el panel Propiedades de contenido.*
 
@@ -72,7 +72,7 @@ Para obtener más información, consulte la descripción de la característica *
 
 Ahora, durante la creación, puede actualizar las etiquetas de metadatos del archivo mediante el menú desplegable de **Propiedades del archivo** en el panel derecho. También puede seleccionar **Editar más propiedades** para actualizar más metadatos.
 
-![propiedades de archivo](assets/file-properties-general.png){width="300" align="left"}
+![propiedades de archivo](assets/file-properties-general.png){width="300"}
 
 *Actualice los metadatos y edite las propiedades del archivo desde el panel derecho.*
 
@@ -87,7 +87,7 @@ Con la versión de diciembre de 2023, como administrador, puede crear un perfil 
 Esta función le ayuda a publicar contenido, como texto, vídeos e imágenes, en la plataforma de base de conocimiento de ServiceNow y a mantener un repositorio completo.
 
 
-![servicio ahora ajuste preestablecido de la base de conocimiento](assets/knowledgebase--output-preset.png){width="300" align="left"}
+![servicio ahora ajuste preestablecido de la base de conocimiento](assets/knowledgebase--output-preset.png){width="300"}
 
 *Cree un ajuste preestablecido de salida para la base de conocimiento ServiceNow.*
 
@@ -99,7 +99,7 @@ Experience Manager Guides proporciona un panel de recopilación de mapas mejorad
 
 Ahora puede ver el nombre de archivo del mapa DITA. También puede ver las líneas base. Esto le ayudará a encontrar rápidamente la línea de base utilizada para un ajuste preestablecido.
 
-![Panel de recopilación de mapas](assets/map-collection-dashboard.png){width="800" align="left"}
+![Panel de recopilación de mapas](assets/map-collection-dashboard.png){width="800"}
 
 *Ver, editar y generar resultados desde el panel de recopilación de mapas.*
 
@@ -111,30 +111,30 @@ Al definir atributos clave para el tema o las referencias de mapa, también pued
 
 Para obtener más información, consulte la descripción de la característica **Vista de mapa** en la sección [Panel izquierdo](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
-![claves en la vista de mapa](assets/view-key-title-map-view.png) {width="300" align="left"}
+![claves en la vista de mapa](assets/view-key-title-map-view.png) {width="300"}
 
 *Ver el atributo clave en la vista de mapa.*
 
 ## Capacidad para duplicar una línea de base según una etiqueta
 
 Experience Manager Guides ahora proporciona una experiencia de usuario mejorada para crear las líneas de base desde el Editor web.\
-![crear nueva línea base](assets/create-new-baseline.png) {width="300" align="left"}
+![crear nueva línea base](assets/create-new-baseline.png) {width="300"}
 *Crear línea de base desde el editor web.*
 
 También le permite duplicar una línea de base basada en la etiqueta. La versión de referencia se selecciona en función de la etiqueta dada (si existe) mientras se duplica o, de lo contrario, elige la versión de la línea de base duplicada.
 
 
-![duplicar una línea de base &#x200B;](assets/duplicate-baseline.png) {width="300" align="left"}
+![duplicar una línea base ](assets/duplicate-baseline.png) {width="300"}
 
 *Duplicar una línea de base basándose en una etiqueta o crear una copia exacta.*
 
 Obtenga más información sobre cómo [crear y administrar líneas de base desde el Editor web](../user-guide/web-editor-baseline.md).
 
-## AEM Resolución de vínculos de mapas cruzados en la salida del sitio de la
+## Resolución de vínculos entre mapas en la salida del sitio de AEM
 
-AEM Los vínculos de mapas cruzados (XREF con ámbito del mismo nivel) que se representan en la salida del sitio de la publicación de la lista de distribución ahora se resuelven según el título de archivo del contexto de publicación establecido para la asignación generada.
+Los vínculos de mapas cruzados (XREF con ámbito del mismo nivel) que se representan en la salida del sitio de AEM ahora se resuelven según el título de archivo del contexto de publicación establecido para la asignación generada.
 
 
-## AEM Configure la dirección URL de la salida del sitio de para utilizar el título del documento
+## Configure la dirección URL de la salida del sitio de AEM para utilizar el título del documento
 
-Experience Manager Guides AEM le permite, como administrador, configurar la dirección URL de la salida del sitio de la. AEM Si el nombre de archivo no existe o contiene todos los caracteres especiales, puede configurarlos para reemplazarlos con un separador en la dirección URL de la salida del sitio de la página de la página de la página de inicio de sesión (). También puede reemplazarlos con el nombre del primer tema secundario. AEM Aprenda a [configurar la dirección URL de la salida del sitio de para que use el título del documento](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title).
+Experience Manager Guides le permite, como administrador, configurar la dirección URL de la salida del sitio de AEM. Si el nombre del archivo no existe o contiene todos los caracteres especiales, puede configurarlos para reemplazarlos con un separador en la dirección URL de la salida del sitio de AEM. También puede reemplazarlos con el nombre del primer tema secundario. Aprenda a [configurar la dirección URL de la salida del sitio de AEM para usar el título del documento](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title).

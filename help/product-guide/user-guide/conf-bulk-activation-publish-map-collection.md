@@ -4,9 +4,9 @@ description: Activar la salida de mapas DITA en AEM Guides. Obtenga información
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '469'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Una vez creada una colección de mapas para la activación masiva, el siguiente 
 
 1. Seleccione la colección que desea publicar y seleccione **Abrir**.
 
-   ![](images/bulk-activation-collection-open.png){align="left"}
+   ![](images/bulk-activation-collection-open.png)
 
 1. \(*Opcional*\) Aplique los filtros necesarios del carril izquierdo para filtrar el mapa en función de su \(estado\), ajuste preestablecido de salida o idioma modificado.
 
@@ -39,7 +39,7 @@ Vea las diferentes formas de activar la colección en función de su configuraci
 <details>
 <summary> Cloud Services </summary>
 
-![publicación-colección-masiva en el servicio en la nube](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+![publicación-colección-masiva en el servicio en la nube](images/bulk-activation-collection-quick-publish-CS.png){width="650"}
 
 Puede activar el resultado en las instancias **Preview** o **Publish**.
 
@@ -74,7 +74,7 @@ Realice una de las siguientes acciones:
 
 * Para activar la salida de los mapas seleccionados, seleccione la salida de mapa pregenerada y seleccione **Publicación rápida**.
 * Para activar la salida de todos los mapas DITA con sus ajustes preestablecidos configurados, active la casilla de verificación situada junto al mapa (columna) y, a continuación, seleccione **Publicación rápida.**
-  ![publicación-colección-en-lotes](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+  ![publicación-colección-en-lotes](images/bulk-activation-collection-quick-publish.png){width="650"}
 
   >[!NOTE]
   > 
@@ -85,4 +85,4 @@ Se muestra un mensaje de éxito cuando el resultado del mapa está en la cola pa
 
 Una vez que se activa la salida para los archivos de mapa seleccionados, se actualiza la pestaña Historial de auditoría y aparece la última salida activada en la parte superior. La columna **Publicado** se ha actualizado con la fecha y la hora de publicación.
 
-**Tema principal: &#x200B;** [Activación masiva del contenido publicado](conf-bulk-activation.md)
+**Tema principal: **[Activación masiva del contenido publicado](conf-bulk-activation.md)

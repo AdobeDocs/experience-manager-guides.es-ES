@@ -5,7 +5,7 @@ exl-id: 8bfd3ea7-0be8-4e7a-b389-5face043200b
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 2%
@@ -30,11 +30,11 @@ Realice los siguientes pasos para crear la lista de palabras personalizada, que 
 
    La siguiente captura de pantalla muestra la lista de palabras personalizadas agregada al archivo user\_dictionary.txt:
 
-   ![](assets/custom-words-list-dictionary.png){width="650" align="left"}
+   ![](assets/custom-words-list-dictionary.png){width="650"}
 
 1. Guarde y cierre el archivo.
 
 
 Los autores necesitarían reiniciar su sesión del editor web para obtener la lista de palabras personalizadas actualizada en el diccionario de AEM.
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)
+**Tema principal:**[ Personalizar editor web](conf-web-editor.md)

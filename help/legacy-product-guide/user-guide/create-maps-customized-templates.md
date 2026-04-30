@@ -5,10 +5,10 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 0%
+source-wordcount: '1111'
+ht-degree: 1%
 
 ---
 
@@ -44,9 +44,9 @@ Siga estos pasos para crear una plantilla de tema:
 
 1. En la **interfaz de usuario de Assets**, vaya a la carpeta dita-templates.
 
-   ![](images/dita-templates.png){width="800" align="left"}
+   ![](images/dita-templates.png){width="800"}
 
-1. Haga clic en la carpeta **topics** para abrirla. Haga clic en **Crear \> plantilla DITA**.
+1. Haga clic en la carpeta **topics** para abrirla.Haga clic en **Crear \> plantilla DITA**.
 1. En la página Modelo, seleccione **Tema** y haga clic en **Siguiente.**
 1. En la página Propiedades, especifique la plantilla de tema **Título**.
 1. Especifique el archivo **Name**
@@ -66,7 +66,7 @@ Realice los siguientes pasos para crear una plantilla de asignación:
 1. Haga clic en la carpeta **maps** para abrirla.
 1. Haga clic en **Crear \> plantilla DITA.**
 
-   ![](images/create-dita-template.png){width="300" align="left"}
+   ![](images/create-dita-template.png){width="300"}
 
 1. En la página Modelo, seleccione **Mapa** y haga clic en **Siguiente**.
 1. En la página Propiedades, especifique la plantilla de asignación **Título**.
@@ -76,7 +76,7 @@ Realice los siguientes pasos para crear una plantilla de asignación:
    >
    > El nombre del archivo debe tener la extensión .ditamap.
 
-1. (Opcional\) Agregue una descripción.Haga clic en **Crear**. Aparecerá el mensaje creado para la plantilla de mapa. A continuación, puede abrir la plantilla de asignación y editarla. Puede agregar las referencias para las plantillas de tema, las plantillas de mapa y también otros recursos en la plantilla de mapa.
+1. (Opcional\) Añada una descripción.Haga clic en **Crear**. Aparecerá el mensaje creado para la plantilla de mapa. A continuación, puede abrir la plantilla de asignación y editarla. Puede agregar las referencias para las plantillas de tema, las plantillas de mapa y también otros recursos en la plantilla de mapa.
 
 ### Menú Opciones {#options-menu}
 
@@ -111,7 +111,7 @@ Aprenda a [configurar la ruta de la carpeta de la plantilla DITA personalizada](
 
 Si desea pasar el título del tema o el mapa utilizado dentro de la plantilla a los mapas DITA creados con esa plantilla, utilice llaves alrededor del título.
 
-Ejemplos
+Ejemplo
 
 ```XML
 <pubtitle>
@@ -141,7 +141,7 @@ Si no utiliza llaves alrededor del título, el mapa DITA resultante solo selecci
 >[!NOTE]
 > También se pueden utilizar llaves alrededor del texto para pasar su estructura anidada desde las plantillas personalizadas a los mapas DITA.
 
-Ejemplos
+Ejemplo
 
 ```XML
 <title>    
@@ -190,4 +190,4 @@ El mapa genera todos los recursos a los que se hace referencia dentro de la carp
 
 - Si se crea otro mapa o tema en el mismo nivel de la carpeta, los nombres de los recursos recién creados se anexan con 0,1,2, etc. Puede elegir abrir la asignación para editarla o guardar el archivo de asignación en el repositorio.
 
-**Tema principal:**&#x200B;[&#x200B; Trabajar con el editor de mapas](map-editor.md)
+**Tema principal:**[ Trabajar con el editor de mapas](map-editor.md)

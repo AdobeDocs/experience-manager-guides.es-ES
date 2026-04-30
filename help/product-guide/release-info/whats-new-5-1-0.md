@@ -2,9 +2,10 @@
 title: Notas de versión | Novedades de la versión 5.1.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 5.1.0 de Adobe Experience Manager Guides
 role: Leader
-source-git-commit: f6617b727d385d31ba66d575ee48f29e77ac716f
+exl-id: 4f65cf99-3ea2-47aa-91fd-ce0c8d9eaa11
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -42,7 +43,7 @@ Los aspectos destacados son los siguientes:
 - **Compatibilidad mejorada con marcas en la creación de archivos DITAVAL:** Experience Manager Guides ofrece nuevas funciones para personalizar la publicación de contenido mediante la compatibilidad mejorada con marcas en archivos DITAVAL. Ahora puede aplicar marcas de inicio y finalización alrededor de contenido específico, incluidas imágenes, y enriquecer las secciones marcadas con opciones de formato como negrita, cursiva, etc. Para controlar las superposiciones de condiciones, se puede configurar el **conflicto de estilo**, que incluye la configuración de un fondo y un color de texto predeterminados, lo que garantiza la claridad y la coherencia en la salida. Estos indicadores son totalmente compatibles con la generación nativa de PDF y la salida resultante refleja de forma precisa y completa todos los elementos de estilo aplicados.
 Para obtener más información, vea [Usar el editor DITAVAL](../user-guide/ditaval-editor.md).
 
-  ![](assets/ditaval-flag-style-new.png){width="350" align="left"}
+  ![](assets/ditaval-flag-style-new.png){width="350"}
 
 - **Compatibilidad con varios archivos DITAVAL para PDF nativo:** Para PDF nativo, ahora se pueden agregar varios archivos DITAVAL, cada uno de los cuales se muestra como una entrada etiquetada para facilitar la identificación y eliminación, lo que proporciona mayor flexibilidad y control sobre el contenido condicional en las salidas de PDF
 
@@ -60,7 +61,7 @@ Esta versión incorpora mejoras en la interfaz de usuario a la capacidad de filt
 
 Para obtener más información, vea [Solución de problemas básica](../user-guide/generate-output-basic-troubleshooting.md).
 
-![](./assets/log-file-new.png){align="left"}
+![](./assets/log-file-new.png)
 
 
 ### Los archivos temporales para la salida publicada ahora incluyen las direcciones URL de autor y publicación en un nuevo archivo de configuración
@@ -117,7 +118,7 @@ Experience Manager Guides presenta una nueva opción **Usar nombres de archivo r
 
 Para obtener más información, vea [Descargar archivos](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor).
 
-![](assets/download-map-dialog-new.png){width="300" align="left"}
+![](assets/download-map-dialog-new.png){width="300"}
 
 ### Tiempo de espera de sesión para evitar la pérdida accidental de contenido
 
@@ -141,10 +142,3 @@ Con esta versión, se ha reestructurado la configuración de las **preferencias 
 Además, en la barra de herramientas del Editor, algunos toggles de acceso rápido para habilitar o deshabilitar los cambios de seguimiento, las etiquetas y los espacios de no separación ahora se agrupan en la opción **Mostrar** en el menú desplegable de Menú para mejorar el uso.
 
 Para obtener más información, vea [Barra de herramientas en el editor](../user-guide/web-editor-toolbar.md#menu-dropdown).
-
-
-
-
-
-
-

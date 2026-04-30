@@ -4,9 +4,9 @@ description: Administre el proceso de generación de resultados en AEM Sites, PD
 feature: Publishing
 role: User
 exl-id: 11bb3604-f45c-4df7-be74-588dbf8594af
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Una vez iniciada la tarea de generación de resultados para una asignación o re
 
 1. Seleccione **RESULTADOS**.
 
-   ![](images/output-queued.png){align="left"}
+   ![](images/output-queued.png)
 
    La página Resultados se divide en dos partes:
 
@@ -35,7 +35,7 @@ Una vez iniciada la tarea de generación de resultados para una asignación o re
 
      Enumera las salidas que están a la espera de generarse o en proceso de generación. Las tareas en cola o en curso se muestran con un icono de color azul antes del nombre del ajuste preestablecido. También puede encontrar la configuración de generación de resultados o el ajuste preestablecido utilizado para la tarea en cola, el tipo, el usuario que inició la tarea, el tiempo desde que se puso en cola la tarea y el estado actual.
 
-     Seleccione el enlace para acceder a **Tablero de publicación** y ver el estado de ejecución actual. En el tablero de publicación hay disponible una lista de todas las tareas de publicación activas. **Salidas en cola** y el vínculo **Panel de publicación** solo se muestran cuando hay salidas que están a la espera de ser generadas o en proceso de generación. No aparecen cuando se han completado las tareas de salida. Para obtener más información sobre el panel de publicación, vea [Administrar tareas de publicación mediante el panel de publicación](generate-output-publish-dashboard.md#).
+     Seleccione el enlace para acceder a **Tablero de publicación** y ver el estado de ejecución actual. En el tablero de publicación hay disponible una lista de todas las tareas de publicación activas. **Salidas en cola** y el vínculo **Panel de publicación** solo se muestran cuando hay salidas que están a la espera de ser generadas o en proceso de generación. No aparecen cuando se han completado las tareas de salida.Para obtener más información sobre el panel de publicación, vea [Administrar tareas de publicación mediante el panel de publicación](generate-output-publish-dashboard.md#).
 
    - **Salidas generadas**
 
@@ -64,17 +64,17 @@ Realice los siguientes pasos para cancelar una tarea de generación de salida de
 
 1. Seleccione el icono **Cancelar este trabajo**.
 
-   ![](images/cancel-publish-task-map-console.png){align="left"}
+   ![](images/cancel-publish-task-map-console.png)
 
 1. Seleccione **Sí** en el mensaje de **Confirmar cancelación**.
 
-   ![](images/confirm-cancel-output-map-console.png){align="left"}
+   ![](images/confirm-cancel-output-map-console.png)
 
    Si la tarea aún no se ha iniciado, el comando cancel se ejecuta en la tarea. Para una tarea que se está cancelando, el estado se establece en Cancelando.
 
    Una vez cancelada correctamente la tarea, se mueve a la lista **Salidas generadas** con el estado **Cancelado**. Cuando pasa el ratón por encima de la tarea cancelada, se muestra el nombre del usuario que ha cancelado la tarea. En la siguiente captura de pantalla, se cancela la tarea *HTML5*.
 
-   ![](images/cancelled-output-task.png){align="left"}
+   ![](images/cancelled-output-task.png)
 
 
 ## Eliminar una tarea de salida
@@ -91,7 +91,7 @@ Realice los siguientes pasos para quitar una tarea de salida de la lista Salida 
 
 1. Seleccione el icono Eliminar.
 
-   ![](images/delete-output-task.png){align="left"}
+   ![](images/delete-output-task.png)
 
 1. Seleccione **Sí** en el mensaje de **Confirmar eliminación**.
 

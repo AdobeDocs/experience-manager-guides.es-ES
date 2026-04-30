@@ -5,9 +5,9 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: f74269fe-a7a9-4bb3-b476-f8214387ffd0
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Como revisor, puede ver un indicador en el panel de comentarios que indica que l
 
 Sin embargo, puede buscar o filtrar cualquier comentario. También puede elegir mostrar u ocultar condiciones y mostrar contenido condicionado en consecuencia. Puede descargar los archivos adjuntos, pero no puede cargarlos ni eliminarlos para los comentarios.
 
-![](images/complete-task-reviewer.png){width="800" align="left"}
+![](images/complete-task-reviewer.png){width="800"}
 
 
 ## Como autor
@@ -31,6 +31,6 @@ Como autor, puede ver el estado como cerrado en el panel Revisar. Puede leer un 
 
 Sin embargo, puede buscar o filtrar cualquier comentario. Puede descargar los archivos adjuntos, pero no puede cargarlos ni eliminarlos para los comentarios.
 
-![](images/completed-task-author.png){width="800" align="left"}
+![](images/completed-task-author.png){width="800"}
 
 Por lo tanto, tanto como revisor como autor, puede ver el contenido revisado junto con los comentarios, pero no puede realizar ningún cambio en una tarea de revisión completada.

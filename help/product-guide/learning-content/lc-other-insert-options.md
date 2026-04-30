@@ -3,9 +3,10 @@ title: Otras opciones del menú Insertar
 description: Obtenga información sobre las opciones del menú de inserción que puede utilizar en el contenido de aprendizaje.
 feature: Authoring
 role: User
-source-git-commit: e31f7744d4c01a2924a710f547375b1b497163ee
+exl-id: 8c12ed9b-6309-40bf-b264-a2323cd6f4b3
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -16,22 +17,22 @@ Las otras opciones disponibles en el menú Insertar de la barra de herramientas 
 
 - **Comillas de bloque:** Agrega citas de bloque junto con citas al contenido.
 
-  ![](assets/block-quote-learning-content.png){width="650" align="left"}
+  ![](assets/block-quote-learning-content.png){width="650"}
 
 - **Bloques de código:** Agrega un bloque de código al contenido.
 
-  ![](assets/code-block-learning-content.png){width="650" align="left"}
+  ![](assets/code-block-learning-content.png){width="650"}
 
 - **Iframes:** inserta un iframe en el contenido para incrustar páginas web externas o recursos interactivos. Puede configurar las propiedades del iframe mediante el panel **Propiedades del contenido**, que incluye la dirección URL de origen, la anchura, la altura, la alineación y el título. Puede ver el contenido agregado en el iframe cambiando al modo **Vista previa**, como se muestra a continuación.
 
   Vista de **autor**:
 
-  ![](assets/iframe-learning-content.png){width="650" align="left"}
+  ![](assets/iframe-learning-content.png){width="650"}
 
 
   Modo **Vista previa**:
 
-  ![](assets/iframe-learning-content-preview.png){width="650" align="left"}
+  ![](assets/iframe-learning-content-preview.png){width="650"}
 
 - **H5P:** Agrega un paquete H5P interactivo al contenido de aprendizaje. Para agregar contenido H5P, coloque el cursor en la ubicación deseada y seleccione **H5P** del menú Insertar. En el cuadro de diálogo Insertar H5P, proporcione una referencia al archivo H5P que desee agregar al contenido de aprendizaje.
 
@@ -50,23 +51,23 @@ Las otras opciones disponibles en el menú Insertar de la barra de herramientas 
 
 - **ecuación de MathML:** inserta ecuaciones de MathML en el contenido. Puede crear una ecuación de MathML y seleccionar **Insertar** para agregarla al documento.
 
-  ![](./assets/insert-mathml.png){width="350" align="left"}
+  ![](./assets/insert-mathml.png){width="350"}
 
   La ecuación se inserta con un fondo gris claro. En cualquier momento puede actualizar una ecuación haciendo clic con el botón derecho en una ecuación existente y seleccionando **Editar ecuación matemática** en el menú contextual. Para obtener más información sobre la validación de ecuaciones de MathML en Experience Manager Guides, consulte [Validación de ecuaciones en el editor de MathML](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
 
 - **Comprobación de conocimientos:** Permite agregar preguntas en los formatos disponibles (Corrección simple, Corrección múltiple, Verdadero/Falso, Coincidir con lo siguiente o insertarlas desde el banco de preguntas) al tema para revisarlo y confirmar la comprensión sin calificar. Estas preguntas reflejan los formatos estándar y excluyen la puntuación, lo que las hace ideales para la autoevaluación y adecuadas como parte del contenido del curso o como tema antes de una prueba o evaluación posterior, si está disponible.
 
-  ![](assets/knowledge-check-topic.png){width="650" align="left"}
+  ![](assets/knowledge-check-topic.png){width="650"}
 
 
   Puede configurar respuestas correctas y otros campos obligatorios a través del panel **Propiedades del contenido**. Para obtener más información, vea [Tipos de preguntas](./quiz-insert-questions.md). Puede añadir varios tipos de preguntas utilizando las opciones de comprobación de conocimientos como se muestra a continuación.
 
-  ![](assets/knowledge-check-content-properties.png){width="650" align="left"}
+  ![](assets/knowledge-check-content-properties.png){width="650"}
 
 - **Campo de entrada:** Agrega un campo de entrada de texto junto con un botón al contenido. Puede utilizar esta combinación para capturar los datos introducidos por el usuario y las acciones específicas del déclencheur. Se añade un botón de reproducción al contenido como se muestra a continuación.
 
-  ![](assets/button-learning-content.png){width="650" align="left"}
+  ![](assets/button-learning-content.png){width="650"}
 
 - **Más opciones:** Tiene opciones adicionales para mejorar el contenido de aprendizaje, como insertar una línea horizontal, un salto de línea, un cuadro de texto, un cuadro de texto posicionado y HTML incrustado.
 
-  ![](assets/more-options-learning-content.png){width="650" align="left"}
+  ![](assets/more-options-learning-content.png){width="650"}

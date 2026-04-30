@@ -4,9 +4,9 @@ description: Conozca las funciones del Editor de mapas en Adobe Experience Manag
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2671'
+source-wordcount: '2703'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Las siguientes opciones están disponibles en la barra de herramientas de la vis
 
 Muestra el cuadro de diálogo Seleccionar archivo. Desplácese hasta el tema o archivo de asignación que desee insertar y elija **Seleccionar** para agregarlo al mapa.
 
-![](images/insert-topic-reference-dialog.png){align="left"}
+![](images/insert-topic-reference-dialog.png)
 
 
 **Grupo de temas** - ![](images/topic-group.svg)
@@ -49,7 +49,7 @@ Inserte el elemento `topicgroup`. Para obtener más información sobre la agrupa
 
 Muestra el cuadro de diálogo Insertar definición de clave. Utilice este cuadro de diálogo para definir cualquier definición de clave que desee utilizar en el mapa.
 
-![](images/insert-key-definition-dialog.png){width="300" align="left"}
+![](images/insert-key-definition-dialog.png){width="300"}
 
 **Insertar antes o insertar después** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -111,7 +111,7 @@ Muestra u oculta una casilla de verificación para cada tema. Puede utilizar la 
 
 Además de organizar los temas en el archivo de asignación, también puede realizar las siguientes acciones mediante el menú Opciones que aparece al pasar el cursor sobre un archivo o al hacer clic con el botón derecho en el editor en la vista de diseño:
 
-![](images/map-editor-options-menu.png){width="650" align="left"}
+![](images/map-editor-options-menu.png){width="650"}
 
 - **Agregar**: puede elegir agregar un nuevo tema o una referencia vacía desde el Editor de mapas:
    - **Referencia vacía**: esta opción permite agregar una referencia vacía en el mapa DITA. Puede hacer doble clic en la referencia vacía insertada más adelante y agregar los detalles del Tema.
@@ -140,13 +140,13 @@ Si ha aplicado alguna condición a un tema, se muestra un icono de filtro a la d
 
 La vista **Autor** permite editar el mapa DITA en el editor. Esto muestra la vista WYSIWYG del Editor de mapas y algunos de los iconos que se muestran en la vista Autor son los mismos que la vista Presentación.
 
-![](images/map-editor-author-view.png){align="left"}
+![](images/map-editor-author-view.png)
 
 Además, puede ver los iconos siguientes y realizar las tareas relacionadas desde la vista Autor:
 
 **Insertar antes/Insertar después** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Muestra el cuadro de diálogo **Insertar elemento antes o &#x200B;** Insertar elemento después. Seleccione el elemento que desea insertar en el mapa. Según la operación, el nuevo elemento se inserta antes o después del elemento actual en el mapa.
+Muestra el cuadro de diálogo **Insertar elemento antes o **Insertar elemento después. Seleccione el elemento que desea insertar en el mapa. Según la operación, el nuevo elemento se inserta antes o después del elemento actual en el mapa.
 
 **Elemento** - ![](images/Add_icon.svg)
 
@@ -179,7 +179,7 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
 
 1.  Select **Reltable** from the toolbar.
 
-    ![](images/reltable.png){width="650" align="left"}
+    ![](images/reltable.png){width="650"}
 
 1.  Drag-and-drop topics from the topic list to the Reltable editor.
 
@@ -187,13 +187,13 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
     >
     > You can add topics from any folder in the References rail.
 
-    ![](images/create-reltable.png){width="550" align="left"}
+    ![](images/create-reltable.png){width="550"}
 
 1.  To add a header to your relationship table, click **Add Relheader**.
 
 1.  To add a column to your relationship table, click **Add a Column**.
 
-    ![](images/complete-reltable.png){width="550" align="left"}
+    ![](images/complete-reltable.png){width="550"}
 
 1.  Click **Save**.
 
@@ -241,7 +241,7 @@ Puede crear una tarea de revisión del tema actual o asignar archivos directamen
 
 Esta vista permite editar contenido en formato sin procesar, lo que proporciona control total sobre la estructura y el formato.
 
-![](images/map-editor-source-view.png){align="left"}
+![](images/map-editor-source-view.png)
 
 
 En esta vista, la barra de herramientas proporciona opciones básicas de edición e inserción de contenido disponibles en la lista desplegable **Menú**, que incluye Cortar, Copiar, Deshacer, Rehacer, Eliminar, Buscar y reemplazar, Etiqueta de versión, Combinar, Guardar como nueva versión, Bloquear y Desbloquear.
@@ -252,7 +252,7 @@ El modo de previsualización procesa el contenido tal como aparecerá en la sali
 
 Además de poder ver la posición de cada archivo de tema dentro de un mapa, es deseable ver el contenido del mapa en un flujo consecutivo. La función Vista previa de mapa permite ver todo el contenido del archivo de mapa con un solo clic. No es necesario generar una salida del archivo de asignación para ver el aspecto que tendrá todo el mapa una vez publicado. Simplemente puede acceder a la vista previa del mapa y todos los temas y submapas se representan en forma de libro.
 
-![](images/map-editor-preview.png){align="left"}
+![](images/map-editor-preview.png)
 
 >[!NOTE]
 >
@@ -268,7 +268,7 @@ Puede realizar las siguientes tareas adicionales en el modo de vista previa:
   >
   > Si no tiene derechos de edición, el tema se abrirá en modo de solo lectura.
 
-  ![](images/edit-topic-preview-mode.png){width="650" align="left"}
+  ![](images/edit-topic-preview-mode.png){width="650"}
 
 - Vaya al tema deseado seleccionando el título del tema en el árbol de mapas \(en el panel izquierdo\).
 
@@ -281,10 +281,10 @@ Cuando se abre un mapa en el modo Vista previa y se vuelve a él desde otra pest
 Puede utilizar la funcionalidad Actualizar, disponible en el modo Vista previa del mapa, de dos formas:
 
 - **Actualización a nivel de mapa**: al seleccionar el botón **Actualizar**, se actualiza la vista previa de todo el mapa (incluidos todos los temas) y se lleva a la primera posición de desplazamiento para una vista clara.
-  ![](images/refresh-map.png){width="650" align="left"}
+  ![](images/refresh-map.png){width="650"}
 
 - **Actualización a nivel de tema**: al seleccionar **Actualizar tema** en el menú contextual, se actualiza ese tema específico sin modificar la posición de desplazamiento.
-  ![](images/refresh-topic.png){width="650" align="left"}
+  ![](images/refresh-topic.png){width="650"}
 
 **Otras formas de obtener una vista previa de un archivo de asignación**
 
@@ -298,11 +298,11 @@ Puede acceder a la vista previa de un mapa desde:
 
 - **Editor de mapas**: en el editor de mapas, selecciona **Vista previa** del menú de opciones para ver la vista previa del mapa actual.
 
-  ![](images/map-preview-icon.png){width="650" align="left"}
+  ![](images/map-preview-icon.png){width="650"}
 
   La vista previa del mapa se muestra en un cuadro emergente.
 
-  ![](images/map-editor-preview-pop-up.png){width="500" align="left"}
+  ![](images/map-editor-preview-pop-up.png){width="500"}
 
 **Asignar propiedades**
 
@@ -329,7 +329,7 @@ Para editar temas a través de un mapa DITA, realice los siguientes pasos:
 
    Puede abrir varios temas en el editor, y cada tema se abre en una nueva pestaña del editor. Incluso si el mapa DITA contiene submapas, los temas de los submapas también se abren en una nueva pestaña para su edición. Si desea ver los temas bajo un submapa, puede seleccionar y expandir el submapa.
 
-   ![](images/web-editor-multiple-topics.png){align="left"}
+   ![](images/web-editor-multiple-topics.png)
 
    Si selecciona un fichero de mapa, el mapa se abrirá en una nueva pestaña del Editor.
 
@@ -337,7 +337,7 @@ Para editar temas a través de un mapa DITA, realice los siguientes pasos:
 
    - Puede guardarlos de forma individual. Si cierra sin guardar los temas, verá un cuadro de diálogo que le pedirá que guarde los temas no guardados:
 
-     ![](images/save-multiple-topics-new.png){width="300" align="left"}
+     ![](images/save-multiple-topics-new.png){width="300"}
 
      Puede elegir guardar todos los temas seleccionados o anular la selección de los temas que no desee guardar.
 
@@ -349,7 +349,7 @@ Para editar temas a través de un mapa DITA, realice los siguientes pasos:
 
    - Si el administrador ha activado la opción de desbloquear archivos al cerrar, se le mostrará un mensaje para guardar los archivos cada vez que se cierren los archivos bloqueados. Con esta opción habilitada, al cerrar el editor con archivos modificados, se muestra la lista de archivos bloqueados que deben guardarse. Los archivos bloqueados se muestran con un icono de bloqueo:
 
-     ![](images/save-on-close-new.png){width="350" align="left"}
+     ![](images/save-on-close-new.png){width="350"}
 
 ## Panel derecho en el editor de mapas
 
@@ -361,7 +361,7 @@ El panel Propiedades del contenido contiene información sobre el tipo de tema s
 
 - **Otros atributos** Si el administrador ha creado un perfil para atributos, obtendrá esos atributos junto con los valores configurados. Con el panel de propiedades de contenido, puede elegir esos atributos y asignarlos al contenido relevante del tema. También puede asignar atributos configurados por el administrador en **Atributos de visualización**. Los atributos definidos para un elemento se muestran en las vistas Diseño y Esquema. Esto le ayuda a echar un vistazo rápido a todos los temas de un mapa para los que se ha definido un atributo en particular. Por ejemplo, todos los temas que tienen el atributo `audience` se definen como `US`.
 
-  ![vista de diseño](images/layout-inline-attributes.png){width="650" align="left"}
+  ![vista de diseño](images/layout-inline-attributes.png){width="650"}
 
 
   Para obtener más información, vea [Atributos de visualización](../cs-install-guide/workspace-settings.md#display-attributes).

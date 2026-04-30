@@ -5,9 +5,9 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: 9b5760bd-817c-4d8d-ab37-ab8699ac62fa
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Siga estos pasos para generar resultados para documentos de FrameMaker:
 
    Aparecerá la consola de mapas DITA con la lista de ajustes preestablecidos de salida disponibles para generar resultados.
 
-   ![](images/publish-fm-doc.png){width="800" align="left"}
+   ![](images/publish-fm-doc.png){width="800"}
 
 1. Seleccione uno o varios ajustes preestablecidos de salida que desee utilizar para generar la salida.
 
@@ -31,4 +31,4 @@ Siga estos pasos para generar resultados para documentos de FrameMaker:
 >
 > Puede ver el estado actual de la solicitud de generación de resultados haciendo clic en Salidas. Para obtener más información, vea [Ver el estado de la tarea de generación de resultados](fm-output-view-status.md).
 
-**Tema principal:**&#x200B;[&#x200B; Generar salida de documentos de FrameMaker](fm-output-generatation.md)
+**Tema principal:**[ Generar salida de documentos de FrameMaker](fm-output-generatation.md)

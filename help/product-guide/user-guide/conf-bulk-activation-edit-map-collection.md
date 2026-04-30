@@ -4,7 +4,7 @@ description: Utilice el tablero de publicación masiva en AEM Guides. Aprenda a 
 exl-id: 5f897c52-5d6e-4614-a14f-1806e085c21c
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 1350304943e86f4f9c5270eaedd36eacb25a6b0f
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 2%
@@ -42,11 +42,11 @@ Puede ver los distintos tipos de ajustes preestablecidos de salida junto con sus
 
 1. Seleccione **Eliminar**.
 
-   ![](images/bulk-activation-delete-map.png){width="600" align="left"}
+   ![](images/bulk-activation-delete-map.png){width="600"}
 
    El mapa seleccionado se elimina de la colección de mapas de activación masiva.
 
 1. Seleccione **Listo**.
 
 
-**Tema principal:**&#x200B;[&#x200B; Activación masiva del contenido publicado](conf-bulk-activation.md)
+**Tema principal:**[ Activación masiva del contenido publicado](conf-bulk-activation.md)

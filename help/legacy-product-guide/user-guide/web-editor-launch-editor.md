@@ -5,9 +5,9 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 374042e4-0f1c-44cf-926c-c9fefa4b1de0
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ En las secciones siguientes se describen los detalles de cómo puede tener acces
 
 Al iniciar sesión en AEM, se le muestra la página Navegación:
 
-![](images/web-editor-from-navigation-page.png){width="800" align="left"}
+![](images/web-editor-from-navigation-page.png){width="800"}
 
 Al hacer clic en el vínculo **Guías**, accederá directamente al Editor web.
 
-![](images/web-editor-launch-page.png){width="800" align="left"}
+![](images/web-editor-launch-page.png){width="800"}
 
 Cuando haya iniciado el Editor Web sin seleccionar ningún archivo, aparecerá una pantalla en blanco. Puede abrir un archivo para editarlo desde el repositorio de AEM o desde su colección de Favoritos.
 
@@ -67,7 +67,7 @@ Otra ubicación desde la que puede iniciar el Editor web es desde la interfaz de
 
    .
 
-   ![](images/assets_ui_with_uuid_cs.png){width="800" align="left"}
+   ![](images/assets_ui_with_uuid_cs.png){width="800"}
 
    >[!IMPORTANT]
    >
@@ -89,15 +89,15 @@ Otra ubicación desde la que puede iniciar el Editor web es desde la interfaz de
    >
    > Si desea abrir varios temas para editarlos, seleccione los temas que desee en la interfaz de usuario de recursos y haga clic en Editar. Asegúrese de que el explorador no tenga habilitado el bloqueador de ventanas emergentes; de lo contrario, solo se abrirá el primer tema de la lista seleccionada para editarlo.
 
-   ![](images/edit-from-preview_cs.png){width="800" align="left"}
+   ![](images/edit-from-preview_cs.png){width="800"}
 
    Si no desea obtener una vista previa de un tema y desea abrirlo directamente en el Editor Web, haga clic en el icono Editar del menú de acción rápida desde la vista de tarjeta:
 
-   ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
+   ![](images/edit-topic-from-quick-action_cs.png){width="800"}
 
 1. Haga clic en **Editar** para abrir el tema en el editor web.
 
-   ![](images/edit-mode.png){width="800" align="left"}
+   ![](images/edit-mode.png){width="800"}
 
 
 ## Consola de mapa DITA {#id2056BG090BF}
@@ -116,7 +116,7 @@ Para abrir el Editor Web desde la consola de mapas DITA, siga estos pasos:
 
 1. Haga clic en **Editar tema**.
 
-   ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
+   ![](images/edit-topics-map-console_cs.png){width="800"}
 
 1. El tema se abre en el Editor Web.
 
@@ -125,4 +125,4 @@ Para abrir el Editor Web desde la consola de mapas DITA, siga estos pasos:
    > Si el administrador ha configurado la opción **Deshabilitar edición sin desprotección**, debe desproteger el archivo antes de editarlo. Si no desprotege el archivo, el documento se abrirá en el editor en modo de solo lectura.
 
 
-**Tema principal:**&#x200B;[&#x200B; Trabajar con el editor web](web-editor.md)
+**Tema principal:**[ Trabajar con el editor web](web-editor.md)

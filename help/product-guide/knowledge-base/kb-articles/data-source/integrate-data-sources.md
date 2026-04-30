@@ -1,9 +1,10 @@
 ---
 title: Arquitectura de la integración de fuentes de datos externas en AEM Guides
 description: Obtenga información acerca de la arquitectura de la integración de fuentes de datos externas en AEM Guides.
-source-git-commit: b0cf652023770eda24ea27ff105ed6dc2cdd1f08
+exl-id: ce99033a-0ce1-4696-9d4c-89187273b0bd
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -35,7 +36,7 @@ Algunas de las fuentes de datos que se pueden conectar desde Experience Manager 
 - Administración de la información del producto (PIM) / Administración del ciclo de vida del producto (PLM)
    - Pimcore, Salsify, Akeneo e Informatica
 - Sistemas de gestión de productos
-   - JIRA y Microsoft Azure DevOps Boards (ADO)
+   - Tableros de DevOps de JIRA y Microsoft Azure (ADO)
 - Procesamiento analítico en línea (OLAP) y sistemas de Analytics
 
 ### Integración en Experience Manager Guides
@@ -53,7 +54,6 @@ Siga estos pasos para integrar el contenido en Experience Manager Guides:
 1. **Configurar el conector de origen de datos**
    - El conector de la fuente de datos sirve como interfaz para establecer la conectividad con las fuentes de datos externas. Debe configurar el conector para establecer la conexión e incluir los métodos de autenticación, como `Basic Auth` o `API key Auth`. Todos los detalles de configuración, incluida la información cifrada, se almacenan de forma segura en Adobe Experience Manager.
    - La capa de conector está diseñada para ser extensible, lo que le permite crear implementaciones para conectarse a varios sistemas que Experience Manager Guides no proporciona de forma predeterminada.
-
      ![Capa de conector](assets/data-source-connector-layer.jpg)
    >[!NOTE]
    >
@@ -99,11 +99,9 @@ Siga estos pasos para integrar el contenido en Experience Manager Guides:
         ```
 
       - Plantillas
-
-        ![Motor de plantillas](assets/data-source-TemplatingEngine.png){width="800" align="left"}
+        ![Motor de plantillas](assets/data-source-TemplatingEngine.png){width="800"}
       - Datos generados a partir de la misma fuente de datos pero con plantillas diferentes
-
-        ![Datos generados](assets/data-source-templates-topics.png){width="800" align="left"}
+        ![Datos generados](assets/data-source-templates-topics.png){width="800"}
 
 1. **Generar contenido mediante las plantillas**
    - Puede generar el contenido a partir de las plantillas que ha creado.
@@ -113,8 +111,8 @@ Siga estos pasos para integrar el contenido en Experience Manager Guides:
       - Tema DITA + Mapa: también puede generar un mapa completo que también puede usar con el tema y, a continuación, utilizar los datos para publicarlos directamente o utilizarlos como *componente reutilizable* en otros datos.
 
 
-1. **Publish usa el contenido integrado**
-   - La publicación es la función OOTB de Experience Manager Guides y puede publicar directamente todos los datos generados desde el sistema externo como salida de PDF AEM o sitio de la.
+1. **Publicar el contenido integrado**
+   - La publicación es la función OOTB de Experience Manager Guides y puede publicar directamente todos los datos generados desde el sistema externo como salida de PDF o AEM Site.
 
 >[!MORELIKETHIS]
 >

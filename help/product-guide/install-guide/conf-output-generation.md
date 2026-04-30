@@ -5,7 +5,7 @@ exl-id: 6df31e3c-683c-4188-b917-9c1855d9b95b
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '5886'
 ht-degree: 1%
@@ -70,7 +70,7 @@ Para configurar AEM Guides para que utilice FMPS, actualice las siguientes propi
 
 Si tiene un sitio de AEM con contenido DITA, puede configurar la salida del sitio de AEM para publicar contenido DITA en una ubicación predefinida dentro del sitio. Por ejemplo, en la siguiente captura de pantalla de una página de un sitio de AEM, el nodo `ditacontent` está reservado para almacenar contenido DITA:
 
-![](assets/publish-in-aem-site.png){width="300" align="left"}
+![](assets/publish-in-aem-site.png){width="300"}
 
 Los nodos restantes de la página se crean directamente desde el editor del sitio de AEM. La configuración de publicación para publicar contenido DITA en una ubicación predefinida garantiza que el proceso de publicación de AEM Guides no modifique ningún contenido que no sea DITA.
 
@@ -103,7 +103,7 @@ Realice los siguientes pasos para configurar las propiedades de plantilla del si
 
 La siguiente captura de pantalla muestra las propiedades agregadas en el nodo de plantilla predeterminado de AEM Guides:
 
-![](assets/add-content-node.png){width="800" align="left"}
+![](assets/add-content-node.png){width="800"}
 
 La próxima vez que publique contenido DITA con las configuraciones de plantilla del sitio, el contenido se publicará en los nodos especificados en las propiedades `topicContentNode` y `topicHeadNode`.
 
@@ -154,7 +154,7 @@ Realice los siguientes pasos para especificar su propia plantilla de diseño par
 
    `/libs/fmdita/config/templates/`
 
-   ![](assets/templates-node.png){width="300" align="left"}
+   ![](assets/templates-node.png){width="300"}
 
    >[!NOTE]
    >
@@ -185,7 +185,7 @@ Realice los siguientes pasos para especificar su propia plantilla de diseño par
 >
 > Después de crear un nodo de plantilla de diseño personalizado, debe actualizar la opción Diseño en los ajustes preestablecidos de salida del sitio de AEM para utilizar el nodo de plantilla de diseño personalizado.
 
-Para obtener más información, consulte [Creación de su primer sitio web de Adobe Experience Manager 6.3](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) y [Aspectos básicos](https://helpx.adobe.com/es/experience-manager/6-3/sites/developing/using/the-basics.html) del desarrollo de su propio sitio web en AEM.
+Para obtener más información, consulte [Creación de su primer sitio web de Adobe Experience Manager 6.3](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) y [Aspectos básicos](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/the-basics.html) del desarrollo de su propio sitio web en AEM.
 
 ### Usar título de documento para generar salida del sitio de AEM
 
@@ -265,13 +265,13 @@ Para configurar los caracteres especiales válidos en los nombres de archivo y e
 
 Cuando se genera la salida del sitio de AEM, se crea internamente un nodo para cada elemento de los temas. Para un mapa DITA con miles de temas, esta estructura de nodos puede llegar a ser demasiado profunda. Este tipo de estructura de nodos profundamente anidados puede tener problemas de rendimiento para sitios más grandes. La siguiente instantánea muestra la estructura de nodos profundamente anidados para una salida de sitio de AEM:
 
-![](assets/deep-nested-aem-site-node-structure.png){width="300" align="left"}
+![](assets/deep-nested-aem-site-node-structure.png){width="300"}
 
 En la instantánea anterior, observe que hay un nodo creado para cada elemento `p` y sus subelementos subsiguientes, y que se crea una estructura similar para todos los demás elementos utilizados en el tema.
 
 AEM Guides le permite configurar cómo se crea internamente la estructura de nodos de la salida del sitio de AEM. Puede aplanar la estructura del nodo en elementos especificados, lo que significa que puede definir un elemento que se considerará como el elemento principal y todos los subelementos dentro de él se combinarán con el elemento principal. Por ejemplo, si decide acoplar el elemento `p`, cualquier elemento que aparezca dentro del elemento `p` se combinará con el elemento principal `p`. No se crearía una nota independiente para ningún subelemento dentro del elemento `p`. La siguiente instantánea muestra la estructura de nodos acoplada en el elemento `p`:
 
-![](assets/flattened-aem-site-node-structure.png){width="300" align="left"}
+![](assets/flattened-aem-site-node-structure.png){width="300"}
 
 Para acoplar la estructura de nodos del sitio de AEM, realice los siguientes pasos:
 
@@ -320,7 +320,7 @@ Para acoplar la estructura de nodos del sitio de AEM, realice los siguientes pas
 
 Ahora, cuando genere la salida del sitio de AEM, los nodos dentro del elemento `p` se acoplan y almacenan dentro del propio elemento `p`. Puede encontrar las nuevas propiedades de acoplamiento para el elemento `p` en CRXDE.
 
-![](assets/flatten-aem-site-note-props-crxde.png){width="650" align="left"}
+![](assets/flatten-aem-site-note-props-crxde.png){width="650"}
 
 **Impedir el acoplamiento de la estructura de notas del sitio AEM**
 
@@ -332,7 +332,7 @@ Para excluir el elemento `table` del acoplamiento, agregue la siguiente propieda
 
 ### Configuración de las versiones para las páginas eliminadas en la salida del sitio de AEM
 
-Cuando genera la salida del sitio de AEM con la opción **Eliminar y** Crear **&#x200B;**&#x200B;seleccionada para la configuración Páginas de salida existentes, se crea una versión para las páginas que se están eliminando. Puede configurar el sistema para que detenga la creación de una versión antes de la eliminación.
+Cuando genera la salida del sitio de AEM con la opción **Eliminar y** Crear ****seleccionada para la configuración Páginas de salida existentes, se crea una versión para las páginas que se están eliminando. Puede configurar el sistema para que detenga la creación de una versión antes de la eliminación.
 
 Realice los siguientes pasos para detener la creación de una versión para la página que se está eliminando:
 
@@ -402,7 +402,7 @@ Para añadir los metadatos necesarios en el sistema, realice los siguientes paso
 
 El nuevo parámetro aparece ahora en la página Propiedades para todos los mapas DITA.
 
-![](assets/properties-page-custom-metadata.PNG){width="650" align="left"}
+![](assets/properties-page-custom-metadata.PNG){width="650"}
 
 A continuación, es necesario que los metadatos personalizados estén disponibles en la consola de mapas DITA. Realice los siguientes pasos para que los metadatos personalizados estén disponibles en el tablero de mandos de mapa DITA:
 
@@ -431,7 +431,7 @@ Por último, como editor, debe incluir los metadatos personalizados en el result
 
 1. En la página Propiedades, especifique el valor de los metadatos personalizados. Para nuestro ejemplo, hemos especificado un valor de External para el parámetro audience.
 
-   ![](assets/properties-page-custom-metadata-value.png){width="650" align="left"}
+   ![](assets/properties-page-custom-metadata-value.png){width="650"}
 
 1. Haga clic en **Guardar y cerrar**.
 
@@ -443,7 +443,7 @@ Por último, como editor, debe incluir los metadatos personalizados en el result
 
 1. En la lista desplegable **Propiedades**, seleccione las propiedades que desee pasar al proceso de publicación.
 
-   ![](assets/props-in-publish-output.PNG){width="650" align="left"}
+   ![](assets/props-in-publish-output.PNG){width="650"}
 
 
 Las propiedades/metadatos seleccionados se pasan al proceso de publicación y están disponibles en la salida final.
@@ -642,11 +642,11 @@ AEM Guides proporciona la categoría `apps.fmdita.dashboard-extn` para personali
 
 >[!NOTE]
 >
-> Para obtener más información acerca de cómo crear la biblioteca de cliente de AEM, vea [Usar bibliotecas del lado del cliente](https://helpx.adobe.com/es/experience-manager/6-4/sites/developing/using/clientlibs.html).
+> Para obtener más información acerca de cómo crear la biblioteca de cliente de AEM, vea [Usar bibliotecas del lado del cliente](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html).
 
 ## Controlar la representación de imágenes durante la generación de salida {#id177BF0G0VY4}
 
-AEM incluye un conjunto de flujos de trabajo predeterminados y controladores de medios para procesar recursos. En AEM, hay flujos de trabajo predefinidos para gestionar el procesamiento de recursos para los tipos MIME más comunes. Normalmente, para cada imagen que carga, AEM crea varias representaciones de la misma en formato binario. Estas representaciones pueden tener un tamaño diferente, con una resolución diferente, con una marca de agua agregada o cualquier otra característica modificada. Para obtener más información sobre cómo administra AEM los recursos, consulte [Procesamiento de Assets mediante controladores de medios y flujos de trabajo](https://helpx.adobe.com/es/experience-manager/6-5/assets/using/media-handlers.html) en la documentación de AEM.
+AEM incluye un conjunto de flujos de trabajo predeterminados y controladores de medios para procesar recursos. En AEM, hay flujos de trabajo predefinidos para gestionar el procesamiento de recursos para los tipos MIME más comunes. Normalmente, para cada imagen que carga, AEM crea varias representaciones de la misma en formato binario. Estas representaciones pueden tener un tamaño diferente, con una resolución diferente, con una marca de agua agregada o cualquier otra característica modificada. Para obtener más información sobre cómo administra AEM los recursos, consulte [Procesamiento de Assets mediante controladores de medios y flujos de trabajo](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html) en la documentación de AEM.
 
 AEM Guides le permite configurar qué representación de imágenes utilizar en el momento de generar la salida de sus documentos. Por ejemplo, puede elegir una de las representaciones de imágenes predeterminadas o crear una y utilizar la misma para publicar los documentos. La asignación de representación de imágenes para publicar los documentos se almacena en el archivo `/libs/fmdita/config/ **renditionmap.xml**`. Un fragmento del archivo `renditionmap.xml` es el siguiente:
 

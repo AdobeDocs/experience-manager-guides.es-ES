@@ -4,9 +4,9 @@ description: Aprenda a editar las pruebas en la Formación y aprendizaje de prod
 feature: Authoring
 role: User
 exl-id: a8d967ce-9850-445f-b5fc-63ee14ee0dfa
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Siga estos pasos para editar la prueba:
 1. Haga doble clic en la prueba para abrirla desde el panel Administrador de cursos.
 1. Debe **bloquear** el examen mediante la opción. Esto le permite editar la prueba y nadie más puede realizar cambios en ella.
 
-   ![](assets/quiz-lock.png){width="650" align="left"}
+   ![](assets/quiz-lock.png){width="650"}
 
 1. Puede [agregar preguntas al cuestionario](./quiz-insert-questions.md), así como [insertar preguntas del banco de preguntas](./insert-questions.md).
 1. Para guardar tu trabajo, usa **Guardar como nueva versión** para crear una nueva versión o presiona `Ctrl+S` para sobrescribir el archivo existente.

@@ -4,9 +4,9 @@ description: Cree un mapa con el Editor de mapas en Experience Manager Guides. B
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 21c45ac9ad32d8590f6ed180816853c24a4fa3dc
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1599'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Siga estos pasos para crear una asignación:
 
 1. En el panel Explorador, seleccione el icono **Nuevo archivo** y, a continuación, seleccione **Mapa DITA** en el menú desplegable.
 
-   ![](images/create-map-options.png){align="left"}
+   ![](images/create-map-options.png)
 
    También puede acceder a esta opción desde la [página principal de Experience Manager Guides](./intro-home-page.md) y desde el menú de opciones de una carpeta en la vista del explorador.
 
@@ -35,14 +35,14 @@ Siga estos pasos para crear una asignación:
    - Una plantilla en la que se basará el tema. Para un archivo de mapa, las opciones disponibles son **Bookmap**, **Map** y **Esquema del asunto**.
    - Ruta de acceso donde desea guardar el archivo de asignación. De forma predeterminada, la ruta de la carpeta seleccionada actualmente en el Explorador se muestra en el campo Ruta.
 
-   ![](images/new-map-dialog.png){width="300" align="left"}
+   ![](images/new-map-dialog.png){width="300"}
 
 
 4. Seleccione **Crear**.
 
 El mapa se crea en la ruta especificada. Además, el mapa se abre en el Editor de mapas para editarlo.
 
-![](images/map-file-in-map-editor.png){align="left"}
+![](images/map-file-in-map-editor.png)
 
 ## Adición de temas a un archivo de asignación
 
@@ -53,11 +53,11 @@ Realice los siguientes pasos para agregar temas a un archivo de asignación desd
 1. En la vista del explorador, desplácese hasta el archivo de asignación que desee editar y ábralo.
 1. Seleccione el icono **Editar**.
 
-   ![](images/edit-map-icon.png){width="450" align="left"}
+   ![](images/edit-map-icon.png){width="450"}
 
 1. El fichero de mapa se abre en el editor de mapas. Si ha abierto un nuevo archivo de mapa, solo se muestra el título del mapa en el editor.
 
-   ![](images/new-map-file-in-editor.png){align="left"}
+   ![](images/new-map-file-in-editor.png)
 
 
    - **A** - \(*Barra de fichas*\): Es similar a la barra de fichas del Editor. Ver [barra de fichas](./web-editor-tab-bar.md) en el editor para obtener más detalles.
@@ -80,7 +80,7 @@ Realice los siguientes pasos para agregar temas a un archivo de asignación desd
 
    El tema se añade en el mapa.
 
-   ![agregar tema del editor de mapas](images/map-editor-add-topic.png){align="left"}
+   ![agregar tema del editor de mapas](images/map-editor-add-topic.png)
 
 1. Para agregar temas subsiguientes o un submapa, arrastre y suelte el tema o submapa en la ubicación requerida del mapa.
 
@@ -88,7 +88,7 @@ Realice los siguientes pasos para agregar temas a un archivo de asignación desd
 
    - El archivo se agrega en una ubicación en la que aparece la barra rectangular discontinua en el área de edición del mapa. En la siguiente captura de pantalla, se agregará *un tema de ejemplo* entre los temas *Sugerencia inteligente 1* y *Sugerencia inteligente 2*.
 
-     ![](images/horizontal-line-in-adv-map-editor.png){align="left"}
+     ![](images/horizontal-line-in-adv-map-editor.png)
 
    - Para reemplazar un tema, arrastre y suelte el nuevo tema encima del tema que desee reemplazar. y soltarlo indica que se reemplazará con el tema que se está soltando en él.
 
@@ -98,7 +98,7 @@ Realice los siguientes pasos para agregar temas a un archivo de asignación desd
 
    - Para cambiar la posición de un tema, seleccione el tema \(seleccionando el icono del tema\) y arrástrelo y suéltelo en la ubicación deseada en el archivo de asignación. En la siguiente captura de pantalla, el tema *Sugerencia inteligente 1* se está moviendo después del tema *Ejemplo*.
 
-     ![](images/move-topic-adv-map-editor.png){align="left"}
+     ![](images/move-topic-adv-map-editor.png)
 
    - Para comprobar las propiedades del archivo de asignación, haga clic con el botón secundario en cualquier lugar del área de edición del mapa y elija **Propiedades** en el menú contextual. En función de su versión de Adobe Experience Manager, puede ver propiedades como metadatos, programar \(de\)activación, referencias, estado del documento y mucho más.
 
@@ -120,7 +120,7 @@ Siga estos pasos para crear un mapa desde la interfaz de usuario de Assets:
    >
    > La forma en que se hace referencia a los temas en un archivo de mapa depende de la plantilla de mapa. Por ejemplo, si selecciona la plantilla Mapa, las referencias del tema \(`topicref`\) se utilizarán para hacer referencia a los temas. En el caso de un mapa de libros, las referencias de temas se crean utilizando el elemento `chapter` en DITA.
 
-   ![](images/map-template.png){align="left"}
+   ![](images/map-template.png)
 
 1. En la página Propiedades, especifique el mapa **Title**.
 
@@ -136,7 +136,7 @@ Siga estos pasos para crear un mapa desde la interfaz de usuario de Assets:
 
    A cada nuevo archivo de mapa que cree desde la interfaz de usuario de Assets o el editor se le asigna un ID de mapa único. Además, la nueva asignación se guarda como la última copia de trabajo en DAM. Hasta que guarde una revisión de una asignación recién creada, no verá ningún número de versión en el Historial de versiones. Si abre el mapa para editarlo, la información de la versión se muestra en la esquina superior derecha de la pestaña del archivo de mapa:
 
-   ![](images/first-version-map-none.png){align="left"}
+   ![](images/first-version-map-none.png)
 
    La información de versión de un mapa recién creado se muestra como *none*. Al guardar una nueva versión, se le asigna un número de versión como 1.0. Para obtener más información acerca de cómo guardar una nueva versión, vea [Guardar como nueva versión](web-editor-features.md#save-as-new-version).
 
@@ -164,11 +164,11 @@ Realice los siguientes pasos para agregar temas a un archivo de asignación desd
 
 1. Con el archivo de asignación seleccionado, seleccione **Editar temas**.
 
-   ![](images/edit-map-main-menu.png){align="left"}
+   ![](images/edit-map-main-menu.png)
 
    O bien, también puede seleccionar la opción **Editar temas** en el menú de acción del archivo de asignación:
 
-   ![](images/edit-map-action-menu.png){align="left"}
+   ![](images/edit-map-action-menu.png)
 
    El archivo de mapa se abre para editarlo en el Editor. Para agregar temas al archivo de asignación, siga los pasos (4-8) en [Agregar temas a un archivo de asignación](#add-topics-to-a-map-file).
 

@@ -4,9 +4,9 @@ description: Conozca la barra de encabezado en el Editor. Obtenga información a
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 97f72025-e0d1-494e-957a-32bba5732dc5
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -15,12 +15,12 @@ ht-degree: 0%
 
 La barra de encabezado es la barra superior del Editor que muestra el logotipo de Adobe Experience Manager (o un Unified Shell si utiliza Unified Shell como interfaz de usuario de Experience Manager Guides). Al seleccionar el logotipo, se le redirige a la página Navegación de Experience Manager.
 
-![](./images/web-editor-header-bar.png){align="left"}
+![](./images/web-editor-header-bar.png)
 
 Utilice el icono **Expand** de la barra de herramientas para ocultar la barra de encabezado y maximizar el área de contenido. Para restaurar la vista estándar, seleccione **Salir de la vista expandida**.
 
-![](./images/web-editor-header-bar-expand-option.png){width="350" align="left"}
+![](./images/web-editor-header-bar-expand-option.png){width="350"}
 
 
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

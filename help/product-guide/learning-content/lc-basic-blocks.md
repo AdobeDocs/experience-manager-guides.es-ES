@@ -4,9 +4,9 @@ description: Obtenga información acerca de los componentes básicos que puede a
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
-source-git-commit: 16e7f12ddc9e72e4344bf98e65718c0f3681b348
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Puede utilizar las funciones básicas de edición disponibles en la barra de her
 
 - **Opciones de inserción**: proporciona opciones para agregar [widgets interactivos](./lc-widgets.md) como acordeón, carrusel, punto interactivo, pestañas, tarjetas giratorias y clic para mostrar, así como [elementos estructurales](./lc-other-insert-options.md) como iframe, comillas de bloque, bloque de código y más. Utilice este menú para añadir funcionalidad y variedad al contenido de aprendizaje, haciéndolo atractivo y bien estructurado.
 
-  ![](assets/insert-menu-options-lc.png){width="650" align="left"}
+  ![](assets/insert-menu-options-lc.png){width="650"}
 
 - **Componentes de texto**: agrega encabezado, párrafo, comillas dentro de la línea, superíndice, subíndice y cita al contenido.
 
@@ -31,27 +31,27 @@ Puede utilizar las funciones básicas de edición disponibles en la barra de her
   >
   > También puede incluir un Título y un subtítulo en el contenido de aprendizaje. Para obtener detalles sobre cómo agregarlo al contenido, vea [Agregar título y subtítulo al contenido de aprendizaje](#add-title-and-subtitle-to-learning-content).
 
-  ![](assets/text-learning-content.png){width="650" align="left"}
+  ![](assets/text-learning-content.png){width="650"}
 
 - **Lista sin ordenar**: Agrega una lista sin ordenar dentro del contenido.
 
-  ![](assets/unordered-list.png){width="650" align="left"}
+  ![](assets/unordered-list.png){width="650"}
 
 - **Lista ordenada**: inserta una lista numerada dentro del contenido.
 
-  ![](assets/ordered-list.png){width="650" align="left"}
+  ![](assets/ordered-list.png){width="650"}
 
 - **Tabla**: inserta una tabla de dimensiones requeridas en el contenido. Puede administrar varias propiedades de tabla mediante el panel **Propiedades de contenido**, como se muestra a continuación.
 
-  ![](assets/table-learning-content.png){width="650" align="left"}
+  ![](assets/table-learning-content.png){width="650"}
 
 - **Imagen**: inserta imágenes en el contenido junto con texto alternativo y una información de pantalla. Las imágenes se pueden añadir desde el repositorio o a través de una URL externa. Además, las propiedades de imagen se pueden modificar mediante el panel **Propiedades de contenido**.
 
-  ![](assets/image-learning-content.png){width="650" align="left"}
+  ![](assets/image-learning-content.png){width="650"}
 
 - **Multimedia**: agrega vídeo y audio al contenido. Puede personalizar sus propiedades mediante el panel **Propiedades de contenido**.
 
-  ![](assets/video-learning-content.png){width="650" align="left"}
+  ![](assets/video-learning-content.png){width="650"}
 
 - **Contenido reutilizable**: le permite incorporar contenido existente de sus recursos o repositorio para reutilizarlo. Siga estos pasos para insertar contenido reutilizable:
 
@@ -60,23 +60,23 @@ Se abre el cuadro de diálogo **Reutilizar contenido**.
    2. Desplácese y seleccione el tema que desee para incluir su contenido en el curso actual.
    3. Seleccione el ID del contenido que desea añadir; junto a él se mostrará una vista previa como referencia.
 
-      ![](assets/reuse-content-dialog.png){width="650" align="left"}
+      ![](assets/reuse-content-dialog.png){width="650"}
 
    4. Elija **Seleccionar**.
 
   El contenido se inserta. Por ejemplo, la sección sobre estructura del vehículo es una parte de contenido que se reutiliza y se añade al tema del curso. El tipo se muestra como **Referencia** y su **ID** se refleja en el panel **Propiedades del contenido**.
 
-  ![](assets/reusable-content.png){width="650" align="left"}
+  ![](assets/reusable-content.png){width="650"}
 
 
 - **Símbolos**: agrega símbolos de su elección al contenido de una lista como se muestra a continuación.
 
-  ![](assets/symbol-learning-content.png){width="350" align="left"}
+  ![](assets/symbol-learning-content.png){width="350"}
 
 
 - **Hipervínculos**: agrega hipervínculos a la ubicación requerida del contenido. Puede ser una referencia de archivo, una URL web o un vínculo de correo electrónico, como se muestra a continuación.
 
-  ![](assets/hyperlink-learning-content.png){width="650" align="left"}
+  ![](assets/hyperlink-learning-content.png){width="650"}
 
 Además, el menú desplegable **Menú** proporciona acceso a las acciones de edición (Cortar, Copiar, Eliminar), Buscar y reemplazar y a la etiqueta Versión.
 

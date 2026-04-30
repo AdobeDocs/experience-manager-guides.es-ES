@@ -5,7 +5,7 @@ exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
 feature: Search Configuration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1704'
 ht-degree: 1%
@@ -45,13 +45,13 @@ Realice lo siguiente para añadir el componente de búsqueda de contenido DITA e
 
 1. Arrastre y suelte **Predicado de elemento DITA** en la ubicación requerida en el formulario de búsqueda.
 
-   ![](assets/drag-search-predicate.png){width="650" align="left"}
+   ![](assets/drag-search-predicate.png){width="650"}
 
 1. Haga clic en **Listo** para guardar los cambios.
 
    Al acceder a la opción Filtros en la interfaz de usuario de Assets, se obtiene la opción de filtrado de búsqueda de elementos DITA.
 
-   ![](assets/search-filter-asset-console.png){width="350" align="left"}
+   ![](assets/search-filter-asset-console.png){width="350"}
 
 
 ## Añadir un componente de búsqueda basado en UUID en la interfaz de usuario de Assets {#id2034F04K05Z}
@@ -90,7 +90,7 @@ Siga estos pasos para proporcionar acceso a la función de búsqueda DITA:
 
 1. Busque el grupo de usuarios o un usuario individual al que desee dar acceso. Por ejemplo, para dar acceso a todos los usuarios del grupo de autores, escriba autores en el campo **Filtrar consulta** y presione **Entrar**.
 
-   ![](assets/authors-group-permission.png){width="350" align="left"}
+   ![](assets/authors-group-permission.png){width="350"}
 
 1. Seleccione el grupo **authors**.
 
@@ -102,7 +102,7 @@ Siga estos pasos para proporcionar acceso a la función de búsqueda DITA:
 
 1. Conceda permiso para **leer** en la carpeta de búsqueda.
 
-   ![](assets/read-permission-authors.png){width="650" align="left"}
+   ![](assets/read-permission-authors.png){width="650"}
 
 1. Haga clic en **Guardar**.
 
@@ -178,7 +178,7 @@ Realice los siguientes pasos para agregar elementos o atributos DITA personaliza
 
 1. Abra la página Configuración de la consola web de Adobe Experience Manager. La URL predeterminada para acceder a la página de configuración es:
 
-   http://&lt;server name\>:<port\>/system/console/configMgr
+   http://<server name\>:<port\>/system/console/configMgr
 
 1. Busque y haga clic en el paquete *com.adobe.fmdita.config.ConfigManager*.
 
@@ -202,7 +202,7 @@ Realice los siguientes pasos para habilitar la opción de extracción de metadat
 
 1. Abra la página Configuración de la consola web de Adobe Experience Manager. La URL predeterminada para acceder a la página de configuración es:
 
-   http://&lt;server name\>:<port\>/system/console/configMgr
+   http://<server name\>:<port\>/system/console/configMgr
 
 1. Busque y haga clic en el paquete *com.adobe.fmdita.config.ConfigManager*.
 

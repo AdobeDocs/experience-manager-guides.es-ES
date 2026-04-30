@@ -5,7 +5,7 @@ exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
 hide: true
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '18790'
 ht-degree: 0%
@@ -85,7 +85,7 @@ La opción **Configuración** solo está disponible para administradores y admin
 
 - **General**: la configuración General permite configurar el diccionario para utilizarlo con el Editor. Esta ficha contiene cuatro secciones: **Corrección ortográfica**, **Condición**, **Creación** y **Citas**.
 
-  ![](images/editor-setting-general.png){width="650" align="left"}
+  ![](images/editor-setting-general.png){width="650"}
 
    - **Corrección ortográfica**: Hay dos opciones: **Corrección ortográfica de AEM** y **Corrección ortográfica del explorador**. De forma predeterminada, el editor utiliza la función de revisión ortográfica del explorador, en la que la revisión ortográfica se realiza mediante el diccionario integrado del explorador. Puede cambiar al corrector ortográfico de AEM para utilizar el diccionario de Adobe Experience Manager, que también se puede personalizar para agregar la lista de palabras personalizada. Para obtener más información sobre cómo personalizar el diccionario de AEM, vea la sección [Personalizar el diccionario predeterminado de AEM](../cs-install-guide/customize-aem-custom-dictionary.md) en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
@@ -97,7 +97,7 @@ La opción **Configuración** solo está disponible para administradores y admin
 
       - **Mostrar clave con el título en el panel Esquema del asunto**: seleccione esta opción para mostrar las claves junto con los títulos en el esquema del asunto. Si no selecciona esta opción, solo se muestran los títulos. Por ejemplo, aquí las teclas &quot;os&quot;, &quot;audience&quot; y &quot;other&quot; también se muestran junto con los títulos.
 
-        ![](images/subject-scheme-title.png){width="550" align="left"}
+        ![](images/subject-scheme-title.png){width="550"}
 
       - **Mostrar esquema de asunto en el panel Condiciones**: seleccione esta opción para ver un esquema de asunto en el panel Condiciones. Si anula la selección de esta opción, las condiciones definidas se muestran en el panel Condiciones.
 
@@ -113,11 +113,11 @@ Seleccione esta opción para habilitar la función [Ayudante de IA](./ai-assista
 
 **Paneles**: esta opción controla los paneles que se muestran en los paneles izquierdo y derecho de la consola Editor y Mapa. Puede alternar el botón para mostrar u ocultar el panel deseado.
 
-![](images/editor-setting-panel.png){width="650" align="left"}
+![](images/editor-setting-panel.png){width="650"}
 
 También puede definir el orden en que se muestran las funciones presentes en los paneles. Para cambiar el orden predeterminado de las funciones disponibles en los paneles, seleccione las barras de puntos para arrastrar y soltar las pestañas de funciones en la ubicación deseada. También se puede mover una característica de la sección **Más** a la sección principal de un panel y viceversa según sea necesario. Una vez reordenadas, las funciones aparecen en la misma secuencia en los paneles derecho e izquierdo respectivos.
 
-![](images/panels-screen.png){width="650" align="left"}
+![](images/panels-screen.png){width="650"}
 
 
 Se pueden mostrar un máximo de ocho paneles a la vez. Los cambios realizados en la configuración del panel se aplican inmediatamente.
@@ -129,21 +129,21 @@ Se pueden mostrar un máximo de ocho paneles a la vez. Los cambios realizados en
 
 - **Lista de elementos**: como administrador, puede controlar la lista de elementos que un autor puede insertar en un archivo y también definir el nombre para mostrar del elemento. La configuración de la lista Elementos (Elements) permite especificar el nombre del elemento según las especificaciones de DITA y una etiqueta que se debe utilizar en lugar del nombre del elemento definido por DITA:
 
-  ![](images/editor-setting-element-list.png){width="650" align="left"}
+  ![](images/editor-setting-element-list.png){width="650"}
 
 En la captura de pantalla anterior, al elemento `p` se le ha dado una etiqueta de párrafo y a `codeblock` se le ha dado una etiqueta de bloque de código junto con algunos otros elementos. Si selecciona la opción **Usar solo los elementos anteriores**, solo se mostrarán los elementos válidos \(en el punto de inserción actual\) de esta lista en el cuadro de diálogo **Insertar elemento**.
 
 En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos configurados de la captura de pantalla anterior en el contexto actual:
 
-![](images/editor-setting-insert-element-list.PNG){width="300" align="left"}
+![](images/editor-setting-insert-element-list.PNG){width="300"}
 
 - **Lista de atributos**: de forma similar a la lista de elementos, puede controlar la lista de atributos y sus nombres para mostrar en la lista de atributos de un elemento. En la siguiente captura de pantalla, solo se han configurado 3 atributos para que se muestren en la lista de atributos de un elemento:
 
-  ![](images/editor-setting-attributes-list.png){width="650" align="left"}
+  ![](images/editor-setting-attributes-list.png){width="650"}
 
   Con esta configuración, cuando intenta agregar un atributo a un elemento, solo ve la lista de atributos configurados en la lista.
 
-  ![](images/editor-setting-add-attributes-list.png){width="300" align="left"}
+  ![](images/editor-setting-add-attributes-list.png){width="300"}
 
 - **Colores**: muestra una lista de colores de fondo preconfigurados para **Condiciones**. Los usuarios pueden seleccionar un color de fondo al aplicar una condición a un tema. Como administrador, también puede crear y agregar colores de fondo personalizados a la lista. Para agregar un nuevo color, escribe el nombre que desees en el campo **Nombre del color**, elige un color personalizado y selecciona el icono **+**. El color personalizado aparecerá al final de la lista de colores.
 
@@ -170,7 +170,7 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
 
    - Para crear un perfil de Salesforce, seleccione la base de conocimiento **Salesforce** en la lista desplegable **Tipo de servidor**. Introduzca un Nombre de perfil. En la **dirección URL del sitio**, escriba el sitio del consumidor que usaría para publicar la salida y, a continuación, agregue la **clave del consumidor** y el **secreto del consumidor** proporcionados por el sitio del consumidor de Salesforce. A continuación, **Valide** y **guarde** el perfil recién creado.
 
-     ![perfil de publicación de salesforce en la configuración del editor](./images/salesforce-publish-profile.png){width="550" align="left"}
+     ![perfil de publicación de salesforce en la configuración del editor](./images/salesforce-publish-profile.png){width="550"}
 
      >[!NOTE]
      >
@@ -194,7 +194,7 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
 
    - Para crear un perfil, seleccione ServiceNow Knowledge Base en la lista desplegable **Tipo de servidor**. Escriba un perfil **Name**. En la **URL de ServiceNow**, introduzca el sitio de consumidores que utilizaría para publicar la salida y, a continuación, agregue el **Nombre de usuario** y la **Contraseña** proporcionados por el sitio de consumidores de ServiceNow. A continuación, **Valide** y **guarde** el perfil recién creado.
 
-     ![Perfil de publicación ServiceNow](./images/service-now-publish-profile.png){width="550" align="left"}
+     ![Perfil de publicación ServiceNow](./images/service-now-publish-profile.png){width="550"}
 
   Una vez validado, puede seleccionar el perfil de publicación en los ajustes preestablecidos de salida de un mapa DITA y utilizarlo para generar la salida en el servidor **Salesforce** o **ServiceNow** que haya elegido.
 
@@ -209,7 +209,7 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
      >
      >Los archivos de Schematron seleccionados persistirán para el perfil de carpeta seleccionado.
 
-     ![Validación en la configuración del editor](./images/editor-setting-validation.png){width="550" align="left"}
+     ![Validación en la configuración del editor](./images/editor-setting-validation.png){width="550"}
 
      Esto evita que los usuarios guarden cualquier archivo que rompa una regla definida en los archivos de Schematron seleccionados. Si no se selecciona esta opción, el archivo no se validará antes de guardar los cambios.
 
@@ -220,11 +220,11 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
 
   Los atributos definidos para un elemento se muestran en las vistas Diseño y Esquema.
 
-  ![](images/editor-settings-display-attributes.png){width="550" align="left"}
+  ![](images/editor-settings-display-attributes.png){width="550"}
 
 - **Traducción**: esta pestaña contiene las opciones para crear grupos de idiomas, propagar las etiquetas de origen a la versión de destino y limpiar el proyecto de traducción.
 
-  ![](images/editor-setting-translation.png){width="550" align="left"}
+  ![](images/editor-setting-translation.png){width="550"}
 
    - **Grupos de idiomas**: como administrador, puede crear un grupo de idiomas y utilizarlos como un conjunto para traducir el contenido.
 
@@ -263,7 +263,7 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
   Se muestra un error si la ruta de metadatos está en blanco. Si deja la etiqueta en blanco, se selecciona el último elemento como etiqueta.
 
 
-  ![ficha de metadatos en la configuración del editor](images/editor-setting-metadata.png){width="550" align="left"}
+  ![ficha de metadatos en la configuración del editor](images/editor-setting-metadata.png){width="550"}
 
   *Configurar los metadatos del cuadro de diálogo **Historial de versiones**.*
 
@@ -300,7 +300,7 @@ Al editar un tema en el editor, accede a las distintas acciones de edición como
 
 La característica **Buscar y reemplazar** está disponible en los modos de vista Autor y Source. Cuando está habilitada, la barra de texto Buscar y reemplazar aparece en la parte inferior del área de edición del tema. Puede usar las teclas de método abreviado **CTRL**+**F** para invocar la barra Buscar y reemplazar.
 
-![](images/find-replace-bar.png){align="left"}
+![](images/find-replace-bar.png)
 
 Con el icono de configuración \(![](images/settings-find-replace-icon.svg)\), puede alternar las opciones de búsqueda **Ignorar mayúsculas y minúsculas** y **Sólo palabras completas**. Para realizar la búsqueda sin distinción entre mayúsculas y minúsculas, active (o seleccione) la opción **Ignorar mayúsculas y minúsculas**. De lo contrario, si desea realizar la búsqueda que distingue entre mayúsculas y minúsculas, desactive (o anule la selección) de la opción **Ignorar mayúsculas y minúsculas**. También puede elegir buscar una palabra entera.
 
@@ -323,7 +323,7 @@ Para acceder al historial de versiones y volver a una versión específica del t
 
    Aparece el cuadro de diálogo **Historial de versiones**.
 
-   ![Cuadro de diálogo Historial de versiones](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   ![Cuadro de diálogo Historial de versiones](images/version-history-dialog-web-editor.png){width="550"}
 
    *Obtener una vista previa de los cambios en las distintas versiones de un tema.*
 
@@ -340,7 +340,7 @@ Para acceder al historial de versiones y volver a una versión específica del t
 
    Pestaña **Metadatos**: los metadatos agregados recientemente están en fuente verde y los metadatos eliminados están en fuente roja.
 
-   ![Diferencia de metadatos para las versiones &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Diferencia de metadatos para las versiones ](images/metadata-version-diff.png){width="550"}
 
    *Comparar los metadatos de distintas versiones en el historial de versiones.*
 
@@ -356,7 +356,7 @@ Para acceder al historial de versiones y volver a una versión específica del t
 
    Aparecerá el cuadro de diálogo Revertir versión.
 
-   ![](images/version-history-revert-dialog-save-working-copy.png){width="550" align="left"}
+   ![](images/version-history-revert-dialog-save-working-copy.png){width="550"}
 
 1. \(*Opcional*\) Proporcione un motivo para revertir a una versión anterior. También puede crear una nueva versión de la copia de trabajo activa del tema.
 
@@ -366,7 +366,7 @@ Para acceder al historial de versiones y volver a una versión específica del t
 
    Al volver a una versión anterior, se muestra una señal visual que indica que la versión en la que está trabajando no es la más reciente.
 
-   ![](images/older-version-visual-cue.png){align="left"}
+   ![](images/older-version-visual-cue.png)
 
 **Etiquetas de versión**
 
@@ -386,7 +386,7 @@ Para agregar etiquetas al tema desde el Editor, realice los siguientes pasos:
 
    Aparece el cuadro de diálogo Administración de etiquetas de versión.
 
-   ![](images/version-label-management-dialog.png){width="650" align="left"}
+   ![](images/version-label-management-dialog.png){width="650"}
 
    El cuadro de diálogo Administración de etiquetas de versión se divide en dos partes: el panel izquierdo tiene una lista de versiones disponibles para el tema junto con la lista desplegable de etiquetas \(o un cuadro de texto para introducir una etiqueta\) y el panel derecho con una vista previa del tema.
 
@@ -424,7 +424,7 @@ Cuando se trabaja en un entorno de varios autores, resulta difícil realizar el 
 
       Aparecerá el cuadro de diálogo Combinar.
 
-      ![](images/merge-changes-in-topic.png){width="550" align="left"}
+      ![](images/merge-changes-in-topic.png){width="550"}
 
    1. *\(Opcional\)* También puede examinar y seleccionar un nuevo archivo de otra ubicación del repositorio.
 
@@ -453,7 +453,7 @@ Cuando se trabaja en un entorno de varios autores, resulta difícil realizar el 
 
       Aparecerá el cuadro de diálogo Combinar.
 
-      ![](images/merge-changes-in-map.png){width="550" align="left"}
+      ![](images/merge-changes-in-map.png){width="550"}
 
    1. *\(Opcional\)* También puede examinar y seleccionar un nuevo archivo de otra ubicación del repositorio.
 
@@ -482,7 +482,7 @@ Puede realizar un seguimiento de todas las actualizaciones realizadas en un docu
 
 La siguiente captura de pantalla resalta el contenido eliminado e insertado junto con las barras de cambio:
 
-![](images/track-changes-content.png){width="650" align="left"}
+![](images/track-changes-content.png){width="650"}
 
 Un caso de uso típico del seguimiento de cambios en un documento puede ser para realizar una revisión por pares. Puede habilitar la función de seguimiento de cambios y compartir el documento para su revisión, y el revisor realizará los cambios con la función de seguimiento de cambios activada. Cuando reciba el documento, deberá disponer de un mecanismo para ver las actualizaciones sugeridas junto con una forma cómoda de aceptar o rechazar los cambios.
 
@@ -490,7 +490,7 @@ Experience Manager Guides proporciona la característica Cambios realizados que 
 
 Para acceder a la función, seleccione el icono **Rastrear cambios** en el panel derecho.
 
-![](images/changes-panel_cs.png){width="300" align="left"}
+![](images/changes-panel_cs.png){width="300"}
 
 Al seleccionar un cambio controlado, se selecciona el contenido modificado en el documento. Puede aceptar un cambio seleccionando el icono Aceptar cambio o rechazarlo seleccionando el botón Rechazar cambio.
 
@@ -506,7 +506,7 @@ La característica **Etiquetas** del Editor es un botón de alternancia que cont
 
 La siguiente captura de pantalla muestra un documento con la vista Etiquetas habilitada:
 
-![](images/tags-view.png){width="650" align="left"}
+![](images/tags-view.png){width="650"}
 
 Las siguientes operaciones se pueden realizar en un documento con etiquetas:
 
@@ -539,26 +539,26 @@ Por ejemplo, si se encuentra dentro del elemento `<b>` en línea, puede insertar
 
 También puede escribir un carácter o cadena en el cuadro de búsqueda y buscar los elementos que comienzan con él.
 
-![insertar elemento](images/insert-element.png){width="300" align="left"}
+![insertar elemento](images/insert-element.png){width="300"}
 
 *Escriba &#39;t&#39; para buscar todos los elementos válidos que comiencen por &#39;t&#39;.*
 
 Si está trabajando dentro de un elemento de bloque como `note`, utilice el icono Insertar elemento para insertar un nuevo elemento después del elemento `note`. En la siguiente captura de pantalla, se ha insertado un elemento de nota dentro del elemento p \(párrafo\):
 
-![Insertar elemento en un elemento de bloque](images/note-in-para-insert-element_cs.png){align="left"}
+![Insertar elemento en un elemento de bloque](images/note-in-para-insert-element_cs.png)
 
 Si pulsa Intro en el elemento de nota, se creará un nuevo párrafo dentro del propio elemento de nota. Para insertar un nuevo elemento fuera de la nota, seleccione el elemento p \(resaltado en la captura de pantalla\) en la ruta de exploración de elementos y, a continuación, seleccione el icono Elemento o pulse ***Alt***+***Entrar*** para abrir el cuadro de diálogo Insertar elemento. A continuación, seleccione el elemento deseado y pulse Intro para insertar el elemento seleccionado después del elemento de nota.
 
 También puede añadir un elemento entre dos elementos cuando aparezca un cursor de bloque parpadeante.
 
 
-![](images/Block-cursor.png){width="300" align="left"}
+![](images/Block-cursor.png){width="300"}
 
 Por ejemplo, si está trabajando en un tema DITA y el cursor de bloque parpadea entre la descripción breve y el cuerpo, puede agregar el elemento `prolog` y, a continuación, agregar copyright, autor y otros detalles.
 
 Otra forma de introducir un nuevo elemento es mediante el menú contextual. Haga clic con el botón derecho en cualquier lugar del documento para invocar el menú contextual. En este menú, elija **Insertar elemento** para mostrar el cuadro de diálogo **Insertar elemento** y elija el elemento que desea insertar.
 
-![](images/insert-element-before-after.png){width="300" align="left"}
+![](images/insert-element-before-after.png){width="300"}
 
 **Párrafo** - ![](images/Paragraph_icon.svg)
 
@@ -580,7 +580,7 @@ Crea una lista numerada en la ubicación válida actual o siguiente. Si está en
 
 Inserta una tabla en la ubicación válida actual o siguiente. Seleccione el icono Tabla para abrir el cuadro de diálogo Insertar tabla simple.
 
-![](images/table-properties.png){width="550" align="left"}
+![](images/table-properties.png){width="550"}
 
 >[!NOTE]
 >
@@ -590,7 +590,7 @@ Puede especificar el número de filas y columnas necesarias en la tabla. Si dese
 
 Una vez insertada una tabla, puede modificarla mediante el menú contextual.
 
-![](images/table-context-menu_cs.png){width="550" align="left"}
+![](images/table-context-menu_cs.png){width="550"}
 
 
 
@@ -614,7 +614,7 @@ También puede definir atributos en varias celdas, filas completas o columnas de
 1. En la lista desplegable de valores, seleccione la alineación de texto que desee aplicar en las celdas de la tabla seleccionada.
 1. Seleccionar **Agregar.**
 
-![](images/align-table-cell_cs.png){align="left"}
+![](images/align-table-cell_cs.png)
 
 **Imagen** - ![](images/Image_icon.svg)
 
@@ -625,7 +625,7 @@ Inserta una imagen en la ubicación válida actual o siguiente. Seleccione el ic
 > También puede agregar una imagen arrastrándola y soltándola desde el sistema local en el artículo. En este caso, el archivo de imagen se agrega mediante el flujo de trabajo **Cargar Assets**.  Para obtener más información, vea el flujo de trabajo **Cargar Assets** en la sección [Panel izquierdo](#left-panel).
 
 
-![](images/insert-image.png){width="650" align="left"}
+![](images/insert-image.png){width="650"}
 
 Puede agregar un título de imagen/figura y texto alternativo para la imagen en el cuadro de diálogo Insertar imagen.
 
@@ -637,7 +637,7 @@ Con la opción **Seleccionar archivo**, puede buscar el archivo de imagen requer
 
 Una vez insertada una imagen, puede cambiar la altura, la anchura, la ubicación y los atributos en el panel Propiedades de contenido. Seleccione el archivo de imagen y, a continuación, realice cambios en el panel de propiedades Contenido del panel derecho.
 
-![](images/image-properties.png){align="left"}
+![](images/image-properties.png)
 
 El campo Source muestra el UUID del archivo de imagen insertado. Puede encontrar la ruta completa del archivo de imagen insertado pasando el puntero del ratón sobre el campo Source. La ruta se muestra en la información del objeto.
 
@@ -665,11 +665,11 @@ Inserta un mapa de imagen en la imagen seleccionada. Una imagen con áreas en la
 
 Seleccione una imagen en el tema actual y seleccione el icono Insertar/Editar mapa de imagen para abrir el cuadro de diálogo Insertar mapa de imagen.
 
-![](images/insert-image-map.png){width="650" align="left"}
+![](images/insert-image-map.png){width="650"}
 
 Elija la forma preferida Rectángulo ![](images/imagemap-rectangle-toolbar.png), Círculo ![](images/imagemap-circle-toolbar.png) o Polígono ![](images/imagemap-polygon-toolbr.png) para definir un área sobre una imagen que desee utilizar como vínculo. Después de definir un área, aparece el cuadro de diálogo Referencia en el que debe especificar el vínculo al contenido interno o externo:
 
-![](images/reference-dialog.png){width="650" align="left"}
+![](images/reference-dialog.png){width="650"}
 
 Si las áreas se superponen, puede hacer que la forma avance o retroceda haciendo clic en el icono correspondiente de la barra de herramientas. También puede quitar un área seleccionándola y haciendo clic en el icono Eliminar. Al hacer doble clic en un área, se abre el cuadro de diálogo Referencia, en el que puede cambiar el vínculo de destino. Una vez que haya marcado las áreas requeridas en la imagen, guarde los cambios seleccionando **Listo**.
 
@@ -691,7 +691,7 @@ Al seleccionar la opción Archivo de audio o vídeo, se muestra la vista del rep
 
 También puede agregar el archivo de audio o vídeo desde el cuadro de diálogo Insertar multimedia. Seleccione la opción Archivo de audio/vídeo y, a continuación, seleccione el icono Examinar para iniciar la vista del repositorio. Seleccione el archivo de audio o vídeo del repositorio y seleccione **Seleccionar** para agregar el vínculo del archivo en el campo Archivo de audio o vídeo. Si elige un archivo de vídeo, también se mostrará una vista previa del archivo en el área de Vista previa. Puede reproducir el archivo de vídeo para ver su previsualización.
 
-![](images/insert-multimedia.png){width="650" align="left"}
+![](images/insert-multimedia.png){width="650"}
 
 **Referencia cruzada**
 
@@ -699,7 +699,7 @@ Insertar referencias de tipo: referencia de contenido, referencia de clave de co
 
 Seleccione el icono **Seleccionar archivo** \(para referencia de contenido y referencia de archivo\) o el icono **Seleccionar mapa raíz** \(para referencia de clave de contenido y referencia de clave\) y seleccione el archivo o contenido deseado al que desee vincular.
 
-![](images/insert-references.png){width="650" align="left"}
+![](images/insert-references.png){width="650"}
 
 En el documento se agrega un vínculo de la referencia seleccionada. El menú contextual del vínculo le ofrece las siguientes opciones:
 
@@ -710,11 +710,11 @@ En el documento se agrega un vínculo de la referencia seleccionada. El menú co
 
 También puede buscar utilizando el UUID del archivo al que desee hacer referencia. En los vínculos Contenido y Referencia clave, introduzca el UUID del archivo al que desea vincular y el archivo se buscará y mostrará automáticamente en la sección Vista previa. Cuando especifique el UUID del archivo, no es necesario mencionar explícitamente la extensión de archivo para los archivos .xml. La extensión .xml se anexa automáticamente al UUID.
 
-![](images/insert-content-using-uuid-search.png){width="650" align="left"}
+![](images/insert-content-using-uuid-search.png){width="650"}
 
 Si el administrador ha habilitado la opción UUIDs en *XMLEditorConfig*, verá el UUID del contenido referenciado en la propiedad **Link**.
 
-![](images/ref-link-uuid_cs.png){align="left"}
+![](images/ref-link-uuid_cs.png)
 
 >[!NOTE]
 >
@@ -734,7 +734,7 @@ Puede buscar texto en los archivos presentes en la ruta seleccionada del reposit
 
 Puede buscar archivos que no sean DITA, como los archivos de imagen, multimedia y documentos de la ruta seleccionada. También se pueden buscar valores específicos en los atributos de elementos DITA. También puede buscar archivos que el usuario especificado haya desprotegido.
 
-![](images/reference-search-filters.png){width="650" align="left"}
+![](images/reference-search-filters.png){width="650"}
 
 >[!NOTE]
 >
@@ -747,7 +747,7 @@ Se muestra la lista de archivos filtrados que contienen el texto buscado. Por ej
 
 Reutilice el contenido de cualquier otro documento del proyecto. Puede insertar contenido vinculándolo directamente al contenido de un archivo o usando una referencia de clave, ver [Resolver referencias de clave](map-editor-other-features.md#id176GD01H05Z). Al seleccionar el icono Contenido reutilizable, aparece el cuadro de diálogo Reutilizar contenido:
 
-![](images/reuse-content-dialog.png){width="650" align="left"}
+![](images/reuse-content-dialog.png){width="650"}
 
 En el cuadro de diálogo Reutilizar contenido (Reuse Content), seleccione el fichero DITA para referencias de fichero o el fichero de mapa DITA que contiene las referencias de clave. Una vez seleccionado, el tema o las referencias clave se muestran en el cuadro de diálogo. Puede seleccionar la clave o el identificador del tema que desee insertar y seleccionar **Listo** para insertar el contenido en el tema.
 
@@ -769,7 +769,7 @@ Inserta caracteres especiales en el tema. Seleccione el icono Símbolo para abri
 >
 > Experience Manager Guides proporciona cuadros de diálogo móviles y de tamaño variable. Se puede cambiar el tamaño de los cuadros de diálogo que tienen dos líneas cruzadas en la esquina inferior derecha. A continuación, se muestran las líneas cruzadas del cuadro de diálogo Carácter especial.
 
-![](images/insert-special-char.png){width="550" align="left"}
+![](images/insert-special-char.png){width="550"}
 
 En el cuadro de diálogo Insertar carácter especial, puede buscar un carácter especial utilizando su nombre. Todos los caracteres especiales se almacenan en varias categorías. Utilice la lista desplegable Seleccionar categoría y seleccione una categoría. Se muestran los caracteres especiales disponibles en la categoría seleccionada. Puede desplazarse por la lista de caracteres especiales con las teclas de dirección o seleccionar el carácter que desee insertar. El nombre y el código hexadecimal del carácter especial seleccionado se muestran debajo de la lista. Seleccione **Insertar** para insertar el carácter seleccionado en el documento.
 
@@ -777,13 +777,13 @@ En el cuadro de diálogo Insertar carácter especial, puede buscar un carácter 
 
 Palabra clave Insert definida en el mapa DITA. Seleccione la opción Palabra clave para abrir el cuadro de diálogo Referencia de clave.
 
-![](images/insert-keyword.png){width="550" align="left"}
+![](images/insert-keyword.png){width="550"}
 
 Las palabras clave se muestran en orden alfabético y también puede buscar palabra clave\(s\) escribiendo una cadena de búsqueda en el cuadro Buscar. El resultado de la búsqueda devolverá las palabras clave que contienen la cadena en ID o Value. Las palabras clave definidas en el mapa DITA se muestran en este cuadro de diálogo. Elija la palabra clave que desee insertar y seleccione **Insertar**.
 
 También puede cambiar los atributos de la palabra clave insertada haciendo clic con el botón derecho en la palabra clave y seleccionando la opción Atributos. Se abrirá el cuadro de diálogo **Atributos para palabra clave:
 
-![](images/attributes-for-keyword.png){width="550" align="left"}
+![](images/attributes-for-keyword.png){width="550"}
 
 Puede cambiar los atributos de la palabra clave o agregar un nuevo atributo a la palabra clave.
 
@@ -795,11 +795,11 @@ Al seleccionar la opción Fragmentos de código, se muestra el catálogo Inserta
 
 En el siguiente ejemplo se muestran dos fragmentos preconfigurados: Advertencia y Error que se pueden insertar en la ubicación actual del documento.
 
-![](images/insert-snippet.png){width="300" align="left"}
+![](images/insert-snippet.png){width="300"}
 
 Al elegir un fragmento de la lista, éste se inserta en la ubicación válida actual o siguiente del documento. La siguiente captura de pantalla muestra el fragmento de error insertado en el documento:
 
-![](images/error-snippet.png){width="400" align="left"}
+![](images/error-snippet.png){width="400"}
 
 **Citas** - ![](images/Citations_icon.svg)
 
@@ -817,17 +817,17 @@ La característica **Información de la versión y Guardar como nueva versión**
 
   El número de versión cambia con cada nueva versión que se crea para el tema o el archivo de asignación. Si está trabajando en un documento recién creado, la información de la versión se mostrará como **none**.
 
-  ![](images/version-information.png){align="left"}
+  ![](images/version-information.png)
 
 
 - **Guardar como nueva versión** es un botón que guarda los cambios realizados en el tema y también crea una nueva versión del mismo.
 
-  ![](images/save-as-new-version.png){align="left"}
+  ![](images/save-as-new-version.png)
 
 
 Cuando elige guardar un tema o asignación mediante **Guardar como nueva versión**, aparece el siguiente cuadro de diálogo:
 
-![](images/save-as-new-version-dialog.PNG){width="300" align="left"}
+![](images/save-as-new-version-dialog.PNG){width="300"}
 
 Escriba comentarios y etiquetas de versión para identificar los cambios y seleccione **Guardar** para crear una nueva versión del archivo.
 
@@ -835,7 +835,7 @@ Al elegir la opción **Guardar como nueva versión**, la primera versión del te
 
 Si el administrador tiene etiquetas de versión preconfiguradas, verá esas etiquetas en una lista desplegable. Puede elegir una etiqueta de la lista de etiquetas disponibles y guardar el documento.
 
-![](images/web-editor-pre-defined-labels.PNG){width="300" align="left"}
+![](images/web-editor-pre-defined-labels.PNG){width="300"}
 
 Al guardar un tema, puede agregar un comentario que especifique los cambios realizados en el tema. Este comentario se muestra en el Historial de versiones del tema.
 
@@ -843,7 +843,7 @@ Si el tema está en revisión, los revisores recibirán una notificación que in
 
 Cuando pasa el puntero sobre el título de un tema, se muestra el título del archivo, la ruta de acceso del archivo y el número de versión.
 
-![](images/mouse-hover-on-title_cs.png){align="left"}
+![](images/mouse-hover-on-title_cs.png)
 
 >[!NOTE]
 >
@@ -853,19 +853,19 @@ Cuando pasa el puntero sobre el título de un tema, se muestra el título del ar
 
 Bloquea o desbloquea el archivo actual. Bloquear un archivo le proporciona acceso de escritura exclusivo al archivo. Esto restringe a otros usuarios de la edición del archivo. Desbloquee el archivo si desea que otros usuarios tengan acceso de edición. Cuando el archivo está desbloqueado, los cambios se guardan en la versión actual del archivo.
 
-![](images/web-editor-lock-button.png){align="left"}
+![](images/web-editor-lock-button.png)
 
 Si está en la vista Mapa y expande el mapa principal, puede bloquear todos los archivos del mapa con un solo clic. Simplemente expanda el archivo de asignación principal y seleccione el archivo principal, lo que resulta en la selección de todos los archivos dentro del mapa. A continuación, puede seleccionar **Bloquear** ![](images/LockClosed_icon.svg) para bloquear todos los archivos del mapa.
 
 En el panel Repositorio, los archivos bloqueados se muestran con un icono de bloqueo. Cuando pasa el ratón por encima de este icono de bloqueo, el nombre de usuario o bloqueado por usted se muestra como información sobre herramientas.
 
-![](images/web-editor-locked-by-icon-new.png){width="350" align="left"}
+![](images/web-editor-locked-by-icon-new.png){width="350"}
 
 Si un archivo está bloqueado por otro usuario, al pasar el ratón por encima del icono de bloqueo del Repositorio, se muestra el nombre del usuario que lo ha bloqueado. En este caso, el archivo se abre en modo de solo lectura, con **acceso de solo lectura** junto a la información de la versión.
 
 Como administrador, también obtienes acceso a la función **Forzar desbloqueo** que te permite desbloquear el archivo bloqueado por otros usuarios. Utilice esta función para acceder a los derechos de edición de un archivo bloqueado por otros usuarios.
 
-![](images/web-editor-force-unlock-new.png){width="350" align="left"}
+![](images/web-editor-force-unlock-new.png){width="350"}
 
 ## Panel izquierdo
 
@@ -920,7 +920,7 @@ De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón
 
 Para crear una nueva colección, seleccione el icono + situado junto al panel Colecciones para que aparezca el cuadro de diálogo **Nueva colección**:
 
-![](images/favorite-new-collection.PNG){width="300" align="left"}
+![](images/favorite-new-collection.PNG){width="300"}
 
 Escriba un título y una descripción para la colección que desea crear. Si selecciona **Público**, este favorito también se mostrará a otros usuarios.
 
@@ -932,11 +932,11 @@ Para añadir un archivo a las colecciones, utilice cualquiera de los siguientes 
 
 - Vaya al archivo o carpeta necesarios en la vista Repositorio, seleccione el icono *Opciones* para abrir el menú contextual y elija **Agregar a** > **Colecciones**. En el cuadro de diálogo **Agregar a colecciones**, puede elegir agregar el archivo o la carpeta a un favorito existente o crear uno nuevo.
 
-  ![](images/favorite-add-file-folder.png){width="300" align="left"}
+  ![](images/favorite-add-file-folder.png){width="300"}
 
 - Haga clic con el botón derecho en la pestaña de un archivo en el editor para abrir el menú contextual. Elija **Agregar a** > **Colecciones** para agregar el archivo a su lista de favoritos.
 
-  ![](images/favorite-add-from-file-context-menu_cs.png){align="left"}
+  ![](images/favorite-add-from-file-context-menu_cs.png)
 
 
 >[!NOTE]
@@ -948,7 +948,7 @@ Para añadir un archivo a las colecciones, utilice cualquiera de los siguientes 
 
 También puede realizar muchas acciones utilizando el menú Opciones disponible para una colección:
 
-![](images/favorites-options.png){width="650" align="left"}
+![](images/favorites-options.png){width="650"}
 
 - **Cambiar nombre**: cambie el nombre de la colección seleccionada.
 - **Eliminar**: elimine la colección seleccionada.
@@ -983,7 +983,7 @@ Seleccione un mapa y pulse Intro o haga doble clic para abrirlo en la **vista Ma
 El Editor proporciona filtros mejorados para buscar texto. Puede buscar y filtrar un texto en los archivos presentes en la ruta seleccionada del repositorio de Adobe Experience Manager. Busca en el título, el nombre de archivo y el contenido de los archivos.
 
 
-![búsqueda de archivos en la vista del repositorio](images/repository-filter-search.png){width="300" align="left"}
+![búsqueda de archivos en la vista del repositorio](images/repository-filter-search.png){width="300"}
 
 *Aplicar filtros para buscar los archivos que contienen el texto`personal spaceship.`*
 
@@ -999,7 +999,7 @@ Tiene las siguientes opciones para filtrar los archivos y limitar la búsqueda e
 - **Archivos DITA**: Puede buscar todos los **temas DITA** y **mapas DITA** presentes en la ruta seleccionada. Están seleccionadas de forma predeterminada.
 - **Archivos que no son DITA**: puede buscar **archivos Ditaval**, **archivos de imagen**, **multimedia**, **documentos** y **JSON** en la ruta seleccionada.
 
-  ![filtro de búsqueda rápida &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![filtro de búsqueda rápida ](images/repository-filter-search-quick.png) {width="300"}
 
   *Utilice los filtros rápidos para buscar archivos DITA y no DITA.*
 
@@ -1009,7 +1009,7 @@ Seleccione el icono **Filtro avanzado** ![icono de filtro avanzado](images/advan
 
 Puede ver las siguientes opciones en las fichas **General** y **Avanzado**.
 
-![cuadro de diálogo de filtro avanzado](images/repository-filter-search-advanced.png) {width="650" align="left"}
+![cuadro de diálogo de filtro avanzado](images/repository-filter-search-advanced.png) {width="650"}
 
 
 **General**
@@ -1045,7 +1045,7 @@ Además de abrir archivos desde el panel izquierdo, también puede realizar much
 
 Puede realizar las siguientes acciones mediante el menú Opciones disponible para una *carpeta* en la vista Repositorio:
 
-![](images/options-menu-folder_cs.PNG){width="550" align="left"}
+![](images/options-menu-folder_cs.PNG){width="550"}
 
 
 - **Nuevo**: crea un nuevo tema, mapa o carpeta DITA.
@@ -1054,7 +1054,7 @@ Puede realizar las siguientes acciones mediante el menú Opciones disponible par
    1. Seleccione **Nuevo** > **Tema**.
    2. Se muestra el cuadro de diálogo **Nuevo tema**.
 
-      ![](images/create-topic-dialog.png){width="300" align="left"}
+      ![](images/create-topic-dialog.png){width="300"}
 
    3. En el cuadro de diálogo **Nuevo tema**, proporcione los siguientes detalles:
       - Título del tema.
@@ -1070,7 +1070,7 @@ Puede realizar las siguientes acciones mediante el menú Opciones disponible par
    1. Seleccione **Nuevo** > **mapa DITA**.
    2. Se muestra el cuadro de diálogo **Nuevo mapa**.
 
-      ![](images/create-map-dialog.png){width="300" align="left"}
+      ![](images/create-map-dialog.png){width="300"}
 
    3. En el cuadro de diálogo **Nuevo mapa**, proporcione los siguientes detalles:
       - Título del mapa.
@@ -1084,7 +1084,7 @@ Puede realizar las siguientes acciones mediante el menú Opciones disponible par
    1. Seleccione **Nueva** > **Carpeta**.
    2. Se muestra el cuadro de diálogo **Nueva carpeta**.
 
-      ![](images/new-folder-dialog_cs.png){width="300" align="left"}
+      ![](images/new-folder-dialog_cs.png){width="300"}
 
    3. En el cuadro de diálogo **Nueva carpeta**, proporcione los siguientes detalles:
       - Un Título para la carpeta, que se convierte automáticamente en el nombre de la carpeta.
@@ -1093,21 +1093,21 @@ Puede realizar las siguientes acciones mediante el menú Opciones disponible par
 
 - **Cargar Assets**: cargue un archivo de su sistema local a la carpeta seleccionada en el repositorio de Adobe Experience Manager. También puede arrastrar y soltar archivos del sistema local en el tema de trabajo actual. Esto resulta muy útil si desea insertar imágenes del sistema local en el tema.
 
-  ![](images/upload-assets.png){width="300" align="left"}
+  ![](images/upload-assets.png){width="300"}
 
   Puede seleccionar una carpeta en la que desee cargar el archivo y también se mostrará una vista previa de la imagen. Si desea cambiar el nombre del archivo, puede hacerlo en el cuadro de texto del nombre del archivo. Seleccione **Cargar** para completar el proceso de carga del archivo. Si ha arrastrado y soltado un archivo de imagen sobre un tema, el archivo de imagen se agrega en el artículo y también se carga.
 
   Si el administrador ha habilitado la opción UUID en *XMLEditorConfig*, verá el UUID de la imagen cargada en la propiedad **Source**.
 
-  ![](images/uuid-in-source-upload-image_cs.png){align="left"}
+  ![](images/uuid-in-source-upload-image_cs.png)
 
 - **Buscar archivos en la carpeta**: cambia el enfoque a la búsqueda del repositorio, en la que puede introducir el término de búsqueda. La búsqueda se realiza en la carpeta seleccionada del repositorio. También se puede aplicar un filtro para devolver ficheros DITA, ficheros de imagen o ambos.
 
-  ![](images/find-files-in-folders-repo-view_cs.png){width="300" align="left"}
+  ![](images/find-files-in-folders-repo-view_cs.png){width="300"}
 
   También puede buscar utilizando el UUID de un archivo. En ese caso, los resultados de la búsqueda muestran el título del archivo DITA/XML y, si el archivo es un archivo de imagen, se muestra el UUID del archivo. En el siguiente ejemplo de búsqueda, se busca el UUID de un archivo de imagen y los resultados de la búsqueda muestran el UUID del archivo de imagen original y el título del tema del archivo donde se hace referencia a esa imagen.
 
-  ![](images/uuid-repo-search-image-topic-file_cs.png){width="300" align="left"}
+  ![](images/uuid-repo-search-image-topic-file_cs.png){width="300"}
 
 - **Contraer**: contraiga la carpeta seleccionada en el repositorio.
 
@@ -1140,7 +1140,7 @@ Obtenga acceso a distintas opciones en el menú Opciones, dependiendo de si sele
 - Propiedades
 
 
-![menú de opciones de un archivo en la vista del repositorio](images/options-menu-repo-view-file-level.png){width="550" align="left"}
+![menú de opciones de un archivo en la vista del repositorio](images/options-menu-repo-view-file-level.png){width="550"}
 
 Las distintas opciones del menú Opciones se explican a continuación:
 
@@ -1151,7 +1151,7 @@ Las distintas opciones del menú Opciones se explican a continuación:
 
 - **Vista previa**: obtenga una vista previa rápida del archivo (.dita, .xml, audio, vídeo o imagen) sin abrirlo. Puede cambiar el tamaño del panel de vista previa. Si el contenido contiene `<xref>` o `<conref>`, puede seleccionarlo para abrirlo en una nueva pestaña. El título del archivo aparece en la ventana. Si no hay ningún título, aparece el nombre de archivo. Para cerrar el panel **Vista previa**, puede seleccionar el icono de cerrar o seleccionar cualquier lugar fuera del panel.
 
-  ![](images/quick-preview_cs.png){align="left"}
+  ![](images/quick-preview_cs.png)
 
 - **Cambiar nombre**: utilice esta opción para cambiar el nombre del archivo seleccionado. Escriba el nombre del nuevo archivo en el cuadro de diálogo **Cambiar nombre del recurso**.
    - Puede cambiar el nombre de un archivo de cualquier tipo.
@@ -1165,7 +1165,7 @@ Las distintas opciones del menú Opciones se explican a continuación:
 
   Si intenta mover un archivo a una carpeta en la que existe un archivo con el mismo nombre pero con un título diferente, se muestra el cuadro de diálogo Cambiar nombre y mover archivo y debe cambiar el nombre del archivo antes de moverlo. El archivo movido en la carpeta de destino tiene el nuevo nombre de archivo.
 
-  ![](images/rename-move-asset.png){width="550" align="left"}
+  ![](images/rename-move-asset.png){width="550"}
 
   >[!NOTE]
   >
@@ -1202,7 +1202,7 @@ Las distintas opciones del menú Opciones se explican a continuación:
    - Si el archivo se agrega a una colección, se muestra el cuadro de diálogo **Forzar eliminación** y puede eliminarlo a la fuerza.
    - Si se hace referencia al archivo desde cualquier otro archivo, se mostrará el cuadro de diálogo **Forzar eliminación** con el mensaje de confirmación y podrá eliminar el archivo a la fuerza:
 
-     ![](images/options-menu-force-delete.png){width="300" align="left"}
+     ![](images/options-menu-force-delete.png){width="300"}
 
      >[!NOTE]
      >
@@ -1259,7 +1259,7 @@ Cuando se abre un mapa en la vista de mapa, el título del mapa actual se muestr
 
 Al definir atributos clave para el tema o las referencias de mapa, puede ver el título, el icono correspondiente y la clave en el panel izquierdo. La clave se muestra como `keys=<key-name>`.
 
-![Claves en la vista de mapa](images/view-key-title-map-view.png){width="300" align="left"}
+![Claves en la vista de mapa](images/view-key-title-map-view.png){width="300"}
 
 Si tiene derechos de edición sobre los archivos de mapa, también podrá editar los archivos. Para obtener más información acerca de cómo abrir y editar un tema a través del mapa DITA, vea [Editar temas a través del mapa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
@@ -1271,7 +1271,7 @@ Las siguientes opciones están disponibles para un archivo de asignación en la 
 
 Puede realizar las siguientes acciones mediante el menú Opciones del archivo de asignación:
 
-![Menú de opciones en la vista de mapa](images/options-menu-map-view_cs.png){align="left"}
+![Menú de opciones en la vista de mapa](images/options-menu-map-view_cs.png)
 
 - **Editar**: abre el archivo de asignación para editarlo en el Editor de mapas.
 
@@ -1327,7 +1327,7 @@ Puede realizar las siguientes acciones mediante el menú Opciones del archivo de
 
 La siguiente captura de pantalla muestra el menú Opciones de un archivo en la vista de mapa:
 
-![](images/options-menu-file_cs.PNG){align="left"}
+![](images/options-menu-file_cs.PNG)
 
 Puede realizar las siguientes acciones mediante el menú Opciones:
 
@@ -1393,7 +1393,7 @@ Una vez agregado el archivo, puede ver todos los elementos de contenido reutiliz
 
 Cuando se agrega un archivo a la lista Contenido reutilizable, se muestra el título del archivo en lugar del UUID del archivo. Para comprobar el UUID del archivo, pase el ratón sobre el título del archivo y el UUID del archivo se mostrará en la información del objeto.
 
-![](images/uuid-reusable-content-file-title_cs.png){width="400" align="left"}
+![](images/uuid-reusable-content-file-title_cs.png){width="400"}
 
 >[!NOTE]
 >
@@ -1405,7 +1405,7 @@ Para insertar contenido desde el panel Contenido reutilizable, utilice cualquier
 
 - Pase el puntero del ratón sobre el elemento que quiera insertar, seleccione el icono **Opciones** y elija **Insertar contenido reutilizable** en el menú desplegable.
 
-  ![](images/insert-reusable-content_cs.png){width="400" align="left"}
+  ![](images/insert-reusable-content_cs.png){width="400"}
 
   >[!NOTE]
   >
@@ -1419,7 +1419,7 @@ Para insertar contenido desde el panel Contenido reutilizable, utilice cualquier
 
 Al seleccionar el icono **Esquema**, se obtiene la vista jerárquica de los elementos utilizados en el documento.
 
-![](images/outline-view_cs.png){width="300" align="left"}
+![](images/outline-view_cs.png){width="300"}
 
 La vista Esquema ofrece las siguientes características:
 
@@ -1433,15 +1433,15 @@ La vista Esquema ofrece las siguientes características:
 
 - Al elegir un elemento en la vista Esquema, se selecciona el contenido del elemento en la vista Autor o Source. La vista Esquema permanece sincronizada con la vista Autor y Source. Si realiza cambios en cualquier vista, puede verlos en la vista Esquema. Por ejemplo, si agrega un párrafo o actualiza un elemento en la vista Autor, aparecerá en la vista Esquema.
 
-  ![](images/select-element-content-outline-view_cs.png){width="650" align="left"}
+  ![](images/select-element-content-outline-view_cs.png){width="650"}
 
 - Arrastre y suelte los elementos. Puede reemplazar fácilmente un elemento soltando otro elemento sobre él. Si arrastra y suelta un elemento sobre otro elemento y ve un cuadro de rectángulo discontinuo alrededor del elemento, esto indica que el elemento será reemplazado. Reemplaza el elemento en el que se coloca el elemento.
 
-  ![](images/replace-element-outline-view_cs.png){align="left"}
+  ![](images/replace-element-outline-view_cs.png)
 
   Si arrastra y suelta un elemento, un rectángulo discontinuo indica que el elemento se puede colocar en la ubicación actual. Si la operación de arrastrar y soltar no es válida, se muestra un mensaje de error para indicar que la operación no está permitida.
 
-  ![](images/drop-element-outline-view_cs.png){align="left"}
+  ![](images/drop-element-outline-view_cs.png)
 
 - El menú **Opciones** de la vista *Esquema* le permite realizar operaciones genéricas como Cortar, Copiar, Eliminar, Generar ID, Insertar elemento antes o después del elemento actual, Cambiar el nombre o reemplazar un elemento, Envolver un elemento, Desenvolver un elemento y crear un fragmento a partir del elemento seleccionado.
 
@@ -1459,7 +1459,7 @@ Con la opción **Ver configuración**, puede elegir ver lo siguiente:
 
 Si un elemento de bloque tiene su propio texto, se muestra junto con ese elemento de bloque. Si no tiene su propio texto, el texto del primer elemento secundario se muestra junto con ese elemento de bloque.
 
-![](images/outline-view-block-element.png){width="550" align="left"}
+![](images/outline-view-block-element.png){width="550"}
 
 Si el administrador ha creado un perfil para atributos, obtendrá esos atributos junto con sus valores configurados. También puede asignar atributos de visualización configurados por el administrador en la ficha **Atributos de visualización** en **Configuración**. Los atributos definidos para un elemento se muestran en las vistas Diseño y Esquema.
 
@@ -1478,7 +1478,7 @@ Puede buscar una cadena en el elemento si se muestra en la vista **Esquema**. Po
 
 Experience Manager Guides le permite crear y utilizar fácilmente documentos del tipo glosario. Puede crear archivos de temas del glosario y luego incluirlos en un mapa del glosario común. Una vez agregado este mapa como mapa raíz, las entradas del glosario se muestran en el panel Glosario.
 
-![](images/glossary-panel.png){width="650" align="left"}
+![](images/glossary-panel.png){width="650"}
 
 Para insertar un término del glosario, simplemente arrastre y suelte la entrada desde el panel a la ubicación deseada en el tema. El menú Opciones de un término de glosario le permite obtener una **vista previa** rápida del término de entrada, **copiar la ruta** del archivo del término de entrada o localizar el archivo del término de entrada en el repositorio.
 
@@ -1492,7 +1492,7 @@ Realice los siguientes pasos para buscar términos de texto y reemplazarlos por 
 
 Puede configurar las siguientes opciones de la herramienta Punto interactivo:
 
-![](images/glossary-hotspot-tool.png){width="300" align="left"}
+![](images/glossary-hotspot-tool.png){width="300"}
 
 
 - **Claves de glosario**: seleccione las claves de glosario del mapa DITA que desee utilizar para la búsqueda en el tema seleccionado. Las claves seleccionadas se muestran a continuación. Para quitar una clave seleccionada, seleccione el icono **Quitar**.
@@ -1508,7 +1508,7 @@ Puede configurar las siguientes opciones de la herramienta Punto interactivo:
    - **Crear una nueva versión después de la conversión**: se crea una nueva versión del tema una vez completada la conversión de términos.
 - El botón **Siguiente** aparece si selecciona la opción **Manualmente para cada tema**. Seleccione **Siguiente** para convertir los términos de cada tema en función de la configuración seleccionada. Solicita la conversión de términos en cada tema y se mueve al siguiente archivo. Puede elegir convertir un término u omitirlo y pasar al siguiente.
 
-  ![](images/manual-convert-skip.png){width="300" align="left"}
+  ![](images/manual-convert-skip.png){width="300"}
 
 - El botón **Convertir** aparece si selecciona la opción **Automáticamente para todos los temas**. Seleccione **Convertir** para convertir todos los términos encontrados en el documento a abreviaturas de glosario vinculadas.
 
@@ -1524,7 +1524,7 @@ El panel Condiciones muestra los atributos condicionales definidos por el admini
 
 También puede aplicar varias condiciones a un elemento arrastrando y soltando varias condiciones en un elemento. Cuando se aplican varias condiciones a un elemento, el panel Propiedades muestra las condiciones aplicadas separadas con una coma.
 
-![](images/multiple-conditions-applied_cs.png){align="left"}
+![](images/multiple-conditions-applied_cs.png)
 
 Sin embargo, en la vista Código, las condiciones se separan mediante un delimitador de espacio. Cuando agregue o edite una condición en la vista Código, asegúrese de que varias condiciones están separadas mediante un espacio.
 
@@ -1532,11 +1532,11 @@ Sin embargo, en la vista Código, las condiciones se separan mediante un delimit
 >
 > La siguiente captura de pantalla es de un usuario con privilegios administrativos. Como usuario con privilegios administrativos, puede agregar, editar y eliminar condiciones. De lo contrario, como autor normal, solo tendrá la opción de aplicar condiciones.
 
-![](images/conditional-content-through-panel_cs.png){align="left"}
+![](images/conditional-content-through-panel_cs.png)
 
 Para añadir o definir una condición, seleccione el icono + situado junto al panel Condiciones para que aparezca el cuadro de diálogo Definir condición:
 
-![](images/conditional-panel-create-cond.png){width="400" align="left"}
+![](images/conditional-panel-create-cond.png){width="400"}
 
 En la lista Atributo, seleccione el atributo condicional que desea definir, introduzca un valor para la condición y, a continuación, especifique la etiqueta que se muestra en el panel Condiciones. Defina un grupo para la condición. Puede agregar varias condiciones a un grupo. También puede definir un color para la condición. Este color se establece como color de fondo del contenido al que se aplica la condición.
 
@@ -1552,12 +1552,12 @@ Puede usar `/` y definir subgrupos como `AEM Guides/Cloud Service`.
 
 
 
-![condiciones organizadas en una jerarquía anidada](images/conditions-nested-hierarchy.png){width="300" align="left"}
+![condiciones organizadas en una jerarquía anidada](images/conditions-nested-hierarchy.png){width="300"}
 
 
 Para editar una condición, elija **Editar** en el menú Opciones. Se muestra el cuadro de diálogo Editar condición:
 
-![](images/conditional-panel-edit-cond.png){width="400" align="left"}
+![](images/conditional-panel-edit-cond.png){width="400"}
 
 Especifique los detalles del mismo modo que se configuraron al definir una nueva condición.
 
@@ -1602,7 +1602,7 @@ El siguiente ejemplo muestra cómo utilizar el esquema de asunto en Experience M
     </subjectScheme>
 ```
 
-![](images/subject-scheme-panel-new.png){width="300" align="left"}
+![](images/subject-scheme-panel-new.png){width="300"}
 
 1. Guarde el archivo con la extensión a.ditamap y cárguelo en cualquier carpeta de DAM.
 
@@ -1610,11 +1610,11 @@ El siguiente ejemplo muestra cómo utilizar el esquema de asunto en Experience M
    >
    > Se puede añadir una referencia al fichero de esquema de asunto en el mapa DITA padre.
 
-   ![](images/subject-scheme-root-map-new.png){width="550" align="left"}
+   ![](images/subject-scheme-root-map-new.png){width="550"}
 
 1. Establezca el mapa principal como el mapa raíz en **Preferencias de usuario**. Una vez añadido este mapa como mapa raíz, el esquema de asunto se muestra en el panel Esquema de asunto.
 
-   ![](images/subject-scheme-user-preferences-new.png){width="650" align="left"}
+   ![](images/subject-scheme-user-preferences-new.png){width="650"}
 
 
 1. En el Editor, abra el archivo donde desee utilizar las definiciones del esquema de temas.
@@ -1742,7 +1742,7 @@ También puede aplicar valores para un atributo seleccionando varios valores en 
 
 También puede cambiar los valores de la lista desplegable del atributo en la vista de Source. La vista de Source también evita que añada valores incorrectos.
 
-![](images/subject-scheme-code-error.png){width="550" align="left"}
+![](images/subject-scheme-code-error.png){width="550"}
 
 **Ver y aplicar el esquema de asunto desde el panel Condiciones**
 
@@ -1762,13 +1762,13 @@ Los fragmentos de código son pequeños fragmentos de contenido que se pueden re
 >
 > La siguiente captura de pantalla es de un usuario con privilegios administrativos. Como usuario con privilegios administrativos, puede agregar, editar y eliminar fragmentos de código. De lo contrario, como autor normal, solo obtendrá las opciones para obtener una vista previa e insertar un fragmento de código.
 
-![](images/snippets-panel_cs.png){align="left"}
+![](images/snippets-panel_cs.png)
 
 Para agregar un fragmento de código, utilice cualquiera de los métodos siguientes:
 
 - Seleccione el icono **+** junto a Fragmentos para abrir el cuadro de diálogo **Nuevo fragmento**.
 
-  ![](images/snippet-new-dialog.png){width="300" align="left"}
+  ![](images/snippet-new-dialog.png){width="300"}
 
   En el cuadro de diálogo Nuevo fragmento de código, proporcione un título que aparezca en el panel Fragmentos de código, una descripción y un código XML del contenido del fragmento de código que desee crear. Seleccione **Crear** para guardar y crear el fragmento.
 
@@ -1778,7 +1778,7 @@ Para agregar un fragmento de código, utilice cualquiera de los métodos siguien
 
   La siguiente captura de pantalla resalta la ruta de exploración y el área de contenido desde donde puede invocar el menú contextual.
 
-  ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
+  ![](images/snippet-create-from-breadcrumb-content.png){width="350"}
 
 
 Para insertar un fragmento de código, utilice cualquiera de los métodos siguientes:
@@ -1796,7 +1796,7 @@ Para insertar un fragmento de código, utilice cualquiera de los métodos siguie
 
 El panel Plantillas solo está disponible para administradores. Con este panel, el administrador puede crear y administrar fácilmente plantillas que luego los autores pueden utilizar. De manera predeterminada, las plantillas se clasifican en las plantillas de tipo *map* y *topic*.
 
-![](images/templates-panel_cs.png){width="300" align="left"}
+![](images/templates-panel_cs.png){width="300"}
 
 De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón por encima de una plantilla, puede ver el título y el nombre del archivo como información sobre herramientas.
 
@@ -1827,7 +1827,7 @@ Experience Manager Guides le permite crear y administrar variables para la publi
 
 El icono Buscar y reemplazar se encuentra en la parte inferior del panel izquierdo. El panel Buscar y reemplazar permite buscar y reemplazar texto en los archivos de un mapa o una carpeta dentro del repositorio. Puede buscar y reemplazar en todos los temas de un mapa, así como los temas presentes en los submapas dentro del mapa.
 
-![](images/map-find-replace.png){align="left"}
+![](images/map-find-replace.png)
 
 De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón por encima de un archivo, puede ver el título y la ruta del archivo como información sobre herramientas.
 
@@ -1875,11 +1875,11 @@ Para habilitar el icono **Reemplazar todo**, el administrador del sistema debe s
 
 Solo se puede realizar una operación de reemplazo total a la vez en todo el sistema y hasta que se realice la operación verá el estado &quot;Reemplazar todo en curso&quot;. También puede anular la operación Reemplazar todo entre medias o ver el informe de registro. Si anula la operación, recibirá una notificación al respecto en la Bandeja de entrada. Se le mostrará una notificación de éxito después de reemplazar todas las ocurrencias en el archivo seleccionado.
 
-![](images/replace-all-in-progress.png){width="300" align="left"}
+![](images/replace-all-in-progress.png){width="300"}
 
 También puede usar la opción **Buscar en mapa** del menú **Opciones** de un mapa para buscar y reemplazar texto en un mapa. Esta opción aparece para un mapa abierto en el panel del repositorio o en la vista del mapa.
 
-![](images/map-options-menu.png){width="550" align="left"}
+![](images/map-options-menu.png){width="550"}
 
 ### PDF templates
 
@@ -1901,7 +1901,7 @@ Para ver los comentarios de revisión de las tareas de revisión activas que est
 
 1. Seleccione Revisar en el panel izquierdo. Se abre el panel **Revisar**.  Se muestran todos los proyectos de revisión y las tareas de revisión activas dentro de los proyectos de revisión de los que forma parte.
 
-   ![](images/web-editor-review-panel.png){width="300" align="left"}
+   ![](images/web-editor-review-panel.png){width="300"}
 1. Seleccione un proyecto de revisión y, a continuación, seleccione una tarea de revisión de la lista para abrirla.
 1. También puede filtrar sus proyectos de las siguientes maneras:
 
@@ -1909,7 +1909,7 @@ Para ver los comentarios de revisión de las tareas de revisión activas que est
 
    - Seleccione ![](images/filter-search-icon.svg) para abrir el cuadro de diálogo **Filtro**. Puede seleccionar todos los proyectos o solo los específicos. Los proyectos seleccionados se enumeran en el panel **Revisar**.
 
-     ![](images/active-review-select-project.png){width="300" align="left"}
+     ![](images/active-review-select-project.png){width="300"}
 
      Habilite la opción **Tareas iniciadas por mí** para ver solamente las tareas que ha iniciado. El estado de alternancia de esta opción se mantiene incluso después de actualizar la página. Habilite la opción **Mostrar solo las tareas activas** para filtrar la lista de proyectos y mostrar las tareas que estén activas actualmente.
 
@@ -1920,7 +1920,7 @@ Para ver los comentarios de revisión de las tareas de revisión activas que est
 1. También puede introducir el término de búsqueda o el texto que desee encontrar en el título del tema o en la ruta de archivo. Se enumeran los temas que contienen el término en el título o la ruta de acceso del archivo.
 1. Haga doble clic en cualquier tema para abrirlo en la vista Autor. Puede ver los comentarios en el panel **Comentarios**.
 
-   ![](images/active-review-task-comments.png){align="left"}
+   ![](images/active-review-task-comments.png)
 
    >[!NOTE]
    > 
@@ -1936,7 +1936,7 @@ El área de edición de contenido es donde se muestra el contenido del tema o ma
 
 En la parte inferior izquierda del área de edición de contenido, tiene la ruta del elemento en la ubicación actual del cursor. En la esquina inferior derecha, se muestran las vistas del Editor disponibles.
 
-![](images/content-editing-area.png){align="left"}
+![](images/content-editing-area.png)
 
 Para obtener más información acerca de las vistas del Editor disponibles para un archivo de tema en el área de edición de contenido, vea [Vistas del Editor](./web-editor-views.md).
 
@@ -1970,11 +1970,11 @@ Puede acceder a la función **Propiedades de contenido** seleccionando el icono 
 
 1. Seleccione **Añadir**.
 
-   ![atributos en propiedades de contenido](images/properties-tab-attributes_cs.png){width="300" align="left"}
+   ![atributos en propiedades de contenido](images/properties-tab-attributes_cs.png){width="300"}
 
 1. En el panel desplegable **Atributo**, seleccione el atributo en la lista desplegable y especifique el valor de un atributo.  Luego selecciona **Agregar**.
 
-   ![panel de atributos con varios atributos &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![panel de atributos con varios atributos ](images/attributes-multiple-properties.png){width="300"}
 
 1. Para editar el atributo, pasa el ratón sobre él y selecciona **Editar** ![editar-icono](images/edit_pencil_icon.svg).
 
@@ -1997,7 +1997,7 @@ Las propiedades del archivo tienen las dos secciones siguientes:
 
 La sección General le permite acceder a las siguientes funciones:
 
-![propiedades de archivo](images/file-properties-general.png){width="300" align="left"}
+![propiedades de archivo](images/file-properties-general.png){width="300"}
 
 - **Nombre de archivo**: muestra el nombre de archivo del tema seleccionado. El nombre de archivo está enlazado mediante un hipervínculo a la página de propiedades del archivo seleccionado.
 - **ID**: muestra el ID del tema seleccionado.
@@ -2017,7 +2017,7 @@ La sección General le permite acceder a las siguientes funciones:
 
 La sección Referencias le permite acceder a las siguientes funciones:
 
-![](images/file-properties-references.png){width="300" align="left"}
+![](images/file-properties-references.png){width="300"}
 
 - **Utilizado en**: el Utilizado en referencias enumera los documentos a los que se hace referencia o se utiliza el archivo actual.
 - **Vínculos de salida:** Los vínculos de salida enumeran los documentos a los que se hace referencia en el documento actual.
@@ -2038,7 +2038,7 @@ Además de abrir archivos, también puede realizar muchas acciones utilizando el
 
 Al seleccionar el icono Revisar, se abre el panel de revisión, en el que puede seleccionar una tarea de revisión para el documento abierto actualmente y ver los comentarios.
 
-![](images/review-panel-before-opening.png){width="300" align="left"}
+![](images/review-panel-before-opening.png){width="300"}
 
 Si ha creado varios proyectos de revisión, puede seleccionar uno de la lista desplegable y acceder a los comentarios de revisión.
 

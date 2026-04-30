@@ -4,7 +4,7 @@ description: Obtenga información acerca de las distintas configuraciones dispon
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 3c3880af-8d32-4d8a-9dca-8be12e9a5fd5
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2470'
 ht-degree: 1%
@@ -36,7 +36,7 @@ La opción **Workspace settings** presente en la [barra de fichas](../user-guide
 
 La Configuración general permite configurar los ajustes para utilizar el Editor. Esta pestaña contiene siete secciones: **Ayudante de IA**, **Autor**, **Citas**, **Condición**, **Editor de HTML**, **Contenido de aprendizaje** y **Corrección ortográfica**.
 
-![](assets/workspace-settings.png){width="350" align="left"}
+![](assets/workspace-settings.png){width="350"}
 
 - **Asistente de IA**
 Seleccione esta opción para habilitar la función [Ayudante de IA](../user-guide/ai-assistant.md) en Experience Manager Guides. Anule la selección para deshabilitar la función.
@@ -51,7 +51,7 @@ Seleccione esta opción para habilitar la función [Ayudante de IA](../user-guid
 
    - Para cambiar el orden en que aparecen las opciones, arrástrelas y suéltelas según sea necesario.
 
-  ![](../user-guide/images/authoring-quick-actions-new.png){width="350" align="left"}
+  ![](../user-guide/images/authoring-quick-actions-new.png){width="350"}
 
 
 
@@ -71,7 +71,7 @@ Seleccione esta opción para habilitar la función [Ayudante de IA](../user-guid
 
    - **Mostrar clave con el título en el panel Esquema del asunto**: seleccione esta opción para mostrar las claves junto con los títulos en el esquema del asunto. Si no selecciona esta opción, solo se muestran los títulos. Por ejemplo, aquí las teclas &quot;os&quot;, &quot;audience&quot; y &quot;other&quot; también se muestran junto con los títulos.
 
-     ![](../user-guide/images/subject-scheme-title.png){width="550" align="left"}
+     ![](../user-guide/images/subject-scheme-title.png){width="550"}
 
    - **Mostrar esquema de asunto en el panel Condiciones**: seleccione esta opción para ver un esquema de asunto en el panel Condiciones. Si anula la selección de esta opción, las condiciones definidas se muestran en el panel Condiciones.
 
@@ -103,11 +103,11 @@ Para obtener más información, vea [Configurar perfiles de carpeta](../lc-confi
 
 Esta opción controla los paneles que se muestran en los paneles izquierdo y derecho de la consola Editor y Mapa. Puede alternar el botón para mostrar u ocultar el panel deseado.
 
-![](../user-guide/images/editor-setting-panel.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-panel.png){width="650"}
 
 También puede definir el orden en que se muestran las funciones presentes en los paneles. Para cambiar el orden predeterminado de las funciones disponibles en los paneles, seleccione las barras de puntos para arrastrar y soltar las pestañas de funciones en la ubicación deseada. También se puede mover una característica de la sección **Más** a la sección principal de un panel y viceversa según sea necesario. Una vez reordenadas, las funciones aparecen en la misma secuencia en los paneles derecho e izquierdo respectivos.
 
-![](../user-guide/images/panels-screen-new.png){width="650" align="left"}
+![](../user-guide/images/panels-screen-new.png){width="650"}
 
 
 Se pueden mostrar un máximo de ocho paneles a la vez. Los cambios realizados en la configuración del panel se aplican inmediatamente.
@@ -121,23 +121,23 @@ Se pueden mostrar un máximo de ocho paneles a la vez. Los cambios realizados en
 
 Como administrador, puede controlar la lista de elementos que un autor puede insertar en un archivo y también definir el nombre para mostrar del elemento. La configuración de la lista Elementos (Elements) permite especificar el nombre del elemento según las especificaciones de DITA y una etiqueta que se debe utilizar en lugar del nombre del elemento definido por DITA:
 
-![](../user-guide/images/editor-setting-element-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-element-list.png){width="650"}
 
 En la captura de pantalla anterior, al elemento `p` se le ha dado una etiqueta de párrafo y a `codeblock` se le ha dado una etiqueta de bloque de código junto con algunos otros elementos. Si selecciona la opción **Usar solo los elementos anteriores**, solo se mostrarán los elementos válidos \(en el punto de inserción actual\) de esta lista en el cuadro de diálogo **Insertar elemento**.
 
 En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos configurados de la captura de pantalla anterior en el contexto actual:
 
-![](../user-guide/images/editor-setting-insert-element-list.PNG){width="300" align="left"}
+![](../user-guide/images/editor-setting-insert-element-list.PNG){width="300"}
 
 ## Lista Atributos
 
 De forma similar a la lista de elementos, se puede controlar la lista de atributos y sus nombres para mostrar en la lista de atributos de un elemento. En la siguiente captura de pantalla, solo se han configurado 3 atributos para que se muestren en la lista de atributos de un elemento:
 
-![](../user-guide/images/editor-setting-attributes-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-attributes-list.png){width="650"}
 
 Con esta configuración, cuando intenta agregar un atributo a un elemento, solo ve la lista de atributos configurados en la lista.
 
-![](../user-guide/images/editor-setting-add-attributes-list.png){width="300" align="left"}
+![](../user-guide/images/editor-setting-add-attributes-list.png){width="300"}
 
 
 ## Colores
@@ -169,7 +169,7 @@ Contiene los perfiles que se pueden usar para publicar la salida de **Knowledge 
 
    - Para crear un perfil de Salesforce, seleccione la base de conocimiento **Salesforce** en la lista desplegable **Tipo de servidor**. Introduzca un Nombre de perfil. En la **dirección URL del sitio**, escriba el sitio del consumidor que usaría para publicar la salida y, a continuación, agregue la **clave del consumidor** y el **secreto del consumidor** proporcionados por el sitio del consumidor de Salesforce. A continuación, **Valide** y **guarde** el perfil recién creado.
 
-     ![perfil de publicación de salesforce en la configuración del área de trabajo](../user-guide/images/salesforce-publish-profile.png){width="550" align="left"}
+     ![perfil de publicación de salesforce en la configuración del área de trabajo](../user-guide/images/salesforce-publish-profile.png){width="550"}
 
      >[!NOTE]
      >
@@ -194,7 +194,7 @@ Configure el servidor de ServiceNow para cargar los recursos.
 
 - Para crear un perfil, seleccione ServiceNow Knowledge Base en la lista desplegable **Tipo de servidor**. Escriba un perfil **Name**. En la **URL de ServiceNow**, introduzca el sitio de consumidores que utilizaría para publicar la salida y, a continuación, agregue el **Nombre de usuario** y la **Contraseña** proporcionados por el sitio de consumidores de ServiceNow. A continuación, **Valide** y **guarde** el perfil recién creado.
 
-  ![Perfil de publicación ServiceNow](../user-guide/images/service-now-publish-profile.png){width="550" align="left"}
+  ![Perfil de publicación ServiceNow](../user-guide/images/service-now-publish-profile.png){width="550"}
 
   Una vez validado, puede seleccionar el perfil de publicación en los ajustes preestablecidos de salida de un mapa DITA y utilizarlo para generar la salida en el servidor **Salesforce** o **ServiceNow** que haya elegido.
 
@@ -212,13 +212,13 @@ Esta pestaña contiene opciones para configurar las validaciones de Schematron e
   >- Los archivos de Schematron seleccionados persistirán para el perfil de carpeta seleccionado.
   >- Cuando se añade un archivo de Schematron no válido, se muestra un mensaje de error, como se muestra a continuación.
 
-  ![Validación en la configuración del área de trabajo](../user-guide/images/editor-setting-validation-error.png){width="550" align="left"}
+  ![Validación en la configuración del área de trabajo](../user-guide/images/editor-setting-validation-error.png){width="550"}
 
   Esto evita que los usuarios guarden cualquier archivo que rompa una regla definida en los archivos de Schematron seleccionados. Si no se selecciona esta opción, el archivo no se validará antes de guardar los cambios.
 
 - **Permitir que todos los usuarios agreguen archivos de Schematron en el panel de validación**: seleccione esta opción para permitir que los usuarios agreguen cualquier archivo de Schematron en el panel Validación del Editor. Esto permite a los usuarios agregar archivos de Schematron y, a continuación, validar los temas con el archivo de Schematron. Si no se selecciona esta opción, la opción para agregar el botón **Agregar archivo de schematron** no estará disponible para los usuarios en el **panel Validación** del Editor.
 
-  ![Validación en la configuración del área de trabajo](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
+  ![Validación en la configuración del área de trabajo](../user-guide/images/editor-setting-validation.png){width="550"}
 
 
 ## Mostrar atributos
@@ -227,13 +227,13 @@ Al igual que la lista Atributos, puede controlar la lista de atributos que se mo
 
 Los atributos definidos para un elemento se muestran en las vistas Diseño y Esquema.
 
-![](../user-guide/images/editor-settings-display-attributes.png){width="550" align="left"}
+![](../user-guide/images/editor-settings-display-attributes.png){width="550"}
 
 ## Traducción
 
 Esta pestaña contiene las opciones para crear grupos de idiomas, propagar las etiquetas de origen a la versión de destino y limpiar el proyecto de traducción.
 
-![](../user-guide/images/editor-setting-translation.png){width="550" align="left"}
+![](../user-guide/images/editor-setting-translation.png){width="550"}
 
 - **Grupos de idiomas**: como administrador, puede crear un grupo de idiomas y utilizarlos como un conjunto para traducir el contenido.
 
@@ -274,7 +274,7 @@ Los metadatos se pueden seleccionar desde cualquier propiedad bajo el nodo `/jcr
 Se muestra un error si la ruta de metadatos está en blanco. Si deja la etiqueta en blanco, se selecciona el último elemento como etiqueta.
 
 
-![ficha de metadatos en la configuración del área de trabajo](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
+![ficha de metadatos en la configuración del área de trabajo](../user-guide/images/editor-setting-metadata.png){width="550"}
 
 *Configurar los metadatos del cuadro de diálogo **Historial de versiones**.*
 

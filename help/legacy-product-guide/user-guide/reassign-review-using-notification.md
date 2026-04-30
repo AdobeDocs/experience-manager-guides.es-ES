@@ -5,9 +5,9 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 3e43206b-c1a3-43ba-a4e5-c45c68c8b941
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Realice los siguientes pasos para volver a asignar una tarea de revisión desde 
    >
    > El revisor debe tener los permisos para reasignar y debe formar parte del grupo de usuarios-administradores.
 
-   ![](images/reassign-user-inbox.png){width="800" align="left"}
+   ![](images/reassign-user-inbox.png){width="800"}
 
 1. Seleccione **Reasignar**.
 
@@ -39,4 +39,4 @@ Una vez reasignada la tarea de revisión, la columna Usuario asignado muestra el
 
 El revisor asignado recibe una notificación en la bandeja de entrada para la tarea de revisión reasignada.
 
-**Tema principal:**&#x200B;[&#x200B; Revisar temas o asignaciones](review.md)
+**Tema principal:**[ Revisar temas o asignaciones](review.md)

@@ -4,9 +4,9 @@ description: Conocer el uso de las líneas de base en AEM Guides. Obtenga inform
 exl-id: 0554947f-3038-4fd2-8a62-ac0d4b858e94
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1803'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Realice los siguientes pasos para crear una línea base:
 2. Seleccione **Crear** en la parte superior izquierda.
 3. En la página Línea de base, escriba un nombre para la Línea de base en el campo **Nombre de línea de base**.
 
-   ![](images/create-baseline-assets-ui.png){width="300" align="left"}
+   ![](images/create-baseline-assets-ui.png){width="300"}
 
 4. En **Establecer la versión basada en**, seleccione una de las siguientes opciones:
 
@@ -81,7 +81,7 @@ Realice los siguientes pasos para editar una línea base existente:
 1. Realice los cambios necesarios en la línea de base. Puede cambiar el nombre y la versión del tema o el contenido al que se hace referencia.
 1. Si desea utilizar una versión diferente para uno o más temas, puede seleccionarlos manualmente. Seleccione **Examinar tema**, seleccione el tema para el que desea usar una versión diferente. En la lista desplegable Seleccionar una versión para el tema seleccionado, seleccione una versión del tema que desee usar en la línea de base y seleccione **Aceptar**.
 
-   ![](images/baseline-select-version-drop-down.png){align="left"}
+   ![](images/baseline-select-version-drop-down.png)
 
    La información sobre el tema y su versión seleccionada se almacenan en el servidor. Puede repetir este paso para cambiar la versión seleccionada de varios temas.
 
@@ -128,7 +128,7 @@ Realice los siguientes pasos para agregar una etiqueta a varios temas y contenid
 
 1. Seleccione **Agregar etiquetas**.
 
-   ![](images/add-label-baseline-uuid.png){align="left"}
+   ![](images/add-label-baseline-uuid.png)
 
 1. En el cuadro de diálogo **Agregar etiqueta**, especifique una etiqueta única para asociarla a esta línea de base.
 
@@ -136,10 +136,10 @@ Realice los siguientes pasos para agregar una etiqueta a varios temas y contenid
 
 1. Si desea aplicar la etiqueta a los temas a los que se hace referencia en las subasignaciones, seleccione **Aplicar etiqueta a las asignaciones secundarias y a sus dependientes**.
 
-   - Seleccione **Agregar**.
+   - Seleccione **Añadir**.
 La etiqueta especificada se añade al mapa DITA y a los temas y contenido a los que se hace referencia.
 
-     ![](images/label-added-baseline-uuid.png){width="650" align="left"}
+     ![](images/label-added-baseline-uuid.png){width="650"}
 
 
 ## Exportar línea base traducida
@@ -158,7 +158,7 @@ Realice los siguientes pasos para exportar una línea base traducida:
 
 1. En la pestaña **Traducción**, expanda la opción **Línea de base** disponible en el carril izquierdo.
 
-   ![](images/export-baseline-new.png){align="left"}
+   ![](images/export-baseline-new.png)
 
 1. Seleccione la opción **Usar línea de base** y elija la línea de base que desea exportar.
 
@@ -171,4 +171,4 @@ Realice los siguientes pasos para exportar una línea base traducida:
 1. \(Opcional\) Para exportar una línea de base que ya se ha exportado, seleccione **Sobrescribir línea de base existente** y, a continuación, seleccione **Exportar línea de base**.
 
 
-**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)
+**Tema principal:**[ Generación de resultados](generate-output.md)

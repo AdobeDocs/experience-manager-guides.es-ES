@@ -5,7 +5,7 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '5239'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Además, puede delegar las configuraciones específicas de la carpeta a un depar
 
 Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede establecer la configuración en las siguientes pestañas:
 
-![](assets/folder-profile-tabs.png){width="800" align="left"}
+![](assets/folder-profile-tabs.png){width="800"}
 
 - **General**: La ficha General sólo está disponible cuando está configurando la configuración de nivel de carpeta \(o proyecto/producto\). Puede configurar opciones, como las rutas de carpeta en las que se aplicará la configuración y los usuarios que tengan derechos administrativos para crear o actualizar configuraciones.
 
@@ -98,7 +98,7 @@ Siga estos pasos para configurar el perfil global:
 
    Por primera vez, la página Perfiles de carpeta se muestra únicamente con el mosaico Perfil global.
 
-   ![](assets/folder-profile-global.png){width="800" align="left"}
+   ![](assets/folder-profile-global.png){width="800"}
 
 1. Haga clic en el mosaico **Perfil global**.
 
@@ -127,7 +127,7 @@ Siga estos pasos para configurar un perfil de nivel de carpeta:
 
 1. Haga clic en **Crear**.
 
-   ![](assets/create-folder-profile.png){width="300" align="left"}
+   ![](assets/create-folder-profile.png){width="300"}
 
 1. Escriba los siguientes detalles en el diálogo **Crear perfil de carpeta**:
    - Nombre del perfil de carpeta.
@@ -259,7 +259,7 @@ Realice los siguientes pasos para agregar las plantillas de tema, asignación o 
    >
    > De forma predeterminada, todas las plantillas se almacenan en la carpeta /content/dam/dita-templates. La carpeta `dita-templates` contiene `topics`, `maps` y `PDF` subcarpetas para almacenar las plantillas de tema, asignación y PDF. Puede agregar las plantillas personalizadas \(.dita, .xml o .ditamapfiles\) en las carpetas de plantillas predeterminadas. Una vez que añada la plantilla a la carpeta predeterminada, podrá añadirlas en el perfil global o de carpeta. Para obtener más información acerca de cómo crear plantillas personalizadas mediante el Editor Web, vea [Crear una plantilla de creación personalizada](#id1917D0EG0HJ).
 
-   ![](assets/search-author-temp.png){width="800" align="left"}
+   ![](assets/search-author-temp.png){width="800"}
 
 1. Añada las plantillas temáticas, de asignación y de PDF necesarias a su perfil.
 
@@ -267,7 +267,7 @@ Realice los siguientes pasos para agregar las plantillas de tema, asignación o 
 
    - Elija **Buscar o Escriba** y escriba o seleccione el nombre de una plantilla en la lista desplegable. La lista desplegable consta de todas las plantillas predeterminadas y cualquier plantilla nueva que haya creado.
 
-     ![](assets/default-template-list.png){width="800" align="left"}
+     ![](assets/default-template-list.png){width="800"}
 
    - Haga clic en **Examinar** y seleccione una plantilla de DAM.
 
@@ -275,7 +275,7 @@ Realice los siguientes pasos para agregar las plantillas de tema, asignación o 
 
    Las plantillas seleccionadas se añaden a la lista de plantillas.
 
-   ![](assets/author-templ-added-list.png){width="800" align="left"}
+   ![](assets/author-templ-added-list.png){width="800"}
 
    >[!NOTE]
    >
@@ -411,7 +411,7 @@ Si ha actualizado un ajuste preestablecido de salida existente o desea que un nu
 
 ## Configuración del asistente de IA para la creación y la ayuda inteligentes
 
-Para Experience Manager Guides as a Cloud Service (![nube de AEM &#x200B;](assets/aem-cloud-icon.svg)).
+Para Experience Manager Guides as a Cloud Service (![nube de AEM ](assets/aem-cloud-icon.svg)).
 
 El asistente de IA de Adobe Experience Manager Guides es una potente herramienta impulsada por IA que se ha diseñado para mejorar el contenido mediante la creación inteligente y las experiencias de reutilización de contenido. Reúne dos características de IA sólidas — **Creación** y **Ayuda** — en la interfaz de Experience Manager Guides, lo que le permite autorizar documentos y acceder a información de forma más rápida y eficaz.
 
@@ -433,7 +433,7 @@ Realice los siguientes pasos para configurar la IA estándar en el perfil global
 
 1. En la página de perfil, seleccione la ficha **Configuración de IA**.
 
-   ![Ficha de configuración de IA en el perfil global](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
+   ![Ficha de configuración de IA en el perfil global](assets/global-profile-AI-configuration-cs.png) {width="800"}
 
 1. Seleccione **Editar**.
 1. Como administrador, puede configurar las siguientes opciones:
@@ -497,9 +497,9 @@ Para garantizar que las sugerencias inteligentes funcionen correctamente, tenga 
 
 **Personalizar las preguntas predeterminadas para la ayuda inteligente**
 
-Para Experience Manager Guides as a Cloud Service (![nube de AEM &#x200B;](assets/aem-cloud-icon.svg)).
+Para Experience Manager Guides as a Cloud Service (![nube de AEM ](assets/aem-cloud-icon.svg)).
 
-Puede configurar la **Ayuda** inteligente con tecnología de IA para ayudar a los autores a hacer preguntas y encontrar fácilmente el contenido requerido de la [documentación de Experience Manager Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/overview).
+Puede configurar la **Ayuda** inteligente con tecnología de IA para ayudar a los autores a hacer preguntas y encontrar fácilmente el contenido requerido de la [documentación de Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 La ficha **Configuración del editor XML** le permite configurar las preguntas predeterminadas del panel **Ayuda**.
 
@@ -551,7 +551,7 @@ De forma predeterminada, el Editor XML incluye muchas características que ayuda
 
 Esta configuración le permite crear extensiones JSON que reflejen las modificaciones realizadas en el archivo `ui_config.json`. Puede cargar de forma independiente estas extensiones en el nivel de perfil de carpeta, lo que ofrece una mayor flexibilidad y personalización. Por ejemplo, cuando se realizan cambios en la **configuración del editor XML**, como actualizar un botón, el sistema identifica automáticamente las diferencias. Al cargar estos cambios en la **configuración de la interfaz de usuario del editor XML** y convertirlos en extensiones JSON mediante el botón **Convertir configuración de la interfaz de usuario a JSON**, el sistema genera una extensión que incorpora la nueva funcionalidad.
 
-Obtenga más información sobre [personalizar configuraciones de JSON y convertir configuraciones de IU para el nuevo Editor de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Obtenga más información sobre [personalizar configuraciones de JSON y convertir configuraciones de IU para el nuevo Editor de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >

@@ -4,7 +4,7 @@ description: Obtenga información acerca de las distintas configuraciones dispon
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: c6767c75-0b53-4bde-9c7f-7ae1cd9b5076
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%
@@ -18,7 +18,7 @@ En la configuración On-premise, la opción **Settings** aparece en la barra de 
 Todas las opciones de configuración disponibles en **Configuración del editor** permanecen sin cambios.
 
 
-![Configuración del editor para On-Premise](assets/editor-settings-on-prem.png){width="650" align="left"}
+![Configuración del editor para On-Premise](assets/editor-settings-on-prem.png){width="650"}
 
 
 Para obtener más información acerca de las opciones de configuración disponibles, vea [Configuración de Workspace](../cs-install-guide/workspace-settings.md).

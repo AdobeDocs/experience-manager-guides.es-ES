@@ -4,9 +4,9 @@ description: Ver temas en los modos de autor, origen y vista previa. Obtenga inf
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -33,18 +33,18 @@ La vista Source muestra el XML subyacente que compone el tema. Si se siente cóm
 
 * Para invocar el catálogo inteligente, coloque el cursor al final de cualquier etiqueta de elemento donde desee insertar el nuevo elemento y escriba &quot;&lt;&quot;. El editor muestra una lista de todos los elementos XML válidos que puede insertar en esa ubicación. Utilice las teclas de flecha para seleccionar el elemento que desea insertar y pulse Intro. Cuando se introduce el corchete de cierre &quot;\>, la etiqueta de cierre del elemento se añade automáticamente.
 
-  ![](images/smart-catalog-elements.png){width="400" align="left"}
+  ![](images/smart-catalog-elements.png){width="400"}
 
 * También puede cambiar un elemento fácilmente desde la vista de Source. Por ejemplo, si cambia la etiqueta de apertura de un elemento `p` a `note`, la etiqueta de cierre `p` se cambiará automáticamente a `/note`. Si reemplaza un elemento por un elemento incorrecto, se le mostrará inmediatamente el error de validación.
 
 * Si desea agregar un atributo a un elemento, coloque el cursor dentro de la etiqueta del elemento y pulse la barra espaciadora. En el catálogo inteligente se muestra una lista de atributos válidos para ese elemento. Utilice las teclas de flecha para seleccionar el elemento deseado y pulse Intro para insertar el elemento. Para especificar un valor para el atributo, introduzca el signo igual \(=\) y el editor introducirá automáticamente las comillas de apertura y cierre &quot;&quot;, donde puede especificar el valor del atributo.
 
-  ![](images/smart-catalog-attribute.png){width="350" align="left"}
+  ![](images/smart-catalog-attribute.png){width="350"}
 
 * En la vista de Source, hay una opción de sangría automática que reorganiza el código XML en un formato presentable y fácilmente legible. Además, si selecciona cualquier texto y cambia de Autor a Source o de Source a la vista Autor, el texto seleccionado también se resalta en la otra vista.
 * Otra característica potente de la vista de Source es la validación XML del documento. Si abre un documento que contiene XML no válido, se abrirá en la vista de Source con la información sobre XML no válido. Por ejemplo, en la siguiente captura de pantalla se proporciona información exacta sobre el XML erróneo en la ventana emergente de error de análisis.
 
-  ![](images/invalid-topic-xml.png){width="650" align="left"}
+  ![](images/invalid-topic-xml.png){width="650"}
 
   En la captura de pantalla anterior, se utiliza un resaltado cruzado para señalar la línea que contiene el XML erróneo.
 
@@ -104,13 +104,13 @@ Si ha utilizado condiciones en el tema o el mapa, esas condiciones se muestran e
 
 La siguiente imagen muestra un tema que usa dos condiciones: `Audience` y `Product`. El contenido condicionado se resalta con un fondo amarillo.
 
-![](images/preview-filters.png){align="left"}
+![](images/preview-filters.png)
 
 ### Ver las marcas de seguimiento de cambios {#id2114BJ00CE8}
 
 Si un documento contiene marcas de seguimiento de cambios \(o indicaciones visuales\), también puede obtener una vista previa del documento con o sin esas marcas. Al previsualizar un documento, el panel derecho contiene las opciones Filtros y Seguimiento.
 
-![](images/preview-tracking_cs.png){width="400" align="left"}
+![](images/preview-tracking_cs.png){width="400"}
 
 Hay tres opciones de **Tracking** entre las que puedes elegir:
 
@@ -120,7 +120,7 @@ Hay tres opciones de **Tracking** entre las que puedes elegir:
 
   La siguiente imagen muestra la previsualización de un archivo de mapa con marcas:
 
-  ![](images/preview-map-with-track-changes.png){width="300" align="left"}
+  ![](images/preview-map-with-track-changes.png){width="300"}
 
 
 ### Exportación de un tema como PDF {#id2114BL00B5U}
@@ -149,4 +149,4 @@ Para exportar un tema como PDF, siga estos pasos:
    El PDF se genera y abre en una nueva pestaña o se le muestra un cuadro de diálogo para guardar el PDF en el sistema local.
 
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

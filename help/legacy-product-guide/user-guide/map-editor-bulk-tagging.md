@@ -5,9 +5,9 @@ feature: Metadata Management
 role: User
 hide: true
 exl-id: b320e34f-ee0a-4cc3-b4f6-d322fbb29844
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Las etiquetas permiten agrupar o clasificar contenido dentro del repositorio de contenido y también en la salida publicada. Si ha aplicado etiquetas a su contenido, puede encontrar fácilmente temas relacionados dentro de un mapa DITA que puede ayudarle a crear contenido. Con el resultado publicado, los usuarios finales podrán localizar el contenido correcto más rápido con las etiquetas adecuadas.
 
-AEM Guides le permite etiquetar contenido DITA en unos pocos clics. Puede utilizar la función de etiquetado por lotes para aplicar varias etiquetas en varios temas, en un mapa DITA o en un submapa. O bien, también puede aplicar etiquetas a un tema individual. El etiquetado es la característica nativa de AEM. Encontrará más detalles sobre la creación y administración de etiquetas en la sección [Administración de etiquetas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=es) de la documentación de AEM.
+AEM Guides le permite etiquetar contenido DITA en unos pocos clics. Puede utilizar la función de etiquetado por lotes para aplicar varias etiquetas en varios temas, en un mapa DITA o en un submapa. O bien, también puede aplicar etiquetas a un tema individual. El etiquetado es la característica nativa de AEM. Encontrará más detalles sobre la creación y administración de etiquetas en la sección [Administración de etiquetas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) de la documentación de AEM.
 
 De forma predeterminada, AEM Guides no concede acceso de lectura a ningún usuario de la carpeta en la que estén almacenadas todas las etiquetas del repositorio de AEM. Para utilizar etiquetas definidas en el repositorio de AEM, debe solicitar al administrador del sistema que conceda acceso a la carpeta donde se almacenan las etiquetas.
 
@@ -34,7 +34,7 @@ Utilice la función de etiquetado masivo para aplicar varias etiquetas a la vez.
 
 1. Seleccione los temas o el submapa al que desee aplicar las etiquetas.
 
-   ![](images/apply-tags-uuid.png){width="650" align="left"}
+   ![](images/apply-tags-uuid.png){width="650"}
 
 
    >[!NOTE]
@@ -79,7 +79,7 @@ Siga estos pasos para aplicar etiquetas a un tema individual:
 1. Haga clic en **Guardar y cerrar**.
 
 
-## Eliminar etiquetas
+## Quitar etiquetas
 
 Según sus necesidades comerciales, puede cambiar la información de etiquetado para cualquier tema de DITA. Puede quitar fácilmente todas las etiquetas a la vez o quitar solo las que no sean válidas en el tema.
 
@@ -108,4 +108,4 @@ Siga estos pasos para quitar todas las etiquetas de uno o varios temas:
 
 Si tiene una larga lista de etiquetas aplicadas a los temas, puede que le resulte un poco engorroso navegar. Puede ocultar etiquetas fácilmente desde la vista de la consola de mapas DITA haciendo clic en el icono Ocultar etiquetas. Del mismo modo, cuando las etiquetas no están visibles, al hacer clic en Mostrar etiquetas se muestran todas las etiquetas.
 
-**Tema principal:**&#x200B;[&#x200B; Administrar metadatos](manage-metadata.md)
+**Tema principal:**[ Administrar metadatos](manage-metadata.md)

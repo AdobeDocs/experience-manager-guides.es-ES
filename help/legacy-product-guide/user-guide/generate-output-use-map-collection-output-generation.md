@@ -5,9 +5,9 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1211'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Para crear una colección de mapas y añadir mapas DITA a la colección, realice
 
    Si el vínculo Colecciones de mapas no está disponible, seleccione la opción **Navegación** en el carril izquierdo y, a continuación, haga clic en **Colecciones de mapas**.
 
-   ![](images/access-map-collection-left-rail.png){width="350" align="left"}
+   ![](images/access-map-collection-left-rail.png){width="350"}
 
 1. Escriba un Título para la colección de mapas.
 1. Haga clic en **Crear**.
@@ -50,7 +50,7 @@ Para crear una colección de mapas y añadir mapas DITA a la colección, realice
 
    Los ficheros de mapa DITA se añaden a la colección de mapas.
 
-   ![tablero de colección de mapas](./images/map-collection-dashboard.png){width="800" align="left"}
+   ![tablero de colección de mapas](./images/map-collection-dashboard.png){width="800"}
 
 Las siguientes opciones de filtrado y detalles de asignación se muestran en la página de recopilación:
 
@@ -89,8 +89,7 @@ Para configurar y generar la salida mediante una colección de mapas, realice lo
    - Habilite cualquier ajuste preestablecido individual.
    - Active **Todos los ajustes preestablecidos** para un mapa DITA a fin de seleccionar todos los ajustes preestablecidos de una sola vez. Esta opción está desactivada de forma predeterminada.
    - Habilite **Ajustes preestablecidos de perfil de carpeta** para un mapa DITA a fin de seleccionar todos los ajustes preestablecidos de perfil de carpeta para él. Esta opción está desactivada de forma predeterminada.
-
-     ![editar una colección de mapas en cloud services](images/edit-map-collection-cs.png){width="800" align="left"}
+     ![editar una colección de mapas en cloud services](images/edit-map-collection-cs.png){width="800"}
 
 
 
@@ -107,7 +106,7 @@ Para configurar y generar la salida mediante una colección de mapas, realice lo
 
 En la colección de mapas, puede configurar las propiedades de metadatos de forma masiva para los mapas DITA. Seleccione **Configurar metadatos** para abrir la página **Metadatos de recursos**. En la página **Metadatos del recurso**, todas las asignaciones presentes en la colección se muestran a la izquierda.
 
-![configurar metadatos](images/map-collection-asset-metadata.png){width="800" align="left"}
+![configurar metadatos](images/map-collection-asset-metadata.png){width="800"}
 
 Siga estos pasos para configurar las propiedades de los metadatos:
 
@@ -142,6 +141,6 @@ De esta forma, también se eliminarán los ajustes preestablecidos o configuraci
 
 De forma similar a la forma de cancelar una tarea de generación de resultados desde la [consola de mapas DITA](generate-output-for-a-dita-map.md#id2061H100T5Z) o el [panel de publicación](generate-output-publish-dashboard.md#), puede cancelar una tarea de generación de resultados desde una colección de mapas. Acceda a la pestaña Resultados de una colección de mapas, vaya a la tarea de publicación que desee cancelar y haga clic en el icono **Cancelar este trabajo** para cancelar la tarea de publicación.
 
-![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
+![](images/cancel-publish-task-map-collection.png){width="800"}
 
-**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)
+**Tema principal:**[ Generación de resultados](generate-output.md)

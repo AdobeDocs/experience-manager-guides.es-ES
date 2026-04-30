@@ -4,9 +4,9 @@ description: Descubra el uso de etiquetas para diferentes versiones de un archiv
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ Siga estos pasos para agregar una etiqueta al tema desde el Editor:
 1. En el panel Repositorio, vaya a un tema y ábralo en el Editor.
 1. Seleccione **Etiqueta de versión** del menú desplegable **Menú**.
 
-   ![](images/version-label-option.png){width="400" align="left"}
+   ![](images/version-label-option.png){width="400"}
 
    Se muestra el cuadro de diálogo **Administración de etiquetas de versión**.
 
 1. En el cuadro de diálogo **Administración de etiquetas de versión**, seleccione una versión a la que desee agregar una etiqueta.
 1. Seleccione una etiqueta para la versión seleccionada y seleccione **Agregar etiqueta**.
 
-   ![](images/version-label-management-dialog-new.png){width="650" align="left"}
+   ![](images/version-label-management-dialog-new.png){width="650"}
 
    >[!NOTE]
    >
@@ -42,7 +42,7 @@ Siga estos pasos para agregar una etiqueta al tema desde el Editor:
 
    Las etiquetas se muestran en el Historial de versiones del tema seleccionado.
 
-   ![](images/label-comparison-version-history.png){width="650" align="left"}
+   ![](images/label-comparison-version-history.png){width="650"}
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ Siga estos pasos para agregar una etiqueta al tema desde el Editor:
 
 Para eliminar una etiqueta de versión de un tema, use el icono **Quitar** proporcionado con cada etiqueta agregada en el cuadro de diálogo Administración de etiquetas de versión.
 
-![](images/remove-version-label.png){align="left"}
+![](images/remove-version-label.png)
 
 
 ## Uso de etiquetas desde la interfaz de usuario de Assets
@@ -70,7 +70,7 @@ Siga estos pasos para agregar una etiqueta al tema desde la interfaz de usuario 
 
    Las etiquetas se muestran en el Historial de versiones del tema seleccionado. La captura de pantalla siguiente muestra las etiquetas *x.x Release* y *User Guide* agregadas a la versión resaltada del tema.
 
-   ![](images/labels.png){width="300" align="left"}
+   ![](images/labels.png){width="300"}
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ Siga estos pasos para agregar una etiqueta al tema desde la interfaz de usuario 
 
 Para eliminar una etiqueta de versión de un tema, use el botón **Eliminar** proporcionado con cada etiqueta en el panel Historial de versiones.
 
-![](images/delete-labels.png){width="300" align="left"}
+![](images/delete-labels.png){width="300"}
 
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo importar y validar un tema DITA, u
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: dd058ef30707716054279f16527adb286a9deb8d
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Después de importar los archivos de Schematron, puede editarlos en el Editor. P
 
 Cuando se abre un tema en el Editor, aparece un panel de validación de Schematron a la derecha. Realice los siguientes pasos para agregar y validar un tema o asignación con un archivo de Schematron:
 
-![](images/schematron-panel.png){width="350" align="left"}
+![](images/schematron-panel.png){width="350"}
 
 1. Seleccione el icono Schematron para abrir el panel Schematron.
 1. Use **Agregar archivo de Schematron** para agregar archivos de Schematron.
@@ -48,7 +48,7 @@ Cuando se abre un tema en el Editor, aparece un panel de validación de Schematr
    >
    > Cuando se añade un archivo Schematron no válido, se muestra un mensaje de error en el panel Validación.
 
-   ![](images/schematron-panel-error.png){width="350" align="left"}
+   ![](images/schematron-panel-error.png){width="350"}
 
 1. Si el archivo Schematron no tiene errores, se añade y se enumera en el panel Validación. Se muestra un mensaje de error para el archivo Schematron que contiene errores.
 
@@ -73,7 +73,7 @@ La compatibilidad con Schematron en el Editor le ayuda a validar los archivos co
 
 Los resultados de validación se muestran según el atributo de función definido en el archivo Schematron. Los problemas se clasifican en `Fatal`, `Error`, `Warn` o `Info`, con un recuento visible para cada categoría en el panel Validación.
 
-![](images/schematron-validation-errors.png){width="350" align="left"}
+![](images/schematron-validation-errors.png){width="350"}
 
 Para determinar la gravedad de un problema, se evalúa el valor _que distingue entre mayúsculas y minúsculas_ del atributo role definido en el archivo Schematron correspondiente.
 

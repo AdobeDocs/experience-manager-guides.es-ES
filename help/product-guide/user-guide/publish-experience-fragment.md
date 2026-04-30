@@ -4,7 +4,7 @@ description: Publicar un tema o los elementos dentro de un tema en un Fragmento 
 feature: Publishing
 role: User
 exl-id: 4cdce8c2-2ccf-4bf1-8b92-4dfeb10de186
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -36,12 +36,11 @@ Por ejemplo:
 
      Si no define una plantilla permitida para una carpeta, las plantillas se seleccionan de la carpeta principal o de la carpeta de plantillas de forma predeterminada.
    * **Solicitable**: permite cambiar el orden de los recursos dentro de una carpeta.
-
-     ![agregar detalles de configuración de nube en las propiedades de la carpeta](images/experience-fragment-folder-properties.png){width="650" align="left"}
+     ![agregar detalles de configuración de nube en las propiedades de la carpeta](images/experience-fragment-folder-properties.png){width="650"}
      *Agregue la configuración de nube en las propiedades de la carpeta para conectarla con las plantillas de fragmento.*
 1. Para generar un fragmento de experiencia, seleccione **Nueva salida** ![nuevo icono de salida](./images/Add_icon.svg) de la sección **Salidas** en las **Propiedades de archivo** de un tema.
 1. Seleccione **Fragmento de experiencia**.\
-   ![ficha de opciones de propiedades de archivo](./images/file-properties-outputs-new.png){width="300" align="left"}
+   ![ficha de opciones de propiedades de archivo](./images/file-properties-outputs-new.png){width="300"}
 
    *Agregar un nuevo fragmento de experiencia desde las propiedades de archivo de un tema*.
 
@@ -50,7 +49,7 @@ Por ejemplo:
    > También puede publicar un fragmento de experiencia desde la **vista de repositorio**. Seleccione el tema que desea publicar como fragmento de experiencia. A continuación, en el menú **Opciones**, seleccione **Publicar como** > **Fragmento de experiencia**.
 
 1. En el cuadro de diálogo **Generar fragmento de experiencia**, rellene los siguientes detalles:
-   ![Agregue el modelo de fragmento y los detalles de asignación en el cuadro de diálogo Publicar como fragmento de experiencia](images/experience-fragment-generate.png){width="500" align="left"}
+   ![Agregue el modelo de fragmento y los detalles de asignación en el cuadro de diálogo Publicar como fragmento de experiencia](images/experience-fragment-generate.png){width="500"}
 
    *Añada la ruta, la plantilla y los detalles de asignación para publicar un tema o sus elementos como fragmento de experiencia. Puede sobrescribir un fragmento de experiencia existente.*
 
@@ -80,7 +79,7 @@ Por ejemplo:
 1. Seleccione **Generar** para publicar el fragmento de experiencia.
 1. Puede ver los fragmentos de experiencias de un tema en la sección **Salidas** de **Propiedades del archivo**. Los fragmentos de experiencias aparecen según la fecha y la hora de su publicación, con la última como la primera.
 
-   ![Ver los fragmentos de experiencias de un tema](images/experience-fragment-outputs-new.png){width=300 align=&quot;left&quot;}
+   ![Ver los fragmentos de experiencias de un tema](images/experience-fragment-outputs-new.png){width=300}
 
    *Vea los fragmentos de experiencias presentes en un tema y vuelva a publicarlos.*
 

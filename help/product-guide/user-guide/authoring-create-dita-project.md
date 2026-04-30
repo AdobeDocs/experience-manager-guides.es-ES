@@ -4,9 +4,9 @@ description: Cree un proyecto DITA con una plantilla en AEM Guides. Aprenda a ut
 exl-id: 0cd83fe3-1764-4f04-ae11-0b71b6ac576c
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Siga estos pasos para crear un proyecto DITA:
 
 1. Seleccione **Crear** \> **Proyecto** para iniciar el asistente Crear proyecto.
 
-   ![](images/project-console-63.png){width="650" align="left"}
+   ![](images/project-console-63.png){width="650"}
 
 1. En la página Crear proyecto, seleccione la plantilla **Proyecto DITA** y seleccione **Siguiente**.
 
@@ -43,7 +43,7 @@ Siga estos pasos para crear un proyecto DITA:
 
    Información en la ficha **Básico**:
 
-   ![](images/create-project.png){width="650" align="left"}
+   ![](images/create-project.png){width="650"}
 
    - Escriba el **Título**, la **Descripción** y la **Fecha de vencimiento** de su proyecto.
 
@@ -76,4 +76,4 @@ Siga estos pasos para crear un proyecto DITA:
 1. Seleccione **Abrir** para abrir la página de su proyecto.
 
 
-**Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)
+**Tema principal:**[ Introducción a la revisión](review.md)

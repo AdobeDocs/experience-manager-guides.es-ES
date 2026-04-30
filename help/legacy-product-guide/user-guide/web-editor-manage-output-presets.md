@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: 4e9cd1d5-1c28-4363-917d-f58511c4f809
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Realice los siguientes pasos para crear un ajuste preestablecido de salida para 
 1. Seleccione la opción **Editar temas** en el menú **Opciones** del archivo de asignación. El archivo de asignación se abre para editarlo en el Editor Web.
 1. En la ficha **Output**, seleccione el icono + para crear un ajuste preestablecido de salida para el mapa DITA.
 
-   ![](images/add-global-output-preset.png){width="350" align="left"}
+   ![](images/add-global-output-preset.png){width="350"}
 
 1. Escriba los siguientes detalles en el cuadro de diálogo **Agregar ajuste preestablecido**:
    - Tipo
@@ -54,4 +54,4 @@ También puede realizar las siguientes operaciones en el ajuste preestablecido d
 >
 > Cuando se elimina un ajuste preestablecido de salida en Perfiles globales y de carpeta, se reflejará en todas las asignaciones relacionadas y no aparecerá en la pestaña **Output**.
 
-**Tema principal:**&#x200B;[&#x200B; Trabajar con el editor web](web-editor.md)
+**Tema principal:**[ Trabajar con el editor web](web-editor.md)

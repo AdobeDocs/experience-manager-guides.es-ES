@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: fe7b3b8d-a4bd-43d2-ad20-49fa6c258b7d
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -24,15 +24,15 @@ Siga estos pasos para crear un tema de Markdown desde el Editor web:
 1. Crear **tema de Markdown** de una de las siguientes maneras:
    1. Haga clic en el icono **Crear archivo DITA** en la esquina superior derecha del panel Repositorio y, a continuación, seleccione **Tema de Markdown** en la lista desplegable.
 
-   ![](images/create-markdown-dita-topic.png){width="550" align="left"}
+   ![](images/create-markdown-dita-topic.png){width="550"}
 
    1. Seleccione **Crear** en el menú Opciones de la carpeta seleccionada y, a continuación, seleccione **Tema de marcado** en la lista desplegable.
 
-   ![](images/create-markdown-options-menu.png){width="550" align="left"}
+   ![](images/create-markdown-options-menu.png){width="550"}
 
 1. Escriba el nombre y la ruta del tema Markdown en el cuadro de diálogo **Crear nuevo tema de Markdown**.
 
-![](images/create-markdown-dialog.png){width="350" align="left"}
+![](images/create-markdown-dialog.png){width="350"}
 
 1. Haga clic en **Crear**.
 
@@ -62,4 +62,4 @@ Siga estos pasos para crear un tema de Markdown desde el Editor web:
 >
 > Si no ha guardado los cambios, aparecerá una ventana emergente y se le pedirá que guarde el tema antes de cerrarlo.
 
-**Tema principal:**&#x200B;[&#x200B; Trabajar con el editor web](web-editor.md)
+**Tema principal:**[ Trabajar con el editor web](web-editor.md)

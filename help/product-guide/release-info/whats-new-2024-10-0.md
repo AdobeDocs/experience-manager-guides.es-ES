@@ -2,9 +2,10 @@
 title: Notas de versión | Novedades de la versión 2024.10.0 de Adobe Experience Manager Guides
 description: Obtenga información sobre las funciones nuevas y mejoradas de la versión 2024.10.0 de Adobe Experience Manager Guides
 role: Leader
-source-git-commit: b5ee4610811209719c7f0ff4bd03d8ae55f2d934
+exl-id: 13135928-f0fe-4147-83ac-8b06ca241ed7
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1026'
 ht-degree: 1%
 
 ---
@@ -40,16 +41,16 @@ Experience Manager Guides también proporciona algunas mejoras útiles en los fr
 
 Ahora, la publicación de fragmentos de contenido solo reemplaza el contenido asignado en lugar de sobrescribir el fragmento de contenido completo. Esta función permite que un fragmento de contenido contenga datos de varias fuentes, como varios temas o el editor de fragmentos de contenido.
 
-![Agregue el modelo de fragmento y los detalles de asignación en el cuadro de diálogo Publish como fragmento de contenido](assets/content-fragment-mapping.png)
+![Agregue el modelo de fragmento y los detalles de asignación en el cuadro de diálogo Publicar como fragmento de contenido](assets/content-fragment-mapping.png)
 
-Para obtener más información, vea [Fragmentos de contenido de Publish](../user-guide/publish-content-fragment.md).
+Para obtener más información, vea [Publicar fragmentos de contenido](../user-guide/publish-content-fragment.md).
 
 
-### Variantes de fragmentos de experiencias de Publish basadas en filtros de condición
+### Publicar variantes de fragmentos de experiencias basadas en filtros de condición
 
 Experience Manager Guides permite publicar un tema o sus elementos en un Fragmento de experiencia. Ahora, también puede crear variantes de Fragmento de experiencia utilizando los filtros DITAVAL o de condición y reutilizarlas en diferentes canales o para diferentes audiencias.
 
-Obtenga más información sobre cómo [Fragmentos de experiencias de Publish](../user-guide/publish-experience-fragment.md).
+Obtenga más información sobre cómo [publicar fragmentos de experiencias](../user-guide/publish-experience-fragment.md).
 
 
 ### Ajuste preestablecido de AEM Sites reorganizado para facilitar su uso
@@ -76,17 +77,17 @@ Si se hace referencia al mismo tema más de una vez en un archivo, puede agregar
 
 ![Ajuste preestablecido de AEM Sites heredado](assets/aem-sites-legacy.png)
 
-*Especifique el contexto de publicación para los temas vinculados desde la ficha **Referencias de mapas cruzados**&#x200B;del ajuste preestablecido **AEM Sites**.*
+*Especifique el contexto de publicación para los temas vinculados desde la ficha **Referencias de mapas cruzados**del ajuste preestablecido **AEM Sites**.*
 
 Más información sobre [Ajustes preestablecidos de AEM Sites](../user-guide/generate-output-aem-site.md).
 
-### Opción para elegir una jerarquía de archivos plana o anidada para la salida de HTML 5
+### Opción para elegir una jerarquía de archivos plana o anidada para la salida de HTML5
 
 Ahora, Experience Manager Guides le permite conservar la jerarquía de carpetas plana para los archivos temporales en los que todo el contenido se publica en formato de salida HTML5 y se guarda en una sola carpeta.
 Si no decide acoplar la jerarquía de archivos, la salida de HTML5 se genera en una jerarquía de carpetas anidada. Esto implica que la estructura de carpetas original del contenido, con archivos organizados en subcarpetas, se replica en la salida. Esta jerarquía de carpetas anidada permite una organización y categorización de archivos más complejas, lo que facilita la administración y la navegación por grandes volúmenes de datos.
 
 
-Obtenga más información sobre cómo [generar la salida de HTML5](../user-guide/generate-output-html5.md).
+Más información sobre cómo [generar la salida de HTML5](../user-guide/generate-output-html5.md).
 
 
 ## Mejoras del editor
@@ -114,10 +115,6 @@ Aprenda a [abrir archivos bloqueados en los modos Autor y Source](../user-guide/
 
 Experience Manager Guides ahora le permite agrupar condiciones y presentarlas en una jerarquía anidada, lo que le permite agregar varias condiciones a un solo grupo. Al agrupar las condiciones, puede organizarlas y aplicarlas mejor en todo el contenido.
 
-![condiciones organizadas en una jerarquía anidada](assets/conditions-nested-hierarchy.png){width="300" align="left"}
+![condiciones organizadas en una jerarquía anidada](assets/conditions-nested-hierarchy.png){width="300"}
 
 Obtenga más información acerca de la descripción de la característica **Condiciones** en la sección [Panel izquierdo](../user-guide/web-editor-features.md#id2051EA0M0HS).
-
-
-
-

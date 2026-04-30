@@ -4,9 +4,9 @@ description: Aprenda a dirigir comentarios de revisión como autor en AEM Guides
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Un autor puede dirigir comentarios en un documento desde el editor. Se proporcio
 >
 > Al dirigirse a los comentarios de revisión \(para un documento de revisión activo\), asegúrese de no abrir el tema de revisión en varias pestañas con la vista de etiquetas completa habilitada, no cambie entre los modos de vista Autor y Source.
 
-![](images/comments-page-web-editor_cs-new.png){align="left"}
+![](images/comments-page-web-editor_cs-new.png)
 
 En el Editor, el panel derecho contiene los iconos Revisar y Rastrear cambios. El panel Revisar muestra todos los comentarios realizados en el documento por los revisores. El panel **Rastrear cambios** muestra el estado de todos los comentarios insertados y eliminados del documento.
 
@@ -53,11 +53,11 @@ En el Editor, el panel derecho contiene los iconos Revisar y Rastrear cambios. E
 
   Si desea incorporar el cambio sugerido \(inserción o eliminación\) de uno en uno, simplemente haga clic con el botón derecho en el comentario del contenido y seleccione Aceptar cambio o Rechazar cambio. Según su selección, el comentario se acepta o se rechaza. En caso de comentarios aceptados, el contenido se añade al contenido; y en caso de rechazo, se elimina del contenido. Además, el estado del comentario cambia en el panel Revisar.
 
-  ![](images/import-comment-accept-web-editor_cs-new.png){align="left"}
+  ![](images/import-comment-accept-web-editor_cs-new.png)
 
   También puede utilizar el panel Control de cambios para aceptar o rechazar comentarios. Al seleccionar cualquier comentario, se resalta el comentario en el documento.
 
-  ![](images/changes-tab_cs-new.png){align="left"}
+  ![](images/changes-tab_cs-new.png)
 
   >[!IMPORTANT]
   >
@@ -71,7 +71,7 @@ En el Editor, el panel derecho contiene los iconos Revisar y Rastrear cambios. E
 
 - **I**: aplique un filtro en los comentarios. Puede filtrar para ver los comentarios basándose en el Tipo de revisión \(todas, resaltadas, eliminadas, insertadas o notas adhesivas\), Estado de la revisión \(todas, aceptadas, rechazadas o ninguna\), Revisores \(todos los revisores o revisores específicos\)\) o Versiones del tema. De forma predeterminada, no se selecciona ninguno de los filtros.
 
-  ![](images/review-comments-author-filter.png){width="350" align="left"}
+  ![](images/review-comments-author-filter.png){width="350"}
   **Responder a un comentario al etiquetar a otros usuarios**
 
 Como autor e iniciador de la tarea de revisión, puede responder para revisar los comentarios y etiquetar a otros usuarios implicados en la misma tarea de revisión para dirigir su atención o asignar seguimientos. Esta funcionalidad solo está disponible para tareas de revisión activas.
@@ -80,7 +80,7 @@ Como autor e iniciador de la tarea de revisión, puede responder para revisar lo
 >
 > Para ver la lista de usuarios asignados a una tarea de revisión y etiquetarlos en un comentario, debe tener acceso de *Lectura* en `/home/users and /home/groups` nodos. Para obtener más información, vea [Administración de usuarios y seguridad](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Si el etiquetado sigue sin estar disponible después de confirmar el acceso, es posible que el administrador deba asignar una licencia de `user-admin` para habilitar esta funcionalidad.
 
-![](images/tag-users-review.png){width="350" align="left"}
+![](images/tag-users-review.png){width="350"}
 *Pie de ilustración:Tag usuarios como iniciador/Autor*
 
 Los usuarios etiquetados reciben un correo electrónico y una notificación de AEM, lo que garantiza que se les informe rápidamente. Para obtener más información sobre el déclencheur de las notificaciones de revisión, consulte [Explicación de las notificaciones de revisión](./review-understanding-review-notifications.md).
@@ -89,6 +89,6 @@ Los usuarios etiquetados reciben un correo electrónico y una notificación de A
 
 Si usted es el iniciador o el autor de una tarea de revisión y la abre desde la **consola Proyectos**, el tema se iniciará en la interfaz de usuario de revisión. Debido a que esta tarea no está asignada a usted, puede ver los comentarios y responder a ellos, pero no puede realizar ninguna acción de revisión. La barra de herramientas de comentarios permanece desactivada para los usuarios que no están asignados a la tarea.
 
-![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
+![](images/review-comments-toolbar-disabled.png){width="350"}
 
-**Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)
+**Tema principal:**[ Introducción a la revisión](review.md)

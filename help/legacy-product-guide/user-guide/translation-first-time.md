@@ -5,9 +5,9 @@ feature: Translation
 role: User
 hide: true
 exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1315'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Tenga en cuenta el siguiente punto para traducir contenido:
 
 La siguiente ilustración muestra un ejemplo de una estructura de carpetas en AEM cuando ha utilizado globalmente contenido y tres copias de idioma.
 
-![](images/aem-directory_structure.png){width="800" align="left"}
+![](images/aem-directory_structure.png){width="800"}
 
 ## Configuración del servicio de traducción
 
@@ -50,7 +50,7 @@ Realice los siguientes pasos para configurar el servicio de traducción humana o
 
    >[!NOTE]
    >
-   > Consulte [Configuración del marco de trabajo de integración de traducciones](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=es) en la documentación de AEM para obtener más información sobre la integración con servicios de traducción de terceros.
+   > Consulte [Configuración del marco de trabajo de integración de traducciones](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) en la documentación de AEM para obtener más información sobre la integración con servicios de traducción de terceros.
 
 1. Haga clic en **Guardar y cerrar** para guardar las propiedades actualizadas de la carpeta.
 
@@ -107,7 +107,7 @@ Siga estos pasos para crear un proyecto de traducción:
 
    Se crea un nuevo proyecto de traducción con la versión seleccionada de los temas. En este momento, se muestra un mensaje emergente que confirma que se ha creado el proyecto de traducción. Una vez que todas las copias de idioma de destino estén disponibles en el proyecto de traducción, recibirá una notificación en la bandeja de entrada. Una vez que las copias de idioma de destino estén disponibles en el proyecto de traducción, puede continuar e iniciar el trabajo de traducción.
 
-   ![](images/status-translation-uuid.png){width="800" align="left"}
+   ![](images/status-translation-uuid.png){width="800"}
 
 
 La pestaña Traducción tiene las siguientes secciones:
@@ -141,4 +141,4 @@ Una vez finalizada la traducción, el estado del trabajo de traducción cambia a
 >
 > Si rechaza la traducción de uno o más temas de un trabajo de traducción, el estado de traducción de **En curso** de todos los temas rechazados vuelve a su estado original. El estado de los temas referidos se comprueba y revierte según el estado de traducción más reciente. Además, los archivos de traducción creados en el proyecto de destino no se eliminan aunque la traducción se rechace para ellos.
 
-**Tema principal:**&#x200B;[&#x200B; Traducir contenido](translation.md)
+**Tema principal:**[ Traducir contenido](translation.md)

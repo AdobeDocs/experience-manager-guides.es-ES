@@ -4,9 +4,9 @@ description: Obtenga información acerca de la consola Mapa y las distintas func
 feature: Publishing
 role: User
 exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
-source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Adobe Experience Manager Guides ofrece una consola específica, conocida como **consola de mapas**, para optimizar la administración de mapas y las tareas de publicación. Esta interfaz centralizada mejora la productividad y la precisión de las actividades relacionadas con los mapas al proporcionarle opciones para generar resultados, traducir contenido, acceder a informes y mucho más, todo en un solo lugar.
 
-![ficha de opciones de propiedades de archivo](./images/map-console-screen.png){align="left"}
+![ficha de opciones de propiedades de archivo](./images/map-console-screen.png)
 
 La interfaz de la consola Mapa se divide principalmente en dos secciones: **Barra de navegación** y **Panel izquierdo**.
 
-![Nuevo](images/map-console-sections.png){align="left"}
+![Nuevo](images/map-console-sections.png)
 
 - (**A**) **Barra de navegación**: La barra de navegación muestra las herramientas para cambiar la navegación, ajustar la vista de página y muestra el nombre del archivo de mapa seleccionado.
 

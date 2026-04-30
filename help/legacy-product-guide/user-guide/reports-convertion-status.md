@@ -5,9 +5,9 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: f6bf1033-9c2f-42c7-9ad5-e1060e2c9770
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Siga estos pasos para ver el informe de estado de conversión:
 
    El informe de estado de conversión se muestra para todas las tareas de conversión ejecutadas en el sistema.
 
-   ![](images/conversion-status-report.png){width="800" align="left"}
+   ![](images/conversion-status-report.png){width="800"}
 
 1. La página del informe se divide en dos partes:
 
@@ -36,7 +36,7 @@ Siga estos pasos para ver el informe de estado de conversión:
 
      La siguiente captura de pantalla muestra los datos del informe de las tareas de conversión que tienen los estados Error, Activo y En cola.
 
-     ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
+     ![](images/conversion-report-failed-active-queued.png){width="800"}
 
    - **Datos del informe:**
 
@@ -57,4 +57,4 @@ Siga estos pasos para ver el informe de estado de conversión:
       - **Salida**: ruta del documento convertido correctamente. Al hacer clic en el vínculo Output, se le lleva a la ubicación en la que se guarda la salida.
 
 
-**Tema principal:**&#x200B;[&#x200B; Informes](reports-intro.md)
+**Tema principal:**[ Informes](reports-intro.md)

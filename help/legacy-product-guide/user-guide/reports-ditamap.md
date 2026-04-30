@@ -5,9 +5,9 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 044fb5df-166d-44a2-9ed6-6db47e4f125e
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Siga estos pasos para ver el informe de mapa DITA:
 
 1. Haga clic en **Informes**.
 
-   ![](images/reports-page-uuid.png){width="800" align="left"}
+   ![](images/reports-page-uuid.png){width="800"}
 
    La página Informes está dividida en dos partes:
 
@@ -38,7 +38,7 @@ Siga estos pasos para ver el informe de mapa DITA:
 
      Al hacer clic en un tema, se muestra un informe detallado del tema seleccionado.
 
-     ![](images/detailed-report-uuid.png){width="800" align="left"}
+     ![](images/detailed-report-uuid.png){width="800"}
 
      A continuación se describen los elementos resaltados bajo **A**, **B**, **C** y **D**:
 
@@ -81,19 +81,19 @@ Siga estos pasos para generar el CSV de un informe de mapa DITA:
 
 1. Haga clic en **Generar informe** en la parte superior izquierda para generar el informe de asignación DITA.
 
-   ![](images/generate-DITA-map-report.png){width="800" align="left"}
+   ![](images/generate-DITA-map-report.png){width="800"}
 
 1. Recibirá una notificación una vez que el informe esté listo para descargarse. Haga clic en **Descargar** para descargar el archivo CSV del informe generado.
 
-   ![](images/download-report-dialog.png){width="550" align="left"}
+   ![](images/download-report-dialog.png){width="550"}
 
 
    También puede descargar el CSV del informe generado más adelante desde la bandeja de entrada de notificaciones de AEM.
 
    Haga clic en el informe generado en la bandeja de entrada para descargar el informe.
 
-   ![](images/report-inbox--notification.png){width="300" align="left"}
+   ![](images/report-inbox--notification.png){width="300"}
 
 Una vez descargado el informe en la bandeja de entrada, también puede seleccionarlo y utilizar el icono Abrir de la parte superior para abrir el informe seleccionado.
 
-**Tema principal:**&#x200B;[&#x200B; Informes](reports-intro.md)
+**Tema principal:**[ Informes](reports-intro.md)

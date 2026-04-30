@@ -4,9 +4,9 @@ description: Habla sobre la creación de un tema en Formación y aprendizaje de 
 feature: Authoring
 role: User
 exl-id: a08a165d-801b-4b35-9626-b27471349327
-source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '130'
 ht-degree: 1%
 
 ---
@@ -23,17 +23,17 @@ Siga estos pasos para agregar un tema a un curso:
 
 1. Abra un curso en **Administrador de cursos** y seleccione **Agregar nuevo** en el menú **Opciones**.
 
-   ![](assets/workflow-learning-content.png){width="650" align="left"}
+   ![](assets/workflow-learning-content.png){width="650"}
 
 1. Seleccionar **Tema**.
 
    Se muestra el diálogo **Nuevo tema de aprendizaje**.
 
-   ![](assets/new-learning-topic-dialog.png){width="350" align="left"}
+   ![](assets/new-learning-topic-dialog.png){width="350"}
 
 1. Seleccione la plantilla que desee en el menú desplegable.
 
-   ![](assets/template-types-lc.png){width="350" align="left"}
+   ![](assets/template-types-lc.png){width="350"}
 
 1. Proporcione un título adecuado para el Tema.
 1. Seleccione **Crear**.

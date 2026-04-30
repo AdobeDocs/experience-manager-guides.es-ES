@@ -5,9 +5,9 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
-source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Antes de continuar con la configuración, asegúrese de que se cumplen los sigui
 ## Instalación de paquetes mediante el Administrador de paquetes de CRX
 
 1. **Instalar el paquete de componentes:**
-   1. Vaya a [**Administrador de paquetes CRX**](http://&lt;your-aem-instance>/crx/packmgr).
+   1. Vaya a [**Administrador de paquetes CRX**](http://<your-aem-instance>/crx/packmgr).
    2. Cargue e instale el paquete on-premise-guides-components.all-1.x.0.zip.
 
 2. **Instale el paquete de Sites:** Cargue e instale el paquete aemg-docs.all-1.x.0.zip mediante el Administrador de paquetes de CRX.
@@ -52,7 +52,7 @@ Antes de continuar con la configuración, asegúrese de que se cumplen los sigui
    5. Desmarque la opción **Usar asignación de componentes heredados**.
    6. Seleccione **Agregar** para crear el ajuste preestablecido.
 
-      ![Nuevo cuadro de diálogo de ajustes preestablecidos de salida](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
+      ![Nuevo cuadro de diálogo de ajustes preestablecidos de salida](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350"}
 
 
 2. **Configurar ajuste preestablecido del sitio de AEM:** Hay dos opciones para configurar el sitio predeterminado (OOTB):
@@ -64,14 +64,14 @@ Antes de continuar con la configuración, asegúrese de que se cumplen los sigui
       - Ruta de publicación: `aemg-docs/en/docs/product1`
       - Plantilla de página de tema: Página de tema.
 
-      ![Usar menú desplegable del sitio](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350" align="left"}
+      ![Usar menú desplegable del sitio](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350"}
 
    **Opción 2: usar la ruta del sitio**
 
    1. Establecer la **ruta del sitio** manualmente como `/content/aemg-docs/en/docs/product1`.
    2. Compruebe que **Plantilla de página de tema** se establece automáticamente como Página de tema.
 
-      ![Usar ruta de acceso al sitio](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
+      ![Usar ruta de acceso al sitio](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350"}
 
 3. **Guardar el ajuste preestablecido:** Guarde los cambios realizados en el ajuste preestablecido.
 
@@ -86,11 +86,11 @@ Antes de continuar con la configuración, asegúrese de que se cumplen los sigui
    2. Cree una nueva página de producto en la estructura del sitio OOTB.
    3. Vaya a **Documentos de AEMG** > **Inglés** > **Documentos**.
 
-      ![Crear página en la estructura del sitio de AEM &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
+      ![Crear página en la estructura del sitio de AEM ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350"}
 
    4. Seleccione el mosaico **Página de inicio** y, a continuación, seleccione **Siguiente**.
 
-      ![Seleccionar mosaico de página principal](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350" align="left"}
+      ![Seleccionar mosaico de página principal](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350"}
 
    5. Escriba **Title** y **Name** para la página.
    6. Seleccione **Crear**.

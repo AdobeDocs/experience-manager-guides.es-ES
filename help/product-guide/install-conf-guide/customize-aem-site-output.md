@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
-source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '3190'
 ht-degree: 1%
@@ -65,7 +65,7 @@ Las siguientes pestañas proporcionan instrucciones para especificar su propia p
 
    `/libs/fmdita/config/templates/`
 
-   ![](assets/templates-node.png){width="300" align="left"}
+   ![](assets/templates-node.png){width="300"}
 
    >[!NOTE]
    >
@@ -98,7 +98,7 @@ Las propiedades de la plantilla de diseño de AEM Guides se describen en la tabl
 >
 > Después de crear un nodo de plantilla de diseño personalizado, debe actualizar la opción Diseño en los ajustes preestablecidos de salida del sitio de AEM para utilizar el nodo de plantilla de diseño personalizado.
 
-Para obtener más información, consulte [Creación de su primer sitio web de Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=es) y [Aspectos básicos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=es) del desarrollo de su propio sitio web en AEM.
+Para obtener más información, consulte [Creación de su primer sitio web de Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en) y [Aspectos básicos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) del desarrollo de su propio sitio web en AEM.
 
 ## Usar título de documento para generar salida del sitio de AEM
 
@@ -329,7 +329,7 @@ Ahora, cuando genere la salida del sitio de AEM, los nodos dentro del elemento `
 
 Ahora, cuando genere la salida del sitio de AEM, los nodos dentro del elemento `p` se acoplan y almacenan dentro del propio elemento `p`. Puede encontrar las nuevas propiedades de acoplamiento para el elemento `p` en CRXDE.
 
-![](assets/flatten-aem-site-note-props-crxde.png){width="650" align="left"}
+![](assets/flatten-aem-site-note-props-crxde.png){width="650"}
 
 >[!ENDTABS]
 
@@ -363,7 +363,7 @@ Para excluir el elemento `table` del acoplamiento, agregue la siguiente propieda
 
 ## Configuración de las versiones para las páginas eliminadas en la salida del sitio de AEM
 
-Cuando genera la salida del sitio de AEM con la opción **Eliminar y** Crear **&#x200B;**&#x200B;seleccionada para la configuración Páginas de salida existentes, se crea una versión para las páginas que se están eliminando. Puede configurar el sistema para que detenga la creación de una versión antes de la eliminación.
+Cuando genera la salida del sitio de AEM con la opción **Eliminar y** Crear ****seleccionada para la configuración Páginas de salida existentes, se crea una versión para las páginas que se están eliminando. Puede configurar el sistema para que detenga la creación de una versión antes de la eliminación.
 
 Las siguientes pestañas proporcionan instrucciones para detener la creación de una versión para la página que se está eliminando en función de la configuración de Experience Manager Guides: Cloud Service o Local.
 
