@@ -31,4 +31,4 @@ Siga estos pasos para generar resultados para documentos de FrameMaker:
 >
 > Puede ver el estado actual de la solicitud de generación de resultados haciendo clic en Salidas. Para obtener más información, vea [Ver el estado de la tarea de generación de resultados](fm-output-view-status.md).
 
-**Tema principal:**[ Generar salida de documentos de FrameMaker](fm-output-generatation.md)
+**Tema principal:**&#x200B;[&#x200B; Generar salida de documentos de FrameMaker](fm-output-generatation.md)

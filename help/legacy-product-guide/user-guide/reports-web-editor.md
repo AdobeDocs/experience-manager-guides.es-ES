@@ -115,7 +115,7 @@ El informe **Multimedia** proporciona información detallada acerca de los archi
 1. Haga doble clic en **Multimedia** a la izquierda. Se mostrará la lista de elementos multimedia presentes en el mapa DITA.
 1. Desde el panel **Filtros** puede ordenar la lista por contenido multimedia o por los nombres de los elementos utilizados en las referencias.
 
-   - Cuando ordena por **Multimedia**, el****nombre del multimedia se muestra en la primera columna y, a continuación, los nombres de todas las referencias en las que se han utilizado se muestran en otra columna de la misma fila. Por ejemplo, la siguiente captura de pantalla muestra el archivo multimedia WarmCoolForC.gif en la primera columna y las tres referencias en las que se utiliza se muestran en la tercera columna de la misma fila.
+   - Cuando ordena por **Multimedia**, el&#x200B;**&#x200B;**&#x200B;nombre del multimedia se muestra en la primera columna y, a continuación, los nombres de todas las referencias en las que se han utilizado se muestran en otra columna de la misma fila. Por ejemplo, la siguiente captura de pantalla muestra el archivo multimedia WarmCoolForC.gif en la primera columna y las tres referencias en las que se utiliza se muestran en la tercera columna de la misma fila.
 
      ![](images/multimedia-report-file-order.png){width="650"}
 
@@ -194,4 +194,4 @@ Haga clic en **Actualizar** para obtener una nueva lista de vínculos rotos y ve
 1. Haga clic en **Descargar CSV** para descargar la instantánea actual de los vínculos rotos en el mapa DITA. El CSV contiene las columnas seleccionadas y los vínculos rotos filtrados en la vista Vínculos rotos. A continuación, puede abrir y ver este archivo CSV en cualquier editor CSV.
 
 
-**Tema principal:**[ Informes](reports-intro.md)
+**Tema principal:**&#x200B;[&#x200B; Informes](reports-intro.md)

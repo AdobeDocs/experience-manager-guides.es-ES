@@ -208,7 +208,7 @@ Realice los siguientes pasos para configurar las opciones de conexión en el com
 
 1. En el panel AEM Guides, haga clic en el icono de configuración y, a continuación, seleccione **Configuración**.
 
-   ![Configuración de conexión ](images/settings.png){width="800"}
+   ![Configuración de conexión &#x200B;](images/settings.png){width="800"}
 
 1. Especifique los siguientes detalles:
    - **URL del servidor**: URL del servidor de AEM, por ejemplo:

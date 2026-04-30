@@ -31,7 +31,7 @@ Un fragmento de experiencia es una unidad de contenido modular dentro de Adobe E
 
 ![ficha de opciones de propiedades de archivo](./assets/file-properties-outputs-4-6.png) {width="300"}
 
-*Publicar y ver los fragmentos de experiencias de un tema desde la sección **Salidas**en las **Propiedades del archivo**.*
+*Publicar y ver los fragmentos de experiencias de un tema desde la sección **Salidas**&#x200B;en las **Propiedades del archivo**.*
 
 Ahora, Experience Manager Guides le permite publicar un tema o sus elementos en un Fragmento de experiencia. Puede crear una asignación basada en JSON entre un tema o sus elementos y una plantilla de fragmento de experiencia. También puede crear variaciones de Fragmento de experiencia utilizando los filtros de condición.
 
@@ -82,7 +82,7 @@ Si se hace referencia al mismo tema más de una vez en un archivo, puede agregar
 
 ![Ajuste preestablecido de AEM Sites heredado](assets/aem-sites-legacy.png)
 
-*Especifique el contexto de publicación para los temas vinculados desde la ficha **Referencias de mapas cruzados**del ajuste preestablecido **AEM Sites**.*
+*Especifique el contexto de publicación para los temas vinculados desde la ficha **Referencias de mapas cruzados**&#x200B;del ajuste preestablecido **AEM Sites**.*
 
 
 
@@ -188,7 +188,7 @@ Ahora tiene una mejor experiencia al filtrar archivos. La funcionalidad renovada
 
 Disfrute de ventajas como un acceso más rápido a los archivos relevantes y una interfaz de usuario más intuitiva, lo que hace que su experiencia de búsqueda sea más fluida y eficiente.
 
-![filtro de búsqueda rápida ](assets/repository-filter-search-quick.png) {width="300"}
+![filtro de búsqueda rápida &#x200B;](assets/repository-filter-search-quick.png) {width="300"}
 
 *Utilice los filtros rápidos para buscar archivos DITA y no DITA.*
 

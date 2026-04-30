@@ -125,4 +125,4 @@ Para abrir el Editor Web desde la consola de mapas DITA, siga estos pasos:
    > Si el administrador ha configurado la opción **Deshabilitar edición sin desprotección**, debe desproteger el archivo antes de editarlo. Si no desprotege el archivo, el documento se abrirá en el editor en modo de solo lectura.
 
 
-**Tema principal:**[ Trabajar con el editor web](web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Trabajar con el editor web](web-editor.md)

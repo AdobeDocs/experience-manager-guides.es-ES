@@ -120,4 +120,4 @@ Puede desactivar la característica para localizar el archivo con la opción **B
 >
 >A partir de la versión 2025.11.0, el nombre de la opción **Buscar siempre los archivos en el repositorio** cambiará a **Buscar siempre los archivos en el explorador**. Para la configuración On-Premise, sigue estando disponible como Localizar siempre archivos en el repositorio hasta la versión 5.1 de Experience Manager Guides.
 
-**Tema principal:**[ Trabajar con el editor](web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Trabajar con el editor](web-editor.md)

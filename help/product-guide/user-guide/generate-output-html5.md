@@ -108,4 +108,4 @@ Por ejemplo, **Ruta de salida/Ruta de destino** - Aquí, **Ruta de salida** es l
 
 
 
-**Tema principal:**[ Explicación de los ajustes preestablecidos de salida](generate-output-understand-presets.md)
+**Tema principal:**&#x200B;[&#x200B; Explicación de los ajustes preestablecidos de salida](generate-output-understand-presets.md)

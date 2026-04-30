@@ -49,7 +49,7 @@ Realice los siguientes pasos para crear el ajuste preestablecido de AEM Sites me
    Se crea el ajuste preestablecido de AEM Sites.
 
 
-   ![Nuevo ](images/new-aem-sites-dialog-box.png){width="300"}
+   ![Nuevo &#x200B;](images/new-aem-sites-dialog-box.png){width="300"}
 
 <!--
 ### Generate the AEM Sites output using the templates
@@ -88,7 +88,7 @@ En la consola Mapa, las opciones de configuración preestablecidas para la asign
 - Lista de temas
 - Referencias entre mapas
 
-![Nuevo ](images/aem-sites-new-config.png){width="650"}
+![Nuevo &#x200B;](images/aem-sites-new-config.png){width="650"}
 
 **General**
 
@@ -153,7 +153,7 @@ En la consola Mapa, las opciones de configuración preestablecidas para la asign
 - Contenido
 - Referencias entre mapas
 
-![Nuevo ](images/aem-sites-preset-legacy-config.png){width="500"}
+![Nuevo &#x200B;](images/aem-sites-preset-legacy-config.png){width="500"}
 
 **General**
 
@@ -171,7 +171,7 @@ La ficha **General** contiene las siguientes opciones de configuración:
 
 **Contenido**
 
-![Nuevo ](images/aem-sites-content-tab.png){width="650"}
+![Nuevo &#x200B;](images/aem-sites-content-tab.png){width="650"}
 
 La pestaña **Content** contiene las siguientes opciones de configuración:
 

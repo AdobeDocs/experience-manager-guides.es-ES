@@ -65,4 +65,4 @@ Siga estos pasos para ver el informe de reutilización de contenido:
 >
 > También puede exportar el informe de reutilización de contenido en formato CSV. Para ello, haga clic en el vínculo Export a CSV en la esquina superior izquierda de la pantalla y seleccione una ubicación para guardar el archivo CSV. A continuación, puede abrir este archivo CSV en cualquier editor CSV.
 
-**Tema principal:**[ Informes](reports-intro.md)
+**Tema principal:**&#x200B;[&#x200B; Informes](reports-intro.md)

@@ -266,4 +266,4 @@ Para ver el informe de los vínculos rotos, siga estos pasos:
 1. Seleccione **Descargar** para descargar la instantánea de todos los vínculos rotos del mapa DITA. El archivo de Excel contiene las columnas seleccionadas y los vínculos rotos filtrados en la vista Vínculos rotos.
 
 
-**Tema principal:**[ Introducción a los informes](reports-intro.md)
+**Tema principal:**&#x200B;[&#x200B; Introducción a los informes](reports-intro.md)
