@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Los archivos DITAVAL se utilizan para generar una salida condicional. En un solo tema, puede añadir condiciones utilizando atributos de elemento para condicionar el contenido. A continuación, se crea un archivo DITAVAL en el que se especifican las condiciones que deben recopilarse para generar contenido y qué condición debe excluirse de la salida final.
 
-Adobe Experience Manager Guides permite crear y editar fácilmente archivos DITAVAL con el editor DITAVAL. El editor DITAVAL recupera los atributos (que pueden utilizarse como condiciones) definidos en el sistema y puede utilizarlos para crear o editar ficheros DITAVAL. Para obtener más información acerca de la creación y administración de condiciones en Adobe Experience Manager, consulte la sección [Administración de etiquetas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) en la documentación de Adobe Experience Manager.
+Adobe Experience Manager Guides permite crear y editar fácilmente archivos DITAVAL con el editor DITAVAL. El editor DITAVAL recupera los atributos (que pueden utilizarse como condiciones) definidos en el sistema y puede utilizarlos para crear o editar ficheros DITAVAL. Para obtener más información acerca de la creación y administración de condiciones en Adobe Experience Manager, consulte la sección [Administración de etiquetas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=es) en la documentación de Adobe Experience Manager.
 
 Las secciones siguientes describen las opciones disponibles para un archivo DITAVAL en Experience Manager Guides.
 

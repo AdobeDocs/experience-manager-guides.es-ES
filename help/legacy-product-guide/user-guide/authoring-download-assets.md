@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Descargar archivos {#id216MC0H0BE8}
 
-Puede descargar recursos, incluidos archivos DITA y no DITA. Existen varias formas de descargar recursos, algunos son nativos de AEM y otros son compatibles con AEM Guides. Para obtener información de descarga de recursos nativos de AEM, consulte [Descargar recursos de Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) en la documentación de AEM. En la siguiente sección se explica el mecanismo de descarga de archivos mediante la consola de mapas DITA en AEM Guides.
+Puede descargar recursos, incluidos archivos DITA y no DITA. Existen varias formas de descargar recursos, algunos son nativos de AEM y otros son compatibles con AEM Guides. Para obtener información de descarga de recursos nativos de AEM, consulte [Descargar recursos de Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=es) en la documentación de AEM. En la siguiente sección se explica el mecanismo de descarga de archivos mediante la consola de mapas DITA en AEM Guides.
 
 ## Exportación de un fichero de mapa DITA
 

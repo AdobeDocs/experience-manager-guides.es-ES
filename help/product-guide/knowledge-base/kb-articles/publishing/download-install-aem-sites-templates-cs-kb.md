@@ -134,4 +134,4 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
 
 >[!NOTE]
 >
-> Asegúrese de que todas las configuraciones se prueben en un entorno que no sea de producción antes de su implementación en producción. <br><br> Consulte la [Implementación en la documentación de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview) para obtener más información.
+> Asegúrese de que todas las configuraciones se prueben en un entorno que no sea de producción antes de su implementación en producción. <br><br> Consulte la [Implementación en la documentación de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/deploying/overview) para obtener más información.
