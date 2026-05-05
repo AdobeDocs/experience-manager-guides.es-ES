@@ -2,10 +2,10 @@
 title: Notas de versión | Novedades de la versión de diciembre de 2025 de Formación del producto y contenido de aprendizaje
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión de diciembre de 2025 de Formación del producto y contenido de aprendizaje
 role: Leader
-hidefromtoc: true
-source-git-commit: a5a5202d652096ef4de1db78b8638e605e9d80f4
+exl-id: 72d4fd5c-194a-4671-bcec-35fc35ff3165
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -24,19 +24,19 @@ Esta nota de la versión cubre las nuevas y mejoradas funciones introducidas en 
 
   Para obtener más información, vea [Otras opciones en el menú Insertar](../learning-content/lc-other-insert-options.md).
 
-  ![](assets/knowledge-check-topic.png){width="650" align="left"}
+  ![](assets/knowledge-check-topic.png){width="650"}
 
 - **Nuevos widgets interactivos**: puede motivar a los alumnos con algunos widgets interactivos nuevos que hacen que el contenido sea más inmersivo: **Haga clic para mostrar**, **Voltear la tarjeta** y **Tabulación**.
 
   Para obtener más información, vea [Usar widgets interactivos](../learning-content/lc-widgets.md).
 
-  ![](assets/new-widgets-options.png){width="350" align="left"}
+  ![](assets/new-widgets-options.png){width="350"}
 
 - **Coincidir con lo siguiente**: Hay disponible un nuevo tipo de pregunta, **Coincidir con lo siguiente**, para los cuestionarios. Los alumnos pueden hacer coincidir elementos de dos listas para conectar ideas relacionadas, lo que fomenta el pensamiento crítico.
 
   Para obtener más información, vea [Tipos de preguntas de prueba](../learning-content/quiz-insert-questions.md#question-types).
 
-  ![](assets/question-types.png){width="650" align="left"}
+  ![](assets/question-types.png){width="650"}
 
 ## Revisión
 
@@ -44,7 +44,7 @@ Esta nota de la versión cubre las nuevas y mejoradas funciones introducidas en 
 
   Para obtener más información, vea [Crear tarea de revisión](../learning-content/manage-course.md#create-review-task).
 
-  ![](assets/create-review-task-lc.png){width="650" align="left"}
+  ![](assets/create-review-task-lc.png){width="650"}
 
 ## Gestión de contenido
 
@@ -52,8 +52,4 @@ Esta nota de la versión cubre las nuevas y mejoradas funciones introducidas en 
 
   Para obtener más información, vea [Agregar componentes básicos](../learning-content/lc-basic-blocks.md).
 
-  ![](assets/reusable-content.png){width="650" align="left"}
-
-
-
-
+  ![](assets/reusable-content.png){width="650"}

@@ -4,9 +4,9 @@ description: Aprenda a editar temas en el Editor. Obtenga información sobre las
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: df3da8a0b4dd50ac177c3b51f04a855e9638058e
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Del mismo modo, si elimina el contenido seleccionado, se combina el contenido re
 
    - Seleccione un elemento del cuadro de diálogo. El contenido seleccionado se encuentra dentro de ese elemento. Por ejemplo, si selecciona el contenido en un párrafo y, a continuación, elige el elemento `<note>` del cuadro de diálogo **Insertar elemento**, el contenido seleccionado aparece debajo de una nota.
 
-     ![Cuadro de diálogo Insertar elemento](./images/insert-element-editor.png) {width="300" align="left"}
+     ![Cuadro de diálogo Insertar elemento](./images/insert-element-editor.png) {width="300"}
 
 ## Actualizar el explorador mientras edita los archivos
 
@@ -70,7 +70,7 @@ El panel derecho también se vuelve a abrir y muestra la misma vista que antes d
 
 Experience Manager Guides proporciona el indicador de copia de trabajo que muestra si la \(copia de trabajo\) actual del archivo está sincronizada con la versión guardada o no. Si ha realizado cambios en la copia actual y no ha guardado el archivo, aparecerá una marca \* junto con el título en la ficha de archivo del tema. Este indicador actúa como un recordatorio para guardar los cambios y desaparece al guardar el archivo.
 
-![indicador de copia de trabajo](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![indicador de copia de trabajo](images/working-copy-text-update-indicator.png){width="550"}
 
 Experience Manager Guides también indica si la última copia \(de trabajo\) guardada del archivo está sincronizada con la versión guardada o no. Si hay cambios sin guardar entre la copia de trabajo y la última versión guardada, aparecerá una marca \* junto con la información de la versión que se muestra en la esquina superior derecha de la ficha del archivo del tema. Este indicador sirve como recordatorio para guardar y crear una versión a partir de la copia \(de trabajo\) actual del archivo.
 
@@ -78,7 +78,7 @@ Experience Manager Guides también indica si la última copia \(de trabajo\) gua
 >
 > Cualquier cambio en los campos de metadatos disponibles en [Propiedades del archivo](./web-editor-right-panel.md#file-properties) también almacenará en déclencheur el indicador de la copia de trabajo en la versión del documento.
 
-![Indicador de actualización de versión](images/version-update-indicator.png){width="550" align="left"}
+![Indicador de actualización de versión](images/version-update-indicator.png){width="550"}
 
 ## Acceso a archivos bloqueados en los modos Autor y Source
 

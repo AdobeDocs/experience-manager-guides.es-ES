@@ -2,9 +2,9 @@
 title: Utilice el asistente de IA para crear documentos de forma inteligente &grave;
 description: Aprenda a utilizar el asistente de IA para crear documentos con eficiencia inteligente.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
-source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Adobe Experience Manager Guides proporciona una herramienta de asistente de IA q
 
 Después de seleccionar el texto de un tema, puede elegir realizar cualquiera de las acciones del Asistente de IA:
 
-![asistente de inteligencia artificial](./images/ai-assistant-panel.png){width="300" align="left"}
+![asistente de inteligencia artificial](./images/ai-assistant-panel.png){width="300"}
 
 ## Sugerir contenido reutilizable
 

@@ -5,9 +5,9 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 0341bdec-9635-4ced-b1c6-789b4e1aded8
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,12 @@ Del mismo modo, si elimina el contenido seleccionado, se combina el contenido re
 
    - Seleccione el contenido de un elemento.
    - Seleccione el icono ![add](images/Add_icon.svg) en la barra de herramientas secundaria de la parte superior para ver el cuadro de diálogo **Rodear con elemento**. El cuadro de diálogo muestra los elementos válidos para el contenido seleccionado.
-
      >[!NOTE]
      >
      > También puede ver el cuadro de diálogo Envolver con elemento seleccionando el menú contextual del contenido seleccionado.
 
    - Seleccione un elemento del cuadro de diálogo. El contenido seleccionado se encuentra dentro de ese elemento. Por ejemplo, si selecciona el contenido en un párrafo y, a continuación, elige el elemento `<note>` del cuadro de diálogo **Rodear con elemento**, el contenido seleccionado aparece debajo de una nota.\
-     ![cuadro de diálogo de elementos envolventes](./images/surround-element.png) {width="300" align="left"}
+     ![cuadro de diálogo de elementos envolventes](./images/surround-element.png) {width="300"}
 
 ## Actualizar el explorador mientras edita los archivos
 
@@ -71,11 +70,11 @@ El panel derecho también se vuelve a abrir y muestra la misma vista que antes d
 
 AEM Guides proporciona el indicador de copia de trabajo que muestra si la \(copia de trabajo\) actual del archivo está sincronizada con la versión guardada o no. Si ha realizado cambios en la copia actual y no ha guardado el archivo, aparecerá una marca \* junto con el título en la ficha de archivo del tema. Este indicador actúa como un recordatorio para guardar los cambios y desaparece al guardar el archivo.
 
-![indicador de copia de trabajo](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![indicador de copia de trabajo](images/working-copy-text-update-indicator.png){width="550"}
 
 AEM Guides también indica si la última copia \(de trabajo\) guardada del archivo está sincronizada con la versión guardada o no. Si hay cambios sin guardar entre la copia de trabajo y la última versión guardada, aparecerá una marca \* junto con la información de la versión que se muestra en la esquina superior derecha de la ficha del archivo del tema. Este indicador sirve como recordatorio para guardar y crear una versión a partir de la copia \(de trabajo\) actual del archivo.
 
-![Indicador de actualización de versión](images/version-update-indicator.png){width="550" align="left"}
+![Indicador de actualización de versión](images/version-update-indicator.png){width="550"}
 
 
 ## Abrir archivos bloqueados en los modos Autor y Source

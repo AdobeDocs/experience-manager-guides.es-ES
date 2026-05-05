@@ -3,9 +3,9 @@ title: Notas de versión | Novedades de la versión 5.0.0 de Adobe Experience Ma
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 5.0.0 de Adobe Experience Manager Guides
 role: Leader
 exl-id: 523667d9-fed4-4798-9554-2a27033c8027
-source-git-commit: 14641e72c4b488251c10318f4661e31b5d811cef
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1724'
 ht-degree: 0%
 
 ---
@@ -28,20 +28,20 @@ Los aspectos destacados son los siguientes:
 
   Para obtener más información, vea [Experiencia con la página principal de Adobe Experience Manager Guides](../user-guide/intro-home-page.md).
 
-  ![](assets/aem-home-page-whats-new.png){width="800" align="left"}
+  ![](assets/aem-home-page-whats-new.png){width="800"}
 
 
 - **Nueva experiencia de editor**: ahora experimenta el editor con una nueva apariencia. La interfaz del editor reformada incluye una barra de herramientas más limpia y organizada, una navegación perfecta y una experiencia intuitiva general para ayudar a crear documentos de forma más rápida y eficaz.
 
   [Conozca las características del editor](../user-guide/web-editor-features.md).
 
-  ![](assets/editor-new-ui-whats-new.png){width="800" align="left"}
+  ![](assets/editor-new-ui-whats-new.png){width="800"}
 
 - **Consola de mapas dedicada**: Presentamos la consola de mapas, una consola dedicada en la que se agrupan todas las características de administración y publicación de mapas. Ahora, tiene opciones para generar resultados, traducir contenido, crear informes y mucho más, todo dentro de una interfaz.
 
   Más información sobre la administración y publicación de [mapas](../user-guide/map-console-overview.md).
 
-  ![](assets/map-console-new-ui-whats-new.png){width="800" align="left"}
+  ![](assets/map-console-new-ui-whats-new.png){width="800"}
 
 
 
@@ -55,7 +55,7 @@ La integración también permite supervisar las colas de trabajo, asegurándose 
 
 Para obtener más información, consulte [Integración de Workfront](../user-guide/workfront-integration.md).
 
-![](assets/workfront-new.png){width="800" align="left"}
+![](assets/workfront-new.png){width="800"}
 
 
 ## Nuevo motor de publicación de AEM Sites más rápido y escalable
@@ -64,7 +64,7 @@ Experimente una publicación más rápida y escalable en AEM Sites con el nuevo 
 
 Más información sobre [publicación de AEM Sites](../user-guide/generate-output-aem-site-web-editor.md).
 
-![](assets/new-aem-sites-preset.png){width="500" align="left"}
+![](assets/new-aem-sites-preset.png){width="500"}
 
 
 ## Publicación de contenido independiente sin problemas en AEM Sites con publicación de un solo tema
@@ -73,7 +73,7 @@ Introducción a la publicación de un solo tema en páginas de AEM Sites que per
 
 Para obtener más información, vea [Publicar páginas de AEM Sites](../user-guide/publish-aem-sites.md).
 
-![](assets/aem-sites-page-generate.png){width="500" align="left"}
+![](assets/aem-sites-page-generate.png){width="500"}
 
 
 
@@ -83,7 +83,7 @@ Ahora, experimente una forma más limpia, eficiente y potente de crear temas de 
 
 Para obtener más información, consulte [Creación de Markdown](../user-guide/web-editor-markdown-topic.md).
 
-![](assets/markdown-editor.png){width="800" align="left"}
+![](assets/markdown-editor.png){width="800"}
 
 ## Mejoras del editor
 
@@ -138,14 +138,14 @@ Se han realizado las siguientes mejoras de publicación como parte de la nueva v
 
   Para obtener más información, vea [Agregar campos y metadatos en el diseño de página](../native-pdf/design-page-layout.md#add-fields-and-metadata-add-fields-metadata).
 
-  ![](assets/metadata-topic-content.png){width="300" align="left"}
+  ![](assets/metadata-topic-content.png){width="300"}
 
 
 - Se ha introducido una opción para activar o desactivar el preprocesamiento DITA-OT para la salida nativa de PDF. Active esta opción si el contenido requiere una normalización basada en DITA-OT o complementos DITA-OT personalizados durante el procesamiento. Esto le proporciona un mayor control sobre cómo se procesa el contenido para la generación de PDF. De manera predeterminada, el valor se establece en **Habilitado**.
 
   Para obtener más información, vea [Trabajo con el ajuste preestablecido de salida de PDF](../user-guide/generate-output-pdf.md)
 
-  ![](assets/ditaot-setting-enabled.png){width="500" align="left"}
+  ![](assets/ditaot-setting-enabled.png){width="500"}
 
 - La configuración de impresión para la generación nativa de resultados de PDF se ha movido de la configuración **Templates** a la configuración **Native PDF Output preset** para mejorar la facilidad de uso. Ahora puede utilizar la misma plantilla para PDF en línea e imprimir con diferentes configuraciones de impresión, como el perfil de color.
 
@@ -176,7 +176,7 @@ La compatibilidad con el posprocesamiento de recursos se ha proporcionado median
 Para obtener más información, vea [Controlador de eventos posteriores al procesamiento](../api-reference/post-process-event.md).
 
 
-## Funciones obsoletas
+## Funciones en desuso
 
 **Generación rápida**
 

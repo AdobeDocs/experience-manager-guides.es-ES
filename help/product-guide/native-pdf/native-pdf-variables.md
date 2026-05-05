@@ -5,10 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
-hidefromtoc: true
-source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
@@ -21,7 +20,7 @@ Una variable es un par de datos de nombre-valor que sirve como información reut
 
 Siga estos pasos para crear una variable:
 
-![Crear una variable nueva](assets/add-variable-default.png){width="800" align="left"}
+![Crear una variable nueva](assets/add-variable-default.png){width="800"}
 
 *Cree variables y defina sus valores.*
 
@@ -83,14 +82,14 @@ La vista previa de la variable muestra el valor predeterminado. Por ejemplo, si 
 1. Seleccione una variable en el panel **Variables**.
 1. Pase el ratón sobre la variable para ver el menú **Opciones** y luego seleccione la opción **Vista previa**.
 
-   ![vista previa de variables desde el panel de variables](assets/variables-panel-preview-default.png){width="550" align="left"}
+   ![vista previa de variables desde el panel de variables](assets/variables-panel-preview-default.png){width="550"}
 
 *Vista previa del valor predeterminado de una variable.*
 
 **Del editor de variables**
 
 1. Pase el ratón sobre la variable de la lista para ver el menú **Opciones**.
-1. Seleccionar **vista previa**.
+1. Seleccione **Vista previa**.
 
 ### Duplicar una variable
 
@@ -127,7 +126,7 @@ Adobe Experience Manager Guides también admite conjuntos de variables, que perm
 Debe configurar los conjuntos de variables antes de agregarles variables.
 
 1. Seleccionar **configuración** <img alt= "Icono de configuración" src="./assets/settings-icon.svg" width="25"> para abrir el cuadro de diálogo **Configurar conjuntos de variables**.
-   ![configurar conjunto de variables](assets/configure-variable-set.png){width="550" align="left"}
+   ![configurar conjunto de variables](assets/configure-variable-set.png){width="550"}
 1. Escriba el nombre del conjunto de variables en la columna **Nombre**.
 1. Seleccionar **Agregar variable** <img alt= "Icono Agregar" src="./assets/add-icon.svg" width="25"> para agregar un nuevo conjunto de variables. Los conjuntos de variables se enumeran alfabéticamente.
 1. Puede seleccionar **Eliminar** para quitar un conjunto de variables.
@@ -159,7 +158,7 @@ Cada variable nueva se agrega a todos los conjuntos de variables. Al eliminar o 
 También puede obtener una vista previa de los valores de un conjunto de variables.
 Por ejemplo, para el conjunto de variables *Adobe-Set1*, ha definido el valor de la variable ProductName como &quot;ProductA&quot; y, a continuación, muestra este valor en la vista previa del editor de variables
 
-![vista previa de variables desde el editor de variables](assets/variables-editor-preview.png){width="550" align="left"}
+![vista previa de variables desde el editor de variables](assets/variables-editor-preview.png){width="550"}
 
 *Obtener una vista previa del valor que ha definido en el conjunto de variables seleccionado.*
 
@@ -202,7 +201,7 @@ Para insertar una variable como ProductName en el área de encabezado, realice l
 
 Puede generar la salida de PDF con los valores de diferentes variables. Antes de generar el diseño, elija un conjunto de variables en la lista desplegable **Conjunto de variables** de un ajuste preestablecido de salida para elegir sus valores.
 
-![lista desplegable de conjuntos de variables](assets/output-preset-variable-dropdown.png){width="550" align="left"}
+![lista desplegable de conjuntos de variables](assets/output-preset-variable-dropdown.png){width="550"}
 
 *Seleccione un conjunto de variables del menú desplegable en el ajuste preestablecido de salida que desee utilizar para generar la salida de PDF.*
 

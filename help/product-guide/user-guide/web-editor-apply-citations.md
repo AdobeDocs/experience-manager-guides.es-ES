@@ -4,10 +4,10 @@ description: Añada y administre citas en AEM Guides. Aprenda a aplicar, importa
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1923'
-ht-degree: 0%
+source-wordcount: '1932'
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ Para añadir citas, siga estos pasos:
 
    Se abre el panel **Citas**.
 
-   ![](images/citation-panel.png){width="350" align="left"}
+   ![](images/citation-panel.png){width="350"}
 
 1. En el panel **Citas**, seleccione ![Agregar icono](images/Add_icon.svg). Desde el menú desplegable puede elegir añadir una nueva cita o importar una cita.
 
@@ -44,7 +44,7 @@ Para añadir citas, siga estos pasos:
 
    Se abre el cuadro de diálogo **Agregar cita**.
 
-   ![panel de citas en el editor web](images/citation-add.png) {width="300" align="left"}
+   ![panel de citas en el editor web](images/citation-add.png) {width="300"}
 
 
 1. Rellene los campos del cuadro de diálogo **Agregar cita**.
@@ -56,7 +56,7 @@ Para añadir citas, siga estos pasos:
    | Libro | Sitio web | Diario |
    | --- | ---|---|
    | **Source** <br> En la lista desplegable, seleccione el origen de la cita como un libro. | **Source**<br> En el menú desplegable, seleccione el origen de la cita como sitio web. | **Source** <br> En la lista desplegable, seleccione el origen de la cita como diario. |
-   | **Buscar por** <br> Seleccione **ISBN** o **DOI** de la lista desplegable para buscar el ID digital vinculado a la cita.  <br> DOI: Identificador de objeto digital <br> ISBN: Identificador de libro numérico único | **Buscar por** <br> Seleccione **DOI** de la lista desplegable para buscar el ID digital vinculado a la cita. | **Buscar por** <ul><li>Seleccione **DOI** o **PubMed ID** de la lista desplegable para buscar el ID digital vinculado a la cita.</li><li>Seleccione **Cualquier campo** del menú desplegable para buscar en todos los campos de Journal, como *Título*, *Título del diario*, *Autor*, *Año*, *Volumen*, *Número* y *Páginas*. <br> La búsqueda devuelve la cita más cercana basada en el texto ingresado.</li> |
+   | **Buscar por** <br> Seleccione **ISBN** o **DOI** de la lista desplegable para buscar el ID digital vinculado a la cita.  <br> DOI: Identificador de objeto digital <br> ISBN: Identificador de libro numérico único | **Buscar por** <br> Seleccione **DOI** de la lista desplegable para buscar el ID digital vinculado a la cita. | **Buscar por** <ul><li>Seleccione **DOI** o **PubMed ID** de la lista desplegable para buscar el ID digital vinculado a la cita.</li><li>Seleccione **Cualquier campo** del menú desplegable para buscar en todos los campos de Journal como *Título*, *Título del diario*, *Autor*, *Año*, *Volumen*, *Número* y *Páginas*. <br> La búsqueda devuelve la cita coincidente más cercana en función del texto introducido.</li> |
    | **Autor** <br> Agregue el nombre y los apellidos del autor de la cita. Seleccione ![](images/Add_icon.svg) para agregar más nombres. | **Autor** <br> Agregue el nombre y los apellidos del autor de la cita. Seleccione ![](images/Add_icon.svg) para agregar más nombres. | **Autor** <br> Agregue el nombre y los apellidos del autor de la cita. Seleccione ![](images/Add_icon.svg) para agregar más nombres. |
    | **Título** <br> Agregue el título del libro. | **Título** <br> Agregue el título de la página web. | **Título** <br> Agregue el título del artículo. |
    | **Editor** <br> Agregue el editor del libro. | **Nombre del sitio web** <br> Agregue el nombre del sitio web. | **Título del diario** <br> Agregue el título del trabajo en el que se encuentra el artículo. |
@@ -133,7 +133,7 @@ Las siguientes opciones están disponibles en la lista desplegable:
 | MLA | APA | Chicago | IEEE | AHA |
 |---|---|---|---|---|
 | Estilo de asociación de idioma moderno <br> | American Psychological Association Style | Manual de estilo de Chicago | Instituto de Ingenieros Eléctricos y Electrónicos Estilo | American Heart Association Style |
-| Ejemplo: <br> Crawford, Claire, etc. *Contenido emocional de recuerdos oscuros*.Editado por Memory, vol. 16, 2010, Amsterdam. | Ejemplo: <br> Crawford, C., J., &amp;, C. (2010). *Contenido emocional de recuerdos oscuros* (505-16 ed.). 10,1080/ 09658210902067289 | Ejemplo: <br> Crawford, Claire, etc. *Contenido emocional de recuerdos oscuros*. 505-16, 2010. | Ejemplo: <br> C. Crawford, J. , y C. , *Contenido emocional de recuerdos oscuros*. Amsterdam, 2010. | Ejemplo: <br> C. Crawford, J. , y C. , *Contenido emocional de recuerdos oscuros*. Amsterdam, 2010. |
+| Ejemplo: <br> Crawford, Claire, etc. *Contenido emocional de recuerdos oscuros*.Editado por Memory, vol. 16, 2010, Amsterdam. | Ejemplo: <br> Crawford, C., J., &amp;, C. (2010). *Contenido emocional de recuerdos oscuros* (505-16 ed.). 10.1080/ 09658210902067289 | Ejemplo: <br> Crawford, Claire, etc. *Contenido emocional de recuerdos oscuros*. 505-16, 2010. | Ejemplo: <br> C. Crawford, J. , y C. , *Contenido emocional de recuerdos oscuros*. Amsterdam, 2010. | Ejemplo: <br> C. Crawford, J. , y C. , *Contenido emocional de recuerdos oscuros*. Amsterdam, 2010. |
 
 
 ## Editar una cita
@@ -146,7 +146,7 @@ Para editar la cita, siga estos pasos:
 
 Se abre el cuadro de diálogo **Editar cita**.
 
-1. Efectúe las modificaciones necesarias. Seleccione **Listo**.
+1. Efectúe las modificaciones necesarias. Seleccione **Listo**.
 La cita seleccionada se edita.
 
 >[!NOTE]
@@ -157,9 +157,9 @@ La cita seleccionada se edita.
 
 Para obtener una vista previa de una cita, siga estos pasos:
 
-Pase el ratón sobre el nombre de la cita de la lista. Seleccionar     Icono ![](images/options.svg) **Opciones**.
+Pase el ratón sobre el nombre de la cita de la lista. Seleccione el icono ![](images/options.svg) **Opciones**.
 
-1. Seleccionar **vista previa**.
+1. Seleccione **Vista previa**.
 Puede obtener una vista previa del contenido y el formato de la cita en el panel de vista previa.
 
    >[!NOTE]
@@ -168,7 +168,7 @@ Puede obtener una vista previa del contenido y el formato de la cita en el panel
 
 1. Seleccione cualquier lugar de la pantalla para cerrar el cuadro de vista previa.
 
-   ![](images/citation-preview.png){width="550" align="left"}
+   ![](images/citation-preview.png){width="550"}
 
 >[!NOTE]
 >
@@ -188,10 +188,10 @@ Puede insertar citas al tema desde la barra de herramientas principal o el panel
 
 1. Seleccione el icono de **citas** ![citas &#x200B;](images/citations-icon.svg) en la barra de herramientas principal.
 1. En el cuadro de diálogo **Citas**, elija la cita. También puede seleccionar varias citas.
-   ![cuadro de diálogo de cita](images/citation-dialog-main-toolbar.png){width="300" align="left"}
+   ![cuadro de diálogo de cita](images/citation-dialog-main-toolbar.png){width="300"}
 1. Puede filtrar las citas escribiendo los primeros alfabetos en el panel de búsqueda del cuadro de diálogo **Cita**.
 
-1. Seleccione **Listo**.
+1. Seleccione **Listo**.
 La cita seleccionada se agrega en la ubicación del cursor en el tema.
 
 
@@ -225,7 +225,7 @@ Para eliminar una cita del panel Citas, siga estos pasos:
 
 1. Pase el ratón sobre el nombre de la cita de la lista.
 1. Seleccione el icono ![](images/options.svg) **Opciones**.
-1. Seleccione el   **Eliminar** ![](images/Delete_icon.svg).
+1. Seleccione **Eliminar** ![](images/Delete_icon.svg).
 Se abrirá el cuadro de diálogo de confirmación.
 1. Seleccione **Sí**.
 La cita seleccionada se elimina del panel de citas.

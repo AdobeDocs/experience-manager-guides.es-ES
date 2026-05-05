@@ -1,9 +1,10 @@
 ---
 title: Configurar la Ayuda inteligente para buscar contenido
 description: Obtenga información sobre cómo configurar la Ayuda inteligente para buscar contenido
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -23,24 +24,24 @@ Realice los siguientes pasos para crear configuraciones de IMS en Adobe Develope
 1. Iniciar [Adobe Developer Console](https://developer.adobe.com/console).
 1. Después de iniciar sesión correctamente en Developer Console, verá la pantalla **Inicio**. En la pantalla de **Inicio** encontrará información y vínculos rápidos, incluidos los vínculos de navegación superior a Proyectos y Descargas.
 1. Para crear un nuevo proyecto vacío, selecciona **Crear nuevo proyecto** de los vínculos **Inicio rápido**.
-   ![Vínculos de inicio rápido](assets/conf-ss-quick-start.png) {width="550" align="left"}
+   ![Vínculos de inicio rápido](assets/conf-ss-quick-start.png) {width="550"}
    *Crear un nuevo proyecto.*
 
 1. Seleccione **Agregar API** de la pantalla **Proyectos**.  Aparecerá la pantalla **Agregar una API**. Esta pantalla muestra todas las API, los eventos y los servicios disponibles para los productos y las tecnologías de Adobe con los que puede desarrollar aplicaciones.
 
 1. Seleccione la **API de administración de E/S** para agregarla a su proyecto.
-   ![API de administración de E/S](assets/confi-ss-io-management.png)
+   API de administración de ![IO](assets/confi-ss-io-management.png)
    *Agregar la API de administración de E/S a su proyecto.*
 
 1. Cree una nueva **credencial de OAuth** y guárdela.
-   ![Mosaico de credenciales de OAuth en la API de configuración](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
+   ![Mosaico de credenciales de OAuth en la API de configuración](assets/conf-ss-OAuth-credential.png) {width="3000"}
    *Configure las credenciales de OAuth en su API.*
 
 1. En la ficha **Proyectos**, elija la opción **Servidor OAuth en Servidor** y, a continuación, seleccione las credenciales recién creadas.
 
 1. Seleccione el vínculo **Servidor a servidor de OAuth** para ver los detalles de credenciales de su proyecto.
 
-   ![credenciales conectadas](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+   ![credenciales conectadas](assets/conf-ss-connected-credentials.png) {width="800"}
 
    *Conéctese al proyecto para ver los detalles de las credenciales.*
 
@@ -68,7 +69,7 @@ Siga estos pasos para agregar la configuración de IMS al entorno:
 1. Cambie a la ficha **Configuración**.
 1. Actualice el campo JSON SERVICE_ACCOUNT_DETAILS. Asegúrese de utilizar el mismo nombre y configuración que se indican en la siguiente captura de pantalla.
 
-![configuración de cuenta de servicio de ims](assets/ims-service-account-config.png){width="800" align="left"}
+![configuración de cuenta de servicio de ims](assets/ims-service-account-config.png){width="800"}
 
 
 *Agregar los detalles de configuración del entorno.*

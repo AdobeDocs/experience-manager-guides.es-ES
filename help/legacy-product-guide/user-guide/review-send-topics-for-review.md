@@ -5,9 +5,9 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 4e47536a-ad78-4c97-9cea-a6af854f6e2f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2775'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Para crear una tarea de revisión y enviar temas para su revisión, realice los 
 
 1. Haga clic en el icono Seleccionar en la acción rápida y seleccione los temas que desee enviar para su revisión.
 
-   ![](images/select-asset-62.png){width="300" align="left"}
+   ![](images/select-asset-62.png){width="300"}
 
 1. En la barra de herramientas, haga clic en **Crear tarea de revisión**. Se muestra la página de creación de la tarea de revisión.
 
@@ -54,7 +54,7 @@ Para crear una tarea de revisión y enviar temas para su revisión, realice los 
    >
    > Puede crear una tarea de revisión sólo para los temas que tengan una revisión. Si el tema seleccionado no tiene una revisión, se le mostrará un mensaje.
 
-   ![](images/create-review-task-023.png){width="650" align="left"}
+   ![](images/create-review-task-023.png){width="650"}
 
 1. Escriba un **Título** para la tarea y seleccione un **Proyecto** DITA en la lista desplegable.
 
@@ -94,7 +94,7 @@ Para crear una tarea de revisión y enviar temas para su revisión, realice los 
 
    Se muestra la página Contenido.
 
-   ![](images/content_page_review.png){width="800" align="left"}
+   ![](images/content_page_review.png){width="800"}
 
 1. En la página Contenido, seleccione una versión del tema que desee compartir para su revisión.
 
@@ -115,7 +115,7 @@ Para crear una tarea de revisión y enviar temas para su revisión, realice los 
 
    Se muestra la página Revisores, donde puede agregar o quitar revisores. De forma predeterminada, los revisores agregados en el campo Asignar a se agregan automáticamente a cada tema seleccionado para la revisión.
 
-   ![](images/add-reviewers-topics.png){width="650" align="left"}
+   ![](images/add-reviewers-topics.png){width="650"}
 
 1. En la página Revisores, puede agregar o quitar revisores. Las siguientes operaciones están disponibles en la página Revisores:
 
@@ -211,7 +211,7 @@ Para enviar uno o varios temas junto con el archivo de asignación para su revis
 
    La página Contenido se muestra con todos los temas a los que se hace referencia desde el archivo de asignación. Si el mapa DITA contiene mapas anidados, también se enumerarán aquí los temas de los mapas anidados.
 
-   ![](images/content-page-map-review.png){width="800" align="left"}
+   ![](images/content-page-map-review.png){width="800"}
 
 1. En la página Contenido, seleccione una versión del tema que desee compartir para su revisión.
 
@@ -247,7 +247,6 @@ Para enviar uno o varios temas junto con el archivo de asignación para su revis
    - **Volver a asignar**: muestra el cuadro de diálogo Volver a asignar revisores. Puede escribir el nombre del revisor o la función de usuario \(o grupo\) al que desee asignar la tarea de revisión. De este modo, se quitarán todos los revisores existentes de los temas seleccionados y se asignarán a ellos los revisores recién seleccionados.
    - **Exportar**: permite exportar los detalles de la tarea de revisión en un archivo CSV. El archivo contiene detalles como la ruta y el título del tema, el nombre del revisor y la versión de los temas enviados para su revisión.
    - **Editar revisores**: al hacer clic en el icono ![](images/edit_pencil_icon.svg)de la lista de temas, se muestra el cuadro de diálogo Editar revisores. Puede agregar o quitar revisores para el tema seleccionado desde este cuadro de diálogo.
-
    >[!IMPORTANT]
    >
    > Debe asignar al menos un revisor para crear la tarea de revisión.

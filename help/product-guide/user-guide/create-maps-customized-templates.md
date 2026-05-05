@@ -4,9 +4,9 @@ description: Aprenda a crear una plantilla de personalizaciones, utilizarla para
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Puede crear plantillas de temas y asignaciones de las siguientes maneras:
 
 La característica **Templates** está presente en el panel [izquierdo de la interfaz del Editor](./web-editor-left-panel.md) y solo está disponible para los administradores. Con este panel, el administrador puede crear y administrar fácilmente plantillas que luego los autores pueden utilizar. De manera predeterminada, las plantillas se clasifican en las plantillas de tipo *map* y *topic*.
 
-![](images/templates-panel_cs.png){width="300" align="left"}
+![](images/templates-panel_cs.png){width="300"}
 
 De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón por encima de una plantilla, puede ver el título y el nombre del archivo como información sobre herramientas.
 
@@ -51,16 +51,16 @@ Realice los siguientes pasos para crear un tema o una plantilla de asignación d
 
 1. Abra el panel **Plantillas** en el Editor y seleccione el icono **Crear plantilla DITA**.
 
-   ![](images/create-dita-template-option.png){width="500" align="left"}
+   ![](images/create-dita-template-option.png){width="500"}
 
 1. Elija **Plantilla de tema** o **Plantilla de mapa** del menú desplegable en función del tipo de plantilla que desee crear.
 1. Si selecciona **Plantilla de tema**, se mostrará el cuadro de diálogo **Nueva plantilla de tema**.
 
-   ![](images/new-topic-template-dialog.png){width="300" align="left"}
+   ![](images/new-topic-template-dialog.png){width="300"}
 
    Si selecciona **Plantilla de mapa**, se mostrará el cuadro de diálogo **Nueva plantilla de mapa**.
 
-   ![](images/map-template-dialog.png){width="300" align="left"}
+   ![](images/map-template-dialog.png){width="300"}
 
    También puede seleccionar **Carpeta** de la lista desplegable si desea crear primero una carpeta dentro de la carpeta **topic** o **map**.
 
@@ -77,7 +77,7 @@ Una vez creada la plantilla, debe añadirla a su perfil global o de nivel de car
 
 Si usa el menú **Opciones** en una plantilla existente, puede elegir **editarla** o **duplicarla**. En caso de duplicación, la estructura y el tipo \(de documento\) de la plantilla se conservarán y podrá volver a utilizarlos para crear otra plantilla a partir de ella.
 
-![](images/template-options-menu-editor.png){width="500" align="left"}
+![](images/template-options-menu-editor.png){width="500"}
 
 ### Creación de plantillas personalizadas desde la interfaz de usuario de Assets
 
@@ -85,12 +85,12 @@ Realice los siguientes pasos para crear una plantilla de mapa o tema desde la in
 
 1. En la **interfaz de usuario de Assets**, vaya a la carpeta dita-templates.
 
-   ![](images/dita-templates.png){align="left"}
+   ![](images/dita-templates.png)
 
 1. Abra la carpeta **topics** si desea crear una plantilla de **Tema**. Abra la carpeta **maps** si desea crear una plantilla **Map**.
 1. Seleccione **Crear \> plantilla DITA**.
 
-   ![](images/create-dita-template.png){width="300" align="left"}
+   ![](images/create-dita-template.png){width="300"}
 1. En la página Modelo, seleccione **Tema \> Siguiente** para crear una plantilla de tema. De lo contrario, seleccione **Mapa \> Siguiente** para crear una plantilla de asignación.
 1. En la página Propiedades, especifique la plantilla **Title**.
 1. Especifique el archivo **Name**.
@@ -188,7 +188,7 @@ En el **Editor**, realice los siguientes pasos para crear un mapa con la plantil
 1. En el **Editor**, vaya a la carpeta donde desea crear la asignación.
 1. En el menú Opciones de la carpeta, seleccione **Nuevo \> Mapa DITA**.
 
-   ![](images/add-custom-template-dita-map.png){width="500" align="left"}
+   ![](images/add-custom-template-dita-map.png){width="500"}
 1. Se muestra el diálogo **Nuevo mapa**.
 1. En el cuadro de diálogo **Nuevo mapa**, especifique el mapa **Título**, archivo **Nombre** y seleccione la plantilla de mapa que desee usar.
 

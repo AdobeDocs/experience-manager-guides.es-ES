@@ -4,10 +4,10 @@ description: Publicar un tema o los elementos dentro de un tema en un fragmento 
 exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
-source-git-commit: 26aacde56e84c9f3a5ee5106b9271b4b12f8969a
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 0%
+source-wordcount: '955'
+ht-degree: 1%
 
 ---
 
@@ -28,12 +28,12 @@ Para crear un fragmento de contenido, realice los siguientes pasos:
 1. Cree una carpeta en la que desee guardar los fragmentos de contenido que cree en función del modelo de fragmento de contenido. Por ejemplo, &quot;stock-content-fragments&quot;.
 1. Edite las propiedades de la carpeta (por ejemplo, &quot;stock-content-fragments&quot;) y agregue la ruta de la carpeta, que contiene el modelo de fragmento de contenido en la configuración de la nube.
 Por ejemplo, agregue `/conf/we-retail` en la configuración de nube. Esta configuración conecta todos los modelos de fragmento de contenido con la carpeta.\
-   ![agregar detalles de configuración de nube en las propiedades de la carpeta](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
+   ![agregar detalles de configuración de nube en las propiedades de la carpeta](images/fragment-folder-cloud-configuration.png){width="650"}
    *Agregue la configuración de nube en las propiedades de la carpeta para conectarla con los modelos de fragmento.*
 
 1. Para generar un fragmento de contenido, seleccione **Nueva salida** ![nuevo icono de salida](./images/Add_icon.svg) de la sección **Salidas** en las **Propiedades de archivo** de un tema.
 1. Seleccione **Fragmento de contenido**.\
-   ![ficha de opciones de propiedades de archivo](./images/file-properties-outputs-tab-new.png) {width="300" align="left"}
+   ![ficha de opciones de propiedades de archivo](./images/file-properties-outputs-tab-new.png) {width="300"}
 
    *Agregar un nuevo fragmento de contenido desde las propiedades de archivo de un tema*.
 
@@ -49,7 +49,6 @@ Por ejemplo, agregue `/conf/we-retail` en la configuración de nube. Esta config
    * **Nombre**: escriba el nombre del fragmento de contenido. De forma predeterminada, el nombre se rellena con el título del tema y los espacios se sustituyen por &quot;_&quot;. Por ejemplo, *sample_content_fragment*. Puede editarlo.  Este nombre se utiliza para generar la dirección URL del fragmento de contenido.
 
    * Puede seleccionar diferentes condiciones para crear variantes de fragmentos de contenido. Seleccione una de las siguientes opciones:
-
      >[!NOTE]
      > 
      > Las condiciones solo se activan si los atributos de condición se definen en el tema.
@@ -82,7 +81,7 @@ El lado derecho se rellena con el contenido publicado del fragmento de contenido
 
 1. Puede ver los fragmentos de contenido de un tema en la sección **Salidas** de **Propiedades del archivo**.
 
-   ![Ver los fragmentos de contenido de un tema](images/outputs-options-menu-new.png){width="300" align="left"}
+   ![Ver los fragmentos de contenido de un tema](images/outputs-options-menu-new.png){width="300"}
 
    *Vea los fragmentos de contenido presentes en un tema y vuelva a publicarlos.*
 

@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: c743baac-b6c1-4684-bbd1-8f9834ab272a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Siga estos pasos para importar los archivos de Schematron:
 
-![](images/scematron-panel-add.png){width="300" align="left"}
+![](images/scematron-panel-add.png){width="300"}
 
 1. Vaya a la carpeta requerida (donde desea cargar los archivos) en *Vista de repositorio*.
 1. Haz clic en el icono **Opciones** para abrir el menú contextual y elige **Cargar Assets**.
@@ -41,7 +41,7 @@ Después de importar los archivos de Schematron, puede editarlos en el Editor We
 * Debe haber al menos una referencia de tema en el mapa.
 
 Cuando se abre un tema en el Editor Web, aparece un panel Validación de Schematron a la derecha. Realice los siguientes pasos para agregar y validar un tema o asignación con un archivo de Schematron:
-![](images/schematron-validate.png){width="300" align="left"}
+![](images/schematron-validate.png){width="300"}
 
 1. Haga clic en el icono de Schematron () para abrir el panel de Schematron.
 1. Utilice Agregar archivo de Schematron para agregar archivos de Schematron.

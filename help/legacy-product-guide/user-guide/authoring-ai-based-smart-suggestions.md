@@ -3,9 +3,9 @@ title: Sugerencias inteligentes con tecnología de IA para crear contenido
 description: Aprenda a ver y utilizar sugerencias inteligentes con tecnología de IA en el editor web.
 hide: true
 exl-id: 30c85d46-61ba-486c-979c-1a2ed95f5a32
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Realice los siguientes pasos para ver las sugerencias inteligentes para agregar 
 1. Puede ver las sugerencias inteligentes en el panel Sugerencias.  Experience Manager Guides proporciona sugerencias con contenido que es similar al contexto o tiene el mismo significado. Por ejemplo, puede buscar el tema que contenga el número de versión exacto, como &quot;versión 2023.03.12&quot;. También puede buscar &quot;Adobe tiene su sede en San José, California&quot; y encontrar contenido similar como &quot;San José tiene los cuartos de muchas empresas de software como Adobe&quot;.
 1. Seleccione **Información de contenido** ![Información de contenido](images/smart-suggestions-content-info-icon.svg) para ver los detalles.
 
-   ![Panel de información de contenido](images/smart-suggestions-content-information.png){width="300" align="left"}
+   ![Panel de información de contenido](images/smart-suggestions-content-information.png){width="300"}
 
    *Ver la información detallada sobre la referencia de contenido.*
 

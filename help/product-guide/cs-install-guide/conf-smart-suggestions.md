@@ -2,10 +2,9 @@
 title: Configuración del asistente de IA para la creación y la ayuda inteligentes
 description: Obtenga información sobre cómo configurar el asistente de IA en Experience Manager Guides
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -35,13 +34,13 @@ Realice los siguientes pasos para crear configuraciones de IMS en Adobe Develope
 1. Iniciar [Adobe Developer Console](https://developer.adobe.com/console).
 1. Después de iniciar sesión correctamente en Developer Console, verá la pantalla **Inicio**. En la pantalla de **Inicio** encontrará información y vínculos rápidos, incluidos los vínculos de navegación superior a Proyectos y Descargas.
 1. Para crear un nuevo proyecto vacío, selecciona **Crear nuevo proyecto** de los vínculos **Inicio rápido**.
-   ![Vínculos de inicio rápido](assets/conf-ss-quick-start.png) {width="550" align="left"}
+   ![Vínculos de inicio rápido](assets/conf-ss-quick-start.png) {width="550"}
    *Crear un nuevo proyecto.*
 
 1. Seleccione **Agregar API** de la pantalla **Proyectos**.  Aparecerá la pantalla **Agregar una API**. Esta pantalla muestra todas las API, los eventos y los servicios disponibles para los productos y las tecnologías de Adobe con los que puede desarrollar aplicaciones.
 
 1. Seleccione la **API de administración de E/S** para agregarla a su proyecto.
-   ![API de administración de E/S](assets/confi-ss-io-management.png)
+   API de administración de ![IO](assets/confi-ss-io-management.png)
    *Agregar la API de administración de E/S a su proyecto.*
 
 1. Cree una nueva **credencial de OAuth** y guárdela.
@@ -54,7 +53,7 @@ Realice los siguientes pasos para crear configuraciones de IMS en Adobe Develope
 
 1. Seleccione el vínculo **Servidor a servidor de OAuth** para ver los detalles de credenciales de su proyecto.
 
-   ![credenciales conectadas](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+   ![credenciales conectadas](assets/conf-ss-connected-credentials.png) {width="800"}
 
    *Conéctese al proyecto para ver los detalles de las credenciales.*
 
@@ -82,7 +81,7 @@ Siga estos pasos para agregar la configuración de IMS al entorno:
 1. Cambie a la ficha **Configuración**.
 1. Pegue los detalles del servicio JSON (descargados en la sección anterior) en el campo **Valor** correspondiente a `SERVICE_ACCOUNT_DETAILS`. Asegúrese de utilizar el mismo nombre y configuración que se indican en la siguiente captura de pantalla.
 
-   ![configuración de cuenta de servicio de ims](assets/ims-service-account-config.png){width="800" align="left"}
+   ![configuración de cuenta de servicio de ims](assets/ims-service-account-config.png){width="800"}
 
 ## Habilitar el indicador de IA en el entorno
 
@@ -90,7 +89,7 @@ Para habilitar la característica Asistente de IA en la interfaz de usuario de E
 
 Asegúrese de utilizar el mismo nombre y configuración que se indican en la siguiente captura de pantalla.
 
-![](assets/conf-folder-ai-assistant-enable.png){width="800" align="left"}
+![](assets/conf-folder-ai-assistant-enable.png){width="800"}
 
 Si se establece el indicador en **true**, se habilita la funcionalidad, mientras que si se establece en **false**, se deshabilita.
 
@@ -100,7 +99,7 @@ Agregue la variable `GUIDES_AI_SITE_ID` a su entorno (Cloud Manager) y establezc
 
 Asegúrese de utilizar el mismo nombre y configuración que se indican en la siguiente captura de pantalla.
 
-![](assets/conf-folder-guides-site-id.png){width="800" align="left"}
+![](assets/conf-folder-guides-site-id.png){width="800"}
 
 ## Aplicar cambios al entorno
 
@@ -120,7 +119,7 @@ Una vez aplicados los cambios de configuración, habilite la función Asistente 
 
 Para obtener más información, vea [Conocer las características del editor](../user-guide/web-editor-features.md).
 
-![](assets/conf-folder-ai-assistant-enable-settings.png){width="300" align="left"}
+![](assets/conf-folder-ai-assistant-enable-settings.png){width="300"}
 
 ## Configurar sugerencias inteligentes en el perfil de carpeta
 

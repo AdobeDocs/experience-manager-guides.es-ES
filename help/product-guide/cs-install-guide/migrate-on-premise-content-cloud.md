@@ -5,11 +5,10 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: da3a6f83-b21a-4b19-8b54-ee96f11e7c09
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 1%
+source-wordcount: '1034'
+ht-degree: 2%
 
 ---
 
@@ -42,7 +41,7 @@ Puede descargar la **herramienta de transferencia de contenido** como archivo ZI
 1. Seleccione **Herramienta de transferencia de contenido** de la lista y descárguela.
 
 ![descargar herramienta de transferencia de contenido](./assets/content-transfer-tool-software-portal.png)
-A continuación, instale el paquete a través de **Administrador de paquetes** en la instancia de Adobe Experience Manager de origen. Asegúrese de descargar la versión más reciente.
+A continuación, instale el paquete a través de **Administrador de paquetes** en la instancia de Adobe Experience Manager de origen. Asegúrese de descargar la última versión.
 Para obtener más información sobre la versión más reciente, vea [Notas de la versión](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=es).
 
 >[!NOTE]
@@ -109,7 +108,7 @@ Siga estos pasos para migrar el contenido de Experience Manager Guides a Experie
    ![](./assets/migration-create-migration-set.png)
 
 1. Proporcione la ruta que desee migrar y haga clic en **Guardar**.
-Por ejemplo, `/content/sites`
+Por ejemplo,  `/content/sites`
 o
    `/content/dam/tech-docs`
    ![rutas incluidas](./assets/migration-included-paths.png)

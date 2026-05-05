@@ -2,9 +2,10 @@
 title: Ayuda inteligente con tecnología de IA para buscar contenido
 description: Aprenda a ver y utilizar la ayuda inteligente con tecnología de IA en el editor web.
 hide: true
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+exl-id: cf08f6a9-bf92-47d9-9952-da0301ea7023
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Cuando abre el Editor Web, el panel **Ayuda inteligente** aparece a la derecha.
 >
 > El administrador debe configurar la característica **Ayuda inteligente**. Para obtener más información, consulte la sección [Configuración de la ayuda inteligente con tecnología de IA para buscar contenido](/help/product-guide/cs-install-guide/conf-smart-help.md) en la Guía de instalación y configuración de Cloud Services.
 
-![Panel de ayuda inteligente](images/smart-help-panel.png){width="300" align="left"}
+![Panel de ayuda inteligente](images/smart-help-panel.png){width="300"}
 
 *Ver el panel de **Ayuda inteligente**.*
 
@@ -48,7 +49,7 @@ Realice los siguientes pasos para utilizar la búsqueda conversacional para enco
 
    Según la pregunta, puede ver el contenido, las imágenes aplicables y los vínculos a los artículos.
 
-   ![Respuesta del panel de ayuda inteligente](images/smart-help-panel-response.png){width="300" align="left"}
+   ![Respuesta del panel de ayuda inteligente](images/smart-help-panel-response.png){width="300"}
 
 
    *Seleccione la pregunta de ejemplo y vea el contenido y las imágenes como respuesta.*

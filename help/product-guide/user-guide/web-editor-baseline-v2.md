@@ -4,9 +4,9 @@ description: Cree y administre una nueva línea de base (Beta) desde la consola 
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: d7e5af83e88de18cd8ac2e849c9d6e1807988099
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Realice los siguientes pasos para migrar la línea base existente a la nueva lí
 1. En el panel **Herramientas**, seleccione **Guías**.
 1. Seleccione el mosaico **Procesador en lotes**.
 
-   ![procesador de recursos de flujo](images/flow-asset-processor.png){align="left"}
+   ![procesador de recursos de flujo](images/flow-asset-processor.png)
 
    Se muestra la página **Procesador masivo de guías**.
 
@@ -87,7 +87,7 @@ Realice los siguientes pasos para migrar la línea base existente a la nueva lí
    1. **Seleccionar carpeta(s) y archivo(s)**: Desplácese y elija una o varias carpetas y archivos para procesar.
    1. **Seleccionar carpeta(s) para omitir**: opcionalmente, seleccione subcarpetas dentro de la carpeta principal elegida para excluirlas de la migración.
 
-   ![nueva línea base de proceso](images/new-process-baseline.png){align="left"}
+   ![nueva línea base de proceso](images/new-process-baseline.png)
 
 1. Seleccione **Crear**.
 
@@ -95,11 +95,11 @@ Aparece una ventana emergente que muestra **Procesamiento de recursos activado c
 
 También puede seleccionar **Ver registros** para comprobar y descargar los registros de la tarea de migración.
 
-![view-logs-baseline](images/view-logs-baseline.png){align="left"}
+![view-logs-baseline](images/view-logs-baseline.png)
 
 El informe de registro proporciona detalles sobre la migración, incluido el número de mapas migrados, las líneas de base migradas correctamente y los detalles relacionados.
 
-![logs-detail-baseline](images/logs-detail-baseline.png){align="left"}
+![logs-detail-baseline](images/logs-detail-baseline.png)
 
 >[!NOTE]
 >
@@ -131,7 +131,7 @@ Las siguientes actualizaciones se aplican cuando se trabaja con líneas de base 
    - **Editar propiedades**: permite editar las propiedades de una línea de base existente.
    - **Reconstruir**: permite reconstruir una línea base dinámica cada vez que se producen cambios.
 
-     ![volver a generar línea de base](images/rebuild-baseline.png){align="left"}
+     ![volver a generar línea de base](images/rebuild-baseline.png)
 
 - La acción **Descargar** admite descargas paginadas. En la descarga se incluye todo el contenido de línea de base que coincida con los filtros aplicados, no solo el contenido visible en la página actual.
 - Filtre los archivos por GUID, además de los nombres o la ubicación de los archivos. También hay disponible una opción adicional para **filtrar archivos sin etiquetas**.
@@ -150,13 +150,13 @@ Las siguientes actualizaciones se aplican cuando se trabaja con líneas de base 
    - Desplácese hasta el archivo que desee editar y coloque el puntero sobre él.
    - Seleccione el icono **Editar**.
 
-     ![edit-baseline-icon](images/edit-baseline-icon.png){align="left"}
+     ![edit-baseline-icon](images/edit-baseline-icon.png)
 
      Se muestra el cuadro de diálogo **Editar versión**.
    - Seleccione la versión requerida en el menú desplegable **Versión** (por ejemplo, cambie de la versión 1.0 a la 1.1).
 
 
-     ![edit-version-baseline](images/edit-version-baseline.png){align="left"}
+     ![edit-version-baseline](images/edit-version-baseline.png)
 
      Las dependencias añadidas y eliminadas se evalúan y se muestran como una vista previa. Revise los cambios antes de aplicarlos.
 

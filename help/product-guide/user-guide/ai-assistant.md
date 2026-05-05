@@ -2,10 +2,10 @@
 title: Utilice el asistente de IA para crear documentos de forma inteligente &grave;
 description: Aprenda a utilizar el asistente de IA para buscar y crear documentos de forma inteligente en Adobe Experience Manager Guides.
 exl-id: c18e8761-333e-40ef-9e16-e71a194a754a
-source-git-commit: aab7bc0c79d3c98f062d230d1d21ec7f4e6a01c3
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 0%
+source-wordcount: '364'
+ht-degree: 1%
 
 ---
 
@@ -21,16 +21,16 @@ La característica **Creación** del Asistente de IA hace que su proceso de crea
 
 Para obtener más información, vea [Creación](./ai-assistant-right-panel.md).
 
-![asistente de inteligencia artificial](./images/ai-assistant-panel.png){align="left"}
+![asistente de inteligencia artificial](./images/ai-assistant-panel.png)
 
 La característica **Ayuda** del Asistente de IA es una herramienta intuitiva basada en chat que se ha diseñado para ayudarle a comprender mejor Experience Manager Guides, solucionar problemas y buscar información en la documentación de Adobe Experience Manager Guides. En lugar de buscar en las guías del usuario y los documentos de referencia, puede usar la característica **Ayuda** para encontrar rápidamente respuestas relevantes a sus consultas. Esto ayuda a ahorrar tiempo y le permite centrarse en la creación de contenido, lo que resulta en una productividad y eficiencia mejoradas.
 
 Para obtener más información, vea [Ayuda](./ai-based-smart-help.md).
 
 
-![Panel de ayuda inteligente](images/smart-help-panel.png){align="left"}
+![Panel de ayuda inteligente](images/smart-help-panel.png)
 
-## Introducción al asistente de IA
+## Introducción al Asistente de IA
 
 Cuando use el **Asistente de IA** por primera vez, se le pedirá que envíe su consentimiento antes de usar las funciones de IA generativa de Experience Manager Guides.
 
@@ -41,7 +41,7 @@ Siga estos pasos para iniciar el asistente de IA:
 
    Se muestra la página del asistente de IA resaltando sus características clave, el vínculo de las directrices de usuario y el botón **Introducción**.
 
-   ![Panel de ayuda inteligente](images/get-started-ai.png){align="left"}
+   ![Panel de ayuda inteligente](images/get-started-ai.png)
 
 1. Lea atentamente las directrices de usuario y, a continuación, seleccione **Introducción** para iniciar el asistente de IA.
 

@@ -1,9 +1,10 @@
 ---
 title: Preguntas frecuentes sobre el rendimiento y la escalabilidad de la publicación en Adobe Experience Manager Guides
 description: Obtenga información acerca de las preguntas más frecuentes sobre Rendimiento y escalabilidad de la publicación en Adobe Experience Manager Guides.
-source-git-commit: d128860bdff78c100ba348b54a237b237171635f
+exl-id: d4cd7673-ba66-4e90-9908-b537217d7eb6
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1064'
 ht-degree: 0%
 
 ---
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 A continuación se muestra una lista de respuestas a las preguntas más frecuentes que proporciona información detallada sobre cómo administra Adobe Experience Manager Guides los flujos de trabajo de publicación, el comportamiento de escalado y el rendimiento de la infraestructura. Está diseñado para usuarios empresariales, administradores y equipos de documentación que utilizan Experience Manager Guides para realizar publicaciones a gran escala. En el diagrama se explica el flujo de trabajo general de Experience Manager Guides Publishing Architecture.
 
-![](images/IO_runtime.drawio.png){align="left"}
+![](images/IO_runtime.drawio.png)
 
 
 ## ¿Cuántas solicitudes de publicación puede ejecutar Experience Manager Guides al día?
@@ -123,7 +124,3 @@ Para garantizar una velocidad de publicación óptima, siga estas prácticas rec
 - Mantenga las jerarquías de mapas DITA manejables y bien organizadas
 - Programar una publicación intensiva durante las horas de menor actividad
 - Utilice filtros condicionales de forma eficaz para reducir la carga de procesamiento
-
-
-
-

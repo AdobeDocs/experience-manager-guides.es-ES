@@ -5,11 +5,10 @@ exl-id: 6df31e3c-683c-4188-b917-9c1855d9b95b
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '5824'
-ht-degree: 0%
+source-wordcount: '5886'
+ht-degree: 1%
 
 ---
 
@@ -58,7 +57,7 @@ Para configurar AEM Guides para que utilice FMPS, actualice las siguientes propi
 
 | Propiedad | Descripción |
 |--------|-----------|
-| Dominio de inicio de sesión de FrameMaker Publishing Server | Especifique el nombre de dominio o el nombre del grupo de trabajo en el que está alojado FrameMaker Publishing Server. Según la versión de FMPS, proporcione el nombre de dominio como :-   **FMPS 2020**: la dirección IP 192.168.1.101 <br>- **FMPS 2019 y anteriores**: la dirección IP o el nombre de dominio |
+| Dominio de inicio de sesión de FrameMaker Publishing Server | Especifique el nombre de dominio o el nombre del grupo de trabajo en el que está alojado FrameMaker Publishing Server. Según la versión de FMPS, proporcione el nombre de dominio como :- **FMPS 2020**: la dirección IP como 192.168.1.101 <br>- **FMPS 2019 y anteriores**: la dirección IP o el nombre de dominio |
 | URL de FrameMaker Publishing Server | Especifique la URL de FrameMaker Publishing Server. Según la versión de FMPS, proporcione la URL de FMPS como:<br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 y anteriores**: `http://<fmps_ip>:<port>/fmserver/v1/` |
 | Versión de FMPS | Especifique el número de versión de FrameMaker Publishing Server. Según la versión de FMPS, proporcione la información de la versión como: <br>- **FMPS 2020**: 2020 <br> - **FMPS 2019 y anteriores**: 2019 o 2017 |
 | Usuario y contraseña de FrameMaker Publishing Server | Especifique el nombre de usuario y la contraseña para acceder a FrameMaker Publishing Server. |
@@ -71,7 +70,7 @@ Para configurar AEM Guides para que utilice FMPS, actualice las siguientes propi
 
 Si tiene un sitio de AEM con contenido DITA, puede configurar la salida del sitio de AEM para publicar contenido DITA en una ubicación predefinida dentro del sitio. Por ejemplo, en la siguiente captura de pantalla de una página de un sitio de AEM, el nodo `ditacontent` está reservado para almacenar contenido DITA:
 
-![](assets/publish-in-aem-site.png){width="300" align="left"}
+![](assets/publish-in-aem-site.png){width="300"}
 
 Los nodos restantes de la página se crean directamente desde el editor del sitio de AEM. La configuración de publicación para publicar contenido DITA en una ubicación predefinida garantiza que el proceso de publicación de AEM Guides no modifique ningún contenido que no sea DITA.
 
@@ -96,7 +95,7 @@ Realice los siguientes pasos para configurar las propiedades de plantilla del si
 
 1. Añada las siguientes propiedades:
 
-   | Nombre de la propiedad | Tipo | Valor  |
+   | Nombre de la propiedad | Tipo | Valor |
    |-------------|----|-----|
    | `topicContentNode` | Cadena | Especifique el nombre del nodo donde desea publicar el contenido DITA. Por ejemplo, el nodo predeterminado donde AEM Guides publica contenido DITA es: <br>`jcr:content/contentnode` |
    | `topicHeadNode` | Cadena | Especifique el nombre del nodo donde desea almacenar la información de metadatos del contenido DITA. Por ejemplo, el nodo predeterminado donde AEM Guides almacena información de metadatos es: <br>`jcr:content/headnode` |
@@ -104,7 +103,7 @@ Realice los siguientes pasos para configurar las propiedades de plantilla del si
 
 La siguiente captura de pantalla muestra las propiedades agregadas en el nodo de plantilla predeterminado de AEM Guides:
 
-![](assets/add-content-node.png){width="800" align="left"}
+![](assets/add-content-node.png){width="800"}
 
 La próxima vez que publique contenido DITA con las configuraciones de plantilla del sitio, el contenido se publicará en los nodos especificados en las propiedades `topicContentNode` y `topicHeadNode`.
 
@@ -155,7 +154,7 @@ Realice los siguientes pasos para especificar su propia plantilla de diseño par
 
    `/libs/fmdita/config/templates/`
 
-   ![](assets/templates-node.png){width="300" align="left"}
+   ![](assets/templates-node.png){width="300"}
 
    >[!NOTE]
    >
@@ -266,13 +265,13 @@ Para configurar los caracteres especiales válidos en los nombres de archivo y e
 
 Cuando se genera la salida del sitio de AEM, se crea internamente un nodo para cada elemento de los temas. Para un mapa DITA con miles de temas, esta estructura de nodos puede llegar a ser demasiado profunda. Este tipo de estructura de nodos profundamente anidados puede tener problemas de rendimiento para sitios más grandes. La siguiente instantánea muestra la estructura de nodos profundamente anidados para una salida de sitio de AEM:
 
-![](assets/deep-nested-aem-site-node-structure.png){width="300" align="left"}
+![](assets/deep-nested-aem-site-node-structure.png){width="300"}
 
 En la instantánea anterior, observe que hay un nodo creado para cada elemento `p` y sus subelementos subsiguientes, y que se crea una estructura similar para todos los demás elementos utilizados en el tema.
 
 AEM Guides le permite configurar cómo se crea internamente la estructura de nodos de la salida del sitio de AEM. Puede aplanar la estructura del nodo en elementos especificados, lo que significa que puede definir un elemento que se considerará como el elemento principal y todos los subelementos dentro de él se combinarán con el elemento principal. Por ejemplo, si decide acoplar el elemento `p`, cualquier elemento que aparezca dentro del elemento `p` se combinará con el elemento principal `p`. No se crearía una nota independiente para ningún subelemento dentro del elemento `p`. La siguiente instantánea muestra la estructura de nodos acoplada en el elemento `p`:
 
-![](assets/flattened-aem-site-node-structure.png){width="300" align="left"}
+![](assets/flattened-aem-site-node-structure.png){width="300"}
 
 Para acoplar la estructura de nodos del sitio de AEM, realice los siguientes pasos:
 
@@ -321,7 +320,7 @@ Para acoplar la estructura de nodos del sitio de AEM, realice los siguientes pas
 
 Ahora, cuando genere la salida del sitio de AEM, los nodos dentro del elemento `p` se acoplan y almacenan dentro del propio elemento `p`. Puede encontrar las nuevas propiedades de acoplamiento para el elemento `p` en CRXDE.
 
-![](assets/flatten-aem-site-note-props-crxde.png){width="650" align="left"}
+![](assets/flatten-aem-site-note-props-crxde.png){width="650"}
 
 **Impedir el acoplamiento de la estructura de notas del sitio AEM**
 
@@ -394,7 +393,7 @@ Para añadir los metadatos necesarios en el sistema, realice los siguientes paso
 
    1. En la **Etiqueta de campo**, escriba el nombre de los metadatos— Audiencia.
 
-   1. En la configuración **Asignar a propiedad**, especifique/jcr:content/metadata/&lt;nombre de los metadatos\>. Para nuestro ejemplo, lo estableceremos en ./jcr:content/metadata/audience.
+   1. En la configuración **Asignar a propiedad**, especifique ./jcr:content/metadata/&lt;nombre de los metadatos\>. Para nuestro ejemplo, lo estableceremos en ./jcr:content/metadata/audience.
 
    Siga estos pasos para agregar todos los parámetros de metadatos necesarios.
 
@@ -403,7 +402,7 @@ Para añadir los metadatos necesarios en el sistema, realice los siguientes paso
 
 El nuevo parámetro aparece ahora en la página Propiedades para todos los mapas DITA.
 
-![](assets/properties-page-custom-metadata.PNG){width="650" align="left"}
+![](assets/properties-page-custom-metadata.PNG){width="650"}
 
 A continuación, es necesario que los metadatos personalizados estén disponibles en la consola de mapas DITA. Realice los siguientes pasos para que los metadatos personalizados estén disponibles en el tablero de mandos de mapa DITA:
 
@@ -432,7 +431,7 @@ Por último, como editor, debe incluir los metadatos personalizados en el result
 
 1. En la página Propiedades, especifique el valor de los metadatos personalizados. Para nuestro ejemplo, hemos especificado un valor de External para el parámetro audience.
 
-   ![](assets/properties-page-custom-metadata-value.png){width="650" align="left"}
+   ![](assets/properties-page-custom-metadata-value.png){width="650"}
 
 1. Haga clic en **Guardar y cerrar**.
 
@@ -444,7 +443,7 @@ Por último, como editor, debe incluir los metadatos personalizados en el result
 
 1. En la lista desplegable **Propiedades**, seleccione las propiedades que desee pasar al proceso de publicación.
 
-   ![](assets/props-in-publish-output.PNG){width="650" align="left"}
+   ![](assets/props-in-publish-output.PNG){width="650"}
 
 
 Las propiedades/metadatos seleccionados se pasan al proceso de publicación y están disponibles en la salida final.

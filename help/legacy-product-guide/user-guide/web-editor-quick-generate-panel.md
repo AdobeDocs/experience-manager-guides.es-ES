@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: 8ba8eaa2-9ab0-4132-a751-48d2a527faf4
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ AEM Guides proporciona un panel **Generación rápida** integrado dentro del Edi
 >
 > Aparecerá el panel **Generación rápida** para el mapa DITA abierto en el panel Vista de mapa.
 
-![](images/quick-generate-map-view.png){width="800" align="left"}
+![](images/quick-generate-map-view.png){width="800"}
 
 Realice los siguientes pasos para generar el resultado desde el panel **Generación rápida**:
 

@@ -4,10 +4,11 @@ description: Obtenga información sobre cómo descargar e instalar AEM Guides po
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 1c4a93c2-e477-4466-8390-3fda21ead9ff
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +34,7 @@ Siga estos pasos para descargar e instalar AEM Guides por primera vez:
 
    El Administrador de paquetes administra los paquetes en la instalación local de AEM. Para obtener más información sobre cómo trabajar con el Administrador de paquetes, consulte [Cómo trabajar con paquetes](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/package-manager.html) en la documentación de AEM.
 
-   ![](assets/package-manager.png){width="650" align="left"}
+   ![](assets/package-manager.png){width="650"}
 
 1. Para cargar el paquete de AEM Guides, haga clic en **Cargar paquete**.
 
@@ -43,7 +44,7 @@ Siga estos pasos para descargar e instalar AEM Guides por primera vez:
 
 1. Para instalar el paquete, haz clic en **Instalar**.
 
-   ![](assets/install-package.png){width="650" align="left"}
+   ![](assets/install-package.png){width="650"}
 
 1. En el diálogo Instalar paquete, haga clic en **Instalar**.
 

@@ -4,9 +4,9 @@ description: Conozca el panel derecho en el editor. Obtenga información acerca 
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1297'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ Puede acceder a la función **Propiedades de contenido** seleccionando el icono 
 
 1. Seleccione **Añadir**.
 
-   ![atributos en propiedades de contenido](images/properties-tab-attributes_cs.png){width="300" align="left"}
+   ![atributos en propiedades de contenido](images/properties-tab-attributes_cs.png){width="300"}
 
 1. En el panel desplegable **Atributo**, seleccione el atributo en la lista desplegable y especifique el valor de un atributo.  Luego selecciona **Agregar**.
 
-   ![panel de atributos con varios atributos &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![panel de atributos con varios atributos &#x200B;](images/attributes-multiple-properties.png){width="300"}
 
 1. Para editar el atributo, pasa el ratón sobre él y selecciona **Editar** ![editar-icono](images/edit_pencil_icon.svg).
 
@@ -72,7 +72,7 @@ Las propiedades del archivo tienen las dos secciones siguientes:
 
 La sección General le permite acceder a las siguientes funciones:
 
-![propiedades de archivo](images/file-properties-general.png){width="300" align="left"}
+![propiedades de archivo](images/file-properties-general.png){width="300"}
 
 - **Nombre de archivo**: muestra el nombre de archivo del tema seleccionado. El nombre de archivo está enlazado mediante un hipervínculo a la página de propiedades del archivo seleccionado.
 - **ID**: muestra el ID del tema seleccionado.
@@ -104,7 +104,7 @@ La sección General le permite acceder a las siguientes funciones:
 
 La sección Referencias le permite acceder a las siguientes funciones:
 
-![](images/file-properties-references.png){width="300" align="left"}
+![](images/file-properties-references.png){width="300"}
 
 - **Utilizado en**: el Utilizado en referencias enumera los documentos a los que se hace referencia o se utiliza el archivo actual.
 - **Vínculos de salida:** Los vínculos de salida enumeran los documentos a los que se hace referencia en el documento actual.
@@ -129,11 +129,11 @@ Esta sección enumera todas las copias de idioma disponibles para el recurso abi
 >
 > Las copias de idioma se crean cuando se envía un recurso para su traducción. El inglés (`en`) actúa como idioma de origen y las copias traducidas se generan en sus respectivas carpetas de idioma de destino (por ejemplo, `de` para alemán o `fr` para francés). Si un recurso existe solamente en la carpeta `en`, no se mostrarán copias de idioma adicionales hasta que se inicie y complete la traducción para los idiomas de destino. Si el recurso no está presente en ninguna carpeta de idioma, se muestra **No hay traducciones disponibles**. Para obtener más información, vea [Prácticas recomendadas para la traducción de contenido](./translation-first-time.md).
 
-![](images/translations-right-panel.png){width="300" align="left"}
+![](images/translations-right-panel.png){width="300"}
 
 Para cada copia de idioma, puede pasar el ratón sobre el archivo para localizar su ruta en el repositorio o simplemente seleccionarlo para abrirlo en el Editor. Además de abrir archivos, también puede realizar muchas acciones utilizando el menú **Opciones** de la sección Traducciones. Algunas de las acciones que puede realizar son Editar, Vista previa, Copiar UUID, Copiar ruta, Agregar a colecciones y Propiedades.
 
-![](images/translations-right-panel-options-menu.png){width="300" align="left"}
+![](images/translations-right-panel-options-menu.png){width="300"}
 
 
 
@@ -141,7 +141,7 @@ Para cada copia de idioma, puede pasar el ratón sobre el archivo para localizar
 
 Al seleccionar el icono Revisar, se abre el panel de revisión, en el que puede seleccionar una tarea de revisión para el documento abierto actualmente y ver los comentarios.
 
-![](images/review-panel-before-opening.png){width="300" align="left"}
+![](images/review-panel-before-opening.png){width="300"}
 
 Si ha creado varios proyectos de revisión, puede seleccionar uno de la lista desplegable y acceder a los comentarios de revisión.
 

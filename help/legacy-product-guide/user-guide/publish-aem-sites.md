@@ -4,9 +4,10 @@ description: Publicar un tema o los elementos dentro de un tema en una salida de
 feature: Publishing
 role: User
 hide: true
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+exl-id: 3e77747d-ff04-465c-9305-fd6f1c74df04
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ Para generar una página de Sites, realice los siguientes pasos:
 
 
 1. En el cuadro de diálogo **Generar página de sitios**, rellene los siguientes detalles:
-   ![Agregue la ruta y los detalles de la plantilla en la página Generar sitios](images/aem-sites-page-generate.png){width="500" align="left"}
+   ![Agregue la ruta y los detalles de la plantilla en la página Generar sitios](images/aem-sites-page-generate.png){width="500"}
 
    * Añada la ruta, el título, el nombre y los detalles de plantilla para publicar un tema o sus elementos como una página de Sites. *
 
@@ -58,7 +59,7 @@ Para generar una página de Sites, realice los siguientes pasos:
 1. Haga clic en **Generar** para publicar la página de Sites.
 1. Puede ver la página Sitios de un tema en la sección **Resultados** de las **propiedades de archivo**. Las páginas de Sites aparecen según la fecha y la hora de su publicación, con la última como la primera.
 
-   ![Ver la página de Sites de un tema](images/aem-sites-outputs.png){width=300 align=&quot;left&quot;}
+   ![Ver la página de Sites de un tema](images/aem-sites-outputs.png){width=300}
 
    *Vea la página de Sites presente para un tema y vuelva a publicarla.*
 

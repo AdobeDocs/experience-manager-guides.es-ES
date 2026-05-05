@@ -4,9 +4,9 @@ description: Conozca las funciones nuevas y mejoradas de las versiones 4.2.1 de 
 exl-id: 441aa7ec-d88c-42cb-83f0-d0f6e58bfa41
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -17,24 +17,24 @@ Este artículo cubre las funciones nuevas y mejoradas de la versión 4.2.1 de Ad
 
 Para obtener más información sobre las instrucciones de actualización, la matriz de compatibilidad y los problemas corregidos en esta versión, consulte el artículo [Notas de la versión](release-notes-4-2-1.md).
 
-## AEM Vaya del Editor Web a la página principal de la
+## Vaya del Editor Web a la página principal de AEM
 
-AEM Ahora puede navegar fácilmente desde el Editor Web a la página Navegación de la.
+Ahora puede navegar fácilmente desde el Editor Web a la página Navegación de AEM.
 
-![](assets/web-editor-launch-page.png){width="800" align="left"}
+![](assets/web-editor-launch-page.png){width="800"}
 
-* AEM Haga clic en el icono **Guías** (![](assets/aem-guides-icon.png) ) para volver a la página Navegación de la.
+* Haga clic en el icono **Guías** (![](assets/aem-guides-icon.png) ) para volver a la página Navegación de AEM.
 
 
-AEM Para obtener más información, consulte [Página de navegación de la](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
+Para obtener más información, consulte [Página de navegación de AEM](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
 
-## Compatibilidad de metadatos avanzada en la publicación de PDF
+## Compatibilidad con metadatos avanzados en la publicación de PDF
 
-AEM Guides ahora proporciona compatibilidad avanzada con los metadatos asignados a los metadatos en la salida del PDF. Las opciones de metadatos incluyen información sobre el documento y su contenido, como el nombre del autor, el título del documento, las palabras clave, la información de copyright y otros campos de datos.
+AEM Guides ahora proporciona compatibilidad avanzada con los metadatos asignados a los metadatos de la salida de PDF. Las opciones de metadatos incluyen información sobre el documento y su contenido, como el nombre del autor, el título del documento, las palabras clave, la información de copyright y otros campos de datos.
 
 <img src="assets/pdf-metadata.png" alt=" metadatos pdf nativos">
 
-XMP Puede importar un archivo de y AEM Guides puede elegir la información del archivo. También tiene la opción de proporcionar los nombres y valores de los metadatos mediante la lista desplegable. También puede agregar metadatos personalizados escribiendo directamente en el campo de nombre.
+Puede importar un archivo de XMP y AEM Guides puede elegir la información del archivo. También tiene la opción de proporcionar los nombres y valores de los metadatos mediante la lista desplegable. También puede agregar metadatos personalizados escribiendo directamente en el campo de nombre.
 
 Para obtener más información, consulte la descripción de la característica **Metadatos** en [Crear un ajuste preestablecido de salida de PDF](../web-editor/native-pdf-web-editor.md).
 
@@ -63,9 +63,9 @@ También puede generar el CSV para descargar la instantánea actual de los eleme
 
 Para obtener más información, consulte la descripción de la función Generar un informe multimedia en la sección [Informe de mapa DITA desde el editor web](../user-guide/reports-web-editor.md).
 
-## PDF nativo | Cambiar barra para indicar los temas cambiados en la tabla de contenido
+## PDF nativo | Barra de cambios para indicar los temas modificados en la Tabla de contenido
 
-AEM Guides ahora le permite identificar rápidamente los temas modificados en la TDC de la salida del PDF.  Muestra una barra de cambios a la izquierda de los temas modificados en el índice. Puede hacer clic en el tema del índice y ver los cambios detallados.
+AEM Guides ahora le permite identificar rápidamente los temas modificados en la TDC de la salida de PDF.  Muestra una barra de cambios a la izquierda de los temas modificados en el índice. Puede hacer clic en el tema del índice y ver los cambios detallados.
 
 <img src="assets/change-marker-toc.png" alt="Cambiar marcador en TDC " width="500">
 

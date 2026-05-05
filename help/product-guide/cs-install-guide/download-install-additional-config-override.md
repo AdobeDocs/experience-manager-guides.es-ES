@@ -5,10 +5,9 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -60,7 +59,7 @@ Siga estos pasos para configurar la interfaz de usuario de Experience Manager Gu
 5. Seleccione **Agregar/Actualizar**.
 6. Añada los detalles de configuración de la IU. Asegúrese de utilizar el mismo nombre y configuración que se indican en la siguiente captura de pantalla.
 
-   ![](assets/enable-penultimate-ui.png){width="800" align="left"}
+   ![](assets/enable-penultimate-ui.png){width="800"}
 
    Si establece el valor en **true**, se conserva la interfaz de usuario antigua, mientras que **false** activa la nueva interfaz de usuario.
 

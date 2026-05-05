@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: bd488298-57d7-46fb-9820-cec8d0db8bd5
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Siga estos pasos para agregar una etiqueta al tema:
 
    Las etiquetas se muestran en el Historial de versiones del tema seleccionado. La captura de pantalla siguiente muestra las etiquetas *x.x Release* y *User Guide* agregadas a la versión resaltada del tema.
 
-   ![](images/labels.png){width="300" align="left"}
+   ![](images/labels.png){width="300"}
 
 >[!NOTE]
 >
@@ -51,11 +51,11 @@ Siga estos pasos para eliminar una etiqueta:
 
    En el Historial de versiones, verá todas las versiones de un tema y las etiquetas adjuntas a ellas. La siguiente imagen muestra un ejemplo de diferentes versiones de un tema y una versión tiene etiquetas agregadas.
 
-   ![](images/labels.png){width="300" align="left"}
+   ![](images/labels.png){width="300"}
 
 1. Haga clic en el botón Eliminar \(**X**\) para eliminar la etiqueta.
 
-   ![](images/delete-labels.png){width="300" align="left"}
+   ![](images/delete-labels.png){width="300"}
 
 
 **Tema principal:**&#x200B;[&#x200B; Trabajar con el editor web](web-editor.md)

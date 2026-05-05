@@ -5,9 +5,9 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3788'
+source-wordcount: '3838'
 ht-degree: 0%
 
 ---
@@ -36,21 +36,21 @@ Realice los siguientes pasos para crear el archivo de asignación con el Editor 
 
 1. Con el archivo de asignación seleccionado, haga clic en **Editar temas**.
 
-   ![](images/edit-map-main-menu.png){width="800" align="left"}
+   ![](images/edit-map-main-menu.png){width="800"}
 
    O bien, también puede seleccionar la opción **Editar temas** en el menú de acción del archivo de asignación:
 
-   ![](images/edit-map-action-menu.png){width="800" align="left"}
+   ![](images/edit-map-action-menu.png){width="800"}
 
    El archivo de asignación se abre para editarlo en el Editor Web.
 
 1. Haga clic en el icono **Editar**.
 
-   ![](images/edit-map-icon.png){width="550" align="left"}
+   ![](images/edit-map-icon.png){width="550"}
 
    El mapa se abre en la interfaz del Editor de mapas avanzado. Si ha abierto un nuevo archivo de mapa, solo se muestra el título del mapa en el editor.
 
-   ![](images/new-map-file-in-editor.png){width="800" align="left"}
+   ![](images/new-map-file-in-editor.png){width="800"}
 
    - **A** - \(*Barra de herramientas principal*\): Es similar a la barra de herramientas principal del Editor Web. Consulte [Barra de herramientas principal](web-editor-features.md#id2051EA0G05Z) en el editor web para obtener más detalles.
 
@@ -72,7 +72,7 @@ Realice los siguientes pasos para crear el archivo de asignación con el Editor 
 
    El tema se añade en el mapa.
 
-   ![agregar tema del editor de mapas](images/map-editor-add-topic.png){width="800" align="left"}
+   ![agregar tema del editor de mapas](images/map-editor-add-topic.png){width="800"}
 
 1. Para agregar temas subsiguientes o un submapa, arrastre y suelte el tema o submapa en la ubicación requerida del mapa.
 
@@ -80,15 +80,15 @@ Realice los siguientes pasos para crear el archivo de asignación con el Editor 
 
    - El archivo se agrega en una ubicación en la que la barra horizontal aparece en el área de edición del mapa. En la siguiente captura de pantalla, se agregará el tema *Información general* entre los temas *Descripción general* y *Lanzamiento y aterrizaje del sitio*.
 
-     ![](images/horizontal-line-in-adv-map-editor.png){width="350" align="left"}
+     ![](images/horizontal-line-in-adv-map-editor.png){width="350"}
 
    - Para reemplazar un tema, colóquelo en la parte superior, izquierda o derecha del tema que desee reemplazar. Una barra vertical a la izquierda o a la derecha de un tema indica que se reemplazará con el tema que se coloca en él.
 
-     ![](images/vertical-bar-left-right.png){width="550" align="left"}
+     ![](images/vertical-bar-left-right.png){width="550"}
 
      Sin embargo, antes de reemplazar un tema, aparece un mensaje de confirmación. El tema solo se reemplaza después de que proporcione la confirmación.
 
-     ![](images/replace-topic-confirm.png){width="300" align="left"}
+     ![](images/replace-topic-confirm.png){width="300"}
 
    - Si se añade un submapa al mapa DITA, este se mostrará como un vínculo en el mapa DITA. Para ver todos los temas del submapa, Ctrl+clic en el vínculo del submapa. El contenido del submapa se muestra en una nueva pestaña. Del mismo modo, para abrir un tema desde el mapa DITA, pulse Ctrl+clic en el vínculo del tema y se abrirá en la nueva pestaña.
 
@@ -96,7 +96,7 @@ Realice los siguientes pasos para crear el archivo de asignación con el Editor 
 
    - Para cambiar la posición de un tema, seleccione el tema \(haciendo clic en el icono del tema\) y, a continuación, arrástrelo y suéltelo en la ubicación deseada en el archivo de mapa. Asegúrese de que la barra horizontal esté visible en la ubicación donde desee colocar el tema. En la siguiente captura de pantalla, el tema *Lanzamiento y aterrizaje del sitio* se mueve después del tema *Información general*.
 
-     ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
+     ![](images/move-topic-adv-map-editor.png){width="350"}
 
    - Para comprobar las propiedades del archivo de asignación, haga clic con el botón secundario en cualquier lugar del área de edición del mapa y elija **Propiedades** en el menú contextual. En función de su versión de AEM, puede ver propiedades como metadatos, programación \(de\)activación, referencias, estado del documento y más.
 
@@ -122,7 +122,7 @@ Puede realizar las siguientes tareas en la vista Presentación:
 **Insertar referencia de tema** - ![](images/insert-topic-reference.png)
 
 Muestra el cuadro de diálogo de búsqueda del tema. Desplácese hasta el tema o archivo de asignación que desee insertar y haga clic en Seleccionar para añadirlo al mapa.
-![](images/insert-topic-reference-dialog.png){width="800" align="left"}
+![](images/insert-topic-reference-dialog.png){width="800"}
 
 
 **Insertar grupo de temas** - ![](images/insert-topic-group.png)
@@ -133,7 +133,7 @@ Inserte el elemento `topicgroup`. Para obtener más información sobre la agrupa
 
 Muestra el cuadro de diálogo Insertar definición de clave. Utilice este cuadro de diálogo para definir cualquier definición de clave que desee utilizar en el mapa.
 
-![](images/insert-key-definition-dialog.png){width="300" align="left"}
+![](images/insert-key-definition-dialog.png){width="300"}
 
 **Insertar antes o insertar después** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -202,7 +202,7 @@ Muestra el nombre de archivo de los títulos de los temas.
 
 Además de organizar los temas en el archivo de asignación, también puede realizar las siguientes acciones utilizando el menú Opciones disponible para un elemento en la vista Presentación:
 
-![](images/map-editor-options-menu.png){width="650" align="left"}
+![](images/map-editor-options-menu.png){width="650"}
 
 - **Agregar**: puede elegir agregar un nuevo tema o una referencia vacía desde el Editor de mapas:
    - **Referencia vacía**: esta opción permite agregar una referencia vacía en el mapa DITA. Puede hacer doble clic en la referencia vacía insertada más adelante y agregar los detalles del Tema. Para obtener más información, consulte [Crear un tema](web-editor-features.md#id228ICI0105U) en el editor web.
@@ -234,7 +234,7 @@ El panel Propiedades del contenido contiene información sobre el tipo de tema s
 
 - **Otros atributos** Si el administrador ha creado un perfil para atributos, obtendrá esos atributos junto con los valores configurados. Con el panel de propiedades de contenido, puede elegir esos atributos y asignarlos al contenido relevante del tema. También puede asignar atributos configurados por el administrador en la ficha **Atributos de visualización** en la configuración del editor. Los atributos definidos para un elemento se muestran en las vistas Diseño y Esquema. Esto le ayuda a echar un vistazo rápido a todos los temas de un mapa para los que se ha definido un atributo en particular. Por ejemplo, todos los temas que tienen el atributo platform definido como &quot;Android&quot;.
 
-  ![vista de diseño](images/layout-inline-attributes.png){width="650" align="left"}
+  ![vista de diseño](images/layout-inline-attributes.png){width="650"}
 
 
   Para obtener más información, consulte *Atributos de visualización* en la descripción de la característica *Configuración del editor* en la sección [Panel izquierdo](web-editor-features.md#id2051EA0M0HS).
@@ -313,7 +313,7 @@ Para editar temas a través de un mapa DITA, realice los siguientes pasos:
    >
    > También puede seleccionar el archivo de asignación DITA en la interfaz de usuario de Assets y hacer clic en **Editar temas** en la barra de herramientas principal para iniciar el Editor web.
 
-   ![](images/web-editor-map-view_cs.png){width="350" align="left"}
+   ![](images/web-editor-map-view_cs.png){width="350"}
 
 1. \(*Opcional*\) También puede seleccionar un tema del mapa y retirar el archivo antes de editarlo. Para desproteger archivos\(s\), seleccione uno o más archivos en el panel izquierdo y haga clic en **Desproteger**. También puede liberar el bloqueo de cualquier archivo seleccionando el archivo retirado y haciendo clic en el icono **Cancelar retirada y desbloquear** en la vista Mapa.
 
@@ -323,13 +323,13 @@ Para editar temas a través de un mapa DITA, realice los siguientes pasos:
 
    La siguiente captura de pantalla resalta los iconos de Cierre de compra y Bloqueo \(A\), Cancelar cierre de compra y Desbloquear \(B\), Guardar como nueva versión y Desbloquear \(C\), Editar \(D\), Vista previa \(E\), diferentes iconos que muestran diferentes tipos de archivos DITA \(F\) y archivos que están retirados \(G\).
 
-   ![](images/file-checkout-map-editor.png){width="550" align="left"}
+   ![](images/file-checkout-map-editor.png){width="550"}
 
 1. Haga clic en cualquier vínculo de tema para abrirlo en el Editor web y editarlo.
 
    Puede abrir varios temas en el editor, y cada tema se abre en una nueva pestaña del editor. Incluso si el mapa DITA contiene submapas, los temas de los submapas también se abren en una nueva pestaña para su edición. Si desea ver los temas de un submapa, puede hacer clic en y expandir el submapa.
 
-   ![](images/web-editor-multiple-topics.png){width="800" align="left"}
+   ![](images/web-editor-multiple-topics.png){width="800"}
 
    Si hace clic en un archivo de mapa, el mapa se abre en una nueva pestaña del explorador web.
 
@@ -337,7 +337,7 @@ Para editar temas a través de un mapa DITA, realice los siguientes pasos:
 
    - Puede guardarlos de forma individual. Si hace clic en **Cerrar sin guardar** los temas, verá un cuadro de diálogo que le pedirá que guarde los temas no guardados:
 
-     ![](images/save-multiple-topics.PNG){width="550" align="left"}
+     ![](images/save-multiple-topics.PNG){width="550"}
 
      Puede elegir guardar todos los temas seleccionados o anular la selección de los temas que no desee guardar.
 
@@ -349,7 +349,7 @@ Para editar temas a través de un mapa DITA, realice los siguientes pasos:
 
    - Si el administrador ha activado la opción de proteger archivos al cerrar, se le mostrará un mensaje para guardar los archivos cada vez que se cierren los archivos desprotegidos. Con esta opción habilitada, al cerrar el editor con archivos modificados, se muestra la lista de archivos desprotegidos que deben guardarse. Los archivos retirados se muestran con un icono de bloqueo:
 
-     ![](images/save-on-close.PNG){width="550" align="left"}
+     ![](images/save-on-close.PNG){width="550"}
 
       - Al hacer clic en el botón **Cerrar sin guardar** se cierran los archivos sin guardar los cambios.
 
@@ -372,7 +372,7 @@ Puede acceder a la vista previa de un mapa desde:
 
 - **Editor de mapas avanzado**: en el Editor de mapas avanzado, haga clic en el icono Vista previa para ver la vista previa del mapa actual.
 
-  ![](images/map-preview-icon.png){width="350" align="left"}
+  ![](images/map-preview-icon.png){width="350"}
 
   Puede realizar las siguientes tareas adicionales en el modo de vista previa:
 

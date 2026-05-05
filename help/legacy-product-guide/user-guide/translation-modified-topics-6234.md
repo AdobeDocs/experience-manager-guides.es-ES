@@ -5,9 +5,9 @@ feature: Translation
 role: User
 hide: true
 exl-id: b623b109-8695-40e5-9e28-78f78cf57ad6
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Realice los siguientes pasos para enviar un tema modificado para su retraducció
 
    Si hace clic en la flecha para ver más detalles. puede ver la copia de idioma en particular que no está actualizada.
 
-   ![](images/out-of-sync-uuid.png){width="800" align="left"}
+   ![](images/out-of-sync-uuid.png){width="800"}
 
 1. Haga clic en la casilla de verificación para seleccionar los temas que desea enviar para su retraducción.
 
@@ -54,7 +54,7 @@ Realice los siguientes pasos para enviar un tema modificado para su retraducció
 
 1. Vaya al proyecto de traducción en la consola Proyecto. Se crea una nueva tarjeta de trabajo de traducción en la carpeta. Haga clic en los puntos suspensivos para ver los recursos de la carpeta.
 
-   ![](images/incremental-job.PNG){width="300" align="left"}
+   ![](images/incremental-job.PNG){width="300"}
 
 1. Para iniciar la traducción, haga clic en la flecha de la tarjeta del trabajo de traducción y seleccione **Start** en la lista. Un mensaje notifica que el trabajo se ha iniciado.
 

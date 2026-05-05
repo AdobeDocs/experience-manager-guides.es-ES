@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2389'
+source-wordcount: '2408'
 ht-degree: 0%
 
 ---
@@ -56,13 +56,13 @@ Seleccione una fuente de datos para ver los generadores de fragmentos de conteni
 
 ### Vista de lista ![](images/data-sources-list-view-icon.svg)
 
-![](images/data-sources-list-view.png){width="300" align="left"}
+![](images/data-sources-list-view.png){width="300"}
 
 *Lista de orígenes de datos conectados.*
 
-### Vista en mosaico   ![](images/data-sources-tile-view-icon.svg)
+### Vista en mosaico ![](images/data-sources-tile-view-icon.svg)
 
-![](images/data-sources-tile-view.png){width="300" align="left"}
+![](images/data-sources-tile-view.png){width="300"}
 
 *Ver los orígenes de datos conectados como mosaicos.*
 
@@ -78,11 +78,11 @@ AEM Guides proporciona la función para conectarse a la fuente de datos. Puede r
 
 Realice los siguientes pasos para crear un fragmento de contenido mediante el generador de fragmentos de contenido e insertarlo en el tema:
 
-1. Seleccionar **orígenes de datos** ![](images/data-source-icon.svg)   en el panel izquierdo para ver las fuentes de datos conectadas.
+1. Seleccione **Fuentes de datos** ![](images/data-source-icon.svg) en el panel izquierdo para ver las fuentes de datos conectadas.
 
 1. Seleccione una fuente de datos para ver los generadores de fragmentos de contenido disponibles para la fuente de datos seleccionada.
 
-   ![](images/code-snippet-generator.png){width="300" align="left"}
+   ![](images/code-snippet-generator.png){width="300"}
 
    *El panel Fuentes de datos enumera los generadores de fragmentos de contenido disponibles.*
 
@@ -125,8 +125,7 @@ Por ejemplo:
       - Si ha seleccionado la plantilla de lista ordenada por jira, puede ver una lista ordenada para los problemas de Jira.
 
    1. La vista de origen muestra los datos en la vista de origen DITA.
-
-      ![](images/add-content-snippet-generator.png){width="800" align="left"}
+      ![](images/add-content-snippet-generator.png){width="800"}
       *Agregar un generador de fragmentos de contenido. Ver los datos en modo de origen o vista previa.*
 
 1. Para guardar los resultados de la consulta, escriba el nombre del generador y haga clic en **AGREGAR**.   Se agrega a la lista un nuevo generador de fragmentos de contenido.
@@ -152,9 +151,9 @@ Haga clic con el botón derecho en un generador de fragmentos de contenido para 
 
 ### Insertar un fragmento de consulta
 
-También puede usar **Insertar fragmento de consulta** ![](images/data-source-icon.svg)   en la barra de herramientas principal para insertar el fragmento de datos en los temas.  Puede seleccionar un generador en la lista desplegable, editar la consulta o cambiar la plantilla e insertar los datos en el tema.
+También puede usar **Insertar fragmento de consulta** ![](images/data-source-icon.svg) de la barra de herramientas principal para insertar el fragmento de datos en los temas.  Puede seleccionar un generador en la lista desplegable, editar la consulta o cambiar la plantilla e insertar los datos en el tema.
 
-![](images/insert-content-snippet.png){width="800" align="left"}
+![](images/insert-content-snippet.png){width="800"}
 
 *Editar e insertar un fragmento de datos.*
 
@@ -174,7 +173,7 @@ Realice los siguientes pasos para crear un tema con el generador de temas:
 
 1. Seleccione una fuente de datos para ver los generadores de fragmentos de contenido y los generadores de temas disponibles para la fuente de datos seleccionada.
 
-   ![](images/data-sources.png){width="300" align="left"}
+   ![](images/data-sources.png){width="300"}
 
    *Agregar un generador de temas para un origen de datos conectado.*
 
@@ -186,7 +185,7 @@ Realice los siguientes pasos para crear un tema con el generador de temas:
 
    **Recuperar configuración**
 
-   ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
+   ![](images/topic-generator-fetch-configuration.png){width="300"}
 
    *Agregue los detalles de Consulta de datos, Plantilla de asignación de datos y Nodo raíz para el generador de temas y asígnele un nombre único en el panel Recuperar configuración.*
 
@@ -219,7 +218,7 @@ Realice los siguientes pasos para crear un tema con el generador de temas:
 
    **Configuración de salida**
 
-   ![](images/topic-generator-output-configuration.png){width="300" align="left"}
+   ![](images/topic-generator-output-configuration.png){width="300"}
 
    *Escriba la ruta de salida y los detalles de convención de nomenclatura de temas en el panel Configuración de salida. Genere un mapa DITA y asígnele el nombre.*
 
@@ -238,7 +237,7 @@ Realice los siguientes pasos para crear un tema con el generador de temas:
 
    Por ejemplo, en la siguiente captura de pantalla, `dc:description`, `dc:language`, `dc:title` y `docstate` son las propiedades predeterminadas para las que puede definir los valores. Puede crear una propiedad personalizada como autor y definir su valor.
 
-   ![](images/topic-generator-metadata.png){width="300" align="left"}
+   ![](images/topic-generator-metadata.png){width="300"}
 
    *Agregue las propiedades de metadatos en el panel Metadatos para pasarlas a los temas.*
 
@@ -248,7 +247,7 @@ Realice los siguientes pasos para crear un tema con el generador de temas:
 
 
 
-   ![](images/edit-topic-generator.png){width="650" align="left"}
+   ![](images/edit-topic-generator.png){width="650"}
 
    *Generar nuevos temas a partir de un generador de temas existente.*
 

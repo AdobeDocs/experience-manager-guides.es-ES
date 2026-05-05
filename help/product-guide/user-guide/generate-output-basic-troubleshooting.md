@@ -4,7 +4,7 @@ description: Resuelva los problemas con la solución de problemas básica en AEM
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: e049cb1f3d091c701285dbe89194058b93d5e2e4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Realice los siguientes pasos para ver y comprobar el archivo de registro de gene
 
    La columna **Configuración de generación** de **Salidas generadas** muestra el color para dar una pista visual sobre el éxito o el fracaso de la generación de salida para diferentes ajustes preestablecidos de salida.
 
-   ![](images/output-general-settings-new.png){width="300" align="left"}
+   ![](images/output-general-settings-new.png){width="300"}
 
    En la captura de pantalla anterior:
 
@@ -39,7 +39,7 @@ Realice los siguientes pasos para ver y comprobar el archivo de registro de gene
 
    El archivo de registro se abre en una nueva pestaña.
 
-   ![](images/log-file-new.png){align="left"}
+   ![](images/log-file-new.png)
 
 1. Aplique los siguientes filtros para resaltar el texto en el archivo de registro:
    - **Grave**: resalta los errores irrecuperables del archivo de registro con color rojo oscuro.
@@ -75,13 +75,13 @@ Realice los siguientes pasos para copiar y comprobar el archivo de registro de g
 
    En el siguiente fragmento de archivo de registro de ejemplo, puede ver el mensaje `BUILD FAILED` junto con el motivo del error.
 
-   ![](images/dita-error-in-log-file.png){width="650" align="left"}
+   ![](images/dita-error-in-log-file.png){width="650"}
 
    - *Error relacionado con Experience Manager Guides*: El otro tipo de error que puede identificar en el archivo de registro está relacionado con el propio proceso de Experience Manager Guides. En este caso, el fichero de mapa DITA se analiza correctamente, pero el proceso de generación de salida falla debido a algún error interno de Experience Manager Guides. Para este tipo de errores, debe buscar ayuda del equipo de asistencia técnica.
 
    En el siguiente fragmento de archivo de registro de ejemplo, puede ver el mensaje `BUILD SUCCESSFUL`, seguido de otro error técnico.
 
-   ![](images/process-error-in-log-file.png){width="650" align="left"}
+   ![](images/process-error-in-log-file.png){width="650"}
 
 
 

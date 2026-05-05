@@ -5,10 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '5127'
+source-wordcount: '5239'
 ht-degree: 0%
 
 ---
@@ -23,7 +22,7 @@ Además, puede delegar las configuraciones específicas de la carpeta a un depar
 
 Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede establecer la configuración en las siguientes pestañas:
 
-![](assets/folder-profile-tabs.png){width="800" align="left"}
+![](assets/folder-profile-tabs.png){width="800"}
 
 - **General**: La ficha General sólo está disponible cuando está configurando la configuración de nivel de carpeta \(o proyecto/producto\). Puede configurar opciones, como las rutas de carpeta en las que se aplicará la configuración y los usuarios que tengan derechos administrativos para crear o actualizar configuraciones.
 
@@ -99,7 +98,7 @@ Siga estos pasos para configurar el perfil global:
 
    Por primera vez, la página Perfiles de carpeta se muestra únicamente con el mosaico Perfil global.
 
-   ![](assets/folder-profile-global.png){width="800" align="left"}
+   ![](assets/folder-profile-global.png){width="800"}
 
 1. Haga clic en el mosaico **Perfil global**.
 
@@ -128,7 +127,7 @@ Siga estos pasos para configurar un perfil de nivel de carpeta:
 
 1. Haga clic en **Crear**.
 
-   ![](assets/create-folder-profile.png){width="300" align="left"}
+   ![](assets/create-folder-profile.png){width="300"}
 
 1. Escriba los siguientes detalles en el diálogo **Crear perfil de carpeta**:
    - Nombre del perfil de carpeta.
@@ -218,7 +217,7 @@ Si utiliza un atributo personalizado, debe ser un atributo DITA válido admitido
 
    >[!IMPORTANT]
    >
-   > El archivo DTD especializado debe formar parte de la implementación de código personalizado. Las DTD en /apps forman parte de la implementación del producto y, por lo tanto, se sobrescriben con la instalación de cualquier nueva versión. Se recomienda añadir DTD especializada en /var/xml/dita\_resources dentro de la carpeta del proyecto e incluir la ruta de DTD/catálogo en el perfil DITA. Para obtener más información, consulte [Integrar la especialización DITA](dita-ot-specialization.md#id211MB0E00XA).
+   > El archivo DTD especializado debe formar parte de la implementación de código personalizado. Las DTD en /apps forman parte de la implementación del producto y, por lo tanto, se sobrescriben con la instalación de cualquier nueva versión. Se recomienda añadir DTD especializada en /var/xml/dita\_resources dentro de la carpeta del proyecto e incluir la ruta de DTD/catálogo en el perfil DITA.Para obtener más información, consulte [Integración de la especialización DITA](dita-ot-specialization.md#id211MB0E00XA).
 
 1. Utilice el Administrador de paquetes para descargar el archivo /libs/fmdita/config/condAttrList.xml:
 
@@ -260,7 +259,7 @@ Realice los siguientes pasos para agregar las plantillas de tema, asignación o 
    >
    > De forma predeterminada, todas las plantillas se almacenan en la carpeta /content/dam/dita-templates. La carpeta `dita-templates` contiene `topics`, `maps` y `PDF` subcarpetas para almacenar las plantillas de tema, asignación y PDF. Puede agregar las plantillas personalizadas \(.dita, .xml o .ditamapfiles\) en las carpetas de plantillas predeterminadas. Una vez que añada la plantilla a la carpeta predeterminada, podrá añadirlas en el perfil global o de carpeta. Para obtener más información acerca de cómo crear plantillas personalizadas mediante el Editor Web, vea [Crear una plantilla de creación personalizada](#id1917D0EG0HJ).
 
-   ![](assets/search-author-temp.png){width="800" align="left"}
+   ![](assets/search-author-temp.png){width="800"}
 
 1. Añada las plantillas temáticas, de asignación y de PDF necesarias a su perfil.
 
@@ -268,7 +267,7 @@ Realice los siguientes pasos para agregar las plantillas de tema, asignación o 
 
    - Elija **Buscar o Escriba** y escriba o seleccione el nombre de una plantilla en la lista desplegable. La lista desplegable consta de todas las plantillas predeterminadas y cualquier plantilla nueva que haya creado.
 
-     ![](assets/default-template-list.png){width="800" align="left"}
+     ![](assets/default-template-list.png){width="800"}
 
    - Haga clic en **Examinar** y seleccione una plantilla de DAM.
 
@@ -276,7 +275,7 @@ Realice los siguientes pasos para agregar las plantillas de tema, asignación o 
 
    Las plantillas seleccionadas se añaden a la lista de plantillas.
 
-   ![](assets/author-templ-added-list.png){width="800" align="left"}
+   ![](assets/author-templ-added-list.png){width="800"}
 
    >[!NOTE]
    >
@@ -434,7 +433,7 @@ Realice los siguientes pasos para configurar la IA estándar en el perfil global
 
 1. En la página de perfil, seleccione la ficha **Configuración de IA**.
 
-   ![Ficha de configuración de IA en el perfil global](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
+   ![Ficha de configuración de IA en el perfil global](assets/global-profile-AI-configuration-cs.png) {width="800"}
 
 1. Seleccione **Editar**.
 1. Como administrador, puede configurar las siguientes opciones:

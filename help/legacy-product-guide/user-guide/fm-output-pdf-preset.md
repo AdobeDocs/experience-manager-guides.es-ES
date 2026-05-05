@@ -5,9 +5,9 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: 3a8cb163-94ac-48b1-ae6b-1309179f462a
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '384'
 ht-degree: 3%
 
 ---
@@ -33,12 +33,12 @@ Las siguientes opciones están disponibles para la salida de PDF:
 | **Configuración de pantalla** |  |
 | Abrir documento en la página | Especifique el número de página que debe mostrarse al abrir PDF. |
 | Nivel de zoom inicial | Elija el nivel de zoom del documento. |
-| Marca de registro | Para imprimir un documento con marcas de recorte y de registro, elija una opción en la lista desplegable Marcas de registro. |
-| Anchura y altura de página | Especifique la anchura y la altura de la página. |
-| Rango de páginas | Elija si desea publicar todas las páginas del libro o un rango de páginas. Si selecciona Rango, debe especificar el rango de páginas Desde y Hasta. |
-| Convertir CYMK a RGB | Seleccione esta opción para convertir los colores CYMK a RGB en el PDF generado. |
-| Generar marcadores de PDF | Cree una PDF accesible que contenga marcadores. |
-| Ruta de destino | Ruta de acceso dentro del repositorio de AEM en la que se almacena la salida de PDF. |
-| Ejecutar flujo de trabajo posterior a generación | Al elegir esta opción, se muestra una nueva lista desplegable Flujo de trabajo de generación posterior que contiene todos los flujos de trabajo configurados en AEM. Debe seleccionar un flujo de trabajo que desee ejecutar después de completar el flujo de trabajo de generación de resultados. |
+| Marca de registro | To print a document with crop marks and registration marks, choose an option from the Registration Marks drop-down list. |
+| Page Width and Page Height | Specify the width and height of the page. |
+| Rango de páginas | Choose whether you want to publish all pages in the book or a range of pages. If you choose Range, then you must specify the From and To page range. |
+| Convert CYMK to RGB | Select this option to convert CYMK colors to RGB in the generated PDF. |
+| Generate PDF Bookmarks | Create accessible PDF that contains bookmarks. |
+| Ruta de destino | The path within your AEM repository where the PDF output is stored. |
+| Run Post Generation Workflow | When you choose this option, a new Post Generation Workflow drop-down list is displayed containing all workflows configured in AEM. You must select a workflow that you want to execute after completion of the output generation workflow. |
 
-**Tema principal:**&#x200B;[&#x200B; Generar salida de documentos de FrameMaker](fm-output-generatation.md)
+**Parent topic:**&#x200B;[&#x200B; Generate output of FrameMaker documents](fm-output-generatation.md)

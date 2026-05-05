@@ -5,9 +5,9 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 981ecaeb-9b1f-4c7a-8336-7746a739bedc
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Realice los siguientes pasos para crear un archivo de asignación:
    >
    > La forma en que se hace referencia a los temas en un archivo de mapa depende de la plantilla de mapa. Por ejemplo, si selecciona la plantilla Mapa, las referencias del tema \(`topicref`\) se utilizarán para hacer referencia a los temas. En el caso de un mapa de libros, las referencias de temas se crean utilizando el elemento `chapter` en DITA.
 
-   ![](images/map-template.png){width="650" align="left"}
+   ![](images/map-template.png){width="650"}
 
 1. En la página Propiedades, especifique el mapa **Title**.
 
@@ -44,7 +44,7 @@ Realice los siguientes pasos para crear un archivo de asignación:
 
    A cada nuevo archivo de asignación que cree desde la interfaz de usuario de Assets **Create** \> **DITA Map** o el Editor web se le asigna un ID de mapa único. Además, la nueva asignación se guarda como la última copia de trabajo en DAM. Hasta que guarde una revisión de una asignación recién creada, no verá ningún número de versión en el Historial de versiones. Si abre el mapa para editarlo, la información de la versión se muestra en la esquina superior derecha de la pestaña del archivo de mapa:
 
-   ![](images/first-version-map-none.png){width="650" align="left"}
+   ![](images/first-version-map-none.png){width="650"}
 
    La información de versión de un mapa recién creado se muestra como *none*. Al guardar una nueva versión, se le asigna un número de versión como 1.0. Para obtener más información acerca de cómo guardar una nueva versión, vea [Guardar como nueva versión](web-editor-features.md#save-as-new-version-id209ME400GXA).
 

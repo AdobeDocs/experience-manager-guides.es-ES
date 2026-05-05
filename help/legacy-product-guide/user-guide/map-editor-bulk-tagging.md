@@ -5,9 +5,9 @@ feature: Metadata Management
 role: User
 hide: true
 exl-id: b320e34f-ee0a-4cc3-b4f6-d322fbb29844
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Utilice la función de etiquetado masivo para aplicar varias etiquetas a la vez.
 
 1. Seleccione los temas o el submapa al que desee aplicar las etiquetas.
 
-   ![](images/apply-tags-uuid.png){width="650" align="left"}
+   ![](images/apply-tags-uuid.png){width="650"}
 
 
    >[!NOTE]
@@ -79,7 +79,7 @@ Siga estos pasos para aplicar etiquetas a un tema individual:
 1. Haga clic en **Guardar y cerrar**.
 
 
-## Eliminar etiquetas
+## Quitar etiquetas
 
 Según sus necesidades comerciales, puede cambiar la información de etiquetado para cualquier tema de DITA. Puede quitar fácilmente todas las etiquetas a la vez o quitar solo las que no sean válidas en el tema.
 

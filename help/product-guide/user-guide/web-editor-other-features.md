@@ -4,9 +4,9 @@ description: Explore otras funciones del editor en Adobe Experience Manager Guid
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3653'
+source-wordcount: '3690'
 ht-degree: 0%
 
 ---
@@ -23,20 +23,20 @@ Al abrir un archivo en el Editor, puede realizar varias acciones desde el menú 
 
 Se obtienen las siguientes funciones en el menú contextual de la pestaña de un archivo multimedia abierto:
 
-![](images/media-file-context-menu.png){width="300" align="left"}
+![](images/media-file-context-menu.png){width="300"}
 
 
 **Archivo DITA único**
 
 Se obtienen las siguientes funciones en el menú contextual de la pestaña de un archivo abierto:
 
-![](images/single-file-context-menu.png){width="400" align="left"}
+![](images/single-file-context-menu.png){width="400"}
 
 **Varios archivos**
 
 Cuando tenga varios archivos abiertos, obtendrá más opciones en el menú contextual:
 
-![](images/multiple-files-context-menu.png){width="550" align="left"}
+![](images/multiple-files-context-menu.png){width="550"}
 
 Las distintas opciones del menú contextual se explican a continuación:
 
@@ -127,7 +127,7 @@ Puede ver las siguientes opciones en función de si el archivo está bloqueado/d
 
   Por ejemplo, uno de los indicadores se muestra en la siguiente captura de pantalla:
 
-  ![](images/file-close-save-changes-unlock.png){width="400" align="left"}
+  ![](images/file-close-save-changes-unlock.png){width="400"}
 
 **Señales visuales para referencias rotas**
 
@@ -157,11 +157,11 @@ Experience Manager Guides proporciona cuadros de diálogo intuitivos - **Selecci
 
 El explorador de rutas de archivos permite localizar y seleccionar rápidamente archivos específicos dentro del repositorio de contenido. Esta función está disponible para tareas como añadir un tema a un mapa, vincular una imagen o referencia cruzada, crear contenido reutilizable, etc.
 
-![](images/select-file-dialog-new.png){width="350" align="left"}
+![](images/select-file-dialog-new.png){width="350"}
 
 Al iniciar el explorador de archivos, se abrirá el cuadro de diálogo **Seleccionar archivo**. Este cuadro de diálogo incluye dos fichas: **Repositorio** y **Colecciones**. La pestaña Repositorio está seleccionada de forma predeterminada.
 
-![](images/select-file.png){width="650" align="left"}
+![](images/select-file.png){width="650"}
 
 **Funciones disponibles en la ficha Repositorio para examinar archivos**
 
@@ -169,17 +169,17 @@ Al iniciar el explorador de archivos, se abrirá el cuadro de diálogo **Selecci
 
 La pestaña Repositorio proporciona una vista tabular de los archivos y carpetas del repositorio de contenido, lo que facilita la búsqueda de la ruta de archivo correcta. También puede utilizar las rutas de exploración en la parte superior y el panel de navegación de carpetas en la parte izquierda para desplazarse por las carpetas.
 
-![](images/select-file-dialog-navigate-files.png){width="650" align="left"}
+![](images/select-file-dialog-navigate-files.png){width="650"}
 
 **Selección de un solo archivo y de varios**
 
 Para usar un archivo, simplemente selecciónelo y elija **Seleccionar**.
 
-![](images/select-file-single-file-selection.png){width="650" align="left"}
+![](images/select-file-single-file-selection.png){width="650"}
 
 En algunos casos, también puede seleccionar varios archivos en este cuadro de diálogo del explorador de rutas. Por ejemplo, al examinar archivos para buscar contenido reutilizable, puede seleccionar varios archivos y convertirlos en parte del contenido reutilizable.
 
-![](images/select-file-multiple-file-selection.png){width="650" align="left"}
+![](images/select-file-multiple-file-selection.png){width="650"}
 
 Actualmente, hay disponible una selección múltiple de archivos para contenido reutilizable, referencias de temas, Schematron, ajustes preestablecidos de salida (mediante DITAVAL) y Workfront.
 
@@ -191,29 +191,29 @@ Actualmente, hay disponible una selección múltiple de archivos para contenido 
 
 Puede obtener una vista previa de los archivos que ha seleccionado mediante el botón **Vista previa**, como se muestra a continuación:
 
-![](images/select-file-preview-button.png){width="650" align="left"}
+![](images/select-file-preview-button.png){width="650"}
 
 La vista previa del archivo seleccionado se muestra a la derecha.
 
-![](images/select-file-dialog-preview.png){width="650" align="left"}
+![](images/select-file-dialog-preview.png){width="650"}
 
 Para varias selecciones, se muestra una vista previa de todos los archivos seleccionados en el panel Vista previa para facilitar la revisión.
 
-![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+![](images/reusable-content-selection-left-panel.png){width="650"}
 
 También puede usar el icono **Quitar** para anular la selección de algunos archivos de la vista previa.
 
-![](images/resusable-content-remove-preview.png){width="650" align="left"}
+![](images/resusable-content-remove-preview.png){width="650"}
 
 **Buscar y filtrar la experiencia**
 
 Al examinar los archivos del Repositorio, puede buscar archivos por nombre, título o contenido dentro de la ruta seleccionada. Puede utilizar uno, dos o los tres criterios para la búsqueda. Si no se selecciona ninguno de los criterios, los resultados incluyen elementos comunes a los tres criterios.
 
-![](images/select-file-search.png){width="650" align="left"}
+![](images/select-file-search.png){width="650"}
 
 Seleccione el icono **Filtrar búsqueda** \(![Icono de filtro de búsqueda](images/filter-search-icon.svg)\) para abrir el panel Filtro a la derecha.
 
-![](images/select-file-filters.png){align="left"}
+![](images/select-file-filters.png)
 
 Tiene las siguientes opciones para filtrar los archivos y limitar la búsqueda:
 
@@ -268,7 +268,7 @@ En la pestaña Colecciones, puede:
 
 La exploración de carpetas mediante el cuadro de diálogo **Seleccionar carpeta** se centra en seleccionar la ruta de carpeta correcta dentro del Repositorio para tareas como la creación de nuevos temas o la especificación de ubicaciones de salida para el contenido publicado. Ofrece una vista clara y estructurada en árbol de las carpetas, lo que hace que la navegación sea intuitiva y garantiza que el contenido se coloque en la ubicación correcta.
 
-![](images/select-path-dialog-new.png){width="300" align="left"}
+![](images/select-path-dialog-new.png){width="300"}
 
 
 ## Compatibilidad con la publicación basada en artículos
@@ -289,7 +289,7 @@ El editor admite términos del glosario DITA que se pueden insertar agregando `t
 
 Experience Manager Guides le ofrece compatibilidad para insertar ecuaciones de MathML mediante la integración con la aplicación [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro). Para insertar una ecuación de MathML, seleccione el icono **Elemento** y escriba mathml. Cuando selecciona un elemento matemático de la lista, aparece el cuadro de diálogo **Insertar MathML**:
 
-![insertar ecuación matemática en el editor de matemáticas](images/insert-mathml-equation.png){width="550" align="left"}
+![insertar ecuación matemática en el editor de matemáticas](images/insert-mathml-equation.png){width="550"}
 
 Con las herramientas de ecuaciones de MathML, cree la ecuación y seleccione **Insertar** para agregarla al documento. La ecuación se inserta con un fondo gris claro.
 
@@ -300,7 +300,7 @@ En cualquier momento puedes actualizar una ecuación haciendo clic con el botón
 Experience Manager Guides valida las ecuaciones de MathML cuando se guarda un tema que las contiene.
 Cuando se inserta una ecuación con el editor de MathML, Experience Manager Guides resalta la ecuación en rojo si hay algún problema de sintaxis. Puede corregirla antes de insertarla. Si no hace ningún cambio pero selecciona **Insertar**, se muestra una advertencia.
 
-![validar ecuación matemática](images/validate-mathml-equation.png){width="400" align="left"}
+![validar ecuación matemática](images/validate-mathml-equation.png){width="400"}
 
 Si inserta la ecuación de MathML que contiene un error de sintaxis, se produce un error de validación al intentar guardar el tema.
 
@@ -314,7 +314,7 @@ Insertar nota al pie en el contenido usando el elemento `fn`. En el modo Autor, 
 
 El editor muestra la ruta de exploración del elemento en la parte inferior izquierda del tema. Si desea intercambiar o reemplazar un elemento por otro, puede hacerlo desde el menú contextual de la ruta de exploración. Por ejemplo, puede intercambiar el elemento `p` por `note` o cualquier otro elemento válido en el contexto.
 
-![](images/rename-element.png){width="400" align="left"}
+![](images/rename-element.png){width="400"}
 
 En la ruta de exploración, haga clic con el botón secundario en el nombre de un elemento que desee reemplazar y, a continuación, seleccione Cambiar nombre de elemento en el menú contextual. El cuadro de diálogo Cambiar nombre de elemento muestra todos los elementos válidos permitidos en la ubicación actual. En el cuadro de diálogo Cambiar nombre de elemento, seleccione el elemento que desee utilizar. El elemento original se reemplaza por el nuevo.
 
@@ -353,7 +353,7 @@ En XML, los espacios en blanco incluyen espacios, tabulaciones, retornos de carr
 
 Los elementos DITA que contienen saltos de línea y espacios son compatibles y se representan según su definición en los modos Autor, Source o Vista previa, y también en la salida publicada final. La siguiente captura de pantalla muestra el contenido dentro del elemento `msgblock` en el que se han conservado los saltos y espacios de línea \(sangría\):
 
-![](images/new-line-support_cs.png){align="left"}
+![](images/new-line-support_cs.png)
 
 
 
@@ -381,7 +381,7 @@ También puede hacer clic con el botón derecho en la ruta de exploración y sel
 
 Si un tema o un mapa determinado contiene elementos con ID duplicados, aparecerá el botón **ID duplicados** en la esquina inferior derecha del área de edición de contenido junto a las vistas del editor.
 
-![](images/duplicate-element-IDs.png){width="350" align="left"}
+![](images/duplicate-element-IDs.png){width="350"}
 
 Al seleccionar **ID duplicados**, se abre una ventana emergente con todos los ID duplicados. Puede seleccionar el ID mostrado en la ventana emergente para navegar hasta el elemento correspondiente y actualizarlo con un ID único.
 
@@ -398,12 +398,12 @@ A continuación se mencionan las funciones principales destinadas a mejorar el m
 
 - Se muestra un mensaje de alerta en la parte superior para los archivos grandes, como se muestra en el siguiente fragmento. Esta alerta resalta el número de elementos en función del valor especificado en el parámetro **largeFileTagCount** del archivo uiconfig.json. De manera predeterminada, **largeFileTagCount** está establecido en 2500.
 
-![](images/add-toast-notification.png){width="600" align="left"}
+![](images/add-toast-notification.png){width="600"}
 
 
 - Además, el recuento de etiquetas se muestra en la barra inferior de la interfaz. Cuando pasa el ratón sobre este valor de recuento de etiquetas, aparece información del objeto. Al seleccionar la ficha **Más información** se proporcionan detalles sobre cómo administrar archivos grandes.
 
-![](images/add-toast-tag-count.png){width="600" align="left"}
+![](images/add-toast-tag-count.png){width="600"}
 
 
 - El mensaje de alerta solo está disponible para archivos DITA y es visible en todas las vistas: Autor, Source y Diseño.

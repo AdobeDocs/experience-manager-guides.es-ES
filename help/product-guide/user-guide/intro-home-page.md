@@ -4,9 +4,9 @@ description: Conozca la página de inicio de Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: c2dbf53040abc3e5873fd81050ed7e59c4faaaf0
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2099'
+source-wordcount: '2105'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 La página de inicio es la primera pantalla que ve al iniciar sesión en Experience Manager Guides. Proporciona una experiencia de pantalla de bienvenida unificada e intuitiva, que incluye una vista rápida de los archivos a los que ha accedido recientemente, las colecciones y mucho más.
 
-![](images/aem-home-page-new.png){align="left"}
+![](images/aem-home-page-new.png)
 
 La página de inicio de Experience Manager Guides se divide en las siguientes secciones:
 
@@ -27,7 +27,7 @@ La página de inicio de Experience Manager Guides se divide en las siguientes se
 
 La barra de encabezado es la barra superior de la página principal que muestra el logotipo de Adobe Experience Manager (o un Unified Shell si utiliza Unified Shell como interfaz de usuario de Experience Manager Guides). Al seleccionar el logotipo, se le redirige a la página Navegación de Experience Manager.
 
-![](images/aem-home-header.png){align="left"}
+![](images/aem-home-header.png)
 
 ## Barra de navegación
 
@@ -37,7 +37,7 @@ La barra de navegación muestra las herramientas para cambiar la navegación, pe
 >
 > Si usas el as a Cloud Service de Adobe Experience Manager Guides, aparecerá una característica adicional denominada **Ayudante de IA** en la barra de navegación.
 
-![](images/aem-home-nav-bar.png){align="left"}
+![](images/aem-home-nav-bar.png)
 
 Las funciones disponibles en la barra de navegación se explican de la siguiente manera:
 
@@ -72,7 +72,7 @@ Las funciones disponibles en la barra de navegación se explican de la siguiente
 
 El panel izquierdo le permite acceder rápidamente a las funciones Información general, Repositorio, Colecciones de mapas, Publicación en lote, Cola de publicación y Preferencias de usuario. Puede expandir el panel seleccionando el icono **Expandir** ubicado en la esquina inferior izquierda de la interfaz. Una vez expandido, usa el icono **Contraer** para contraer el panel.
 
-![](images/home-with-repository.png){width="300" align="left"}
+![](images/home-with-repository.png){width="300"}
 
 Lo que vea en este panel depende de la función de usuario que tenga. En la tabla siguiente se enumeran las funciones y las secciones respectivas que se muestran en el panel izquierdo.
 
@@ -106,11 +106,11 @@ Los siguientes widgets están presentes en la sección Widgets:
 
 - **Archivos recientes**: El widget proporciona una instantánea de los archivos abiertos recientemente (una lista de los archivos a los que ha accedido en el Editor) junto con los detalles clave del archivo, incluidos Título, Nombre de archivo, Tipo de archivo, Ruta de archivo y Acceso en las fechas.
 
-  ![](images/aem-home-recent-files.png){align="left"}
+  ![](images/aem-home-recent-files.png)
 
   Puede ordenar y cambiar el tamaño de las columnas seleccionando opciones en el menú desplegable de columnas. De forma predeterminada, los datos se ordenan en función de la última fecha y hora a las que se accedió.
 
-  ![](images/aem-home-recent-files-sort-resize-options.png){align="left"}
+  ![](images/aem-home-recent-files-sort-resize-options.png)
 
 
   Desde [Preferencias de usuario](#user-preferences), puede establecer el número máximo de archivos que se pueden mostrar en este widget. De manera predeterminada, este límite está establecido en **20**.
@@ -128,11 +128,11 @@ Los siguientes widgets están presentes en la sección Widgets:
 - **Colecciones**: si trabaja en un conjunto de archivos o carpetas, puede agregarlos a este widget para acceder a ellos rápidamente. Una vez agregados, puede ver los archivos por título junto con otros detalles clave como Propietario y Fecha de creación. A medida que selecciona la lista desplegable de columnas, puede ver las opciones para ordenar y cambiar el tamaño de la columna.
 
 
-  ![](images/aem-home-collections.png){align="left"}
+  ![](images/aem-home-collections.png)
 
   Las rutas de exploración de la colección seleccionada se muestran en la parte superior del widget Colección. Puede seleccionarlo para volver a una carpeta específica dentro de la jerarquía.
 
-  ![](images/aem-home-collections-breadcrumbs.png){align="left"}
+  ![](images/aem-home-collections-breadcrumbs.png)
 
   Las siguientes opciones están disponibles cuando pasa el ratón sobre una colección y selecciona el icono Más ![](images/Smock_MoreSmallList_18_N.svg):
 
@@ -180,7 +180,7 @@ Las preferencias de usuario están disponibles para todos los autores. Con las p
 
 - **General**: la ficha General permite configurar las siguientes opciones:
 
-  ![](images/user_preference_editor-new.png){align="left"}
+  ![](images/user_preference_editor-new.png)
 
    - **Perfil de carpeta**: el perfil de carpeta controla varias configuraciones relacionadas con atributos condicionales, plantillas de creación, ajustes preestablecidos de salida y configuraciones del editor. El perfil Global se muestra de forma predeterminada. Además, si el administrador ha configurado perfiles de carpeta en el sistema, esos perfiles de carpeta también se muestran en la lista Perfiles de carpeta.
    - **Ruta básica**: de forma predeterminada, al acceder al repositorio de Experience Manager Guides desde el Editor, se muestran los recursos desde la ubicación /content/dam. Es muy probable que la carpeta de trabajo esté compuesta por unas pocas carpetas dentro de la carpeta /content/dam/. Puede establecer la Ruta básica en la carpeta de trabajo y, a continuación, la vista Repositorio le mostrará el contenido desde esa ubicación. Esto reduce el tiempo para tener acceso a la carpeta de trabajo. Además, al insertar cualquier referencia o archivo multimedia en el tema, la ubicación de exploración de archivos comienza con la carpeta establecida en la Ruta base.
@@ -190,7 +190,7 @@ Las preferencias de usuario están disponibles para todos los autores. Con las p
 
 - **Aspecto**: la ficha Aspecto le proporciona las opciones para seleccionar los temas de la aplicación y la vista de origen del área de edición de contenido. Utilice esta pestaña para configurar las siguientes opciones:
 
-  ![](images/user_preference_editor_appearance.png){align="left"}
+  ![](images/user_preference_editor_appearance.png)
 
    - **Tema de aplicación y vista de Source**: puede elegir entre los temas Claro u Oscuro para la aplicación y la vista de origen. En el caso del tema Claro, las barras de herramientas y los paneles utilizan un fondo de color gris claro. En el caso del tema Oscuro, las barras de herramientas y los paneles utilizan un fondo de color negro. Seleccione **Usar el tema del dispositivo** para permitir que Experience Manager Guides seleccione los temas claro y oscuro en función del tema del dispositivo.
 

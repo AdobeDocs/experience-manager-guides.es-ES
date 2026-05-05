@@ -4,9 +4,10 @@ description: Obtenga información sobre cómo configurar los ajustes de generaci
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 6fff24d2-ec25-4654-837c-179e8688e2f4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3314'
+source-wordcount: '3397'
 ht-degree: 1%
 
 ---
@@ -28,7 +29,7 @@ Las siguientes pestañas proporcionan instrucciones para ocultar la pestaña Lí
 
 | PID | Clave de propiedad | Valor de propiedad |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.baseline` | Boolean\(`true/false`\).**Valor predeterminado**: `true` |
+| `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.baseline` | Booleano\(`true/false`\).**Valor predeterminado**: `true` |
 
 >[!NOTE]
 >
@@ -86,7 +87,7 @@ Las siguientes pestañas proporcionan instrucciones para configurar las propieda
 
 1. Añada las siguientes propiedades:
 
-   | Nombre de la propiedad | Tipo | Valor  |
+   | Nombre de la propiedad | Tipo | Valor |
    |-------------|----|-----|
    | `topicContentNode` | Cadena | Especifique el nombre del nodo donde desea publicar el contenido DITA. Por ejemplo, el nodo predeterminado donde AEM Guides publica contenido DITA es: <br> `jcr:content/contentnode` |
    | `topicHeadNode` | Cadena | Especifique el nombre del nodo donde desea almacenar la información de metadatos del contenido DITA. Por ejemplo, el nodo predeterminado donde AEM Guides almacena información de metadatos es: <br> `jcr:content/headnode` |
@@ -108,7 +109,7 @@ La próxima vez que publique contenido DITA con las configuraciones de plantilla
 
 1. Añada las siguientes propiedades:
 
-   | Nombre de la propiedad | Tipo | Valor  |
+   | Nombre de la propiedad | Tipo | Valor |
    |-------------|----|-----|
    | `topicContentNode` | Cadena | Especifique el nombre del nodo donde desea publicar el contenido DITA. Por ejemplo, el nodo predeterminado donde AEM Guides publica contenido DITA es: <br>`jcr:content/contentnode` |
    | `topicHeadNode` | Cadena | Especifique el nombre del nodo donde desea almacenar la información de metadatos del contenido DITA. Por ejemplo, el nodo predeterminado donde AEM Guides almacena información de metadatos es: <br>`jcr:content/headnode` |
@@ -116,7 +117,7 @@ La próxima vez que publique contenido DITA con las configuraciones de plantilla
 
 La siguiente captura de pantalla muestra las propiedades agregadas en el nodo de plantilla predeterminado de AEM Guides:
 
-![](assets/add-content-node.png){width="800" align="left"}
+![](assets/add-content-node.png){width="800"}
 
 La próxima vez que publique contenido DITA con las configuraciones de plantilla del sitio, el contenido se publicará en los nodos especificados en las propiedades `topicContentNode` y `topicHeadNode`.
 
@@ -205,7 +206,7 @@ Para añadir los metadatos necesarios en el sistema, realice los siguientes paso
 
    3. En la **Etiqueta de campo**, escriba el nombre de los metadatos— Audiencia.
 
-   4. En la configuración **Asignar a propiedad**, especifique/jcr:content/metadata/&lt;nombre de los metadatos\>. Para nuestro ejemplo, lo estableceremos en ./jcr:content/metadata/audience.
+   4. En la configuración **Asignar a propiedad**, especifique ./jcr:content/metadata/&lt;nombre de los metadatos\>. Para nuestro ejemplo, lo estableceremos en ./jcr:content/metadata/audience.
 
    Siga estos pasos para agregar todos los parámetros de metadatos necesarios.
 
@@ -329,7 +330,7 @@ Para utilizar el campo de argumento de línea de comandos DITA-OT para pasar met
 
 | PID | Clave de propiedad | Valor de propiedad |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `pass.metadata.args.cmd.line` | Boolean\(`true/false`\).**Valor predeterminado**: `true` |
+| `com.adobe.fmdita.config.ConfigManager` | `pass.metadata.args.cmd.line` | Booleano\(`true/false`\).**Valor predeterminado**: `true` |
 
 - Si se establece el valor de la propiedad en **true**, se habilita la funcionalidad de línea de comandos DITA-OT, lo que permite pasar los metadatos a través de la línea de comandos DITA-OT.
 - Si se establece el valor de la propiedad en **false**, se deshabilita la funcionalidad de línea de comandos DITA-OT. A continuación, puede utilizar el campo Propiedad en el ajuste preestablecido para pasar los metadatos.
@@ -502,7 +503,7 @@ Para configurar AEM Guides para que utilice FMPS, actualice las siguientes propi
 
 | Propiedad | Descripción |
 |--------|-----------|
-| Dominio de inicio de sesión de FrameMaker Publishing Server | Especifique el nombre de dominio o el nombre del grupo de trabajo en el que está alojado FrameMaker Publishing Server. Según la versión de FMPS, proporcione el nombre de dominio como :-   **FMPS 2020**: la dirección IP 192.168.1.101 <br>- **FMPS 2019 y anteriores**: la dirección IP o el nombre de dominio |
+| Dominio de inicio de sesión de FrameMaker Publishing Server | Especifique el nombre de dominio o el nombre del grupo de trabajo en el que está alojado FrameMaker Publishing Server. Según la versión de FMPS, proporcione el nombre de dominio como :- **FMPS 2020**: la dirección IP como 192.168.1.101 <br>- **FMPS 2019 y anteriores**: la dirección IP o el nombre de dominio |
 | URL de FrameMaker Publishing Server | Especifique la URL de FrameMaker Publishing Server. Según la versión de FMPS, proporcione la URL de FMPS como:<br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 y anteriores**: `http://<fmps_ip>:<port>/fmserver/v1/` |
 | Versión de FMPS | Especifique el número de versión de FrameMaker Publishing Server. Según la versión de FMPS, proporcione la información de la versión como: <br>- **FMPS 2020**: 2020 <br> - **FMPS 2019 y anteriores**: 2019 o 2017 |
 | Usuario y contraseña de FrameMaker Publishing Server | Especifique el nombre de usuario y la contraseña para acceder a FrameMaker Publishing Server. |
@@ -510,5 +511,3 @@ Para configurar AEM Guides para que utilice FMPS, actualice las siguientes propi
 | URL de AEM externo | *\(Opcional\)* La URL de AEM donde FrameMaker Publishing Server colocará los archivos de salida generados. Por ejemplo, `http://<server-name>:<port>/`. |
 | Usuario y contraseña de administrador de AEM | *\(Opcional\)* El nombre de usuario y la contraseña de un administrador de la configuración de AEM. FrameMaker Publishing Server lo utilizará para comunicarse con AEM. |
 | Tiempo de espera de ejecución de tarea FMPS | Esta configuración solo es aplicable a FMPS 2020. Especifique el tiempo \(en segundos\) después del cual FMPS dejará de esperar a que se ejecute este proceso. |
-
-

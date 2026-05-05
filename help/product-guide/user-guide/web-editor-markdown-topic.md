@@ -4,9 +4,9 @@ description: Crear documentos Markdown desde el editor. Obtenga información sob
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1211'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Siga estos pasos para crear un tema de Markdown desde el Editor:
 1. En el panel Repositorio, seleccione ![](images/Add_icon.svg) y, a continuación, seleccione **Tema** de la lista desplegable.
 1. En el cuadro de diálogo **Nuevo tema**, proporcione los siguientes detalles:
 
-   ![](images/create-markdown-dialog.png){width="300" align="left"}
+   ![](images/create-markdown-dialog.png){width="300"}
 
    * **Título**: proporcione un título para el tema.
    * **Nombre**: el nombre del archivo se sugiere automáticamente basándose en el título del tema. Si el administrador ha habilitado nombres de archivo automáticos basados en la configuración de UUID, el campo Nombre no se mostrará.
@@ -36,7 +36,7 @@ Siga estos pasos para crear un tema de Markdown desde el Editor:
 
    El tema Markdown se crea en la ruta seleccionada y está abierto para su edición.
 
-   ![](images/markdown-topic-author.png){width="650" align="left"}
+   ![](images/markdown-topic-author.png){width="650"}
 
 
 >[!NOTE]
@@ -60,7 +60,7 @@ The tab bar features the file tabs of the topics or maps that are currently open
 
 Features available in the tab bar are explained as follows:
 
- ![](images/markdown-header.png){width="550" align="left"}
+ ![](images/markdown-header.png){width="550"}
 
 
 
@@ -81,13 +81,13 @@ Features available in the tab bar are explained as follows:
 
 La barra de herramientas se encuentra justo debajo de la barra de pestañas. Las funciones disponibles en la barra de herramientas se explican de la siguiente manera:
 
-![](images/markdown-main-toolbar.png){align="left"}
+![](images/markdown-main-toolbar.png)
 
 | Características | Descripción |
 |----------------|----------------|
-| Edición de acciones | Proporciona acceso a varias características de edición de documentos, entre ellas **Cortar**  ![](images/S_Cut_18_N.svg), **Deshacer**  ![](images/S_Undo_18_N.svg), **Rehacer**  ![](images/S_Redo_18_N.svg), **Copiar**  ![](images/S_Copy_18_N.svg), **Eliminar**  ![](images/S_Delete_18_N.svg), y **Buscar y reemplazar**  ![](images/S_FindAndReplace_18_N.svg). Puede acceder a las opciones disponibles desde la lista desplegable **Menú**. |
-| Opciones de formato de texto | Proporciona acceso a varias opciones de formato de texto, incluidos **Encabezados**  ![](images/S_DisplayHeading_18_N.svg), **Negrita**  ![](images/S_TextBold_18_N.svg), **Cursiva**  ![](images/S_TextItalic_18_N.svg), **Tachado**  ![](images/S_TextStrikethrough_18_N.svg), **Código**  ![](images/S_Code_18_N.svg) y **Cita en bloque**  ![](images/S_BlockQuoteMultipleLines_18_N.svg). |
-| Opciones de inserción de contenido | Proporciona opciones para insertar una **lista numerada**  ![](images/S_TextNumbered_18_N.svg), **lista ordenada**  ![](images/S_TextBulleted_18_N.svg), **Tabla**  ![](images/tableAdd.svg), **Imagen** ![](images/S_ImageAdd_18_N.svg), **Referencia cruzada**  ![](images/S_LinkGlobe_18_N.svg) y **Símbolo**  ![](images/S_SpecialCharacter_18_N.svg) en un documento.<br><br> **Nota**: También puede arrastrar y soltar imágenes y otros archivos en el editor de Markdown. Los archivos se añaden como vínculos de referencia cruzada, mientras que las imágenes se muestran como elementos de imagen estándar. |
+| Edición de acciones | Proporciona acceso a varias características de edición de documentos, como **Cortar** ![](images/S_Cut_18_N.svg), **Deshacer** ![](images/S_Undo_18_N.svg), **Rehacer** ![](images/S_Redo_18_N.svg), **Copiar** ![](images/S_Copy_18_N.svg), **Eliminar** ![](images/S_Delete_18_N.svg) y **Buscar y reemplazar** ![](images/S_FindAndReplace_18_N.svg). Puede acceder a las opciones disponibles desde la lista desplegable **Menú**. |
+| Opciones de formato de texto | Proporciona acceso a varias opciones de formato de texto, como **Encabezados** ![](images/S_DisplayHeading_18_N.svg), **Negrita** ![](images/S_TextBold_18_N.svg), **Cursiva** ![](images/S_TextItalic_18_N.svg), **Tachado** ![](images/S_TextStrikethrough_18_N.svg), **Código** ![](images/S_Code_18_N.svg) y **Comilla de bloque** ![](images/S_BlockQuoteMultipleLines_18_N.svg). |
+| Opciones de inserción de contenido | Proporciona opciones para insertar una **lista numerada** ![](images/S_TextNumbered_18_N.svg), **lista ordenada** ![](images/S_TextBulleted_18_N.svg), **tabla** ![](images/tableAdd.svg), **imagen** ![](images/S_ImageAdd_18_N.svg), **referencia cruzada** ![](images/S_LinkGlobe_18_N.svg) y **símbolo** ![](images/S_SpecialCharacter_18_N.svg) en un documento.<br><br> **Nota**: También puede arrastrar y soltar imágenes y otros archivos en el editor de Markdown. Los archivos se añaden como vínculos de referencia cruzada, mientras que las imágenes se muestran como elementos de imagen estándar. |
 | Historial de versiones | Permite crear versiones de archivos Markdown y ver el historial de cambios. Puede comparar diferentes versiones y revertirlas a las anteriores si es necesario. La opción Historial de versiones está presente en el menú desplegable **Menú**. |
 | Guardar como nueva versión | Guarda los cambios realizados en el tema y también crea una nueva versión del tema. Si está trabajando en un tema recién creado, la información de la versión se muestra como ninguna. |
 | Bloquear/desbloquear | Bloquea o desbloquea el archivo actual. Bloquear un archivo le proporciona acceso de escritura exclusivo al archivo. Esto restringe a otros usuarios de la edición del archivo. Desbloquee el archivo si desea que otros usuarios tengan acceso de edición. Como administrador, también obtienes acceso a la función **Forzar desbloqueo** que te permite desbloquear el archivo bloqueado por otra persona. |
@@ -104,7 +104,7 @@ El área de edición de contenido muestra la fuente Markdown del tema, donde se 
 
 Para la creación de markdown, el Editor admite tres modos de visualización diferentes para ayudar a crear contenido y dar formato:
 
-![](images/markdown-footer.png){align="left"}
+![](images/markdown-footer.png)
 
 * Origen
 * Lado a lado
@@ -123,7 +123,7 @@ Este modo divide el Editor en dos paneles:
 * Panel de Source que muestra el tema de Markdown que está editando.
 * El panel Previsualización que muestra la salida procesada del tema Markdown en tiempo real.
 
-![](images/markdown-topic-side-by-side.png){width="550" align="left"}
+![](images/markdown-topic-side-by-side.png){width="550"}
 
 Utilice esta vista si desea ver el resultado procesado en tiempo real al editar los temas de Markdown.
 

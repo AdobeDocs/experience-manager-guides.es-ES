@@ -5,7 +5,7 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: eabaec57-e717-45a9-8321-4057b993d7fb
-source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 2%
@@ -53,11 +53,11 @@ La plantilla Página de contenedor de documentación se utiliza para crear la p�
 - Sirve como punto de entrada o página principal para un conjunto específico de documentación (por ejemplo, un manual o una guía del producto).
 - Agregue la propiedad id=&quot;category-page&quot; al jcr:content del nodo inicial de la plantilla. Esto garantiza que AEM Guides trate automáticamente todas las páginas creadas a partir de esta plantilla como contenedores de documentación.
 
-  ![Agregando id=&quot;category-page&quot;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650" align="left"}
+  ![Agregando id=&quot;category-page&quot;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650"}
 
 - Agregue un componente Texto con la propiedad obligatoria: text=&quot;$category.html$&quot;.
 
-  ![Agregando componente de texto](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650" align="left"}
+  ![Agregando componente de texto](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650"}
 
 - Normalmente incluye elementos de navegación, como vínculos a secciones o temas dentro de la documentación.
 - Se puede personalizar para incluir marcas, encabezados, pies de página y otros elementos de diseño.
@@ -71,7 +71,7 @@ Si dispone de un mapa DITA para un manual de producto, la plantilla de página c
 - Cada tema de un mapa DITA se representa como una página independiente utilizando esta plantilla.
 - Contiene un **componente Texto** con la propiedad obligatoria: text=&quot;$topic.content$&quot;.
 
-  ![Agregando componente de texto con propiedad obligatoria](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650" align="left"}
+  ![Agregando componente de texto con propiedad obligatoria](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650"}
 
 - Este marcador de posición se sustituye por el contenido real del tema DITA durante la generación del sitio.
    - El componente de texto se suele colocar dentro de un **componente Container** para garantizar un diseño y un estilo adecuados.
@@ -82,7 +82,7 @@ Si tiene un tema DITA sobre &quot;Instrucciones de instalación&quot;, la planti
 
 **Componente de contenedor:**
 
-![Agregando componente de contenedor](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650" align="left"}
+![Agregando componente de contenedor](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650"}
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ Si tiene un tema DITA sobre &quot;Instrucciones de instalación&quot;, la planti
 
 Añada lo mismo (contenedor y componente de texto) en la estructura de la misma plantilla:
 
-![Agregando contenedor y componente de texto](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650" align="left"}
+![Agregando contenedor y componente de texto](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
 ## Componentes de guías de procesamiento en plantillas personalizadas
 
@@ -124,7 +124,7 @@ De forma predeterminada, las bibliotecas de cliente (clientlibs) proporcionadas 
    1. Abra **Página de productos** en **Modo de edición**.
    2. Seleccione **Editar plantilla** (se abrirá una dirección URL como conf/settings/wcm/templates/structure.html).
 
-      ![Editar plantilla](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650" align="left"}
+      ![Editar plantilla](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650"}
 
 2. **Actualizar directiva de página:**
 
@@ -135,7 +135,7 @@ De forma predeterminada, las bibliotecas de cliente (clientlibs) proporcionadas 
 
 3. **Guardar cambios:** Guarde la plantilla después de agregar las bibliotecas de cliente necesarias.
 
-   ![Agregar bibliotecas de cliente](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650" align="left"}
+   ![Agregar bibliotecas de cliente](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650"}
 
 
 >[!NOTE]

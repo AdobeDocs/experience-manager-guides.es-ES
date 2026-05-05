@@ -5,7 +5,7 @@ feature: Publishing, Troubleshooting
 role: User
 hide: true
 exl-id: f85fee0f-30d1-453f-8700-781e0be8f616
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Realice los siguientes pasos para ver y comprobar el archivo de registro de gene
 
    La columna **General** de **Salidas generadas** muestra los iconos para dar una pista visual sobre el éxito o el fracaso de la generación de resultados.
 
-   ![](images/output-general-settings.png){width="300" align="left"}
+   ![](images/output-general-settings.png){width="300"}
 
    En la captura de pantalla anterior, el primer y el tercer iconos muestran la generación de resultados fallida. El segundo icono muestra una generación de salida correcta pero con mensajes. El último es una generación de salida correcta sin ningún mensaje.
 
@@ -32,7 +32,7 @@ Realice los siguientes pasos para ver y comprobar el archivo de registro de gene
 
    El archivo de registro se abre en una nueva pestaña.
 
-   ![](images/log-file.png){width="800" align="left"}
+   ![](images/log-file.png){width="800"}
 
 1. Aplique los siguientes filtros para resaltar el texto en el archivo de registro:
    - Grave: resalta los errores graves del archivo de registro con color rosa.
@@ -66,13 +66,13 @@ Realice los siguientes pasos para copiar y comprobar el archivo de registro de g
 
    En el siguiente fragmento de archivo de registro de ejemplo, puede ver el mensaje `BUILD FAILED` junto con el motivo del error.
 
-   ![](images/dita-error-in-log-file.png){width="650" align="left"}
+   ![](images/dita-error-in-log-file.png){width="650"}
 
    - *Error relacionado con AEM Guides*: El otro tipo de error que puede identificar en el archivo de registro está relacionado con el propio proceso de AEM Guides. En este caso, el fichero de mapa DITA se analiza correctamente, pero el proceso de generación de salida falla debido a algún error interno de AEM Guides. Para este tipo de errores, debe buscar ayuda del equipo de asistencia técnica.
 
    En el siguiente fragmento de archivo de registro de ejemplo, puede ver el mensaje `BUILD SUCCESSFUL`, seguido de otro error técnico.
 
-   ![](images/process-error-in-log-file.png){width="650" align="left"}
+   ![](images/process-error-in-log-file.png){width="650"}
 
 
 ## Resolver error de compilación de JSP

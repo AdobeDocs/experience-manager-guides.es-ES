@@ -5,10 +5,9 @@ exl-id: 14a82c7e-5c07-43a8-bd9e-b221d80f6d05
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
@@ -226,11 +225,11 @@ Realice los siguientes pasos para eliminar cualquier función no deseada de la b
 1. Vaya y abra el archivo `ui_config.json` en el nodo `apps` para editarlo.
 El archivo `ui_config.json` tiene tres secciones:
 
-- **barras de herramientas:**   Esta sección contiene la definición de todas las funciones disponibles en la barra de herramientas del editor, como Insertar/Quitar lista numerada, \(archivo\) Cerrar, Guardar, Comentarios y más.
+- **barras de herramientas:** Esta sección contiene la definición de todas las características disponibles en la barra de herramientas del editor, como Insertar o quitar lista numerada, \(archivo\) Cerrar, Guardar, Comentarios y más.
 
-- **accesos directos:**   Esta sección contiene la definición de los métodos abreviados de teclado asignados a una función concreta del editor.
+- **métodos abreviados de teclado:** Esta sección contiene la definición de métodos abreviados de teclado asignados a una característica concreta del editor.
 
-- **plantillas:**   Esta sección contiene la estructura predefinida de los elementos DITA que puede utilizar en el documento. De forma predeterminada, la sección de plantillas contiene definiciones de plantilla para un párrafo, tabla simple, tabla y elementos de cuerpo. Puede crear una definición de plantilla para cualquier elemento añadiendo una estructura XML válida para el elemento deseado. Por ejemplo, si desea agregar un elemento `p` con cada nuevo elemento `li` en una lista, puede agregar el siguiente código al final de la sección de plantillas para lograrlo:
+- **plantillas:** Esta sección contiene la estructura predefinida de elementos DITA que puede utilizar en el documento. De forma predeterminada, la sección de plantillas contiene definiciones de plantilla para un párrafo, tabla simple, tabla y elementos de cuerpo. Puede crear una definición de plantilla para cualquier elemento añadiendo una estructura XML válida para el elemento deseado. Por ejemplo, si desea agregar un elemento `p` con cada nuevo elemento `li` en una lista, puede agregar el siguiente código al final de la sección de plantillas para lograrlo:
 
 ```HTML
 "li": "<li><p></p></li>"

@@ -5,9 +5,9 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 7639fa76-b319-44b5-9ff8-2b8c1a716b7b
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2564'
 ht-degree: 0%
 
 ---
@@ -24,19 +24,19 @@ Cuando se abre un archivo en el Editor Web, se pueden realizar varias acciones d
 
 Se obtienen las siguientes funciones en el menú contextual de la pestaña de un archivo multimedia abierto:
 
-![](images/media-file-context-menu.png){width="300" align="left"}
+![](images/media-file-context-menu.png){width="300"}
 
 **Archivo DITA único**
 
 Se obtienen las siguientes funciones en el menú contextual de la pestaña de un archivo abierto:
 
-:   ![](images/single-file-context-menu.png){width="300" align="left"}
+:   ![](images/single-file-context-menu.png){width="300"}
 
 **Varios archivos**
 
 Cuando tenga varios archivos abiertos, obtendrá más opciones en el menú contextual:
 
-![](images/multiple-files-context-menu.png){width="550" align="left"}
+![](images/multiple-files-context-menu.png){width="550"}
 
 Las distintas opciones del menú contextual se explican a continuación:
 
@@ -85,7 +85,7 @@ Para ver la página de propiedades de AEM del archivo seleccionado, seleccione *
 
 De forma predeterminada, el editor web permite ver un tema a la vez. Podría haber casos en los que le gustaría ver dos o más temas al mismo tiempo. Dividir la pantalla del editor permite ver varios temas al mismo tiempo. Por ejemplo, si tiene dos temas: A y B abiertos en el editor. Al hacer clic con el botón derecho en el tema B y elegir **Dividir \> arriba**, la ventana del editor se divide en dos partes. El tema B se muestra en la mitad superior y el tema A en la mitad inferior. Del mismo modo, también puede dividir la pantalla horizontalmente seleccionando **Dividir \> Izquierda** o **Dividir \> Derecha**. La siguiente captura de pantalla del editor web muestra los temas divididos horizontal y verticalmente. En cada división, puede tener una vista diferente. Por ejemplo, en la siguiente captura de pantalla, la pantalla 1 está en modo de vista Source, la pantalla 2 tiene dos documentos abiertos en modo Autor y la pantalla 3 está en modo de vista previa. Puede mover los documentos de una pantalla a otra arrastrando la ficha de archivo y soltándola en la pantalla en la que desee colocarla. Del mismo modo, también puede reordenar las pestañas de archivo arrastrándolas y moviéndolas según sus preferencias.
 
-![](images/split-editor.png){width="800" align="left"}
+![](images/split-editor.png){width="800"}
 
 ***Generación rápida***
 
@@ -116,7 +116,7 @@ Puede ver las siguientes opciones en función de si el archivo está bloqueado/d
 
 - **Desbloquear y cerrar**: se libera el bloqueo del archivo y éste se cierra.
 
-  ![](images/file-close-unlock-file.png){width="400" align="left"}
+  ![](images/file-close-unlock-file.png){width="400"}
 
 - **Guardar como nueva versión**: esto guardará los cambios realizados en el contenido y creará una nueva versión del archivo. También puede agregar etiquetas y comentarios para la versión recién guardada. Para obtener más información acerca de cómo guardar una nueva versión, vea [Guardar como nueva versión](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
@@ -128,7 +128,7 @@ Puede ver las siguientes opciones en función de si el archivo está bloqueado/d
 
   Por ejemplo, uno de los indicadores se muestra en la siguiente captura de pantalla:
 
-  ![](images/file-close-save-changes-unlock.png){width="400" align="left"}
+  ![](images/file-close-save-changes-unlock.png){width="400"}
 
 **Señales visuales para referencias rotas**
 
@@ -162,11 +162,11 @@ Puede ver las siguientes opciones en función de si el archivo está bloqueado/d
 
 - Experience Manager Guides le ofrece compatibilidad para insertar ecuaciones de MathML mediante la integración con la aplicación [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro). Para insertar una ecuación de MathML, seleccione el icono **Insertar elemento** y escriba mathml. Cuando selecciona un elemento matemático de la lista, aparece el cuadro de diálogo **Insertar MathML**:
 
-![insertar ecuación matemática en el editor de matemáticas](images/insert-mathml-equation.png){width="550" align="left"}
+![insertar ecuación matemática en el editor de matemáticas](images/insert-mathml-equation.png){width="550"}
 
 Con las herramientas de ecuaciones de MathML, cree la ecuación y haga clic en **Insertar** para agregarla al documento. La ecuación se inserta con un fondo gris claro, como se muestra a continuación:
 
-![ecuación matemática de ejemplo](images/sample-mathml-equation.PNG){width="400" align="left"}
+![ecuación matemática de ejemplo](images/sample-mathml-equation.PNG){width="400"}
 
 En cualquier momento puedes actualizar una ecuación haciendo clic con el botón derecho en una ecuación existente y seleccionando **Editar MathML** en el menú contextual.
 
@@ -175,7 +175,7 @@ En cualquier momento puedes actualizar una ecuación haciendo clic con el botón
   Experience Manager Guides valida las ecuaciones de MathML cuando se guarda un tema que las contiene.
 Cuando se inserta una ecuación con el editor de MathML, Experience Manager Guides resalta la ecuación en rojo si hay algún problema de sintaxis. Puede corregirla antes de insertarla. Si no hace ningún cambio pero selecciona **Insertar**, se muestra una advertencia.
 
-  ![validar ecuación matemática](images/validate-mathml-equation.png){width="400" align="left"}
+  ![validar ecuación matemática](images/validate-mathml-equation.png){width="400"}
 
   Si inserta la ecuación de MathML que contiene un error de sintaxis, se produce un error de validación al intentar guardar el tema.
 
@@ -189,7 +189,7 @@ Cuando se inserta una ecuación con el editor de MathML, Experience Manager Guid
 
 - El editor web muestra la ruta de exploración del elemento en la parte superior del tema. Si desea intercambiar o reemplazar un elemento por otro, puede hacerlo desde el menú contextual de la ruta de exploración. Por ejemplo, puede intercambiar el elemento `p` por `note` o cualquier otro elemento válido en el contexto.
 
-![](images/rename-element.png){width="400" align="left"}
+![](images/rename-element.png){width="400"}
 
 En la ruta de exploración, haga clic con el botón secundario en el nombre de un elemento que desee reemplazar y, a continuación, seleccione Cambiar nombre de elemento en el menú contextual. El cuadro de diálogo Cambiar nombre de elemento muestra todos los elementos válidos permitidos en la ubicación actual. En el cuadro de diálogo Cambiar nombre de elemento, seleccione el elemento que desee utilizar. El elemento original se reemplaza por el nuevo.
 
@@ -228,7 +228,7 @@ Además del menú contextual de la ruta de exploración, también se puede acced
 
 - Los elementos DITA que contienen saltos de línea y espacios son compatibles y se representan según su definición en los modos Autor, Source o Vista previa, y también en la salida publicada final. La siguiente captura de pantalla muestra el contenido dentro del elemento `msgblock` en el que se han conservado los saltos y espacios de línea \(sangría\):
 
-![](images/new-line-support_cs.png){width="500" align="left"}
+![](images/new-line-support_cs.png){width="500"}
 
 
 

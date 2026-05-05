@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo crear un banco de preguntas en Apr
 feature: Authoring
 role: User
 exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
-source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Realice los siguientes pasos para crear un banco de preguntas:
 1. Seleccione **Banco de preguntas**.
 Se abre el cuadro de diálogo **Nuevo banco de preguntas**. Puede seleccionar la plantilla en el menú desplegable, especificar un título adecuado para el banco de preguntas y especificar la ruta en la que desea que se almacene este banco de preguntas en el repositorio.
 
-   ![](assets/question-bank-create.png){width="350" align="left"}
+   ![](assets/question-bank-create.png){width="350"}
 
 1. Seleccione **Crear**.
 Se añade un banco de preguntas como parte del curso que se muestra en el panel Administrador de cursos.

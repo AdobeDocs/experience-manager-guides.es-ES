@@ -5,9 +5,9 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: 6050e2667698150df9f76068dce4ca9f9b56a443
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Siga estos pasos para ver el informe de reutilización de contenido:
 
 1. Haga clic en **Generar informe** para obtener el informe de reutilización de contenido.
 
-   ![](images/content-reuse-uuid.png){width="800" align="left"}
+   ![](images/content-reuse-uuid.png){width="800"}
 
    La página del informe se divide en dos partes:
 
@@ -58,7 +58,7 @@ Siga estos pasos para ver el informe de reutilización de contenido:
 
       - **Número de veces que se reutilizó**: Número de veces que se reutilizó el tema correspondiente. Esto se calcula como la suma total de las entradas de las columnas Referenciado por menos 1.
 
-      - **Referido por**: Temas en los que se ha hecho referencia al tema correspondiente. Aquí, solo se tienen en cuenta las referencias directas \(primer nivel\). Los temas múltiples se separan con comas. El UUID del archivo al que se hace referencia también se menciona entre corchetes. Al hacer clic en el vínculo del título del tema, se abre la vista previa del tema.
+      - **Referido por**: Temas en los que se ha hecho referencia al tema correspondiente. Aquí, solo se tienen en cuenta las referencias directas \(primer nivel\). Los temas múltiples se separan con comas. El UUID del archivo al que se hace referencia también se menciona entre corchetes.Al hacer clic en el vínculo del título del tema, se abre la vista previa del tema.
 
 
 >[!NOTE]

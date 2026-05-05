@@ -4,9 +4,9 @@ description: Cree y administre líneas de base desde la consola de mapas de Adob
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 24ed0edbfcbe968938473e31f3abf13779d04235
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1929'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Puede crear una línea base desde la consola Mapa realizando los siguientes paso
 1. Vaya a la pestaña **Línea de base** y seleccione el icono + en la parte superior derecha para empezar a crear una línea de base.
 1. En el cuadro de diálogo **Nueva línea de base**, proporcione los siguientes detalles:
 
-   ![Panel de línea base](images/baseline-manage.png){width="500" align="left"}
+   ![Panel de línea base](images/baseline-manage.png){width="500"}
 
    - Escriba un nombre para la línea de base en el campo **Nombre**.
    - En **Configuración**, elija [Actualización manual](#configuring-baseline-for-manual-update) o [Actualización automática](#configuring-baseline-for-automatic-update).
@@ -82,7 +82,7 @@ Seleccione esta opción para que la creación de la instantánea seleccione auto
 
 Las líneas bases creadas con la configuración de actualización automática se actualizan dinámicamente. Si genera una línea de base, descarga una línea de base o crea un proyecto de traducción utilizando una línea de base, los archivos se seleccionan dinámicamente en función de las etiquetas actualizadas. Por ejemplo, si ha utilizado la versión 1.2 de un tema con Label Release 1.0 para la línea de base y ha actualizado la versión 1.5 con Label Release 1.0 más adelante, la línea de base se actualizará dinámicamente y se utilizará la versión 1.5.
 
-![Crear una línea de base](images/dynamic-baseline.png){width="300" align="left"}
+![Crear una línea de base](images/dynamic-baseline.png){width="300"}
 
 - **Etiquetas**: Si los temas tienen etiquetas especificadas, usa la lista desplegable **Etiquetas** para elegir entre las [etiquetas enumeradas](#labels-list).
 
@@ -92,7 +92,7 @@ Las líneas bases creadas con la configuración de actualización automática se
   >
   >Mientras se extraen las etiquetas, aparece un cargador y la lista desplegable está desactivada.
 
-  Para las líneas de base dinámicas, las etiquetas se extraen de la última versión guardada y de la copia de trabajo actual del mapa. Por ejemplo, si ha creado etiquetas   `Label Release A.1.0 ` y `Label Release A.1.1` para las versiones 1.0 y 1.1 del Tema A y las etiquetas `Label Release B.1.0` y `Label Release B.1.1` para las versiones 1.0 y 1.1 del Tema B. A continuación, puede agregar el Tema A al Mapa A en la versión 1.0 y el Tema B al Mapa A en 1.0* (copia de trabajo). En este caso, puede ver `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0` y `Label Release B.1.1` en el menú desplegable de etiquetas de línea de base dinámicas.
+  Para las líneas de base dinámicas, las etiquetas se extraen de la última versión guardada y de la copia de trabajo actual del mapa. Por ejemplo, si ha creado las etiquetas `Label Release A.1.0 ` y `Label Release A.1.1` para las versiones 1.0 y 1.1 del Tema A y las etiquetas `Label Release B.1.0` y `Label Release B.1.1` para las versiones 1.0 y 1.1 del Tema B A continuación, puede agregar el Tema A al Mapa A en la versión 1.0 y el Tema B al Mapa A en 1.0* (copia de trabajo). En este caso, puede ver `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0` y `Label Release B.1.1` en el menú desplegable de etiquetas de línea de base dinámicas.
 - **Referencias indirectas**: para las referencias indirectas dentro del mapa DITA, se le ofrecen las siguientes opciones:
 
    - **Seleccionar automáticamente**: puede elegir **Seleccionar automáticamente** para el contenido referenciado y el sistema selecciona automáticamente la versión del contenido referenciado correspondiente a la versión del contenido en el que se hace referencia.
@@ -113,7 +113,7 @@ Puede gestionar las líneas base existentes mediante las distintas funciones del
   >
   >La operación Editar (Edit) en el caso de una instantánea dinámica permite editar las propiedades de la instantánea, ya que las referencias para las instantáneas dinámicas se generan durante la ejecución mediante las etiquetas.
 
-  ![opciones de una línea de base](images/baseline-options.png){align="left"}
+  ![opciones de línea de base](images/baseline-options.png){}
 
 ### Acciones disponibles para una línea base existente
 
@@ -123,7 +123,7 @@ También se pueden realizar las siguientes operaciones en la instantánea desde 
 
 Puede duplicar una línea base y modificarla según sus necesidades.
 
-![duplicar una línea de base](images/baseline-duplicate.png){width="300" align="left"}
+![duplicar una línea base](images/baseline-duplicate.png){width="300"}
 *Duplique una línea de base basándose en una etiqueta o cree una copia exacta.*
 
 1. Seleccione **Duplicar** del menú Opciones de una línea de base. Se abre el cuadro de diálogo **Duplicar línea de base**.
@@ -158,7 +158,7 @@ Las etiquetas enumeradas en la lista desplegable se basan en los siguientes crit
 
 Con el icono Filtros del panel **Filtros de línea de base**, puede aplicar filtros en la línea de base abierta en la ventana de edición de línea de base:
 
-![filtros de línea base](images/baseline-filter.png){width="300" align="left"}
+![filtros de línea base](images/baseline-filter.png){width="300"}
 
 - Filtre los archivos en función de sus nombres o ubicación.
 - Filtre los archivos en función de los valores de diferentes columnas, como Tipo de archivo, Tipo de referencia, etc.

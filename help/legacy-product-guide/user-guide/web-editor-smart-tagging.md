@@ -5,9 +5,9 @@ feature: Metadata Management
 role: User
 hide: true
 exl-id: dd5b2648-37e1-4737-bd9d-8618f735d11f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -26,12 +26,12 @@ Siga estos pasos para crear etiquetas inteligentes:
 1. Abra el tema en el modo Vista previa y seleccione **Reprocesar Assets** en la barra de herramientas principal.
 1. Seleccione Extracción de palabras clave XML para extraer palabras clave relevantes.
 
-   ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
+   ![](images/smart-tag-reprocess-asset.png){width="300"}
 
 1. Seleccione la opción Ejecutar procesamiento posterior. Se muestra un mensaje sobre el inicio correcto de la herramienta.
 1. Las etiquetas se extraen automáticamente y se pueden ver en la página Propiedades del tema seleccionado.
 
-   ![](images/properties-smart-tags.png){width="800" align="left"}
+   ![](images/properties-smart-tags.png){width="800"}
 
    >[!NOTE]
    >

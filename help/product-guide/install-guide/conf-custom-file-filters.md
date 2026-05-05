@@ -5,8 +5,7 @@ exl-id: 1ef09820-3b18-4762-b177-4d40926e21f0
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -56,11 +55,11 @@ Realice los siguientes pasos para agregar las opciones de filtrado de archivos p
 
    En el fragmento de código anterior, el primer filtro es para archivos DITA. La definición del filtro toma los siguientes parámetros:
 
-   - **título:**   El nombre para mostrar del filtro. Este título aparece como la opción de filtrado en el cuadro de diálogo de exploración de archivos.
+   - **título:** El nombre para mostrar del filtro. Este título aparece como la opción de filtrado en el cuadro de diálogo de exploración de archivos.
 
-   - **propiedad:**   Propiedad que debe coincidir en los metadatos del archivo. Por ejemplo, para permitir solamente los archivos que tienen los metadatos `dita_class` en su propiedad, el filtro de propiedad toma &quot;`jcr:content/metadata/dita_class`&quot; como su valor.
+   - **propiedad:** Propiedad que debe coincidir en los metadatos del archivo. Por ejemplo, para permitir solamente los archivos que tienen los metadatos `dita_class` en su propiedad, el filtro de propiedad toma &quot;`jcr:content/metadata/dita_class`&quot; como su valor.
 
-   - **operación:**   Especifique &quot;`exists`&quot; para que coincida con la existencia del valor especificado en el parámetro de propiedad.
+   - **operación:** Especifique &quot;`exists`&quot; para que coincida con la existencia del valor especificado en el parámetro de propiedad.
 
    El segundo filtro es para archivos de imagen. Los parámetros son similares al primer filtro excepto el parámetro `value`. El parámetro `value` toma una matriz de tipos de imagen como valor. Todos los tipos de archivo especificados en el parámetro value se buscan y se muestran en el cuadro de diálogo de exploración de archivos; el resto de tipos de archivo se omiten.
 
@@ -68,4 +67,4 @@ Realice los siguientes pasos para agregar las opciones de filtrado de archivos p
 
    Al iniciar el cuadro de diálogo de exploración de archivos, se muestran las opciones de filtro configuradas en el archivo ui\_config.json.
 
-   ![](assets/file-browse-custom-filters.png){width="300" align="left"}
+   ![](assets/file-browse-custom-filters.png){width="300"}

@@ -4,9 +4,10 @@ description: Obtenga información sobre cómo configurar filtros para el cuadro 
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 62195863-cbab-4c53-9cf0-b4a8d26d44f2
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -53,14 +54,14 @@ Las siguientes pestañas proporcionan instrucciones para añadir las opciones de
 
    En el fragmento de código anterior, el primer filtro es para archivos DITA. La definición del filtro toma los siguientes parámetros:
 
-   title
-:   El nombre para mostrar del filtro. Este título aparece como la opción de filtrado en el cuadro de diálogo de exploración de archivos.
+   título
+: Nombre para mostrar del filtro. Este título aparece como la opción de filtrado en el cuadro de diálogo de exploración de archivos.
 
    propiedad
-:   Propiedad que debe coincidir en los metadatos del archivo. Por ejemplo, para permitir solo los archivos que tienen los metadatos `dita_class` en su propiedad, el filtro de propiedad toma &quot; `jcr:content/metadata/dita_class`&quot; como su valor.
+: La propiedad que debe coincidir en los metadatos del archivo. Por ejemplo, para permitir solo los archivos que tienen los metadatos `dita_class` en su propiedad, el filtro de propiedad toma &quot; `jcr:content/metadata/dita_class`&quot; como su valor.
 
    operación
-:   Especifique &quot;`exists`&quot; para que coincida con la existencia del valor especificado en el parámetro de propiedad.
+: especifique &quot;`exists`&quot; para que coincida con la existencia del valor especificado en el parámetro de propiedad.
 
    El segundo filtro es para archivos de imagen. Los parámetros son similares al primer filtro excepto el parámetro `value`. El parámetro `value` toma una matriz de tipos de imagen como valor. Todos los tipos de archivo especificados en el parámetro value se buscan y se muestran en el cuadro de diálogo de exploración de archivos; el resto de tipos de archivo se omiten.
 
@@ -109,11 +110,11 @@ Las siguientes pestañas proporcionan instrucciones para añadir las opciones de
 
    En el fragmento de código anterior, el primer filtro es para archivos DITA. La definición del filtro toma los siguientes parámetros:
 
-   - **título:**   El nombre para mostrar del filtro. Este título aparece como la opción de filtrado en el cuadro de diálogo de exploración de archivos.
+   - **título:** El nombre para mostrar del filtro. Este título aparece como la opción de filtrado en el cuadro de diálogo de exploración de archivos.
 
-   - **propiedad:**   Propiedad que debe coincidir en los metadatos del archivo. Por ejemplo, para permitir solamente los archivos que tienen los metadatos `dita_class` en su propiedad, el filtro de propiedad toma &quot;`jcr:content/metadata/dita_class`&quot; como su valor.
+   - **propiedad:** Propiedad que debe coincidir en los metadatos del archivo. Por ejemplo, para permitir solamente los archivos que tienen los metadatos `dita_class` en su propiedad, el filtro de propiedad toma &quot;`jcr:content/metadata/dita_class`&quot; como su valor.
 
-   - **operación:**   Especifique &quot;`exists`&quot; para que coincida con la existencia del valor especificado en el parámetro de propiedad.
+   - **operación:** Especifique &quot;`exists`&quot; para que coincida con la existencia del valor especificado en el parámetro de propiedad.
 
    El segundo filtro es para archivos de imagen. Los parámetros son similares al primer filtro excepto el parámetro `value`. El parámetro `value` toma una matriz de tipos de imagen como valor. Todos los tipos de archivo especificados en el parámetro value se buscan y se muestran en el cuadro de diálogo de exploración de archivos; el resto de tipos de archivo se omiten.
 
@@ -121,7 +122,7 @@ Las siguientes pestañas proporcionan instrucciones para añadir las opciones de
 
    Al iniciar el cuadro de diálogo de exploración de archivos, se muestran las opciones de filtro configuradas en el archivo ui\_config.json.
 
-   ![](assets/file-browse-custom-filters.png){width="300" align="left"}
+   ![](assets/file-browse-custom-filters.png){width="300"}
 
 >[!ENDTABS]
 

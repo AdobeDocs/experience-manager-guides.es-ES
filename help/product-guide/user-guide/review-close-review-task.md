@@ -4,9 +4,9 @@ description: Obtenga información sobre el flujo de trabajo de cerrar una tarea 
 feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
-source-git-commit: 6f9265b341b4122e7f13a429cc2fecacb14ae39c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Realice los siguientes pasos para solicitar una nueva revisión o cerrar una tar
 
    El cuadro de diálogo **Comentarios de la tarea** se muestra a la derecha.
 
-   ![](images/task-comments-dialog-editor.png){width="350" align="left"}.
+   ![](images/task-comments-dialog-editor.png){width="350"}.
 4. Seleccione **Actualizar tarea** para realizar más acciones en la tarea de revisión seleccionada.
 5. En el cuadro de diálogo **Actualizar tarea**, elija una de las siguientes acciones:
 
@@ -52,22 +52,22 @@ Realice los siguientes pasos para solicitar una nueva revisión o cerrar una tar
 
    Para obtener detalles sobre cómo revisar el déclencheur de las notificaciones, consulte [Explicación de las notificaciones de revisión](./review-understanding-review-notifications.md).
 
-   ![](images/update-task-dialog.png){width="350" align="left"}
+   ![](images/update-task-dialog.png){width="350"}
 
    También puede [comprobar el estado de su tarea de revisión](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task) mediante la opción **Comprobar estado de revisión** presente en el cuadro de diálogo Actualizar tarea. Al seleccionar esta opción, accederá al panel Revisar, donde se mostrará el informe de estado de la tarea de revisión.
 
-   ![](images/check-review-status-icon.png){width="650" align="left"}
+   ![](images/check-review-status-icon.png){width="650"}
 
 6. Seleccione **Confirmar**.
 
 
 Como autor o iniciador de una tarea de revisión, al cerrar la tarea, el botón **Actualizar tarea** presente en la parte inferior del panel Revisar se cambia a **Cerrada**, lo que indica que la tarea ya no está activa.
 
-![](images/review-task-status-closed-review-panel.png){width="350" align="left"}
+![](images/review-task-status-closed-review-panel.png){width="350"}
 
 Además, el botón **Actualizar tarea** presente en el panel Revisar permanece deshabilitado para los demás usuarios de la tarea de revisión. Por ejemplo, como uno de los revisores de una tarea de revisión, si abre la tarea en el Editor, el botón Actualizar tarea se deshabilitará con un mensaje **No tiene permiso para realizar esta tarea**. Solo el iniciador de una tarea de revisión tiene permiso para actualizar la tarea desde el Editor.
 
-![](images/update-task-button-disabled.png){width="350" align="left"}
+![](images/update-task-button-disabled.png){width="350"}
 
 
 

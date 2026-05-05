@@ -5,9 +5,9 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 5c2a8239-e6eb-482b-a11b-3732e667c880
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Realice los siguientes pasos para generar la salida de un mapa DITA:
 
 1. Seleccione uno o varios ajustes preestablecidos de salida que desee utilizar para generar la salida.
 
-   ![](images/generate-multiple-outputs-uuid.png){width="800" align="left"}
+   ![](images/generate-multiple-outputs-uuid.png){width="800"}
 
    >[!NOTE]
    >
@@ -71,7 +71,7 @@ Realice los siguientes pasos para volver a generar los resultados de un tema esp
    >
    > Si ha añadido nuevos temas al mapa DITA, no podrá generar esos nuevos temas desde aquí. En primer lugar, debe publicar los temas recién añadidos mediante la función de publicación de mapa DITA.
 
-   ![](images/regenerate-topics.png){width="800" align="left"}
+   ![](images/regenerate-topics.png){width="800"}
 
 1. Haga clic en **Regenerar**.
 
@@ -98,7 +98,7 @@ Realice los siguientes pasos para ver la cola de generación de resultados:
 
 1. Haga clic en **Resultados**.
 
-   ![](images/output-queued.png){width="800" align="left"}
+   ![](images/output-queued.png){width="800"}
 
    La página Resultados se divide en dos partes:
 
@@ -106,7 +106,7 @@ Realice los siguientes pasos para ver la cola de generación de resultados:
 
      Enumera las salidas que están a la espera de generarse o en proceso de generación. Las tareas en cola o en curso se muestran con un icono de color azul antes del nombre del ajuste preestablecido. También puede encontrar la configuración de generación de resultados o el ajuste preestablecido utilizado para la tarea en cola, el tipo, el usuario que inició la tarea, el tiempo desde que se puso en cola la tarea y el estado actual.
 
-     Haga clic en el vínculo para acceder a **Tablero de publicación** y ver el estado de ejecución actual. En el tablero de publicación hay disponible una lista de todas las tareas de publicación activas. **Salidas en cola** y el vínculo **Panel de publicación** solo se muestran cuando hay salidas que están a la espera de ser generadas o en proceso de generación. No aparecen cuando se han completado las tareas de salida. Para obtener más información sobre el panel de publicación, consulte [Administrar tareas de publicación mediante el panel de publicación](generate-output-publish-dashboard.md#).
+     Haga clic en el vínculo para acceder a **Tablero de publicación** y ver el estado de ejecución actual. En el tablero de publicación hay disponible una lista de todas las tareas de publicación activas. **Salidas en cola** y el vínculo **Panel de publicación** solo se muestran cuando hay salidas que están a la espera de ser generadas o en proceso de generación. No aparecen cuando se han completado las tareas de salida.Para obtener más información sobre el panel de publicación, consulte [Administrar tareas de publicación mediante el panel de publicación](generate-output-publish-dashboard.md#).
 
    - **Salidas generadas**
 
@@ -135,17 +135,17 @@ Realice los siguientes pasos para cancelar una tarea de generación de salida de
 
 1. Haga clic en el icono *Cancelar este trabajo*.
 
-   ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
+   ![](images/cancel-publish-task-map-console.png){width="800"}
 
 1. Haga clic en **Sí** en el mensaje Confirmar cancelación.
 
-   ![](images/confirm-cancel-output-map-condole.png){width="800" align="left"}
+   ![](images/confirm-cancel-output-map-condole.png){width="800"}
 
    Si la tarea aún no se ha iniciado, el comando cancel se ejecuta en la tarea. Para una tarea que se está cancelando, el estado se establece en Cancelando.
 
    Una vez cancelada correctamente la tarea, se mueve a la lista **Salidas generadas** con el estado **Cancelado**. Cuando pasa el ratón por encima de la tarea cancelada, se muestra el nombre del usuario que ha cancelado la tarea. En la siguiente captura de pantalla, se cancela la tarea *HTML5*.
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){width="800"}
 
 
 ## Eliminar una tarea de salida de la consola de mapas DITA
@@ -162,7 +162,7 @@ Realice los siguientes pasos para quitar una tarea de salida de la lista Salida 
 
 1. Haga clic en el icono Eliminar.
 
-   ![](images/delete-output-task.png){width="800" align="left"}
+   ![](images/delete-output-task.png){width="800"}
 
 1. Haga clic en **Sí** en el mensaje Confirmar eliminación.
 

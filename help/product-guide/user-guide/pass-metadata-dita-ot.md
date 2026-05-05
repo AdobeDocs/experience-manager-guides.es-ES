@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo pasar los metadatos a la salida me
 exl-id: 70ca32dc-56c3-45ee-b6b9-0efb8cc79ea1
 feature: Publishing, Metadata Management
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Realice los siguientes pasos para pasar los metadatos a la salida mediante la pu
 1. Seleccione y abra un ajuste preestablecido de salida al que desee pasar los campos de metadatos. Por ejemplo, seleccione el ajuste preestablecido de salida PDF. Asegúrese de que se ha creado con la opción **DITA-OT**.
 1. En el menú desplegable **Propiedades del archivo**, seleccione los metadatos que desee pasar a la publicación DITA-OT.
 
-   ![](images/custom-metadata-output-preset-new.png){align="left"}
+   ![](images/custom-metadata-output-preset-new.png)
 
    La lista desplegable Propiedades enumera las propiedades personalizadas y las predeterminadas. Por ejemplo, en la captura de pantalla anterior `dc:description`, `dc:language`, `dc:title` y `docstate` son las propiedades predeterminadas.
 
@@ -42,7 +42,7 @@ Realice los siguientes pasos para pasar los metadatos a la salida mediante la pu
 
 1. Las propiedades seleccionadas se muestran debajo de la lista desplegable.
 
-   ![](images/metadata-added-dropdown.png){width="300" align="left"}
+   ![](images/metadata-added-dropdown.png){width="300"}
 
 1. Seleccione **Guardar** en la parte superior derecha para guardar los cambios.
 1. Seleccione **Generar salida**.
@@ -61,7 +61,7 @@ Si trabaja en la **interfaz de usuario de Assets**, realice los siguientes pasos
 1. Seleccione y edite un ajuste preestablecido de salida al que desee pasar los campos de metadatos. Por ejemplo, seleccione el ajuste preestablecido de salida PDF.
 1. Seleccione la opción **DITA-OT** en el ajuste preestablecido de salida seleccionado.
 
-   ![](images/custom-meta-data-output-preset.png){align="left"}
+   ![](images/custom-meta-data-output-preset.png)
 
 1. En la lista desplegable Propiedades, seleccione los metadatos que desee pasar a la publicación DITA-OT.
 
@@ -77,7 +77,7 @@ Si trabaja en la **interfaz de usuario de Assets**, realice los siguientes pasos
 
 1. En el menú desplegable **Propiedades**, seleccione las propiedades personalizadas y predeterminadas necesarias. Por ejemplo, seleccione `author`, `dc:title` y `dc:description`. Estos son los estándares `metadata/properties` que se crean una vez que creamos un archivo. Las propiedades seleccionadas se muestran debajo de la lista desplegable.
 
-   ![](images/selected-metadata-properties.png){width="300" align="left"}
+   ![](images/selected-metadata-properties.png){width="300"}
 
 1. Seleccione **Listo** en la parte superior izquierda para guardar los cambios.
 1. Genere la salida.

@@ -3,10 +3,10 @@ title: Notas de versión | Novedades de la versión 2026.01.0 de Adobe Experienc
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 2026.01.0 de Adobe Experience Manager Guides
 role: Leader
 exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
-source-git-commit: 2c20191ba998ad7da98587f1832e1fe8499d023c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 1%
+source-wordcount: '1599'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Este artículo cubre las funciones nuevas y mejoradas introducidas con la versión 2026.01.0 de Adobe Experience Manager Guides as a Cloud Service.
 
-Para ver la lista de problemas corregidos en esta versión, consulte [Problemas solucionados en la versión 2026.01.0](fixed-issues-2026-01-0.md).
+Para obtener la lista de problemas corregidos en esta versión, vea [Problemas corregidos en la versión 2026.01.0](fixed-issues-2026-01-0.md).
 
 Obtenga información acerca de [instrucciones de actualización para la versión 2026.01.0](../release-info/upgrade-instructions-2026-01-0.md).
 
@@ -25,7 +25,7 @@ Experience Manager Guides ha introducido varias mejoras en la función Buscar y 
 
 Al habilitar este modo, puede realizar búsquedas globales no solo en el contenido visible, sino también en el contenido de origen subyacente (estructura XML, incluidos elementos, etiquetas y valores de atributo) para la cadena buscada. Este modo garantiza una búsqueda completa en todo el contenido.
 
-![](assets/map-find-replace-with-source-mode.png){width="650" align="left"}
+![](assets/map-find-replace-with-source-mode.png){width="650"}
 
 En este modo, puede aplicar filtros para restringir la búsqueda por tipo de archivo, estado del documento, fecha de la última modificación y más. También tiene la opción de descargar un informe CSV detallado después de realizar la operación Reemplazar todo, que proporciona una instantánea de todas las acciones de reemplazo realizadas junto con su estado de éxito y error.
 
@@ -33,7 +33,7 @@ Para obtener más información, vea la sección [Buscar y reemplazar](../user-gu
 
 >[!NOTE]
 >
-> Para la característica **Usar modo de origen** en el panel Buscar y reemplazar, primero debe completarse una implementación de índice personalizada. Una vez implementada la indexación, póngase en contacto con el equipo de éxito del cliente para habilitar esta función.
+>Para la característica **Usar modo de origen** en el panel Buscar y reemplazar, primero debe completarse una implementación de índice personalizada. Una vez implementada la indexación, póngase en contacto con el equipo de éxito del cliente para habilitar esta función.
 
 ## Experiencia mejorada de exploración de archivos y carpetas
 
@@ -41,7 +41,7 @@ Esta versión presenta una interfaz más limpia e intuitiva para explorar archiv
 
 Al examinar los archivos, el cuadro de diálogo **Seleccionar archivo** modificado ahora incluye un diseño con pestañas con dos vistas: **Repositorio** para navegar por todo el repositorio de contenido en formato tabular y **Colecciones** para acceder rápidamente a los temas, mapas e imágenes utilizados con frecuencia.
 
-![](assets/select-file.png){width="650" align="left"}
+![](assets/select-file.png){width="650"}
 
 Las mejoras clave incluyen:
 
@@ -53,7 +53,7 @@ Las mejoras clave incluyen:
 
 El cuadro de diálogo **Seleccionar ruta** también incluye una vista estructurada en árbol mejorada para la navegación por carpetas, lo que garantiza una forma más organizada y eficaz de seleccionar rutas en el repositorio de contenido.
 
-![](assets/select-path-dialog-new.png){width="350" align="left"}
+![](assets/select-path-dialog-new.png){width="350"}
 
 Para obtener más información, vea la sección [Exploración de archivos y carpetas en Experience Manager Guides](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides) en _Otras características del Editor_.
 
@@ -63,7 +63,7 @@ Para obtener más información, vea la sección [Exploración de archivos y carp
 
 Ahora, filtre los resultados de búsqueda del Repositorio en función del estado actual del documento de los archivos. Con el nuevo filtro **Estado del documento**, puede limitar la búsqueda mediante los valores de filtro disponibles definidos en el archivo `ui_config.json` dentro del perfil de carpeta.
 
-![](assets/document-state-filter-repository.png){align="left"}
+![](assets/document-state-filter-repository.png)
 
 Los valores de filtro predeterminados disponibles para el estado del documento son: Borrador, Editar, En revisión, Aprobado, Revisado y Listo. Para obtener detalles sobre cómo personalizar los valores predeterminados de los filtros de estado del documento, vea [Configurar filtros de estado del documento](../cs-install-guide/config-doc-state-filters.md).
 
@@ -75,7 +75,7 @@ Los valores de filtro predeterminados disponibles para el estado del documento s
 
 Todos los archivos multimedia ahora se muestran con iconos de miniaturas, lo que facilita la identificación y localización visual de imágenes dentro del **Repositorio**. Esta mejora también se aplica al buscar archivos en el **panel Buscar**, lo que le ayuda a distinguir rápidamente los recursos multimedia de otros tipos de archivos.
 
-![](assets/thumbnail-repository.png){align="left"}
+![](assets/thumbnail-repository.png)
 
 ## Mejoras del editor
 
@@ -87,11 +87,11 @@ Presentamos la nueva funcionalidad **Refresh** para asignaciones que ya están a
 
 - Para actualizar todo el mapa (incluidos todos los temas), se ha introducido un nuevo botón **Actualizar** en la esquina superior izquierda del Editor.
 
-  ![](assets/refresh-map.png){width="600" align="left"}
+  ![](assets/refresh-map.png){width="600"}
 
 - Para actualizar el contenido de temas individuales, se ha introducido una nueva opción **Actualizar tema** en el menú contextual.
 
-  ![](assets/refresh-topic.png){width="600" align="left"}
+  ![](assets/refresh-topic.png){width="600"}
 
 Para obtener más información, vea [Funciones del editor de mapas](../user-guide/map-editor-advanced-map-editor.md).
 
@@ -103,7 +103,7 @@ Cualquier cambio en los campos de metadatos disponibles en **Propiedades del arc
 
 Ahora puede realizar un seguimiento del recuento de palabras presentes en un mapa o archivo de tema. El nuevo campo **Recuento de palabras** del panel derecho mostraría el número total de palabras presentes en un tema (o mapa), donde las palabras separadas por espacios se cuentan como palabras individuales. Se actualiza automáticamente cada vez que se guardan los cambios. En el caso de las referencias cruzadas, solo se incluye el texto para mostrar, mientras que las claves se excluyen.
 
-![](assets/file-properties-new.png){width="350" align="left"}
+![](assets/file-properties-new.png){width="350"}
 
 Para obtener más información, vea [Panel derecho en Editor](../user-guide/web-editor-right-panel.md#file-properties).
 
@@ -128,7 +128,7 @@ Ahora puede agregar nuevos temas a una tarea de revisión en curso (si no se han
 
 En la página **Detalles de la tarea**, simplemente puede seleccionar o deseleccionar temas para modificar la lista de temas. Los revisores reciben notificaciones (a través de AEM y por correo electrónico) sobre cualquier cambio en los temas asignados mediante notificaciones de AEM y por correo electrónico. Para obtener más información, vea [Enviar temas para revisión](../user-guide/review-send-topics-for-review.md).
 
-![](assets/modify-review-topics.png){width="650" align="left"}
+![](assets/modify-review-topics.png){width="650"}
 
 ## Mejoras de traducción
 
@@ -140,7 +140,7 @@ Si un archivo contiene cambios sin versiones (no guardados como una nueva versi�
 
 Para obtener más información, vea [Traducir documentos desde la consola de mapas](../user-guide/translate-documents-web-editor.md).
 
-![](assets/unversioned-changes-translation.png){width="650" align="left"}
+![](assets/unversioned-changes-translation.png){width="650"}
 
 ## Mejoras de publicación
 

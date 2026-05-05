@@ -4,9 +4,9 @@ description: Genere informes de mapas DITA desde el tablero de mapas de AEM Guid
 exl-id: 7fe52ee0-e940-467b-9b8d-3d2371de7a84
 feature: Report Generation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Siga estos pasos para ver el informe de mapa DITA:
 
 1. Seleccionar **Informes**.
 
-   ![](images/reports-page-uuid-new.png){align="left"}
+   ![](images/reports-page-uuid-new.png)
 
    La página Informes está dividida en dos partes:
 
@@ -37,7 +37,7 @@ Siga estos pasos para ver el informe de mapa DITA:
 
      Al seleccionar un tema, se muestra un informe detallado del tema seleccionado.
 
-     ![](images/detailed-report-uuid-new.png){align="left"}
+     ![](images/detailed-report-uuid-new.png)
 
      A continuación se describen los elementos resaltados bajo **A**, **B**, **C** y **D**:
 
@@ -82,18 +82,18 @@ Siga estos pasos para generar el CSV de un informe de mapa DITA:
 
 1. Seleccione **Generar informe** en la parte superior izquierda para generar el informe de asignación DITA.
 
-   ![](images/generate-DITA-map-report-new.png){align="left"}
+   ![](images/generate-DITA-map-report-new.png)
 
 1. Recibirá una notificación una vez que el informe esté listo para descargarse. Seleccione **Descargar** para descargar el CSV del informe generado.
 
-   ![](images/download-report-dialog-new.png){width="550" align="left"}
+   ![](images/download-report-dialog-new.png){width="550"}
 
 
    También puede descargar el CSV del informe generado más adelante desde la bandeja de entrada de notificaciones de Experience Manager.
 
    Seleccione el informe generado en la bandeja de entrada para descargar el informe.
 
-   ![](images/report-inbox--notification.png){width="300" align="left"}
+   ![](images/report-inbox--notification.png){width="300"}
 
 Una vez descargado el informe en la bandeja de entrada, también puede seleccionarlo y utilizar el icono Abrir de la parte superior para abrir el informe seleccionado.
 

@@ -5,9 +5,9 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: a9551eb0-ad30-424d-b1c8-c079125d8118
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Un autor puede dirigir comentarios en un documento desde el Editor Web. Se propo
 >
 > Al dirigirse a los comentarios de revisión \(para un documento de revisión activo\), asegúrese de que no abre el tema de revisión en varias pestañas con la vista de etiquetas completa habilitada, no cambie entre los modos de vista Autor y Source.
 
-![](images/comments-page-web-editor_cs.png){width="800" align="left"}
+![](images/comments-page-web-editor_cs.png){width="800"}
 
 En el modo Editor web, el panel derecho contiene los iconos Revisar y Cambios rastreados. El panel Revisar muestra todos los comentarios realizados por los revisores en el documento. El panel **Cambios realizados** muestra el estado de todos los comentarios insertados y eliminados del documento.
 
@@ -55,11 +55,11 @@ En el modo Editor web, el panel derecho contiene los iconos Revisar y Cambios ra
 
   Si desea incorporar el cambio sugerido \(inserción o eliminación\) de uno en uno, simplemente haga clic con el botón derecho en el comentario del contenido y seleccione Aceptar cambio o Rechazar cambio. Según su selección, el comentario se acepta o se rechaza. En caso de comentarios aceptados, el contenido se añade al contenido; y en caso de rechazo, se elimina del contenido. Además, el estado del comentario cambia en el panel Revisar.
 
-  ![](images/import-comment-accept-web-editor_cs.png){width="800" align="left"}
+  ![](images/import-comment-accept-web-editor_cs.png){width="800"}
 
   También puede utilizar la función de revisión del panel derecho para aceptar o rechazar comentarios. Al hacer clic en cualquier comentario, se resalta el comentario en el documento.
 
-  ![](images/changes-tab_cs.png){width="800" align="left"}
+  ![](images/changes-tab_cs.png){width="800"}
 
   >[!IMPORTANT]
   >

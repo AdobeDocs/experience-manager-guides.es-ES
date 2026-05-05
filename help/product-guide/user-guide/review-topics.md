@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo revisar temas y utilizar las funci
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2655'
+source-wordcount: '2670'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Siga estos pasos para revisar un tema:
 
    La siguiente pantalla aparece cuando se utiliza un mapa DITA para iniciar el flujo de trabajo de revisión:
 
-   ![](images/multiple-topics-review.png){align="left"}
+   ![](images/multiple-topics-review.png)
 
    Las siguientes opciones están disponibles en esta pantalla:
 
@@ -66,13 +66,13 @@ Siga estos pasos para revisar un tema:
 
    Todos los temas del mapa se muestran como un solo documento compuesto. Los temas que el revisor puede revisar se muestran normalmente. No se muestran los temas que la revisión no puede revisar.
 
-   ![](images/review-read-only.png){align="left"}
+   ![](images/review-read-only.png)
 
    En la captura de pantalla anterior, el tema Descripción general se comparte para su revisión con el revisor actual, que se muestra normalmente. Sin embargo, el tema siguiente, Historial del contenido del vuelo no se comparte para su revisión y se muestra en modo de solo lectura. El tema que está actualmente en el punto de mira también se resalta en el índice.
 
    La siguiente pantalla aparece cuando se selecciona uno o varios temas y se comparten para su revisión:
 
-   ![](images/review-composite-view.png){align="left"}
+   ![](images/review-composite-view.png)
 
    >[!NOTE]
    >
@@ -101,15 +101,15 @@ Cuando vea un solo tema, obtendrá una opción adicional para volver a la vista 
 
 
 
-![](images/switch-document-view.png){align="left"}
+![](images/switch-document-view.png)
 
 **Uso de diferentes tipos de herramientas de comentarios**: puede agregar comentarios entre líneas resaltando texto, tachando texto, insertando texto o agregando una nota de comentario. A continuación se describen los distintos tipos de herramientas de comentarios que se proporcionan en la barra de herramientas Comentarios:
 
-![](images/comments-toolbar.png){width="350" align="left"}
+![](images/comments-toolbar.png){width="350"}
 
 - **Resaltar** \(![](images/review-highlight-icon.svg)\): para agregar un comentario resaltado, seleccione el texto y elija el icono Resaltar. O bien, primero puede elegir el icono Resaltar y, a continuación, seleccionar el texto deseado.
 
-  ![](images/highlight-comment.png){width="650" align="left"}
+  ![](images/highlight-comment.png){width="650"}
 
   Aparece una ventana emergente en el panel Comentarios, donde puede agregar el comentario para el contenido resaltado.
 
@@ -128,7 +128,7 @@ También puede resaltar o tachar texto rápidamente con la barra de herramientas
 
 1. Seleccione el texto que desee resaltar o tachar. Aparecerá la barra de herramientas contextual.
 
-   ![](images/review-quick-launch-toolbar.png){width="550" align="left"}
+   ![](images/review-quick-launch-toolbar.png){width="550"}
 
 1. Seleccione el icono **Resaltar** o **Tachar**.
 1. Puede agregar comentarios en el panel de comentarios para la acción de resaltado o tachado.
@@ -144,7 +144,7 @@ A continuación, se describen las tareas que puede realizar mediante el panel Co
 - Puede editar su propio comentario seleccionando el texto comentado en el panel Comentarios y, a continuación, eligiendo **Editar** del menú Opciones.
 - Para eliminar sus propios comentarios, seleccione el comentario en el panel Comentarios y, a continuación, elija la opción **Eliminar** en el menú Opciones.
 
-  ![](images/review-comment-options-menu.png){width="300" align="left"}
+  ![](images/review-comment-options-menu.png){width="300"}
 
   >[!NOTE]
   >
@@ -158,11 +158,11 @@ A continuación, se describen las tareas que puede realizar mediante el panel Co
 
 - La siguiente captura de pantalla muestra el contenido en el modo *Revisar*:
 
-![](images/review-author-mode.png){width="550" align="left"}
+![](images/review-author-mode.png){width="550"}
 
 La siguiente captura de pantalla muestra el contenido en el modo *Vista previa*:
 
-![](images/review-preview-mode.png){width="550" align="left"}
+![](images/review-preview-mode.png){width="550"}
 
 
 **Etiquetar usuarios de tareas en un comentario**
@@ -173,17 +173,17 @@ Al colaborar en una tarea de revisión con varios revisores, puede mejorar la co
 >
 > Para ver la lista de usuarios asignados a una tarea de revisión y etiquetarlos en un comentario, debe tener acceso de *Lectura* en `/home/users and /home/groups` nodos. Para obtener más información, vea [Administración de usuarios y seguridad](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Si el etiquetado sigue sin estar disponible después de confirmar el acceso, es posible que el administrador deba asignar una licencia de `user-admin` para habilitar esta funcionalidad.
 
-![](images/tag-users-review-ui.png){width="350" align="left"}
+![](images/tag-users-review-ui.png){width="350"}
 
 Los usuarios etiquetados reciben un correo electrónico y una notificación de AEM, lo que garantiza que se les informe rápidamente. Para obtener más información sobre el déclencheur de las notificaciones de revisión, consulte [Explicación de las notificaciones de revisión](./review-understanding-review-notifications.md).
 
-![](images/mentioned-in-tags-author.png){width="350" align="left"}
+![](images/mentioned-in-tags-author.png){width="350"}
 
-**Agregar datos adjuntos a los comentarios** -   Si desea complementar su comentario proporcionando información adicional que está disponible en algún otro archivo, puede adjuntarla a su comentario. Como revisor, puede agregar fácilmente uno o varios archivos del sistema local al comentario. Se puede agregar un archivo a todas las formas de comentarios compatibles: Resaltar, Tachar, Insertar texto o un comentario.
+**Agregar datos adjuntos a los comentarios**: si desea complementar el comentario proporcionando información adicional que está disponible en algún otro archivo, puede adjuntarla al comentario. Como revisor, puede agregar fácilmente uno o varios archivos del sistema local al comentario. Se puede agregar un archivo a todas las formas de comentarios compatibles: Resaltar, Tachar, Insertar texto o un comentario.
 
 Al insertar cualquiera de los comentarios, aparece la ventana emergente de comentarios. Después de proporcionar comentarios o información adicional en la ventana emergente, puede enviarla pulsando Intro. Una vez agregado el comentario, tiene la opción de agregar un archivo adjunto a ese comentario.
 
-![](images/comment-pop-up-panel.png){align="left"}
+![](images/comment-pop-up-panel.png)
 
 En la captura de pantalla anterior, el documento contiene la ventana emergente del comentario resaltado y el comentario también se agrega en el panel Comentarios. El icono de archivo adjunto ![](images/file-attach-review.svg) está disponible junto con el comentario en ambas ubicaciones.
 
@@ -208,30 +208,30 @@ Siga estos pasos para agregar archivos adjuntos al comentario:
 
 - De forma predeterminada, solo se muestran dos archivos adjuntos a un comentario. Si hay más archivos, el botón **Ver datos adjuntos** de la derecha muestra el número de todos los archivos adjuntos \(que son más de dos\) asociados con el comentario. Puede seleccionar el número para ver todos los archivos adjuntos. Por ejemplo, si tiene cuatro archivos adjuntos con un comentario, verá +2 en el botón.
 
-![](images/review-view-attachment.png){width="550" align="left"}
+![](images/review-view-attachment.png){width="550"}
 
 - Al pasar el puntero del ratón sobre un archivo adjunto, se proporcionan las opciones para descargarlo o quitarlo. La eliminación de los datos adjuntos solo está disponible si el revisor actual ha agregado ese comentario, como se muestra en la siguiente captura de pantalla:
 
-![](images/current-user-comment-options.png){width="550" align="left"}
+![](images/current-user-comment-options.png){width="550"}
 
 Los demás revisores o autores solo obtienen la opción Descargar archivo adjunto.
 
-![](images/other-reviewer-download.png){width="550" align="left"}
+![](images/other-reviewer-download.png){width="550"}
 
 - Puede descargar todos los archivos adjuntos asociados a un comentario desde el cuadro de diálogo **Ver archivos adjuntos**. Seleccione los archivos adjuntos y seleccione el icono **Descargar** en el nivel de comentario.
 
 - También puede eliminar los archivos adjuntos asociados a un comentario en el cuadro de diálogo **Ver archivos adjuntos**. Seleccione los archivos adjuntos y seleccione el icono **Delete**.
 
-![](images/attach-files-comments-panel.png){width="550" align="left"}
+![](images/attach-files-comments-panel.png){width="550"}
 
 
-**Panel de condiciones** -   Si el tema tiene contenido condicional, verá el icono **Condiciones** \(![](images/conditions-icon.svg)\) a la derecha. Al seleccionar el icono **Condiciones**, se abre el panel Condiciones, que le permite resaltar el contenido según las condiciones disponibles en el tema.
+**Panel de condiciones**: si el tema tiene contenido condicional, verá el icono **Condiciones** \(![](images/conditions-icon.svg)\) a la derecha. Al seleccionar el icono **Condiciones**, se abre el panel Condiciones, que le permite resaltar el contenido según las condiciones disponibles en el tema.
 
-:   De manera predeterminada, la opción **Resaltar todas las condiciones** está habilitada, todas las condiciones están seleccionadas, todo el contenido se muestra y el contenido condicionado se muestra resaltado tanto en el modo de revisión como de vista previa.
+: De forma predeterminada, la opción **Resaltar todas las condiciones** está habilitada, se seleccionan todas las condiciones, se muestra todo el contenido y el contenido condicionado se muestra como resaltado en los modos de revisión y vista previa.
 
-:   Puede deshabilitar la opción **Resaltar todas las condiciones** y ver todo el contenido presente en el tema como texto normal sin resaltados.
+: puede deshabilitar la opción **Resaltar todas las condiciones** y ver todo el contenido presente en el tema como texto normal sin resaltados.
 
-![](images/review-conditions-panel.png){width="350" align="left"}
+![](images/review-conditions-panel.png){width="350"}
 
 Puede elegir ocultar o mostrar una condición específica.
 
@@ -239,11 +239,11 @@ Puede elegir ocultar o mostrar una condición específica.
 - Si muestra una condición, el contenido condicionado se resaltará en el modo de revisión. Por ejemplo, en la siguiente captura de pantalla, solo el contenido usa dos condiciones: `win` y `mac` está resaltado.
 
 
-![](images/review-condition-normal-mode.png){width="650" align="left"}
+![](images/review-condition-normal-mode.png){width="650"}
 
 En el modo de vista previa, se muestra el contenido no condicional y el contenido condicional que utiliza las dos condiciones mostradas: `win` y `mac`. No se muestra el contenido condicional restante para el cual se ocultan las condiciones.
 
-**Revisión en tiempo real** -   El panel Comentarios se actualiza en tiempo real con comentarios y comentarios o acciones realizadas por el autor en los comentarios.
+**Revisión en tiempo real**: el panel Comentarios se actualiza en tiempo real con comentarios y los comentarios o las acciones realizadas por el autor en los comentarios.
 
 - Varios revisores podrán dejar comentarios o responder a comentarios simultáneamente en el mismo documento. Puede averiguar quién está revisando el documento actualmente pasando el ratón sobre el icono de usuario en la esquina superior derecha de la pantalla.
 
@@ -251,7 +251,7 @@ En el modo de vista previa, se muestra el contenido no condicional y el contenid
 
 - Si selecciona el icono Comentario obsoleto \(![](images/outdated-comment-icon.svg)\), se muestran las diferencias entre la versión más reciente y la versión comentada del documento. Los números de versión \(de las versiones que se comparan\) se muestran en la parte superior de los documentos.
 
-  ![](images/comments-page-review-mode.png){align="left"}
+  ![](images/comments-page-review-mode.png)
 
   >[!NOTE]
   >
@@ -259,7 +259,7 @@ En el modo de vista previa, se muestra el contenido no condicional y el contenid
 
 - Al seleccionar un comentario obsoleto, se abre la versión de ese comentario en el panel izquierdo. La versión anterior se muestra en el panel izquierdo y la versión actual en el derecho. Todos los comentarios de la versión obsoleta se importan en el lado izquierdo. Puede comparar la versión anterior con la versión actual.
 
-**Filtrar comentarios** -   Puede filtrar los comentarios de un documento para ver comentarios específicos según sea necesario. Para filtrar comentarios, seleccione el icono **Filter** \(![](images/filter-search-icon.svg)\) que aparece en el menú de la derecha del cuadro de texto Buscar comentarios del panel Comentarios.
+**Filtrar comentarios**: puede filtrar comentarios en un documento para ver comentarios específicos según sea necesario. Para filtrar comentarios, seleccione el icono **Filter** \(![](images/filter-search-icon.svg)\) que aparece en el menú de la derecha del cuadro de texto Buscar comentarios del panel Comentarios.
 
 Seleccione una o más de las siguientes opciones de filtrado en el cuadro de diálogo **Tipo de filtro** y seleccione **Aplicar**.
 

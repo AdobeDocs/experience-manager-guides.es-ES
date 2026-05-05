@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo administrar archivos y carpetas en
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 9e4fc7d482b6a37552d31ba2b07fae53018b4dc6
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3263'
+source-wordcount: '3300'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,11 @@ En esta sección se explica cómo administra Adobe Experience Manager Guides las
 
 La operación de copiar y pegar para carpetas en la interfaz de usuario de Assets se ejecuta asincrónicamente en segundo plano, lo que le permite seguir trabajando mientras el sistema procesa la solicitud. Se muestra un mensaje emergente para indicar que el proceso se ha iniciado.
 
-![](images/copy-folders-success-popup.png){width="350" align="left"}
+![](images/copy-folders-success-popup.png){width="350"}
 
 Una vez finalizada la operación, se activa una notificación de éxito o error para indicar si la operación se realizó correctamente o no.
 
-![](images/copy-folders-success-notification.png){width="650" align="left"}
+![](images/copy-folders-success-notification.png){width="650"}
 
 
 ## Arrastrar y soltar archivos
@@ -145,7 +145,7 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
    >[!TIP]
    >
-   > Seleccionar <img src="images/info-icon.svg" width="25">   cerca de cualquier campo para ver más detalles sobre él.
+   > Seleccionar <img src="images/info-icon.svg" width="25"> cerca de cualquier campo para ver más detalles al respecto.
 
 
    - **Agregar sufijo a carpetas duplicadas**: Si está moviendo carpetas que tienen el mismo nombre, debe seleccionar esta opción. Por ejemplo, en la captura de pantalla anterior, la **ruta de Source** contiene el nombre de las carpetas que se van a mover. La carpeta denominada tema existe en dos ubicaciones diferentes: prueba A y prueba B. Al seleccionar esta opción, las carpetas se moverán correctamente. La primera carpeta que se mueva recibirá el nombre de tema, mientras que la segunda carpeta recibirá el nombre de tema0. La operación de mover agrega un sufijo en la serie secuencial \(0, 1, 2, etc.\) a las carpetas con el mismo nombre.
@@ -154,7 +154,7 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
    - **Ruta de Source\(s\)**: especifique la ubicación de las carpetas que desea mover.
 
-      - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25">    para abrir el diálogo **Seleccionar ruta**. Seleccione las carpetas que desee mover y elija **Seleccionar** para completar el proceso. Puede seleccionar varias carpetas colocadas en diferentes ubicaciones en el explorador de rutas. Se conservará la ruta de las carpetas seleccionadas, lo que le permite revisarlas o modificarlas fácilmente cuando vuelva a abrir el cuadro de diálogo.
+      - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo **Seleccionar ruta**. Seleccione las carpetas que desee mover y elija **Seleccionar** para completar el proceso. Puede seleccionar varias carpetas colocadas en diferentes ubicaciones en el explorador de rutas. Se conservará la ruta de las carpetas seleccionadas, lo que le permite revisarlas o modificarlas fácilmente cuando vuelva a abrir el cuadro de diálogo.
 
       - También puede escribir o copiar y pegar la ubicación de origen. Pulse Intro para añadir la carpeta a la lista.
 
@@ -186,7 +186,7 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
    >[!TIP]
    >
-   > Seleccionar <img src="images/info-icon.svg" width="25">   cerca de cualquier campo para ver más detalles sobre él.
+   > Seleccionar <img src="images/info-icon.svg" width="25"> cerca de cualquier campo para ver más detalles al respecto.
 
    - **Tamaño de lote**: especifique el número de archivos que se moverán en un solo lote. Los valores predeterminados son 50 archivos.
    - **Intervalo de suspensión (segundos)**: especifique el tiempo en segundos que el proceso esperará antes de iniciar el siguiente lote. Durante este intervalo de tiempo de suspensión, el sistema corrige las referencias hacia y desde los archivos movidos. El intervalo de suspensión predeterminado es de 60 segundos.
@@ -203,7 +203,7 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
    - **Ruta de Source\(s\)**: especifique la ubicación de las carpetas que desea mover.
 
-      - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25">    para abrir el diálogo **Seleccionar ruta**. Seleccione las carpetas que desee mover y elija **Seleccionar** para completar el proceso. Puede seleccionar varias carpetas colocadas en diferentes ubicaciones en el explorador de rutas. Se conservará la ruta de las carpetas seleccionadas, lo que le permite revisarlas o modificarlas fácilmente cuando vuelva a abrir el cuadro de diálogo.
+      - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo **Seleccionar ruta**. Seleccione las carpetas que desee mover y elija **Seleccionar** para completar el proceso. Puede seleccionar varias carpetas colocadas en diferentes ubicaciones en el explorador de rutas. Se conservará la ruta de las carpetas seleccionadas, lo que le permite revisarlas o modificarlas fácilmente cuando vuelva a abrir el cuadro de diálogo.
 
       - También puede escribir o copiar y pegar la ubicación de origen. Pulse Intro para añadir la carpeta a la lista.
 

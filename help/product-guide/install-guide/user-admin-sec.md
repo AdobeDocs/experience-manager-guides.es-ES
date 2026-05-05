@@ -5,11 +5,10 @@ exl-id: 1269a652-5261-413d-9ea0-b4f75003e9d8
 feature: User Management
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 10%
+source-wordcount: '758'
+ht-degree: 11%
 
 ---
 
@@ -23,9 +22,9 @@ Los siguientes temas de la documentación de AEM le ayudarán a comprender la ad
 
 - [Permisos en AEM](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
-- [Administrar usuarios y grupos](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
+- [Administración de usuarios y grupos](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
-- [Administrar permisos](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
+- [Administración de permisos](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
 
 
 ## Grupos de usuarios creados por AEM Guides {#id181TF0K0MHT}
@@ -109,4 +108,4 @@ La siguiente lista contiene algunas recomendaciones y puntos relacionados con gr
 
 - Para otorgar a un usuario derechos para cambiar el estado de un documento, asegúrese de agregar el usuario en la sección de transición de estado del perfil de estado del documento.
 
-[1](#fnsrc_1) Si *Autores* y *Editores* están invitados a una revisión.[2](#fnsrc_2) según los derechos otorgados al usuario en el perfil de estado del documento.
+[1](#fnsrc_1) Si *Autores* y *Editores* están invitados a una revisión.[2](#fnsrc_2) Según los derechos otorgados al usuario en el perfil de estado del documento.

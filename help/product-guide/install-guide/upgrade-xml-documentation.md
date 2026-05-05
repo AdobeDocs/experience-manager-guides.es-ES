@@ -5,11 +5,10 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '9148'
-ht-degree: 0%
+source-wordcount: '9267'
+ht-degree: 1%
 
 ---
 
@@ -89,7 +88,7 @@ Esta API está diseñada para evaluar el estado actual del sistema e informar si
 | Punto final | /bin/dxml/upgrade/3xto4x/report |
 | --- | --- |
 | Tipo de solicitud | **GET** Puede usar un explorador web en el que haya iniciado sesión como administrador en la instancia de AEM. |
-| Respuesta esperada | -   Si se pueden mover todos los nodos requeridos, se le aprobará una comprobación. <br>-   Si un nodo está presente en la ubicación de destino, se producirá un error relevante. Limpie el repositorio \(elimine el nodo /var/xml\), vuelva a instalar el paquete de actualización y, a continuación, almacene en déclencheur este extremo de nuevo. <br>**Nota:** Este no es un error común porque 3.x Experience Manager Guides no usa anteriormente la ubicación de destino. <br> -   Si este script no se ejecuta correctamente, no continúe y genere un informe para el equipo de éxito del cliente. |
+| Respuesta esperada | - En caso de que se puedan mover todos los nodos requeridos, obtendrá una comprobación superada. <br>: si un nodo está presente en la ubicación de destino, se generará un error relevante. Limpie el repositorio \(elimine el nodo /var/xml\), vuelva a instalar el paquete de actualización y, a continuación, almacene en déclencheur este extremo de nuevo. <br>**Nota:** Este no es un error común porque 3.x Experience Manager Guides no usa anteriormente la ubicación de destino. <br>: si este script no se ejecuta correctamente, no continúe y genere un informe para el equipo de éxito del cliente. |
 
 **API de migración de datos del sistema**
 
@@ -101,7 +100,7 @@ Esta API está diseñada para migrar los datos del sistema como se menciona en l
 | Punto final | /bin/dxml/upgrade/3xto4x |
 | --- | --- |
 | Tipo de solicitud | **POST** Este script es una petición POST por lo tanto debe ejecutarse a través de agentes como Postman. |
-| Respuesta esperada | -   Una vez completada la migración, puede instalar la solución de XML Documentation versión 4.0.<br>-   En caso de errores, restaure al último punto de comprobación y comparta los registros de errores junto con la salida de la API con el equipo de éxito del cliente. |
+| Respuesta esperada | - Una vez completada la migración, puede instalar la solución XML Documentation versión 4.0.<br>- En caso de errores, restaure al último punto de comprobación y comparta los registros de errores junto con la salida de la API con el equipo de éxito del cliente. |
 
 **Asignación de migración**: la API anterior migra todos los datos de la ubicación de origen a la ubicación de destino.
 
@@ -297,7 +296,7 @@ y establezca las siguientes propiedades en el nodo:
    (junto con otros nodos y propiedades existentes)
 
 1. Reindexe el índice `damAssetLucene` (estableciendo el indicador de reindexación como `true` en
-y espere a que se vuelva a `false` (esto indica que la reindexación se ha completado). Tenga en cuenta que puede tardar unas horas según el tamaño del índice.
+y espere a que se vuelva a `false` (esto indica que se ha completado la reindexación). Tenga en cuenta que puede tardar unas horas según el tamaño del índice.
 1. Ejecute de nuevo el script de indexación realizando los pasos anteriores.
 
 
@@ -527,7 +526,7 @@ Realice los siguientes pasos para posprocesar el contenido existente y utilizar 
    | Punto final | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo de solicitud | **POST** Este script es una petición POST por lo tanto debe ejecutarse a través de agentes como Postman. |
-   | Respuesta esperada | La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID de trabajo al mismo punto final.<br> URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade` |
+   | Respuesta esperada | La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el id. del trabajo al mismo punto final.<br> URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Punto final | /bin/guides/reports/upgrade |
    |---|---|
@@ -728,7 +727,7 @@ Realice los siguientes pasos para posprocesar el contenido existente y utilizar 
    | Punto final | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo de solicitud | **POST** Este script es una petición POST por lo tanto debe ejecutarse a través de agentes como Postman. |
-   | Respuesta esperada | La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID de trabajo al mismo punto final.<br> URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade` |
+   | Respuesta esperada | La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el id. del trabajo al mismo punto final.<br> URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Punto final | /bin/guides/reports/upgrade |
    |---|---|
@@ -929,7 +928,7 @@ Realice los siguientes pasos para posprocesar el contenido existente y utilizar 
    | Punto final | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo de solicitud | **POST** Este script es una petición POST por lo tanto debe ejecutarse a través de agentes como Postman. |
-   | Respuesta esperada | La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID de trabajo al mismo punto final.<br> URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade` |
+   | Respuesta esperada | La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el id. del trabajo al mismo punto final.<br> URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Punto final | /bin/guides/reports/upgrade |
    |---|---|
@@ -1119,7 +1118,7 @@ Después de instalar Experience Manager Guides, puede combinar las distintas con
 
 Siga estos pasos para indexar el contenido existente:
 
-- Ejecute una petición POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de las asignaciones para indexarlas; de forma predeterminada, todas las asignaciones se indexarán || Ejemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Ejecute una petición POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de los mapas para indexarlas, de forma predeterminada se indexarán todas las asignaciones Ejemplo de || : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
@@ -1274,7 +1273,7 @@ Después de instalar Experience Manager Guides, puede combinar las distintas con
 
 Siga estos pasos para indexar el contenido existente:
 
-- Ejecute una petición POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de las asignaciones para indexarlas; de forma predeterminada, todas las asignaciones se indexarán || Ejemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Ejecute una petición POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de los mapas para indexarlas, de forma predeterminada se indexarán todas las asignaciones Ejemplo de || : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
@@ -1441,7 +1440,7 @@ Después de instalar Experience Manager Guides, puede combinar las distintas con
 
 Siga estos pasos para indexar el contenido existente:
 
-- Ejecute una petición POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de las asignaciones para indexarlas; de forma predeterminada, todas las asignaciones se indexarán || Ejemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Ejecute una petición POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de los mapas para indexarlas, de forma predeterminada se indexarán todas las asignaciones Ejemplo de || : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 

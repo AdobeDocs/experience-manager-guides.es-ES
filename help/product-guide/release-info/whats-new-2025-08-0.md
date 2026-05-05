@@ -3,10 +3,10 @@ title: Notas de versión | Novedades de la versión 2025.08.0 de Adobe Experienc
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 2025.08.0 de Adobe Experience Manager Guides
 role: Leader
 exl-id: c3461d0a-6394-4275-9d54-b2b1545d7c18
-source-git-commit: 1a44af3522060ebc531393d4d01b1cd00eb02c10
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 2%
+source-wordcount: '844'
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ Una vez habilitada la opción **Asistente de IA**, los administradores pueden el
 
 Obtenga más información acerca del [asistente de IA en la configuración del editor](../cs-install-guide/workspace-settings.md#general) en Experience Manager Guides.
 
-![](assets/authoring-quick-actions.png){width="350" align="left"}
+![](assets/authoring-quick-actions.png){width="350"}
 
 
 ## Experiencia mejorada para crear y utilizar archivos DITAVAL
@@ -54,7 +54,7 @@ Los aspectos destacados son los siguientes:
 - **Compatibilidad mejorada con marcas en la creación de archivos DITAVAL:** Experience Manager Guides ofrece nuevas funciones para personalizar la publicación de contenido mediante la compatibilidad mejorada con marcas en archivos DITAVAL. Ahora puede aplicar marcas de inicio y finalización alrededor de contenido específico, incluidas imágenes, y enriquecer las secciones marcadas con opciones de formato como negrita, cursiva, etc. Para controlar las superposiciones de condiciones, se puede configurar el **conflicto de estilo**, que incluye la configuración de un fondo y un color de texto predeterminados, lo que garantiza la claridad y la coherencia en la salida. Estos indicadores son totalmente compatibles con la generación nativa de PDF y la salida resultante refleja de forma precisa y completa todos los elementos de estilo aplicados.
 Para obtener más información, vea [Usar el editor DITAVAL](../user-guide/ditaval-editor.md).
 
-  ![](assets/ditaval-flag-style-new.png){width="350" align="left"}
+  ![](assets/ditaval-flag-style-new.png){width="350"}
 
 - **Compatibilidad con varios archivos DITAVAL para PDF nativo:** Para PDF nativo, ahora se pueden agregar varios archivos DITAVAL, cada uno de los cuales se muestra como una entrada etiquetada para facilitar la identificación y eliminación, lo que proporciona mayor flexibilidad y control sobre el contenido condicional en las salidas de PDF
 
@@ -68,7 +68,7 @@ Esta versión incorpora mejoras en la interfaz de usuario a la capacidad de filt
 
 Para obtener más información, vea [Solución de problemas básica](../user-guide/generate-output-basic-troubleshooting.md).
 
-![](./assets/log-file-new.png){align="left"}
+![](./assets/log-file-new.png)
 
 
 ## Los archivos temporales para la salida publicada ahora incluyen las direcciones URL de autor y publicación en un nuevo archivo de configuración

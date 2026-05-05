@@ -5,10 +5,9 @@ exl-id: ba82af48-9357-4f29-90ce-6793366ab432
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
@@ -44,11 +43,11 @@ Siga estos pasos para agregar una función a la barra de herramientas del Editor
 
    Normalmente, puede crear un nuevo grupo de botones de barra de herramientas y agregarle uno o más botones de barra de herramientas. O bien, puede agregar un nuevo botón de barra de herramientas dentro de un grupo existente. Se requieren los siguientes detalles para crear un nuevo grupo de barras de herramientas:
 
-   **tipo**:   Especifique `blockGroup` como el valor `type`. Este valor indica que está creando un grupo de bloques que contendría uno o más grupos de barras de herramientas.
+   **type**: especifique `blockGroup` como el valor `type`. Este valor indica que está creando un grupo de bloques que contendría uno o más grupos de barras de herramientas.
 
-   **extraclase**:   Nombre de la clase o clases separadas con espacio.
+   **extraclass**: nombre de la clase o clases separadas por espacio.
 
-   **elementos**:   Especifique la definición de todos los grupos en la barra de herramientas. Cada grupo puede contener uno o varios iconos de la barra de herramientas. Para definir iconos dentro de un grupo de barras de herramientas, debe definir de nuevo el atributo `type` dentro de `items` y establecer su valor en `buttonGroup`. Especifique uno o varios nombres de clase en la propiedad `extraclass`. Especifique el nombre de la característica en la propiedad `label`. El siguiente fragmento del archivo `ui_config.json` muestra la definición del bloque de barra de herramientas principal, seguida de la definición `buttonGroup`:
+   **elementos**: especifique la definición de todos los grupos en la barra de herramientas. Cada grupo puede contener uno o varios iconos de la barra de herramientas. Para definir iconos dentro de un grupo de barras de herramientas, debe definir de nuevo el atributo `type` dentro de `items` y establecer su valor en `buttonGroup`. Especifique uno o varios nombres de clase en la propiedad `extraclass`. Especifique el nombre de la característica en la propiedad `label`. El siguiente fragmento del archivo `ui_config.json` muestra la definición del bloque de barra de herramientas principal, seguida de la definición `buttonGroup`:
 
    ```
    "toolbar": {    
@@ -67,21 +66,21 @@ Siga estos pasos para agregar una función a la barra de herramientas del Editor
 
    Debe definir las siguientes propiedades para añadir un icono de la barra de herramientas:
 
-   **tipo**:   Especifique `button` como el valor `type`. Este valor indica que está agregando un botón de barra de herramientas.
+   **type**: especifique `button` como el valor `type`. Este valor indica que está agregando un botón de barra de herramientas.
 
-   **icono**:   Especifique el nombre del icono de Coral que desee utilizar en la barra de herramientas.
+   **icon**: especifique el nombre del icono de Coral que desee usar en la barra de herramientas.
 
-   **variante**:   Especifique `quiet` como el valor `variant`.
+   **variante**: especifique `quiet` como el valor `variant`.
 
-   **título**:   Especifique la información del objeto para el icono.
+   **título**: especifique la información del objeto para el icono.
 
-   **clic**:   Especifique el nombre del comando definido para la función en el archivo JavaScript. Si el comando requiere parámetros de entrada, especifique el nombre del comando como:
+   **al hacer clic**: especifique el nombre del comando definido para la característica en el archivo JavaScript. Si el comando requiere parámetros de entrada, especifique el nombre del comando como:
 
    ```Javascript
    "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
    ```
 
-   **mostrar u ocultar**:   Si está definiendo la propiedad `show`, especifique los modos en que se mostrará el icono. Los valores posibles son - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(mostrar en todos los modos\) o `false` \(ocultar en todos los modos\).
+   **mostrar u ocultar**: Si está definiendo la propiedad `show`, especifique los modos en que se mostrará el icono. Los valores posibles son - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(mostrar en todos los modos\) o `false` \(ocultar en todos los modos\).
 
    En lugar de `show`, también puede definir la propiedad `hide`. Los valores posibles son los mismos que en la propiedad `show` con la única diferencia de que el icono no se muestra en el modo especificado.
 
@@ -130,11 +129,11 @@ Realice los siguientes pasos para eliminar cualquier función no deseada de la b
 
    El archivo `ui_config.json` tiene tres secciones:
 
-   1. **barras de herramientas**:   Esta sección contiene la definición de todas las funciones disponibles en la barra de herramientas del editor, como Insertar/Quitar lista numerada, \(archivo\) Cerrar, Guardar, Comentarios y más.
+   1. **barras de herramientas**: Esta sección contiene la definición de todas las características disponibles en la barra de herramientas del editor, como Insertar/Quitar lista numerada, \(archivo\) Cerrar, Guardar, Comentarios y más.
 
-   1. **métodos abreviados**:   Esta sección contiene la definición de los métodos abreviados de teclado asignados a una función concreta del editor.
+   1. **métodos abreviados de teclado**: esta sección contiene la definición de métodos abreviados de teclado asignados a una característica concreta del editor.
 
-   1. **plantillas**:   Esta sección contiene la estructura predefinida de los elementos DITA que puede utilizar en el documento. De forma predeterminada, la sección de plantillas contiene definiciones de plantilla para un párrafo, tabla simple, tabla y elementos de cuerpo. Puede crear una definición de plantilla para cualquier elemento añadiendo una estructura XML válida para el elemento deseado. Por ejemplo, si desea agregar un elemento `p` con cada nuevo elemento `li` en una lista, puede agregar el siguiente código al final de la sección de plantillas para lograrlo:
+   1. **templates**: Esta sección contiene la estructura predefinida de elementos DITA que puede utilizar en el documento. De forma predeterminada, la sección de plantillas contiene definiciones de plantilla para un párrafo, tabla simple, tabla y elementos de cuerpo. Puede crear una definición de plantilla para cualquier elemento añadiendo una estructura XML válida para el elemento deseado. Por ejemplo, si desea agregar un elemento `p` con cada nuevo elemento `li` en una lista, puede agregar el siguiente código al final de la sección de plantillas para lograrlo:
 
    ```css
    "li": "<li><p></p></li>"

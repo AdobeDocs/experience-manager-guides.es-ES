@@ -2,12 +2,12 @@
 user-guide-title: IU antigua de Experience Manager Guides
 user-guide-description: Lea la documentación del producto de Adobe Experience Manager Guides mediante la interfaz de usuario antigua.
 breadcrumb-title: Documentación de AEM Guides
-hide: yes
+hide: true
 badgeAll: label="Guía antigua de la interfaz de usuario&#58; más información" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Guía antigua de IU"
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 3%
+source-wordcount: 599
+ht-degree: 6%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 3%
       - [Cargar archivos](./user-guide/authoring-upload-existing-files.md)
       - [Administración de archivos y carpetas](./user-guide/authoring-file-management.md)
       - [Descargar archivos](./user-guide/authoring-download-assets.md)
-   - Contenido de autor {#author-content}
-      - [Resumen de creación](./user-guide/authoring-content.md)
-      - Creación y vista previa del tema {#create-preview-topics}
+   - Contenido del autor {#author-content}
+      - [Información general sobre la creación](./user-guide/authoring-content.md)
+      - Creación y previsualización de temas {#create-preview-topics}
          - [Crear y previsualizar temas](./user-guide/create-preview-topics.md)
          - [Crear temas](./user-guide/web-editor-create-topics.md)
          - [Previsualización de un tema](./user-guide/web-editor-preview-topics.md)
-         - Contenido de autor {#author-content-aem-guides}
+         - Contenido del autor {#author-content-aem-guides}
             - [Forma de crear contenido mediante AEM Guides](./user-guide/authoring-content-xml-doc.md)
             - Editor web {#work-with-web-editor}
                - [Trabajar con el editor web](./user-guide/web-editor.md)
@@ -79,7 +79,7 @@ ht-degree: 3%
       - [Creación de un proyecto DITA](./user-guide/authoring-create-dita-project.md)
       - [Enviar temas para revisión](./user-guide/review-send-topics-for-review.md)
       - [Reasignar tarea de revisión mediante notificación](./user-guide/reassign-review-using-notification.md)
-      - Revisión de tema {#review-topics}
+      - Revisión del tema {#review-topics}
          - [Revisar temas](./user-guide/review-topics.md)
          - [Comentarios de revisión de direcciones](./user-guide/review-address-review-comments.md)
       - [Administrar tareas de revisión mediante el panel Revisar](./user-guide/review-manage-tasks-review-dashboard.md)
@@ -94,7 +94,7 @@ ht-degree: 3%
       - [Prácticas recomendadas para la traducción de contenido](./user-guide/translation-first-time.md)
       - [Ver estado de traducción](./user-guide/translation-view-trans-state-6234.md)
       - [Traducir temas modificados](./user-guide/translation-modified-topics-6234.md)
-   - Generación de salida {#output-gen}
+   - Generación de resultados {#output-gen}
       - [Conceptos básicos de generación de resultados](./user-guide/generate-output.md)
       - [Introducción a los ajustes preestablecidos de salida](./user-guide/generate-output-understand-presets.md)
       - Ajustes preestablecidos de salida en AEM Guides {#output-presets-aemg}
@@ -120,7 +120,7 @@ ht-degree: 3%
       - [Publicar fragmentos de contenido](./user-guide/publish-content-fragment.md)
       - [Publicar fragmentos de experiencias](./user-guide/publish-experience-fragment.md)
       - [Publicación de páginas de AEM Sites](./user-guide/publish-aem-sites.md)
-      - Activación masiva del contenido {#bulk-activation}
+      - Activación masiva de contenido {#bulk-activation}
          - [Activación masiva de contenido publicado](./user-guide/conf-bulk-activation.md)
          - [Creación de una colección de mapas de activación masiva](./user-guide/conf-bulk-activation-create-map-collection.md)
          - [Activar salida](./user-guide/conf-bulk-activation-publish-map-collection.md)
@@ -142,5 +142,5 @@ ht-degree: 3%
       - [Informe de reutilización de contenido](./user-guide/reports-content-reuse.md)
       - [Informe de estado de conversión](./user-guide/reports-convertion-status.md)
       - [Informe de historial de versiones de archivos revertidos](./user-guide/reports-reverted-file-version-history.md)
-- [GUÍA DEL USUARIO (NUEVA INTERFAZ DE USUARIO)](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+- [GUÍA DEL USUARIO (NUEVA IU)](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
 

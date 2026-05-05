@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1666'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,16 @@ Para empezar a configurar el perfil de la carpeta para el contenido de aprendiza
 
    Puede crear una carpeta nueva desde el panel Repositorio.
 
-   ![](assets/create-new-folder.png){width="350" align="left"}
+   ![](assets/create-new-folder.png){width="350"}
 2. **Crear carpetas de idioma para administrar la traducción**: si traduce contenido a diferentes idiomas, debe crear las carpetas correspondientes a cada idioma. Cada una de estas carpetas de idioma contendrá el contenido correspondiente a ese idioma.
 
 3. **Crear una carpeta para administrar Assets**: de manera similar a las carpetas, también puede crear distintas carpetas de Assets para satisfacer las necesidades de distintos departamentos. De este modo, también se asegura de que los autores y los editores tengan acceso al CSS correcto configurado en sus plantillas, imágenes y otros recursos.
 
-   ![](assets/configure-assets-folder.png){width="350" align="left"}
+   ![](assets/configure-assets-folder.png){width="350"}
 4. [Cree un perfil de carpeta](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile) para asignar carpetas diferentes.
 5. **Seleccione el perfil de carpeta que desea configurar**: Una vez creado el perfil de carpeta, debe seleccionar el perfil de carpeta en la página [Preferencias de usuario](../user-guide/intro-home-page.md#user-preferences) para asegurarse de que los autores y los editores tienen acceso a las plantillas correctas.
 
-   ![](assets/folder-profile.png){width="650" align="left"}
+   ![](assets/folder-profile.png){width="650"}
 
 6. **Configurar la configuración del perfil de la carpeta**: Para el contenido de aprendizaje y formación, se puede configurar lo siguiente en el nivel de carpeta:
    - [General](#general)
@@ -51,7 +51,7 @@ Para obtener acceso a esta configuración, cambie a la vista Editor y seleccione
 
 En la pestaña General, puede configurar las siguientes opciones específicas de la función Aprendizaje de productos y contenido de aprendizaje:
 
-![](assets/lc-config-settings-general.png){width="350" align="left"}
+![](assets/lc-config-settings-general.png){width="350"}
 
 - **Contenido de aprendizaje**: use la opción **Habilitar contenido de aprendizaje** para habilitar o deshabilitar la característica en el nivel de perfil de carpeta.
 - **Editor de HTML**: esta opción le permite configurar el Editor para la creación basada en HTML. Las opciones de configuración clave presentes en esta configuración son las siguientes:
@@ -65,7 +65,7 @@ Esta opción controla los paneles que se muestran en los paneles izquierdo y der
 
 Para el contenido de aprendizaje y formación, asegúrese de que solo están habilitadas las siguientes funciones para la consola Editor y Mapa.
 
-![](assets/panels-settings.png){width="350" align="left"}
+![](assets/panels-settings.png){width="350"}
 
 
 ### Editor
@@ -120,11 +120,11 @@ Para el contenido de aprendizaje y formación, asegúrese de que solo están hab
 
 Esta configuración le permite administrar las plantillas de creación y publicación presentes en el [panel izquierdo del editor](../user-guide/web-editor-left-panel.md). Puede agregar, quitar o reordenar las plantillas de creación y salida, a las que los autores y editores podrán tener acceso.
 
-![](assets/templates-settings.png){width="350" align="left"}
+![](assets/templates-settings.png){width="350"}
 
 Las plantillas de creación están disponibles en cuatro categorías: curso de aprendizaje, contenido de aprendizaje, prueba y banco de preguntas. Si hay alguna plantilla predefinida configurada en su instancia, se muestra de forma predeterminada.
 
-![](assets/templates-list.png){width="350" align="left"}
+![](assets/templates-list.png){width="350"}
 
 ### Añadir plantillas
 
@@ -134,13 +134,13 @@ Siga estos pasos para agregar una plantilla nueva:
 2. En el cuadro de diálogo Seleccionar ruta, seleccione la plantilla deseada.
 3. Elija **Seleccionar**.
 
-   ![](assets/add-templates.png){width="350" align="left"}
+   ![](assets/add-templates.png){width="350"}
 
 La plantilla se agrega en la categoría correspondiente del panel Configuración.
 
 Del mismo modo, puede agregar otras plantillas de creación y salida. Una vez añadidas, estas plantillas se ponen a disposición de los autores y editores en sus respectivos cuadros de diálogo de cursos. Por ejemplo, la plantilla de curso de aprendizaje añadida por el administrador estará disponible para los autores cuando creen un nuevo curso.
 
-![](assets/templates-added-course.png){width="350" align="left"}
+![](assets/templates-added-course.png){width="350"}
 
 ### Trabajo con nuevas plantillas de creación y salida
 
@@ -152,7 +152,7 @@ Para utilizar una plantilla de tema o mapa diferente, cree una nueva plantilla d
 
 Para obtener más información, vea [Crear plantillas personalizadas desde el editor](../user-guide/create-maps-customized-templates.md).
 
-![](assets/authoring-templates-editor.png){width="350" align="left"}
+![](assets/authoring-templates-editor.png){width="350"}
 
 **Crear nuevas plantillas de salida**
 
@@ -162,17 +162,17 @@ Siga estos pasos para crear una nueva plantilla de salida para el contenido de a
 
    Se muestra el panel Plantillas de salida.
 
-   ![](assets/output-templates-editor.png){width="350" height="" align="left"}
+   ![](assets/output-templates-editor.png){width="350" height=""}
 2. En el panel Plantillas de salida, seleccione (+) para crear una nueva plantilla de salida.
 
-   ![](assets/create-new-output-template.png){width="350" align="left"}
+   ![](assets/create-new-output-template.png){width="350"}
 3. Seleccione una Plantilla de salida en el menú desplegable.
 
 
-   ![](assets/output-template-types.png){width="650" align="left"}
+   ![](assets/output-template-types.png){width="650"}
 4. En función del tipo de plantilla de salida seleccionado, se muestra un cuadro de diálogo en el que puede crear una nueva plantilla basada en las plantillas disponibles.
 
-   ![](assets/new-scorm-template-dialog.png){width="350" align="left"}
+   ![](assets/new-scorm-template-dialog.png){width="350"}
 
 5. Seleccione **Crear**.
 
@@ -180,16 +180,16 @@ Siga estos pasos para crear una nueva plantilla de salida para el contenido de a
 
 6. Para acceder y agregar la plantilla de salida para editores, ve a **Configuración** > **Plantillas** > **Plantillas de salida** y selecciona **Agregar**.
 
-   ![](assets/add-output-template-settings-panel.png){width="350" align="left"}
+   ![](assets/add-output-template-settings-panel.png){width="350"}
 
    La plantilla de salida se muestra en el cuadro de diálogo Seleccionar ruta.
 7. Seleccione la plantilla y elija **Confirmar**.
 
-   ![](assets/select-scorm-template-dialog.png){width="350" align="left"}
+   ![](assets/select-scorm-template-dialog.png){width="350"}
 
    La plantilla de salida seleccionada se agrega ahora al panel Configuración.
 
-   ![](assets/scorm-template-added.png){width="350" align="left"}
+   ![](assets/scorm-template-added.png){width="350"}
 
 ### Eliminación o reordenación de plantillas
 
@@ -197,11 +197,11 @@ Una vez agregadas, puede quitar o reordenar las plantillas del panel Configuraci
 
 Para quitar una plantilla, selecciona el icono **Quitar** que hay junto a ella.
 
-![](assets/remove-teamplates.png){width="350" align="left"}
+![](assets/remove-teamplates.png){width="350"}
 
 También puede definir el orden en que se muestran las plantillas presentes dentro de una categoría. Para cambiar el orden de visualización de las plantillas, seleccione las barras de puntos y arrastre una plantilla a la posición deseada.
 
-![](assets/reorder-templates.png){width="350" align="left"}
+![](assets/reorder-templates.png){width="350"}
 
 
 ## Configurar ajustes preestablecidos de salida
@@ -212,15 +212,15 @@ También puede definir el orden en que se muestran las plantillas presentes dent
 
 La pestaña Ajustes preestablecidos de salida permite definir qué formatos de salida están disponibles para publicar un curso. Contiene dos secciones: **Tipos de ajustes preestablecidos de salida permitidos** y **Ajustes preestablecidos de salida comunes**.
 
-![](assets/configure-course-output-presets.png){width="350" align="left"}
+![](assets/configure-course-output-presets.png){width="350"}
 
 - **Tipos de ajustes preestablecidos de salida permitidos**: en esta sección se enumeran todos los ajustes preestablecidos de salida admitidos en la instancia de Experience Manager Guides. Para la publicación del curso, solo se aplican los formatos **SCORM** y **PDF**. Puede seleccionar una o ambas opciones. Los ajustes preestablecidos seleccionados estarán disponibles para los editores al generar la salida del curso.
 
-  ![](assets/allowed-output-presets.png){width="350" align="left"}
+  ![](assets/allowed-output-presets.png){width="350"}
 
 - **Ajustes preestablecidos de salida comunes**: en esta sección se muestran los ajustes preestablecidos de salida que los editores crean y agregan normalmente a un perfil de carpeta específico. También puede eliminar cualquier ajuste preestablecido que ya no sea necesario.
 
-  ![](assets/common-output-presets.png){width="350" align="left"}
+  ![](assets/common-output-presets.png){width="350"}
 
 ## Administrar perfiles de publicación
 
@@ -230,4 +230,4 @@ Puede crear varios perfiles si necesita publicarlos en diferentes cuentas de SCO
 
 Proporcione los detalles del servidor junto con el ID de cliente y el secreto de cliente de la aplicación de nube SCORM asociada para configurar el perfil de publicación para la nube SCORM.
 
-![](assets/configure-publish-profiles.png){width="350" align="left"}
+![](assets/configure-publish-profiles.png){width="350"}

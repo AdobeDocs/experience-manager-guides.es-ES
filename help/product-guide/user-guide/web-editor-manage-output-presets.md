@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo crear, editar, cambiar el nombre, 
 exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Realice los siguientes pasos para crear un ajuste preestablecido de salida para 
 1. Seleccione el icono **Abrir en la consola de mapas** para abrir el archivo de mapa en la consola de mapas.
 1. En la consola Mapa, vaya a la pestaña **Ajustes preestablecidos de salida** y, a continuación, seleccione el icono + para crear un ajuste preestablecido de salida para el mapa DITA.
 
-   ![](images/add-global-output-preset.png){width="350" align="left"}
+   ![](images/add-global-output-preset.png){width="350"}
 
 1. Escriba los siguientes detalles en el cuadro de diálogo **Agregar ajuste preestablecido**:
    - Tipo

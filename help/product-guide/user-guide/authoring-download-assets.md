@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo descargar archivos desde la consol
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-source-git-commit: 5deb4411c82f07aa82e52b4608a71a78136c128d
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Siga estos pasos para descargar un archivo de mapa DITA desde el Editor:
 
    Se muestra el cuadro de diálogo **Descargar mapa**.
 
-   ![](images/download-map-dialog-new.png){width="300" align="left"}
+   ![](images/download-map-dialog-new.png){width="300"}
 
 1. En el cuadro de diálogo Descargar mapa, puede elegir las siguientes opciones:
 
@@ -57,7 +57,7 @@ Siga estos pasos para descargar un archivo de mapa DITA desde el Editor:
 
    Recibirá la siguiente notificación una vez que el mapa esté listo para descargarse.
 
-   ![](images/download-map-success-message.png){width="550" align="left"}
+   ![](images/download-map-success-message.png){width="550"}
 
 1. Seleccione **Descargar** para descargar el archivo de asignación en formato `.zip`. O bien, descárguelo más tarde desde la bandeja de entrada de AEM.
 
@@ -83,7 +83,7 @@ Realice los siguientes pasos para descargar un archivo de asignación DITA junto
 
    Aparecerá el cuadro de diálogo Descargar mapa.
 
-   ![](images/download-map.png){width="300" align="left"}
+   ![](images/download-map.png){width="300"}
 
 1. Seleccione **Descargar**. En el cuadro de diálogo Descargar mapa, puede elegir las siguientes opciones:
 
@@ -98,7 +98,7 @@ Realice los siguientes pasos para descargar un archivo de asignación DITA junto
 
 1. Después de seleccionar el botón **Descargar**, la solicitud de descarga del mapa se pone en cola. Recibirá la siguiente notificación una vez que el mapa esté listo para descargarse.
 
-   ![](images/download-map-prompt.png){width="550" align="left"}
+   ![](images/download-map-prompt.png){width="550"}
 
    - Seleccione **Descargar** para descargar el archivo de asignación en formato .zip.
 
@@ -108,7 +108,7 @@ Realice los siguientes pasos para descargar un archivo de asignación DITA junto
    >
    > De forma predeterminada, las asignaciones descargadas permanecen durante cinco días en la Bandeja de entrada de notificaciones de Adobe Experience Manager.
 
-![](images/download-map-inbox.png){width="300" align="left"}
+![](images/download-map-inbox.png){width="300"}
 
 Una vez descargado el mapa, puede seleccionarlo y utilizar el icono Abrir de la parte superior para abrir el contenido descargado.
 

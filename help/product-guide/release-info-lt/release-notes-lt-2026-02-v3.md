@@ -2,10 +2,10 @@
 title: Notas de versión | Novedades de la versión de febrero de 2026 de Formación del producto y contenido de aprendizaje
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión de febrero de 2026 de Formación del producto y contenido de aprendizaje
 role: Leader
-hidefromtoc: true
-source-git-commit: 16e7f12ddc9e72e4344bf98e65718c0f3681b348
+exl-id: aef24b0c-0cb8-4646-9d8b-92d3460a7faa
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -67,4 +67,3 @@ Los siguientes problemas se solucionaron en la versión de febrero de 2026 de Fo
 - Al hacer clic en la Tabla de contenido (TDC) en el panel izquierdo del curso, el curso sigue mostrando el estado de finalización aunque se haya producido un error en la prueba. (GUIDES-40398)
 - Si se intenta hacer coincidir el siguiente tipo de pregunta en una prueba de forma incorrecta en ALM, las opciones seleccionadas no aparecerán en el informe. (GUIDES-38640)
 - Al generar la salida de PDF, los estilos de creación aplicados no se conservan, lo que provoca incoherencias en el diseño. (GUIDES-38642)
-

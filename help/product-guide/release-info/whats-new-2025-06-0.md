@@ -3,10 +3,10 @@ title: Notas de versión | Novedades de la versión 2025.06.0 de Adobe Experienc
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 2025.06.0 de Adobe Experience Manager Guides
 role: Leader
 exl-id: 48f27aa6-d870-4228-8e62-db81699a25f7
-source-git-commit: d418ffb254b11430509609b91e0174690815cf73
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 4%
+source-wordcount: '404'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +32,7 @@ Experience Manager Guides presenta una nueva opción **Usar nombres de archivo r
 
 Para obtener más información, vea [Descargar archivos](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor).
 
-![](assets/download-map-dialog-new.png){width="300" align="left"}
+![](assets/download-map-dialog-new.png){width="300"}
 
 
 ## Tratamiento mejorado de `navref` en el editor

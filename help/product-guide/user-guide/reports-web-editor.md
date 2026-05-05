@@ -4,9 +4,9 @@ description: Generar informes de mapas DITA desde la consola de mapas de AEM Gui
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: 11b0082b160a35fee0fc9d6478f5fe896de80d31
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2645'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Puede ver la lista de temas, administrar los metadatos de todas las referencias,
 
 1. Seleccione el icono **Abrir en la consola de mapas**.
 
-   ![](images/map-console.png){width="600" align="left"}
+   ![](images/map-console.png){width="600"}
 
 1. Seleccione **Informes** en el panel izquierdo.
 
 Puede localizar los cuatro informes en el panel **Informes**. En función de sus necesidades, puede seleccionar cualquiera de los informes que se muestran aquí.
 
-![](images/reports-demo.png){align="left"}
+![](images/reports-demo.png)
 
 El panel Informes proporciona acceso a cuatro tipos diferentes de informes. Cada informe, junto con su accesibilidad y características, se analiza en detalle a continuación.
 
@@ -44,7 +44,7 @@ Se puede ver el informe de lista de temas de un mapa realizando los siguientes p
 
 1. Seleccione **Lista de temas** en el panel Informes. Se mostrará la lista de temas presentes en el mapa DITA.
 
-   ![](images/web-editor-topiclist-panel-new.png){align="left"}
+   ![](images/web-editor-topiclist-panel-new.png)
 
 1. Desde el panel **Filtros**, puede filtrar los temas en función del **Tipo de referencia** \(directo o indirecto\), **Estado del documento** \(por ejemplo, si los temas están en estado Editar, En revisión o Revisado, se muestran\) o el **Autor** del tema.
 
@@ -78,7 +78,7 @@ Puede ver el informe de metadatos de un mapa realizando los siguientes pasos:
 1. Seleccione **Metadatos** del panel Informes. La lista de todas las referencias de un mapa se muestra junto con sus metadatos, como etiquetas, estado del documento o metadatos personalizados. Para agregar una nueva columna de metadatos personalizada, consulte [Agregar columnas de metadatos personalizadas](#add-custom-metadata-columns).
 
 
-   ![](images/web-editor-metadata-panel-new.png){align="left"}
+   ![](images/web-editor-metadata-panel-new.png)
 
 
 1. Desde el panel **Filtros**, puede filtrar los temas según el **estado del documento** \(por ejemplo, si los temas están en estado Editar, En revisión o Revisado, se muestran\), **Referencias** \(directas o indirectas\), **Tipo de archivo** \(Mapa, Tema, Documento, Imagen, Vídeo y Otros\) de la referencia.
@@ -129,12 +129,12 @@ Para actualizar los metadatos, realice los siguientes pasos:
    >
    > Si un archivo está bloqueado por otro usuario, no se puede seleccionar para actualizar los metadatos. También aparece un icono de candado cerca del título de un archivo bloqueado. Puede pasar el ratón sobre el icono para ver el nombre del usuario.
 
-   ![](images/all-selection.png){align="left"}
+   ![](images/all-selection.png)
 
 
 1. Seleccione **Administrar** de la parte superior.
 
-   ![](images/web-editor-manage-metadata.png){width="350" align="left"}
+   ![](images/web-editor-manage-metadata.png){width="350"}
 
 1. Si desea añadir nuevas etiquetas, seleccione nuevas etiquetas en la lista desplegable para aplicarlas a todos los temas seleccionados. También puede eliminar cualquier etiqueta seleccionando el icono en forma de cruz cerca de la etiqueta.
 
@@ -150,12 +150,12 @@ Esta función le permite agregar columnas de metadatos personalizadas según los
 
 1. Para agregar una columna de metadatos personalizada, selecciona **Configuración de Workspace** (que aparece como **Configuración** para **Local**) en los tres puntos de la esquina superior derecha de la página de metadatos.
 
-   ![](images/custom-metadata-setting.png){width="600" align="left"}
+   ![](images/custom-metadata-setting.png){width="600"}
 
 1. Seleccione **Metadatos** en el panel izquierdo de la ventana emergente que aparece.
 1. Agregue un nuevo campo de metadatos personalizado según los requisitos usando la ficha **Agregar**.
 
-   ![](images/add-custom-metadata.png){width="600" align="left"}
+   ![](images/add-custom-metadata.png){width="600"}
 
 1. Especifique una ruta de metadatos específica y un título apropiado para el mismo que desee agregar en el informe de columnas de metadatos. Por ejemplo, se agregan metadatos personalizados con el idioma del título y una ruta específica.
 
@@ -163,7 +163,7 @@ Esta función le permite agregar columnas de metadatos personalizadas según los
    >
    > Si desea eliminar una columna de metadatos determinada, puede eliminarla de la lista mostrada. Además, puede editar **Label** para modificar el título de la columna que se muestra.
 
-   ![](images/added-custom-field.png){width="600" align="left"}
+   ![](images/added-custom-field.png){width="600"}
 
 
 
@@ -174,7 +174,7 @@ Esta función le permite agregar columnas de metadatos personalizadas según los
    > Añadir una nueva columna de metadatos también se reflejará en el panel **Historial de versiones** del Editor. Para obtener más información, vea **[Metadatos](web-editor-features.md)**.
 
 
-   ![](images/updated-custom-field.png){width="600" align="left"}
+   ![](images/updated-custom-field.png){width="600"}
 
 
 Del mismo modo, puede seguir los pasos mencionados para agregar cualquier nuevo campo de metadatos personalizado en función de sus necesidades que se necesite en los informes de metadatos.
@@ -190,11 +190,11 @@ El informe **Multimedia** proporciona información detallada sobre los archivos 
 
    - Cuando ordena por **Multimedia**, el nombre del contenido multimedia se muestra en la primera columna y, a continuación, los nombres de todas las referencias en las que se han utilizado se muestran en otra columna de la misma fila. Por ejemplo, la siguiente captura de pantalla muestra el archivo multimedia testSong.mp3 en la primera columna y dos referencias en las que se utiliza se muestran en la tercera columna de la misma fila.
 
-     ![](images/multimedia-report-file-order-new.png){width="650" align="left"}
+     ![](images/multimedia-report-file-order-new.png){width="650"}
 
    - Si ordena por **Usado en** columna, verá la vista transpuesta en la que los nombres de las referencias en las que se ha utilizado multimedia se enumeran en la primera columna, mientras que los nombres multimedia se enumeran en otra columna en filas separadas. Por ejemplo, la siguiente captura de pantalla muestra los nombres de dos referencias \(testing_direct y Video content Topic\) en la primera columna y el archivo multimedia testSong.mp3 se muestra en la tercera columna en dos filas independientes.
 
-     ![](images/multimedia-report-used-in-order-new.png){width="650" align="left"}
+     ![](images/multimedia-report-used-in-order-new.png){width="650"}
 
 1. Puede filtrar su contenido multimedia según el **tipo multimedia** y el **tipo de referencia**. La lista de archivos multimedia se muestra en función de su selección en la lista desplegable. Por ejemplo, se puede elegir mostrar sólo las referencias de audio en el mapa DITA y un fichero sólo muestra las referencias de audio utilizadas en él.
 
@@ -225,13 +225,13 @@ Para ver el informe de los vínculos rotos, siga estos pasos:
    - Cuando ordena por **vínculo roto**, las rutas de los vínculos rotos se muestran en la primera columna y, a continuación, los nombres de todas las referencias en las que se han utilizado se muestran en otra columna en filas independientes. Si se utiliza el mismo vínculo roto en varios archivos, estos se muestran en una fila y se muestran como filas agrupadas o secundarias. Por ejemplo, la siguiente captura de pantalla muestra dos vínculos rotos en la primera columna y la referencia en la que se utilizan; `m_ElectricalSpecs_900.ditamap` se muestra en la tercera columna en dos filas independientes.
 
 
-   ![](images/broken-link-report-new.png){align="left"}
+   ![](images/broken-link-report-new.png)
 
 
    - Si ordena por **Utilizado en la columna**, verá la vista transpuesta en la que los nombres de las referencias en las que se han utilizado los vínculos rotos se enumeran en la primera columna, mientras que los vínculos rotos se enumeran en otra columna de la misma fila. Por ejemplo, la siguiente captura de pantalla muestra la referencia (en la que se utiliza el vínculo roto) `m_ElectricalSpecs_900.ditamap` en la primera columna y los vínculos rotos se muestran en la tercera columna de la misma fila.
 
 
-   ![](images/broken-link-filter-usedin-new.png){align="left"}
+   ![](images/broken-link-filter-usedin-new.png)
 
 
 1. Puede filtrar los vínculos rotos en función de **Tipo de archivo** y **Tipo de vínculo**. La lista de vínculos rotos se muestra según lo que haya seleccionado en la lista desplegable. Por ejemplo, se puede elegir mostrar únicamente las referencias de contenido en el mapa DITA y un fichero sólo muestra las referencias de contenido rotas utilizadas en él.

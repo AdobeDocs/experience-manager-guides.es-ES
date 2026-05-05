@@ -4,9 +4,9 @@ description: Traduzca el contenido a varios idiomas desde el editor web. Obtenga
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2519'
+source-wordcount: '2536'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Antes de realizar los pasos de este procedimiento, asegúrese de haber creado la
 
 1. Como usuario, puede ver los grupos de idiomas configurados en el perfil de carpeta. Los grupos de idiomas muestran las carpetas de idioma junto con sus códigos de idioma. Por ejemplo, el grupo de idiomas denominado G1 contiene las carpetas de idioma italiano \(it\), alemán \(de\), francés \(fr\) e inglés \(en\).
 
-   ![panel de traducción](images/translation-languages.png){width="300" align="left"}
+   ![panel de traducción](images/translation-languages.png){width="300"}
 
    *Seleccione los grupos de idiomas o idiomas en los que desea traducir sus documentos.*
 
@@ -93,7 +93,7 @@ Antes de realizar los pasos de este procedimiento, asegúrese de haber creado la
 
      Si un archivo tiene cambios guardados que aún no tienen versiones (es decir, que no se han guardado como una nueva versión en el mapa), aparece un icono de información junto al archivo, que indica la presencia de cambios sin versiones.
 
-     ![](images/unversioned-changes-translation.png){width="650" align="left"}
+     ![](images/unversioned-changes-translation.png){width="650"}
 
      >[!NOTE]
      >
@@ -107,11 +107,11 @@ Antes de realizar los pasos de este procedimiento, asegúrese de haber creado la
    - **Etiqueta de destino**: Etiqueta para la versión seleccionada del archivo de destino
 1. Seleccione **Enviar para traducción** en la esquina superior derecha.
 
-   ![](images/translation-send.png){align="left"}
+   ![](images/translation-send.png)
 
 1. En el menú desplegable, seleccione **Crear un nuevo proyecto de traducción**.
 
-   ![](images/translation-project-types.png){width="350" align="left"}
+   ![](images/translation-project-types.png){width="350"}
 
    Además de un nuevo proyecto de traducción, también puede seleccionar entre las siguientes opciones:
 
@@ -175,7 +175,7 @@ Para agregar la etiqueta de versión de origen en la copia de destino, el admini
 
 Por ejemplo, si tiene algunos archivos de origen a los que se les ha aplicado la etiqueta de versión `Release 1.0`, también puede pasar la etiqueta de origen \(`Release 1.0`\) al archivo traducido.
 
-![](images/translation-pass-source-label.png){width="650" align="left"}
+![](images/translation-pass-source-label.png){width="650"}
 
 >[!NOTE]
 >
@@ -185,17 +185,17 @@ Por ejemplo, si tiene algunos archivos de origen a los que se les ha aplicado la
 
 Experience Manager Guides proporciona la función para comprobar las diferencias entre la versión seleccionada y la última versión de origen traducida de los temas. Puede elegir traducir los archivos de **Fuera de sincronización** en función de los cambios realizados.
 
-![](images/translation-version-diff.png){width="650" align="left"}
+![](images/translation-version-diff.png){width="650"}
 
 Seleccione **Mostrar diferencia** icono \(![](images/show-difference-icon.svg)\) de un tema para ver las diferencias entre la última versión traducida y la versión actual del archivo seleccionado.
 
 >[!NOTE]
 >
-> El icono \(**\)** Mostrar diferencia![](images/show-difference-icon.svg) solo aparece para los archivos DITA que tienen el estado de traducción **Fuera de sincronización**.
+> El icono \(![](images/show-difference-icon.svg)\) **Mostrar diferencia** solo aparece para los archivos DITA que tienen el estado de traducción **Fuera de sincronización**.
 
 Aparecerá el cuadro de diálogo **Diferencia de versiones**. Muestra **Última versión traducida** y el número **Versión seleccionada** a la izquierda. La ventana de vista previa muestra las diferencias entre la última versión traducida y la versión seleccionada del tema.
 
-![](images/version-diff.png){width="650" align="left"}
+![](images/version-diff.png){width="650"}
 
 ## Descartar recursos no sincronizados
 
@@ -206,7 +206,7 @@ Para descartar el estado Fuera de sincronización, realice los siguientes pasos:
 1. Seleccione los recursos sin sincronizar cuyo estado desea cambiar.
 1. Seleccione el botón **Marcar sincronización** \(![](images/translation-mark-in-sync-icon.svg)\) de la parte superior. Aparecerá el cuadro de diálogo **Marcar sincronización**.
 
-   ![](images/translation-mark-in-sync.png){width="550" align="left"}
+   ![](images/translation-mark-in-sync.png){width="550"}
 
 1. Seleccione **Forzar sincronización**. Establece el estado en Sincronizado para los recursos sin sincronizar seleccionados.
 
@@ -224,7 +224,7 @@ Algunas de las referencias del panel de traducción pueden estar en curso. Estas
 
 Seleccione el nombre de la referencia en el cuadro de diálogo para abrirla en el modo de vista previa. También puede seleccionar el proyecto de traducción para iniciar la traducción.
 
-![](images/translation-in-progress.png){width="550" align="left"}
+![](images/translation-in-progress.png){width="550"}
 
 
 ## Eliminar o deshabilitar automáticamente un proyecto de traducción completado

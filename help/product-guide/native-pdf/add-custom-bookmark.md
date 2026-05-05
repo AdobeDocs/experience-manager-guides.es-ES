@@ -5,10 +5,9 @@ exl-id: 6e6dbba3-da41-4066-b7b2-735a3d92b70a
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -39,7 +38,7 @@ La siguiente definición de la clase `custom-bookmark` se agrega en el archivo C
 
 En la salida de PDF, la tabla *Contact list* se agrega en el segundo nivel de la lista de marcadores de PDF, como se muestra a continuación:
 
-![](assets/custom-bookmark-in-pdf-output.png) {width="300" align="left"}
+![](assets/custom-bookmark-in-pdf-output.png) {width="300"}
 
 >[!NOTE]
 >

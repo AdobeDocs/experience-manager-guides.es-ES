@@ -5,10 +5,9 @@ exl-id: 24e44618-9c4e-4547-a00d-216ef3fb4854
 feature: Version Management
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1668'
 ht-degree: 0%
 
 ---
@@ -19,7 +18,7 @@ El control de versiones es un aspecto importante de cualquier sistema de gestió
 
 Como administrador, puede aplicar reglas que restrinjan a los usuarios la edición de un archivo sin desprotegerlo. Del mismo modo, puede asegurarse de que todos los archivos desprotegidos vuelven a protegerse para evitar la pérdida de datos.
 
-En un entorno multiuso, también es importante asegurarse de que los usuarios no eliminen archivos del sistema. Este requisito es más importante para los archivos desprotegidos por otros usuarios. Puede permitir o impedir que los usuarios sobrescriban los archivos desprotegidos por otros usuarios. Para evitar que los usuarios eliminen accidentalmente archivos desprotegidos del sistema, AEM Guides proporciona una configuración que puede utilizar. Además de los archivos desprotegidos, también puede controlar la eliminación de archivos que contengan referencias o a los que se haga referencia desde otros archivos. Además, también puede crear una nueva versión para el archivo cargado.
+En un entorno multiuso, también es importante asegurarse de que los usuarios no eliminen archivos del sistema. Este requisito es más crítico para los archivos desprotegidos por otros usuarios.Puede permitir o impedir que los usuarios sobrescriban archivos desprotegidos por otros usuarios. Para evitar que los usuarios eliminen accidentalmente archivos desprotegidos del sistema, AEM Guides proporciona una configuración que puede utilizar. Además de los archivos desprotegidos, también puede controlar la eliminación de archivos que contengan referencias o a los que se haga referencia desde otros archivos. Además, también puede crear una nueva versión para el archivo cargado.
 
 ## Crear nueva versión para el archivo cargado
 
@@ -72,7 +71,7 @@ Siga estos pasos para habilitar estas funciones:
 
 1. Seleccione la opción **Deshabilitar edición sin desprotección**.
 
-   ![](assets/xml-editor-config.png){width="650" align="left"}
+   ![](assets/xml-editor-config.png){width="650"}
 
    Con esta opción, los usuarios no verán la opción Editar en la barra de herramientas hasta que desprotejan un archivo.
 
@@ -135,7 +134,7 @@ Para admitir esta característica, se agrega una nueva propiedad de índice `dri
 
 `/oak:index/damAssetLucene/indexRules/dam:Asset/properties/drivelock`
 
-![](assets/index-property-oak-index-drivelock.png){width="800" align="left"}
+![](assets/index-property-oak-index-drivelock.png){width="800"}
 
 Además de la nueva propiedad index, asegúrese de que las siguientes propiedades están establecidas en `/oak:index/damAssetLucene`:
 
@@ -180,11 +179,11 @@ Para definir quién puede eliminar un archivo que contenga referencias o al que 
 
    - allow\_unsafe\_delete\_for\_all: conceder permiso a todos los usuarios para eliminar archivos. En este caso, si el archivo\(s\) contiene(n) referencias o es referenciado(s) por otros archivos, también puede eliminar a la fuerza dicho archivo\(s\). Antes de eliminar el archivo, se le mostrará un mensaje con las referencias, puede cancelar la operación de eliminación, quitar las referencias y, finalmente, eliminar el archivo\(s\). O bien, puede eliminar a la fuerza el archivo sin eliminar las referencias.
 
-     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550"}
 
    - allow\_unsafe\_delete\_for\_delete\_assets\_group: Un administrador o un usuario que pertenezca al grupo *delete-assets* tiene permiso para eliminar archivos. Si algún otro usuario intenta eliminar archivos con referencias, no se le permitirá eliminar dichos archivos hasta que se eliminen todas las referencias. La siguiente captura de pantalla aparece cuando un usuario, que no tiene permisos de, intenta eliminar archivos.
 
-     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550"}
 
    - block\_unsafe\_delete\_for\_all: Impedir que todos los usuarios \(incluidos los administradores\) eliminen archivos hasta que se eliminen las referencias al archivo y desde él.
 
@@ -211,7 +210,7 @@ Siga estos pasos para purgar las versiones anteriores:
 
 1. Introduzca los siguientes detalles sobre los archivos que desea depurar:
 
-   ![](assets/preview-purge-report.png){width="350" align="left"}
+   ![](assets/preview-purge-report.png){width="350"}
 
 1. &#x200B;
    - **Número de versiones que se deben conservar de la última versión**: escriba el número de versiones que se deben conservar y no purgar. Por ejemplo, si se introduce 5, se conservan las últimas 5 versiones y las versiones anteriores a ellas pueden depurarse en caso de que se cumplan otras condiciones de depuración.
@@ -233,7 +232,7 @@ Siga estos pasos para purgar las versiones anteriores:
 1. Descargue el informe de purga de versiones y compruebe los archivos y las versiones que se purgarán.
 1. Puede elegir **Cancelar purga** o **Iniciar purga**.
 
-   ![](assets/download-purge-report.png){width="350" align="left"}
+   ![](assets/download-purge-report.png){width="350"}
 
    Se muestra el estado de depuración.
 

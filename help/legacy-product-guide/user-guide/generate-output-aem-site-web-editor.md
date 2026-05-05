@@ -5,9 +5,9 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 9a9ae44f-8fed-4a4e-812c-451bcf138d0a
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2732'
+source-wordcount: '2755'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Algunas opciones pueden diferir para los ajustes preestablecidos que utilizan la
 
 Las configuraciones están organizadas bajo las pestañas **General**, **Contenido**, **Lista de temas** y **Referencias de mapas cruzados**.
 
-![configuración preestablecida de aem sites](images/aem-sites-new-config.png)
+![ajustes preestablecidos de aem sites](images/aem-sites-new-config.png)
 **General**
 
 La ficha **General** contiene las siguientes configuraciones relacionadas con la generación de resultados:
@@ -93,47 +93,47 @@ La ficha **Contenido** contiene las siguientes configuraciones:
 - Argumentos adicionales de la línea de comandos de DITA-OT
 - Metadatos
    - Propiedades de archivo (Assets)
-   - Usar propiedades de mapa como alternativa
+   - Use map properties as fallback
 
 
-Para obtener más información, consulte [Configuración de AEM Sites](#aem_sites_config).
+For details, refer to [AEM Sites configuration](#aem_sites_config).
 
-**Lista de temas**
+**Topic List**
 
-La **Lista de temas** muestra la lista de temas presentes en la copia de trabajo actual del mapa DITA. De forma predeterminada, se incluyen todos los temas. Puede seleccionar temas específicos y generar la salida de AEM Sites solo para ellos. Por ejemplo, se han actualizado algunos temas para que sólo se puedan publicar esos temas en lugar de publicar todo el mapa DITA.
+The **Topic List** displays the list of topics present in the current working copy of the DITA map. By default, all topics are included. You can select specific topics and generate the AEM Sites output only for them. For example, you have updated some topics so you can publish only those topics instead of publish the entire DITA map.
 
-La pestaña **Lista de temas** está presente en los ajustes preestablecidos de AEM que no se crean según la asignación heredada.
+**Topic List** tab is present in the AEM presets that are not created based on legacy mapping.
 
-**Referencias entre mapas**
-Esta lista contiene temas que contienen referencias entre mapas con `scope ="peer"`. Puede especificar el contexto de publicación para una lista de referencias de mapas cruzados con `scope="peer"` a temas disponibles en otras asignaciones DITA. Esta pestaña aparece si utiliza la versión de Experience Manager Guides (UUID).
-
-
-
-Obtenga más información sobre cómo [publicar temas vinculados](#publish-linked-topics).
+**Cross-map references**
+This list contains topics containing cross-map references with `scope ="peer"`. You can specify the publishing context for a list of cross map references with `scope="peer"` to topics available in other DITA maps. This tab appears if you use the Experience Manager Guides (UUID) version.
 
 
 
+Learn more about how to [publish linked topics](#publish-linked-topics).
 
 
-## Configuración de AEM Sites {#aem_sites_config}
 
-Las siguientes opciones están disponibles para la salida de AEM Sites:
 
-| Opciones de AEM Sites | Descripción |
+
+## AEM Sites configuration {#aem_sites_config}
+
+The following options are available for the AEM Sites output:
+
+| AEM Sites options | Descripción |
 | --- | --- |
-| Usar ruta del sitio | Utilice esta opción para publicar el contenido en un sitio de Experience Manager. Seleccione esta opción si conoce la ruta exacta del sitio en el que desea publicar el resultado. Además, mencione la ruta completa en el campo Ruta del sitio. |
-| Ruta del sitio | Esta opción aparece si selecciona la opción **Usar ruta del sitio**. Explore la ruta exacta del sitio de Experience Manager en el que desea publicar el resultado. |
-| Sitio | Nombre de la Experience Manager Sites en la que desea publicar el contenido. Las opciones del menú desplegable se rellenan en función de la lista de sitios disponibles en AEM Sites. <br>Seleccione **Actualizar** ![icono de actualización](images/navtitle-refresh-icon.svg) para obtener una lista nueva de opciones y reflejar los datos actualizados. |
-| Ruta de publicación | La ruta dentro del repositorio de AEM donde se almacena el resultado. La ruta de publicación se rellena con todas las rutas que contienen páginas creadas a partir de la plantilla de la página de inicio. La salida AEM Sites del mapa DITA se genera en esta ruta.  Por ejemplo, si especifica el sitio como `AEMG-Docs` y la ruta de publicación como `aemg-docs-en/docs/product-abc.`, la salida de AEM Sites se generará en el nodo `aemg-docs-en/docs/product-abc/` en `crx/de`. |
-| Plantilla de página de tema | Los componentes estructurales que puede utilizar para organizar el contenido de forma coherente en varios documentos. Estas plantillas están predefinidas en la plantilla del sitio de Adobe Experience Manager. Las opciones se rellenan con todas las plantillas de página de temas disponibles para el sitio seleccionado. Seleccione la plantilla que desee aplicar a todos los temas de salida. |
-| Generar nombres de página basados en | **Nombre de archivo del tema**: Utiliza el nombre de archivo del tema DITA para crear la dirección URL del sitio. <br> **Título del tema**: Utiliza el título del tema DITA para crear los nombres de los sitios Experience Manager. |
-| Limpieza de páginas generadas anteriormente | - **Eliminar las páginas generadas anteriormente para el tema eliminado del mapa**: si la estructura del mapa DTIA cambia, puede utilizar esta opción para quitar las páginas generadas anteriormente para los temas eliminados. Esta función solo está disponible para la publicación de mapas completa.<br><br>Supongamos que ha publicado un mapa DITA, que contiene los temas a.dita, b.dita y c.dita. Antes de volver a publicar el mapa, ha eliminado el tema b.dita del mapa. Ahora, si ha seleccionado esta opción, todo el contenido relacionado con b.dita se elimina de la salida de AEM Sites y solo se publican a.dita y c.dita.<br><br>**Nota**: la información sobre las páginas eliminadas también se captura en los registros de generación de salida. Para obtener más información acerca del acceso a los archivos de registro, [vea y compruebe el archivo de registro](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS). <br><br>**Precaución**: al eliminar los temas, las páginas dejarán de estar disponibles en el sitio publicado. Por lo tanto, antes de eliminar los temas, aparece una advertencia. Debe confirmar que desea eliminarlos.<br><br>- **Eliminar todas las páginas creadas por otras fuentes en esta ruta**: Si selecciona esta opción, se eliminarán todas las páginas publicadas en esta ruta desde otros mapas, temas individuales o cualquier otro origen. Las páginas tampoco estarán disponibles desde el sitio publicado. Por lo tanto, antes de eliminar los temas, aparece una advertencia. Debe confirmar que desea eliminarlos. |
+| Use site path | Use this option to publish your content to an Experience Manager Site. Select this option if you know the exact site path where you want the output to be published. Also, mention the full path in the Site path field. |
+| Site path | This option appears if you select **Use site path** option. Browse the exact Experience Manager Site path where you want the output to be published. |
+| Sitio | Name of the Experience Manager Sites to which you want to publish your content. The options in the dropdown are populated based on the list of sites available in AEM Sites. <br>Select **Refresh** ![refreseh icon](images/navtitle-refresh-icon.svg) to fetch a fresh list of options and reflect the udpated data. |
+| Publish Path | The path within your AEM repository where the output is stored. The Publish Path is populated with all the paths that contain pages created based on the Home Page template. The AEM Sites output of the DITA map is generated under this path.  For example, if you specify the Site as `AEMG-Docs` and the Publish Path as `aemg-docs-en/docs/product-abc.`, then the AEM Sites output is generated under the `aemg-docs-en/docs/product-abc/` node in `crx/de`. |
+| Topic page template | The structural components that you can use to organize content consistently across multiple documents. These templates are predefined in the Adobe Experience Manager Site template. The options are populated with all the topic page templates available for the selected Site. Select the template you want to apply to all the output topics. |
+| Generate page names based on | **Topic filename**: Uses the DITA topic&#39;s file name to create the Site URL. <br> **Topic title**: Uses the DITA topic&#39;s title to create the Experience Manager Site names. |
+| Cleanup previously generated pages | -  **Delete previously generated pages for topic removed from the map**: If the structure of the DTIA map changes, you can use this option to remove the previously generated pages for the removed topics. This feature is available only for full map publishing.<br><br>Let&#39;s say you have published a DITA map, which contains topics a.dita, b.dita, and c.dita. Before publishing the map again, you removed b.dita topic from the map. Now, if you have selected this option, then all content related to b.dita is removed from the AEM Sites output and only a.dita and c.dita are published.<br><br>**Note**: Information about deleted pages is also captured in the output generation logs. For more information about accessing the log files, [View and check the log file](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS). <br><br>**Caution**: On deleting the topics, the pages become unavailable from the published site. So, before the topics are deleted, a warning appears. You must confirm to delete them.<br><br>- **Delete all pages created by other sources at this path**: If you select this option, all pages published on this path from other maps, individual topics, or any other source are deleted. The pages also become unavailable from the published site. So, before the topics are deleted, a warning appears. Debe confirmar que desea eliminarlos. |
 | Flujo de trabajo de generación posterior | Al elegir esta opción, se muestra una nueva lista desplegable Flujo de trabajo de generación posterior que contiene todos los flujos de trabajo configurados en AEM. Debe seleccionar un flujo de trabajo que desee ejecutar después de completar el flujo de trabajo de generación de resultados. |
-| Usar línea base | Si ha creado una Línea base para el mapa DITA seleccionado, seleccione esta opción para especificar la versión que desea publicar.<br><br>**Importante**: cuando se genera un resultado incremental para el sitio de AEM, el resultado se crea utilizando la versión actual de los archivos y no la línea de base adjunta.<br><br>Ver [Trabajar con línea de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obtener más detalles. |
+| Usar línea base | Si ha creado una Línea de base para el mapa DITA seleccionado, seleccione esta opción para especificar la versión que desea publicar.<br><br>**Importante**: Cuando esté generando resultados incrementales para el sitio de AEM, el resultado se creará utilizando la versión actual de los archivos y no la Línea de base adjunta.<br><br>Ver [Trabajar con Línea de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obtener más información. |
 | Filtrado condicional | Seleccione una de las siguientes opciones:<br><br>**None**: Seleccione esta opción si no desea aplicar ninguna condición en la salida publicada.<br>**Usando DITAVAL**: seleccione los archivos DITAVal para generar contenido condicionado. Puede seleccionar varios archivos DITAVal mediante el cuadro de diálogo de exploración o escribiendo la ruta del archivo. Utilice el icono en forma de cruz situado cerca del nombre del archivo para eliminarlo. Los archivos DITAVal se evalúan en el orden especificado, por lo que las condiciones especificadas en el primer archivo tienen prioridad sobre las condiciones coincidentes especificadas en archivos posteriores. Puede mantener el orden de los archivos añadiendo o eliminando archivos. Si el archivo DITAVal se mueve a otra ubicación o se elimina, no se elimina automáticamente del panel de asignaciones. Debe actualizar la ubicación en caso de que los archivos se muevan o eliminen. Puede pasar el ratón sobre el nombre del archivo para ver la ruta en el repositorio de AEM donde está almacenado el archivo. Solo puede seleccionar archivos DITAVal y se muestra un error si selecciona cualquier otro tipo de archivo.<br>**Ajuste preestablecido de condición**: seleccione un ajuste preestablecido de condición en la lista desplegable para aplicar una condición al publicar la salida. Esta opción está visible si se ha añadido una condición para el fichero de mapa DITA. La configuración condicional está disponible en la ficha Ajustes preestablecidos de condición de la consola de mapas DITA. Para obtener más información acerca de los ajustes preestablecidos de condición, vea [Usar ajustes preestablecidos de condición](generate-output-use-condition-presets.md#id1825FL004PN). |
 | Argumentos adicionales de la línea de comandos de DITA-OT | Especifique los argumentos adicionales que desea que DITA-OT procese durante la generación de resultados. Para obtener más información acerca de los argumentos de línea de comandos admitidos en DITA-OT, vea [documentación de DITA-OT](https://www.dita-ot.org/). |
-| Metadatos <br> <br>Propiedades de archivo (Assets) | Seleccione las propiedades que desee procesar como metadatos. Estas propiedades se definen desde la página Propiedades del fichero de mapa DITA o de mapa de libros. Las propiedades que seleccione en la lista desplegable aparecerán en el campo **Propiedades del archivo**. Seleccione el icono en forma de cruz situado junto a la propiedad para eliminarla. <br><br>**Nota**: las propiedades de metadatos distinguen entre mayúsculas y minúsculas.<br><br>*Si ha seleccionado una Línea base, los valores de las propiedades se basan en la versión de la Línea base seleccionada.<br>* Si no ha seleccionado una Línea de base, los valores de las propiedades se basan en la versión más reciente.<br><br>También puede pasar los metadatos a la salida mediante la publicación DITA-OT. Para obtener más información, [Pase los metadatos a la salida mediante DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Nota**: si no ha definido `cq:tags` en la opción Propiedades, los valores de `cq:tags` se seleccionarán de la copia de trabajo actual aunque haya seleccionado una Línea de base para la publicación. |
-| Metadatos <br> <br>Usar propiedades de mapa como alternativa | Si se selecciona, las propiedades definidas para el fichero de mapa también se copian en los temas en los que no se definen dichas propiedades. Tenga en cuenta los siguientes puntos al utilizar esta opción:<br><br>*Solo las propiedades String, Date o Long (únicas y de varios valores) se pueden pasar a las páginas del sitio de AEM.<br>* Los valores de metadatos de una propiedad de tipo cadena no admiten ningún carácter especial (como `@, #, " "`).<br>* Esta opción debe usarse junto con la opción `Properties`. |
+| Metadatos <br> <br>Propiedades de archivo (Assets) | Seleccione las propiedades que desee procesar como metadatos. Estas propiedades se definen desde la página Propiedades del fichero de mapa DITA o de mapa de libros. Las propiedades que seleccione en la lista desplegable aparecerán en el campo **Propiedades del archivo**. Seleccione el icono en forma de cruz situado junto a la propiedad para eliminarla. <br><br>**Nota**: las propiedades de metadatos distinguen entre mayúsculas y minúsculas.<br><br>*Si ha seleccionado una Línea de base, los valores de las propiedades se basan en la versión de la Línea de base seleccionada.<br>* Si no ha seleccionado una Línea base, los valores de las propiedades se basan en la versión más reciente.<br><br>También puede pasar los metadatos a la salida mediante la publicación DITA-OT. Para obtener más información, [Pase los metadatos a la salida mediante DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Nota**: si no ha definido `cq:tags` en la opción Propiedades, los valores de `cq:tags` se seleccionarán de la copia de trabajo actual, incluso si ha seleccionado una Línea de base para la publicación. |
+| Metadatos <br> <br>Usar propiedades de mapa como alternativa | Si se selecciona, las propiedades definidas para el fichero de mapa también se copian en los temas en los que no se definen dichas propiedades. Tenga en cuenta los siguientes puntos al utilizar esta opción:<br><br>*Solo las propiedades String, Date o Long (únicas y de varios valores) se pueden pasar a las páginas del sitio de AEM.<br>* Los valores de metadatos de una propiedad de tipo String no admiten ningún carácter especial (como `@, #, " "`).<br>* Esta opción debe utilizarse junto con la opción `Properties`. |
 | Conservar archivos temporales | Seleccione esta opción para conservar los ficheros temporales generados por DITA-OT. Si se producen errores al generar la salida mediante DITA-OT, seleccione esta opción para conservar los ficheros temporales. Puede utilizar esos archivos para solucionar errores de generación de resultados.<br> <br> Después de generar la salida, seleccione el icono **Descargar archivos temporales** ![descargar archivos temporales](images/download-temp-files-icon.png) para descargar la carpeta ZIP que contiene los archivos temporales. <br><br> **Nota**: Si las propiedades de archivo se agregan durante la generación, los archivos temporales de salida también incluyen un archivo *metadata.xml* que contiene esas propiedades. |
 
 

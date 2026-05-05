@@ -2,9 +2,9 @@
 title: Notas de versión | Novedades de la versión 2024.2.0 de Adobe Experience Manager Guides
 description: Conozca las funciones nuevas y mejoradas de la versión 2024.2.0 de Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 234d430a-d775-484a-aea8-6e422b0a01eb
-source-git-commit: b1bb2b9da71bf0551fe40c84ac382df0e78e007b
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1063'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Ahora puede mejorar el recorrido de la creación con Sugerencias inteligentes, u
 
 Para mantener el contenido correcto y coherente, la búsqueda y las sugerencias se limitan al contenido propiedad de su organización y coinciden estrechamente con las palabras clave que busca.
 
-![Panel de sugerencias inteligentes en el editor web &#x200B;](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
+![Panel de sugerencias inteligentes en el editor web &#x200B;](assets/web-editor-smart-suggestion.png) {width="800"}
 
 
 *Ver sugerencias inteligentes para buscar y agregar referencias de contenido coincidentes desde el repositorio de contenido.*
@@ -42,7 +42,7 @@ Más información sobre [sugerencias inteligentes con tecnología de IA para cre
 
 Ahora Experience Manager Guides proporciona una función de historial de versiones mejorada que le permite comparar los cambios realizados en un documento a lo largo del tiempo. En la nueva vista en paralelo, puede comparar fácilmente el contenido y los metadatos de la versión actual con cualquier versión anterior del mismo documento. También puede ver las etiquetas y los comentarios de las versiones comparadas. Como administrador, puede controlar los metadatos de versión del tema y sus valores que se mostrarán en el cuadro de diálogo **Historial de versiones**.
 
-![Cuadro de diálogo Historial de versiones](assets/version-history-dialog-web-editor.png){width="800" align="left"}
+![Cuadro de diálogo Historial de versiones](assets/version-history-dialog-web-editor.png){width="800"}
 *Obtener una vista previa de los cambios en las distintas versiones de un tema.*
 
 
@@ -52,7 +52,7 @@ Obtenga más información acerca de la descripción de la característica **Hist
 
 Se ha mejorado el panel **Traducción**.  Puede ver la lista **Idiomas disponibles** y seleccionar rápidamente la configuración regional en la que desea traducir el proyecto. Con una sola selección, también puedes elegir **Seleccionar todo** para traducir el proyecto a todos los idiomas disponibles.
 
-![panel de traducción](assets/translation-languages-4.4.png){width="300" align="left"}
+![panel de traducción](assets/translation-languages-4.4.png){width="300"}
 
 *Seleccione las configuraciones regionales en las que desea traducir el proyecto. Elija la versión predeterminada, de línea de base o la más reciente de los archivos para la traducción.*
 
@@ -67,7 +67,7 @@ Por ejemplo, al editar un párrafo que desea insertar un elemento, puede buscar 
 todos los elementos válidos que comiencen por &quot;t&quot;.
 
 
-![Cuadro de diálogo Insertar](assets/insert-element.png){width="300" align="left"}
+![Cuadro de diálogo Insertar](assets/insert-element.png){width="300"}
 
 *Escriba un carácter para buscar todos los elementos válidos que comiencen por el carácter.*
 
@@ -79,7 +79,7 @@ Para obtener más información, vea la descripción de la característica **Inse
 
 Ahora puede dividir fácilmente la lista en el Editor Web. Seleccione la opción **Split List** en el menú contextual de un elemento de lista para dividir la lista actual. Se crea una lista nueva en el mismo nivel, empezando por el elemento de lista seleccionado para la división.
 
-![panel de traducción](assets/context-menu-split-list.png){width="300" align="left"}
+![panel de traducción](assets/context-menu-split-list.png){width="300"}
 
 *Seleccione la opción para dividir la lista actual.*
 
@@ -93,32 +93,32 @@ Para obtener más información, vea la descripción de la característica **Prop
 
 ## Capacidad para publicar varios ajustes preestablecidos de salida con líneas de base dinámicas en paralelo
 
-Experience Manager proporciona la función para crear líneas base seleccionando automáticamente los temas según la etiqueta aplicada a ellos. Ahora, también puede publicar sin problemas varios ajustes preestablecidos de salida con líneas de base automáticas del mismo mapa DITA. No es necesario publicar solo un ajuste preestablecido a la vez, pero es fácil publicar varios ajustes preestablecidos de salida en paralelo.
+Experience Manager proporciona la función para crear líneas de base seleccionando automáticamente los temas según la etiqueta aplicada a ellos. Ahora, también puede publicar sin problemas varios ajustes preestablecidos de salida con líneas de base automáticas del mismo mapa DITA. No es necesario publicar solo un ajuste preestablecido a la vez, pero es fácil publicar varios ajustes preestablecidos de salida en paralelo.
 
 
-## Mejoras del PDF nativo
+## Mejoras nativas de PDF
 
-En la versión 2024.2.0 de se han realizado las siguientes mejoras en el PDF nativo:
+En la versión 2024.2.0 de PDF se han realizado las siguientes mejoras nativas:
 
-### Pasar metadatos de recursos a la salida del PDF
+### Pasar metadatos de recursos a la salida de PDF
 
-Experience Manager ahora permite pasar las propiedades de metadatos de los recursos desde el mapa DITA a la salida del PDF.
-En el ajuste preestablecido de salida de PDF nativo, puede elegir los metadatos que desea pasar al proceso de publicación de PDF. Puede seleccionar las propiedades personalizadas y las predeterminadas.  Las propiedades de metadatos seleccionadas se pasan al archivo de PDF generado mediante el PDF nativo.
+Experience Manager ahora proporciona la capacidad de pasar las propiedades de metadatos de los recursos desde el mapa DITA a la salida de PDF.
+Desde el ajuste preestablecido de salida nativa de PDF, puede elegir los metadatos que desea pasar al proceso de publicación de PDF. Puede seleccionar las propiedades personalizadas y las predeterminadas.  Las propiedades de metadatos seleccionadas se pasan al archivo de PDF generado mediante el PDF nativo.
 
 Esta función es útil, ya que le ayuda a mantener la coherencia de las propiedades del recurso, como el autor, la fecha de creación o el título del documento. Esto facilita la organización, la búsqueda y la clasificación de los documentos.
 
-Para obtener más información, vea la configuración de **Advanced** en la [salida del PDF de Publish](../web-editor/native-pdf-web-editor.md).
+Para obtener más información, vea la configuración de **Advanced** en [Publicar salida de PDF](../web-editor/native-pdf-web-editor.md).
 
 
-### Usar metadatos agregados en el elemento `topicmeta` para la salida del PDF
+### Usar metadatos agregados en el elemento `topicmeta` para la salida de PDF
 
-La función de metadatos de la publicación de PDF nativos ayuda en la administración de contenido y en la búsqueda de archivos en Internet.
+La función de metadatos de la publicación nativa de PDF ayuda en la administración de contenido y en la búsqueda de archivos en Internet.
 <img src="assets/pdf-metadata-4-4.png" alt="ficha de metadatos" width="800">
 
 *Seleccione una opción para agregar y personalizar opciones de metadatos.*
 
-Ahora Experience Manager Guides proporciona la opción de usar los metadatos agregados en el elemento `topicmeta` del mapa DITA para rellenar los campos de metadatos de la salida del PDF. Esta opción está seleccionada de forma predeterminada.
+Ahora Experience Manager Guides proporciona la opción de usar los metadatos agregados en el elemento `topicmeta` del mapa DITA para rellenar los campos de metadatos de la salida de PDF. Esta opción está seleccionada de forma predeterminada.
 
 Esta función ayuda a mejorar la administración de documentos, garantiza la coherencia y permite realizar búsquedas en sus documentos.
 
-Para obtener más información, vea la ficha **Metadatos** en la [salida del PDF de Publish](../web-editor/native-pdf-web-editor.md).
+Para obtener más información, vea la ficha **Metadatos** en [Publicar salida de PDF](../web-editor/native-pdf-web-editor.md).

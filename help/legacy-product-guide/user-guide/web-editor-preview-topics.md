@@ -5,9 +5,9 @@ feature: Authoring
 role: User
 hide: true
 exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1859'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Siga estos pasos para obtener una vista previa de un tema:
 
 ## Funciones disponibles en el modo de vista previa
 
-![](images/preview-screen.png){width="800" align="left"}
+![](images/preview-screen.png){width="800"}
 
 Puede realizar las siguientes operaciones desde la barra de herramientas en el modo de vista previa:
 
@@ -51,7 +51,7 @@ Las referencias **Utilizadas en** enumeran los documentos a los que se hace refe
 
 El icono \(+\) de la sección **Referencias utilizadas en** le permite desplazarse hacia arriba para encontrar dónde se utiliza o se hace referencia a ese tema.
 
-![](images/used-in-dialog_cs.png){width="800" align="left"}
+![](images/used-in-dialog_cs.png){width="800"}
 
 Al hacer clic en el icono ![](images/right-arrow-used-in-dialog.svg) junto a un documento, se muestran los archivos de asignación o tema a los que se hace referencia en mayor profundidad en ese documento.
 
@@ -63,7 +63,7 @@ Si el tema tiene contenido condicional, verá el icono A/B en la barra de herram
 >
 > El contenido condicional se resalta con un color de fondo claro en el Editor web.
 
-![](images/conditional-popup_cs.png){width="300" align="left"}
+![](images/conditional-popup_cs.png){width="300"}
 
 **Editar**
 
@@ -81,7 +81,7 @@ Si el tema tiene contenido condicional, verá el icono A/B en la barra de herram
   >
   > Para obtener la vista de código fuente de un archivo de mapa DITA, seleccione el archivo en la interfaz de usuario de Assets y haga clic en Source.
 
-  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){width="800"}
 
 **Compartir vínculo UUID**
 
@@ -93,7 +93,7 @@ Si el tema tiene contenido condicional, verá el icono A/B en la barra de herram
 
 Se muestra una nueva opción **Compartir vínculo UUID** en la barra de herramientas de las áreas mencionadas anteriormente. La siguiente captura de pantalla muestra la opción **Compartir vínculo UUID** en el modo de vista previa de un tema:
 
-![](images/share-uuid-link_cs.png){width="800" align="left"}
+![](images/share-uuid-link_cs.png){width="800"}
 
 En la IU de recursos, esta opción está visible al seleccionar un archivo. En el modo Vista previa, esta opción está disponible de forma predeterminada en la barra de herramientas principal. En una consola de mapas DITA, esta opción está visible en la sección Ajustes preestablecidos de salida.
 
@@ -113,15 +113,15 @@ Cuando se desprotege un tema, el estado del archivo se muestra como desprotegido
 
 Archivo retirado en la vista de tarjeta:
 
-![](images/checkout-card-62.png){width="300" align="left"}
+![](images/checkout-card-62.png){width="300"}
 
 Archivo retirado en la vista de lista:
 
-![](images/checkout-list-62.png){width="550" align="left"}
+![](images/checkout-list-62.png){width="550"}
 
 Si la columna Desprotegido no está visible, seleccione **Ver configuración** en **Vista de lista** y seleccione el estado **Desprotegido** en el cuadro de diálogo **Configurar columnas**.
 
-![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
+![](images/list-view-settings-check-out_cs.png){width="800"}
 
 >[!TIP]
 >
@@ -139,17 +139,17 @@ Si la columna Desprotegido no está visible, seleccione **Ver configuración** e
 
    1. En el carril izquierdo, haga clic en **Historial de versiones** y seleccione una versión.
 
-      ![](images/timeline-versions62_cs.png){width="800" align="left"}
+      ![](images/timeline-versions62_cs.png){width="800"}
 
    1. De las versiones enumeradas, seleccione la que desee usar como versión base y haga clic en **Vista previa de la versión**. La vista previa de la versión seleccionada se muestra en la ventana Version Preview.
 
    1. En la lista **Mostrar diferencias**, seleccione la versión con la que desea comparar la versión base.
 
-      ![](images/show-diff-list-cropped.png){width="800" align="left"}
+      ![](images/show-diff-list-cropped.png){width="800"}
 
       El contenido modificado se resalta en la vista previa del tema. El contenido resaltado en verde significa que el contenido recién agregado y el contenido en rojo es el contenido eliminado.
 
-      ![](images/version-difference.png){width="800" align="left"}
+      ![](images/version-difference.png){width="800"}
 
 
 ### Rama, reversión y versiones posteriores {#id193PG0Y051X}
@@ -190,7 +190,7 @@ Si la columna Desprotegido no está visible, seleccione **Ver configuración** e
 
    1. Seleccione una versión de la que desee crear una rama. En la siguiente captura de pantalla, se selecciona la versión 1.2 para crear una rama.
 
-      ![](images/branching.png){width="300" align="left"}
+      ![](images/branching.png){width="300"}
 
       >[!NOTE]
       >
@@ -204,15 +204,15 @@ Si la columna Desprotegido no está visible, seleccione **Ver configuración** e
 
       - Si selecciona esta opción, se crea una rama a partir de la versión 1.1. Además, también se crea una nueva versión del tema a partir de la copia de trabajo actual del tema y se guarda como la siguiente versión: 1.4.
 
-        ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
+        ![](images/next_version_created_over_working_copy.png){width="300"}
 
         La versión 1.2 se convierte en la copia de trabajo actual del tema. Cualquier versión guardada después de esto se crea en la nueva rama de 1.1. Por ejemplo, la versión posterior de un nuevo tema en esta rama se guardará como 1.2.0.
 
-        ![](images/new_version_in_branch.png){width="300" align="left"}
+        ![](images/new_version_in_branch.png){width="300"}
 
       - Si no selecciona esta opción, no se crea ninguna nueva versión de la copia de trabajo actual del tema. Se crea una nueva rama a partir de la versión 1.2 del tema. Cualquier versión posterior del tema se guarda en la rama 1.2 como 1.2.0, 1.2.1, etc.
 
-        ![](images/new_version_without_working_copy.png){width="300" align="left"}
+        ![](images/new_version_without_working_copy.png){width="300"}
 
    1. Haga clic en **OK**.
 

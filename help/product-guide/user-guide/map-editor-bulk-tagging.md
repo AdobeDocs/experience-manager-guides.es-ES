@@ -4,9 +4,9 @@ description: Utilice el etiquetado masivo de contenido en AEM Guides para mejora
 exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
 feature: Metadata Management
 role: User
-source-git-commit: 4b4abf5958f251da05257d34a68471d5f36969a3
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Etiquetado masivo de contenido DITA {#id179SG0TN05Z}
 
-![](images/test-version-info-table.svg){width="650" align="left"}
+![](images/test-version-info-table.svg){width="650"}
 
 Las etiquetas permiten agrupar o clasificar contenido dentro del repositorio de contenido y también en la salida publicada. Si ha aplicado etiquetas a su contenido, puede encontrar fácilmente temas relacionados dentro de un mapa DITA que puede ayudarle a crear contenido. Con el resultado publicado, los usuarios finales podrán localizar el contenido correcto más rápido con las etiquetas adecuadas.
 
@@ -36,7 +36,7 @@ Utilice la función de etiquetado masivo para aplicar varias etiquetas a la vez.
 
 1. Seleccione los temas o el submapa al que desee aplicar las etiquetas.
 
-   ![](images/apply-tags-uuid.png){width="650" align="left"}
+   ![](images/apply-tags-uuid.png){width="650"}
 
 
    >[!NOTE]

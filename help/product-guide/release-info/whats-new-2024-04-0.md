@@ -2,10 +2,10 @@
 title: Notas de versión | Novedades de la versión 2024.4.0 de Adobe Experience Manager Guides
 description: Conozca las funciones nuevas y mejoradas de la versión 2024.4.0 de Adobe Experience Manager Guides as a Cloud Service.
 exl-id: e9db535a-5ad5-4ff0-94af-b4425594316a
-source-git-commit: 5d99274da8fdacbd255d426fa4913b5773ca45f8
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1806'
-ht-degree: 28%
+source-wordcount: '1821'
+ht-degree: 32%
 
 ---
 
@@ -25,7 +25,7 @@ Por ejemplo, si tiene que traducir el contenido para algunos países de Europa, 
 
 
 
-![panel de traducción](assets/translation-languages-2404.png){width="300" align="left"}
+![panel de traducción](assets/translation-languages-2404.png){width="300"}
 
 *Seleccione los grupos de idiomas o idiomas a los que desee traducir los documentos.*
 
@@ -51,7 +51,7 @@ Al eliminar un proyecto, se quitan permanentemente todos los archivos y carpetas
 
 Puede desactivar los proyectos de traducción si desea utilizarlos más adelante.
 
-![](assets/editor-setting-translation.png){width="550" align="left"}
+![](assets/editor-setting-translation.png){width="550"}
 
 
 *Configurar grupos de idiomas y la configuración de limpieza para proyectos de traducción.*
@@ -62,13 +62,13 @@ Obtenga más información sobre cómo [eliminar o deshabilitar automáticamente 
 
 ## Activar la salida para los mapas en la colección de activación masiva en la instancia de previsualización
 
-Ahora, además de activar el resultado para la colección de activación masiva en la instancia de publicación, las guías del Experience Manager como Cloud Service proporcionan la función para activarla en la instancia **Preview**.
+Ahora, además de activar el resultado para la colección de activación masiva en la instancia de publicación, Experience Manager Guides as a Cloud Services proporciona la función para activarla en la instancia **Preview**.
 
 
-Esta característica le ayuda a activar el contenido en una instancia de vista previa, lo que le permite comprobar cómo se ve y funciona antes de activarlo en la instancia de **Publish**.
+Esta característica le ayuda a activar el contenido en una instancia de vista previa, lo que le permite comprobar cómo se ve y funciona antes de activarlo en la instancia **Publish**.
 
 
-![&#x200B; creó la pestaña del historial de auditoría de la colección de activación masiva](assets/bulk-collection-audit-history.png){width="800" align="left"}
+![&#x200B; creó la pestaña del historial de auditoría de la colección de activación masiva](assets/bulk-collection-audit-history.png){width="800"}
 
 *Vea la información acerca de los resultados del mapa activado en la ficha **Historial de auditoría**.*
 
@@ -87,7 +87,7 @@ Además de los conectores predeterminados existentes, las guías de Experience M
 
 Puede copiar y pegar fácilmente una consulta de datos de muestra en el generador para crear un fragmento de código de contenido o un tema. Con esta función, no es necesario recordar la sintaxis ni crear una consulta manualmente. En lugar de escribir manualmente la consulta, puede copiar y pegar una consulta de muestra, editarla y utilizarla para recuperar los datos según sus necesidades.
 
-![cuadro de diálogo para insertar fragmento de código de contenido](assets/insert-content-snippet.png){width="800" align="left"}
+![cuadro de diálogo para insertar fragmento de código de contenido](assets/insert-content-snippet.png){width="800"}
 
 *Copie y edite una consulta de muestra para crear el fragmento de código de contenido.*
 
@@ -100,11 +100,11 @@ Esta función le ayuda a utilizar los datos almacenados en sus archivos JSON y a
 
 ### Configure varias URL de recursos para un conector para crear fragmentos de contenido o temas
 
-Como administrador, puede configurar varias URL de recursos para algunos conectores, como Cliente REST genérico, Salsify, Akeneo y Tableros de DevOps de Microsoft Azure (ADO).
+Como administrador, puede configurar varias URL de recursos para algunos conectores, como Cliente REST genérico, Salsify, Akeneo y Microsoft Azure DevOps Boards (ADO).
 
-A continuación, como autor, conéctese con las fuentes de datos para crear fragmentos de código de contenido o temas mediante los generadores. Esta función es práctica, ya que no tiene que crear una fuente de datos para cada URL. Ayuda a recuperar rápidamente datos de cualquiera de los recursos de una fuente de datos concreta en un solo fragmento de contenido o tema.
+A continuación, como autor, conéctese con las fuentes de datos para crear fragmentos de código de contenido o temas mediante los generadores. Esta función es práctica, ya que no tiene que crear una fuente de datos para cada URL. Ayuda a recuperar rápidamente datos de cualquiera de los recursos de una fuente de datos concreta en un solo fragmento de código de contenido o tema.
 
-Ver más detalles acerca de los conectores de origen de datos y cómo [configurar un conector de origen de datos desde la interfaz de usuario](../cs-install-guide/conf-data-source-connector-tools.md).
+Vea más detalles sobre los conectores de fuentes de datos y cómo [configurar un conector de origen de datos desde la interfaz de usuario](../cs-install-guide/conf-data-source-connector-tools.md).
 
 Obtenga información sobre cómo [utilizar datos de la fuente de datos](../user-guide/web-editor-content-snippet.md).
 
@@ -114,7 +114,7 @@ El cuadro de diálogo **Preferencias de usuario** del Editor web ahora incluye u
 
 Puede configurar para ver los archivos por título o nombre de archivo, y cambiar el tema de la aplicación y la vista de origen. También le ayuda a configurar los ajustes para localizar un archivo abierto en la vista del repositorio y gestionar los espacios de no separación.
 
-![pestaña apariencia de preferencias de usuario](assets/user_preference_editor_appearance.png){width="550" align="left"}
+![pestaña apariencia de preferencias de usuario](assets/user_preference_editor_appearance.png){width="550"}
 
 *Personalice el aspecto según sus preferencias.*
 
@@ -154,13 +154,13 @@ Aprenda a [deshabilitar el posprocesamiento para una carpeta](../cs-install-guid
 Ahora tiene una mejor experiencia al filtrar archivos. La funcionalidad renovada para filtrar archivos ofrece una mejor forma de buscar y navegar por los archivos sin esfuerzo.
 
 
-![búsqueda de archivos en la vista del repositorio](assets/repository-filter-search-2404.png){width="300" align="left"}
+![búsqueda de archivos en la vista del repositorio](assets/repository-filter-search-2404.png){width="300"}
 
 *Busque los archivos que contienen el texto`general purpose.`*
 
 Disfrute de ventajas como un acceso más rápido a los archivos relevantes y una interfaz de usuario más intuitiva, lo que hace que su experiencia de búsqueda sea más fluida y eficiente.
 
-![filtro de búsqueda rápida &#x200B;](assets/repository-filter-search-quick.png) {width="300" align="left"}
+![filtro de búsqueda rápida &#x200B;](assets/repository-filter-search-quick.png) {width="300"}
 
 *Utilice los filtros rápidos para buscar archivos DITA y no DITA.*
 
@@ -173,7 +173,7 @@ Al editar un documento en el Editor Web, ahora puede ver una lista separada de e
 * **Elementos válidos en la ubicación actual** que puede insertar en la propia ubicación del cursor actual.
 * **Elementos válidos fuera de la ubicación actual** que se pueden insertar después de cualquiera de los elementos primarios del elemento actual dentro de la jerarquía de elementos.
 
-![Cuadro de diálogo Insertar elemento](assets/insert-element-dialog.png){width="300" align="left"}
+![Cuadro de diálogo Insertar elemento](assets/insert-element-dialog.png){width="300"}
 
 *Ver las listas separadas de elementos válidos para insertar un elemento en la ubicación actual.*
 
@@ -190,7 +190,7 @@ Ahora, las Propiedades de contenido **Type** aparecen como un menú desplegable.
 Este menú desplegable le ayuda a acceder rápidamente a las etiquetas relevantes dentro de la estructura jerárquica.
 
 
-![menú desplegable de tipo en las propiedades de contenido](assets/content-properties-type.png){width="300" align="left"}
+![menú desplegable de tipo en las propiedades de contenido](assets/content-properties-type.png){width="300"}
 
 *Seleccione una etiqueta de la jerarquía para la etiqueta actual.*
 
@@ -203,7 +203,7 @@ Obtenga más información acerca de la característica **Propiedades de contenid
 Experience Manager Guides mejora el rendimiento y la experiencia de la función de registro de archivos en lote desde el Editor de mapas. Esta mejora le ayuda a proteger los archivos de forma masiva con mayor rapidez.
 También puede ver el progreso de la operación de protección de los archivos en el cuadro de diálogo **Guardar como nueva versión y desbloquear**. Por último, el mensaje de confirmación aparece una vez finalizada la operación y se registran todos los archivos desprotegidos seleccionados.
 
-![Guardar como nueva versión y desbloquear cuadro de diálogo](./assets/save-version-lock.png){width="300" align="left"}
+![Guardar como nueva versión y desbloquear cuadro de diálogo](./assets/save-version-lock.png){width="300"}
 
 *Ver la lista y el estado de los archivos comprobados de forma masiva desde el Editor de mapas.*
 
@@ -211,7 +211,7 @@ Aprenda a [trabajar con el Editor de mapas avanzado](../user-guide/map-editor-ad
 
 ## Descargar el archivo temporal mientras se genera la salida mediante DITA-OT
 
-AEM También puede descargar los archivos temporales que se generan al publicar la salida del sitio, HTML, Personalizado, JSON o PDF mediante DITA-OT, y que se pueden publicar a través de DITA-OT. Esta función le ayuda a analizar cualquier problema que pueda producirse durante el proceso de generación de resultados y a solucionar problemas de forma eficaz.  
+También puede descargar los archivos temporales generados al publicar la salida del sitio de AEM, HTML, Personalizado, JSON o PDF mediante DITA-OT. Esta función le ayuda a analizar cualquier problema que pueda producirse durante el proceso de generación de resultados y a solucionar problemas de forma eficaz.  
 También puede descargar el archivo metadata.xml si ha seleccionado alguna propiedad de metadatos que se haya pasado a la salida generada mediante DITA-OT. 
 
 Para obtener más información acerca de los ajustes preestablecidos, vea [Explicación de los ajustes preestablecidos de salida](../user-guide/generate-output-understand-presets.md).

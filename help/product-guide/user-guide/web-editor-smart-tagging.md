@@ -4,9 +4,9 @@ description: Aprenda a añadir etiquetas inteligentes en AEM Guides. Utilice la 
 exl-id: 7fb4b881-0898-44eb-a0e8-85cb99d9593b
 feature: Metadata Management
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,12 @@ Siga estos pasos para crear etiquetas inteligentes:
 1. Abra el tema en el modo Vista previa y seleccione **Reprocesar Assets** en la barra de herramientas principal.
 1. Seleccione Extracción de palabras clave XML para extraer palabras clave relevantes.
 
-   ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
+   ![](images/smart-tag-reprocess-asset.png){width="300"}
 
 1. Seleccione la opción Ejecutar procesamiento posterior. Se muestra un mensaje sobre el inicio correcto de la herramienta.
 1. Las etiquetas se extraen automáticamente y se pueden ver en la página Propiedades del tema seleccionado.
 
-   ![](images/properties-smart-tags.png){align="left"}
+   ![](images/properties-smart-tags.png)
 
    >[!NOTE]
    >

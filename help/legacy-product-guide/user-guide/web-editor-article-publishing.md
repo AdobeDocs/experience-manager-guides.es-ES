@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ddd6da80-d179-4da3-bff2-915c17bb6e5a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 AEM Guides incluye una función de publicación basada en artículos integrada en el Editor web que permite a los usuarios publicar uno o más temas simultáneamente.
 
-Este motor también incluye una plantilla de contenido OOTB, basada en los componentes principales de AEM, que permite a los usuarios crear un repositorio basado en el conocimiento del contenido técnico. Esta plantilla se puede personalizar para adaptarla a las necesidades de los clientes. Este motor permite a los usuarios crear el mapa DITA de forma aditiva y publicar temas cuando estén listos. Puede crear fácilmente los ajustes preestablecidos de salida para el mapa abierto en el panel Vista de mapa y generar rápidamente la salida para uno o más temas del mismo mapa.
+Este motor también incluye una plantilla de contenido OOTB, basada en los componentes principales de AEM, que permite a los usuarios crear un repositorio basado en el conocimiento del contenido técnico. Esta plantilla se puede personalizar para adaptarla a las necesidades de los clientes.Este motor permite a los usuarios crear el mapa DITA de forma aditiva y publicar temas cuando estén listos. Puede crear fácilmente los ajustes preestablecidos de salida para el mapa abierto en el panel Vista de mapa y generar rápidamente la salida para uno o más temas del mismo mapa.
 
 Si ha actualizado el contenido sólo para algunos temas del mapa DITA, no siempre tiene que publicar todo el mapa. Puede seleccionar y publicar sólo los temas actualizados desde el Editor Web.
 

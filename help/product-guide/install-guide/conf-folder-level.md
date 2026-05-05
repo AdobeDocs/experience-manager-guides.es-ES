@@ -5,10 +5,9 @@ exl-id: d7bf7e69-fe12-4c48-8ce4-17b74a6c61e7
 feature: Profiles
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3896'
+source-wordcount: '3974'
 ht-degree: 0%
 
 ---
@@ -23,7 +22,7 @@ Además, puede delegar las configuraciones específicas de la carpeta a un depar
 
 Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede establecer la configuración en las siguientes pestañas:
 
-![](assets/folder-profile-tabs.png){width="800" align="left"}
+![](assets/folder-profile-tabs.png){width="800"}
 
 - **General**: La ficha General sólo está disponible cuando está configurando la configuración de nivel de carpeta \(o proyecto/producto\). Puede configurar opciones, como las rutas de carpeta en las que se aplicará la configuración y los usuarios que tengan derechos administrativos para crear o actualizar configuraciones.
 
@@ -97,7 +96,7 @@ Siga estos pasos para configurar el perfil global:
 
    Por primera vez, la página Perfiles de carpeta se muestra únicamente con el mosaico Perfil global.
 
-   ![](assets/folder-profile-global.png){width="800" align="left"}
+   ![](assets/folder-profile-global.png){width="800"}
 
 1. Haga clic en el mosaico **Perfil global**.
 
@@ -126,7 +125,7 @@ Siga estos pasos para configurar un perfil de nivel de carpeta:
 
 1. Haga clic en **Crear**.
 
-   ![](assets/create-folder-profile.png){width="300" align="left"}
+   ![](assets/create-folder-profile.png){width="300"}
 
 1. Escriba los siguientes detalles en el diálogo **Crear perfil de carpeta**:
    - Nombre del perfil de carpeta.
@@ -199,7 +198,7 @@ Realice los siguientes pasos para configurar atributos condicionales estándar c
 
    La siguiente captura de pantalla muestra la definición del atributo `platform` con posibles valores y etiquetas.
 
-   ![](assets/add_profile.png){width="650" align="left"}
+   ![](assets/add_profile.png){width="650"}
 
 1. Si desea agregar más valores para el mismo atributo, haga clic en el icono **+** e introduzca el valor y la etiqueta adicionales.
 
@@ -218,7 +217,7 @@ Si utiliza un atributo personalizado, debe ser un atributo DITA válido admitido
 
    >[!IMPORTANT]
    >
-   > El archivo DTD especializado debe formar parte de la implementación de código personalizado. Las DTD en /etc forman parte de la implementación del producto y, por lo tanto, se sobrescriben con la instalación de cualquier nueva versión. Se recomienda añadir DTD especializada en /apps dentro de la carpeta del proyecto e incluir la ruta DTD/catálogo en el perfil DITA. Para obtener más información, consulte [Integrar la especialización DITA](dita-ot-specialization.md#id211MB0E00XA).
+   > El archivo DTD especializado debe formar parte de la implementación de código personalizado. Las DTD en /etc forman parte de la implementación del producto y, por lo tanto, se sobrescriben con la instalación de cualquier nueva versión. Se recomienda añadir DTD especializada en /apps dentro de la carpeta del proyecto e incluir la ruta DTD/catálogo en el perfil DITA.Para obtener más información, consulte [Integración de la especialización DITA](dita-ot-specialization.md#id211MB0E00XA).
 
 1. Abra la página Configuración de la consola web de Adobe Experience Manager.
 
@@ -272,7 +271,7 @@ Realice los siguientes pasos para agregar el tema o asignar plantillas a un perf
    >
    > De forma predeterminada, todas las plantillas de creación se almacenan en la carpeta /content/dam/dita-templates. La carpeta `dita-templates` contiene `topics` y `maps` subcarpetas para almacenar el tema y asignar plantillas. Puede agregar las plantillas personalizadas \(.dita, .xml o .ditamapfiles\) en las carpetas de plantillas predeterminadas. Una vez que añada la plantilla a la carpeta predeterminada, podrá añadirlas en el perfil global o de carpeta. Para obtener más información acerca de cómo crear plantillas personalizadas mediante el Editor Web, vea [Crear una plantilla de creación personalizada](#id1917D0EG0HJ).
 
-   ![](assets/search-author-temp.png){width="550" align="left"}
+   ![](assets/search-author-temp.png){width="550"}
 
 1. Añada el tema requerido y asigne plantillas a su perfil.
 
@@ -280,7 +279,7 @@ Realice los siguientes pasos para agregar el tema o asignar plantillas a un perf
 
    - Elija **Buscar o Escriba** y escriba o seleccione el nombre de una plantilla en la lista desplegable. La lista desplegable consta de todas las plantillas predeterminadas y cualquier plantilla nueva que haya creado.
 
-     ![](assets/default-template-list.png){width="350" align="left"}
+     ![](assets/default-template-list.png){width="350"}
 
    - Haga clic en **Examinar** y seleccione una plantilla de DAM.
 
@@ -288,7 +287,7 @@ Realice los siguientes pasos para agregar el tema o asignar plantillas a un perf
 
    Las plantillas seleccionadas se añaden a la lista de plantillas.
 
-   ![](assets/author-templ-added-list.png){width="550" align="left"}
+   ![](assets/author-templ-added-list.png){width="550"}
 
    >[!NOTE]
    >
@@ -421,7 +420,7 @@ De forma predeterminada, el Editor Web XML incluye muchas características que a
 
 **Configuración de la interfaz de usuario del editor XML**
 
-Esta opción controla la barra de herramientas y los demás elementos de interfaz de usuario del Editor Web. Haga clic en el icono **Descargar** para descargar el archivo ui\_config.json más reciente en su sistema local. A continuación, puede realizar cambios en el archivo y cargarlo. Haga clic en el icono **Descargar predeterminado** para descargar el archivo ui\_config.json predeterminado en su sistema local. Siempre puede descargar el archivo predeterminado, realizar cambios en él y cargarlo.Dependiendo de dónde esté cargando el archivo, del perfil global o de nivel de carpeta, los cambios se aplican en consecuencia. Para obtener más información acerca de cómo personalizar el Editor XML mediante el archivo ui\_config.json, consulte [Personalizar barra de herramientas](conf-web-editor-customize-toolbar.md#).
+Esta opción controla la barra de herramientas y los demás elementos de interfaz de usuario del Editor Web. Haga clic en el icono **Descargar** para descargar el archivo ui\_config.json más reciente en su sistema local. A continuación, puede realizar cambios en el archivo y cargarlo. Haga clic en el icono **Descargar predeterminado** para descargar el archivo ui\_config.json predeterminado en su sistema local. Siempre puede descargar el archivo predeterminado, realizar cambios en él y cargarlo.Dependiendo de dónde cargue el archivo en el perfil global o de nivel de carpeta, los cambios se aplicarán en consecuencia. Para obtener más información acerca de cómo personalizar el Editor XML mediante el archivo ui\_config.json, consulte [Personalizar barra de herramientas](conf-web-editor-customize-toolbar.md#).
 
 **Diseño de plantilla CSS**
 
@@ -449,13 +448,13 @@ Con el archivo de configuración de esta sección, puede crear algunos fragmento
 
 Se requieren los siguientes detalles para crear un fragmento de código:
 
-- **snippetID:**   Un ID único para el fragmento. Puede tomar un valor alfanumérico.
+- **snippetID:** Un identificador único para el fragmento. Puede tomar un valor alfanumérico.
 
-- **nombre:**   Un nombre descriptivo para identificar el fragmento de código. Este nombre aparece en el panel Fragmentos de código.
+- **nombre:** Un nombre descriptivo para identificar el fragmento. Este nombre aparece en el panel Fragmentos de código.
 
-- **descripción:**   Agregue información descriptiva para el fragmento.
+- **descripción:** Agregue información descriptiva para el fragmento.
 
-- **valor:**   Proporcione el código XML del fragmento de código.
+- **valor:** Proporcione el código XML del fragmento.
 
 >[!NOTE]
 >

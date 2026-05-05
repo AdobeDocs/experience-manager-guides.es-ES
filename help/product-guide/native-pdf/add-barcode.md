@@ -2,10 +2,9 @@
 title: Función de publicación nativa de PDF | Añadir código de barras
 description: Aprenda a añadir códigos de barras.
 exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
-hidefromtoc: true
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---

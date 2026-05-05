@@ -4,9 +4,9 @@ description: Obtenga información acerca de las distintas configuraciones de aju
 feature: Authoring
 role: User
 exl-id: b3000708-6120-4725-bea1-0b8e58048948
-source-git-commit: 3fdedee6e07908632bcf1b804805fcac7925c4e0
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Una vez creado el ajuste preestablecido, configure las opciones de SCORM. Las op
 
 - **General:** Se usa para especificar la configuración básica de salida, como la versión admitida, la ruta de acceso de salida, el nombre del archivo ZIP, la plantilla de salida y otras opciones relacionadas con la experiencia del alumno.
 
-  ![](assets/scorm-general-tab-v3.png){width="650" align="left"}
+  ![](assets/scorm-general-tab-v3.png){width="650"}
 
   **Experiencia del alumno**
 
@@ -30,10 +30,10 @@ Una vez creado el ajuste preestablecido, configure las opciones de SCORM. Las op
 
 - **Contenido:** Úselo para especificar el filtrado condicional disponible (usando DITAVAL o usando algún ajuste preestablecido de condición) y el conjunto de variables.
 
-  ![](assets/scorm-content-tab.png){width="650" align="left"}
+  ![](assets/scorm-content-tab.png){width="650"}
 
 - **Publicar:** Use esta configuración solo si desea publicar la salida en SCORM Cloud para acceso directo.
 
-  ![](assets/scorm-publish-tab.png){width="650" align="left"}
+  ![](assets/scorm-publish-tab.png){width="650"}
 
 Una vez configurados todos los cambios, guárdelos para el ajuste preestablecido de SCORM con **Guardar** en la esquina derecha de la barra de herramientas de la página de ajustes preestablecidos de SCORM.

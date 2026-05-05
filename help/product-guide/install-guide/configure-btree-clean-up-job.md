@@ -5,10 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: ff6f968c-3440-4757-882a-676711ad05c3
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '156'
 ht-degree: 2%
 
 ---
@@ -35,7 +34,7 @@ Siga estos pasos para configurar el trabajo de limpieza del árbol B:
 
 1. Configure el planificador de limpieza de árbol B como se muestra a continuación.
 
-   ![](assets/btree-cleanup-config.png){align="left"}
+   ![](assets/btree-cleanup-config.png)
 
 1. Seleccione **Guardar**.
 
@@ -55,6 +54,6 @@ Siga estos pasos para habilitar la configuración:
 1. Busque y seleccione el paquete *com.adobe.fmdita.config.ConfigManager*.
 1. Habilite la configuración `Guides btree deletion enabled`.
 
-   ![](assets/btree-cleanup-setting.png){align="left"}
+   ![](assets/btree-cleanup-setting.png)
 
 1. Seleccione **Guardar**.
