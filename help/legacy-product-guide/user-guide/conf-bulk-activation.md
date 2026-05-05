@@ -42,4 +42,4 @@ JSON output presets.
 - **[Delete a bulk activation map collection](conf-bulk-activation-delete-map-collection.md)**
 
 
-**Parent topic:**[ Output generation](generate-output.md)
+**Parent topic:**&#x200B;[&#x200B; Output generation](generate-output.md)

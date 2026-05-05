@@ -1,5 +1,5 @@
 ---
-title: Utilice el asistente de IA para crear documentos de forma inteligente `
+title: Utilice el asistente de IA para crear documentos de forma inteligente &grave;
 description: Aprenda a utilizar el asistente de IA para crear documentos con eficiencia inteligente en el editor web.
 hide: true
 exl-id: c7d37da8-e838-47a2-b469-287bcd841933
@@ -29,7 +29,7 @@ Esta función sólo está disponible para temas DITA. Después de seleccionar el
 ## Sugerir contenido reutilizable
 
 
-Use la característica **Sugerir contenido reutilizable** ![ai sugerir icono de contenido reutilizable ](./images/ai-suggest-reusable-content-icon.svg) para crear contenido de manera consistente y precisa. Puede seleccionar el contenido y Experience Manager Guides proporciona sugerencias sobre cómo reutilizar el contenido existente en el repositorio.
+Use la característica **Sugerir contenido reutilizable** ![ai sugerir icono de contenido reutilizable &#x200B;](./images/ai-suggest-reusable-content-icon.svg) para crear contenido de manera consistente y precisa. Puede seleccionar el contenido y Experience Manager Guides proporciona sugerencias sobre cómo reutilizar el contenido existente en el repositorio.
 Más información sobre cómo usar [sugerencias inteligentes con tecnología de IA para crear contenido](authoring-ai-based-smart-suggestions.md).
 
 

@@ -318,4 +318,4 @@ Si el archivo multimedia ha sufrido algún cambio, puede buscarlo y obtener una 
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Tema principal:**[ Administrar contenido](authoring.md)
+**Tema principal:**&#x200B;[&#x200B; Administrar contenido](authoring.md)
