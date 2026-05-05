@@ -18,7 +18,7 @@ In a real world scenario, your authors would have access on the authoring instan
 
 >[!NOTE]
 >
-> For more details about how to setup the author and publish instance in AEM, see [Author and Publish Architectural Overview](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
+> For more details about how to setup the author and publish instance in AEM, see [Author and Publish Architectural Overview](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=es#prerequisites).
 
 With AEM Guides&#39; Bulk Activation feature, you can quickly and easily activate your content from authoring to publishing instance. The Bulk activation feature gives you the flexibility to:
 
