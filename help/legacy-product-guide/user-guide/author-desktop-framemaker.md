@@ -5,9 +5,9 @@ feature: Authoring, Desktop Tools
 role: User
 hide: true
 exl-id: e1375804-2e02-4f51-9097-0781ebeaf66d
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
@@ -16,4 +16,4 @@ ht-degree: 0%
 
 FrameMaker admite la creación y publicación del contenido en AEM Guides. FrameMaker se envía con un conector incorporado a Adobe Experience Manager. FrameMaker también proporciona una interfaz fácil de usar que le permite mantener las versiones de sus documentos en un entorno distribuido y de colaboración. Puede crear el contenido en FrameMaker y publicarlo en diferentes formatos: PDF, HTML5, EPUB y DITA. También puede realizar las distintas operaciones de administración de archivos, como desprotección, desprotección con dependientes, protección, actualización, etc. Para obtener más información, consulte [Ayuda de FrameMaker](https://help.adobe.com/en_US/framemaker/using/index.html).
 
-**Tema principal:**&#x200B;[&#x200B; Contenido de autor con herramientas de escritorio](author-desktop-tools.md)
+**Tema principal:**[ Contenido de autor con herramientas de escritorio](author-desktop-tools.md)

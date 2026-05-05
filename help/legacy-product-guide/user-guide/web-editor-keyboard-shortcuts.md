@@ -5,10 +5,10 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 418412ab-cce6-4398-9f84-6f63285ffc6d
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 0%
+source-wordcount: '363'
+ht-degree: 1%
 
 ---
 
@@ -38,8 +38,8 @@ En el Editor Web se pueden realizar muchas operaciones mediante los métodos abr
 | Mover el cursor una palabra a la derecha. | ***Ctrl***+***Flecha derecha*** | ***Opción***+***Flecha derecha*** |
 | Mover el cursor al principio de la línea actual. | ***Hogar*** | ***Comando***+***Flecha izquierda*** |
 | Mover el cursor al final de la línea actual. | **Fin** | ***Comando***+***Flecha derecha*** |
-| Mover el cursor al principio del siguiente elemento. | ***Ficha*** | ***Ficha*** |
-| Aplicar sangría al elemento de la lista al siguiente nivel. | ***Ficha*** | ***Ficha*** |
+| Mover el cursor al principio del siguiente elemento. | ***Pestaña*** | ***Pestaña*** |
+| Aplicar sangría al elemento de la lista al siguiente nivel. | ***Pestaña*** | ***Pestaña*** |
 | Mover el cursor al final del elemento anterior. | ***Mayús***+***Tabulación*** | ***Mayús***+***Tabulación*** |
 | Anular la sangría del elemento de lista al nivel anterior. | ***Mayús***+***Tabulación*** | ***Mayús***+***Tabulación*** |
 | Sangría automática de XML en la vista de Source | ***Ctrl***+***Alt***+***L*** | ***Comando***+***Opción***+***L*** |

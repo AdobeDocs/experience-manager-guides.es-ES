@@ -1,32 +1,32 @@
 ---
 title: Informes
-description: Obtenga información sobre cómo crear informes de mapas DITA en AEM Guides.
+description: Learn how to create DITA map reports in AEM Guides.
 feature: Report Generation
 role: User
 hide: true
 exl-id: 377664ec-b7e5-48b9-ae47-ddae8968736b
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
 
 # Informes {#id1645H9007MZ}
 
-En una configuración organizativa, debe verificar la integridad general de la documentación técnica antes de empezar a trabajar en ella o publicar los documentos. Esta necesidad se vuelve aún más esencial en entornos multiusuario y a gran escala. AEM Guides proporciona algunos informes que proporcionan una perspectiva útil del estado general del contenido del repositorio y de cómo se utiliza el contenido en el proceso de documentación.
+In an organizational setup, you want to verify the overall completeness of your technical documentation before you start working on it or pushing the documents live. Such a need becomes even more essential in multi-user and large scale environments. AEM Guides provides a few reports that give a useful insight into the overall health of the content in your repository and how content is being used in the documentation process.
 
-Los informes de mapas DITA se pueden crear de dos formas:
+You can create DITA map reports in two ways:
 
-- **Desde el editor web**: permite generar la lista de temas y el informe de metadatos para el mapa DITA actual desde el editor web. Puede ordenar los temas o filtrarlos en función de su selección. También tiene la función de actualizar de forma masiva los metadatos de los temas seleccionados.
-- **Desde el tablero de mapas**: permite generar el informe de mapa DITA y proporciona la información detallada tanto en el nivel de mapa como en el nivel de tema.
+- **From the Web Editor**: Allows you to generate the topic list and the metadata report for the current DITA map from the Web Editor. You can sort the topics or filter them based on your selection. You also have the feature to bulk update the metadata of the selected topics.
+- **From the map dashboard**: Allows you to generate the DITA map report and provides the detailed information both at map-level and topic-level.
 
-- **[Informe de asignación DITA del editor web](reports-web-editor.md)**
+- **[DITA map report from the Web Editor](reports-web-editor.md)**
 
-- **[Informe de asignación DITA del panel de asignación](reports-ditamap.md)**
+- **[DITA map report from the map dashboard](reports-ditamap.md)**
 
-- **[Informe de reutilización de contenido](reports-content-reuse.md)**
+- **[Content Reuse Report](reports-content-reuse.md)**
 
-- **[Informe de estado de conversión](reports-convertion-status.md)**
+- **[Conversion Status Report](reports-convertion-status.md)**
 
-- **[Informe de historial de versiones de archivos revertidos](reports-reverted-file-version-history.md)**
+- **[Reverted files version history report](reports-reverted-file-version-history.md)**

@@ -5,9 +5,9 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 54b960cf-fb00-4d4a-a836-9de4738c49a8
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '741'
 ht-degree: 10%
 
 ---
@@ -22,7 +22,7 @@ Algunos conceptos clave de la administración de contenido en AEM son los siguie
 
 **Administración de recursos**
 
-AEM Guides utiliza la administración de recursos digitales \(DAM\) de AEM para administrar los archivos DITA. Los archivos que carga o registra en DAM se almacenan como recursos digitales. Puede administrar y editar sus recursos en AEM Assets. Para obtener más información sobre la administración de recursos, consulte [Administrar recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=es).
+AEM Guides utiliza la administración de recursos digitales \(DAM\) de AEM para administrar los archivos DITA. Los archivos que carga o registra en DAM se almacenan como recursos digitales. Puede administrar y editar sus recursos en AEM Assets. Para obtener más información sobre la administración de recursos, consulte [Administrar recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
 
 **Administración de vínculos**
 

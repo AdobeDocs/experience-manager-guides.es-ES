@@ -5,9 +5,9 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '3109'
+source-wordcount: '3144'
 ht-degree: 0%
 
 ---
@@ -318,4 +318,4 @@ Si el archivo multimedia ha sufrido algún cambio, puede buscarlo y obtener una 
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Tema principal:**&#x200B;[&#x200B; Administrar contenido](authoring.md)
+**Tema principal:**[ Administrar contenido](authoring.md)

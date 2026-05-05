@@ -5,9 +5,9 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 991179c7-186e-4b23-b918-248f596644ec
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1213'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ El panel **Atributos** muestra todos los atributos agregados a cualquier referen
    * **Seleccione todos** para agregar todos los atributos y sus valores al ajuste preestablecido de condición.
 De manera predeterminada, la acción de un atributo es `Include`.
 
-1. Seleccione **Agregar**. Puede repetir este paso para agregar más atributos. Los atributos que agregue se moverán del panel central al derecho.
+1. Seleccione **Añadir**. Puede repetir este paso para agregar más atributos. Los atributos que agregue se moverán del panel central al derecho.
 1. Seleccione Eliminar de la barra de acciones de la parte superior para eliminar los atributos seleccionados en el panel derecho.
 1. (Opcional) Si es necesario, puede anular la acción aplicada a los atributos.
 Realice una de las siguientes acciones:
@@ -168,4 +168,4 @@ Puede eliminar uno o más ajustes preestablecidos de condición de la ficha **Aj
 1. Haga clic en el botón **Quitar**.
 1. Haga clic en **Quitar** para confirmar la acción.
 
-**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)
+**Tema principal:**[ Generación de resultados](generate-output.md)

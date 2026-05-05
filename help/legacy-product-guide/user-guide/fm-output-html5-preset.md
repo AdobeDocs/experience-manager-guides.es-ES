@@ -5,9 +5,9 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: 284fafeb-cc0f-49c0-86a3-3aec7418a632
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '176'
 ht-degree: 5%
 
 ---
@@ -28,4 +28,4 @@ Las siguientes opciones están disponibles para la salida de HTML5:
 | Ruta de destino | Ruta dentro del repositorio de AEM donde se almacena la salida de HTML5. |
 | Ejecutar flujo de trabajo posterior a generación | Al elegir esta opción, se muestra una nueva lista desplegable Flujo de trabajo de generación posterior que contiene todos los flujos de trabajo configurados en AEM. Debe seleccionar un flujo de trabajo que desee ejecutar después de completar el flujo de trabajo de generación de resultados. |
 
-**Tema principal:**&#x200B;[&#x200B; Generar salida de documentos de FrameMaker](fm-output-generatation.md)
+**Tema principal:**[ Generar salida de documentos de FrameMaker](fm-output-generatation.md)

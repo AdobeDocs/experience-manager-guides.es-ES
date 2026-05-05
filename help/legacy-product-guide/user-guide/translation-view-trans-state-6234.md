@@ -5,9 +5,9 @@ feature: Translation
 role: User
 hide: true
 exl-id: 261c24f2-be9e-4a6b-9b1f-0850d960d49e
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,4 @@ Siga estos pasos para ver el estado de traducción de un mapa DITA:
    >
    > Puede filtrar aún más el contenido en función de su estado de traducción \(como Fuera de sincronización, Falta copia, En curso o Sincronizado\), tipo de Source \(como Todo, DITA, Mapa DITA o Recurso\) o fecha de modificación. También puede introducir palabras clave para buscar temas específicos.
 
-**Tema principal:**&#x200B;[&#x200B; Traducir contenido](translation.md)
+**Tema principal:**[ Traducir contenido](translation.md)
