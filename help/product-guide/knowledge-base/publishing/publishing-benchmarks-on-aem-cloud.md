@@ -14,7 +14,7 @@ ht-degree: 20%
 
 Este análisis de rendimiento evalúa el rendimiento de las nuevas API de publicación en diferentes ajustes preestablecidos de salida y el aumento del tamaño de los mapas en AEM Guides as a Cloud Service. El objetivo es comprender el comportamiento de la escalabilidad e identificar los cuellos de botella del rendimiento.
 
-El servicio de publicación usa una [arquitectura basada en microservicios](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance) con escalado automático, lo que permite administrar cargas de trabajo más grandes mediante pods adicionales.
+El servicio de publicación usa una [arquitectura basada en microservicios](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance) con escalado automático, lo que permite administrar cargas de trabajo más grandes mediante pods adicionales.
 
 ## Entorno de ejecución
 
