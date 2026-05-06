@@ -4,20 +4,25 @@ description: Ver temas en los modos de autor, origen y vista previa. Obtenga inf
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
 
 # Vistas del editor de temas {#id204GK0D0V5Z}
 
-La interfaz del editor de Adobe Experience Manager admite la visualización de temas en tres modos o vistas diferentes:
+>[!INFO]
+>
+>Este tema se aplica tanto al Editor nuevo como al Editor antiguo. Aunque la funcionalidad principal sigue siendo coherente, las diferencias en la interfaz de usuario, la terminología y las interacciones se indican dentro del contenido mediante pestañas y llamadas, según corresponda.
+
+La interfaz del editor de Adobe Experience Manager admite la visualización de temas en cuatro modos o vistas diferentes:
 
 * [Autor](#author)
 * [Origen](#source)
 * [Vista previa](#preview)
+* [Lado a lado](#side-by-side)
 
 ## Autor
 
@@ -88,6 +93,17 @@ Para obtener más información, vea la descripción de la característica **Busc
   | Buscar de forma recursiva la palabra actual \(hacia atrás\) | **Mayús**+**Ctrl**+**F3** |
 
 
+## Lado a lado
+
+>[!NOTE]
+>
+>Esta función solo está disponible en el editor nuevo.
+
+La vista en paralelo le permite ver y trabajar en las vistas Autor y Source simultáneamente en la misma pantalla. La vista Autor de WYSIWYG y la vista Source XML subyacente se muestran adyacentes, lo que permite el contenido paralelo y la edición estructural sin cambiar de vista. Ambas vistas permanecen sincronizadas en tiempo real, lo que garantiza que la posición y la selección del cursor en la vista Autor se reflejen en la ubicación correspondiente de la vista Source, lo que proporciona una mejor precisión y control durante la creación de contenido estructurado.
+
+![](images/side-by-side-editor-2-0.png){width="650"}
+
+
 ## Vista previa
 
 Al abrir un tema en el modo de vista previa, se muestra cómo se mostrará cuando un usuario lo visualice en el explorador. En el caso de un mapa DITA, se muestra una vista previa del mapa, en la que se muestra un único documento compuesto de todos los temas del mapa.
@@ -102,9 +118,19 @@ El modo de previsualización le ofrece las siguientes funcionalidades:
 
 Si ha utilizado condiciones en el tema o el mapa, esas condiciones se muestran en el panel Filtros. De forma predeterminada, se seleccionan todas las condiciones y se muestra todo el contenido. Si anula la selección de una condición, el contenido que tenga esa condición se eliminará de la vista. También puede elegir resaltar contenido condicionado.
 
-La siguiente imagen muestra un tema que usa dos condiciones: `Audience` y `Product`. El contenido condicionado se resalta con un fondo amarillo.
+La siguiente imagen muestra un tema que usa dos condiciones: `Audience` y `Platfor`. El contenido condicionado se resalta con un fondo amarillo.
 
-![](images/preview-filters.png)
+>[!BEGINTABS]
+
+>[!TAB Nuevo editor]
+
+![](images/preview-filters-editor-2-0.png){width="650"}
+
+>[!TAB Editor antiguo]
+
+![](images/preview-filters.png){width="650"}
+
+>[!ENDTABS]
 
 ### Ver las marcas de seguimiento de cambios {#id2114BJ00CE8}
 
@@ -149,4 +175,4 @@ Para exportar un tema como PDF, siga estos pasos:
    El PDF se genera y abre en una nueva pestaña o se le muestra un cuadro de diálogo para guardar el PDF en el sistema local.
 
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

@@ -4,14 +4,18 @@ description: Conozca el panel izquierdo del editor. Obtenga información acerca 
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: d369972ced74b8a66280c018fc7ab29b174da36e
 workflow-type: tm+mt
-source-wordcount: '11002'
+source-wordcount: '11080'
 ht-degree: 0%
 
 ---
 
 # Panel izquierdo del editor
+
+>[!INFO]
+>
+>Este tema se aplica tanto al Editor nuevo como al Editor antiguo. Aunque la funcionalidad principal sigue siendo coherente, las diferencias en la interfaz de usuario, la terminología y las interacciones se indican dentro del contenido mediante pestañas y llamadas, según corresponda.
 
 El panel izquierdo le permite acceder rápidamente a las colecciones, la vista de repositorio, la vista de mapa y otras funciones. Puede expandir el panel seleccionando el icono **Expandir** ubicado en la esquina inferior izquierda de la interfaz. Una vez expandido, usa el icono **Contraer** para contraer el panel. En la vista expandida, muestra los nombres de los iconos que aparecen como información sobre herramientas en la vista contraída.
 
@@ -61,7 +65,7 @@ De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón
 
 >[!NOTE]
 >
-> Como administrador, también puede elegir ver la lista de archivos por nombres de archivo en el Editor. Seleccione la opción **Nombre de archivo** de la sección **Archivos del editor muestran la configuración** en **Preferencias de usuario**.
+> Como administrador, también puede elegir ver la lista de archivos por nombres de archivo en el Editor. Seleccione la opción **Nombre de archivo** en la sección **Archivos del editor muestran la configuración** en **Preferencias de usuario**.
 
 <details>
     <summary> Crear una nueva colección </summary>
@@ -127,7 +131,7 @@ Al seleccionar el icono Repositorio, se obtiene una lista de archivos y carpetas
 
 >[!NOTE]
 >
-> Como administrador, también puede elegir ver la lista de archivos por nombres de archivo en el Editor. Seleccione la opción **Nombre de archivo** de la sección **Archivos del editor muestran la configuración** en **Preferencias de usuario**.
+> Como administrador, también puede elegir ver la lista de archivos por nombres de archivo en el Editor. Seleccione la opción **Nombre de archivo** en la sección **Archivos del editor muestran la configuración** en **Preferencias de usuario**.
 
 Se cargan 75 archivos a la vez. Cada vez que selecciona **Cargar más**... se cargan 75 archivos y el botón deja de mostrarse cuando se han enumerado todos los archivos. Esta carga por lotes es eficiente y puede acceder a los archivos más rápido en comparación con cargar todos los archivos existentes en una carpeta.
 
@@ -138,6 +142,8 @@ la vista del vídeo. En el menú contextual también tiene las opciones para des
 velocidad o vea la imagen en la imagen.
 
 Seleccione un mapa y pulse Intro o haga doble clic para abrirlo en la **vista Mapa**. Para obtener más información, vea la descripción de la característica **Vista de mapa** en el panel izquierdo. Seleccione un tema y presione Intro o haga doble clic para abrirlo en el [área de edición de contenido](./web-editor-content-editing-area.md). La posibilidad de desplazarse por un archivo y abrirlo directamente desde el Editor ahorra tiempo y aumenta la productividad.
+
+
 
 ## Filtrar la búsqueda en el repositorio
 
@@ -160,7 +166,7 @@ Tiene las siguientes opciones para filtrar los archivos y limitar la búsqueda e
 - **Archivos DITA**: Puede buscar todos los **temas DITA** y **mapas DITA** presentes en la ruta seleccionada. Están seleccionadas de forma predeterminada.
 - **Archivos que no son DITA**: puede buscar **archivos Ditaval**, **archivos de imagen**, **multimedia**, **documentos** y **JSON** en la ruta seleccionada.
 
-  ![filtro de búsqueda rápida &#x200B;](images/repository-filter-search-quick.png) {width="300"}
+  ![filtro de búsqueda rápida ](images/repository-filter-search-quick.png) {width="300"}
 
   *Utilice los filtros rápidos para buscar archivos DITA y no DITA.*
 
@@ -288,7 +294,7 @@ Pasos para crear una carpeta nueva:
 
   Si el administrador ha habilitado la opción UUID en *XMLEditorConfig*, verá el UUID de la imagen cargada en la propiedad **Source**.
 
-  ![](images/uuid-in-source-upload-image_cs.png){  }
+  ![](images/image-properties.png)
 
   Después de una carga correcta, se muestra el siguiente cuadro de diálogo de confirmación:
 
@@ -770,7 +776,17 @@ El panel Condiciones muestra los atributos condicionales definidos por el admini
 
 También puede aplicar varias condiciones a un elemento arrastrando y soltando varias condiciones en un elemento. Cuando se aplican varias condiciones a un elemento, el panel Propiedades muestra las condiciones aplicadas separadas con una coma.
 
-![](images/multiple-conditions-applied_cs.png){  }
+>[!BEGINTABS]
+
+>[!TAB Nuevo editor]
+
+![](images/multiple-conditions-applied_cs-editor-2-0.png){width="650"}
+
+>[!TAB Editor antiguo]
+
+![](images/multiple-conditions-applied_cs.png){width="650"}
+
+>[!ENDTABS]
 
 Sin embargo, en la vista Código, las condiciones se separan mediante un delimitador de espacio. Cuando agregue o edite una condición en la vista Código, asegúrese de que varias condiciones están separadas mediante un espacio.
 
@@ -778,7 +794,18 @@ Sin embargo, en la vista Código, las condiciones se separan mediante un delimit
 >
 > La siguiente captura de pantalla es de un usuario con privilegios administrativos. Como usuario con privilegios administrativos, puede agregar, editar y eliminar condiciones. De lo contrario, como autor normal, solo tendrá la opción de aplicar condiciones.
 
-![](images/conditional-content-through-panel_cs.png){  }
+>[!BEGINTABS]
+
+>[!TAB Nuevo editor]
+
+![](images/conditional-content-through-panel_cs-editor-2-0.png){width="650"}
+
+>[!TAB Editor antiguo]
+
+![](images/conditional-content-through-panel_cs.png){width="650"}
+
+>[!ENDTABS]
+
 
 Para añadir o definir una condición, seleccione el icono + situado junto al panel Condiciones para que aparezca el cuadro de diálogo Definir condición:
 
@@ -852,7 +879,7 @@ El siguiente ejemplo muestra cómo utilizar el esquema de asunto en Experience M
 
    ![](images/subject-scheme-panel-new.png){width="300"}
 
-1. Guarde el archivo con la extensión a.ditamap y cárguelo en cualquier carpeta de DAM.
+1. Guarde el archivo con la extensión .ditamap y cárguelo en cualquier carpeta de DAM.
 
    >[!NOTE]
    >
@@ -991,6 +1018,19 @@ Siga estos pasos para cambiar el valor:
 
 También puede aplicar valores para un atributo seleccionando varios valores en la lista desplegable.
 
+>[!BEGINTABS]
+
+>[!TAB Nuevo editor]
+
+![](images/subject-scheme-new.png){width="650"}
+
+>[!TAB Editor antiguo]
+
+![](images/subject-scheme-right-panel.png){width="550"}
+
+>[!ENDTABS]
+
+
 **Vista de Source**
 
 También puede cambiar los valores de la lista desplegable del atributo en la vista de Source. La vista de Source también evita que añada valores incorrectos.
@@ -1015,7 +1055,8 @@ Los fragmentos de código son pequeños fragmentos de contenido que se pueden re
 >
 > La siguiente captura de pantalla es de un usuario con privilegios administrativos. Como usuario con privilegios administrativos, puede agregar, editar y eliminar fragmentos de código. De lo contrario, como autor normal, solo obtendrá las opciones para obtener una vista previa e insertar un fragmento de código.
 
-![](images/snippets-panel_cs.png)
+
+![](images/snippets-panel_cs-editor-2-0.png){width="650"}
 
 **Crear un fragmento**
 
@@ -1065,7 +1106,12 @@ De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón
 
 Para aprender a crear plantillas personalizadas, vea [Crear asignaciones basadas en plantillas personalizadas](./create-maps-customized-templates.md).
 
+
 ## Citas
+
+>[!NOTE]
+>
+> Las citas solo se admiten en el Editor antiguo y, actualmente, no están disponibles en el Nuevo editor. La información de este artículo se aplica solamente si está usando el antiguo editor.
 
 En Experience Manager Guides, puede añadir e importar citas y aplicarlas al contenido. Puede añadir estas citas desde cualquier fuente de libros, sitios web y diarios.
 
@@ -1102,7 +1148,7 @@ La función Buscar y reemplazar se puede utilizar en dos modos distintos, según
   > - **Para Cloud Services**: Se debe realizar una implementación de índice personalizada. Para obtener más información, vea [Implementación del índice personalizado](/help/product-guide/cs-install-guide/custom-indexing.md). Una vez completada, póngase en contacto con el equipo de éxito del cliente para habilitar esta función.
   > - **Para local**: se requiere la reindexación del contenido existente para poder usar la característica. Para obtener más información, vea [Contenido de reindexación](/help/product-guide/install-guide/custom-indexing-prem.md). Una vez completada, póngase en contacto con el equipo de éxito del cliente para habilitar esta función.
 
-  ![](images/map-find-replace-with-source-mode.png)
+  ![](images/find-replace-new.png)
 
 <br>
 
@@ -1323,4 +1369,4 @@ Para ver los comentarios de revisión de las tareas de revisión activas que est
 
 </details>
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

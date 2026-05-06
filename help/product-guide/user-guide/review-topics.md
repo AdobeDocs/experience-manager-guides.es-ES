@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo revisar temas y utilizar las funci
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '2787'
 ht-degree: 0%
 
 ---
@@ -274,4 +274,15 @@ Seleccione una o más de las siguientes opciones de filtrado en el cuadro de di�
 
 Para quitar el filtro y ver todos los comentarios, anule la selección de todos los filtros del cuadro de diálogo **Tipo de filtro** y seleccione **Aplicar**.
 
-**Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)
+
+## Historial de versiones del revisor
+
+La función Historial de versiones permite a los revisores comparar la versión actual de la tarea de revisión con las versiones de tareas de revisión cerradas anteriormente en las que han trabajado los revisores. Esto ayuda a los revisores a validar los cambios realizados desde la última revisión completada y a mantener la continuidad entre los ciclos de revisión.
+
+![](images/version-history-icon.png)
+
+El icono **Historial de versiones** del tema aparece una vez que el autor ha cerrado la tarea de revisión. Si el revisor cierra la tarea, solo estará disponible después de que el autor también la cierre. Para cada versión de tarea de revisión completada, los revisores pueden acceder a su historial de versiones desde el menú desplegable del cuadro de diálogo Historial de versiones. A partir de ahí, los revisores pueden comparar las marcas de revisión, las etiquetas, los comentarios y otros detalles relacionados con las tareas en las distintas versiones.
+
+![](images/version-history-dialog.png)
+
+**Tema principal:**[ Introducción a la revisión](review.md)

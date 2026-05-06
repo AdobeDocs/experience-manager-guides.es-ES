@@ -4,14 +4,18 @@ description: Conozca los tipos de estados de documento en Adobe Experience Manag
 exl-id: 3a68b2ed-b917-4f05-8b2b-d2722a740502
 feature: Authoring, Features of Web Editor, Document State
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
 
 # Estado del documento {#id1821HC00URO}
+
+>[!INFO]
+>
+> Este tema se aplica tanto al Editor nuevo como al Editor antiguo. Aunque la funcionalidad principal sigue siendo coherente, las diferencias en la interfaz de usuario, la terminología y las interacciones se indican dentro del contenido mediante pestañas y llamadas, según corresponda.
 
 Para administrar la preparación de los documentos, Adobe Experience Manager Guides proporciona la propiedad de estado del documento para indicar el estado actual del documento. Los estados de documento le ayudan a averiguar rápidamente si un documento es nuevo, está en revisión o revisa el estado completado.
 
@@ -96,11 +100,23 @@ Para utilizar la función de aprobación de documentos, realice los siguientes p
 
 1. Una vez que el documento se haya marcado correctamente como aprobado, se mostrará una **vista previa** del documento en modo de solo lectura. Todas las opciones de edición se eliminan de los tres modos: Autor, Source y Vista previa. Sin embargo, aún tienes acceso al menú desplegable **Menú** que incluye las opciones **Historial de versiones** y **Etiquetas**.
 
-   ![](images/approved-doc-read-only.png){width="650"}
+>[!BEGINTABS]
 
-   >[!NOTE]
-   >
-   > En el modo Vista previa, la lista desplegable Menú con las opciones Historial de versiones y Etiquetas se elimina de la barra de herramientas.
+>[!TAB Nuevo editor]
+
+![](images/approved-doc-read-only-editor-2-0.png){width="650"}
+
+>[!TAB Editor antiguo]
+
+![](images/approved-doc-read-only.png){width="650"}
+
+>[!ENDTABS]
+
+
+
+>[!NOTE]
+>
+> En el modo Vista previa, la lista desplegable Menú con las opciones Historial de versiones y Etiquetas se elimina de la barra de herramientas.
 
 
 Una vez marcado un documento como aprobado, ya no está disponible para su edición. Si desea usar el documento para la próxima versión, debe devolverlo al estado *Borrador*. Para volver a cambiar el estado de un documento aprobado al modo *Borrador*, realice los siguientes pasos:
@@ -114,4 +130,4 @@ Una vez marcado un documento como aprobado, ya no está disponible para su edici
    El estado del documento cambia a Borrador y el documento se abre en el Editor en modo de edición.
 
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

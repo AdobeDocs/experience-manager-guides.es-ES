@@ -4,27 +4,36 @@ description: Conozca las funciones del Editor de mapas en Adobe Experience Manag
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: c882db84a263165d62dcc6fda9c22a5a643f6eff
 workflow-type: tm+mt
-source-wordcount: '2703'
+source-wordcount: '2918'
 ht-degree: 0%
 
 ---
 
 # Funciones del editor de mapas {#id1942D0S0IHS}
 
+>[!INFO]
+>
+> Este tema se aplica tanto al Editor nuevo como al Editor antiguo. Aunque la funcionalidad principal sigue siendo coherente, las diferencias en la interfaz de usuario, la terminología y las interacciones se indican dentro del contenido mediante pestañas y llamadas, según corresponda.
+
 La barra de herramientas del Editor de mapas es similar al Editor de temas. Las operaciones básicas como cambiar el panel izquierdo, guardar el mapa, crear una nueva versión del mapa, deshacer/rehacer la última operación y eliminar los elementos seleccionados son comunes en ambos editores. Para obtener información detallada sobre cómo funcionan estas operaciones, vea la barra de herramientas [en la sección Editor](web-editor-toolbar.md#).
 
-Las opciones que se ven en la barra de herramientas del editor se basan en la vista Editor de mapas. Hay cuatro vistas disponibles en el editor de mapas:
+Las opciones que se ven en la barra de herramientas del editor se basan en la vista Editor de mapas. Hay cinco vistas disponibles en el editor de mapas:
 
 - [Diseño](#layout-view)
 - [Autor](#author-view)
 - [Origen](#source-view)
 - [Vista previa](#preview)
+- [Vista en paralelo](#side-by-side-view-available-in-new-editor-only)
 
 Las secciones siguientes describen las opciones de la barra de herramientas disponibles en las distintas vistas del Editor de mapas:
 
 ## Vista Presentación
+
+>[!NOTE]
+>
+> En el nuevo editor, la característica **Diseño** no es compatible actualmente.
 
 Cuando se abre un mapa para editarlo, se abre la vista Presentación del Editor de mapas. La vista Presentación muestra la jerarquía de mapas en una vista de árbol y permite organizar los temas en un mapa.
 
@@ -138,15 +147,27 @@ Si ha aplicado alguna condición a un tema, se muestra un icono de filtro a la d
 
 ## Vista de autor
 
-La vista **Autor** permite editar el mapa DITA en el editor. Esto muestra la vista WYSIWYG del Editor de mapas y algunos de los iconos que se muestran en la vista Autor son los mismos que la vista Presentación.
+La vista **Autor** permite editar el mapa DITA en el editor. Muestra la vista de WYSIWYG del Editor de mapas.
+
+>[!BEGINTABS]
+
+>[!TAB Nuevo editor]
+
+![](images/map-editor-author-view-editor-2-0.png)
+
+>[!TAB Editor antiguo]
 
 ![](images/map-editor-author-view.png)
+
+>[!ENDTABS]
+
+Las opciones disponibles en el menú desplegable **Menú** son las mismas que están disponibles en la [barra de herramientas del editor](./web-editor-toolbar.md#menu-dropdown).
 
 Además, puede ver los iconos siguientes y realizar las tareas relacionadas desde la vista Autor:
 
 **Insertar antes/Insertar después** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Muestra el cuadro de diálogo **Insertar elemento antes o &#x200B;** Insertar elemento después. Seleccione el elemento que desea insertar en el mapa. Según la operación, el nuevo elemento se inserta antes o después del elemento actual en el mapa.
+Muestra el cuadro de diálogo **Insertar elemento antes** o **Insertar elemento después**. Seleccione el elemento que desea insertar en el mapa. Según la operación, el nuevo elemento se inserta antes o después del elemento actual en el mapa.
 
 **Elemento** - ![](images/Add_icon.svg)
 
@@ -229,9 +250,17 @@ Permite mantener sincronizados el atributo `@navtitle` y el elemento `title` de 
 
 Muestra u oculta las etiquetas XML. Las etiquetas sirven como indicaciones visuales que indican el límite de un elemento. En este modo, si desea insertar una referencia de tema/mapa, arrastre y suelte el archivo deseado antes o después de la etiqueta. La barra horizontal no se muestra en el modo Vista de etiquetas.
 
+>[!NOTE]
+>
+> En el editor nuevo, las opciones para agregar o quitar **Etiquetas** están disponibles en la configuración del editor. Para obtener más información, vea [Configuración del editor](./config-editor-settings.md).
+
 **Rastrear cambios** - ![](images/track-changes.svg)
 
 Puede realizar un seguimiento de todas las actualizaciones realizadas en el archivo de asignación activando el modo Control de cambios. Después de habilitar el seguimiento de cambios, todas las inserciones y eliminaciones se capturan en el documento. Para obtener más información, vea [Rastrear cambios](web-editor-features.md#track-changes) en el editor.
+
+>[!NOTE]
+>
+> En el nuevo editor, la característica **Rastrear cambios** no es compatible actualmente.
 
 **Crear tarea de revisión** - ![](images/create-review-task.svg)
 
@@ -276,6 +305,10 @@ Puede realizar las siguientes tareas adicionales en el modo de vista previa:
 
 **Actualizar temas o asignación**
 
+>[!NOTE]
+>
+> Esta sección se aplica solo al antiguo editor. En el nuevo editor, las asignaciones y sus temas se actualizan automáticamente.
+
 Cuando se abre un mapa en el modo Vista previa y se vuelve a él desde otra pestaña del Editor, la vista previa no se actualiza automáticamente. Para volver a cargar la vista previa del mapa, se requiere una actualización manual.
 
 Puede utilizar la funcionalidad Actualizar, disponible en el modo Vista previa del mapa, de dos formas:
@@ -300,13 +333,18 @@ Puede acceder a la vista previa de un mapa desde:
 
   ![](images/map-preview-icon.png){width="650"}
 
-  La vista previa del mapa se muestra en un cuadro emergente.
-
-  ![](images/map-editor-preview-pop-up.png){width="500"}
 
 **Asignar propiedades**
 
 Muestra el cuadro de diálogo Propiedades del mapa, donde puede establecer los atributos y la información de metadatos del mapa.
+
+## Vista en paralelo (solo disponible en el editor nuevo)
+
+La vista en paralelo del nuevo editor le permite ver las vistas Autor y Source una al lado de la otra. Esto facilita la comprensión de cómo se crea el mapa y garantiza que cualquier cambio que realice esté alineado con la estructura deseada.
+
+Por ejemplo, si un tema no aparece correctamente en la salida, puede utilizar la vista Autor para comprobar su ubicación en el mapa mientras revisa simultáneamente la vista Source para revisar la referencia o los atributos del tema.
+
+![](images/map-editor-side-by-side-view.png)
 
 
 ## Edición de temas mediante el mapa DITA {#id17ACJ0F0FHS}
@@ -317,59 +355,84 @@ Experience Manager Guides permite a los autores abrir un mapa DITA en el Editor 
 
 Para editar temas a través de un mapa DITA, realice los siguientes pasos:
 
-1. En el panel Repositorio, desplácese hasta el fichero de mapa DITA que desee editar y ábralo.
+1. Vaya a Explorer y abra el archivo de asignación que desee editar.
 
    El archivo de mapa se abre en la vista Mapa.
 
->[!NOTE]
->
-> También se puede utilizar la interfaz de usuario de Assets para abrir un fichero de mapa DITA. Desplácese hasta el archivo de asignación DITA que contiene los temas que desea editar y seleccione **Editar temas** en la barra de herramientas principal para iniciar el Editor.
+   >[!NOTE]
+   >
+   > También puede utilizar la interfaz de usuario de Assets para abrir un archivo de mapa. Desplácese hasta el archivo de asignación DITA que contiene los temas que desea editar y seleccione **Editar temas** en la barra de herramientas principal para iniciar el Editor.
 
-1. Seleccione cualquier vínculo del tema para abrirlo en el Editor y editarlo.
+1. Seleccione cualquier tema para abrirlo en el Editor y editarlo.
 
    Puede abrir varios temas en el editor, y cada tema se abre en una nueva pestaña del editor. Incluso si el mapa DITA contiene submapas, los temas de los submapas también se abren en una nueva pestaña para su edición. Si desea ver los temas bajo un submapa, puede seleccionar y expandir el submapa.
 
-   ![](images/web-editor-multiple-topics.png)
-
    Si selecciona un fichero de mapa, el mapa se abrirá en una nueva pestaña del Editor.
 
-1. Una vez que haya terminado de editar los temas, puede hacer lo siguiente:
+>[!BEGINTABS]
 
-   - Puede guardarlos de forma individual. Si cierra sin guardar los temas, verá un cuadro de diálogo que le pedirá que guarde los temas no guardados:
+>[!TAB Nuevo editor]
 
-     ![](images/save-multiple-topics-new.png){width="300"}
+![](images/web-editor-multiple-topics-editor-2-0.png)
 
-     Puede elegir guardar todos los temas seleccionados o anular la selección de los temas que no desee guardar.
+>[!TAB Editor antiguo]
 
-   - Puede desbloquear el tema con la opción **Guardar como nueva versión**. Al guardar una versión del tema, se crea una nueva versión y también se libera el bloqueo.
+![](images/web-editor-multiple-topics.png)
 
-     Se recomienda guardar los cambios antes de desbloquear los archivos.  Al guardar los cambios, se valida el archivo XML.
+>[!ENDTABS]
 
-   - También puede ver el progreso de los temas en el cuadro de diálogo **Guardar como nueva versión**. Se muestra un mensaje de éxito cuando los archivos están desbloqueados.
+Una vez que haya terminado de editar los temas, puede hacer lo siguiente:
 
-   - Si el administrador ha activado la opción de desbloquear archivos al cerrar, se le mostrará un mensaje para guardar los archivos cada vez que se cierren los archivos bloqueados. Con esta opción habilitada, al cerrar el editor con archivos modificados, se muestra la lista de archivos bloqueados que deben guardarse. Los archivos bloqueados se muestran con un icono de bloqueo:
+- Puede guardarlos de forma individual. Si cierra sin guardar los temas, verá un cuadro de diálogo que le pedirá que guarde los temas no guardados:
 
-     ![](images/save-on-close-new.png){width="350"}
+  ![](images/save-multiple-topics-new.png){width="300"}
+
+  Puede elegir guardar todos los temas seleccionados o anular la selección de los temas que no desee guardar.
+
+- Puede desbloquear el tema con la opción **Guardar como nueva versión**. Al guardar una versión del tema, se crea una nueva versión y también se libera el bloqueo.
+
+  Se recomienda guardar los cambios antes de desbloquear los archivos.  Al guardar los cambios, se valida el archivo XML.
+
+- También puede ver el progreso de los temas en el cuadro de diálogo **Guardar como nueva versión**. Se muestra un mensaje de éxito cuando los archivos están desbloqueados.
+
+- Si el administrador ha activado la opción de desbloquear archivos al cerrar, se le mostrará un mensaje para guardar los archivos cada vez que se cierren los archivos bloqueados. Con esta opción habilitada, al cerrar el editor con archivos modificados, se muestra la lista de archivos bloqueados que deben guardarse. Los archivos bloqueados se muestran con un icono de bloqueo:
+
+  ![](images/save-on-close-new.png){width="350"}
 
 ## Panel derecho en el editor de mapas
 
-El panel derecho muestra las Propiedades de contenido y las Propiedades de mapa en la vista Diseño del Editor de mapas.
+El panel derecho muestra las propiedades Content y Map en la vista Diseño del Editor de mapas.
 
 **Propiedades de contenido**
 
-El panel Propiedades del contenido contiene información sobre el tipo de tema seleccionado actualmente en el mapa, su dirección URL del vínculo y sus atributos. Para obtener más información, vea [Propiedades de contenido](web-editor-features.md#right-panel) en el editor.
+El panel Propiedades del contenido contiene información sobre el tema seleccionado actualmente en el mapa, incluido su tipo, Ruta del vínculo, UUID del vínculo y atributos.
 
-- **Otros atributos** Si el administrador ha creado un perfil para atributos, obtendrá esos atributos junto con los valores configurados. Con el panel de propiedades de contenido, puede elegir esos atributos y asignarlos al contenido relevante del tema. También puede asignar atributos configurados por el administrador en **Atributos de visualización**. Los atributos definidos para un elemento se muestran en las vistas Diseño y Esquema. Esto le ayuda a echar un vistazo rápido a todos los temas de un mapa para los que se ha definido un atributo en particular. Por ejemplo, todos los temas que tienen el atributo `audience` se definen como `US`.
+Para obtener más información, vea [Propiedades del contenido](web-editor-features.md#right-panel) en el editor.
 
-  ![vista de diseño](images/layout-inline-attributes.png){width="650"}
+**Otros atributos** Si el administrador ha creado un perfil para atributos, obtendrá esos atributos junto con los valores configurados. Con el panel de propiedades de contenido, puede elegir esos atributos y asignarlos al contenido relevante del tema. También puede asignar atributos configurados por el administrador en **Atributos de visualización**. Los atributos definidos para un elemento se muestran en las vistas Diseño y Esquema. Esto le ayuda a echar un vistazo rápido a todos los temas de un mapa para los que se ha definido un atributo en particular. Por ejemplo, todos los temas que tienen el atributo `audience` se definen como `US`.
+
+![vista de diseño](images/layout-inline-attributes.png){width="650"}
+
+Consulte las pestañas siguientes para comparar cómo se muestran los atributos en la vista Autor en el Editor nuevo y en el Editor antiguo.
+
+>[!BEGINTABS]
+
+>[!TAB Nuevo editor]
+
+![vista de autor](images/author-inline-attributes-editor-2-0.png){width="650"}
+
+>[!TAB Editor antiguo]
+
+![vista de autor](images/author-inline-attributes.png){width="650"}
+
+>[!ENDTABS]
 
 
-  Para obtener más información, vea [Atributos de visualización](../cs-install-guide/workspace-settings.md#display-attributes).
+Para obtener más información, vea [Atributos de visualización](../cs-install-guide/workspace-settings.md#display-attributes).
 
-- **Metadatos** Mediante los metadatos, puede establecer la información de los metadatos. Puede definir el Título de navegación, el Texto del vínculo, la Descripción breve y las Palabras clave.
+**Metadatos** Mediante los metadatos, puede establecer la información de los metadatos. Puede definir el Título de navegación, el Texto del vínculo, la Descripción breve y las Palabras clave.
 
 Para obtener más información acerca de los atributos y metadatos estándar del tema, vea la documentación de [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) en Especificación del lenguaje DITA OASIS.
-
 
 
 

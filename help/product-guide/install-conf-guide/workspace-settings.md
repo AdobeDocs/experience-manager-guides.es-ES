@@ -4,9 +4,9 @@ description: Obtenga información acerca de las distintas configuraciones dispon
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '2220'
+source-wordcount: '2275'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,17 @@ Seleccione esta opción para habilitar la función [Ayudante de IA](../user-guid
    - **Mostrar esquema de asunto en el panel Condiciones**: seleccione esta opción para ver un esquema de asunto en el panel Condiciones. Si anula la selección de esta opción, las condiciones definidas se muestran en el panel Condiciones.
 
 - **Corrección ortográfica**
-Hay dos opciones: **revisión ortográfica de AEM** y **revisión ortográfica del explorador**. De forma predeterminada, el editor utiliza la función de revisión ortográfica del explorador, en la que la revisión ortográfica se realiza mediante el diccionario integrado del explorador. Puede cambiar al corrector ortográfico de AEM para utilizar el diccionario de Adobe Experience Manager, que también se puede personalizar para agregar la lista de palabras personalizada. Para obtener más información sobre cómo personalizar el diccionario de AEM, vea la sección [Personalizar el diccionario predeterminado de AEM](../install-conf-guide/customize-aem-default-dictionary.md) en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
+
+  Hay dos opciones: revisión ortográfica de AEM y revisión ortográfica del explorador.
+
+   - **Revisión ortográfica del explorador**: De forma predeterminada, el editor utiliza la función de revisión ortográfica del explorador, en la que la revisión ortográfica se realiza mediante el diccionario integrado del explorador.
+
+   - **revisión ortográfica de AEM**: puede cambiar a la revisión ortográfica de AEM para usar el diccionario de Adobe Experience Manager, que también se puede personalizar para agregar la lista de palabras personalizada. Para obtener más información acerca de cómo personalizar el diccionario de AEM, vea [Personalizar el diccionario predeterminado de AEM](../install-conf-guide/customize-aem-default-dictionary.md).
+
+     >[!NOTE]
+     >
+     > La revisión ortográfica de AEM utiliza el idioma seleccionado en la propiedad language del archivo. Si no se especifica el idioma para el archivo, la revisión ortográfica vuelve al idioma del servidor de AEM.
+     >Para garantizar resultados precisos de la revisión ortográfica, el diccionario del idioma seleccionado debe estar disponible en AEM. Si el diccionario necesario para el idioma configurado no está disponible, la revisión ortográfica toma el valor predeterminado `en_us`.
 
 
 ## Paneles

@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo crear una tarea de revisión y env
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '3161'
+source-wordcount: '3343'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,18 @@ Para crear una tarea de revisión y enviar temas para su revisión, realice los 
    >[!NOTE]
    >
    > Al llegar a la fecha límite, se envía un correo electrónico al iniciador para notificarle que la tarea de revisión se ha completado. El iniciador puede extender la fecha límite de la tarea de revisión desde el [Panel de revisión](review-manage-tasks-review-dashboard.md#).
+
+1. Habilite **Recordatorio automatizado** para configurar las notificaciones programadas de recordatorio (y los recordatorios por correo electrónico) para los revisores. Esto se puede hacer antes de la fecha de vencimiento de una tarea de revisión y después de que haya llegado a ser vencida.
+
+   >[!NOTE]
+   >
+   >La opción Recordatorios automatizados permanece deshabilitada hasta que se seleccione una Fecha de vencimiento para la tarea de revisión.
+
+   - **Antes de los recordatorios de fecha de vencimiento**: puede configurar varios recordatorios (máximo 3) hasta 60 días antes de la fecha de vencimiento para informar a los revisores con antelación. El recordatorio 1 se puede configurar hasta el número de días restantes desde hoy hasta la fecha de vencimiento, y los valores del recordatorio deben seguir un orden descendente, que represente el número de días antes de la fecha de vencimiento.
+
+   - **Después de los recordatorios de fecha de vencimiento**: también puede configurar recordatorios (máximo 3) para que se envíen después de la fecha de vencimiento a fin de notificar a los revisores que la tarea ha vencido. Los recordatorios de retraso se pueden configurar hasta 30 días después de la fecha de vencimiento. Los valores de recordatorio deben seguir un orden ascendente, que represente el número de días después de la fecha de vencimiento.
+
+   En función de la programación configurada, el sistema envía notificaciones de AEM y recordatorios por correo electrónico a los revisores en las fechas de recordatorio planificadas.
 
 1. Seleccione el mapa raíz de la ruta de acceso **Rootmap**. Este mapa de raíz se utiliza para resolver todas las referencias clave y los términos del glosario utilizados en el contenido de la revisión. Si no selecciona el mapa de raíz, las referencias clave o los términos del glosario asociados con el tema DITA no se resuelven antes de enviar el tema para su revisión.
 
@@ -311,4 +323,4 @@ Una vez que se actualiza la tarea de revisión, los revisores reciben notificaci
 Para obtener más información, vea [Descripción de las notificaciones de revisión](./review-understanding-review-notifications.md).
 
 
-**Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)
+**Tema principal:**[ Introducción a la revisión](review.md)
