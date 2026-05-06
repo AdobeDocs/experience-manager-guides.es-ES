@@ -4,9 +4,9 @@ description: Conozca el panel derecho en el editor. Obtenga información acerca 
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,21 @@ El panel derecho le permite acceder a las siguientes funciones:
 
 Puede acceder a la función **Propiedades de contenido** seleccionando el icono **Propiedades de contenido** en el panel derecho. El panel **Propiedades de contenido** contiene información sobre el tipo de elemento seleccionado actualmente en el documento y sus atributos.
 
-**Tipo**: puede ver y seleccionar las etiquetas de la jerarquía completa para la etiqueta actual en el menú desplegable.
+Para el contenido al que se hace referencia, el panel también muestra las opciones **Ruta del vínculo** y **UUID del vínculo** que le ayudan a identificar y copiar la referencia seleccionada.
+
+>[!NOTE]
+>
+> En el caso de los archivos basados en HTML, las opciones Ruta del vínculo y UUID del vínculo no están disponibles. Estos archivos siguen usando el comportamiento de **Link URL** existente.
+
+![](images/web-editor-cross-ref-options.png)
+
+**Tipo**: vea y seleccione las etiquetas de la jerarquía completa para la etiqueta actual en el menú desplegable.
+
+**Ruta de vínculo**: muestra la ruta relativa de la referencia seleccionada. Use **Copiar ruta** para copiar la ruta absoluta.
+
+**UUID de vínculo**: muestra el UUID de la referencia seleccionada. Use **Copiar UUID** para copiar el UUID.
+
+Si pega un UUID válido directamente en el campo Ruta de vínculo, se resolverá automáticamente en la ruta de archivo absoluta y el UUID correspondiente se mostrará en el campo UUID de vínculo. Esto facilita la identificación y copia de la ruta del recurso y su referencia basada en UUID.
 
 **Atributos**: El panel desplegable **Atributos** está disponible en las vistas Diseño, Autor y Source. Puede añadir, editar o eliminar fácilmente los atributos.
 
@@ -66,6 +80,10 @@ Si el administrador ha creado un perfil para atributos, obtendrá esos atributos
 
 Vea las propiedades del archivo seleccionado seleccionando el icono Propiedades del archivo en el panel derecho. La función Propiedades del archivo está disponible en los cuatro modos o vistas siguientes: Diseño, Autor, Source y Vista previa.
 
+>[!NOTE]
+>
+> El panel Propiedades del archivo proporciona opciones para ver y modificar varias propiedades de metadatos asociadas a un archivo. Sin embargo, cuando un archivo está en modo de solo lectura, estas propiedades de metadatos no se pueden modificar. Esta limitación se aplica sólo a ficheros DITA y Markdown. Para los recursos que no son DITA (como imágenes y multimedia), las propiedades de metadatos siguen siendo editables, incluso en modo de solo lectura.
+
 Las propiedades del archivo tienen las dos secciones siguientes:
 
 **General**
@@ -83,7 +101,7 @@ La sección General le permite acceder a las siguientes funciones:
   > La característica **Recuento de palabras** se introdujo en la versión 2026.01.0 de Experience Manager Guides as a Cloud Service. Los nuevos temas DITA que cree después de actualizar a esta versión tendrán automáticamente el recuento de palabras calculadas en el panel derecho. Para los temas existentes, se requiere [reprocesamiento de los recursos](./asset-processor.md).
 
 - **Etiquetas**: estas son las etiquetas de metadatos del tema. Se establecen en el campo de etiquetas de la página de propiedades. Puede escribirlos o seleccionarlos en la lista desplegable.  Las etiquetas aparecen debajo de la lista desplegable. Para eliminar una etiqueta, seleccione el icono en forma de cruz situado junto a la etiqueta.
-- **Editar más propiedades**: puede editar más propiedades ( para archivos que no están en modo **Solo lectura**) desde la página Propiedades del archivo.
+- **Editar más propiedades**: permite ver y editar propiedades adicionales del archivo abierto actualmente.
 
   >[!NOTE]
   >

@@ -4,14 +4,18 @@ description: Conozca la Barra de herramientas en el Editor. Obtenga información
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
 workflow-type: tm+mt
-source-wordcount: '6207'
+source-wordcount: '6443'
 ht-degree: 0%
 
 ---
 
 # Barra de herramientas en el editor
+
+>[!INFO]
+>
+> Este tema se aplica tanto al Editor nuevo como al Editor antiguo. Aunque la funcionalidad principal sigue siendo coherente, las diferencias en la interfaz de usuario, la terminología y las interacciones se indican dentro del contenido mediante pestañas y llamadas, según corresponda.
 
 La barra de herramientas aparece cuando se abre un tema o un mapa para editarlo en el Editor. Las funciones disponibles en la barra de herramientas son las siguientes:
 
@@ -26,9 +30,21 @@ La barra de herramientas aparece cuando se abre un tema o un mapa para editarlo 
 
 ## Menú desplegable
 
-La lista desplegable Menú proporciona acceso a las acciones de edición, Buscar y reemplazar, Historial de versiones, Etiqueta de versión, Combinar, Crear tarea de revisión y Menú Mostrar (que incluye Rastrear cambios, Etiquetas, Espacio de no separación).
+La lista desplegable Menú proporciona acceso a las distintas acciones de edición como se muestra a continuación:
+
+>[!BEGINTABS]
+
+>[!TAB Nuevo editor]
+
+![Menú desplegable para la barra de herramientas del editor](images/editor-toolbar-menu-dropdown-new-editor-2-0.png){width="350"}
+
+
+>[!TAB Editor antiguo]
 
 ![Menú desplegable para la barra de herramientas del editor](images/editor-toolbar-menu-dropdown-new.png){width="350"}
+
+
+>[!ENDTABS]
 
 La explicación detallada de estas funciones es la siguiente:
 
@@ -231,7 +247,11 @@ Puede [crear una tarea de revisión](./review-send-topics-for-review.md) del tem
 
 **Mostrar menú**
 
-El menú Mostrar consta de las siguientes funciones:
+>[!NOTE]
+>
+> En el nuevo editor, el **menú Mostrar** ya no está disponible en la lista desplegable Menú. Para acceder a las distintas opciones disponibles en el menú Mostrar, vaya a [Configuración del editor](./config-editor-settings.md). El menú Mostrar sigue estando disponible en la lista desplegable Menú del Editor antiguo.
+
+El menú Mostrar del Editor antiguo consta de las siguientes funciones:
 
 - **Control de cambios:** Para realizar un seguimiento de todas las actualizaciones realizadas en un documento, habilite el modo Control de cambios. Después de habilitar el seguimiento de cambios, todas las inserciones y eliminaciones se capturan en el documento. Todo el contenido eliminado se resalta con Tachado y todas las inserciones se resaltan en texto de color verde. Además, también se obtienen las barras de cambios en el borde de la página del tema. De nuevo, se muestra una barra roja para el contenido eliminado y una barra verde para el contenido añadido. En caso de que haya una adición y eliminación en la misma línea, se muestran las barras verde y roja.
 La siguiente captura de pantalla resalta el contenido eliminado e insertado junto con las barras de cambio:
@@ -298,16 +318,25 @@ También puede escribir un carácter o cadena en el cuadro de búsqueda y buscar
 
 Si está trabajando dentro de un elemento de bloque como `note`, utilice el icono Insertar elemento para insertar un nuevo elemento después del elemento `note`. En la siguiente captura de pantalla, se ha insertado un elemento de nota dentro del elemento p \(párrafo\):
 
-![Insertar elemento en un elemento de bloque](images/note-in-para-insert-element_cs.png){ }
+>[!BEGINTABS]
+
+>[!TAB Nuevo editor]
+
+![Insertar elemento en un elemento de bloque](images/note-in-para-insert-element_cs-editor-2-0.png)
+
+>[!TAB Editor antiguo]
+
+![Insertar elemento en un elemento de bloque](images/note-in-para-insert-element_cs.png)
+
+>[!ENDTABS]
 
 Si pulsa Intro en el elemento de nota, se creará un nuevo párrafo dentro del propio elemento de nota. Para insertar un nuevo elemento fuera de la nota, seleccione el elemento p \(resaltado en la captura de pantalla\) en la ruta de exploración de elementos y, a continuación, seleccione el icono Elemento o pulse ***Alt***+***Entrar*** para abrir el cuadro de diálogo Insertar elemento. A continuación, seleccione el elemento deseado y pulse Intro para insertar el elemento seleccionado después del elemento de nota.
 
-También puede añadir un elemento entre dos elementos cuando aparezca un cursor de bloque parpadeante.
+En el nuevo editor, puede insertar un nuevo elemento entre elementos existentes cuando aparezca un cursor horizontal. Este cursor indica que el cursor se encuentra fuera de un elemento de bloque y que puede añadir un nuevo elemento en esa ubicación.
 
+![](images/Block-cursor-editor-2-0.png){width="300"}
 
-![](images/Block-cursor.png){width="300"}
-
-Por ejemplo, si está trabajando en un tema DITA y el cursor de bloque parpadea entre la descripción breve y el cuerpo, puede agregar el elemento `prolog` y, a continuación, agregar copyright, autor y otros detalles.
+Por ejemplo, en un tema DITA, cuando aparece el cursor horizontal entre `short description` y `body`, puede insertar un elemento `prolog`. A continuación, puede usar `prolog` para agregar metadatos como `copyright`, `author` y otros detalles.
 
 Otra forma de introducir un nuevo elemento es mediante el menú contextual. Haga clic con el botón derecho en cualquier lugar del documento para invocar el menú contextual. En este menú, elija **Insertar elemento** para mostrar el cuadro de diálogo **Insertar elemento** y elija el elemento que desea insertar.
 
@@ -331,21 +360,23 @@ Crea una lista numerada en la ubicación válida actual o siguiente. Si está en
 
 **Tabla** - ![](images/Table_icon.svg)
 
-Inserta una tabla en la ubicación válida actual o siguiente. Seleccione el icono Tabla para abrir el cuadro de diálogo Insertar tabla simple.
+Inserta una tabla simple o una tabla en la ubicación válida actual o siguiente. Seleccione el icono Tabla para abrir el cuadro de diálogo **Insertar tabla simple**.
 
 ![](images/table-properties.png){width="550"}
+
+Puede especificar el número de filas y columnas necesarias en la tabla. Si desea mantener la primera fila como encabezado de tabla, seleccione la opción **Establecer la primera fila como encabezado**. Para añadir un título a la tabla, introdúzcalo en el campo Título.
 
 >[!NOTE]
 >
 > También puede copiar una tabla de MS Word o Excel y pegarla en el archivo de temas de Experience Manager Guides. La tabla copiada se pegará como `<simpletable>` o `<tgroup>` según la configuración del Editor XML. Para obtener más información, vea [Configurar la visualización de las tablas pegadas](../cs-install-guide/conf-pasted-tables.md).
 
-Puede especificar el número de filas y columnas necesarias en la tabla. Si desea mantener la primera fila como encabezado de tabla, seleccione la opción **Establecer la primera fila como encabezado**. Para añadir un título a la tabla, introdúzcalo en el campo Título.
-
 Una vez insertada una tabla, puede modificarla mediante el menú contextual.
 
+>[!NOTE]
+>
+> También puede optar por cambiar al nuevo editor para mejorar la experiencia de edición de tablas. Para obtener más información sobre las características de creación de tablas disponibles en el nuevo editor, vea [Trabajar con tablas en el nuevo editor](./web-editor-other-features.md#work-with-tables-in-the-new-editor).
+
 ![](images/table-context-menu_cs.png){width="550"}
-
-
 
 Mediante el menú contextual de la tabla, puede:
 
@@ -359,8 +390,7 @@ Mediante el menú contextual de la tabla, puede:
 
 - Generación de ID
 
-<details>
-    <summary> Definir atributos en varias celdas, filas completas o columnas de una tabla </summary>
+**Defina atributos en varias celdas, filas completas o columnas de una tabla**
 
 También puede definir atributos en varias celdas, filas completas o columnas de una tabla. Por ejemplo, para alinear la celda de la tabla, arrastre y seleccione la celda requerida. En el panel Propiedades de contenido (a la derecha), la propiedad **Type** cambia a **entry**.
 
@@ -371,7 +401,6 @@ También puede definir atributos en varias celdas, filas completas o columnas de
 
 ![](images/align-table-cell_cs.png){ }
 
-</details>
 
 **Imagen** - ![](images/Image_icon.svg)
 
@@ -413,7 +442,9 @@ Una vez insertada una imagen, puede cambiar la altura, la anchura, la ubicación
 
 ![](images/image-properties.png){ }
 
-El campo Source muestra el UUID del archivo de imagen insertado. Puede encontrar la ruta completa del archivo de imagen insertado pasando el puntero del ratón sobre el campo Source. La ruta se muestra en la información del objeto.
+El campo **Ruta de acceso de Source** muestra la ruta de acceso relativa de la referencia seleccionada. Utilice el botón **Copiar ruta** para copiar la ruta absoluta.
+
+El campo **UUID de Source** muestra el UUID de la referencia seleccionada. Utilice el botón **Copiar UUID** para copiar el UUID.
 
 Puede cambiar el tamaño de una imagen proporcionando el valor Altura o Anchura para el archivo de imagen. La proporción de aspecto de la imagen se mantiene automáticamente. Si lo desea, también puede optar por no mantener la proporción de aspecto del archivo de imagen seleccionando el icono de candado \(de Mantener proporción de aspecto\) y proporcionando los valores de Altura y Anchura.
 
@@ -498,7 +529,18 @@ Si el administrador ha habilitado la opción UUIDs en *XMLEditorConfig*, verá e
 >
 > De acuerdo con el comportamiento estándar de DITA, el atributo scope=`external` no debe aplicarse a los vínculos internos, ya que está pensado únicamente para referencias a recursos externos. La aplicación de este atributo a los vínculos internos puede interrumpir los flujos de trabajo. Para el contenido administrado en Experience Manager Guides, use el ámbito predeterminado=`local` o referencias basadas en claves en su lugar.
 
-![](images/ref-link-uuid_cs.png){ }
+>[!BEGINTABS]
+
+
+>[!TAB Nuevo editor]
+
+![](images/ref-link-uuid_cs-editor-2-0.png)
+
+>[!TAB Editor antiguo]
+
+![](images/ref-link-uuid_cs.png)
+
+>[!ENDTABS]
 
 >[!NOTE]
 >
@@ -506,7 +548,7 @@ Si el administrador ha habilitado la opción UUIDs en *XMLEditorConfig*, verá e
 
 >[!IMPORTANT]
 >
-> Aunque la ruta relativa del contenido al que se hace referencia se muestra en la propiedad **Link**, internamente el vínculo se crea mediante el UUID del contenido al que se hace referencia.
+> Aunque la ruta relativa del contenido al que se hace referencia se muestra en la propiedad **Link path**, internamente el vínculo se crea mediante el UUID del contenido al que se hace referencia.
 
 >[!TIP]
 >
@@ -606,16 +648,41 @@ Conéctese con la fuente de datos y utilice los datos para crear contenido. Obte
 
 La característica **Información de la versión y Guardar como nueva versión** combina el seguimiento de versiones y el guardado de contenido en una sola funcionalidad.
 
-- La información de versión muestra la versión actual del tema o asignación. Aparece un asterisco (*) junto al número de versión para indicar que no se han guardado los cambios.
+La información de versión muestra la versión actual del tema o asignación. Aparece un asterisco `(*)` junto al número de versión para indicar que los cambios se guardan en el documento pero no se han creado versiones.
 
-  El número de versión cambia con cada nueva versión que se crea para el tema o el archivo de asignación. Si está trabajando en un documento recién creado, la información de la versión se mostrará como **none**.
+>[!NOTE]
+>
+> Cualquier cambio en los campos de metadatos disponibles en [File properties](./web-editor-right-panel.md#file-properties) o aplicado en el backend también almacenará en déclencheur el asterisco `(*)` en la versión del documento.  Para evitar que las actualizaciones de metadatos generadas por el sistema afecten a este indicador, los administradores pueden configurar una lista de omisión para las propiedades de los metadatos. Para obtener detalles sobre cómo configurar las propiedades de metadatos, vea [Configurar la lista de omisión de propiedades de metadatos](../install-conf-guide/conf-metadata-prop.md).
 
-  ![](images/version-information.png){ }
+El número de versión cambia con cada nueva versión que se crea para el tema o el archivo de asignación. Si está trabajando en un documento recién creado, la información de la versión se mostrará como **none**.
+
+>[!BEGINTABS]
+
+>[!TAB Nuevo editor]
+
+![](images/version-information-editor-2-0.png)
+
+>[!TAB Editor antiguo]
+
+![](images/version-information.png)
+
+>[!ENDTABS]
 
 
-- **Guardar como nueva versión** es un botón que guarda los cambios realizados en el tema y también crea una nueva versión del mismo.
+**Guardar como nueva versión** es un botón que guarda los cambios realizados en el tema y también crea una nueva versión del mismo.
 
-  ![](images/save-as-new-version.png){ }
+>[!BEGINTABS]
+
+
+>[!TAB Nuevo editor]
+
+![](images/save-as-new-version-editor-2-0.png)
+
+>[!TAB Editor antiguo]
+
+![](images/save-as-new-version.png)
+
+>[!ENDTABS]
 
 
 Cuando elige guardar un tema o asignación mediante **Guardar como nueva versión**, aparece el siguiente cuadro de diálogo:
@@ -636,7 +703,17 @@ Si el tema está en revisión, los revisores recibirán una notificación que in
 
 Cuando pasa el puntero sobre el título de un tema, se muestra el título del archivo, la ruta de acceso del archivo y el número de versión.
 
-![](images/mouse-hover-on-title_cs.png){ }
+>[!BEGINTABS]
+
+>[!TAB Nuevo editor]
+
+![](images/mouse-hover-on-title_cs-editor-2-0.png)
+
+>[!TAB Editor antiguo]
+
+![](images/mouse-hover-on-title_cs.png)
+
+>[!ENDTABS]
 
 >[!NOTE]
 >
@@ -646,7 +723,17 @@ Cuando pasa el puntero sobre el título de un tema, se muestra el título del ar
 
 Bloquea o desbloquea el archivo actual. Bloquear un archivo le proporciona acceso de escritura exclusivo al archivo. Esto restringe a otros usuarios de la edición del archivo. Desbloquee el archivo si desea que otros usuarios tengan acceso de edición. Cuando el archivo está desbloqueado, los cambios se guardan en la versión actual del archivo.
 
-![](images/web-editor-lock-button.png){ }
+>[!BEGINTABS]
+
+>[!TAB Nuevo editor]
+
+![](images/web-editor-lock-button-editor-2-0.png)
+
+>[!TAB Editor antiguo]
+
+![](images/web-editor-lock-button.png)
+
+>[!ENDTABS]
 
 Si está en la vista Mapa y expande el mapa principal, puede bloquear todos los archivos del mapa con un solo clic. Simplemente expanda el archivo de asignación principal y seleccione el archivo principal, lo que resulta en la selección de todos los archivos dentro del mapa. A continuación, puede seleccionar **Bloquear** ![](images/LockClosed_icon.svg) para bloquear todos los archivos del mapa.
 

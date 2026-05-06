@@ -4,20 +4,39 @@ description: Aprenda a editar temas en el Editor. Obtenga información sobre las
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
 
 # Editar temas en el editor {#id2056B040VUI}
 
+>[!INFO]
+>
+>Este tema se aplica tanto al Editor nuevo como al Editor antiguo. Aunque la funcionalidad principal sigue siendo coherente, las diferencias en la interfaz de usuario, la terminología y las interacciones se indican dentro del contenido mediante pestañas y llamadas, según corresponda.
+
 El Editor incluye una serie de características de edición que permiten crear o modificar fácilmente los archivos de temas. En general, debe realizar los siguientes pasos para editar un tema en el Editor.
 
 >[!IMPORTANT]
 >
 > Si aparece un error de aplicación mientras trabaja en el Editor, actualice la página para seguir trabajando.
+
+>[!BEGINTABS]
+
+>[!TAB Nuevo editor]
+
+1. Para editar o insertar un elemento en un tema, haga clic dentro del límite de texto del elemento requerido para realizar cambios o coloque el cursor al final del elemento después del cual desea agregar un nuevo elemento y seleccione el elemento requerido en la barra de herramientas (o presione Alt+1 para abrir la ventana emergente Insertar elemento), que muestra e inserta de forma inteligente solo elementos válidos para esa ubicación en el tema.
+
+1. Además, puede utilizar el menú Inserción rápida para insertar fácilmente los elementos permitidos en la posición del cursor. Seleccione **Control + /** para Windows o **Comando + /** para Mac para acceder a los elementos.
+
+   ![Menú de inserción rápida](./images/quick-insert-menu-in-editor.png){width="650"}
+
+   Busque un nuevo elemento o elija uno de sus favoritos mediante el menú Inserción rápida y, a continuación, insértelo en la posición actual del cursor. Los favoritos incluyen los elementos utilizados con más frecuencia y solo se muestran los válidos para la ubicación actual del cursor. Puede habilitar o deshabilitar esta característica y configurar los elementos favoritos para su inserción mediante el menú Inserción rápida disponible en [Configuración del editor](./config-editor-settings.md).
+
+
+>[!TAB Editor antiguo]
 
 1. Para realizar cambios en el tema, haga clic dentro del límite de texto del elemento requerido y comience a realizar ediciones.
 
@@ -35,19 +54,35 @@ El Editor incluye una serie de características de edición que permiten crear o
    >
    > Si no desea confirmar los cambios en el repositorio de Adobe Experience Manager, seleccione **Cerrar** y, a continuación, seleccione **Cerrar sin guardar** en el cuadro de diálogo Cambios no guardados.
 
+>[!ENDTABS]
 
 ## Selección parcial del contenido entre elementos
 
 Experience Manager Guides también le permite seleccionar contenido entre elementos. Después de seleccionar el contenido, puede realizar las siguientes operaciones:
 
-- Formato y eliminación: ponga en negrita, cursiva, subrayado o incluso elimine el contenido seleccionado. El contenido de las etiquetas abiertas válidas se combina y aparece en un solo elemento. Por ejemplo, puede seleccionar el contenido de un párrafo y ampliar la selección a otro párrafo. A continuación, si aplica negrita al contenido seleccionado, todo el contenido en negrita de las etiquetas abiertas se combina y aparece en un solo elemento de párrafo.
+- Formato: el formato del contenido seleccionado es considerablemente más sencillo en el editor nuevo en comparación con el editor 1.0, como se muestra a continuación.
 
-Del mismo modo, si elimina el contenido seleccionado, se combina el contenido restante después de la eliminación en las etiquetas abiertas.
+>[!BEGINTABS]
+
+>[!TAB Nuevo editor]
+
+Puede dar formato al contenido seleccionado como negrita, cursiva o subrayado mediante la barra de herramientas contextual. Seleccione el contenido y, a continuación, haga clic en el icono de formato adecuado en el menú que aparece. Poner en negrita, cursiva o subrayado el contenido seleccionado. El contenido de las etiquetas abiertas válidas se combina y aparece en un solo elemento.
+
+![Opciones de formato](./images/formatting-options.png){width="650"}
+
+>[!TAB Editor antiguo]
+
+Poner en negrita y en cursiva el contenido seleccionado y subrayarlo. El contenido de las etiquetas abiertas válidas se combina y aparece en un solo elemento. Por ejemplo, puede seleccionar el contenido de un párrafo y ampliar la selección a otro párrafo. A continuación, si aplica negrita al contenido seleccionado, todo el contenido en negrita de las etiquetas abiertas se combina y aparece en un solo elemento de párrafo.
+
+>[!ENDTABS]
+
+- Eliminación: Si elimina el contenido seleccionado, se combina el contenido restante después de la eliminación en las etiquetas abiertas.
 
 - Rodee el contenido con un elemento válido: realice los siguientes pasos para envolver el contenido con un elemento válido:
 
    - Seleccione el contenido de un elemento.
    - Seleccione el icono ![add](images/Add_icon.svg) de la barra de herramientas de la parte superior para ver el cuadro de diálogo **Insertar elemento**. El cuadro de diálogo muestra los elementos válidos para el contenido seleccionado.
+
      >[!NOTE]
      >
      > También puede ver el cuadro de diálogo Insertar elemento seleccionando el menú contextual del contenido seleccionado.
@@ -70,15 +105,40 @@ El panel derecho también se vuelve a abrir y muestra la misma vista que antes d
 
 Experience Manager Guides proporciona el indicador de copia de trabajo que muestra si la \(copia de trabajo\) actual del archivo está sincronizada con la versión guardada o no. Si ha realizado cambios en la copia actual y no ha guardado el archivo, aparecerá una marca \* junto con el título en la ficha de archivo del tema. Este indicador actúa como un recordatorio para guardar los cambios y desaparece al guardar el archivo.
 
+>[!BEGINTABS]
+
+>[!TAB Nuevo editor]
+
+Esta vista muestra cómo se representa el contenido en el nuevo editor.
+
+![indicador de copia de trabajo](images/working-copy-text-update-indicator-new-editor-2-0.png){width="550"}
+
+>[!TAB Editor antiguo]
+
+Esta vista muestra cómo se representa el contenido en el editor antiguo.
+
 ![indicador de copia de trabajo](images/working-copy-text-update-indicator.png){width="550"}
+
+>[!ENDTABS]
 
 Experience Manager Guides también indica si la última copia \(de trabajo\) guardada del archivo está sincronizada con la versión guardada o no. Si hay cambios sin guardar entre la copia de trabajo y la última versión guardada, aparecerá una marca \* junto con la información de la versión que se muestra en la esquina superior derecha de la ficha del archivo del tema. Este indicador sirve como recordatorio para guardar y crear una versión a partir de la copia \(de trabajo\) actual del archivo.
 
 >[!NOTE]
 >
-> Cualquier cambio en los campos de metadatos disponibles en [Propiedades del archivo](./web-editor-right-panel.md#file-properties) también almacenará en déclencheur el indicador de la copia de trabajo en la versión del documento.
+> Cualquier cambio en los campos de metadatos disponibles en [File properties](./web-editor-right-panel.md#file-properties) o aplicado en el backend también almacenará en déclencheur el asterisco `(*)` en la versión del documento.  Para evitar que las actualizaciones de metadatos generadas por el sistema afecten a este indicador, los administradores pueden configurar una lista de omisión para las propiedades de los metadatos. Para obtener detalles sobre cómo configurar las propiedades de metadatos, vea [Configurar la lista de omisión de propiedades de metadatos](../install-conf-guide/conf-metadata-prop.md).
 
-![Indicador de actualización de versión](images/version-update-indicator.png){width="550"}
+>[!BEGINTABS]
+
+>[!TAB Nuevo editor]
+
+![Indicador de actualización de versión](images/version-update-indicator-editor-2-0.png){width="650"}
+
+>[!TAB Editor antiguo]
+
+![Indicador de actualización de versión](images/version-update-indicator.png){width="650"}
+
+
+>[!ENDTABS]
 
 ## Acceso a archivos bloqueados en los modos Autor y Source
 

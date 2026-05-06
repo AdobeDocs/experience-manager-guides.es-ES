@@ -3,7 +3,7 @@ title: Notas de versión | Novedades de la versión 2026.01.0 de Adobe Experienc
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 2026.01.0 de Adobe Experience Manager Guides
 role: Leader
 exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
@@ -109,7 +109,7 @@ Para obtener más información, vea [Panel derecho en Editor](../user-guide/web-
 
 ### Las propiedades de metadatos ya no se pueden editar para archivos de solo lectura
 
-Con esta versión, cuando la configuración `Disable Edit Without Checkout` está habilitada, las propiedades del archivo ya no se pueden editar si el archivo está en modo **Solo lectura**.
+Con esta versión, cuando la configuración `Disable edit without locking the file` está habilitada, las propiedades del archivo ya no se pueden editar si un archivo está en modo **Solo lectura**.
 
 Esta restricción se aplica a todos los puntos de entrada en los que se pueden modificar propiedades, incluidos los siguientes:
 

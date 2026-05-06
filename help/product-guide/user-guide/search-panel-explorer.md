@@ -4,14 +4,18 @@ description: Aprenda a utilizar el panel Buscar en la interfaz del editor.
 feature: Authoring
 role: User
 exl-id: cf3c03b5-383c-464c-8ef1-2f0f825c4e56
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
 # Panel Buscar
+
+>[!INFO]
+>
+>Este tema se aplica tanto al Editor nuevo como al Editor antiguo. Aunque la funcionalidad principal sigue siendo coherente, las diferencias en la interfaz de usuario, la terminología y las interacciones se indican dentro del contenido mediante pestañas y llamadas, según corresponda.
 
 El panel Buscar del Editor mejora la productividad al proporcionar un acceso rápido a un subconjunto de archivos, que se muestran según los términos de búsqueda o los filtros aplicados al editar contenido. Le ayuda a abrir fácilmente uno o varios archivos buscados o a utilizarlos dentro de un archivo existente simplemente arrastrando y soltando en un tema o mapa. Puede encontrar el **panel Buscar** en la parte inferior del Editor.
 
@@ -55,7 +59,17 @@ Al trabajar en la interfaz del editor, puede filtrar el conjunto de archivos par
 
 Una vez que los resultados de la búsqueda se muestran en el panel Buscar, puede trabajar con ellos, ya sea abriendo y editando uno o varios archivos directamente desde el panel o arrastrando y soltando los archivos seleccionados en un tema o mapa existente para agregar referencias.
 
+>[!BEGINTABS]
+
+>[!TAB Nuevo editor]
+
+![](images/edit-search-panel-editor-2-0.png)
+
+>[!TAB Editor antiguo]
+
 ![](images/edit-search-panel.png)
+
+>[!ENDTABS]
 
 ## Buscar desde la interfaz de Repositorio en la página Inicio
 

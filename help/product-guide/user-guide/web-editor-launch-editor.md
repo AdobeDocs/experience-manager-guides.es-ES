@@ -4,14 +4,18 @@ description: Obtenga información sobre cómo iniciar el editor desde la página
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
 
 # Iniciar el editor {#id2056B0140HS}
+
+>[!INFO]
+>
+> Este tema se aplica tanto al Editor nuevo como al Editor antiguo. Aunque la funcionalidad principal sigue siendo coherente, las diferencias en la interfaz de usuario, la terminología y las interacciones se indican dentro del contenido mediante pestañas y llamadas, según corresponda.
 
 Puede iniciar el Editor desde las siguientes ubicaciones:
 
@@ -85,9 +89,23 @@ Para abrir un tema en el Editor, siga estos pasos:
 
    ![](images/edit-topic-from-quick-action_cs.png)
 
-   El tema se abre en el Editor.
+El tema se abre en el Editor.
 
-   ![](images/edit-mode.png)
+>[!BEGINTABS]
+
+>[!TAB Nuevo editor]
+
+Esta vista muestra cómo se representa el contenido en el nuevo editor
+
+![](images/edit-mode-editor-2-0.png)
+
+>[!TAB Editor antiguo]
+
+Esta vista muestra cómo se representa el contenido en el editor antiguo
+
+![](images/edit-mode.png)
+
+>[!ENDTABS]
 
 También puede abrir un archivo de asignación en la interfaz de usuario de Assets e iniciar el Editor para editar los temas del archivo de asignación.
 
@@ -124,13 +142,25 @@ Para abrir el editor desde la consola Mapa, siga estos pasos:
 
    ![](images/map-console-open-in-editor.png)
 
-   El archivo de mapa que contiene los temas está abierto para su edición en el Editor.
-
-   ![](images/map-console-edit-topics.png)
+El archivo de mapa que contiene los temas está abierto para su edición en el Editor.
 
 
+>[!BEGINTABS]
+
+>[!TAB Nuevo editor]
+
+Modo de edición de mapas en el editor nuevo:
+
+![](images/map-console-edit-topics-editor-2-0.png)
+
+>[!TAB Editor antiguo]
+
+Modo de edición de mapas en el editor antiguo:
+
+![](images/map-console-edit-topics.png)
 
 
+>[!ENDTABS]
 
 
 **Tema principal**: [Introducción al editor](web-editor.md)

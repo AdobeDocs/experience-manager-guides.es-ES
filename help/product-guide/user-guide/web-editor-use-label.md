@@ -4,7 +4,7 @@ description: Descubra el uso de etiquetas para diferentes versiones de un archiv
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 0%
@@ -25,8 +25,6 @@ Siga estos pasos para agregar una etiqueta al tema desde el Editor:
 
 1. En el panel Repositorio, vaya a un tema y ábralo en el Editor.
 1. Seleccione **Etiqueta de versión** del menú desplegable **Menú**.
-
-   ![](images/version-label-option.png){width="400"}
 
    Se muestra el cuadro de diálogo **Administración de etiquetas de versión**.
 

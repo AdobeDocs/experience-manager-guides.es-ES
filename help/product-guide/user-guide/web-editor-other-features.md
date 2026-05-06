@@ -4,9 +4,9 @@ description: Explore otras funciones del editor en Adobe Experience Manager Guid
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '3690'
+source-wordcount: '4271'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,34 @@ Se obtienen las siguientes funciones en el menú contextual de la pestaña de un
 
 Se obtienen las siguientes funciones en el menú contextual de la pestaña de un archivo abierto:
 
+>[!BEGINTABS]
+
+>[!TAB Nuevo editor]
+
+![](images/single-file-context-menu-editor-2-0.png){width="400"}
+
+>[!TAB Editor antiguo]
+
 ![](images/single-file-context-menu.png){width="400"}
+
+>[!ENDTABS]
 
 **Varios archivos**
 
 Cuando tenga varios archivos abiertos, obtendrá más opciones en el menú contextual:
 
+>[!BEGINTABS]
+
+>[!TAB Nuevo editor]
+
+
+![](images/multiple-files-context-menu-editor-2-0.png){width="550"}
+
+>[!TAB Editor antiguo]
+
 ![](images/multiple-files-context-menu.png){width="550"}
+
+>[!ENDTABS]
 
 Las distintas opciones del menú contextual se explican a continuación:
 
@@ -144,6 +165,90 @@ El editor proporciona un cuadro de diálogo de exploración inteligente de archi
 >[!NOTE]
 >
 > En el caso de un archivo de imagen, audio o vídeo, el cuadro de diálogo de exploración de archivos toma como valor predeterminado la ubicación del archivo y no la última utilizada.
+
+## Trabajar con tablas en el nuevo editor
+
+El nuevo editor permite crear, dar formato y organizar tablas directamente dentro del contenido mediante varias acciones contextuales.
+
+Esta sección muestra las distintas funciones de creación de tablas disponibles en el nuevo editor.
+
+**Modificar la tabla mediante el menú contextual**
+
+El menú contextual se muestra al hacer clic con el botón derecho dentro de una celda de tabla. Las siguientes opciones están disponibles según el tipo de tabla con el que esté trabajando.
+
+![](images/table-context-menu.png){width="550"}
+
+- Insertar filas, columnas o celdas
+
+- Dividir celdas horizontal o verticalmente (no disponible para tablas simples)
+
+- Combinar celdas hacia la derecha o hacia abajo (no disponible para tablas simples)
+
+- Eliminar filas o columnas
+
+**Establecer la alineación y el formato del texto mediante la barra de herramientas contextual**
+
+La barra de herramientas contextual se muestra al seleccionar contenido o celdas dentro de una tabla. La barra de herramientas proporciona opciones relevantes para su selección.
+
+- Seleccione el contenido de la celda para acceder a las siguientes opciones de formato:
+
+  ![](images/text-formatting-options-table.png){width="550"}
+
+  Utilice las opciones Negrita, Cursiva o Subrayado para dar formato al texto.
+- Para tener acceso a la barra de herramientas contextual de una sola celda, use `Ctrl+click` para Windows y `Command+click` para macOS.
+
+  ![](images/cell-selection-contextual-toolbar.png){width="550"}
+
+- Del mismo modo, también puede seleccionar varias celdas y utilizar la barra de herramientas contextual para aplicarles formato de texto y alineación a la vez.
+
+  Opciones disponibles para la selección de una o varias filas:
+
+  ![](images/set-alignment-rows.png){width="550"}
+
+   - Alineación de texto horizontal (no disponible para tablas simples)
+   - Alineación de texto vertical (no disponible para tablas simples)
+   - Insertar fila encima
+   - Insertar fila debajo
+   - Quitar fila
+   - Combinar celdas (no disponible para tablas simples)
+
+  Opciones disponibles para la selección de una o varias columnas:
+
+  ![](images/set-alignment-columns.png){width="550"}
+
+   - Alineación de texto horizontal (no disponible para tablas simples)
+   - Alineación de texto vertical (no disponible para tablas simples)
+   - Insertar fila encima
+   - Insertar fila debajo
+   - Quitar fila
+   - Insertar columna arriba
+   - Insertar columna debajo
+   - Quitar columna
+   - Combinar celdas (no disponible para tablas simples)
+
+- Seleccione la tabla para aplicar formato de texto y alineación a toda la tabla.
+
+  ![](images/text-alignment-table.png){width="550"}
+
+- Agregar filas o columnas con un botón de signo más interactivo
+
+  Para agregar una fila nueva al final de la tabla, pase el ratón sobre la última fila y seleccione el botón **+**. Se agrega una nueva fila en la parte inferior de la tabla.
+
+  ![](images/add-row.png){width="550"}
+
+  Del mismo modo, pase el ratón sobre la última columna y seleccione el botón **+** para agregar una nueva columna al lado derecho de la tabla.
+
+  ![](images/add-column.png){width="550"}
+
+- Agregar varias filas o columnas a una tabla mediante las opciones de inserción (no disponible para tablas simples)
+
+  Para agregar varias filas o columnas a una tabla, primero seleccione el número de filas o columnas que desee agregar y, a continuación, seleccione las opciones Insertar fila (arriba o abajo) o Insertar columna (izquierda o derecha). Se agrega el mismo número de filas o columnas a la tabla en función de su selección.
+
+- Arrastrar y soltar filas y columnas (no disponible para tablas simples)
+
+  Mueva fácilmente las filas y columnas de la tabla arrastrando y soltando. Al arrastrar una fila o columna, aparece con un fondo semitransparente para indicar que se está moviendo. Una línea azul resalta la posición de destino en la que se colocará la fila o columna tras la publicación.
+
+  ![](images/drag-and-drop-table-rows.png){width="550"}
 
 ## Examen de archivos y carpetas en Experience Manager Guides
 
@@ -314,7 +419,19 @@ Insertar nota al pie en el contenido usando el elemento `fn`. En el modo Autor, 
 
 El editor muestra la ruta de exploración del elemento en la parte inferior izquierda del tema. Si desea intercambiar o reemplazar un elemento por otro, puede hacerlo desde el menú contextual de la ruta de exploración. Por ejemplo, puede intercambiar el elemento `p` por `note` o cualquier otro elemento válido en el contexto.
 
+>[!BEGINTABS]
+
+>[!TAB Nuevo editor]
+
+![](images/rename-element-editor-2-0.png){width="400"}
+
+>[!TAB Editor antiguo]
+
+
 ![](images/rename-element.png){width="400"}
+
+
+>[!ENDTABS]
 
 En la ruta de exploración, haga clic con el botón secundario en el nombre de un elemento que desee reemplazar y, a continuación, seleccione Cambiar nombre de elemento en el menú contextual. El cuadro de diálogo Cambiar nombre de elemento muestra todos los elementos válidos permitidos en la ubicación actual. En el cuadro de diálogo Cambiar nombre de elemento, seleccione el elemento que desee utilizar. El elemento original se reemplaza por el nuevo.
 
@@ -392,11 +509,19 @@ Al seleccionar **ID duplicados**, se abre una ventana emergente con todos los ID
 
 ## Gestión de archivos grandes en el editor
 
+>[!NOTE]
+>
+> Esta sección se aplica solo al antiguo editor. Con el nuevo editor, se mejora la experiencia de edición de temas grandes y complejos mediante una carga más rápida y unas interacciones más interactivas, además de la compatibilidad con la función Deshacer/Rehacer y el marcador sucio.
+
 A continuación se mencionan las funciones principales destinadas a mejorar el manejo de archivos grandes:
 
 - Para mejorar el rendimiento, se desactivan determinadas funciones como deshacer, rehacer, el panel de contorno y el marcador sucio. Se recomienda desglosar los temas en temas más pequeños para una experiencia óptima.
 
 - Se muestra un mensaje de alerta en la parte superior para los archivos grandes, como se muestra en el siguiente fragmento. Esta alerta resalta el número de elementos en función del valor especificado en el parámetro **largeFileTagCount** del archivo uiconfig.json. De manera predeterminada, **largeFileTagCount** está establecido en 2500.
+
+  >[!NOTE]
+  >
+  > Este mensaje de alerta se aplica solamente al Editor antiguo, donde se muestra en función del parámetro `largeFileTagCount` configurado. En el nuevo editor, los archivos grandes se cargan sin problemas sin activar ninguna alerta. Además, las funcionalidades relacionadas que no funcionan en el Editor antiguo lo hacen normalmente en el Editor nuevo.
 
 ![](images/add-toast-notification.png){width="600"}
 
@@ -407,5 +532,6 @@ A continuación se mencionan las funciones principales destinadas a mejorar el m
 
 
 - El mensaje de alerta solo está disponible para archivos DITA y es visible en todas las vistas: Autor, Source y Diseño.
+
 
 **Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)

@@ -4,18 +4,32 @@ description: Conozca la barra de pestañas del editor. Obtenga información acer
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
-source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
+source-git-commit: 4d7daf0dc3c6c915701e60d6811822df9f6a64aa
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
 
 # Barra de pestañas del editor
 
-La barra de pestañas se encuentra en la parte superior de la interfaz del editor y proporciona acceso a las siguientes funciones:
+>[!INFO]
+>
+> Este tema se aplica tanto al Editor nuevo como al Editor antiguo. Aunque la funcionalidad principal sigue siendo coherente, las diferencias en la interfaz de usuario, la terminología y las interacciones se indican dentro del contenido mediante pestañas y llamadas, según corresponda.
+
+La barra de fichas se encuentra en la parte superior de la interfaz del Editor y proporciona acceso a las distintas funciones de nivel de archivo.
+
+>[!BEGINTABS]
+
+>[!TAB Nuevo editor]
+
+![](./images/web-editor-tab-bar-editor-2-0.png)
+
+>[!TAB Editor antiguo]
 
 ![](./images/web-editor-tab-bar.png)
+
+>[!ENDTABS]
 
 **Pestañas**
 
@@ -23,7 +37,7 @@ Muestra los temas abiertos actualmente en el Editor como fichas de archivo. Pued
 
 >[!NOTE]
 >
-> Como administrador, también puede elegir ver la lista de archivos por nombres de archivo en las pestañas. Seleccione la opción **Filename** de la sección **Archivos del editor muestran la configuración** en [Preferencias de usuario](./intro-home-page.md#user-preferences).
+> Como administrador, también puede elegir ver la lista de archivos por nombres de archivo en las pestañas. Seleccione la opción **Filename** en la sección **Configuración de visualización de archivos del editor** en [Preferencias de usuario](./intro-home-page.md#user-preferences).
 
 Al seleccionar la pestaña Archivo, se abre un menú contextual con las opciones Guardar como nueva versión, Copiar, Buscar en, Añadir a, Propiedades, Dividir, Descargar como PDF y Cerrar.
 
@@ -56,5 +70,7 @@ Una potente herramienta impulsada por IA diseñada para mejorar su productividad
 >[!NOTE]
 >
 > Si usa Adobe Experience Manager Guides en una configuración local, la opción de configuración de Workspace seguirá apareciendo como **Configuración** en el menú Más acciones.
+
+- **Configuración del editor**: lo lleva al cuadro de diálogo Configuración del editor, donde puede personalizar el comportamiento del editor a nivel de autor individual. Permite controlar la visibilidad y el comportamiento de las etiquetas, los comentarios y otras configuraciones de nivel de editor durante la creación. Para obtener más información, vea [Configuración del editor](./config-editor-settings.md).
 
 **Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)

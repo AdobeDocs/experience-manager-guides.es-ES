@@ -4,14 +4,18 @@ description: Añada y administre citas en AEM Guides. Aprenda a aplicar, importa
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '1932'
+source-wordcount: '1962'
 ht-degree: 1%
 
 ---
 
 # Añadir y administrar citas en el contenido
+
+>[!NOTE]
+>
+> Las citas solo se admiten en el Editor antiguo y, actualmente, no están disponibles en el Nuevo editor. La información de este artículo se aplica solamente si está usando el antiguo editor.
 
 Las citas son referencias a la fuente de información agregada al contenido. Mediante citas, puede dar crédito a los autores de la información de origen y ayudar a los lectores a realizar un seguimiento de la información de origen. Añadir citas hace que su contenido sea más confiable y evita el plagio. También le permiten mostrar contenido bien investigado.
 

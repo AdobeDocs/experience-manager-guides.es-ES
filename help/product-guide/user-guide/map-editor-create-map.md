@@ -4,7 +4,7 @@ description: Cree un mapa con el Editor de mapas en Experience Manager Guides. B
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Realice los siguientes pasos para agregar temas a un archivo de asignación desd
 
    - **A** - \(*Barra de fichas*\): Es similar a la barra de fichas del Editor. Ver [barra de fichas](./web-editor-tab-bar.md) en el editor para obtener más detalles.
 
-   - **B** - \(*Barra de herramientas*\) Esta es la barra de herramientas que le permite trabajar con los archivos de asignación. Para obtener más información sobre las funcionalidades disponibles en la barra de herramientas, vea [Características disponibles en la barra de herramientas del Editor de mapas](#features-available-in-the-map-editors-toolbar).
+   - **B** - \(*Barra de herramientas*\) Esta es la barra de herramientas que le permite trabajar con los archivos de asignación. Para obtener más información sobre las funcionalidades disponibles en la barra de herramientas, vea [Características disponibles en la barra de herramientas del Editor de mapas](./map-editor-advanced-map-editor.md).
 
    - **C** - \(*Vistas de mapas*\): Permite cambiar el Editor de mapas entre el Diseño, Autor, Source y Vista previa. La vista **Diseño** permite organizar los temas en un mapa DITA. Esto proporciona la vista de árbol o jerárquica del mapa. La vista **Autor** le permite editar los temas en el Editor de mapas. Esto también proporciona la vista de WYSIWYG del archivo de mapa. La vista **Source** le permite trabajar con el XML subyacente del archivo de asignación. La vista previa le ofrece una vista consolidada de todos los temas y subasignaciones dentro del archivo de asignación.
 

@@ -4,9 +4,9 @@ description: Generar informes de mapas DITA desde la consola de mapas de AEM Gui
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2716'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,9 @@ Para actualizar los metadatos, realice los siguientes pasos:
 
    >[!NOTE]
    >
-   > Si un archivo está bloqueado por otro usuario, no se puede seleccionar para actualizar los metadatos. También aparece un icono de candado cerca del título de un archivo bloqueado. Puede pasar el ratón sobre el icono para ver el nombre del usuario.
+   > Si un archivo está bloqueado por otro usuario, no se puede seleccionar para actualizar los metadatos. También aparece un icono de candado cerca del título de un archivo bloqueado. Puede pasar el ratón sobre el icono para ver el nombre del usuario. Puede configurar el botón **Administrar** para deshabilitarlo cuando los archivos seleccionados estén en modo de solo lectura. Para obtener más información, vea [Botón Administrar en el panel Metadatos](../guides-ui-extensions/examples.md).
+   >
+   > <br>Esta limitación se aplica solamente a archivos DITA y Markdown. Para los recursos que no son DITA (como imágenes y multimedia), las propiedades de metadatos siguen siendo editables, incluso en modo de solo lectura.
 
    ![](images/all-selection.png)
 
