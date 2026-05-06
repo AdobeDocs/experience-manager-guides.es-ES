@@ -79,4 +79,4 @@ Para eliminar una etiqueta de versión de un tema, use el botón **Eliminar** pr
 ![](images/delete-labels.png){width="300"}
 
 
-**Tema principal:**[ Introducción al editor](web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)

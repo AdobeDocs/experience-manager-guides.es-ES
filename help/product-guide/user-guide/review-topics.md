@@ -285,4 +285,4 @@ El icono **Historial de versiones** del tema aparece una vez que el autor ha cer
 
 ![](images/version-history-dialog.png)
 
-**Tema principal:**[ Introducción a la revisión](review.md)
+**Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)

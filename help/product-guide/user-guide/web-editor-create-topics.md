@@ -115,4 +115,4 @@ _
 
 4. Una vez creado el tema DITA, siga guardando los cambios en la copia de trabajo y cree una nueva versión una vez que haya completado las actualizaciones del tema.
 
-**Tema principal:**[ Crear y previsualizar temas](create-preview-topics.md)
+**Tema principal:**&#x200B;[&#x200B; Crear y previsualizar temas](create-preview-topics.md)

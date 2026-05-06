@@ -39,4 +39,4 @@ Para obtener más información acerca de las vistas del Editor disponibles para 
 >
 > Si está trabajando en un archivo de mapa, se muestran diferentes opciones o vistas en el área de edición de contenido. Para obtener más información, vea [Funciones del editor de mapas](./map-editor-advanced-map-editor.md).
 
-**Tema principal:**[ Introducción al editor](web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
