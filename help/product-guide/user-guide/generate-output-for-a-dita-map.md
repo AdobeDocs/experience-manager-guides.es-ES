@@ -4,9 +4,9 @@ description: Genere la salida para un mapa DITA desde la consola de mapas y el t
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,10 @@ Si una salida no se realiza correctamente, se muestra el siguiente mensaje de er
 
 Para ver el registro de errores, seleccione **Descartar**, pase el ratón sobre la pestaña del ajuste preestablecido seleccionado y seleccione **Ver registro** en el menú contextual del ajuste preestablecido.
 
+>[!NOTE]
+>
+> Si el mapa utiliza un fichero DITAVAL, las imágenes marcadas a las que se hace referencia en el fichero DITAVAL se copiarán en una ubicación relacionada con el mapa publicado en la salida.  Además, si utiliza varios archivos DITAVAL para filtrar en el mismo mapa, asegúrese de utilizar nombres de archivo `.ditaval` únicos para evitar problemas de nombres de archivo duplicados durante la publicación.
+
 ## Generar salida para un mapa DITA desde el panel Mapa
 
 Realice los siguientes pasos para generar la salida de un mapa DITA mediante el tablero de mandos Mapa:
@@ -78,4 +82,4 @@ Para obtener más información sobre cómo usar Public ID y System ID en los DTD
 
 
 
-**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)
+**Tema principal:**[ Generación de resultados](generate-output.md)
