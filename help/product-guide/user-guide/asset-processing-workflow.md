@@ -241,7 +241,7 @@ AEM admite la ingesta masiva de contenido a través de proveedores de almacenami
 
 - Ingesta programada: la ingesta de contenido puede programarse para que se produzca durante ventanas de tiempo predefinidas, lo que garantiza un impacto mínimo o nulo en los usuarios finales y las operaciones en curso.
 
-Para obtener más información, vea [Uso de la importación en lotes](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/migration/bulk-import).
+Para obtener más información, vea [Uso de la importación en lotes](https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/migration/bulk-import).
 
 ## Ingesta masiva mediante carga de AEM
 
