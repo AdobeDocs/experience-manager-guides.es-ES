@@ -2,9 +2,9 @@
 title: Notas de versión | Novedades de la versión 2026.05.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 2026.05.0 de Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
+source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Para obtener más información, vea [Propiedades del contenido](../user-guide/we
 
 Se han realizado las siguientes mejoras de revisión como parte de esta versión:
 
-- Ahora puede habilitar **Recordatorios automatizados** para programar notificaciones de AEM y recordatorios de correo electrónico para los revisores, tanto antes de la fecha de vencimiento de una tarea de revisión como después de que haya vencido. Puede configurar varios recordatorios en cada caso, con recordatorios de vencimiento anticipado enviados en una secuencia definida y recordatorios de vencimiento activados después de que la tarea se marque como vencida, según la programación de recordatorios configurada. Para obtener detalles sobre cómo configurar los recordatorios para las tareas de revisión, vea [Enviar uno o más temas para revisión](../user-guide/review-send-topics-for-review.md#send-one-or-more-topics-for-review).
+- Ahora puede habilitar **Recordatorios automatizados** para programar notificaciones de AEM y recordatorios de correo electrónico para los revisores, tanto antes de la fecha de vencimiento de una tarea de revisión como después de que haya vencido. Puede configurar varios recordatorios en cada caso, con recordatorios de vencimiento anticipado enviados en una secuencia definida y recordatorios de vencimiento activados después de que la tarea se marque como vencida, según la programación de recordatorios configurada. Para obtener información detallada, vea [Enviar temas para revisión](../user-guide/review-send-topics-for-review.md).
 
 - Los revisores ahora pueden acceder al Historial de versiones para los temas que se están revisando, lo que les permite ver y comparar versiones previamente revisadas y actualizadas del mismo tema en tareas de revisión anteriores. Esto ayuda a los revisores a validar los cambios realizados desde ciclos de revisión anteriores y a mantener la continuidad mediante la revisión de comentarios, etiquetas y otros detalles relacionados dentro del contexto de revisión actual. Para obtener más información, vea [Historial de versiones del revisor](../user-guide/review-topics.md#version-history-for-the-reviewer).
 
