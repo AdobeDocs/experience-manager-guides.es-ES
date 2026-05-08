@@ -4,7 +4,7 @@ description: Obtenga información acerca de los cambios en el marco de trabajo d
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
+source-git-commit: 2ba8eadcb30faca01170cb13ae2da6fdf7da19c8
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 4%
@@ -668,7 +668,7 @@ Las decoraciones se identifican mediante una cadena `id` para que se puedan actu
   | `dropcursor` | `prosemirror-dropcursor` |
   | `markdown` | `prosemirror-markdown` |
 
-  **Ejemplo: crear un complemento de decoración de nodo**
+  **Ejemplo: Crear un complemento de decoración de nodo**
 
   ```js
   const myPluginKey = new guides.editor.prosemirror.state.PluginKey("myPlugin");
