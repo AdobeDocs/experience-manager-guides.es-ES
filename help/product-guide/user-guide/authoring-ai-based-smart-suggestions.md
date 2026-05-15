@@ -3,10 +3,18 @@ title: Sugerencias inteligentes con tecnología de IA para crear contenido
 description: Aprenda a ver y utilizar sugerencias inteligentes con tecnología de IA en el editor web.
 exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
 TQID: https://experienceleague.adobe.com/M46mebqRPlx-9qmpAG3rB3xwREgEbW9yx-VKLyuNFyg
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: ac5ecfc1-cc78-4ecc-a90a-0362685062ce
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: bf7fca06-df97-4229-884f-76afcfade5adid: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: ac5ecfc1-cc78-4ecc-a90a-0362685062ce
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: bf7fca06-df97-4229-884f-76afcfade5ad
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 690
@@ -29,18 +37,18 @@ Realice los siguientes pasos para ver las sugerencias inteligentes para agregar 
 
 
 1. Seleccione el contenido del tema para ver las sugerencias relacionadas. Asegúrese de que la longitud de caracteres del contenido supera lo que el administrador ha establecido en el perfil de carpeta para que aparezcan las sugerencias de contenido.
-1. En el **panel de creación** del Asistente de IA, seleccione **Sugerir contenido reutilizable** ![ai sugerir icono de contenido reutilizable ](./images/ai-suggest-reusable-content-icon.svg).
+1. En el **panel de creación** del Asistente de IA, seleccione **Sugerir contenido reutilizable** ![ai sugerir icono de contenido reutilizable &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
 
 1. Seleccione una etiqueta para ver las sugerencias de creación de la etiqueta actual  Las sugerencias para ver y agregar referencias de contenido desde los archivos indexados se muestran en función del contenido de la etiqueta actual. También puede seleccionar varias etiquetas.
 
 
-1. Seleccione todas las etiquetas para ver las sugerencias en función del contenido presente en el documento completo.  El icono **Sugerir contenido reutilizable** ![ai sugerir contenido reutilizable ](./images/ai-suggest-reusable-content-icon.svg) se muestra junto al contenido donde se encuentra una coincidencia adecuada.
+1. Seleccione todas las etiquetas para ver las sugerencias en función del contenido presente en el documento completo.  El icono **Sugerir contenido reutilizable** ![ai sugerir contenido reutilizable &#x200B;](./images/ai-suggest-reusable-content-icon.svg) se muestra junto al contenido donde se encuentra una coincidencia adecuada.
 
 
 
    >[!NOTE]
    >
-   > Solo puede ver las sugerencias de la ventanilla actual (el contenido visible en la pantalla). Para ver sugerencias de cualquier otro contenido del documento, desplácese hacia arriba o hacia abajo para mostrarlo en la ventanilla móvil y, a continuación, seleccione **Sugerir contenido reutilizable** ![ai sugerir icono de contenido reutilizable ](./images/ai-suggest-reusable-content-icon.svg).
+   > Solo puede ver las sugerencias de la ventanilla actual (el contenido visible en la pantalla). Para ver sugerencias de cualquier otro contenido del documento, desplácese hacia arriba o hacia abajo para mostrarlo en la ventanilla móvil y, a continuación, seleccione **Sugerir contenido reutilizable** ![ai sugerir icono de contenido reutilizable &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
 
 
 1. Puede ver las sugerencias inteligentes en el panel Sugerencias.  Experience Manager Guides proporciona sugerencias con contenido que es similar al contexto o tiene el mismo significado. Por ejemplo, puede buscar el tema que contenga el número de versión exacto, como &quot;versión 2023.03.12&quot;. También puede buscar &quot;Adobe tiene su sede en San José, California&quot; y encontrar contenido similar como &quot;San José tiene los cuartos de muchas empresas de software como Adobe&quot;.

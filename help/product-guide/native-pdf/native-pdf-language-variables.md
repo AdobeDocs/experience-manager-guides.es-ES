@@ -6,9 +6,13 @@ feature: Output Generation
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/Tl18qyeww079p8XGKwbKTN8TvoZLb-q9mPQ-8q660Dc
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1604
@@ -126,7 +130,7 @@ Las variables con el mismo ID se importan una vez importado el archivo. Los valo
 >[!NOTE]
 > 
 ><ul><li>Si el archivo no es un archivo XML o si contiene un formato incorrecto que no se asigna con las variables de idioma, verá un error que indica que hay un problema con el archivo XML. 
-&gt;<li>Si el archivo no contiene variables con el mismo ID, verá una advertencia que indica que no se encuentra ninguna variable de idioma coincidente en el archivo importado.
+>&gt;<li>Si el archivo no contiene variables con el mismo ID, verá una advertencia que indica que no se encuentra ninguna variable de idioma coincidente en el archivo importado.
 
 ### Opciones de una variable de idioma
 
@@ -134,7 +138,7 @@ Pase el ratón sobre la variable para ver el menú **Opciones** correspondiente.
 
 <img width="550" alt="menú opciones para variables de idioma" src="./assets/language-variable-user-options.png">
 
-*Use el menú&#x200B;**Opciones**para eliminar, obtener una vista previa o duplicar una variable de idioma.*
+*Use el menú&#x200B;**Opciones**&#x200B;para eliminar, obtener una vista previa o duplicar una variable de idioma.*
 
 Puede obtener una vista previa de las variables aplicación y usuario. Para ver cómo se muestra el valor de la variable en la salida, seleccione **Vista previa** en el menú **Opciones** de la variable seleccionada.
 También puede elegir **Eliminar** o **Duplicar** las variables de usuario. Al eliminar una variable de un idioma, se elimina automáticamente de todos los idiomas.

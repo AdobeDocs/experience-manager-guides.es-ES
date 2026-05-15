@@ -6,9 +6,13 @@ role: Admin
 level: Experienced
 exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
 TQID: https://experienceleague.adobe.com/d-eC5SHwAeCMEZhZJzN-12rdk37TjqBy0SYXC6lfbUI
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 469
@@ -40,7 +44,7 @@ Antes de continuar con la configuración, asegúrese de que se cumplen los sigui
 ## Instalación de paquetes mediante el Administrador de paquetes de CRX
 
 1. **Instalar el paquete de componentes:**
-   1. Vaya a [**Administrador de paquetes CRX**](http://<your-aem-instance>/crx/packmgr).
+   1. Vaya a [**Administrador de paquetes CRX**](http://&lt;your-aem-instance>/crx/packmgr).
    2. Cargue e instale el paquete on-premise-guides-components.all-1.x.0.zip.
 
 2. **Instale el paquete de Sites:** Cargue e instale el paquete aemg-docs.all-1.x.0.zip mediante el Administrador de paquetes de CRX.
@@ -90,7 +94,7 @@ Antes de continuar con la configuración, asegúrese de que se cumplen los sigui
    2. Cree una nueva página de producto en la estructura del sitio OOTB.
    3. Vaya a **Documentos de AEMG** > **Inglés** > **Documentos**.
 
-      ![Crear página en la estructura del sitio de AEM ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350"}
+      ![Crear página en la estructura del sitio de AEM &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350"}
 
    4. Seleccione el mosaico **Página de inicio** y, a continuación, seleccione **Siguiente**.
 
