@@ -40,7 +40,7 @@ Obtenga más información acerca de la [integración de Adobe Workfront](../user
 Antes de empezar, asegúrese de lo siguiente:
 
 1. Tiene acceso estándar a Adobe Workfront y acceso de administrador a Experience Manager Guides.
-2. Usted [crea un nuevo formulario personalizado en Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) necesario para Experience Manager Guides utilizando específicamente los siguientes campos:
+2. Usted [crea un nuevo formulario personalizado en Adobe Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) necesario para Experience Manager Guides utilizando específicamente los siguientes campos:
 
    | Tipo de campo | Etiqueta | Nombre | Opciones (mostrar valores habilitados) |
    |------------|------|------|-------------------------------|

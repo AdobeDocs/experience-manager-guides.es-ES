@@ -1316,7 +1316,7 @@ Durante esta actualización, dado que el valor `'order'` ha cambiado de 1000 a 5
 
 ## Pasos para reindexar damAssetLucene
 
-La definición del índice se actualiza para damAssetLucene con guías. Consulte [este artículo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) para volver a indexar damAssetLucene después de actualizar a la versión 5.0.0.
+La definición del índice se actualiza para damAssetLucene con guías. Consulte [este artículo](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-16460) para volver a indexar damAssetLucene después de actualizar a la versión 5.0.0.
 
 >[!NOTE]
 >
@@ -1483,7 +1483,7 @@ Durante esta actualización, dado que el valor `'order'` ha cambiado de 1000 a 5
 
 ## Pasos para reindexar damAssetLucene
 
-La definición del índice se actualiza para damAssetLucene con guías. Consulte [este artículo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) para volver a indexar damAssetLucene después de actualizar a la versión 5.1.0.
+La definición del índice se actualiza para damAssetLucene con guías. Consulte [este artículo](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-16460) para volver a indexar damAssetLucene después de actualizar a la versión 5.1.0.
 
 >[!NOTE]
 >
