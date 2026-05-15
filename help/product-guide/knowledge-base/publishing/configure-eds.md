@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: a4623088-a867-4079-80d6-20866c99683e
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: e4031aa4309a2c02ffb3a678586643f2a8bdc44b
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 1%
@@ -60,12 +60,14 @@ Realice los siguientes pasos para instalar y configurar la aplicación *AEM Code
 
    >[!NOTE]
    >
-   > Al instalar la aplicación, asegúrese de utilizar la misma cuenta de GitHub que posee el repositorio.
+   >Al instalar la aplicación, asegúrese de utilizar la misma cuenta de GitHub que posee el repositorio.
 
    ![](assets/eds-aem-code-sync-page.png)
+
 3. En la página siguiente, conceda acceso al repositorio que ha creado. Para ello, seleccione la opción **Seleccionar solo repositorios** y luego seleccione su repositorio en el menú desplegable.
 
    ![](assets/eds-aem-code-sync-install-authorize.png){width="350"}
+
 4. Seleccione **Instalar y autorizar**.
 
 Se le redirigirá a la página de configuración de GitHub, lo que confirma el registro correcto de la aplicación *AEM Code Sync*. También puede guardar las direcciones URL de vista previa y en directo del sitio web desde esta página.
@@ -79,7 +81,9 @@ Se le redirigirá a la página de configuración de GitHub, lo que confirma el r
 3. Seleccione **Nueva aplicación de GitHub**.
 
    ![](assets/eds-new-github-app.png){width="650"}
+
 4. En la página **Registrar nueva aplicación de GitHub**, proporcione los siguientes detalles:
+
    - **Nombre de aplicación de GitHub**: escriba un nombre para su aplicación. Por ejemplo, `USERNAME-eds-app` donde USERNAME es su nombre de usuario de GitHub.
    - **URL de la página principal**: escriba la URL de la instancia de Experience Manager Guides.
 
@@ -89,6 +93,7 @@ Se le redirigirá a la página de configuración de GitHub, lo que confirma el r
    - **URL de devolución de llamada**: Igual que la URL de la página principal.
    - **URL de webhook**: Deshabilite esta opción.
    - **Permisos de repositorio**: establezca **permisos de lectura y escritura** para *Acciones, administración y atestación*.
+
 5. Seleccione **Crear aplicación de GitHub**.
 
 La aplicación ya está lista. Se le redirigirá a la página **Configuración** de su aplicación de GitHub.
@@ -237,5 +242,6 @@ En algunos casos, es posible que solo desee aplicar estilo a una parte específi
 6. Confirme los cambios y vuelva a generar la salida.
 
 El contenido seleccionado ahora muestra el estilo personalizado definido en el bloque.
+
 
 ![](assets/eds-example-output.png){width="650"}
