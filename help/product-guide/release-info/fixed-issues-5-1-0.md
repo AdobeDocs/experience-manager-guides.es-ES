@@ -1,10 +1,27 @@
 ---
 title: Notas de versión | Se han corregido problemas en la versión 5.1.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las correcciones de errores en la versión 5.1.0 de Adobe Experience Manager Guides.
-source-git-commit: 6c29d5540f48c850416db279b4392b6042c8ca2c
+exl-id: 08c35e97-10ca-4b75-892b-d95b79432158
+TQID: https://experienceleague.adobe.com/NPJCIq5JuyFf0E-Uf3GMxXmW6zxehES4f-iL9xeqEow
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1789'
-ht-degree: 1%
+source-wordcount: 1790
+ht-degree: 2%
 
 ---
 
@@ -23,7 +40,7 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 - Los archivos **CSS** y **Page layout** de las plantillas nativas de PDF muestran un comportamiento inconsistente de bloqueo de archivos, lo que permite realizar modificaciones incluso cuando los archivos están bloqueados. (GUIDES-26688)
 - Al actualizar la página después de agregar botones personalizados al panel izquierdo, se crean pestañas duplicadas. (GUIDES-30899)
 - Cuando el contenido XML que contiene corchetes angulares (como &lt;/ o />) se agrega dentro de un elemento `code block` en un tema, el elemento de bloque de código aparece en blanco en el resultado final. (GUIDES-31007)
-- Los valores de las variables globales `canCheckIn` y `canCheckOut` no se configuran correctamente cuando se desprotege y protege un archivo desde la barra de herramientas del Editor.(GUIDES-29890)
+- Los valores de las variables globales `canCheckIn` y `canCheckOut` no se configuran correctamente cuando se desprotege y protege un archivo desde la barra de herramientas del Editor. (GUIDES-29890)
 - Cuando se selecciona un mapa DITA en la vista Mapa, el recuento de selecciones no se muestra correctamente al principio porque los nodos secundarios del mapa no están seleccionados. El recuento de selección correcto y la inclusión de todos los nodos secundarios solo se reflejan en la selección posterior. (GUIDES-25663)
 - Los archivos Markdown no se recuperan cuando se buscan en el panel Repositorio utilizando el filtro **DITA topic**. Además, **Buscar y reemplazar** no funciona con archivos Markdown ni con contenido relacionado. (GUIDES-27133)
 - No se puede personalizar el menú desplegable **Menú** de la barra de herramientas del Editor usando el marco de trabajo de la extensión. Como resultado, no se puede ocultar ni mostrar ningún botón existente ni agregar botones nuevos en la lista desplegable Menú. (GUIDES-28748)
@@ -32,7 +49,7 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 - Al crear un nuevo tema a través de la interfaz de usuario o del editor de Assets, el tema no se abre automáticamente en el editor si la configuración de `xmleditor.uniquefilenames` está establecida en true en `XMLEditorConfig`. (GUIDES-28171)
 - Los espacios añadidos dentro de una ecuación de MathML en la vista de Source no se conservan al cambiar a las vistas del editor. (GUIDES-26111)
 - Si no se cierran las conexiones de sesión JCR al actualizar o crear temas, se producen pérdidas de memoria y tiempo de inactividad del servicio. (GUIDES-26282)
-- Al arrastrar las columnas, su anchura cambia de valores de porcentaje a valores de píxel, lo que da como resultado tablas distorsionadas o mal alineadas.(GUIDES-23128)
+- Al arrastrar las columnas, su anchura cambia de valores de porcentaje a valores de píxel, lo que da como resultado tablas distorsionadas o mal alineadas. (GUIDES-23128)
 - Cuando el contenido se pega en `code block` o cuando se agregan espacios en `code block` y se cambia la vista, se pierde el espaciado. (GUIDES-27478)
 - Al agregar un mapa a `bookmap`, se almacena en `fmditatopicrefs` en lugar de en `fmditamaprefs`. (GUIDES-25480)
 - El cuadro de diálogo **Insertar imagen** no se representa correctamente en una pantalla de alta resolución o con zoom ampliado, lo que hace que desaparezcan el título de la figura y los campos de texto alternativo. (GUIDES-26459)
@@ -49,7 +66,7 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 
 ## Administración de recursos
 
-- Copiar una carpeta con un gran número de recursos desde la interfaz de usuario de Assets lleva a un tiempo de espera de API. La operación sigue ejecutándose en el servidor y se completa después de un tiempo, pero no se muestra ningún mensaje de éxito o error ni notificación en la interfaz de usuario. (GUIDES-30900)
+- Copiar una carpeta con un gran número de recursos desde la interfaz de usuario de Assets lleva a un tiempo de espera de API. La operación sigue ejecutándose en el back-end y se completa después de un tiempo, pero no se muestra ningún mensaje de éxito o error ni notificación en la interfaz de usuario. (GUIDES-30900)
 - La operación de copiar y pegar realizada en una carpeta de la interfaz de usuario de Assets falla debido a errores posteriores al procesamiento. (GUIDES-30840)
 - La operación de copiar y pegar falla en las carpetas que contienen recursos compuestos (recursos con subrecursos) en la interfaz de usuario de Assets. (GUIDES-28107)
 - Las carpetas con un gran número de recursos no se cargan correctamente en el repositorio. (GUIDES-32500)
@@ -82,7 +99,7 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 - Al generar páginas de sitio de AEM con títulos que incluyen varias palabras separadas por espacios, el título del mapa muestra guiones en lugar de espacios. (GUIDES-27903)
 - Para PDF nativo, no se está resolviendo un nombre de propiedad de metadatos no válido y se muestra como `unresolved property name` en **propiedades de documento**. (GUIDES-25680)
 - El texto multilínea dentro de `codeblock` causa problemas de desbordamiento de texto durante la generación de PDF. (GUIDES-15541)
-- Al añadir mapas a la colección de mapas, se muestran recursos que no sean mapas (le gustan los temas, etc.) y los idiomas de mapa traducidos tampoco se ordenan correctamente.(GUIDES-25085)
+- Al agregar mapas a la colección de mapas, recursos que no sean mapas (le gustan los temas, etc.) se muestran y los idiomas de mapa traducidos tampoco se ordenan correctamente. (GUIDES-25085)
 - En la salida heredada de AEM Sites, los vínculos de sección dentro de los temas anidados de un mapa no se resuelven correctamente cuando se establecen manualmente en el modo Source o el contenido se importa desde un origen externo. En lugar de ir a la sección deseada, se redirige al tema principal que contiene el tema anidado. (GUIDES-26103)
 - Si falta el atributo `scope=external` en los vínculos externos de un tema DITA, la publicación de HTML5 falla sin indicar los archivos en los que falta este atributo en los registros de errores. (GUIDES-25969)
 - No se pueden incrustar vínculos de vídeo en el PDF nativo aunque la opción **Incrustar archivos multimedia** esté habilitada en el ajuste preestablecido de PDF. (GUIDES-9989)
@@ -100,7 +117,7 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 ## Plataforma
 
 - Los problemas de rendimiento como tiempos de carga más largos y tiempos de espera intermitentes se observan al trabajar con colecciones grandes. (GUIDES-29065, GUIDES-28793)
-- Vulnerabilidades asociadas con la biblioteca de Guava en desuso que se utiliza en los componentes de AEM Guides cargados en Experience Manager Guides.(GUIDES-27402)
+- Vulnerabilidades asociadas con la biblioteca de Guava en desuso que se utiliza en los componentes de AEM Guides cargados en Experience Manager Guides. (GUIDES-27402)
 
 ## Problemas conocidos
 
@@ -110,6 +127,6 @@ Adobe ha identificado los siguientes problemas conocidos para la versión 5.1.0:
 - El comentario más reciente en el nivel de tarea se muestra en la notificación por correo electrónico al iniciador de la tarea si el revisor la completa sin agregar ningún comentario. (GUIDES-33590)
 - En el cuadro de diálogo Combinar, la lista desplegable muestra incorrectamente el contenido principal en lugar de mostrar las versiones disponibles del tema seleccionado. (GUIDES-30820)
 - Al cambiar entre ajustes preestablecidos que utilizan la misma Línea base, se desactiva el botón Guardar para el ajuste preestablecido actual. (GUIDES-28025)
-- Se inserta automáticamente una línea vacía al pegar el nuevo contenido en una nueva línea dentro de un elemento de bloque de código.(GUIDES-27842)
+- Se inserta automáticamente una línea vacía al pegar contenido nuevo en una nueva línea dentro de un elemento de bloque de código. (GUIDES-27842)
 - Un tema de un mapa DITA no se puede publicar en la salida de AEM Sites cuando se utiliza como keydef y topicref dentro de sus submapas. (GUIDES-22269)
 - En el panel Propiedades de contenido, el campo Atributos se cierra automáticamente cuando intenta actualizar una referencia desde el cuadro de diálogo Actualizar vínculo, lo que impide que se actualice el vínculo. (GUIDES-17767)

@@ -3,10 +3,20 @@ title: Instalación y configuración
 description: Instalación y uso del paquete de extensión de AEM Guides
 role: User, Admin
 exl-id: 0304c8d0-35a8-4712-a9af-36557e3b247f
-source-git-commit: b4d6c1c8c2d413bb4137e58391554abf2fb68b8c
+TQID: https://experienceleague.adobe.com/ngU5TVcI7yva051ZscfGCfBb6vEbtG4cvjoOgplqmoA
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 0%
+source-wordcount: 362
+ht-degree: 1%
 
 ---
 
@@ -14,7 +24,7 @@ ht-degree: 0%
 
 Las extensiones le ofrecen la oportunidad de personalizar su aplicación de AEM Guides para adaptarla mejor a sus necesidades. Este marco de trabajo de extensión es compatible con AEM Guides 4.3 (local) y 2310 (en la nube) en adelante.
 
-## Requisitos 
+## Requisitos
 
 Este paquete requiere [git bash](https://github.com/git-guides/install-git) y npm
 
@@ -79,7 +89,7 @@ tcx1.css
 
 - Haga un `shift + refresh` para cargar la aplicación con las personalizaciones.
 
-## Solución de problemas
+## Resolución de problemas
 
 Compruebe que todos los pasos anteriores se hayan realizado correctamente.
 Después de agregar el código a tcx.js, asegúrese de realizar una actualización completa (mayús+actualización).

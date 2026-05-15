@@ -3,10 +3,27 @@ title: Notas de versión | Se han corregido problemas en la versión 4.4.0 de Ad
 description: Obtenga información acerca de las correcciones de errores en la versión 4.4.0 de Adobe Experience Manager Guides
 role: Leader
 exl-id: ff3083d3-062b-4a79-875f-86991978a18e
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/0mdTs2Pg1Zos-Y-jMaYUEasFRhyF2kzl6Sz8MBisJ5Q
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 0%
+source-wordcount: 1439
+ht-degree: 5%
 
 ---
 
@@ -27,7 +44,7 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 - En el editor web, la función de mapa de descarga no almacena en déclencheur una notificación emergente cuando está lista para descargarse. (14626)
 - En el editor web, la función de mapa de descarga no puede descargar un mapa con una línea de base. (14622)
 - Error de DTD no válido en Experience Manager Guides. (14482)
-- El título de la ficha Editor Web se trunca después de un punto (.) extra. (14372)
+- El título de la ficha Editor Web se trunca después de un punto (.) carácter. (14372)
 - No se ha actualizado la mensajería de error para nombres de mapa duplicados en la IU de Assets. (14320)
 - Se produce un error en la lógica de creación de versiones al arrastrar y soltar recursos. (14291)
 - El contenido reutilizable omite los ID de elemento. (14213)
@@ -40,7 +57,7 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 - Si el título de un tema contiene una barra diagonal `/`, la ficha del Editor Web sólo mostrará las cartas que le siguen. (13455)
 - La previsualización de la imagen no desaparece después de mostrar la previsualización en el editor web. (13454)
 - Las citas muestran vínculos en los que no se puede hacer clic cuando se crean con un ID único con espacios. (13447)
-- AEM Al cerrar un tema después de editarlo, se le redirige a la página de inicio de la página de inicio de la página de en lugar de volver a la vista de carpeta. (13306)
+- Al cerrar un tema después de editarlo, se le redirige a la página principal de AEM en lugar de volver a la vista de carpetas. (13306)
 - La ventana emergente Insertar palabra clave no aparece al utilizar claves definidas por mapa raíz en otros temas. (12950)
 - Los iconos de cierre no son visibles cuando se muestran gráficos muy altos en el panel **Historial de versiones**. (12867)
 - No se puede modificar la zona horaria de la columna **Versión creada el** para las líneas de base. (12711)
@@ -63,32 +80,32 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 ## Publicación
 
 - La publicación de AEM Sites falla y causa errores de ámbito para los archivos que tienen `xref` en el archivo DITA que comienza con &quot;HTTP&quot;. (15154)
-- En la publicación de PDF nativo, las propiedades de metadatos de mapa DITA no se pueden utilizar para rellenar los metadatos de salida de archivo de PDF. (15159)
-- En la publicación de PDF nativos, los atributos personalizados dentro de ajustes preestablecidos de condición no funcionan para la publicación de PDF nativos. (14943)
+- En la publicación nativa de PDF, las propiedades de metadatos de mapa DITA no se pueden usar para rellenar los metadatos de salida de archivo PDF. (15159)
+- En la publicación nativa de PDF, los atributos personalizados dentro de los ajustes preestablecidos de condición no funcionan para la publicación nativa de PDF. (14943)
 - No se puede agregar una plantilla personalizada desde la ficha **Salidas** del Editor. (14846)
-- AEM El ajuste preestablecido **Site** no funciona debido a una ruta de acceso de plantilla vacía. (14804)
-- AEM La regeneración de sitios falla en los mapas DITA con temas que contienen ecuaciones MathML. (14790)
-- En la publicación de PDF nativo, la generación de PDF genera errores al obtener dependencias para la publicación `Node.js`. (14445)
-- AEM El ajuste preestablecido **Site** no permite la selección de una plantilla fuera de la jerarquía `/content` en el editor web. (14260)
+- El ajuste preestablecido **AEM Site** no funciona debido a una ruta de acceso de plantilla vacía. (14804)
+- La regeneración del sitio de AEM falla en los mapas DITA con temas que contienen ecuaciones de MathML. (14790)
+- En la publicación nativa de PDF, la generación de PDF genera errores al obtener dependencias para la publicación de `Node.js`. (14445)
+- El ajuste preestablecido **AEM Site** no permite la selección de una plantilla fuera de la jerarquía `/content` en el editor web. (14260)
 - La funcionalidad para publicar como fragmento de contenido no funciona para los archivos enumerados en los resultados de búsqueda. (14090)
 - Los componentes de Fodita tienen una ruta de acceso codificada de `delegator.jsp`, lo que evita la superposición de los componentes de AEM Sites. (13993)
-- La vista etiquetada del reactor de PDF en la salida de publicación del PDF nativo no funciona como se esperaba. (13622)
+- La vista etiquetada del reactor de PDF en la salida de publicación nativa de PDF no funciona como se esperaba. (13622)
 - En la publicación nativa de PDF, la selección de color de fondo en el diseño **Template** requiere una recarga de página al revertir a `None`. (13621)
-- AEM La publicación de sitios encuentra un problema al comprometerse con el almacén de datos para mapas grandes con vínculos de igual a igual de ámbito. (13531)
-- AEM Se produce un problema al comprometerse con el almacén de datos para un mapa DITA grande con vínculos de igual a igual de ámbito en la publicación de sitios de. (13530)
-- El icono y la información de objeto incorrectos se muestran para la opción **Editar contenido** en la barra de herramientas de **Diseños de página** de las plantillas utilizadas en la publicación de PDF nativos. (13492)
-- No se puede activar un sitio mediante Experience Manager Guides **Tablero de Publish en lotes**. (13439)
-- En la publicación nativa en PDF, la accesibilidad se ve comprometida, ya que las imágenes del encabezado y del pie de página no muestran texto alternativo. (12829)
+- La publicación del sitio de AEM encuentra un problema al comprometerse con el almacén de datos para asignaciones grandes con vínculos de igual a igual de ámbito. (13531)
+- Se produce un problema al comprometerse con el almacén de datos para un mapa DITA grande con vínculos de igual a igual de ámbito en la publicación de sitios AEM. (13530)
+- El icono y la información de objeto incorrectos se muestran para la opción **Editar contenido** en la barra de herramientas **Diseños de página** de las plantillas utilizadas en la publicación nativa de PDF. (13492)
+- No se puede activar un sitio mediante Experience Manager Guides **Tablero de publicación en lotes**. (13439)
+- En la publicación nativa de PDF, la accesibilidad se ve comprometida, ya que las imágenes del encabezado y del pie de página no muestran texto alternativo. (12829)
 - En la salida de AEM Sites, el estilo o los saltos de línea se perdieron para el elemento `<lines>` que tiene subelementos.(12542)
-- La duplicación del diseño de página en el PDF nativo no funciona sin que se agregue ninguna extensión automáticamente. (12534)
+- La duplicación del diseño de página en el PDF nativo no funciona sin que se añada ninguna extensión automáticamente. (12534)
 - La localización de las etiquetas de elementos no funciona correctamente en la salida de AEM Sites. (12144)
 - Los metadatos personalizados no están disponibles en la salida final. (12116)
 - `fmdita rewriter` entra en conflicto con la configuración de reescritura del usuario y conduce a la visualización de direcciones URL largas en lugar de los vínculos. (12076)
 - Falta la opción **ditaval** en los ajustes preestablecidos de salida de nivel de perfil de carpeta creados mediante la interfaz de usuario del editor web. (11903)
-- AEM En el ajuste preestablecido de **Sitio de**, la opción de **Generar PDF independiente para cada tema** no funciona. (11555)
-- La publicación en PDF nativo no es compatible con la conversión del espacio de color CMYK. (10754)
-- Al actualizar a la versión 4.3.1, se producen algunas excepciones en el nodo PDF nativo. (14492)
-- Al generar la salida del PDF con la publicación del PDF nativo, el nombre del archivo se trunca después de un punto. (13620)
+- En el ajuste preestablecido **AEM Site**, la opción para **Generar PDF independiente para cada tema** no funciona. (11555)
+- La publicación nativa de PDF no admite la conversión del espacio de color CMYK. (10754)
+- Al actualizar a la versión 4.3.1, se producen algunas excepciones en el nodo Nativo de PDF. (14492)
+- Al generar la salida de PDF con la publicación nativa de PDF, el nombre del archivo se trunca después de un punto. (13620)
 
 
 ## Administración
@@ -114,13 +131,13 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 ## Traducción
 
 - Los botones **Aceptar/Rechazar** aparecen erróneamente para la traducción humana aprobada automáticamente. (14318)
-- AEM Los problemas de internacionalización (i18n) se producen durante la transformación de archivos DITA que no están en inglés a páginas de. (14286)
+- Los problemas de internacionalización (i18n) se producen durante la transformación de archivos DITA que no están en inglés a páginas de AEM. (14286)
 - La aprobación automática no funciona algunas veces y se producen excepciones si se establece un valor incorrecto en **Estado de traducción**. (13607)
 - La línea de base exportada desde el panel de traducción produce un error y no se abre en el idioma de destino. (12993)
 - El contenido traducido no se puede sincronizar desde proyectos de traducción temporales y el asistente de traducción del editor XML DITA muestra incorrectamente el estado **En curso** para los trabajos aprobados. (9938)
 
 ## Problema conocido
 
-El Adobe ha identificado el siguiente problema conocido para la versión 4.4.0:
+Adobe ha identificado el siguiente problema conocido para la versión 4.4.0:
 
 - La versión 1.0 no se muestra en la interfaz de usuario del archivo DITA duplicado.

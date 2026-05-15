@@ -1,60 +1,70 @@
 ---
-title: Create, edit, duplicate, or remove an output preset
-description: Learn how to create, edit, duplicate, and delete a custom output preset in AEM Guides.
+title: Crear, editar, duplicar o quitar un ajuste preestablecido de salida
+description: Obtenga información sobre cómo crear, editar, duplicar y eliminar un ajuste preestablecido de salida personalizado en AEM Guides.
 feature: Publishing
 role: User
 hide: true
 exl-id: f770dd7e-0c52-4a97-ba93-ddd12832d5ae
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/qILDm6Hx7RyXzGovanwbKV-yPwuBOfrbPAOSvjOEWvs
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: 327
 ht-degree: 0%
 
 ---
 
-# Create, edit, duplicate, or remove an output preset {#id205BEH0K09Z}
+# Crear, editar, duplicar o quitar un ajuste preestablecido de salida {#id205BEH0K09Z}
 
-## Create a custom output preset
+## Crear un ajuste preestablecido de salida personalizado
 
-Perform the following steps to create a custom output preset:
+Siga estos pasos para crear un ajuste preestablecido de salida personalizado:
 
-1. In the Assets UI, navigate to and click on any DITA map to open the DITA map console.
+1. En la interfaz de usuario de Assets, vaya a y haga clic en cualquier mapa DITA para abrir la consola de mapas DITA.
 
-1. Ensure that the Output Presets tab is selected. Click Create in the toolbar.
+1. Asegúrese de que la pestaña Ajustes preestablecidos de salida esté seleccionada. Haga clic en Crear en la barra de herramientas.
 
-   A blank output preset creation form is displayed.
+   Se muestra un formulario de creación de ajustes preestablecidos de salida en blanco.
 
-1. Enter the required details for the type of preset you want to create.
+1. Introduzca los detalles necesarios para el tipo de ajuste preestablecido que desea crear.
 
-1. Click Done to save the preset settings.
-
-
-## Edit an output preset
-
-Perform the following steps to edit an existing output preset:
-
-1. In the Assets UI, navigate to and click on any DITA map to open the DITA map console.
-
-1. Ensure that the Output Presets tab is selected.
-
-1. Click on the output preset that you want to edit. Click Edit in the toolbar.
-
-   An editable output preset form is displayed with values of the selected output preset.
-
-1. Change the required details.
-
-1. Click Done to save the edited preset settings.
+1. Haga clic en Listo para guardar los ajustes preestablecidos.
 
 
-## Duplicate an output preset
+## Edición de un ajuste preestablecido de salida
 
-Perform the following steps to duplicate an existing output preset:
+Siga estos pasos para editar un ajuste preestablecido de salida existente:
 
-1. In the Assets UI, navigate to and click on any DITA map to open the DITA map console.
+1. En la interfaz de usuario de Assets, vaya a y haga clic en cualquier mapa DITA para abrir la consola de mapas DITA.
 
-1. Ensure that the Output Presets tab is selected.
+1. Asegúrese de que la pestaña Ajustes preestablecidos de salida esté seleccionada.
 
-1. Click on the output preset that you want to duplicate. Haga clic en Duplicar en la barra de herramientas.
+1. Haga clic en el ajuste preestablecido de salida que desee editar. Haga clic en Editar en la barra de herramientas.
+
+   Se mostrará un formulario de ajuste preestablecido de salida editable con los valores del ajuste preestablecido de salida seleccionado.
+
+1. Cambie los detalles necesarios.
+
+1. Haga clic en Listo para guardar los ajustes preestablecidos editados.
+
+
+## Duplicación de un ajuste preestablecido de salida
+
+Realice los siguientes pasos para duplicar un ajuste preestablecido de salida existente:
+
+1. En la interfaz de usuario de Assets, vaya a y haga clic en cualquier mapa DITA para abrir la consola de mapas DITA.
+
+1. Asegúrese de que la pestaña Ajustes preestablecidos de salida esté seleccionada.
+
+1. Haga clic en el ajuste preestablecido de salida que desee duplicar. Haga clic en Duplicar en la barra de herramientas.
 
    Se mostrará un formulario de ajuste preestablecido de salida editable con los valores del ajuste preestablecido de salida seleccionado.
 

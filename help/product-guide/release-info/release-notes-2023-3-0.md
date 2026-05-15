@@ -4,10 +4,22 @@ description: Lanzamiento de Adobe Experience Manager Guides as a Cloud Service e
 exl-id: 6a0bba92-7d7d-4b20-ad46-0eacc91268da
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/eIPiGBWr-vxglYwzI0zYT64a4orZXm42hWthchmcceU
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 0%
+source-wordcount: 565
+ht-degree: 2%
 
 ---
 
@@ -30,10 +42,10 @@ Actualice la configuración actual de AEM Guides as a Cloud Service realizando l
 Realice los siguientes pasos para indexar el contenido existente y utilizar el nuevo texto de buscar y reemplazar en el nivel de asignación:
 
 * Ejecute una petición POST en el servidor (con la autenticación correcta): `http://<server:port>/bin/guides/map-find/indexing`.
-(Opcional: puede pasar rutas específicas de los mapas para indexarlas, de forma predeterminada se indexarán todas las asignaciones || Ejemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+(Opcional: puede pasar rutas específicas de los mapas para indexarlas, de forma predeterminada se indexarán todas las asignaciones Ejemplo de || : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(Por ejemplo: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+(Por ejemplo: http://&lt;_localhost:8080_/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
 * Una vez completado el trabajo, la solicitud de GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
 
@@ -61,7 +73,7 @@ Esta sección enumera la matriz de compatibilidad para las aplicaciones de softw
 A continuación se enumeran los errores corregidos en varias áreas:
 
 * El proceso Descargar PDF no funciona correctamente en el editor web. (11496)
-* Salida JSON | La asignación de metadatos con valor de propiedad como `"value in spaces and double quotes"` produce un error de publicación. (11438)
+* Salida JSON | Asignar metadatos que tienen el valor de propiedad como `"value in spaces and double quotes"` conduce a un error de publicación. (11438)
 * La inserción de archivos multimedia de audio y vídeo falla en el formato YouTube bajo el icono **Insertar multimedia**. (11320)
 * El error de validación se produce cuando se crea un mapa con la plantilla que tiene un elemento de título especializado. (11212)
 * PDF nativo | la nota al pie presente en el encabezado de la tabla lleva a texto en negrita y alineado al centro en el pie de página correspondiente dentro de la salida de PDF. (10610)

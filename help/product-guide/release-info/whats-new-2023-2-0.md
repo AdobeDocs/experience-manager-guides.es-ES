@@ -1,12 +1,23 @@
 ---
-title: Notas de versión | Adobe Experience Manager Guides as a Cloud Service, versión de febrero de 2023
+title: Notas de versión | Adobe Experience Manager Guides as a Cloud Service, febrero de 2023
 description: Lanzamiento de Adobe Experience Manager Guides as a Cloud Service en febrero
 exl-id: 090eaf94-fe3a-47e9-9937-f84f8434550d
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+TQID: https://experienceleague.adobe.com/8alpUFz4njJtpUZrGcZ5wdrbmqSGOjSVqaHX1T4YeJ4
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: 1445
 ht-degree: 0%
 
 ---
@@ -43,7 +54,7 @@ También puede generar el CSV para descargar la instantánea actual de los eleme
 
 ## Experiencia de usuario modificada para la funcionalidad de revisión
 
-AEM Ahora, las guías de usuario de proporcionan un UX mejorado que le ayuda a revisar los temas compartidos para su revisión. En la experiencia más reciente, la funcionalidad de revisión presenta las siguientes mejoras:
+Ahora, las guías de AEM proporcionan un UX mejorado que le ayuda a revisar los temas compartidos para su revisión. En la experiencia más reciente, la funcionalidad de revisión presenta las siguientes mejoras:
 
 * Interfaz de usuario actualizada
 * Panel Condiciones que le permite resaltar el contenido según las condiciones disponibles en el tema
@@ -87,7 +98,7 @@ Algunas de las referencias del panel de traducción pueden estar en curso. Ahora
 
 ## Generar resultados en varios formatos desde el editor web
 
-Ahora puede generar fácilmente el resultado de sus temas o mapa DITA desde el Editor Web. AEM Puede configurar varios ajustes preestablecidos de salida como Sitio, PDF, HTML 5, etc., de forma que se puedan configurar varios ajustes preestablecidos.
+Ahora puede generar fácilmente el resultado de sus temas o mapa DITA desde el Editor Web. Puede configurar varios ajustes preestablecidos de salida como AEM Site, PDF, HTML5,
 JSON (un formato de salida sin encabezado) y salida personalizada. A continuación, puede utilizarlas para generar los resultados respectivos.
 
 Puede definir atributos en los temas DITA y, a continuación, utilizar el ajuste preestablecido de condición para aplicar una condición al publicar la salida. También se puede utilizar la función de publicación Línea base para publicar selectivamente una versión específica del tema o mapa DITA.
@@ -126,23 +137,23 @@ El nuevo microservicio de publicación le permite ejecutar grandes cargas de tra
 
 Para cada solicitud de publicación, AEM Guides as a Cloud Service ejecuta un contenedor independiente que se adapta horizontalmente según las solicitudes de los usuarios. Esto le permite ejecutar varias solicitudes de publicación y obtener un rendimiento mejorado.
 
-Para obtener más información, consulte [Configurar la nueva publicación basada en microservicios para AEM Guides as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
+Para obtener más información, consulte [Configuración de una nueva publicación basada en microservicios para AEM Guides as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
 
-## PDF nativo | Añadir un marcador personalizado en la salida del PDF
+## PDF nativo | Añadir un marcador personalizado en la salida de PDF
 
-Ahora puede agregar un marcador personalizado a un contenido en particular en la salida final del PDF para facilitar la navegación. Se añadirá al índice creado a partir de los títulos de temas o secciones del mapa DITA.
+Ahora puede agregar un marcador personalizado a un contenido en particular en la salida final de PDF para facilitar la navegación. Se añadirá al índice creado a partir de los títulos de temas o secciones del mapa DITA.
 
-## PDF nativo | Aplicar un estilo personalizado a las entradas del índice y al contenido del tema
+## PDF nativo | Aplicar estilo personalizado en entradas del índice y contenido del tema
 
-AEM Guides proporciona la función para aplicar un estilo personalizado en las entradas de la tabla de contenido o en un tema concreto de la salida del PDF. Por ejemplo, puede cambiar el color del texto de la tabla de contenido y el título del tema. También puede aplicar estilos a todo el contenido dentro del tema.
+AEM Guides proporciona la función para aplicar un estilo personalizado en las entradas de la tabla de contenido o en un tema en particular de la salida de PDF. Por ejemplo, puede cambiar el color del texto de la tabla de contenido y el título del tema. También puede aplicar estilos a todo el contenido dentro del tema.
 
 
 ## PDF nativo | Aplicar estilo al marcador de página en el componente de nota al pie
 
 Ahora puede aplicar estilo al marcador de página en las notas al pie. Por ejemplo, puede agregar corchetes o cambiar su color. Estos estilos ayudan a los usuarios a identificar fácilmente los marcadores de página del documento.
 
-## PDF nativo | Cambiar barra para indicar los temas cambiados en la tabla de contenido
+## PDF nativo | Barra de cambios para indicar los temas modificados en la Tabla de contenido
 
-AEM Guides ahora le permite identificar rápidamente los temas modificados en la TDC de la salida del PDF.  Muestra una barra de cambios a la izquierda de los temas modificados en el índice. Puede hacer clic en el tema del índice y ver los cambios detallados.
+AEM Guides ahora le permite identificar rápidamente los temas modificados en la TDC de la salida de PDF.  Muestra una barra de cambios a la izquierda de los temas modificados en el índice. Puede hacer clic en el tema del índice y ver los cambios detallados.
 
 <img src="assets/change-marker-toc.png" alt="Cambiar marcador en TDC " width="500">

@@ -4,10 +4,30 @@ description: Obtenga información acerca de las correcciones de errores y cómo 
 feature: Release Notes
 role: Leader
 exl-id: 63efe42a-b817-49df-8f76-df8d7acf9194
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/dswxcBt1RlZEgMOSEay8bmaQxtgb8kjeSHxKxnGp3g8
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 1%
+source-wordcount: 1341
+ht-degree: 3%
 
 ---
 
@@ -91,7 +111,7 @@ Realice los siguientes pasos para posprocesar el contenido existente y utilizar 
 
 Realice los siguientes pasos para indexar el contenido existente y utilice el nuevo texto de buscar y reemplazar en el nivel de asignación y en la lista de temas de la pestaña Informes:
 
-1. Ejecute una petición POST en el servidor (con la autenticación correcta): `http://<server:port>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de los mapas para indexarlas, de forma predeterminada se indexarán todas las asignaciones|| Por ejemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+1. Ejecute una petición POST en el servidor (con la autenticación correcta): `http://<server:port>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de las asignaciones para indexarlas, de forma predeterminada se indexarán todas las asignaciones|| Por ejemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 1. También se puede pasar una carpeta raíz para indexar las asignaciones DITA de una carpeta específica (y sus subcarpetas). Por ejemplo, `http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test`. Tenga en cuenta que si se pasan tanto el parámetro de rutas como el parámetro raíz, solo se tendrá en cuenta el parámetro de rutas.
 
@@ -143,7 +163,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 
 ### Creación
 
-- El **Título** de la ficha Editor web se trunca después de un carácter de punto (.). (14372)
+- El **Título** de la ficha Editor web se trunca después de un punto (.) carácter. (14372)
 - No se ha actualizado la mensajería de error para nombres de mapa duplicados en la IU de Assets. (14320)
 - Se produce un error en la lógica de creación de versiones al arrastrar y soltar recursos. (14291)
 - El contenido reutilizable omite los ID de elemento. (14213)

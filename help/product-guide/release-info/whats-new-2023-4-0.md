@@ -4,9 +4,21 @@ description: Lanzamiento de Adobe Experience Manager Guides as a Cloud Service e
 exl-id: 269e3a13-584d-4cff-a18a-d4fa89646a5a
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+TQID: https://experienceleague.adobe.com/c1aOcwHgxAs11yAalOnlW-ghsTP1Or32TnBwLsc59-M
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: 386
 ht-degree: 0%
 
 ---
@@ -17,13 +29,13 @@ Este artículo cubre las funciones nuevas y mejoradas de la versión de abril de
 
 Para obtener más información sobre las instrucciones de actualización, la matriz de compatibilidad y los problemas corregidos en esta versión, consulte el artículo [Notas de la versión](release-notes-2023-4-0.md).
 
-## Compatibilidad de metadatos avanzada en la publicación de PDF
+## Compatibilidad con metadatos avanzados en la publicación de PDF
 
-AEM Guides ahora proporciona compatibilidad avanzada con los metadatos asignados a los metadatos en la salida del PDF. Las opciones de metadatos incluyen información sobre el documento y su contenido, como el nombre del autor, el título del documento, las palabras clave, la información de copyright y otros campos de datos.
+AEM Guides ahora proporciona compatibilidad avanzada con los metadatos asignados a los metadatos de la salida de PDF. Las opciones de metadatos incluyen información sobre el documento y su contenido, como el nombre del autor, el título del documento, las palabras clave, la información de copyright y otros campos de datos.
 
 <img src="assets/pdf-metadata.png" alt=" metadatos pdf nativos">
 
-XMP Puede importar un archivo de y AEM Guides puede elegir la información del archivo. También tiene la opción de proporcionar los nombres y valores de los metadatos mediante la lista desplegable. También puede agregar metadatos personalizados escribiendo directamente en el campo de nombre.
+Puede importar un archivo de XMP y AEM Guides puede elegir la información del archivo. También tiene la opción de proporcionar los nombres y valores de los metadatos mediante la lista desplegable. También puede agregar metadatos personalizados escribiendo directamente en el campo de nombre.
 
 
 ## Panel de vista de esquema mejorada
@@ -43,5 +55,5 @@ La vista Esquema proporciona las siguientes mejoras:
 
 AEM Guides as a Cloud Service proporciona la función para ejecutar grandes cargas de trabajo de publicación simultáneamente con publicaciones basadas en microservicios y aprovechar la plataforma sin servidor de Adobe I/O Runtime líder en el sector.
 
-Ahora, en la versión de abril, puede ejecutar varias solicitudes de publicación simultáneamente y generar salidas de PDF masivas de forma muy eficaz mediante la publicación de PDF nativos basada en microservicios.
-Para obtener más información, consulte [Configurar la nueva publicación basada en microservicios para AEM Guides as a Cloud Service](../knowledge-base/publishing/configure-microservices.md).
+Ahora, en la versión de abril, puede ejecutar varias solicitudes de publicación a la vez y generar salidas masivas de PDF de forma muy eficaz mediante la publicación nativa de PDF basada en microservicios.
+Para obtener más información, consulte [Configuración de una nueva publicación basada en microservicios para AEM Guides as a Cloud Service](../knowledge-base/publishing/configure-microservices.md).

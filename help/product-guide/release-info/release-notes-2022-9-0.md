@@ -4,10 +4,23 @@ description: Versión de septiembre de Adobe Experience Manager Guides as a Clou
 exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/vzzg-FlQ0IsMKzYDYcIJjh9hGRnuzV-tiuMa7tvO85o
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 0%
+source-wordcount: 1300
+ht-degree: 3%
 
 ---
 
@@ -24,7 +37,7 @@ Actualice la configuración actual de Adobe Experience Manager Guides as a Cloud
 
 Realice los siguientes pasos para indexar el contenido existente y utilice el nuevo texto de búsqueda y reemplazo a nivel de mapa:
 * Ejecute una petición POST en el servidor (con la autenticación correcta): `http://<server:port>/bin/guides/map-find/indexin`.
-(Opcional: puede pasar rutas específicas de los mapas para indexarlas, de forma predeterminada se indexarán todas las asignaciones ||  Ejemplo :   `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+(Opcional: puede pasar rutas específicas de los mapas para indexarlas, de forma predeterminada se indexarán todas las asignaciones Ejemplo de || : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 * La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (Por ejemplo: `http://<_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)`
 * Una vez completado el trabajo, la solicitud de GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
@@ -75,7 +88,7 @@ De forma predeterminada, las opciones **Desproteger archivo antes de reemplazar*
 ### Ver la diferencia de versión de los archivos sin sincronizar en el panel de traducción
 
 Ahora puede elegir traducir los archivos de **Fuera de sincronización** en función de los cambios realizados entre las dos versiones de un tema.\
-![Panel de traducción](assets/translation-version-diff.png)
+![Tablero de traducción](assets/translation-version-diff.png)
 En el panel de traducción puede ver fácilmente las diferencias entre la última versión traducida y la versión actual del archivo seleccionado.
 
 ![cuadro de diálogo de diferencia de versión](assets/version-diff.png)
@@ -95,7 +108,7 @@ Estos metadatos anulan los metadatos definidos en el nivel de libro. Puede defin
 A continuación se enumeran los errores corregidos en varias áreas:
 
 * Editor web | Al mover elementos dentro de un tema, los ID asignados en los elementos se sobrescriben con los ID asignados automáticamente. (7895)
-* Control de cambios | Se pierde contenido cuando se introduce un nuevo elemento con la tecla Intro. (10246)
+* Control de cambios | El contenido se pierde cuando se introduce un nuevo elemento con la tecla Intro. (10246)
 * No se está creando el submapa al que se hace referencia en el mapa principal de dita-templates. (10231)
 * Editor XML | Copiar y pegar no funciona en el modo de autor. (10309)
 * Una vez seleccionadas, no se anulará la selección de varias etiquetas de versión. (9561)
@@ -112,15 +125,15 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * Buscar y reemplazar | El modo oscuro no se puede leer para los resultados de búsqueda en el editor web. (9978)
 * Traducción | Los metadatos y las etiquetas no se propagan a las copias traducidas. (4696)
 * Copiar y pegar contenido (ctrl+c/ctrl+v) genera un error en el modo Autor. (10304)
-* Plantilla de PDF | Al agregar imágenes de fondo a cualquier diseño de página, se muestra la ruta de imagen absoluta y las imágenes no se muestran en el PDF de salida. (10297)
+* Plantilla de PDF | Al agregar imágenes de fondo a cualquier diseño de página, se muestra Ruta de imagen absoluta y las imágenes no se muestran en el PDF de salida. (10297)
 * PDF nativo | El título y el encabezado del capítulo no funcionan en la publicación de PDF. (9947)
 * PDF nativo | `xref` para un concepto no se ha resuelto correctamente para un tema DITA específico. (10229)
-* PDF nativo | No se puede ver el texto de rótulo de una tabla en la salida de PDF generada. (9827)
-* PDF nativo | Las referencias en los apéndices no se muestran como apéndices en la salida de PDF. (10182)
+* PDF nativo | No se puede ver el texto del pie de ilustración de una tabla en la salida de PDF generada. (9827)
+* PDF nativo | Las referencias de los apéndices no se muestran como apéndices en la salida de PDF. (10182)
 * PDF nativo | El atributo Frame de una tabla no se propaga al HTML temporal (como clase). (10353)
-* PDF nativo | los ficheros HTML temporales añaden las clases colsep y rowsep a td y el incluso si su valor es 0 en el DITA de origen. (10352)
-* PDF nativo |  No se aceptan los metadatos para los criterios agregados en el diseño de página. (10377)
-* PDF nativo |  La generación de PDF falla en un contenido específico. (9927)
+* PDF nativo | los archivos HTML temporales añaden las clases colsep y rowsep a td y el incluso si su valor es 0 en el DITA de origen. (10352)
+* PDF nativo | No se respetan los metadatos para los criterios añadidos en el diseño de página. (10377)
+* PDF nativo | La generación de PDF falla en un contenido específico. (9927)
 * PDF nativo | El contenido a través de conkeyref no se muestra en la salida de PDF. (9836)
 * PDF nativo | Las referencias clave para los valores de clave con imágenes o vínculos externos no se resuelven. (10063)
 * La vista Autor de un mapa no muestra el texto de marcador de posición de la lista de tablas y la lista de figuras. (10330)
@@ -137,4 +150,4 @@ Adobe ha identificado los siguientes problemas conocidos para la versión de sep
 
 * La línea de base dinámica no está integrada con la publicación de la base de conocimiento.
 
-* Traducción | Aparece el icono Diferencia de versión para el contenido de origen debido a cualquier cambio en el contenido de destino.
+* Traducción El icono | Diferencia de versión aparece para el contenido de origen debido a cualquier cambio en el contenido de destino.

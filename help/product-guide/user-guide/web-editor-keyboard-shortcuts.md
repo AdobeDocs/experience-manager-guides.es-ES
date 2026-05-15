@@ -4,10 +4,21 @@ description: Descubra los métodos abreviados de teclado que ahorran tiempo en e
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: e5f4dc964a31d3bc23db166ee391e5e3550d8cbc
+TQID: https://experienceleague.adobe.com/3u3ETVTHNxLFM0l6-8-GHXJgwRtOpXaSDVCb3XLLkUk
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 0%
+source-wordcount: 360
+ht-degree: 1%
 
 ---
 
@@ -37,8 +48,8 @@ Hay muchas operaciones en el Editor que puede realizar con los métodos abreviad
 | Mover el cursor una palabra a la derecha. | ***Ctrl***+***Flecha derecha*** | ***Opción***+***Flecha derecha*** |
 | Mover el cursor al principio de la línea actual. | ***Hogar*** | ***Comando***+***Flecha izquierda*** |
 | Mover el cursor al final de la línea actual. | **Fin** | ***Comando***+***Flecha derecha*** |
-| Mover el cursor al principio del siguiente elemento. | ***Ficha*** | ***Ficha*** |
-| Aplicar sangría al elemento de la lista al siguiente nivel. | ***Ficha*** | ***Ficha*** |
+| Mover el cursor al principio del siguiente elemento. | ***Pestaña*** | ***Pestaña*** |
+| Aplicar sangría al elemento de la lista al siguiente nivel. | ***Pestaña*** | ***Pestaña*** |
 | Mover el cursor al final del elemento anterior. | ***Mayús***+***Tabulación*** | ***Mayús***+***Tabulación*** |
 | Anular la sangría del elemento de lista al nivel anterior. | ***Mayús***+***Tabulación*** | ***Mayús***+***Tabulación*** |
 | Sangría automática de XML en la vista de Source | ***Ctrl***+***Alt***+***L*** | ***Comando***+***Opción***+***L*** |

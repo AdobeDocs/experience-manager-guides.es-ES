@@ -1,23 +1,38 @@
 ---
-title: Flujo de trabajo de generación de Post
+title: Flujo de trabajo de generación posterior
 description: Resumen del flujo de trabajo de generación posterior con un ejemplo
 exl-id: e19fdc0b-0ec6-46ce-81ed-e9490d12c029
 feature: Workflow Configuration
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+TQID: https://experienceleague.adobe.com/GmpUvIwR5aDOIQ4RNUXoeOeQB3MrueRuxpvYBwYev4I
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: b455a250-64c4-4598-b015-7b6b6dc528b1
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: 327
 ht-degree: 2%
 
 ---
 
-# Publicación de AEM Guides: flujo de trabajo de generación de Post
+# Publicación de AEM Guides: flujo de trabajo de generación posterior
 
 AEM Guides le ofrece la flexibilidad de especificar un flujo de trabajo de generación posterior a la salida. Puede realizar algunas tareas de posprocesamiento en la salida que se genera mediante AEM Guides.
-Por ejemplo, es posible que desee establecer ciertas propiedades en la salida del PDF o que desee enviar un correo electrónico a un conjunto de usuarios una vez generada la salida.
+Por ejemplo, es posible que desee establecer ciertas propiedades en la salida de PDF o que desee enviar un correo electrónico a un conjunto de usuarios una vez generada la salida.
 
 
-## Pasos necesarios para utilizar los flujos de trabajo de generación de Post
+## ¿Cuáles son los pasos necesarios para utilizar los flujos de trabajo de generación posterior?
 
 ### Creación de un proceso de flujo de trabajo
 
@@ -29,18 +44,18 @@ Cree un proceso de flujo de trabajo basado en Java o ECMA que realice la operaci
 ### Crear un modelo del flujo de trabajo
 
 Con el proceso de flujo de trabajo personalizado que creó en el paso anterior, cree un modelo de flujo de trabajo y agréguele ese paso de proceso.
-- También debe agregar un paso de proceso obligatorio &quot;*Finalizar la generación de Post*&quot; como último paso del flujo de trabajo.
+- También debe agregar un paso de proceso obligatorio &quot;*Finalizar generación posterior*&quot; como último paso del flujo de trabajo.
 
 Consulte el modelo de flujo de trabajo de muestra siguiente:
 
-![Modelo de flujo de trabajo de generación de Post](../assets/workflows/pgwf-workflow-model.png)
+![Modelo de flujo de trabajo de generación posterior](../assets/workflows/pgwf-workflow-model.png)
 
 
 ### Usar este flujo de trabajo de generación posterior en un mapa
 
-El flujo de trabajo de generación de Post es una propiedad que se puede configurar en cualquier ajuste preestablecido de salida dentro del mecanismo de publicación de AEM Guides. Ejemplo:
+El flujo de trabajo de generación de publicaciones es una propiedad que se puede configurar en cualquier ajuste preestablecido de salida dentro del mecanismo de publicación de AEM Guides. Ejemplo:
 
-![Flujo de trabajo de generación de Post en el ajuste preestablecido de salida](../assets/workflows/pgwf-preset-settings.png)
+![Flujo de trabajo de generación de publicaciones en el ajuste preestablecido de salida](../assets/workflows/pgwf-preset-settings.png)
 
 
 Suponiendo que el modelo seleccionado ya se ha creado.

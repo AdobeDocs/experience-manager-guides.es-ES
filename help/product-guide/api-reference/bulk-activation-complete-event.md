@@ -5,18 +5,24 @@ feature: Bulk Activation Event Handler
 role: Developer
 level: Experienced
 exl-id: 08b153d7-3d13-4804-9e3e-38790dbea1f3
-source-git-commit: 9b8971bf7065a94a2e42669094249c822c555718
+TQID: https://experienceleague.adobe.com/M8Q8A8auCkKjmoilHsUfU2ztNSCxOWstwPC1bMLmvD0
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: 185
 ht-degree: 6%
 
 ---
 
 # Controlador de eventos de activación masiva completa
 
-Experience Manager Guides expone el evento `com/adobe/fmdita/replication/complete` que se usa para realizar cualquier operación después de la finalización de un proceso de activación en masa. Este evento se activa cada vez que se completa un proceso de activación masiva. AEM Por ejemplo, si ejecuta la activación masiva de un ajuste preestablecido de sitio de un mapa de, se llama a este evento una vez que finaliza el proceso de activación.
+Experience Manager Guides expone el evento `com/adobe/fmdita/replication/complete` que se usa para realizar cualquier operación después de la finalización de un proceso de activación en masa. Este evento se activa cada vez que se completa un proceso de activación masiva. Por ejemplo, si ejecuta la activación masiva de un ajuste preestablecido de sitio AEM de un mapa, se llama a este evento una vez finalizado el proceso de activación.
 
-AEM Es necesario crear un controlador de eventos de tipo para leer las propiedades disponibles en este evento y realizar un procesamiento posterior.
+Debe crear un controlador de eventos AEM para leer las propiedades disponibles en este evento y realizar un procesamiento posterior.
 
 Los detalles del evento se explican a continuación:
 

@@ -1,23 +1,38 @@
 ---
-title: Publicación de PDF nativo "Hands on lab - BYOS" - Aprendizaje interactivo
-description: Esta sesión "Práctica en el laboratorio - BYOS" ofrece una exploración exhaustiva de la publicación de PDF nativos. Explore diferentes casos de uso, aproveche las funciones clave y póngase en contacto directamente con los expertos en Adobe para abordar las declaraciones y los requisitos específicos de sus problemas.
+title: Publicación nativa de PDF "Hands on lab - BYOS" - Aprendizaje interactivo
+description: Esta sesión "Práctica en Lab - BYOS" ofrece una exploración exhaustiva de la publicación nativa de PDF. Explore diferentes casos de uso, aproveche las funciones clave y póngase en contacto directamente con los expertos de Adobe para solucionar los problemas y requisitos específicos.
 exl-id: 55c276d8-8611-4050-be5f-7f9854f94228
 feature: Native PDF Output
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+TQID: https://experienceleague.adobe.com/nPgfochzBl2Zv5ANSYE1q-I6PiYiAONbuOV-qfkVtA8
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: 407
 ht-degree: 0%
 
 ---
 
-# Publicación de PDF nativo &quot;Hands on lab - BYOS&quot; - Aprendizaje interactivo
+# Publicación nativa de PDF &quot;Hands on lab - BYOS&quot; - Aprendizaje interactivo
 
-Esta sesión &quot;Práctica en el laboratorio - BYOS&quot; ofrece una exploración exhaustiva de la publicación de PDF nativos. Explore diferentes casos de uso, aproveche las funciones clave y póngase en contacto directamente con los expertos en Adobe para abordar las declaraciones y los requisitos específicos de sus problemas.
+Esta sesión &quot;Práctica en Lab - BYOS&quot; ofrece una exploración exhaustiva de la publicación nativa de PDF. Explore diferentes casos de uso, aproveche las funciones clave y póngase en contacto directamente con los expertos de Adobe para solucionar los problemas y requisitos específicos.
 
 ## Resumen de sesión
 
-En esta sesión, obtendrá información valiosa sobre la publicación de PDF nativos, que cubre una amplia gama de temas, desde el uso de metadatos en la salida del PDF hasta técnicas avanzadas de resolución de problemas. Comprenda los desarrollos recientes, analice casos de uso o requisitos específicos en PDF nativos con expertos en Adobe para mejorar sus capacidades de publicación.
+En esta sesión, obtendrá información valiosa sobre la publicación nativa de PDF, que cubre una amplia gama de temas, desde el uso de metadatos en la salida de PDF hasta técnicas avanzadas de resolución de problemas. Comprenda los desarrollos recientes, analice casos de uso o requisitos específicos en PDF nativo con expertos en Adobe para mejorar sus capacidades de publicación.
 
 ## Grabación de sesión
 
@@ -32,7 +47,7 @@ En esta sesión, obtendrá información valiosa sobre la publicación de PDF nat
 
 ## Puntos clave
 
-En esta sesión, aprendió lo siguiente sobre la publicación de PDF nativos:
+En esta sesión, aprendió lo siguiente para la publicación nativa de PDF:
 
 - Utilice recursos o metadatos DITA en la salida.
 - Trabajar con elementos de nota, tabla, imágenes y nota al pie.
@@ -40,19 +55,19 @@ En esta sesión, aprendió lo siguiente sobre la publicación de PDF nativos:
 - Referencias cruzadas a tablas, figuras, encabezados, párrafos.
 - Uso de variables para configurar objetos DITA para salida localizada.
 - Opciones para el formato de página, estilo, marcas de agua condicionales, etc.
-- Solución de problemas con el HTML intermedio.
-- Migración al motor de PDF nativo.
+- Solución de problemas con HTML intermedio.
+- Migración al motor nativo de PDF.
 - Opciones/características para Manuales de coches.
 - Desarrollos recientes, como variables de lenguaje, editor CSS rediseñado y mucho más.
 
 
 ## Recursos relacionados
 
-- **Pasos de configuración del PDF nativo** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=es)
+- **Pasos nativos de configuración de PDF** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=es)
 
-- **Información general funcional sobre la publicación de PDF nativos** - [en el Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=es)
+- **Información general funcional de la publicación nativa de PDF** - [en Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=es)
 
-- **Casos de uso común documentados** - [en el Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=es)
+- **Casos de uso común documentados** - [en Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=es)
 
 - **Foro de la comunidad**: para interacciones de la comunidad específicas de la sesión en Experience League, visita [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=es).
 
@@ -60,7 +75,7 @@ En esta sesión, aprendió lo siguiente sobre la publicación de PDF nativos:
 >
 > Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de AEM Guides:
 > - Local 4.2 o posterior
-> - Cloud Service 2309 y posterior
+> - Cloud Services 2309 y posterior
 
 ## Próxima sesión de expertos
 

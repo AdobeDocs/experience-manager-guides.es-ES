@@ -4,9 +4,23 @@ description: Aprenda a añadir estilos personalizados para cambiar la apariencia
 exl-id: 03143fb2-d05d-4103-b172-8b91880b7f9e
 feature: Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+TQID: https://experienceleague.adobe.com/uQc8TTz7dHxbN6-zbin-esQevLoJR-IMR1hchrwEs8M
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: 300
 ht-degree: 0%
 
 ---
@@ -34,11 +48,11 @@ Comprendamos esto con un ejemplo en el que queremos mostrar la descripción brev
 
 Use los perfiles de carpeta para comprobar *css_layout.css* en la pestaña &quot;Configuración del editor XML&quot; y agregar el archivo CSS con estilos personalizados
 
-[use este vínculo para obtener más información sobre el perfil de carpeta y la configuración del diseño de la plantilla CSS](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=es#customize-the-css-template-layout)
+[utilice este vínculo para obtener más información sobre el perfil de carpeta y la configuración del diseño de la plantilla CSS](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=es#customize-the-css-template-layout)
 
 Utilice lo siguiente para configurar el estilo anterior en el editor web:
 - Use [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) y cárguelo en el perfil de carpeta que elija
-- AEM Instale el paquete adjunto [webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) mediante el administrador de paquetes para instalar los recursos utilizados en el archivo CSS anterior
+- Instale el paquete adjunto [webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) mediante el administrador de paquetes de AEM para instalar los recursos utilizados en el archivo CSS anterior
 
 ```
 This will install the resources at path "/content/dam/resources" which will include sub-folders "fonts" and "images"

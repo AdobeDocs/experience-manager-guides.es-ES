@@ -1,11 +1,23 @@
 ---
-title: Notas de versión | Instrucciones de actualización para la versión de Adobe Experience Manager Guides 4.6.0 Service Pack 1
+title: Notas de versión | Instrucciones de actualización para el paquete de servicio 1 de Adobe Experience Manager Guides 4.6.0
 description: Obtenga información sobre cómo actualizar al paquete de servicio 1 versión 4.6.0 de Adobe Experience Manager Guides
 role: Leader
 exl-id: 26ac7ed8-2d3f-40f6-af72-7868b88e218c
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/aEtRdFT-H1kJDnLroH3XS1rNcmxJcGBkBXODQFQpfl4
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: 525
 ht-degree: 1%
 
 ---
@@ -25,7 +37,7 @@ Esta sección enumera la matriz de compatibilidad para las aplicaciones de softw
 **4.6.0 Service Pack 1 sin UUID**
 Paquete de servicio 21, 20 y 19 de la versión 6.5
 
-**4.6.0 Service Pack 1 UUID**
+UUID del paquete de servicio 1 de **4.6.0**
 Paquete de servicio 21, 20 y 19 de la versión 6.5
 
 Para obtener más información, consulte la sección [Requisitos técnicos](../install-guide/download-install-technical-requirements.md) en la Guía de instalación y configuración local.

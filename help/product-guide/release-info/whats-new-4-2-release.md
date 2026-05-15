@@ -4,9 +4,22 @@ description: Conozca las funciones nuevas y mejoradas de las versiones 4.2 de Ad
 exl-id: 46367ccf-58ff-4889-8314-cdd5bf5d0f1d
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+TQID: https://experienceleague.adobe.com/Ig3Lc-OGmHe83U44eEebdfUwquPqskLorbUgGX4JHJ4
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: 2435
 ht-degree: 0%
 
 ---
@@ -35,7 +48,7 @@ Puede aplicar etiquetas a un tema individual o utilizar la función de etiquetad
 
 ## Experiencia de usuario modificada para la funcionalidad de revisión
 
-AEM Ahora, las guías de usuario de proporcionan un UX mejorado que le ayuda a revisar los temas compartidos para su revisión. En la experiencia más reciente, la funcionalidad de revisión presenta las siguientes mejoras:
+Ahora, las guías de AEM proporcionan un UX mejorado que le ayuda a revisar los temas compartidos para su revisión. En la experiencia más reciente, la funcionalidad de revisión presenta las siguientes mejoras:
 
 * Interfaz de usuario actualizada
 * Panel Condiciones que le permite resaltar el contenido según las condiciones disponibles en el tema.
@@ -92,7 +105,7 @@ Para obtener más información, consulte la sección *Traducir documentos del ed
 
 ## Generar resultados en varios formatos desde el editor web
 
-Ahora puede generar fácilmente el resultado de sus temas o mapa DITA desde el Editor Web. AEM Puede configurar varios ajustes preestablecidos de salida como Sitio, PDF, HTML 5, etc., de forma que se puedan configurar varios ajustes preestablecidos.
+Ahora puede generar fácilmente el resultado de sus temas o mapa DITA desde el Editor Web. Puede configurar varios ajustes preestablecidos de salida como AEM Site, PDF, HTML5,
 JSON (un formato de salida sin encabezado) y salida personalizada. Utilícelos para generar los resultados correspondientes. Puede definir atributos en los temas DITA y, a continuación, utilizar el ajuste preestablecido de condición para aplicar una condición al publicar la salida. También se puede utilizar la función de publicación Línea base para publicar selectivamente una versión específica del tema o mapa DITA.
 
 **Administrar ajustes preestablecidos de salida del perfil global y de carpeta**
@@ -102,7 +115,7 @@ AEM Guides proporciona la función para crear y administrar ajustes preestableci
 <img alt="añadir ajuste preestablecido" src="assets/add-global-output-preset.png" width="400">
 
 
-Estos ajustes preestablecidos globales aparecen en la ficha **Output** de todas las asignaciones relacionadas. Puede utilizarlas para generar la salida de todas las asignaciones relacionadas. Puede seleccionar el ajuste preestablecido como ajuste preestablecido por defecto del PDF para generar la salida del PDF. También puede **Editar**, **Cambiar nombre**, **Duplicar** o **Eliminar** un ajuste preestablecido de salida existente del menú **Opciones**.
+Estos ajustes preestablecidos globales aparecen en la ficha **Output** de todas las asignaciones relacionadas. Puede utilizarlas para generar la salida de todas las asignaciones relacionadas. Puede seleccionar el ajuste preestablecido como ajuste preestablecido predeterminado de PDF para generar la salida de PDF. También puede **Editar**, **Cambiar nombre**, **Duplicar** o **Eliminar** un ajuste preestablecido de salida existente del menú **Opciones**.
 
 >[!NOTE]
 >
@@ -192,21 +205,21 @@ Ahora AEM Guides te permite elegir la opción **Usar título en el editor y el a
 
 ## IU de metadatos disponible para ajustes preestablecidos de PDF
 
-Puede definir los metadatos a partir del ajuste preestablecido de salida de un mapa DITA. Puede establecer los metadatos de Título, Autor, Asunto y Palabras clave. Estos metadatos se asignan a los metadatos de las propiedades de archivo del PDF de salida. Estos metadatos anulan los metadatos definidos en el nivel de libro. Puede definir los metadatos específicamente en cada ajuste preestablecido de salida y pasarlos al PDF de salida.
+Puede definir los metadatos a partir del ajuste preestablecido de salida de un mapa DITA. Puede establecer los metadatos de Título, Autor, Asunto y Palabras clave. Estos metadatos se asignan a los metadatos de las Propiedades del archivo de su PDF de salida. Estos metadatos anulan los metadatos definidos en el nivel de libro. Puede definir los metadatos específicamente en cada ajuste preestablecido de salida y pasarlos al PDF de salida.
 
 ## PDF nativo | PDF con barra de cambios que muestra la diferencia entre las versiones del documento
 
-Ahora puede crear un PDF que muestre las diferencias de contenido entre dos versiones con la barra de cambios. Puede elegir comparar la versión actual con una línea base de la versión anterior o comparar entre las dos versiones de línea base seleccionadas.
+Ahora puede crear una PDF que muestre las diferencias de contenido entre dos versiones mediante la barra de cambios. Puede elegir comparar la versión actual con una línea base de la versión anterior o comparar entre las dos versiones de línea base seleccionadas.
 
 <img src="assets/pdf-change-version.png" alt="pdf-change-version" width="600">
 
-Aparecerá una barra de cambios en el PDF para indicar el contenido modificado, insertado o eliminado. También tiene las opciones para hacer lo siguiente:
+Aparecerá una barra de cambios en PDF para indicar el contenido modificado, insertado o eliminado. También tiene las opciones para hacer lo siguiente:
 * Mostrar el contenido insertado en color verde y subrayado
 * Mostrar el contenido eliminado en color rojo y marcado con un tachado
 
-## PDF nativo | Compatibilidad de variables con ruta de salida y nombre de archivo del PDF
+## PDF nativo | Compatibilidad de variables con ruta de salida y nombre de archivo de PDF
 
-Ahora también puede utilizar las siguientes variables integradas para definir la ruta de salida y el archivo del PDF. Puede utilizar una sola variable o una combinación de ellas para definir estas opciones:
+Ahora también puede utilizar las siguientes variables integradas para definir la ruta de salida y el archivo PDF. Puede utilizar una sola variable o una combinación de ellas para definir estas opciones:
 * `${map_filename}`
 * `${map_title}`
 * `${preset_name}`
@@ -216,12 +229,12 @@ Ahora también puede utilizar las siguientes variables integradas para definir l
 
 ## PDF nativo | Generación de una tabla de contenido para mapas DITA y reordenación de diseños de página
 
-Ahora también se puede generar la tabla de contenido en mapas DITA utilizando un ajuste de PDF avanzado de la plantilla. Puede elegir habilitar o deshabilitar la visualización de los distintos diseños de página y también reordenar su posición.
+Ahora también se puede generar la tabla de contenido en mapas DITA utilizando una configuración avanzada de PDF de la plantilla. Puede elegir habilitar o deshabilitar la visualización de los distintos diseños de página y también reordenar su posición.
 
-## PDF nativo | Añadir un marcador personalizado en la salida del PDF
+## PDF nativo | Añadir un marcador personalizado en la salida de PDF
 
-Ahora puede agregar un marcador personalizado a un contenido en particular en la salida final del PDF para facilitar la navegación. Se añadirá al índice creado a partir de los títulos de temas o secciones del mapa DITA.
+Ahora puede agregar un marcador personalizado a un contenido en particular en la salida final de PDF para facilitar la navegación. Se añadirá al índice creado a partir de los títulos de temas o secciones del mapa DITA.
 
-## PDF nativo | Aplicar un estilo personalizado a las entradas del índice y al contenido del tema
+## PDF nativo | Aplicar estilo personalizado en entradas del índice y contenido del tema
 
-AEM Guides proporciona la función para aplicar un estilo personalizado en las entradas de la tabla de contenido o en un tema concreto de la salida del PDF. Por ejemplo, puede cambiar el color del texto de la tabla de contenido y el título del tema. También puede aplicar estilos a todo el contenido dentro del tema.
+AEM Guides proporciona la función para aplicar un estilo personalizado en las entradas de la tabla de contenido o en un tema en particular de la salida de PDF. Por ejemplo, puede cambiar el color del texto de la tabla de contenido y el título del tema. También puede aplicar estilos a todo el contenido dentro del tema.

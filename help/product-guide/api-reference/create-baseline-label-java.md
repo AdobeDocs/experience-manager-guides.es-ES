@@ -5,9 +5,19 @@ exl-id: 0e2ba1bb-f5bf-44da-848a-a55385460c83
 feature: Java-Based API Baseline
 role: Developer
 level: Experienced
-source-git-commit: 8c80a4da8e61909aab0f2db81ef97149774b36c4
+TQID: https://experienceleague.adobe.com/3vpR2zCp5a6dBn6RkSKgBeU7cS3Me-HE0KQxc-duYCk
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: 944
 ht-degree: 2%
 
 ---
@@ -64,11 +74,11 @@ throws GuidesApiException
 | Nombre | Tipo | Descripción |
 |----|----|-----------|
 | `session` | javax.jcr.Session | Una sesión JCR válida. La sesión de usuario debe tener permisos de lectura y escritura para el mapa DITA y permisos de lectura para todos los ficheros de referencia incluidos en la línea base. |
-| `sourcePath` | Cadena | AEM Ruta absoluta del fichero de mapa DITA en el repositorio de la. |
+| `sourcePath` | Cadena | Ruta absoluta del fichero de mapa DITA en el repositorio de AEM. |
 | `baselineTitle` | Cadena | Un título único para la línea de base. |
 | `label` | Cadena | Seleccione la versión de un tema que tenga aplicada la etiqueta determinada. |
-| `directContext` | LinkedHashMap&lt;String, Object\> | Las configuraciones en función de las cuales se selecciona el tema \(content\) al que se hace referencia directamente, se sigue el orden mencionado en el mapa para resolver una versión. <br> Si después de la iteración en todas las claves del mapa no se encuentra ninguna versión, el proceso de creación de la línea base falla. <br> Si el HashMap está vacío \(enviar mapa vacío y no nulo de forma predeterminada\), de forma predeterminada se rellena como: <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br> Si desea que la creación de la línea de base seleccione solamente la versión de una etiqueta determinada y falla si no existe dicha versión, coloque la clave `label` y la etiqueta en la que desea crear la línea de base. |
-| `indirectContext` | LinkedHashMap&lt;String, Object\> | Las configuraciones en función de las cuales se selecciona el tema \(contenido referenciado\) al que se hace referencia indirectamente; se sigue el orden mencionado en el mapa para resolver una versión. <br> Si después de la iteración en todas las claves del mapa no se encuentra ninguna versión, el proceso de creación de la línea base falla. <br> Si HashMap está vacío \(enviar mapa vacío y no nulo de forma predeterminada\), de forma predeterminada, se rellena como: <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> Si desea que sea la última versión en lugar de recoger una versión automáticamente, reemplace: <br>`indirectContext.put("pickAutomatically", null);` <br> _con:_ <br>`indirectContext.put("latest", true)` |
+| `directContext` | LinkedHashMap&lt;String, Object\> | Las configuraciones en función de las cuales se selecciona el tema \(content\) al que se hace referencia directamente, se sigue el orden mencionado en el mapa para resolver una versión. <br> Si después de la iteración en todas las claves del mapa no se encuentra ninguna versión, el proceso de creación de la instantánea falla. <br> Si el HashMap está vacío \(enviar mapa vacío y no nulo de forma predeterminada\), de forma predeterminada se rellena como: <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br> Si desea que la creación de la línea de base seleccione solamente la versión de una etiqueta determinada y falla si no existe dicha versión, coloque la clave `label` y la etiqueta en la que desea crear la línea de base. |
+| `indirectContext` | LinkedHashMap&lt;String, Object\> | Las configuraciones en función de las cuales se selecciona el tema \(contenido referenciado\) al que se hace referencia indirectamente; se sigue el orden mencionado en el mapa para resolver una versión. <br> Si después de la iteración en todas las claves del mapa no se encuentra ninguna versión, el proceso de creación de la instantánea falla. <br> Si el HashMap está vacío \(enviar mapa vacío y no nulo de forma predeterminada\), de forma predeterminada, se rellena como: <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> Si desea que sea la última versión en lugar de recoger una versión automáticamente, reemplace: <br>`indirectContext.put("pickAutomatically", null);` <br> _con :_<br>`indirectContext.put("latest", true)` |
 
 **Devuelve**:
 El nombre de la línea base, que es el nombre de nodo de la línea base en el repositorio JCR. El título de la línea base recién creada se mostrará al usuario en la página Línea base del mapa DITA.
@@ -91,7 +101,7 @@ Date versionDate) throws GuidesApiException
 | Nombre | Tipo | Descripción |
 |----|----|-----------|
 | `session` | javax.jcr.Session | Una sesión JCR válida. La sesión de usuario debe tener permisos de lectura y escritura para el mapa DITA y permisos de lectura para todos los ficheros de referencia incluidos en la línea base. |
-| ``sourcePath`` | Cadena | AEM Ruta absoluta del fichero de mapa DITA en el repositorio de la. |
+| ``sourcePath`` | Cadena | Ruta absoluta del fichero de mapa DITA en el repositorio de AEM. |
 | `baselineTitle` | Cadena | Un título único para la línea de base. |
 | `versionDate` | Fecha | La línea base se crea utilizando las versiones de los temas\(directamente referenciadas desde el mapa DITA\) en esta fecha. Especifique la fecha en formato `d-MM-yyyy H:mm`. |
 
@@ -120,9 +130,9 @@ public static void applyLabel(Session session,
 | Nombre | Tipo | Descripción |
 |----|----|-----------|
 | `session` | javax.jcr.Session | Una sesión JCR válida. |
-| `sourcePath` | Cadena | AEM Ruta absoluta del fichero de mapa DITA en el repositorio de la. |
+| `sourcePath` | Cadena | Ruta absoluta del fichero de mapa DITA en el repositorio de AEM. |
 | ``baselineName`` | Cadena | Nombre del nodo de línea base en el que se debe aplicar la etiqueta. Para obtener el nombre del nodo de línea de base, puede utilizar el método [\#id185NFF0085Z](#id185NFF0085Z) o comprobar el nodo de líneas de base del mapa DITA en CRXDE.<br> **Nota:** La etiqueta se aplica a la versión de los archivos a los que se hace referencia directamente desde el archivo de asignación en la línea de base. |
-| `label` | Cadena | Etiqueta que se aplica a los archivos de la línea de base. Asegúrese de que la etiqueta no contenga los siguientes caracteres: &sol; &comma; &amp; &colon; &comma; &lbrack; &comma; &rbrack; &comma; &vert; &comma; &ast; <br> Si desea establecer varias etiquetas, sepárelas con una coma; por ejemplo, Label1, Label2. |
+| `label` | Cadena | Etiqueta que se aplica a los archivos de la línea de base. Asegúrese de que la etiqueta no contenga los siguientes caracteres: &sol; &comma; &colon; &comma; &brack; &comma; &brack; &comma; &vert; &comma; &ast; <br> Si desea establecer varias etiquetas, sepárelas con una coma; por ejemplo, Label1, Label2. |
 
 **Excepción**:
 Lanza `RepositoryException`.
@@ -146,12 +156,12 @@ String label) throws GuidesApiException
 | Nombre | Tipo | Descripción |
 |----|----|-----------|
 | `session` | javax.jcr.Session | Una sesión JCR válida. |
-| `sourcePath` | Cadena | AEM Ruta absoluta del fichero de mapa DITA en el repositorio de la. |
+| `sourcePath` | Cadena | Ruta absoluta del fichero de mapa DITA en el repositorio de AEM. |
 | `baselineName` | Cadena | Nombre de la línea base de la que se debe eliminar la etiqueta. <br> **Nota:** Se ha eliminado la etiqueta de la versión de los archivos a los que se hace referencia directamente desde el archivo de asignación en la línea de base. |
-| `label` | Cadena | Etiqueta que se va a eliminar de los archivos de la línea de base. <br> Si desea eliminar varias etiquetas, sepárelas con una coma; por ejemplo, Etiqueta1, Etiqueta2. |
+| `label` | Cadena | Etiqueta que se va a eliminar de los archivos de la línea de base. <br> Si desea eliminar varias etiquetas, sepárelas con una coma; por ejemplo, Label1, Label2. |
 
 **Devuelve**:
-Asignación con par *key:value* de `path:deletedlabels` para todos los archivos de la línea de base.
+Asignación con el par *key:value* de `path:deletedlabels` para todos los archivos de la línea de base.
 
 **Excepción**:
 Lanza ``RepositoryException`, `VersionException`, `Exception``.
