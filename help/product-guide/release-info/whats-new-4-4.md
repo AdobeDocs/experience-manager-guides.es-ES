@@ -3,9 +3,15 @@ title: Notas de versión | Novedades de la versión 4.4.0 de Adobe Experience Ma
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 4.4.0 de Adobe Experience Manager Guides
 role: Leader
 exl-id: 63a2e93b-b4cf-4423-88e4-b01c6a52a532
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/7pICeMz0HYAqm1W-OLS3Tk-7VY1DCNGvf4crX-uFz28
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2318'
+source-wordcount: 2318
 ht-degree: 0%
 
 ---
@@ -33,7 +39,7 @@ Obtenga más información acerca de la descripción de la característica **Hist
 
 Puede definir atributos de condición en los temas DITA. A continuación, utilice los atributos de condición en el ajuste preestablecido de condición para publicar el contenido en un mapa DITA. Experience Manager Guides ahora también proporciona una experiencia enriquecida en el editor web, que le ayuda a crear y administrar ajustes preestablecidos de condición de forma más eficaz. También puede editarlos, duplicarlos o eliminarlos fácilmente.
 
-![Ajustes preestablecidos de condición de la ficha Administrar del editor web &#x200B;](assets/web-editor-manage-condition-presets.png){width="550"}
+![Ajustes preestablecidos de condición de la ficha Administrar del editor web ](assets/web-editor-manage-condition-presets.png){width="550"}
 
 Para obtener más información, vea [Usar ajustes preestablecidos de condición](../user-guide/generate-output-use-condition-presets.md).
 
@@ -80,7 +86,7 @@ Las opciones **Actualización manual** y **Actualización automática** son más
 También le permite duplicar una línea de base basada en la etiqueta. La versión de referencia se selecciona en función de la etiqueta dada (si existe) mientras se duplica o, de lo contrario, elige la versión de la línea de base duplicada.
 
 
-![duplicar una línea base &#x200B;](assets/duplicate-baseline.png) {width="300"}
+![duplicar una línea base ](assets/duplicate-baseline.png) {width="300"}
 
 *Duplicar una línea de base basándose en una etiqueta o crear una copia exacta.*
 

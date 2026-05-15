@@ -5,9 +5,14 @@ exl-id: dab654f5-555d-4a89-bc94-55b1e938f255
 feature: Rest API Output Management
 role: Developer
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/7vLVD99129fILw0haQUZFlUn5y7pqMcTxakT6OeW3Uo
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: c6d09140-3c91-45d3-b7ed-b681af752f43
+subfeature_v2: id: ac94cb1b-ba77-439b-aa1f-2d8a6bec3dc3
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: 1204
 ht-degree: 6%
 
 ---
@@ -36,7 +41,7 @@ Devuelve una matriz de objetos JSON Output Preset, cada uno de los cuales contie
 | Elemento | Descripción |
 |-------|-----------|
 | `outputName` | Nombre del ajuste preestablecido de salida. Los nombres de salida son únicos en el ámbito del mapa DITA en el que están definidos. |
-| `outputType` | Tipo de salida generada con este ajuste preestablecido, por ejemplo AEM Site, PDF, EPUB u otro. Las opciones disponibles son:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   PERSONALIZADO |
+| `outputType` | Tipo de salida generada con este ajuste preestablecido, por ejemplo AEM Site, PDF, EPUB u otro. Las opciones disponibles son: <br>- AEMSITE <br>- PDF <br>- HTML5 <br>- EPUB <br>- PERSONALIZADO |
 | `outputTitle` | Un nombre descriptivo para la configuración del ajuste preestablecido de salida. Se utiliza para definir el valor de la propiedad Nombre del valor para el ajuste preestablecido de salida. |
 | `ditaValPathList` | Matriz de rutas de archivo DITAVAL que se utilizarán para generar la salida deseada. |
 | `targetPath` | Ruta de acceso en la que se publica o almacena el resultado. |
@@ -46,7 +51,7 @@ Devuelve una matriz de objetos JSON Output Preset, cada uno de los cuales contie
 | `generateTOC` | *\(Para salida del sitio AEM\)* Especifique si se genera una TDC \(true\) o no \(false\). |
 | `generateBreadcrumbs` | *\(Para salida del sitio AEM\)* Especifique si las rutas de exploración se generan \(true\) o no \(false\). |
 | `overwriteStrategy` | *\(Para salida del sitio AEM\)* Especifique si los archivos del destino se sobrescriben \(true\) o no \(false\). |
-| `pdfGenerator` | Especifique el motor de generación de PDF que desea utilizar. Los valores posibles son:<br>-   DITAOT <br>-   FMPS |
+| `pdfGenerator` | Especifique el motor de generación de PDF que desea utilizar. Los valores posibles son:<br>- DITAOT <br>- FMPS |
 
 >[!NOTE]
 >
@@ -66,7 +71,7 @@ http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 | `:operation` | Cadena | Sí | Nombre de la operación a la que se llama. El valor de este parámetro es ``createoutput``.<br> **Nota:** El valor no distingue entre mayúsculas y minúsculas. |
 | `sourcePath` | Cadena | Sí | Ruta absoluta del fichero de mapa DITA. |
 | `outputTitle` | Cadena | Sí | Un nombre descriptivo para la configuración del ajuste preestablecido de salida. Se usa para definir el valor de la propiedad Nombre de configuración para el ajuste preestablecido de salida.<br> **Nota:** Cuando se crea un nuevo ajuste preestablecido de salida, el sistema back-end genera un nombre único para el ajuste preestablecido de salida a partir del título dado. |
-| `outputType` | Cadena | Sí | Tipo de salida generada con este ajuste preestablecido, por ejemplo AEM Site, PDF, EPUB u otro. Las opciones disponibles son:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   PERSONALIZADO |
+| `outputType` | Cadena | Sí | Tipo de salida generada con este ajuste preestablecido, por ejemplo AEM Site, PDF, EPUB u otro. Las opciones disponibles son: <br>- AEMSITE <br>- PDF <br>- HTML5 <br>- EPUB <br>- PERSONALIZADO |
 
 **Valores de respuesta**:
 
@@ -112,7 +117,7 @@ http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 | Elemento | Descripción |
 |-------|-----------|
 | `outputName` | Nombre del ajuste preestablecido de salida. Los nombres de salida son únicos en el ámbito del mapa DITA en el que están definidos. |
-| `outputType` | Tipo de salida generada con este ajuste preestablecido, por ejemplo AEM Site, PDF, EPUB u otro. Las opciones disponibles son:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   <br> PERSONALIZADO |
+| `outputType` | Tipo de salida generada con este ajuste preestablecido, por ejemplo AEM Site, PDF, EPUB u otro. Las opciones disponibles son: <br>- AEMSITE <br>- PDF <br>- HTML5 <br>- EPUB <br>- PERSONALIZADO <br> |
 | `outputTitle` | Un nombre descriptivo para la configuración del ajuste preestablecido de salida. Se utiliza para definir el valor de la propiedad Nombre del valor para el ajuste preestablecido de salida. |
 | `ditaValPathList` | Matriz de rutas de archivo DITAVAL que se utilizarán para generar la salida deseada. |
 | `targetPath` | Ruta de acceso en la que se publica o almacena el resultado. |
@@ -123,7 +128,7 @@ http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 | `generateTOC` | \(Para la salida del sitio de AEM\) Especifique si se genera una TDC \(true\) o no \(false\). |
 | `generateBreadcrumbs` | \(Para la salida del sitio de AEM\) Especifique si las rutas de exploración se generan \(true\) o no \(false\). |
 | `overwriteFiles` | \(Para la salida del sitio de AEM\) Especifique si los archivos de destino se sobrescriben \(true\) o no \(false\). |
-| `pdfGenerator` | Especifique el motor de generación de PDF que desea utilizar. Los valores posibles son:<br>-   DITAOT <br>-   FMPS |
+| `pdfGenerator` | Especifique el motor de generación de PDF que desea utilizar. Los valores posibles son:<br>- DITAOT <br>- FMPS |
 
 >[!NOTE]
 >

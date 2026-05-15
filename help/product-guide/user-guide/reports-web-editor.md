@@ -4,9 +4,15 @@ description: Generar informes de mapas DITA desde la consola de mapas de AEM Gui
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
+TQID: https://experienceleague.adobe.com/xdXqtXEAU5vpR862gE1s9gD1TRFOSpT3B-Firp7O9Ew
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: cdab8659-8d50-4417-b6fd-762f347c13eeid: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: 2716
 ht-degree: 0%
 
 ---
@@ -268,4 +274,4 @@ Para ver el informe de los vínculos rotos, siga estos pasos:
 1. Seleccione **Descargar** para descargar la instantánea de todos los vínculos rotos del mapa DITA. El archivo de Excel contiene las columnas seleccionadas y los vínculos rotos filtrados en la vista Vínculos rotos.
 
 
-**Tema principal:**&#x200B;[&#x200B; Introducción a los informes](reports-intro.md)
+**Tema principal:**[ Introducción a los informes](reports-intro.md)

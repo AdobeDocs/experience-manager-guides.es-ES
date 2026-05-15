@@ -4,10 +4,16 @@ description: Última versión de Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/7j-OqZiXh2jVJwQRVsnKkJJSzf614jjiaOJ8fUl8oQQ
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: afb45297-4313-4f67-818e-bc0b03abe086id: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: d6596f3f-92a7-43ec-b444-237db6adad05id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '3644'
-ht-degree: 1%
+source-wordcount: 3665
+ht-degree: 3%
 
 ---
 
@@ -26,7 +32,7 @@ Puede actualizar fácilmente su versión actual de AEM Guides a la versión 4.1.
 
 Para obtener más información, consulte [Instrucciones de actualización](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
 
-## 4.1.3 | Notas de versión
+## 4.1.3 | Notas de la versión
 
 ## Matriz de compatibilidad
 
@@ -69,7 +75,7 @@ El error corregido se enumera a continuación:
 * El editor web carga la página en blanco de forma intermitente. (10678)
 
 
-## 4.1.2 | Notas de versión
+## 4.1.2 | Notas de la versión
 
 ## Matriz de compatibilidad
 
@@ -122,7 +128,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 
   **Solución alternativa**: utilice la ficha Línea base del tablero de mapas DITA.
 
-## 4,1 | Notas de versión
+## 4,1 | Notas de la versión
 
 En estas notas de la versión se explican las instrucciones de actualización, las nuevas funciones y las mejoras realizadas en la versión 4.1.x de Adobe Experience Manager Guides (más adelante denominada *AEM Guides*).
 
@@ -236,7 +242,7 @@ También puede hacer referencia a otras plantillas de mapas y plantillas de tema
 
 La plantilla de mapa personalizada puede ayudarle a replicar muy fácilmente las plantillas de mapa y toda la estructura de carpetas de referencia. Estas plantillas personalizadas son especialmente útiles para crear y recrear varios mapas con estructuras y referencias recursivas.
 
-* **Compatibilidad con Schematron**
+* Compatibilidad con **Schematron**
 &quot;Schematron&quot; hace referencia a un lenguaje de validación basado en reglas que se utiliza para definir pruebas para un archivo XML. Con un fichero de Schematron se pueden definir determinadas reglas y, a continuación, validarlas para un tema DITA o un mapa. El editor web admite archivos Schematron. Puede importar los archivos de Schematron y también editarlos en el Editor Web. La compatibilidad con Schematron en el Editor Web le ayuda a validar los archivos con un conjunto de reglas y a mantener la coherencia y corrección en todos los temas.
 
 ![validar schematron](assets/schematron-validate.png)
@@ -249,7 +255,7 @@ Según la configuración, tiene la opción de guardar los cambios y crear una nu
 
 ![Cierre de archivo](assets/file-close-save-changes-unlock.png)
 
-Para obtener más información, consulte la sección *Cerrar archivo y guardar escenarios* en la guía Usar Adobe Experience Manager Guides.* Se ha mejorado la característica **Insertar palabra clave**. Ahora puede encontrar más fácilmente una palabra clave para insertarla, ya que las palabras clave se enumeran en orden alfabético. También puede buscar palabras clave escribiendo una cadena de búsqueda en el cuadro Buscar.
+Para obtener más información, consulte la sección *Cerrar archivo y guardar escenarios* en la guía Uso de Adobe Experience Manager Guides.* Se ha mejorado la característica **Insertar palabra clave**. Ahora puede encontrar más fácilmente una palabra clave para insertarla, ya que las palabras clave se enumeran en orden alfabético. También puede buscar palabras clave escribiendo una cadena de búsqueda en el cuadro Buscar.
 
 ![insertar palabra clave](assets/insert-keyword.png)
 
@@ -360,7 +366,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * AEM Guides no copia las propiedades no únicas de un recurso cuando se copia y pega un recurso. (8241)
 * El nombre de archivo de mapa DITA no se convierte a minúsculas en el momento de la creación. (8383)
 * La descripción de la tarea de revisión no aparece en la notificación por correo electrónico que se envía cuando se asigna una nueva tarea de revisión. (8507)
-* Descargar API de mapa | Las carpetas temporales no se limpian en caso de que se produzcan errores de proceso de descarga. (8523)
+* Descargar API de mapa | No se limpian las carpetas temporales en caso de que se produzcan errores de proceso de descarga. (8523)
 * `columnpreview.jsp` depende del SP.  (8543)
 * Los trabajos de salida con un estado como &quot;Esperando&quot; o &quot;Ejecutando&quot; no se limpian en el panel de publicación.  (8569)
 * Icono predeterminado seleccionado al generar un informe con el botón Generar, incluso cuando se define la propiedad del icono. (8573)
@@ -395,10 +401,10 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * El modo de vista previa no admite el atributo de procesamiento condicional `deliveryTarget` en DITA. (7685)
 * Al abrir un tema del glosario en el editor XML, AEM obliga a guardarlo aunque no se haya modificado. (8105)
 * El cuadro de diálogo Insertar referencias se abre al agregar subjectref a un mapa mediante la interfaz de usuario. (8212)
-* El panel Reutilizar contenido se bloquea al buscar caracteres especiales `[` o `*`(8279)
+* El panel Reutilizar contenido se bloquea al buscar caracteres especiales `[` o `*` .(8279)
 * Durante la creación de Glossentry, el editor web muestra el contenido como una nota. (8384)
 * El Editor XML elimina la nueva línea en el bloque de código. (8522)
-* Cambiar entre el modo de origen y el de autor marca el tema como sucio y requiere que se vuelva a guardar el contenido.(8524)
+* Cambiar entre el modo de origen y el de autor marca el tema como sucio y requiere que el contenido se vuelva a guardar. (8524)
 * No se puede cerrar un tema desbloqueado. (8545)
 * No existe ninguna opción para elegir la ruta de la base de conocimiento en los ajustes preestablecidos de publicación basados en artículos. (8636)
 * Faltan atributos al agregar un capítulo al mapa de libros mediante arrastrar y soltar desde la vista Favoritos. (8746)

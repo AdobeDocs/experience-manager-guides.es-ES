@@ -3,9 +3,13 @@ title: JSON expuestos
 description: Lista de JSON expuestos
 role: User, Admin
 exl-id: 7ad86795-d26b-464a-94f6-ffaf3376b252
-source-git-commit: 0af09be192bf3ead5e34c39c42282fa7556fbe9a
+TQID: https://experienceleague.adobe.com/Pj3XGB5Vj4jfDL-FyautZrebugbAcooLs29dMQ9-BXw
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: 377
 ht-degree: 0%
 
 ---
@@ -14,7 +18,7 @@ ht-degree: 0%
 
 Editor:
 
-- [&quot;other_attribute_list_item&quot;](./jsons/editor/other_attribute_list_item.json)
+- [`other_attribute_list_item`](./jsons/editor/other_attribute_list_item.json)
 
   Personalice la configuración de atributos que se muestra en el panel derecho de Propiedades de contenido, en la subsección &quot;Atributos&quot;.
 
@@ -54,23 +58,23 @@ Revisar aplicación:
 
   Ajuste el panel derecho de la página de revisión y la interfaz de usuario de las guías para mostrar los comentarios.
 
-- [&quot;annotation_toolbox&quot;](./jsons/review_app/annotation_toolbox.json)
+- [`annotation_toolbox`](./jsons/review_app/annotation_toolbox.json)
 
   Configure el cuadro de herramientas que contiene botones para agregar comentarios en la página de revisión.
 
-- [&quot;review_comment&quot;](./jsons/review_app/review_comment.json)
+- [`review_comment`](./jsons/review_app/review_comment.json)
 
   Modifique el aspecto y la funcionalidad del cuadro de comentarios en la página de revisión.
 
-- [&quot;comment_reply&quot;](./jsons/review_app/comment_reply.json)
+- [`comment_reply`](./jsons/review_app/comment_reply.json)
 
   Personalice la sección de respuesta de los comentarios en la interfaz de usuario de revisión.
 
-- [&quot;comment_new_reply&quot;](./jsons/review_app/comment_new_reply.json)
+- [`comment_new_reply`](./jsons/review_app/comment_new_reply.json)
 
   Personalice el área de texto para crear nuevas respuestas a comentarios existentes.
 
-- [&quot;review_toolbar&quot;](./jsons/review_app/review_toolbar.json)
+- [`review_toolbar`](./jsons/review_app/review_toolbar.json)
 
   Personalice la barra de herramientas que se muestra en la parte superior de la página de revisión.
 
@@ -90,7 +94,7 @@ Revisar aplicación:
 
 Diálogos:
 
-- [&quot;save_revision&quot;](./jsons/dialogs/save_revision.json)
+- [`save_revision`](./jsons/dialogs/save_revision.json)
 
   Administrar el cuadro de diálogo &quot;Guardar revisión&quot;, que muestra la última versión del archivo y permite actualizarla al guardarlo.
 
@@ -98,7 +102,7 @@ Diálogos:
 
 Widgets:
 
-- [&quot;save_as_new_version&quot;](./jsons/widgets/save_as_new_version.json)
+- [`save_as_new_version`](./jsons/widgets/save_as_new_version.json)
 
   Personalice el widget que muestra los detalles de la versión y proporciona la opción de actualizar o abrir el cuadro de diálogo Guardar como nueva versión.
 

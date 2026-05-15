@@ -5,9 +5,13 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: ed0b0e6124a8656e711a8e64b290b805569fbd48
+TQID: https://experienceleague.adobe.com/g5Mp7tMM9JaAYwNmMyPmaFEcI0fx66vrX8ry97lIUF8
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: c6d09140-3c91-45d3-b7ed-b681af752f43
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: 618
 ht-degree: 1%
 
 ---
@@ -43,7 +47,7 @@ Detalles del paquete:
 
 ## Creación y activación de paquetes
 
-El método `activate` crea un paquete de CRX en la instancia de autor y lo replica en la instancia de publicación, si es necesario. AEM Se da por hecho que los parámetros de replicación de la ya se han configurado en la instancia de autor. Este método crea el paquete de CRX en función de una lista de reglas proporcionadas como parámetros de entrada en una cadena JSON.
+El método `activate` crea un paquete de CRX en la instancia de autor y lo replica en la instancia de publicación, si es necesario. Se da por hecho que los parámetros de replicación de AEM ya se han configurado en la instancia de autor. Este método crea el paquete de CRX en función de una lista de reglas proporcionadas como parámetros de entrada en una cadena JSON.
 >[!NOTE]
 >
 > Los errores encontrados durante el proceso de creación o activación se escriben en `outputstream`.
@@ -81,16 +85,16 @@ throws GuidesApiException
 | Nombre | Tipo | Descripción |
 |----|----|-----------|
 | `json` | Cadena | Cadena JSON que determina el paquete de CRX que se va a crear. Utilice el siguiente formato para crear la cadena JSON: <br>- `activate`: Es del tipo booleano \(`true`/`false`\). Determina si el paquete de CRX creado en la instancia de autor se replica en la instancia de publicación. <br> - `rules`: es de tipo matriz JSON. Una matriz de reglas JSON, que se procesan secuencialmente para crear el paquete de CRX. <br> - `rootPath`: es de tipo cadena. Ruta base en la que se ejecutan las consultas de nodo/propiedad. Si no hay consultas de nodo/propiedad presentes, la ruta raíz y todos los nodos presentes bajo la ruta raíz se incluyen en el paquete de CRX. <br> - `nodeQueries`: es de tipo matriz Regex. Matriz de expresiones regulares que se utiliza para incluir archivos específicos en la ruta raíz. <br> - `propertyQueries`: es de tipo matriz JSON. Una matriz de objetos JSON con cada objeto JSON que consta de una consulta XPath que se ejecutará en la ruta raíz y el nombre de una propiedad presente en cada nodo JCR después de ejecutar la consulta. El valor de la propiedad en cada nodo JCR debe ser una ruta o una matriz de rutas. Las rutas presentes en esta propiedad se añaden al paquete de CRX. |
-| `outputstream` | java.io.OutputStream | Se utiliza para escribir el resultado de varias fases, como la ejecución de consultas, la inclusión de archivos, la creación de paquetes de CRX o la activación. Cualquier error encontrado durante el proceso de creación o activación se escribe en `outputstream`. Esto resulta útil para la depuración. |
+| `outputstream` | java.io.OuoutputStream | Se utiliza para escribir el resultado de varias fases, como la ejecución de consultas, la inclusión de archivos, la creación de paquetes de CRX o la activación. Cualquier error encontrado durante el proceso de creación o activación se escribe en `outputstream`. Esto resulta útil para la depuración. |
 | `session` | Cadena | Una sesión JCR válida con permiso de activación. |
-| `activationTarget` | Cadena | (*Opcional*) `preview` o `publish` para el Cloud Service y `publish` para el software On-Premise <br> - Para el Cloud Service, si el parámetro contiene un valor no válido, se produce un error en la activación del paquete. <br>: para el software local, si el parámetro contiene un valor no válido, el error se registra y la publicación se realiza con el valor predeterminado `publish`. |
+| `activationTarget` | Cadena | (*Opcional*) `preview` o `publish` para Cloud Service y `publish` para el software On-Premise <br> - Para Cloud Service, si el parámetro contiene un valor no válido, se produce un error en la activación del paquete. <br>: para el software local, si el parámetro contiene un valor no válido, el error se registra y la publicación se realiza con el valor predeterminado `publish`. |
 
 **Excepción**:
 
 Lanza `java.io.IOException` y `java.io.IllegalArgumentException`
 
 
-Si no define el parámetro opcional `activationTarget`, se activará usando el agente de publicación predeterminado tanto para el Cloud Service como para el software On-Premise.
+Si no define el parámetro opcional `activationTarget`, se activará usando el agente de publicación predeterminado tanto para Cloud Service como para el software On-Premise.
 
 
 **Ejemplo**:

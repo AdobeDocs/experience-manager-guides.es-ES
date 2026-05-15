@@ -1,12 +1,17 @@
 ---
-title: Configuración de la publicación basada en Microservice con autenticación de OAuth para AEM Guides as a Cloud Service
+title: Configuración de la publicación basada en microservicios con autenticación de OAuth para AEM Guides as a Cloud Service
 description: Obtenga información sobre cómo configurar la publicación basada en microservicios con autenticación OAuth para AEM Guides.
 feature: Microservice in AEM Guides
 role: Admin
 exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
-source-git-commit: c51a372dc44921a489219f5ac99e3ad180ccc91d
+TQID: https://experienceleague.adobe.com/iAlQIB0z2bxI-BaOXp62M6YJjzS-RzGfJaJbl8BWNUc
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: 850
 ht-degree: 0%
 
 ---
@@ -19,7 +24,7 @@ Para cada solicitud de publicación, Experience Manager Guides as a Cloud Servic
 
 >[!NOTE]
 >
-> La publicación basada en microservicios en Experience Manager Guides admite los tipos de ajustes preestablecidos de salida PDF (tanto nativos como basados en DITA-OT), HTML 5, JSON y PERSONALIZADOS.
+> La publicación basada en microservicios en Experience Manager Guides admite tipos de ajustes preestablecidos de salida de PDF (tanto nativos como basados en DITA-OT), HTML5, JSON y CUSTOM.
 
 Como el servicio de publicación en la nube está protegido por la autenticación basada en OAuth de Adobe IMS, realice los siguientes pasos para integrar sus entornos con los flujos de trabajo de autenticación seguros basados en tokens de Adobe y empiece a utilizar la solución de publicación escalable basada en la nube.
 
@@ -40,7 +45,7 @@ Realice los siguientes pasos para crear configuraciones de IMS en **Adobe Develo
 
    <img src="assets/projects-tab.png" alt="pestaña proyectos" width="500">
 
-   *Seleccione la ficha **Proyectos**&#x200B;en **Adobe Developer Console***
+   *Seleccione la ficha **Proyectos**en **Adobe Developer Console***
 
 1. Para crear un nuevo proyecto vacío, selecciona **Proyecto vacío** en la lista desplegable **Crear nuevo proyecto**.
 
@@ -86,7 +91,7 @@ Ha configurado los detalles de autenticación de OAuth y descargado los detalles
 >
 >Si ya ha creado un proyecto de OAuth para sugerencias inteligentes, puede reutilizar el mismo proyecto para microservicios y omitir los siguientes pasos para agregar la configuración de IMS al entorno.
 
-### Actualizar configuración existente (JWT)   a OAuth shift )
+### Actualizar configuración existente (JWT a OAuth shift )
 
 Si ya está utilizando un microservicio para publicar con JWT (obsoleto), realice los siguientes pasos para actualizar las configuraciones:
 
@@ -143,7 +148,7 @@ Una vez hecho esto, puede utilizar la publicación en la nube basada en microser
 ## Preguntas frecuentes
 
 
-1. Si las configuraciones de OSGi para utilizar microservicios están habilitadas, ¿funcionará el proceso de publicación en el servidor Experience Manager local con la misma base de código?
+1. Si las configuraciones de OSGi para utilizar microservicios están habilitadas, ¿funcionará el proceso de publicación en el servidor local de Experience Manager con la misma base de código?
    * No, si el indicador `dxml.use.publish.microservice` está establecido en `true`, siempre busca configuraciones de microservicio. Establezca `dxml.use.publish.microservice` en `false` para que la publicación funcione en su servidor local.
 1. ¿Cuánta memoria se asigna al proceso DITA cuando se utiliza la publicación basada en microservicios? ¿Se conduce a través del perfil y los parámetros de DITA?
    * Con la publicación basada en microservicios, la asignación de memoria no se controla mediante los parámetros y el perfil DITA. La memoria total disponible en el contenedor de servicios es de 8 GB, de los cuales 6 GB se asignan al proceso DITA-OT.
@@ -166,7 +171,7 @@ Una vez hecho esto, puede utilizar la publicación en la nube basada en microser
 
 **Contenido**:
 * `dxml.use.publish.microservice`: cambiar para habilitar la publicación basada en microservicios mediante DITA-OT
-* `dxml.use.publish.microservice.native.pdf`: cambiar para habilitar la publicación de PDF nativos basada en microservicios
+* `dxml.use.publish.microservice.native.pdf`: cambiar para habilitar la publicación nativa de PDF basada en microservicios
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

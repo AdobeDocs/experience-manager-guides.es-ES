@@ -4,9 +4,15 @@ description: Explore las funciones clave de Experience Manager Guides, la creaci
 exl-id: 978d7027-08da-40f7-ae9e-bb4d559a84dc
 feature: Introduction
 role: User
-source-git-commit: afa77e42eec4ea900efff14f1ae5f79464591505
+TQID: https://experienceleague.adobe.com/qfne-WSiweRnvK-cGU8A9IJ0xh2yJ9pBHNWcRzDrBe8
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: 1116
 ht-degree: 0%
 
 ---
@@ -31,7 +37,7 @@ Actualmente, el editor integrado es compatible con los siguientes estándares DI
 >
 > DITA ligero sigue estando en el estado de propuesta y todavía no se ha convertido en un estándar DITA.
 
-**Colaboración de próxima generación mediante revisión basada en la web**
+**Colaboración de próxima generación a través de revisión basada en web**
 Asegúrese de que los equipos distribuidos de varios autores y revisores colaboren sin problemas mediante un potente flujo de trabajo de revisión compuesto basado en la web, lo que minimiza el alcance de los errores manuales en el proceso.
 
 Experience Manager Guides proporciona funcionalidades de revisión basadas en web potentes pero fáciles de usar. Se pueden enviar varios temas DITA para su revisión simultáneamente. La capacidad de revisión ayuda a garantizar que el contenido del documento se revise de forma eficaz. Los autores y revisores pueden colaborar fácilmente en los cambios durante las revisiones continuas. Los revisores pueden monitorizar las diferencias con respecto a las versiones anteriores para identificar si los comentarios se han incorporado correctamente. Los administradores pueden realizar un seguimiento del historial de tareas de revisión mediante el panel de administración con numerosas funciones.
@@ -43,7 +49,7 @@ Consiga ahorros significativos en tiempo y costes de traducción y asegúrese de
 
 Adobe Experience Manager incluye conectores integrados para los principales proveedores de traducción. Aproveche estos conectores para administrar el contenido específico de la configuración regional. Aproveche al máximo los informes de traducción detallados y listos para usar para identificar el contenido no traducido antes de publicarlo y tomar las medidas correctivas adecuadas. Se puede gestionar el estado del contenido traducido con respecto a las actualizaciones del idioma principal para llevar a cabo la traducción únicamente para los ficheros DITA actualizados. No se requiere una identificación manual de los archivos que se van a enviar para su traducción, que requiere mucho tiempo.
 
-**Publicación multicanal óptima de contenido DITA**
+**Publicación multicanal de contenido DITA de primera categoría**
 Optimice la publicación de contenido empresarial con un enfoque sencillo y de un solo toque que acelera el tiempo de comercialización.
 
 Con la compatibilidad nativa con DITA añadida a Experience Manager, genere resultados para Experience Manager Sites, PDF, HTML5, EPUBS o salida personalizada mediante DITA-OT. Puede aprovechar el resultado totalmente configurable para ofrecer experiencias de contenido altamente personalizadas, relevantes e inmersivas para los usuarios finales. También puede generar lotes fácilmente o utilizar Línea base para publicar una versión específica de la documentación.
@@ -72,11 +78,11 @@ Con el conector de AEM en FrameMaker, puede administrar los archivos de FrameMak
 
 ## Recursos adicionales
 
-A continuación se muestra una lista de otros recursos útiles de Experience Manager Guides, que están disponibles en la página [Aprendizaje y asistencia](https://helpx.adobe.com/es/support/xml-documentation-for-experience-manager.html):
+A continuación se muestra una lista de otros recursos útiles de Experience Manager Guides, que están disponibles en la página [Aprendizaje y asistencia](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
 
 * Guía del usuario
 * Guía de referencia de API
 * Guía de inicio rápido
-* [Página de archivado de Help*](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/archive.html) (acceso a la documentación de la versión anterior)
+* [Página de archivado de Help*](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) (acceso a la documentación de la versión anterior)
 
-**Tema principal:**&#x200B;[&#x200B; Acerca de Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**Tema principal:**[ Acerca de Adobe Experience Manager Guides as a Cloud Service](intro.md)

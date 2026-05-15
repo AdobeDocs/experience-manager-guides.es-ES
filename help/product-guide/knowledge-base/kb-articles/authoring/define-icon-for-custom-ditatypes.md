@@ -1,10 +1,15 @@
 ---
 title: Icono de configuración para tipos de datos personalizados
-description: AEM Obtenga información sobre cómo definir iconos para tipos de datos personalizados para mostrar su icono en diferentes interfaces de usuario en
+description: Obtenga información sobre cómo definir iconos para tipos de datos personalizados para mostrar sus iconos en diferentes interfaces de usuario en AEM
 exl-id: 5a259ea0-3b5f-4c6e-b488-1586767aa991
-source-git-commit: 7355f48ba8ad0ac15c54be183d9aa91bb88724e8
+TQID: https://experienceleague.adobe.com/OFZePwGXAKS5XhsNcrCqOya-bgEHmtO4yl1IciNUxdQ
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: 496
 ht-degree: 0%
 
 ---
@@ -29,15 +34,15 @@ Podemos implementar los pasos anteriores para mostrar los iconos en el editor we
 
 ## Icono para mostrar un tema o un mapa personalizado en la vista del editor web
 
-_Paso 1:_ Determine el tipo de datos para el tema/aplicación de datos personalizado
+_Paso 1 :_Determinar el tipo de dita para el tema/mapa de dita personalizado
 - Abra la vista del repositorio en web-editor > abra la consola del desarrollador en el explorador
-- Inspect el espacio de iconos junto al tema o mapa enumerado.
+- Inspeccione el espacio de icono junto al tema o mapa relacionado
 - Compruebe la clase asignada al tema personalizado
 - Vea la captura de pantalla siguiente para obtener más detalles ![Vea la captura de pantalla](../assets/authoring/custom-ditatype-icon-knowditatype.png)
 - Utilizaremos esta clase para asignar un icono y escribir css para esto
 
-_Paso 2:_ Crear css y asignar un icono a este tipo de datos
-- Cree una biblioteca de cliente en /apps, supongamos que crea una cq:ClientLibraryFolder en la ruta deseada
+_Paso 2 :_Crear css y asignar icono a este tipo de datos
+- Cree una biblioteca de cliente en /apps, digamos que crea un cq:ClientLibraryFolder en la ruta deseada
    - agréguele las categorías &quot;apps.fmdita.xml_editor.page&quot;
 - cree una carpeta &quot;assets&quot; en este directorio y añada todos los iconos que desee utilizar para los tipos de datos personalizados
 - agregue un archivo css en la carpeta de la biblioteca de cliente, por ejemplo &quot;tree-icon.css&quot;.
@@ -66,11 +71,11 @@ Y el resultado final se muestra en la siguiente captura de pantalla
 
 ## Mostrando icono para tema/mapa personalizado en la IU de Assets
 
-_Paso 1:_ que determina el tipo de dita del tema o mapa de dita personalizado
+_Paso 1 :_que determina el tipo de dita del tema o asignación de dita personalizado
 - esto se explica en el paso 1 de los métodos anteriores
 
-_Paso 2:_ Cree Javacscript para definir qué iconos se cargarán para el tipo de datos personalizado para los tipos de temas/mapas personalizados
-- Cree una biblioteca de cliente en /apps, supongamos que crea una cq:ClientLibraryFolder en la ruta deseada
+_Paso 2 :_: cree Javacscript para definir qué iconos cargar para el tipo de datos personalizado para los tipos de temas/mapas personalizados
+- Cree una biblioteca de cliente en /apps, digamos que crea un cq:ClientLibraryFolder en la ruta deseada
    - agréguele las siguientes propiedades:
       - valor de &quot;categories&quot;(multivalor string) como &quot;dam.gui.admin.coral&quot;
       - valor &quot;dependencies&quot;(cadena de varios valores) como &quot;libs.fmdita.versioncontrol&quot;

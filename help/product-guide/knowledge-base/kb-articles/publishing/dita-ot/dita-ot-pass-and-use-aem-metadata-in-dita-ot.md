@@ -1,15 +1,21 @@
 ---
-title: Propagar metadatos de AEM Assets a la salida generada por el complemento DITA-OT
-description: AEM Configuración del complemento y el contenido DITA-OT en la para insertar metadatos en la salida generada
-source-git-commit: b48f5a342989d3be48bbc1e8af51a2ce477d0ac7
+title: Propagación de metadatos de AEM Assets a resultados generados por el complemento DITA-OT
+description: Configuración del complemento y contenido DITA-OT en AEM para insertar metadatos en la salida generada
+exl-id: ba9db5a1-f499-48d9-976c-528fe56fd619
+TQID: https://experienceleague.adobe.com/tK5b6Z1zdJVa7ghEx4CEYELjpSO2D1ZJVdWKd3NNxvg
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: 971
 ht-degree: 0%
 
 ---
 
-
-# Propagar metadatos de AEM Assets a la salida generada por el complemento DITA-OT
+# Propagación de metadatos de AEM Assets a resultados generados por el complemento DITA-OT
 
 En este artículo explicaremos cómo implementar cambios en el complemento DITA-OT para leer el archivo metadata.xml _(disponible en archivos temporales)_ y utilizar las propiedades, pasadas por el flujo de trabajo de publicación de AEM Guides, en los complementos DITA-OT y establecerlo en la salida generada.
 
@@ -19,15 +25,15 @@ En un nivel superior, a continuación se muestran los pasos que aprenderá en es
 - Implementación en el complemento DITA-OT para leer este _metadata.xml_ y usar las propiedades disponibles en la salida generada
 - Comprobación de la salida generada para ver los metadatos propagados
 
-## Fondo
+## Información general
 
 Con AEM Guides, puede utilizar los complementos DITA-OT para publicar en los formatos de salida que desee mediante los complementos configurados.
-AEM también puede pasar metadatos de los recursos administrados en DAM de la al proceso DITA-OT para usarlos en la salida generada; consulte la documentación sobre [cómo configurar ditamap/topics para pasar metadatos a través del ajuste preestablecido de salida](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
+también puede pasar metadatos de los recursos administrados en AEM DAM al proceso DITA-OT para usarlos en la salida generada; consulte la documentación sobre [cómo configurar ditamap/topics para pasar metadatos a través del ajuste preestablecido de salida](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
 
 
 ## Suposiciones
 
-AEM Tiene una configuración de con AEM Guides versión 4.4.0/2024.6 o superior
+Tiene una configuración de AEM con AEM Guides versión 4.4.0/2024.6 o superior
 Tiene conocimientos previos sobre el funcionamiento de DITA-OT y su estructura de directorios
 
 
@@ -35,7 +41,7 @@ Tiene conocimientos previos sobre el funcionamiento de DITA-OT y su estructura d
 
 ### Estableciendo metadatos en el recurso
 
-Con el esquema de metadatos de AEM Assets puede crear campos de propiedad personalizados para Assets AEM en la, y los usuarios pueden asignar metadatos a los recursos. Tomando un ejemplo de un recurso _topic_ en el que se puede establecer un metadato denominado _customprop_ para un ejemplo, consulte la siguiente captura de pantalla:
+Con Esquema de metadatos de AEM Assets puede crear campos de propiedad personalizados para Assets en AEM y los usuarios pueden asignar metadatos a los recursos. Tomando un ejemplo de un recurso _topic_ en el que se puede establecer un metadato denominado _customprop_ para un ejemplo, consulte la siguiente captura de pantalla:
 
 ![Establecer propiedades en el editor de metadatos de un recurso](../../assets/publishing/assets-metadata-properties-ui-customprop.png)
 
@@ -43,9 +49,9 @@ Con el esquema de metadatos de AEM Assets puede crear campos de propiedad person
 ### Configuración de los metadatos en el ajuste preestablecido de salida ditamap para pasarlos a DITA-OT
 
 Configure el ajuste preestablecido de salida que desee en el mapa para exportar metadatos y pasarlos a DITA-OT
-Supongamos que estamos generando una salida de HTML5 con un complemento DITA-OT, por ejemplo _adobe.html_.
+Supongamos que estamos generando salida de HTML5 con un complemento DITA-OT, por ejemplo _adobe.html_.
 Consulte la captura de pantalla siguiente para comprender cómo configurar el ajuste preestablecido de salida de un mapa para pasar metadatos al complemento DITA-OT.
-1. Abra un mapa, vaya a la ficha _Salida_ de este mapa, abra el ajuste preestablecido de HTML 5 y haga clic en la ficha _Avanzado_; establezca el nombre de la transformación como _adobe.html_ (este es el complemento que configuraremos y utilizaremos para nuestro ejemplo; también puede definir el complemento personalizado)
+1. Abra un mapa, vaya a la ficha _Salida_ de este mapa, abra el ajuste preestablecido de HTML5 y haga clic en la ficha _Avanzado_; establezca el nombre de la transformación como _adobe.html_ (este es el complemento que configuraremos y utilizaremos para nuestro ejemplo; también puede definir el complemento personalizado)
 2. Establezca _Conservar archivos temporales_ para poder descargar los archivos temporales y comprobar cómo se forma metadata.xml. Puede utilizarlo para el desarrollo
 3. Seleccione las propiedades de metadatos que desee pasar a DITA-OT mediante metadata.xml. En este ejemplo supongamos que queremos pasar _dc:title_ y _customprop_
 4. Guarde el ajuste preestablecido y Genere la salida
@@ -139,13 +145,13 @@ Consulte la captura de pantalla siguiente para resaltar los pasos anteriores
 
 ### Prueba de la implementación del complemento
 
-AEM Puede probar el complemento ejecutando el siguiente comando para probarlo con los archivos temporales descargados de (que tiene contenido de mapa y sus metadatos.xml), que se descargan de la aplicación y que se descargan de la aplicación.
+Puede probar el complemento ejecutando el siguiente comando para probarlo con los archivos temporales descargados de AEM (que tiene contenido de mapa y sus metadatos.xml)
 
 ```
 ./dita --input=docsrc/samples/HTML5/aem_forms_documentation.ditamap --format=adobe.html
 ```
 
-Suponiendo que ha copiado los ficheros temporales descargados en el directorio &quot;DITA-OT/docsrc/samples/HTML 5&quot;.
+Suponiendo que ha copiado los archivos temporales descargados en el directorio &quot;DITA-OT/docsrc/samples/HTML5&quot;.
 También puede descargar el ejemplo que aparece en la sección de recursos a continuación.
 
 Cuando se ejecute el comando anterior, puede comprobar el resultado en el directorio &quot;DITA-OT/bin/out&quot;, donde puede comprobar los archivos html generados para el tema &quot;about-this-document.dita&quot;, que tendrá los metadatos personalizados en el elemento _head_
@@ -166,7 +172,7 @@ Cuando se ejecute el comando anterior, puede comprobar el resultado en el direct
 
 ### Implementación
 
-AEM Una vez que haya desarrollado el complemento DITA-OT, puede integrarlo en DITA-OT mediante el comando _dita —install_ del directorio DITA-OT e implementarlo en el servidor de la [consulte este artículo para obtener más información](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659?profile.language=es)
+Una vez que haya desarrollado el complemento DITA-OT, puede integrarlo en DITA-OT mediante el comando _dita —install_ del directorio DITA-OT e implementarlo en el servidor de AEM [consulte este artículo para obtener más información](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659)
 
 
 ## Recursos

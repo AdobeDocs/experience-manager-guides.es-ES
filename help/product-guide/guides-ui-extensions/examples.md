@@ -2,9 +2,12 @@
 title: Ejemplos
 description: Lista de ejemplos de personalización
 exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
-source-git-commit: 924c34a2ec6249b81cbdddf72392dac600e22e9f
+TQID: https://experienceleague.adobe.com/Fgry-byLX0-N5gxaBk2TiN9QyzSPTXLepzGiQ4w1hSU
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: 462
 ht-degree: 0%
 
 ---
@@ -17,7 +20,7 @@ En este paquete también proporcionamos algunos ejemplos de personalización (di
 En este ejemplo hemos personalizado el menú contextual `file_options`, para quitar las opciones `Delete` y `Edit`, y reemplazar la opción `Duplicate` con una opción `Download`.
 
 2. [Panel izquierdo](./examples/left_panel_container.ts)
-En este ejemplo, hemos personalizado `left tab panel` para que tenga otro `tab` titulado &quot;EXTENSIÓN DE PRUEBA&quot;, y un `tab panel` correspondiente con una etiqueta: `Test Tab Panel`
+En este ejemplo hemos personalizado `left tab panel` para que tenga `tab` otro(a) titulado &quot;TEST EXTENSION&quot;, y un(a) `tab panel` correspondiente(a) que tenga una etiqueta: `Test Tab Panel`
 
 3. [Panel derecho](./examples/right_panel_container.ts)
 En este ejemplo hemos personalizado `right tab panel` para que tenga otro `tab` titulado &quot;EXTENSIÓN DE PRUEBA&quot;, y un `tab panel` correspondiente con una etiqueta: `New Tab Panel`

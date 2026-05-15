@@ -3,9 +3,14 @@ title: Notas de versión | Instrucciones de actualización para el paquete de se
 description: Obtenga información sobre cómo actualizar al paquete de servicio 3 4.6.0 de Adobe Experience Manager Guides
 role: Leader
 exl-id: f0612eff-c18b-4667-a487-5f8809127d75
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/vuj58wNzA6nQPPdhszA1ZEBkW6ghJzK6zAN-AIF3LI8
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: 523
 ht-degree: 1%
 
 ---
@@ -25,7 +30,7 @@ Esta sección enumera la matriz de compatibilidad para las aplicaciones de softw
 **4.6.0 Service Pack 3 sin UUID**
 Paquete de servicio 21, 20 y 19 de la versión 6.5
 
-**4.6.0 Service Pack 3 UUID**
+UUID del paquete de servicio 3 de **4.6.0**
 Paquete de servicio 21, 20 y 19 de la versión 6.5
 
 Para obtener más información, consulte la sección [Requisitos técnicos](../install-guide/download-install-technical-requirements.md) en la Guía de instalación y configuración local.
@@ -69,7 +74,7 @@ Puede actualizar fácilmente su versión actual de Guides a 4.6.0 Service Pack 3
 - Si está utilizando las versiones 4.2, 4.2.1 (revisión 4.2.1.3), 4.1 o 4.1.x, debe actualizar a la versión 4.4 antes de actualizar a la versión 4.6.0.
 - Si utiliza la versión 4.0, debe actualizar a la versión 4.2 antes de actualizar a la versión 4.3.x.
 - Si utiliza la versión 3.8.5, debe actualizar a la versión 4.0 antes de actualizar a la versión 4.2.
-- Si tiene una versión anterior a la 3.8.5, consulte la sección Actualizar Experience Manager Guides en la guía de instalación específica del producto disponible en [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/archive.html).
+- Si tiene una versión anterior a la 3.8.5, consulte la sección Actualizar Experience Manager Guides en la guía de instalación específica del producto disponible en [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >

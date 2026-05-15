@@ -4,10 +4,15 @@ description: Versión de octubre de Adobe Experience Manager Guides as a Cloud S
 exl-id: 38638080-625c-49c3-9e54-56cc23831546
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/w-fw81jYGDRDrmn98Dzn-hYIkOZzT0B3-4-y-bcxdz4
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 1%
+source-wordcount: 489
+ht-degree: 3%
 
 ---
 
@@ -63,12 +68,12 @@ Seleccione uno o más ajustes preestablecidos y genere rápidamente la salida. T
 
 A continuación se enumeran los errores corregidos en varias áreas:
 
-* PDF nativo | Se produce un error al eliminar temas solo de recursos de la salida de PDF. (10554)
-* PDF nativo | Las referencias de clave vacías aparecen en la salida de PDF. (10553)
-* PDF nativo | `navtitle` de `topichead` no se cumple. (10509)
-* PDF nativo | Se necesita compatibilidad con los sabores JDK de amd64. (10465)
+* PDF nativo | Error al eliminar temas solo de recursos de la salida de PDF. (10554)
+* PDF nativo | Las referencias clave vacías aparecen en la salida de PDF. (10553)
+* PDF nativo No se cumple | `navtitle` para `topichead`. (10509)
+* PDF nativo | Se necesita soporte para los sabores JDK de amd64. (10465)
 * PDF nativo | No se pueden ocultar los temas de front-matter de la tabla de contenido. (10355)
-* PDF nativo | Al reiniciar el número de página en el diseño del capítulo, se inicia aleatoriamente la numeración desde el final del capítulo anterior. (10154)
+* PDF nativo | Al reiniciar el número de página en el diseño del capítulo, la numeración se inicia aleatoriamente desde el final del capítulo anterior. (10154)
 * Explorador de Chrome | La pantalla se queda en blanco al arrastrar y soltar cualquier elemento de la interfaz de usuario. Por ejemplo, al arrastrar una condición desde el panel Condiciones. (10524)
 * Las propiedades del nodo se eliminan después de la operación de copiar y pegar de un recurso. (10053)
 * Al hacer clic en **Cerrar** usuarios se estaban redirigiendo a los recursos; la experiencia se ha corregido para llevar a los usuarios a la página principal de AEM. (9654)

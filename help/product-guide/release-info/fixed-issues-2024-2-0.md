@@ -2,10 +2,16 @@
 title: Notas de versión | Se han corregido problemas en la versión 2024.2.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las correcciones de errores en la versión 2024.2.0 de Adobe Experience Manager Guides as a Cloud Service.
 exl-id: fae1ff07-6232-4e9a-a89e-5e760e807b9d
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/z-L0sZ2HH720nI3LyDjiIqujxSBP-QLdPqvEInNNRnE
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 4%
+source-wordcount: 504
+ht-degree: 8%
 
 ---
 
@@ -32,17 +38,17 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 
 ## Publicación
 
-- En la publicación en PDF nativo, los atributos personalizados dentro de ajustes preestablecidos de condición no funcionan para la publicación en PDF nativo. (14943)
-- En la publicación de PDF nativos, las referencias clave no se resuelven para la versión de diciembre de 2023 de Adobe Experience Manager Guides. (15085)
+- En la publicación nativa de PDF, los atributos personalizados dentro de ajustes preestablecidos de condición no funcionan para la publicación nativa de PDF. (14943)
+- En la publicación nativa de PDF, las referencias clave no se resuelven para la versión de diciembre de 2023 de Adobe Experience Manager Guides. (15085)
 - La publicación de AEM Sites falla y causa errores de ámbito para los archivos que tienen `xref` en el archivo DITA que comienza con &quot;HTTP&quot;. (15154)
 - No se puede agregar una plantilla personalizada desde la ficha **Salidas** del Editor. (14846)
-- AEM El ajuste preestablecido **Site** no funciona debido a una ruta de acceso de plantilla vacía. (14804)
-- AEM La regeneración de sitios falla en los mapas DITA con temas que contienen ecuaciones MathML. (14790)
-- En la publicación de PDF nativo, la generación de PDF genera errores al obtener dependencias para la publicación `Node.js`. (14445)
-- AEM El ajuste preestablecido no permite la selección de una plantilla fuera de la jerarquía de `/content` en el editor web. (14260)
+- El ajuste preestablecido **AEM Site** no funciona debido a una ruta de acceso de plantilla vacía. (14804)
+- La regeneración del sitio de AEM falla en los mapas DITA con temas que contienen ecuaciones de MathML. (14790)
+- En la publicación nativa de PDF, la generación de PDF genera errores al obtener dependencias para la publicación de `Node.js`. (14445)
+- El ajuste preestablecido de AEM no permite la selección de una plantilla fuera de la jerarquía `/content` en el editor web. (14260)
 - En la salida de AEM Sites, el estilo o los saltos de línea se perdieron para el elemento `<lines>` que tiene subelementos. (12542)
 - Los metadatos personalizados no están disponibles en la salida final. (12116)
-- En la publicación de PDF nativo, las propiedades de metadatos de mapa DITA no se pueden utilizar para rellenar los metadatos de salida de archivo de PDF. (15159)
+- En la publicación nativa de PDF, las propiedades de metadatos de mapa DITA no se pueden usar para rellenar los metadatos de salida de archivo PDF. (15159)
 
 
 
@@ -60,7 +66,7 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 
 ## Problema conocido
 
-El Adobe ha identificado el siguiente problema conocido para la versión 2024.2.0:
+Adobe ha identificado el siguiente problema conocido para la versión 2024.2.0:
 
 - La versión 1.0 no se muestra en la interfaz de usuario del archivo DITA duplicado.
 - La propagación de los metadatos de recursos no funciona para la versión 2024.2.0 con el microservicio habilitado para cualquier ajuste preestablecido.

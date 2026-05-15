@@ -1,13 +1,17 @@
 ---
 title: Revelación de usuarios de IA generativa de Adobe Experience Manager Guides
 description: Obtenga información acerca de las revelaciones del usuario de IA generativa al utilizar el Asistente de IA en Adobe Experience Manager Guides.
-source-git-commit: d2db620265eb5b093f9a0522ed9074f61c5bb978
+exl-id: 3860edc6-a58f-48f5-a67e-8b0085d4d22d
+TQID: https://experienceleague.adobe.com/VtANhtxajfvlZe6NBGNOnmpew-NTiu9J-l9e2ZBgpjY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 0%
+source-wordcount: 408
+ht-degree: 2%
 
 ---
-
 
 # Revelación de usuarios de IA generativa de Adobe Experience Manager Guides
 
@@ -26,5 +30,3 @@ El asistente de IA funciona con modelos de IA generativos y la tecnología sigue
 ## Comentarios
 
 Proporcionamos un mecanismo de comentarios directamente dentro del asistente de IA para ayudarnos a mejorar la precisión. Este es un proceso continuo y seguiremos trabajando junto con nuestros clientes y nuestra comunidad para aprovechar el poder de esta nueva tecnología de forma responsable.
-
-

@@ -1,13 +1,19 @@
 ---
-title: Notas de versión | Instrucciones de actualización y problemas corregidos en la versión de Adobe Experience Manager Guides de septiembre de 2023
+title: Notas de versión | Instrucciones de actualización y problemas corregidos en Adobe Experience Manager Guides, versión de septiembre de 2023
 description: Obtenga información acerca de las correcciones de errores y cómo actualizar a la versión de septiembre de 2023 de Adobe Experience Manager Guides as a Cloud Service
 exl-id: 795b86a0-e763-404a-a4bb-35d3d2a42672
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/CoWG1c1gE-wPrI90-qp0QJu-oOE4pDLcY6bIEN2QQpE
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: cda0baeb-996e-4aaa-92d1-41032e34fd68id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 0%
+source-wordcount: 1492
+ht-degree: 3%
 
 ---
 
@@ -162,13 +168,13 @@ A continuación se enumeran los errores corregidos en varias áreas:
 - La publicación falla al cambiar el nombre de un ajuste preestablecido nativo de PDF. (12564)
 - Al duplicar una plantilla de PDF nativa, se duplica la ubicación de la plantilla predeterminada en lugar de la ubicación de la plantilla personalizada proporcionada. (12563)
 
-- PDF nativo | La inclusión de varias expresiones XFR extiende el texto más allá del ancho de columna. (13004)
+- PDF nativo | La inclusión de varias expresiones xrefs amplía el texto más allá del ancho de columna. (13004)
 - PDF nativo | Cuando el tema y el título tienen el mismo ID, se produce una generación incorrecta de la salida de PDF. (12644)
 - PDF nativo | Al agregar una clase de salida a un elemento `<topicref>` principal en un mapa DITA y aplicar un estilo personalizado a la clase de salida, el estilo se aplica a los elementos dentro del cuerpo del tema, incluidos los títulos de sección.(12166)
 - La publicación incremental no funciona si un mapa DITA tiene varios ditavalrefs. (12117)
-- Sitio de AEM | Al crear un mapa con keydef apuntando a un tema como variable y agregar processing-role=resource-only, se crean algunas páginas inesperadas. (12099)
+- Sitio de AEM | Al crear un mapa con una definición de clave que señala a un tema como variable y agregar processing-role=resource-only, se crean algunas páginas inesperadas. (12099)
 - Si se utiliza algún recurso de DAM de AEM en cualquier salida que no sea el sitio de AEM, los metadatos &quot;jcr:createdBy&quot; no reflejarán el nombre del editor o del usuario que modificó por última vez el tema o el mapa DITA. (12090)
-- AEM Sites | El mapa DITA con el encabezado del tema en el título de navegación (con caracteres no compatibles) conduce a direcciones URL de página incorrectas. (11978)
+- AEM Sites | El mapa DITA con topichead en el título de navegación (con caracteres no compatibles) conduce a direcciones URL de página incorrectas. (11978)
 - PDF nativo | Se producen problemas en la compatibilidad de topichead / topicmeta / navtitle en Frontmatter y Backmatter. (11969)
 - PDF nativo | La generación de PDF para documentos grandes lleva mucho tiempo. (11955)
 - PDF nativo | Al cambiar el nombre de un ajuste preestablecido, se produce una NullPointerException mientras se genera una salida de PDF. (11889)

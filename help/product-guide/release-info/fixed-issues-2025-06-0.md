@@ -2,9 +2,15 @@
 title: Notas de versión | Se han corregido problemas en la versión 2025.06.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las correcciones de errores en la versión 2025.06.0 de Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
-source-git-commit: c137f18d3cb85ed47547d5523c4dea08c22f9560
+TQID: https://experienceleague.adobe.com/kfgmTuMdfq1c1IUcTKiPef9ijJ0tG-fPUuoJlaQEhQA
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: 514
 ht-degree: 4%
 
 ---
@@ -20,7 +26,7 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 ## Creación
 
 - Si no se cierran las conexiones de sesión JCR al actualizar o crear temas, se producen pérdidas de memoria y tiempo de inactividad del servicio. (GUIDES-26282)
-- Al arrastrar las columnas, su anchura cambia de valores de porcentaje a valores de píxel, lo que da como resultado tablas distorsionadas o mal alineadas.(GUIDES-23128)
+- Al arrastrar las columnas, su anchura cambia de valores de porcentaje a valores de píxel, lo que da como resultado tablas distorsionadas o mal alineadas. (GUIDES-23128)
 - Cuando el contenido se pega en `code block` o cuando se agregan espacios en `code block` y se cambia la vista, se pierde el espaciado. (GUIDES-27478)
 - Al agregar un mapa a `bookmap`, se almacena en `fmditatopicrefs` en lugar de en `fmditamaprefs`. (GUIDES-25480)
 - El cuadro de diálogo **Insertar imagen** no se representa correctamente en una pantalla de alta resolución o con zoom ampliado, lo que hace que desaparezcan el título de la figura y los campos de texto alternativo. (GUIDES-26459)
@@ -34,7 +40,7 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 - Al generar páginas de sitio de AEM con títulos que incluyen varias palabras separadas por espacios, el título del mapa muestra guiones en lugar de espacios. (GUIDES-27903)
 - Para PDF nativo, no se está resolviendo un nombre de propiedad de metadatos no válido y se muestra como `unresolved property name` en **propiedades de documento**. (GUIDES-25680)
 - El texto multilínea dentro de `codeblock` causa problemas de desbordamiento de texto durante la generación de PDF. (GUIDES-15541)
-- Al añadir mapas a la colección de mapas, se muestran recursos que no sean mapas (le gustan los temas, etc.) y los idiomas de mapa traducidos tampoco se ordenan correctamente.(GUIDES-25085)
+- Al agregar mapas a la colección de mapas, recursos que no sean mapas (le gustan los temas, etc.) se muestran y los idiomas de mapa traducidos tampoco se ordenan correctamente. (GUIDES-25085)
 
 
 ## Revisión

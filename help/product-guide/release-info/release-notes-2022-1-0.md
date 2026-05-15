@@ -4,10 +4,16 @@ description: Lanzamiento de enero de  [!DNL Adobe Experience Manager Guides] as 
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+TQID: https://experienceleague.adobe.com/-ddCfI97I7XJ-OuoritVp7KRCRst5veYuu3oSQWZw9Y
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2440'
-ht-degree: 0%
+source-wordcount: 2463
+ht-degree: 3%
 
 ---
 
@@ -173,10 +179,10 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * Apariencia predeterminada incorrecta de uicontrol en cascada. (5483)
 * Las plantillas personalizadas para Tema/Mapa no muestran nuevos nombres en la interfaz de usuario. Muestra el nombre como &quot;Tema&quot;/&quot;Mapa&quot; en lugar de mostrar el nombre configurado. (4958)
 * Capacidad para borrar mapas de raíz de la configuración de preferencias de usuario. (8534)
-* Una colección de asignaciones recién creada no aparece en la lista, ni siquiera después de actualizar la página.(8603)
+* No aparece ninguna colección de mapas recién creada, ni siquiera después de actualizar la página.(8603)
 * No se puede cerrar el tema desbloqueado. (8545)
-* Cambiar entre el modo de origen y el de autor marca el tema como sucio y requiere que se vuelva a guardar el contenido.(8524)
-* El panel Reutilizar contenido se bloquea al buscar caracteres especiales `[` o `*`(8279)
+* Cambiar entre el modo de origen y el de autor marca el tema como sucio y requiere que el contenido se vuelva a guardar. (8524)
+* El panel Reutilizar contenido se bloquea al buscar caracteres especiales `[` o `*` .(8279)
 * El cursor no se muestra en la barra de búsqueda cuando se abre el cuadro de diálogo insertar elemento con el método abreviado de teclado Alt+Entrar.(7912)
 * La opción Buscar solo busca en nombres de archivo y no en contenido. (7784)
 
@@ -195,7 +201,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 ### Tablero de mapas
 
 * No se puede ver el contenido de referencia en el título de un tema en la pestaña de temas o informes del panel de asignación. (8263)
-* La salida de AEM Sites | jcr:title de la página de sitio generada no se actualiza cuando se actualiza el título del tema DITA. (8131)
+* Salida de AEM Sites | jcr:title de la página de sitio generada no se actualiza cuando se actualiza el título del tema DITA. (8131)
 * Download MAP no descarga los archivos de vídeo utilizados dentro de los temas. (8070)
 * Los archivos multimedia no se descargan cuando se utiliza la etiqueta de objeto a través de la API de descarga de bookmap. (8057)
 * Se muestra un informe incorrecto en la pestaña Informes si algún tema tiene una referencia a un archivo cuyo título comience por una referencia. (4698)
@@ -236,7 +242,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 
 * Conversión de HTML a DITA | La tabla con &#39;tr&#39; con entradas &#39;td&#39; vacías provoca filas adicionales en la salida. (8132)
 * Conversión de HTML a DITA | HTML tiene una tabla con varios tbody y falla con la excepción. (7940)
-* Conversión de HTML a DITA | se eliminan los errores si el HTML de origen tiene comentarios. (7937)
+* Conversión de HTML a DITA | elimina el error si el HTML de origen tiene comentarios. (7937)
 * La importación de ficheros DITA 1.3 hace que algunos href se transformen en vínculos mal formados. (8019)
 
 ## Problemas conocidos

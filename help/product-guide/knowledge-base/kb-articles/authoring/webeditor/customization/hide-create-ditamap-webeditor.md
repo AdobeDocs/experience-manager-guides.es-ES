@@ -2,9 +2,15 @@
 title: Oculte la opción Crear mapa digital en las opciones del menú contextual de la carpeta para usuarios o grupos específicos.
 description: Aprenda a personalizar el editor web ocultando la opción "DitaMap" del menú contextual de carpeta para usuarios/grupos específicos
 exl-id: 796bfe3a-3950-4ade-9215-c33534791055
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/fAMBEOKlPA4KHsE81zfI-6EJ6zwaQOgRfx0w-cx-mmw
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: 571
 ht-degree: 0%
 
 ---
@@ -65,7 +71,7 @@ const folderOptions = {
   Se necesita una nueva creación de widget (customoptions.ts) para escribir la lógica que oculte esta opción solo para usuarios que no sean autores. Para lograrlo, hemos utilizado la clave &quot;show&quot; que actúa como alternativa en nuestra estructura JSON.
 
   Puede escribir su propio servlet externo para comprobar los detalles del grupo. De este modo, también puede personalizar las opciones del menú de carpeta para su grupo personalizado.
-AEM En este ejemplo, hemos aprovechado la llamada &quot;rolesapi&quot; de OOTB para recuperar los detalles del usuario y establecer la respuesta en &quot;isAuthor&quot; como se muestra en fragmentos anteriores.
+En este ejemplo, hemos aprovechado la llamada &quot;rolesapi&quot; de OOTB AEM para recuperar los detalles del usuario y establecer la respuesta en &quot;isAuthor&quot; como se muestra en fragmentos anteriores.
 
 ```typescript
 const folderOptions = {
@@ -119,7 +125,7 @@ controller: {
 
 ## Pruebas
 
-- AEM Inicie sesión en el grupo de usuarios con un usuario que no forme parte del grupo de autores. La opción Crear DitaMap estaría oculta en cualquier menú contextual de carpeta, como se muestra a continuación.
+- Inicie sesión en AEM con un usuario que no forme parte del grupo de autores. La opción Crear DitaMap estaría oculta en cualquier menú contextual de carpeta, como se muestra a continuación.
 Este caso de uso se ha añadido a GIT; consulte los recursos relacionados a continuación.
 
 ![Ocultar la opción create DitaMap](../../../assets/authoring/ditamap-hide-non-author.png)
@@ -130,7 +136,7 @@ Este caso de uso se ha añadido a GIT; consulte los recursos relacionados a cont
 
 - **Documentación** - [en Experience League](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **Casos de uso común documentados** - [en el Experience League](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **Casos de uso común documentados** - [en Experience League](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
 - **Repositorio público con ejemplos** - [en GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Rama de referencia sc-expert-session
 

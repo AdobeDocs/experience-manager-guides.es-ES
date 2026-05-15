@@ -4,9 +4,16 @@ description: Conozca las prácticas recomendadas para configurar la estructura d
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: 64adc89966e60823f6b46fb062b7659ed150cfc3
+exl-id: 1b99ade0-0eee-42c3-a383-0c3774b6c1f6
+TQID: https://experienceleague.adobe.com/jfoPbeASfVpgWYR2-cKacAdhWKPw-2j6qliqzjEzgFw
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: b1210526-416b-4ef6-bcc0-1692e99f30e9id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2: id: a7a242db-c88c-4e44-818b-bfb4ef92efdfid: c8841798-1a28-4264-a46a-984860f8e6f6id: dc1f7602-db3c-4ad4-a440-ff999bb16455id: f7774ebe-aec9-42b6-97e4-5002acdc712eid: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd456af4-cb12-4a34-8cc4-b74adf885626
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: 625
 ht-degree: 0%
 
 ---
@@ -46,7 +53,7 @@ Repita la misma estructura para otros departamentos como Finanzas, Jurídico, et
 
 ## Configurar la estructura de carpetas de salida
 
-La carpeta `fm-ditaoutputs` sirve como ubicación de almacenamiento predeterminada para los resultados generados a partir del contenido de aprendizaje y formación. Estas salidas suelen incluir paquetes SCORM (archivos ZIP) en la carpeta **alm** y archivos PDF en la carpeta **pdf**. Puede cambiar esta ruta de salida predeterminada en el nivel preestablecido desde la **consola de mapas** si es necesario.
+La carpeta `fm-ditaoutputs` sirve como ubicación de almacenamiento predeterminada para los resultados generados a partir del contenido de aprendizaje y formación. Estos resultados suelen incluir paquetes SCORM (archivos ZIP) en la carpeta **alm** y archivos PDF en la carpeta **pdf**.Puede cambiar esta ruta de salida predeterminada en el nivel de ajuste preestablecido desde la **consola de mapas** si es necesario.
 
 ![](assets/fmdita-output-lc.png)
 
@@ -73,5 +80,4 @@ Para asignar permisos, vaya a **Herramientas** > **Seguridad** > **Permisos**.
 
 Estos permisos ayudan a garantizar que los usuarios puedan crear o modificar contenido únicamente dentro de sus carpetas designadas.
 
-Para obtener más información, vea [Permisos en AEM](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/security/security#permissions-in-aem).
-
+Para obtener más información, vea [Permisos en AEM](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security#permissions-in-aem).

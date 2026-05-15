@@ -5,9 +5,15 @@ feature: Translation
 role: User
 hide: true
 exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/SwYb9OfbAPrK0iSbyfvAAJdEQG0ks5Ig871KBMLu2Fc
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd456af4-cb12-4a34-8cc4-b74adf885626
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: 1315
 ht-degree: 1%
 
 ---
@@ -50,7 +56,7 @@ Realice los siguientes pasos para configurar el servicio de traducción humana o
 
    >[!NOTE]
    >
-   > Consulte [Configuración del marco de trabajo de integración de traducciones](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=es) en la documentación de AEM para obtener más información sobre la integración con servicios de traducción de terceros.
+   > Consulte [Configuración del marco de trabajo de integración de traducciones](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) en la documentación de AEM para obtener más información sobre la integración con servicios de traducción de terceros.
 
 1. Haga clic en **Guardar y cerrar** para guardar las propiedades actualizadas de la carpeta.
 
@@ -141,4 +147,4 @@ Una vez finalizada la traducción, el estado del trabajo de traducción cambia a
 >
 > Si rechaza la traducción de uno o más temas de un trabajo de traducción, el estado de traducción de **En curso** de todos los temas rechazados vuelve a su estado original. El estado de los temas referidos se comprueba y revierte según el estado de traducción más reciente. Además, los archivos de traducción creados en el proyecto de destino no se eliminan aunque la traducción se rechace para ellos.
 
-**Tema principal:**&#x200B;[&#x200B; Traducir contenido](translation.md)
+**Tema principal:**[ Traducir contenido](translation.md)

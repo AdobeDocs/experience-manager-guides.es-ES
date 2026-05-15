@@ -5,9 +5,13 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/njK8ud-RQO0Ev2PnOnXuB7OUUorvKtnMHwLBx8cD1jI
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '3144'
+source-wordcount: 3144
 ht-degree: 0%
 
 ---
@@ -138,7 +142,7 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
    >[!TIP]
    >
-   > Seleccionar <img src="images/info-icon.svg" width="25">   cerca de cualquier campo para ver más detalles sobre él.
+   > Seleccionar <img src="images/info-icon.svg" width="25"> cerca de cualquier campo para ver más detalles al respecto.
 
 
    - **Agregar sufijo a carpetas duplicadas**: Si está moviendo carpetas que tienen el mismo nombre, debe seleccionar esta opción. Por ejemplo, en la captura de pantalla anterior, la **ruta de Source** contiene el nombre de las carpetas que se van a mover. La carpeta denominada tema existe en dos ubicaciones diferentes: prueba A y prueba B. Al seleccionar esta opción, las carpetas se moverán correctamente. La primera carpeta que se mueva recibirá el nombre de tema, mientras que la segunda carpeta recibirá el nombre de tema0. La operación de mover agrega un sufijo en la serie secuencial \(0, 1, 2, etc.\) a las carpetas con el mismo nombre.
@@ -147,7 +151,7 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
    - **Ruta de Source\(s\)**: especifique la ubicación de las carpetas que desea mover.
 
-      - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25">    para abrir el cuadro de diálogo examinar archivo. Seleccione las carpetas que desee mover y haga clic en **Seleccionar** para completar el proceso.
+      - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo examinar archivo. Seleccione las carpetas que desee mover y haga clic en **Seleccionar** para completar el proceso.
 
       - También puede escribir o copiar y pegar la ubicación de origen. Pulse Intro para añadir la carpeta a la lista.
 
@@ -179,7 +183,7 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
    >[!TIP]
    >
-   > Seleccionar <img src="images/info-icon.svg" width="25">   cerca de cualquier campo para ver más detalles sobre él.
+   > Seleccionar <img src="images/info-icon.svg" width="25"> cerca de cualquier campo para ver más detalles al respecto.
 
    - **Tamaño de lote**: especifique el número de archivos que se moverán en un solo lote. Los valores predeterminados son 50 archivos.
    - **Intervalo de suspensión (segundos)**: especifique el tiempo en segundos que el proceso esperará antes de iniciar el siguiente lote. Durante este intervalo de tiempo de suspensión, el sistema corrige las referencias hacia y desde los archivos movidos. El intervalo de suspensión predeterminado es de 60 segundos.
@@ -196,7 +200,7 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
    - **Ruta de Source\(s\)**: especifique la ubicación de las carpetas que desea mover.
 
-      - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25">    para abrir el cuadro de diálogo examinar archivo. Seleccione las carpetas que desee mover y haga clic en **Seleccionar** para completar el proceso.
+      - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo examinar archivo. Seleccione las carpetas que desee mover y haga clic en **Seleccionar** para completar el proceso.
 
       - También puede escribir o copiar y pegar la ubicación de origen. Pulse Intro para añadir la carpeta a la lista.
 
@@ -318,4 +322,4 @@ Si el archivo multimedia ha sufrido algún cambio, puede buscarlo y obtener una 
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Tema principal:**&#x200B;[&#x200B; Administrar contenido](authoring.md)
+**Tema principal:**[ Administrar contenido](authoring.md)
