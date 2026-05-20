@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
 workflow-type: tm+mt
-source-wordcount: 4271
+source-wordcount: 4286
 ht-degree: 0%
 
 ---
@@ -181,9 +181,11 @@ El editor proporciona un cuadro de diálogo de exploración inteligente de archi
 
 ## Trabajar con tablas en el nuevo editor
 
-El nuevo editor permite crear, dar formato y organizar tablas directamente dentro del contenido mediante varias acciones contextuales.
+El nuevo editor permite crear, dar formato y organizar tablas directamente dentro del contenido mediante varias acciones contextuales. Aquí tiene un breve vídeo sobre cómo trabajar con las distintas funciones de edición de tablas disponibles en el nuevo editor.
 
-Esta sección muestra las distintas funciones de creación de tablas disponibles en el nuevo editor.
+>[!VIDEO](https://video.tv.adobe.com/v/3491344)
+
+Las siguientes funciones de edición de tablas están disponibles en el editor nuevo:
 
 **Modificar la tabla mediante el menú contextual**
 
