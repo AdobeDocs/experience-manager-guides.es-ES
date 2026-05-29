@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: ffe43716d6f922cf6da9bd94244fc80a80d99b2f
+source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
 workflow-type: tm+mt
-source-wordcount: '3384'
+source-wordcount: '3391'
 ht-degree: 8%
 
 ---
@@ -620,7 +620,8 @@ ht-degree: 8%
          - [Anulaciones de configuración para Cloud Service](./install-conf-guide/download-install-config-override.md)
       - Local {#on-prem}
          - [Actualizar AEM Guides On-Premise 4.6.0 y superior](./install-conf-guide/upgrade-aemg-latest-version.md)
-         - [Actualizar versiones anteriores locales de AEM Guides](./install-conf-guide/upgrade-aemg-prev-versions.md)
+         - [Actualización de versiones anteriores locales de AEM Guides](./install-conf-guide/upgrade-aemg-prev-versions.md)
+         - [Actualizaciones de configuración para versiones de Experience Manager Guides](./install-conf-guide/configuration-on-prem.md)
    - Recomendaciones para la optimización del rendimiento {#performance-optimization-aemg}
       - [Optimización del rendimiento para Cloud Service](./install-conf-guide/perf-optimization-cs.md)
       - [Optimización de rendimiento para local](./install-conf-guide/perf-optimization-on-prem.md)
