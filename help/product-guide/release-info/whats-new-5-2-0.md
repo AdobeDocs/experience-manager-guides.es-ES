@@ -2,7 +2,7 @@
 title: Notas de versión | Novedades de la versión 5.2.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 5.2.0 de Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
+source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
 workflow-type: tm+mt
 source-wordcount: '4132'
 ht-degree: 0%
@@ -94,17 +94,17 @@ El nuevo editor mejora la experiencia de trabajar con temas grandes y complejos 
 
 El repositorio, ahora accesible directamente desde la página de inicio, sirve como espacio centralizado para mejorar la capacidad de detección de carpetas y archivos. Incluye **panel de navegación de carpetas** dedicado y una **vista tabular personalizable del repositorio**. La experiencia renovada de búsqueda y filtrado facilita considerablemente la búsqueda y localización de archivos. Para obtener más información, vea [Conocer la interfaz del repositorio](../user-guide/home-page-repository-view.md).
 
-![](assets/repository-view-home.png){align="left"}
+![](assets/repository-view-home.png)
 
 En el Editor, la experiencia de búsqueda y filtrado de archivos es ahora coherente con la página de inicio. Se ha introducido un nuevo [panel de búsqueda](../user-guide/search-panel-explorer.md) ubicado en la parte inferior de la interfaz del editor para mostrar los resultados de búsqueda. Además, ahora se cambia el nombre del repositorio a **Explorador** en el Editor, lo que le permite examinar carpetas y archivos como antes.
 
-![](assets/search-panel-explorer.png){align="left"}
+![](assets/search-panel-explorer.png)
 
 ### Compatibilidad con el filtro de estado del documento
 
 También puede filtrar los resultados de búsqueda del Repositorio en función del estado actual del documento de los archivos. Con el filtro Estado del documento, puede limitar la búsqueda mediante los valores de filtro disponibles definidos en el archivo `ui_config.json` dentro del perfil de carpeta.
 
-![](assets/document-state-filter-repository.png){align="left"}
+![](assets/document-state-filter-repository.png)
 
 Los valores de filtro predeterminados disponibles para el estado del documento son: Borrador, Editar, En revisión, Aprobado, Revisado y Listo.
 
@@ -118,7 +118,7 @@ Los valores de filtro predeterminados disponibles para el estado del documento s
 
 Todos los archivos multimedia se muestran con iconos de miniaturas, lo que facilita la identificación y localización visual de las imágenes del **repositorio**. Esta mejora también se aplica al buscar archivos en el **panel Buscar**, lo que le ayuda a distinguir rápidamente los recursos multimedia de otros tipos de archivos.
 
-![](assets/thumbnail-repository.png){align="left"}
+![](assets/thumbnail-repository.png)
 
 ## Introducción al modo de búsqueda de Source en Buscar y reemplazar
 
@@ -126,7 +126,7 @@ Experience Manager Guides ha introducido varias mejoras en la función Buscar y 
 
 Al habilitar este modo, puede realizar búsquedas globales no solo en el contenido visible, sino también en el contenido de origen subyacente (estructura XML, incluidos elementos, etiquetas y valores de atributo) para la cadena buscada. Este modo garantiza una búsqueda completa en todo el contenido.
 
-![](assets/map-find-replace-with-source-mode.png){width="650" align="left"}
+![](assets/map-find-replace-with-source-mode.png){width="650"}
 
 En este modo, puede aplicar filtros para restringir la búsqueda por tipo de archivo, estado del documento, fecha de la última modificación y más. También tiene la opción de descargar un informe CSV detallado después de realizar la operación Reemplazar todo, que proporciona una instantánea de todas las acciones de reemplazo realizadas junto con su estado de éxito y error.
 
@@ -142,7 +142,7 @@ Esta versión presenta una interfaz más limpia e intuitiva para explorar archiv
 
 Al examinar los archivos, el cuadro de diálogo **Seleccionar archivo** modificado ahora incluye un diseño con pestañas con dos vistas: **Repositorio** para navegar por todo el repositorio de contenido en formato tabular y **Colecciones** para acceder rápidamente a los temas, mapas e imágenes utilizados con frecuencia.
 
-![](assets/select-file.png){width="650" align="left"}
+![](assets/select-file.png){width="650"}
 
 Las mejoras clave incluyen:
 
@@ -154,7 +154,7 @@ Las mejoras clave incluyen:
 
 El cuadro de diálogo **Seleccionar ruta** también incluye una vista estructurada en árbol mejorada para la navegación por carpetas, lo que garantiza una forma más organizada y eficaz de seleccionar rutas en el repositorio de contenido.
 
-![](assets/select-path-dialog-new.png){width="350" align="left"}
+![](assets/select-path-dialog-new.png){width="350"}
 
 Para obtener más información, vea la sección [Exploración de archivos y carpetas en Experience Manager Guides](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides) en _Otras características del Editor_.
 
@@ -178,15 +178,15 @@ Se han realizado las siguientes mejoras en la interfaz de usuario de Schematron 
 
 - En el panel Validación, se muestra un mensaje de estado vacío cuando no se agrega ningún archivo de Schematron, lo que proporciona una mejor claridad y dirección para los pasos siguientes.
 
-  ![](assets/schematron-panel.png){width="350" align="left"}
+  ![](assets/schematron-panel.png){width="350"}
 
 - Cuando se agregan varios archivos de Schematron, se organizan en un acordeón consolidado, lo que proporciona una mejor visibilidad de los archivos de Schematron configurados.
 
-  ![](assets/schematron-panel-error.png){width="350" align="left"}
+  ![](assets/schematron-panel-error.png){width="350"}
 
 - Según el atributo de rol definido en el archivo Schematron, los resultados de validación ahora se clasifican en: `Fatal`, `Error`, `Warn` o `Info`. Cada categoría incluye un recuento visible junto con información sobre herramientas contextuales para una interpretación más clara.
 
-  ![](assets/schematron-validation-errors.png){width="350" align="left"}
+  ![](assets/schematron-validation-errors.png){width="350"}
 
 Para obtener más información sobre el uso de archivos Schematron en Experience Manager Guides, vea [Compatibilidad con archivos Schematron](../user-guide/support-schematron-file.md).
 
@@ -194,7 +194,7 @@ Para obtener más información sobre el uso de archivos Schematron en Experience
 
 Ahora hay disponible una nueva sección **Traducciones** en el panel derecho bajo *Propiedades del archivo* en el editor. Esta sección proporciona acceso directo a todas las copias de idioma disponibles para el recurso abierto actualmente (mapa, tema, imagen, etc.). Ya no es necesario navegar a la interfaz de usuario de Assets para ver o acceder a estas copias de idioma.
 
-![](assets/translations-right-panel.png){width="350" align="left"}
+![](assets/translations-right-panel.png){width="350"}
 
 Para cada copia de idioma, puede pasar el ratón sobre el archivo para localizar su ruta en el repositorio o simplemente seleccionarlo para abrirlo en el Editor. Además de abrir archivos, también puede realizar muchas acciones utilizando el menú **Opciones**. Algunas de las acciones que puede realizar son Editar, Vista previa, Copiar UUID, Copiar ruta, Agregar a colecciones y Propiedades.
 
@@ -210,11 +210,11 @@ Presentamos la nueva funcionalidad **Refresh** para asignaciones que ya están a
 
 - Para actualizar todo el mapa (incluidos todos los temas), se ha introducido un nuevo botón **Actualizar** en la esquina superior izquierda del Editor.
 
-  ![](assets/refresh-map.png){width="600" align="left"}
+  ![](assets/refresh-map.png){width="600"}
 
 - Para actualizar el contenido de temas individuales, se ha introducido una nueva opción **Actualizar tema** en el menú contextual.
 
-  ![](assets/refresh-topic.png){width="600" align="left"}
+  ![](assets/refresh-topic.png){width="600"}
 
 Para obtener más información, vea [Funciones del editor de mapas](../user-guide/map-editor-advanced-map-editor.md).
 
@@ -222,7 +222,7 @@ Para obtener más información, vea [Funciones del editor de mapas](../user-guid
 
 Ahora puede realizar un seguimiento del recuento de palabras presentes en un mapa o archivo de tema. El nuevo campo **Recuento de palabras** del panel derecho mostraría el número total de palabras presentes en un tema (o mapa), donde las palabras separadas por espacios se cuentan como palabras individuales. Se actualiza automáticamente cada vez que se guardan los cambios. En el caso de las referencias cruzadas, solo se incluye el texto para mostrar, mientras que las claves se excluyen.
 
-![](assets/file-properties-new.png){width="350" align="left"}
+![](assets/file-properties-new.png){width="350"}
 
 Para obtener más información, vea [Panel derecho en Editor](../user-guide/web-editor-right-panel.md#file-properties).
 
@@ -232,7 +232,7 @@ Experience Manager Guides ahora incluye un botón **ID duplicados** en el editor
 
 Para obtener más información, vea [Características adicionales en el editor](../user-guide/web-editor-other-features.md).
 
-![](assets/duplicate-element-IDs.png){width="350" align="left"}
+![](assets/duplicate-element-IDs.png){width="350"}
 
 ### Mejoras en los filtros Repositorio e Informes
 
@@ -244,7 +244,7 @@ Ahora puede buscar citas en todos los campos de diario, como *Título*, *Título
 
 Para obtener más información sobre cómo agregar citas en Experience Manager Guides, vea [Agregar y administrar citas en el contenido](../user-guide/web-editor-apply-citations.md).
 
-![](assets/add-citations.png){width="350" align="left"}
+![](assets/add-citations.png){width="350"}
 
 ### Ahora se cambia el nombre de Configuración a Configuración de Workspace y se puede acceder a ella desde la página principal
 
@@ -279,7 +279,7 @@ Como iniciador de una tarea de revisión, ahora puede comprobar el estado de la 
 
 Para obtener más información, vea [Solicitar una nueva revisión o cerrar una tarea de revisión como autor](../user-guide/review-close-review-task.md).
 
-![](assets/check-review-status-icon.png){width="350" align="left"}
+![](assets/check-review-status-icon.png){width="350"}
 
 ### Asignación del revisor basada en la selección activa del proyecto
 
@@ -298,7 +298,7 @@ Para obtener más información, vea [Enviar temas para revisión](../user-guide/
 
 Puede agregar temas nuevos a una tarea de revisión en curso (si no se han enviado anteriormente para su revisión) o quitar temas de una tarea de revisión en curso sin que ello afecte al flujo de trabajo de revisión. En la página **Detalles de la tarea**, simplemente puede seleccionar o deseleccionar temas para modificar la lista de temas. Los revisores reciben notificaciones (a través de AEM y por correo electrónico) sobre cualquier cambio en los temas asignados mediante notificaciones de AEM y por correo electrónico. Para obtener más información, vea [Enviar temas para revisión](../user-guide/review-send-topics-for-review.md).
 
-![](assets/modify-review-topics.png){width="650" align="left"}
+![](assets/modify-review-topics.png){width="650"}
 
 ## Mejoras de traducción
 
@@ -312,7 +312,7 @@ Si un archivo contiene cambios sin versiones (no guardados como una nueva versi�
 
 Para obtener más información, vea [Traducir documentos desde la consola de mapas](../user-guide/translate-documents-web-editor.md).
 
-![](assets/unversioned-changes-translation.png){width="650" align="left"}
+![](assets/unversioned-changes-translation.png){width="650"}
 
 
 ## Mejoras en la administración de recursos
@@ -425,7 +425,7 @@ Se han realizado las siguientes mejoras de API como parte de esta versión:
 - Se introducen nuevas API para crear un nuevo proyecto de traducción y rastrear su estado. Estas API ayudan a automatizar el proceso de traducción, reduciendo el esfuerzo manual y mejorando la eficacia. Para obtener más información, vea [Crear proyecto de traducción](../api-reference/translation-project.md)
 - API de procesamiento de recursos mejoradas con capacidad de filtrado mejorada para archivos y carpetas. Para obtener más información, vea [Procesar recursos](../api-reference/bulk-assets-processing.md).
 - Hay una nueva API disponible para rastrear el estado posterior al procesamiento de recursos y carpetas individuales. Esto resulta especialmente útil en equipos que utilizan flujos de trabajo automatizados, donde la publicación solo debe producirse después de que el contenido se haya procesado por completo. La API ofrece una forma fiable de confirmar la preparación, lo que reduce el riesgo de errores de publicación causados por un procesamiento incompleto. Además, con la introducción de esta API, los eventos de procesamiento posterior de recursos no se activan automáticamente. Ahora los administradores pueden habilitar este evento mediante una configuración en `fmdita config manager`.
-Para obtener más información, vea la [API para rastrear el estado posterior al procesamiento de recursos y carpetas individuales](../api-reference/track-post-processing-status.md) y la configuración del controlador de eventos posterior al procesamiento en el administrador de configuración de fmdita[&#128279;](../api-reference/post-process-event.md)
+Para obtener más información, vea la [API para rastrear el estado posterior al procesamiento de recursos y carpetas individuales](../api-reference/track-post-processing-status.md) y la configuración del controlador de eventos posterior al procesamiento en el administrador de configuración de fmdita](../api-reference/post-process-event.md)[
 
 ## Introducción de formación sobre productos y contenido de aprendizaje en Experience Manager Guides
 
