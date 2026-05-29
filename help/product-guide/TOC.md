@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: e1c94e180a89b8d68ea6e0812a2c576b272ffdf5
+source-git-commit: ffe43716d6f922cf6da9bd94244fc80a80d99b2f
 workflow-type: tm+mt
-source-wordcount: '3347'
+source-wordcount: '3384'
 ht-degree: 8%
 
 ---
@@ -129,6 +129,10 @@ ht-degree: 8%
             - [Notas de la versión de enero](./release-info/release-notes-2022-1-0.md)
       - On-premise/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] versiones](./release-info/latest-release-info.md)
+         - Versión 5.2.0 {#520-release}
+            - [Novedades](./release-info/whats-new-5-2-0.md)
+            - [Problemas solucionados](./release-info/fixed-issues-5-2-0.md)
+            - [Instrucciones de actualización](./release-info/upgrade-instructions-5-2-0.md)
          - Versión 5.1.0 SP4 {#510-sp4-release}
             - [Problemas solucionados](./release-info/fixed-issues-5-1-0-sp4.md)
             - [Instrucciones de actualización](./release-info/upgrade-instructions-5-1-0-sp4.md)
@@ -194,14 +198,14 @@ ht-degree: 8%
                - [Notas de la versión 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notas de la versión 4.2](./release-info/release-notes-4-2.md)
          - [Notas de la versión 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notas de la versión 4.0.x](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notas de la versión 3.8.x](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notas de la versión 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notas de la versión 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guía del usuario (nueva interfaz de usuario) {#user-guide}
    - Introducción {#about-aemg}
       - [Acerca de  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] funciones clave y de trabajo {#aemg-works-features}
-         - [Cómo funciona [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-         - [Características clave  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Cómo funciona [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+         - [Características clave  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Página de inicio {#home-page}
       - [Experiencia de la página de inicio [!DNL AEM Guides]](./user-guide/intro-home-page.md)
       - [Interfaz de repositorio](./user-guide/home-page-repository-view.md)
@@ -403,7 +407,7 @@ ht-degree: 8%
       - Resolución de problemas {#troubleshooting}
          - [Session timeout](./user-guide/session-timeout-prompt.md)
 - Guía del usuario (IU antigua) {#user-guide-old-ui}
-   - [Información general de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Información general de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalación y configuración {#install-guide}
    - On-Premise {#on-prem-ig}
       - {hide-from-toc}[Conceptos básicos locales](./install-guide/introduction.md)
@@ -664,15 +668,16 @@ ht-degree: 8%
       - [Configuración de filtros de texto](./install-conf-guide/conf-text-filters.md)
       - [Configurar filtros para el cuadro de diálogo de exploración de archivos](./install-conf-guide/conf-custom-file-filters.md)
       - [Instalación de paquetes para la publicación basada en artículos](./install-conf-guide/conf-article-based-publishing.md)
+      - [Configuración de la lista de omisión de propiedades de metadatos](./install-conf-guide/conf-metadata-prop.md)
       - Configuración del editor para Cloud Service {#editor-cloud-settings}
          - [Configure las sugerencias inteligentes con tecnología de IA para la creación de Cloud Service](./install-conf-guide/conf-smart-suggestions.md)
          - [Configuración de la ayuda inteligente con tecnología de IA para buscar contenido para Cloud Service](./install-conf-guide/conf-smart-help.md)
          - [Configuración de la opción de edición en Oxígeno para Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
          - [Configurar la visualización de tablas pegadas para Cloud Service](./install-conf-guide/conf-pasted-tables.md)
          - [Configuración de la generación de PDF de un solo tema para Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
-         - [Configuración de la función de traducción en el editor web de Cloud Service](./install-conf-guide/conf-translation-editor.md)
-         - [Configuración de la lista de omisión de propiedades de metadatos para Cloud Service](./install-conf-guide/conf-metadata-prop.md)
+         - [Configurar la característica de traducción en el editor web para Cloud Service](./install-conf-guide/conf-translation-editor.md)
       - Configuración del editor para On-Premise {#editor-on-prem-settings}
+         - [Configurar nuevo editor](./install-conf-guide/conf-new-editor-on-prem.md)
          - [Configuración de caracteres especiales adicionales para On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
          - [Configure el título de los iconos Proteger y Desproteger para Local](./install-conf-guide/conf-checkin-checkout-title.md)
          - [Configure el número de LimitReads para una consulta de local](./install-conf-guide/conf-query-limitreads.md)
@@ -714,9 +719,13 @@ ht-degree: 8%
       - [Integración de editores XML basados en escritorio](./install-conf-guide/integrate-desktop-editors.md)
       - [Configuración de Workfront para Cloud Service](./install-conf-guide/conf-workfront.md)
       - [Configurar traducción](./install-conf-guide/conf-translation.md)
+      - [Configurar la inicialización de la copia de destino para On-Premise](./install-conf-guide/conf-translation-copies-on-prem.md)
+      - [Configurar nueva línea base para local](./install-conf-guide/conf-new-baseline-on-prem.md)
+      - [Configurar la omisión de vínculos de igual a igual para local](./install-conf-guide/conf-skip-peer-links-on-prem.md)
    - Ampliación de las funciones {#aemg-customization}
       - [Implementar un índice personalizado para la función Buscar y reemplazar para Cloud Service](./install-conf-guide/custom-indexing-cs.md)
       - [Reindexar para la característica Buscar y reemplazar para On-Premise](./install-conf-guide/custom-indexing-on-prem.md)
+      - [Configuración de la función Buscar y reemplazar para instalación local](./install-conf-guide/conf-find-replace-on-prem.md)
       - [Asignación de componentes para AEM Sites](./install-conf-guide/component-mapping.md)
    - Apéndice {#appendix}
       - [Apéndice](./install-conf-guide/aemg-appendix.md)

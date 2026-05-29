@@ -4,9 +4,9 @@ description: Obtenga información acerca de las distintas configuraciones dispon
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
+source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2212'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> En la configuración On-premise, la opción **Settings** aparece en la barra de pestañas del Editor. En la configuración de Cloud Service, se cambió el nombre de esta opción a **Configuración de Workspace**. Todas las opciones de configuración disponibles en **Configuración del editor** permanecen sin cambios.
+> En la configuración On-premise anterior a la versión 5.2, la opción **Settings** aparece en la barra de pestañas del Editor. Para las configuraciones de Cloud Service y On-Premise en la versión 5.2 y posterior, se ha cambiado el nombre de esta opción a **Configuración de Workspace**. Todas las opciones de configuración disponibles en **Configuración del editor** permanecen sin cambios.
 > ![Configuración del editor para On-Premise](assets/editor-settings-on-prem.png){width="650"}
 
 

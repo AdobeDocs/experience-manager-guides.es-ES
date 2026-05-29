@@ -1,24 +1,24 @@
 ---
-title: Configurar el trabajo de limpieza del árbol B para Cloud Services
-description: Configurar el trabajo de limpieza del árbol B para Cloud Services
+title: Configurar trabajo de limpieza del almacén de referencia
+description: Configurar trabajo de limpieza del almacén de referencia
 feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 58f98313-fc91-43b3-9553-aa5ab4946925
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 370a28a06a37b632873a79c9b83b8660a0221dd8
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '247'
 ht-degree: 3%
 
 ---
 
-# Configurar limpieza de árbol B
+# Configurar limpieza del almacén de referencia
 
-Configure el trabajo de limpieza del árbol B y administre la configuración de `Guides BTree deletion` para mantener el sistema optimizado y el almacenamiento limpio.
+Configure el trabajo de limpieza del almacén de referencia y administre la configuración de `Guides BTree deletion` para mantener el sistema optimizado y el almacenamiento limpio.
 
-## Configurar trabajo de limpieza del árbol B
+## Configurar trabajo de limpieza del almacén de referencia
 
-Las siguientes pestañas proporcionan instrucciones para configurar el trabajo de limpieza del árbol B en función de la configuración de Experience Manager Guides: Cloud Service o On-Premise.
+Las siguientes pestañas proporcionan instrucciones para configurar el trabajo de limpieza del almacén de referencia en función de la configuración de Experience Manager Guides: Cloud Service o On-Premise.
 
 >[!BEGINTABS]
 
@@ -44,9 +44,9 @@ Las siguientes pestañas proporcionan instrucciones para configurar el trabajo d
 
 1. Busque y seleccione el paquete *com.adobe.guides.utils.schedulers.GuidesBTreesCleanupSchedulerJob*.
 
-1. Actualice la expresión cron para configurar la frecuencia de ejecución del trabajo del programador de limpieza de árbol B.
+1. Actualice la expresión cron para configurar la frecuencia de ejecución del trabajo del programador de limpieza del almacén de referencia.
 
-1. Configure el planificador de limpieza de árbol B como se muestra a continuación.
+1. Configure el Planificador de limpieza de la tienda de referencia como se muestra a continuación.
 
    ![](assets/btree-cleanup-config.png)
 
@@ -81,7 +81,7 @@ Las siguientes pestañas proporcionan instrucciones para habilitar la configurac
    ```
 
 1. Busque y seleccione el paquete *com.adobe.fmdita.config.ConfigManager*.
-1. Habilite la configuración `Guides btree deletion enabled`.
+1. Habilite la opción **Eliminación del árbol b de guías habilitada** (btree.delete.enabled).
 
    ![](assets/btree-cleanup-setting.png)
 

@@ -4,9 +4,10 @@ description: Obtenga información sobre cómo configurar el procesamiento de rec
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 0b66a515-d8f1-4ea6-913f-e152ae114698
+source-git-commit: 5af3356dff3c42b8a93ed97b5ee20b23976769a4
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '121'
 ht-degree: 3%
 
 ---
@@ -39,7 +40,7 @@ Las siguientes pestañas proporcionan instrucciones para configurar la función 
 
 1. Busque y seleccione el paquete *com.adobe.fmdita.config.ConfigManager*.
 
-1. Configure la configuración `Enable Guides asset processing scheduled job` según sus necesidades. La configuración está habilitada de forma predeterminada.
+1. Configure la opción **Habilitar el trabajo programado de procesamiento de recursos de las guías** (`enable.asset.processing.scheduler`) según sus necesidades. La configuración está habilitada de forma predeterminada.
 
 1. Seleccione **Guardar**.
 

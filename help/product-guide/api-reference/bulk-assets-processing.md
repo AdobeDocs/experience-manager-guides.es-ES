@@ -6,19 +6,20 @@ role: Developer
 level: Experienced
 exl-id: feba6d8e-c363-4360-af33-92a01dcf6672
 TQID: https://experienceleague.adobe.com/rGPpMIf5X5lfZZy2ZWk9lizd2E7UyRT8BLkSBb0o320
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 591
-ht-degree: 12%
+source-wordcount: 639
+ht-degree: 11%
 
 ---
 
 # API para iniciar el procesamiento masivo de recursos
+
+>[!NOTE]
+>
+> Para obtener las definiciones de extremo de API de REST más recientes y los detalles relacionados, vea la documentación de Swagger en `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html` (reemplace `<aem-author-url>` por la URL de su servidor de AEM). Dado que este artículo está programado para archivarse en octubre de 2026, recomendamos utilizar la documentación de Swagger a partir de ahora para obtener la información de API más actualizada.
 
 Un método POST que inicia el procesamiento masivo de recursos para una ruta de acceso especificada. Esta API admite el procesamiento de recursos basado en JCR y en base a datos. Inicia un trabajo asincrónico que procesa todos los recursos de la ruta dada y sus subrutas. Al iniciarse, la API devuelve un ID de procesamiento único, que se puede utilizar para realizar un seguimiento del estado del trabajo.
 
@@ -79,7 +80,7 @@ processingId para sondear y obtener el estado del trabajo asincrónico.
 
 ## Comprobar estado del trabajo
 
-Método de GET que recupera el estado actual de un trabajo de procesamiento de recursos iniciado anteriormente.
+Un método GET que recupera el estado actual de un trabajo de procesamiento de recursos iniciado anteriormente.
 
 **URL de solicitud**
 
@@ -129,7 +130,7 @@ Método de GET que recupera el estado actual de un trabajo de procesamiento de r
 
 ## Ver registros de trabajos
 
-Método de GET que recupera los registros de un ID de trabajo determinado. Esta API recupera los registros del trabajo de procesamiento de recursos. El ID de procesamiento es obligatorio. La API proporciona parámetros de desplazamiento y límite, así como una estrategia de seguimiento.
+Un método GET que recupera registros para un ID de trabajo determinado. Esta API recupera los registros del trabajo de procesamiento de recursos. El ID de procesamiento es obligatorio. La API proporciona parámetros de desplazamiento y límite, así como una estrategia de seguimiento.
 
 **URL de solicitud**
 
@@ -168,7 +169,7 @@ Método de GET que recupera los registros de un ID de trabajo determinado. Esta 
 
 ## Descargar registros de trabajo
 
-Método de GET que descarga el archivo de registro de un trabajo determinado como ZIP.
+Método GET que descarga el archivo de registro de un trabajo determinado como ZIP.
 
 **URL de solicitud**
 
@@ -245,7 +246,7 @@ Una API de POST que reinicia una solicitud de procesamiento masivo de recursos q
 
 ## Ver historial de trabajos
 
-Una API de GET que devuelve las últimas &quot;N&quot; ejecuciones de posprocesamiento de recursos.
+Una API de GET que devuelve las últimas ejecuciones &quot;N&quot; del procesamiento posterior de recursos.
 
 **URL de solicitud**
 
@@ -253,7 +254,7 @@ Una API de GET que devuelve las últimas &quot;N&quot; ejecuciones de posprocesa
 
 **Parámetros de solicitud**
 
-Ninguna. Esta solicitud de GET recupera el historial de trabajos sin requerir parámetros de entrada.
+Ninguna. Esta solicitud GET recupera el historial del trabajo sin requerir parámetros de entrada.
 
 **Ejemplo de respuesta**
 
