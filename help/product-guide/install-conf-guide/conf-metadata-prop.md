@@ -70,4 +70,4 @@ AEM Guides incluye un conjunto predeterminado de propiedades de metadatos en la 
 
 Sólo se tienen en cuenta las propiedades de metadatos que no están incluidas en la lista de omisión para marcar la versión de un documento como sucia.
 
-**Tema principal:**[ Personalizar editor web](customize-overview.md)
+**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](customize-overview.md)
