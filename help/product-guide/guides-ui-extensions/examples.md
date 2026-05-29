@@ -3,17 +3,15 @@ title: Ejemplos
 description: Lista de ejemplos de personalización
 exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
 TQID: https://experienceleague.adobe.com/Fgry-byLX0-N5gxaBk2TiN9QyzSPTXLepzGiQ4w1hSU
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 18a1e586774da61e19055f8e4eb68a507192205c
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 82d95464acaa3d4d2c43a35197e40a606cd2cc49
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: 533
 ht-degree: 0%
 
 ---
+
 
 # Ejemplos
 
@@ -109,7 +107,7 @@ export default fileOptions
 ```
 
 1. **Panel izquierdo**: En este ejemplo hemos personalizado `left tab panel` para que tenga otro`tab` titulado &quot;EXTENSIÓN DE PRUEBA&quot;, y un `tab panel` correspondiente con una etiqueta: `Test Tab Panel`.
-Descargue el ejemplo de código para [Panel izquierdo](./examples/left_panel_container.ts).
+Descargue la muestra de código para el [Panel izquierdo](./examples/left_panel_container.ts).
 
 ```typescript
 const tabLeftPanel = {
@@ -493,7 +491,7 @@ export default {
 ```
 
 1. **Comentario de revisión**: en este ejemplo hemos agregado reemplazado el nombre de usuario por información de usuario (que incluye el nombre completo y el título del comentarista), hemos agregado un identificador de comentario único, un icono de mailTo y hemos agregado campos de entrada para mencionar la gravedad y el fundamento de los comentarios.
-También hemos agregado un botón `accept with modification` en los comentarios del lado del editor XML que abre un cuadro de diálogo. Descargar el ejemplo de código para [Revisar comentario](./examples/review_app_examples/review_comment.ts).
+También hemos agregado un botón `accept with modification` en los comentarios del lado del editor XML que abre un cuadro de diálogo. Descargue el ejemplo de código para [Revisar comentario](./examples/review_app_examples/review_comment.ts).
 
 ```typescript
 export enum VIEW_STATE {
