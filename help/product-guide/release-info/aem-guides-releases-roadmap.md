@@ -12,7 +12,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2899fd2e20d62739adff67397b0ecf5a82cbff3f
+source-git-commit: 71ecdc269621cec04d03161e1a14018ce9e3fe86
 workflow-type: tm+mt
 source-wordcount: 790
 ht-degree: 37%
@@ -71,7 +71,6 @@ Las actualizaciones de productos en términos de nuevas funciones, mejoras y cor
 
 | Versión | Evento | Programación | Novedades | Instrucciones de actualización | Estado |
 |---|---|---|---|---|---|
-| Adobe Experience Manager Guides 5.2.0 | Versión | Segunda semana de mayo de 2026 | - | - | Público destinatario |
 | Adobe Experience Manager Guides 5.3.0 | Versión | Segunda semana de octubre de 2026 | - | - | Público destinatario |
 
 
@@ -79,6 +78,7 @@ Las actualizaciones de productos en términos de nuevas funciones, mejoras y cor
 
 | Versión | Evento | Programación | Novedades | Instrucciones de actualización | Estado |
 |---|---|---|---|---|---|
+| Adobe Experience Manager Guides 5.2.0 | Versión | 29 de mayo de 2026 | [Aquí](whats-new-5-2-0.md) | [Aquí](upgrade-instructions-5-2-0.md) | Publicado |
 | Adobe Experience Manager Guides 5.1.0 | Paquete de servicio 4 | 1 de abril de 2026 | - | [Aquí](upgrade-instructions-5-1-0-sp4.md) | Publicado |
 | Adobe Experience Manager Guides 5.0.0 | Paquete de servicio 4 | 1 de abril de 2026 | - | [Aquí](upgrade-instructions-5-0-0-sp4.md) | Publicado |
 | Adobe Experience Manager Guides 5.0.0 | Paquete de servicio 3 | 2 de febrero de 2026 | - | [Aquí](upgrade-instructions-5-0-0-sp3.md) | Publicado |
