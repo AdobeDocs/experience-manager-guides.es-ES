@@ -4,9 +4,9 @@ description: Conozca la página de inicio de Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
 workflow-type: tm+mt
-source-wordcount: '2105'
+source-wordcount: '2136'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Las funciones disponibles en la barra de navegación se explican de la siguiente
 
      >[!NOTE]
      >
-     > En la página de inicio, la opción de configuración de Workspace solo está disponible para la configuración de Cloud Services. En una configuración On-Premise, la opción More actions no está disponible en la página de inicio. Sin embargo, aún puede acceder a la configuración relevante a través de la interfaz del editor y la consola de mapas, navegando a Más opciones > Configuración.
+     > En la página de inicio, la opción de configuración de Workspace está disponible para Cloud Services y para configuraciones locales en la versión 5.2 y posteriores. En una configuración On-Premise anterior a la versión 5.2, la opción Más acciones no está disponible en la página de inicio. Sin embargo, aún puede acceder a la configuración relevante a través de la interfaz del editor y la consola de mapas, navegando a Más opciones > Configuración.
 
 - **Expandir vista**: permite expandir la vista de página mediante el icono **Expandir**. En esta vista, la barra de encabezado está oculta, lo que maximiza el espacio de contenido. Para volver a la vista estándar, usa el icono **Salir de la vista expandida**.
 
@@ -68,7 +68,7 @@ Las funciones disponibles en la barra de navegación se explican de la siguiente
 
 >[!NOTE]
 >
-> El repositorio solo está disponible en el panel izquierdo para la configuración de Cloud Service a partir de la versión 2025.11.0. Para la configuración On-Premise, se sigue accediendo al repositorio desde la interfaz del editor.
+> El repositorio está disponible en el panel izquierdo para la configuración de Cloud Service a partir de la versión 2025.11.0 y para la configuración local a partir de la versión 5.2. Para la configuración On-Premise anterior a la versión 5.2, se sigue accediendo al repositorio desde la interfaz del editor.
 
 El panel izquierdo le permite acceder rápidamente a las funciones Información general, Repositorio, Colecciones de mapas, Publicación en lote, Cola de publicación y Preferencias de usuario. Puede expandir el panel seleccionando el icono **Expandir** ubicado en la esquina inferior izquierda de la interfaz. Una vez expandido, usa el icono **Contraer** para contraer el panel.
 
@@ -202,4 +202,4 @@ Las preferencias de usuario están disponibles para todos los autores. Con las p
 
   >[!NOTE]
   >
-  >A partir de la versión 2025.11.0, el nombre de la opción **Buscar siempre los archivos en el repositorio** cambiará a **Buscar siempre los archivos en el explorador**. Para la configuración On-Premise, sigue estando disponible como Localizar siempre archivos en el repositorio hasta la versión 5.1 de Experience Manager Guides.
+  >A partir de la versión 2025.11.0 para Cloud Service y de la versión 5.2.0 para On-Premise, se cambia el nombre del ajuste **Localizar siempre los archivos en el repositorio** a **Localizar siempre los archivos en el explorador**. Para la configuración On-Premise anterior a la versión 5.2 , sigue disponible como Localizar siempre archivos en el repositorio.

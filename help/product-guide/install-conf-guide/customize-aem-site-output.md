@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
 workflow-type: tm+mt
 source-wordcount: '3190'
 ht-degree: 1%
@@ -210,7 +210,7 @@ También puede configurar otras propiedades, como el uso de minúsculas en los n
 
 1. Busque y haga clic en el paquete *com.adobe.fmdita.common.SanitizeNodeNameImpl*.
 
-1. En el conjunto de caracteres **No permitido para la publicación en la propiedad AEM Sites**, asegúrese de que la propiedad está establecida en ```'<>`@$```. Puede agregar más caracteres especiales a esta lista, pero debe tener estos caracteres especiales necesarios.
+1. En el conjunto de caracteres **No permitido para la publicación en la propiedad AEM Sites**, asegúrese de que la propiedad está establecida en `<>` `@$`. Puede agregar más caracteres especiales a esta lista, pero debe tener estos caracteres especiales necesarios.
 
    >[!NOTE]
    >

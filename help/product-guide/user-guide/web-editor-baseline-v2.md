@@ -4,9 +4,9 @@ description: Cree y administre una nueva línea de base (Beta) desde la consola 
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
+source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1327'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Este artículo se aplica a la nueva línea de base , actualmente disponible como característica de *Beta*, que ofrece un rendimiento y una estabilidad mejorados con la versión de Experience Manager Guides 2026.04.0. Para habilitar la nueva función de línea de base en la configuración, póngase en contacto con el equipo de éxito del cliente.
+> - Este artículo se aplica a la nueva línea de base , actualmente disponible como característica de *Beta*, que ofrece un rendimiento y una estabilidad mejorados con la versión de Experience Manager Guides 2026.04.0.
+> - Para habilitar la nueva función de línea de base para Cloud Service, póngase en contacto con el equipo de éxito del cliente.
+> - Para habilitar la nueva característica de línea base para On-Premise, vea [Configurar nueva línea base](../install-conf-guide/conf-new-baseline-on-prem.md).
 
 La nueva función de línea de base aborda los problemas críticos de fiabilidad y rendimiento asociados con mapas grandes y complejos. Viene con una arquitectura de línea de base rediseñada que ofrece una experiencia de línea de base más rápida, estable y coherente. Antes de profundizar en los detalles, aquí hay un breve vídeo introductorio que resalta las capacidades de la nueva función de línea de base.
 

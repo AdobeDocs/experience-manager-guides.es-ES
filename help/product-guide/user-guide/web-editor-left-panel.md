@@ -23,9 +23,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 11080
+source-wordcount: 11025
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ También puede realizar muchas acciones utilizando el menú Opciones disponible 
 
 >[!NOTE]
 >
-> A partir de la versión 2025.11.0, **el repositorio** del editor quedará obsoleto y será reemplazado por **el explorador** para la configuración de **Cloud Service**. Para la configuración de **On-Premise**, seguirá viendo y utilizando el repositorio a través de la interfaz del editor hasta la versión 5.1 de Experience Manager Guides.
+> A partir de la versión 2025.11.0 para Cloud Service y la versión 5.2.0 para On-Premise, **Repositorio** se reemplaza por **Explorador**. En el caso de las instalaciones locales anteriores a la versión 5.2, seguirá viendo y utilizando el repositorio a través de la interfaz del editor.
 
 Al seleccionar el icono Repositorio, se obtiene una lista de archivos y carpetas disponibles en DAM. De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón por encima de un archivo, puede ver el título y el nombre del archivo como información sobre herramientas.
 
@@ -493,7 +493,7 @@ Las distintas opciones del menú Opciones se explican a continuación:
 
 >[!NOTE]
 >
-> A partir de la versión 2025.11.0, el término Repositorio en el Editor será reemplazado por **Explorer** para la configuración de Cloud Service. La configuración On-Premise seguirá viendo y accediendo al repositorio en el editor.
+> A partir de la versión 2025.11.0 para Cloud Service y la versión 5.2.0 para On-Premise, **Repositorio** se reemplaza por **Explorador**. En el caso de las instalaciones locales anteriores a la versión 5.2, seguirá viendo y utilizando el repositorio a través de la interfaz del editor.
 
 El Explorador proporciona la mayoría de las funciones disponibles anteriormente en el Repositorio, entre las que se incluyen:
 
@@ -730,7 +730,7 @@ Si un elemento de bloque tiene su propio texto, se muestra junto con ese element
 
 ![](images/outline-view-block-element.png){width="550"}
 
-Si el administrador ha creado un perfil para atributos, obtendrá esos atributos junto con sus valores configurados. También puede asignar atributos de visualización configurados por el administrador en la ficha **Atributos de visualización** de la **configuración de Workspace** (que aparece como **Configuración** para **Local**). Los atributos definidos para un elemento se muestran en las vistas Diseño y Esquema.
+Si el administrador ha creado un perfil para atributos, obtendrá esos atributos junto con sus valores configurados. También puede asignar atributos de visualización configurados por su administrador en la ficha **Atributos de visualización** de la **configuración de Workspace** (que aparece como **Configuración** para la **configuración local anterior a la versión 5.2**). Los atributos definidos para un elemento se muestran en las vistas Diseño y Esquema.
 
 
 **Característica de búsqueda**
@@ -1060,7 +1060,7 @@ También puede cambiar los valores de la lista desplegable del atributo en la vi
 
 También puede ver y aplicar el esquema de asunto desde el panel Condiciones.
 
-Para ver el esquema de asunto en el panel Condiciones, el administrador del sistema debe seleccionar la opción **Mostrar esquema de asunto en el panel Condiciones** en la pestaña General de **Configuración de Workspace** (que aparece como **Configuración** para **Local**). Para obtener más información, vea la [barra de fichas](./web-editor-tab-bar.md).
+Para ver el esquema del asunto en el panel Condiciones, el administrador del sistema debe seleccionar la opción **Mostrar esquema del asunto en el panel Condiciones** en la pestaña General de **Configuración de Workspace** (que aparece como **Configuración** para la **configuración local anterior a la versión 5.2**). Para obtener más información, vea la [barra de fichas](./web-editor-tab-bar.md).
 
 El panel Condiciones muestra la estructura vertical plana de las definiciones de asunto dentro del esquema de asunto.
 
@@ -1229,7 +1229,7 @@ Para realizar la búsqueda global y reemplazar con el modo Source, realice los s
 
    >[!NOTE]
    >
-   >Para habilitar el botón **Reemplazar todo**, el administrador del sistema o del perfil de la carpeta debe seleccionar la opción **Habilitar Reemplazar todo** en la ficha **General** de **Configuración de Workspace** (aparece como **Configuración** para **Local**).
+   >Para habilitar el botón **Reemplazar todo**, el administrador del sistema o del perfil de la carpeta debe seleccionar la opción **Habilitar Reemplazar todo** en la ficha **General** de **Configuración de Workspace** (que aparece como **Configuración** para la **configuración local anterior a la versión 5.2**).
 
 1. También puede pasar el ratón sobre un archivo de la lista de resultados de búsqueda para ver el icono **Reemplazar todo en el archivo** a su derecha, que le permite reemplazar todas las apariciones del término en un solo archivo.
 
@@ -1303,7 +1303,7 @@ Para realizar la búsqueda global y reemplazar sin el modo Source, realice los s
 
    >[!NOTE]
    >
-   > Para habilitar el icono **Reemplazar todo**, el administrador de perfiles de carpeta o el administrador del sistema deben seleccionar la opción **Habilitar Reemplazar todo** en la ficha **General** de **Configuración de Workspace** (aparece como **Configuración** para **Local**). Si se producen errores durante la operación de reemplazo, esos archivos se omitirán debido a problemas de análisis de XML o errores relacionados con DITA.
+   > Para habilitar el icono **Reemplazar todo**, el administrador de perfiles de carpeta o el administrador del sistema deben seleccionar la opción **Habilitar Reemplazar todo** en la ficha **General** de **Configuración de Workspace** (que aparece como **Configuración** para la **configuración local anterior a la versión 5.2**). Si se producen errores durante la operación de reemplazo, esos archivos se omitirán debido a problemas de análisis de XML o errores relacionados con DITA.
 
    ![](images/replace-all.png){width="350"}
 

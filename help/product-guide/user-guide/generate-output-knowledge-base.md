@@ -18,9 +18,9 @@ subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 1333
+source-wordcount: 1343
 ht-degree: 1%
 
 ---
@@ -100,7 +100,7 @@ Se muestran las siguientes opciones de configuración para **ServiceNow** como d
 
 | Opciones de ServiceNow | Descripción |
 | --- | --- |
-| Perfil de publicación | Utilice el menú desplegable para seleccionar entre los perfiles de conexión de ServiceNow que configura el administrador. Para obtener más información sobre cómo el administrador puede crear un perfil de publicación, vea la descripción de la característica **Configuración de Workspace** (que aparece como **Configuración** para **Local**) en la sección [Panel izquierdo](./web-editor-features.md#id2051EA0M0HS). |
+| Perfil de publicación | Utilice el menú desplegable para seleccionar entre los perfiles de conexión de ServiceNow que configura el administrador. Para obtener más información sobre cómo el administrador puede crear un perfil de publicación, vea la descripción de la característica **configuración de Workspace** (que aparece como **Configuración** para la **configuración local anterior a la versión 5.2**) en la sección [Panel izquierdo](./web-editor-features.md#id2051EA0M0HS). |
 | Base de conocimiento | Utilice este campo para seleccionar la base de conocimiento de ServiceNow necesaria. Puede configurar bases de conocimiento en el sitio ServiceNow para almacenar el contenido en función de los permisos. Los artículos de este mapa DITA se pueden publicar en estas bases de conocimiento. |
 | Categoría y subcategoría | Las categorías son como árboles jerárquicos utilizados para buscar y clasificar artículos de la Base de conocimiento de ServiceNow. Agregue una categoría y subcategoría para publicar los temas y subtemas del índice en esa categoría y subcategoría del sitio ServiceNow. |
 
@@ -110,7 +110,7 @@ Se muestran las siguientes opciones de configuración para **Salesforce** como d
 
 | Opciones de Salesforce | Descripción |
 | --- | --- |
-| Perfil de publicación | Utilice la lista desplegable para seleccionar entre los perfiles de conexión de Salesforce que configura el administrador. Para obtener más información sobre cómo el administrador puede crear un perfil de publicación, vea la **configuración de Workspace** (que aparece como **Configuración** para **Local**) en la descripción de la característica en [Barra de fichas](./web-editor-tab-bar.md). |
+| Perfil de publicación | Utilice la lista desplegable para seleccionar entre los perfiles de conexión de Salesforce que configura el administrador. Para obtener más información sobre cómo el administrador puede crear un perfil de publicación, vea la descripción de la característica **configuración de Workspace** (que aparece como **Configuración** para la **configuración local anterior a la versión 5.2**) en [Barra de fichas](./web-editor-tab-bar.md). |
 | Tipo de registro | Utilice la lista desplegable para seleccionar entre los tipos de registro configurados en Salesforce según la configuración de visibilidad en función del perfil de usuario. Los tipos de registro Salesforce son una forma de agrupar muchos registros de un tipo para ese objeto. Definen cómo se organiza la publicación. Por ejemplo, puede seleccionar el Tipo de registro de preguntas más frecuentes y publicar según el diseño de página de preguntas más frecuentes y los campos. |
 | Campo de contenido de artículo | Puede tener diferentes campos y un diseño único para cada plantilla de tipo de registro. Utilice estos campos para introducir información específica según el tipo de artículo. Por ejemplo, puede ver el título, la respuesta y la ecuación de un artículo de preguntas frecuentes. |
 | Categorías | Seleccione una categoría de la lista desplegable para publicar los temas del índice de esa categoría en el sitio de Salesforce. |

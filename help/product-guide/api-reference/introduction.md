@@ -19,9 +19,9 @@ subfeature_v2:
   - id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0047d3917ffcc8b83a319be5b7c12780c0f2ef55
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 656
+source-wordcount: 686
 ht-degree: 0%
 
 ---
@@ -131,6 +131,11 @@ Estas API son perfectas para:
 - Creación de aplicaciones y extensiones personalizadas
 
 Para obtener información detallada sobre el uso de la API, los parámetros y las solicitudes de ejemplo, consulte los temas relevantes en la sección **Referencia de la API** de la documentación de Experience Manager Guides.
+
+>[!NOTE]
+>
+> También puede consultar la **documentación de Swagger** para las API de REST disponibles públicamente en `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`. Actualmente, solo las API relacionadas con Assets, Línea base y Creación de informes están disponibles en la documentación de Swagger.
+
 
 ## Recursos adicionales
 

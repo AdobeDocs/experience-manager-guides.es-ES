@@ -4,9 +4,10 @@ description: Conozca los requisitos técnicos para trabajar con Adobe Experience
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 9de252b3ac08b4475acec6e554d1ed8425fa1e61
+exl-id: 7e0894ef-f1d4-47a8-9bb8-fe63e3968260
+source-git-commit: c412cb18eb7babf51cdc18ded6612e35b8893e41
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -29,6 +30,7 @@ Antes de instalar Adobe Experience Manager Guides para instalación local, aseg�
 
 | Versión [!DNL AEM Guides] | Especificaciones técnicas |
 |---|---|
+| **AEM Guides 5.2.0** | **UUID 5.2.0** <ul><li> AEM 6.5 LTS SP2<br><ul><li>Java:17 o 21</li></ul> <li> AEM 6.5 SP24, SP23 o SP22 <br> <ul><li>Java: 11 u 8 </li></ul> <li>Sistemas operativos:<ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 y 6</ul> |
 | **AEM Guides 5.1.0** | **UUID 5.1.0** <ul><li> SP1<br> DE AEM 6.5 LTS<ul><li>Java:17 o 21</li></ul> <li> AEM 6.5 SP23, SP22 o SP21 <br> <ul><li>Java: 11 u 8 </li></ul> <li>Sistemas operativos:<ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 y 6</ul> |
 | **AEM Guides 5.0.0** | **UUID 5.0.0** <ul><li> AEM 6.5 SP 22, SP21 o SP20<br> <li>   Java: 11 u 8 <br><li>Sistemas operativos: <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 y 6</ul> |
 | **AEM Guides 4.6.0** | **No UUID y UUID 4.6.0** <ul><li> AEM 6.5 SP 21, SP20 o SP19<br> <li>   Java: 11 u 8 <br><li>Sistemas operativos: <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 y 6</ul> |
@@ -36,4 +38,4 @@ Antes de instalar Adobe Experience Manager Guides para instalación local, aseg�
 | **AEM Guides 4.2** | **No UUID y UUID 4.2.1**<br><ul> <li>AEM 6.5 SP15, SP14, SP13 o SP12 <br><li>Java: 11 u 8 <br><li> Sistemas operativos: <ul><li>Windows Server 2012 R2  <li>Red Hat Linux 7 y 6</ul></ul>**No UUID y UUID 4.2**<br><ul> <li>AEM 6.5 SP15, SP14, SP13 o SP12 <br><li>Java: 11 u 8<br><li> Sistemas operativos: <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 y 6</ul> |
 | **AEM Guides 4.1** | **No UUID y UUID 4.1.2**<br><ul><li>AEM 6.5 SP13, SP12, SP11 o SP10 <br><li>Java: 11 u 8<br><li>Sistemas operativos: <ul><li>Windows Server 2012 R2 <br><li> Red Hat Linux 7 y 6 </ul></ul> **No UUID y UUID 4.1**<br><ul> <li>AEM 6.5 SP13, SP12, SP11 o SP10 <br><li>Java: 11 u 8<li>Sistemas operativos: <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7 y 6 |
 | **AEM Guides 4.0** | **No UUID y UUID 4.0.3**<br><ul><li> AEM 6.5 SP12, SP11, SP10 o SP9 <br><li>Java: 11 u 8 <br><li>Sistemas operativos:<ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 y 6<br></ul></ul>**No UUID y UUID 4.0.2** <br><ul><li> AEM 6.5 SP12, SP11, SP10 o SP9 <br><li>Java: 11 u 8 <br><li>Sistemas operativos: <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 y 6<br> </ul></ul>**No UUID y UUID 4.0**<br><ul><li>AEM 6.5 SP11, SP10 o SP9 <br><li>Java: 11 u 8<br><li> Sistemas operativos: <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7 y 6 |
-| **AEM Guides 3.8.5** <br>3.8.5 es una versión de SP además de la 3.8.  <br> versión 3.8 no debe instalarse <br> de forma independiente, ya que 3.8.5 SP contiene <br> una corrección crítica. <br> Los clientes deben instalar primero 3.8 <br> y luego SP 3.8.5. | **No UUID** <br> <ul><li>AEM 6.5 SP9 o SP8 <br> AEM 6.4 SP8 <br> AEM 6.3 SP3   <br><li>Sistemas operativos: <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7 y 6</ul>**UUID** <br><li> AEM 6.5 SP9 o SP8 <br><li> Sistemas operativos: <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 y 6 |
+| **AEM Guides 3.8.5** <br>3.8.5 es una versión de SP además de la 3.8.  <br> versión 3.8 no debe instalarse <br> de forma independiente, ya que 3.8.5 SP contiene <br> una corrección crítica. <br> Los clientes deben instalar primero 3.8 <br> y luego SP 3.8.5. | **No UUID** <br> <ul><li>AEM 6.5 SP9 o SP8 <br> AEM 6.4 SP8 <br> AEM 6.3 SP3 <br><li>Sistemas operativos: <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7 y 6</ul>**UUID** <br><li> AEM 6.5 SP9 o SP8 <br><li> Sistemas operativos: <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 y 6 |

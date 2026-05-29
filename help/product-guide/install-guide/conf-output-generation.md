@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
 workflow-type: tm+mt
 source-wordcount: 5886
 ht-degree: 1%
@@ -262,7 +262,7 @@ Para configurar los caracteres especiales válidos en los nombres de archivo y e
 
 1. Busque y haga clic en el paquete *com.adobe.fmdita.common.SanitizeNodeNameImpl*.
 
-1. En el conjunto de caracteres **No permitido para la publicación en la propiedad AEM Sites**, asegúrese de que la propiedad está establecida en ```'<>`@$```. Puede agregar más caracteres especiales a esta lista, pero debe tener estos caracteres especiales necesarios.
+1. En el conjunto de caracteres **No permitido para la publicación en la propiedad AEM Sites**, asegúrese de que la propiedad está establecida en `<>` `@$`. Puede agregar más caracteres especiales a esta lista, pero debe tener estos caracteres especiales necesarios.
 
    >[!NOTE]
    >

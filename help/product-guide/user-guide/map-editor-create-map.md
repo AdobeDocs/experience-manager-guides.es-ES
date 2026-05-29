@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1606
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->A partir de la versión 2025.11.0, se cambió el nombre de **Repositorio** a **Explorador**. Para la configuración On-Premise, sigue estando disponible como Repositorio hasta la versión 5.1 de Experience Manager Guides.
+>A partir de la versión 2025.11.0 para Cloud Service y de la versión 5.2 para On-Premise, se cambió el nombre de **Repositorio** a **Explorador**. Para la configuración On-Premise anterior a la versión 5.2, sigue estando disponible como Repositorio.
 
 Adobe Experience Manager Guides proporciona dos plantillas de mapas integradas: DITA map y Bookmap. También puede crear sus propias plantillas de mapa y compartirlas con sus autores para crear archivos de mapa.
 

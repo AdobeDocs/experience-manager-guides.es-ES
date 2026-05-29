@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 4286
+source-wordcount: 4232
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Para crear una nueva versión del archivo, seleccione **Guardar como nueva versi
 
   >[!NOTE]
   >
-  >A partir de la versión 2025.11.0, se cambió el nombre de **Repositorio** a **Explorador**. Para la configuración On-Premise, sigue estando disponible como Repositorio hasta la versión 5.1 de Experience Manager Guides.
+  >A partir de la versión 2025.11.0 para Cloud Service y de la versión 5.2 para On-Premise, se cambió el nombre de **Repositorio** a **Explorador**. Para la configuración On-Premise anterior a la versión 5.2, sigue estando disponible como Repositorio.
 
 ***Agregar a***: puede elegir entre las siguientes opciones:
 
@@ -494,7 +494,7 @@ Los elementos DITA que contienen saltos de línea y espacios son compatibles y s
 - Puede insertar espacios de no separación en el documento mediante el icono **Symobol** ![](images/symbol-icon.svg) o las teclas de método abreviado **Alt** + **Espacio**.  Estos espacios de no separación aparecen como un indicador mientras edita un tema en el Editor. Puede desactivar la visualización de los espacios de no separación con la opción **Mostrar indicador de espacio de no separación en el modo Autor** de la pestaña **Apariencia** de [Preferencias de usuario](./intro-home-page.md#user-preferences).
 
 - Si copia y pega contenido con un espacio de no separación de cualquier origen externo en la vista **Autor**, el espacio de no separación se convierte en un espacio.
-Sin embargo, si copia y pega contenido con un espacio de no separación de la vista **Autor**, se conservará.
+Sin embargo, si copia y pega contenido con un espacio de no separación de la vista **Autor**, se conserva.
 
 
 ## ID de elemento generado automáticamente

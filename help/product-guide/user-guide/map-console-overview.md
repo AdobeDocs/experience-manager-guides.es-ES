@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: 776
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ La interfaz de la consola Mapa se divide principalmente en dos secciones: **Barr
 
   >[!NOTE]
   >
-  > Si usa Adobe Experience Manager Guides en una configuración local, la opción de configuración de Workspace seguirá apareciendo como **Configuración** en el menú Más acciones.
+  > Si usa Adobe Experience Manager Guides en una configuración local anterior a la versión 5.2, la opción de configuración de Workspace seguirá apareciendo como **Configuración** en el menú Más acciones.
 
    - **Expandir vista**: permite expandir la vista de página mediante el icono **Expandir**. En esta vista, la barra de encabezado está oculta, lo que maximiza el espacio de contenido. Para volver a la vista estándar, usa el icono **Salir de la vista expandida**.
 

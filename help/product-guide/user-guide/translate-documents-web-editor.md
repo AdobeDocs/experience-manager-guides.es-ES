@@ -21,9 +21,9 @@ subfeature_v2:
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 2536
+source-wordcount: 2473
 ht-degree: 0%
 
 ---
@@ -188,7 +188,7 @@ Para obtener más información sobre la configuración de perfiles globales y de
 
 Experience Manager Guides permite pasar la etiqueta del archivo de origen al archivo de destino. Esto le ayudará a identificar fácilmente la versión de origen del archivo traducido.
 
-Para agregar la etiqueta de versión de origen en la copia de destino, el administrador del sistema debe habilitar la opción **Propagar etiquetas de versión de origen a la versión de destino** en la pestaña **Traducción** de **Configuración de Workspace** (aparece como **Configuración** para **Local**).
+Para agregar la etiqueta de versión de origen en la copia de destino, el administrador del sistema debe habilitar la opción **Propagar etiquetas de versión de origen a la versión de destino** en la pestaña **Traducción** de **Configuración de Workspace** (aparece como **Configuración** para la **configuración local anterior a la versión 5.2**).
 
 Por ejemplo, si tiene algunos archivos de origen a los que se les ha aplicado la etiqueta de versión `Release 1.0`, también puede pasar la etiqueta de origen \(`Release 1.0`\) al archivo traducido.
 

@@ -19,7 +19,7 @@ subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: e3a10752fa872baabf8cfc339510d3ea907a17d1
 workflow-type: tm+mt
 source-wordcount: 1929
 ht-degree: 0%
@@ -128,7 +128,7 @@ Puede gestionar las líneas base existentes mediante las distintas funciones del
   >
   >La operación Editar (Edit) en el caso de una instantánea dinámica permite editar las propiedades de la instantánea, ya que las referencias para las instantáneas dinámicas se generan durante la ejecución mediante las etiquetas.
 
-  ![opciones de línea de base](images/baseline-options.png){}
+  ![opciones de una línea de base](images/baseline-options.png)
 
 ### Acciones disponibles para una línea base existente
 

@@ -4,10 +4,11 @@ description: Obtenga información sobre cómo actualizar Adobe Experience Manage
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: f84bc82a-505c-4511-8336-bb87c8eb78e3
+source-git-commit: aac604893134edc2b28e8f6d7977e92256fe7e63
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 0%
+source-wordcount: '1884'
+ht-degree: 2%
 
 ---
 
@@ -19,9 +20,9 @@ Este artículo contiene instrucciones para actualizar las versiones de Experienc
 >
 > Siga las instrucciones de actualización específicas de la versión con licencia del producto.
 
-Puede actualizar su versión actual de Experience Manager Guides a la versión 5.1.0 Service Pack 3:
+Puede actualizar su versión actual de Experience Manager Guides a la versión 5.2.0:
 
-- Si utiliza la versión 5.1.0 o 5.1.x , puede actualizar directamente a la versión 5.1.0 Service Pack 3.
+- Si utiliza las versiones 5.0.0, 5.0.3, 5.1.0 o 5.1.3, puede actualizar directamente a la versión 5.2.0.
 - Si utiliza las versiones 4.6.0, 4.6.x, 5.0.0 o 5.0.x, debe actualizar a la versión 5.1.0.
 - Si tiene una versión anterior a la 4.6.0, consulte [Actualizar Adobe Experience Manager Guides para la versión 4.4.0 y anteriores](./upgrade-aemg-prev-versions.md) para obtener instrucciones detalladas sobre la actualización.
 
@@ -31,6 +32,7 @@ Puede actualizar su versión actual de Experience Manager Guides a la versión 5
 
 Para obtener más información, consulte los siguientes procedimientos:
 
+- [Actualización a la versión 5.2.0](#upgrade-to-version-510)
 - [Actualización a la versión 5.1.0](#upgrade-to-version-510)
 - [Actualización a la versión 5.0.0](#upgrade-to-version-500)
 - [Actualización a la versión 4.6.0](#upgrade-to-version-460)
@@ -38,6 +40,33 @@ Para obtener más información, consulte los siguientes procedimientos:
 >[!IMPORTANT]
 >
 > Antes de comenzar la actualización, realice una copia de seguridad completa del sistema para evitar la pérdida de datos.
+
+
+## Actualización a la versión 5.2.0
+
+>[!IMPORTANT]
+>
+> Si actualmente está en AEM 6.5 y planea pasar a AEM 6.5 LTS, asegúrese de completar primero la actualización de AEM antes de continuar con la actualización de Experience Manager Guides 5.2.0. Para obtener más información, vea [Actualización a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/es/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+
+**Requisitos previos**
+
+>[!NOTE]
+>
+>Si actualiza a 5.2.0, debe tener las versiones 5.0.0, 5.0.3, 5.1.0 o 5.1.3 de Experience Manager Guides. El proceso de actualización para la versión 5.2.0 sigue los mismos pasos que en la versión 5.1.0.
+
+Antes de iniciar el proceso de actualización de Experience Manager Guides 5.2.0, asegúrese de lo siguiente:
+
+1. Se ha actualizado a Experience Manager Guides versión 5.0.0, 5.0.3, 5.1.0 o 5.1.3.
+1. (Opcional) Cerró todas las tareas de traducción.
+1. Se ha cambiado el nivel de registro a **INFO** para la clase `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` y se han anexado estos registros a un nuevo archivo de registro, por ejemplo, `logs/translation_upgrade.log`.
+
+>[!NOTE]
+>
+> El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
+
+**Instalar versión 5.2.0**
+
+Descargue el paquete de la versión 5.2.0 del [Portal de distribución de software de Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/es/aem.html) y siga las instrucciones que se proporcionan en [Flujo de trabajo de instalación y actualización posterior a la instalación](#installation-and-post-installation-upgrade-workflow) para completar el proceso de actualización.
 
 
 ## Actualización a la versión 5.1.0
@@ -227,11 +256,11 @@ Después de instalar Experience Manager Guides, puede combinar las distintas con
 
 Siga estos pasos para indexar el contenido existente:
 
-- Ejecute una petición POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de las asignaciones para indexarlas; de forma predeterminada, todas las asignaciones se indexarán || Ejemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Ejecute una petición POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de los mapas para indexarlas, de forma predeterminada se indexarán todas las asignaciones Ejemplo de || : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- La API devolverá un `jobId`. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+- La API devolverá un `jobId`. Para comprobar el estado del trabajo, puede enviar una solicitud GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-- Una vez completado el trabajo, la solicitud de GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
+- Una vez completado el trabajo, la solicitud GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
 
 
 >[!NOTE]
@@ -254,4 +283,3 @@ La definición del índice se actualiza para damAssetLucene con AEM Guides. Desp
 >[!NOTE]
 >
 > Mientras sigue la documentación, asegúrese de que ambas propiedades (`reindex=true` y `reindex-async=true` para `/oak:index/damAssetLucene`) se actualicen simultáneamente mediante la operación Guardar.
-
