@@ -1,7 +1,7 @@
 ---
 title: Notas de versión | Instrucciones de actualización para la versión 5.2.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de la matriz de compatibilidad y cómo actualizar a la versión 5.2.0 de Adobe Experience Manager Guides.
-source-git-commit: 1dc529ba8913c30fba876f101c3b52474e8a71dd
+source-git-commit: a2d4731af4f4996c87dd177a6e45f1d8ebabd6cf
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 4%
@@ -107,7 +107,7 @@ Antes de continuar actualizando a la versión 5.2.0 de Experience Manager Guides
 | Replicación de recursos DITA | `com.adobe.fmdita.config.ConfigManager` | Replicar recursos DITA | `publish.replicate` |
 | Procesamiento de recursos | `com.adobe.fmdita.config.ConfigManager` | Trabajo programado para el procesamiento de recursos de las guías | `enable.asset.processing.scheduler` |
 
-Para obtener información detallada sobre estas opciones de configuración, vea [Actualizaciones de configuración](../install-conf-guide/configuration-on-prem.md).
+Para obtener información detallada sobre esta configuración, vea [Actualizaciones de configuración](../install-conf-guide/configuration-on-prem.md).
 
 
 
