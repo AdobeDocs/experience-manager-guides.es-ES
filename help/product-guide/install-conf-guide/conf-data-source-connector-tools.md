@@ -4,9 +4,10 @@ description: Obtenga información sobre cómo configurar un conector de fuente d
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: ea09ea67-3051-4231-90e2-3b8a3ceb9270
+source-git-commit: d7d8ae300695fb6e637265766e7f44e0e0226e3a
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,7 @@ Las siguientes pestañas proporcionan instrucciones para configurar un conector 
    *Ver o crear un conector de origen de datos.*
 1. Haga clic en **Crear**.
 1. Seleccione la base de datos para la que desea crear el conector. Por ejemplo, el conector de Elasticsearch.
+
    >[!NOTE]
    >
    >Se muestran todas las bases de datos listas para usar disponibles.
@@ -55,16 +57,11 @@ Las siguientes pestañas proporcionan instrucciones para configurar un conector 
    * **Contraseña**: Escriba su nombre de usuario y contraseña.
    * **URL**: agregue la URL de la API.
 
-
 1. Seleccione la opción **Excluir plantillas de fábrica** para excluir las plantillas de fábrica de su uso para generar temas y fragmentos de código. No aparecerán en el menú desplegable **Plantilla de asignación de datos** del cuadro de diálogo **Agregar generador de fragmentos de contenido** o **Agregar generador de temas**.
-
 
 1. Seleccione **Probar conexión**. Solo podrá ver el botón **Probar conexión** habilitado después de agregar los detalles necesarios. Vea un mensaje de éxito si los detalles de la conexión son correctos. De lo contrario, podría ver un mensaje de error.
 
-
-
 1. Seleccione **Guardar** en la parte superior para guardar el conector.     Vea el botón **Guardar** habilitado después de completar todos los detalles y de que la conexión se haya realizado correctamente.
-
 
    Si el conector se ha guardado correctamente, puede ver el origen de datos conectado en la página.
 
@@ -78,7 +75,6 @@ Siga estos pasos para crear un recurso:
 1. Configure todos los detalles en el cuadro de diálogo **Agregar recurso**.
 1. Haga clic en **Agregar**.
 1. Puede editar ![editar icono](assets/edit_pencil_icon.svg) o eliminar ![eliminar](assets/Delete_icon.svg) el recurso de la lista de recursos de la URL.
-
 1. También puede utilizar los recursos predeterminados disponibles para fuentes de datos como Salsify, Akeneo y Microsoft ADO. Cambie las opciones OFF para el recurso que no desee configurar para un origen de datos.
 
 Esto le permite recuperar rápidamente datos de cualquiera de los recursos de una fuente de datos concreta en un solo fragmento de contenido o tema.
@@ -88,7 +84,6 @@ Esto le permite recuperar rápidamente datos de cualquiera de los recursos de un
 Para publicar una dependencia presente en el [repositorio de Maven Central](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) en Cloud Services, debe incluir e incrustar la dependencia para un conector de código abierto.
 
 1. Agregue la dependencia en `all/pom.xml` en su código de proyecto Git de Cloud Manager. Por ejemplo, puede agregar la siguiente dependencia para el conector de fuente de datos de los paneles de desarrollo de Azure de Microsoft.
-
 
    ```
    <dependency>
@@ -101,15 +96,15 @@ Para publicar una dependencia presente en el [repositorio de Maven Central](http
 
 1. Incruste la dependencia añadida.
 
-       &quot;
-       &lt;embedded>
-       &lt;groupId>com.adobe.aem.addon.guides&lt;/groupId>
-       &lt;artifactId>konnect-azure-devops&lt;/artifactId>
-       &lt;type>jar&lt;/type>
-       &lt;target>/apps/aemdoxonaemcsstageprogram-seller-packages/content/install&lt;/target>
-       &lt;/embedded>
-       &quot;
-   
+   ```
+   <embedded>
+       <groupId>com.adobe.aem.addon.guides</groupId>
+       <artifactId>konnect-azure-devops</artifactId>
+       <type>jar</type>
+       <target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install</target>
+   </embedded> 
+   ```
+
 1. Ejecute la canalización para aplicar los cambios en Cloud Services.
 El conector está instalado en su entorno.
 
@@ -126,6 +121,7 @@ El conector está instalado en su entorno.
    *Ver o crear un conector de origen de datos.*
 1. Haga clic en **Crear**.
 1. Seleccione la base de datos para la que desea crear el conector. Por ejemplo, el conector de Elasticsearch.
+
    >[!NOTE]
    >
    >Se muestran todas las bases de datos listas para usar disponibles.
@@ -146,7 +142,6 @@ El conector está instalado en su entorno.
 1. Seleccione **Probar conexión**. Solo podrá ver el botón **Probar conexión** habilitado después de agregar los detalles necesarios. Vea un mensaje de éxito si los detalles de la conexión son correctos. De lo contrario, podría ver un mensaje de error.
 
 1. Seleccione **Guardar** en la parte superior para guardar el conector.     Vea el botón **Guardar** habilitado después de completar todos los detalles y de que la conexión se haya realizado correctamente.
-
 
    Si el conector se ha guardado correctamente, puede ver el origen de datos conectado en la página.
 
@@ -171,7 +166,6 @@ Puede utilizar las siguientes características para el conector en la página **
 Se visualiza un error si existe el conector con el mismo nombre.
 
 * **Eliminar**: elimine el conector seleccionado.
-
 
 Una vez que haya configurado el origen de datos, el conector aparecerá en la lista del **panel Fuentes de datos** del Editor web. A continuación, puede conectarse al origen de datos e insertar un fragmento de contenido en los temas. Para obtener más información, vea [Insertar un fragmento de contenido de su fuente de datos](../user-guide/web-editor-content-snippet.md).
 

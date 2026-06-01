@@ -4,9 +4,10 @@ description: Obtenga información sobre cómo preparar documentos de InDesign pa
 feature: InDesign File Conversion, Troubleshooting
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 6e757850-c563-42c5-aeac-b23c3f2ce679
+source-git-commit: 35fdbf480b4b70b70193772d0eae3a3cedec0077
 workflow-type: tm+mt
-source-wordcount: '2852'
+source-wordcount: '2866'
 ht-degree: 0%
 
 ---
@@ -44,9 +45,9 @@ Realice los siguientes pasos para aplicar parches a cualquier referencia rota me
 
 1. Ejecute el script de parche `[/bin/fmdita/validatebtree?operation=patch]` para corregir las referencias rotas. La ejecución del script tarda unos minutos e imprime los registros a medida que progresa. Una vez finalizada la ejecución, se imprime &quot;`Done`&quot; al final.
 
->[!NOTE]
->
-> Se recomienda copiar y guardar los registros como referencia.
+   >[!NOTE]
+   >
+   > Se recomienda copiar y guardar los registros como referencia.
 
 1. Una vez que el script de parche se haya ejecutado correctamente, puede realizar las siguientes comprobaciones:
 1. &#x200B;
