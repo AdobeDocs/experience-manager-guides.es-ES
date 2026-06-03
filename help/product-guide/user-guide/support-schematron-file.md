@@ -5,19 +5,13 @@ exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/8heDTU9viOxhsg-Epvu6OZMrRyHoWRJ-584O6u9lut8
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9f5364625d113f2f1fd147b6df30b0ca3d439029
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: de26a643364cab57b415d8eff9e863ea1b4bfe62
 workflow-type: tm+mt
-source-wordcount: 907
+source-wordcount: 984
 ht-degree: 0%
 
 ---
@@ -28,8 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Editor es compatible con ISO Schematron.
-
+>Editor es compatible con ISO Schematron.
 
 ## Importación de archivos de Schematron
 
@@ -57,7 +50,7 @@ Cuando se abre un tema en el Editor, aparece un panel de validación de Schematr
 
    >[!NOTE]
    >
-   > Cuando se añade un archivo Schematron no válido, se muestra un mensaje de error en el panel Validación.
+   >Cuando se añade un archivo de Schematron no válido, se muestra un mensaje de error en el panel Validación:
 
    ![](images/schematron-panel-error.png){width="350"}
 
@@ -123,8 +116,8 @@ Cuando se validan los temas DITA con Schematron, aparece un mensaje para los tem
 ### Declaración de informe
 
 Una instrucción de informe genera un mensaje cuando una instrucción de prueba se evalúa como verdadera. Por ejemplo, si desea que la descripción breve tenga menos de 150 caracteres o menos, puede definir una instrucción de informe para comprobar los temas en los que la descripción breve tenga más de 150 caracteres.
-Al validar los temas DITA con Schematron, se obtiene un informe completo de las reglas en las que la sentencia de informe se evalúa como true. Por lo tanto, recibe un mensaje para los temas en los que la descripción breve tiene más de 150 caracteres.
 
+Al validar los temas DITA con Schematron, se obtiene un informe completo de las reglas en las que la sentencia de informe se evalúa como true. Por lo tanto, recibe un mensaje para los temas en los que la descripción breve tiene más de 150 caracteres.
 
 ```XML
 <sch:rule context="shortdesc"> 
@@ -137,7 +130,7 @@ Al validar los temas DITA con Schematron, se obtiene un informe completo de las 
 
 >[!NOTE]
 >
-> Utilice únicamente expresiones Xpath 2.0 al escribir las reglas de Schematron.
+>Utilice únicamente expresiones Xpath 2.0 al escribir las reglas de Schematron.
 
 ## Uso de expresiones Regex{#schematron-regex-espressions}
 
@@ -155,9 +148,7 @@ No one word titles.
 
 Experience Manager Guides también admite patrones abstractos en Schematron. Puede definir patrones abstractos genéricos y reutilizarlos.  Puede crear parámetros de marcador de posición que especifiquen el patrón real.
 
-
 El uso de patrones abstractos puede simplificar el esquema de Schematron al reducir la duplicación de reglas y facilitar la administración y actualización de la lógica de validación. También puede facilitar la comprensión del esquema, ya que puede definir una lógica de validación compleja en un único patrón abstracto que se puede reutilizar en todo el esquema.
-
 
 Por ejemplo, el siguiente código XML crea un patrón abstracto y, a continuación, el patrón real hace referencia a él mediante el identificador.
 
