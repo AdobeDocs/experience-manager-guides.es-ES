@@ -14,10 +14,10 @@ feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 6d10f55ace72536266723331313c73ce33cddcf1
 workflow-type: tm+mt
-source-wordcount: 705
-ht-degree: 0%
+source-wordcount: 698
+ht-degree: 1%
 
 ---
 
@@ -53,9 +53,9 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
       ![Seleccionar información de repositorio de acceso](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350"}
 
    3. Clone el repositorio en el sistema local utilizando el nombre de usuario y la contraseña proporcionados (genere la contraseña si es necesario).
-2. **Agregar paquete al paquete Maven:**
-   1. En el repositorio clonado localmente, cree un nuevo paquete Maven o añádalo a uno existente.
-   2. Asegúrese de que la estructura `/jcr_root/apps/fmdita/` instalada exista en el proyecto Maven.
+2. **Agregar paquete al módulo del proyecto:**
+   1. En el repositorio clonado localmente, cree un nuevo módulo de Project o agréguelo a uno existente.
+   2. Asegúrese de que exista la instalación de la estructura `/jcr_root/apps/fmdita/`.
 
       ![Estructura en el proyecto Maven](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650"}
 
@@ -65,8 +65,7 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
 3. **Actualizar filtros.xml:**
 
    1. Abra el archivo filters.xml ubicado en la carpeta META-INF del directorio de contenido principal.
-   2. Agregue el siguiente filtro: filter root=`/apps/fmdita` mode=`merge`/
-
+   2. Agregue el siguiente filtro: `<filter root=/apps/fmdita  mode=merge/>`.
 
       ![Agregar filtro](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
 
