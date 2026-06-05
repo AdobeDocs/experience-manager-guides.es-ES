@@ -6,22 +6,14 @@ role: Admin
 level: Experienced
 exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
 TQID: https://experienceleague.adobe.com/mzWOXyP0Zr-tScAYAc4R1BBm9LaFKVhOIRbbb9DrVRQ
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 9555f90917819727b77daea4520b6bba2350129f
 workflow-type: tm+mt
-source-wordcount: 947
+source-wordcount: 951
 ht-degree: 2%
 
 ---
@@ -102,7 +94,7 @@ Si tiene un tema DITA sobre &quot;Instrucciones de instalación&quot;, la planti
 >
 > Asegúrese de que los componentes que usan sling:resourceType en `wcm/foundation/components` se migren al `core/wcm/components` correspondiente.
 
-Añada lo mismo (contenedor y componente de texto) en la estructura de la misma plantilla:
+Añada el mismo componente de contenedor en la estructura de la misma plantilla:
 
 ![Agregando contenedor y componente de texto](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
@@ -114,7 +106,7 @@ Consulte la tabla siguiente para obtener la lista de componentes y su uso:
 
 | Característica | Nombre del componente | Descripción | Plantilla recomendada |
 |---|---|---|---|
-| Tabla de contenidos | guidessidenavigation | Procesa la tabla de contenido completa desde el mapa DITA | Contenedor de documentación |
+| Tabla de contenidos | guidessidenavigation | Procesa la tabla de contenido completa desde el mapa DITA | Página de tema |
 | Redireccionamiento de página | child direct | Redirige a la primera página de tema del mapa | Contenedor de documentación |
 | Mini TDC | minitoc | Muestra la tabla de contenido del tema actual | Página de tema |
 | Última actualización | pageproperty | Muestra la última fecha de modificación | Página de tema |
@@ -135,7 +127,7 @@ De forma predeterminada, las bibliotecas de cliente (clientlibs) proporcionadas 
 
 1. **Editar la plantilla:**
 
-   1. Abra **Página de productos** en **Modo de edición**.
+   1. Abra **Plantilla de página de contenedor** y **Plantilla de página de tema** en modo de editor.
    2. Seleccione **Editar plantilla** (se abrirá una dirección URL como conf/settings/wcm/templates/structure.html).
 
       ![Editar plantilla](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650"}
@@ -154,4 +146,4 @@ De forma predeterminada, las bibliotecas de cliente (clientlibs) proporcionadas 
 
 >[!NOTE]
 >
-> Asegúrese de que las plantillas se prueben en un entorno que no sea de producción antes de su implementación en producción.<br><br>Consulte la documentación oficial de [AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/overview) y [AEM Sites](https://experienceleague.adobe.com/es/docs/experience-manager-core-components/using/get-started/authoring) para obtener más detalles.
+> Asegúrese de que las plantillas se prueben en un entorno que no sea de producción antes de su implementación en producción.<br><br>Consulte la documentación oficial de [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) y [AEM Sites](https://experienceleague.adobe.com/es/docs/experience-manager-core-components/using/get-started/authoring) para obtener más detalles.

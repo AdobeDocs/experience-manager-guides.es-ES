@@ -6,18 +6,13 @@ role: Admin
 level: Experienced
 exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
 TQID: https://experienceleague.adobe.com/fj9JDKmklfdc-3UHShHD3PqynCcnnH5cK8lQNqCLD2c
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6d10f55ace72536266723331313c73ce33cddcf1
 workflow-type: tm+mt
-source-wordcount: 705
-ht-degree: 0%
+source-wordcount: 698
+ht-degree: 1%
 
 ---
 
@@ -53,9 +48,9 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
       ![Seleccionar información de repositorio de acceso](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350"}
 
    3. Clone el repositorio en el sistema local utilizando el nombre de usuario y la contraseña proporcionados (genere la contraseña si es necesario).
-2. **Agregar paquete al paquete Maven:**
-   1. En el repositorio clonado localmente, cree un nuevo paquete Maven o añádalo a uno existente.
-   2. Asegúrese de que la estructura `/jcr_root/apps/fmdita/` instalada exista en el proyecto Maven.
+2. **Agregar paquete al módulo del proyecto:**
+   1. En el repositorio clonado localmente, cree un nuevo módulo de Project o agréguelo a uno existente.
+   2. Asegúrese de que exista la instalación de la estructura `/jcr_root/apps/fmdita/`.
 
       ![Estructura en el proyecto Maven](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650"}
 
@@ -65,8 +60,7 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
 3. **Actualizar filtros.xml:**
 
    1. Abra el archivo filters.xml ubicado en la carpeta META-INF del directorio de contenido principal.
-   2. Agregue el siguiente filtro: filter root=`/apps/fmdita` mode=`merge`/
-
+   2. Agregue el siguiente filtro: `<filter root=/apps/fmdita  mode=merge/>`.
 
       ![Agregar filtro](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
 
@@ -143,4 +137,4 @@ Instale el paquete de **componentes (guides-components.all-1.x.x.zip)** y realic
 
 >[!NOTE]
 >
-> Asegúrese de que todas las configuraciones se prueben en un entorno que no sea de producción antes de su implementación en producción. <br><br> Consulte la [Implementación en la documentación de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/deploying/overview) para obtener más información.
+> Asegúrese de que todas las configuraciones se prueben en un entorno que no sea de producción antes de su implementación en producción. <br><br> Consulte la [Implementación en la documentación de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview) para obtener más información.
