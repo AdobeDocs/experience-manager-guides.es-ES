@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
+source-git-commit: 5f626c210e74c6d11e2441f719cfbfeb33bf55c5
 workflow-type: tm+mt
-source-wordcount: '3391'
+source-wordcount: '3406'
 ht-degree: 8%
 
 ---
@@ -198,14 +198,14 @@ ht-degree: 8%
                - [Notas de la versión 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notas de la versión 4.2](./release-info/release-notes-4-2.md)
          - [Notas de la versión 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notas de la versión 4.0.x](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notas de la versión 3.8.x](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notas de la versión 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notas de la versión 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guía del usuario (nueva interfaz de usuario) {#user-guide}
    - Introducción {#about-aemg}
       - [Acerca de  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] funciones clave y de trabajo {#aemg-works-features}
-         - [Cómo funciona [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-         - [Características clave  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Cómo funciona [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+         - [Características clave  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Página de inicio {#home-page}
       - [Experiencia de la página de inicio [!DNL AEM Guides]](./user-guide/intro-home-page.md)
       - [Interfaz de repositorio](./user-guide/home-page-repository-view.md)
@@ -237,6 +237,7 @@ ht-degree: 8%
          - [Crear documentos de Markdown desde el editor](./user-guide/web-editor-markdown-topic.md)
          - [Añadir citas al contenido](./user-guide/web-editor-apply-citations.md)
          - [Use datos de sus fuentes de datos](./user-guide/web-editor-content-snippet.md)
+         - {hide-from-toc}[Importar contenido mediante el conector Git (Beta)](./user-guide/web-editor-git-connector.md)
          - [Estado del documento](./user-guide/web-editor-document-states.md)
          - [Uso de etiquetas](./user-guide/web-editor-use-label.md)
          - [Configuración del editor](./user-guide/config-editor-settings.md)
@@ -407,7 +408,7 @@ ht-degree: 8%
       - Resolución de problemas {#troubleshooting}
          - [Session timeout](./user-guide/session-timeout-prompt.md)
 - Guía del usuario (IU antigua) {#user-guide-old-ui}
-   - [Información general de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Información general de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalación y configuración {#install-guide}
    - On-Premise {#on-prem-ig}
       - {hide-from-toc}[Conceptos básicos locales](./install-guide/introduction.md)
@@ -685,6 +686,7 @@ ht-degree: 8%
       - Conector de fuente de datos {#data-source}
          - [Configuración de un conector de fuente de datos desde la interfaz de usuario](./install-conf-guide/conf-data-source-connector-tools.md)
          - [Configuración de un conector de fuente de datos para Cloud Service](./install-conf-guide/conf-data-source-connector-cs.md)
+         - {hide-from-toc}[Crear y configurar el conector Git desde la interfaz de usuario](./install-conf-guide/conf-git-connector.md)
    - Perfiles globales y de nivel de carpeta {#global-folder-profiles}
       - [Configurar perfiles globales o de nivel de carpeta](./install-conf-guide/conf-profiles.md)
    - Plantillas de temas y mapas {#topic-map-template}
