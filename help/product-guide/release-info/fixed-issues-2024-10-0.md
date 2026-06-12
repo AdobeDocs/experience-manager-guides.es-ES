@@ -1,16 +1,17 @@
 ---
 title: Notas de versión | Se han corregido problemas en la versión 2024.10.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las correcciones de errores en la versión 2024.10.0 de Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 64c5318a064d28a42f3f11d2fe5b7d8548e341d8
+exl-id: d23552a1-8f15-4a05-9317-f383dea3253d
+source-git-commit: 682eaf6f4a3a158f49a8f2ea91ce9cd2de3ff772
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 2%
+source-wordcount: '1169'
+ht-degree: 6%
 
 ---
 
 # Se han corregido problemas en la versión 2024.10.0
 
-Este artículo describe los errores corregidos en varias áreas de la versión 2024.10.0 de Adobe Experience Manager Guides as a Cloud Service.
+Este artículo cubre los errores corregidos en varias áreas de la versión 2024.10.0 de Adobe Experience Manager Guides as a Cloud Service.
 
 Para obtener más información sobre las nuevas funciones y mejoras, consulte [Novedades de la versión 2024.10.0](whats-new-2024-10-0.md).
 
@@ -30,7 +31,7 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 - La versión DITA muestra incorrectamente el nombre de usuario en la interfaz de usuario de Assets. (17580)
 - Los errores de ID de imagen duplicados en los temas restringen al usuario de guardar o crear un tema. (17528)
 - Se producen problemas al cargar un gran número de archivos con conjuntos de datos densos en Experience Manager Guides.(17008)
-- Se producen errores intermitentes con la funcionalidad de renderización del PDF en Experience Manager Guides as a Cloud Service. (16966)
+- Se producen errores intermitentes con la funcionalidad de procesamiento de PDF en Experience Manager Guides as a Cloud Service. (16966)
 - Al crear un mapa DITA basado en una plantilla, el flujo de trabajo OOTB DXML causa interrupciones en el proceso y conduce a 503 errores no utilizables. (16529)
 - **Los caracteres especiales** escritos con caracteres de escape se eliminan del tema después de ser cargados en Experience Manager Guides. (16495)
 - El mensaje de error Archivo desprotegido por &quot;&quot; se muestra incorrectamente cuando los archivos de edición se mueven desde otra pestaña, cuando los tokens caducan o cuando el usuario ha cerrado la sesión. (15223)
@@ -38,7 +39,7 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 - `<Topicref>` agregado con `<keyref>` no se muestra en el PDF nativo. (11974)
 - La ruta de acceso del componente `/libs/fmdita/components/versions` está codificada y los usuarios no pueden superponerla. (8779)
 - Al abrir un tema o mapa DITA en una nueva pestaña para su edición, se bloquea la navegación de la selección en la IU de Assets. (4992)
-- Déclencheur Al descargar un mapa DITA con archivos de vídeo de gran tamaño, se produce un error de memoria insuficiente en los registros y se produce un error en la interfaz de usuario. (18884)
+- Al descargar un mapa DITA con archivos de vídeo de gran tamaño, se produce un error de memoria insuficiente en los registros y se produce un error en la interfaz de usuario. (18884)
 - Al insertar una ecuación de MathML que contiene el símbolo &quot;&lt;&quot;, se genera un error **Carácter no válido**. (18742)
 - La generación incorrecta de UUID durante el proceso de ingesta de contenido provoca referencias de submapa rotas en el mapa introducido. (18308)
 - En algunos casos, se observan retrasos en el procesamiento de un nuevo tema DITA cuando se crea desde el editor web. (16836)
@@ -46,23 +47,23 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 
 ## Publicación
 
-- La referencia cruzada a la clave no se está resolviendo en la salida del PDF nativo. (18087)
+- La referencia cruzada a la clave no se está resolviendo en la salida nativa de PDF. (18087)
 - El error **duplicate_value** se produce de forma intermitente al volver a publicar un artículo existente en Salesforce. (17932)
-- El estilo y el formato de contenido de las plantillas de cliente cambian automáticamente cuando el diseño incluye campos de metadatos, lo que provoca un formato incorrecto en los PDF publicados. (17900)
+- El estilo y el formato de contenido en las plantillas de cliente cambian automáticamente cuando el diseño incluye campos de metadatos, lo que provoca un formato incorrecto en los PDF publicados. (17900)
 - La validación de la conexión de Salesforce falla con la URL de Lightning. (17797)
-- El PDF al que se hace referencia no se activa desde el **tablero de Publish en masa** durante la activación en lote del contenido publicado. (17793)
+- El PDF al que se hace referencia no se activa desde el **Panel de publicación en lotes** durante la activación en lotes del contenido publicado. (17793)
 - La activación masiva del contenido publicado no funciona para mapas localizados. (17638)
-- Al seleccionar la opción **Usar metadatos agregados en topicmeta**, las propiedades de los metadatos no se propagan en las propiedades del documento de la salida del PDF nativo. (17283)
-- El filtrado de condiciones en la salida del PDF nativo no funciona como se esperaba en comparación con DITA-OT. (17095)
-- La tabla de contenido no respeta las etiquetas `<sub>` o `<sup>` en la salida del PDF nativo. (17028)
-- AEM La generación de sitios y la API de publicación incremental no funcionan según lo esperado. (16666)
-- La generación del PDF nativo falla con un error relacionado con la obtención de dependencias para Node.js. (14445)
-- `<Conref>` no se puede resolver en el modo `Preview` del editor web y en la salida del PDF nativo. (17827)
-- Las referencias de contenido no se resuelven correctamente para la salida del PDF nativo si el fichero que contiene las definiciones de claves no se encuentra en la misma carpeta que el mapa DITA. (15062)
-- Cuando un mapa DITA contiene niveles de encabezado de hasta 7 o más, el encabezado de nivel 7 se trata incorrectamente como un encabezado de nivel 1 en la salida del PDF nativo. (19698)
+- Al seleccionar la opción **Usar metadatos agregados en topicmeta**, las propiedades de los metadatos no se propagan en las propiedades del documento de la salida nativa de PDF. (17283)
+- El filtrado de condiciones en la salida nativa de PDF no funciona como se esperaba en comparación con DITA-OT. (17095)
+- La tabla de contenido no respeta las etiquetas `<sub>` o `<sup>` en la salida nativa de PDF. (17028)
+- La generación del sitio de AEM y la API de publicación incremental no funcionan según lo esperado. (16666)
+- La generación nativa de PDF falla con un error relacionado con la obtención de dependencias para Node.js. (14445)
+- `<Conref>` no se puede resolver en el modo `Preview` del editor web y en la salida nativa de PDF. (17827)
+- Las referencias de contenido no se resuelven correctamente para la salida nativa de PDF si el fichero que contiene las definiciones de claves no se encuentra en la misma carpeta que el mapa DITA. (15062)
+- Cuando un mapa DITA contiene niveles de encabezado de hasta 7 o más, el encabezado de nivel 7 se trata incorrectamente como un encabezado de nivel 1 en la salida nativa de PDF. (19698)
 - Cuando se ajusta un fragmento de contenido (texto) dentro de un elemento, los espacios antes y después del texto no se muestran en los formatos de previsualización o salida. (19308)
 - Los flujos de trabajo de generación de publicaciones activados manualmente fallan debido a una EXCEPCIÓN DE PUNTERO NULO en el flujo de trabajo, lo que provoca que el contenido se cargue 11 veces. (18880)
-- **El panel de Publish en lotes** se muestra en blanco para las asignaciones que aún se encuentran en proceso de traducción. (19352)
+- **Panel de publicación en lotes** muestra en blanco las asignaciones que aún se encuentran en proceso de traducción. (19352)
 
 
 ## Administración
@@ -96,6 +97,6 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 - El filtrado de condición aplicado en el ajuste preestablecido no se está aplicando mediante **Descargar como PDF**.
 - La generación de un solo tema desde el panel Asignación genera todos los temas seleccionados en el ajuste preestablecido de AEM Sites (no heredado).
 - La referencia del tema aparece rota en la interfaz de usuario cuando se inserta desde la barra de herramientas superior del mapa DITA.
-- La generación del PDF nativo falla para un mapa DITA si faltan referencias.
-- AEM La publicación de un solo tema de un sitio de con condiciones falla en un entorno con microservicios habilitados.
+- La generación nativa de PDF falla en un mapa DITA si faltan referencias.
+- La publicación de un solo tema del sitio de AEM con condiciones falla en el entorno con microservicios habilitados.
 - Una vez que el estado del documento de un tema se haya actualizado a **Listo**, el icono **Iniciar una nueva versión** solo está disponible en el modo **Vista previa** del tema.

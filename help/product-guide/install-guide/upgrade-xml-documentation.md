@@ -24,7 +24,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 9267
+source-wordcount: 9214
 ht-degree: 1%
 
 ---
@@ -104,7 +104,7 @@ Esta API está diseñada para evaluar el estado actual del sistema e informar si
 
 | Punto final | /bin/dxml/upgrade/3xto4x/report |
 | --- | --- |
-| Tipo de solicitud | **GET** Puede usar un explorador web en el que haya iniciado sesión como administrador en la instancia de AEM. |
+| Tipo de solicitud | **GET** Puede usar un explorador web en el que haya iniciado sesión en la instancia de AEM como administrador. |
 | Respuesta esperada | - En caso de que se puedan mover todos los nodos requeridos, obtendrá una comprobación superada. <br>: si un nodo está presente en la ubicación de destino, se generará un error relevante. Limpie el repositorio \(elimine el nodo /var/xml\), vuelva a instalar el paquete de actualización y, a continuación, almacene en déclencheur este extremo de nuevo. <br>**Nota:** Este no es un error común porque 3.x Experience Manager Guides no usa anteriormente la ubicación de destino. <br>: si este script no se ejecuta correctamente, no continúe y genere un informe para el equipo de éxito del cliente. |
 
 **API de migración de datos del sistema**
@@ -270,11 +270,11 @@ Realice los siguientes pasos para indexar el contenido existente y utilice el nu
 
 - Ejecute una petición POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. \(Opcional: puede pasar rutas específicas de las asignaciones para indexarlas; de forma predeterminada, todas las asignaciones se indexarán \|\| Por ejemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
 
-- La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final:
+- La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud GET con el ID del trabajo al mismo punto final:
 
 `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Por ejemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
-- Una vez completado el trabajo, la solicitud de GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
+- Una vez completado el trabajo, la solicitud GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
 
 Si el trabajo de actualización falla y el registro de errores muestra el siguiente error:
 
@@ -492,10 +492,10 @@ Realice los siguientes pasos para indexar el contenido existente y utilice el nu
 
 - También se puede pasar una carpeta raíz para indexar las asignaciones DITA de una carpeta específica (y sus subcarpetas). Por ejemplo, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Tenga en cuenta que si se pasan tanto el parámetro de rutas como el parámetro raíz, solo se tendrá en cuenta el parámetro de rutas.
 
-- La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+- La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 
-- Una vez completado el trabajo, la solicitud de GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
+- Una vez completado el trabajo, la solicitud GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
 
 
 ## Actualización a la versión 4.3.0
@@ -543,13 +543,13 @@ Realice los siguientes pasos para posprocesar el contenido existente y utilizar 
    | Punto final | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo de solicitud | **POST** Este script es una petición POST por lo tanto debe ejecutarse a través de agentes como Postman. |
-   | Respuesta esperada | La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el id. del trabajo al mismo punto final.<br> URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade` |
+   | Respuesta esperada | La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud GET con el id del trabajo al mismo punto final.<br> URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Punto final | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo de solicitud | **GET** |
    | Parámetro | jobId: pase el jobId recibido de la solicitud de publicación anterior. |
-   | Respuesta esperada | - Una vez completado el trabajo, la solicitud de GET responde correctamente. <br>: en caso de que haya errores, comparta los registros de errores junto con la salida de la API con el equipo de éxito del cliente.  <br>URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | Respuesta esperada | : una vez completado el trabajo, la solicitud GET responde correctamente. <br>: en caso de que haya errores, comparta los registros de errores junto con la salida de la API con el equipo de éxito del cliente.  <br>URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 
 1. Volver al valor predeterminado o anterior existente de `queryLimitReads` si lo ha cambiado en el paso 1.
@@ -720,10 +720,10 @@ Realice los siguientes pasos para indexar el contenido existente y utilice el nu
 - Ejecute una petición POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de las asignaciones para indexarlas; de forma predeterminada, todas las asignaciones se indexarán \|\| Por ejemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 
-- La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+- La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 
-- Una vez completado el trabajo, la solicitud de GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
+- Una vez completado el trabajo, la solicitud GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
 
 ## Pasos para publicar y procesar el contenido existente a fin de utilizar el informe de vínculos rotos
 
@@ -744,13 +744,13 @@ Realice los siguientes pasos para posprocesar el contenido existente y utilizar 
    | Punto final | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo de solicitud | **POST** Este script es una petición POST por lo tanto debe ejecutarse a través de agentes como Postman. |
-   | Respuesta esperada | La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el id. del trabajo al mismo punto final.<br> URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade` |
+   | Respuesta esperada | La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud GET con el id del trabajo al mismo punto final.<br> URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Punto final | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo de solicitud | **GET** |
    | Parámetro | jobId: pase el jobId recibido de la solicitud de publicación anterior. |
-   | Respuesta esperada | - Una vez completado el trabajo, la solicitud de GET responde correctamente. <br>: en caso de que haya errores, comparta los registros de errores junto con la salida de la API con el equipo de éxito del cliente.  <br>URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | Respuesta esperada | : una vez completado el trabajo, la solicitud GET responde correctamente. <br>: en caso de que haya errores, comparta los registros de errores junto con la salida de la API con el equipo de éxito del cliente.  <br>URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 
 1. Volver al valor predeterminado o anterior existente de `queryLimitReads` si lo ha cambiado en el paso 1.
@@ -922,9 +922,9 @@ Realice los siguientes pasos para indexar el contenido existente y utilice el nu
 
 - Ejecute una petición POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de las asignaciones para indexarlas; de forma predeterminada, todas las asignaciones se indexarán \|\| Por ejemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+- La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
-- Una vez completado el trabajo, la solicitud de GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
+- Una vez completado el trabajo, la solicitud GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
 
 ## Pasos para publicar y procesar el contenido existente a fin de utilizar el informe de vínculos rotos
 
@@ -945,13 +945,13 @@ Realice los siguientes pasos para posprocesar el contenido existente y utilizar 
    | Punto final | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo de solicitud | **POST** Este script es una petición POST por lo tanto debe ejecutarse a través de agentes como Postman. |
-   | Respuesta esperada | La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el id. del trabajo al mismo punto final.<br> URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade` |
+   | Respuesta esperada | La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud GET con el id del trabajo al mismo punto final.<br> URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Punto final | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo de solicitud | **GET** |
    | Parámetro | jobId: pase el jobId recibido de la solicitud de publicación anterior. |
-   | Respuesta esperada | - Una vez completado el trabajo, la solicitud de GET responde correctamente. <br>: en caso de que haya errores, comparta los registros de errores junto con la salida de la API con el equipo de éxito del cliente.  <br>URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | Respuesta esperada | : una vez completado el trabajo, la solicitud GET responde correctamente. <br>: en caso de que haya errores, comparta los registros de errores junto con la salida de la API con el equipo de éxito del cliente.  <br>URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 1. Volver al valor predeterminado o anterior existente de `queryLimitReads` si lo ha cambiado en el paso 1.
 
@@ -1137,9 +1137,9 @@ Siga estos pasos para indexar el contenido existente:
 
 - Ejecute una petición POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de los mapas para indexarlas, de forma predeterminada se indexarán todas las asignaciones Ejemplo de || : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+- La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-- Una vez completado el trabajo, la solicitud de GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
+- Una vez completado el trabajo, la solicitud GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
 
 
 >[!NOTE]
@@ -1292,9 +1292,9 @@ Siga estos pasos para indexar el contenido existente:
 
 - Ejecute una petición POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de los mapas para indexarlas, de forma predeterminada se indexarán todas las asignaciones Ejemplo de || : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+- La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-- Una vez completado el trabajo, la solicitud de GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
+- Una vez completado el trabajo, la solicitud GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
 
 
 >[!NOTE]
@@ -1459,9 +1459,9 @@ Siga estos pasos para indexar el contenido existente:
 
 - Ejecute una petición POST al servidor \(con la autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: puede pasar rutas específicas de los mapas para indexarlas, de forma predeterminada se indexarán todas las asignaciones Ejemplo de || : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+- La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-- Una vez completado el trabajo, la solicitud de GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
+- Una vez completado el trabajo, la solicitud GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
 
 
 >[!NOTE]

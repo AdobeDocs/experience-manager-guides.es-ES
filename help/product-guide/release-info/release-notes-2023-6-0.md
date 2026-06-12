@@ -93,10 +93,10 @@ as a Cloud Service, para crear el archivo de configuración.
 
 1. Ejecute una petición POST en el servidor (con la autenticación correcta): `http://<server:port>//bin/guides/reports/upgrade`.
 
-1. La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud GET con el ID del trabajo al mismo punto final: `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Por ejemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Una vez completado el trabajo, la solicitud anterior de GET se responderá correctamente. Si el trabajo falla por algún motivo, los errores se pueden ver en los registros del servidor.
+1. Una vez completado el trabajo, la solicitud GET anterior responderá correctamente. Si el trabajo falla por algún motivo, los errores se pueden ver en los registros del servidor.
 
 1. Volver al valor predeterminado o anterior existente de `queryLimitReads` si lo ha cambiado en el paso 1.
 
@@ -110,10 +110,10 @@ Realice los siguientes pasos para indexar el contenido existente y utilice el nu
 
 1. También se puede pasar una carpeta raíz para indexar las asignaciones DITA de una carpeta específica (y sus subcarpetas). Por ejemplo, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Tenga en cuenta que si se pasan tanto el parámetro de rutas como el parámetro raíz, solo se tendrá en cuenta el parámetro de rutas.
 
-1. La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+1. La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(por ejemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 
-1. Una vez completado el trabajo, la solicitud de GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
+1. Una vez completado el trabajo, la solicitud GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
 
 ## Matriz de compatibilidad
 
@@ -171,7 +171,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 - PDF nativo | Xref imprime el contenido del título del tema href en lugar de la etiqueta Xref. (11322)
 - PDF nativo | No se puede guardar la configuración de la plantilla de PDF. (10751)
 - PDF nativo | El texto se extiende más allá del ancho de la columna al incluir varias referencias x. (10876)
-- PDF nativo El elemento | `<note>` `</note>` no genera un título de intervalo adicional de su tipo. (10549)
+- PDF nativo El elemento | `<note>`&#x200B;`</note>` no genera un título de intervalo adicional de su tipo. (10549)
 - PDF nativo | Los metadatos de idioma no se pueden establecer en el PDF generado para cumplir con WCAG 2.0. (12296)
 
 
