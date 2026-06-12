@@ -21,7 +21,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 779
+source-wordcount: 757
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Puede publicar las líneas de base ya creadas con FMPS2020.0.2 o una versión su
 ### La línea de base no se publica desde FMPS
 
 >FMPS2020.0.2 o versiones posteriores son compatibles con la publicación de línea de base.
->Asegúrese de que la línea de base se ha creado correctamente; para comprobarlo, vaya al Panel de mapas— Temas— Descargar mapa y elija &quot;Usar línea de base&quot;.
+>Asegúrese de que la línea de base se haya creado correctamente; para comprobarlo, vaya al Panel de mapas— Temas— Descargar mapa y elija &quot;Usar línea de base&quot;.
 
 ### Las tareas de publicación de FMPS tardan más tiempo que otros motores
 

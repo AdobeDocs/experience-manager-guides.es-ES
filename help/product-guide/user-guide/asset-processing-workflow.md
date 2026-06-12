@@ -3,7 +3,7 @@ title: Preguntas frecuentes sobre el rendimiento y la escalabilidad de la public
 description: Obtenga información acerca de las preguntas más frecuentes sobre Rendimiento y escalabilidad de la publicación en Adobe Experience Manager Guides.
 source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1654'
 ht-degree: 1%
 
 ---
@@ -85,7 +85,7 @@ Los pasos principales de procesamiento siguen siendo coherentes desde el punto d
 
 Experience Manager Guides permite una configuración de base de datos optimizada para entornos de AEM Cloud. Para configurar la base de datos para la instancia de AEM Cloud, realice los siguientes pasos:
 
-1. Acceda a AEM Cloud Manager: vaya a Adobe Experience Cloud Manager mediante la dirección URL que aparece a continuación y reemplace los marcadores de posición por los detalles de su organización, programa y entorno: `https://experience.adobe.com/#/${orgName}/cloud-manager/environments.html/program/${programId}/environment/${envId}`
+1. Acceda a AEM Cloud Manager: vaya a Adobe Experience Cloud Manager mediante la dirección URL siguiente y reemplace los marcadores de posición por los detalles de su organización, programa y entorno: `https://experience.adobe.com/#/${orgName}/cloud-manager/environments.html/program/${programId}/environment/${envId}`
 
 1. Configure el entorno: después de abrir la página de configuración del entorno a través de Cloud Manager, podrá ajustar la configuración específica de la instancia, incluida la configuración de la base de datos necesaria.
 
@@ -257,7 +257,7 @@ Las implementaciones de Experience Manager Guides configuradas para utilizar una
 Esta comprobación de estado permite a los usuarios confirmar si la base de datos está configurada, si está accesible y si funciona según lo esperado. Para comprobar el estado de la conexión DB, siga los siguientes pasos.
 
 1. Abra cualquier explorador o cliente REST
-2. Almacenar en déclencheur una llamada de GET mediante esta [URL](https://host:port/bin/guides/v1/system/status)
+2. Almacenar en déclencheur una llamada GET mediante esta [URL](https://host:port/bin/guides/v1/system/status)
 3. Los campos siguientes se pueden utilizar para determinar la configuración del sistema y el estado
    1. isDatabase:
       - true: el entorno está configurado con la base de datos.

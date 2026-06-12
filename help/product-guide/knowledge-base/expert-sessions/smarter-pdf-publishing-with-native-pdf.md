@@ -2,10 +2,11 @@
 title: Publicación PDF más inteligente con PDF nativo
 description: Esta sesión de expertos explica cómo se puede utilizar Native PDF para crear PDF compatible con DITA sin necesidad de utilizar conocimientos avanzados de CSS o XSLT, en lugar de utilizar tecnología de código bajo para generar PDF
 keywords: Publicación DITA PDF, AEM Guides, Native PDF, DITA to PDF, flujo de trabajo de publicación DITA, automatización de PDF, publicación basada en metadatos, plantillas DITA
-source-git-commit: 1ae89da4d2638e375f684c187ef68389baa5a5bc
+exl-id: 763ca6fb-1e5a-4676-9684-879c13ba9a8e
+source-git-commit: 2fde91e85c4283d114b29f77a38bae6d67e60112
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 1%
+source-wordcount: '266'
+ht-degree: 2%
 
 ---
 

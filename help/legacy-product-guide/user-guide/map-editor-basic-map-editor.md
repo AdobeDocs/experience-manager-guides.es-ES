@@ -20,7 +20,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1508
+source-wordcount: 1464
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 > El Editor de mapas básico, disponible anteriormente en Experience Manager Guides, ha quedado obsoleto a partir de la versión 4.3 y 2307. No se puede acceder al Editor de mapas básico para crear y gestionar mapas DITA.
->Se recomienda utilizar el Editor de mapas avanzado. El editor de mapas avanzado ofrece funciones mejoradas y mejores opciones de personalización. Más información sobre cómo usar el [Editor de mapas avanzado](../user-guide/map-editor-advanced-map-editor.md).
+>Se recomienda usar el Editor de mapas avanzado. El editor de mapas avanzado ofrece funciones mejoradas y mejores opciones de personalización. Descubre más sobre cómo usar el [Editor de mapas avanzado](../user-guide/map-editor-advanced-map-editor.md).
 
 El Editor de mapas básico proporciona una sencilla función de arrastrar y soltar para agregar temas desde el repositorio de AEM y crear el mapa o el mapa de DITA. Puede agregar temas anidados, tablas de relación \(reltable\), atributos e información de metadatos, y también validar la corrección de la asignación.
 

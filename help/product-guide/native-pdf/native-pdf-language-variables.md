@@ -15,7 +15,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1604
+source-wordcount: 1417
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ También puede importar el archivo XML, que contiene las variables de idioma. Ex
 ### Exportar variables de idioma
 
 Para exportar las variables de idioma de un idioma, selecciona el idioma en la lista desplegable y selecciona **Exportar** <img src="./assets/language-variable-export-icon.svg" alt="icono de exportación" width="25">.
-Crea un archivo XML con el formato `language_variable_<ln>`, donde `<ln>` es el código del idioma seleccionado. Por ejemplo, `language_variable_en.xml` para inglés y `language_variable_fr.xml` para francés.
+Crea un archivo XML con el formato `language_variable_<ln>` donde `<ln>` es el código del idioma seleccionado. Por ejemplo, `language_variable_en.xml` para inglés y `language_variable_fr.xml` para francés.
 
 >[!NOTE]
 > 

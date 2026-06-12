@@ -4,9 +4,10 @@ description: Obtenga información sobre cómo migrar contenido no DITA
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: b416334318a83e882c32318bc4769d24268cdd1c
+exl-id: e4afe8f8-6130-4c97-a3b8-f5963a79c534
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '3521'
+source-wordcount: '3599'
 ht-degree: 0%
 
 ---
@@ -290,7 +291,7 @@ Se deben tener en cuenta los siguientes puntos a la hora de cargar los documento
   </html>
   ```
 
-  Observe que cada etiqueta `ul` debe tener el atributo `class` establecido en `book`. Del mismo modo, cada `li` de la etiqueta `class` debe establecerse en `topicref`.
+  Observe que cada etiqueta `ul` debe tener el atributo `class` establecido en `book`. Del mismo modo, cada `class` de la etiqueta `li` debe establecerse en `topicref`.
 
 - Si utiliza estilos en línea, convierta los estilos en línea a clases de estilos basadas en CSS en el archivo XHTML. A continuación, utilice la asignación de atributos de estilo para convertir estos estilos basados en clases al atributo DITA `outputclass` en el archivo DITA convertido.
 

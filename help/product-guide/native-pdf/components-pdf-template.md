@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 4767
+source-wordcount: 4602
 ht-degree: 0%
 
 ---
@@ -238,14 +238,14 @@ Defina los valores de configuración básicos para iniciar un capítulo desde un
 
 * **No mostrar el número de capítulo en el índice** : seleccione esta opción para mostrar los nombres de capítulo sin los números de capítulo en el índice.   De forma predeterminada, los números de capítulo se muestran en la tabla de contenido de la salida de PDF.
 * **Formato de relleno**: utilice la lista desplegable para seleccionar líneas directrices de puntos, sólidas o de espacio para conectar los niveles de encabezado con sus números de página correspondientes.
-Para aplicar la estructura del índice y los niveles de encabezado de estilo, vea [Agregar un índice de capítulo](design-page-layout.md#add-chapter-toc).
+Para aplicar la estructura del índice y los niveles de encabezado de estilo, consulte [Agregar un índice de capítulo](design-page-layout.md#add-chapter-toc).
 
   >[!NOTE]
   >
   >Si es desarrollador de CSS, puede definir el formato de relleno directamente en el archivo CSS.
 
 * **Usar marcador de continuación de tabla**: seleccione esta opción para definir marcadores para tablas largas que se extiendan en varias páginas.
-Puede definir el texto que aparecerá antes y después del salto. Por ejemplo, una tabla se divide en la página 5 y usted define `<Continued on page %page-num%>` para **Texto antes del salto**.  El texto muestra &quot;Continúa en la página 6&quot; al final de la página 5.
+Puede definir el texto que aparecerá antes y después del salto. Por ejemplo, una tabla se divide en la página 5 y usted define `<Continued on page %page-num%>` para **Texto antes del salto**. El texto muestra &quot;Continuado en la página 6&quot; al final de la página 5.
 
   Utilice variables de idioma para definir el texto del marcador de continuación antes y después del salto. Según el idioma elegido, el valor localizado se selecciona automáticamente en la salida de PDF. Por ejemplo, puede publicar `Continued on page %page-num%` como texto en inglés y `Fortsetzung auf Seite %page-num%` en alemán.
 
