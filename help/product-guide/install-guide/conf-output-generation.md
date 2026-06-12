@@ -262,7 +262,7 @@ Para configurar los caracteres especiales válidos en los nombres de archivo y e
 
 1. Busque y haga clic en el paquete *com.adobe.fmdita.common.SanitizeNodeNameImpl*.
 
-1. En el conjunto de caracteres **No permitido para la publicación en la propiedad AEM Sites**, asegúrese de que la propiedad está establecida en `<>` `@$`. Puede agregar más caracteres especiales a esta lista, pero debe tener estos caracteres especiales necesarios.
+1. En el conjunto de caracteres **No permitido para la publicación en la propiedad AEM Sites**, asegúrese de que la propiedad está establecida en `<>`&#x200B;`@$`. Puede agregar más caracteres especiales a esta lista, pero debe tener estos caracteres especiales necesarios.
 
    >[!NOTE]
    >

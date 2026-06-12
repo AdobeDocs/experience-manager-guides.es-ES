@@ -7,7 +7,7 @@ level: Experienced
 exl-id: c5ac6537-d7e8-4408-b85d-b82d7c038591
 source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '796'
 ht-degree: 10%
 
 ---
@@ -103,4 +103,4 @@ La siguiente lista contiene algunas recomendaciones y puntos relacionados con gr
 
 - Para otorgar a un usuario derechos para cambiar el estado de un documento, asegúrese de agregar el usuario en la sección de transición de estado del perfil de estado del documento.
 
-[1](#fnsrc_1) Si *Autores* y *Editores* están invitados a una revisión.[2](#fnsrc_2) según los derechos otorgados al usuario en el perfil de estado del documento.
+[1](#fnsrc_1) Si *Autores* y *Editores* están invitados a una revisión.[2](#fnsrc_2) Según los derechos otorgados al usuario en el perfil de estado del documento.

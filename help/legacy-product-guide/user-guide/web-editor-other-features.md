@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 2564
+source-wordcount: 2503
 ht-degree: 0%
 
 ---
@@ -250,7 +250,7 @@ Además del menú contextual de la ruta de exploración, también se puede acced
 - Puede insertar espacios de no separación en el documento mediante el icono **Insertar caracteres especiales** ![insertar caracteres especiales](images/insert-special-chars-icon.svg) o las teclas de método abreviado **Alt** + **Espacio**.  Estos espacios de no separación aparecen como un indicador mientras edita un tema en el Editor Web. Puede desactivar la visualización de los espacios de no separación con la opción **Mostrar indicador de espacio de no separación en el modo Autor** de la pestaña **Aspecto** de **Preferencias de usuario** ![Icono de preferencias de usuario](images/user_preference_editor_icon.svg).
 
 - Si copia y pega contenido con un espacio de no separación de cualquier origen externo en la vista **Autor**, el espacio de no separación se convierte en un espacio.
-Sin embargo, si copia y pega contenido con un espacio de no separación de la vista **Autor**, se conservará.
+Sin embargo, si copia y pega contenido con un espacio de no separación de la vista **Autor**, se conserva.
 
 
 **Id. de elemento generado automáticamente**
