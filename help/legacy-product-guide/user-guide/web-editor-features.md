@@ -34,7 +34,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 18945
+source-wordcount: 18775
 ht-degree: 0%
 
 ---
@@ -200,7 +200,7 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
   Se pueden utilizar para crear el perfil de publicación de Salesforce.
 
 
-   - Para crear un perfil de publicación de Salesforce, seleccione la base de conocimiento **Salesforce** en la lista desplegable **Tipo de servidor**. Introduzca un Nombre de perfil. En la **dirección URL del sitio**, escriba el sitio del consumidor que usaría para publicar la salida y, a continuación, agregue la **clave del consumidor** y el **secreto del consumidor** proporcionados por el sitio del consumidor de Salesforce. A continuación, **Valide** y **guarde** el perfil recién creado.
+   - Para crear un perfil de publicación de Salesforce, seleccione la base de conocimiento **Salesforce** en la lista desplegable **Tipo de servidor**. Introduzca un Nombre de perfil. En la **URL del sitio**, introduzca el sitio del consumidor que utilizaría para publicar el resultado y, a continuación, agregue la **clave del consumidor** y el **secreto del consumidor** proporcionados por el sitio del consumidor de Salesforce. A continuación, **Validar** y **Guardar** el perfil recién creado.
      ![perfil de publicación de salesforce en la configuración del editor](./images/salesforce-publish-profile.png){width="550"}
 
      >[!NOTE]
