@@ -4,10 +4,11 @@ description: Obtenga información sobre cómo migrar el contenido del software O
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: c8348aae-224c-4419-845a-b8910629e5b3
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 1%
+source-wordcount: '844'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +32,7 @@ Este artículo proporciona un proceso detallado paso a paso para migrar el conte
 ## Proceso de migración
 
 **Content Transfer Tool** es una herramienta desarrollada por Adobe que puede usar para iniciar la migración del contenido existente de una instancia On-Premise de Adobe Experience Manager de origen o de Managed Services a la instancia de Experience Manager Cloud Service de destino.
-Esta herramienta también transfiere las entidades principales (usuarios o grupos) automáticamente.
+Esta herramienta también transfiere entidades principales (usuarios o grupos) automáticamente.
 
 Puede descargar la **herramienta de transferencia de contenido** como archivo ZIP desde el portal de **distribución de software**:
 
@@ -135,7 +136,7 @@ o
    ![extracción del conjunto de migración](./assets/migration-set-extraction.png)
 
 1. Una vez completada la extracción y indicada por el estado `finished`, vaya a Cloud Acceleration Manager y seleccione el proyecto que creó en el paso 18.
-Para obtener más información, seleccione los tres puntos y, a continuación, seleccione **Ver detalles**.
+Para obtener más información, selecciona los tres puntos y luego **Ver detalles**.
 
 
 1. En la ventana emergente de detalles del conjunto de migración, compruebe la configuración del conjunto de migración y cierre la ventana emergente. Puede ver las rutas y otras configuraciones como se muestra en la siguiente captura de pantalla:

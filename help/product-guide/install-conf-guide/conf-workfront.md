@@ -4,9 +4,10 @@ description: Obtenga información sobre cómo configurar Workfront en Experience
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 694e9eeb-59a7-43e3-89b0-510b86be1f42
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '603'
 ht-degree: 2%
 
 ---

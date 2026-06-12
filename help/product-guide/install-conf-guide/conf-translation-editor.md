@@ -4,7 +4,8 @@ description: Obtenga información sobre cómo configurar la función de traducci
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 22d7e1c7-2059-43fb-b7aa-3ae4a6072678
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
@@ -25,7 +26,7 @@ Para ocultar la ficha **Administrar** en el Editor web, realice los siguientes p
 1. Haga clic en el mosaico **Perfil global**.
 1. Haga clic en **Configuración del editor XML**.
 1. Haz clic en el icono **Editar** de la parte superior.
-1. Descargar el archivo de `ui\_config.json`. Quite el siguiente fragmento de código del archivo descargado:
+1. Descargar el archivo de `ui\_config.json`.Elimine el siguiente fragmento de código del archivo descargado:
 
    ```json
    {

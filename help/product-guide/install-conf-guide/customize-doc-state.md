@@ -4,9 +4,10 @@ description: Obtenga información sobre cómo configurar estados de documento
 feature: Document State
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 2f035c92-21f9-401a-a2cb-d1bc19c75598
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -47,7 +48,7 @@ Para crear estados de documento utilizando el Perfil de carpeta, realice los sig
    - Especifique la ruta en la que desea aplicar el nuevo perfil.
    - Especifique los estados del documento en **Estados permitidos** en **Estados**.
 
-     Los estados de documento predeterminados son Borrador, Editar, En revisión, Aprobado y Listo.-
+     Los estados de documento predeterminados son Borrador, Editar, En revisión, Aprobado y Listo.
 
    - Haga clic en el botón **Agregar** para agregar un estado de documento.
 
