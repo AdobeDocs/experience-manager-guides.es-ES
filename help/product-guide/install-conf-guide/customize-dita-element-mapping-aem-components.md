@@ -4,13 +4,13 @@ description: Obtenga información sobre cómo personalizar la asignación de ele
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: b712223f-c7df-423c-9a46-6b3704f4bd26
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1272'
 ht-degree: 1%
 
 ---
-
 
 # Personalización de la asignación de elementos DITA con componentes de AEM {#id1679J600HEL}
 
@@ -164,18 +164,18 @@ En la tabla siguiente se describen los elementos del esquema de elementos DITA:
 | Elemento | Descripción |
 |-------|-----------|
 | `<ditaelement>` | Nodo de nivel superior para cada elemento de asignación. |
-| `<class>` | Atributo de clase del elemento DITA de destino para el que se está escribiendo el componente.<br> Por ejemplo, el atributo de clase para el tema DITA es: <br> `- topic/topic` |
+| `<class>` | Atributo de clase del elemento DITA de destino para el que está escribiendo el componente.<br> Por ejemplo, el atributo de clase para el tema DITA es: <br> `- topic/topic` |
 | `<componentpath>` | Ruta CRXDE del componente de AEM asignado. |
-| `<type>` | Valores posibles: <br> -   **COMPUESTO**: procesar también elementos secundarios <br> -   **STANDALONE**: omite el procesamiento de elementos secundarios |
+| `<type>` | Valores posibles: <br> - **COMPUESTO**: Procesar también elementos secundarios: <br> - **INDEPENDIENTE**: omite el procesamiento de elementos secundarios |
 | `<attributeprop>` | Se utiliza para asignar atributos y valores DITA serializados a nodos AEM como propiedad. Por ejemplo, si tiene el elemento `<note type="Caution">` y el componente asignado para este elemento tiene `<attributeprop>attr_t</ attributeprop>`, el atributo y valor del nodo se serializa a la propiedad `attr_t` del nodo \( `attr_t->type="caution"`\) de AEM correspondiente. |
 | `<textprop>propname_t</textprop>` | Guardar la salida `getTextContent()` en la propiedad definida por `propname_t.` <br> **Nota:** Esta es una propiedad optimizada. |
 | `<xmlprop>propname_x </xmlprop>` | Guardar el XML serializado de este nodo en la propiedad definida por `propname_x.<br> `**Nota:** Esta es una propiedad optimizada. |
 | `<xpath>` | Si se proporciona un elemento XPath en la asignación de elementos, junto con el nombre del elemento y la clase, la condición XPath también debe cumplirse para que se utilice la asignación de componentes. |
-| `<target>` | Coloque el elemento DITA en el repositorio CRX en la ubicación especificada.<br> valores posibles: <br> - **head**: bajo el nodo de encabezado <br> - **text**: bajo el nodo de párrafo |
+| `<target>` | Colocar para el elemento DITA en el repositorio crx en la ubicación especificada.<br> Valores posibles: <br> - **head**: bajo el nodo de encabezado <br> - **text**: bajo el nodo de párrafo |
 | `<wrapelement>` | El elemento HTML en el que ajustar el contenido. |
 | `<wrapclass>` | El valor del elemento para la propiedad `wrapclass.` |
 | `<attributemap>` | Nodo contenedor que contiene uno o más `<attribute>` nodos. |
-| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Asigna los atributos DITA a las propiedades de AEM: <br> -   **`from`**: nombre de atributo DITA <br> -   **`to`**: nombre de propiedad de componente de AEM <br> -   **`ispath`**: si el atributo es un valor de ruta \(por ejemplo: *image*\) <br> -   **`rel`**: si la ruta de acceso es el origen o el destino <br> **Nota:** Si `attrname` empieza por `%`, asigne `attrname minus '%'` a la prop &#39; `propname`&#39;. |
+| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Asigna los atributos DITA a las propiedades de AEM: <br> - **`from`**: Nombre de atributo DITA <br> - **`to`**: Nombre de propiedad de componente AEM <br> - **`ispath`**: Si el atributo es un valor de ruta \(por ejemplo: *image*\) <br> - **`rel`**: Si la ruta es el origen o el destino <br> **Nota:** Si `attrname` empieza por `%`, asigne `attrname minus '%'` a la prop &#39; `propname`&#39;. |
 
 **Notas adicionales**
 
@@ -188,5 +188,3 @@ En la tabla siguiente se describen los elementos del esquema de elementos DITA:
 - Si planea anular algunas \(y no todas\) de las asignaciones de elementos, no tiene que replicar todo el archivo `elementmapping.xml`. Debe crear un nuevo archivo de asignación XML y definir sólo los elementos que va a anular.
 
 - Después de crear el archivo XML en la ubicación personalizada, actualice la configuración `Override Element Mapping` en el paquete `com.adobe.fmdita.config.ConfigManager`.
-
-

@@ -46,7 +46,7 @@ Para obtener más información, consulte los siguientes procedimientos:
 
 >[!IMPORTANT]
 >
-> Si actualmente está en AEM 6.5 y planea pasar a AEM 6.5 LTS, asegúrese de completar primero la actualización de AEM antes de continuar con la actualización de Experience Manager Guides 5.2.0. Para obtener más información, vea [Actualización a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/es/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Si actualmente está en AEM 6.5 y planea pasar a AEM 6.5 LTS, asegúrese de completar primero la actualización de AEM antes de continuar con la actualización de Experience Manager Guides 5.2.0. Para obtener más información, vea [Actualización a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Requisitos previos**
 
@@ -74,7 +74,7 @@ Descargue el paquete de la versión 5.2.0 del [Portal de distribución de softwa
 
 >[!IMPORTANT]
 >
-> Si actualmente está en AEM 6.5 y planea pasar a AEM 6.5 LTS, asegúrese de completar primero la actualización de AEM antes de continuar con la actualización de Experience Manager Guides 5.1.0. Para obtener más información, vea [Actualización a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/es/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Si actualmente está en AEM 6.5 y planea pasar a AEM 6.5 LTS, asegúrese de completar primero la actualización de AEM antes de continuar con la actualización de Experience Manager Guides 5.1.0. Para obtener más información, vea [Actualización a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Requisitos previos**
 
@@ -278,7 +278,7 @@ Durante esta actualización, dado que el valor `'order'` ha cambiado de 1000 a 5
 
 ### Pasos para reindexar damAssetLucene
 
-La definición del índice se actualiza para damAssetLucene con AEM Guides. Después de actualizar a la versión requerida, consulte [este artículo](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-16460) para reindexar damAssetLucene.
+La definición del índice se actualiza para damAssetLucene con AEM Guides. Después de actualizar a la versión requerida, consulte [este artículo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) para reindexar damAssetLucene.
 
 >[!NOTE]
 >

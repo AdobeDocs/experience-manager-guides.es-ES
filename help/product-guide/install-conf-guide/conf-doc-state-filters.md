@@ -77,4 +77,4 @@ En el archivo `ui\_config.json` descargado, consulte la siguiente sección:
 
 Los filtros configurados se muestran en el panel **Filtros** del Repositorio en la página de inicio.
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](customize-overview.md)
+**Tema principal:**[ Personalizar editor web](customize-overview.md)

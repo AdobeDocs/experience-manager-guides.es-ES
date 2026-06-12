@@ -4,9 +4,10 @@ description: Obtenga información sobre cómo configurar la asignación basada e
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: f37cd341-aa8b-4af0-9a40-1d034eea3be6
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---

@@ -515,7 +515,7 @@ Si ha actualizado un ajuste preestablecido de salida existente o desea que un nu
 
 ## Configuración del asistente de IA para la ayuda inteligente y la creación (solo para Cloud Service)
 
-Para Experience Manager Guides as a Cloud Service (![nube de AEM &#x200B;](assets/aem-cloud-icon.svg)).
+Para Experience Manager Guides as a Cloud Service (![nube de AEM ](assets/aem-cloud-icon.svg)).
 
 El asistente de IA de Adobe Experience Manager Guides es una potente herramienta impulsada por IA que se ha diseñado para mejorar el contenido mediante la creación inteligente y las experiencias de reutilización de contenido. Reúne dos características de IA sólidas — **Creación** y **Ayuda** — en la interfaz de Experience Manager Guides, lo que le permite autorizar documentos y acceder a información de forma más rápida y eficaz.
 
@@ -601,9 +601,9 @@ Para garantizar que las sugerencias inteligentes funcionen correctamente, tenga 
 
 **Personalizar las preguntas predeterminadas para la ayuda inteligente**
 
-Para Experience Manager Guides as a Cloud Service (![nube de AEM &#x200B;](assets/aem-cloud-icon.svg)).
+Para Experience Manager Guides as a Cloud Service (![nube de AEM ](assets/aem-cloud-icon.svg)).
 
-Puede configurar la **Ayuda** inteligente con tecnología de IA para ayudar a los autores a hacer preguntas y encontrar fácilmente el contenido requerido de la [documentación de Experience Manager Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/overview).
+Puede configurar la **Ayuda** inteligente con tecnología de IA para ayudar a los autores a hacer preguntas y encontrar fácilmente el contenido requerido de la [documentación de Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 La ficha **Configuración del editor XML** le permite configurar las preguntas predeterminadas del panel **Ayuda**.
 
@@ -660,7 +660,7 @@ Las siguientes pestañas proporcionan información basada en la configuración d
 
 Esta configuración le permite crear extensiones JSON que reflejen las modificaciones realizadas en el archivo `ui_config.json`. Puede cargar de forma independiente estas extensiones en el nivel de perfil de carpeta, lo que ofrece una mayor flexibilidad y personalización. Por ejemplo, cuando se realizan cambios en la **configuración del editor XML**, como actualizar un botón, el sistema identifica automáticamente las diferencias. Al cargar estos cambios en la **configuración de la interfaz de usuario del editor XML** y convertirlos en extensiones JSON mediante el botón **Convertir configuración de la interfaz de usuario a JSON**, el sistema genera una extensión que incorpora la nueva funcionalidad.
 
-Obtenga más información sobre [personalizar configuraciones de JSON y convertir configuraciones de IU para el nuevo Editor de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Obtenga más información sobre [personalizar configuraciones de JSON y convertir configuraciones de IU para el nuevo Editor de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >

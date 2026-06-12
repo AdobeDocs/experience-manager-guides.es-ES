@@ -4,10 +4,11 @@ description: Obtenga información sobre cómo actualizar Adobe Experience Manage
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 61a6a623-2f29-43b5-a053-7f1f925de6d6
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '3159'
-ht-degree: 0%
+source-wordcount: '3168'
+ht-degree: 2%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 Este artículo proporciona instrucciones para actualizar **Adobe Experience Manager Guides** versiones **anteriores a la 4.6.0** (hasta la **4.4.0** inclusive).
 
-Si tiene una versión **anterior a la 3.8.5**, consulte la sección **Actualizar Experience Manager Guides** en la guía de instalación específica del producto, disponible en [Archivo de PDF de ayuda de Adobe Experience Manager Guides](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/archive.html).
+Si tiene una versión **anterior a la 3.8.5**, consulte la sección **Actualizar Experience Manager Guides** en la guía de instalación específica del producto, disponible en [Archivo de PDF de ayuda de Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 Para obtener instrucciones de actualización para las versiones más recientes, consulte [Actualizar Adobe Experience Manager Guides para la versión 4.6.0 y superior](./upgrade-aemg-latest-version.md).
 
@@ -57,7 +58,7 @@ Algunas actualizaciones también requieren la configuración del nivel de regist
 
 >[!NOTE]
 >
-> Este proceso de actualización es aplicable **solamente** de **3.8.5** a **4.0**. Para actualizaciones de **3.4 o superior** a **3.8.5**, consulte la guía de instalación específica del producto disponible en [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/archive.html).
+> Este proceso de actualización es aplicable **solamente** de **3.8.5** a **4.0**. Para actualizaciones de **3.4 o superior** a **3.8.5**, consulte la guía de instalación específica del producto disponible en [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 Si usa la versión de Experience Manager Guides **3.8.5**, puede actualizar a la versión **4.0** sin desinstalar la versión anterior.
 
@@ -75,7 +76,7 @@ Esta API está diseñada para evaluar el estado actual del sistema e informar si
 | Punto final | /bin/dxml/upgrade/3xto4x/report |
 | --- | --- |
 | Tipo de solicitud | **GET** <br> **Nota**: puede usar un explorador web en el que haya iniciado sesión en la instancia de AEM como administrador. |
-| Respuesta esperada | -   Si se pueden mover todos los nodos requeridos, se le aprobará una comprobación. <br>-   Si un nodo está presente en la ubicación de destino, se producirá un error relevante. Limpie el repositorio \(elimine el nodo /var/xml\), vuelva a instalar el paquete de actualización y, a continuación, almacene en déclencheur este extremo de nuevo. <br>**Nota:** Este no es un error común porque 3.x Experience Manager Guides no usa anteriormente la ubicación de destino. <br> -   Si este script no se ejecuta correctamente, no continúe y genere un informe para el equipo de éxito del cliente. |
+| Respuesta esperada | - En caso de que se puedan mover todos los nodos requeridos, obtendrá una comprobación superada. <br>: si un nodo está presente en la ubicación de destino, se generará un error relevante. Limpie el repositorio \(elimine el nodo /var/xml\), vuelva a instalar el paquete de actualización y, a continuación, almacene en déclencheur este extremo de nuevo. <br>**Nota:** Este no es un error común porque 3.x Experience Manager Guides no usa anteriormente la ubicación de destino. <br>: si este script no se ejecuta correctamente, no continúe y genere un informe para el equipo de éxito del cliente. |
 
 **API de migración de datos del sistema**
 
@@ -87,7 +88,7 @@ Esta API está diseñada para migrar los datos del sistema como se menciona en l
 | Punto final | /bin/dxml/upgrade/3xto4x |
 | --- | --- |
 | Tipo de solicitud | **POST** <br>**Nota**: este script es una petición POST por lo tanto debe ejecutarse a través de agentes como Postman. |
-| Respuesta esperada | -   Una vez completada la migración, puede instalar la solución de XML Documentation versión 4.0.<br>-   En caso de errores, restaure al último punto de comprobación y comparta los registros de errores junto con la salida de la API con el equipo de éxito del cliente. |
+| Respuesta esperada | - Una vez completada la migración, puede instalar la solución XML Documentation versión 4.0.<br>- En caso de errores, restaure al último punto de comprobación y comparta los registros de errores junto con la salida de la API con el equipo de éxito del cliente. |
 
 
 **Asignación de migración**
@@ -369,8 +370,8 @@ Después de instalar Experience Manager Guides, es posible que tenga que combina
       **Ficha común**
 - Título: `DXML Post Process Initiator`
 - Descripción: `DXML post process initiator step which will trigger a sling job for DXML post-processing of the modified/created asset`
-      **Ficha de proceso**
-- Proceso: seleccionar `DXML Post Process Initiator`
+      **Ficha Proceso**
+- Proceso: seleccione `DXML Post Process Initiator`
 - Seleccionar `Handler Advance`
 - Seleccionar `Done`
    3. Haga clic en **Sincronizar** en la parte superior derecha después de completar los cambios. Recibirá una notificación de éxito.
@@ -451,7 +452,7 @@ Parámetros opcionales admitidos en el origen:
   >
   > Si se aprueban `paths` y `root`, solo se considerará `paths`.
 
-1. La API devuelve un `jobId`. Para comprobar el estado, envíe una solicitud de GET:
+1. La API devuelve un `jobId`. Para comprobar el estado, envíe una petición GET:
 
    ```http
    GET http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}
@@ -459,7 +460,7 @@ Parámetros opcionales admitidos en el origen:
 
    Comportamiento de finalización esperado:
 
-   - Una vez finalizada, GET responde correctamente e indica si alguna de las asignaciones ha fallado.
+   - Al finalizar, GET responde correctamente e indica si alguna asignación ha fallado.
    - Confirme las asignaciones indexadas correctamente en los registros del servidor.
 
 ### Asegúrese de que la indexación de damAssetLucene esté completa (cuando corresponda).
@@ -509,13 +510,13 @@ Siga estos pasos para habilitar el informe de vínculos rotos:
    | Punto final | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo de solicitud | **POST** Este script es una petición POST por lo tanto debe ejecutarse a través de agentes como Postman. |
-   | Respuesta esperada | La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID de trabajo al mismo punto final.<br> URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade` |
+   | Respuesta esperada | La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud GET con el id del trabajo al mismo punto final.<br> URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Punto final | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo de solicitud | **GET** |
    | Parámetro | jobId: pase el jobId recibido de la solicitud de publicación anterior. |
-   | Respuesta esperada | - Una vez completado el trabajo, la solicitud de GET responde correctamente. <br>: en caso de que haya errores, comparta los registros de errores junto con la salida de la API con el equipo de éxito del cliente.  <br>URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | Respuesta esperada | : una vez completado el trabajo, la solicitud GET responde correctamente. <br>: en caso de que haya errores, comparta los registros de errores junto con la salida de la API con el equipo de éxito del cliente.  <br>URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 1. Volver al valor predeterminado o anterior existente de `queryLimitReads` si lo ha cambiado en el paso 1.
 
@@ -563,4 +564,3 @@ Si tiene otra reescritura de Sling personalizada en la base de código:
 
 - Use un valor `order` **mayor que 50** porque las guías usan `order=50`.
 - Durante esta actualización, el valor `order` cambia de `1000` a `50`, por lo que debe combinar la reescritura personalizada existente (si existe) con `fmditarewriter`.
-

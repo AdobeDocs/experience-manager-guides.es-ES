@@ -4,7 +4,8 @@ description: Obtenga información sobre cómo configurar el valor predeterminado
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: d54e3a3c-9f61-43cf-a925-12e4ce948a55
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 # Configurar el valor predeterminado para la vista de etiquetas {#id223GN0M0NDC}
 
-AEM Guides le permite configurar el estado predeterminado de la vista Etiquetas en el Editor Web, lo que le ayuda a mantener activada o desactivada la vista Etiquetas de forma predeterminada en la sesión de un nuevo usuario. Realice los siguientes pasos para configurar el valor predeterminado de la vista Etiquetas:
+AEM Guides le permite configurar el estado predeterminado de la vista Etiquetas en el Editor Web, lo que le ayuda a mantener activada o desactivada la vista Etiquetas de forma predeterminada en la sesión de un nuevo usuario.Siga estos pasos para configurar el valor predeterminado de la Vista de etiquetas:
 
 1. Descargue el archivo de configuración de la interfaz de usuario iniciando sesión en Adobe Experience Manager como administrador.
 1. Haga clic en el vínculo Adobe Experience Manager en la parte superior y elija **Herramientas**.
@@ -36,4 +37,4 @@ AEM Guides le permite configurar el estado predeterminado de la vista Etiquetas 
 >
 > La preferencia del usuario en el Editor Web para habilitar/deshabilitar la Vista de etiquetas tiene prioridad sobre este valor predeterminado. Por lo tanto, si un usuario habilita la Vista de etiquetas desde el Editor web, permanecerá habilitada incluso en todas las sesiones.
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](customize-overview.md)
+**Tema principal:**[ Personalizar editor web](customize-overview.md)
