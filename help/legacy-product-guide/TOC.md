@@ -3,7 +3,7 @@ user-guide-title: IU antigua de Experience Manager Guides
 user-guide-description: Lea la documentación del producto de Adobe Experience Manager Guides mediante la interfaz de usuario antigua.
 breadcrumb-title: Documentación de AEM Guides
 hide: true
-badgeAll: label="Guía antigua de la interfaz de usuario&#58; más información" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Guía antigua de IU"
+badgeAll: label="Guía antigua de la interfaz de usuario: más información" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Guía antigua de IU"
 source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: 599
@@ -21,8 +21,8 @@ ht-degree: 6%
    - Introducción {#about-aem-guide}
       - [Acerca de  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] funciones clave y de trabajo {#aemg-works-features}
-         - [Cómo funciona [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-         - [Características clave  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Cómo funciona [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+         - [Características clave  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Administrar contenido {#manage-content}
       - [Conceptos clave, funciones y permisos, y requisitos previos](./user-guide/authoring.md)
       - [Cargar archivos](./user-guide/authoring-upload-existing-files.md)
@@ -142,5 +142,5 @@ ht-degree: 6%
       - [Informe de reutilización de contenido](./user-guide/reports-content-reuse.md)
       - [Informe de estado de conversión](./user-guide/reports-convertion-status.md)
       - [Informe de historial de versiones de archivos revertidos](./user-guide/reports-reverted-file-version-history.md)
-- [GUÍA DEL USUARIO (NUEVA IU)](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+- [GUÍA DEL USUARIO (NUEVA IU)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
 
