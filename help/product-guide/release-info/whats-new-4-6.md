@@ -4,11 +4,22 @@ description: Obtenga información acerca de las funciones nuevas y mejoradas de 
 role: Leader
 exl-id: 3e73d595-a574-4104-af46-6994685a2f4c
 TQID: https://experienceleague.adobe.com/SuUfplm5WDGOjPlkNjMiWXoWzpFeM8RQsTHNL36iLn8
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d6596f3f-92a7-43ec-b444-237db6adad05id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: ce44533e-8ec8-4e11-a9e9-78b0fe561832id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 2738
@@ -37,7 +48,7 @@ Un fragmento de experiencia es una unidad de contenido modular dentro de Adobe E
 
 ![ficha de opciones de propiedades de archivo](./assets/file-properties-outputs-4-6.png) {width="300"}
 
-*Publicar y ver los fragmentos de experiencias de un tema desde la sección **Salidas**en las **Propiedades del archivo**.*
+*Publicar y ver los fragmentos de experiencias de un tema desde la sección **Salidas**&#x200B;en las **Propiedades del archivo**.*
 
 Ahora, Experience Manager Guides le permite publicar un tema o sus elementos en un Fragmento de experiencia. Puede crear una asignación basada en JSON entre un tema o sus elementos y una plantilla de fragmento de experiencia. También puede crear variaciones de Fragmento de experiencia utilizando los filtros de condición.
 
@@ -88,7 +99,7 @@ Si se hace referencia al mismo tema más de una vez en un archivo, puede agregar
 
 ![Ajuste preestablecido de AEM Sites heredado](assets/aem-sites-legacy.png)
 
-*Especifique el contexto de publicación para los temas vinculados desde la ficha **Referencias de mapas cruzados**del ajuste preestablecido **AEM Sites**.*
+*Especifique el contexto de publicación para los temas vinculados desde la ficha **Referencias de mapas cruzados**&#x200B;del ajuste preestablecido **AEM Sites**.*
 
 
 
@@ -194,7 +205,7 @@ Ahora tiene una mejor experiencia al filtrar archivos. La funcionalidad renovada
 
 Disfrute de ventajas como un acceso más rápido a los archivos relevantes y una interfaz de usuario más intuitiva, lo que hace que su experiencia de búsqueda sea más fluida y eficiente.
 
-![filtro de búsqueda rápida ](assets/repository-filter-search-quick.png) {width="300"}
+![filtro de búsqueda rápida &#x200B;](assets/repository-filter-search-quick.png) {width="300"}
 
 *Utilice los filtros rápidos para buscar archivos DITA y no DITA.*
 
