@@ -4,9 +4,10 @@ description: Obtenga información sobre cómo instalar paquetes para la publicac
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 24e47af6-8d81-4994-8d97-474f5029392b
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -47,7 +48,7 @@ Puede utilizar el sitio de AEM para publicar el artículo mediante los ajustes p
 
 >[!TAB Local]
 
-Para habilitar la publicación basada en artículos, descargue e instale los siguientes paquetes de su Portal de distribución de software de Adobe. Instálelos para crear un sitio Tragopan. \(sitio de Tragopan es un sitio de AEM de base de conocimiento de muestra con plantillas para una categoría, sección y páginas de artículo.\) Actualice el sitio Tragopan para generar el resultado del sitio AEM mediante los ajustes preestablecidos de salida del Editor Web.
+Para habilitar la publicación basada en artículos, descargue e instale los siguientes paquetes de su Portal de distribución de software de Adobe. Instálelos para crear un sitio Tragopan. \(El sitio de Tragopan es un ejemplo de sitio de AEM de la base de conocimiento con plantillas para páginas de categorías, secciones y artículos.\) Actualice el sitio de Tragopan para generar el resultado del sitio de AEM mediante los ajustes preestablecidos de salida del Editor Web.
 
 - Plantilla de la base de conocimiento para la publicación basada en artículos
 - Paquete de componentes para la publicación basada en artículos
@@ -55,4 +56,4 @@ Para habilitar la publicación basada en artículos, descargue e instale los sig
 >[!ENDTABS]
 
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](customize-overview.md)
+**Tema principal:**[ Personalizar editor web](customize-overview.md)
