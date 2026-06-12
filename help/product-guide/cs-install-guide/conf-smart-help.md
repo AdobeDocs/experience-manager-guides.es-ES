@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 619
+source-wordcount: 591
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Realice los siguientes pasos para crear configuraciones de IMS en Adobe Develope
 1. Seleccione **Agregar API** de la pantalla **Proyectos**.  Aparecerá la pantalla **Agregar una API**. Esta pantalla muestra todas las API, los eventos y los servicios disponibles para los productos y las tecnologías de Adobe con los que puede desarrollar aplicaciones.
 
 1. Seleccione la **API de administración de E/S** para agregarla a su proyecto.
-   API de administración de ![IO](assets/confi-ss-io-management.png)
+   ![API de administración de E/S](assets/confi-ss-io-management.png)
    *Agregar la API de administración de E/S a su proyecto.*
 
 1. Cree una nueva **credencial de OAuth** y guárdela.

@@ -20,8 +20,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1034
-ht-degree: 2%
+source-wordcount: 844
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ Este artículo proporciona un proceso detallado paso a paso para migrar el conte
 ## Proceso de migración
 
 **Content Transfer Tool** es una herramienta desarrollada por Adobe que puede usar para iniciar la migración del contenido existente de una instancia On-Premise de Adobe Experience Manager de origen o de Managed Services a la instancia de Experience Manager Cloud Service de destino.
-Esta herramienta también transfiere las entidades principales (usuarios o grupos) automáticamente.
+Esta herramienta también transfiere entidades principales (usuarios o grupos) automáticamente.
 
 Puede descargar la **herramienta de transferencia de contenido** como archivo ZIP desde el portal de **distribución de software**:
 
@@ -54,7 +54,7 @@ Puede descargar la **herramienta de transferencia de contenido** como archivo ZI
 1. Seleccione **Herramienta de transferencia de contenido** de la lista y descárguela.
 
 ![descargar herramienta de transferencia de contenido](./assets/content-transfer-tool-software-portal.png)
-A continuación, instale el paquete a través de **Administrador de paquetes** en la instancia de Adobe Experience Manager de origen. Asegúrese de descargar la última versión.
+A continuación, instale el paquete a través de **Administrador de paquetes** en la instancia de Adobe Experience Manager de origen. Asegúrese de descargar la versión más reciente.
 Para obtener más información sobre la versión más reciente, vea [Notas de la versión](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=es).
 
 >[!NOTE]
@@ -121,7 +121,7 @@ Siga estos pasos para migrar el contenido de Experience Manager Guides a Experie
    ![](./assets/migration-create-migration-set.png)
 
 1. Proporcione la ruta que desee migrar y haga clic en **Guardar**.
-Por ejemplo,  `/content/sites`
+Por ejemplo, `/content/sites`
 o
    `/content/dam/tech-docs`
    ![rutas incluidas](./assets/migration-included-paths.png)
@@ -149,7 +149,7 @@ o
    ![extracción del conjunto de migración](./assets/migration-set-extraction.png)
 
 1. Una vez completada la extracción y indicada por el estado `finished`, vaya a Cloud Acceleration Manager y seleccione el proyecto que creó en el paso 18.
-Para obtener más información, seleccione los tres puntos y, a continuación, seleccione **Ver detalles**.
+Para obtener más información, selecciona los tres puntos y luego **Ver detalles**.
 
 
 1. En la ventana emergente de detalles del conjunto de migración, compruebe la configuración del conjunto de migración y cierre la ventana emergente. Puede ver las rutas y otras configuraciones como se muestra en la siguiente captura de pantalla:

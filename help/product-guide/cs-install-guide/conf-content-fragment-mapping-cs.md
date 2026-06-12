@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: 267
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Adobe Experience Manager Guides le permite crear una asignación basada en JSON 
 >[!NOTE]
 > 
 > Si utiliza la versión 4.6 o versiones posteriores y no necesita crear esta asignación, puede arrastrar los elementos del tema a los campos presentes en el modelo de fragmento de contenido.
-> Más información sobre cómo [publicar fragmentos de contenido](../user-guide/publish-content-fragment.md).
+> Más información acerca de cómo [publicar fragmentos de contenido](../user-guide/publish-content-fragment.md).
 
 
 1. Para descargar *contentFragmentMapping.json*, inicie sesión en Adobe Experience Manager como administrador.
