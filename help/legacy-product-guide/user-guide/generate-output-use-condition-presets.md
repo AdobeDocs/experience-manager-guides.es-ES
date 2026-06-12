@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1213
+source-wordcount: 1119
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ El panel **Atributos** muestra todos los atributos agregados a cualquier referen
    * Seleccione uno o varios valores de atributo para añadirlos al ajuste preestablecido de condición. Por ejemplo, puede seleccionar los valores `Unix` y `Win` del atributo de plataforma
    * Seleccione cualquier par de atributo y valor y arrástrelo al panel central. Por ejemplo, puede seleccionar el valor `Unix` del atributo de plataforma y arrastrarlo.
    * **Seleccione todos** para agregar todos los atributos y sus valores al ajuste preestablecido de condición.
-De manera predeterminada, la acción de un atributo es `Include`.
+De forma predeterminada, la acción de un atributo es `Include`.
 
 1. Seleccione **Añadir**. Puede repetir este paso para agregar más atributos. Los atributos que agregue se moverán del panel central al derecho.
 1. Seleccione Eliminar de la barra de acciones de la parte superior para eliminar los atributos seleccionados en el panel derecho.

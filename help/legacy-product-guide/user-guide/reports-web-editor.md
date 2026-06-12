@@ -19,7 +19,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 2384
+source-wordcount: 2193
 ht-degree: 0%
 
 ---
@@ -170,7 +170,7 @@ Para ver el informe de los vínculos rotos, siga estos pasos:
 1. Haga doble clic en **Vínculos rotos** a la izquierda. Se mostrará la lista de vínculos rotos o referencias presentes en el mapa DITA.
 1. Desde el panel **Filtros** puede ordenar la lista por vínculos o por los nombres de los elementos utilizados en las referencias.
 
-   - Cuando ordena por **Vínculo interrumpido**, las rutas de los vínculos rotos se muestran en la primera columna y, a continuación, los nombres de todas las referencias en las que se han utilizado se muestran en otra columna en filas independientes. Si se utiliza el mismo vínculo roto en varios archivos, estos se muestran en una fila y se muestran como filas agrupadas o secundarias. Por ejemplo, la siguiente captura de pantalla muestra tres vínculos rotos en la primera columna y la referencia en la que se utilizan; `TestMap.ditamap` se muestra en la tercera columna en tres filas independientes.
+   - Cuando ordena por **Vínculo interrumpido**, las rutas de los vínculos rotos se muestran en la primera columna y, a continuación, los nombres de todas las referencias en las que se han utilizado se muestran en otra columna en filas independientes. Si se utiliza el mismo vínculo roto en varios archivos, estos se muestran en una fila y se muestran como filas agrupadas o secundarias. Por ejemplo, la siguiente captura de pantalla muestra tres vínculos rotos en la primera columna y la referencia en la que se utilizan: `TestMap.ditamap` se muestra en la tercera columna en tres filas independientes.
    ![](images/broken-link-report.png){width="800"}
 
    - Si ordena por **Usado en la columna**, verá la vista transpuesta en la que los nombres de las referencias en las que se han utilizado los vínculos rotos se enumeran en la primera columna, mientras que los vínculos rotos se enumeran en otra columna de la misma fila. Por ejemplo, la siguiente captura de pantalla muestra la referencia (en la que se utiliza el vínculo roto) `TestMap.ditamap` en la primera columna y los vínculos rotos se muestran en la tercera columna de la misma fila.

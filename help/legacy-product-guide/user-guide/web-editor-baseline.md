@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1707
+source-wordcount: 1654
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ Puede gestionar las líneas base existentes mediante las distintas funciones del
 ### Duplicar una línea base
 
 Puede duplicar una línea base y modificarla según sus necesidades.
-![duplicar una línea base](images/baseline-duplicate.png){width="300"}
+![duplicar una línea de base](images/baseline-duplicate.png){width="300"}
 *Duplique una línea de base basándose en una etiqueta o cree una copia exacta.*
 
 1. Seleccione **Duplicar** del menú Opciones de una línea de base. Se abre el cuadro de diálogo **Duplicar línea de base**.
