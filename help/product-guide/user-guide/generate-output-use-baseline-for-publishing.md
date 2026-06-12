@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1803
+source-wordcount: 1788
 ht-degree: 0%
 
 ---
@@ -148,7 +148,7 @@ Realice los siguientes pasos para agregar una etiqueta a varios temas y contenid
 
 1. Si desea aplicar la etiqueta a los temas a los que se hace referencia en las subasignaciones, seleccione **Aplicar etiqueta a las asignaciones secundarias y a sus dependientes**.
 
-   - Seleccione **Añadir**.
+   - Seleccione **Agregar**.
 La etiqueta especificada se añade al mapa DITA y a los temas y contenido a los que se hace referencia.
 
      ![](images/label-added-baseline-uuid.png){width="650"}

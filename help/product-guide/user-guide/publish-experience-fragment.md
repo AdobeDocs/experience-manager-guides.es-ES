@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 996
+source-wordcount: 975
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Para generar un fragmento de experiencia, realice los siguientes pasos:
 
    * **Título**: vea o edite el título de la carpeta.
 
-   * **Plantillas permitidas**: Contiene la lista de plantillas que se pueden agregar como páginas secundarias del fragmento de experiencia. Para agregar la plantilla permitida, especifique la expresión regular para recuperar las plantillas necesarias en el campo **Plantillas permitidas**.
+   * **Plantillas permitidas**: Contiene la lista de plantillas que se pueden agregar como páginas secundarias del fragmento de experiencia. Para agregar la plantilla permitida, especifique la expresión regular para recuperar las plantillas requeridas en el campo **Plantillas permitidas**.
 Por ejemplo:
      `/libs/cq/experience-fragments/components/experiencefragment/template`
 
