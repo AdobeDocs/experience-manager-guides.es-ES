@@ -6,17 +6,12 @@ feature: Output Generation
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/h8V5bE1J5ztJNJ9wMPoQR4k36-pZuiaYbnD7xPYX-zE
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 4767
+source-wordcount: 4602
 ht-degree: 0%
 
 ---
@@ -238,14 +233,14 @@ Defina los valores de configuración básicos para iniciar un capítulo desde un
 
 * **No mostrar el número de capítulo en el índice** : seleccione esta opción para mostrar los nombres de capítulo sin los números de capítulo en el índice.   De forma predeterminada, los números de capítulo se muestran en la tabla de contenido de la salida de PDF.
 * **Formato de relleno**: utilice la lista desplegable para seleccionar líneas directrices de puntos, sólidas o de espacio para conectar los niveles de encabezado con sus números de página correspondientes.
-Para aplicar la estructura del índice y los niveles de encabezado de estilo, vea [Agregar un índice de capítulo](design-page-layout.md#add-chapter-toc).
+Para aplicar la estructura del índice y los niveles de encabezado de estilo, consulte [Agregar un índice de capítulo](design-page-layout.md#add-chapter-toc).
 
   >[!NOTE]
   >
   >Si es desarrollador de CSS, puede definir el formato de relleno directamente en el archivo CSS.
 
 * **Usar marcador de continuación de tabla**: seleccione esta opción para definir marcadores para tablas largas que se extiendan en varias páginas.
-Puede definir el texto que aparecerá antes y después del salto. Por ejemplo, una tabla se divide en la página 5 y usted define `<Continued on page %page-num%>` para **Texto antes del salto**.  El texto muestra &quot;Continúa en la página 6&quot; al final de la página 5.
+Puede definir el texto que aparecerá antes y después del salto. Por ejemplo, una tabla se divide en la página 5 y usted define `<Continued on page %page-num%>` para **Texto antes del salto**. El texto muestra &quot;Continuado en la página 6&quot; al final de la página 5.
 
   Utilice variables de idioma para definir el texto del marcador de continuación antes y después del salto. Según el idioma elegido, el valor localizado se selecciona automáticamente en la salida de PDF. Por ejemplo, puede publicar `Continued on page %page-num%` como texto en inglés y `Fortsetzung auf Seite %page-num%` en alemán.
 
@@ -468,11 +463,11 @@ Por ejemplo, puede agregar una variable de idioma &quot;reference-label&quot; y 
 Cuando agrega `${lng:<variable name>}` a la sección Párrafo, las referencias cruzadas de los párrafos de la salida contienen el texto localizado y el número de página.\
 Por ejemplo, las siguientes capturas de pantalla muestran las referencias cruzadas &quot;Ver en la página 1&quot; en inglés y &quot;Einzelheiten finden Sie auf der Seite 1&quot; en alemán.
 
-<img src="./assets/english-output-corss-reference.png" alt="Resultado en inglés de una referencia cruzada en un párrafo&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Resultado en inglés de una referencia cruzada en un párrafo" width ="800" border="2px">
 
 *Referencia cruzada dentro de un párrafo cuando se publica en inglés.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Resultado alemán de una referencia cruzada en un párrafo&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="Resultado alemán de una referencia cruzada en un párrafo" width ="800" border="2px">
 
 
 *Referencia cruzada dentro de un párrafo cuando se publica en alemán.*
