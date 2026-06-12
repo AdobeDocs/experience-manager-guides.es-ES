@@ -3,11 +3,21 @@ title: Notas de versión | Novedades de la versión 2024.4.0 de Adobe Experience
 description: Conozca las funciones nuevas y mejoradas de la versión 2024.4.0 de Adobe Experience Manager Guides as a Cloud Service.
 exl-id: e9db535a-5ad5-4ff0-94af-b4425594316a
 TQID: https://experienceleague.adobe.com/CbFELIAkdegeGti1J-E7B-wLvLx5D-pikNdO2yNq9jw
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388bid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1648
@@ -74,7 +84,7 @@ Ahora, además de activar el resultado para la colección de activación masiva 
 Esta característica le ayuda a activar el contenido en una instancia de vista previa, lo que le permite comprobar cómo se ve y funciona antes de activarlo en la instancia **Publish**.
 
 
-![ creó la pestaña del historial de auditoría de la colección de activación masiva](assets/bulk-collection-audit-history.png){width="800"}
+![&#x200B; creó la pestaña del historial de auditoría de la colección de activación masiva](assets/bulk-collection-audit-history.png){width="800"}
 
 *Vea la información acerca de los resultados del mapa activado en la ficha **Historial de auditoría**.*
 
@@ -166,7 +176,7 @@ Ahora tiene una mejor experiencia al filtrar archivos. La funcionalidad renovada
 
 Disfrute de ventajas como un acceso más rápido a los archivos relevantes y una interfaz de usuario más intuitiva, lo que hace que su experiencia de búsqueda sea más fluida y eficiente.
 
-![filtro de búsqueda rápida ](assets/repository-filter-search-quick.png) {width="300"}
+![filtro de búsqueda rápida &#x200B;](assets/repository-filter-search-quick.png) {width="300"}
 
 *Utilice los filtros rápidos para buscar archivos DITA y no DITA.*
 
