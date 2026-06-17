@@ -15,9 +15,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 95496b7275fc8d94afb75703ff2ef5b7c5750644
+source-git-commit: c003b524d168d0c1826f6af44278223e2fa4bf0b
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: 458
 ht-degree: 0%
 
 ---
@@ -48,9 +48,8 @@ El nuevo editor proporciona una evolución significativa de la experiencia de cr
 En este momento, el nuevo editor no admite las siguientes funciones. Estas funcionalidades están planificadas para introducirse en próximas versiones.
 
 - Creación con Control de cambios habilitado (cualquier cambio rastreado existente se conserva y trata como contenido normal)
-- Nuevas citas (se conservan todas las citas existentes en el contenido)
 - Redimensionador de imágenes en la vista Autor
-- Uso de datos de fuentes de datos (por ejemplo, JIRA, bases de datos SQL, PIM o PLM)
+
 
 >[!NOTE]
 >

@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: 1833481e1801fa171901abafe5eb256baaa10b8f
 workflow-type: tm+mt
-source-wordcount: 4232
+source-wordcount: 4258
 ht-degree: 0%
 
 ---
@@ -414,6 +414,10 @@ Experience Manager Guides le ofrece compatibilidad para insertar ecuaciones de M
 Con las herramientas de ecuaciones de MathML, cree la ecuación y seleccione **Insertar** para agregarla al documento. La ecuación se inserta con un fondo gris claro.
 
 En cualquier momento puedes actualizar una ecuación haciendo clic con el botón derecho en una ecuación existente y seleccionando **Editar MathML** en el menú contextual.
+
+>[!NOTE]
+>
+> La generación de MathML propaga los `output-class` asociados con las ecuaciones de MathML, lo que permite que el estilo configurado, como las fuentes, los colores, los fondos y otros formatos, se refleje en la salida generada.
 
 ### Validación de ecuaciones en el editor de MathML
 

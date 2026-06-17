@@ -25,9 +25,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 9132140a0305eb0507598a7caf5f704861879a93
 workflow-type: tm+mt
-source-wordcount: 1666
+source-wordcount: 1960
 ht-degree: 0%
 
 ---
@@ -211,6 +211,41 @@ Siga estos pasos para crear una nueva plantilla de salida para el contenido de a
 
    ![](assets/scorm-template-added.png){width="350"}
 
+### Configuración de diseños de página para plantillas de salida SCORM
+
+Las plantillas de salida SCORM le permiten asignar diferentes diseños de página a diferentes tipos de temas dentro de un curso. Esto permite personalizar la presentación de lecciones, pruebas, páginas de información general y otros tipos de contenido en el paquete SCORM generado.
+
+Por ejemplo, una página de lección puede utilizar un diseño que incluya un encabezado, un área de contenido y un pie de página, mientras que una página de prueba puede utilizar un diseño simplificado sin un pie de página. También puede crear diseños específicos para páginas de información general o cualquier otro tipo de tema y asignarlos en consecuencia.
+
+Las asignaciones de diseño se configuran en el nivel **Plantilla de salida**. Cualquier ajuste preestablecido de SCORM que utilice la plantilla de salida configurada aplicará las asignaciones de diseño seleccionadas al generar cursos.
+Siga los pasos a continuación para configurar el diseño de página de las plantillas:
+
+1. Vaya a **Plantillas de salida** y abra la **plantilla de salida SCORM** necesaria.
+
+2. Seleccione la ficha **Configuración**.
+
+3. En la ventana **Diseños de página**, busque los tipos de temas disponibles.
+
+   ![](assets/page-layout-scorm.png){width="650"}
+
+4. Para cada tipo de tema, seleccione el diseño de página que se utilizará durante la generación del curso.
+
+   **Ejemplo:**
+   - **Diseño de página predeterminado**: lección
+   - **Prueba**: Prueba
+   - **Información general**: lección
+
+5. Para usar un nuevo diseño, cree el diseño de página necesario dentro de la plantilla de salida con la opción **Nuevo diseño de página** del menú contextual del panel **Plantillas de salida**.
+
+   ![](assets/new-page-layout-scorm.png){width="650"}
+
+6. Vuelva a la ficha **Configuración** y asigne el diseño recién creado al tipo de tema correspondiente.
+
+7. Guarde el diseño de página para la plantilla de salida utilizando el icono Guardar en la esquina derecha de la barra de pestañas
+
+
+Cuando se genera un curso con un ajuste preestablecido de SCORM que utiliza la plantilla de salida configurada, cada tema se procesa con el diseño asignado a su tipo de tema. Esto permite que distintos tipos de contenido dentro del mismo curso tengan estructuras de página y presentación visual personalizadas.
+
 ### Eliminación o reordenación de plantillas
 
 Una vez agregadas, puede quitar o reordenar las plantillas del panel Configuración.
@@ -244,10 +279,10 @@ La pestaña Ajustes preestablecidos de salida permite definir qué formatos de s
 
 ## Administrar perfiles de publicación
 
-Esta sección le permite ver, crear y administrar los perfiles de publicación utilizados para publicar cursos en SCORM Cloud. Cada perfil define los ajustes de conexión y los detalles de configuración necesarios para publicar un curso de aprendizaje en un entorno específico de SCORM Cloud.
+Esta sección le permite ver, crear y administrar los perfiles de publicación utilizados para publicar cursos en SCORM Cloud o Adobe Learning Manager (ALM). Cada perfil define los ajustes de conexión y los detalles de configuración necesarios para publicar un curso de aprendizaje en un servidor de publicación seleccionado.
 
-Puede crear varios perfiles si necesita publicarlos en diferentes cuentas de SCORM Cloud, lo que garantiza flexibilidad y control sobre el proceso de publicación.
+Puede crear varios perfiles para publicar contenido en diferentes cuentas de SCORM Cloud o instancias de ALM, lo que proporciona flexibilidad y control sobre el flujo de trabajo de publicación.
 
-Proporcione los detalles del servidor junto con el ID de cliente y el secreto de cliente de la aplicación de nube SCORM asociada para configurar el perfil de publicación para la nube SCORM.
+Para configurar un perfil de publicación, seleccione el servidor de publicación deseado (SCORM Cloud o Adobe Learning Manager) y proporcione los detalles de conexión necesarios. En SCORM Cloud, introduzca la información del servidor junto con el ID de cliente y el Secreto de cliente de la aplicación SCORM Cloud asociada. Para Adobe Learning Manager, proporcione los correspondientes detalles de servidor y autenticación necesarios para su entorno ALM.
 
 ![](assets/configure-publish-profiles.png){width="350"}
