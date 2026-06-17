@@ -5,19 +5,13 @@ exl-id: 285d3ad3-fb4e-4cdd-ab83-493ffce891d6
 feature: Authoring, Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/SZs-Hc4QAGj6Mfdm-Rsaio-UEaIRpLQArxVP2FUydok
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 95496b7275fc8d94afb75703ff2ef5b7c5750644
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c003b524d168d0c1826f6af44278223e2fa4bf0b
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: 458
 ht-degree: 0%
 
 ---
@@ -48,9 +42,8 @@ El nuevo editor proporciona una evolución significativa de la experiencia de cr
 En este momento, el nuevo editor no admite las siguientes funciones. Estas funcionalidades están planificadas para introducirse en próximas versiones.
 
 - Creación con Control de cambios habilitado (cualquier cambio rastreado existente se conserva y trata como contenido normal)
-- Nuevas citas (se conservan todas las citas existentes en el contenido)
 - Redimensionador de imágenes en la vista Autor
-- Uso de datos de fuentes de datos (por ejemplo, JIRA, bases de datos SQL, PIM o PLM)
+
 
 >[!NOTE]
 >
@@ -62,4 +55,4 @@ En este momento, el nuevo editor no admite las siguientes funciones. Estas funci
 El antiguo editor de Experience Manager Guides ofrece una experiencia de creación sencilla y fiable para el contenido estructurado, abstrayendo las complejidades de DITA y, al mismo tiempo, garantizando el cumplimiento de estándares admitidos como DITA 1.2, 1.3, DITA ligero y DITA especializado. Proporciona herramientas esenciales para trabajar con bloques comunes y elementos en línea, lo que lo hace adecuado para una creación de contenido coherente y controlada dentro de un marco estructurado.
 
 
-**Tema principal:**&#x200B;[&#x200B; Contenido de autor con Experience Manager Guides](authoring-content-xml-doc.md)
+**Tema principal:**[ Contenido de autor con Experience Manager Guides](authoring-content-xml-doc.md)

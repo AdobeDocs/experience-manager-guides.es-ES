@@ -5,42 +5,31 @@ exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/FHH8Sah-KUCBl7R3XRrKXgW3aNcaeTkzJnDqRBg6OWU
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 4eddfbe75d7dba679c1a414369394827162706f9
 workflow-type: tm+mt
-source-wordcount: 1962
-ht-degree: 1%
+source-wordcount: 1890
+ht-degree: 0%
 
 ---
 
 # Añadir y administrar citas en el contenido
 
->[!NOTE]
->
-> Las citas solo se admiten en el Editor antiguo y, actualmente, no están disponibles en el Nuevo editor. La información de este artículo se aplica solamente si está usando el antiguo editor.
-
 Las citas son referencias a la fuente de información agregada al contenido. Mediante citas, puede dar crédito a los autores de la información de origen y ayudar a los lectores a realizar un seguimiento de la información de origen. Añadir citas hace que su contenido sea más confiable y evita el plagio. También le permiten mostrar contenido bien investigado.
 
 En Adobe Experience Manager Guides, puede añadir e importar citas y aplicarlas al contenido. Puede añadir estas citas desde cualquier fuente de libros, sitios web y diarios.
 
-
 Experience Manager Guides le ayuda a editar, previsualizar y ordenar sus citas. Después de añadir las citas al contenido, puede generar la salida con Native PDF. También puede añadir la página de bibliografía o referencias en la salida nativa de PDF.
 
-Experience Manager Guides admite varios estilos de citas, como Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE) y American Heart Association (AHA). La recomendación es utilizarlas de forma clara y coherente.
+Experience Manager Guides admite varios estilos de citas, como Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE), American Heart Association (AHA) y American Medical Association (AMA). La recomendación es utilizarlas de forma clara y coherente.
 
 
 >[!NOTE]
 >
->Actualmente, Experience Manager Guides solo admite PDF nativo para las citas.
+>Experience Manager Guides admite todos los estilos de citas al publicar en Native PDF. Para la salida de AEM Sites, solo se admiten citas de estilo AMA.
 
 
 ## Añadir citas
@@ -71,7 +60,7 @@ Para añadir citas, siga estos pasos:
    | Libro | Sitio web | Diario |
    | --- | ---|---|
    | **Source** <br> En la lista desplegable, seleccione el origen de la cita como un libro. | **Source**<br> En el menú desplegable, seleccione el origen de la cita como sitio web. | **Source** <br> En la lista desplegable, seleccione el origen de la cita como diario. |
-   | **Buscar por** <br> Seleccione **ISBN** o **DOI** de la lista desplegable para buscar el ID digital vinculado a la cita.  <br> DOI: Identificador de objeto digital <br> ISBN: Identificador de libro numérico único | **Buscar por** <br> Seleccione **DOI** de la lista desplegable para buscar el ID digital vinculado a la cita. | **Buscar por** <ul><li>Seleccione **DOI** o **PubMed ID** de la lista desplegable para buscar el ID digital vinculado a la cita.</li><li>Seleccione **Cualquier campo** del menú desplegable para buscar en todos los campos de Journal como *Título*, *Título del diario*, *Autor*, *Año*, *Volumen*, *Número* y *Páginas*. <br> La búsqueda devuelve la cita coincidente más cercana en función del texto introducido.</li> |
+   | **Buscar por** <br> Seleccione **ISBN** o **DOI** de la lista desplegable para buscar el ID digital vinculado a la cita.  <br> DOI: Identificador de objeto digital <br> ISBN: Identificador de libro numérico único | **Buscar por** <br> Seleccione **DOI** de la lista desplegable para buscar el ID digital vinculado a la cita. | **Buscar por** <ul><li>Seleccione **DOI** o **PubMed ID** de la lista desplegable para buscar el ID digital vinculado a la cita.</li><li>Seleccione **Cualquier campo** del menú desplegable para buscar en todos los campos de Journal como *Título*, *Título del diario*, *Autor*, *Año*, *Volumen*, *Número* y *Páginas*. <br> La búsqueda devuelve la cita coincidente más cercana en función del texto introducido.</li><li> Seleccione **Analizar cita** de la lista desplegable para analizar una cita AMA admitida y rellenar automáticamente los campos de cita. |
    | **Autor** <br> Agregue el nombre y los apellidos del autor de la cita. Seleccione ![](images/Add_icon.svg) para agregar más nombres. | **Autor** <br> Agregue el nombre y los apellidos del autor de la cita. Seleccione ![](images/Add_icon.svg) para agregar más nombres. | **Autor** <br> Agregue el nombre y los apellidos del autor de la cita. Seleccione ![](images/Add_icon.svg) para agregar más nombres. |
    | **Título** <br> Agregue el título del libro. | **Título** <br> Agregue el título de la página web. | **Título** <br> Agregue el título del artículo. |
    | **Editor** <br> Agregue el editor del libro. | **Nombre del sitio web** <br> Agregue el nombre del sitio web. | **Título del diario** <br> Agregue el título del trabajo en el que se encuentra el artículo. |
@@ -111,7 +100,7 @@ Para importar citas, siga estos pasos:
 
    >[!NOTE]
    > <ol><li> Experience Manager Guides importa solo las citas que son únicas y no están presentes.
-   > &gt; <li> Experience Manager Guides puede importar citas de un libro, una revista o un sitio web. Actualmente no admite citas de otras fuentes.
+    &gt; <li> Experience Manager Guides puede importar citas de un libro, una revista o un sitio web. Actualmente no admite citas de otras fuentes.
 
 ## Administrar citas
 
@@ -161,7 +150,7 @@ Para editar la cita, siga estos pasos:
 
 Se abre el cuadro de diálogo **Editar cita**.
 
-1. Efectúe las modificaciones necesarias. Seleccione **Listo**.
+1. Realice los cambios necesarios. Seleccione **Listo**.
 La cita seleccionada se edita.
 
 >[!NOTE]
@@ -174,7 +163,7 @@ Para obtener una vista previa de una cita, siga estos pasos:
 
 Pase el ratón sobre el nombre de la cita de la lista. Seleccione el icono ![](images/options.svg) **Opciones**.
 
-1. Seleccione **Vista previa**.
+1. Seleccionar **vista previa**.
 Puede obtener una vista previa del contenido y el formato de la cita en el panel de vista previa.
 
    >[!NOTE]
@@ -201,12 +190,12 @@ Puede insertar citas al tema desde la barra de herramientas principal o el panel
 
 ### Desde la barra de herramientas principal
 
-1. Seleccione el icono de **citas** ![citas &#x200B;](images/citations-icon.svg) en la barra de herramientas principal.
+1. Seleccione el icono de **citas** ![citas ](images/citations-icon.svg) en la barra de herramientas principal.
 1. En el cuadro de diálogo **Citas**, elija la cita. También puede seleccionar varias citas.
    ![cuadro de diálogo de cita](images/citation-dialog-main-toolbar.png){width="300"}
 1. Puede filtrar las citas escribiendo los primeros alfabetos en el panel de búsqueda del cuadro de diálogo **Cita**.
 
-1. Seleccione **Listo**.
+1. Seleccione **Listo**.
 La cita seleccionada se agrega en la ubicación del cursor en el tema.
 
 
@@ -216,7 +205,7 @@ La cita seleccionada se agrega en la ubicación del cursor en el tema.
 > 
 >Para ver el icono **Citas** desde el panel izquierdo, el administrador del sistema debe habilitar la opción **Citas** en la pestaña **Paneles** en **Configuración**.
 
-1. Seleccione **Citas** ![icono de citas &#x200B;](images/citations-icon.svg) en el panel izquierdo.
+1. Seleccione **Citas** ![icono de citas ](images/citations-icon.svg) en el panel izquierdo.
 1. Arrastre la cita del panel **Citas** y suéltela en el lugar apropiado del tema.
 
    También puede seleccionar **Insertar** de ![](images/options.svg) **Opciones** para insertar una cita.

@@ -5,16 +5,12 @@ feature: Reviewing
 role: User
 exl-id: 99b64fb5-c509-41cf-b091-ba78b90db481
 TQID: https://experienceleague.adobe.com/Ttty7SNmwHvrs-Ma5SN0JqjQRR3Y6yM-W-ozgQ3Vcyg
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
 workflow-type: tm+mt
-source-wordcount: 544
+source-wordcount: 691
 ht-degree: 0%
 
 ---
@@ -57,6 +53,17 @@ Ha marcado correctamente la tarea como completada y su estado ahora se establece
 En función de los comentarios, si el autor o el iniciador de la tarea decide [cerrar la tarea de revisión](./review-close-review-task.md), el estado de la tarea en la interfaz de usuario de revisión cambia a **Cerrada**.
 
 ![](images/review-status-closed-review-ui.png){width="350"}
+
+>[!NOTE]
+>
+>De manera predeterminada, cuando un revisor marca una tarea de revisión como **Completada**, la tarea permanece en la Bandeja de entrada de AEM del revisor hasta que el autor o el iniciador de la tarea revise los comentarios y cierre la tarea de revisión.
+>
+>Sin embargo, puede optar por habilitar la sincronización de tareas entre la interfaz de usuario de revisión y la bandeja de entrada de AEM. Cuando esta característica está habilitada, al marcar una tarea de revisión como **Completada** en la interfaz de usuario de revisión, se completa automáticamente la tarea correspondiente y se quita de la Bandeja de entrada de AEM del revisor. Del mismo modo, al completar una tarea desde la bandeja de entrada AEM, se marca automáticamente como completada en la interfaz de usuario de revisión.
+>
+>El autor o el iniciador de la tarea pueden seguir revisando los comentarios y reasignando la tarea si se requiere una revisión adicional. Cuando se reasigna una tarea, se genera una nueva notificación en la bandeja de entrada AEM para el revisor, que permite volver a revisar la tarea.
+>
+>Para habilitar esta función en su entorno, póngase en contacto con el equipo de éxito del cliente.
+
 
 ## Ver comentarios de nivel de tarea
 
