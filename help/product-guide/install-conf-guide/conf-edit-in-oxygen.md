@@ -4,9 +4,10 @@ description: Aprenda a configurar la opción de edición en el complemento Conec
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+exl-id: 41ecbbb2-81c3-473d-b48b-7370a74a6474
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 1%
 
 ---
@@ -25,6 +26,6 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 
 >[!NOTE]
 >
-> Esta configuración está deshabilitada de forma predeterminada y la opción no está disponible en el Editor web.
+> Esta configuración está desactivada de forma predeterminada y la opción no está disponible en el Editor.
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](customize-overview.md)
+**Tema principal:**[ Editor personalizado](customize-overview.md)

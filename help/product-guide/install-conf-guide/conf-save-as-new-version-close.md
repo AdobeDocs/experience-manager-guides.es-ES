@@ -4,16 +4,17 @@ description: Obtenga información sobre cómo configurar el mensaje para guardar
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: da41044a-bab0-456b-9543-effc88d1a2ae
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '301'
 ht-degree: 1%
 
 ---
 
 # Configurar mensaje para guardar como nueva versión al cerrar {#id222HBI00XXA}
 
-Cuando el usuario intenta cerrar un archivo que está abierto en el Editor Web con el botón **Cerrar** de la ficha del archivo o con la opción **Cerrar** del menú Opciones, aparece un cuadro de diálogo si el archivo tiene datos sin guardar o una versión sin guardar. Se solicitará al usuario que guarde el archivo como una nueva versión si la versión no está guardada.
+Cuando el usuario intenta cerrar un archivo que está abierto en el Editor con el botón **Cerrar** de la ficha del archivo o con la opción **Cerrar** del menú Opciones, aparece un cuadro de diálogo si el archivo tiene datos sin guardar o una versión sin guardar. Se solicitará al usuario que guarde el archivo como una nueva versión si la versión no está guardada.
 
 Las siguientes pestañas proporcionan instrucciones basadas en la configuración de Experience Manager Guides: Cloud Service o Local.
 

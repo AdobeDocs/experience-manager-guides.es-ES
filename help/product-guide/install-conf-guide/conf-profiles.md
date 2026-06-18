@@ -5,18 +5,18 @@ feature: Profiles
 role: Admin
 level: Experienced
 exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
-source-git-commit: cb82a816ac9513fcdf7a3ad32ed46f1e44c5a7f3
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '6098'
+source-wordcount: '6082'
 ht-degree: 0%
 
 ---
 
 # Configuración de perfiles globales o de nivel de carpeta {#id181AH2003PF}
 
-En una empresa, diferentes grupos o productos pueden utilizar diferentes plantillas de creación, plantillas de salida, perfiles de atributos condicionales \(o esquemas de asunto\) y configuraciones del Editor web. La configuración de estos solo a nivel empresarial \(o global\) puede dificultar la experiencia de los autores, ya que verán plantillas o perfiles que no son relevantes para ellos.
+En una empresa, diferentes grupos o productos pueden utilizar diferentes plantillas de creación, plantillas de salida, perfiles de atributos condicionales \(o esquemas de asunto\) y configuraciones del Editor. La configuración de estos solo a nivel empresarial \(o global\) puede dificultar la experiencia de los autores, ya que verán plantillas o perfiles que no son relevantes para ellos.
 
-AEM Guides permite configurar la creación de plantillas \(topic o map\), plantillas de salida, atributos condicionales y configuraciones del editor web en el nivel \(global\) empresarial, así como en el nivel de carpeta. De este modo, puede separar las configuraciones para diferentes departamentos o productos de la empresa.
+AEM Guides permite configurar la creación de plantillas \(topic o map\), plantillas de salida, atributos condicionales y configuraciones de Editor tanto en el nivel empresarial \(global\) como en el nivel de carpeta. De este modo, puede separar las configuraciones para diferentes departamentos o productos de la empresa.
 
 Además, puede delegar las configuraciones específicas de la carpeta a un departamento o a administradores de productos para descentralizar la administración.
 
@@ -70,7 +70,7 @@ Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede est
 
   Los editores pueden utilizar estos ajustes preestablecidos de salida predeterminados para publicar contenido. Un administrador del perfil global o de nivel de carpeta puede configurar estos ajustes preestablecidos. Una vez configurados, los editores pueden acceder a los ajustes preestablecidos de publicación para las asignaciones DITA recién creadas. También puede aplicar ajustes preestablecidos de publicación a mapas DITA existentes. Consulte [Aplicar cambios de ajustes preestablecidos](#id18AGD0K0OHS) para obtener más información.
 
-- **Configuraciones del editor XML**: utilice esta ficha para personalizar el aspecto y las diversas características del editor Web. Las siguientes opciones configurables están disponibles para el editor web:
+- **Configuraciones del editor XML**: utilice esta ficha para personalizar el aspecto y las diversas características del editor. Las siguientes opciones configurables están disponibles para el editor:
 
    - Configuración de IU del Editor XML
    - Diseño de página del editor XML solo para Cloud Service
@@ -196,7 +196,7 @@ Realice los siguientes pasos para configurar atributos condicionales estándar c
 
 1. Escriba **Name**, **Value** y **Label** para el atributo condicional.
 
-   Puede guardar un perfil con solo el nombre del atributo. Sin embargo, un atributo solo se puede utilizar cuando tiene un valor especificado. Si se especifican tanto el valor - como la etiqueta para un atributo, el editor web muestra la etiqueta del atributo condicional. Además, la etiqueta se muestra al administrador de publicación en el momento de crear un ajuste preestablecido condicional.
+   Puede guardar un perfil con solo el nombre del atributo. Sin embargo, un atributo solo se puede utilizar cuando tiene un valor especificado. Si se especifican tanto el valor - como la etiqueta para un atributo, el Editor muestra la etiqueta del atributo condicional. Además, la etiqueta se muestra al administrador de publicación en el momento de crear un ajuste preestablecido condicional.
 
    La siguiente captura de pantalla muestra la definición del atributo `platform` con posibles valores y etiquetas.
 
@@ -304,7 +304,7 @@ Realice los siguientes pasos para agregar las plantillas de tema, asignación o 
 
    >[!NOTE]
    >
-   > De forma predeterminada, todas las plantillas se almacenan en la carpeta /content/dam/dita-templates. La carpeta `dita-templates` contiene `topics`, `maps` y `PDF` subcarpetas para almacenar las plantillas de tema, asignación y PDF. Puede agregar las plantillas personalizadas \(.dita, .xml o .ditamapfiles\) en las carpetas de plantillas predeterminadas. Una vez que añada la plantilla a la carpeta predeterminada, podrá añadirlas en el perfil global o de carpeta. Para obtener más información acerca de cómo crear plantillas personalizadas mediante el Editor Web, vea [Crear una plantilla de creación personalizada](#id1917D0EG0HJ).
+   > De forma predeterminada, todas las plantillas se almacenan en la carpeta /content/dam/dita-templates. La carpeta `dita-templates` contiene `topics`, `maps` y `PDF` subcarpetas para almacenar las plantillas de tema, asignación y PDF. Puede agregar las plantillas personalizadas \(.dita, .xml o .ditamapfiles\) en las carpetas de plantillas predeterminadas. Una vez que añada la plantilla a la carpeta predeterminada, podrá añadirlas en el perfil global o de carpeta. Para obtener más información sobre cómo crear plantillas personalizadas con el Editor, consulte [Crear una plantilla de creación personalizada](#id1917D0EG0HJ).
 
    ![](assets/search-author-temp.png){width="800"}
 
@@ -366,7 +366,7 @@ Realice los siguientes pasos para agregar el tema o asignar plantillas a un perf
 
    >[!NOTE]
    >
-   > De forma predeterminada, todas las plantillas de creación se almacenan en la carpeta /content/dam/dita-templates. La carpeta `dita-templates` contiene `topics` y `maps` subcarpetas para almacenar el tema y asignar plantillas. Puede agregar las plantillas personalizadas \(.dita, .xml o .ditamapfiles\) en las carpetas de plantillas predeterminadas. Una vez que añada la plantilla a la carpeta predeterminada, podrá añadirlas en el perfil global o de carpeta. Para obtener más información acerca de cómo crear plantillas personalizadas mediante el Editor Web, vea [Crear una plantilla de creación personalizada](#id1917D0EG0HJ).
+   > De forma predeterminada, todas las plantillas de creación se almacenan en la carpeta /content/dam/dita-templates. La carpeta `dita-templates` contiene `topics` y `maps` subcarpetas para almacenar el tema y asignar plantillas. Puede agregar las plantillas personalizadas \(.dita, .xml o .ditamapfiles\) en las carpetas de plantillas predeterminadas. Una vez que añada la plantilla a la carpeta predeterminada, podrá añadirlas en el perfil global o de carpeta. Para obtener más información sobre cómo crear plantillas personalizadas con el Editor, consulte [Crear una plantilla de creación personalizada](#id1917D0EG0HJ).
 
    ![](assets/search-author-temp.png){width="550"}
 
@@ -400,7 +400,7 @@ Si ha configurado las plantillas en un perfil de nivel de carpeta, las plantilla
 
 ## Crear una plantilla de creación personalizada {#id1917D0EG0HJ}
 
-AEM Guides es una forma sencilla de crear plantillas. Como administrador del sistema, puede utilizar el Editor Web para crear plantillas desde cero. A continuación, puede añadir la nueva plantilla al perfil global o asignarla a una carpeta específica mediante el perfil específico de la carpeta.
+AEM Guides es una forma sencilla de crear plantillas. Como administrador del sistema, puede utilizar el Editor para crear plantillas desde cero. A continuación, puede añadir la nueva plantilla al perfil global o asignarla a una carpeta específica mediante el perfil específico de la carpeta.
 
 Siga estos pasos para crear una plantilla de creación personalizada:
 
@@ -434,7 +434,7 @@ Siga estos pasos para crear una plantilla de creación personalizada:
 
    Aparecerá el mensaje Tema creado.
 
-   Puede elegir abrir la plantilla para editarla en el Editor Web o guardar el archivo de plantilla en la ubicación del almacén de plantillas. Una vez creada la plantilla, puede utilizar el Editor Web para personalizarla según sus necesidades de creación. Una vez preparada una plantilla, asegúrese de asociarla con un perfil global o de nivel de carpeta.
+   Puede elegir abrir la plantilla para editarla en el Editor o guardar el archivo de plantilla en la ubicación del almacén de plantillas. Una vez creada la plantilla, puede utilizar el Editor para personalizarla según sus necesidades de creación. Una vez preparada una plantilla, asegúrese de asociarla con un perfil global o de nivel de carpeta.
 
 
 ## Configurar ajustes preestablecidos de salida {#id18AGD0IH0Y4}
@@ -517,7 +517,7 @@ Si ha actualizado un ajuste preestablecido de salida existente o desea que un nu
 
 ## Configuración del asistente de IA para la ayuda inteligente y la creación (solo para Cloud Service)
 
-Para Experience Manager Guides as a Cloud Service (![nube de AEM &#x200B;](assets/aem-cloud-icon.svg)).
+Para Experience Manager Guides as a Cloud Service (![nube de AEM ](assets/aem-cloud-icon.svg)).
 
 El asistente de IA de Adobe Experience Manager Guides es una potente herramienta impulsada por IA que se ha diseñado para mejorar el contenido mediante la creación inteligente y las experiencias de reutilización de contenido. Reúne dos características de IA sólidas — **Creación** y **Ayuda** — en la interfaz de Experience Manager Guides, lo que le permite autorizar documentos y acceder a información de forma más rápida y eficaz.
 
@@ -568,7 +568,7 @@ Realice los siguientes pasos para configurar la IA estándar en el perfil global
    >
    > El último estado indexado del perfil de carpeta se muestra en la parte superior después de guardar el archivo.
 
-Obtenga más información sobre cómo ver y agregar [sugerencias inteligentes basadas en IA](../user-guide/authoring-ai-based-smart-suggestions.md) para agregar referencias de contenido durante la creación en el Editor web.
+Obtenga más información sobre cómo ver y agregar [sugerencias inteligentes basadas en IA](../user-guide/authoring-ai-based-smart-suggestions.md) para agregar referencias de contenido durante la creación en el Editor.
 
 ### Restricciones de perfil de carpeta
 
@@ -603,9 +603,9 @@ Para garantizar que las sugerencias inteligentes funcionen correctamente, tenga 
 
 **Personalizar las preguntas predeterminadas para la ayuda inteligente**
 
-Para Experience Manager Guides as a Cloud Service (![nube de AEM &#x200B;](assets/aem-cloud-icon.svg)).
+Para Experience Manager Guides as a Cloud Service (![nube de AEM ](assets/aem-cloud-icon.svg)).
 
-Puede configurar la **Ayuda** inteligente con tecnología de IA para ayudar a los autores a hacer preguntas y encontrar fácilmente el contenido requerido de la [documentación de Experience Manager Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/overview).
+Puede configurar la **Ayuda** inteligente con tecnología de IA para ayudar a los autores a hacer preguntas y encontrar fácilmente el contenido requerido de la [documentación de Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 La ficha **Configuración del editor XML** le permite configurar las preguntas predeterminadas del panel **Ayuda**.
 
@@ -662,7 +662,7 @@ Las siguientes pestañas proporcionan información basada en la configuración d
 
 Esta configuración le permite crear extensiones JSON que reflejen las modificaciones realizadas en el archivo `ui_config.json`. Puede cargar de forma independiente estas extensiones en el nivel de perfil de carpeta, lo que ofrece una mayor flexibilidad y personalización. Por ejemplo, cuando se realizan cambios en la **configuración del editor XML**, como actualizar un botón, el sistema identifica automáticamente las diferencias. Al cargar estos cambios en la **configuración de la interfaz de usuario del editor XML** y convertirlos en extensiones JSON mediante el botón **Convertir configuración de la interfaz de usuario a JSON**, el sistema genera una extensión que incorpora la nueva funcionalidad.
 
-Obtenga más información sobre [personalizar configuraciones de JSON y convertir configuraciones de IU para el nuevo Editor de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Obtenga más información sobre [personalizar configuraciones de JSON y convertir configuraciones de IU para el nuevo Editor de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >
@@ -682,19 +682,19 @@ Esta opción controla la barra de herramientas y los demás elementos de interfa
 
 >[!TAB Local]
 
-Esta opción controla la barra de herramientas y los demás elementos de interfaz de usuario del Editor Web. Haga clic en el icono **Descargar** para descargar el archivo ui\_config.json más reciente en su sistema local. A continuación, puede realizar cambios en el archivo y cargarlo. Haga clic en el icono **Descargar predeterminado** para descargar el archivo ui\_config.json predeterminado en su sistema local. Siempre puede descargar el archivo predeterminado, realizar cambios en él y cargarlo.Dependiendo de dónde cargue el archivo en el perfil global o de nivel de carpeta, los cambios se aplicarán en consecuencia. Para obtener más información acerca de cómo personalizar el Editor XML mediante el archivo ui\_config.json, consulte [Personalizar barra de herramientas](customize-toolbar.md#).
+Esta opción controla la barra de herramientas y los demás elementos de interfaz de usuario del Editor. Haga clic en el icono **Descargar** para descargar el archivo ui\_config.json más reciente en su sistema local. A continuación, puede realizar cambios en el archivo y cargarlo. Haga clic en el icono **Descargar predeterminado** para descargar el archivo ui\_config.json predeterminado en su sistema local. Siempre puede descargar el archivo predeterminado, realizar cambios en él y cargarlo.Dependiendo de dónde cargue el archivo en el perfil global o de nivel de carpeta, los cambios se aplicarán en consecuencia. Para obtener más información acerca de cómo personalizar el Editor XML mediante el archivo ui\_config.json, consulte [Personalizar barra de herramientas](customize-toolbar.md#).
 
 >[!ENDTABS]
 
 **Diseño de plantilla CSS**
 
-Descargue el archivo disponible en esta sección para personalizar el aspecto del documento cuando se abra o se previsualice para editarlo en el Editor Web. El archivo CSS predeterminado disponible para la descarga es solo un archivo de prueba, que no debe utilizarse para la personalización. Puede crear un archivo CSS con personalizaciones para el editor web y cargarlo. Por ejemplo, puede crear un archivo .css con el siguiente código:
+Descargue el archivo disponible en esta sección para personalizar el aspecto del documento cuando se abra o previsualice para editarlo en el Editor. El archivo CSS predeterminado disponible para la descarga es solo un archivo de prueba, que no debe utilizarse para la personalización. Puede crear un archivo CSS con personalizaciones para el Editor y cargar el mismo. Por ejemplo, puede crear un archivo .css con el siguiente código:
 
 ```
 .title {    font-size: 9em;}
 ```
 
-Guarde este archivo y cárguelo en la sección Diseño de plantilla CSS. La próxima vez que descargue el archivo, obtendrá el archivo CSS más reciente que se esté utilizando en el Editor Web.
+Guarde este archivo y cárguelo en la sección Diseño de plantilla CSS. La próxima vez que descargue el archivo, obtendrá el archivo CSS más reciente que se esté utilizando en el Editor.
 
 **Fragmentos de editor XML**
 
@@ -745,7 +745,7 @@ En el ejemplo anterior, &quot;label1&quot; es el identificador de la secuencia d
 
 >[!IMPORTANT]
 >
-> Para que las configuraciones en el nivel de carpeta surtan efecto, los usuarios deberán seleccionar el perfil en sus Preferencias de usuario en el Editor web.
+> Para que las configuraciones en el nivel de carpeta surtan efecto, los usuarios deberán seleccionar el perfil en sus Preferencias de usuario en el Editor.
 
 **Mapa raíz**
 

@@ -4,18 +4,19 @@ description: Obtenga información sobre cómo configurar un conector de fuente d
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: bb70cca8-cfa5-455b-bc48-a8d26ec5326c
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
 # Configuración de un conector de fuente de datos para Cloud Service
 
-AEM Guides proporciona conectores predeterminados para bases de datos JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), Adobe Commerce y Elasticsearch. También puede añadir otros conectores ampliando las interfaces predeterminadas. La siguiente configuración le ayuda a añadir fácilmente las distintas fuentes de datos. Una vez agregados, puede ver los orígenes de datos en el Editor Web.
+AEM Guides proporciona conectores predeterminados para bases de datos JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), Adobe Commerce y Elasticsearch. También puede añadir otros conectores ampliando las interfaces predeterminadas. La siguiente configuración le ayuda a añadir fácilmente las distintas fuentes de datos. Una vez agregado, puede ver las fuentes de datos en el Editor.
 
-Realice los siguientes pasos para configurar un conector de origen de datos y, a continuación, utilizarlo desde el Editor web:
+Realice los siguientes pasos para configurar un conector de origen de datos y, a continuación, utilizarlo desde el Editor:
 
 ## Configuración de un conector
 
@@ -282,4 +283,4 @@ Por ejemplo, `/content/dam/jira.json`
 
 Puede registrar la configuración mediante la API de REST. Para obtener más información, consulte la API *REST para registrar un conector de origen de datos* en la sección Referencia de la API para Adobe Experience Manager Guides.
 
-Una vez configurado el origen de datos, el conector se muestra en el panel Fuentes de datos del Editor web. A continuación, puede conectarse al origen de datos e insertar un fragmento de contenido en los temas. Para obtener más información, vea [Insertar un fragmento de contenido de su fuente de datos](../user-guide/web-editor-content-snippet.md).
+Una vez que haya configurado la fuente de datos, el conector se mostrará en el panel Fuentes de datos del Editor. A continuación, puede conectarse al origen de datos e insertar un fragmento de contenido en los temas. Para obtener más información, vea [Insertar un fragmento de contenido de su fuente de datos](../user-guide/web-editor-content-snippet.md).

@@ -5,9 +5,9 @@ feature: DITA-OT Configuration
 role: Admin
 level: Experienced
 exl-id: 4a5ba148-da31-4751-943d-624165c66429
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '3729'
+source-wordcount: '3728'
 ht-degree: 0%
 
 ---
@@ -209,7 +209,7 @@ La función Perfil (Profile) se puede utilizar para almacenar ajustes de especia
 
 >[!NOTE]
 >
-> El editor web de AEM Guides no es compatible con XSD.
+> El editor de AEM Guides no es compatible con XSD.
 
 Las siguientes pestañas proporcionan instrucciones para integrar la especialización DITA en función de la configuración de Experience Manager Guides: Cloud Service o On-Premise.
 

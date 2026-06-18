@@ -5,9 +5,9 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Las siguientes pestañas proporcionan instrucciones para habilitar la opción **
 
 ## Configurar opciones para permitir la edición de archivos desprotegidos
 
-AEM Guides Web Editor permite crear y actualizar temas DITA. Puede configurar el Editor Web para permitir la edición únicamente de los documentos que se han extraído del repositorio. Esto garantiza que ningún otro escritor sobrescriba accidentalmente un tema abierto para su edición por otro escritor. Una vez abierto un tema para su edición, un autor puede proteger el archivo en el momento de cerrarlo.
+El Editor de AEM Guides permite crear y actualizar temas DITA. Puede configurar el Editor para permitir la edición únicamente de los documentos que se han extraído del repositorio. Esto garantiza que ningún otro escritor sobrescriba accidentalmente un tema abierto para su edición por otro escritor. Una vez abierto un tema para su edición, un autor puede proteger el archivo en el momento de cerrarlo.
 
 Otra regla importante es garantizar que los archivos que se han desprotegido vuelvan a desprotegerse en el sistema. Esto evita que los usuarios cierren accidentalmente los archivos sin volver a protegerlos.
 
@@ -314,7 +314,7 @@ Siga estos pasos para purgar las versiones anteriores:
 
    ![](assets/preview-purge-report.png)
 
-1. &#x200B;
+1. 
    - **Número de versiones que se deben conservar de la última versión**: escriba el número de versiones que se deben conservar y no purgar. Por ejemplo, si se introduce 5, se conservan las últimas 5 versiones y las versiones anteriores a ellas pueden depurarse en caso de que se cumplan otras condiciones de depuración.
    - **Conservar versiones creadas dentro del intervalo de tiempo \(en días\)**: escriba la antigüedad máxima de una versión en días. Las versiones anteriores al número determinado de días pueden depurarse si se cumplen otras condiciones de depuración. Por ejemplo, si se introduce 100, todas las versiones creadas antes de 100 días cumplen los requisitos para ser depuradas en caso de que se cumplan otras condiciones de depuración.
    - **Ruta**: seleccione la ruta de acceso del archivo o carpeta cuyos archivos desea purgar.

@@ -2,16 +2,16 @@
 title: Configurar la Ayuda inteligente para buscar contenido
 description: Obtenga información sobre cómo configurar la Ayuda inteligente para buscar contenido
 exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
 
 # Configuración de la ayuda inteligente con tecnología de IA para buscar contenido para Cloud Service
 
-Como administrador, puede configurar la función de Ayuda inteligente para los autores. El servicio de ayuda inteligente está protegido por la autenticación basada en autenticación IMS de Adobe. Integre su entorno con los flujos de trabajo de autenticación seguros basados en tokens de Adobe y comience a utilizar la nueva función de Ayuda inteligente. Las siguientes configuraciones le ayudan a agregar la ficha **Configuración de IA** a un perfil de carpeta. Una vez agregada, puede utilizar la característica Ayuda inteligente del Editor Web.
+Como administrador, puede configurar la función de Ayuda inteligente para los autores. El servicio de ayuda inteligente está protegido por la autenticación basada en autenticación IMS de Adobe. Integre su entorno con los flujos de trabajo de autenticación seguros basados en tokens de Adobe y comience a utilizar la nueva función de Ayuda inteligente. Las siguientes configuraciones le ayudan a agregar la ficha **Configuración de IA** a un perfil de carpeta. Una vez añadida, puede utilizar la función de ayuda inteligente en el Editor.
 
 ## Creación de configuraciones de IMS en Adobe Developer Console
 
@@ -105,5 +105,5 @@ Una vez hecho esto, debería poder usar la característica **Ayuda inteligente**
 ```
 
 
-Una vez configurada, el icono de **Ayuda inteligente** ![Ayuda inteligente](assets/smart-help-icon.svg) se muestra en el panel derecho del editor web. Seleccione el icono para ver el panel **Ayuda inteligente**.
+Una vez configurada, el icono de **Ayuda inteligente** ![Ayuda inteligente](assets/smart-help-icon.svg) se muestra en el panel derecho del editor. Seleccione el icono para ver el panel **Ayuda inteligente**.
 Para obtener más información, consulte la sección [Ayuda inteligente con tecnología de IA para buscar contenido](../user-guide/ai-based-smart-help.md) en la Guía del usuario de Experience Manager.

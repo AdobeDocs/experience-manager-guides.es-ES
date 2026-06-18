@@ -6,29 +6,14 @@ exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
 TQID: https://experienceleague.adobe.com/3ZkAlpDfF7-v0biHN9N5aiospS63Kr9veXsBqKHevtY
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2:
-  - id: a44282cf-0adb-456f-8700-3ec7a3f89fd4
-  - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: a44282cf-0adb-456f-8700-3ec7a3f89fd4id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 6522
+source-wordcount: 6471
 ht-degree: 0%
 
 ---
@@ -64,7 +49,7 @@ Una vez que tenga el instalador, instálelo en el equipo local donde esté insta
 
 >[!IMPORTANT]
 >
->Si tiene una versión anterior del complemento instalado en el sistema, asegúrese de desinstalarlo antes de iniciar el proceso de instalación. Consulte la sección **Desinstalación de paquetes** en el artículo de [Cómo trabajar con paquetes](https://helpx.adobe.com/es/experience-manager/6-4/sites/administering/using/package-manager.html) para obtener instrucciones de desinstalación.
+>Si tiene una versión anterior del complemento instalado en el sistema, asegúrese de desinstalarlo antes de iniciar el proceso de instalación. Consulte la sección **Desinstalación de paquetes** en el artículo de [Cómo trabajar con paquetes](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) para obtener instrucciones de desinstalación.
 
 Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Author:
 
@@ -98,7 +83,7 @@ Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Auth
 
 >[!IMPORTANT]
 >
->Si tiene una versión anterior del complemento instalado en el sistema, asegúrese de desinstalarlo antes de iniciar el proceso de instalación. Consulte la sección **Desinstalación de paquetes** en las instrucciones de desinstalación del artículo [Cómo trabajar con paquetes](https://helpx.adobe.com/es/experience-manager/6-4/sites/administering/using/package-manager.html).
+>Si tiene una versión anterior del complemento instalado en el sistema, asegúrese de desinstalarlo antes de iniciar el proceso de instalación. Consulte la sección **Desinstalación de paquetes** en las instrucciones de desinstalación del artículo [Cómo trabajar con paquetes](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html).
 
 Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Author:
 
@@ -137,7 +122,7 @@ Como administrador de AEM, realice los siguientes pasos para instalar el paquete
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   El Administrador de paquetes administra los paquetes en la instalación local de AEM. Para obtener más información sobre cómo trabajar con el Administrador de paquetes, consulte [Cómo trabajar con paquetes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=es) en la documentación de AEM.
+   El Administrador de paquetes administra los paquetes en la instalación local de AEM. Para obtener más información sobre cómo trabajar con el Administrador de paquetes, consulte [Cómo trabajar con paquetes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) en la documentación de AEM.
 
    ![Administrador de paquetes](images/package-manager.png) {width="650"}
 
@@ -229,7 +214,7 @@ Realice los siguientes pasos para configurar las opciones de conexión en el com
 
 1. En el panel AEM Guides, haga clic en el icono de configuración y, a continuación, seleccione **Configuración**.
 
-   ![Configuración de conexión &#x200B;](images/settings.png){width="800"}
+   ![Configuración de conexión ](images/settings.png){width="800"}
 
 1. Especifique los siguientes detalles:
    - **URL del servidor**: URL del servidor de AEM, por ejemplo:
@@ -274,7 +259,7 @@ Realice los siguientes pasos para configurar atributos de generación de perfile
 
 1. En la ficha **Extensiones**, realice los cambios siguientes:
 
-   - Haga clic en **Elegir** junto al paquete de **Extensiones** y seleccione `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` en la lista **Clase**. Haga clic en **OK**.
+   - Haga clic en **Elegir** junto al paquete de **Extensiones** y seleccione `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` en la lista **Clase**. Haga clic en **Aceptar**.
      ![Extensión configurada para temas DITA](images/dita-map-extenstion-link-resolve.png) {width="650"}
    - Haga clic en **Elegir** junto al **Receptor de estado de extensión de autor** en **Extensiones individuales** y seleccione `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` en la lista **Clase**. Haga clic en **OK**.
    - Haga clic en **Elegir** junto al **Editor de valores de atributos personalizados de autor** en **Extensiones individuales** y seleccione `CustomValueEditor - com.adobe.o2.framework.extn` en la lista **Clase**. Haga clic en **OK**.
@@ -342,7 +327,7 @@ La siguiente pantalla muestra el panel AEM Guides.
 Las funciones del complemento Oxygen para AEM Guides están disponibles al hacer clic con el botón derecho en una carpeta o archivo del repositorio de AEM. Las funciones disponibles para las carpetas son diferentes de los archivos. Esta es una lista completa de funciones en el menú contextual de Oxygen Plugin for AEM Guides:
 
 - **Abrir**: Abre el archivo seleccionado o expande la carpeta seleccionada.
-- **Abrir en**: puede elegir abrir el archivo seleccionado en el Editor web de AEM Guides, en el Panel de mapas o en el Editor de mapas. Para obtener más información sobre estas opciones, consulte [Abrir archivo en el editor de AEM Guides](#id195GH0V30KX).
+- **Abrir en**: puede elegir abrir el archivo seleccionado en el Editor de AEM Guides, en el Tablero de mapas o en el Editor de mapas. Para obtener más información sobre estas opciones, consulte [Abrir archivo en el editor de AEM Guides](#id195GH0V30KX).
 - **Desproteger**: desprotege un archivo del repositorio de AEM. Para obtener más información, consulte [Archivos de desprotección](#id195HC020TS4).
 - **Desproteger con dependientes**: desprotege un archivo con sus referencias directas. Para obtener más información, consulte [Archivos de desprotección](#id195HC020TS4).
 - **Desproteger con dependientes de solo lectura**: desprotege el archivo seleccionado junto con sus dependientes. No puede realizar ningún cambio en los archivos dependientes. Para obtener más información, consulte [Archivos de desprotección](#id195HC020TS4).
@@ -391,7 +376,7 @@ Si desea utilizar los editores disponibles en AEM Guides, puede hacerlo seleccio
 
 1. Seleccione **Abrir en** en el menú contextual y elija entre las siguientes opciones:
 
-   - **Editor de temas web**: Si el archivo que está abriendo es un archivo .xml o .dita, puede abrirlo para editarlo en el Editor web. Elija la opción **Editor de temas web** para abrir el archivo seleccionado y editarlo en el Editor web.
+   - **Editor de temas web**: Si el archivo que está abriendo es un archivo .xml o .dita, puede abrirlo para editarlo en el Editor. Elija la opción **Editor de temas web** para abrir el archivo seleccionado y editarlo en el Editor.
 
    - **Tablero de mapas**: puede elegir editar un archivo .ditamap en el tablero de mapas, donde puede realizar varias operaciones en el archivo de mapa. Estas operaciones dependen de la función o el grupo al que pertenezca.
 

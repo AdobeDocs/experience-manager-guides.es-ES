@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 24e47af6-8d81-4994-8d97-474f5029392b
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
 
 # Instalación de paquetes para la publicación basada en artículos {#id21BNL02052Z}
 
-AEM Guides proporciona una potente función de publicación basada en artículos integrada con el editor web. Con esta función, puede publicar uno o más temas simultáneamente. Una vez que haya abierto un mapa en el Editor de mapas, puede navegar a la pestaña Salidas para crear un ajuste preestablecido y, a continuación, elegir uno o más temas para generar la salida. Puede utilizar la función de publicación basada en artículos para generar de forma incremental el resultado de uno o más temas o publicar el contenido en una plataforma de base de conocimiento artículo por artículo. Para obtener más información, consulte *Publicación basada en artículos desde la sección del editor web* en la guía del usuario.
+AEM Guides proporciona una potente función de publicación basada en artículos integrada con el editor. Con esta función, puede publicar uno o más temas simultáneamente. Una vez que haya abierto un mapa en el Editor de mapas, puede navegar a la pestaña Salidas para crear un ajuste preestablecido y, a continuación, elegir uno o más temas para generar la salida. Puede utilizar la función de publicación basada en artículos para generar de forma incremental el resultado de uno o más temas o publicar el contenido en una plataforma de base de conocimiento artículo por artículo. Para obtener más información, consulte *Publicación basada en artículos desde la sección del editor* en la guía del usuario.
 
 Las siguientes pestañas proporcionan instrucciones para crear un sitio de AEM para publicar resultados basados en artículos en función de la configuración de Experience Manager Guides: Cloud Service o On-Premise.
 
@@ -44,11 +44,11 @@ Las siguientes pestañas proporcionan instrucciones para crear un sitio de AEM p
    > Puede crear varios sitios de AEM con la misma plantilla.
 
 
-Puede utilizar el sitio de AEM para publicar el artículo mediante los ajustes preestablecidos de salida del Editor web.
+Puede utilizar el sitio de AEM para publicar el artículo mediante los ajustes preestablecidos de salida del Editor.
 
 >[!TAB Local]
 
-Para habilitar la publicación basada en artículos, descargue e instale los siguientes paquetes de su Portal de distribución de software de Adobe. Instálelos para crear un sitio Tragopan. \(El sitio de Tragopan es un ejemplo de sitio de AEM de la base de conocimiento con plantillas para páginas de categorías, secciones y artículos.\) Actualice el sitio de Tragopan para generar el resultado del sitio de AEM mediante los ajustes preestablecidos de salida del Editor Web.
+Para habilitar la publicación basada en artículos, descargue e instale los siguientes paquetes de su Portal de distribución de software de Adobe. Instálelos para crear un sitio Tragopan. \(El sitio de Tragopan es un ejemplo de sitio de AEM de la base de conocimiento con plantillas para páginas de categorías, secciones y artículos.\) Actualice el sitio de Tragopan para generar el resultado del sitio de AEM mediante los ajustes preestablecidos de salida del Editor.
 
 - Plantilla de la base de conocimiento para la publicación basada en artículos
 - Paquete de componentes para la publicación basada en artículos
@@ -56,4 +56,4 @@ Para habilitar la publicación basada en artículos, descargue e instale los sig
 >[!ENDTABS]
 
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](customize-overview.md)
+**Tema principal:**[ Editor personalizado](customize-overview.md)

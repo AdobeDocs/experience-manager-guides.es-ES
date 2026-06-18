@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 51099b42-706f-42b4-993e-7d9577b5a4f0
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 2%
+source-wordcount: '265'
+ht-degree: 3%
 
 ---
 
 # Personalizar el diccionario predeterminado de AEM {#id209SD8000WU}
 
-El editor web se puede configurar para que utilice el corrector ortográfico de AEM o el del explorador. Si decide trabajar con el corrector ortográfico de AEM, tendrá la flexibilidad de definir la lista de palabras personalizadas. Estas palabras personalizadas se añaden al diccionario de AEM y no se marcan con \(como incorrectas\) en el Editor Web.
+El editor se puede configurar para que utilice el corrector ortográfico de AEM o el del explorador. Si decide trabajar con el corrector ortográfico de AEM, tendrá la flexibilidad de definir la lista de palabras personalizadas. Estas palabras personalizadas se añaden al diccionario de AEM y no se marcan con \(como incorrectas\) en el Editor.
 
 Las siguientes pestañas proporcionan instrucciones para crear su lista de palabras personalizadas, que se añaden en el diccionario de AEM en función de su configuración de Experience Manager Guides: Cloud Service o On-Premise.
 
@@ -37,7 +37,7 @@ Las siguientes pestañas proporcionan instrucciones para crear su lista de palab
    Confirme los cambios y ejecute la canalización \(CI/CD\) de Cloud Manager para implementar los cambios de configuración.
 
 
-Los autores necesitarían reiniciar su sesión del editor web para obtener la lista de palabras personalizadas actualizada en el diccionario de AEM.
+Los autores deberán reiniciar su sesión de Editor para actualizar la lista de palabras personalizadas en el diccionario de AEM.
 
 >[!TAB Local]
 
@@ -58,8 +58,8 @@ Los autores necesitarían reiniciar su sesión del editor web para obtener la li
 1. Guarde y cierre el archivo.
 
 
-Los autores necesitarían reiniciar su sesión del editor web para obtener la lista de palabras personalizadas actualizada en el diccionario de AEM.
+Los autores deberán reiniciar su sesión de Editor para actualizar la lista de palabras personalizadas en el diccionario de AEM.
 
 >[!ENDTABS]
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](customize-overview.md)
+**Tema principal:**[ Editor personalizado](customize-overview.md)

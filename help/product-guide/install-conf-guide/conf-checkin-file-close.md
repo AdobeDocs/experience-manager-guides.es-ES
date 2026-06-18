@@ -4,18 +4,19 @@ description: Obtenga información sobre cómo configurar el mensaje para protege
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 6b1b5894-0d55-4230-83cf-6b219e969116
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '317'
 ht-degree: 1%
 
 ---
 
 # Configurar la solicitud para proteger un archivo al cerrar {#id222HC040PE8}
 
-Cuando el usuario intenta cerrar un archivo que está abierto en el Editor Web con el botón **Cerrar** de la ficha del archivo o con la opción **Cerrar** del menú Opciones, aparece un cuadro de diálogo si el archivo tiene datos sin guardar o una versión sin guardar. Se solicitará al usuario que desbloquee el archivo si está bloqueado.
+Cuando el usuario intenta cerrar un archivo que está abierto en el Editor con el botón **Cerrar** de la ficha del archivo o con la opción **Cerrar** del menú Opciones, aparece un cuadro de diálogo si el archivo tiene datos sin guardar o una versión sin guardar. Se solicitará al usuario que desbloquee el archivo si está bloqueado.
 
-Las siguientes pestañas proporcionan instrucciones para configurar el indicador para proteger un archivo en la opción de cierre de forma predeterminada en el Editor web en función de la configuración de Experience Manager Guides: Cloud Service o On-Premise.
+Las siguientes pestañas proporcionan instrucciones para configurar el indicador para proteger un archivo al cerrarlo de forma predeterminada en el Editor en función de la configuración de Experience Manager Guides: Cloud Service o On-Premise.
 
 >[!BEGINTABS]
 
@@ -35,7 +36,7 @@ Para obtener más información, consulte la sección *Cerrar archivo y guardar e
 
 >[!NOTE]
 >
->La casilla de verificación **Desbloquear el archivo** no está habilitada de manera predeterminada y debe habilitarla desde configMgr. Realice los siguientes pasos para habilitar la opción de forma predeterminada en el Editor web:
+>La casilla de verificación **Desbloquear el archivo** no está habilitada de manera predeterminada y debe habilitarla desde configMgr. Realice los siguientes pasos para habilitar la opción de forma predeterminada en el Editor:
 
 1. Abra la página Configuración de la consola web de Adobe Experience Manager.
 
@@ -58,4 +59,4 @@ Para obtener más información, consulte la sección *Cerrar archivo y guardar e
 
 >[!ENDTABS]
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](customize-overview.md)
+**Tema principal:**[ Editor personalizado](customize-overview.md)

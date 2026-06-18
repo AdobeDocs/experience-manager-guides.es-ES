@@ -1,24 +1,24 @@
 ---
-title: Configuración de la función de traducción en el editor web
-description: Obtenga información sobre cómo configurar la función de traducción en el editor web
+title: Configurar la función de traducción en el editor
+description: Aprenda a configurar la función de traducción en el editor
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 22d7e1c7-2059-43fb-b7aa-3ae4a6072678
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
-# Configuración de la función de traducción en el editor web de Cloud Service
+# Configuración de la función de traducción en el Editor para Cloud Service
 
-El editor web proporciona una potente función de traducción para traducir el contenido a varios idiomas.
+El editor proporciona una potente función de traducción para traducir el contenido a varios idiomas.
 
-Puede usar la ficha **Administrar** del Editor web para traducir el contenido. Esta pestaña está disponible de forma predeterminada.
+Puede usar la pestaña **Administrar** del Editor para traducir el contenido. Esta pestaña está disponible de forma predeterminada.
 
-Para ocultar la ficha **Administrar** en el Editor web, realice los siguientes pasos:
+Para ocultar la ficha **Administrar** en el Editor, realice los siguientes pasos:
 
 1. Inicie sesión en **Adobe Experience Manager** como administrador.
 1. Haz clic en el vínculo **Adobe Experience Manager** de la parte superior y elige **Herramientas**.
@@ -48,4 +48,4 @@ Para ocultar la ficha **Administrar** en el Editor web, realice los siguientes p
 
 Tenga en cuenta que el filtro **Administrar** ya no está disponible.
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](customize-overview.md)
+**Tema principal:**[ Editor personalizado](customize-overview.md)

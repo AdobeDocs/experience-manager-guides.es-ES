@@ -5,22 +5,22 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 42f1ee19-cc59-49da-b882-5d97ec387df6
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1710'
 ht-degree: 0%
 
 ---
 
 # Personalizar barra de herramientas {#id172FB00L0V6}
 
-De forma predeterminada, el editor web incluye las funciones editoriales más comunes que requiere cualquier editor DITA. Las funciones como la inserción de elementos de tipo lista \(numerada o con viñetas\), referencia cruzada, referencia de contenido, tabla, párrafo y formato de caracteres están disponibles en el editor. Además de estos elementos básicos, puede personalizar el Editor Web para insertar elementos que se utilizan en el entorno de creación.
+De forma predeterminada, el editor incluye las funciones editoriales más comunes que requiere cualquier editor DITA. Las funciones como la inserción de elementos de tipo lista \(numerada o con viñetas\), referencia cruzada, referencia de contenido, tabla, párrafo y formato de caracteres están disponibles en el editor. Además de estos elementos básicos, puede personalizar el Editor para insertar elementos que se utilizan en el entorno de creación.
 
 >[!NOTE]
 >
-> Al migrar de la IU antigua a la nueva IU de AEM Guides (aplicable a partir de las versiones 2502 y 5.0 de AEM Guides), las actualizaciones de `ui_config` deben convertirse a configuraciones de IU más flexibles y modulares. Este marco de trabajo ayuda a adoptar cambios sin problemas en la barra de herramientas del editor y en otros widgets de destino según corresponda. Para obtener más información, vea [Información general sobre Convert UI Config](https://experienceleague.adobe.com/es/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Al migrar de la IU antigua a la nueva IU de AEM Guides (aplicable a partir de las versiones 2502 y 5.0 de AEM Guides), las actualizaciones de `ui_config` deben convertirse a configuraciones de IU más flexibles y modulares. Este marco de trabajo ayuda a adoptar cambios sin problemas en la barra de herramientas del editor y en otros widgets de destino según corresponda. Para obtener más información, vea [Información general sobre Convert UI Config](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
-Existen dos formas de personalizar la barra de herramientas del Editor Web:
+Existen dos formas de personalizar la barra de herramientas del Editor:
 
 - Añadir una nueva funcionalidad a la barra de herramientas
 
@@ -29,7 +29,7 @@ Existen dos formas de personalizar la barra de herramientas del Editor Web:
 
 ## Añadir una función en la barra de herramientas
 
-Agregar una funcionalidad al Editor web implica dos tareas principales: agregar un icono para la característica en el archivo *ui\_config.json* y agregar la funcionalidad en segundo plano en JavaScript.
+Agregar una funcionalidad al Editor implica dos tareas principales: agregar un icono para la característica en el archivo *ui\_config.json* y agregar la funcionalidad en segundo plano en JavaScript.
 
 Las siguientes pestañas proporcionan instrucciones basadas en la configuración de Experience Manager Guides: Cloud Service o Local.
 
@@ -55,16 +55,16 @@ Las siguientes pestañas proporcionan instrucciones basadas en la configuración
    **elementos**: especifique la definición de todos los grupos en la barra de herramientas. Cada grupo puede contener uno o varios iconos de la barra de herramientas. Para definir iconos dentro de un grupo de barras de herramientas, debe definir de nuevo el atributo `type` dentro de `items` y establecer su valor en `buttonGroup`. Especifique uno o varios nombres de clase en la propiedad `extraclass`. Especifique el nombre de la característica en la propiedad `label`. El siguiente fragmento del archivo `ui_config.json` muestra la definición del bloque de barra de herramientas principal, seguida de la definición `buttonGroup`:
 
        &quot;
-     &quot;toolbar&quot;: &lbrace;
+     &quot;toolbar&quot;: {
      &quot;type&quot;: &quot;blockGroup&quot;,
      &quot;extraclass&quot;:
      &quot;toolbar operations&quot;,
-     &quot;items&quot;: &lbrack;
-     &lbrace;
+     &quot;items&quot;: [
+     {
      &quot;type&quot;: &quot;buttonGroup&quot;,
      &quot;extraclass&quot;: &quot;left-controls&quot;,
      &quot;label&quot;: &quot;Left Controles&quot;,
-     &quot;elementos&quot;: &lbrack;
+     &quot;elementos&quot;: [
      &quot;
    
    En la colección `items`, debe especificar la definición de uno o más iconos de la barra de herramientas.
@@ -115,7 +115,7 @@ Las siguientes pestañas proporcionan instrucciones basadas en la configuración
 
 1. Actualice la propiedad categories de la carpeta *clientlib* asignándole el valor de *apps.fmdita.xml\_editor.page\_overrides*.
 
-1. Guarde el archivo *ui\_config.json* y vuelva a cargar el Editor web.
+1. Guarde el archivo *ui\_config.json* y vuelva a cargar el Editor.
 
 >[!TAB Local]
 
@@ -133,7 +133,7 @@ Las siguientes pestañas proporcionan instrucciones basadas en la configuración
 
 1. En el archivo `ui_config.json`, agregue la definición de la nueva característica en la sección de barras de herramientas. Normalmente, puede crear un nuevo grupo de botones de barra de herramientas y agregarle uno o más botones de barra de herramientas. O bien, puede agregar un nuevo botón de barra de herramientas dentro de un grupo existente. Se requieren los siguientes detalles para crear un nuevo grupo de barras de herramientas:
 
-   - **type:**&#x200B;Especifique `blockGroup` como el valor `type`. Este valor indica que está creando un grupo de bloques que contendría uno o más grupos de barras de herramientas.
+   - **type:**Especifique `blockGroup` como el valor `type`. Este valor indica que está creando un grupo de bloques que contendría uno o más grupos de barras de herramientas.
 
    - **extraclass:** Nombre de la clase o clases separadas por espacio.
 
@@ -177,7 +177,7 @@ Debe definir las siguientes propiedades para añadir un icono de la barra de her
 
 1. Actualice la propiedad categories de la carpeta *clientlib* asignándole el valor de *apps.fmdita.xml\_editor.page\_overrides*.
 
-1. Guarde el archivo *ui\_config.json* y vuelva a cargar el Editor web.
+1. Guarde el archivo *ui\_config.json* y vuelva a cargar el Editor.
 
 
 **Muestras de código JavaScript**
@@ -193,7 +193,7 @@ Agregue el siguiente código a un archivo JavaScript:
 * Step 1. Create a clientlib folder and add save a file with your *JavaScript code into this folder. A code sample is shared below.
 * Step 2: Update the categories property of the clientlib folder by *assigning it the value of 
 * "apps.fmdita.xml_editor.page_overrides".
-* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Web Editor
+* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Editor
  */
 
 (function (window) {
@@ -234,7 +234,7 @@ En el ejemplo siguiente se muestra cómo cambiar el estado de un documento de un
 * Step 1. Create a clientlib folder and add save a file with your *JavaScript code into this folder. A code sample is shared below.
 * Step 2: Update the categories property of the clientlib folder by *assigning it the value of 
 * "apps.fmdita.xml_editor.page_overrides".
-* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Web Editor
+* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Editor
  */
 
 (function (window) {
@@ -295,7 +295,7 @@ Añada la función en el archivo ui\_config.json como:
 
 ## Eliminación de una función de la barra de herramientas
 
-A veces es posible que no desee proporcionar todas las características disponibles actualmente en el Editor Web, en ese caso puede quitar la característica no deseada de la barra de herramientas del Editor Web.
+A veces es posible que no desee proporcionar todas las funciones disponibles actualmente en el Editor, en ese caso puede quitar la función no deseada de la barra de herramientas del Editor.
 
 Las siguientes pestañas proporcionan instrucciones para eliminar cualquier función no deseada de la barra de herramientas en función de la configuración de Experience Manager Guides: Cloud Service o On-Premise.
 
@@ -325,7 +325,7 @@ Las siguientes pestañas proporcionan instrucciones para eliminar cualquier func
 
 1. En la sección de barras de herramientas, quite la entrada de la función que no desee exponer a los usuarios.
 
-1. Guarde el archivo *ui\_config.json* y vuelva a cargar el Editor web.
+1. Guarde el archivo *ui\_config.json* y vuelva a cargar el Editor.
 
 >[!TAB Local]
 
@@ -354,6 +354,6 @@ El archivo `ui_config.json` tiene tres secciones:
 
 1. En la sección de barras de herramientas, quite la entrada de la función que no desee exponer a los usuarios.
 
-1. Guarde el archivo `*ui\_config.json*` y vuelva a cargar el Editor web.
+1. Guarde el archivo `*ui\_config.json*` y vuelva a cargar el Editor.
 
 >[!ENDTABS]

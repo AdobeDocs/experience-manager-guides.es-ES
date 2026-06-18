@@ -4,16 +4,17 @@ description: Configure el vídeo y la configuración de imagen para la salida de
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: af349df4-04bf-4b9b-885f-d8bca32a4484
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
 # Superposición de etiquetas de HTML en la salida de AEM Sites para aplicaciones locales
 
-Puede añadir y personalizar etiquetas de HTML en la salida de AEM Sites generada mediante el ajuste preestablecido de AEM Sites basado en la asignación de componentes principales desde el editor web. Para personalizar las etiquetas de HTML, puede superponer el archivo `config.xml`. Por ejemplo, puede configurar los mapas de vídeo e imagen en la salida de AEM Sites.
+Puede añadir y personalizar etiquetas de HTML en la salida de AEM Sites generada mediante el ajuste preestablecido de AEM Sites basado en la asignación de componentes principales desde el Editor. Para personalizar las etiquetas de HTML, puede superponer el archivo `config.xml`. Por ejemplo, puede configurar los mapas de vídeo e imagen en la salida de AEM Sites.
 
 Realice los siguientes pasos para superponer y actualizar el archivo `config.xml`:
 
@@ -142,4 +143,4 @@ Mapas de imagen:
 
 
 
-Más información sobre las prácticas recomendadas de [Seguridad](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/introduction/security).
+Más información sobre las prácticas recomendadas de [Seguridad](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security).

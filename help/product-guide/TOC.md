@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: a1c07d0f60b7c37248bcf7ce72ce25d537e3fd57
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2528'
 ht-degree: 10%
 
 ---
@@ -202,14 +202,14 @@ ht-degree: 10%
                - [Notas de la versión 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notas de la versión 4.2](./release-info/release-notes-4-2.md)
          - [Notas de la versión 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notas de la versión 4.0.x](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notas de la versión 3.8.x](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notas de la versión 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notas de la versión 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guía del usuario (nueva interfaz de usuario) {#user-guide}
    - Introducción {#about-aemg}
       - [Acerca de  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] funciones clave y de trabajo {#aemg-works-features}
-         - [Cómo funciona [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-         - [Características clave  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Cómo funciona [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+         - [Características clave  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Página de inicio {#home-page}
       - [Experiencia de la página de inicio [!DNL AEM Guides]](./user-guide/intro-home-page.md)
       - [Interfaz de repositorio](./user-guide/home-page-repository-view.md)
@@ -414,7 +414,7 @@ ht-degree: 10%
       - Resolución de problemas {#troubleshooting}
          - [Session timeout](./user-guide/session-timeout-prompt.md)
 - Guía del usuario (IU antigua) {#user-guide-old-ui}
-   - [Información general de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Información general de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalación y configuración {#install-conf-guide}
    - [Descargar, instalar y actualizar](./install-conf-guide/introduction.md)
    - Proceso de instalación de Cloud Service {#deploy-conf-aemg-cs}
@@ -474,7 +474,7 @@ ht-degree: 10%
       - [Configurar la visualización de vínculos basados en UUID](./install-conf-guide/conf-uuid-based-links.md)
       - [Abrir un tema DITA o archivos de asignación en la misma ficha](./install-conf-guide/open-dita-files-same-tab.md)
       - [Establecer el Editor de mapas avanzado como predeterminado](./install-conf-guide/conf-default-map-editor.md)
-      - [Configurar el guardado automático de archivos en el Editor web](./install-conf-guide/conf-auto-save-in-editor.md)
+      - [Configurar el guardado automático de archivos en el Editor](./install-conf-guide/conf-auto-save-in-editor.md)
       - [Configurar mensaje para guardar como nueva versión al cerrar](./install-conf-guide/conf-save-as-new-version-close.md)
       - [Configurar la solicitud para proteger un archivo al cerrar](./install-conf-guide/conf-checkin-file-close.md)
       - [Configurar los caracteres especiales permitidos](./install-conf-guide/conf-special-chars.md)
@@ -489,7 +489,7 @@ ht-degree: 10%
          - [Configuración de la opción de edición en Oxígeno para Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
          - [Configurar la visualización de tablas pegadas para Cloud Service](./install-conf-guide/conf-pasted-tables.md)
          - [Configuración de la generación de PDF de un solo tema para Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
-         - [Configurar la característica de traducción en el editor web para Cloud Service](./install-conf-guide/conf-translation-editor.md)
+         - [Configurar la característica de traducción en el editor de Cloud Service](./install-conf-guide/conf-translation-editor.md)
       - Configuración del editor para On-Premise {#editor-on-prem-settings}
          - [Configurar nuevo editor](./install-conf-guide/conf-new-editor-on-prem.md)
          - [Configuración de caracteres especiales adicionales para On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
@@ -600,12 +600,12 @@ ht-degree: 10%
       - [Revisión de contenido en AEM Guides](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
    - Artículos {#kb-articles}
       - Creación {#authoring}
-         - Editor web {#webeditor}
+         - Editor {#webeditor}
             - [Reutilización de contenido en AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
             - [Uso de Markdown en AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
             - Personalización {#customizing}
                - [Agregar botón personalizado a la barra de herramientas](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
-               - [Agregar estilos personalizados al editor web](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
+               - [Agregar estilos personalizados al editor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
                - [Personalizar menú contextual de carpeta](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
                - [Personalizar menú contextual de archivo](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
             - Schematron {#schematron}

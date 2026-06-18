@@ -6,21 +6,13 @@ feature: Output Generation
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/omjPXvRH20uR9prVDmOiw-yowtcyX3S9YUqFJWDCLqM
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 1102
+source-wordcount: 1099
 ht-degree: 0%
 
 ---
@@ -41,7 +33,7 @@ Puede crear plantillas de PDF personalizadas con diseños de página específico
 
 Para crear una nueva plantilla de PDF, realice los siguientes pasos:
 
-1. En el editor web, vaya a la ficha **Output**.
+1. En el editor, vaya a la ficha **Output**.
 1. Seleccionar **plantillas** <img src="./assets/template.png" alt= "icono de plantillas" width="25"> en el panel izquierdo.
 
    <img src="assets/create-pdf-template.png" alt="Crear plantilla de PDF" width="400">
@@ -64,7 +56,7 @@ Si desea crear una nueva plantilla con los mismos diseños de página y formato 
 
 Para duplicar una plantilla de PDF existente, siga los siguientes pasos:
 
-1. En el editor web, vaya a la ficha **Output**.
+1. En el editor, vaya a la ficha **Output**.
 1. Seleccionar **plantillas** <img src="./assets/template.svg" alt= "icono de plantillas" width="25"> en el panel izquierdo. Se abrirá la ventana **Plantillas**.
 1. Pase el ratón sobre la plantilla que quiera duplicar y seleccione el icono **...** *Opciones* y elija **Duplicar** en el menú contextual.
 
@@ -106,7 +98,7 @@ Seleccione esta opción para ver la plantilla en la interfaz de usuario de Asset
 
 Una vez creada la plantilla personalizada, puede elegirla en Diseños de página en el ajuste preestablecido de salida de PDF.
 
-Aprenda a [publicar una salida de PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=es).
+Aprenda a [publicar una salida de PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
 >
@@ -132,7 +124,7 @@ Puede personalizar las plantillas mediante la modificación de los componentes d
 
 Para personalizar una plantilla de PDF, realice los siguientes pasos:
 
-1. En el editor web, vaya a la ficha **Output**.
+1. En el editor, vaya a la ficha **Output**.
 1. Expanda la barra lateral izquierda y seleccione **Plantillas**.
 
    Se abrirá el panel **Plantillas**.

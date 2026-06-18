@@ -4,26 +4,15 @@ description: Obtenga información acerca de las correcciones de errores en la ve
 role: Leader
 exl-id: ff3083d3-062b-4a79-875f-86991978a18e
 TQID: https://experienceleague.adobe.com/0mdTs2Pg1Zos-Y-jMaYUEasFRhyF2kzl6Sz8MBisJ5Q
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: d6596f3f-92a7-43ec-b444-237db6adad05
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 1439
-ht-degree: 5%
+source-wordcount: 1421
+ht-degree: 6%
 
 ---
 
@@ -41,37 +30,37 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 
 - La revisión ortográfica en el editor no permite la selección de sugerencias. (15045)
 - El botón de navegación global no funciona y el panel no se puede cargar. (14968)
-- En el editor web, la función de mapa de descarga no almacena en déclencheur una notificación emergente cuando está lista para descargarse. (14626)
-- En el editor web, la función de mapa de descarga no puede descargar un mapa con una línea de base. (14622)
+- En el editor, la función de mapa de descarga no almacena en déclencheur una notificación emergente cuando está lista para descargarse. (14626)
+- En el editor, la función de mapa de descarga no puede descargar un mapa con una línea de base. (14622)
 - Error de DTD no válido en Experience Manager Guides. (14482)
-- El título de la ficha Editor Web se trunca después de un punto (.) carácter. (14372)
+- El título de la pestaña Editor se trunca después de un punto (.) carácter. (14372)
 - No se ha actualizado la mensajería de error para nombres de mapa duplicados en la IU de Assets. (14320)
 - Se produce un error en la lógica de creación de versiones al arrastrar y soltar recursos. (14291)
 - El contenido reutilizable omite los ID de elemento. (14213)
 - Falta el control de configuración para ocultar el panel **Variables de idioma** en la ficha **Salida**. (14194)
-- El editor web genera errores de aplicación al agregar una nueva referencia o tema mediante un esquema especializado en la vista **Layout**. (14094)
+- El editor genera errores de aplicación al agregar una nueva referencia o tema mediante un esquema especializado en la vista **Layout**. (14094)
 - El espacio posterior al elemento `<ph>` de la referencia desaparece al guardar el tema. (13642)
 - Se produce un error de aplicación al intentar guardar archivos DITA antes de que finalice el posprocesamiento. (13571)
 - Un vínculo de anclaje al elemento `<dlentry>` o `<dt>` no puede mostrar el texto del vínculo. (13543)
-- La colección **Favoritos** del Editor web no se puede cargar. (13495)
-- Si el título de un tema contiene una barra diagonal `/`, la ficha del Editor Web sólo mostrará las cartas que le siguen. (13455)
-- La previsualización de la imagen no desaparece después de mostrar la previsualización en el editor web. (13454)
+- La colección **Favoritos** del Editor no se puede cargar. (13495)
+- Si el título de un tema contiene una barra diagonal `/`, la ficha del Editor sólo mostrará las cartas que le siguen. (13455)
+- La previsualización de la imagen no desaparece después de mostrarla en el Editor. (13454)
 - Las citas muestran vínculos en los que no se puede hacer clic cuando se crean con un ID único con espacios. (13447)
 - Al cerrar un tema después de editarlo, se le redirige a la página principal de AEM en lugar de volver a la vista de carpetas. (13306)
 - La ventana emergente Insertar palabra clave no aparece al utilizar claves definidas por mapa raíz en otros temas. (12950)
 - Los iconos de cierre no son visibles cuando se muestran gráficos muy altos en el panel **Historial de versiones**. (12867)
 - No se puede modificar la zona horaria de la columna **Versión creada el** para las líneas de base. (12711)
-- Los archivos Zip no se reconocen en el Editor Web y no se pueden arrastrar y soltar. (12709)
+- Los archivos Zip no se reconocen en el Editor y no se pueden arrastrar y soltar. (12709)
 - El panel **Historial de versiones** de la IU de Assets muestra una marca de tiempo incorrecta para el campo **Actual**. (12624)
 - En la vista **Diseño** para un Bookmap, al usar **Mover a la derecha** para hacer que un capítulo seleccionado sea un subelemento no funcione. (12567)
 - La creación de un fichero DITA a partir de una plantilla con un nombre de fichero que empieza por caracteres numéricos da lugar a un error de espacio de nombres. (12188)
-- La configuración de mapa de raíz persiste en el editor web aunque el usuario no la haya establecido explícitamente desde **Preferencias de usuario**. (11551)
+- La configuración de mapa de raíz persiste en el editor aunque el usuario no la haya establecido explícitamente desde **Preferencias de usuario**. (11551)
 - El contenido con algunos atributos aplicados no se resalta en el modo **Autor** o **Vista previa**. (11063)
-- En el editor web, se abre la ventana **Referencias clave** al insertar la etiqueta `varname`. (10940)
+- En el editor, se abre la ventana **Referencias de clave** al insertar la etiqueta `varname`. (10940)
 - Si arrastra un tema del glosario desde el repositorio a un mapa del glosario, se creará `topicref`. (10767)
 - La ventana de vista previa del Editor XML se trunca en los navegadores Google Chrome y Microsoft Edge. (10755)
-- El editor web carece de la capacidad de envolver un elemento dentro de los posibles elementos principales. (8791)
-- El editor web se desinstala después de volver a instalar la versión 4.3.1 de Adobe Experience Manager Guides. (14519)
+- El editor no tiene la capacidad de envolver un elemento dentro de los posibles elementos principales. (8791)
+- El editor se desinstala después de volver a instalar la versión 4.3.1 de Adobe Experience Manager Guides. (14519)
 - El instalador de la versión 4.3.1 encuentra un conflicto de filtros, que provoca la anulación de `apps/cq/core/content/projects/properties`. (14517)
 - Aparecerá un vínculo de referencia en la lista de **Vínculos rotos** en los informes. (13539)
 - La pantalla de vista previa de los fragmentos de código está inmovilizada. (14840)
@@ -86,7 +75,7 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 - El ajuste preestablecido **AEM Site** no funciona debido a una ruta de acceso de plantilla vacía. (14804)
 - La regeneración del sitio de AEM falla en los mapas DITA con temas que contienen ecuaciones de MathML. (14790)
 - En la publicación nativa de PDF, la generación de PDF genera errores al obtener dependencias para la publicación de `Node.js`. (14445)
-- El ajuste preestablecido **AEM Site** no permite la selección de una plantilla fuera de la jerarquía `/content` en el editor web. (14260)
+- El ajuste preestablecido **AEM Site** no permite la selección de una plantilla fuera de la jerarquía `/content` en el editor. (14260)
 - La funcionalidad para publicar como fragmento de contenido no funciona para los archivos enumerados en los resultados de búsqueda. (14090)
 - Los componentes de Fodita tienen una ruta de acceso codificada de `delegator.jsp`, lo que evita la superposición de los componentes de AEM Sites. (13993)
 - La vista etiquetada del reactor de PDF en la salida de publicación nativa de PDF no funciona como se esperaba. (13622)
@@ -101,7 +90,7 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 - La localización de las etiquetas de elementos no funciona correctamente en la salida de AEM Sites. (12144)
 - Los metadatos personalizados no están disponibles en la salida final. (12116)
 - `fmdita rewriter` entra en conflicto con la configuración de reescritura del usuario y conduce a la visualización de direcciones URL largas en lugar de los vínculos. (12076)
-- Falta la opción **ditaval** en los ajustes preestablecidos de salida de nivel de perfil de carpeta creados mediante la interfaz de usuario del editor web. (11903)
+- Falta la opción **ditaval** en los ajustes preestablecidos de salida de nivel de perfil de carpeta creados mediante la interfaz de usuario del editor. (11903)
 - En el ajuste preestablecido **AEM Site**, la opción para **Generar PDF independiente para cada tema** no funciona. (11555)
 - La publicación nativa de PDF no admite la conversión del espacio de color CMYK. (10754)
 - Al actualizar a la versión 4.3.1, se producen algunas excepciones en el nodo Nativo de PDF. (14492)
@@ -111,19 +100,19 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 ## Administración
 
 - La referencia de contenido se interrumpe al copiar y pegar los archivos DITA con vínculos de referencia automática sin GUID. (13540)
-- Los archivos de **Filtro de línea de base** no funcionan con Nombre de archivo en el Editor web. (13486)
-- En el Editor Web, la instantánea muestra el título de la versión anterior en lugar de la versión seleccionada del fichero DITA. (13444)
+- Los archivos de **Filtro de línea de base** no funcionan con Nombre de archivo en el Editor. (13486)
+- En el Editor, la instantánea muestra el título de la versión anterior en lugar de la versión seleccionada del fichero DITA. (13444)
 - Desactivar la indexación del mapa DITA principal para obtener un mejor rendimiento puede afectar a la funcionalidad de determinadas funciones.(12213)
 - No se crean ajustes preestablecidos de condición para mapas DITA grandes. (10936)
 - No se pueden editar los ajustes preestablecidos de las primeras asignaciones de la colección mientras se edita una colección de asignaciones. (10649)
-- Las etiquetas del archivo `labels.json` aparecen en orden aleatorio en el Editor Web. (10508)
+- Las etiquetas del archivo `labels.json` aparecen en orden aleatorio en el Editor. (10508)
 - Las llamadas de línea de base dinámicas utilizan el nombre en lugar del título, lo que provoca el fallo de la API Exportar mapa DITA. (14268)
 
 ## Revisión
 
 - El menú contextual del botón secundario no funciona para que **Accept** o **Reject** realice un seguimiento de los cambios. (14607)
 - Cambiar para cerrar los temas de DITA en la pantalla de revisión no funciona en la versión 4.3.1 de Adobe Experience Manager Guides. (14537)
-- Los problemas de simetría se producen en los paneles de revisión en paralelo de las versiones anterior y actual en el Editor Web. (14156)
+- Los problemas de simetría se producen en los paneles de revisión en paralelo de las versiones anterior y actual en el Editor. (14156)
 - La personalización de las plantillas de correo electrónico para el flujo de trabajo de revisión no funciona con la superposición. (13954)
 - Los archivos adjuntos coreanos en la pantalla de revisión de Experience Manager Guides no se pueden seleccionar. (13436)
 - El título del mapa se corta en la pantalla de revisión y colaboración, sin opción de ver el título completo. (13012)
