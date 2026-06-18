@@ -4,9 +4,10 @@ description: Aprenda a establecer el Editor de mapas avanzado como predeterminad
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 60205ca4-518f-49fa-b63b-f1a56d70fc01
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -16,9 +17,9 @@ ht-degree: 0%
 >[!NOTE]
 >
 > El Editor de mapas básico, disponible anteriormente en Experience Manager Guides, ha quedado obsoleto a partir de la versión 4.3 y 2307. No se puede acceder al Editor de mapas básico para crear y gestionar mapas DITA.
->Se recomienda utilizar el Editor de mapas avanzado. El editor de mapas avanzado ofrece funciones mejoradas y mejores opciones de personalización. Más información sobre cómo usar el [Editor de mapas avanzado](../user-guide/map-editor-advanced-map-editor.md).
+>Se recomienda usar el Editor de mapas avanzado. El editor de mapas avanzado ofrece funciones mejoradas y mejores opciones de personalización. Descubre más sobre cómo usar el [Editor de mapas avanzado](../user-guide/map-editor-advanced-map-editor.md).
 
-Para las versiones anteriores a la 4.3 y 2307, Experience Manager Guides viene con un Editor de mapas básico y un Editor de mapas avanzado. El editor de mapas básico le ofrece todas las funciones necesarias para crear su archivo de mapa. El editor de mapas avanzado es mucho más rico en funciones y está integrado dentro del editor web. El Editor de mapas avanzado permite a los autores crear y editar ficheros de mapa DITA con una interfaz fácil de usar.
+Para las versiones anteriores a la 4.3 y 2307, Experience Manager Guides viene con un Editor de mapas básico y un Editor de mapas avanzado. El editor de mapas básico le ofrece todas las funciones necesarias para crear su archivo de mapa. El editor de mapas avanzado es mucho más rico en funciones y está integrado dentro del editor. El Editor de mapas avanzado permite a los autores crear y editar ficheros de mapa DITA con una interfaz fácil de usar.
 
 De forma predeterminada, cada vez que se crea un nuevo archivo de asignación, se abre en el Editor de mapas básico. Puede cambiar este comportamiento si habilita la configuración para abrir el Editor de mapas avanzado de forma predeterminada.
 
@@ -57,4 +58,4 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 
 >[!ENDTABS]
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](customize-overview.md)
+**Tema principal:**&#x200B;[&#x200B; Editor personalizado](customize-overview.md)

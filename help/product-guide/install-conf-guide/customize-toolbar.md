@@ -5,22 +5,22 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 42f1ee19-cc59-49da-b882-5d97ec387df6
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1710'
 ht-degree: 0%
 
 ---
 
 # Personalizar barra de herramientas {#id172FB00L0V6}
 
-De forma predeterminada, el editor web incluye las funciones editoriales más comunes que requiere cualquier editor DITA. Las funciones como la inserción de elementos de tipo lista \(numerada o con viñetas\), referencia cruzada, referencia de contenido, tabla, párrafo y formato de caracteres están disponibles en el editor. Además de estos elementos básicos, puede personalizar el Editor Web para insertar elementos que se utilizan en el entorno de creación.
+De forma predeterminada, el editor incluye las funciones editoriales más comunes que requiere cualquier editor DITA. Las funciones como la inserción de elementos de tipo lista \(numerada o con viñetas\), referencia cruzada, referencia de contenido, tabla, párrafo y formato de caracteres están disponibles en el editor. Además de estos elementos básicos, puede personalizar el Editor para insertar elementos que se utilizan en el entorno de creación.
 
 >[!NOTE]
 >
 > Al migrar de la IU antigua a la nueva IU de AEM Guides (aplicable a partir de las versiones 2502 y 5.0 de AEM Guides), las actualizaciones de `ui_config` deben convertirse a configuraciones de IU más flexibles y modulares. Este marco de trabajo ayuda a adoptar cambios sin problemas en la barra de herramientas del editor y en otros widgets de destino según corresponda. Para obtener más información, vea [Información general sobre Convert UI Config](https://experienceleague.adobe.com/es/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
-Existen dos formas de personalizar la barra de herramientas del Editor Web:
+Existen dos formas de personalizar la barra de herramientas del Editor:
 
 - Añadir una nueva funcionalidad a la barra de herramientas
 
@@ -29,7 +29,7 @@ Existen dos formas de personalizar la barra de herramientas del Editor Web:
 
 ## Añadir una función en la barra de herramientas
 
-Agregar una funcionalidad al Editor web implica dos tareas principales: agregar un icono para la característica en el archivo *ui\_config.json* y agregar la funcionalidad en segundo plano en JavaScript.
+Agregar una funcionalidad al Editor implica dos tareas principales: agregar un icono para la característica en el archivo *ui\_config.json* y agregar la funcionalidad en segundo plano en JavaScript.
 
 Las siguientes pestañas proporcionan instrucciones basadas en la configuración de Experience Manager Guides: Cloud Service o Local.
 
@@ -115,7 +115,7 @@ Las siguientes pestañas proporcionan instrucciones basadas en la configuración
 
 1. Actualice la propiedad categories de la carpeta *clientlib* asignándole el valor de *apps.fmdita.xml\_editor.page\_overrides*.
 
-1. Guarde el archivo *ui\_config.json* y vuelva a cargar el Editor web.
+1. Guarde el archivo *ui\_config.json* y vuelva a cargar el Editor.
 
 >[!TAB Local]
 
@@ -177,7 +177,7 @@ Debe definir las siguientes propiedades para añadir un icono de la barra de her
 
 1. Actualice la propiedad categories de la carpeta *clientlib* asignándole el valor de *apps.fmdita.xml\_editor.page\_overrides*.
 
-1. Guarde el archivo *ui\_config.json* y vuelva a cargar el Editor web.
+1. Guarde el archivo *ui\_config.json* y vuelva a cargar el Editor.
 
 
 **Muestras de código JavaScript**
@@ -193,7 +193,7 @@ Agregue el siguiente código a un archivo JavaScript:
 * Step 1. Create a clientlib folder and add save a file with your *JavaScript code into this folder. A code sample is shared below.
 * Step 2: Update the categories property of the clientlib folder by *assigning it the value of 
 * "apps.fmdita.xml_editor.page_overrides".
-* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Web Editor
+* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Editor
  */
 
 (function (window) {
@@ -234,7 +234,7 @@ En el ejemplo siguiente se muestra cómo cambiar el estado de un documento de un
 * Step 1. Create a clientlib folder and add save a file with your *JavaScript code into this folder. A code sample is shared below.
 * Step 2: Update the categories property of the clientlib folder by *assigning it the value of 
 * "apps.fmdita.xml_editor.page_overrides".
-* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Web Editor
+* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Editor
  */
 
 (function (window) {
@@ -295,7 +295,7 @@ Añada la función en el archivo ui\_config.json como:
 
 ## Eliminación de una función de la barra de herramientas
 
-A veces es posible que no desee proporcionar todas las características disponibles actualmente en el Editor Web, en ese caso puede quitar la característica no deseada de la barra de herramientas del Editor Web.
+A veces es posible que no desee proporcionar todas las funciones disponibles actualmente en el Editor, en ese caso puede quitar la función no deseada de la barra de herramientas del Editor.
 
 Las siguientes pestañas proporcionan instrucciones para eliminar cualquier función no deseada de la barra de herramientas en función de la configuración de Experience Manager Guides: Cloud Service o On-Premise.
 
@@ -325,7 +325,7 @@ Las siguientes pestañas proporcionan instrucciones para eliminar cualquier func
 
 1. En la sección de barras de herramientas, quite la entrada de la función que no desee exponer a los usuarios.
 
-1. Guarde el archivo *ui\_config.json* y vuelva a cargar el Editor web.
+1. Guarde el archivo *ui\_config.json* y vuelva a cargar el Editor.
 
 >[!TAB Local]
 
@@ -354,6 +354,6 @@ El archivo `ui_config.json` tiene tres secciones:
 
 1. En la sección de barras de herramientas, quite la entrada de la función que no desee exponer a los usuarios.
 
-1. Guarde el archivo `*ui\_config.json*` y vuelva a cargar el Editor web.
+1. Guarde el archivo `*ui\_config.json*` y vuelva a cargar el Editor.
 
 >[!ENDTABS]

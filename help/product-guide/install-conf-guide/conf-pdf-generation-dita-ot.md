@@ -5,9 +5,9 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: a456027a-56a4-48c0-a79b-2f423692abc2
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,6 @@ Para activar la generación antigua de PDF mediante DITA-OT desde el modo de vis
 
 1. Guarde el archivo y cárguelo.
 
-Después de realizar los pasos anteriores, si elige el mismo perfil de carpeta en Preferencias de usuario en el Editor web, verá la opción de generación de PDF en el modo de vista previa de un tema.
+Después de realizar los pasos anteriores, si elige el mismo perfil de carpeta en Preferencias de usuario en el Editor, verá la opción de generación de PDF en el modo de vista previa de un tema.
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](customize-overview.md)
+**Tema principal:**&#x200B;[&#x200B; Editor personalizado](customize-overview.md)

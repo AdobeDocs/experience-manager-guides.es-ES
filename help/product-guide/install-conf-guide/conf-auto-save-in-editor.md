@@ -1,24 +1,24 @@
 ---
-title: Configurar el guardado automático de archivos en el Editor web
-description: Obtenga información sobre cómo configurar el guardado automático de archivos en el Editor Web
+title: Configurar el guardado automático de archivos en el Editor
+description: Obtenga información sobre cómo configurar el guardado automático de archivos en el Editor
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 142a588a-3d26-48ee-a3fe-23882922243c
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
 
-# Configurar el guardado automático de archivos en el Editor web {#id199CC0J0M5Z}
+# Configurar el guardado automático de archivos en el Editor {#id199CC0J0M5Z}
 
-Una de las funciones más comunes del editor basado en explorador es la capacidad de guardar datos después de un período de tiempo específico. El Editor web de AEM Guides también admite el guardado automático de archivos de tema y asignación en el intervalo de tiempo especificado. Cuando se activa esta función, se guarda la copia de trabajo del tema o del mapa. No se crea una nueva versión del tema o del mapa. Para crear una nueva versión, debe hacer clic en el icono Guardar revisión de la barra de herramientas del Editor Web.
+Una de las funciones más comunes del editor basado en explorador es la capacidad de guardar datos después de un período de tiempo específico. El Editor de AEM Guides también admite el guardado automático de archivos de tema y asignación en el intervalo de tiempo especificado. Cuando se activa esta función, se guarda la copia de trabajo del tema o del mapa. No se crea una nueva versión del tema o del mapa. Para crear una nueva versión, debe hacer clic en el icono Guardar revisión de la barra de herramientas del editor.
 
 La característica de guardado automático no está habilitada de manera predeterminada y debe habilitarla usando el archivo de configuración de Cloud Service y de `configMgr` para local
 
-Las siguientes pestañas proporcionan instrucciones para habilitar la función de guardado automático en el Editor web en función de la configuración de Experience Manager Guides: Cloud Service o Local.
+Las siguientes pestañas proporcionan instrucciones para habilitar la función de guardado automático en el Editor en función de la configuración de Experience Manager Guides: Cloud Service o Local.
 
 >[!BEGINTABS]
 

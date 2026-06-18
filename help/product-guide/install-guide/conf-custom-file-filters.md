@@ -17,16 +17,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 325
+source-wordcount: 323
 ht-degree: 0%
 
 ---
 
 # Configurar filtros para cuadro de diálogo de exploración de archivos {#id20CIL7009GN}
 
-Mientras trabaja en el Editor Web, debe utilizar el cuadro de diálogo de exploración de archivos para insertar elementos como imagen, referencia o referencia de clave. El cuadro de diálogo de exploración de archivos predeterminado no ofrece ninguna opción de filtrado de archivos. Puede añadir sus propios filtros para acceder a los archivos necesarios de forma fácil y rápida.
+Mientras trabaja en el editor, debe utilizar el cuadro de diálogo de exploración de archivos para insertar elementos como imagen, referencia o referencia de clave. El cuadro de diálogo de exploración de archivos predeterminado no ofrece ninguna opción de filtrado de archivos. Puede añadir sus propios filtros para acceder a los archivos necesarios de forma fácil y rápida.
 
 Realice los siguientes pasos para agregar las opciones de filtrado de archivos personalizadas al cuadro de diálogo de exploración de archivos:
 
@@ -75,7 +75,7 @@ Realice los siguientes pasos para agregar las opciones de filtrado de archivos p
 
    El segundo filtro es para archivos de imagen. Los parámetros son similares al primer filtro excepto el parámetro `value`. El parámetro `value` toma una matriz de tipos de imagen como valor. Todos los tipos de archivo especificados en el parámetro value se buscan y se muestran en el cuadro de diálogo de exploración de archivos; el resto de tipos de archivo se omiten.
 
-1. Guarde el archivo *ui\_config.json* y vuelva a cargar el Editor web.
+1. Guarde el archivo *ui\_config.json* y vuelva a cargar el Editor.
 
    Al iniciar el cuadro de diálogo de exploración de archivos, se muestran las opciones de filtro configuradas en el archivo ui\_config.json.
 

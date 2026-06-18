@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 931
+source-wordcount: 911
 ht-degree: 1%
 
 ---
@@ -85,7 +85,7 @@ El motor de publicación nativo de PDF necesita el JDK de Oracle para generar lo
 10. Vuelva a hacer clic en Aceptar en el cuadro de diálogo Variables de entorno.
 11. Vuelva a hacer clic en &quot;Aceptar&quot; en el cuadro de diálogo Propiedades del sistema.
 12. Inicie el servidor de AEM.
-13. Genere PDF nativo a partir de ajustes preestablecidos en el editor web.
+13. Genere PDF nativo a partir de ajustes preestablecidos en el editor.
 
 ## Pasos de configuración para el servidor Linux (RHEL7/centOS 7)
 
@@ -124,7 +124,7 @@ El motor de publicación nativo de PDF necesita el JDK de Oracle para generar lo
 
 11. Instale el paquete fontconfig.
 Comando: yum install fontconfig
-12. Genere PDF nativo a partir de ajustes preestablecidos en el editor web.
+12. Genere PDF nativo a partir de ajustes preestablecidos en el editor.
 
 **NOTA** : el paquete node_modules.zip se puede descargar [aquí](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
 
@@ -172,7 +172,7 @@ iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —p
 9. Instale el paquete fontconfig.
 Comando: apt install fontconfig
 
-10. Genere PDF nativo a partir de ajustes preestablecidos en el editor web.
+10. Genere PDF nativo a partir de ajustes preestablecidos en el editor.
 
 ## Resolución de problemas
 

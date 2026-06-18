@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo configurar la lista de omisión pa
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 8e8b24bea8504ad9fcca1117bd9e7b400e757dff
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -70,4 +70,4 @@ AEM Guides incluye un conjunto predeterminado de propiedades de metadatos en la 
 
 Sólo se tienen en cuenta las propiedades de metadatos que no están incluidas en la lista de omisión para marcar la versión de un documento como sucia.
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](customize-overview.md)
+**Tema principal:**&#x200B;[&#x200B; Editor personalizado](customize-overview.md)

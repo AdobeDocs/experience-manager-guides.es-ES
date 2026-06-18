@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 6522
+source-wordcount: 6471
 ht-degree: 0%
 
 ---
@@ -274,7 +274,7 @@ Realice los siguientes pasos para configurar atributos de generación de perfile
 
 1. En la ficha **Extensiones**, realice los cambios siguientes:
 
-   - Haga clic en **Elegir** junto al paquete de **Extensiones** y seleccione `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` en la lista **Clase**. Haga clic en **OK**.
+   - Haga clic en **Elegir** junto al paquete de **Extensiones** y seleccione `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` en la lista **Clase**. Haga clic en **Aceptar**.
      ![Extensión configurada para temas DITA](images/dita-map-extenstion-link-resolve.png) {width="650"}
    - Haga clic en **Elegir** junto al **Receptor de estado de extensión de autor** en **Extensiones individuales** y seleccione `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` en la lista **Clase**. Haga clic en **OK**.
    - Haga clic en **Elegir** junto al **Editor de valores de atributos personalizados de autor** en **Extensiones individuales** y seleccione `CustomValueEditor - com.adobe.o2.framework.extn` en la lista **Clase**. Haga clic en **OK**.
@@ -342,7 +342,7 @@ La siguiente pantalla muestra el panel AEM Guides.
 Las funciones del complemento Oxygen para AEM Guides están disponibles al hacer clic con el botón derecho en una carpeta o archivo del repositorio de AEM. Las funciones disponibles para las carpetas son diferentes de los archivos. Esta es una lista completa de funciones en el menú contextual de Oxygen Plugin for AEM Guides:
 
 - **Abrir**: Abre el archivo seleccionado o expande la carpeta seleccionada.
-- **Abrir en**: puede elegir abrir el archivo seleccionado en el Editor web de AEM Guides, en el Panel de mapas o en el Editor de mapas. Para obtener más información sobre estas opciones, consulte [Abrir archivo en el editor de AEM Guides](#id195GH0V30KX).
+- **Abrir en**: puede elegir abrir el archivo seleccionado en el Editor de AEM Guides, en el Tablero de mapas o en el Editor de mapas. Para obtener más información sobre estas opciones, consulte [Abrir archivo en el editor de AEM Guides](#id195GH0V30KX).
 - **Desproteger**: desprotege un archivo del repositorio de AEM. Para obtener más información, consulte [Archivos de desprotección](#id195HC020TS4).
 - **Desproteger con dependientes**: desprotege un archivo con sus referencias directas. Para obtener más información, consulte [Archivos de desprotección](#id195HC020TS4).
 - **Desproteger con dependientes de solo lectura**: desprotege el archivo seleccionado junto con sus dependientes. No puede realizar ningún cambio en los archivos dependientes. Para obtener más información, consulte [Archivos de desprotección](#id195HC020TS4).
@@ -391,7 +391,7 @@ Si desea utilizar los editores disponibles en AEM Guides, puede hacerlo seleccio
 
 1. Seleccione **Abrir en** en el menú contextual y elija entre las siguientes opciones:
 
-   - **Editor de temas web**: Si el archivo que está abriendo es un archivo .xml o .dita, puede abrirlo para editarlo en el Editor web. Elija la opción **Editor de temas web** para abrir el archivo seleccionado y editarlo en el Editor web.
+   - **Editor de temas web**: Si el archivo que está abriendo es un archivo .xml o .dita, puede abrirlo para editarlo en el Editor. Elija la opción **Editor de temas web** para abrir el archivo seleccionado y editarlo en el Editor.
 
    - **Tablero de mapas**: puede elegir editar un archivo .ditamap en el tablero de mapas, donde puede realizar varias operaciones en el archivo de mapa. Estas operaciones dependen de la función o el grupo al que pertenezca.
 

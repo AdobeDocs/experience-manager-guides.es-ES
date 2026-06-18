@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: 386
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ En esta sesión, aprendió lo siguiente:
 - Comprender qué todas las interfaces se pueden ampliar con este marco de trabajo de extensión
 - Comprender lo que ya está disponible para que empiece a crear fácilmente sus propias funciones personalizadas
 - Aprenda a personalizar tomando ejemplos:
-   - Adición de la sección de ayuda y asistencia en el editor web
+   - Agregar una sección de Ayuda y soporte técnico en el Editor
    - Agregar más panel izquierdo, por ejemplo, para ver las tareas del usuario actual
    - Agregar más botones de la barra de herramientas para el tema o el mapa mediante este marco de trabajo
    - Ampliar la información que se muestra en el panel de propiedades de contenido en el editor web: se agrega información posterior al procesamiento para indicar si el procesamiento posterior se realiza en un archivo determinado o no

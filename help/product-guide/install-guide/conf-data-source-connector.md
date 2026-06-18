@@ -6,18 +6,18 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
 # Configuración de un conector de fuente de datos
 
-AEM Guides proporciona conectores predeterminados para bases de datos JIRA y SQL (MySQL, PostgreSQL, SQL Server, SQLite). También puede añadir otros conectores ampliando las interfaces predeterminadas. La siguiente configuración le ayuda a añadir fácilmente las distintas fuentes de datos. Una vez agregados, puede ver los orígenes de datos en el Editor Web.
+AEM Guides proporciona conectores predeterminados para bases de datos JIRA y SQL (MySQL, PostgreSQL, SQL Server, SQLite). También puede añadir otros conectores ampliando las interfaces predeterminadas. La siguiente configuración le ayuda a añadir fácilmente las distintas fuentes de datos. Una vez agregado, puede ver las fuentes de datos en el Editor.
 
-Realice los siguientes pasos para configurar un conector de origen de datos y, a continuación, utilizarlo desde el Editor web:
+Realice los siguientes pasos para configurar un conector de origen de datos y, a continuación, utilizarlo desde el Editor:
 
 ## Configuración de un conector
 

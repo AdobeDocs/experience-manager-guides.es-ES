@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 571
-ht-degree: 0%
+source-wordcount: 444
+ht-degree: 1%
 
 ---
 
 # Mostrar/ocultar &quot;Crear DitaMAP&quot; del menú contextual de carpeta en el editor web
 
-En este artículo, aprenderemos a personalizar el Editor web de guías para ocultar o mostrar la opción &quot;Crear DitaMap&quot; en el menú contextual de la carpeta en función de los permisos de usuario/grupo.
+En este artículo, aprenderemos a personalizar el Editor de guías para ocultar o mostrar la opción &quot;Crear DitaMap&quot; en el menú contextual de la carpeta en función de los permisos de usuario/grupo.
 En este caso de uso, ocultaremos esta opción para todos los usuarios que no sean autores.
 
 ## Requisitos previos

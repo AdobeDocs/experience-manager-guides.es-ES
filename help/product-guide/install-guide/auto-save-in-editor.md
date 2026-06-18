@@ -1,6 +1,6 @@
 ---
-title: Configurar el guardado automático de archivos en el Editor web
-description: Obtenga información sobre cómo configurar el guardado automático de archivos en el Editor Web
+title: Configurar el guardado automático de archivos en el Editor
+description: Obtenga información sobre cómo configurar el guardado automático de archivos en el Editor
 exl-id: 23fe404c-c76d-43ba-9b28-c49ab1e524de
 feature: Web Editor Configuration
 role: Admin
@@ -15,18 +15,18 @@ subfeature_v2:
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 204
-ht-degree: 0%
+source-wordcount: 197
+ht-degree: 1%
 
 ---
 
-# Configurar el guardado automático de archivos en el Editor web {#id199CC0J0M5Z}
+# Configurar el guardado automático de archivos en el Editor {#id199CC0J0M5Z}
 
-Una de las funciones más comunes del editor basado en explorador es la capacidad de guardar datos después de un período de tiempo específico. El editor web de AEM Guides también admite el guardado automático de archivos de temas y mapas en el intervalo de tiempo especificado. Cuando se activa esta función, se guarda la copia de trabajo del tema o del mapa. No se crea una nueva versión del tema o del mapa. Para crear una nueva versión, debe hacer clic en el icono Guardar revisión de la barra de herramientas del Editor Web.
+Una de las funciones más comunes del editor basado en explorador es la capacidad de guardar datos después de un período de tiempo específico. El editor de AEM Guides también admite el guardado automático de archivos de temas y mapas en el intervalo de tiempo especificado. Cuando se activa esta función, se guarda la copia de trabajo del tema o del mapa. No se crea una nueva versión del tema o del mapa. Para crear una nueva versión, debe hacer clic en el icono Guardar revisión de la barra de herramientas del editor.
 
-La función de guardado automático no está activada de forma predeterminada y debe activarla desde configMgr. Realice los siguientes pasos para habilitar la función de guardado automático en el editor web:
+La función de guardado automático no está activada de forma predeterminada y debe activarla desde configMgr. Siga estos pasos para habilitar la función de guardado automático en el Editor:
 
 1. Abra la página Configuración de la consola web de Adobe Experience Manager.
 
@@ -45,4 +45,4 @@ La función de guardado automático no está activada de forma predeterminada y 
 1. Haga clic en **Guardar**.
 
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Editor personalizado](conf-web-editor.md)

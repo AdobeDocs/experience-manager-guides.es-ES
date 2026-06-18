@@ -18,9 +18,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 1102
+source-wordcount: 1099
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Puede crear plantillas de PDF personalizadas con diseños de página específico
 
 Para crear una nueva plantilla de PDF, realice los siguientes pasos:
 
-1. En el editor web, vaya a la ficha **Output**.
+1. En el editor, vaya a la ficha **Output**.
 1. Seleccionar **plantillas** <img src="./assets/template.png" alt= "icono de plantillas" width="25"> en el panel izquierdo.
 
    <img src="assets/create-pdf-template.png" alt="Crear plantilla de PDF" width="400">
@@ -64,7 +64,7 @@ Si desea crear una nueva plantilla con los mismos diseños de página y formato 
 
 Para duplicar una plantilla de PDF existente, siga los siguientes pasos:
 
-1. En el editor web, vaya a la ficha **Output**.
+1. En el editor, vaya a la ficha **Output**.
 1. Seleccionar **plantillas** <img src="./assets/template.svg" alt= "icono de plantillas" width="25"> en el panel izquierdo. Se abrirá la ventana **Plantillas**.
 1. Pase el ratón sobre la plantilla que quiera duplicar y seleccione el icono **...** *Opciones* y elija **Duplicar** en el menú contextual.
 
@@ -132,7 +132,7 @@ Puede personalizar las plantillas mediante la modificación de los componentes d
 
 Para personalizar una plantilla de PDF, realice los siguientes pasos:
 
-1. En el editor web, vaya a la ficha **Output**.
+1. En el editor, vaya a la ficha **Output**.
 1. Expanda la barra lateral izquierda y seleccione **Plantillas**.
 
    Se abrirá el panel **Plantillas**.

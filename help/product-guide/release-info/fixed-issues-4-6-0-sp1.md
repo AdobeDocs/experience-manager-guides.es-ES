@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 312
+source-wordcount: 311
 ht-degree: 4%
 
 ---
@@ -36,7 +36,7 @@ Obtenga información acerca de [instrucciones de actualización para el Service 
 - La creación de mapas DITA en una instancia UUID falla cuando `xmleditor.uniquefilenames` está habilitado en `XMLEditorConfig`. (21201)
 - Al cerrar un archivo, los comentarios y las etiquetas agregados en el cuadro de diálogo **Guardar cambios y Desbloquear archivo** no se guardan en el Historial de versiones con la nueva versión. Esto es específico de un caso de uso en el que **Pedir protección al cerrar** o **Pedir nueva versión al cerrar** está habilitado en `XMLEditorConfig`. (20065)
 - El estado del documento marcado como **Listo** vuelve a **Borrador** antes de guardar una nueva versión, lo que hace que el estado **Listo** no persista en ninguna versión del documento. (20006)
-- No se puede agregar un archivo PDF como referencia de imagen en un tema del Editor Web. (21206)
+- No se puede agregar un archivo PDF como referencia de imagen en un tema del Editor. (21206)
 - Al seleccionar un archivo DITA en la interfaz de usuario de Assets, se muestra la opción **Abrir en FrameMaker**, incluso cuando está desactivada en la configuración. (20082)
 
 

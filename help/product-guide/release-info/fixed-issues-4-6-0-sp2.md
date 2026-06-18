@@ -15,9 +15,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 371
+source-wordcount: 370
 ht-degree: 4%
 
 ---
@@ -43,7 +43,7 @@ Obtenga información acerca de [instrucciones de actualización para el Service 
 - La publicación en Salesforce falla cuando el contenido contiene espacios de no separación. (23664)
 - En los temas con errores como los vínculos rotos, la publicación de Salesforce falla y la barra de progreso se muestra indefinidamente. (22985)
 - En el caso de los mapas con vínculos rotos, la publicación de Salesforce falla y la barra de progreso se muestra indefinidamente. (24963)
-- Si un vínculo externo contiene un UUID, se incluye en el procesamiento posterior y convierte el vínculo externo en un vínculo UUID, rompiendo así el vínculo en el editor web y también en los sitios de publicación. (22574)
+- Si un vínculo externo contiene un UUID, se incluye en el procesamiento posterior y convierte el vínculo externo en un vínculo UUID, rompiendo así el vínculo en el editor y también en los sitios de publicación. (22574)
 - `xref` se convierte en vínculo relativo incluso cuando el **ámbito** del vínculo está establecido en **externo**. (23059)
 - La generación nativa de PDF falla en el contenido con **chunk** atributo establecido en **to-content**. (21772)
 - El cuadro de diálogo **Editar propiedades** de una línea base no muestra los criterios guardados anteriormente para la línea base dinámica. (23964)

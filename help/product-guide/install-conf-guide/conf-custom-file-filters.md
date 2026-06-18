@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 62195863-cbab-4c53-9cf0-b4a8d26d44f2
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
 
 # Configurar filtros para cuadro de diálogo de exploración de archivos
 
-Mientras trabaja en el Editor Web, debe utilizar el cuadro de diálogo de exploración de archivos para insertar elementos como imagen, referencia o referencia de clave. El cuadro de diálogo de exploración de archivos predeterminado no ofrece ninguna opción de filtrado de archivos. Puede añadir sus propios filtros para acceder a los archivos necesarios de forma fácil y rápida.
+Mientras trabaja en el editor, debe utilizar el cuadro de diálogo de exploración de archivos para insertar elementos como imagen, referencia o referencia de clave. El cuadro de diálogo de exploración de archivos predeterminado no ofrece ninguna opción de filtrado de archivos. Puede añadir sus propios filtros para acceder a los archivos necesarios de forma fácil y rápida.
 
 Las siguientes pestañas proporcionan instrucciones para añadir las opciones de filtrado de archivos personalizadas al cuadro de diálogo de exploración de archivos en función de la configuración de Experience Manager Guides: Cloud Service o Local.
 
@@ -65,7 +65,7 @@ Las siguientes pestañas proporcionan instrucciones para añadir las opciones de
 
    El segundo filtro es para archivos de imagen. Los parámetros son similares al primer filtro excepto el parámetro `value`. El parámetro `value` toma una matriz de tipos de imagen como valor. Todos los tipos de archivo especificados en el parámetro value se buscan y se muestran en el cuadro de diálogo de exploración de archivos; el resto de tipos de archivo se omiten.
 
-1. Guarde el archivo *ui\_config.json* y cárguelo. A continuación, vuelva a cargar el editor web.
+1. Guarde el archivo *ui\_config.json* y cárguelo. A continuación, vuelva a cargar el editor.
 
    Al iniciar el cuadro de diálogo de exploración de archivos, se muestran las opciones de filtro configuradas en el archivo ui\_config.json.
 
@@ -118,7 +118,7 @@ Las siguientes pestañas proporcionan instrucciones para añadir las opciones de
 
    El segundo filtro es para archivos de imagen. Los parámetros son similares al primer filtro excepto el parámetro `value`. El parámetro `value` toma una matriz de tipos de imagen como valor. Todos los tipos de archivo especificados en el parámetro value se buscan y se muestran en el cuadro de diálogo de exploración de archivos; el resto de tipos de archivo se omiten.
 
-1. Guarde el archivo *ui\_config.json* y vuelva a cargar el Editor web.
+1. Guarde el archivo *ui\_config.json* y vuelva a cargar el Editor.
 
    Al iniciar el cuadro de diálogo de exploración de archivos, se muestran las opciones de filtro configuradas en el archivo ui\_config.json.
 
@@ -127,4 +127,4 @@ Las siguientes pestañas proporcionan instrucciones para añadir las opciones de
 >[!ENDTABS]
 
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](customize-overview.md)
+**Tema principal:**&#x200B;[&#x200B; Editor personalizado](customize-overview.md)
