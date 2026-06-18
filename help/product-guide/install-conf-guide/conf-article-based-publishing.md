@@ -56,4 +56,4 @@ Para habilitar la publicación basada en artículos, descargue e instale los sig
 >[!ENDTABS]
 
 
-**Tema principal:**[ Editor personalizado](customize-overview.md)
+**Tema principal:**&#x200B;[&#x200B; Editor personalizado](customize-overview.md)

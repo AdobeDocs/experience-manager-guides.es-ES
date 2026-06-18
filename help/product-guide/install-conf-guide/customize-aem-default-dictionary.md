@@ -62,4 +62,4 @@ Los autores deberán reiniciar su sesión de Editor para actualizar la lista de 
 
 >[!ENDTABS]
 
-**Tema principal:**[ Editor personalizado](customize-overview.md)
+**Tema principal:**&#x200B;[&#x200B; Editor personalizado](customize-overview.md)

@@ -6,10 +6,15 @@ feature: Filename Configuration
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/2oXpOlXt4gZ3GELX7SmwPJoWJYM71f0cZFy2--M6AYM
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
 source-wordcount: 220
@@ -42,4 +47,4 @@ Realice los siguientes pasos para asignar automáticamente el nombre de archivo 
 >
 > Esta opción está desactivada de forma predeterminada. Cuando esta opción está activada, los autores no verán la opción de especificar el nombre del archivo al crear un nuevo tema o archivo de asignación. Se puede crear un nuevo tema o archivo de asignación desde la interfaz de usuario de Assets y el Editor.
 
-**Tema principal:**[ Configurar nombres de archivo](conf-file-names.md)
+**Tema principal:**&#x200B;[&#x200B; Configurar nombres de archivo](conf-file-names.md)

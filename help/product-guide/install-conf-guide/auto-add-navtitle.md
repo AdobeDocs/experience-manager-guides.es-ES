@@ -91,4 +91,4 @@ Con esta configuración, cada archivo de referencia que agregue a un mapa conten
 
 >[!ENDTABS]
 
-**Tema principal:**[ Editor personalizado](customize-overview.md)
+**Tema principal:**&#x200B;[&#x200B; Editor personalizado](customize-overview.md)

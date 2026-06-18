@@ -48,4 +48,4 @@ Para ocultar la ficha **Administrar** en el Editor, realice los siguientes pasos
 
 Tenga en cuenta que el filtro **Administrar** ya no está disponible.
 
-**Tema principal:**[ Editor personalizado](customize-overview.md)
+**Tema principal:**&#x200B;[&#x200B; Editor personalizado](customize-overview.md)

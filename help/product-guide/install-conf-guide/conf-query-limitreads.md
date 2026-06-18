@@ -33,4 +33,4 @@ Para aumentar el número de nodos que una consulta puede leer a la vez, realice 
 
 Cuando se aumenta este valor de atributo, se ayuda a generar el informe para mapas DITA más grandes.
 
-**Tema principal:**[ Editor personalizado](customize-overview.md)
+**Tema principal:**&#x200B;[&#x200B; Editor personalizado](customize-overview.md)

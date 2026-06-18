@@ -28,4 +28,4 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 >
 > Esta configuración está desactivada de forma predeterminada y la opción no está disponible en el Editor.
 
-**Tema principal:**[ Editor personalizado](customize-overview.md)
+**Tema principal:**&#x200B;[&#x200B; Editor personalizado](customize-overview.md)

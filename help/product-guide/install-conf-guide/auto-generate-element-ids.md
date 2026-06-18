@@ -64,4 +64,4 @@ Para configurar un patrón para un ID generado automáticamente, cree un archivo
 
 >[!ENDTABS]
 
-**Tema principal:**[ Editor personalizado](customize-overview.md)
+**Tema principal:**&#x200B;[&#x200B; Editor personalizado](customize-overview.md)

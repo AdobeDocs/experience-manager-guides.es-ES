@@ -59,4 +59,4 @@ Para obtener más información, consulte la sección *Cerrar archivo y guardar e
 
 >[!ENDTABS]
 
-**Tema principal:**[ Editor personalizado](customize-overview.md)
+**Tema principal:**&#x200B;[&#x200B; Editor personalizado](customize-overview.md)
