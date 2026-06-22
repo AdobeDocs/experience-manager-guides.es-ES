@@ -2,9 +2,9 @@
 title: Notas de versión | Novedades de la versión 5.2.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 5.2.0 de Adobe Experience Manager Guides
 role: Leader
-source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
+source-git-commit: 166dd4eec428d81bfe3db92ebc5a54f1760fe7dc
 workflow-type: tm+mt
-source-wordcount: '4132'
+source-wordcount: '4052'
 ht-degree: 0%
 
 ---
@@ -345,13 +345,6 @@ Si un archivo es de sólo lectura, primero debe desprotegerlo antes de realizar 
 Ahora puede utilizar regex para habilitar o deshabilitar el posprocesamiento para carpetas. Esta mejora permite a los administradores definir reglas de procesamiento posterior que se aplican a varias carpetas o jerarquías de carpetas completas mediante una sola configuración, en lugar de especificar rutas de carpeta individuales.
 
 Para obtener más información, vea [Use regex para habilitar o deshabilitar el procesamiento posterior](../install-conf-guide/conf-folder-post-processing.md).
-
-- Ejecutar el procesamiento de recursos en los niveles de carpeta y archivo individual
-- Filtre los recursos eligiendo tipos específicos, como temas, mapas, Markdown, HTML/CSS, DITAVAL u otros archivos compatibles, para procesar solo los archivos que necesite.
-- Aplique filtros basados en fechas para limitar el ámbito de procesamiento para un periodo de tiempo especificado.
-- Volver a procesar recursos directamente mediante la nueva opción (**Volver a procesar recursos**) disponible en el menú contextual de archivos y carpetas en la vista Repositorio y el panel Explorador.
-
-Para obtener más información sobre el procesamiento de recursos, vea [Procesar recursos](../user-guide/asset-processor.md).
 
 ### Limpieza automatizada del árbol B para un rendimiento óptimo
 
