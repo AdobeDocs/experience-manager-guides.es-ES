@@ -2,9 +2,9 @@
 title: Notas de versión | Novedades de la versión 5.2.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 5.2.0 de Adobe Experience Manager Guides
 role: Leader
-source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
+source-git-commit: 166dd4eec428d81bfe3db92ebc5a54f1760fe7dc
 workflow-type: tm+mt
-source-wordcount: '4132'
+source-wordcount: '4052'
 ht-degree: 0%
 
 ---
@@ -346,13 +346,6 @@ Ahora puede utilizar regex para habilitar o deshabilitar el posprocesamiento par
 
 Para obtener más información, vea [Use regex para habilitar o deshabilitar el procesamiento posterior](../install-conf-guide/conf-folder-post-processing.md).
 
-- Ejecutar el procesamiento de recursos en los niveles de carpeta y archivo individual
-- Filtre los recursos eligiendo tipos específicos, como temas, mapas, Markdown, HTML/CSS, DITAVAL u otros archivos compatibles, para procesar solo los archivos que necesite.
-- Aplique filtros basados en fechas para limitar el ámbito de procesamiento para un periodo de tiempo especificado.
-- Volver a procesar recursos directamente mediante la nueva opción (**Volver a procesar recursos**) disponible en el menú contextual de archivos y carpetas en la vista Repositorio y el panel Explorador.
-
-Para obtener más información sobre el procesamiento de recursos, vea [Procesar recursos](../user-guide/asset-processor.md).
-
 ### Limpieza automatizada del árbol B para un rendimiento óptimo
 
 Para mantener la eficiencia del sistema y evitar la congestión de recursos, un nuevo proceso de fondo limpia regularmente los árboles B del nivel del sistema. Esto garantiza que los recursos que ya no existen o que se agregaron temporalmente no ocupen un espacio innecesario.
@@ -425,7 +418,7 @@ Se han realizado las siguientes mejoras de API como parte de esta versión:
 - Se introducen nuevas API para crear un nuevo proyecto de traducción y rastrear su estado. Estas API ayudan a automatizar el proceso de traducción, reduciendo el esfuerzo manual y mejorando la eficacia. Para obtener más información, vea [Crear proyecto de traducción](../api-reference/translation-project.md)
 - API de procesamiento de recursos mejoradas con capacidad de filtrado mejorada para archivos y carpetas. Para obtener más información, vea [Procesar recursos](../api-reference/bulk-assets-processing.md).
 - Hay una nueva API disponible para rastrear el estado posterior al procesamiento de recursos y carpetas individuales. Esto resulta especialmente útil en equipos que utilizan flujos de trabajo automatizados, donde la publicación solo debe producirse después de que el contenido se haya procesado por completo. La API ofrece una forma fiable de confirmar la preparación, lo que reduce el riesgo de errores de publicación causados por un procesamiento incompleto. Además, con la introducción de esta API, los eventos de procesamiento posterior de recursos no se activan automáticamente. Ahora los administradores pueden habilitar este evento mediante una configuración en `fmdita config manager`.
-Para obtener más información, vea la [API para rastrear el estado posterior al procesamiento de recursos y carpetas individuales](../api-reference/track-post-processing-status.md) y la configuración del controlador de eventos posterior al procesamiento en el administrador de configuración de fmdita[&#128279;](../api-reference/post-process-event.md)
+Para obtener más información, vea la [API para rastrear el estado posterior al procesamiento de recursos y carpetas individuales](../api-reference/track-post-processing-status.md) y la configuración del controlador de eventos posterior al procesamiento en el administrador de configuración de fmdita](../api-reference/post-process-event.md)[
 
 ## Introducción de formación sobre productos y contenido de aprendizaje en Experience Manager Guides
 
