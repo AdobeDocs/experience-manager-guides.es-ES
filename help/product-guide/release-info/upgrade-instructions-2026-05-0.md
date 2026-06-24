@@ -1,7 +1,7 @@
 ---
 title: Notas de versión | Instrucciones de actualización y problemas corregidos en la versión 2026.05.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de la matriz de compatibilidad y cómo actualizar a la versión 2026.05.0 de Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 8358a4dc8c023fe1155814f8248aab3ef724e013
+source-git-commit: 343fdd0afbab62a2764fcee0a1f8e0f3c08a0033
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 1%
@@ -52,6 +52,6 @@ Experience Manager Guides se actualiza automáticamente al actualizar a la últi
 
 >[!IMPORTANT]
 >
-> Esta versión incluye actualizaciones de la configuración del perfil de carpeta (ui_config.json). Si utiliza una configuración personalizada, asegúrese de realizar una copia de seguridad de ellas antes de actualizar. Después de la actualización, revise y ajuste la configuración para que se ajuste a los cambios introducidos en la versión más reciente.
+> La versión incluye actualizaciones en la configuración del perfil de carpeta (ui_config.json). Si utiliza una configuración personalizada, asegúrese de realizar una copia de seguridad de ellas antes de actualizar. Después de la actualización, revise y ajuste la configuración para que se ajuste a los cambios introducidos en la versión más reciente.
 
-Revise y valide las configuraciones de configuración para confirmar que se han implementado correctamente. Si ha introducido algún cambio en la configuración personalizada, vea [Configuración adicional para actualizar Cloud Service](../cs-install-guide/additional-config-for-cloud-service.md) para cualquier procedimiento adicional aplicable a la versión desde la que está actualizando.
+Revise y valide las configuraciones de configuración para confirmar que se han implementado correctamente. Si ha introducido algún cambio en la configuración personalizada, vea [Configuración adicional para actualizar Cloud Service](../install-conf-guide/additional-config-for-upgrade.md) para cualquier procedimiento adicional aplicable a la versión desde la que está actualizando.
