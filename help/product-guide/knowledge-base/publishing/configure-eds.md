@@ -5,26 +5,26 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: a4623088-a867-4079-80d6-20866c99683e
-source-git-commit: 7a207bd17946baaf1489a8aa5ca7caa07199be31
+source-git-commit: 1aea696b5f5eba9027a71246f7bff0d0fef93221
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1585'
 ht-degree: 1%
 
 ---
 
 # EXPERIENCE MANAGER GUIDES y EDGE DELIVERY SERVICES
 
-Adobe Experience Manager Guides le permite publicar el contenido DITA directamente en Edge Delivery Services (EDS), disponible actualmente en *Beta*, a través de un perfil de publicación basado en GitHub. Esta capacidad permite a las organizaciones ofrecer experiencias de documentación de alto rendimiento y adaptables mientras mantienen los flujos de trabajo de creación basados en DITA en Experience Manager Guides.
+Adobe Experience Manager Guides le permite publicar el contenido DITA directamente en Edge Delivery Services (EDS) a través de un perfil de publicación basado en GitHub. Esta capacidad permite a las organizaciones ofrecer experiencias de documentación de alto rendimiento y adaptables mientras mantienen los flujos de trabajo de creación basados en DITA en Experience Manager Guides.
 
 Para obtener más información sobre el uso de EDS en Adobe Experience Manager, vea [Información general de Edge Delivery Services](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/edge-delivery/overview).
 
 Para habilitar la publicación desde Experience Manager Guides a EDS, debe completar una serie de pasos de configuración en GitHub y Experience Manager Guides. Las secciones siguientes describen cada paso en secuencia y explican cómo funcionan juntos en el flujo de trabajo general de publicación.
 
-1. [Configuración de GitHub para EDS](#set-up-and-configure-github-for-eds-beta)
-2. [Creación y configuración de un perfil de publicación para EDS en Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
+1. [Configuración de GitHub para EDS](#set-up-and-configure-github-for-eds)
+2. [Creación y configuración de un perfil de publicación para EDS en Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-in-experience-manager)
 3. [Personalización de la salida mediante bloques EDS](#customize-output-using-eds-blocks)
 
-Para ver un tutorial rápido en vídeo, vea [Publicación en AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+Para ver un tutorial rápido en vídeo, vea [Publicación en AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
