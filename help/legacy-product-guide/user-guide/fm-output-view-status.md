@@ -6,20 +6,13 @@ role: User
 hide: true
 exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
 TQID: https://experienceleague.adobe.com/FP5RxNtyWcdS-xpw2Atttt3x6DHx73Ljv-Ym91IxY5s
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2:
-  - id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c1b7d852b148187cb5d33256223d5e0f5498aa7e
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 7ba2ad081f90fcbd38c7b34524a9ed1378e64f0d
 workflow-type: tm+mt
-source-wordcount: 449
+source-wordcount: 544
 ht-degree: 0%
 
 ---
@@ -53,7 +46,7 @@ Realice los siguientes pasos para ver la cola de generación de resultados:
 > Puede definir atributos en el nivel de celda, fila o columna
 >
 > <details>
->&gt; <summary>Mostrar pasos</summary>
+&gt; <summary>Mostrar pasos</summary>
 >
 > También puede definir atributos en varias celdas, filas completas o columnas de una tabla. Por ejemplo, para alinear la celda de la tabla, arrastre y seleccione la celda requerida. En el panel Propiedades de contenido (a la derecha), la propiedad **Type** cambia a **entry**.
 >
@@ -66,22 +59,50 @@ Realice los siguientes pasos para ver la cola de generación de resultados:
 >
 > </details>
 
-## Definir atributos en varias celdas, filas completas o columnas de una tabla
+
+
+**Defina atributos en varias celdas, filas completas o columnas de una tabla**
 
 Puede definir atributos en el nivel de celda, fila o columna.
 
-> <details>
->&gt; <summary>Mostrar pasos</summary>
+<details>
+<summary>Mostrar pasos</summary>
+
+También puede definir atributos en varias celdas, filas completas o columnas de una tabla. Por ejemplo, para alinear la celda de la tabla, arrastre y seleccione la celda requerida. En el panel Propiedades de contenido (a la derecha), la propiedad **Type** cambia a **entry**.
+
+1. En la sección **Atributos**, seleccione **+Agregar**.
+1. Seleccione el atributo `@valign` de la lista desplegable **Atributo**.
+1. En la lista desplegable de valores, seleccione la alineación de texto que desee aplicar en las celdas de la tabla seleccionada.
+1. Seleccionar **Agregar.**
+
+   ![](images/align-table-cell_cs.png)
+
+   </details>
+
+>[!BEGINSHADEBOX]
 >
-> También puede definir atributos en varias celdas, filas completas o columnas de una tabla. Por ejemplo, para alinear la celda de la tabla, arrastre y seleccione la celda requerida. En el panel Propiedades de contenido (a la derecha), la propiedad **Type** cambia a **entry**.
+> **Cómo definir atributos en varias celdas, toda la fila o columna de una tabla**
+>
+> Puede definir atributos en el nivel de celda, fila o columna.
+>
+> <details>
+&gt; <summary>Mostrar pasos</summary>
+>
+> También puede definir atributos en varias celdas, en una fila completa o en una columna de una tabla. Por ejemplo, para alinear una celda de tabla, arrastre y seleccione la celda requerida. En el panel Propiedades de contenido (a la derecha), la propiedad **Type** cambia a **entry**.
 >
 > 1. En la sección **Atributos**, seleccione **+Agregar**.
-> 1. Seleccione el atributo `@valign` de la lista desplegable **Atributo**.
-> 1. En la lista desplegable de valores, seleccione la alineación de texto que desee aplicar en las celdas de la tabla seleccionada.
-> 1. Seleccionar **Agregar.**
+> 1. Seleccione el atributo `@valign` en la lista desplegable **Atributo**.
+> 1. En el menú desplegable **Valor**, seleccione la alineación de texto que desee.
+> 1. Seleccione **Añadir**.
 >
 > ![](images/align-table-cell_cs.png)
 >
 > </details>
+>
+>[!ENDSHADEBOX]
 
-**Tema principal:**&#x200B;[&#x200B; Generar salida de documentos de FrameMaker](fm-output-generatation.md)
+
+
+
+**Tema principal:**[ Generar salida de documentos de FrameMaker](fm-output-generatation.md)
+
