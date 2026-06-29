@@ -17,9 +17,9 @@ subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 7ba2ad081f90fcbd38c7b34524a9ed1378e64f0d
+source-git-commit: 2e0c04c623ad0fc59d962c3b7c9f2c82d4ff70e0
 workflow-type: tm+mt
-source-wordcount: 544
+source-wordcount: 245
 ht-degree: 0%
 
 ---
@@ -47,68 +47,6 @@ Realice los siguientes pasos para ver la cola de generación de resultados:
      Enumera las tareas de salida que se han completado. De nuevo, la información que se muestra en esta sección es similar a la de las salidas en cola, con la única diferencia del tiempo de generación de salida.
 
      En esta lista, puede tener tareas que se hayan ejecutado correctamente o tareas que hayan fallado. Para las tareas que se han completado correctamente, el proceso de publicación crea un archivo de registro \(logs.txt\) al que se puede acceder haciendo clic en el vínculo en la columna Generated At.
-
-> **Cómo definir atributos en varias celdas, toda la fila o columna de una tabla**
->
-> Puede definir atributos en el nivel de celda, fila o columna
->
-> <details>
->&gt; <summary>Mostrar pasos</summary>
->
-> También puede definir atributos en varias celdas, filas completas o columnas de una tabla. Por ejemplo, para alinear la celda de la tabla, arrastre y seleccione la celda requerida. En el panel Propiedades de contenido (a la derecha), la propiedad **Type** cambia a **entry**.
->
-> 1. En la sección **Atributos**, seleccione **+Agregar**.
-> 1. Seleccione el atributo `@valign` de la lista desplegable **Atributo**.
-> 1. En la lista desplegable de valores, seleccione la alineación de texto que desee aplicar en las celdas de la tabla seleccionada.
-> 1. Seleccionar **Agregar.**
->
-> ![](images/align-table-cell_cs.png)
->
-> </details>
-
-
-
-**Defina atributos en varias celdas, filas completas o columnas de una tabla**
-
-Puede definir atributos en el nivel de celda, fila o columna.
-
-<details>
-<summary>Mostrar pasos</summary>
-
-También puede definir atributos en varias celdas, filas completas o columnas de una tabla. Por ejemplo, para alinear la celda de la tabla, arrastre y seleccione la celda requerida. En el panel Propiedades de contenido (a la derecha), la propiedad **Type** cambia a **entry**.
-
-1. En la sección **Atributos**, seleccione **+Agregar**.
-1. Seleccione el atributo `@valign` de la lista desplegable **Atributo**.
-1. En la lista desplegable de valores, seleccione la alineación de texto que desee aplicar en las celdas de la tabla seleccionada.
-1. Seleccionar **Agregar.**
-
-   ![](images/align-table-cell_cs.png)
-
-   </details>
-
->[!BEGINSHADEBOX]
->
-> **Cómo definir atributos en varias celdas, toda la fila o columna de una tabla**
->
-> Puede definir atributos en el nivel de celda, fila o columna.
->
-> <details>
->&gt; <summary>Mostrar pasos</summary>
->
-> También puede definir atributos en varias celdas, en una fila completa o en una columna de una tabla. Por ejemplo, para alinear una celda de tabla, arrastre y seleccione la celda requerida. En el panel Propiedades de contenido (a la derecha), la propiedad **Type** cambia a **entry**.
->
-> 1. En la sección **Atributos**, seleccione **+Agregar**.
-> 1. Seleccione el atributo `@valign` en la lista desplegable **Atributo**.
-> 1. En el menú desplegable **Valor**, seleccione la alineación de texto que desee.
-> 1. Seleccione **Añadir**.
->
-> ![](images/align-table-cell_cs.png)
->
-> </details>
->
->[!ENDSHADEBOX]
-
-
 
 
 **Tema principal:**&#x200B;[&#x200B; Generar salida de documentos de FrameMaker](fm-output-generatation.md)
