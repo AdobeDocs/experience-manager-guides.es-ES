@@ -12,9 +12,9 @@ feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9132140a0305eb0507598a7caf5f704861879a93
+source-git-commit: 6c69cc5da7eadbcbfe499ca7b54c2ddaa1064db7
 workflow-type: tm+mt
-source-wordcount: 127
+source-wordcount: 159
 ht-degree: 0%
 
 ---
@@ -33,6 +33,10 @@ Siga estos pasos para generar una salida SCORM:
    ![](assets/scorm-success-message.png){width="350"}
 
 1. Puede descargar o previsualizar el resultado seleccionando **Descargar salida** o **Vista previa de salida** respectivamente.
+
+   >[!NOTE]
+   >
+   > La vista previa de SCORM está disponible cuando se genera una salida de SCORM. Si el curso depende de dominios externos para fuentes, hojas de estilo o contenido incrustado, configure los dominios permitidos en [Configurar vista previa de SCORM](../lc-config-guide/conf-scorm-preview-filters.md).
 
    ![](assets/scorm-view-output-new.png){width="650"}
 

@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: e8cdb1fe05d839d9167e834577f46e17f9ed28b5
 workflow-type: tm+mt
-source-wordcount: 1460
+source-wordcount: 1470
 ht-degree: 0%
 
 ---
@@ -57,8 +57,7 @@ La vista Source muestra el XML subyacente que compone el tema. Si se siente cóm
 
   En la captura de pantalla anterior, se utiliza un resaltado cruzado para señalar la línea que contiene el XML erróneo.
 
-- La función Buscar y reemplazar permite buscar texto, elementos o atributos en la vista de Source.
-Para obtener más información, consulte la descripción de la característica **Buscar y reemplazar** en la sección [Barra de herramientas principal](web-editor-features.md#id#id2051EA0G05Z).
+- La función Buscar y reemplazar permite buscar texto, elementos o atributos en la vista de Source.Para obtener más información, consulte la descripción de la característica **Buscar y reemplazar** en la sección [Barra de herramientas principal](web-editor-features.md#id#id2051EA0G05Z).
 
 - La vista de Source proporciona muchos métodos abreviados para ayudarle a desplazarse por un documento y trabajar con él rápidamente. En la tabla siguiente se enumeran las acciones admitidas y sus teclas de método abreviado:
 
@@ -162,6 +161,8 @@ Para exportar un tema como PDF, siga estos pasos:
    > Asegúrese de haber habilitado la ventana emergente en la configuración del explorador; de lo contrario, PDF no se descargará.
 
    El PDF se genera y abre en una nueva pestaña o se le muestra un cuadro de diálogo para guardar el PDF en el sistema local.
+
+   Para obtener más información, [Ver el PDF](./images/best-practices-guide.pdf)
 
 
 **Tema principal:**&#x200B;[&#x200B; Trabajar con el editor web](web-editor.md)

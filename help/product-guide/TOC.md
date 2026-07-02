@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: 1aea696b5f5eba9027a71246f7bff0d0fef93221
+source-git-commit: 31ea563a6878c340bba73dfa549fae7cd399720f
 workflow-type: tm+mt
-source-wordcount: '2527'
+source-wordcount: '2537'
 ht-degree: 10%
 
 ---
@@ -20,6 +20,9 @@ ht-degree: 10%
       - Cloud Services {#cloud-release-notes}
          - {hide-from-toc}[Instrucciones de implementación](./release-info/deploy-xml-on-aemaacs.md)
          - Versiones de 2026 {#2026-releases}
+            - Versión 2026.07.0 {#2607-release}
+               - [Problemas solucionados](./release-info/fixed-issues-2026-07-0.md)
+               - [Instrucciones de actualización](./release-info/upgrade-instructions-2026-07-0.md)
             - Versión 2026.06.0 {#2606-release}
                - [Novedades](./release-info/whats-new-2026-06-0.md)
                - [Problemas solucionados](./release-info/fixed-issues-2026-06-0.md)
@@ -401,6 +404,7 @@ ht-degree: 10%
          - [Configuración de perfiles de carpeta](./lc-config-guide/lc-folder-profile.md)
          - [Prácticas recomendadas para configurar la estructura de carpetas](./lc-config-guide/best-practices-folder-structure.md)
          - [Configurar otras opciones](./lc-config-guide/lc-other-settings.md)
+         - [Configuración de filtros de previsualización SCORM](./lc-config-guide/conf-scorm-preview-filters.md)
          - [Métricas clave de SCORM](./lc-config-guide/learning-course-parameters.md)
       - Tutoriales en vídeo {#lc-video}
          - [Flujo de trabajo de autor](./lc-video-tutorials/author-workflow.md)
