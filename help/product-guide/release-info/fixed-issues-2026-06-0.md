@@ -1,9 +1,9 @@
 ---
 title: Notas de versión | Se han corregido problemas en la versión 2026.06.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las correcciones de errores en la versión 2026.06.0 de Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 010a11e20d518064549ce7d66648586f49f572ec
+source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2171'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Adobe ha identificado los siguientes problemas conocidos para la versión 2026.0
 
 - El cambio entre los modos Source y Autor causa incoherencias en el contenido, con partes del tema que desaparecen o no se reflejan en los distintos modos. (GUIDES-47432)
 
-- Al trabajar en la vista Esquema con **Control de cambios** habilitado, al rechazar un cambio se quita todo el contenido de la etiqueta en lugar de rechazar únicamente el contenido modificado específico. (GUIDES-48319)
+- Al trabajar con Rastrear cambios, al rechazar una inserción de texto importado se elimina todo el contenido de la etiqueta en lugar de rechazar únicamente el contenido insertado específico. (GUIDES-48319)
 
 - El botón **Exportar como PDF** en el modo de vista previa no realiza ninguna acción cuando la barra de herramientas del editor se personaliza con `editor_toolbar.json` en un perfil de carpeta. (GUIDES-47525)
 
