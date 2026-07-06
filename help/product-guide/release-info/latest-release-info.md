@@ -56,7 +56,7 @@ Las diferencias clave entre las compilaciones UUID y no UUID son las siguientes:
 
 Al actualizar desde una versión anterior a una versión más reciente de [!DNL AEM Guides], es posible que tenga que ejecutar scripts de migración. Consulte las Notas de la versión y la documentación específica de la versión para obtener instrucciones de actualización.
 
-No todas las rutas de actualización son compatibles directamente. Por ejemplo, la actualización directa a la versión 4.0 solo es posible desde la versión 3.8.Si tiene una versión anterior a la 3.8, consulte la documentación específica de la versión para obtener instrucciones de actualización [Archivo de ayuda](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).Póngase en contacto con el administrador de éxito del cliente para validar la ruta de actualización.
+No todas las rutas de actualización son compatibles directamente. Por ejemplo, la actualización directa a la versión 4.0 solo es posible desde la versión 3.8.Si tiene una versión anterior a la 3.8, consulte la documentación específica de la versión para obtener instrucciones de actualización [Archivo de ayuda](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/archive.html).Póngase en contacto con el administrador de éxito del cliente para validar la ruta de actualización.
 
 **[!DNL AEM Guides]compilaciones**
 
