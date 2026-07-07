@@ -4,9 +4,10 @@ description: Obtenga información sobre cómo realizar la asignación de compone
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 9243592c-1a3c-4218-8674-19305dd6f17a
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -22,8 +23,7 @@ Utilice una matriz de reglas JSON (su `componentmapping.json`) para convertir HT
 ### Oriente el elemento HTML y su clase
 
 - Escriba el nombre de la etiqueta HTML en `name`.
-- Incluya la clase CSS aplicada a ese elemento en `class`, si la clase existe.
-Ejemplo:
+- Incluya la clase CSS aplicada a ese elemento en `class`, si la clase existe.Ejemplo:
 
   ```html
   <div class ="sample-class">
@@ -48,8 +48,7 @@ Al definir los elementos anteriores, asegúrese de lo siguiente:
 
 ### Utilice attributeMap para guardar las propiedades en el nodo JCR
 
-Agregue entradas a `attributeMap` para establecer propiedades en el nodo de salida. Cada entrada genera `attrs[to] = value`.
-Patrones comunes:
+Agregue entradas a `attributeMap` para establecer propiedades en el nodo de salida. Cada entrada genera `attrs[to] = value`.Patrones comunes:
 
 ```json
 // copy an attribute
@@ -165,8 +164,7 @@ Aprenda a crear un componente de tabla personalizado que muestre imágenes dentr
 
 ### Lo que va a generar
 
-Componente de tabla personalizado que acepta contenido de tabla de HTML y reemplaza cada `<img>` dentro de él con la salida del componente de imagen principal de AEM. Esto le permite reutilizar las funciones de la imagen principal (imágenes adaptables, control alternativo, accesibilidad) mientras mantiene un control total sobre el marcado de la tabla.
-Con este método, puede crear otros componentes personalizados para su sitio web de AEM (mediante la asignación de componentes compuestos).
+Componente de tabla personalizado que acepta contenido de tabla de HTML y reemplaza cada `<img>` dentro de él con la salida del componente de imagen principal de AEM. Esto le permite reutilizar las funciones de la imagen principal (imágenes adaptables, control alternativo, accesibilidad) mientras mantiene un control total sobre el marcado de la tabla.Con este método, puede crear otros componentes personalizados para su sitio web de AEM (mediante la asignación de componentes compuestos).
 
 ### Por qué este enfoque
 
