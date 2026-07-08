@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 83f5a8409e8bb9c8a6ccc33ffadf64e6c7875f6f
+source-git-commit: b9ab219dd067047e2c9f00ead6d0538df450eb66
 workflow-type: tm+mt
-source-wordcount: 1478
+source-wordcount: 1465
 ht-degree: 0%
 
 ---
@@ -162,10 +162,5 @@ Para exportar un tema como PDF, siga estos pasos:
 
    El PDF se genera y abre en una nueva pestaña o se le muestra un cuadro de diálogo para guardar el PDF en el sistema local.
 
-   Para obtener más información, [Ver el PDF](./images/best-practices-guide.pdf)
-
-
-
-   Para obtener más información, [vea el ![icono de PDF](./images/pdf_icon.png "PDF") &#x200B;](./images/best-practices-guide.pdf)PDF
 
 **Tema principal:**&#x200B;[&#x200B; Trabajar con el editor web](web-editor.md)
