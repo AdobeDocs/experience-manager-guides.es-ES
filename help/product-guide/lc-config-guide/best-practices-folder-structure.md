@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: ff832d30f88c5810017e1a1ee41d644619f7331f
 workflow-type: tm+mt
 source-wordcount: 625
 ht-degree: 0%
@@ -96,3 +96,4 @@ Para asignar permisos, vaya a **Herramientas** > **Seguridad** > **Permisos**.
 Estos permisos ayudan a garantizar que los usuarios puedan crear o modificar contenido únicamente dentro de sus carpetas designadas.
 
 Para obtener más información, vea [Permisos en AEM](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/security/security#permissions-in-aem).
+
