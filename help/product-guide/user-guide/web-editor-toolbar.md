@@ -5,24 +5,14 @@ feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
 TQID: https://experienceleague.adobe.com/KX-yf8J7QxTJ-vZq0onxJVPLqYFPMIka8CE6DWZgvbw
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 550ca219c5664b33e5a4a3db74ff3cade05e0c68
 workflow-type: tm+mt
-source-wordcount: 6346
+source-wordcount: 6454
 ht-degree: 0%
 
 ---
@@ -116,7 +106,7 @@ La característica **Historial de versiones** del Editor permite comprobar las v
 
    Pestaña **Metadatos**: los metadatos agregados recientemente están en fuente verde y los metadatos eliminados están en fuente roja.
 
-   ![Diferencia de metadatos para las versiones &#x200B;](images/metadata-version-diff.png){width="550"}
+   ![Diferencia de metadatos para las versiones ](images/metadata-version-diff.png){width="550"}
 
    *Comparar los metadatos de distintas versiones en el historial de versiones.*
 
@@ -297,13 +287,13 @@ La siguiente captura de pantalla resalta el contenido eliminado e insertado junt
 
   Las siguientes operaciones se pueden realizar en un documento con etiquetas:
 
-   - **Seleccionar un elemento**: seleccione la etiqueta de apertura o cierre de un elemento para seleccionar su contenido.
+  - **Seleccionar un elemento**: seleccione la etiqueta de apertura o cierre de un elemento para seleccionar su contenido.
 
-   - **Expandir o contraer etiquetas**: seleccione el signo + o - en una etiqueta para expandirla o contraerla.
+  - **Expandir o contraer etiquetas**: seleccione el signo + o - en una etiqueta para expandirla o contraerla.
 
-   - **Usar el menú contextual**: El menú contextual proporciona opciones para cortar, copiar o pegar el elemento seleccionado. También puede insertar un elemento antes o después del elemento seleccionado. Las demás opciones le permiten Generar ID o abrir el panel Propiedades del elemento seleccionado.
+  - **Usar el menú contextual**: El menú contextual proporciona opciones para cortar, copiar o pegar el elemento seleccionado. También puede insertar un elemento antes o después del elemento seleccionado. Las demás opciones le permiten Generar ID o abrir el panel Propiedades del elemento seleccionado.
 
-   - **Arrastrar y soltar elementos**: seleccione la etiqueta de un elemento y arrástrela y suéltela fácilmente en el documento. Si la ubicación de colocación es una ubicación válida donde el elemento está permitido, el elemento se coloca en la ubicación de colocación.
+  - **Arrastrar y soltar elementos**: seleccione la etiqueta de un elemento y arrástrela y suéltela fácilmente en el documento. Si la ubicación de colocación es una ubicación válida donde el elemento está permitido, el elemento se coloca en la ubicación de colocación.
 
 
   >[!NOTE]
@@ -463,6 +453,18 @@ El campo **Ruta de acceso de Source** muestra la ruta de acceso relativa de la r
 El campo **UUID de Source** muestra el UUID de la referencia seleccionada. Utilice el botón **Copiar UUID** para copiar el UUID.
 
 Puede cambiar el tamaño de una imagen proporcionando el valor Altura o Anchura para el archivo de imagen. La proporción de aspecto de la imagen se mantiene automáticamente. Si lo desea, también puede optar por no mantener la proporción de aspecto del archivo de imagen seleccionando el icono de candado \(de Mantener proporción de aspecto\) y proporcionando los valores de Altura y Anchura.
+
+En el editor nuevo, también puede cambiar el tamaño de una imagen arrastrando sus controladores en el modo Autor:
+
+- **Controladores de esquina**: al arrastrar los controladores de esquina, se cambia el tamaño de la imagen manteniendo su relación de aspecto.
+
+  ![](images/resize-corner-handles.png)
+
+- **controladores intermedios**: presione **Mayús** para mostrar los controladores intermedios adicionales. Al arrastrar estos cambios, se cambia el tamaño de la imagen sin mantener la relación de aspecto, lo que permite aumentar o reducir la altura o la anchura de forma independiente.
+
+  ![](images/resize-middle-handles.png)
+
+A medida que arrastra, los valores Alto y Ancho del panel **Propiedades de contenido** se actualizan automáticamente para reflejar las nuevas dimensiones. Este cambio de tamaño también se refleja en el modo **lado a lado** y en el modo **Vista previa**, de modo que puede confirmar cómo aparecerá la imagen redimensionada antes de publicarla.
 
 También puede especificar la configuración Ubicación para la imagen como En línea o Salto. Si decide utilizar la opción Colocación de rotura, puede elegir dónde alinear la imagen (izquierda, centro o derecha).
 
@@ -762,4 +764,4 @@ Si un archivo está bloqueado por otro usuario, al pasar el ratón por encima de
 Como administrador, también obtienes acceso a la función **Forzar desbloqueo** que te permite desbloquear el archivo bloqueado por otros usuarios. Utilice esta función para acceder a los derechos de edición de un archivo bloqueado por otros usuarios.
 
 ![](images/web-editor-force-unlock-new.png){width="350"}
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

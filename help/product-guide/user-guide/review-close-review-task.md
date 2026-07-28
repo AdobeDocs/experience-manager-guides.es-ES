@@ -5,25 +5,17 @@ feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
 TQID: https://experienceleague.adobe.com/uuaP85TjYQvFzKfFRLfYj8xkOiIzpIVB-6Vj34wipHI
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f6b42924258ff1092eb492dfdcc348f9247886f7
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 7d0c757b647a2e6c5e563f0ed7db6a7225769033
 workflow-type: tm+mt
-source-wordcount: 604
+source-wordcount: 637
 ht-degree: 0%
 
 ---
 
 # Solicitar una revisión o cerrar una tarea de revisión como autor
-
->[!IMPORTANT]
->
-> Las nuevas funciones descritas en este artículo se habilitan de forma predeterminada con la versión 2508 de Experience Manager Guides as a Cloud Service. Las revisiones creadas antes de la migración no se ven afectadas y seguirán utilizando el flujo de trabajo anterior. Si prefiere seguir utilizando las funciones existentes sin estas actualizaciones, póngase en contacto con el equipo de éxito del cliente para que se deshabiliten las nuevas funciones.
 
 Cuando un revisor marca una tarea de revisión como completada, se activa una notificación para el iniciador de la tarea, lo que les permite acceder y revisar la tarea y los comentarios de nivel de tarea relacionados.
 
@@ -31,6 +23,10 @@ Como iniciador de la tarea de revisión, puede decidir cómo proceder en funció
 
 - Solicitar una nueva revisión
 - Cerrar la tarea de revisión
+
+>[!NOTE]
+>
+> Si la característica Delegar está habilitada para su entorno, un revisor también puede solicitar [agregar otro revisor a la tarea de revisión](./review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer). Estas solicitudes aparecen en forma de notificaciones en la bandeja de entrada de AEM. Si el revisor recomendado no forma parte del proyecto asociado, tiene la opción de agregarlo primero al proyecto. De lo contrario, se le dirigirá a la ficha **REVISORES** de la página **Detalles de la tarea** para agregar el revisor recomendado a la tarea de revisión. La decisión de agregar el revisor recomendado siempre recae en usted como iniciador de la tarea de revisión.
 
 ## Solicitar una nueva revisión o cerrar una tarea de revisión
 

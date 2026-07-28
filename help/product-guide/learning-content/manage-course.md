@@ -5,17 +5,12 @@ feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
 TQID: https://experienceleague.adobe.com/Ffg1tESMpsZU71BF5UcWu-bSBTekVGiv-dv24jD-tjA
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: 740
 ht-degree: 0%
 
 ---
@@ -47,11 +42,16 @@ El contenido seleccionado se crea y se añade al curso. Para ver un vídeo intro
 Puede añadir contenido existente del repositorio de contenido al curso. Siga estos pasos para agregar contenido existente:
 
 1. Seleccione el menú **Opciones** > **Agregar elemento existente**.
-2. Seleccione el tipo de contenido del curso que desea crear.
-3. En el cuadro de diálogo **Seleccionar archivo**, vaya a la ubicación del contenido y seleccione el contenido de aprendizaje que desee.
+1. Seleccione el tipo de contenido del curso que desea crear.
+1. En el cuadro de diálogo **Seleccionar archivo**, vaya a la ubicación del contenido y seleccione el contenido de aprendizaje que desee.
 
-   ![](assets/add-existing-learning-content.png)
-4. Elija **Seleccionar**.
+>[!NOTE]
+>
+> Cuando agrega un tema de HTML a un mapa del grupo de aprendizaje, el atributo `format="html"` se agrega automáticamente al `topicref` correspondiente del mapa. Esto garantiza que el tema se procese y publique correctamente.
+
+![](assets/add-existing-learning-content.png)
+
+1. Elija **Seleccionar**.
 
 El contenido del curso seleccionado se añade al curso desde el repositorio.
 

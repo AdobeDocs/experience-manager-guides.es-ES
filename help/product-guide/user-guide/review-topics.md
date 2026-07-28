@@ -5,24 +5,14 @@ exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
 TQID: https://experienceleague.adobe.com/FKASAXcwI6A5iGO8n758bBCNzjMitcz2zgnJWrNfM8U
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
-  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
-subfeature_v2:
-  - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
-  - id: c8841798-1a28-4264-a46a-984860f8e6f6
-  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: b1210526-416b-4ef6-bcc0-1692e99f30e9id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2: id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12id: c8841798-1a28-4264-a46a-984860f8e6f6id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a668e1b862702ae1154b05d974414b54b43559ea
 workflow-type: tm+mt
-source-wordcount: 2753
+source-wordcount: 3068
 ht-degree: 0%
 
 ---
@@ -97,7 +87,7 @@ Siga estos pasos para revisar un tema:
 1. Abra el panel Comentarios seleccionando el icono **Comentarios** en la esquina superior derecha de la barra de herramientas.
 
    Proporcione comentarios de revisión seleccionando un tipo de comentario adecuado en la barra de herramientas y pulse Intro para enviar el comentario.
-El cuadro de comentarios admite entradas de varias líneas y permite a los usuarios expandirlo según sea necesario para proporcionar comentarios detallados. Puedes usar **Shift** + **Enter** para ir a la línea siguiente mientras escribes el comentario.
+   El cuadro de comentarios admite entradas de varias líneas y permite a los usuarios expandirlo según sea necesario para proporcionar comentarios detallados. Puedes usar **Shift** + **Enter** para ir a la línea siguiente mientras escribes el comentario.
 
    >[!NOTE]
    >
@@ -107,7 +97,9 @@ El cuadro de comentarios admite entradas de varias líneas y permite a los usuar
 
 ## Funciones adicionales disponibles en la pantalla de revisión
 
-**Vista de documento y vista de tema**: de forma predeterminada, si se comparten varios temas para su revisión, se muestra a los revisores una vista de documento compuesta de los temas. En el caso de una revisión de mapa DITA, todos los temas del mapa se presentan en forma de un único documento, similar a una vista de libro. Si lo desea, también puede seleccionar un tema en particular y solo ese tema se mostrará en la pantalla de revisión.
+### Vista de documento y vista de tema
+
+De forma predeterminada, si se comparten varios temas para su revisión, se muestra a los revisores una vista de documento compuesta de los temas. En el caso de una revisión de mapa DITA, todos los temas del mapa se presentan en forma de un único documento, similar a una vista de libro. Si lo desea, también puede seleccionar un tema en particular y solo ese tema se mostrará en la pantalla de revisión.
 
 Cuando vea un solo tema, obtendrá una opción adicional para volver a la vista de documento. En la siguiente captura de pantalla, se abre un tema concreto de un archivo de mapa para su revisión. La opción resaltada: **Mostrar vista de documento** permite al usuario volver a la vista de documento del archivo de asignación.
 
@@ -115,11 +107,11 @@ Cuando vea un solo tema, obtendrá una opción adicional para volver a la vista 
 >
 > Cualquier resolución de pantalla con una anchura superior a 1600 píxeles es compatible con las anchuras de panel predeterminadas (izquierda y derecha), lo que garantiza que no aparezca ninguna barra de desplazamiento horizontal y que el contenido permanezca correctamente alineado en la vista de documento. Además, siempre puede cambiar el tamaño de la pantalla para mantener la vista del documento adecuada en la IU de revisión.
 
-
-
 ![](images/switch-document-view.png)
 
-**Uso de diferentes tipos de herramientas de comentarios**: puede agregar comentarios entre líneas resaltando texto, tachando texto, insertando texto o agregando una nota de comentario. A continuación se describen los distintos tipos de herramientas de comentarios que se proporcionan en la barra de herramientas Comentarios:
+### Trabajar con diferentes tipos de herramientas de comentarios
+
+Puede agregar comentarios en línea resaltando texto, tachando texto, insertando texto o agregando una nota de comentario. A continuación se describen los distintos tipos de herramientas de comentarios que se proporcionan en la barra de herramientas Comentarios:
 
 ![](images/comments-toolbar.png){width="350"}
 
@@ -138,7 +130,7 @@ Cuando vea un solo tema, obtendrá una opción adicional para volver a la vista 
 - **Agregar comentario**\(![](images/review-comment-icon.svg)\): si desea agregar un tipo de comentario de nota adhesiva, seleccione el icono Agregar comentario e introduzca el comentario en la ventana emergente.
 
 
-**Barra de herramientas contextual**
+### Barra de herramientas contextual
 
 También puede resaltar o tachar texto rápidamente con la barra de herramientas contextual. Siga estos pasos para comentar mediante la barra de herramientas contextual:
 
@@ -149,7 +141,9 @@ También puede resaltar o tachar texto rápidamente con la barra de herramientas
 1. Seleccione el icono **Resaltar** o **Tachar**.
 1. Puede agregar comentarios en el panel de comentarios para la acción de resaltado o tachado.
 
-**Revisar con el panel Comentarios**: el panel Comentarios muestra una lista de comentarios proporcionados sobre el tema actual. En este panel también se muestran los comentarios de otros revisores si el tema se envía a varios revisores. Cada comentario del panel de comentarios está vinculado al texto correspondiente del tema actual. Ayuda a identificar el texto comentado. Cada comentario muestra el nombre del revisor que lo ha agregado junto con la marca de tiempo.
+### Revisar con el panel Comentarios
+
+El panel Comentarios muestra una lista de comentarios proporcionados sobre el tema actual. En este panel también se muestran los comentarios de otros revisores si el tema se envía a varios revisores. Cada comentario del panel de comentarios está vinculado al texto correspondiente del tema actual. Ayuda a identificar el texto comentado. Cada comentario muestra el nombre del revisor que lo ha agregado junto con la marca de tiempo.
 
 Los comentarios se muestran en el orden del texto comentado en el documento. Por ejemplo, hay un comentario resaltado en la primera frase y un comentario de texto insertado en la segunda frase del primer párrafo, y el comentario de texto resaltado se muestra antes del comentario de texto insertado.
 
@@ -168,9 +162,9 @@ A continuación, se describen las tareas que puede realizar mediante el panel Co
 
 - Todos los usuarios participantes pueden responder a los comentarios enviados por otros usuarios. En un comentario, selecciona **Responder** y pulsa Intro para enviar una respuesta. El cuadro de respuesta es multilínea y ampliable, lo que ayuda a los usuarios a proporcionar respuestas detalladas a los comentarios. Puedes usar **Shift** + **Enter** para ir a la línea siguiente mientras escribes la respuesta.
 
-**Modo de previsualización**
+### Modo de vista previa
 
-- Al abrir un tema en el modo Vista previa, se muestra cómo se mostrará cuando un autor lo vea después de aplicar todos los cambios. Por ejemplo, todo el texto insertado se muestra como texto normal y todo el texto tachado \(eliminado\) se elimina del contenido.
+Al abrir un tema en el modo Vista previa, se muestra cómo se mostrará cuando un autor lo vea después de aplicar todos los cambios. Por ejemplo, todo el texto insertado se muestra como texto normal y todo el texto tachado \(eliminado\) se elimina del contenido.
 
 - La siguiente captura de pantalla muestra el contenido en el modo *Revisar*:
 
@@ -181,7 +175,7 @@ La siguiente captura de pantalla muestra el contenido en el modo *Vista previa*:
 ![](images/review-preview-mode.png){width="550"}
 
 
-**Etiquetar usuarios de tareas en un comentario**
+### Etiquetar usuarios de tareas en un comentario
 
 Al colaborar en una tarea de revisión con varios revisores, puede mejorar la comunicación mediante el etiquetado de usuarios específicos tanto en los nuevos comentarios como en las respuestas. Como revisor, puede iniciar un comentario o responder a uno existente mientras etiqueta a otros usuarios implicados en la misma tarea de revisión para llamar su atención o asignar seguimientos. Esta funcionalidad solo está disponible para tareas de revisión activas.
 
@@ -191,11 +185,17 @@ Al colaborar en una tarea de revisión con varios revisores, puede mejorar la co
 
 ![](images/tag-users-review-ui.png){width="350"}
 
+Para etiquetar a un usuario, escriba `@` en un comentario o respuesta y seleccione un usuario de la lista de revisores. Se muestra el nombre para mostrar junto con una dirección de correo electrónico del usuario para facilitar la identificación. Si una dirección de correo electrónico no está disponible, se muestra el ID de usuario en su lugar.
+
+![](images/tagged-users-with-email.png)
+
 Los usuarios etiquetados reciben un correo electrónico y una notificación de AEM, lo que garantiza que se les informe rápidamente. Para obtener más información sobre el déclencheur de las notificaciones de revisión, consulte [Explicación de las notificaciones de revisión](./review-understanding-review-notifications.md).
 
 ![](images/mentioned-in-tags-author.png){width="350"}
 
-**Agregar datos adjuntos a los comentarios**: si desea complementar el comentario proporcionando información adicional que está disponible en algún otro archivo, puede adjuntarla al comentario. Como revisor, puede agregar fácilmente uno o varios archivos del sistema local al comentario. Se puede agregar un archivo a todas las formas de comentarios compatibles: Resaltar, Tachar, Insertar texto o un comentario.
+### Agregar archivos adjuntos a los comentarios
+
+Si desea complementar su comentario proporcionando información adicional que está disponible en algún otro archivo, puede adjuntarla a su comentario. Como revisor, puede agregar fácilmente uno o varios archivos del sistema local al comentario. Se puede agregar un archivo a todas las formas de comentarios compatibles: Resaltar, Tachar, Insertar texto o un comentario.
 
 Al insertar cualquiera de los comentarios, aparece la ventana emergente de comentarios. Después de proporcionar comentarios o información adicional en la ventana emergente, puede enviarla pulsando Intro. Una vez agregado el comentario, tiene la opción de agregar un archivo adjunto a ese comentario.
 
@@ -241,25 +241,64 @@ Los demás revisores o autores solo obtienen la opción Descargar archivo adjunt
 ![](images/attach-files-comments-panel.png){width="550"}
 
 
-**Panel de condiciones**: si el tema tiene contenido condicional, verá el icono **Condiciones** \(![](images/conditions-icon.svg)\) a la derecha. Al seleccionar el icono **Condiciones**, se abre el panel Condiciones, que le permite resaltar el contenido según las condiciones disponibles en el tema.
+### Trabajo con el panel Condiciones
 
-: De forma predeterminada, la opción **Resaltar todas las condiciones** está habilitada, se seleccionan todas las condiciones, se muestra todo el contenido y el contenido condicionado se muestra como resaltado en los modos de revisión y vista previa.
+Si el tema tiene contenido condicional, verá el icono **Condiciones** \(![](images/conditions-icon.svg)\) a la derecha. Al seleccionar el icono **Condiciones**, se abre el panel Condiciones, que le permite resaltar el contenido según las condiciones disponibles en el tema.
 
-: puede deshabilitar la opción **Resaltar todas las condiciones** y ver todo el contenido presente en el tema como texto normal sin resaltados.
+- De manera predeterminada, la opción **Resaltar todas las condiciones** está habilitada, todas las condiciones están seleccionadas, todo el contenido se muestra y el contenido condicionado se muestra resaltado tanto en el modo de revisión como de vista previa.
 
-![](images/review-conditions-panel.png){width="350"}
+- Puede deshabilitar la opción **Resaltar todas las condiciones** y ver todo el contenido presente en el tema como texto normal sin resaltados.
+
+  ![](images/review-conditions-panel.png){width="350"}
 
 Puede elegir ocultar o mostrar una condición específica.
 
 - Si oculta una condición, el contenido que tenga esa condición no se resaltará en el modo de revisión.
 - Si muestra una condición, el contenido condicionado se resaltará en el modo de revisión. Por ejemplo, en la siguiente captura de pantalla, solo el contenido usa dos condiciones: `win` y `mac` está resaltado.
 
-
-![](images/review-condition-normal-mode.png){width="650"}
+  ![](images/review-condition-normal-mode.png){width="650"}
 
 En el modo de vista previa, se muestra el contenido no condicional y el contenido condicional que utiliza las dos condiciones mostradas: `win` y `mac`. No se muestra el contenido condicional restante para el cual se ocultan las condiciones.
 
-**Revisión en tiempo real**: el panel Comentarios se actualiza en tiempo real con comentarios y los comentarios o las acciones realizadas por el autor en los comentarios.
+### Panel Condiciones con condiciones basadas en DITAVAL
+
+>[!NOTE]
+>
+>Esta función está habilitada de forma predeterminada. Si prefiere no utilizar esta función en su entorno, póngase en contacto con el equipo de éxito del cliente.
+
+Si la tarea de revisión se crea con uno o más archivos DITAVAL adjuntos, el panel Condiciones presenta condiciones diferentes a las descritas en la sección [Trabajar con el panel Condiciones](#work-with-conditions-panel). Cada condición está controlada por un conmutador en lugar de un icono de ojo, y los conmutadores están preconfigurados para reflejar las condiciones definidas en los archivos DITAVAL adjuntos, de modo que pueda revisar el contenido como lo pretendía el iniciador de la revisión.
+
+>[!BEGINTABS]
+
+>[!TAB Panel de condiciones (sin acondicionamiento basado en DITAVAL)]
+
+![](./images/review-conditions-panel.png){width="350"}
+
+>[!TAB Panel de condiciones (con acondicionamiento basado en DITAVAL)]
+
+![](./images/review-condition-panel-ditaval.png)
+
+>[!ENDTABS]
+
+A diferencia del icono en forma de ojo, que solo agrega o quita un resaltado en el contenido condicionado, al desactivar una opción en el panel Condiciones se oculta ese contenido de la interfaz de usuario de revisión, por lo que el contenido no aparece en el documento. Al volver a activar la opción, se muestra de nuevo el contenido.
+
+El modo de vista previa refleja los mismos estados de alternancia que se describen en la sección [Trabajar con panel condicional](#work-with-conditions-panel).
+
+Según la forma en que el iniciador de la revisión haya configurado la tarea de revisión, puede que pueda cambiar estas opciones o no:
+
+- Si el iniciador ha permitido cambios, puede activar o desactivar cualquier opción para revisar el contenido en condiciones diferentes.
+
+  ![](./images/review-conditions-enabled.png)
+
+- Si el iniciador no ha permitido los cambios, las alternancias se deshabilitan y reflejan únicamente la configuración del iniciador.
+
+  ![](./images/review-conditions-disabled.png)
+
+Cualquier cambio que realice en las alternancias solo se aplicará a la sesión actual. Al actualizar la página, se restablecen los conmutadores al estado definido por los archivos DITAVAL adjuntos.
+
+### Revisión en tiempo real
+
+El panel Comentarios se actualiza en tiempo real con comentarios y comentarios o acciones realizadas por el autor en los comentarios.
 
 - Varios revisores podrán dejar comentarios o responder a comentarios simultáneamente en el mismo documento. Puede averiguar quién está revisando el documento actualmente pasando el ratón sobre el icono de usuario en la esquina superior derecha de la pantalla.
 
@@ -275,7 +314,9 @@ En el modo de vista previa, se muestra el contenido no condicional y el contenid
 
 - Al seleccionar un comentario obsoleto, se abre la versión de ese comentario en el panel izquierdo. La versión anterior se muestra en el panel izquierdo y la versión actual en el derecho. Todos los comentarios de la versión obsoleta se importan en el lado izquierdo. Puede comparar la versión anterior con la versión actual.
 
-**Filtrar comentarios**: puede filtrar comentarios en un documento para ver comentarios específicos según sea necesario. Para filtrar comentarios, seleccione el icono **Filter** \(![](images/filter-search-icon.svg)\) que aparece en el menú de la derecha del cuadro de texto Buscar comentarios del panel Comentarios.
+### Filtrar comentarios
+
+Puede filtrar los comentarios de un documento para ver comentarios específicos según sea necesario. Para filtrar comentarios, seleccione el icono **Filter** \(![](images/filter-search-icon.svg)\) que aparece en el menú de la derecha del cuadro de texto Buscar comentarios del panel Comentarios.
 
 Seleccione una o más de las siguientes opciones de filtrado en el cuadro de diálogo **Tipo de filtro** y seleccione **Aplicar**.
 
@@ -290,7 +331,6 @@ Seleccione una o más de las siguientes opciones de filtrado en el cuadro de di�
 
 Para quitar el filtro y ver todos los comentarios, anule la selección de todos los filtros del cuadro de diálogo **Tipo de filtro** y seleccione **Aplicar**.
 
-
 ## Historial de versiones del revisor
 
 La función Historial de versiones permite a los revisores comparar la versión actual de la tarea de revisión con las versiones de tareas de revisión cerradas anteriormente en las que han trabajado los revisores. Esto ayuda a los revisores a validar los cambios realizados desde la última revisión completada y a mantener la continuidad entre los ciclos de revisión.
@@ -301,4 +341,4 @@ El icono **Historial de versiones** del tema aparece una vez que el autor ha cer
 
 ![](images/version-history-dialog.png)
 
-**Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)
+**Tema principal:**[ Introducción a la revisión](review.md)

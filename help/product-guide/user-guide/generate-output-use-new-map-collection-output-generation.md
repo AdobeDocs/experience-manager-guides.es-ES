@@ -4,30 +4,23 @@ description: Obtenga información sobre cómo crear y eliminar una nueva colecci
 feature: Publishing
 role: User
 TQID: https://experienceleague.adobe.com/4ZtP8sNNhuZwJ-bTKThXiRZwVXvJ2PvfKyyo91HO1bE
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2:
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 56c9710820f790ed64e58521dd0d0f9ac343825f
 workflow-type: tm+mt
-source-wordcount: 1447
+source-wordcount: 1548
 ht-degree: 0%
 
 ---
 
-# Utilice la nueva colección de mapas para la generación de resultados (Beta)
+# Utilizar la nueva colección de asignaciones para la generación de resultados
 
 >[!IMPORTANT]
 >
-> La nueva colección de mapas está disponible en Experience Manager Guides as a Cloud Service a partir de la versión 2026.06.0. Póngase en contacto con el equipo de éxito del cliente para habilitar esta función.
+> La nueva colección de mapas está disponible en Experience Manager Guides as a Cloud Service a partir de la versión 2026.08.0. Póngase en contacto con el equipo de éxito del cliente para habilitar esta función.
 
 La recopilación de mapas en Adobe Experience Manager Guides permite a los especialistas en publicación organizar varios documentos en una sola colección, controlar la salida generada para cada documento y generar y publicar salidas por lotes de forma eficaz desde un panel centralizado. También proporciona visibilidad sobre el progreso de generación de resultados, resalta los cambios realizados en las asignaciones desde su último resultado publicado y le permite volver a publicar contenido cuando sea necesario.
 
@@ -37,14 +30,14 @@ La nueva colección de mapas consolida la funcionalidad que antes estaba distrib
 
 Para crear una colección de mapas y agregarle asignaciones, realice los siguientes pasos:
 
-1. Abra la página de inicio de Experience Manager Guides y seleccione **Nuevas colecciones de mapas**.
+1. Abra la página de inicio de Experience Manager Guides y seleccione **Colecciones de mapas**.
 
    Se abre la página **Colecciones de mapas**.
 
    ![](images/new-maps-collection.png){width="650"}
 
 
-1. En la página **Colecciones de mapas**, seleccione **Crear** en la parte superior derecha y proporcione un **Nombre** para su nueva colección de mapas.
+1. En la página **Colecciones de mapas**, seleccione **Crear** en la parte superior derecha y proporcione un **Nombre** para su colección de mapas.
 
    ![](images/create-new-map-collection.png){width="350"}
 
@@ -90,6 +83,10 @@ Para crear una colección de mapas y agregarle asignaciones, realice los siguien
 
 Se obtiene una lista de todas las asignaciones deseadas con el título del mapa, el nombre del archivo correspondiente, el idioma en el que está disponible y los ajustes preestablecidos configurados.
 
+>[!NOTE]
+>
+> Cuando se añade un gran número de mapas a una colección de mapas, las pestañas Mapas y ajustes preestablecidos muestran un máximo de cuatro mapas a la vez, junto con los ajustes preestablecidos asociados. Se proporciona una vista paginada en la parte inferior de la pantalla, que permite a los usuarios navegar entre páginas y acceder a mapas y ajustes preestablecidos adicionales. Si selecciona un mapa o ajuste preestablecido, la selección se conserva mientras navega por los mapas y ajustes preestablecidos restantes en diferentes páginas.
+
 ![Fichas de mapas y ajustes preestablecidos](./images/maps-presets-tab.png)
 
 La pestaña **Mapas y ajustes preestablecidos** presenta información en función de los mapas seleccionados para un idioma específico en las siguientes columnas:
@@ -107,7 +104,7 @@ Las siguientes opciones de filtrado están disponibles en el panel derecho de la
 
 - **Modificado desde la generación**: puede seleccionar Sí, No o No generado aún. Si selecciona Sí, en la pestaña Mapas y ajustes preestablecidos solo se muestran las asignaciones que se han modificado desde la generación.
 - **Modificado desde la publicación**: puede seleccionar Sí, No o No generado aún. Si selecciona Sí, en la pestaña Mapas y ajustes preestablecidos solo se muestran las asignaciones que se han modificado desde la publicación.
-- **Ajustes preestablecidos**: seleccione un ajuste preestablecido para el que desee filtrar los archivos de asignación. Por ejemplo, si elige el ajuste preestablecido *AEM Site*, solo se mostrarán los mapas que tengan configurado el ajuste preestablecido de salida *AEM Site*.
+- **Tipos de ajustes preestablecidos**: seleccione un ajuste preestablecido para el que desee filtrar los archivos de asignación. Por ejemplo, si elige el ajuste preestablecido *AEM Site*, solo se mostrarán los mapas que tengan configurado el ajuste preestablecido de salida *AEM Site*.
 - **Idioma**: puede seleccionar cualquiera de los códigos de idioma disponibles y mostrar solo el idioma seleccionado en la pestaña Mapas y ajustes preestablecidos.
 
   ![Filtros en las fichas Mapas y ajustes preestablecidos](./images/filters-maps-presets.png)
@@ -136,6 +133,9 @@ Para generar la salida utilizando una colección de mapas, realice los siguiente
    - **Finalizado (verde)**: la generación se completó correctamente.
    - **Finalizado (rojo)**: la generación se completó con errores. Los detalles del error se pueden ver en los registros.
    - **Ejecutando (azul)**: la generación está actualmente en curso.
+   - **Error (rojo)**: Error en la generación.
+   - **Esperando (azul)**: La generación está en cola.
+
 
    ![Tipos de estado](./images/status-types.png)
 
@@ -150,6 +150,10 @@ Para generar la salida utilizando una colección de mapas, realice los siguiente
 
 
 ## Publicar el resultado mediante una colección de mapas
+
+>[!NOTE]
+>
+> La publicación desde el historial de generación siempre publica el último resultado de un ajuste preestablecido en lugar de la generación seleccionada.
 
 Para publicar la salida (si está configurada) mediante una colección de mapas, realice los siguientes pasos:
 
@@ -192,4 +196,4 @@ Las propiedades de metadatos se actualizan de forma masiva para las asignaciones
 Las propiedades de metadatos están sincronizadas con las propiedades del archivo. Una vez que los actualice, podrá verlos en el panel **Propiedades del archivo** del Editor.
 
 
-**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)
+**Tema principal:**[ Generación de resultados](generate-output.md)

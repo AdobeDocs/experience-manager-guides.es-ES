@@ -5,23 +5,14 @@ feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
 TQID: https://experienceleague.adobe.com/o-vv28SWWNym2aSVCshJDbPTWkpwH-KNwES4M5MKKJ8
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 3616
+source-wordcount: 3727
 ht-degree: 0%
 
 ---
@@ -64,7 +55,7 @@ Realice los siguientes pasos para crear el ajuste preestablecido de AEM Sites me
    Se crea el ajuste preestablecido de AEM Sites.
 
 
-   ![Nuevo &#x200B;](images/new-aem-sites-dialog-box.png){width="300"}
+   ![Nuevo ](images/new-aem-sites-dialog-box.png){width="300"}
 
 <!--
 ### Generate the AEM Sites output using the templates
@@ -103,7 +94,7 @@ En la consola Mapa, las opciones de configuración preestablecidas para la asign
 - Lista de temas
 - Referencias entre mapas
 
-![Nuevo &#x200B;](images/aem-sites-new-config.png){width="650"}
+![Nuevo ](images/aem-sites-new-config.png){width="650"}
 
 **General**
 
@@ -120,6 +111,10 @@ La ficha **General** contiene las siguientes opciones de configuración:
 | Generar nombres de página basados en | **Nombre de archivo del tema**: Utiliza el nombre de archivo del tema DITA para crear la dirección URL del sitio. <br> **Título del tema**: Utiliza el título del tema DITA para crear los nombres de los sitios Experience Manager. |
 | Limpieza de páginas generadas anteriormente | - **Eliminar las páginas generadas anteriormente para el tema eliminado del mapa**: si la estructura del mapa DTIA cambia, puede utilizar esta opción para quitar las páginas generadas anteriormente para los temas eliminados. Esta característica sólo está disponible para la publicación completa de mapas.<br><br>Supongamos que ha publicado un mapa DITA, que contiene los temas a.dita, b.dita y c.dita. Antes de volver a publicar el mapa, ha eliminado el tema b.dita del mapa. Ahora, si ha seleccionado esta opción, todo el contenido relacionado con b.dita se eliminará de la salida de AEM Sites y solo se publicarán a.dita y c.dita.<br><br>**Nota**: la información sobre las páginas eliminadas también se captura en los registros de generación de salida. Para obtener más información acerca del acceso a los archivos de registro, [vea y compruebe el archivo de registro](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS). <br><br>**Precaución**: al eliminar los temas, las páginas dejarán de estar disponibles en el sitio publicado. Por lo tanto, antes de eliminar los temas, aparece una advertencia. Debe confirmar que desea eliminarlas.<br><br>- **Eliminar todas las páginas creadas por otras fuentes en esta ruta de acceso**: Si selecciona esta opción, se eliminarán todas las páginas publicadas en esta ruta de acceso desde otros mapas, temas individuales o cualquier otro origen. Las páginas tampoco estarán disponibles desde el sitio publicado. Por lo tanto, antes de eliminar los temas, aparece una advertencia. Debe confirmar que desea eliminarlos. |
 | Flujo de trabajo de generación posterior | Al elegir esta opción, se muestra una nueva lista desplegable Flujo de trabajo de generación posterior que contiene todos los flujos de trabajo configurados en AEM. Debe seleccionar un flujo de trabajo que desee ejecutar después de completar el flujo de trabajo de generación de resultados. |
+
+>[!NOTE]
+>
+>Si la característica de comprobación de estado [1} está configurada para el perfil de carpeta, se muestra la opción **Ejecutar comprobación de estado antes de generar resultados** en la pestaña General. ](../install-conf-guide/conf-health-check-preset.md)Utilícelo para que una comprobación de estado se ejecute automáticamente cada vez que genere resultados con este ajuste preestablecido, de modo que no tenga que almacenarlos en déclencheur manualmente desde el mapa. El informe se anexa al registro de publicación y es puramente informativo. No bloqueará ni retrasará su salida, incluso si la comprobación encuentra errores o advertencias sin resolver. Más información acerca de [Usar la comprobación de características de estado en Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
 
 **Contenido**
 
@@ -168,17 +163,22 @@ En la consola Mapa, las opciones de configuración preestablecidas para la asign
 - Contenido
 - Referencias entre mapas
 
-![Nuevo &#x200B;](images/aem-sites-preset-legacy-config.png){width="500"}
+![Nuevo ](images/aem-sites-preset-legacy-config.png){width="500"}
 
 **General**
 
 La ficha **General** contiene las siguientes opciones de configuración:
+
+>[!NOTE]
+>
+>Si la característica de comprobación de estado [1} está configurada para el perfil de carpeta, se muestra la opción **Ejecutar comprobación de estado antes de generar resultados** en la pestaña General. ](../install-conf-guide/conf-health-check-preset.md)Utilícelo para que una comprobación de estado se ejecute automáticamente cada vez que genere resultados con este ajuste preestablecido, de modo que no tenga que almacenarlos en déclencheur manualmente desde el mapa. El informe se anexa al registro de publicación y es puramente informativo. No bloqueará ni retrasará su salida, incluso si la comprobación encuentra errores o advertencias sin resolver. Más información acerca de [Usar la comprobación de características de estado en Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
 
 | Opciones de AEM Sites | Descripción |
 | --- | --- |
 | Nombre del sitio | Nombre de sitio donde se almacena el resultado en el repositorio de AEM.<br><br>Se crea un nodo en el repositorio de AEM con el nombre especificado aquí. Si no se especifica el Nombre del sitio (Site Name), se creará el nodo de sitio con el nombre de fichero de mapa DITA.<br><br>El nombre de sitio que especifique aquí también se utiliza como título en la ficha del explorador.<br><br>También puede utilizar variables al establecer el Nombre del sitio. Para obtener información detallada, vea [Usar variables para establecer las opciones Ruta de destino, Nombre de sitio o Nombre de archivo](./generate-output-use-variables.md) |
 | Ruta de salida | La ruta dentro del repositorio de AEM donde se almacena el resultado. Al generar la salida final, se combinan el nombre del sitio y la ruta de salida. Por ejemplo, si especifica el nombre del sitio como `user-guide` y la ruta de acceso de salida como `/content/output/aem-guides`, el resultado final se generará en el nodo `/content/output/aem-guides/user-guide`.<br><br>También puede utilizar variables al establecer la ruta de acceso de salida. Para obtener información detallada, vea [Usar variables para establecer las opciones Ruta de destino, Nombre de sitio o Nombre de archivo](./generate-output-use-variables.md) |
 | Páginas de salida existentes | Seleccione la opción **Sobrescribir contenido** para sobrescribir contenido en las páginas existentes. Esta opción solo sobrescribe el contenido presente en los nodos de contenido y encabezado de la página. Esta opción habilita la publicación combinada de contenido. Al seleccionar esta opción, se proporciona una opción para seleccionar la eliminación de páginas huérfanas de la salida publicada. Esta es también la opción *default* para crear la salida de AEM Sites.<br><br>Seleccione la opción **Eliminar y crear** para forzar la eliminación de las páginas existentes durante la publicación. Esta opción elimina el nodo de página junto con su contenido y todas las páginas secundarias debajo de él. Utilice esta opción si ha cambiado la plantilla de diseño del ajuste preestablecido de salida o si desea que se eliminen las páginas adicionales ya presentes en el destino. |
+| Generar nombres de página basados en | **Nombre de archivo del tema**: Utiliza el nombre de archivo del tema para crear la dirección URL del sitio. <br> **Título del tema**: Utiliza el título del tema para crear los nombres de los sitios de Experience Manager. <br> **Nota**: esta opción solo está disponible cuando está habilitada para su entorno. Póngase en contacto con el equipo de éxito del cliente de Adobe para habilitarlo. Cuando está disponible, el valor seleccionado en este ajuste preestablecido anula la configuración de carpeta `aemsite.pagetitle`. Para obtener más información, vea [Personalizar la salida del sitio de AEM existente](../install-conf-guide/customize-aem-site-output.md) |
 | Eliminar páginas generadas anteriormente para temas eliminados del mapa | Si la estructura del mapa DTIA cambia, puede utilizar esta opción para quitar las páginas generadas anteriormente para los temas eliminados. Esta característica sólo está disponible para la publicación completa de mapas.<br><br>Supongamos que ha publicado un mapa DITA, que contiene los temas a.dita, b.dita y c.dita. Antes de volver a publicar el mapa, ha eliminado el tema b.dita del mapa. Ahora, si ha seleccionado esta opción, todo el contenido relacionado con b.dita se eliminará de la salida de AEM Sites y solo se publicarán a.dita y c.dita.<br><br>**Nota**: la información sobre las páginas eliminadas también se captura en los registros de generación de salida. Para obtener más información acerca del acceso a los archivos de registro, [vea y compruebe el archivo de registro](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS). <br><br>**Precaución**: al eliminar los temas, las páginas dejarán de estar disponibles en el sitio publicado. Por lo tanto, antes de eliminar los temas, aparece una advertencia. Debe confirmar que desea eliminarlos. |
 | Diseño | Seleccione la plantilla de diseño que desee utilizar para generar el resultado.<br><br>Para obtener más información acerca de cómo usar plantillas de diseño personalizadas para generar resultados, póngase en contacto con el administrador de publicaciones. |
 | Flujo de trabajo de generación posterior | Al elegir esta opción, se muestra una nueva lista desplegable Flujo de trabajo de generación posterior que contiene todos los flujos de trabajo configurados en AEM. Debe seleccionar un flujo de trabajo que desee ejecutar después de completar el flujo de trabajo de generación de resultados. |
@@ -186,7 +186,7 @@ La ficha **General** contiene las siguientes opciones de configuración:
 
 **Contenido**
 
-![Nuevo &#x200B;](images/aem-sites-content-tab.png){width="650"}
+![Nuevo ](images/aem-sites-content-tab.png){width="650"}
 
 La pestaña **Content** contiene las siguientes opciones de configuración:
 

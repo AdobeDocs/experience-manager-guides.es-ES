@@ -5,9 +5,9 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+source-git-commit: 84be6501066dae623e057c15ac79b748d3e631f1
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2277'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,6 @@ Las siguientes pestañas proporcionan instrucciones para habilitar la opción **
    Cuando se selecciona la opción, se produce un nuevo mecanismo de administración de versiones que anula el comportamiento de carga predeterminado para cualquier carga posterior, y guarda el contenido del archivo cargado como una nueva versión. Si la opción no está seleccionada, AEM Guides utiliza el mecanismo de administración de versiones predeterminado de AEM.
 
 1. Haga clic en **Guardar**.
-
-
->[!NOTE]
->
-> Puede cargar archivos en lotes de 70 o menos si habilita la propiedad **Crear nueva versión para el archivo cargado** \(create.ver.new.content\) y usa la **interfaz de usuario de Assets** para cargar recursos de forma masiva.
 
 >[!ENDTABS]
 
@@ -314,7 +309,7 @@ Siga estos pasos para purgar las versiones anteriores:
 
    ![](assets/preview-purge-report.png)
 
-1. &#x200B;
+1. 
    - **Número de versiones que se deben conservar de la última versión**: escriba el número de versiones que se deben conservar y no purgar. Por ejemplo, si se introduce 5, se conservan las últimas 5 versiones y las versiones anteriores a ellas pueden depurarse en caso de que se cumplan otras condiciones de depuración.
    - **Conservar versiones creadas dentro del intervalo de tiempo \(en días\)**: escriba la antigüedad máxima de una versión en días. Las versiones anteriores al número determinado de días pueden depurarse si se cumplen otras condiciones de depuración. Por ejemplo, si se introduce 100, todas las versiones creadas antes de 100 días cumplen los requisitos para ser depuradas en caso de que se cumplan otras condiciones de depuración.
    - **Ruta**: seleccione la ruta de acceso del archivo o carpeta cuyos archivos desea purgar.

@@ -5,26 +5,14 @@ exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
 TQID: https://experienceleague.adobe.com/1eKOv9Ys8N5wOu5-gon4uDq-LLIqADeSmbWq55iVg18
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
-  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
-  - id: c8841798-1a28-4264-a46a-984860f8e6f6
-  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: b1210526-416b-4ef6-bcc0-1692e99f30e9id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12id: c8841798-1a28-4264-a46a-984860f8e6f6id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e5812ebac255dc10f4b6bf7287cfaede92354e70
 workflow-type: tm+mt
-source-wordcount: 1233
+source-wordcount: 1526
 ht-degree: 0%
 
 ---
@@ -51,9 +39,9 @@ En el Editor, el panel derecho contiene los iconos Revisar y Rastrear cambios. E
 
 - **B:** Seleccione **Detalles de la revisión** ![](images/active-review-info-icon.svg) en el panel **Comentarios** para ver más información acerca de la tarea de revisión:
 
-   - **Nombre**: nombre de la tarea de revisión
-   - **Versión de revisión**: muestra la versión asociada con la tarea de revisión seleccionada. Esto le ayuda a realizar un seguimiento de la versión que ha compartido para su revisión
-   - **Estado**: Estado actual de la tarea de revisión.
+  - **Nombre**: nombre de la tarea de revisión
+  - **Versión de revisión**: muestra la versión asociada con la tarea de revisión seleccionada. Esto le ayuda a realizar un seguimiento de la versión que ha compartido para su revisión
+  - **Estado**: Estado actual de la tarea de revisión.
 
   >[!NOTE]
   >
@@ -90,7 +78,8 @@ En el Editor, el panel derecho contiene los iconos Revisar y Rastrear cambios. E
 - **I**: aplique un filtro en los comentarios. Puede filtrar para ver los comentarios basándose en el Tipo de revisión \(todas, resaltadas, eliminadas, insertadas o notas adhesivas\), Estado de la revisión \(todas, aceptadas, rechazadas o ninguna\), Revisores \(todos los revisores o revisores específicos\)\) o Versiones del tema. De forma predeterminada, no se selecciona ninguno de los filtros.
 
   ![](images/review-comments-author-filter.png){width="350"}
-  **Responder a un comentario al etiquetar a otros usuarios**
+
+**Responder a un comentario al etiquetar a otros usuarios**
 
 Como autor e iniciador de la tarea de revisión, puede responder para revisar los comentarios y etiquetar a otros usuarios implicados en la misma tarea de revisión para dirigir su atención o asignar seguimientos. Esta funcionalidad solo está disponible para tareas de revisión activas.
 
@@ -109,4 +98,27 @@ Si usted es el iniciador o el autor de una tarea de revisión y la abre desde la
 
 ![](images/review-comments-toolbar-disabled.png){width="350"}
 
-**Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)
+## Ver todas las tareas de revisión de un tema
+
+>[!NOTE]
+>
+> Esta función está habilitada de forma predeterminada. Si prefiere no utilizar esta función en su entorno, póngase en contacto con el equipo de éxito del cliente.
+
+Esta función le permite seleccionar una tarea de revisión (abierta o cerrada) asociada al tema abierto actualmente en el panel Comentarios. Cuando está habilitado, el panel Comentarios de la IU de revisión incluye una lista desplegable de todas las tareas de revisión de las que forma parte el tema, junto con el estado de cada tarea (Activa o Cerrada) y el proyecto al que pertenece. La tarea desde la que está trabajando actualmente está marcada con la etiqueta **Actual** de forma predeterminada.
+
+![](./images/review-task-selection-dropdpwn.png){width="350"}
+
+Mediante la lista desplegable de tareas de revisión, puede seleccionar cualquiera de estas tareas y revisar sus comentarios sin cambiar de proyecto de revisión. También puede seleccionar el icono **(i)** junto a una tarea en la lista desplegable para ver sus detalles.
+
+>[!NOTE]
+>
+> Si una tarea de revisión que espera ver no aparece en la lista desplegable, puede deberse a que la tarea se creó antes de habilitar esta función en su instancia. Póngase en contacto con su administrador para resolver el problema al [Realizar indización para incluir todas las tareas de revisión de un tema en el panel Comentarios](../install-conf-guide/index-review-tasks.md).
+
+Al utilizar esta función, tenga en cuenta que:
+
+- Cambiar a un tema diferente en el Editor restablece el panel a la tarea Actual en los Comentarios
+- Al seleccionar cualquier tarea que no sea Actual, se abre la versión del tema y sus comentarios de esa tarea en modo de sólo lectura. Puede ver los comentarios, pero no puede editarlos, aceptarlos o rechazarlos, y la opción **Importar** está deshabilitada. Sólo se pueden importar en la copia de trabajo los comentarios de la tarea actual.
+- El filtrado y la búsqueda sólo se aplican a los comentarios de la tarea seleccionada; los comentarios de otras tareas no seleccionadas no se ven afectados.
+
+
+**Tema principal:**[ Introducción a la revisión](review.md)
