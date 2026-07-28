@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: 2108fea9ba6d35a9439f672b66e5d25aeb19f0ca
+source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
 workflow-type: tm+mt
-source-wordcount: '2548'
+source-wordcount: '2568'
 ht-degree: 10%
 
 ---
@@ -216,8 +216,8 @@ ht-degree: 10%
   - Introducción {#about-aemg}
     - [Acerca de  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] funciones clave y de trabajo {#aemg-works-features}
-      - [Cómo funciona [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-      - [Características clave  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+      - [Cómo funciona [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+      - [Características clave  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Página de inicio {#home-page}
     - [Experiencia de la página de inicio [!DNL AEM Guides]](./user-guide/intro-home-page.md)
     - [Interfaz de repositorio](./user-guide/home-page-repository-view.md)
@@ -423,8 +423,9 @@ ht-degree: 10%
       - [Procesar recursos](./user-guide/asset-processor.md)
     - Resolución de problemas {#troubleshooting}
       - [Session timeout](./user-guide/session-timeout-prompt.md)
+      - [La cadena es una excepción demasiado larga en la exportación de metadatos](./user-guide/metadata-export-failure.md)
 - Guía del usuario (IU antigua) {#user-guide-old-ui}
-  - [Información general de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Información general de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalación y configuración {#install-conf-guide}
   - [Descargar, instalar y actualizar](./install-conf-guide/introduction.md)
   - Proceso de instalación de Cloud Service {#deploy-conf-aemg-cs}
@@ -499,7 +500,8 @@ ht-degree: 10%
       - [Configuración de la opción de edición en Oxígeno para Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
       - [Configurar la visualización de tablas pegadas para Cloud Service](./install-conf-guide/conf-pasted-tables.md)
       - [Configuración de la generación de PDF de un solo tema para Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
-      - [Configurar la característica de traducción en el editor de Cloud Service](./install-conf-guide/conf-translation-editor.md)
+      - [Configuración de la función de traducción en el Editor para Cloud Service](./install-conf-guide/conf-translation-editor.md)
+      - [Crear y administrar ajustes preestablecidos de comprobación de estado](./install-conf-guide/conf-health-check-preset.md)
     - Configuración del editor para On-Premise {#editor-on-prem-settings}
       - [Configurar nuevo editor](./install-conf-guide/conf-new-editor-on-prem.md)
       - [Configuración de caracteres especiales adicionales para On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
@@ -568,6 +570,7 @@ ht-degree: 10%
     - [Implementar un índice personalizado para la función Buscar y reemplazar para Cloud Service](./install-conf-guide/custom-indexing-cs.md)
     - [Reindexar para la característica Buscar y reemplazar para On-Premise](./install-conf-guide/custom-indexing-on-prem.md)
     - [Configuración de la función Buscar y reemplazar para instalación local](./install-conf-guide/conf-find-replace-on-prem.md)
+    - [Indizar temas en una tarea de revisión](./install-conf-guide/index-review-tasks.md)
     - [Asignación de componentes para AEM Sites](./install-conf-guide/component-mapping.md)
     - [Configurar ajustes preestablecidos de plantilla para la generación de resultados](./install-conf-guide/template-presets-output-generation.md)
   - Apéndice {#appendix}

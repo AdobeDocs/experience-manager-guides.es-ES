@@ -5,19 +5,13 @@ exl-id: f0e7a402-ac12-4c63-9d7f-92567ee29a39
 feature: Authoring, Map Editor
 role: User
 TQID: https://experienceleague.adobe.com/Af2mFR-OG-QTbQU7HBQb-kfvuCcw5fd89CA4-mSroNE
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
 workflow-type: tm+mt
-source-wordcount: 1281
+source-wordcount: 1285
 ht-degree: 0%
 
 ---
@@ -125,9 +119,9 @@ Cuando ejecuta una comprobación de estado de un mapa, el informe se abre en el 
 
 ![](./images/health-check-report-panel-editor.png)
 
-### Barra de informes
+### Opciones del panel de informes de comprobación de estado
 
-La barra de herramientas de la parte superior del panel muestra lo siguiente:
+Las siguientes opciones están disponibles en el panel Informe de comprobación de estado:
 
 - **Nombre del mapa**: El nombre del mapa para el que se generó el informe.
 - **Icono de información**: seleccione esta opción para ver el nombre del ajuste preestablecido, la versión del mapa y la línea de base (si existe) que se utilizó para generar el informe.
@@ -167,4 +161,4 @@ Después de solucionar un problema, selecciona **Volver a generar** en la barra 
 Seleccione **Descargar informe** para descargar el informe en formato XLS, con información detallada para cada resultado.
 
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor de mapas](map-editor.md)
+**Tema principal:**[ Introducción al editor de mapas](map-editor.md)
