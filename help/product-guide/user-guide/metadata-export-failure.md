@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # ¿Por qué la exportación de metadatos para una carpeta falla con la excepción &quot;La cadena es demasiado larga&quot;?
 
-Cuando [exporta metadatos](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/metadata#export-metadata) para una carpeta desde la interfaz de usuario de Assets, el trabajo de exportación puede fallar con la excepción `String is too long`. Esto suele ocurrir cuando la carpeta contiene propiedades específicas de Experience Manager Guides que almacenan valores que no son de cadena, como `baselineObj`.
+Cuando [exporta metadatos](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/using/metadata#export-metadata) para una carpeta desde la interfaz de usuario de Assets, el trabajo de exportación puede fallar con la excepción `String is too long`. Esto suele ocurrir cuando la carpeta contiene propiedades específicas de Experience Manager Guides que almacenan valores que no son de cadena, como `baselineObj`.
 
 **¿Por qué ocurre esto?**
 

@@ -79,7 +79,7 @@ No instale nada localmente. El cliente se dirige a la dirección URL del servido
 
 ### Claude antrópico
 
-Siga el tutorial oficial: [Configurar Claude para AEM MCP](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude). Al añadir el conector personalizado, utilice el punto final de Experience Manager Guides:
+Siga el tutorial oficial: [Configurar Claude para AEM MCP](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude). Al añadir el conector personalizado, utilice el punto final de Experience Manager Guides:
 
 ```
 https://mcp.adobeaemcloud.com/adobe/mcp/guides
