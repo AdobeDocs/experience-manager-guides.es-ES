@@ -1,7 +1,7 @@
 ---
 title: Guías de IA para la capacidad de etiquetado inteligente
 description: Aprenda a utilizar la IA de las guías para la capacidad de etiquetado inteligente de temas y mapas en una sola operación.
-source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Los siguientes componentes de la API de Guides le ayudan a agregar archivos, con
 
 - **(D)** Espacio de respuesta: revise las recomendaciones de etiquetas generadas por IA y elija aceptarlas, rechazarlas o modificarlas antes de aplicar las etiquetas.
 - **(E)** Espacio de solicitud: escriba una solicitud de solicitud para generar recomendaciones de etiquetas para el contenido seleccionado.
-- **(F)** Adjuntar archivos o agregar contexto: agregue temas, mapas o archivos externos desde el sistema local para proporcionar el contenido que Guides AI debe analizar para las recomendaciones de etiquetas.
+- **(F)** Adjuntar archivos o agregar contexto: Agrega temas, asignaciones o archivos externos del sistema local para proporcionar el contenido que la inteligencia artificial aplicada a guías debe analizar para las recomendaciones de etiquetas.
 - Modelo **(G)**: Muestra el modelo de IA utilizado para analizar contenido y generar recomendaciones de etiquetas. Hay varios modelos OpenAI y Anthropic Claude disponibles para su selección. De manera predeterminada, la opción **Usar manifiesto predeterminado** está seleccionada, que usa el modelo configurado para el asistente seleccionado.
 - **(H)** Enviar: Envíe el mensaje y el contenido adjunto para generar recomendaciones de etiquetas con tecnología de IA.
 

@@ -4,7 +4,7 @@ description: Conozca la página de inicio de Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: 018c2332a9e5a4ce8fb683a8cb0bcf859977922c
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 0%
@@ -50,6 +50,7 @@ Las funciones disponibles en la barra de navegación se explican de la siguiente
   La característica [AI Assistant](./ai-assistant.md) solo está disponible actualmente para Adobe Experience Manager as a Cloud Service.
 
 - **Guías AI**: aporta al editor la habilidad inteligente y auténtica de etiquetado inteligente de Adobe CX Enterprise Coworker, lo que permite el etiquetado de contenido natural y conversacional. Analiza el contenido, recomienda las etiquetas relevantes y le ayuda a aplicar metadatos coherentes y precisos con un esfuerzo mínimo. Puede revisar las etiquetas sugeridas y elegir aplicarlas o rechazarlas antes de confirmar la selección. [Guías AI](../user-guide/guides-ai.md) optimiza el proceso de etiquetado, mejorando la organización y la detección del contenido.
+
 
   >[!NOTE]
   >

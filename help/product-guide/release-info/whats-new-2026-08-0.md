@@ -2,7 +2,7 @@
 title: Notas de versión | Novedades de la versión 2026.08.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 2026.08.0 de Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 2108fea9ba6d35a9439f672b66e5d25aeb19f0ca
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
 source-wordcount: '1383'
 ht-degree: 0%
@@ -60,7 +60,6 @@ Los revisores ahora pueden ver la descripción de la tarea directamente en la ex
 Esto proporciona a los revisores acceso a las instrucciones, el ámbito y las áreas de interés a lo largo de la revisión. Para obtener más información, vea [Enviar temas para revisión](../user-guide/review-send-topics-for-review.md).
 
 ![](assets/review-details.png){width="350"}
-
 
 ### Identificación del usuario en la lista de etiquetado durante la revisión
 
