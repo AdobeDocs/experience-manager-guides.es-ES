@@ -3,9 +3,13 @@ title: Información de la versión de Adobe Experience Manager Guides as a Cloud
 description: Explore las últimas notas de la versión de Adobe Experience Manager Guides as a Cloud Service, las actualizaciones de funciones, los problemas corregidos, los problemas conocidos y mucho más.
 feature: Release Notes
 role: Leader
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
 workflow-type: tm+mt
 source-wordcount: 431
