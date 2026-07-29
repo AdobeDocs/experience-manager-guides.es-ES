@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
+source-git-commit: 5a4aae4385951abb8c0a577d4b7f5542c8b1dde6
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 10%
@@ -19,7 +19,7 @@ ht-degree: 10%
   - Notas de la versión {#release-notes}
     - Cloud Services {#cloud-release-notes}
       - {hide-from-toc}[Instrucciones de implementación](./release-info/deploy-xml-on-aemaacs.md)
-      - {hide-from-toc}[Versiones en la nube](./release-info/latest-release-info-cs.md)
+      - [Versiones en la nube](./release-info/latest-release-info-cs.md)
       - Versiones de 2026 {#2026-releases}
         - Versión 2026.08.0 {#2608-release}
           - [Novedades](./release-info/whats-new-2026-08-0.md)
@@ -216,8 +216,8 @@ ht-degree: 10%
   - Introducción {#about-aemg}
     - [Acerca de  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] funciones clave y de trabajo {#aemg-works-features}
-      - [Cómo funciona [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-      - [Características clave  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+      - [Cómo funciona [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+      - [Características clave  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Página de inicio {#home-page}
     - [Experiencia de la página de inicio [!DNL AEM Guides]](./user-guide/intro-home-page.md)
     - [Interfaz de repositorio](./user-guide/home-page-repository-view.md)
@@ -426,7 +426,7 @@ ht-degree: 10%
       - [Session timeout](./user-guide/session-timeout-prompt.md)
       - [La cadena es una excepción demasiado larga en la exportación de metadatos](./user-guide/metadata-export-failure.md)
 - Guía del usuario (IU antigua) {#user-guide-old-ui}
-  - [Información general de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Información general de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalación y configuración {#install-conf-guide}
   - [Descargar, instalar y actualizar](./install-conf-guide/introduction.md)
   - Proceso de instalación de Cloud Service {#deploy-conf-aemg-cs}

@@ -3,16 +3,12 @@ title: Información de la versión de Adobe Experience Manager Guides as a Cloud
 description: Explore las últimas notas de la versión de Adobe Experience Manager Guides as a Cloud Service, las actualizaciones de funciones, los problemas corregidos, los problemas conocidos y mucho más.
 feature: Release Notes
 role: Leader
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 4ec392d0525a89afc07e98bc7c23ed72178efca1
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: 431
 ht-degree: 2%
 
 ---
@@ -25,6 +21,8 @@ Esta página proporciona la información más reciente sobre la versión de Adob
 
 | Versión [!DNL AEM Guides] | Notas de la versión |
 |---|---|
+| **AEM Guides 2026.08.0** | [2026.08.0 Novedades](./whats-new-2026-08-0.md)<br><br>[2026.08.0 Se corrigieron problemas](./fixed-issues-2026-08-0.md)<br><br>[Instrucciones de actualización 2026.08.0](./upgrade-instructions-2026-08-0.md) |
+| **AEM Guides 2026.07.0** | [2026.07.0 Problemas corregidos](./fixed-issues-2026-07-0.md)<br><br>[Instrucciones de actualización 2026.07.0](./upgrade-instructions-2026-07-0.md) |
 | **AEM Guides 2026.06.0** | [2026.06.0 Novedades](./whats-new-2026-06-0.md)<br><br>[2026.06.0 Se corrigieron problemas](./fixed-issues-2026-06-0.md)<br><br>[Instrucciones de actualización 2026.06.0](./upgrade-instructions-2026-06-0.md) |
 | **AEM Guides 2026.05.0 Service Pack 1** | [2026.05.0 Service Pack 1 Solucionado(s) problemas](./fixed-issues-2026-05-0-sp1.md) |
 | **AEM Guides 2026.05.0** | [2026.05.0 Novedades](./whats-new-2026-05-0.md)<br><br>[2026.05.0 Se corrigieron problemas](./fixed-issues-2026-05-0.md)<br><br>[Instrucciones de actualización 2026.05.0](./upgrade-instructions-2026-05-0.md) |
