@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
+source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
 workflow-type: tm+mt
-source-wordcount: 3064
+source-wordcount: 3089
 ht-degree: 0%
 
 ---
@@ -158,6 +158,10 @@ El panel Comentarios muestra una lista de comentarios proporcionados sobre el te
 Los comentarios se muestran en el orden del texto comentado en el documento. Por ejemplo, hay un comentario resaltado en la primera frase y un comentario de texto insertado en la segunda frase del primer párrafo, y el comentario de texto resaltado se muestra antes del comentario de texto insertado.
 
 A continuación, se describen las tareas que puede realizar mediante el panel Comentarios:
+
+- Utilice el icono de información ![](./images/info-icon.svg) para ver los detalles de la tarea de revisión, incluido el nombre de la tarea de revisión, su versión, su estado y su descripción.
+
+  ![](./images/review-details-review-ui.png)
 
 - Al seleccionar un comentario, se resalta y se muestra la ubicación del comentario correspondiente en el documento.
 - Puede agregar respuestas a los comentarios.

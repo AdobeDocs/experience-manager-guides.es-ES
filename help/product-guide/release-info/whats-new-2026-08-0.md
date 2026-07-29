@@ -2,9 +2,9 @@
 title: Notas de versión | Novedades de la versión 2026.08.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 2026.08.0 de Adobe Experience Manager Guides
 role: Leader
-source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
+source-git-commit: 087f74b41a3ce374aca06701e8b58e0d27492592
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1371'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,11 @@ Para ayudar a mantener el contenido importado actualizado, el conector Git tambi
 ![](assets/git-bulk-importer-import-all.png)
 
 
-## Experience Manager Guides añade compatibilidad con MCP para la integración de AI Assistant
+## Experience Manager Guides añade compatibilidad con MCP
 
-Experience Manager Guides ahora admite la integración de MCP (Model Context Protocol), lo que permite a los asistentes de IA, como Anthropic Claude, conectarse directamente al entorno de AEM Guides.
+Experience Manager Guides ahora es compatible con el protocolo de contexto de modelo (MCP). Puede conectar sus herramientas de IA como Claude, Cursor, etc. a Guías sin requerir ningún trabajo personalizado. A través de un único punto final de MCP, en esta versión, los usuarios autenticados pueden utilizar las guías como un sistema sin encabezado y administrar temas y mapas, crear y exportar líneas de base y generar informes, todo mientras operan con sus permisos de AEM existentes. Esto permite a los equipos de documentación trabajar de forma más eficiente mediante aplicaciones y agentes de IA.
 
-A través de un único punto final de MCP, los usuarios autenticados pueden administrar temas y mapas, crear y exportar líneas de base y generar informes utilizando lenguaje natural, todo mientras funcionan con sus permisos de AEM existentes. Esto elimina las tareas repetitivas que requieren mucha navegación y permite a los equipos de documentación trabajar de forma más eficaz en todas las aplicaciones de chat y herramientas para desarrolladores compatibles con MCP, como Cursor y Visual Studio Code. Para obtener más información, vea [Usar el servidor MCP de Adobe Experience Manager Guides](../install-conf-guide/conf-aem-guides-mcp.md).
+Para obtener más información, vea [Usar el servidor MCP de Adobe Experience Manager Guides](../install-conf-guide/conf-aem-guides-mcp.md).
 
 
 ## Revisar mejoras
