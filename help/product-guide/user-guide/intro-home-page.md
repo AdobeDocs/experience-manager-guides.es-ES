@@ -4,9 +4,9 @@ description: Conozca la página de inicio de Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
-source-wordcount: '2136'
+source-wordcount: '2247'
 ht-degree: 0%
 
 ---
@@ -42,25 +42,33 @@ La barra de navegación muestra las herramientas para cambiar la navegación, pe
 Las funciones disponibles en la barra de navegación se explican de la siguiente manera:
 
 - **Conmutador de navegación**: permite una navegación perfecta a otras páginas:
-   - **Inicio**: La página predeterminada que ve al iniciar sesión en Experience Manager Guides.
-   - **Editor**: un editor basado en web fácil de usar que le permite crear y administrar documentos estructurados en Experience Manager Guides. [Conozca la interfaz del editor](./web-editor.md).
-   - **Consola de mapas**: proporciona un área de trabajo dedicada para administrar todos los aspectos de la administración y publicación de mapas. [Conozca la interfaz de la consola Map](./map-console-overview.md).
+  - **Inicio**: La página predeterminada que ve al iniciar sesión en Experience Manager Guides.
+  - **Editor**: un editor basado en web fácil de usar que le permite crear y administrar documentos estructurados en Experience Manager Guides. [Conozca la interfaz del editor](./web-editor.md).
+  - **Consola de mapas**: proporciona un área de trabajo dedicada para administrar todos los aspectos de la administración y publicación de mapas. [Conozca la interfaz de la consola Map](./map-console-overview.md).
 - **Ayudante de IA**: Una potente herramienta impulsada por IA diseñada para mejorar su productividad mediante características de ayuda inteligentes. Además, cuando trabaje en la interfaz del editor, puede aprovechar las capacidades de creación inteligente del asistente de IA, que hace que su proceso de creación sea más inteligente y rápido mediante sugerencias inteligentes para la reutilización y optimización de contenido.
 
   La característica [AI Assistant](./ai-assistant.md) solo está disponible actualmente para Adobe Experience Manager as a Cloud Service.
+
+- **Guías AI**: aporta al editor la habilidad inteligente y auténtica de etiquetado inteligente de Adobe CX Enterprise Coworker, lo que permite el etiquetado de contenido natural y conversacional. Analiza el contenido, recomienda las etiquetas relevantes y le ayuda a aplicar metadatos coherentes y precisos con un esfuerzo mínimo. Puede revisar las etiquetas sugeridas y elegir aplicarlas o rechazarlas antes de confirmar la selección. [Guías AI](../user-guide/guides-ai.md) optimiza el proceso de etiquetado, mejorando la organización y la detección del contenido.
+
+
+  >[!NOTE]
+  >
+  > Para utilizar la función de inteligencia artificial aplicada a las guías en su entorno, póngase en contacto con el equipo de éxito del cliente. Una vez habilitada la función, los administradores pueden activarla o desactivarla desde la Configuración de Workspace. Solo se puede habilitar una experiencia de IA a la vez; Guides AI o AI Assistant.
+
 - **Personalizar sección de información general**: Permite ocultar o mostrar los widgets en la sección Widgets.
 - **Perfil de carpeta en uso**: Muestra el perfil de carpeta que se está usando actualmente.
 - **Más acciones**: Proporciona acceso a opciones adicionales. Al seleccionar este botón, se abre un menú con las siguientes opciones:
 
-   - **Assets**: lo lleva a un destino basado en su configuración.
-      - **Cloud Services**: Si usas Cloud Services, al seleccionar la opción **Assets** accederás a la página Navegación de AEM.
+  - **Assets**: lo lleva a un destino basado en su configuración.
+    - **Cloud Services**: Si usas Cloud Services, al seleccionar la opción **Assets** accederás a la página Navegación de AEM.
 
-      - **Software On-Premise**: Si utiliza Adobe Experience Manager Guides (4.2.1 y versiones posteriores), al seleccionar la opción **Assets**, se le redirigirá a la ruta de archivo actual en la interfaz de usuario de Assets.
-   - **Configuración de Workspace**: lo lleva al cuadro de diálogo **Configuración de Workspace**. Para obtener más información, vea [Configurar las opciones de Workspace](../cs-install-guide/workspace-settings.md).
+    - **Software On-Premise**: Si utiliza Adobe Experience Manager Guides (4.2.1 y versiones posteriores), al seleccionar la opción **Assets**, se le redirigirá a la ruta de archivo actual en la interfaz de usuario de Assets.
+  - **Configuración de Workspace**: lo lleva al cuadro de diálogo **Configuración de Workspace**. Para obtener más información, vea [Configurar las opciones de Workspace](../cs-install-guide/workspace-settings.md).
 
-     >[!NOTE]
-     >
-     > En la página de inicio, la opción de configuración de Workspace está disponible para Cloud Services y para configuraciones locales en la versión 5.2 y posteriores. En una configuración On-Premise anterior a la versión 5.2, la opción Más acciones no está disponible en la página de inicio. Sin embargo, aún puede acceder a la configuración relevante a través de la interfaz del editor y la consola de mapas, navegando a Más opciones > Configuración.
+    >[!NOTE]
+    >
+    > En la página de inicio, la opción de configuración de Workspace está disponible para Cloud Services y para configuraciones locales en la versión 5.2 y posteriores. En una configuración On-Premise anterior a la versión 5.2, la opción Más acciones no está disponible en la página de inicio. Sin embargo, aún puede acceder a la configuración relevante a través de la interfaz del editor y la consola de mapas, navegando a Más opciones > Configuración.
 
 - **Expandir vista**: permite expandir la vista de página mediante el icono **Expandir**. En esta vista, la barra de encabezado está oculta, lo que maximiza el espacio de contenido. Para volver a la vista estándar, usa el icono **Salir de la vista expandida**.
 
@@ -117,9 +125,9 @@ Los siguientes widgets están presentes en la sección Widgets:
 
   Las siguientes opciones están disponibles cuando pasa el ratón por encima de un archivo:
 
-   - **Abrir en el editor**: permite abrir el archivo en el editor. También puede abrir un archivo simplemente seleccionándolo.
-   - **Anclar/desanclar**: permite anclar uno o más archivos al widget Archivos recientes. Los archivos anclados se muestran en la parte superior de la lista de widgets. Para desanclar un archivo, usa la opción **Desanclar**.
-   - **Quitar**: Permite quitar el archivo del widget Archivos recientes.
+  - **Abrir en el editor**: permite abrir el archivo en el editor. También puede abrir un archivo simplemente seleccionándolo.
+  - **Anclar/desanclar**: permite anclar uno o más archivos al widget Archivos recientes. Los archivos anclados se muestran en la parte superior de la lista de widgets. Para desanclar un archivo, usa la opción **Desanclar**.
+  - **Quitar**: Permite quitar el archivo del widget Archivos recientes.
 
   **Crear nuevo archivo desde el menú desplegable Nuevo archivo**
 
@@ -136,17 +144,17 @@ Los siguientes widgets están presentes en la sección Widgets:
 
   Las siguientes opciones están disponibles cuando pasa el ratón sobre una colección y selecciona el icono Más ![](images/Smock_MoreSmallList_18_N.svg):
 
-   - **Cambiar nombre**: permite cambiar el nombre de la colección.
-   - **Eliminar**: permite eliminar la colección.
-   - **Ver en la interfaz de usuario de Assets**: permite abrir la colección en la interfaz de usuario de Assets.
+  - **Cambiar nombre**: permite cambiar el nombre de la colección.
+  - **Eliminar**: permite eliminar la colección.
+  - **Ver en la interfaz de usuario de Assets**: permite abrir la colección en la interfaz de usuario de Assets.
 
   Puede abrir una colección seleccionando el título Colección. Las siguientes opciones están disponibles cuando pasa el ratón por encima de un archivo de colección y selecciona el icono Más ![](images/Smock_MoreSmallList_18_N.svg):
 
-   - **Abrir en el editor**: permite abrir el archivo en el editor. También puede seleccionar el título del archivo para abrirlo.
-   - **Abrir en la consola de mapas**: Permite abrir el archivo de mapa en la consola de mapas. (Disponible sólo para un fichero de mapa DITA).
-   - **Agregar a colecciones**: Permite agregar el archivo a una colección nueva o existente.
-   - **Quitar de colecciones**: Permite quitar el archivo de la lista de colecciones.
-   - **Ver en la interfaz de usuario de Assets**: permite localizar el archivo en la interfaz de usuario de Assets.
+  - **Abrir en el editor**: permite abrir el archivo en el editor. También puede seleccionar el título del archivo para abrirlo.
+  - **Abrir en la consola de mapas**: Permite abrir el archivo de mapa en la consola de mapas. (Disponible sólo para un fichero de mapa DITA).
+  - **Agregar a colecciones**: Permite agregar el archivo a una colección nueva o existente.
+  - **Quitar de colecciones**: Permite quitar el archivo de la lista de colecciones.
+  - **Ver en la interfaz de usuario de Assets**: permite localizar el archivo en la interfaz de usuario de Assets.
 
   **Crear nueva colección desde el menú desplegable Nueva colección**
 
@@ -182,23 +190,23 @@ Las preferencias de usuario están disponibles para todos los autores. Con las p
 
   ![](images/user_preference_editor-new.png)
 
-   - **Perfil de carpeta**: el perfil de carpeta controla varias configuraciones relacionadas con atributos condicionales, plantillas de creación, ajustes preestablecidos de salida y configuraciones del editor. El perfil Global se muestra de forma predeterminada. Además, si el administrador ha configurado perfiles de carpeta en el sistema, esos perfiles de carpeta también se muestran en la lista Perfiles de carpeta.
-   - **Ruta básica**: de forma predeterminada, al acceder al repositorio de Experience Manager Guides desde el Editor, se muestran los recursos desde la ubicación /content/dam. Es muy probable que la carpeta de trabajo esté compuesta por unas pocas carpetas dentro de la carpeta /content/dam/. Puede establecer la Ruta básica en la carpeta de trabajo y, a continuación, la vista Repositorio le mostrará el contenido desde esa ubicación. Esto reduce el tiempo para tener acceso a la carpeta de trabajo. Además, al insertar cualquier referencia o archivo multimedia en el tema, la ubicación de exploración de archivos comienza con la carpeta establecida en la Ruta base.
-   - **Seleccionar mapa raíz**: seleccione un archivo de mapa DITA para resolver referencias clave o entradas del glosario. El mapa raíz seleccionado tiene la prioridad más alta para resolver las referencias clave. Para obtener más información, vea [Resolver referencias clave](./map-editor-other-features.md).
-   - **Número máximo de archivos recientes**: utilice este campo para establecer un límite máximo de archivos que se mostrarán en el widget Archivos recientes.
-   - **Preferencias de apertura para Mapas**: aquí puede seleccionar un comportamiento predeterminado que el sistema seguirá al abrir un archivo de mapa DITA.
+  - **Perfil de carpeta**: el perfil de carpeta controla varias configuraciones relacionadas con atributos condicionales, plantillas de creación, ajustes preestablecidos de salida y configuraciones del editor. El perfil Global se muestra de forma predeterminada. Además, si el administrador ha configurado perfiles de carpeta en el sistema, esos perfiles de carpeta también se muestran en la lista Perfiles de carpeta.
+  - **Ruta básica**: de forma predeterminada, al acceder al repositorio de Experience Manager Guides desde el Editor, se muestran los recursos desde la ubicación /content/dam. Es muy probable que la carpeta de trabajo esté compuesta por unas pocas carpetas dentro de la carpeta /content/dam/. Puede establecer la Ruta básica en la carpeta de trabajo y, a continuación, la vista Repositorio le mostrará el contenido desde esa ubicación. Esto reduce el tiempo para tener acceso a la carpeta de trabajo. Además, al insertar cualquier referencia o archivo multimedia en el tema, la ubicación de exploración de archivos comienza con la carpeta establecida en la Ruta base.
+  - **Seleccionar mapa raíz**: seleccione un archivo de mapa DITA para resolver referencias clave o entradas del glosario. El mapa raíz seleccionado tiene la prioridad más alta para resolver las referencias clave. Para obtener más información, vea [Resolver referencias clave](./map-editor-other-features.md).
+  - **Número máximo de archivos recientes**: utilice este campo para establecer un límite máximo de archivos que se mostrarán en el widget Archivos recientes.
+  - **Preferencias de apertura para Mapas**: aquí puede seleccionar un comportamiento predeterminado que el sistema seguirá al abrir un archivo de mapa DITA.
 
 - **Aspecto**: la ficha Aspecto le proporciona las opciones para seleccionar los temas de la aplicación y la vista de origen del área de edición de contenido. Utilice esta pestaña para configurar las siguientes opciones:
 
   ![](images/user_preference_editor_appearance.png)
 
-   - **Tema de aplicación y vista de Source**: puede elegir entre los temas Claro u Oscuro para la aplicación y la vista de origen. En el caso del tema Claro, las barras de herramientas y los paneles utilizan un fondo de color gris claro. En el caso del tema Oscuro, las barras de herramientas y los paneles utilizan un fondo de color negro. Seleccione **Usar el tema del dispositivo** para permitir que Experience Manager Guides seleccione los temas claro y oscuro en función del tema del dispositivo.
+  - **Tema de aplicación y vista de Source**: puede elegir entre los temas Claro u Oscuro para la aplicación y la vista de origen. En el caso del tema Claro, las barras de herramientas y los paneles utilizan un fondo de color gris claro. En el caso del tema Oscuro, las barras de herramientas y los paneles utilizan un fondo de color negro. Seleccione **Usar el tema del dispositivo** para permitir que Experience Manager Guides seleccione los temas claro y oscuro en función del tema del dispositivo.
 
-     En todas las temáticas, el área de edición de contenido se muestra en fondo de color blanco en la vista Autor.
+    En todas las temáticas, el área de edición de contenido se muestra en fondo de color blanco en la vista Autor.
 
-   - **Los archivos del editor muestran la configuración**: seleccione la forma predeterminada de ver los archivos en el editor. Puede ver la lista de archivos por títulos o los nombres de archivo desde los distintos paneles de la vista Autor. De forma predeterminada, los archivos se muestran por título en el Editor.
+  - **Los archivos del editor muestran la configuración**: seleccione la forma predeterminada de ver los archivos en el editor. Puede ver la lista de archivos por títulos o los nombres de archivo desde los distintos paneles de la vista Autor. De forma predeterminada, los archivos se muestran por título en el Editor.
 
-   - **Buscar siempre archivos en el explorador**: seleccione esta opción para mostrar la ubicación de un archivo en el repositorio mientras lo edita en el Editor.
+  - **Buscar siempre archivos en el explorador**: seleccione esta opción para mostrar la ubicación de un archivo en el repositorio mientras lo edita en el Editor.
 
   >[!NOTE]
   >

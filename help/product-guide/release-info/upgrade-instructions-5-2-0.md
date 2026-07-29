@@ -1,7 +1,7 @@
 ---
 title: Notas de versión | Instrucciones de actualización para la versión 5.2.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de la matriz de compatibilidad y cómo actualizar a la versión 5.2.0 de Adobe Experience Manager Guides.
-source-git-commit: a2d4731af4f4996c87dd177a6e45f1d8ebabd6cf
+source-git-commit: 575e8452f02626dab3d2bc6a040767a592588205
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 4%
@@ -26,6 +26,20 @@ Esta sección enumera la matriz de compatibilidad para las aplicaciones de softw
 | 5.2.0 (UUID) | 6.5 | 24, 23, 22 |
 
 Para obtener más información, consulte la sección [Requisitos técnicos](../install-guide/download-install-technical-requirements.md) en la Guía de instalación y configuración local.
+
+<!--
+
+### Java SDK resources
+
+Use the following resources when developing custom Java plugins or integrations with Experience Manager Guides. Ensure that the SDK version matches your installed Experience Manager Guides release. 
+
+| Release | Java SDK version| Maven Central| Java API reference | 
+|---|---|---|----|
+| 5.2.0 (UUID) | 5.2.1 | [AEM Guides SDK API 5.2.1 ](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.1/overviewhttps://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.1/overview) | [Javadoc 5.2.1](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/5.2.1/index.html) |
+
+For more details, view [Configure and use the API JAR from Maven Central repository](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/api-reference/introduction).
+
+ -->
 
 ### FRAMEMAKER y FRAMEMAKER PUBLISHING SERVER
 
@@ -79,7 +93,7 @@ Antes de continuar actualizando a la versión 5.2.0 de Experience Manager Guides
 - Si está utilizando la versión 4.3.x, 4.2, 4.2.1 (revisión 4.2.1.3), 4.1 o 4.1.x, debe actualizar a la versión 4.4 antes de actualizar a la versión 5.1.0.
 - Si utiliza la versión 4.0, debe actualizar a la versión 4.2 antes de actualizar a la versión 4.3.x.
 - Si utiliza la versión 3.8.5, debe actualizar a la versión 4.0 antes de actualizar a la versión 4.2.
-- Si tiene una versión anterior a la 3.8.5, consulte la sección Actualizar Experience Manager Guides en la guía de instalación específica del producto disponible en [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/archive.html).
+- Si tiene una versión anterior a la 3.8.5, consulte la sección Actualizar Experience Manager Guides en la guía de instalación específica del producto disponible en [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 ## Proceso de actualización para Experience Manager Guides 5.2.0
 

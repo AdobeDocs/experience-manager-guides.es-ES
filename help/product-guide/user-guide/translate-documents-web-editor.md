@@ -21,9 +21,9 @@ subfeature_v2:
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: 077335fcbb539ef545ce2ca9903e4a8223b3f6ce
 workflow-type: tm+mt
-source-wordcount: 2473
+source-wordcount: 2562
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Antes de realizar los pasos de este procedimiento, asegúrese de haber creado la
 
    - Puede elegir **Crear estructura solamente** para el proyecto de traducción.
    - Puede elegir **Crear un nuevo proyecto de traducción XLIFF** para convertir el contenido XML al formato de archivo de intercambio de localización XML (XLIFF). XLIFF es un formato abierto basado en XML que se utiliza para estandarizar la transferencia de datos entre varias herramientas utilizadas en el proceso de traducción de contenido. Experience Manager Guides es compatible con la versión 1.2 de XLIFF.
-En un proyecto XLIFF, el contenido se exporta al formato XLIFF estándar del sector, que se puede proporcionar a los proveedores de traducción. El formato XLIFF permite la posible reutilización de segmentos que ya ha traducido durante la fase de traducción.\
+     En un proyecto XLIFF, el contenido se exporta al formato XLIFF estándar del sector, que se puede proporcionar a los proveedores de traducción. El formato XLIFF permite la posible reutilización de segmentos que ya ha traducido durante la fase de traducción.\
      Una vez traducido el contenido XLIFF, se puede importar en Experience Manager Guides, creando una versión traducida del proyecto DITA original.
 
    >[!NOTE]
@@ -145,15 +145,24 @@ En un proyecto XLIFF, el contenido se exporta al formato XLIFF estándar del sec
    - Si ya tiene un proyecto de traducción, puede agregarle temas. Seleccione la opción **Agregar a proyecto de traducción existente** de la lista Proyecto y elija un proyecto de la lista Proyecto de traducción existente. Puede ordenar estos proyectos por orden más reciente, ascendente o descendente.
 
    - Si selecciona **Agregar a proyecto de traducción existente**, esta operación actualiza la entrada de recursos existente en el proyecto si el recurso ya se ha agregado y el estado del trabajo de traducción relacionado está en el estado *Borrador*.
-      - Si el idioma de destino no está presente en el proyecto, se crea un nuevo proyecto para el proyecto de traducción en un solo idioma y se crea un nuevo trabajo para el proyecto de traducción en varios idiomas.
+     - Si el idioma de destino no está presente en el proyecto, se crea un nuevo proyecto para el proyecto de traducción en un solo idioma y se crea un nuevo trabajo para el proyecto de traducción en varios idiomas.
 
-      - Si el trabajo ya está presente para el idioma de destino y el estado del trabajo no está en el estado *Borrador*, se creará un nuevo trabajo dentro del mismo proyecto para agregar los recursos que se traducirán.
+     - Si el trabajo ya está presente para el idioma de destino y el estado del trabajo no está en el estado *Borrador*, se creará un nuevo trabajo dentro del mismo proyecto para agregar los recursos que se traducirán.
 
    >[!NOTE]
    >
    > Si el proyecto existente es un proyecto de ámbito, tiene &#39;\(Ámbito\)&#39; anexado en su nombre.
 
    - Si necesita crear el ámbito para traducir un proyecto, puede seleccionar **Crear un nuevo proyecto de traducción de ámbito**. Esto no enviará las copias para su traducción y se mantendrá el estado de traducción original de los archivos. No afecta a la copia de idioma de destino de los temas a los que se hace referencia y que se envían para su análisis.
+1. En el campo **Ruta**, seleccione dónde se debe crear el nuevo proyecto de traducción:
+
+   - Si está creando un nuevo proyecto de traducción, seleccione la carpeta en la que desea crear el proyecto.
+
+     ![Escriba la ruta de acceso del proyecto](images/project-path.png){width="650"}
+
+   - Si está agregando a un proyecto de traducción existente, seleccione la ruta en la que ya existe ese proyecto. A continuación, en la lista **Proyecto de traducción existente**, seleccione el proyecto al que desee agregar la tarea de traducción actual. También puede usar **Filtros** disponibles para reducir la lista.
+
+     ![Escriba la ruta de acceso del proyecto existente](images/existing-project-path.png){width="650"}
 
 1. En el campo **Título del proyecto**, introduzca un título.
 1. Seleccione **Enviar** para crear un nuevo proyecto de traducción.

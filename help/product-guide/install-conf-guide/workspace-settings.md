@@ -4,9 +4,9 @@ description: Obtenga información acerca de las distintas configuraciones dispon
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
+source-git-commit: 2386f02cf0752ca6c97ca1e3697bfbd03e6ca4d5
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2304'
 ht-degree: 1%
 
 ---
@@ -53,17 +53,27 @@ Seleccione esta opción para habilitar la función [Ayudante de IA](../user-guid
 
   Desde el menú **Creación de acciones rápidas**, puede:
 
-   - utilice los conmutadores para habilitar o deshabilitar las opciones específicas a las que los autores pueden acceder al trabajar con el Ayudante de IA.
+  - utilice los conmutadores para habilitar o deshabilitar las opciones específicas a las que los autores pueden acceder al trabajar con el Ayudante de IA.
 
-   - Para cambiar el orden en que aparecen las opciones, arrástrelas y suéltelas según sea necesario.
+  - Para cambiar el orden en que aparecen las opciones, arrástrelas y suéltelas según sea necesario.
 
   ![](../user-guide/images/authoring-quick-actions-new.png){width="350"}
 
+- **Guías AI**
 
+  >[!NOTE]
+  >
+  > Para utilizar la función de inteligencia artificial aplicada a las guías en su entorno, póngase en contacto con el equipo de éxito del cliente. Solo se puede habilitar una experiencia de IA a la vez; Guides AI o AI Assistant.
+
+  Seleccione la opción **Guías AI** para habilitar esta característica en Experience Manager Guides. Anule la selección de esta opción para deshabilitarla.
+
+  Después de activar esta opción, podrá acceder a la función de inteligencia artificial aplicada a las guías desde la barra de navegación de la página de inicio y desde la barra de pestañas de la interfaz del editor. Para obtener más información sobre cómo generar etiquetas sugeridas por IA para los temas, vea [Introducción a la IA de las guías](../user-guide/guides-ai.md).
+
+  ![](assets/guides-ai-workspace.png){width="350"}
 
 - **Creación**
 
-   - **Habilitar Reemplazar todo**: seleccione esta opción para ver el icono **Reemplazar todo** en el panel **Buscar y reemplazar**.
+  - **Habilitar Reemplazar todo**: seleccione esta opción para ver el icono **Reemplazar todo** en el panel **Buscar y reemplazar**.
 
 - **Citas**
 
@@ -71,28 +81,28 @@ Seleccione esta opción para habilitar la función [Ayudante de IA](../user-guid
 
 - **Condición**
 
-   - **Resaltar texto condicional en la vista de autor**: seleccione esta opción para resaltar el texto condicional en la vista de autor. El contenido condicional se resalta con el color definido para la condición.
+  - **Resaltar texto condicional en la vista de autor**: seleccione esta opción para resaltar el texto condicional en la vista de autor. El contenido condicional se resalta con el color definido para la condición.
 
-   - **Validar con atributos de condición**: seleccione esta opción para permitir la validación de los valores definidos para los atributos. Esto evita que añada cualquier valor incorrecto.
+  - **Validar con atributos de condición**: seleccione esta opción para permitir la validación de los valores definidos para los atributos. Esto evita que añada cualquier valor incorrecto.
 
-   - **Mostrar clave con el título en el panel Esquema del asunto**: seleccione esta opción para mostrar las claves junto con los títulos en el esquema del asunto. Si no selecciona esta opción, solo se muestran los títulos. Por ejemplo, aquí las teclas &quot;os&quot;, &quot;audience&quot; y &quot;other&quot; también se muestran junto con los títulos.
+  - **Mostrar clave con el título en el panel Esquema del asunto**: seleccione esta opción para mostrar las claves junto con los títulos en el esquema del asunto. Si no selecciona esta opción, solo se muestran los títulos. Por ejemplo, aquí las teclas &quot;os&quot;, &quot;audience&quot; y &quot;other&quot; también se muestran junto con los títulos.
 
-     ![](../user-guide/images/subject-scheme-title.png){width="550"}
+    ![](../user-guide/images/subject-scheme-title.png){width="550"}
 
-   - **Mostrar esquema de asunto en el panel Condiciones**: seleccione esta opción para ver un esquema de asunto en el panel Condiciones. Si anula la selección de esta opción, las condiciones definidas se muestran en el panel Condiciones.
+  - **Mostrar esquema de asunto en el panel Condiciones**: seleccione esta opción para ver un esquema de asunto en el panel Condiciones. Si anula la selección de esta opción, las condiciones definidas se muestran en el panel Condiciones.
 
 - **Corrección ortográfica**
 
   Hay dos opciones: revisión ortográfica de AEM y revisión ortográfica del explorador.
 
-   - **Revisión ortográfica del explorador**: De forma predeterminada, el editor utiliza la función de revisión ortográfica del explorador, en la que la revisión ortográfica se realiza mediante el diccionario integrado del explorador.
+  - **Revisión ortográfica del explorador**: De forma predeterminada, el editor utiliza la función de revisión ortográfica del explorador, en la que la revisión ortográfica se realiza mediante el diccionario integrado del explorador.
 
-   - **revisión ortográfica de AEM**: puede cambiar a la revisión ortográfica de AEM para usar el diccionario de Adobe Experience Manager, que también se puede personalizar para agregar la lista de palabras personalizada. Para obtener más información acerca de cómo personalizar el diccionario de AEM, vea [Personalizar el diccionario predeterminado de AEM](../install-conf-guide/customize-aem-default-dictionary.md).
+  - **revisión ortográfica de AEM**: puede cambiar a la revisión ortográfica de AEM para usar el diccionario de Adobe Experience Manager, que también se puede personalizar para agregar la lista de palabras personalizada. Para obtener más información acerca de cómo personalizar el diccionario de AEM, vea [Personalizar el diccionario predeterminado de AEM](../install-conf-guide/customize-aem-default-dictionary.md).
 
-     >[!NOTE]
-     >
-     > La revisión ortográfica de AEM utiliza el idioma seleccionado en la propiedad language del archivo. Si no se especifica el idioma para el archivo, la revisión ortográfica vuelve al idioma del servidor de AEM.
-     >Para garantizar resultados precisos de la revisión ortográfica, el diccionario del idioma seleccionado debe estar disponible en AEM. Si el diccionario necesario para el idioma configurado no está disponible, la revisión ortográfica toma el valor predeterminado `en_us`.
+    >[!NOTE]
+    >
+    > La revisión ortográfica de AEM utiliza el idioma seleccionado en la propiedad language del archivo. Si no se especifica el idioma para el archivo, la revisión ortográfica vuelve al idioma del servidor de AEM.
+    >Para garantizar resultados precisos de la revisión ortográfica, el diccionario del idioma seleccionado debe estar disponible en AEM. Si el diccionario necesario para el idioma configurado no está disponible, la revisión ortográfica toma el valor predeterminado `en_us`.
 
 
 ## Paneles
@@ -152,24 +162,24 @@ Contiene los perfiles que se pueden usar para publicar la salida de **Knowledge 
 
 - Al configurar la aplicación conectada, asegúrese de lo siguiente:
 
-   - Especifique la llamada de retorno.
+  - Especifique la llamada de retorno.
 
-     `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+    `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
-   - Seleccione los siguientes ámbitos de OAuth:
-      - Acceso completo (completo)
-      - Seleccione Administrar datos de usuario mediante API
+  - Seleccione los siguientes ámbitos de OAuth:
+    - Acceso completo (completo)
+    - Seleccione Administrar datos de usuario mediante API
 
-     Una vez configurada la aplicación, Salesforce proporciona **clave del consumidor** y **secreto del consumidor**. Se pueden utilizar para crear el perfil de Salesforce.
+    Una vez configurada la aplicación, Salesforce proporciona **clave del consumidor** y **secreto del consumidor**. Se pueden utilizar para crear el perfil de Salesforce.
 
 
-   - Para crear un perfil de Salesforce, seleccione la base de conocimiento **Salesforce** en la lista desplegable **Tipo de servidor**. Introduzca un Nombre de perfil. En la **dirección URL del sitio**, escriba el sitio del consumidor que usaría para publicar la salida y, a continuación, agregue la **clave del consumidor** y el **secreto del consumidor** proporcionados por el sitio del consumidor de Salesforce. A continuación, **Valide** y **guarde** el perfil recién creado.
+  - Para crear un perfil de Salesforce, seleccione la base de conocimiento **Salesforce** en la lista desplegable **Tipo de servidor**. Introduzca un Nombre de perfil. En la **dirección URL del sitio**, escriba el sitio del consumidor que usaría para publicar la salida y, a continuación, agregue la **clave del consumidor** y el **secreto del consumidor** proporcionados por el sitio del consumidor de Salesforce. A continuación, **Valide** y **guarde** el perfil recién creado.
 
-     ![perfil de publicación de salesforce en la configuración del área de trabajo](../user-guide/images/salesforce-publish-profile.png){width="550"}
+    ![perfil de publicación de salesforce en la configuración del área de trabajo](../user-guide/images/salesforce-publish-profile.png){width="550"}
 
-     >[!NOTE]
-     >
-     >Para configurar un proxy para Salesforce en Experience Manager Guides, utilice Configuración proxy de componentes HTTP de Apache en AEM. Obtenga información sobre cómo [configurar el proxy para AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+    >[!NOTE]
+    >
+    >Para configurar un proxy para Salesforce en Experience Manager Guides, utilice Configuración proxy de componentes HTTP de Apache en AEM. Obtenga información sobre cómo [configurar el proxy para AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
 **Crear un perfil de ServiceNow**
@@ -235,24 +245,24 @@ Esta pestaña contiene las opciones para crear grupos de idiomas, propagar las e
 
   Siga estos pasos para crear un nuevo grupo de idiomas:
 
-   1. Seleccione **Añadir**.
-   1. Introduzca el nombre del grupo de idiomas. Cada idioma debe tener un nombre único. Puede ver un error si el campo de nombre está vacío o si el nombre no es único.
-   1. Seleccione los idiomas en la lista desplegable. Puede seleccionar varios idiomas.
+  1. Seleccione **Añadir**.
+  1. Introduzca el nombre del grupo de idiomas. Cada idioma debe tener un nombre único. Puede ver un error si el campo de nombre está vacío o si el nombre no es único.
+  1. Seleccione los idiomas en la lista desplegable. Puede seleccionar varios idiomas.
 
-      Escriba los primeros caracteres del idioma o el código de idioma para filtrar los idiomas deseados. Por ejemplo, escriba &#39;en&#39; para filtrar todos los idiomas que contienen &#39;en&#39; al principio de su nombre o código.
+     Escriba los primeros caracteres del idioma o el código de idioma para filtrar los idiomas deseados. Por ejemplo, escriba &#39;en&#39; para filtrar todos los idiomas que contienen &#39;en&#39; al principio de su nombre o código.
 
-   1. Seleccione el icono Listo para añadir los idiomas seleccionados al grupo. Se muestran los idiomas. Cuando se agregan tres o más idiomas, se muestra la opción **Mostrar más**. Puede seleccionar **Mostrar más** para ver todos los idiomas presentes en el grupo.
+  1. Seleccione el icono Listo para añadir los idiomas seleccionados al grupo. Se muestran los idiomas. Cuando se agregan tres o más idiomas, se muestra la opción **Mostrar más**. Puede seleccionar **Mostrar más** para ver todos los idiomas presentes en el grupo.
 
-      >[!TIP]
-      >
-      > Cambie **Mostrar más** por **Mostrar menos** y ver solo algunos idiomas.
+     >[!TIP]
+     >
+     > Cambie **Mostrar más** por **Mostrar menos** y ver solo algunos idiomas.
 
-   1. Pase el ratón sobre los idiomas de un grupo para editar ![editar icono](../user-guide/images/edit_pencil_icon.svg) o eliminar ![eliminar](../user-guide/images/Delete_icon.svg) los grupos de idiomas.
-   1. Guardar **configuración**.
+  1. Pase el ratón sobre los idiomas de un grupo para editar ![editar icono](../user-guide/images/edit_pencil_icon.svg) o eliminar ![eliminar](../user-guide/images/Delete_icon.svg) los grupos de idiomas.
+  1. Guardar **configuración**.
 
-      >[!NOTE]
-      >
-      >Como usuario, puede ver los grupos de idiomas configurados en el perfil de carpeta.
+     >[!NOTE]
+     >
+     >Como usuario, puede ver los grupos de idiomas configurados en el perfil de carpeta.
 
 - **Propagar etiquetas de versión de origen a la versión de destino**: seleccione esta opción para pasar la etiqueta de la versión del archivo de origen al archivo traducido. Esta opción está desactivada de forma predeterminada.
 - **Limpieza del proyecto de traducción una vez finalizado**: seleccione esta opción para configurar los proyectos de traducción que se deshabilitarán o eliminarán automáticamente después de la traducción. De manera predeterminada, **Ninguno** está seleccionado, de manera que el proyecto existe después de la traducción.

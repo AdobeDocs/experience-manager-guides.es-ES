@@ -15,9 +15,9 @@ subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a99aa6be404fb5f4675f50aad8c4f282520d605f
 workflow-type: tm+mt
-source-wordcount: 129
+source-wordcount: 153
 ht-degree: 0%
 
 ---
@@ -31,6 +31,10 @@ Puede administrar los ajustes preestablecidos de salida desde la consola Mapa y 
 Puede editar el ajuste preestablecido de salida seleccionado cambiando directamente los campos obligatorios a la configuración preestablecida necesaria.
 
 Además, puede duplicar o eliminar un ajuste preestablecido de salida mediante el menú desplegable **Opciones**, como se muestra a continuación.
+
+>[!NOTE]
+>
+>No puede editar, duplicar ni eliminar un ajuste preestablecido de plantilla. Estas acciones están restringidas a los administradores. Para obtener más información acerca de los ajustes preestablecidos de plantilla, consulte [Ajustes preestablecidos de plantilla](../install-conf-guide/template-presets-output-generation.md).
 
 
 ![](images/delete-preset-map-console.png)

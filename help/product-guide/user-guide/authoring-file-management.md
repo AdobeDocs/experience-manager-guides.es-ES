@@ -14,9 +14,9 @@ feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: c6cc5b187f72c1da1dc6f28186047989c3c1faa1
 workflow-type: tm+mt
-source-wordcount: 3282
+source-wordcount: 3195
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Una vez finalizada la operación, se activa una notificación de éxito o error 
 
 **Arrastrar y soltar con nombres de archivo legibles por humanos**
 
-- *Arrastrar y soltar en la misma ubicación*: se le dan las opciones para **Sobrescribir archivo existente\(s\)**, **Conservar ambos archivo\(s\)** y una opción para crear una versión de la copia de trabajo existente.
+- *Arrastrar y soltar en la misma ubicación*: Se le dan las opciones para **Sobrescribir archivo existente\(s\)**, **Conservar ambos archivos\(s\)**.
 
   ![](images/uuid-human-readable-drag-drop-same-location.PNG){width="650" align="center"}
 
@@ -94,18 +94,16 @@ Una vez finalizada la operación, se activa una notificación de éxito o error 
 
 **Arrastrar y soltar con nombres de archivo basados en un patrón UUID**
 
-*Arrastrar y soltar archivo en la misma ubicación*: se le dan las opciones para **Sobrescribir archivo existente\(s\)** junto con la opción de crear una versión de la copia de trabajo existente.
+*Arrastrar y soltar archivo en la misma ubicación*: se le dan las opciones para **Sobrescribir archivo existente\(s\)**.
 
 ![](images/uuid-drag-drop-same-location.PNG){width="650" align="center"}
 
 Cuando se sobrescribe el archivo, no se produce ningún cambio en el nombre del archivo o en su UUID.
 
-Si selecciona la opción **Crear versión para la copia de trabajo existente**, se creará una nueva versión a partir de la copia de trabajo del documento; se cargará el nuevo archivo, también se creará una nueva versión del archivo y se convertirá en la copia de trabajo del documento.
-
 **El administrador debe habilitar la característica Crear nueva versión para el archivo cargado**. Si esta función está habilitada, se crea una nueva versión para el archivo cargado. Si la opción no está seleccionada, no se crea una versión del archivo cargado. Para obtener más información, vea la sección *Crear nueva versión para el archivo cargado* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
 
-*Arrastrar y soltar archivo en otra ubicación*: se le dan las opciones para **Sobrescribir archivo existente\(s\)**, **Mover archivo\(s\) a una nueva ubicación** y una opción para crear una versión de la copia de trabajo existente.
+*Arrastrar y soltar archivo en otra ubicación*: se le dan las opciones para **Sobrescribir archivo existente\(s\)**, **Mover archivo\(s\) a una nueva ubicación**.
 
 ![](images/uuid-drag-drop-different-location.PNG){width="650" align="center"}
 
@@ -164,18 +162,18 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
    - **Ruta de Source\(s\)**: especifique la ubicación de las carpetas que desea mover.
 
-      - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo **Seleccionar ruta**. Seleccione las carpetas que desee mover y elija **Seleccionar** para completar el proceso. Puede seleccionar varias carpetas colocadas en diferentes ubicaciones en el explorador de rutas. Se conservará la ruta de las carpetas seleccionadas, lo que le permite revisarlas o modificarlas fácilmente cuando vuelva a abrir el cuadro de diálogo.
+     - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo **Seleccionar ruta**. Seleccione las carpetas que desee mover y elija **Seleccionar** para completar el proceso. Puede seleccionar varias carpetas colocadas en diferentes ubicaciones en el explorador de rutas. Se conservará la ruta de las carpetas seleccionadas, lo que le permite revisarlas o modificarlas fácilmente cuando vuelva a abrir el cuadro de diálogo.
 
-      - También puede escribir o copiar y pegar la ubicación de origen. Pulse Intro para añadir la carpeta a la lista.
+     - También puede escribir o copiar y pegar la ubicación de origen. Pulse Intro para añadir la carpeta a la lista.
 
-        Las carpetas seleccionadas se muestran junto con su ruta. Pase el ratón sobre la etiqueta de carpeta para ver la ruta completa.
-      - También puede quitar cualquier carpeta seleccionando **Quitar** <img src="images/remove-folder.svg" width="25"> cerca de la carpeta.
+       Las carpetas seleccionadas se muestran junto con su ruta. Pase el ratón sobre la etiqueta de carpeta para ver la ruta completa.
+     - También puede quitar cualquier carpeta seleccionando **Quitar** <img src="images/remove-folder.svg" width="25"> cerca de la carpeta.
 
 
    - **Ruta de destino**: especifique la ubicación a la que desea mover las carpetas de origen.
 
-      - Seleccionar **carpeta de exploración** <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo examinar archivo. Seleccione la ubicación a la que desea mover las carpetas de origen. y elija Seleccionar para completar el proceso.
-      - También puede escribir o copiar y pegar la ruta de destino.
+     - Seleccionar **carpeta de exploración** <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo examinar archivo. Seleccione la ubicación a la que desea mover las carpetas de origen. y elija Seleccionar para completar el proceso.
+     - También puede escribir o copiar y pegar la ruta de destino.
 
      La carpeta seleccionada se muestra junto con su ruta en el cuadro de texto.
 
@@ -213,20 +211,20 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
    - **Ruta de Source\(s\)**: especifique la ubicación de las carpetas que desea mover.
 
-      - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo **Seleccionar ruta**. Seleccione las carpetas que desee mover y elija **Seleccionar** para completar el proceso. Puede seleccionar varias carpetas colocadas en diferentes ubicaciones en el explorador de rutas. Se conservará la ruta de las carpetas seleccionadas, lo que le permite revisarlas o modificarlas fácilmente cuando vuelva a abrir el cuadro de diálogo.
+     - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo **Seleccionar ruta**. Seleccione las carpetas que desee mover y elija **Seleccionar** para completar el proceso. Puede seleccionar varias carpetas colocadas en diferentes ubicaciones en el explorador de rutas. Se conservará la ruta de las carpetas seleccionadas, lo que le permite revisarlas o modificarlas fácilmente cuando vuelva a abrir el cuadro de diálogo.
 
-      - También puede escribir o copiar y pegar la ubicación de origen. Pulse Intro para añadir la carpeta a la lista.
+     - También puede escribir o copiar y pegar la ubicación de origen. Pulse Intro para añadir la carpeta a la lista.
 
-        Las carpetas seleccionadas se muestran junto con su ruta. Pase el ratón sobre la etiqueta de carpeta para ver la ruta completa.
-      - También puede quitar cualquier carpeta seleccionando **Quitar** <img src="images/remove-folder.svg" width="25"> cerca de la carpeta.
+       Las carpetas seleccionadas se muestran junto con su ruta. Pase el ratón sobre la etiqueta de carpeta para ver la ruta completa.
+     - También puede quitar cualquier carpeta seleccionando **Quitar** <img src="images/remove-folder.svg" width="25"> cerca de la carpeta.
 
 
    - **Ruta de destino**: especifique la ubicación a la que desea mover las carpetas de origen.
 
-      - Seleccionar **carpeta de exploración** <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo examinar archivo. Seleccione la ubicación a la que desea mover las carpetas de origen. y elija Seleccionar para completar el proceso.
-      - También puede escribir o copiar y pegar la ruta de destino.
+     - Seleccionar **carpeta de exploración** <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo examinar archivo. Seleccione la ubicación a la que desea mover las carpetas de origen. y elija Seleccionar para completar el proceso.
+     - También puede escribir o copiar y pegar la ruta de destino.
 
-        La carpeta seleccionada se muestra junto con su ruta en el cuadro de texto.
+       La carpeta seleccionada se muestra junto con su ruta en el cuadro de texto.
 
    - Seleccionar **movimiento masivo**.
 

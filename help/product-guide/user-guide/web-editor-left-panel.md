@@ -23,9 +23,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 11025
+source-wordcount: 11073
 ht-degree: 0%
 
 ---
@@ -213,17 +213,17 @@ Esto está sincronizado con el cuadro de búsqueda de la ventana del repositorio
 - **Archivos que no son DITA**: puede buscar **archivos Ditaval**, **archivos de imagen**, **multimedia**, **documentos** y **JSON** en la ruta seleccionada.
 - **Bloqueado por**: muestra una lista de usuarios. La lista se pagina y se carga asincrónicamente, mostrando un conjunto limitado de usuarios a la vez y recuperando más a medida que se desplaza o navega. Esto mejora la velocidad de carga y el rendimiento general, especialmente cuando se trabaja con un gran número de usuarios.
 - **Modificado después de** / **Modificado antes de**: filtra el contenido según la fecha de modificación. Seleccione un intervalo de fechas del calendario o elija una de las siguientes opciones de lapso de tiempo:
-   - En las últimas dos horas
-   - En la última semana
-   - En el último mes
-   - En el último año
+  - En las últimas dos horas
+  - En la última semana
+  - En el último mes
+  - En el último año
 - **Etiquetas**: filtre el contenido según las etiquetas.
 
 **Avanzado**
 
 - **Elementos DITA**: también puede buscar valores específicos en los atributos de los elementos DITA especificados.
-   - Seleccione **Agregar elemento** para agregar los elementos, atributos y valores.
-   - Aplique los filtros seleccionados.
+  - Seleccione **Agregar elemento** para agregar los elementos, atributos y valores.
+  - Aplique los filtros seleccionados.
 
 - Seleccione **Borrar todo** para borrar todos los filtros aplicados.
 
@@ -325,13 +325,13 @@ Pasos para crear una carpeta nueva:
 
   Si el nombre de archivo del recurso que se carga contiene caracteres no válidos (como * / : [\] | # % { } ?), pueden producirse los siguientes escenarios:
 
-   - **Carga parcial**: indica que uno o más recursos que se están cargando contienen caracteres no válidos en sus nombres de archivo.
+  - **Carga parcial**: indica que uno o más recursos que se están cargando contienen caracteres no válidos en sus nombres de archivo.
 
-     ![](images/partial-asset-upload.png)
+    ![](images/partial-asset-upload.png)
 
-   - **Error al cargar** : indica que todos los recursos que se están cargando contienen caracteres no válidos en sus nombres de archivo.
+  - **Error al cargar** : indica que todos los recursos que se están cargando contienen caracteres no válidos en sus nombres de archivo.
 
-     ![](images/upload-asset-failed.png)
+    ![](images/upload-asset-failed.png)
 
   Para resolver estos conflictos, elimine los caracteres no válidos de los nombres de archivo de los recursos y, a continuación, vuelva a cargarlos en el repositorio.
 
@@ -404,9 +404,9 @@ Las distintas opciones del menú Opciones se explican a continuación:
 - **Duplicate**: utilice esta opción para crear un duplicado o una copia del archivo seleccionado. También tiene la opción de cambiar el nombre del archivo duplicado en la solicitud de recursos duplicados. De forma predeterminada, el archivo se crea con un sufijo \(como nombre de archivo\_1.extensión\). El título del archivo sigue siendo el mismo que el del archivo de origen y el nuevo archivo comienza con la versión 1.0. Todas las referencias, etiquetas y metadatos se copian, mientras que las líneas de base no se copian en el archivo duplicado.
 
 - **Mover a**: utilice esta opción para mover el archivo seleccionado a otra carpeta.
-   - Puede escribir el nombre de la carpeta de destino o elegir **Seleccionar ruta** para seleccionar la carpeta de destino.
-   - Puede mover un archivo de cualquier tipo a cualquier destino dentro de la carpeta Contenido.
-   - Dos archivos no pueden tener el mismo nombre. Por lo tanto, no puede mover un archivo a una carpeta en la que ya existe un archivo con el mismo nombre.
+  - Puede escribir el nombre de la carpeta de destino o elegir **Seleccionar ruta** para seleccionar la carpeta de destino.
+  - Puede mover un archivo de cualquier tipo a cualquier destino dentro de la carpeta Contenido.
+  - Dos archivos no pueden tener el mismo nombre. Por lo tanto, no puede mover un archivo a una carpeta en la que ya existe un archivo con el mismo nombre.
 
   Si intenta mover un archivo a una carpeta en la que existe un archivo con el mismo nombre pero con un título diferente, se muestra el cuadro de diálogo Cambiar nombre y mover archivo y debe cambiar el nombre del archivo antes de moverlo. El archivo movido en la carpeta de destino tiene el nuevo nombre de archivo.
 
@@ -420,9 +420,9 @@ Las distintas opciones del menú Opciones se explican a continuación:
 
   Experience Manager Guides no permite cambiar el nombre de un archivo ni moverlo en los siguientes casos:
 
-   - No puede mover ni cambiar el nombre de un archivo si forma parte de un flujo de trabajo de revisión o traducción.
+  - No puede mover ni cambiar el nombre de un archivo si forma parte de un flujo de trabajo de revisión o traducción.
 
-   - Si cualquier otro usuario bloquea el archivo, no puede cambiarle el nombre ni moverlo, no verá la opción Cambiar nombre o Mover a del archivo.
+  - Si cualquier otro usuario bloquea el archivo, no puede cambiarle el nombre ni moverlo, no verá la opción Cambiar nombre o Mover a del archivo.
 
   >[!NOTE]
   >
@@ -435,30 +435,30 @@ Las distintas opciones del menú Opciones se explican a continuación:
   </details>
 
 - **Cambiar nombre**: utilice esta opción para cambiar el nombre del archivo seleccionado. Escriba el nombre del nuevo archivo en el cuadro de diálogo **Cambiar nombre del recurso**.
-   - Puede cambiar el nombre de un archivo de cualquier tipo.
-   - No se puede cambiar la extensión de un archivo.
-   - Dos archivos no pueden tener el mismo nombre. Por lo tanto, no puede cambiar el nombre de un archivo por uno que ya exista. Se muestra un error.
+  - Puede cambiar el nombre de un archivo de cualquier tipo.
+  - No se puede cambiar la extensión de un archivo.
+  - Dos archivos no pueden tener el mismo nombre. Por lo tanto, no puede cambiar el nombre de un archivo por uno que ya exista. Se muestra un error.
 
 - **Eliminar**: utilice esta opción para eliminar el archivo seleccionado. Se muestra un mensaje de confirmación antes de eliminar el archivo.
 
-   - Se muestra un mensaje de confirmación antes de eliminar el archivo.
-   - Si no se hace referencia al archivo desde ningún otro archivo, se elimina y se muestra un mensaje de éxito.
-   - Si el archivo está bloqueado, no podrá eliminarlo y aparecerá un mensaje de error.
+  - Se muestra un mensaje de confirmación antes de eliminar el archivo.
+  - Si no se hace referencia al archivo desde ningún otro archivo, se elimina y se muestra un mensaje de éxito.
+  - Si el archivo está bloqueado, no podrá eliminarlo y aparecerá un mensaje de error.
 
-     >[!NOTE]
-     >
-     > Si el administrador ha impedido la eliminación de archivos bloqueados, solo entonces se muestra el mensaje de error. Para obtener más información, vea la sección *Impedir la eliminación de archivos desprotegidos* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
+    >[!NOTE]
+    >
+    > Si el administrador ha impedido la eliminación de archivos bloqueados, solo entonces se muestra el mensaje de error. Para obtener más información, vea la sección *Impedir la eliminación de archivos desprotegidos* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
-   - Si el archivo se agrega a una colección, se muestra el cuadro de diálogo **Forzar eliminación** y puede eliminarlo a la fuerza.
-   - Si se hace referencia al archivo desde cualquier otro archivo, se mostrará el cuadro de diálogo **Forzar eliminación** con el mensaje de confirmación y podrá eliminar el archivo a la fuerza:
+  - Si el archivo se agrega a una colección, se muestra el cuadro de diálogo **Forzar eliminación** y puede eliminarlo a la fuerza.
+  - Si se hace referencia al archivo desde cualquier otro archivo, se mostrará el cuadro de diálogo **Forzar eliminación** con el mensaje de confirmación y podrá eliminar el archivo a la fuerza:
 
-     ![](images/options-menu-force-delete.png){width="300"}
+    ![](images/options-menu-force-delete.png){width="300"}
 
-     >[!NOTE]
-     >
-     > Si el administrador ha concedido permiso para eliminar archivos, se habilitará **Forzar eliminación**. De lo contrario, **Forzar eliminación** se deshabilitará y aparecerá un mensaje que indica que no tiene permiso para eliminar los archivos a los que se hace referencia. Para obtener más información, vea la sección *Impedir la eliminación de archivos a los que se hace referencia* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
+    >[!NOTE]
+    >
+    > Si el administrador ha concedido permiso para eliminar archivos, se habilitará **Forzar eliminación**. De lo contrario, **Forzar eliminación** se deshabilitará y aparecerá un mensaje que indica que no tiene permiso para eliminar los archivos a los que se hace referencia. Para obtener más información, vea la sección *Impedir la eliminación de archivos a los que se hace referencia* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
-   - Si elimina un tema al que se hace referencia y ha abierto el archivo que contiene referencias para su edición, se mostrará el vínculo roto para el archivo al que se hace referencia.
+  - Si elimina un tema al que se hace referencia y ha abierto el archivo que contiene referencias para su edición, se mostrará el vínculo roto para el archivo al que se hace referencia.
 
   >[!NOTE]
   >
@@ -467,15 +467,15 @@ Las distintas opciones del menú Opciones se explican a continuación:
 - **Generar**: Utilice la opción para publicar un mapa o temas dentro de un mapa en una página de Sites, un fragmento de contenido o un fragmento de experiencia.
 
 - **Agregar a**: puede elegir entre las siguientes opciones:
-   - **Colecciones**: agrega el archivo seleccionado a Colecciones. Puede elegir agregarlo a una colección existente o nueva.
+  - **Colecciones**: agrega el archivo seleccionado a Colecciones. Puede elegir agregarlo a una colección existente o nueva.
 
-   - **Contenido reutilizable**: agrega el archivo seleccionado a la lista Contenido reutilizable del panel izquierdo.
+  - **Contenido reutilizable**: agrega el archivo seleccionado a la lista Contenido reutilizable del panel izquierdo.
 
 - **Copiar**: puede elegir entre las siguientes opciones:
 
-   - **Copiar UUID**: copie el UUID del archivo seleccionado en el portapapeles.
+  - **Copiar UUID**: copie el UUID del archivo seleccionado en el portapapeles.
 
-   - **Copiar ruta**: copie la ruta completa del archivo seleccionado al Portapapeles.
+  - **Copiar ruta**: copie la ruta completa del archivo seleccionado al Portapapeles.
 
 - **Volver a procesar el recurso**: Déclencheur el procesamiento del recurso seleccionado.
 
@@ -533,7 +533,7 @@ Las siguientes opciones están disponibles para un archivo de asignación en la 
 
 Puede realizar las siguientes acciones mediante el menú Opciones del archivo de asignación:
 
-![](images/options-menu-map-view_cs.png){  }
+![](images/options-menu-map-view_cs.png)
 
 - **Editar**: abre el archivo de asignación para editarlo en el Editor de mapas.
 
@@ -550,21 +550,25 @@ Puede realizar las siguientes acciones mediante el menú Opciones del archivo de
 - **Vista previa**: abre una vista previa del archivo de mapa. En esta vista, todos los archivos de tema del mapa se muestran en una sola vista página a página unificada.
 
 - **Copiar**: puede elegir entre las siguientes opciones:
-   - **Copiar UUID**: copie el UUID del archivo de asignación al portapapeles.
-   - **Copiar ruta**: copie la ruta completa del archivo de asignación al Portapapeles.
+  - **Copiar UUID**: copie el UUID del archivo de asignación al portapapeles.
+  - **Copiar ruta**: copie la ruta completa del archivo de asignación al Portapapeles.
 
 - **Localizar en el explorador**: Muestra la ubicación del archivo de asignación en el explorador\(o DAM\).
 
 - **Agregar a**: puede elegir entre las siguientes opciones:
-   - **Colecciones**: agrega el archivo de asignación a las colecciones. Puede elegir agregarlo a una colección existente o nueva.
+  - **Colecciones**: agrega el archivo de asignación a las colecciones. Puede elegir agregarlo a una colección existente o nueva.
 
-   - **Contenido reutilizable**: agrega el archivo de asignación a la lista Contenido reutilizable en el panel izquierdo.
+  - **Contenido reutilizable**: agrega el archivo de asignación a la lista Contenido reutilizable en el panel izquierdo.
 
 - **Propiedades**: utilice esta opción para abrir la página de propiedades del archivo de asignación. También se puede acceder a esta página de propiedades desde la interfaz de usuario de Assets seleccionando un archivo y el icono Propiedades en la barra de herramientas.
 
 - **Abrir tablero de mapas**: abre el tablero de mapas.
 
 - **Ver en la interfaz de usuario de Assets**: úselo para mostrar una vista previa del archivo de mapa en la interfaz de usuario de Assets. En esta vista, todos los archivos de tema del mapa se muestran en una sola vista página a página unificada.
+- **Ejecutar comprobación de estado**: Habilite esta opción para ejecutar comprobaciones de estado en el mapa seleccionado. Para obtener más detalles sobre esta característica, vea [Características adicionales en el editor de mapas](./map-editor-other-features.md#run-health-check-on-a-map).
+  >[!NOTE]
+  >
+  > Esta función está habilitada de forma predeterminada. Si prefiere no utilizar esta función en su entorno, póngase en contacto con el equipo de éxito del cliente.
 - **Descargar mapa**: Seleccione esta opción para abrir el cuadro de diálogo **Descargar mapa**.
 
   En el cuadro de diálogo **Descargar mapa**, puede elegir las siguientes opciones:
@@ -584,7 +588,6 @@ Puede realizar las siguientes acciones mediante el menú Opciones del archivo de
   >[!NOTE]
   >
   >  De forma predeterminada, las asignaciones descargadas permanecen durante cinco días en la Bandeja de entrada de notificaciones de Adobe Experience Manager.
-
 - **Cerrar contexto de asignación**: Cierra el archivo de asignación.
 
 La siguiente captura de pantalla muestra el menú Opciones de un archivo en la vista de mapa:
@@ -606,8 +609,8 @@ Puede realizar las siguientes acciones mediante el menú Opciones:
 
 - **Vista previa**: obtenga una vista previa rápida del archivo (.dita, .xml, audio, vídeo o imagen) sin abrirlo. Puede cambiar el tamaño del panel de vista previa. Si el contenido contiene `<xref>` o `<conref>`, puede seleccionarlo para abrirlo en una nueva pestaña.  El título del archivo aparece en la ventana. Si no hay ningún título, aparece el nombre de archivo. Para cerrar el panel **Vista previa**, puede seleccionar el icono de cerrar o seleccionar cualquier lugar fuera del panel.
 - **Copiar**: puede elegir entre las siguientes opciones:
-   - **Copiar UUID**: copie el UUID del archivo seleccionado en el portapapeles.
-   - **Copiar ruta**: copie la ruta completa del archivo seleccionado al Portapapeles.
+  - **Copiar UUID**: copie el UUID del archivo seleccionado en el portapapeles.
+  - **Copiar ruta**: copie la ruta completa del archivo seleccionado al Portapapeles.
 
 
 - **Buscar en el explorador**: Muestra la ubicación del archivo seleccionado en el explorador \(o DAM\).
@@ -616,9 +619,9 @@ Puede realizar las siguientes acciones mediante el menú Opciones:
 - **Contraer todo**: Contraer todos los temas que forman parte del archivo de asignación actual.
 
 - **Agregar a**: puede elegir entre las siguientes opciones:
-   - **Colecciones**: agrega el archivo seleccionado a las colecciones. Puede elegir agregarlo a una colección existente o nueva.
+  - **Colecciones**: agrega el archivo seleccionado a las colecciones. Puede elegir agregarlo a una colección existente o nueva.
 
-   - **Contenido reutilizable**: agrega el archivo seleccionado a la lista Contenido reutilizable del panel izquierdo.
+  - **Contenido reutilizable**: agrega el archivo seleccionado a la lista Contenido reutilizable del panel izquierdo.
 
 - **Propiedades**: utilice esta opción para abrir la página de propiedades del archivo seleccionado. También se puede acceder a esta página de propiedades desde la interfaz de usuario de Assets seleccionando un archivo y el icono Propiedades en la barra de herramientas.
 
@@ -773,10 +776,10 @@ Puede configurar las siguientes opciones de la herramienta Punto interactivo:
 - **Acción**: puede elegir buscar las claves del glosario **Manualmente para cada tema** o **Automáticamente para todos los temas**. Si elige **Manualmente para cada tema**, se le pedirá que confirme antes de convertir cada término en cada tema. Si elige **Automáticamente para todos los temas**, convertirá automáticamente todos los términos de todos los temas.
 - **Convertir**: puede convertir un **texto buscado en un término de glosario** o **término de glosario en texto.**
 - **Opciones**: puede seleccionar entre las siguientes opciones:
-   - **Coincidencia que distingue entre mayúsculas y minúsculas**: busca un término para encontrar la coincidencia que tiene la misma coincidencia. Por ejemplo, &quot;USB&quot; no coincidirá con &quot;usb&quot;.
-   - **Convertir solo la primera instancia**: si hay varias instancias del término buscado en un tema, solo se convierte la primera instancia.
-   - **Bloquear archivo antes de la conversión**: el archivo buscado está bloqueado antes de que se conviertan los términos.
-   - **Crear una nueva versión después de la conversión**: se crea una nueva versión del tema una vez completada la conversión de términos.
+  - **Coincidencia que distingue entre mayúsculas y minúsculas**: busca un término para encontrar la coincidencia que tiene la misma coincidencia. Por ejemplo, &quot;USB&quot; no coincidirá con &quot;usb&quot;.
+  - **Convertir solo la primera instancia**: si hay varias instancias del término buscado en un tema, solo se convierte la primera instancia.
+  - **Bloquear archivo antes de la conversión**: el archivo buscado está bloqueado antes de que se conviertan los términos.
+  - **Crear una nueva versión después de la conversión**: se crea una nueva versión del tema una vez completada la conversión de términos.
 - El botón **Siguiente** aparece si selecciona la opción **Manualmente para cada tema**. Seleccione **Siguiente** para convertir los términos de cada tema en función de la configuración seleccionada. Solicita la conversión de términos en cada tema y se mueve al siguiente archivo. Puede elegir convertir un término u omitirlo y pasar al siguiente.
 
   ![](images/manual-convert-skip.png){width="300"}
@@ -1101,8 +1104,8 @@ Para insertar un fragmento de código, utilice cualquiera de los métodos siguie
 
 - Seleccione un fragmento de código del panel Fragmentos de código y arrástrelo y suéltelo en la ubicación deseada del tema. También puede utilizar las opciones de filtro de la parte superior del panel Fragmentos de código para restringir la vista:
 
-   - **Mostrar todos los fragmentos**: enumera todos los fragmentos disponibles, incluidos los formatos DITA y HTML.
-   - **Mostrar solo los fragmentos aplicables**: filtra la lista para mostrar solo los fragmentos que sean relevantes para el tema o contexto actual. Por ejemplo, si está trabajando en un tema DITA, los fragmentos de HTML se excluirán de la lista para garantizar la precisión contextual.
+  - **Mostrar todos los fragmentos**: enumera todos los fragmentos disponibles, incluidos los formatos DITA y HTML.
+  - **Mostrar solo los fragmentos aplicables**: filtra la lista para mostrar solo los fragmentos que sean relevantes para el tema o contexto actual. Por ejemplo, si está trabajando en un tema DITA, los fragmentos de HTML se excluirán de la lista para garantizar la precisión contextual.
 
 - Sitúe el punto de inserción donde desee insertar el fragmento de código; en el menú Opciones del fragmento de código requerido, elija Insertar fragmento de código.
 
@@ -1195,14 +1198,14 @@ Para realizar la búsqueda global y reemplazar con el modo Source, realice los s
    - **Estado del documento**: puede seleccionar un estado del documento entre las opciones disponibles. Las opciones de estado del documento mostradas se derivan de los perfiles de carpeta. Representan el conjunto combinado de todos los estados de documento posibles en esos perfiles. Los estados predeterminados incluyen En revisión, Listo, Borrador, Aprobado, Editar y Revisado.
    - **Última modificación**: filtre el contenido en función de la fecha de modificación. Seleccione un intervalo de fechas del calendario o elija una de las siguientes opciones de lapso de tiempo:
 
-      - En las últimas 2 horas
-      - En la última semana
-      - En el último mes
-      - En el último año
+     - En las últimas 2 horas
+     - En la última semana
+     - En el último mes
+     - En el último año
    - **Otros**: puede configurar lo siguiente:
-      - **Etiquetas**: filtre el contenido según las etiquetas.
-      - **Búsqueda que distingue entre mayúsculas y minúsculas**: habilita la búsqueda para garantizar que los resultados coincidan con el uso exacto de mayúsculas y minúsculas especificado.
-      - **Mostrar archivos bloqueados por otros**: muestra los archivos bloqueados actualmente por otros usuarios, lo que impide realizar modificaciones hasta que se libere el bloqueo.
+     - **Etiquetas**: filtre el contenido según las etiquetas.
+     - **Búsqueda que distingue entre mayúsculas y minúsculas**: habilita la búsqueda para garantizar que los resultados coincidan con el uso exacto de mayúsculas y minúsculas especificado.
+     - **Mostrar archivos bloqueados por otros**: muestra los archivos bloqueados actualmente por otros usuarios, lo que impide realizar modificaciones hasta que se libere el bloqueo.
 
 1. Pulse Intro o seleccione el icono **Buscar** para realizar la búsqueda.
 
@@ -1365,8 +1368,8 @@ Para ver los comentarios de revisión de las tareas de revisión activas que est
 
      El cuadro de diálogo **Filtro** también incluye las siguientes opciones que se pueden habilitar o deshabilitar mediante la opción:
 
-      - **Tareas iniciadas por mí**: cuando está habilitada, muestra solamente las tareas que ha iniciado.
-      - **Mostrar solo las tareas activas**: cuando está habilitada, filtra la lista de proyectos para mostrar solo las tareas que están activas actualmente.
+     - **Tareas iniciadas por mí**: cuando está habilitada, muestra solamente las tareas que ha iniciado.
+     - **Mostrar solo las tareas activas**: cuando está habilitada, filtra la lista de proyectos para mostrar solo las tareas que están activas actualmente.
 
      De forma predeterminada, ambas opciones están desactivadas. Además, el estado de alternancia seleccionado se mantiene incluso después de actualizar la página.
 

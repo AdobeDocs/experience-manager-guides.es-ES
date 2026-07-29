@@ -14,9 +14,9 @@ subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
+source-git-commit: 7989955248054571a569ad34d92ae7e26fe70ffd
 workflow-type: tm+mt
-source-wordcount: 557
+source-wordcount: 577
 ht-degree: 0%
 
 ---
@@ -65,12 +65,14 @@ Las otras opciones disponibles en el menú Insertar de la barra de herramientas 
 
   La ecuación se inserta con un fondo gris claro. En cualquier momento puede actualizar una ecuación haciendo clic con el botón derecho en una ecuación existente y seleccionando **Editar ecuación matemática** en el menú contextual. Para obtener más información sobre la validación de ecuaciones de MathML en Experience Manager Guides, consulte [Validación de ecuaciones en el editor de MathML](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
 
-- **Comprobación de conocimientos:** Permite agregar preguntas en los formatos disponibles (Corrección simple, Corrección múltiple, Verdadero/Falso, Coincidir con lo siguiente o insertarlas desde el banco de preguntas) al tema para revisarlo y confirmar la comprensión sin calificar. Estas preguntas reflejan los formatos estándar y excluyen la puntuación, lo que las hace ideales para la autoevaluación y adecuadas como parte del contenido del curso o como tema antes de una prueba o evaluación posterior, si está disponible.
+- **Comprobación de conocimientos:** Permite agregar preguntas en los formatos disponibles (Corrección simple, Corrección múltiple, Verdadero/Falso, Coincidir con lo siguiente o insertarlas desde el banco de preguntas) al tema para revisarlo y confirmar la comprensión sin calificar. Estas preguntas reflejan los formatos estándar y excluyen la puntuación, lo que las hace ideales para la autoevaluación y adecuadas como parte del contenido del curso o como tema antes de una prueba o evaluación posterior, si está disponible. Puede configurar respuestas correctas y otros campos obligatorios a través del panel **Propiedades del contenido**. Para obtener más información, vea [Tipos de preguntas](./quiz-insert-questions.md).
 
   ![](assets/knowledge-check-topic.png){width="650"}
 
 
-  Puede configurar respuestas correctas y otros campos obligatorios a través del panel **Propiedades del contenido**. Para obtener más información, vea [Tipos de preguntas](./quiz-insert-questions.md). Puede añadir varios tipos de preguntas utilizando las opciones de comprobación de conocimientos como se muestra a continuación.
+  Si un alumno envía una respuesta incorrecta a una pregunta de comprobación de conocimientos, los campos de respuesta se resaltan junto con un mensaje de error que le guía a seleccionar **Vuelva a intentarlo** para volver a intentar responder la misma pregunta.
+
+  ![](assets/knowledge-check-try-again.png){width="650"}
 
   Además, puede habilitar la opción **Requerir comprobación de conocimientos para continuar** para garantizar que los alumnos intenten realizar una comprobación de conocimientos designada antes de avanzar al contenido del curso siguiente. Esta capacidad ayuda a reforzar los objetivos clave de aprendizaje al evitar que los alumnos omitan los puntos de comprobación de evaluación críticos. La característica se admite cuando **los alumnos deben avanzar por el contenido en un orden secuencial**. La configuración está habilitada al configurar la salida del ajuste preestablecido de SCORM, lo que garantiza que la progresión del curso siga la ruta de aprendizaje deseada.
 

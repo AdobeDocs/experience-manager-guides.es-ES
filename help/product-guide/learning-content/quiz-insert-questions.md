@@ -13,9 +13,9 @@ feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: ff08b63bf8668fddc89c43391b3264a733a824e7
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: 691
 ht-degree: 0%
 
 ---
@@ -53,6 +53,13 @@ Puede configurar las preguntas mediante las siguientes propiedades de la pregunt
 - **Sanción por respuesta incorrecta**: especifique los puntos que se van a deducir de una respuesta incorrecta.
 - **Etiqueta de pregunta**: habilítela para agregar una etiqueta de pregunta.
 - **Comentarios**: habilítelo para proporcionar los comentarios y obtener una respuesta correcta o incorrecta.
+
+  >[!NOTE]
+  >
+  > En el resultado publicado del curso, después de intentar responder a todas las preguntas de una prueba, los alumnos pueden usar la opción **Revisar respuestas** para revisar sus respuestas enviadas y ver qué respuestas eran correctas o incorrectas. Esto no requiere ninguna instalación ni configuración adicional.
+
+  ![](assets/review-answer-quiz.png){width="350"}
+
 - **Fijar opción en la posición**: cuando se fija una opción específica para una pregunta, permanece fija en la posición especificada en la lista de opciones, incluso si **las opciones de respuesta aleatorias para cada intento** están habilitadas en la configuración del ajuste preestablecido SCORM, que de lo contrario reorganizaría las opciones disponibles. Puede situarse sobre la opción deseada de una pregunta en el panel Propiedades de contenido y anclarla.
 
   ![](assets/pin-question.png){width="350"}

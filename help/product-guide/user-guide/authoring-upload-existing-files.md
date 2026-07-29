@@ -13,9 +13,9 @@ feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: d1a4b75ef3acd3d02cce2225f03e1f9b3a086ef7
 workflow-type: tm+mt
-source-wordcount: 536
+source-wordcount: 695
 ht-degree: 0%
 
 ---
@@ -33,6 +33,19 @@ Lo más probable es que tenga un repositorio de contenido DITA existente que des
 Para [agregar recursos digitales a Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=es#filename-handling?lang=es#upload-assets) mediante la interfaz de usuario de la consola de Assets, seleccione el recurso necesario en el escritorio y arrastre en la interfaz de usuario de Adobe Experience Manager \(explorador web\) a la carpeta de destino. Al cargar recursos, asegúrese de que los nombres de archivo no incluyan caracteres no admitidos o prohibidos.
 
 Para obtener más información, consulte la sección [Administración de nombres de archivo y caracteres prohibidos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=es#filename-handling) en la documentación de Adobe Experience Manager.
+
+### Carga de archivos mediante la interfaz de usuario de Assets
+
+Cuando subes archivos usando **Crear** > **Archivos** y seleccionas un archivo del sistema, aparece **Cargar Assets**. Este cuadro de diálogo le permite revisar y, opcionalmente, cambiar el nombre del archivo antes de iniciar la carga. Puede conservar el nombre de archivo original o proporcionar uno nuevo en función de sus necesidades.
+
+![](images/upload-file.png){width="350"}
+
+Después de iniciar la carga, el estado se muestra en el cuadro de diálogo **Cargar Assets**, donde se muestra el progreso de carga de cada archivo que se carga. Si necesita detener la operación antes de que finalice, puede cancelar la carga en cualquier momento seleccionando la opción **Cancelar** o el icono Cancelar. Al cancelar la operación, finaliza la carga y el archivo no se agrega al repositorio.
+
+![](images/upload-status.png){width="350"}
+
+Una vez que la carga se ha completado correctamente, el sistema muestra un mensaje de confirmación que indica que el archivo se ha cargado correctamente. Este mensaje confirma que el archivo ya está disponible en la ubicación seleccionada dentro del repositorio de Assets.
+
 
 ## Aplicación de escritorio de Adobe Experience Manager
 
@@ -57,5 +70,8 @@ Si se produce un error al cargar uno o más archivos, se muestra un mensaje al f
 Para obtener más información sobre cómo funcionan los distintos escenarios de carga de archivos, vea [Administrar archivos y carpetas](authoring-file-management.md#).
 
 Si utiliza una herramienta como la aplicación de escritorio de Adobe Experience Manager o el ingestor masivo de recursos, la acción que se va a realizar en un archivo duplicado se controla mediante una configuración en el servidor de Adobe Experience Manager. Póngase en contacto con el administrador del sistema para conocer esta configuración.
+
+
+
 
 **Tema principal:**&#x200B;[&#x200B; Administrar contenido](authoring.md)

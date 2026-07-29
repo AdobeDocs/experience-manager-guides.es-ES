@@ -19,9 +19,9 @@ subfeature_v2:
   - id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: b0e39e78724e6d47e47648cd8c3a36aef307caf8
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 701
 ht-degree: 0%
 
 ---
@@ -134,14 +134,13 @@ Para obtener información detallada sobre el uso de la API, los parámetros y la
 
 >[!NOTE]
 >
-> También puede consultar la **documentación de Swagger** para las API de REST disponibles públicamente en `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`. Actualmente, solo las API relacionadas con Assets, Línea base y Creación de informes están disponibles en la documentación de Swagger.
-
+> También puede consultar la **documentación de Swagger** para las API de REST disponibles públicamente en `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html` o acceder a ella a través de la interfaz de AEM si navega hasta **Herramientas** > **Guías** > **API Swagger**. Actualmente, solo las API relacionadas con Assets, Línea base, Informes, Traducción y Publicación están disponibles en la documentación de Swagger.
 
 ## Recursos adicionales
 
-A continuación se muestra una lista de otros recursos útiles de AEM Guides, que están disponibles en la página [Aprendizaje y asistencia](https://helpx.adobe.com/es/support/xml-documentation-for-experience-manager.html):
+A continuación se muestra una lista de otros recursos útiles de AEM Guides, que están disponibles en la página [Aprendizaje y asistencia](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
 
 - Guía del usuario
 - Guía de instalación y configuración
 - Guía de inicio rápido
-- [Página de archivo de ayuda](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/archive.html) \(acceder a la documentación de la versión anterior\)
+- [Página de archivo de ayuda](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(acceder a la documentación de la versión anterior\)

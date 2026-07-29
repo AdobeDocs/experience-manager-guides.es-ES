@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: e5812ebac255dc10f4b6bf7287cfaede92354e70
 workflow-type: tm+mt
-source-wordcount: 1233
+source-wordcount: 1526
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ En el Editor, el panel derecho contiene los iconos Revisar y Rastrear cambios. E
 
 - **B:** Seleccione **Detalles de la revisión** ![](images/active-review-info-icon.svg) en el panel **Comentarios** para ver más información acerca de la tarea de revisión:
 
-   - **Nombre**: nombre de la tarea de revisión
-   - **Versión de revisión**: muestra la versión asociada con la tarea de revisión seleccionada. Esto le ayuda a realizar un seguimiento de la versión que ha compartido para su revisión
-   - **Estado**: Estado actual de la tarea de revisión.
+  - **Nombre**: nombre de la tarea de revisión
+  - **Versión de revisión**: muestra la versión asociada con la tarea de revisión seleccionada. Esto le ayuda a realizar un seguimiento de la versión que ha compartido para su revisión
+  - **Estado**: Estado actual de la tarea de revisión.
 
   >[!NOTE]
   >
@@ -90,7 +90,8 @@ En el Editor, el panel derecho contiene los iconos Revisar y Rastrear cambios. E
 - **I**: aplique un filtro en los comentarios. Puede filtrar para ver los comentarios basándose en el Tipo de revisión \(todas, resaltadas, eliminadas, insertadas o notas adhesivas\), Estado de la revisión \(todas, aceptadas, rechazadas o ninguna\), Revisores \(todos los revisores o revisores específicos\)\) o Versiones del tema. De forma predeterminada, no se selecciona ninguno de los filtros.
 
   ![](images/review-comments-author-filter.png){width="350"}
-  **Responder a un comentario al etiquetar a otros usuarios**
+
+**Responder a un comentario al etiquetar a otros usuarios**
 
 Como autor e iniciador de la tarea de revisión, puede responder para revisar los comentarios y etiquetar a otros usuarios implicados en la misma tarea de revisión para dirigir su atención o asignar seguimientos. Esta funcionalidad solo está disponible para tareas de revisión activas.
 
@@ -108,5 +109,28 @@ Los usuarios etiquetados reciben un correo electrónico y una notificación de A
 Si usted es el iniciador o el autor de una tarea de revisión y la abre desde la **consola Proyectos**, el tema se iniciará en la interfaz de usuario de revisión. Debido a que esta tarea no está asignada a usted, puede ver los comentarios y responder a ellos, pero no puede realizar ninguna acción de revisión. La barra de herramientas de comentarios permanece desactivada para los usuarios que no están asignados a la tarea.
 
 ![](images/review-comments-toolbar-disabled.png){width="350"}
+
+## Ver todas las tareas de revisión de un tema
+
+>[!NOTE]
+>
+> Esta función está habilitada de forma predeterminada. Si prefiere no utilizar esta función en su entorno, póngase en contacto con el equipo de éxito del cliente.
+
+Esta función le permite seleccionar una tarea de revisión (abierta o cerrada) asociada al tema abierto actualmente en el panel Comentarios. Cuando está habilitado, el panel Comentarios de la IU de revisión incluye una lista desplegable de todas las tareas de revisión de las que forma parte el tema, junto con el estado de cada tarea (Activa o Cerrada) y el proyecto al que pertenece. La tarea desde la que está trabajando actualmente está marcada con la etiqueta **Actual** de forma predeterminada.
+
+![](./images/review-task-selection-dropdpwn.png){width="350"}
+
+Mediante la lista desplegable de tareas de revisión, puede seleccionar cualquiera de estas tareas y revisar sus comentarios sin cambiar de proyecto de revisión. También puede seleccionar el icono **(i)** junto a una tarea en la lista desplegable para ver sus detalles.
+
+>[!NOTE]
+>
+> Si una tarea de revisión que espera ver no aparece en la lista desplegable, puede deberse a que la tarea se creó antes de habilitar esta función en su instancia. Póngase en contacto con su administrador para resolver el problema al [Realizar indización para incluir todas las tareas de revisión de un tema en el panel Comentarios](../install-conf-guide/index-review-tasks.md).
+
+Al utilizar esta función, tenga en cuenta que:
+
+- Cambiar a un tema diferente en el Editor restablece el panel a la tarea Actual en los Comentarios
+- Al seleccionar cualquier tarea que no sea Actual, se abre la versión del tema y sus comentarios de esa tarea en modo de sólo lectura. Puede ver los comentarios, pero no puede editarlos, aceptarlos o rechazarlos, y la opción **Importar** está deshabilitada. Sólo se pueden importar en la copia de trabajo los comentarios de la tarea actual.
+- El filtrado y la búsqueda sólo se aplican a los comentarios de la tarea seleccionada; los comentarios de otras tareas no seleccionadas no se ven afectados.
+
 
 **Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)

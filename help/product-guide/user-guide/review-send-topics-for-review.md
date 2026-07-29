@@ -15,9 +15,9 @@ subfeature_v2:
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a668e1b862702ae1154b05d974414b54b43559ea
 workflow-type: tm+mt
-source-wordcount: 3343
+source-wordcount: 3663
 ht-degree: 0%
 
 ---
@@ -81,7 +81,9 @@ Para crear una tarea de revisión y enviar temas para su revisión, realice los 
 
 1. Escriba una **descripción** para la tarea.
 
-   Esta descripción se utiliza como cuerpo del correo electrónico de notificación enviado a los revisores.
+   La descripción se utiliza como cuerpo del correo electrónico de notificación enviado a los revisores. También se muestra en el cuadro de diálogo **Revisar detalles**, al que se puede acceder mediante el icono *Información* junto al encabezado **Comentarios** en la interfaz de usuario de revisión y en la interfaz del editor.
+
+   ![](images/review-details.png)
 
 1. Seleccione la **fecha de vencimiento** y la hora para marcar la fecha límite para la revisión.
 
@@ -108,6 +110,35 @@ Para crear una tarea de revisión y enviar temas para su revisión, realice los 
    >[!NOTE]
    >
    > El mapa raíz seleccionado tiene la prioridad más alta para resolver las referencias clave. Para obtener más información, vea [Resolver referencias clave](map-editor-other-features.md#id176GD01H05Z).
+
+1. Adjuntar archivos DITAVAL (disponible solo cuando está habilitado para su entorno)
+
+   >[!NOTE]
+   >
+   > La función para adjuntar ficheros DITAVAL a una tarea de revisión está activada de forma predeterminada. Si prefiere no utilizar esta función en su entorno, póngase en contacto con el equipo de éxito del cliente.
+
+   Si el tema que envía para revisión utiliza condiciones, puede adjuntar uno o varios archivos DITAVAL a la tarea de revisión.
+
+   ![](./images/attach-ditaval-review-task.png)
+
+   >[!NOTE]
+   >
+   > El selector de archivos solo acepta archivos DITAVAL. Si selecciona cualquier otro tipo de fichero, como un tema o un mapa, un mensaje de error le pedirá que seleccione un fichero DITAVAL en su lugar.
+
+   Las condiciones definidas en los archivos DITAVAL adjuntos se utilizan para preseleccionar los alternadores en el panel Condiciones del revisor, de modo que los revisores tengan acceso al mismo conjunto de condiciones que usted, como iniciador, desea para esta revisión.
+
+   También tiene la casilla de verificación **Permitir cambios en la condición del revisor**, que controla si los revisores pueden cambiar las opciones preestablecidas:
+
+   ![](./images/reviewer-conditions.png)
+
+   - Si se selecciona, los revisores pueden activar o desactivar cualquier opción de condición durante la revisión, anulando los valores establecidos por los archivos DITAVAL.
+   - Si se borran, las opciones permanecen desactivadas para los revisores, que pueden revisar el contenido únicamente según el filtro del archivo o archivos DITAVAL adjuntos.
+
+   **Notas adicionales**:
+
+   - Puede adjuntar varios archivos DITAVAL a una sola tarea de revisión. Si dos o más archivos adjuntos definen valores en conflicto para la misma condición, el archivo que se agregó primero (en orden de inserción) tiene prioridad.
+   - Las condiciones que no están cubiertas por ningún archivo DITAVAL adjunto no se ven afectadas; conservan el comportamiento predeterminado (sin filtrar) en la interfaz de usuario de revisión.
+   - Una vez creada la tarea de revisión, puede actualizarla desde la página Detalles de la tarea para agregar, quitar o reemplazar los archivos DITAVAL adjuntos y para cambiar la configuración **Permitir cambios en la condición del revisor**.
 
 1. Dado que puede asignar distintos revisores a diferentes temas, la opción **Permitir que los usuarios asignados revisen cualquier tema** controla si los revisores pueden revisar todos los temas de una tarea de revisión o sólo aquellos temas para los que están asignados a la revisión.
 
