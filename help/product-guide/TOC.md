@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: 4788cae8de3b93a008b83f8be6a42fd675b21906
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
-source-wordcount: '2575'
+source-wordcount: '2578'
 ht-degree: 10%
 
 ---
@@ -216,8 +216,8 @@ ht-degree: 10%
   - Introducción {#about-aemg}
     - [Acerca de  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] funciones clave y de trabajo {#aemg-works-features}
-      - [Cómo funciona [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-      - [Características clave  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+      - [Cómo funciona [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+      - [Características clave  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Página de inicio {#home-page}
     - [Experiencia de la página de inicio [!DNL AEM Guides]](./user-guide/intro-home-page.md)
     - [Interfaz de repositorio](./user-guide/home-page-repository-view.md)
@@ -427,7 +427,7 @@ ht-degree: 10%
       - [Session timeout](./user-guide/session-timeout-prompt.md)
       - [La cadena es una excepción demasiado larga en la exportación de metadatos](./user-guide/metadata-export-failure.md)
 - Guía del usuario (IU antigua) {#user-guide-old-ui}
-  - [Información general de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Información general de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalación y configuración {#install-conf-guide}
   - [Descargar, instalar y actualizar](./install-conf-guide/introduction.md)
   - Proceso de instalación de Cloud Service {#deploy-conf-aemg-cs}
@@ -591,7 +591,8 @@ ht-degree: 10%
   - [API para rastrear el estado posterior al procesamiento de una carpeta o un recurso](./api-reference/track-post-processing-status.md)
   - [API para iniciar el procesamiento masivo de recursos](./api-reference/bulk-assets-processing.md)
   - [Controlador de eventos de activación masiva completa](./api-reference/bulk-activation-complete-event.md)
-  - [Controlador de eventos de proceso de conversión](./api-reference/conversion-complete-event.md)
+  - [Controlador de eventos del proceso de conversión](./api-reference/conversion-complete-event.md)
+  - [Creación del proyecto de traducción](./api-reference/create-translation-project.md)
 - Base de conocimiento {#knowledge-base}
   - Sesión de expertos {#expert-session}
     - [Resumen de sesión de expertos](./knowledge-base/expert-sessions/expert-session.md)
