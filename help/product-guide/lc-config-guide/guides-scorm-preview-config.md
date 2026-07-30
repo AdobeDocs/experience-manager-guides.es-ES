@@ -68,7 +68,7 @@ Según sus necesidades, no tiene que rellenar todos los valores; deje cualquier 
 2. Vaya a la pestaña **Configuración** del entorno.
 3. Seleccione **Agregar/Actualizar** para agregar una variable de entorno.
 
-   ![Agregando nueva variable al administrador de nube ](assets/add-new-variable.png){width="650"}
+   ![Agregando nueva variable al administrador de nube &#x200B;](assets/add-new-variable.png){width="650"}
 
 4. Escriba el nombre de la variable (`GUIDES_SCORM_PREVIEW_CONFIG`) en el campo **Nombre**.
 
