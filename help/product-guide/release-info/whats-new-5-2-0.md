@@ -2,7 +2,7 @@
 title: Notas de versión | Novedades de la versión 5.2.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 5.2.0 de Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 166dd4eec428d81bfe3db92ebc5a54f1760fe7dc
+source-git-commit: 5da6c5239a4118d00f3a40707759950483aafdd8
 workflow-type: tm+mt
 source-wordcount: '4052'
 ht-degree: 0%
@@ -42,10 +42,10 @@ Una interfaz actualizada mejora la facilidad de uso general, lo que hace que la 
 
 - **Configuración del editor consolidada en el nivel de usuario**: Un nuevo panel de configuración centralizado que proporciona a los autores un mejor control sobre el comportamiento del editor, lo que permite a los usuarios administrar las preferencias con mayor facilidad desde una sola ubicación. Las opciones de configuración incluyen la capacidad de habilitar/deshabilitar:
 
-   - Espacios de no separación en el modo Autor
-   - Configuración de visibilidad de etiquetas con atributos o sin atributos
-   - Comentarios XML en el modo Autor
-   - Menú de inserción rápida para insertar elementos en el editor
+  - Espacios de no separación en el modo Autor
+  - Configuración de visibilidad de etiquetas con atributos o sin atributos
+  - Comentarios XML en el modo Autor
+  - Menú de inserción rápida para insertar elementos en el editor
 
   ![](assets/editor-settings-dialog.png){width="350"}
 
@@ -78,9 +78,9 @@ Proporciona herramientas mejoradas y flexibilidad para optimizar los flujos de t
 
 - **Creación de tablas mejorada**: Mejora la experiencia general de creación de tablas con interacciones más intuitivas y eficientes para crear y administrar tablas.
 
-   - Interacciones fluidas e intuitivas: inserte filas y columnas fácilmente, junto con la compatibilidad de arrastrar y soltar para reordenar filas y columnas.
-   - Barra de herramientas contextual: Acceda a acciones específicas de la tabla, como formato, alineación, combinación y otras acciones adicionales directamente dentro de la tabla.
-   - Configuración de tablas: Añada varias filas o columnas en una sola acción, reduciendo los pasos repetitivos y mejorando la eficacia.
+  - Interacciones fluidas e intuitivas: inserte filas y columnas fácilmente, junto con la compatibilidad de arrastrar y soltar para reordenar filas y columnas.
+  - Barra de herramientas contextual: Acceda a acciones específicas de la tabla, como formato, alineación, combinación y otras acciones adicionales directamente dentro de la tabla.
+  - Configuración de tablas: Añada varias filas o columnas en una sola acción, reduciendo los pasos repetitivos y mejorando la eficacia.
 
   ![](assets/config-table.png){width="650"}
 
@@ -415,7 +415,7 @@ Para obtener más información, vea [Nueva experiencia de línea de base (Beta) 
 
 Se han realizado las siguientes mejoras de API como parte de esta versión:
 
-- Se introducen nuevas API para crear un nuevo proyecto de traducción y rastrear su estado. Estas API ayudan a automatizar el proceso de traducción, reduciendo el esfuerzo manual y mejorando la eficacia. Para obtener más información, vea [Crear proyecto de traducción](../api-reference/translation-project.md)
+- Se introducen nuevas API para crear un nuevo proyecto de traducción y rastrear su estado. Estas API ayudan a automatizar el proceso de traducción, reduciendo el esfuerzo manual y mejorando la eficacia. Para obtener más información, vea [Crear proyecto de traducción](../api-reference/api-update-swagger.md).
 - API de procesamiento de recursos mejoradas con capacidad de filtrado mejorada para archivos y carpetas. Para obtener más información, vea [Procesar recursos](../api-reference/bulk-assets-processing.md).
 - Hay una nueva API disponible para rastrear el estado posterior al procesamiento de recursos y carpetas individuales. Esto resulta especialmente útil en equipos que utilizan flujos de trabajo automatizados, donde la publicación solo debe producirse después de que el contenido se haya procesado por completo. La API ofrece una forma fiable de confirmar la preparación, lo que reduce el riesgo de errores de publicación causados por un procesamiento incompleto. Además, con la introducción de esta API, los eventos de procesamiento posterior de recursos no se activan automáticamente. Ahora los administradores pueden habilitar este evento mediante una configuración en `fmdita config manager`.
 Para obtener más información, vea la [API para rastrear el estado posterior al procesamiento de recursos y carpetas individuales](../api-reference/track-post-processing-status.md) y la configuración del controlador de eventos posterior al procesamiento en el administrador de configuración de fmdita[&#128279;](../api-reference/post-process-event.md)

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: 5a4aae4385951abb8c0a577d4b7f5542c8b1dde6
+source-git-commit: 4788cae8de3b93a008b83f8be6a42fd675b21906
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2575'
 ht-degree: 10%
 
 ---
@@ -412,6 +412,7 @@ ht-degree: 10%
       - [Configuración de perfiles de carpeta](./lc-config-guide/lc-folder-profile.md)
       - [Prácticas recomendadas para configurar la estructura de carpetas](./lc-config-guide/best-practices-folder-structure.md)
       - [Configurar otras opciones](./lc-config-guide/lc-other-settings.md)
+      - [Configurar CSP para vista previa de SCORM](./lc-config-guide/guides-scorm-preview-config.md)
       - [Métricas clave de SCORM](./lc-config-guide/learning-course-parameters.md)
     - Tutoriales en vídeo {#lc-video}
       - [Flujo de trabajo de autor](./lc-video-tutorials/author-workflow.md)
@@ -590,8 +591,7 @@ ht-degree: 10%
   - [API para rastrear el estado posterior al procesamiento de una carpeta o un recurso](./api-reference/track-post-processing-status.md)
   - [API para iniciar el procesamiento masivo de recursos](./api-reference/bulk-assets-processing.md)
   - [Controlador de eventos de activación masiva completa](./api-reference/bulk-activation-complete-event.md)
-  - [Controlador de eventos del proceso de conversión](./api-reference/conversion-complete-event.md)
-  - [Creación del proyecto de traducción](./api-reference/translation-project.md)
+  - [Controlador de eventos de proceso de conversión](./api-reference/conversion-complete-event.md)
 - Base de conocimiento {#knowledge-base}
   - Sesión de expertos {#expert-session}
     - [Resumen de sesión de expertos](./knowledge-base/expert-sessions/expert-session.md)

@@ -11,14 +11,18 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 1d80ca88a3a6637a118657367b86b499675f6d0e
+source-git-commit: 029af6ae2b1bbcd5db114577e3638622601ad309
 workflow-type: tm+mt
-source-wordcount: 150
-ht-degree: 13%
+source-wordcount: 198
+ht-degree: 10%
 
 ---
 
 # API para rastrear el estado posterior al procesamiento de una carpeta o un recurso
+
+>[!NOTE]
+>
+> Para obtener las definiciones de extremo de API de REST más recientes y los detalles relacionados, vea la documentación de Swagger en `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html` (reemplace `<aem-author-url>` por la URL de su servidor de AEM). Dado que este artículo está programado para archivarse en octubre de 2026, recomendamos utilizar la documentación de Swagger a partir de ahora para obtener la información de API más actualizada.
 
 El siguiente es un método POST que inicia un trabajo asincrónico para obtener el estado de los recursos.
 
