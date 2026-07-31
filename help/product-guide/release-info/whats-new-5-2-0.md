@@ -2,7 +2,7 @@
 title: Notas de versión | Novedades de la versión 5.2.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 5.2.0 de Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 5da6c5239a4118d00f3a40707759950483aafdd8
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
 source-wordcount: '4052'
 ht-degree: 0%
@@ -415,7 +415,7 @@ Para obtener más información, vea [Nueva experiencia de línea de base (Beta) 
 
 Se han realizado las siguientes mejoras de API como parte de esta versión:
 
-- Se introducen nuevas API para crear un nuevo proyecto de traducción y rastrear su estado. Estas API ayudan a automatizar el proceso de traducción, reduciendo el esfuerzo manual y mejorando la eficacia. Para obtener más información, vea [Crear proyecto de traducción](../api-reference/api-update-swagger.md).
+- Se introducen nuevas API para crear un nuevo proyecto de traducción y rastrear su estado. Estas API ayudan a automatizar el proceso de traducción, reduciendo el esfuerzo manual y mejorando la eficacia. Para obtener más información, vea [Crear proyecto de traducción](../api-reference/create-translation-project.md).
 - API de procesamiento de recursos mejoradas con capacidad de filtrado mejorada para archivos y carpetas. Para obtener más información, vea [Procesar recursos](../api-reference/bulk-assets-processing.md).
 - Hay una nueva API disponible para rastrear el estado posterior al procesamiento de recursos y carpetas individuales. Esto resulta especialmente útil en equipos que utilizan flujos de trabajo automatizados, donde la publicación solo debe producirse después de que el contenido se haya procesado por completo. La API ofrece una forma fiable de confirmar la preparación, lo que reduce el riesgo de errores de publicación causados por un procesamiento incompleto. Además, con la introducción de esta API, los eventos de procesamiento posterior de recursos no se activan automáticamente. Ahora los administradores pueden habilitar este evento mediante una configuración en `fmdita config manager`.
 Para obtener más información, vea la [API para rastrear el estado posterior al procesamiento de recursos y carpetas individuales](../api-reference/track-post-processing-status.md) y la configuración del controlador de eventos posterior al procesamiento en el administrador de configuración de fmdita[&#128279;](../api-reference/post-process-event.md)
