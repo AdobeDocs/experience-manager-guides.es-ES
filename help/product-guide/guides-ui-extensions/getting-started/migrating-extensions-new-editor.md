@@ -6,8 +6,8 @@ role: Admin
 level: Experienced
 source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 0%
+source-wordcount: '2006'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ Esta guía ayuda a los autores de extensiones a comprender qué implica mover su
 ## Información general
 
 - **Su registro no cambia**: Siga usando `window.extension` / `tcx.extension.register`.
-- **El lienzo del editor es una superficie nueva.** Los elementos de menú contextual deben declarar el nuevo identificador de widget
+- **El lienzo del editor es una superficie nueva.** Los elementos de menú contextual deben declarar el nuevo ID del widget
   `markup_editor_menu`; el comportamiento en el editor debe dejar de tocar el DOM.
 - **Dejar de leer y escribir en el DOM**: reemplace el acceso DOM de `tcx.curEditor.*` por el
   API `guides.editor`: [leer con `runUtil(...)`](#migrate-reads-dom-runutil), [escribir con `runCommand(...)`](#migrate-writes-dom-mutation-runcommand), [estilo con decoraciones](#migrate-rendering-only-logic-dom-paint-decorations) y [ejecutar acciones globales (guardar) mediante eventos de aplicación](#migrate-global-actions-savefocus-app-events) .
