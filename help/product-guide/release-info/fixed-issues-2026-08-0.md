@@ -1,9 +1,9 @@
 ---
 title: Notas de versión | Se han corregido problemas en la versión 2026.08.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las correcciones de errores en la versión 2026.08.0 de Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 11d5db19cc352a3750754099a11290e4c0da0846
+source-git-commit: 9e4af58e571659d9ed92308d3629a193d5558417
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1218'
 ht-degree: 0%
 
 ---
@@ -95,6 +95,7 @@ Adobe ha identificado los siguientes problemas conocidos para la versión 2026.0
 - Una ecuación de MathML incluida en un bloque `foreign` y `equation` genera un espaciado no deseado, y escribir dentro de la ecuación causa problemas incluso después de ajustar la sangría. (GUIDES-46606)
 - No se puede colocar un cursor dentro de un(a) `topicref` dentro de un(a) `reltable` cuando la opción **Mostrar etiquetas** está habilitada y la opción **Mostrar atributos** está deshabilitada en la configuración del Editor. (GUIDES-46565)
 - Al arrastrar y soltar una referencia en un(a) `keydef` vacío, se agrega un elemento `topicref` en lugar de actualizar la referencia. (GUIDES-45068)
+- Espacio en blanco introducido inmediatamente antes de que se elimine una etiqueta en línea dentro de una celda de tabla `<entry>`. (GUIDES-49144)
 
 ## Publicación
 
