@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo habilitar el nuevo motor de PDF en
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 7f2b24b0ffbedaa3542de9d75d10aa155f6c3c0e
+source-git-commit: 40ec0c4ba2bb7fae03dfae32c555f03311f1de64
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 2%
@@ -21,3 +21,4 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](../install-c
 | PID | Clave de propiedad | Valor de propiedad |
 |-----|--------------|----------------|
 | `com.adobe.fmdita.publish.config.GuidesPublishConfiguratorService` | `guides.publish.config` | `{"PDF_ENGINE": "v2"}` <br> Valor predeterminado: `v1` |
+

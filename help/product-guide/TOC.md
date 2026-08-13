@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
+source-git-commit: 40ec0c4ba2bb7fae03dfae32c555f03311f1de64
 workflow-type: tm+mt
 source-wordcount: '2578'
 ht-degree: 10%
@@ -216,8 +216,8 @@ ht-degree: 10%
   - Introducción {#about-aemg}
     - [Acerca de  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] funciones clave y de trabajo {#aemg-works-features}
-      - [Cómo funciona [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-      - [Características clave  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+      - [Cómo funciona [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+      - [Características clave  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Página de inicio {#home-page}
     - [Experiencia de la página de inicio [!DNL AEM Guides]](./user-guide/intro-home-page.md)
     - [Interfaz de repositorio](./user-guide/home-page-repository-view.md)
@@ -427,7 +427,7 @@ ht-degree: 10%
       - [Session timeout](./user-guide/session-timeout-prompt.md)
       - [La cadena es una excepción demasiado larga en la exportación de metadatos](./user-guide/metadata-export-failure.md)
 - Guía del usuario (IU antigua) {#user-guide-old-ui}
-  - [Información general de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Información general de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalación y configuración {#install-conf-guide}
   - [Descargar, instalar y actualizar](./install-conf-guide/introduction.md)
   - Proceso de instalación de Cloud Service {#deploy-conf-aemg-cs}
@@ -550,7 +550,7 @@ ht-degree: 10%
         - [Añadir un marcador personalizado en la salida de PDF](./native-pdf/add-custom-bookmark.md)
         - [Usar JavaScript para trabajar con contenido o estilo](./native-pdf/use-javascript-content-style.md)
         - [Aplicar estilos a las notas al pie](./native-pdf/footnote-number-style.md)
-      - [Configurar el nuevo motor de publicación para PDF nativo](./native-pdf/conf-new-pdf-engine.md)
+        - [Configurar el nuevo motor de publicación para PDF nativo](./native-pdf/conf-new-pdf-engine.md)
       - [Trabajar con el motor nativo de PDF v2](./native-pdf/new-pdf-engine.md)
       - [Configurar el proceso de nodo para la publicación nativa de PDF para Cloud Service](./native-pdf/conf-node-options-cs.md)
       - [Configuración de indicadores JVM para la publicación nativa de PDF para in situ](./native-pdf/conf-jvm-flags-on-prem.md)
