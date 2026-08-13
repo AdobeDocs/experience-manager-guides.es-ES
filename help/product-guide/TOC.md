@@ -427,7 +427,7 @@ ht-degree: 10%
       - [Session timeout](./user-guide/session-timeout-prompt.md)
       - [La cadena es una excepción demasiado larga en la exportación de metadatos](./user-guide/metadata-export-failure.md)
 - Guía del usuario (IU antigua) {#user-guide-old-ui}
-  - [Información general de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Información general de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalación y configuración {#install-conf-guide}
   - [Descargar, instalar y actualizar](./install-conf-guide/introduction.md)
   - Proceso de instalación de Cloud Service {#deploy-conf-aemg-cs}
