@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo configurar un Git en Experience Ma
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+source-git-commit: b73e904c7e0a6f398e471be6fc874de30742e519
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -40,19 +40,19 @@ Utilice la herramienta Fuentes de datos de Experience Manager Guides para crear 
    >[!TIP]
    >
    >* Pase el ratón sobre <img src="./assets/info-details.svg" alt= "icono de información" width="25"> cerca del campo para ver más detalles al respecto.
-   >* Los campos con * son obligatorios. Por ejemplo, puede introducir los siguientes detalles para el conector de Elasticsearch.
+   >* Los campos con * son obligatorios. Por ejemplo, puede introducir los siguientes detalles para el conector Git.
 
-   &#x200B;- **Nombre**: escriba el nombre del origen de datos.
-   &#x200B;- **Ruta de acceso raíz de AEM de destino**: escriba la ruta de acceso en el repositorio de AEM donde se debe almacenar el contenido importado de Git.
-   &#x200B;- **Filtro de tipo de archivo (inclusión)**: especifique los tipos de archivo que se incluirán durante la importación.
-   &#x200B;- **Ruta de acceso excluida (regex)**: especifique los patrones de ruta que se excluirán de la importación.
-   &#x200B;- **Tipo de autenticación**: seleccione el tipo de autenticación en la lista desplegable. Actualmente, **token de acceso personal (PAT)** es el único método de autenticación compatible. Introduzca la RUTA durante la configuración del conector para autenticar y acceder al repositorio Git.
+   - **Nombre**: escriba el nombre del origen de datos.
+   - **Ruta de acceso raíz de AEM de destino**: escriba la ruta de acceso en el repositorio de AEM donde se debe almacenar el contenido importado de Git.
+   - **Filtro de tipo de archivo (inclusión)**: especifique los tipos de archivo que se incluirán durante la importación.
+   - **Ruta de acceso excluida (regex)**: especifique los patrones de ruta que se excluirán de la importación.
+   - **Tipo de autenticación**: seleccione el tipo de autenticación en la lista desplegable. Actualmente, **token de acceso personal (PAT)** es el único método de autenticación compatible. Introduzca la RUTA durante la configuración del conector para autenticar y acceder al repositorio Git.
 
      Aprenda a [generar un token de acceso personal de GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic).
 
      Al seleccionar ámbitos durante la generación de rutas en GitHub, asegúrese de habilitar los siguientes ámbitos:
-     &#x200B;- **repositorio**: seleccione la casilla de verificación de nivel superior. Todos los subámbitos se seleccionan automáticamente, lo que concede acceso al contenido del repositorio, el estado de confirmación y las implementaciones.
-     &#x200B;- **admin:org**: Seleccione solo **leer:org**. Esto es necesario para resolver la organización y la pertenencia al equipo.
+     - **repositorio**: seleccione la casilla de verificación de nivel superior. Todos los subámbitos se seleccionan automáticamente, lo que concede acceso al contenido del repositorio, el estado de confirmación y las implementaciones.
+     - **admin:org**: Seleccione solo **leer:org**. Esto es necesario para resolver la organización y la pertenencia al equipo.
    * **URL del repositorio**: introduzca la URL del repositorio Git desde la que se debe importar el contenido.
    * **Rama**: escriba la rama que se usará para importar contenido.
 
@@ -70,13 +70,17 @@ Utilice la herramienta Fuentes de datos de Experience Manager Guides para crear 
 
 Antes de que el conector Git esté disponible para configurarse desde la página **Fuentes de datos**, debe incrustarse como dependencia en el proyecto de AEM. Siga estos pasos para agregar la dependencia:
 
+>[!NOTE]
+>
+> Para ver las versiones disponibles del conector Git, consulte [Repositorio central de Maven](https://central.sonatype.com/artifact/com.adobe.aem.addon.guides/konnect-github).
+
 1. En `all/pom.xml` de su proyecto de AEM, agregue el conector Git como dependencia en `<dependencies>`:
 
    ```xml
    <dependency>
        <groupId>com.adobe.aem.addon.guides</groupId>
        <artifactId>konnect-github</artifactId>
-       <version>1.0.0</version>
+       <version>1.0.1</version>
    </dependency>
    ```
 
