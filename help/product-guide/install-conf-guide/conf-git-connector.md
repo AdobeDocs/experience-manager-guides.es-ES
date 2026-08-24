@@ -42,17 +42,17 @@ Utilice la herramienta Fuentes de datos de Experience Manager Guides para crear 
    >* Pase el ratón sobre <img src="./assets/info-details.svg" alt= "icono de información" width="25"> cerca del campo para ver más detalles al respecto.
    >* Los campos con * son obligatorios. Por ejemplo, puede introducir los siguientes detalles para el conector Git.
 
-   - **Nombre**: escriba el nombre del origen de datos.
-   - **Ruta de acceso raíz de AEM de destino**: escriba la ruta de acceso en el repositorio de AEM donde se debe almacenar el contenido importado de Git.
-   - **Filtro de tipo de archivo (inclusión)**: especifique los tipos de archivo que se incluirán durante la importación.
-   - **Ruta de acceso excluida (regex)**: especifique los patrones de ruta que se excluirán de la importación.
-   - **Tipo de autenticación**: seleccione el tipo de autenticación en la lista desplegable. Actualmente, **token de acceso personal (PAT)** es el único método de autenticación compatible. Introduzca la RUTA durante la configuración del conector para autenticar y acceder al repositorio Git.
+   &#x200B;- **Nombre**: escriba el nombre del origen de datos.
+   &#x200B;- **Ruta de acceso raíz de AEM de destino**: escriba la ruta de acceso en el repositorio de AEM donde se debe almacenar el contenido importado de Git.
+   &#x200B;- **Filtro de tipo de archivo (inclusión)**: especifique los tipos de archivo que se incluirán durante la importación.
+   &#x200B;- **Ruta de acceso excluida (regex)**: especifique los patrones de ruta que se excluirán de la importación.
+   &#x200B;- **Tipo de autenticación**: seleccione el tipo de autenticación en la lista desplegable. Actualmente, **token de acceso personal (PAT)** es el único método de autenticación compatible. Introduzca la RUTA durante la configuración del conector para autenticar y acceder al repositorio Git.
 
      Aprenda a [generar un token de acceso personal de GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic).
 
      Al seleccionar ámbitos durante la generación de rutas en GitHub, asegúrese de habilitar los siguientes ámbitos:
-     - **repositorio**: seleccione la casilla de verificación de nivel superior. Todos los subámbitos se seleccionan automáticamente, lo que concede acceso al contenido del repositorio, el estado de confirmación y las implementaciones.
-     - **admin:org**: Seleccione solo **leer:org**. Esto es necesario para resolver la organización y la pertenencia al equipo.
+     &#x200B;- **repositorio**: seleccione la casilla de verificación de nivel superior. Todos los subámbitos se seleccionan automáticamente, lo que concede acceso al contenido del repositorio, el estado de confirmación y las implementaciones.
+     &#x200B;- **admin:org**: Seleccione solo **leer:org**. Esto es necesario para resolver la organización y la pertenencia al equipo.
    * **URL del repositorio**: introduzca la URL del repositorio Git desde la que se debe importar el contenido.
    * **Rama**: escriba la rama que se usará para importar contenido.
 
