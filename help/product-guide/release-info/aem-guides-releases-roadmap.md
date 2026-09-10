@@ -12,10 +12,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: adb7c873e590d1886288bf23847b7740b502913f
+source-git-commit: 64a36067e35da78972ae275b49f536a910ad8644
 workflow-type: tm+mt
-source-wordcount: 931
-ht-degree: 37%
+source-wordcount: 929
+ht-degree: 38%
 
 ---
 
@@ -35,7 +35,7 @@ Las versiones para Experience Manager Guides as a Cloud Service están planifica
 
 | Versión | Evento | Programación | Novedades | Instrucciones de actualización | Problemas solucionados | Estado |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2026.09.0 | Actualización automática | Del 14 al 16 de septiembre de 2026 | - | - | - | Público destinatario |
+| Adobe Experience Manager Guides 2026.09.0 | Actualización automática | 14-16 de septiembre de 2026 | - | - | - | Público destinatario |
 | Adobe Experience Manager Guides 2026.10.0 | Actualización automática | Del 26 al 28 de octubre de 2026 | - | - | - | Público destinatario |
 | Adobe Experience Manager Guides 2026.12.0 | Actualización automática | Del 07 al 09 de diciembre de 2026 | - | - | - | Público destinatario |
 
@@ -76,7 +76,7 @@ Las actualizaciones de productos en términos de nuevas funciones, mejoras y cor
 
 | Versión | Evento | Programación | Novedades | Instrucciones de actualización | Estado |
 |---|---|---|---|---|---|
-| Adobe Experience Manager Guides 5.2.0 | Paquete de servicio 1 | ~ 3.ª semana de septiembre de 2026 | - | - | Público destinatario |
+| Adobe Experience Manager Guides 5.2.0 | Paquete de servicio 1 | 21 de septiembre de 2026 | - | - | Público destinatario |
 | Adobe Experience Manager Guides 5.2.0 | Paquete de servicio 3 | 17 de noviembre de 2026 | - | - | Público destinatario |
 | Adobe Experience Manager Guides 5.3.0 | Versión | 20 de enero de 2027 | - | - | Público destinatario |
 
