@@ -7,18 +7,20 @@ role: Leader
 TQID: https://experienceleague.adobe.com/RROF3KWnqtnbbHGyW1McC9uvdA7x27fI-Rp4nCZOTHo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 1a08469a4bd12f8b6dd9d83196463432b331f239
+    internal-label: Customer experience
+source-git-commit: 244642e60f489789379feeba34f0d5fc80e18ce1
 workflow-type: tm+mt
-source-wordcount: 2473
+source-wordcount: '2473'
 ht-degree: 0%
-
 ---
-
 # [!DNL AEM Guides] versiones
 
 [!DNL Adobe Experience Manager Guides] es una aplicación implementada en AEM. Es una potente solución de administración de contenido de componentes (CCMS) de nivel empresarial que permite la compatibilidad nativa con DITA en Adobe Experience Manager, lo que permite a AEM gestionar la creación y la entrega de contenido basado en DITA.
@@ -37,8 +39,8 @@ Las diferencias clave entre las compilaciones UUID y no UUID son las siguientes:
 ### Ventajas de la compilación de UUID
 
 * La instalación de UUID es más eficaz:
-   * Las referencias son independientes de la ruta: el sistema de administración de referencias es consciente de los vínculos, ya que las referencias se crean en función de los UUID y no de las rutas.
-   * Las operaciones de mover/actualizar son eficientes: los UUID siguen siendo los mismos aunque los recursos se muevan a otra ruta en el repositorio. Por lo tanto, no se requiere ningún procesamiento para aplicar parches a las referencias entre los recursos en las operaciones de movimiento/actualización.
+  * Las referencias son independientes de la ruta: el sistema de administración de referencias es consciente de los vínculos, ya que las referencias se crean en función de los UUID y no de las rutas.
+  * Las operaciones de mover/actualizar son eficientes: los UUID siguen siendo los mismos aunque los recursos se muevan a otra ruta en el repositorio. Por lo tanto, no se requiere ningún procesamiento para aplicar parches a las referencias entre los recursos en las operaciones de movimiento/actualización.
 * La compilación de UUID es prospectiva, ya que también utilizamos este marco para la configuración en la nube de AEM Guides.
 
 
@@ -56,7 +58,9 @@ Las diferencias clave entre las compilaciones UUID y no UUID son las siguientes:
 
 Al actualizar desde una versión anterior a una versión más reciente de [!DNL AEM Guides], es posible que tenga que ejecutar scripts de migración. Consulte las Notas de la versión y la documentación específica de la versión para obtener instrucciones de actualización.
 
-No todas las rutas de actualización son compatibles directamente. Por ejemplo, la actualización directa a la versión 4.0 solo es posible desde la versión 3.8.Si tiene una versión anterior a la 3.8, consulte la documentación específica de la versión para obtener instrucciones de actualización [Archivo de ayuda](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/archive.html).Póngase en contacto con el administrador de éxito del cliente para validar la ruta de actualización.
+No todas las rutas de actualización son compatibles directamente. Por ejemplo, la actualización directa a la versión 4.0 solo es posible desde la versión 3.8.
+Si tiene una versión anterior a la 3.8, consulte la documentación específica de la versión para obtener instrucciones de actualización [Archivo de ayuda](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+Póngase en contacto con el administrador de éxito del cliente para validar la ruta de actualización.
 
 **[!DNL AEM Guides]compilaciones**
 
@@ -64,7 +68,7 @@ No todas las rutas de actualización son compatibles directamente. Por ejemplo, 
 >
 >Póngase en contacto con el Administrador de éxito de clientes para obtener acceso a [!DNL AEM Guides] compilaciones para AEM as a Cloud Service.
 
-La siguiente lista contiene los [!DNL AEM Guides] paquetes más recientes disponibles para su instalación en AMS o local, vínculos de descarga de paquetes y otra información útil. Antes de instalar Experience Manager Guides, asegúrese de que su sistema cumpla [los requisitos técnicos](../install-guide/download-install-technical-requirements.md). Además, se recomienda usar solamente la última compilación de [!DNL AEM Guides]. Si, por alguna razón, necesita acceder a compilaciones anteriores, conéctese con el Customer Success Manager de su cuenta.
+La siguiente lista contiene los [!DNL AEM Guides] paquetes más recientes disponibles para su instalación en AMS o local, vínculos de descarga de paquetes y otra información útil. Antes de instalar Experience Manager Guides, asegúrese de que su sistema cumpla [los requisitos técnicos](../install-conf-guide/aemg-technical-requirements.md). Además, se recomienda usar solamente la última compilación de [!DNL AEM Guides]. Si, por alguna razón, necesita acceder a compilaciones anteriores, conéctese con el Customer Success Manager de su cuenta.
 
 >[!NOTE]
 >
