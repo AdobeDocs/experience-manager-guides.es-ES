@@ -48,7 +48,7 @@ ht-degree: 5%
 
 Experience Manager Guides es un CCMS de nivel empresarial compatible con DITA nativo para la creación estructurada, la publicación multicanal y la administración del ciclo de vida de contenido.
 
-**Implementación:** [!BADGE Cloud Service]{type=Informative} [!BADGE Servicios administrados]{type=Informative} locales[!BADGE 7}]{type=Informative}
+**Implementación:** [!BADGE Cloud Service]{type=Informative} [!BADGE Servicios administrados]{type=Informative} locales[!BADGE 7&rbrace;]{type=Informative}
 
 ## Comience por su función
 
