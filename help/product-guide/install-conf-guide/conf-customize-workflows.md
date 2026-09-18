@@ -4,13 +4,12 @@ description: Obtenga información sobre cómo configurar y personalizar flujos d
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 169d6e01-7ab2-4f0a-bd70-a3aee39cee8e
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '2158'
-ht-degree: 2%
-
+source-wordcount: '2280'
+ht-degree: 3%
 ---
-
 # Configuración y personalización de flujos de trabajo {#id181AI0OJ0RO}
 
 Los flujos de trabajo permiten automatizar las actividades \(AEM\) de Adobe Experience Manager. Un flujo de trabajo consiste en una serie de pasos que se ejecutan en un orden específico. Puede definir una actividad distinta para ejecutarla en cada paso. Por ejemplo, puede enviar una notificación por correo electrónico a todos los revisores de un grupo cuando se cree una revisión de tema. O bien, envíe una notificación al editor cuando se complete una tarea de generación de resultados.
@@ -19,13 +18,13 @@ Para obtener más información sobre los flujos de trabajo en AEM, consulte
 
 | Cloud Service | Local |
 |-------------|------------|
-| <ul><li>[Administrar instancias de flujo de trabajo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=es)</li><li>Aplicando y participando en flujos de trabajo: [Trabajando con flujos de trabajo del proyecto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html?lang=es)</li></ul> | <ul><li>[Administrar flujos de trabajo](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/workflows.html)</li><li>Aplicando y participando en flujos de trabajo: [Trabajando con flujos de trabajo](https://helpx.adobe.com/es/experience-manager/6-5/sites/authoring/using/workflows.html)</li><li>Creando modelos de flujo de trabajo y ampliando la funcionalidad de flujo de trabajo: [Desarrollando y ampliando flujos de trabajo](https://helpx.adobe.com/es/experience-manager/6-5/sites/developing/using/workflows.html)</li><li>Mejora del rendimiento de los flujos de trabajo que utilizan recursos de servidor significativos: [Procesamiento de flujo de trabajo simultáneo](https://helpx.adobe.com/es/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)</li></ul> |
+| <ul><li>[Administrar instancias de flujo de trabajo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html)</li><li>Aplicando y participando en flujos de trabajo: [Trabajando con flujos de trabajo del proyecto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html)</li></ul> | <ul><li>[Administrar flujos de trabajo](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)</li><li>Aplicando y participando en flujos de trabajo: [Trabajando con flujos de trabajo](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html)</li><li>Creando modelos de flujo de trabajo y ampliando la funcionalidad de flujo de trabajo: [Desarrollando y ampliando flujos de trabajo](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html)</li><li>Mejora del rendimiento de los flujos de trabajo que utilizan recursos de servidor significativos: [Procesamiento de flujo de trabajo simultáneo](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)</li></ul> |
 
 Las secciones de este tema le guiarán por varias personalizaciones que puede realizar en los flujos de trabajo predeterminados enviados en AEM Guides.
 
 ## Personalizar flujo de trabajo de revisión {#id176NE0C00HS}
 
-El equipo de creación de contenido de cada organización trabaja de forma específica para satisfacer sus necesidades empresariales. En algunas organizaciones hay un editor dedicado, mientras que otras organizaciones podrían tener un sistema automatizado de revisión editorial. Por ejemplo, en una organización, un flujo de trabajo típico de creación y publicación podría incluir tareas como: cada vez que un autor termina de crear contenido, va automáticamente a los revisores y, cuando se completa la revisión, va al editor para generar el resultado final. En AEM, las actividades que realiza en el contenido y los recursos se pueden combinar en forma de proceso y asignar a un flujo de trabajo de AEM. Para obtener más información sobre los flujos de trabajo en AEM, consulte [Administración de flujos de trabajo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=es) en la documentación de AEM.
+El equipo de creación de contenido de cada organización trabaja de forma específica para satisfacer sus necesidades empresariales. En algunas organizaciones hay un editor dedicado, mientras que otras organizaciones podrían tener un sistema automatizado de revisión editorial. Por ejemplo, en una organización, un flujo de trabajo típico de creación y publicación podría incluir tareas como: cada vez que un autor termina de crear contenido, va automáticamente a los revisores y, cuando se completa la revisión, va al editor para generar el resultado final. En AEM, las actividades que realiza en el contenido y los recursos se pueden combinar en forma de proceso y asignar a un flujo de trabajo de AEM. Para obtener más información sobre los flujos de trabajo en AEM, consulte [Administración de flujos de trabajo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html) en la documentación de AEM.
 
 AEM Guides permite personalizar el flujo de trabajo de revisión predeterminado. Puede utilizar los cuatro procesos personalizados siguientes relacionados con la revisión con el resto de los flujos de trabajo de creación o publicación.
 
@@ -95,7 +94,7 @@ Puede crear estos scripts en el nodo `/etc/workflows/scripts`. En la tabla sigui
 | `initiator` | Cadena | ID del usuario que inicia la tarea de revisión. |
 | `operation` | Cadena | Un valor estático establecido como `AEM_REVIEW`. |
 | `orgTopics` | Cadena | Ruta de los temas que se comparten para su revisión. Especifique varios temas separados por comas. |
-| `payloadJson` | Objeto JSON | Especifique los siguientes valores: -   `base`: ruta de acceso de la carpeta principal que contiene el tema enviado para revisión. <br> -   `asset`: ruta de acceso del tema enviado para revisión. <br> -   `referrer`: déjelo en blanco. |
+| `payloadJson` | Objeto JSON | Especifique los siguientes valores: - `base`: ruta de la carpeta principal que contiene el tema enviado para revisión. <br> - `asset`: ruta de acceso del tema enviado para revisión. <br> - `referrer`: déjelo en blanco. |
 | `deadline` | Cadena | Especifique la hora en formato `yyyy-MM-dd'T'HH:mm:ss.SSSXXX`. |
 | `title` | Cadena | Escriba un título para la tarea de revisión. |
 | `description` | Cadena | Escriba una descripción para la tarea de revisión. |
@@ -106,11 +105,11 @@ Puede crear estos scripts en el nodo `/etc/workflows/scripts`. En la tabla sigui
 | `reviewType` | Cadena | Valor estático AEM. |
 | `versionJson` | Objeto JSON | versionJson es una lista de temas que aparecen en la revisión en la que cada objeto de tema tiene la siguiente estructura [ { &quot;path&quot;: &quot;/content/dam/1-topic.dita&quot;, &quot;version&quot;: &quot;1.1&quot;, &quot;review&quot;: true, &quot;reviewers&quot;: [&quot;projects-we_retail-editor&quot;] } ] |
 | `isDitamap` | Booleano | false/true |
-| `ditamapHierarchy` | Objeto JSON | En caso de que el mapa se envíe para su revisión, el valor aquí debe ser como:&lbrack; { &quot;path&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;items&quot;: [ &quot;path&quot;: &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;, &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } ]. |
+| `ditamapHierarchy` | Objeto JSON | En caso de que el mapa se envíe para su revisión, el valor aquí debe ser como:[ { &quot;path&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;items&quot;: [ &quot;path&quot;: &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;, &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } ]. |
 | `ditamap` | Cadena | Especificar la ruta del mapa de dietas de la tarea de revisión |
 | `allowAllReviewers` | Booleano | false/true |
 | `notifyViaEmail` | Booleano | false/true |
-| `reviewVersion` | Cadena | Especifica la versión actual del flujo de trabajo de revisión. El valor predeterminado es `3.0`<br> Para habilitar las nuevas características del flujo de trabajo de revisión para [Autores](../user-guide/review-close-review-task.md) y [Revisores](../user-guide/review-complete-review-tasks.md), asegúrese de que `reviewVersion` esté establecido en `3.0`. |
+| `reviewVersion` | Cadena | Especifica la versión actual del flujo de trabajo de revisión. El valor predeterminado es `3.0` .<br> Para habilitar las nuevas características del flujo de trabajo de revisión para [Autores](../user-guide/review-close-review-task.md) y [Revisores](../user-guide/review-complete-review-tasks.md), asegúrese de que `reviewVersion` esté establecido en `3.0`. |
 
 
 Una vez creado el script, llámelo antes de llamar al proceso Crear revisión en el flujo de trabajo. A continuación, según sus necesidades, puede llamar a los demás procesos de flujo de trabajo de revisión.

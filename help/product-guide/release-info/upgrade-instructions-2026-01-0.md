@@ -1,20 +1,19 @@
 ---
 title: Notas de versión | Instrucciones de actualización y problemas corregidos en la versión 2026.01.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de la matriz de compatibilidad y cómo actualizar a la versión 2026.01.0 de Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: e6dab21263731b42567729649a11e9d0a74f1dfd
+exl-id: 25513149-c852-4dd4-8a44-f03969af3bd6
+source-git-commit: 100b115fcc6bd5522e88a3e236f3771d13ce389c
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 3%
-
+source-wordcount: '1147'
+ht-degree: 1%
 ---
-
 # Instrucciones de actualización para la versión 2026.01.0
 
 Este artículo describe las instrucciones de actualización y la matriz de compatibilidad para la versión 2026.01.0 de Adobe Experience Manager Guides as a Cloud Service.
 
-Para obtener más información sobre las nuevas funciones y mejoras, consulte [Novedades de la versión 2026.01.0](whats-new-2026-01-0.md).
+Para obtener más información sobre las nuevas características y mejoras, vea [Novedades de la versión 2026.01.0](whats-new-2026-01-0.md).
 
-Para ver la lista de problemas corregidos en esta versión, consulte [Problemas solucionados en la versión 2026.01.0](fixed-issues-2026-01-0.md).
+Para obtener la lista de problemas corregidos en esta versión, vea [Problemas corregidos en la versión 2026.01.0](fixed-issues-2026-01-0.md).
 
 ## Matriz de compatibilidad
 
@@ -24,7 +23,7 @@ Esta sección indica la matriz de compatibilidad para las aplicaciones de softwa
 
 | Versión de Experience Manager Guides as a Cloud | FMPS | FrameMaker | Oxygen Author |
 | --- | --- | --- | --- |
-| 2026.01.0 | No compatible | 2022 o superior | 26,1 |
+| 2026.01.0 | No compatible | 2022 o superior | 26.1 |
 
 
 ### Conector de oxígeno
@@ -114,10 +113,10 @@ Realice los siguientes pasos para posprocesar el contenido existente y utilizar 
 
 1. Ejecute una petición POST en el servidor (con la autenticación correcta): `http://<server>//bin/guides/reports/upgrade`.
 
-1. La API devuelve un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. La API devuelve un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud GET con el ID del trabajo al mismo punto final: `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Por ejemplo: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Una vez completado el trabajo, la solicitud de GET anterior responde correctamente. Si el trabajo falla por algún motivo, el error se puede ver en los registros del servidor.
+1. Una vez completado el trabajo, la solicitud GET anterior responde correctamente. Si el trabajo falla por algún motivo, el error se puede ver en los registros del servidor.
 
 1. Volver al valor predeterminado o anterior existente de `queryLimitReads` si lo ha cambiado en el paso 1.
 
@@ -131,9 +130,9 @@ Realice los siguientes pasos para indexar el contenido existente y utilice el nu
 
 1. También se puede pasar una carpeta raíz para indexar las asignaciones DITA de una carpeta específica (y sus subcarpetas). Por ejemplo, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Tenga en cuenta que si se pasan tanto el parámetro de rutas como el parámetro raíz, solo se tendrá en cuenta el parámetro de rutas.
 
-1. La API devuelve un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` (por ejemplo: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+1. La API devuelve un jobId. Para comprobar el estado del trabajo, puede enviar una petición GET con el ID del trabajo al mismo punto final: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` (por ejemplo: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Una vez completado el trabajo, la solicitud de GET anterior responde correctamente y menciona si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
+1. Una vez completado el trabajo, la solicitud GET anterior responde correctamente y menciona si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
 
 ### Pasos para gestionar el conflicto `'fmdita rewriter'`
 
@@ -172,7 +171,7 @@ Espere hasta que se complete este trabajo antes de continuar con los siguientes 
 >
 >Debe comprobar si el nodo sigue presente y el estado del trabajo.
 
-GET:
+OBTENER:
 
 ```
 http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1683190032886.json

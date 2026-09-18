@@ -4,13 +4,12 @@ description: Obtenga información sobre cómo configurar una plantilla de mapa D
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 467cc4be-5fe7-466e-887b-eccc63acae8a
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '676'
 ht-degree: 1%
-
 ---
-
 # Configuración de una plantilla de mapa DITA personalizada {#id1774F04F05Z}
 
 AEM Guides incluye dos plantillas de mapas predeterminadas: DITA map y Bookmap. Puede crear mapas basados en estas plantillas; o bien, puede definir sus propias plantillas de mapas que se pueden utilizar para crear nuevos mapas.
@@ -102,7 +101,7 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 
 | PID | Clave de propiedad | Valor de propiedad |
 |---|------------|--------------|
-| com.adobe.fmdita.xmleditor.config.XmlEditorConfig | xmleditor.asyncmapcreation | > 0 <br> **Valor predeterminado**: 5 |
+| com.adobe.fmdita.xmleditor.config.XmlEditorConfig | xmleeditor.asyncmapcreation | > 0 <br> **Valor predeterminado**: 5 |
 
 Al crear un mapa DITA con referencias de temas grandes mediante una plantilla personalizada, la creación del mapa fallaría en el servidor de la nube si el tiempo total de procesamiento supera los 60 segundos.
 

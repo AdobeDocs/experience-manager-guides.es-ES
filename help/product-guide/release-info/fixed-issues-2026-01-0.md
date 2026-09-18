@@ -1,18 +1,17 @@
 ---
 title: Notas de versión | Se han corregido problemas en la versión 2026.01.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las correcciones de errores en la versión 2026.01.0 de Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 8a9a82e79c757e403141e853aafbc64e1618c30a
+exl-id: fd95166b-683e-463c-ad58-ade317c31d6e
+source-git-commit: 100b115fcc6bd5522e88a3e236f3771d13ce389c
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 3%
-
+source-wordcount: '717'
+ht-degree: 0%
 ---
-
 # Se han corregido problemas en la versión 2026.01.0
 
 Este artículo cubre los errores corregidos en varias áreas de la versión 2026.01.0 de Adobe Experience Manager Guides as a Cloud Service.
 
-Para obtener más información sobre las nuevas funciones y mejoras, consulte [Novedades de la versión 2026.01.0](whats-new-2026-01-0.md).
+Para obtener más información sobre las nuevas características y mejoras, vea [Novedades de la versión 2026.01.0](whats-new-2026-01-0.md).
 
 Obtenga información acerca de [instrucciones de actualización para la versión 2026.01.0](upgrade-instructions-2026-01-0.md).
 
@@ -20,7 +19,7 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 
 - Al actualizar una ecuación de MathML en línea mediante la opción Editar MathML del menú contextual, el valor actualizado no se refleja hasta que se actualiza la página. (GUIDES-38198)
 - Cuando un tema contiene muchos elementos reutilizables (aquellos con ID) agregados en el panel Reutilizables, es posible que algunos elementos no sean accesibles debido a la altura fija del contenedor. (GUIDES-37220)
-- Al insertar una referencia cruzada en un archivo, los iconos de los mapas y los temas son idénticos.(GUIDES-36662)
+- Al insertar una referencia cruzada en un archivo, los iconos de los mapas y los temas son idénticos. (GUIDES-36662)
 - Al editar un mapa, los símbolos especiales de `navtitle` no se muestran para `topichead` en la vista Autor. (GUIDES-35435)
 - No se pueden agregar varias etiquetas de versión a un tema desde el cuadro de diálogo **Guardar como nueva versión**. (GUIDES-32716)
 
@@ -39,7 +38,7 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 - Para la salida nativa de PDF, se omite el elemento `<alt>` de las imágenes, lo que impide que se aplique texto alternativo para la accesibilidad. (GUIDES-29087)
 - Al descargar archivos temporales para un mapa con una línea de base durante la publicación de un ajuste preestablecido, el archivo `metadata.xml` hace referencia incorrectamente a `versionPath` en lugar de a `dampath`.(GUIDES-29815)
 - Al crear o editar un tema que incluye una cita, si el campo Autor no se agrega en el cuadro de diálogo de cita, la PDF no se genera. (GUIDES-37934)
-- El archivo CSS (`rhdefault.css`) se aplica incorrectamente a la plantilla de PDF a pesar de que no se hace referencia a CSS, lo que provoca la falta de registros de errores en el archivo CSS.(GUIDES-31752)
+- El archivo CSS (`rhdefault.css`) se aplica incorrectamente a la plantilla de PDF a pesar de que no se hace referencia a CSS, lo que provoca la falta de registros de errores en el archivo CSS. (GUIDES-31752)
 
 ## Plataforma
 
@@ -57,15 +56,3 @@ Adobe ha identificado los siguientes problemas conocidos para la versión 2026.0
 - Cuando se quita un tema de revisión de una tarea de revisión en curso, su estado del documento sigue siendo **En revisión**, aunque el tema ya no forme parte de ninguna tarea de revisión. (GUIDES-38709)<br>**Solución alternativa**: cambie el estado del documento del tema de **En revisión** al estado apropiado desde la página Propiedades o el panel Propiedades del archivo.
 - Al realizar una búsqueda con **Buscar y reemplazar**, si abre un archivo desde los resultados de la búsqueda, lo cierra y, a continuación, intenta volver a abrirlo seleccionando el resultado de la lista, el archivo no se vuelve a abrir. (GUIDES-39050)<br>**Solución alternativa**: abra primero cualquier otro archivo de los resultados de búsqueda y, a continuación, vuelva a abrir el archivo cerrado anteriormente de la lista para resolver el problema.
 - Al utilizar Guías con el servidor de base de datos, para el contenido que incluye referencias automáticas, el informe Lista de temas muestra entradas no válidas para cada referencia automática, lo que da como resultado un recuento de archivos inexacto. (GUIDES-39420)
-
-
-
-
-
-
-
-
-
-
-
-

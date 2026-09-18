@@ -4,13 +4,12 @@ description: Configuración de indicadores JVM para la publicación nativa de PD
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: a2a9f44c-cb17-4423-a66e-499bce921398
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '128'
 ht-degree: 1%
-
 ---
-
 # Configuración de indicadores JVM para la publicación nativa de PDF para in situ
 
 La publicación nativa de PDF inicia un proceso JVM independiente para generar un PDF. Es posible que tenga que modificar las configuraciones de esta JVM para que admitan diferentes escenarios. Por ejemplo, para ejecutar cargas de trabajo más grandes debe aumentar el tamaño máximo de pila disponible para el proceso de JVM generado.

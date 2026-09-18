@@ -4,13 +4,12 @@ description: Obtenga información sobre cómo migrar contenido que no es UUID a 
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 313208e4-4403-4ba8-8e97-c5a95475b87e
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1697'
 ht-degree: 1%
-
 ---
-
 # Migración de contenido 4.3.1 sin UUID a 4.3.2 UUID
 
 
@@ -219,5 +218,4 @@ Para obtener más información, vea [purgar versiones anteriores](../install-con
    > Si antes de la migración, la propiedad **Use el título para los nombres de página del sitio AEM** dentro de `com.adobe.fmdita.config.ConfigManager`, se establece en *False*, después de la migración esta propiedad deberá actualizarse.
 
 
-1. Una vez completada la validación, se puede recuperar la mayor parte del espacio en disco ejecutando la compactación (consulte `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=es`).
-
+1. Una vez completada la validación, se puede recuperar la mayor parte del espacio en disco ejecutando la compactación (consulte `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
