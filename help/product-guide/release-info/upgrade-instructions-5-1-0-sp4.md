@@ -60,7 +60,7 @@ Puede actualizar fácilmente su versión actual de Experience Manager Guides a l
 
 >[!NOTE]
 >
-> Si está actualmente en AEM 6.5 y planea pasar a AEM 6.5 LTS, vea [Actualización a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Si está actualmente en AEM 6.5 y planea pasar a AEM 6.5 LTS, vea [Actualización a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/es/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 Antes de continuar actualizando al paquete de servicio 4 de Experience Manager Guides versión 5.1.0, debe tener en cuenta los siguientes puntos:
 
