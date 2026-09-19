@@ -39,35 +39,22 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6ec4546ab632167e8e49baacc8e771a44563f394
+source-git-commit: a45df7e9eef75b0c4684e944fd9611eb6e7b060e
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '289'
 ht-degree: 5%
 ---
 # Documentación de Experience Manager Guides
 
 Experience Manager Guides es un CCMS de nivel empresarial compatible con DITA nativo para la creación estructurada, la publicación multicanal y la administración del ciclo de vida de contenido.
 
-**Implementación:** [!BADGE Cloud Service]{type=Informative} [!BADGE Servicios administrados]{type=Informative} locales[!BADGE 7&rbrace;]{type=Informative}
+**Implementación:** [!BADGE Cloud Service]{type=Positive} [!BADGE Local]{type=Informative}
 
 ## Comience por su función
 
-<!-- Author note: The landing-cards-container component is in beta with known display issues in preview and review environments. Verify rendering in production before publishing. Update icon paths below once confirmed against the ExL CDN icon library. Role card links point to the first topic in each role's section of the left nav — update paths to match the actual repo structure. -->
-
 ::::landing-cards-container
-
 :::card
-![Icono de autores](./user-guide/images/author.png)
-
-Autores
-
-Cree y administre temas, mapas, reutilización de contenido y flujos de trabajo de revisión de DITA.
-
-[Información general sobre la creación](./user-guide/authoring-content.md)
-:::
-
-:::card
-![Icono de administradores](./user-guide/images/admin.png)
+![Icono de administradores](../assets/admin.png)
 
 Administradores
 
@@ -77,7 +64,17 @@ Configure perfiles de carpeta, permisos, configuración de flujo de trabajo y pl
 :::
 
 :::card
-![Icono de editores](./user-guide/images/publish.png)
+![Icono de autores](../assets/author.png)
+
+Autores
+
+Cree y administre temas, mapas, reutilización de contenido y flujos de trabajo de revisión de DITA.
+
+[Información general sobre la creación](./user-guide/authoring-content.md)
+:::
+
+:::card
+![Icono de editores](../assets/publisher.png)
 
 Editores
 
@@ -85,6 +82,8 @@ Configure ajustes preestablecidos de salida, administre líneas de base y genere
 
 [Administración y publicación de mapas](./user-guide/map-console-overview.md)
 :::
+
+::::
 
 <!--
 :::card
@@ -96,17 +95,18 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 [DITA specialization](./install-conf-guide/dita-ot-specialization.md)
 :::
--->
+
 ::::
+-->
 
 ## Explorar por área de funcionalidad
 
-<!-- Author note: Six cards will wrap to two rows of three in production. Same beta caveat as the role cards above applies here. -->
+<!-- Author note: Six cards wrap to two rows of three in production. The landing-cards-container component is in beta — verify rendering in production before publishing. -->
 
 ::::landing-cards-container
 
 :::card
-![Icono de creación](./user-guide/images/author.svg)
+![Icono de creación](../assets/authoring.png)
 
 Creación
 
@@ -116,7 +116,7 @@ Editor web, integración de FrameMaker, contenido reutilizable y ciclos de revis
 :::
 
 :::card
-![Icono de revisión](./user-guide/images/review.svg)
+![Icono de revisión](../assets/review.png)
 
 Revisión
 
@@ -126,7 +126,7 @@ Revisar temas, administrar tareas de revisión y revisar notificaciones.
 :::
 
 :::card
-![Icono de publicación](./user-guide/images/publish.svg)
+![Icono de publicación](../assets/publishing.png)
 
 Publicación
 
@@ -136,7 +136,7 @@ Tipos de salida PDF, AEM Sites, HTML5, EPUB y JSON.
 :::
 
 :::card
-![Icono de traducción](./user-guide/images/Smock_GlobeGrid_18_N.svg)
+![Icono de traducción](../assets/translation.png)
 
 Traducción
 
@@ -146,7 +146,7 @@ Flujos de trabajo de traducción humana y automática para contenido multilingü
 :::
 
 :::card
-![Icono de informes](./user-guide/images/Smock_Report_18_N.svg)
+![Icono de informes](../assets/reports.png)
 
 Informes
 
@@ -156,7 +156,7 @@ Lista de temas, multimedia, vínculos rotos e informes de metadatos.
 :::
 
 :::card
-![Icono de configuración](./user-guide/images/config.svg)
+![Icono de configuración](../assets/configure.png)
 
 Configuración
 
@@ -169,28 +169,43 @@ Perfiles de carpeta, personalización DITA-OT y plantillas de salida.
 
 ## Novedades
 
-<!-- Author note: Badges render correctly in markdown table cells per ExL spec. <br> is supported within cells. Update release version, links, and descriptions each release cycle. The What's new table is the primary update touchpoint on this page — aim to refresh it within one week of each cloud service release. -->
+<!-- Author note: Update images, badge labels, feature titles, descriptions, and links each release cycle. Images are stored in /assets/. The shade box with a borderless HTML table provides the three-column layout. Blank lines inside each <td> are required for ExL to process badge and bold-link markdown syntax. -->
 
+>[!BEGINSHADEBOX]
 
 <table>
-<tr>
+<tr style="border: 0;">
 <td>
 
-[!BADGE Característica]{type=Neutral} <br> [**Importe contenido mediante el conector Git**](./user-guide/web-editor-git-connector.md)<br> Importe contenido en las guías directamente desde repositorios Git.
+![Conector Git](../assets/whats-new-git-connector.svg)
+
+**[Importar contenido mediante el conector Git](./user-guide/web-editor-git-connector.md)**
+
+Importe contenido en Guías directamente desde repositorios Git.
 
 </td>
 <td>
 
-[!BADGE Característica]{type=Neutral} <br> [**Nueva colección de asignaciones**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Interfaz unificada para administrar asignaciones y publicar salidas
+![Colección de mapas](../assets/whats-new-map-collection.svg)
+
+**[Nueva colección de mapas](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
+
+Interfaz unificada para administrar mapas y salidas de publicación.
 
 </td>
 <td>
 
-[!BADGE Mejora]{type=Neutral} <br> [**Delegar una tarea de revisión**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> Los revisores pueden delegar una tarea de revisión a otro revisor
+![Delegar revisión](../assets/whats-new-delegate-review.svg)
+
+**[Delegar una tarea de revisión](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
+
+Los revisores pueden delegar una tarea de revisión a otro revisor.
 
 </td>
 </tr>
 </table>
+
+>[!ENDSHADEBOX]
 
 ## Recursos adicionales
 
