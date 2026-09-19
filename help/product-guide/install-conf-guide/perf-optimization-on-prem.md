@@ -4,13 +4,12 @@ description: Conozca las Recomendaciones para la optimización del rendimiento
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 0f289f7c-8300-427a-a4d9-9c2f31608240
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '888'
 ht-degree: 0%
-
 ---
-
 # Recomendaciones para la optimización del rendimiento local {#id213BD0JG0XA}
 
 ## Configurar el almacén de datos \(Obligatorio\)
@@ -38,7 +37,7 @@ Excluir `/var/dxml from oak:index/lucene`.
 > AEM Guides nunca utiliza índices Lucene para buscar contenido en el nodo `/var/dxml`.
 
 **¿Cuándo se debe configurar?**
-Si está realizando este cambio en un sistema nuevo antes de migrar contenido, solo es necesario actualizar `oak:index/lucene`. De lo contrario, en un sistema existente donde el contenido ya se ha migrado, después de realizar el cambio en `oak:index/lucene,`, vuelva a generar los índices para Lucene \(*que podría tardar unas horas en completarse*\).
+Si está realizando este cambio en un sistema nuevo antes de migrar contenido, solo se requiere actualizar `oak:index/lucene`. De lo contrario, en un sistema existente donde el contenido ya se ha migrado, después de realizar el cambio en `oak:index/lucene,`, vuelva a generar los índices para Lucene \(*que podría tardar unas horas en completarse*\).
 
 **Resultado de este cambio**
 Este cambio evita que el nodo `/var/dxml` se indexe y almacene en el almacén de segmentos.
@@ -50,7 +49,7 @@ Los parámetros de inicio de JVM deben ajustarse cuidadosamente en función de l
 
 - Establezca el tamaño de la pila de JVM en un mínimo de 1/4 de la memoria total disponible. Utilice el parámetro `-Xmx<size>` para establecer el tamaño de memoria de la pila. Establezca el valor de -`Xms` es igual a `-Xmx`.
 
-- Habilitar `-XX:+HeapDumpOnOutOfMemoryError` y establecer la ruta de acceso de `-XX:HeapDumpPath=</path/to/folder` `>`.
+- Habilitar `-XX:+HeapDumpOnOutOfMemoryError` y establecer la ruta de acceso de `-XX:HeapDumpPath=</path/to/folder`&#x200B;`>`.
 
 - Activar el registro de Java GC como:
 
@@ -111,5 +110,4 @@ Establezca la propiedad **Limitar páginas del sitio AEM en el montón** en `com
 Esto se puede hacer en tiempo de ejecución a través de la consola Felix o mediante la implementación de código.
 
 **Resultado de este cambio**
-Un mayor número de la propiedad **Limit AEM Site Pages in Heap** optimiza el proceso de generación de resultados del sitio AEM.
-
+Un número mayor de **Limitar páginas del sitio AEM en el montón** optimiza el proceso de generación de resultados del sitio AEM.

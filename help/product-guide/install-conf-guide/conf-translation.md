@@ -4,13 +4,12 @@ description: Aprenda a traducir contenido
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 7138fc35-09ee-4df5-8496-dc673effe120
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1368'
-ht-degree: 6%
-
+source-wordcount: '1573'
+ht-degree: 5%
 ---
-
 # Traducir contenido {#id181GB0400UI}
 
 Automatice la traducción del contenido de la página, los activos y el contenido generado por el usuario para crear y mantener sitios web multilingües. Para automatizar los flujos de trabajo de traducción, se integran los proveedores de servicios de traducción con AEM y se crean proyectos para traducir contenido a varios idiomas. AEM admite flujos de trabajo de traducción automática y humana.
@@ -121,7 +120,7 @@ En función del flujo de trabajo de traducción utilizado en la configuración, 
 
 | PID | Clave de propiedad | Valor de propiedad |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | Boolean: <br> -   Si usa traducción humana, *Deshabilitar* \( `false`\) la opción **Flujo de trabajo de traducción basado en componentes**. <br> -   Si está usando la traducción automática, *habilite \( `true`\)* la opción **Flujo de trabajo de traducción basado en componentes**. |
+| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | Booleano: <br> - Si utiliza traducción humana, *Deshabilitar* \( `false`\) la opción **Flujo de trabajo de traducción basado en componentes**. <br>: si utiliza la traducción automática, *habilite \( `true`\)* la opción **Flujo de trabajo de traducción basado en componentes**. |
 
 >[!TAB Local]
 
@@ -171,7 +170,7 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 
 | PID | Clave de propiedad | Valor de propiedad |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Booleano: <br> - Si usa el flujo de trabajo de traducción más reciente, *Deshabilitar* \( `false`\) la opción **Ejecutar flujo de trabajo de traducción heredado**.  <br> -   Si usa la traducción heredada, *habilite \( `true`\)* la opción **Ejecutar flujo de trabajo de traducción heredada**. <br> **Valor predeterminado**: false |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Booleano: <br> - Si usa el flujo de trabajo de traducción más reciente, *Deshabilitar* \( `false`\) la opción **Ejecutar flujo de trabajo de traducción heredado**.  <br>: si usa la traducción heredada, *habilite \( `true`\)* la opción **Ejecutar flujo de trabajo de traducción heredada**. <br> **Valor predeterminado**: false |
 
 
 >[!NOTE]
@@ -221,7 +220,7 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 
 | PID | Clave de propiedad | Valor de propiedad |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Boolean: <br> -   Si no desea ejecutar la operación de posprocesamiento en los archivos temporales, *Deshabilitar* \( false\) la opción **Copias de idioma de posprocesamiento**.<br> -   Si desea ejecutar la operación de posprocesamiento en los archivos temporales, *Habilite* \( true\) la opción **Copias de idioma de posprocesamiento**.<br> **Valor predeterminado**: false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Booleano: <br> - Si no desea ejecutar la operación de posprocesamiento en los archivos temporales, *Deshabilitar* \( false\) la opción **Copias de idioma de posprocesamiento**.<br> - Si desea ejecutar la operación de posprocesamiento en los archivos temporales, *Habilite* \( true\) la opción **Copias de idioma de posprocesamiento**.<br> **Valor predeterminado**: false |
 
 >[!TAB Local]
 

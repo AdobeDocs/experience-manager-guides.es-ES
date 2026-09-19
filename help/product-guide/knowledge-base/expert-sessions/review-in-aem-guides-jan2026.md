@@ -1,13 +1,12 @@
 ---
 title: Revisión de contenido en AEM Guides
 description: 'Sesión de expertos: dentro del flujo de trabajo de revisión de AEM Guides. Características y casos de uso reales'
-source-git-commit: a05fb3e28481648b7cceca970dc9d9a617dce3a2
+exl-id: 4fa4a7f8-4b0b-45d8-978e-e2bde3692b1d
+source-git-commit: 0d214aca4b5f12d5401ed174d20259627bf94469
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '234'
 ht-degree: 1%
-
 ---
-
 # Revisión de contenido en AEM Guides
 
 El flujo de trabajo AEM Guides Review permite a los autores, expertos y revisores colaborar en temas y mapas DITA sin salir de AEM. Admite anotaciones, versiones, administración de tareas y aprobaciones de varias fases.
@@ -42,7 +41,7 @@ En esta sesión, tratamos sobre:
 
 - [Integración de AEM Guides con Workfront](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
 
-- [Personalizando la IU de revisión](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
+- [Personalizar la IU de revisión](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
 
 
 

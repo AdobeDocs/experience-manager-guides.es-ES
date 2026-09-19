@@ -4,13 +4,12 @@ description: Obtenga información sobre cómo migrar contenido que no es UUID a 
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 20c977de-db01-4d1e-ba8c-7fffc2a54231
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
-
 ---
-
 # Migración de contenido de no UUID a UUID {#id226TI0U20XA}
 
 
@@ -56,7 +55,4 @@ La utilidad de migración procesa los recursos a una velocidad media de ~50 ms p
 Para ver los pasos detallados sobre la migración del contenido, consulte los siguientes artículos:
 
 - [**4.3.1 sin UUID a 4.3.2 Migración de contenido UUID**](../install-conf-guide/non-uuid-4-3.md)
-- [Migración de contenido de UUID del paquete de servicio 4 **4.6.0 sin UUID a 4.6.1**](../install-conf-guide/non-uuid-uuid-4-6.md)
-
-
-
+- [**4.6.0 Service Pack 4 sin UUID para la migración de contenido UUID 4.6.1**](../install-conf-guide/non-uuid-uuid-4-6.md)

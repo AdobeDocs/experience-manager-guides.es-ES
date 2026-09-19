@@ -4,13 +4,12 @@ description: Obtenga información sobre cómo configurar y personalizar flujos d
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 169d6e01-7ab2-4f0a-bd70-a3aee39cee8e
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '2158'
-ht-degree: 2%
-
+source-wordcount: '2280'
+ht-degree: 3%
 ---
-
 # Configuración y personalización de flujos de trabajo {#id181AI0OJ0RO}
 
 Los flujos de trabajo permiten automatizar las actividades \(AEM\) de Adobe Experience Manager. Un flujo de trabajo consiste en una serie de pasos que se ejecutan en un orden específico. Puede definir una actividad distinta para ejecutarla en cada paso. Por ejemplo, puede enviar una notificación por correo electrónico a todos los revisores de un grupo cuando se cree una revisión de tema. O bien, envíe una notificación al editor cuando se complete una tarea de generación de resultados.
@@ -95,7 +94,7 @@ Puede crear estos scripts en el nodo `/etc/workflows/scripts`. En la tabla sigui
 | `initiator` | Cadena | ID del usuario que inicia la tarea de revisión. |
 | `operation` | Cadena | Un valor estático establecido como `AEM_REVIEW`. |
 | `orgTopics` | Cadena | Ruta de los temas que se comparten para su revisión. Especifique varios temas separados por comas. |
-| `payloadJson` | Objeto JSON | Especifique los siguientes valores: -   `base`: ruta de acceso de la carpeta principal que contiene el tema enviado para revisión. <br> -   `asset`: ruta de acceso del tema enviado para revisión. <br> -   `referrer`: déjelo en blanco. |
+| `payloadJson` | Objeto JSON | Especifique los siguientes valores: - `base`: ruta de la carpeta principal que contiene el tema enviado para revisión. <br> - `asset`: ruta de acceso del tema enviado para revisión. <br> - `referrer`: déjelo en blanco. |
 | `deadline` | Cadena | Especifique la hora en formato `yyyy-MM-dd'T'HH:mm:ss.SSSXXX`. |
 | `title` | Cadena | Escriba un título para la tarea de revisión. |
 | `description` | Cadena | Escriba una descripción para la tarea de revisión. |
@@ -110,7 +109,7 @@ Puede crear estos scripts en el nodo `/etc/workflows/scripts`. En la tabla sigui
 | `ditamap` | Cadena | Especificar la ruta del mapa de dietas de la tarea de revisión |
 | `allowAllReviewers` | Booleano | false/true |
 | `notifyViaEmail` | Booleano | false/true |
-| `reviewVersion` | Cadena | Especifica la versión actual del flujo de trabajo de revisión. El valor predeterminado es `3.0`<br> Para habilitar las nuevas características del flujo de trabajo de revisión para [Autores](../user-guide/review-close-review-task.md) y [Revisores](../user-guide/review-complete-review-tasks.md), asegúrese de que `reviewVersion` esté establecido en `3.0`. |
+| `reviewVersion` | Cadena | Especifica la versión actual del flujo de trabajo de revisión. El valor predeterminado es `3.0` .<br> Para habilitar las nuevas características del flujo de trabajo de revisión para [Autores](../user-guide/review-close-review-task.md) y [Revisores](../user-guide/review-complete-review-tasks.md), asegúrese de que `reviewVersion` esté establecido en `3.0`. |
 
 
 Una vez creado el script, llámelo antes de llamar al proceso Crear revisión en el flujo de trabajo. A continuación, según sus necesidades, puede llamar a los demás procesos de flujo de trabajo de revisión.

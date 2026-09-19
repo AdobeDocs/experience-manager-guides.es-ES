@@ -1,13 +1,12 @@
 ---
-title: Notas de la versión | Instrucciones de actualización para el paquete de servicio 4 de Adobe Experience Manager Guides 5.1.0
+title: Notas de versión | Instrucciones de actualización para el paquete de servicio 4 de Adobe Experience Manager Guides 5.1.0
 description: Obtenga información acerca de la matriz de compatibilidad y cómo actualizar a la versión 5.1.0 Service Pack 4 de Adobe Experience Manager Guides.
-source-git-commit: acc063d149f52a457d4ce2447c8eafaff6296dac
+exl-id: 4970ee05-2644-43d6-976b-bfaa91b41146
+source-git-commit: d11f910bde58b36a8db27d74be6799eb7891f3b5
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 3%
-
+source-wordcount: '595'
+ht-degree: 4%
 ---
-
 # Instrucciones de actualización para la versión 5.1.0 del paquete de servicio 4 (abril de 2026)
 
 Este artículo cubre las instrucciones de actualización y la matriz de compatibilidad para la versión 5.1.0 del paquete de servicio 4 de Adobe Experience Manager Guides.
@@ -71,7 +70,7 @@ Antes de continuar actualizando al paquete de servicio 4 de Experience Manager G
 - Si está utilizando la versión 4.3.x, 4.2, 4.2.1 (revisión 4.2.1.3), 4.1 o 4.1.x, debe actualizar a la versión 4.4 antes de actualizar a la versión 5.0.0.
 - Si utiliza la versión 4.0, debe actualizar a la versión 4.2 antes de actualizar a la versión 4.3.x.
 - Si utiliza la versión 3.8.5, debe actualizar a la versión 4.0 antes de actualizar a la versión 4.2.
-- Si tiene una versión anterior a la 3.8.5, consulte la sección Actualizar Experience Manager Guides en la guía de instalación específica del producto disponible en [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/es/xml-documentation-for-experience-manager/archive.html).
+- Si tiene una versión anterior a la 3.8.5, consulte la sección Actualizar Experience Manager Guides en la guía de instalación específica del producto disponible en [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >

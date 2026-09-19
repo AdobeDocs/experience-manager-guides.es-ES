@@ -4,13 +4,12 @@ description: Obtenga información sobre cómo configurar Regx para caracteres de
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 0eacc712-1179-4c11-b8f9-9eb2706e6295
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '511'
 ht-degree: 0%
-
 ---
-
 # Configure Regx para caracteres de nombre de archivo válidos {#id214BD0550E8}
 
 A partir de la versión 3.8 de AEM Guides, como administrador, puede definir una lista de caracteres especiales válidos permitidos en los nombres de archivo. En versiones anteriores, se permitía a los usuarios definir nombres de archivo que contenían caracteres especiales como `@`, `$`, `>`, etc. Estos caracteres especiales provocaban problemas al abrir temas desde el panel de mapas DITA o al hacer clic en el vínculo del tema en el índice, lo que a menudo provocaba que la página no se abriera debido a caracteres especiales en la dirección URL.

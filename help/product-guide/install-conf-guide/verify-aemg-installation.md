@@ -4,13 +4,12 @@ description: Obtenga información sobre cómo verificar la instalación de AEM G
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 19cded6f-6545-42af-8511-7c32cf4ddf2d
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 0%
-
+source-wordcount: '311'
+ht-degree: 5%
 ---
-
 # Verificar la instalación de AEM Guides {#id213BD030FBE}
 
 Una vez instalado AEM Guides, debe comprobar si la instalación se ha realizado correctamente o no.
@@ -29,7 +28,7 @@ Siga estos pasos para comprobar la instalación:
 
 1. Acceda a la lista de paquetes OSGi en AEM.
 
-   Para obtener más información sobre cómo acceder a los paquetes, consulte [Paquetes](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=es#bundles) en la documentación de AEM.
+   Para obtener más información sobre cómo acceder a los paquetes, consulte [Paquetes](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles) en la documentación de AEM.
 
 1. Busque fmdita en la lista de paquetes y compruebe su estado.
 
@@ -59,5 +58,3 @@ Siga estos pasos para comprobar la instalación:
 > Existen varias recomendaciones de optimización del rendimiento que puede considerar para mejorar el rendimiento del sistema. Consulte [Recomendaciones para la optimización del rendimiento](perf-optimization-on-prem.md#) para obtener más información.
 
 >[!ENDTABS]
-
-

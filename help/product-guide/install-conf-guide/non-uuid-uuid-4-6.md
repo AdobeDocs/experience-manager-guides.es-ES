@@ -4,13 +4,12 @@ description: Obtenga información sobre cómo migrar contenido que no es UUID a 
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 0ce73a2a-e1a4-43b6-a918-75d1c537a87c
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1753'
 ht-degree: 1%
-
 ---
-
 # Migración de contenido de UUID del paquete de servicio 4 4.6.0 sin UUID al paquete de servicio 4.6.1
 
 Realice estos pasos para migrar el contenido del paquete de servicio 4 a la versión 4.6.1 de UUID que no es UUID.

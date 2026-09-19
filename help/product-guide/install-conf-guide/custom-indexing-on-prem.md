@@ -4,13 +4,12 @@ description: Aprenda a personalizar el contenido de los índices para la configu
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 87c0519d-120a-4bb7-b70f-7d217bcd7580
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '135'
 ht-degree: 0%
-
 ---
-
 # Función de reindexación para buscar y reemplazar (vista de Source) para in situ
 
 Se requiere la reindexación para habilitar la función **Buscar y reemplazar (vista de Source)**, que le permite analizar todo el contenido visible en la vista Autor y también el contenido de Source subyacente (estructura XML, incluidos elementos, etiquetas y valores de atributo) para la cadena buscada.
