@@ -194,7 +194,7 @@ Interfaz unificada para administrar mapas y salidas de publicación.
 :::
 
 :::card
-![Icono de libro](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![Icono de libro](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Delegar tarea de revisión
 
@@ -232,7 +232,7 @@ Los revisores pueden delegar una tarea de revisión a otro revisor.
 
 * [Notas de la versión de Cloud Service](./release-info/latest-release-info-cs.md)
 * [Notas de la versión de On-Premise](./release-info/latest-release-info.md)
-* [comunidad de AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
-* [Repositorio de GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
-* [Soporte](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
-* [Tutoriales en vídeo](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [comunidad de AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=es){target="_blank"}
+* [Repositorio de GitHub](https://github.com/AdobeDocs/experience-manager-guides.es-ES){target="_blank"}
+* [Soporte](https://experienceleague.adobe.com/support/v2/en/?lang=es){target="_blank"}
+* [Tutoriales en vídeo](https://experienceleague.adobe.com/es/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
