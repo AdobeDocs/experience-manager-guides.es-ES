@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: d3a1a627c00ccf276c78a0bc1337b71dd3951bc4
+source-git-commit: 79259c4991292c12990c42bdd819f121655d650b
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2610'
 ht-degree: 10%
 ---
 
@@ -140,6 +140,10 @@ ht-degree: 10%
         - [Notas de la versión de enero](./release-info/release-notes-2022-1-0.md)
     - On-premise/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides] versiones](./release-info/latest-release-info.md)
+      - Versión 5.2.0 SP1 {#520-sp1-release}
+        - [Novedades](./release-info/whats-new-5-2-1.md)
+        - [Problemas solucionados](./release-info/fixed-issues-5-2-0-sp1.md)
+        - [Instrucciones de actualización](./release-info/upgrade-instructions-5-2-0-sp1.md)
       - Versión 5.2.0 {#520-release}
         - [Novedades](./release-info/whats-new-5-2-0.md)
         - [Problemas solucionados](./release-info/fixed-issues-5-2-0.md)
@@ -566,7 +570,10 @@ ht-degree: 10%
     - [Configurar nueva línea base para local](./install-conf-guide/conf-new-baseline-on-prem.md)
     - [Configurar la omisión de vínculos de igual a igual para local](./install-conf-guide/conf-skip-peer-links-on-prem.md)
     - {hide-from-toc}[Configurar nuevas colecciones de asignaciones para la generación de resultados](./install-conf-guide/conf-new-map-collection-on-prem.md)
-    - [Uso del servidor MCP de Experience Manager Guides](./install-conf-guide/conf-aem-guides-mcp.md)
+    - Integración de AEM Guides MCP {#mcp}
+      - [Uso del servidor MCP de AEM Guides](./install-conf-guide/conf-aem-guides-mcp.md)
+      - [Configuración del servidor MCP de AEM Guides](./install-conf-guide/configure-aem-guides-mcp.md)
+      - [Configuración de la conexión MCP para AEM Guides local](./install-conf-guide/configure-aem-guides-mcp-on-prem.md)
   - Ampliación de las funciones {#aemg-customization}
     - [Implementar un índice personalizado para la función Buscar y reemplazar para Cloud Service](./install-conf-guide/custom-indexing-cs.md)
     - [Reindexar para la característica Buscar y reemplazar para On-Premise](./install-conf-guide/custom-indexing-on-prem.md)

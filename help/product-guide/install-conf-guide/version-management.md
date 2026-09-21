@@ -5,13 +5,11 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: 84be6501066dae623e057c15ac79b748d3e631f1
+source-git-commit: 3574ed5fe856a1ceb6f8c933ba084b092589b544
 workflow-type: tm+mt
-source-wordcount: '2277'
-ht-degree: 0%
-
+source-wordcount: '2299'
+ht-degree: 1%
 ---
-
 # Administración de versiones {#id181GB000XY4}
 
 El control de versiones es un aspecto importante de cualquier sistema de gestión de contenido. Permite crear una instantánea del recurso digital en un momento específico. Con una versión de un recurso digital configurada, puede restaurar la versión requerida del recurso y actualizarla. Normalmente, para crear una versión de cualquier recurso, desprotegería y protegería el recurso requerido.
@@ -287,15 +285,15 @@ En función de a quién desee conceder acceso para su eliminación, especifique 
 
 >[!ENDTABS]
 
-## Depuración de versiones anteriores de archivos DITA
+## Purgar versiones anteriores de archivos
 
-Al actualizar contenido y crear nuevas versiones, las versiones anteriores de los ficheros DITA se mantienen en el repositorio. Es posible que se creen muchas versiones para los archivos DITA durante un periodo y que, colectivamente, ocupen una gran cantidad de espacio en el repositorio. AEM Guides le permite configurar las versiones anteriores que deben eliminarse del repositorio.
+Al actualizar el contenido y crear nuevas versiones, las versiones anteriores de los archivos se mantienen en el repositorio. Muchas versiones pueden crearse para sus archivos durante un periodo y pueden ocupar colectivamente una gran cantidad de espacio en su repositorio. AEM Guides le permite configurar las versiones anteriores que deben eliminarse del repositorio.
 
-Puede acceder a esta utilidad mediante la URL determinada si tiene derechos administrativos:
+>[!NOTE]
+>
+> Se pueden depurar ficheros DITA y no DITA.
 
-`<server folder path> /libs/fmdita/clientlibs/xmleditor_version_purge/page.html`
-
-La versión de un fichero DITA que cumple cualquiera de los criterios dados se mantiene y no se depura:
+La versión de un archivo que cumpla cualquiera de los criterios dados se mantendrá y no se purgará:
 
 - Es la primera versión de un archivo
 - Se incluye en una línea de base
@@ -305,20 +303,21 @@ La versión de un fichero DITA que cumple cualquiera de los criterios dados se m
 
 Siga estos pasos para purgar las versiones anteriores:
 
+1. Seleccione el logotipo de Adobe Experience Manager en la parte superior y elija **Herramientas**.
+1. Seleccione **Guías** en el panel Herramientas.
+1. Seleccione el mosaico **Depuración de versión**.
+
+   ![](assets/version-purge.png)
+
 1. Introduzca los siguientes detalles sobre los archivos que desea depurar:
 
-   ![](assets/preview-purge-report.png)
-
-1. &#x200B;
    - **Número de versiones que se deben conservar de la última versión**: escriba el número de versiones que se deben conservar y no purgar. Por ejemplo, si se introduce 5, se conservan las últimas 5 versiones y las versiones anteriores a ellas pueden depurarse en caso de que se cumplan otras condiciones de depuración.
    - **Conservar versiones creadas dentro del intervalo de tiempo \(en días\)**: escriba la antigüedad máxima de una versión en días. Las versiones anteriores al número determinado de días pueden depurarse si se cumplen otras condiciones de depuración. Por ejemplo, si se introduce 100, todas las versiones creadas antes de 100 días cumplen los requisitos para ser depuradas en caso de que se cumplan otras condiciones de depuración.
    - **Ruta**: seleccione la ruta de acceso del archivo o carpeta cuyos archivos desea purgar.
 
-     >[!NOTE]
-     >
-     > Sólo se pueden depurar ficheros DITA.
+     ![](assets/preview-purge-report.png)
 
-1. Haga clic en **Previsualizar informe de purga**.
+1. Seleccionar **informe de purga de vista previa**.
 
    >[!NOTE]
    >
@@ -333,7 +332,7 @@ Siga estos pasos para purgar las versiones anteriores:
 
    Se muestra el estado de depuración.
 
-   Haga clic en **Descargar informe de purga de versiones** para ver las versiones purgadas. Este informe proporciona el estado de depuración de todas las versiones, junto con los motivos por los que se retuvo una versión en particular o por los que se depuró.
+   Seleccione **Descargar informe de purga de versiones** para ver las versiones purgadas. Este informe proporciona el estado de depuración de todas las versiones, junto con los motivos por los que se retuvo una versión en particular o por los que se depuró.
 
 
 >[!NOTE]
