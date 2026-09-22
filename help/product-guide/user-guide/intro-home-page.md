@@ -4,13 +4,11 @@ description: Conozca la página de inicio de Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2331'
 ht-degree: 0%
-
 ---
-
 # Experiencia de la página de inicio de Experience Manager Guides
 
 La página de inicio es la primera pantalla que ve al iniciar sesión en Experience Manager Guides. Proporciona una experiencia de pantalla de bienvenida unificada e intuitiva, que incluye una vista rápida de los archivos a los que ha accedido recientemente, las colecciones y mucho más.
@@ -45,16 +43,17 @@ Las funciones disponibles en la barra de navegación se explican de la siguiente
   - **Inicio**: La página predeterminada que ve al iniciar sesión en Experience Manager Guides.
   - **Editor**: un editor basado en web fácil de usar que le permite crear y administrar documentos estructurados en Experience Manager Guides. [Conozca la interfaz del editor](./web-editor.md).
   - **Consola de mapas**: proporciona un área de trabajo dedicada para administrar todos los aspectos de la administración y publicación de mapas. [Conozca la interfaz de la consola Map](./map-console-overview.md).
-- **Ayudante de IA**: Una potente herramienta impulsada por IA diseñada para mejorar su productividad mediante características de ayuda inteligentes. Además, cuando trabaje en la interfaz del editor, puede aprovechar las capacidades de creación inteligente del asistente de IA, que hace que su proceso de creación sea más inteligente y rápido mediante sugerencias inteligentes para la reutilización y optimización de contenido.
-
-  La característica [AI Assistant](./ai-assistant.md) solo está disponible actualmente para Adobe Experience Manager as a Cloud Service.
-
-- **Guías AI**: aporta al editor la habilidad inteligente y auténtica de etiquetado inteligente de Adobe CX Enterprise Coworker, lo que permite el etiquetado de contenido natural y conversacional. Analiza el contenido, recomienda las etiquetas relevantes y le ayuda a aplicar metadatos coherentes y precisos con un esfuerzo mínimo. Puede revisar las etiquetas sugeridas y elegir aplicarlas o rechazarlas antes de confirmar la selección. [Guías AI](../user-guide/guides-ai.md) optimiza el proceso de etiquetado, mejorando la organización y la detección del contenido.
-
+- **Asistente de IA**: el Asistente de IA está disponible en dos modos: **Agente** y **Estándar**.
 
   >[!NOTE]
   >
-  > Para utilizar la función de inteligencia artificial aplicada a las guías en su entorno, póngase en contacto con el equipo de éxito del cliente. Una vez habilitada la función, los administradores pueden activarla o desactivarla desde la Configuración de Workspace. Solo se puede habilitar una experiencia de IA a la vez; Guides AI o AI Assistant.
+  > Para utilizar el modo automático de la función Asistente de IA en su entorno, póngase en contacto con el equipo de éxito del cliente. Una vez habilitada la función, los administradores pueden activarla o desactivarla desde la Configuración de Workspace. Solo se puede habilitar un modo de asistente de IA a la vez; ya sea agéntico o estándar.
+
+  - **Agnetic**: aporta al editor la habilidad inteligente y auténtica de etiquetado inteligente de Adobe CX Enterprise Coworker, lo que permite un etiquetado de contenido natural y conversacional. Analiza el contenido, recomienda las etiquetas relevantes y le ayuda a aplicar metadatos coherentes y precisos con un esfuerzo mínimo. Puede revisar las etiquetas sugeridas y elegir aplicarlas o rechazarlas antes de confirmar la selección. [Use el Asistente de IA en el modo agente](../user-guide/ai-assistant-agentic.md) para optimizar el proceso de etiquetado y mejorar la organización y la detección del contenido.
+
+  - **Estándar**: Una potente herramienta impulsada por IA diseñada para mejorar su productividad mediante características de ayuda inteligentes. Además, cuando trabaje en la interfaz del editor, puede aprovechar las capacidades de creación inteligente del asistente de IA, que hace que su proceso de creación sea más inteligente y rápido mediante sugerencias inteligentes para la reutilización y optimización de contenido.
+
+  La característica [AI Assistant](./ai-assistant.md) solo está disponible actualmente para Adobe Experience Manager as a Cloud Service.
 
 - **Personalizar sección de información general**: Permite ocultar o mostrar los widgets en la sección Widgets.
 - **Perfil de carpeta en uso**: Muestra el perfil de carpeta que se está usando actualmente.
@@ -208,6 +207,7 @@ Las preferencias de usuario están disponibles para todos los autores. Con las p
 
   - **Buscar siempre archivos en el explorador**: seleccione esta opción para mostrar la ubicación de un archivo en el repositorio mientras lo edita en el Editor.
 
-  >[!NOTE]
-  >
-  >A partir de la versión 2025.11.0 para Cloud Service y de la versión 5.2.0 para On-Premise, se cambia el nombre del ajuste **Localizar siempre los archivos en el repositorio** a **Localizar siempre los archivos en el explorador**. Para la configuración On-Premise anterior a la versión 5.2 , sigue disponible como Localizar siempre archivos en el repositorio.
+    >[!NOTE]
+    >
+    >- A partir de la versión 2025.11.0 para Cloud Service y de la versión 5.2.0 para On-Premise, se cambia el nombre del ajuste **Localizar siempre los archivos en el repositorio** a **Localizar siempre los archivos en el explorador**. Para la configuración On-Premise anterior a la versión 5.2 , sigue disponible como Localizar siempre archivos en el repositorio.
+    >- A partir de la versión 2026.09.0, **la carga paginada de archivos y carpetas** está habilitada de manera predeterminada. Cuando esta característica está habilitada, **Localizar siempre los archivos en el explorador** no está disponible en las preferencias de usuario. Para que la opción Buscar siempre los archivos en la preferencia del explorador esté disponible, póngase en contacto con el equipo de éxito del cliente para deshabilitar la configuración Carga paginada de archivos y carpetas. Para obtener más información, vea [Carga paginada de archivos y carpetas](./web-editor-other-features.md#paginated-loading-of-files-and-folders).

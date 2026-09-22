@@ -7,25 +7,32 @@ role: User
 TQID: https://experienceleague.adobe.com/EPnCDG2eSljhIm-DrPk9uMBrTyK9-mT1J8N8bAQVrQ8
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+    internal-label: Map Editor
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 47ad7c824c35735c82b51390acd1404ba6274c9a
 workflow-type: tm+mt
-source-wordcount: 2918
+source-wordcount: '2987'
 ht-degree: 0%
-
 ---
-
 # Funciones del editor de mapas {#id1942D0S0IHS}
 
 >[!INFO]
@@ -54,7 +61,7 @@ Cuando se abre un mapa para editarlo, se abre la vista Presentación del Editor 
 
 >[!NOTE]
 >
-> La vista Presentación sólo muestra las referencias presentes en un mapa. Si hay referencias rotas, se mostrará un símbolo de cruz pequeño a la izquierda de la referencia
+> La vista Presentación sólo muestra las referencias presentes en un mapa. Si hay referencias rotas, se mostrará un símbolo de cruz pequeño a la izquierda de la referencia.
 
 Las siguientes opciones están disponibles en la barra de herramientas de la vista Presentación:
 
@@ -97,7 +104,7 @@ Seleccione los iconos de flecha arriba o abajo&#39; para mover el tema hacia arr
 
 >[!NOTE]
 >
-> También puede arrastrar y soltar las referencias para moverlas en un mapa.
+>También puede arrastrar y soltar las referencias para moverlas en un mapa. La forma en que se gestionan las referencias después de arrastrar y soltar depende del editor que utilice. En Editor 2.0, arrastrar y soltar una referencia (como un tema, un submapa o una definición de clave) en una referencia existente en un mapa la añade como un elemento secundario en lugar de reemplazar la referencia existente. En el editor anterior, la misma acción actualiza la dirección URL de referencia en lugar de agregarla como elemento secundario.
 
 **Bloquear/Desbloquear**
 
@@ -138,8 +145,8 @@ Además de organizar los temas en el archivo de asignación, también puede real
 ![](images/map-editor-options-menu.png){width="650"}
 
 - **Agregar**: puede elegir agregar un nuevo tema o una referencia vacía desde el Editor de mapas:
-   - **Referencia vacía**: esta opción permite agregar una referencia vacía en el mapa DITA. Puede hacer doble clic en la referencia vacía insertada más adelante y agregar los detalles del Tema.
-   - **Nuevo tema**: cuando elige crear un nuevo tema desde el menú, aparece el cuadro de diálogo **Nuevo tema**. En el cuadro de diálogo **Nuevo tema**, proporcione los detalles necesarios y seleccione **Crear**.
+  - **Referencia vacía**: esta opción permite agregar una referencia vacía en el mapa DITA. Puede hacer doble clic en la referencia vacía insertada más adelante y agregar los detalles del Tema.
+  - **Nuevo tema**: cuando elige crear un nuevo tema desde el menú, aparece el cuadro de diálogo **Nuevo tema**. En el cuadro de diálogo **Nuevo tema**, proporcione los detalles necesarios y seleccione **Crear**.
 - **Mover**: puede elegir mover un tema hacia arriba/abajo/derecha/izquierda en la jerarquía. También puede arrastrar y soltar un tema o un mapa desde el panel del repositorio al mapa abierto en el Editor de mapas.
 - **Deshacer**: Deshacer la última operación en la vista Presentación.
 - **Rehacer**: rehace la última operación en la vista Presentación.

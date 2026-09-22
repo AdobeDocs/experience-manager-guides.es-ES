@@ -7,26 +7,34 @@ role: User
 TQID: https://experienceleague.adobe.com/FKASAXcwI6A5iGO8n758bBCNzjMitcz2zgnJWrNfM8U
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
+    internal-label: Introduction
   - id: c8841798-1a28-4264-a46a-984860f8e6f6
+    internal-label: User administration
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
+    internal-label: Administration
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: 3089
+source-wordcount: '3753'
 ht-degree: 0%
-
 ---
-
 # Revisar temas {#id2056B0W0FBI}
 
 Si es revisor, recibirá un correo electrónico de solicitud de revisión con el vínculo a los temas de la revisión. Con este vínculo puede acceder a la página de revisión, en la que puede añadir sus comentarios sobre los temas compartidos.
@@ -68,7 +76,7 @@ Siga estos pasos para revisar un tema:
      Seleccione ![](images/view-options.svg) cerca de la barra de búsqueda para elegir ver todos los temas o ver los temas con comentarios. De forma predeterminada, puede ver todos los temas presentes en la tarea de revisión.
 
 
-   - **D**: Los números resaltados por ***F*** se pueden filtrar eligiendo la opción de filtro deseada desde aquí. Puede filtrar los comentarios por tipo, estado, revisor o versión. Por ejemplo, si desea ver cuántos comentarios de tachado se han realizado en cada uno de los temas de revisión, seleccione el icono de filtro y, a continuación, elija **Tipo de revisión** \> **Eliminación**.
+   - **D**: Los números resaltados por ***E*** se pueden filtrar eligiendo la opción de filtro deseada desde aquí. Puede filtrar los comentarios por tipo, estado, revisor o versión. Por ejemplo, si desea ver cuántos comentarios de tachado se han realizado en cada uno de los temas de revisión, seleccione el icono de filtro y, a continuación, elija **Tipo de revisión** \> **Eliminación**.
 
      >[!NOTE]
      >
@@ -80,7 +88,7 @@ Siga estos pasos para revisar un tema:
    - **G**: Número de comentarios recibidos sobre un tema. Este número cambia según el filtro que aplique.
 
 
-   Todos los temas del mapa se muestran como un solo documento compuesto. Los temas que el revisor puede revisar se muestran normalmente. No se muestran los temas que la revisión no puede revisar.
+   Todos los temas del mapa se muestran como un solo documento compuesto. Los temas que el revisor puede revisar se muestran normalmente. Los temas que el revisor no tiene permiso para revisar se muestran como deshabilitados.
 
    ![](images/review-read-only.png)
 
@@ -104,6 +112,76 @@ Siga estos pasos para revisar un tema:
    > El panel Comentarios muestra únicamente los comentarios proporcionados sobre los temas actuales. Cuando se desplaza el enfoque a otro tema, se muestran los comentarios proporcionados sobre el otro tema.
 
 1. Seleccione el botón **Cerrar** una vez que haya completado la revisión del tema. Al seleccionar el botón **Cerrar**, se le redirigirá a la página desde la que obtuvo acceso al tema de revisión.
+
+## Marcar temas individuales como realizados en una tarea de revisión
+
+>[!NOTE]
+>
+> Esta función está habilitada de forma predeterminada a partir de la versión 2026.09.0 de Experience Manager Guides as a Cloud Service. Si prefiere cambiar al comportamiento anterior, póngase en contacto con el equipo de éxito del cliente para deshabilitar esta función para su entorno.
+
+Si una tarea de revisión contiene un gran número de temas, es posible que no pueda revisarlos todos en una sola sesión. Por ejemplo, si se le asigna una tarea de revisión con alrededor de 50 temas, realizar un seguimiento de los temas que ya ha revisado y de los que aún necesitan su atención puede resultar difícil cuando vuelva a la tarea.
+
+La característica **Marcar tema como listo** le permite marcar temas individuales como realizados mientras los revisa. Esto facilita la identificación de los temas que ya ha tratado y el enfoque en los temas que aún están pendientes.
+
+Realice los siguientes pasos para marcar temas individuales como realizados en una tarea de revisión:
+
+1. Abra la tarea de revisión asignada.
+
+1. En la interfaz de usuario de revisión, abra los temas que se le hayan asignado desde el panel **Temas** o cambie a la **vista de documento** para ver todos los temas juntos como un documento compuesto.
+
+1. Cada tema se muestra en un acordeón con una casilla de verificación **Marcar tema como listo**, como se muestra a continuación.
+
+   >[!NOTE]
+   >
+   >Los temas incluidos en la tarea de revisión pero no asignados a usted están deshabilitados y no se pueden marcar como &quot;terminados&quot;.
+
+   **Vista del panel de temas:**
+
+   ![](images/topics-panel-view-mark-topic-as-done.png)
+
+   **Vista de documento:**
+
+   ![](images/document-view-mark-topic-as-done.png)
+
+1. Revise un tema y agregue comentarios o comentarios según sea necesario.
+
+1. Cuando termine de revisar el tema, active la casilla de verificación **Marcar el tema como listo**.
+
+   El acordeón del tema se contrae automáticamente. Puede volver a abrir el acordeón en cualquier momento antes de completar la tarea de revisión. Si necesita agregar más comentarios, simplemente expanda el tema acordeón y agregue sus comentarios.
+
+   >[!NOTE]
+   >
+   >Si la casilla de verificación **Marcar tema como listo** está seleccionada o no depende de quién esté revisando el tema y de la versión que se esté revisando:
+   >
+   > - **Cuando se asignan varios revisores:** La selección de la casilla de verificación sólo se aplica a usted. Si selecciona **Marcar tema como listo**, la casilla de verificación permanece sin cambios para otros revisores asignados al mismo tema.
+   > - **Cuando cambia la versión del tema:** La selección de la casilla de verificación solo se aplica a la versión que ha revisado. Si selecciona **Marcar tema como listo** para la versión 1.0 y el autor cambia el tema a la versión 1.1, la casilla de verificación se restablecerá automáticamente. Si el autor vuelve más tarde a la versión 1.0, la casilla de verificación permanece sin seleccionar.
+
+1. Repita los pasos anteriores para los demás temas que haya terminado de revisar.
+
+   >[!NOTE]
+   >
+   > Marcar los temas individuales como completados le ayuda a realizar un seguimiento del progreso de la revisión y no es necesario para completar la tarea de revisión. Puede completar la tarea de revisión incluso si algunos temas no están marcados como completados.
+
+   ![](images/mark-topics-done-all.png)
+
+   Los siguientes indicadores visuales de la interfaz de usuario de revisión le ayudan a realizar un seguimiento del progreso:
+
+   - Aparece un **punto verde** junto a un tema en el panel **Temas** cuando lo ha marcado como listo.
+
+     ![](images/topics-done-green-dot-topics-panel.png)
+
+   - El indicador **Temas revisados** muestra el número de temas que ha marcado como terminados del número total de temas que se le han asignado.
+
+     ![](images/topics-reviewed-count-review-ui.png)
+
+   >[!NOTE]
+   >
+   > La casilla de verificación **Marcar tema como listo**, el indicador de punto verde y el indicador **Temas revisados** solo son visibles para los usuarios que pueden marcar temas o revisar tareas como completadas. Los autores y administradores con acceso de solo vista a la tarea de revisión no ven estas opciones o indicadores.
+
+1. Cuando haya terminado de revisar los temas que desea enviar al autor o al iniciador de la tarea, seleccione **Completar tarea de revisión**.
+
+1. En el cuadro de diálogo **Completar tarea de revisión**, agregue un comentario y seleccione **Completar** para confirmar la acción.
+
 
 ## Funciones adicionales disponibles en la pantalla de revisión
 
@@ -199,9 +277,17 @@ Al colaborar en una tarea de revisión con varios revisores, puede mejorar la co
 
 ![](images/tag-users-review-ui.png){width="350"}
 
-Para etiquetar a un usuario, escriba `@` en un comentario o respuesta y seleccione un usuario de la lista de revisores. Se muestra el nombre para mostrar junto con una dirección de correo electrónico del usuario para facilitar la identificación. Si una dirección de correo electrónico no está disponible, se muestra el ID de usuario en su lugar.
+Para etiquetar a un usuario, escriba `@` en un comentario o respuesta y seleccione un usuario de la lista de usuarios asociados a este proyecto. La lista muestra el nombre del usuario junto con detalles adicionales para ayudarle a identificar al usuario correcto.
 
-![](images/tagged-users-with-email.png)
+Los detalles del usuario se muestran en el siguiente orden:
+
+`<Role>` | `<User name>` | `<Email address>`
+
+Si la dirección de correo electrónico no está disponible, solo se muestran la función y el nombre del usuario.
+
+También puede pasar el ratón sobre un usuario de la lista para ver su nombre de usuario, su función y su dirección de correo electrónico en la información sobre herramientas.
+
+![](images/tagged-users-in-review-ui.png)
 
 Los usuarios etiquetados reciben un correo electrónico y una notificación de AEM, lo que garantiza que se les informe rápidamente. Para obtener más información sobre el déclencheur de las notificaciones de revisión, consulte [Explicación de las notificaciones de revisión](./review-understanding-review-notifications.md).
 
@@ -355,4 +441,4 @@ El icono **Historial de versiones** del tema aparece una vez que el autor ha cer
 
 ![](images/version-history-dialog.png)
 
-**Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)
+**Tema principal:**[ Introducción a la revisión](review.md)

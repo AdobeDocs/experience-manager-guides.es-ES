@@ -7,29 +7,40 @@ exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
 TQID: https://experienceleague.adobe.com/GbsiDGw2pByOZ-AfWM2yH46QYWm95Z4ShDSvqyedViU
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
+    internal-label: Troubleshooting
+source-git-commit: 06a24bcf5a4dc05ba20846e9d745ea6f36ee8183
 workflow-type: tm+mt
-source-wordcount: 11073
+source-wordcount: '11296'
 ht-degree: 0%
-
 ---
-
 # Panel izquierdo del editor
 
 >[!INFO]
@@ -77,6 +88,10 @@ Para obtener más información, vea [Integración de Workfront](./workfront-inte
 La explicación detallada de las funciones del panel izquierdo es la siguiente:
 
 ## Colecciones
+
+>[!NOTE]
+>
+> A partir de la versión 2026.09.0, Experience Manager Guides ofrece una experiencia de navegación mejorada mediante la carga paginada. Esta función está habilitada de forma predeterminada. Para deshabilitarlo, póngase en contacto con el equipo de éxito del cliente. Para obtener más información, vea [Carga paginada de archivos y carpetas](./web-editor-other-features.md#paginated-loading-of-files-and-folders).
 
 Si trabaja en un conjunto de archivos o carpetas, puede agregarlos a su lista de favoritos para acceder a ellos rápidamente. **Colecciones** muestran la lista de documentos que ha agregado y otra lista de documentos de acceso público de los otros usuarios.
 
@@ -185,7 +200,7 @@ Tiene las siguientes opciones para filtrar los archivos y limitar la búsqueda e
 - **Archivos DITA**: Puede buscar todos los **temas DITA** y **mapas DITA** presentes en la ruta seleccionada. Están seleccionadas de forma predeterminada.
 - **Archivos que no son DITA**: puede buscar **archivos Ditaval**, **archivos de imagen**, **multimedia**, **documentos** y **JSON** en la ruta seleccionada.
 
-  ![filtro de búsqueda rápida &#x200B;](images/repository-filter-search-quick.png) {width="300"}
+  ![filtro de búsqueda rápida ](images/repository-filter-search-quick.png) {width="300"}
 
   *Utilice los filtros rápidos para buscar archivos DITA y no DITA.*
 
@@ -493,7 +508,8 @@ Las distintas opciones del menú Opciones se explican a continuación:
 
 >[!NOTE]
 >
-> A partir de la versión 2025.11.0 para Cloud Service y la versión 5.2.0 para On-Premise, **Repositorio** se reemplaza por **Explorador**. En el caso de las instalaciones locales anteriores a la versión 5.2, seguirá viendo y utilizando el repositorio a través de la interfaz del editor.
+>- A partir de la versión 2025.11.0 para Cloud Service y la versión 5.2.0 para On-Premise, **Repositorio** se reemplaza por **Explorador**. En el caso de las instalaciones locales anteriores a la versión 5.2, seguirá viendo y utilizando el repositorio a través de la interfaz del editor.
+>- A partir de la versión 2026.09.0, Experience Manager Guides ofrece una experiencia de navegación mejorada mediante la carga paginada. Esta función está habilitada de forma predeterminada. Para deshabilitarlo, póngase en contacto con el equipo de éxito del cliente. Para obtener más información, vea [Carga paginada de archivos y carpetas](./web-editor-other-features.md#paginated-loading-of-files-and-folders).
 
 El Explorador proporciona la mayoría de las funciones disponibles anteriormente en el Repositorio, entre las que se incluyen:
 
@@ -1116,6 +1132,10 @@ Para insertar un fragmento de código, utilice cualquiera de los métodos siguie
 
 ## Plantillas
 
+>[!NOTE]
+>
+> A partir de la versión 2026.09.0, Experience Manager Guides ofrece una experiencia de navegación mejorada mediante la carga paginada. Esta función está habilitada de forma predeterminada. Para deshabilitarlo, póngase en contacto con el equipo de éxito del cliente. Para obtener más información, vea [Carga paginada de archivos y carpetas](./web-editor-other-features.md#paginated-loading-of-files-and-folders).
+
 El panel Plantillas solo está disponible para administradores. Con este panel, el administrador puede crear y administrar fácilmente plantillas que luego los autores pueden utilizar. De manera predeterminada, las plantillas se clasifican en las plantillas de tipo *map* y *topic*.
 
 ![](images/templates-panel_cs.png){width="300"}
@@ -1391,4 +1411,4 @@ Para ver los comentarios de revisión de las tareas de revisión activas que est
 
 </details>
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

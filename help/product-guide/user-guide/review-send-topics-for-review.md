@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/mrpBKOZcVm1XHdkEy9PBFOt-cbjfmyjqhT-BRbg3Swo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a668e1b862702ae1154b05d974414b54b43559ea
+    internal-label: User
+source-git-commit: 279cf0605427042290a7bbf179636f022d4bfd46
 workflow-type: tm+mt
-source-wordcount: 3663
+source-wordcount: '4036'
 ht-degree: 0%
-
 ---
-
 # Enviar temas para revisión {#id199RD0S035Z}
 
 El flujo de trabajo de revisión crea un entorno de varios revisores en el que el iniciador especifica una lista de temas para revisión, agrega varios revisores y asigna una cronología para la tarea de revisión. Adobe Experience Manager Guides permite a los usuarios pertenecientes a los grupos Autores y Publicadores iniciar una revisión.
@@ -275,6 +279,10 @@ Para enviar uno o varios temas junto con el archivo de asignación para su revis
 
    ![](images/content-page-map-review.png)
 
+   >[!NOTE]
+   >
+   > La forma en que se organiza el contenido de esta página depende de si la función de jerarquía de mapas está habilitada para su entorno. Cuando está activada, la asignación y sus subasignaciones se muestran en una vista jerárquica en lugar de una lista plana de temas. Para obtener más información, vea [Ver la jerarquía del mapa al seleccionar temas para revisión](#view-the-map-hierarchy-while-selecting-topics-for-review).
+
 1. En la página Contenido, seleccione una versión del tema que desee compartir para su revisión.
 
    Puede utilizar uno de los siguientes métodos para seleccionar una versión:
@@ -328,6 +336,33 @@ Para enviar uno o varios temas junto con el archivo de asignación para su revis
 
 Se envía un mensaje de correo electrónico a todos los revisores para notificarles que se les han asignado temas para su revisión. El correo electrónico contiene un vínculo directo que puede utilizar para acceder al tema en una ventana del explorador. Los temas junto con el mapa DITA se abren en el modo de revisión.
 
+### Ver la jerarquía de mapas al seleccionar temas para revisión
+
+>[!NOTE]
+>
+> Esta función está desactivada de forma predeterminada. Para habilitarlo en su entorno, póngase en contacto con el equipo de éxito del cliente.
+
+Con esta característica, la estructura o jerarquía existente del contenido del mapa se muestra en la página **Contenido**. En lugar de mostrar todos los temas de un mapa como una lista plana, el mapa y sus submapas se muestran en su jerarquía real para mejor referencia al seleccionar contenido para revisión.
+
+![](./images/review-map-hierarchy.png)
+
+>[!NOTE]
+>
+> - Si un mapa sólo contiene temas y no hay submapas, se muestra una lista plana de temas como de costumbre.
+> - En la jerarquía solo se muestran los tipos de contenido que se pueden incluir en una revisión. Estos incluyen temas de Concepto, Tarea, Referencia y Genéricos, junto con tipos de DITA Map, BookMap y Learning Content Map. Los elementos no revisables, como las referencias del glosario, las definiciones de claves y las listas de glosarios, no se muestran en la jerarquía del mapa.
+
+De forma predeterminada, se seleccionan todas las asignaciones, subasignaciones y temas de la jerarquía. Como autor o iniciador de la tarea de revisión, puede seleccionar o anular la selección de temas concretos o completar subasignaciones basándose en el contenido que desee enviar para su revisión. Al anular la selección de un submapa, también se anula la selección de todos los temas incluidos en él.
+
+Cuando solo se seleccionan algunos temas dentro de un submapa, la casilla de verificación del submapa cambia a un estado indeterminado para indicar una selección parcial. Este estado de selección se refleja en las páginas **Contenido** y **Revisores**, lo que garantiza que el contenido seleccionado se mantenga coherente en todo el flujo de trabajo de revisión.
+
+![](./images/review-partial-selection-submap.png)
+
+Cuando se seleccionan o deseleccionan todos los temas dentro de un submapa, el estado de selección del submapa se ajusta automáticamente en consecuencia.
+
+Si se hace referencia al mismo tema más de una vez en la jerarquía de asignación, cada ocurrencia después de la primera se marca con una etiqueta **Duplicate** para facilitar la identificación. La opción para seleccionar, anular la selección o cambiar la versión de estos temas duplicados está desactivada. Cualquier selección o cambio de versión debe realizarse desde la primera aparición del tema.
+
+![](./images/review-duplicate-topics-in-map.png)
+
 ## Agregar o quitar temas de una tarea de revisión en curso
 
 Como autor o iniciador de una tarea de revisión, puede agregar nuevos temas a una tarea de revisión en curso (si no se han enviado anteriormente para su revisión) o quitar temas de una tarea de revisión en curso sin que ello afecte al flujo de trabajo de revisión.
@@ -365,4 +400,4 @@ Una vez que se actualiza la tarea de revisión, los revisores reciben notificaci
 Para obtener más información, vea [Descripción de las notificaciones de revisión](./review-understanding-review-notifications.md).
 
 
-**Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)
+**Tema principal:**[ Introducción a la revisión](review.md)

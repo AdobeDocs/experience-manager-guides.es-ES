@@ -8,19 +8,22 @@ level: Experienced
 TQID: https://experienceleague.adobe.com/h8V5bE1J5ztJNJ9wMPoQR4k36-pZuiaYbnD7xPYX-zE
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+    internal-label: Admin
+source-git-commit: fde5d8f842d835708f1ae052879bca8a86bf8187
 workflow-type: tm+mt
-source-wordcount: 4601
+source-wordcount: '5053'
 ht-degree: 0%
-
 ---
-
 # Componentes de una plantilla de PDF {#components-pdf-template}
 
 Una plantilla de PDF tiene cuatro componentes: diseños de página, hojas de estilo, recursos y configuración. Puede crear una plantilla personalizando estos componentes individuales y asociando la plantilla con un ajuste preestablecido de salida mientras genera una salida de PDF. Las secciones siguientes tratan en detalle estos componentes y su proceso de personalización.
@@ -202,6 +205,28 @@ Para agregar un archivo de recursos a la carpeta Recursos, siga los siguientes p
 1. Haga clic en **Cargar**.
 El archivo seleccionado se importa y se enumera en la carpeta Recursos.
 
+## Mostrar u ocultar comentarios de borrador en la salida nativa de PDF
+
+Los comentarios de borrador añadidos en un tema DITA se excluyen de forma predeterminada de la salida nativa de PDF. Esto se controla mediante el estilo `draft-comment` en la hoja de estilo de contenido de la plantilla de salida, donde la propiedad `display` está establecida en `none`.
+
+Como administrador, puede actualizar este estilo para que los comentarios de borrador sean visibles en la salida:
+
+1. En el panel **Plantillas de salida**, abra la plantilla que usa el mapa para la publicación en PDF.
+2. Expanda **Hojas de estilo** y haga doble clic en **contenido** para abrir la hoja de estilo de contenido.
+3. En el panel **Estilos**, busque y seleccione **borrador-comentario**.
+
+   Utilice el campo de búsqueda para buscarlo rápidamente si la lista es larga.
+
+4. En el panel **Propiedades**, cambie el valor de la propiedad **display** de `none` a un valor visible (como `block`, `inline-block`, `grid` y más).
+
+   ![Configurar la propiedad de borrador-comentario en la hoja de estilos de contenido](./assets/draft-comment-setting.png)
+
+5. Guarde la hoja de estilo.
+
+>[!NOTE]
+>
+>Este estilo controla si los comentarios de borrador son visibles en el contenido con estilo en general. Para incluir comentarios de borrador específicamente en la salida de **PDF nativo**, también debe habilitar la opción **Incluir comentarios de borrador** en el ajuste preestablecido de salida de PDF nativo. Para obtener más información, vea [Ajuste preestablecido de salida nativo de PDF](../web-editor/native-pdf-web-editor.md). Ambas configuraciones son necesarias juntas para que los comentarios de borrador aparezcan en el PDF generado exactamente como aparecen en el editor.
+
 ## Configuración avanzada de PDF {#advanced-pdf-settings}
 
 Utilice la sección Configuración para establecer la configuración avanzada del diseño de página de PDF, iniciando PDF desde una página impar o par, dando formato a las referencias cruzadas y habilitando las marcas de impresión en la PDF final que se genera
@@ -223,8 +248,8 @@ Defina los valores de configuración básicos para iniciar un capítulo desde un
 
 * **Estructura del índice**: Permite personalizar la jerarquía de la tabla de contenido. Utiliza la siguiente configuración adicional:
 
-   * **Usar encabezados hasta el nivel**: permite ajustar el número de niveles de encabezado que se mostrarán en la estructura de TDC de su PDF.
-   * **No mostrar el número de página del primer nivel en la tabla de contenido**: seleccione esta opción para ocultar los números de página correspondientes de todos los capítulos que contengan temas anidados o secundarios. Consideremos el siguiente ejemplo en el que se crea una salida sin seleccionar esta opción.
+  * **Usar encabezados hasta el nivel**: permite ajustar el número de niveles de encabezado que se mostrarán en la estructura de TDC de su PDF.
+  * **No mostrar el número de página del primer nivel en la tabla de contenido**: seleccione esta opción para ocultar los números de página correspondientes de todos los capítulos que contengan temas anidados o secundarios. Consideremos el siguiente ejemplo en el que se crea una salida sin seleccionar esta opción.
 
   <img src="assets/page-number-in-toc.png" alt="Carga de activos" width="250">
 
@@ -238,23 +263,27 @@ Defina los valores de configuración básicos para iniciar un capítulo desde un
 
 * **No mostrar el número de capítulo en el índice** : seleccione esta opción para mostrar los nombres de capítulo sin los números de capítulo en el índice.   De forma predeterminada, los números de capítulo se muestran en la tabla de contenido de la salida de PDF.
 * **Formato de relleno**: utilice la lista desplegable para seleccionar líneas directrices de puntos, sólidas o de espacio para conectar los niveles de encabezado con sus números de página correspondientes.
-Para aplicar la estructura del índice y los niveles de encabezado de estilo, consulte [Agregar un índice de capítulo](design-page-layout.md#add-chapter-toc).
+Para aplicar la estructura del índice y los niveles de encabezado de estilo, vea [Agregar un índice de capítulo](design-page-layout.md#add-chapter-toc).
 
   >[!NOTE]
   >
   >Si es desarrollador de CSS, puede definir el formato de relleno directamente en el archivo CSS.
 
 * **Usar marcador de continuación de tabla**: seleccione esta opción para definir marcadores para tablas largas que se extiendan en varias páginas.
-Puede definir el texto que aparecerá antes y después del salto. Por ejemplo, una tabla se divide en la página 5 y usted define `<Continued on page %page-num%>` para **Texto antes del salto**. El texto muestra &quot;Continuado en la página 6&quot; al final de la página 5.
+Puede definir el texto que aparecerá antes y después del salto. Por ejemplo, una tabla se divide en la página 5 y usted define `<Continued on page %page-num%>` para **Texto antes del salto**.  El texto muestra &quot;Continúa en la página 6&quot; al final de la página 5.
 
   Utilice variables de idioma para definir el texto del marcador de continuación antes y después del salto. Según el idioma elegido, el valor localizado se selecciona automáticamente en la salida de PDF. Por ejemplo, puede publicar `Continued on page %page-num%` como texto en inglés y `Fortsetzung auf Seite %page-num%` en alemán.
 
   Pase el ratón sobre <img src="./assets/info-details.svg" alt= "icono de información" width="25"> cerca de la opción para ver más detalles al respecto.
+
+  >[!NOTE]
+  >
+  > Cuando use una variable de idioma en el campo **Texto antes del salto** o **Texto después del salto**, asegúrese de que todo el texto esté definido dentro de una variable de idioma única. No se representa ningún texto o variable agregado fuera de la variable de idioma en estos campos. Por ejemplo, en lugar de usar una combinación de variables como `${lng:Continued-from-page} %page-num%` en el campo **Texto después de la pausa**, use solamente `${lng:Continued-from-page}` en el campo y establezca por separado el valor de la variable de idioma `Continued-from-page` en `Continued-from-page %page-num%`.
 * **Vincular términos del glosario a la página del glosario**: seleccione esta opción para mostrar los términos del glosario como hipervínculos en el contenido y vincularlos a los términos de la página del glosario. Esto ayuda a los lectores a ver rápidamente la definición de un término definido en el glosario.
 
   Para convertir los términos del glosario en hipervínculos, debe:
-   * Habilite **Glosario** en la ficha **Orden de diseño de página** para un mapa DITA.
-   * Agregue el glosario en las páginas de contenido posterior de un mapa del libro.
+  * Habilite **Glosario** en la ficha **Orden de diseño de página** para un mapa DITA.
+  * Agregue el glosario en las páginas de contenido posterior de un mapa del libro.
 
   Si no habilita la página Glosario, los términos del glosario del contenido no se convierten en hipervínculos en la salida de PDF.
   <!--For more information on using table continuation markers, see Use table continuation markers.-->
@@ -394,11 +423,11 @@ Seleccione un orden de páginas que determine la secuencia de las páginas del d
 * **Folleto**: todas las páginas se ordenan como en un folleto.
 * **Folleto de derecha a izquierda**: todas las páginas están en orden de folleto de derecha a izquierda.
 * **Personalizado**: defina un orden personalizado de páginas en lugar de un orden predefinido.
-   * &quot;a.b&quot; — Todas las páginas consecutivas de a a b.
-   * &quot;a,b,c&quot; — Nuevo orden de páginas a, b, c.
-   * &quot;a*b&quot; — La página a se repite por veces.
-   * &quot;-a&quot;: los números de página negativos se cuentan hacia atrás a partir de la última página y se pueden combinar con otros pedidos personalizados.
-   * &quot;X&quot; — todas las páginas del documento. El mismo resultado que &quot;1..-1&quot;.
+  * &quot;a.b&quot; — Todas las páginas consecutivas de a a b.
+  * &quot;a,b,c&quot; — Nuevo orden de páginas a, b, c.
+  * &quot;a*b&quot; — La página a se repite por veces.
+  * &quot;-a&quot;: los números de página negativos se cuentan hacia atrás a partir de la última página y se pueden combinar con otros pedidos personalizados.
+  * &quot;X&quot; — todas las páginas del documento. El mismo resultado que &quot;1..-1&quot;.
 
 Por ejemplo, puede dar un pedido personalizado como &quot;2, 3, 5*2, 7..10,-1,-2.
 El orden de páginas dado hace que una PDF tenga los siguientes números de página del documento original, suponiendo que tenga 25 páginas en total: 2, 3, 5, 5, 7, 8, 9, 10, 25, 24.
@@ -468,11 +497,11 @@ Por ejemplo, puede agregar una variable de idioma &quot;reference-label&quot; y 
 Cuando agrega `${lng:<variable name>}` a la sección Párrafo, las referencias cruzadas de los párrafos de la salida contienen el texto localizado y el número de página.\
 Por ejemplo, las siguientes capturas de pantalla muestran las referencias cruzadas &quot;Ver en la página 1&quot; en inglés y &quot;Einzelheiten finden Sie auf der Seite 1&quot; en alemán.
 
-<img src="./assets/english-output-corss-reference.png" alt="Resultado en inglés de una referencia cruzada en un párrafo&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Resultado en inglés de una referencia cruzada en un párrafo" width ="800" border="2px">
 
 *Referencia cruzada dentro de un párrafo cuando se publica en inglés.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Resultado alemán de una referencia cruzada en un párrafo&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="Resultado alemán de una referencia cruzada en un párrafo" width ="800" border="2px">
 
 
 *Referencia cruzada dentro de un párrafo cuando se publica en alemán.*

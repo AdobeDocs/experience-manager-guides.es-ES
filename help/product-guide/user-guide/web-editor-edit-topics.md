@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/Ln0JE2F8klsmIZJqtpy3Idi3VHdh1U900sfMrD0xpEU
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
+    internal-label: User
+source-git-commit: 44b50108aa453052c1c9b429eaeb254cad746166
 workflow-type: tm+mt
-source-wordcount: 1409
+source-wordcount: '1497'
 ht-degree: 0%
-
 ---
-
 # Editar temas en el editor {#id2056B040VUI}
 
 >[!INFO]
@@ -91,16 +95,16 @@ Poner en negrita y en cursiva el contenido seleccionado y subrayarlo. El conteni
 
 - Rodee el contenido con un elemento válido: realice los siguientes pasos para envolver el contenido con un elemento válido:
 
-   - Seleccione el contenido de un elemento.
-   - Seleccione el icono ![add](images/Add_icon.svg) de la barra de herramientas de la parte superior para ver el cuadro de diálogo **Insertar elemento**. El cuadro de diálogo muestra los elementos válidos para el contenido seleccionado.
+  - Seleccione el contenido de un elemento.
+  - Seleccione el icono ![add](images/Add_icon.svg) de la barra de herramientas de la parte superior para ver el cuadro de diálogo **Insertar elemento**. El cuadro de diálogo muestra los elementos válidos para el contenido seleccionado.
 
-     >[!NOTE]
-     >
-     > También puede ver el cuadro de diálogo Insertar elemento seleccionando el menú contextual del contenido seleccionado.
+    >[!NOTE]
+    >
+    > También puede ver el cuadro de diálogo Insertar elemento seleccionando el menú contextual del contenido seleccionado.
 
-   - Seleccione un elemento del cuadro de diálogo. El contenido seleccionado se encuentra dentro de ese elemento. Por ejemplo, si selecciona el contenido en un párrafo y, a continuación, elige el elemento `<note>` del cuadro de diálogo **Insertar elemento**, el contenido seleccionado aparece debajo de una nota.
+  - Seleccione un elemento del cuadro de diálogo. El contenido seleccionado se encuentra dentro de ese elemento. Por ejemplo, si selecciona el contenido en un párrafo y, a continuación, elige el elemento `<note>` del cuadro de diálogo **Insertar elemento**, el contenido seleccionado aparece debajo de una nota.
 
-     ![Cuadro de diálogo Insertar elemento](./images/insert-element-editor.png) {width="300"}
+    ![Cuadro de diálogo Insertar elemento](./images/insert-element-editor.png) {width="300"}
 
 ## Actualizar el explorador mientras edita los archivos
 
@@ -181,6 +185,14 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 
  -->
 
+## Evitar la sobrescritura de contenido durante la edición simultánea
+
+>[!NOTE]
+>
+> Habilite la opción **Deshabilitar edición sin bloquear el archivo** del Configuration Manager para esta funcionalidad.
+
+Cuando dos autores trabajan en el mismo tema DITA al mismo tiempo, las ediciones realizadas sobre una copia obsoleta pueden sobrescribir sin saberlo los cambios de otro autor. Para evitarlo, al seleccionar **Bloquear** en un tema, se actualizará automáticamente el Editor para cargar el contenido más reciente del servidor antes de empezar a editar, lo que garantiza que los cambios siempre se basen en la versión más actual en lugar de en una copia antigua.
+
 ## Busque un archivo abierto en el Explorador
 
 Mientras se abre un archivo en el Editor, Experience Manager Guides proporciona la función para buscar el archivo en el Explorador. Por ejemplo, localiza el tema actual mientras lo está editando.
@@ -191,4 +203,4 @@ Puede desactivar la característica para localizar el archivo con la opción **B
 >
 >A partir de la versión 2025.11.0, el nombre de la opción **Buscar siempre los archivos en el repositorio** cambiará a **Buscar siempre los archivos en el explorador**. Para la configuración On-Premise, sigue estando disponible como Localizar siempre archivos en el repositorio hasta la versión 5.1 de Experience Manager Guides.
 
-**Tema principal:**&#x200B;[&#x200B; Trabajar con el editor](web-editor.md)
+**Tema principal:**[ Trabajar con el editor](web-editor.md)
