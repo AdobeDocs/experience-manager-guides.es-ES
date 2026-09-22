@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: 79259c4991292c12990c42bdd819f121655d650b
+source-git-commit: 2123962f8c168928c9b0a1ee1331e5cfd86db319
 workflow-type: tm+mt
-source-wordcount: '2610'
+source-wordcount: '2647'
 ht-degree: 10%
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 10%
       - {hide-from-toc}[Instrucciones de implementación](./release-info/deploy-xml-on-aemaacs.md)
       - [Versiones en la nube](./release-info/latest-release-info-cs.md)
       - Versiones de 2026 {#2026-releases}
+        - Versión 2026.09.0 {#2609-release}
+          - [Novedades](./release-info/whats-new-2026-09-0.md)
+          - [Problemas solucionados](./release-info/fixed-issues-2026-09-0.md)
+          - [Instrucciones de actualización](./release-info/upgrade-instructions-2026-09-0.md)
         - Versión 2026.08.0 {#2608-release}
           - [Novedades](./release-info/whats-new-2026-08-0.md)
           - [Problemas solucionados](./release-info/fixed-issues-2026-08-0.md)
@@ -219,8 +223,8 @@ ht-degree: 10%
   - Introducción {#about-aemg}
     - [Acerca de  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] funciones clave y de trabajo {#aemg-works-features}
-      - [Cómo funciona [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-      - [Características clave  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+      - [Cómo funciona [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+      - [Características clave  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Página de inicio {#home-page}
     - [Experiencia de la página de inicio [!DNL AEM Guides]](./user-guide/intro-home-page.md)
     - [Interfaz de repositorio](./user-guide/home-page-repository-view.md)
@@ -364,12 +368,13 @@ ht-degree: 10%
   - Asistente de IA en AEM Guides {#ai-assistant-aem}
     - [Revelación de usuarios de IA generativa de Adobe](./user-guide/adobe-generative-ai-disclosures.md)
     - [Información general del Asistente de IA](./user-guide/ai-assistant.md)
-    - [Ayuda inteligente con tecnología de IA para buscar contenido](./user-guide/ai-based-smart-help.md)
-    - [Creación del asistente de IA para crear documentos de forma inteligente](./user-guide/ai-assistant-right-panel.md)
-    - [Sugerencias inteligentes con tecnología de IA para crear contenido](./user-guide/authoring-ai-based-smart-suggestions.md)
-    - [Preguntas frecuentes](./user-guide/ai-assistant-faq.md)
-  - Guías de IA en AEM Guides {#guides-ai-aem}
-    - [Introducción a la inteligencia artificial aplicada a las guías](./user-guide/guides-ai.md)
+    - Asistente de IA en modo automático {#ai-assistant-agentic}
+      - [Uso del asistente de IA en modo automático](./user-guide/ai-assistant-agentic.md)
+    - Asistente de IA en modo Estándar {#ai-assistant-standard}
+      - [Ayuda inteligente con tecnología de IA para buscar contenido](./user-guide/ai-based-smart-help.md)
+      - [Creación del asistente de IA para crear documentos de forma inteligente](./user-guide/ai-assistant-right-panel.md)
+      - [Sugerencias inteligentes con tecnología de IA para crear contenido](./user-guide/authoring-ai-based-smart-suggestions.md)
+      - [Preguntas frecuentes](./user-guide/ai-assistant-faq.md)
   - Administrar contenido de aprendizaje {#learning-training-content}
     - Guía de introducción {#get-started}
       - Introducción {#intro-lc}
@@ -429,8 +434,10 @@ ht-degree: 10%
     - Resolución de problemas {#troubleshooting}
       - [Session timeout](./user-guide/session-timeout-prompt.md)
       - [La cadena es una excepción demasiado larga en la exportación de metadatos](./user-guide/metadata-export-failure.md)
+    - Administración del rendimiento {#performance-management}
+      - [Carga paginada de archivos y carpetas](./user-guide/paginated-loading-assets.md)
 - Guía del usuario (IU antigua) {#user-guide-old-ui}
-  - [Información general de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Información general de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Instalación y configuración {#install-conf-guide}
   - [Descargar, instalar y actualizar](./install-conf-guide/introduction.md)
   - Proceso de instalación de Cloud Service {#deploy-conf-aemg-cs}
@@ -500,6 +507,7 @@ ht-degree: 10%
     - [Instalación de paquetes para la publicación basada en artículos](./install-conf-guide/conf-article-based-publishing.md)
     - [Configuración de la lista de omisión de propiedades de metadatos](./install-conf-guide/conf-metadata-prop.md)
     - Configuración del editor para Cloud Service {#editor-cloud-settings}
+      - [Configuración del asistente de IA en modo automático para Cloud Service](./install-conf-guide/configure-ai-assistant-agentic-mode-cs.md)
       - [Configure las sugerencias inteligentes con tecnología de IA para la creación de Cloud Service](./install-conf-guide/conf-smart-suggestions.md)
       - [Configuración de la ayuda inteligente con tecnología de IA para buscar contenido para Cloud Service](./install-conf-guide/conf-smart-help.md)
       - [Configuración de la opción de edición en Oxígeno para Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
@@ -556,10 +564,11 @@ ht-degree: 10%
         - [Configurar el nuevo motor de publicación para PDF nativo](./native-pdf/conf-new-pdf-engine.md)
       - [Trabajar con el motor nativo de PDF v2](./native-pdf/new-pdf-engine.md)
       - [Configurar el proceso de nodo para la publicación nativa de PDF para Cloud Service](./native-pdf/conf-node-options-cs.md)
-      - [Configuración de indicadores JVM para la publicación nativa de PDF para in situ](./native-pdf/conf-jvm-flags-on-prem.md)
+      - [Configurar indicadores JVM para la publicación nativa de PDF para local](./native-pdf/conf-jvm-flags-on-prem.md)
     - Configuración de fragmentos de contenido y experiencia para Cloud Service {#conf-content-exp-fragment}
       - [Creación de una asignación entre un tema y un fragmento de contenido](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
       - [Creación de una asignación entre un tema y un fragmento de experiencia](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
+    - [Configurar el límite de tamaño de entidad del analizador XML](./install-conf-guide/conf-xml-parsing.md)
   - Personalización del flujo de trabajo {#workflow}
     - [Configurar y personalizar flujos de trabajo](./install-conf-guide/conf-customize-workflows.md)
   - Integraciones {#aemg-integrations}
