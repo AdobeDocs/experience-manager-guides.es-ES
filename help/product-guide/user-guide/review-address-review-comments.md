@@ -155,4 +155,4 @@ Al utilizar esta función, tenga en cuenta que:
 - El filtrado y la búsqueda sólo se aplican a los comentarios de la tarea seleccionada; los comentarios de otras tareas no seleccionadas no se ven afectados.
 
 
-**Tema principal:**[ Introducción a la revisión](review.md)
+**Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)

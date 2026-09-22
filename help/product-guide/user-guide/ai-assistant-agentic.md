@@ -25,7 +25,7 @@ Los siguientes componentes del asistente de IA en modo automático le ayudan a a
 
 - **(A)** Historial de conversaciones: vea y vuelva a abrir conversaciones anteriores para revisar acciones y recomendaciones de etiquetas anteriores.
 
-  ![Historial de conversión del panel del Asistente de inteligencia artificial ](images/chat-history.png){width="350"}
+  ![Historial de conversión del panel del Asistente de inteligencia artificial &#x200B;](images/chat-history.png){width="350"}
 
 - **(B)** Nuevo chat: inicia una nueva sesión de etiquetado para un tema, asignación o conjunto de archivos diferente.
 - **(C)** Área de nombres de etiquetas: seleccione las áreas de nombres de taxonomía desde las que el Asistente de IA genera recomendaciones de etiquetas. Solo se tienen en cuenta las etiquetas de las áreas de nombres seleccionadas.
@@ -87,13 +87,13 @@ Siga estos pasos para utilizar el Asistente de IA para aplicar etiquetas a uno o
         - **Borrar todas las sugerencias** para quitar todas las etiquetas sugeridas para un tema específico.
         - Seleccione el icono **X** junto a una etiqueta para eliminar una sugerencia de etiqueta individual.
 
-          ![Cuadro de diálogo de vista previa de análisis en masa del panel del Asistente de inteligencia artificial ](images/topics-tag-preview-dialog.png){width="650"}
+          ![Cuadro de diálogo de vista previa de análisis en masa del panel del Asistente de inteligencia artificial &#x200B;](images/topics-tag-preview-dialog.png){width="650"}
 
 1. Cuando acepta las etiquetas sugeridas, la habilidad Etiquetado inteligente agrega las etiquetas generadas por IA a las etiquetas ya aplicadas al contenido.
 
 Una vez completada la revisión, el Asistente de IA muestra un resumen de las etiquetas aplicadas al tema y las recomendaciones de etiquetas rechazadas.
 
-![Resumen de la respuesta del panel del Asistente de inteligencia artificial ](images/topic-tag-summary.png){width="650"}
+![Resumen de la respuesta del panel del Asistente de inteligencia artificial &#x200B;](images/topic-tag-summary.png){width="650"}
 
 ## Aplicación de etiquetas a varios temas de un mapa mediante la habilidad de etiquetado inteligente
 
