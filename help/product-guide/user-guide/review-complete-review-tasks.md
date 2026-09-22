@@ -7,21 +7,27 @@ exl-id: 99b64fb5-c509-41cf-b091-ba78b90db481
 TQID: https://experienceleague.adobe.com/Ttty7SNmwHvrs-Ma5SN0JqjQRR3Y6yM-W-ozgQ3Vcyg
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+    internal-label: Customer experience
+source-git-commit: 912b7583cbbbb4beff08423d360a9a06f3c365cf
 workflow-type: tm+mt
-source-wordcount: 854
+source-wordcount: '912'
 ht-degree: 0%
-
 ---
-
 # Completar la tarea de revisión como revisor
 
 Como revisor, puede marcar una tarea de revisión como completada una vez que haya revisado todo el contenido y desee notificarlo al autor. También puede dejar cualquier comentario final en este momento.
+
+>[!NOTE]
+>
+> A partir de la versión **2026.09.0** de Experience Manager Guides as a Cloud Service, se cambió el nombre del botón **Marcar como listo** a **Completar tarea de revisión**, junto con características adicionales en la interfaz de usuario de revisión para ayudar a los revisores a realizar un seguimiento de su progreso de revisión. Para obtener más información, vea [Marcar temas individuales como finalizados](review-topics.md#mark-individual-topics-as-done-in-a-review-task). Los pasos para completar una tarea de revisión son los mismos.
 
 Siga estos pasos para completar una tarea de revisión:
 

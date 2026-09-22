@@ -7,22 +7,27 @@ role: User
 TQID: https://experienceleague.adobe.com/hdEk3etzBCch3Ejdl5SnIC37pSK6a-WERkTMqu-jlGM
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: e4019ae1e605bd26f7df676a4fab8c632fd8fa8e
 workflow-type: tm+mt
-source-wordcount: 1578
+source-wordcount: '1824'
 ht-degree: 0%
-
 ---
-
 # Vistas del editor de temas {#id204GK0D0V5Z}
 
 >[!INFO]
@@ -122,15 +127,33 @@ Al abrir un tema en el modo de vista previa, se muestra cómo se mostrará cuand
 
 El modo de previsualización le ofrece las siguientes funcionalidades:
 
+* [Vista previa del contenido mediante línea base](#preview-content-using-baseline)
 * [Visualización de contenido en función de filtros condicionales](#id2114BI00VXA)
 * [Ver las marcas de seguimiento de cambios](#id2114BJ00CE8)
 * [Exportación de un tema como PDF](#id2114BL00B5U)
+
+
+### Vista previa del contenido mediante línea de base (aplicable sólo para mapa DITA)
+
+>[!NOTE]
+>
+>Póngase en contacto con el equipo de éxito del cliente para habilitar esta función en su entorno.
+
+El modo Vista previa muestra de forma predeterminada la copia de trabajo actual de un tema o mapa. Si un mapa tiene una o más líneas de base estáticas, puede usar la opción **Vista previa con líneas de base** para obtener una vista previa del mapa tal y como existía en una versión de línea de base específica. Esta función sólo admite líneas de base estáticas; las líneas de base dinámicas no están disponibles para vista previa.
+
+![](images/preview-baseline.png){width="650"}
+
+Al seleccionar una línea de base en la lista desplegable, la vista previa resuelve todos los temas, recursos, imágenes y referencias asociados en función de la línea de base seleccionada en lugar de la copia de trabajo actual. Esto proporciona una representación precisa del contenido del mapa en el momento en que se creó la línea de base.
+
+Por ejemplo, si se ha sustituido una imagen después de crear una línea base, al previsualizar dicha línea base se mostrará la versión de la imagen asociada a la línea base, en lugar de la imagen de la copia de trabajo actual.
+
+El modo de previsualización muestra un indicador de previsualización de carga mientras procesa el conjunto inicial de temas. No se actualiza automáticamente después de editar un tema o cambiar de versión. Para ver el contenido más reciente, actualice la vista previa manualmente o cierre y vuelva a abrir el tema o el mapa. Además, las opciones de Seguimiento (Sin marcas, Original y Mostrar marcas) no están disponibles al obtener una vista previa de un mapa para una línea de base.
 
 ### Visualización de contenido en función de filtros condicionales {#id2114BI00VXA}
 
 Si ha utilizado condiciones en el tema o el mapa, esas condiciones se muestran en el panel Filtros. De forma predeterminada, se seleccionan todas las condiciones y se muestra todo el contenido. Si anula la selección de una condición, el contenido que tenga esa condición se eliminará de la vista. También puede elegir resaltar contenido condicionado.
 
-La siguiente imagen muestra un tema que usa dos condiciones: `Audience` y `Platfor`. El contenido condicionado se resalta con un fondo amarillo.
+La siguiente imagen muestra un tema que usa dos condiciones: `Audience` y `Platform`. El contenido condicionado se resalta con un fondo amarillo.
 
 >[!BEGINTABS]
 
@@ -153,7 +176,7 @@ Si un documento contiene marcas de seguimiento de cambios \(o indicaciones visua
 Hay tres opciones de **Tracking** entre las que puedes elegir:
 
 * **Sin marcas**: en esta vista, se aceptan todas las inserciones y eliminaciones, y se presenta una vista simple del documento. En esta vista no se ven marcas de seguimiento de cambios.
-* **Original**: en esta vista, todas las inserciones se rechazan, todas las eliminaciones se restauran y se muestra una vista previa. Simplemente, se obtiene la forma original del documento antes de habilitar el modo de seguimiento de cambios.
+* **Original**: en esta vista, todas las inserciones se rechazan, todas las eliminaciones se restauran y se muestra una vista previa. Se obtiene la forma original del documento antes de habilitar el modo de seguimiento de cambios.
 * **Mostrar marcas**: en esta vista, se obtienen todas las marcas para el contenido insertado y eliminado.
 
   La siguiente imagen muestra la previsualización de un archivo de mapa con marcas:
@@ -176,7 +199,7 @@ Para exportar un tema como PDF, siga estos pasos:
 
 1. Abra el tema en el modo de vista previa. Asegúrese de que el tema forme parte de un archivo de asignación.
 
-1. Seleccione la opción **Descargar como PDF** en la parte superior.
+1. Seleccione la opción **Descargar como PDF** de la parte superior.
 
    Icono ![](images/download-as-pdf-preview.png).
 
@@ -185,6 +208,5 @@ Para exportar un tema como PDF, siga estos pasos:
    > Asegúrese de haber habilitado la ventana emergente en la configuración del explorador; de lo contrario, PDF no se descargará.
 
    El PDF se genera y abre en una nueva pestaña o se le muestra un cuadro de diálogo para guardar el PDF en el sistema local.
-
 
 **Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)

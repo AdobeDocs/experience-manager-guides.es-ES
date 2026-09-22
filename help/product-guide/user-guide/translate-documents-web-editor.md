@@ -7,27 +7,37 @@ role: User
 TQID: https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+    internal-label: Content translation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 077335fcbb539ef545ce2ca9903e4a8223b3f6ce
+    internal-label: User
+source-git-commit: 0db59f201b2418911634609b93ab7892477052c9
 workflow-type: tm+mt
-source-wordcount: 2562
+source-wordcount: '2794'
 ht-degree: 0%
-
 ---
-
 # Traducción de documentos desde la consola Mapa {#id21BKF0Z0YZF}
 
 >[!TIP]
@@ -66,7 +76,8 @@ Antes de realizar los pasos de este procedimiento, asegúrese de haber creado la
 
    >[!IMPORTANT]
    >
-   > Solo puede seleccionar y traducir a los idiomas para los que ha creado la carpeta de destino paralela al idioma de origen. Tampoco se muestra una carpeta de idioma creada en cualquier otro nivel, como un nivel por debajo de la carpeta de idioma de origen. Asegúrese de crear todas las carpetas de idioma de destino en el mismo nivel que la carpeta de idioma de origen.
+   > * Solo puede seleccionar y traducir a los idiomas para los que ha creado la carpeta de destino paralela al idioma de origen. Tampoco se muestra una carpeta de idioma creada en cualquier otro nivel, como un nivel por debajo de la carpeta de idioma de origen. Asegúrese de crear todas las carpetas de idioma de destino en el mismo nivel que la carpeta de idioma de origen.
+   > * Si crea la carpeta de destino para un idioma después de crear el grupo de idiomas, actualice el explorador para habilitar el idioma en los grupos de idiomas.
 
 
 
@@ -80,7 +91,9 @@ Antes de realizar los pasos de este procedimiento, asegúrese de haber creado la
 
    >[!NOTE]
    >
-   > Si crea la carpeta de destino para un idioma después de crear el grupo de idiomas, actualice el explorador para habilitar el idioma en los grupos de idiomas.
+   > Si una copia (archivo) de idioma de origen o destino individual se mueve fuera de su carpeta de idioma original a una carpeta diferente, el panel Traducción reflejará este cambio de la siguiente manera:
+   > - Copias de idioma de destino: si una copia de idioma de destino (destino) se mueve fuera de su carpeta de idioma de destino original a una carpeta diferente, el recurso correspondiente se muestra como deshabilitado en el panel Traducción.
+   > - Copias de idioma de Source: si una copia de idioma de origen se mueve fuera de su carpeta de idioma de origen original a una carpeta de idioma diferente, el recurso correspondiente se muestra como habilitado en el panel Traducción, lo que permite que la traducción continúe según lo esperado.
 
 1. Si elige un idioma concreto, aparece como seleccionado en todos los grupos de idiomas que ha seleccionado. Por lo tanto, cuando se traduce a cualquier idioma, se traduce de una sola vez para todos los grupos de idiomas. Por ejemplo, si el alemán está presente en los grupos de idiomas G1 y G2, se selecciona para ambos.
 
@@ -144,6 +157,10 @@ Antes de realizar los pasos de este procedimiento, asegúrese de haber creado la
    - Puede seleccionar **Crear un nuevo proyecto de traducción multilingüe** que incluirá trabajos de traducción para todos los idiomas que haya seleccionado para la traducción. Por ejemplo, si ha seleccionado francés, alemán y español, se creará un proyecto que contiene trabajos de traducción para los tres idiomas.
    - Si ya tiene un proyecto de traducción, puede agregarle temas. Seleccione la opción **Agregar a proyecto de traducción existente** de la lista Proyecto y elija un proyecto de la lista Proyecto de traducción existente. Puede ordenar estos proyectos por orden más reciente, ascendente o descendente.
 
+     >[!NOTE]
+     >
+     > Cuando se usa **Agregar a proyecto de traducción existente** para enviar recursos adicionales para su traducción, la operación falla si una solicitud anterior (creación de proyecto o Agregar a proyecto existente) para el mismo proyecto aún está en curso. Se muestra el siguiente mensaje: *Una solicitud anterior para este proyecto aún está en curso. Espere unos minutos antes de intentarlo de nuevo*.
+
    - Si selecciona **Agregar a proyecto de traducción existente**, esta operación actualiza la entrada de recursos existente en el proyecto si el recurso ya se ha agregado y el estado del trabajo de traducción relacionado está en el estado *Borrador*.
      - Si el idioma de destino no está presente en el proyecto, se crea un nuevo proyecto para el proyecto de traducción en un solo idioma y se crea un nuevo trabajo para el proyecto de traducción en varios idiomas.
 
@@ -163,6 +180,7 @@ Antes de realizar los pasos de este procedimiento, asegúrese de haber creado la
    - Si está agregando a un proyecto de traducción existente, seleccione la ruta en la que ya existe ese proyecto. A continuación, en la lista **Proyecto de traducción existente**, seleccione el proyecto al que desee agregar la tarea de traducción actual. También puede usar **Filtros** disponibles para reducir la lista.
 
      ![Escriba la ruta de acceso del proyecto existente](images/existing-project-path.png){width="650"}
+
 
 1. En el campo **Título del proyecto**, introduzca un título.
 1. Seleccione **Enviar** para crear un nuevo proyecto de traducción.

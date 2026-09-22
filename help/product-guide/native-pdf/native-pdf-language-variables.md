@@ -8,18 +8,20 @@ level: Experienced
 TQID: https://experienceleague.adobe.com/Tl18qyeww079p8XGKwbKTN8TvoZLb-q9mPQ-8q660Dc
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: 1417
+source-wordcount: '1891'
 ht-degree: 0%
-
 ---
-
 # Compatibilidad con variables de idioma
 
 Adobe Experience Manager Guides proporciona la función para utilizar variables de idioma. Puede utilizar variables de idioma para definir cadenas localizadas en la salida de PDF o para localizar cualquier texto estático en las plantillas de salida. Puede utilizar estilos CSS para localizar las cadenas procedentes de un archivo CSS.
@@ -102,7 +104,7 @@ También puede importar el archivo XML, que contiene las variables de idioma. Ex
 ### Exportar variables de idioma
 
 Para exportar las variables de idioma de un idioma, selecciona el idioma en la lista desplegable y selecciona **Exportar** <img src="./assets/language-variable-export-icon.svg" alt="icono de exportación" width="25">.
-Crea un archivo XML con el formato `language_variable_<ln>` donde `<ln>` es el código del idioma seleccionado. Por ejemplo, `language_variable_en.xml` para inglés y `language_variable_fr.xml` para francés.
+Crea un archivo XML con el formato `language_variable_<ln>`, donde `<ln>` es el código del idioma seleccionado. Por ejemplo, `language_variable_en.xml` para inglés y `language_variable_fr.xml` para francés.
 
 >[!NOTE]
 > 
@@ -151,8 +153,6 @@ También puede editar los valores de una variable de aplicación. Posteriormente
 
 Debe agregar variables de idioma en los documentos localizados. Puede insertar estas variables de idioma dentro del diseño de página que aparece en las distintas páginas de los documentos localizados. Por ejemplo, puede agregar la variable de idioma para `author-name` que aparece en el área de encabezado del diseño de página (o cualquier otra parte como el pie de página o el cuerpo).
 
-
-
 <img alt="diseño de página de un pdf" src="./assets/language-variable-page-layout.png" width="550">
 
 
@@ -180,6 +180,21 @@ Para insertar una variable de idioma como su `copyright-label` en el área de en
 <img alt="insertar variable en el área de encabezado" src="./assets/language-variable-header.png" width="550">
 
 *Se agregó el `copyright-label` en el área de encabezado.*
+
+Una vez insertado, el valor de una variable de idioma en la salida generada depende del idioma configurado en el ajuste preestablecido de salida. Si el mapa ya tiene un idioma definido con el atributo `xml:lang` y desea que la plantilla use ese mismo idioma, asegúrese de que la opción **Usar idioma del mapa** esté seleccionada en el ajuste preestablecido de salida en lugar de seleccionar un idioma explícitamente. Vea [Resolución de idioma para el contenido DITA frente a variables de plantilla de salida](#language-resolution-for-dita-content-vs-output-template-variables) para aprender cómo resuelve un idioma en función de su tipo de contenido.
+
+### Resolución de idioma para variables de contenido DITA y plantilla de salida
+
+El documento puede contener dos tipos de contenido que necesitan traducción: contenido DITA, como referencias cruzadas y marcadores de continuación de tabla, y contenido de plantilla de salida, como contenido frontal, contenido posterior, encabezados y pies de página que se inserta mediante variables de idioma.
+
+Utilice la siguiente tabla para comprender cómo resuelve cada tipo de contenido su idioma.
+
+| Tipo de contenido | Ejemplos | Orden de resolución de idioma |
+|---|---|---|
+| Contenido DITA | Referencias cruzadas (por ejemplo, &quot;Ver capítulo&quot; o &quot;Ver página&quot;), marcadores de continuación de tabla | &#x200B;1. Atributo `xml:lang` en el tema o mapa más cercano <br> 2. Idioma del ajuste preestablecido de salida, si no hay `xml:lang` establecido |
+| Variables de idioma de plantilla de salida | Material anterior, material posterior, encabezados, pies de página, cabezales de carrera y etiquetas generadas (Nota, Precaución, Advertencia) | &#x200B;1. Idioma seleccionado en el ajuste preestablecido de salida <br> 2. `xml:lang` del mapa raíz, si **Usar idioma del mapa** está seleccionado <br> 3. Inglés (en_US), si no hay ninguno disponible |
+
+Si desea que el contenido DITA siga un idioma específico, defina el atributo `xml:lang` en el tema o asignación más cercano a dicho contenido. Las variables de idioma funcionan de forma diferente; como no forman parte del origen DITA, no tienen `xml:lang` que heredar, por lo que puede controlar su idioma mediante el ajuste preestablecido de salida.
 
 ### Aplicar estilo de contenido a variables de idioma
 

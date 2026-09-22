@@ -7,23 +7,29 @@ role: User
 TQID: https://experienceleague.adobe.com/r6gZE2a3lXtL0mFWxurEjna8mUTJIMEQdz2eLw2OWcQ
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1833481e1801fa171901abafe5eb256baaa10b8f
+    internal-label: User
+source-git-commit: 811743900fefe761f10254ff13c741a7d8f41d27
 workflow-type: tm+mt
-source-wordcount: 4258
+source-wordcount: '4329'
 ht-degree: 0%
-
 ---
-
 # Funciones adicionales en el editor {#id2056B0B0YPF}
 
 Hay otras funciones útiles en el editor que puede utilizar:
@@ -220,26 +226,26 @@ La barra de herramientas contextual se muestra al seleccionar contenido o celdas
 
   ![](images/set-alignment-rows.png){width="550"}
 
-   - Alineación de texto horizontal (no disponible para tablas simples)
-   - Alineación de texto vertical (no disponible para tablas simples)
-   - Insertar fila encima
-   - Insertar fila debajo
-   - Quitar fila
-   - Combinar celdas (no disponible para tablas simples)
+  - Alineación de texto horizontal (no disponible para tablas simples)
+  - Alineación de texto vertical (no disponible para tablas simples)
+  - Insertar fila encima
+  - Insertar fila debajo
+  - Quitar fila
+  - Combinar celdas (no disponible para tablas simples)
 
   Opciones disponibles para la selección de una o varias columnas:
 
   ![](images/set-alignment-columns.png){width="550"}
 
-   - Alineación de texto horizontal (no disponible para tablas simples)
-   - Alineación de texto vertical (no disponible para tablas simples)
-   - Insertar fila encima
-   - Insertar fila debajo
-   - Quitar fila
-   - Insertar columna arriba
-   - Insertar columna debajo
-   - Quitar columna
-   - Combinar celdas (no disponible para tablas simples)
+  - Alineación de texto horizontal (no disponible para tablas simples)
+  - Alineación de texto vertical (no disponible para tablas simples)
+  - Insertar fila encima
+  - Insertar fila debajo
+  - Quitar fila
+  - Insertar columna arriba
+  - Insertar columna debajo
+  - Quitar columna
+  - Combinar celdas (no disponible para tablas simples)
 
 - Seleccione la tabla para aplicar formato de texto y alineación a toda la tabla.
 
@@ -349,17 +355,17 @@ Tiene las siguientes opciones para filtrar los archivos y limitar la búsqueda:
 
   Esto significa lo siguiente:
 
-   - Si utiliza el Perfil global, se aplican los valores de filtros configurados en el Perfil global.
-   - Si selecciona un perfil de carpeta específico, se recuperan los valores de los filtros definidos en ese perfil.
+  - Si utiliza el Perfil global, se aplican los valores de filtros configurados en el Perfil global.
+  - Si selecciona un perfil de carpeta específico, se recuperan los valores de los filtros definidos en ese perfil.
 
   Los valores de filtro predeterminados disponibles para el estado del documento son: Borrador, Editar, En revisión, Aprobado, Revisado y Listo. Para obtener detalles sobre cómo personalizar los valores de filtro para los estados de documento, vea [Configurar filtros de estado de documento](../cs-install-guide/config-doc-state-filters.md).
 
 - **Bloqueado por**: muestra una lista de usuarios. La lista se pagina y se carga asincrónicamente, mostrando un conjunto limitado de usuarios a la vez y recuperando más a medida que se desplaza o navega. Esto mejora la velocidad de carga y el rendimiento general, especialmente cuando se trabaja con un gran número de usuarios.
 
 - **Última modificación**: filtre el contenido en función de la fecha de modificación. Seleccione un intervalo de fechas del calendario o elija una de las siguientes opciones de lapso de tiempo:
-   - En la última semana
-   - En el último mes
-   - En el último año
+  - En la última semana
+  - En el último mes
+  - En el último año
 
 - **Etiquetas**: filtre el contenido según las etiquetas.
 
@@ -498,7 +504,7 @@ Los elementos DITA que contienen saltos de línea y espacios son compatibles y s
 - Puede insertar espacios de no separación en el documento mediante el icono **Symobol** ![](images/symbol-icon.svg) o las teclas de método abreviado **Alt** + **Espacio**.  Estos espacios de no separación aparecen como un indicador mientras edita un tema en el Editor. Puede desactivar la visualización de los espacios de no separación con la opción **Mostrar indicador de espacio de no separación en el modo Autor** de la pestaña **Apariencia** de [Preferencias de usuario](./intro-home-page.md#user-preferences).
 
 - Si copia y pega contenido con un espacio de no separación de cualquier origen externo en la vista **Autor**, el espacio de no separación se convierte en un espacio.
-Sin embargo, si copia y pega contenido con un espacio de no separación de la vista **Autor**, se conserva.
+Sin embargo, si copia y pega contenido con un espacio de no separación de la vista **Autor**, se conservará.
 
 
 ## ID de elemento generado automáticamente
@@ -551,6 +557,5 @@ A continuación se mencionan las funciones principales destinadas a mejorar el m
 
 
 - El mensaje de alerta solo está disponible para archivos DITA y es visible en todas las vistas: Autor, Source y Diseño.
-
 
 **Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)

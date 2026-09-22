@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/8heDTU9viOxhsg-Epvu6OZMrRyHoWRJ-584O6u9lut8
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: de26a643364cab57b415d8eff9e863ea1b4bfe62
+    internal-label: User
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
-source-wordcount: 984
+source-wordcount: '1098'
 ht-degree: 0%
-
 ---
-
 # Compatibilidad con archivos de Schematron
 
 &quot;Schematron&quot; hace referencia a un lenguaje de validación basado en reglas que se utiliza para definir pruebas para un archivo XML. El editor admite archivos de Schematron. Puede importar los archivos de Schematron y también editarlos en el Editor. Con un fichero de Schematron se pueden definir determinadas reglas y, a continuación, validarlas para un tema DITA o un mapa.
@@ -73,7 +77,7 @@ Cuando se abre un tema en el Editor, aparece un panel de validación de Schematr
 
    >[!NOTE]
    >
-   > Los resultados de validación se muestran según el atributo de función definido en el archivo Schematron. Para obtener más información, vea [Comprender los resultados de validación y los niveles de gravedad](#understanding-validation-results-and-serverity-levels).
+   > Los resultados de validación se muestran según el atributo de función definido en el archivo Schematron. Para obtener más información, vea [Comprender los resultados de validación y los niveles de gravedad](#understanding-validation-results-and-severity-levels).
 
 1. Seleccione el mensaje de error para resaltar el elemento que contiene el error en el tema o mapa abierto.
 
@@ -85,7 +89,7 @@ Los resultados de validación se muestran según el atributo de función definid
 
 ![](images/schematron-validation-errors.png){width="350"}
 
-Para determinar la gravedad de un problema, se evalúa el valor _que distingue entre mayúsculas y minúsculas_ del atributo role definido en el archivo Schematron correspondiente.
+Para determinar la gravedad de un problema, se evalúa el valor _que distingue entre mayúsculas y minúsculas_ del atributo de rol definido en el archivo de Schematron correspondiente.
 
 El siguiente fragmento muestra los valores de atributos de función admitidos definidos en una regla de Schematron:
 
@@ -191,3 +195,21 @@ You have <sch:value-of select="$words"/> letters. This should be greater than <s
 
 </sch:pattern> 
 ```
+
+## Definir reglas mediante el contexto de nodo de texto
+
+Puede definir una regla de Schematron con un contexto de nodo de texto, por ejemplo `context="//text()"`, de modo que la regla se evalúe directamente en los nodos de texto en lugar de requerir que se enumeren todos los elementos DITA posibles que puedan contener ese texto.
+
+Por ejemplo, la siguiente regla marca comillas rectas en cualquier parte del texto del tema:
+
+```XML
+<sch:pattern id="quotation-marks-straight-v2">
+  <sch:rule context="//text()">
+    <sch:report role="info" test="contains(., '&quot;')">Please use typographic quotes instead of straight quotes.</sch:report>
+  </sch:rule>
+</sch:pattern>
+```
+
+Cuando esta regla coincide, el resultado de validación apunta al nodo de texto exacto que lo activó, en lugar de solo al elemento que lo incluye.
+
+Las reglas que utilizan un contexto de elemento explícito, por ejemplo `context="//p"`, siguen funcionando como antes, y puede seguir utilizando cualquiera de los dos métodos dependiendo de la precisión con la que desee que sea la coincidencia y la ubicación del error.
