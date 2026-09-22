@@ -21,7 +21,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: e4019ae1e605bd26f7df676a4fab8c632fd8fa8e
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Cuando se abre un tema en el Editor, aparece un panel de validación de Schematr
 
    >[!NOTE]
    >
-   > Los resultados de validación se muestran según el atributo de función definido en el archivo Schematron. Para obtener más información, vea [Comprender los resultados de validación y los niveles de gravedad](#understanding-validation-results-and-serverity-levels).
+   > Los resultados de validación se muestran según el atributo de función definido en el archivo Schematron. Para obtener más información, vea [Comprender los resultados de validación y los niveles de gravedad](#understanding-validation-results-and-severity-levels).
 
 1. Seleccione el mensaje de error para resaltar el elemento que contiene el error en el tema o mapa abierto.
 
@@ -89,7 +89,7 @@ Los resultados de validación se muestran según el atributo de función definid
 
 ![](images/schematron-validation-errors.png){width="350"}
 
-Para determinar la gravedad de un problema, se evalúa el valor _que distingue entre mayúsculas y minúsculas_ del atributo role definido en el archivo Schematron correspondiente.
+Para determinar la gravedad de un problema, se evalúa el valor _que distingue entre mayúsculas y minúsculas_ del atributo de rol definido en el archivo de Schematron correspondiente.
 
 El siguiente fragmento muestra los valores de atributos de función admitidos definidos en una regla de Schematron:
 
