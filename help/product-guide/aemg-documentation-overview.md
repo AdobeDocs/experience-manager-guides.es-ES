@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: afb7cb895a2861dfa49070ef10bd69becf5d686b
+source-git-commit: 863a9c706ce3aa62aaa24bef7242019e1886f255
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 5%
@@ -211,20 +211,16 @@ Los revisores pueden delegar una tarea de revisión a otro revisor.
 
 [!BADGE Versión 2026.09.0]{type=Informative}
 
->[!BEGINSHADEBOX]
-
 La versión 2026.09.0 de Adobe Experience Manager Guides introduce el etiquetado inteligente con tecnología de IA en AI Assistant, junto con mejoras en la creación, administración de contenido, publicación y la experiencia general del usuario.
 
 [Descubra las novedades de](./release-info/whats-new-2026-09-0.md)
-
->[!ENDSHADEBOX]
 
 
 ## Recursos adicionales
 
 * [Notas de la versión de Cloud Service](./release-info/latest-release-info-cs.md)
 * [Notas de la versión de On-Premise](./release-info/latest-release-info.md)
-* [comunidad de AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=es){target="_blank"}
-* [Repositorio de GitHub](https://github.com/AdobeDocs/experience-manager-guides.es-ES){target="_blank"}
-* [Soporte](https://experienceleague.adobe.com/support/v2/en/?lang=es){target="_blank"}
-* [Tutoriales en vídeo](https://experienceleague.adobe.com/es/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [comunidad de AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [Repositorio de GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Soporte](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Tutoriales en vídeo](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
