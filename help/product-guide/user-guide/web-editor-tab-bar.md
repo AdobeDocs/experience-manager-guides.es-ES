@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4546a7e24f9eea064f049d9f84eabd3253d257bd
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -94,4 +94,4 @@ La característica [AI Assistant](./ai-assistant.md) solo está disponible actua
 
 - **Configuración del editor**: lo lleva al cuadro de diálogo Configuración del editor, donde puede personalizar el comportamiento del editor a nivel de autor individual. Permite controlar la visibilidad y el comportamiento de las etiquetas, los comentarios y otras configuraciones de nivel de editor durante la creación. Para obtener más información, vea [Configuración del editor](../user-guide/config-editor-settings.md).
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

@@ -19,9 +19,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: fde5d8f842d835708f1ae052879bca8a86bf8187
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: '5053'
+source-wordcount: '5049'
 ht-degree: 0%
 ---
 # Componentes de una plantilla de PDF {#components-pdf-template}
@@ -61,6 +61,7 @@ Contenido (TDC), índice, página en blanco, páginas principales, páginas secu
      <img src="assets/add-layout-2.png" alt="Cuadro de diálogo Agregar diseño" width="250">
 
 1. Especifique un nombre para el nuevo diseño de página.
+
    >[!NOTE]
    >
    >Evite utilizar caracteres especiales al dar nombre a un diseño de página. Un espacio en el nombre se reemplaza con un guion bajo &quot;_&quot;.
@@ -196,6 +197,7 @@ Para agregar un archivo de recursos a la carpeta Recursos, siga los siguientes p
    <img src="assets/resources-import-assets.png" alt="Carga de activos" width="300">
 
    La ruta donde se cargará el archivo de recursos se muestra en el campo **Seleccionar carpeta de recursos**.
+
    >[!NOTE]
    >
    >No puede cambiar la ruta para cargar recursos. De manera predeterminada, todos los recursos se almacenan en la carpeta `/content/dam/dita-templates/pdf/<PDF-template-name>`.
@@ -339,8 +341,6 @@ Para obtener más información sobre los diseños de página, vea [Diseñar un d
 
 Puede mostrar u ocultar las siguientes secciones en PDF y también organizar el orden en que deben aparecer en la salida final de PDF:
 
-
-
 * TDC
 * Capítulos y temas
 * Lista de figuras
@@ -349,18 +349,16 @@ Puede mostrar u ocultar las siguientes secciones en PDF y también organizar el 
 * Glosario
 * Cita
 
-  <img src="assets/page-order-advance-settings.png" alt="Orden del diseño de página" width="550">
+<img src="assets/page-order-advance-settings.png" alt="Orden del diseño de página" width="550">
 
-  Si no desea mostrar una sección en particular en la salida de PDF, puede ocultarla desactivando el conmutador.
+Si no desea mostrar una sección en particular en la salida de PDF, puede ocultarla desactivando el conmutador.
 
-  También puede definir el orden en que se generan estas diferentes secciones en PDF. Para cambiar el orden predeterminado de estas secciones, seleccione las barras de puntos para arrastrar y soltar las secciones en la ubicación deseada.
+También puede definir el orden en que se generan estas diferentes secciones en PDF. Para cambiar el orden predeterminado de estas secciones, seleccione las barras de puntos para arrastrar y soltar las secciones en la ubicación deseada.
 
-  >[!NOTE]
-  >
-  > La configuración de orden e inclusión sólo se aplica a un mapa DITA. Para un mapa de libros, esta configuración no es aplicable. Las páginas de un mapa de libros se muestran según el orden de las secciones del mapa de libros.
+>[!NOTE]
+>
+> La configuración de orden e inclusión sólo se aplica a un mapa DITA. Para un mapa de libros, esta configuración no es aplicable. Las páginas de un mapa de libros se muestran según el orden de las secciones del mapa de libros.
 
-
-.
 El diseño de **Capítulo y temas** siempre está habilitado de manera predeterminada. No puede cambiarlo.
 
 **Combinar páginas**
@@ -479,6 +477,7 @@ Si deja en blanco el campo de texto y no ha definido el texto del vínculo al in
 * **Tabla**: `{captionText}`
 
 El orden de prioridad de las referencias cruzadas es el siguiente:
+
 * Texto del vínculo añadido en las referencias cruzadas
 * Formato de referencia cruzada definido en la plantilla nativa de PDF
 * Formato de referencia cruzada predeterminado
@@ -497,12 +496,11 @@ Por ejemplo, puede agregar una variable de idioma &quot;reference-label&quot; y 
 Cuando agrega `${lng:<variable name>}` a la sección Párrafo, las referencias cruzadas de los párrafos de la salida contienen el texto localizado y el número de página.\
 Por ejemplo, las siguientes capturas de pantalla muestran las referencias cruzadas &quot;Ver en la página 1&quot; en inglés y &quot;Einzelheiten finden Sie auf der Seite 1&quot; en alemán.
 
-<img src="./assets/english-output-corss-reference.png" alt="Resultado en inglés de una referencia cruzada en un párrafo&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Resultado en inglés de una referencia cruzada en un párrafo" width ="800" border="2px">
 
 *Referencia cruzada dentro de un párrafo cuando se publica en inglés.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Resultado alemán de una referencia cruzada en un párrafo&quot; width =&quot;800" border="2px">
-
+<img src="./assets/german-output-corss-reference.png" alt="Resultado alemán de una referencia cruzada en un párrafo" width ="800" border="2px">
 
 *Referencia cruzada dentro de un párrafo cuando se publica en alemán.*
 
