@@ -94,4 +94,4 @@ La característica [AI Assistant](./ai-assistant.md) solo está disponible actua
 
 - **Configuración del editor**: lo lleva al cuadro de diálogo Configuración del editor, donde puede personalizar el comportamiento del editor a nivel de autor individual. Permite controlar la visibilidad y el comportamiento de las etiquetas, los comentarios y otras configuraciones de nivel de editor durante la creación. Para obtener más información, vea [Configuración del editor](../user-guide/config-editor-settings.md).
 
-**Tema principal:**[ Introducción al editor](web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)

@@ -359,7 +359,7 @@ El siguiente ejemplo muestra cómo mover un(a) `title` a un(a) `table`:
 
 Los elementos `paragraphStyleRule` se describen a continuación:
 
-** elemento `paraRule`**
+**&#x200B; elemento `paraRule`**
 
 El elemento `paraRule` es obligatorio. Esto especifica las reglas de asignación para todos los estilos de párrafo. En un documento de InDesign, todo el texto está contenido en una subestructura de Estilos de párrafo, incluso los párrafos sin ningún estilo se denominan `\[No paragraph style\]`. Los corchetes indican un nombre de estilo integrado de InDesign.
 
