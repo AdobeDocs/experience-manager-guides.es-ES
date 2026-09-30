@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 863a9c706ce3aa62aaa24bef7242019e1886f255
+source-git-commit: 82b02a0c27b9caeedc59f6508c5a36821ab1666e
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 5%
+source-wordcount: '441'
+ht-degree: 6%
 ---
 # Documentación de Experience Manager Guides
 
@@ -215,12 +215,65 @@ La versión 2026.09.0 de Adobe Experience Manager Guides introduce el etiquetado
 
 [Descubra las novedades de](./release-info/whats-new-2026-09-0.md)
 
+## Vínculos rápidos
+
+>[!BEGINSHADEBOX]
+
+<table>
+<tr style="border: 0;">
+<td>
+
+![Novedades](../assets/whats-new-git-connector.svg)
+
+**Novedades de AEM Guides**
+
+Descubra las novedades de la última versión de Experience Manager Guides.
+
+[Más información](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+
+</td>
+<td>
+
+![Notas de la versión](../assets/whats-new-map-collection.svg)
+
+**Notas de la versión**
+
+Explore las últimas notas de la versión y las actualizaciones de productos para las implementaciones en la nube y locales.
+
+- Versiones de AEM Guides Cloud | [Ver notas de la versión](./release-info/latest-release-info-cs.md)
+- Versiones locales de AEM Guides | [Ver notas de la versión](./release-info/latest-release-info.md)
+
+[Ver hoja de ruta de versiones](./release-info/aem-guides-releases-roadmap.md)
+
+</td>
+<td>
+
+![Información y asistencia](../assets/whats-new-delegate-review.svg)
+
+**Información y asistencia**
+
+Acceda a recursos útiles, documentación y asistencia para sacar el máximo partido a la plataforma.
+
+* [Repositorio de GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Soporte](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Tutoriales en vídeo](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+
+[Interactuar en la comunidad](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11)
+
+</td>
+</tr>
+</table>
+
+>[!ENDSHADEBOX]
+
+
+
 
 ## Recursos adicionales
 
 * [Notas de la versión de Cloud Service](./release-info/latest-release-info-cs.md)
 * [Notas de la versión de On-Premise](./release-info/latest-release-info.md)
-* [comunidad de AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=es){target="_blank"}
-* [Repositorio de GitHub](https://github.com/AdobeDocs/experience-manager-guides.es-ES){target="_blank"}
-* [Soporte](https://experienceleague.adobe.com/support/v2/en/?lang=es){target="_blank"}
-* [Tutoriales en vídeo](https://experienceleague.adobe.com/es/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [comunidad de AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [Repositorio de GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Soporte](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Tutoriales en vídeo](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
