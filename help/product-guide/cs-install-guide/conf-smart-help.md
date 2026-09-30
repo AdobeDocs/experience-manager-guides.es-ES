@@ -5,24 +5,31 @@ exl-id: b5836c02-027e-459a-a7f0-f7d631f999dc
 TQID: https://experienceleague.adobe.com/CVY-v5lrpyLwIjmcxA6-p-4E0OuKZM14cvJomBqADz4
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 591
+source-wordcount: '625'
 ht-degree: 0%
-
 ---
-
 # Configurar la ayuda inteligente con tecnología de IA para buscar contenido
 
 Como administrador, puede configurar la función de Ayuda inteligente para los autores. El servicio de ayuda inteligente está protegido por la autenticación basada en autenticación IMS de Adobe. Integre su entorno con los flujos de trabajo de autenticación seguros basados en tokens de Adobe y comience a utilizar la nueva función de Ayuda inteligente. Las siguientes configuraciones le ayudan a agregar la ficha **Configuración de IA** a un perfil de carpeta. Una vez agregada, puede utilizar la característica Ayuda inteligente del Editor Web.
@@ -44,7 +51,7 @@ Realice los siguientes pasos para crear configuraciones de IMS en Adobe Develope
 1. Seleccione **Agregar API** de la pantalla **Proyectos**.  Aparecerá la pantalla **Agregar una API**. Esta pantalla muestra todas las API, los eventos y los servicios disponibles para los productos y las tecnologías de Adobe con los que puede desarrollar aplicaciones.
 
 1. Seleccione la **API de administración de E/S** para agregarla a su proyecto.
-   ![API de administración de E/S](assets/confi-ss-io-management.png)
+   API de administración de ![IO](assets/confi-ss-io-management.png)
    *Agregar la API de administración de E/S a su proyecto.*
 
 1. Cree una nueva **credencial de OAuth** y guárdela.

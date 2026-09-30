@@ -8,24 +8,31 @@ exl-id: f43bc3ae-b7b6-4a8c-b42d-28ec02d0d1d6
 TQID: https://experienceleague.adobe.com/j6uFt82jpyFbhL2-lS-cPIT-cseP4rpQg9aVjipDmio
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 5d63f33b8644b9adad67fd6badf4760aacbff063
 workflow-type: tm+mt
-source-wordcount: 1654
+source-wordcount: '1707'
 ht-degree: 0%
-
 ---
-
 # Crear y administrar líneas de base desde el editor web {#id223MB0ZF043}
 
 >[!TIP]
@@ -52,22 +59,23 @@ Puede crear una línea base desde el Editor Web realizando los siguientes pasos:
    - En **Seleccionar la versión basada en,** seleccione una de las siguientes opciones:
 
 
-      1. **Fecha** &lt;marca de tiempo\>: elige la versión de los temas en la fecha y hora especificadas.
-      1. **Etiqueta**: seleccione esta opción para elegir los temas según la etiqueta aplicada. Si los temas tienen etiquetas especificadas, estas se enumeran en la lista desplegable. Puede elegir una etiqueta de la lista. También puede agregar una etiqueta en el cuadro de texto.
+     1. **Fecha** &lt;marca de tiempo\>: elige la versión de los temas en la fecha y hora especificadas.
+     1. **Etiqueta**: seleccione esta opción para elegir los temas según la etiqueta aplicada. Si los temas tienen etiquetas especificadas, estas se enumeran en la lista desplegable. Puede elegir una etiqueta de la lista. También puede agregar una etiqueta en el cuadro de texto.
 
-         Para las referencias directas en líneas de base estáticas, las etiquetas se extraen de la última versión guardada del mapa. Por ejemplo, si ha creado las etiquetas `Label Release 1.0` y `Label Release 1.1` para las versiones 1.0 y 1.1 del Tema A y, a continuación, agrega el Tema A al mapa guardado como versión 1.0. En este caso, puede ver las etiquetas `Label Release 1.0` y `Label Release 1.1` en el menú desplegable para etiquetas de línea de base estáticas.
+        Para las referencias directas en líneas de base estáticas, las etiquetas se extraen de la última versión guardada del mapa. Por ejemplo, si ha creado las etiquetas `Label Release 1.0` y `Label Release 1.1` para las versiones 1.0 y 1.1 del Tema A y, a continuación, agrega el Tema A al mapa guardado como versión 1.0. En este caso, puede ver las etiquetas `Label Release 1.0` y `Label Release 1.1` en el menú desplegable para etiquetas de línea de base estáticas.
 
 
-         Al seleccionar **Etiqueta,** puede elegir las referencias directas e indirectas.
-         - Para las referencias directas dentro del mapa DITA, se le ofrece la opción de utilizar la última versión de temas que no tienen la etiqueta especificada aplicada.
+        Al seleccionar **Etiqueta,** puede elegir las referencias directas e indirectas.
 
-           >[!NOTE]
-           >
-           > Si escribe una etiqueta que no existe y selecciona la opción **No crear una línea de base**, la creación de la línea de base falla y muestra un mensaje de error cerca del nombre de la línea de base en el panel Línea de base.
+        - Para las referencias directas dentro del mapa DITA, se le ofrece la opción de utilizar la última versión de temas que no tienen la etiqueta especificada aplicada.
 
-         - Para las referencias indirectas dentro del mapa DITA, se ofrece una opción adicional para utilizar la versión más reciente de temas que no tengan aplicada la etiqueta especificada. También puede elegir **Seleccionar automáticamente** para el contenido referenciado, y el sistema selecciona automáticamente la versión del contenido referenciado correspondiente a la versión del contenido en el que se hace referencia.
+          >[!NOTE]
+          >
+          > Si escribe una etiqueta que no existe y selecciona la opción **No crear una línea de base**, la creación de la línea de base falla y muestra un mensaje de error cerca del nombre de la línea de base en el panel Línea de base.
 
-         Una vez seleccionada una etiqueta o versión como en la fecha, todos los temas a los que se hace referencia y los archivos multimedia dentro del mapa se seleccionan según corresponda. Esta selección de temas no se muestra en la interfaz de usuario, pero se guarda en el servidor.
+        - Para las referencias indirectas dentro del mapa DITA, se ofrece una opción adicional para utilizar la versión más reciente de temas que no tengan aplicada la etiqueta especificada. También puede elegir **Seleccionar automáticamente** para el contenido referenciado, y el sistema selecciona automáticamente la versión del contenido referenciado correspondiente a la versión del contenido en el que se hace referencia.
+
+        Una vez seleccionada una etiqueta o versión como en la fecha, todos los temas a los que se hace referencia y los archivos multimedia dentro del mapa se seleccionan según corresponda. Esta selección de temas no se muestra en la interfaz de usuario, pero se guarda en el servidor.
 
    **Actualización automática**: seleccione esta opción para la creación de la línea de base para elegir automáticamente los temas según la etiqueta aplicada a ellos.
 
@@ -76,7 +84,7 @@ Puede crear una línea base desde el Editor Web realizando los siguientes pasos:
    ![Crear una línea de base](images/dynamic-baseline.png){width="300"}
 
    - **Etiquetas**: Si los temas tienen etiquetas especificadas, usa la lista desplegable **Etiquetas** para elegir entre las [etiquetas enumeradas](#labels-list).
-Las etiquetas seleccionadas primero reciben una prioridad mayor que las posteriores.
+     Las etiquetas seleccionadas primero reciben una prioridad mayor que las posteriores.
 
      >[!NOTE]
      >
@@ -110,33 +118,34 @@ Puede gestionar las líneas base existentes mediante las distintas funciones del
 
   ![opciones de una línea de base](images/baseline-options.png){width="800"}
 
-
-
   También se pueden realizar las siguientes operaciones en la instantánea desde el menú Opciones (Options):
 
 ### Duplicar una línea base
 
 Puede duplicar una línea base y modificarla según sus necesidades.
-![duplicar una línea de base](images/baseline-duplicate.png){width="300"}
+
+![duplicar una línea base](images/baseline-duplicate.png){width="300"}
 *Duplique una línea de base basándose en una etiqueta o cree una copia exacta.*
 
 1. Seleccione **Duplicar** del menú Opciones de una línea de base. Se abre el cuadro de diálogo **Duplicar línea de base**.
->[!NOTE]
->
->El nombre predeterminado de la línea de base es `<selected baseline name>`_sufijo (como sample-baseline_1). Puede cambiar el nombre según sus necesidades.
+
+   >[!NOTE]
+   > 
+   >El nombre predeterminado de la línea de base es `<selected baseline name>`_sufijo (como sample-baseline_1). Puede cambiar el nombre según sus necesidades.
 
    En **Seleccionar la versión basada en**, puede elegir la opción **Copia exacta** o la opción **Etiqueta**:
 
    - **Copia exacta**: Experience Manager Guides selecciona la misma versión de todos los temas y crea una copia exacta de la línea de base duplicada.
    - **Etiqueta**: usando la lista desplegable, puede elegir una de las [etiquetas enumeradas](#labels-list). Experience Manager Guides selecciona las versiones de los temas con la etiqueta seleccionada para ellas, mientras que para los demás temas, selecciona la versión de la línea de base duplicada. Por ejemplo, si selecciona la etiqueta `Release 1.0` en el menú desplegable, entonces selecciona las versiones de los temas para los que ha definido esta etiqueta. Para todos los demás temas, selecciona la versión de la línea de base duplicada.
+
 1. Haga clic en **Duplicar**.
 
-- **Cambiar nombre** o **Eliminar** una línea de base existente.
-- Agregue, quite o realice cambios en las etiquetas existentes desde la opción **Administrar etiquetas** para las líneas de base estáticas. Si el administrador ha configurado etiquetas predefinidas, estas se mostrarán en la lista desplegable Añadir etiqueta. Para obtener más información sobre cómo agregar etiquetas, consulte [Usar etiquetas](web-editor-use-label.md#).
+   - **Cambiar nombre** o **Eliminar** una línea de base existente.
+   - Agregue, quite o realice cambios en las etiquetas existentes desde la opción **Administrar etiquetas** para las líneas de base estáticas. Si el administrador ha configurado etiquetas predefinidas, estas se mostrarán en la lista desplegable Añadir etiqueta. Para obtener más información sobre cómo agregar etiquetas, consulte [Usar etiquetas](web-editor-use-label.md#).
 
-  >[!NOTE]
-  >
-  > El proceso para agregar o quitar etiquetas se produce de forma asíncrona, por lo que puede seguir trabajando en otros archivos en el Editor Web. Una vez añadida o eliminada la etiqueta, se muestra un mensaje emergente que confirma que la etiqueta se ha añadido o eliminado, y también recibe una notificación en la bandeja de entrada para el mismo.
+   >[!NOTE]
+   >
+   > El proceso para agregar o quitar etiquetas se produce de forma asíncrona, por lo que puede seguir trabajando en otros archivos en el Editor Web. Una vez añadida o eliminada la etiqueta, se muestra un mensaje emergente que confirma que la etiqueta se ha añadido o eliminado, y también recibe una notificación en la bandeja de entrada para el mismo.
 
 - **Editar propiedades** de una línea de base estática existente que haya establecido al crear la línea de base.
 - Exportar la instantánea de una línea de base en un archivo de Microsoft Excel con la opción **Exportar línea de base**.
@@ -145,6 +154,7 @@ Puede duplicar una línea base y modificarla según sus necesidades.
 ### Lista de etiquetas {#labels-list}
 
 Las etiquetas enumeradas en la lista desplegable se basan en los siguientes criterios:
+
 - Las etiquetas deben añadirse a una de las versiones de los temas del mapa DITA (en la que se crea la línea base).
 - Y sólo se tienen en cuenta las referencias de primer nivel (temas o submapas) del mapa DITA para seleccionar las etiquetas.
 

@@ -8,20 +8,23 @@ exl-id: de1fd057-60c6-4b1a-9e55-f32969eb0079
 TQID: https://experienceleague.adobe.com/DjyZb6keMyvxaRF39lD1-xsugNBJPxP-WqfNnMEU-T4
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+    internal-label: Bulk activation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: f2cfc65b00e0e70b22c50b7a3f97029a811f8ecb
 workflow-type: tm+mt
-source-wordcount: 449
+source-wordcount: '449'
 ht-degree: 2%
-
 ---
-
 # Activar salida {#id214GGF00V5U}
 
 Una vez creada una colección de mapas para la activación masiva, el siguiente paso es activar el contenido en la instancia de publicación. Para activar el contenido, realice los siguientes pasos:
@@ -63,13 +66,11 @@ Puede activar el resultado en las instancias **Preview** o **Publish**.
 **Publicar**
 
 * Para activar la salida de los mapas seleccionados, seleccione la salida de mapa pregenerada y seleccione **Publicar en** > **Publicar**.
-
 * Para activar la salida de todas las asignaciones DITA con sus ajustes preestablecidos configurados, active la casilla de verificación situada junto al mapa (columna) y, a continuación, seleccione **Publicar en** > **Publicar**.
 
-
->[!NOTE]
-> 
-> La casilla de verificación para una salida de mapa solo está activada si se ha generado la salida para un mapa.
+  >[!NOTE]
+  > 
+  > La casilla de verificación para una salida de mapa solo está activada si se ha generado la salida para un mapa.
 
 Se muestra un mensaje de éxito cuando el resultado del mapa está en la cola para su publicación.
 

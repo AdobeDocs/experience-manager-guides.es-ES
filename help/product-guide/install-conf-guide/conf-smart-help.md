@@ -2,13 +2,11 @@
 title: Configurar la Ayuda inteligente para buscar contenido
 description: Obtenga información sobre cómo configurar la Ayuda inteligente para buscar contenido
 exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '626'
 ht-degree: 0%
-
 ---
-
 # Configuración de la ayuda inteligente con tecnología de IA para buscar contenido para Cloud Service
 
 Como administrador, puede configurar la función de Ayuda inteligente para los autores. El servicio de ayuda inteligente está protegido por la autenticación basada en autenticación IMS de Adobe. Integre su entorno con los flujos de trabajo de autenticación seguros basados en tokens de Adobe y comience a utilizar la nueva función de Ayuda inteligente. Las siguientes configuraciones le ayudan a agregar la ficha **Configuración de IA** a un perfil de carpeta. Una vez añadida, puede utilizar la función de ayuda inteligente en el Editor.
@@ -30,7 +28,7 @@ Realice los siguientes pasos para crear configuraciones de IMS en Adobe Develope
 1. Seleccione **Agregar API** de la pantalla **Proyectos**.  Aparecerá la pantalla **Agregar una API**. Esta pantalla muestra todas las API, los eventos y los servicios disponibles para los productos y las tecnologías de Adobe con los que puede desarrollar aplicaciones.
 
 1. Seleccione la **API de administración de E/S** para agregarla a su proyecto.
-   ![API de administración de E/S](assets/confi-ss-io-management.png)
+   API de administración de ![IO](assets/confi-ss-io-management.png)
    *Agregar la API de administración de E/S a su proyecto.*
 
 1. Cree una nueva **credencial de OAuth** y guárdela.
