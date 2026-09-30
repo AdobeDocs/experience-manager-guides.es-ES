@@ -1,9 +1,9 @@
 ---
 title: Notas de versión | Instrucciones de actualización para el paquete de servicio 1 de Adobe Experience Manager Guides 5.2.0
 description: Obtenga información acerca de la matriz de compatibilidad y cómo actualizar a la versión 5.2.0 del Service Pack 1 de Adobe Experience Manager Guides.
-source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
+source-git-commit: 40e70b86b070cb91a7bc18da595edd2f2f90d29b
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '929'
 ht-degree: 3%
 ---
 # Instrucciones de actualización para la versión 5.2.0 del paquete de servicio 1 (septiembre de 2026)
@@ -60,7 +60,7 @@ Para obtener más información, vea [Configurar y usar el JAR de API del reposit
 
 | Guías de AEM | Versión de AEM | Versión de componentes | Versión del sitio |
 |---|---|---| ---|
-| UUID del paquete de servicio 1 de 5.2.0 | 6.5 LTS | guides-components.all-1.4.1 | ND |
+| UUID del paquete de servicio 1 de 5.2.0 | 6.5 LTS | guides-components.all-1.4.1 | aemg-sites-template-1.3.0 |
 | UUID del paquete de servicio 1 de 5.2.0 | 6.5 | guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
 
 ## Requisitos previos
