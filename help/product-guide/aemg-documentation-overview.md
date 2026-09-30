@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 82b02a0c27b9caeedc59f6508c5a36821ab1666e
+source-git-commit: ce193b31d44d3a67bb18d1db5531c23cb81c4803
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '459'
 ht-degree: 6%
 ---
 # Documentación de Experience Manager Guides
@@ -227,9 +227,13 @@ La versión 2026.09.0 de Adobe Experience Manager Guides introduce el etiquetado
 
 **Novedades de AEM Guides**
 
-Descubra las novedades de la última versión de Experience Manager Guides.
+Explore las funciones nuevas y mejoradas introducidas en la última versión de Experience Manager Guides.
 
-[Más información](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+- Etiquetado inteligente con tecnología de IA en el asistente de IA
+- Marcar el tema como completado en una tarea de revisión
+- Mejoras en el contenido de aprendizaje
+
+[Explorar todo](../../help/product-guide/release-info/whats-new-2026-09-0.md)
 
 </td>
 <td>
@@ -240,8 +244,8 @@ Descubra las novedades de la última versión de Experience Manager Guides.
 
 Explore las últimas notas de la versión y las actualizaciones de productos para las implementaciones en la nube y locales.
 
-- Versiones de AEM Guides Cloud | [Ver notas de la versión](./release-info/latest-release-info-cs.md)
-- Versiones locales de AEM Guides | [Ver notas de la versión](./release-info/latest-release-info.md)
+- Versiones en la nube | [Ver notas de la versión](./release-info/latest-release-info-cs.md)
+- Versiones On-Premise | [Ver notas de la versión](./release-info/latest-release-info.md)
 
 [Ver hoja de ruta de versiones](./release-info/aem-guides-releases-roadmap.md)
 
@@ -254,11 +258,11 @@ Explore las últimas notas de la versión y las actualizaciones de productos par
 
 Acceda a recursos útiles, documentación y asistencia para sacar el máximo partido a la plataforma.
 
-* [Repositorio de GitHub](https://github.com/AdobeDocs/experience-manager-guides.es-ES){target="_blank"}
-* [Soporte](https://experienceleague.adobe.com/support/v2/en/?lang=es){target="_blank"}
-* [Tutoriales en vídeo](https://experienceleague.adobe.com/es/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [Repositorio de GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Soporte](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Tutoriales en vídeo](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
 
-[Interactuar en la comunidad](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=es)
+[Interactuar en la comunidad](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11)
 
 </td>
 </tr>
@@ -273,7 +277,7 @@ Acceda a recursos útiles, documentación y asistencia para sacar el máximo par
 
 * [Notas de la versión de Cloud Service](./release-info/latest-release-info-cs.md)
 * [Notas de la versión de On-Premise](./release-info/latest-release-info.md)
-* [comunidad de AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=es){target="_blank"}
-* [Repositorio de GitHub](https://github.com/AdobeDocs/experience-manager-guides.es-ES){target="_blank"}
-* [Soporte](https://experienceleague.adobe.com/support/v2/en/?lang=es){target="_blank"}
-* [Tutoriales en vídeo](https://experienceleague.adobe.com/es/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [comunidad de AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [Repositorio de GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Soporte](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Tutoriales en vídeo](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
