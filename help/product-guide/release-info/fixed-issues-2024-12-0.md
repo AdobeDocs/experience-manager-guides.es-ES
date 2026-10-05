@@ -4,11 +4,9 @@ description: Obtenga información acerca de las correcciones de errores en la ve
 exl-id: 04a57e1a-6e74-46f6-acde-5045d3dcacdc
 source-git-commit: dd404c42863f0b4a5f31b54f770c0bf296d68ab9
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 1%
-
+source-wordcount: '422'
+ht-degree: 3%
 ---
-
 # Se han corregido problemas en la versión 2024.12.0
 
 Este artículo cubre los errores corregidos en varias áreas de la versión 2024.12.0 de Adobe Experience Manager Guides as a Cloud Service.
@@ -20,12 +18,12 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 - La creación de mapas DITA en una instancia UUID produce un error cuando `xmleditor.uniquefilenames` está habilitado en `XMLEditorConfig`. (21201)
 - Al cerrar un archivo, los comentarios y las etiquetas agregados en el cuadro de diálogo **Guardar cambios y Desbloquear archivo** no se guardan en el Historial de versiones con la nueva versión. Esto es específico de un caso de uso en el que **Pedir protección al cerrar** o **Pedir nueva versión al cerrar** está habilitado en `XMLEditorConfig`. (20065)
 - El estado del documento marcado como **Listo** vuelve a **Borrador** antes de guardar una nueva versión, lo que hace que el estado **Listo** no persista en ninguna versión del documento. (20006)
-- No se puede agregar un archivo de PDF como referencia de imagen en un tema del Editor Web. (21206)
-- Al seleccionar un archivo DITA en la interfaz de usuario de Assets, se muestra la opción **Abrir en el FrameMaker**, incluso cuando está desactivada en la configuración. (20082)
+- No se puede agregar un archivo PDF como referencia de imagen en un tema del Editor Web. (21206)
+- Al seleccionar un archivo DITA en la interfaz de usuario de Assets, se muestra la opción **Abrir en FrameMaker**, incluso cuando está desactivada en la configuración. (20082)
 
 ## Publicación
 
-- En la salida del PDF nativo, faltan títulos de capítulo en la TDC, lo que conduce a una jerarquía incorrecta. (21840)
+- En la salida nativa de PDF, faltan títulos de capítulo en la TDC, lo que conduce a una jerarquía incorrecta. (21840)
 
 
 ## Administración
@@ -44,7 +42,7 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 
 ## Problemas conocidos con la solución
 
-El Adobe ha identificado los siguientes problemas conocidos en la versión 2024.12.0 de Adobe Experience Manager Guides as a Cloud Service.
+Adobe ha identificado los siguientes problemas conocidos en la versión 2024.12.0 de Adobe Experience Manager Guides as a Cloud Service.
 
 **Error al crear el proyecto al procesar la traducción de contenido**
 
