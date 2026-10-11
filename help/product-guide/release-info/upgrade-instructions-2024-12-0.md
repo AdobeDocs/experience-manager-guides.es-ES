@@ -2,13 +2,19 @@
 title: Notas de versión | Instrucciones de actualización y problemas corregidos en la versión 2024.12.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de la matriz de compatibilidad y cómo actualizar a la versión 2024.12.0 de Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 44d95f8d-0323-4c81-913c-626038a22827
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 2%
-
+source-wordcount: '1025'
+ht-degree: 3%
 ---
-
 # Instrucciones de actualización para la versión 2024.12.0
 
 Este artículo describe las instrucciones de actualización y la matriz de compatibilidad para la versión 2024.12.0 de Adobe Experience Manager Guides as a Cloud Service.
@@ -112,10 +118,10 @@ Realice los siguientes pasos para posprocesar el contenido existente y utilizar 
 
 1. Ejecute una petición POST en el servidor (con la autenticación correcta): `http://<server>//bin/guides/reports/upgrade`.
 
-1. La API devuelve un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. La API devuelve un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud GET con el ID del trabajo al mismo punto final: `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Por ejemplo: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Una vez completado el trabajo, la solicitud de GET anterior responde correctamente. Si el trabajo falla por algún motivo, el error se puede ver en los registros del servidor.
+1. Una vez completado el trabajo, la solicitud GET anterior responde correctamente. Si el trabajo falla por algún motivo, el error se puede ver en los registros del servidor.
 
 1. Volver al valor predeterminado o anterior existente de `queryLimitReads` si lo ha cambiado en el paso 1.
 
@@ -129,9 +135,9 @@ Realice los siguientes pasos para indexar el contenido existente y utilice el nu
 
 1. También se puede pasar una carpeta raíz para indexar las asignaciones DITA de una carpeta específica (y sus subcarpetas). Por ejemplo, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Tenga en cuenta que si se pasan tanto el parámetro de rutas como el parámetro raíz, solo se tendrá en cuenta el parámetro de rutas.
 
-1. La API devuelve un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` (por ejemplo: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+1. La API devuelve un jobId. Para comprobar el estado del trabajo, puede enviar una petición GET con el ID del trabajo al mismo punto final: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` (por ejemplo: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Una vez completado el trabajo, la solicitud de GET anterior responde correctamente y menciona si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
+1. Una vez completado el trabajo, la solicitud GET anterior responde correctamente y menciona si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
 
 ### Pasos para gestionar el conflicto `'fmdita rewriter'`
 
@@ -170,7 +176,7 @@ Espere hasta que se complete este trabajo antes de continuar con los siguientes 
 >
 >Debe comprobar si el nodo sigue presente y el estado del trabajo.
 
-GET:
+OBTENER:
 
 ```
 http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1683190032886.json

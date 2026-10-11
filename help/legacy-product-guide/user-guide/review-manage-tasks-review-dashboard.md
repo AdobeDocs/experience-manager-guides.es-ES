@@ -5,19 +5,23 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: f3ed7e82-8bb8-400f-9406-367da9e0052c
-TQID: https://experienceleague.adobe.com/9A3QCOjdrMwovrnsHnRAQZv9iFryLXrgJP-dCjCGN04
+TQID: 'https://experienceleague.adobe.com/9A3QCOjdrMwovrnsHnRAQZv9iFryLXrgJP-dCjCGN04'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1302
+source-wordcount: '1302'
 ht-degree: 0%
-
 ---
-
 # Administrar tareas de revisión mediante el panel Revisar {#id2056B0Y70X4}
 
 El flujo de trabajo de administración de revisiones puede incluir diversas tareas. Por ejemplo, puede que desee agregar revisores para un tema concreto o ampliar la fecha límite para una revisión. También es posible que desee marcar la tarea de revisión como completada si cree que todas las partes interesadas han proporcionado sus comentarios. Estas tareas se pueden administrar mediante el panel de revisión.
@@ -124,9 +128,9 @@ El informe de estado de la tarea de revisión contiene los siguientes detalles:
 
 - Nombre del revisor al que se ha asignado la tarea de revisión.
 - La columna Estado indica el estado de la revisión. El estado puede ser uno de los siguientes:
-   - **No iniciado**: el revisor aún no ha abierto el vínculo de revisión.
-   - **En curso**: el revisor ha abierto el vínculo de revisión y está revisando el tema.
-   - **Completar**: el revisor ha completado la revisión al completar la tarea de revisión asignada. La tarea de revisión se encuentra en la bandeja de entrada de notificaciones de AEM de cada revisor.
+  - **No iniciado**: el revisor aún no ha abierto el vínculo de revisión.
+  - **En curso**: el revisor ha abierto el vínculo de revisión y está revisando el tema.
+  - **Completar**: el revisor ha completado la revisión al completar la tarea de revisión asignada. La tarea de revisión se encuentra en la bandeja de entrada de notificaciones de AEM de cada revisor.
 - Cuando un revisor abre un vínculo de revisión y navega a un tema concreto, ese tema se agrega a la lista Temas revisados. Esto ayuda a los autores a determinar si los revisores han abierto sus secciones respectivas o no. Si se presentan comentarios, se muestran entre corchetes.
 - Número total de observaciones formuladas sobre todos los temas. En el caso de varios temas en revisión, el número de comentarios de cada tema se menciona \(entre corchetes\) con el nombre del tema.
 - La fecha en la que el revisor accedió por última vez a cualquier tema.

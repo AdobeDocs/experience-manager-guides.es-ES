@@ -1,13 +1,19 @@
 ---
 title: Preguntas frecuentes sobre el rendimiento y la escalabilidad de la publicación en Adobe Experience Manager Guides
 description: Obtenga información acerca de las preguntas más frecuentes sobre Rendimiento y escalabilidad de la publicación en Adobe Experience Manager Guides.
-source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1666'
 ht-degree: 1%
-
 ---
-
 
 # Procesamiento de recursos
 
@@ -39,47 +45,47 @@ Los pasos principales de procesamiento siguen siendo coherentes desde el punto d
 ### Mejoras de arquitectura
 
 - **Integración de base de datos de gráficos**:
-   - Transición de JCR jerárquico a una base de datos de gráficos nativa
-   - Permite una administración eficaz de relaciones y dependencias
-   - Elimina la complejidad de simular operaciones de gráficos en un almacenamiento jerárquico
+  - Transición de JCR jerárquico a una base de datos de gráficos nativa
+  - Permite una administración eficaz de relaciones y dependencias
+  - Elimina la complejidad de simular operaciones de gráficos en un almacenamiento jerárquico
 - **Procesamiento distribuido de subprocesos múltiples**:
-   - El procesamiento se ejecuta en varios pods en un entorno de nube
-   - Elimina la dependencia de un solo nodo maestro
-   - Permite la escalabilidad horizontal y la ejecución paralela
+  - El procesamiento se ejecuta en varios pods en un entorno de nube
+  - Elimina la dependencia de un solo nodo maestro
+  - Permite la escalabilidad horizontal y la ejecución paralela
 - **Eliminación de la dependencia de asignación principal:**
-   - Elimina la necesidad de realizar un recorrido de gráficos explícito
-   - Reduce las operaciones de E/S y la latencia de procesamiento
-   - Simplifica la canalización de procesamiento
+  - Elimina la necesidad de realizar un recorrido de gráficos explícito
+  - Reduce las operaciones de E/S y la latencia de procesamiento
+  - Simplifica la canalización de procesamiento
 - **Asignación de ID único sincronizada**
-   - La coordinación centralizada garantiza:
-   - Sin duplicación de ID de documento
-   - Coherencia entre nodos distribuidos
-   - Mantiene la integridad referencial en un entorno simultáneo
+  - La coordinación centralizada garantiza:
+  - Sin duplicación de ID de documento
+  - Coherencia entre nodos distribuidos
+  - Mantiene la integridad referencial en un entorno simultáneo
 - **Base de datos escalable nativa de la nube (alojada en AWS)**
-   - Capa de base de datos de alta disponibilidad y solidez
-   - Admite escalado elástico según la carga de trabajo
-   - Mejora la fiabilidad y el rendimiento generales del sistema
+  - Capa de base de datos de alta disponibilidad y solidez
+  - Admite escalado elástico según la carga de trabajo
+  - Mejora la fiabilidad y el rendimiento generales del sistema
 
 ![](images/workflow.png)
 
 ## Ventajas de la nueva arquitectura
 
 - Mejoras de rendimiento:
-   - La ejecución en paralelo reduce significativamente el tiempo de procesamiento
-   - La eliminación de las operaciones de gran recorrido reduce la latencia
-   - La administración optimizada de gráficos mejora la velocidad de resolución de dependencias
+  - La ejecución en paralelo reduce significativamente el tiempo de procesamiento
+  - La eliminación de las operaciones de gran recorrido reduce la latencia
+  - La administración optimizada de gráficos mejora la velocidad de resolución de dependencias
 - Escalabilidad:
-   - El escalado horizontal entre pods permite administrar grandes volúmenes de ingesta
-   - La infraestructura nativa de la nube se adapta dinámicamente a las demandas de carga de trabajo
+  - El escalado horizontal entre pods permite administrar grandes volúmenes de ingesta
+  - La infraestructura nativa de la nube se adapta dinámicamente a las demandas de carga de trabajo
 - Fiabilidad y disponibilidad:
-   - El procesamiento distribuido elimina el único punto de error
-   - La base de datos alojada en AWS garantiza una alta disponibilidad y tolerancia a fallos
+  - El procesamiento distribuido elimina el único punto de error
+  - La base de datos alojada en AWS garantiza una alta disponibilidad y tolerancia a fallos
 - Aumento de la eficiencia:
-   - Reducción de la sobrecarga de E/S debido a la eliminación de la inversión del mapa principal
-   - Mejor utilización de los recursos en los nodos de computación
+  - Reducción de la sobrecarga de E/S debido a la eliminación de la inversión del mapa principal
+  - Mejor utilización de los recursos en los nodos de computación
 - Integridad de los datos:
-   - La asignación de ID sincronizada mantiene la coherencia en todos los sistemas distribuidos
-   - Mantiene la solidez y permite la concurrencia
+  - La asignación de ID sincronizada mantiene la coherencia en todos los sistemas distribuidos
+  - Mantiene la solidez y permite la concurrencia
 
 ## Configurar base de datos
 

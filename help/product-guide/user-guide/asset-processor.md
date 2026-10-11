@@ -5,24 +5,33 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-TQID: https://experienceleague.adobe.com/gAPjyNNTtHv3StIe0O-Fs8Wx0NhXjkML-TEkAPLosIE
+TQID: 'https://experienceleague.adobe.com/gAPjyNNTtHv3StIe0O-Fs8Wx0NhXjkML-TEkAPLosIE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: '677'
 ht-degree: 0%
-
 ---
-
 # Procesar recursos
 
 En flujos de trabajo con gran cantidad de datos, como la publicación, la administración eficiente de recursos es crucial para mantener el rendimiento y la fiabilidad. El flujo de trabajo de procesamiento de recursos está diseñado para administrar los recursos específicos del usuario que requieren operaciones de datos intensivas. Aborda principalmente dos casos: cuando el procesamiento inicial falla debido a errores o cuando los archivos permanecen sin procesar porque no se inició ningún déclencheur de procesamiento de recursos. Al habilitar el procesamiento específico en el nivel de carpeta, los usuarios pueden aislar y procesar solo los recursos necesarios, lo que evita la sobrecarga de cálculos innecesarios. Este enfoque selectivo mejora significativamente el rendimiento, reduciendo el tiempo necesario para operaciones críticas como la publicación y la generación de informes. En general, contribuye a una mayor eficiencia y velocidad en la gestión de tareas de datos complejas.
@@ -74,7 +83,7 @@ Siga los pasos mencionados a continuación para procesar los recursos:
    1. **Seleccionar carpetas y archivos**: Desplácese y elija una o varias carpetas y archivos para procesar.
    1. **Seleccionar carpetas para omitir**: opcionalmente, seleccione subcarpetas dentro de la carpeta principal elegida para excluirlas del procesamiento.
    1. **Tipo de recurso**: en el menú desplegable, seleccione el tipo de recurso específico que desea procesar (por ejemplo, Tema DITA, Mapa DITA, Markdown, HTML/CSS, DITAVAL u otros archivos). Solo se procesa el tipo de recurso seleccionado de las carpetas especificadas anteriormente.
-Ejemplo: al seleccionar un tema DITA, sólo se procesan temas DITA dentro de la carpeta seleccionada, lo que permite el filtrado con objetivo.
+      Ejemplo: al seleccionar un tema DITA, sólo se procesan temas DITA dentro de la carpeta seleccionada, lo que permite el filtrado con objetivo.
    1. **Creado después de/Creado antes de**: aplique filtros de fecha para procesar los recursos creados dentro del intervalo de tiempo especificado.
 
    >[!NOTE]

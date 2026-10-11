@@ -1,13 +1,19 @@
 ---
 title: Notas de la versión de Adobe Experience Manager Guides 4.0.x
 description: Obtenga información sobre las correcciones de errores, las nuevas funciones y las mejoras de las versiones 4.0, 4.0.1, 4.0.2 y 4.0.3 de Adobe Experience Manager Guides.
-source-git-commit: dc078c23c02c813fe39ca563e615dc3238c40253
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 5%
-
 ---
-
 
 # Notas de versión | Adobe Experience Manager Guides 4.0.x
 
@@ -209,10 +215,10 @@ Se han introducido muchas mejoras y nuevas funciones en el editor web:
 
 - Se ha cambiado el marco principal de la IU basada en Coral a la IU basada en espectro. Esto proporciona una interfaz de usuario muy estandarizada e intuitiva.
 - La nueva función Propiedades del archivo se ha introducido en el panel derecho. Puede comprobar las propiedades de un documento activo. La información se clasifica en dos secciones:
-   - *General*: contiene los detalles generales del archivo, como nombre de archivo, UUID, etiquetas de metadatos, idioma, fecha de creación, estado de desprotección y estado del documento.
-   - *Referencia*: contiene referencias entrantes y salientes.
+  - *General*: contiene los detalles generales del archivo, como nombre de archivo, UUID, etiquetas de metadatos, idioma, fecha de creación, estado de desprotección y estado del documento.
+  - *Referencia*: contiene referencias entrantes y salientes.
 
-     ![Panel de propiedades de archivo](assets/file-properties.avif)
+    ![Panel de propiedades de archivo](assets/file-properties.avif)
 
 - También se ha agregado compatibilidad con el esquema de temas en el Editor web. Ahora puede crear y utilizar el esquema de asunto mediante el panel Esquema del asunto. Con la adición del esquema de asunto, ahora puede utilizar sus propios metadatos y taxonomía corporativos.
 

@@ -4,13 +4,28 @@ description: Obtenga información sobre cómo configurar un Git en Experience Ma
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: b73e904c7e0a6f398e471be6fc874de30742e519
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
-
 ---
-
 # Crear y configurar el conector Git desde la interfaz de usuario de
 
 >[!NOTE]
@@ -42,17 +57,17 @@ Utilice la herramienta Fuentes de datos de Experience Manager Guides para crear 
    >* Pase el ratón sobre <img src="./assets/info-details.svg" alt= "icono de información" width="25"> cerca del campo para ver más detalles al respecto.
    >* Los campos con * son obligatorios. Por ejemplo, puede introducir los siguientes detalles para el conector Git.
 
-   &#x200B;- **Nombre**: escriba el nombre del origen de datos.
-   &#x200B;- **Ruta de acceso raíz de AEM de destino**: escriba la ruta de acceso en el repositorio de AEM donde se debe almacenar el contenido importado de Git.
-   &#x200B;- **Filtro de tipo de archivo (inclusión)**: especifique los tipos de archivo que se incluirán durante la importación.
-   &#x200B;- **Ruta de acceso excluida (regex)**: especifique los patrones de ruta que se excluirán de la importación.
-   &#x200B;- **Tipo de autenticación**: seleccione el tipo de autenticación en la lista desplegable. Actualmente, **token de acceso personal (PAT)** es el único método de autenticación compatible. Introduzca la RUTA durante la configuración del conector para autenticar y acceder al repositorio Git.
+   - **Nombre**: escriba el nombre del origen de datos.
+   - **Ruta de acceso raíz de AEM de destino**: escriba la ruta de acceso en el repositorio de AEM donde se debe almacenar el contenido importado de Git.
+   - **Filtro de tipo de archivo (inclusión)**: especifique los tipos de archivo que se incluirán durante la importación.
+   - **Ruta de acceso excluida (regex)**: especifique los patrones de ruta que se excluirán de la importación.
+   - **Tipo de autenticación**: seleccione el tipo de autenticación en la lista desplegable. Actualmente, **token de acceso personal (PAT)** es el único método de autenticación compatible. Introduzca la RUTA durante la configuración del conector para autenticar y acceder al repositorio Git.
 
      Aprenda a [generar un token de acceso personal de GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic).
 
      Al seleccionar ámbitos durante la generación de rutas en GitHub, asegúrese de habilitar los siguientes ámbitos:
-     &#x200B;- **repositorio**: seleccione la casilla de verificación de nivel superior. Todos los subámbitos se seleccionan automáticamente, lo que concede acceso al contenido del repositorio, el estado de confirmación y las implementaciones.
-     &#x200B;- **admin:org**: Seleccione solo **leer:org**. Esto es necesario para resolver la organización y la pertenencia al equipo.
+     - **repositorio**: seleccione la casilla de verificación de nivel superior. Todos los subámbitos se seleccionan automáticamente, lo que concede acceso al contenido del repositorio, el estado de confirmación y las implementaciones.
+     - **admin:org**: Seleccione solo **leer:org**. Esto es necesario para resolver la organización y la pertenencia al equipo.
    * **URL del repositorio**: introduzca la URL del repositorio Git desde la que se debe importar el contenido.
    * **Rama**: escriba la rama que se usará para importar contenido.
 

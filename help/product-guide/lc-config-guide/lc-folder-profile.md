@@ -5,33 +5,48 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-TQID: https://experienceleague.adobe.com/jp7oUSIZlnTfGnx58E9rPn6Tk4zE2lp-oZSTdjblbZ0
+TQID: 'https://experienceleague.adobe.com/jp7oUSIZlnTfGnx58E9rPn6Tk4zE2lp-oZSTdjblbZ0'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: b89a36a9-95de-429b-adde-f901256d8f24
+    internal-label: Variables
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9132140a0305eb0507598a7caf5f704861879a93
+    internal-label: Administration
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1960
+source-wordcount: '1990'
 ht-degree: 0%
-
 ---
-
 # Configuración de perfiles de carpeta
 
 Se requiere un perfil de carpeta para separar las configuraciones de diferentes departamentos o productos en la empresa. Para el contenido de aprendizaje y formación, puede crear y configurar un perfil de nivel de carpeta para administrar la creación de plantillas, plantillas de salida, ajustes preestablecidos de salida y otras configuraciones de nivel de carpeta.
@@ -76,8 +91,8 @@ En la pestaña General, puede configurar las siguientes opciones específicas de
 - **Contenido de aprendizaje**: use la opción **Habilitar contenido de aprendizaje** para habilitar o deshabilitar la característica en el nivel de perfil de carpeta.
 - **Editor de HTML**: esta opción le permite configurar el Editor para la creación basada en HTML. Las opciones de configuración clave presentes en esta configuración son las siguientes:
 
-   - **Ocultar estilo en línea**: habilite esta opción para evitar que los autores apliquen formato en línea al contenido del curso. Cuando se habilita, todas las opciones de estilo en línea como Fuentes, Borde, Diseño, Fondo y Columnas presentes en el panel derecho del Editor permanecen ocultas para los autores. Sin embargo, los autores aún pueden usar las opciones de estilo globales basadas en clases disponibles en el panel **Estilos**. Esto ayuda a mantener la coherencia con las directrices de estilo de su organización.
-   - **Ocultar la vista de Source para autores**: habilite esta opción para restringir el acceso al código fuente de HTML. Esto resulta útil cuando desea simplificar la edición o evitar cambios accidentales en el código subyacente.
+  - **Ocultar estilo en línea**: habilite esta opción para evitar que los autores apliquen formato en línea al contenido del curso. Cuando se habilita, todas las opciones de estilo en línea como Fuentes, Borde, Diseño, Fondo y Columnas presentes en el panel derecho del Editor permanecen ocultas para los autores. Sin embargo, los autores aún pueden usar las opciones de estilo globales basadas en clases disponibles en el panel **Estilos**. Esto ayuda a mantener la coherencia con las directrices de estilo de su organización.
+  - **Ocultar la vista de Source para autores**: habilite esta opción para restringir el acceso al código fuente de HTML. Esto resulta útil cuando desea simplificar la edición o evitar cambios accidentales en el código subyacente.
 
 ## Configuración de paneles
 

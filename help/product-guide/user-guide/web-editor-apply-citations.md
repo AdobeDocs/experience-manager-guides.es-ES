@@ -4,24 +4,30 @@ description: Añada y administre citas en AEM Guides. Aprenda a aplicar, importa
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-TQID: https://experienceleague.adobe.com/FHH8Sah-KUCBl7R3XRrKXgW3aNcaeTkzJnDqRBg6OWU
+TQID: 'https://experienceleague.adobe.com/FHH8Sah-KUCBl7R3XRrKXgW3aNcaeTkzJnDqRBg6OWU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4eddfbe75d7dba679c1a414369394827162706f9
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1890
-ht-degree: 0%
-
+source-wordcount: '1968'
+ht-degree: 1%
 ---
-
 # Añadir y administrar citas en el contenido
 
 Las citas son referencias a la fuente de información agregada al contenido. Mediante citas, puede dar crédito a los autores de la información de origen y ayudar a los lectores a realizar un seguimiento de la información de origen. Añadir citas hace que su contenido sea más confiable y evita el plagio. También le permiten mostrar contenido bien investigado.
@@ -156,7 +162,7 @@ Para editar la cita, siga estos pasos:
 
 Se abre el cuadro de diálogo **Editar cita**.
 
-1. Realice los cambios necesarios. Seleccione **Listo**.
+1. Efectúe las modificaciones necesarias. Seleccione **Listo**.
 La cita seleccionada se edita.
 
 >[!NOTE]
@@ -169,7 +175,7 @@ Para obtener una vista previa de una cita, siga estos pasos:
 
 Pase el ratón sobre el nombre de la cita de la lista. Seleccione el icono ![](images/options.svg) **Opciones**.
 
-1. Seleccionar **vista previa**.
+1. Seleccione **Vista previa**.
 Puede obtener una vista previa del contenido y el formato de la cita en el panel de vista previa.
 
    >[!NOTE]
@@ -201,7 +207,7 @@ Puede insertar citas al tema desde la barra de herramientas principal o el panel
    ![cuadro de diálogo de cita](images/citation-dialog-main-toolbar.png){width="300"}
 1. Puede filtrar las citas escribiendo los primeros alfabetos en el panel de búsqueda del cuadro de diálogo **Cita**.
 
-1. Seleccione **Listo**.
+1. Seleccione **Listo**.
 La cita seleccionada se agrega en la ubicación del cursor en el tema.
 
 

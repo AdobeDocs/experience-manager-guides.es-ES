@@ -5,13 +5,32 @@ feature: InDesign File Conversion, Troubleshooting
 role: Admin
 level: Experienced
 exl-id: 6e757850-c563-42c5-aeac-b23c3f2ce679
-source-git-commit: 35fdbf480b4b70b70193772d0eae3a3cedec0077
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: f118db50-bb08-4bfa-a602-3b196f1f8882
+    internal-label: InDesign file conversion
+  - id: e13e7f13-0f4c-43f9-b0a7-1f33bd47e105
+    internal-label: Troubleshooting
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2866'
 ht-degree: 0%
-
 ---
-
 # Apéndice {#id195AD0L60Y4}
 
 ## Solución de problemas de AEM Guides
@@ -359,8 +378,8 @@ Los atributos utilizados en `paraRule` se explican a continuación:
 - `@mapTo`: nombre de un elemento de destino DITA.
 
 - `@context`: este atributo se usa para vincularse a una regla **wrap** específica cuando hay más de una opción de envoltorio disponible. Ejemplo: el elemento `li` puede estar envuelto en un elemento `ol` o `ul`. Para identificar los diferentes tipos de lista, puede utilizar un nombre de estilo específico o el atributo `@local` que puede mostrar lo siguiente:
-   - `local="p[-|-|-|-|-|b|-|-]"` Donde el &#39;`b`&#39; del campo 6 indica un elemento de lista con viñetas. En este caso, establezca `@context` en &#39;`bullet`&#39;.
-   - `local="p[-|-|-|-|-|n|-|-]"` Donde el &#39;`n`&#39; del campo 6 indica un elemento de lista numerado. En este caso, establezca `@context` en &#39;`number`&#39;.
+  - `local="p[-|-|-|-|-|b|-|-]"` Donde el &#39;`b`&#39; del campo 6 indica un elemento de lista con viñetas. En este caso, establezca `@context` en &#39;`bullet`&#39;.
+  - `local="p[-|-|-|-|-|n|-|-]"` Donde el &#39;`n`&#39; del campo 6 indica un elemento de lista numerado. En este caso, establezca `@context` en &#39;`number`&#39;.
 
 - `@commentOut`: este atributo habilita el ajuste del elemento de destino en los comentarios XML para que la información no se pierda, pero el usuario la pueda administrar manualmente. Esto resulta útil si no se puede forzar que el contenido de origen se ajuste a las reglas de estructura DITA.
 
@@ -391,9 +410,9 @@ Los atributos utilizados en `charRule` se explican a continuación:
 - `@local`: vea [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapTo`: nombre de un elemento de destino DITA.
 - `@refactor`: este atributo opcional tiene una opción de dos valores:
-   - `unwrap`: el elemento coincidente se quita al conservar su contenido.
+  - `unwrap`: el elemento coincidente se quita al conservar su contenido.
 
-   - `drop`: se quitan el elemento coincidente y todo su contenido.
+  - `drop`: se quitan el elemento coincidente y todo su contenido.
 
 
 **Reglas de atributo**
@@ -423,11 +442,11 @@ Los atributos utilizados en `attributeRules` se explican a continuación:
 > Este elemento puede contener varios elementos secundarios.
 
 - `addNew`: agrega un nuevo atributo al elemento coincidente. Disponible para todos los contextos. Tiene dos atributos:
-   - `@name`: debe ser un nombre XML válido, preferiblemente válido para el contexto DITA.
-   - `@value`: puede ser texto literal o una expresión XPath simple.
+  - `@name`: debe ser un nombre XML válido, preferiblemente válido para el contexto DITA.
+  - `@value`: puede ser texto literal o una expresión XPath simple.
 - `copyAtt`: copia un solo atributo en el destino mientras lo cambia de nombre de manera opcional en el proceso. El valor no cambia. Disponible para los contextos `mapDoctypeParaRule`, `mapDoctypeElemRule`, `doctypeElemRule` y `elementRule`. Cuando este elemento está presente, se supone que el valor `@copyAllAtts` es `false`. Tiene dos atributos:
-   - `@name`: debe ser el nombre de un atributo presente en el elemento XML de origen.
-   - `@mapTo`: debe ser un nombre XML válido, preferiblemente válido para el contexto DITA.
+  - `@name`: debe ser el nombre de un atributo presente en el elemento XML de origen.
+  - `@mapTo`: debe ser un nombre XML válido, preferiblemente válido para el contexto DITA.
 
 **Códigos de formato locales**
 
@@ -481,9 +500,9 @@ Los atributos utilizados en `elementRule` se explican a continuación:
 
 - `@refactor`: este atributo opcional tiene una opción de dos valores:
 
-   - `unwrap`: el elemento coincidente se quita al conservar su contenido.
+  - `unwrap`: el elemento coincidente se quita al conservar su contenido.
 
-   - `drop`: se quitan el elemento coincidente y todo su contenido.
+  - `drop`: se quitan el elemento coincidente y todo su contenido.
 
 - `@context`: este atributo se usa para vincular a una regla de ajuste específica cuando hay más de una opción de contenedor disponible. Ejemplo: el elemento `li` puede estar envuelto en un elemento `ol` o `ul`.
 

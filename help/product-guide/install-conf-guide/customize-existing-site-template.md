@@ -5,13 +5,28 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: eabaec57-e717-45a9-8321-4057b993d7fb
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 2%
-
 ---
-
 # Personalizar nuevas plantillas de sitio de AEM
 
 Esta guía proporciona instrucciones paso a paso para personalizar las plantillas de sitio de AEM existentes y utilizarlas con AEM Guides para generar AEM Sites a partir de temas y mapas DITA.
@@ -26,8 +41,8 @@ Si está utilizando la plantilla predeterminada AEM Guides (AEMG Docs), las conf
 - Tiene una jerarquía de sitio existente creada con plantillas editables.
 - Tiene al menos dos plantillas del proyecto existente:
 
-   - **Plantilla de página de contenedor de documentación** utilizada para procesar el mapa DITA como raíz de documentación.
-   - **Plantilla de página de tema** utilizada para procesar páginas de tema DITA individuales.
+  - **Plantilla de página de contenedor de documentación** utilizada para procesar el mapa DITA como raíz de documentación.
+  - **Plantilla de página de tema** utilizada para procesar páginas de tema DITA individuales.
 
 ## Consideraciones de nomenclatura de plantillas
 
@@ -74,8 +89,8 @@ Si dispone de un mapa DITA para un manual de producto, la plantilla de página c
   ![Agregando componente de texto con propiedad obligatoria](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650"}
 
 - Este marcador de posición se sustituye por el contenido real del tema DITA durante la generación del sitio.
-   - El componente de texto se suele colocar dentro de un **componente Container** para garantizar un diseño y un estilo adecuados.
-   - Se puede personalizar para incluir encabezados, pies de página y elementos de navegación coherentes en todas las páginas de temas.
+  - El componente de texto se suele colocar dentro de un **componente Container** para garantizar un diseño y un estilo adecuados.
+  - Se puede personalizar para incluir encabezados, pies de página y elementos de navegación coherentes en todas las páginas de temas.
 
 **Ejemplo de caso de uso:**
 Si tiene un tema DITA sobre &quot;Instrucciones de instalación&quot;, la plantilla de página del tema generará una página que mostrará el contenido de ese tema.

@@ -5,26 +5,36 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: da3a6f83-b21a-4b19-8b54-ee96f11e7c09
-TQID: https://experienceleague.adobe.com/lvzQA2ECfl6LYSVAbFmg12oFkKCiUjZgv4X3K1TCwkM
+TQID: 'https://experienceleague.adobe.com/lvzQA2ECfl6LYSVAbFmg12oFkKCiUjZgv4X3K1TCwkM'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
 subfeature_v2:
   - id: ed9d83c9-e55d-4a67-9667-8e31871715a7
+    internal-label: Content migration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Security
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 844
-ht-degree: 0%
-
+source-wordcount: '1034'
+ht-degree: 2%
 ---
-
 # Migración de contenido de On-Premise a Cloud Service
 
 Experience Manager as a Cloud Service proporciona una base tecnológica escalable, segura y ágil para Experience Manager Guides, Assets, Forms y Screens. Esto permite a los especialistas en marketing y a los profesionales de TI centrarse en ofrecer experiencias impactantes a escala.
@@ -45,7 +55,7 @@ Este artículo proporciona un proceso detallado paso a paso para migrar el conte
 ## Proceso de migración
 
 **Content Transfer Tool** es una herramienta desarrollada por Adobe que puede usar para iniciar la migración del contenido existente de una instancia On-Premise de Adobe Experience Manager de origen o de Managed Services a la instancia de Experience Manager Cloud Service de destino.
-Esta herramienta también transfiere entidades principales (usuarios o grupos) automáticamente.
+Esta herramienta también transfiere las entidades principales (usuarios o grupos) automáticamente.
 
 Puede descargar la **herramienta de transferencia de contenido** como archivo ZIP desde el portal de **distribución de software**:
 
@@ -54,7 +64,7 @@ Puede descargar la **herramienta de transferencia de contenido** como archivo ZI
 1. Seleccione **Herramienta de transferencia de contenido** de la lista y descárguela.
 
 ![descargar herramienta de transferencia de contenido](./assets/content-transfer-tool-software-portal.png)
-A continuación, instale el paquete a través de **Administrador de paquetes** en la instancia de Adobe Experience Manager de origen. Asegúrese de descargar la versión más reciente.
+A continuación, instale el paquete a través de **Administrador de paquetes** en la instancia de Adobe Experience Manager de origen. Asegúrese de descargar la última versión.
 Para obtener más información sobre la versión más reciente, vea [Notas de la versión](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=es).
 
 >[!NOTE]
@@ -121,7 +131,7 @@ Siga estos pasos para migrar el contenido de Experience Manager Guides a Experie
    ![](./assets/migration-create-migration-set.png)
 
 1. Proporcione la ruta que desee migrar y haga clic en **Guardar**.
-Por ejemplo, `/content/sites`
+Por ejemplo,  `/content/sites`
 o
    `/content/dam/tech-docs`
    ![rutas incluidas](./assets/migration-included-paths.png)
@@ -149,7 +159,7 @@ o
    ![extracción del conjunto de migración](./assets/migration-set-extraction.png)
 
 1. Una vez completada la extracción y indicada por el estado `finished`, vaya a Cloud Acceleration Manager y seleccione el proyecto que creó en el paso 18.
-Para obtener más información, selecciona los tres puntos y luego **Ver detalles**.
+Para obtener más información, seleccione los tres puntos y, a continuación, seleccione **Ver detalles**.
 
 
 1. En la ventana emergente de detalles del conjunto de migración, compruebe la configuración del conjunto de migración y cierre la ventana emergente. Puede ver las rutas y otras configuraciones como se muestra en la siguiente captura de pantalla:

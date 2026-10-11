@@ -2,13 +2,19 @@
 title: Notas de versión | Novedades de la versión 2026.06.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las funciones nuevas y mejoradas de la versión 2026.06.0 de Adobe Experience Manager Guides
 role: Leader
-source-git-commit: f3f30400f776f746427e257e2c937ff3413aa9ac
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
-
 ---
-
 # Novedades de la versión 2026.06.0 (junio de 2026)
 
 Este artículo cubre las funciones nuevas y mejoradas introducidas con la versión 2026.06.0 de Adobe Experience Manager Guides as a Cloud Service.

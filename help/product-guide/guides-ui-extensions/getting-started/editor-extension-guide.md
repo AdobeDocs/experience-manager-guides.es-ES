@@ -4,13 +4,28 @@ description: Obtenga información acerca de los cambios en el marco de trabajo d
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 2ba8eadcb30faca01170cb13ae2da6fdf7da19c8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2006'
 ht-degree: 4%
-
 ---
-
 # Cambios en la estructura de la extensión de Editor 2.0 (nuevo editor)
 
 Este documento cubre todas las API agregadas a `guides.editor` (y a `guides`) como parte del marco de trabajo de extensión para el nuevo editor (editor basado en ProseMirror). Estas API permiten que las extensiones externas interactúen con el editor sin manipulación DOM directa ni conocimientos de implementación interna.
@@ -240,63 +255,63 @@ guides.ready(() => {
   | Buscar y reemplazar | `findNext` | _(ninguno)_ | Se desplaza a la siguiente coincidencia de búsqueda |
   | Buscar y reemplazar | `replaceAll` | `replacement?: string` | Reemplaza cada coincidencia de la consulta de búsqueda actual por `replacement` |
 
-   - **Ejemplo: establecer varios atributos en un nodo**
+  - **Ejemplo: establecer varios atributos en un nodo**
 
-     ```js
-     guides.editor.runCommand(
-       "setNodeXmlAttributes",
-       rootRange.from,
-       { createdDate: "2024-01-01", author: "Jane Doe" }
-     );
-     ```
+    ```js
+    guides.editor.runCommand(
+      "setNodeXmlAttributes",
+      rootRange.from,
+      { createdDate: "2024-01-01", author: "Jane Doe" }
+    );
+    ```
 
-   - **Ejemplo: establecer un solo atributo en un nodo**
+  - **Ejemplo: establecer un solo atributo en un nodo**
 
-     ```js
-     guides.editor.runCommand(
-       "setNodeXmlAttribute",
-       range.from,
-       "placeholdertext",
-       "Chapter 3 — Safety Requirements"
-     );
-     ```
+    ```js
+    guides.editor.runCommand(
+      "setNodeXmlAttribute",
+      range.from,
+      "placeholdertext",
+      "Chapter 3 — Safety Requirements"
+    );
+    ```
 
-   - **Ejemplo: ajuste la selección con un elemento y establezca los atributos**
+  - **Ejemplo: ajuste la selección con un elemento y establezca los atributos**
 
-     ```js
-     const didWrap = guides.editor.runCommand(
-       "surroundWithElement",
-       "ph",
-       { outputclass: "highlight" },
-       true   // replace text content with empty node
-     );
-     ```
+    ```js
+    const didWrap = guides.editor.runCommand(
+      "surroundWithElement",
+      "ph",
+      { outputclass: "highlight" },
+      true   // replace text content with empty node
+    );
+    ```
 
-   - **Ejemplo: ajuste de selección en `<sup>` (alternar superíndice activado)**
+  - **Ejemplo: ajuste de selección en `<sup>` (alternar superíndice activado)**
 
-     ```js
-     const didWrap = guides.editor.runCommand('surroundWithElement', 'sup');
-     if (!didWrap) {
-       tcx.util.showAlert("warning", "superscript is not allowed here");
-     }
-     ```
+    ```js
+    const didWrap = guides.editor.runCommand('surroundWithElement', 'sup');
+    if (!didWrap) {
+      tcx.util.showAlert("warning", "superscript is not allowed here");
+    }
+    ```
 
-   - **Ejemplo: Desenvolver nodo actual (desactivar superíndice)**
+  - **Ejemplo: Desenvolver nodo actual (desactivar superíndice)**
 
-     ```js
-     const didUnwrap = guides.editor.runCommand('unwrapNode');
-     ```
+    ```js
+    const didUnwrap = guides.editor.runCommand('unwrapNode');
+    ```
 
-   - **Ejemplo: Insertar XML en el cursor con el símbolo de intercalación dentro**
+  - **Ejemplo: Insertar XML en el cursor con el símbolo de intercalación dentro**
 
-     ```js
-     guides.editor.runCommand(
-       'insertXml',
-       '<sup></sup>',
-       undefined,
-       { setCursorInContent: true, focusEditor: true, selectInsertedXml: false }
-     );
-     ```
+    ```js
+    guides.editor.runCommand(
+      'insertXml',
+      '<sup></sup>',
+      undefined,
+      { setCursorInContent: true, focusEditor: true, selectInsertedXml: false }
+    );
+    ```
 
 - `guides.editor.canRunCommand(commandName, ...args)`: comprueba si un comando con nombre se puede ejecutar actualmente sin ejecutarlo realmente.
 
@@ -461,7 +476,7 @@ Las decoraciones se identifican mediante una cadena `id` para que se puedan actu
   | `filter` | `(node) => boolean` | Predicado opcional: sólo se muestran los nodos donde devuelve `true` |
 
   El objeto `context` pasado a `computeAttributes` incluye:
-   - `index` — posición basada en 0 del nodo entre hermanos que coinciden con el selector
+  - `index` — posición basada en 0 del nodo entre hermanos que coinciden con el selector
 
   **Ejemplo: agregar una clase CSS a todos los elementos `<section>`**
 

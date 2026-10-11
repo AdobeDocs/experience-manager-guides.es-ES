@@ -5,13 +5,28 @@ feature: Profiles
 role: Admin
 level: Experienced
 exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '6082'
 ht-degree: 0%
-
 ---
-
 # Configuración de perfiles globales o de nivel de carpeta {#id181AH2003PF}
 
 En una empresa, diferentes grupos o productos pueden utilizar diferentes plantillas de creación, plantillas de salida, perfiles de atributos condicionales \(o esquemas de asunto\) y configuraciones del Editor. La configuración de estos solo a nivel empresarial \(o global\) puede dificultar la experiencia de los autores, ya que verán plantillas o perfiles que no son relevantes para ellos.
@@ -30,21 +45,21 @@ Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede est
 
 - **Plantillas**: utilice esta ficha para configurar las plantillas que los autores utilizarán para crear o publicar contenido DITA. Las siguientes plantillas de temas están disponibles de forma predeterminada:
 
-   - Glosario
+  - Glosario
 
-   - Referencia
+  - Referencia
 
-   - Tema
+  - Tema
 
-   - Concepto
+  - Concepto
 
-   - Tarea
+  - Tarea
 
-   - Resolución de problemas
+  - Resolución de problemas
 
-   - En blanco
+  - En blanco
 
-   - DITAVAL
+  - DITAVAL
 
   >[!NOTE]
   >
@@ -52,33 +67,33 @@ Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede est
 
   Junto con las plantillas de temas, también puede definir las plantillas de mapas que estarán disponibles para los autores. Las siguientes plantillas de mapas están disponibles de forma predeterminada:
 
-   - Mapa
+  - Mapa
 
-   - Bookmap
+  - Bookmap
 
 - **Ajuste preestablecido de salida**: de forma similar a las plantillas, hay cinco ajustes preconfigurados de salida:
 
-   - Sitio de AEM
+  - Sitio de AEM
 
-   - PDF
+  - PDF
 
-   - HTML5
+  - HTML5
 
-   - EPUB
+  - EPUB
 
-   - Personalizado
+  - Personalizado
 
   Los editores pueden utilizar estos ajustes preestablecidos de salida predeterminados para publicar contenido. Un administrador del perfil global o de nivel de carpeta puede configurar estos ajustes preestablecidos. Una vez configurados, los editores pueden acceder a los ajustes preestablecidos de publicación para las asignaciones DITA recién creadas. También puede aplicar ajustes preestablecidos de publicación a mapas DITA existentes. Consulte [Aplicar cambios de ajustes preestablecidos](#id18AGD0K0OHS) para obtener más información.
 
 - **Configuraciones del editor XML**: utilice esta ficha para personalizar el aspecto y las diversas características del editor. Las siguientes opciones configurables están disponibles para el editor:
 
-   - Configuración de IU del Editor XML
-   - Diseño de página del editor XML solo para Cloud Service
-   - Configuración del editor XML solo para Cloud Service
-   - Diseño de plantilla CSS
-   - Fragmentos del editor XML
-   - Etiquetas de versión de contenido XML
-   - Rootmap \(solo en el nivel de carpeta\)
+  - Configuración de IU del Editor XML
+  - Diseño de página del editor XML solo para Cloud Service
+  - Configuración del editor XML solo para Cloud Service
+  - Diseño de plantilla CSS
+  - Fragmentos del editor XML
+  - Etiquetas de versión de contenido XML
+  - Rootmap \(solo en el nivel de carpeta\)
 
 Puede configurar ambos: perfil global y perfil de nivel de carpeta. En un perfil de nivel de carpeta, puede definir las carpetas en las que se aplicará la configuración. Esta configuración incluye atributos condicionales, plantillas, ajustes preestablecidos de salida y configuración del Editor XML. A continuación, los ajustes preestablecidos condicionales, las plantillas y las configuraciones del Editor XML se ponen a disposición de los autores que trabajan en las carpetas configuradas. Del mismo modo, los editores tendrán acceso a los ajustes preestablecidos de salida configurados definidos dentro de las carpetas configuradas.
 

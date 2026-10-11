@@ -4,23 +4,32 @@ description: Publicar un tema o los elementos dentro de un tema en un fragmento 
 exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/VcZKWpffZfB7KtquXVtIFWESim8paNCYmqGqboC1Kic
+TQID: 'https://experienceleague.adobe.com/VcZKWpffZfB7KtquXVtIFWESim8paNCYmqGqboC1Kic'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 955
+source-wordcount: '962'
 ht-degree: 1%
-
 ---
-
 # Publicar fragmentos de contenido
 
 Los fragmentos de contenido son fragmentos de contenido discretos en Adobe Experience Manager. Son contenidos estructurados basados en un modelo de contenido. Los fragmentos de contenido son contenido puro sin información de diseño. Se pueden crear y administrar de forma independiente de los canales compatibles con Adobe Experience Manager. Los fragmentos de contenido son modulares, donde el contenido se desglosa en componentes más pequeños.
@@ -63,9 +72,9 @@ Por ejemplo, agregue `/conf/we-retail` en la configuración de nube. Esta config
      > 
      > Las condiciones solo se activan si los atributos de condición se definen en el tema.
 
-      * **Ninguno**: seleccione esta opción si no desea aplicar ninguna condición en la salida publicada.
-      * **Usando DITAVAL**: seleccione el archivo DITAVAL para incluir o excluir contenido específico en la salida generada. Puede seleccionar el fichero DITAVAL mediante el cuadro de diálogo de exploración o escribiendo la ruta del fichero.
-      * **Utilizar atributos**: puede definir atributos de condición en los temas DITA. A continuación, seleccione el atributo de condición para publicar el contenido relevante.
+     * **Ninguno**: seleccione esta opción si no desea aplicar ninguna condición en la salida publicada.
+     * **Usando DITAVAL**: seleccione el archivo DITAVAL para incluir o excluir contenido específico en la salida generada. Puede seleccionar el fichero DITAVAL mediante el cuadro de diálogo de exploración o escribiendo la ruta del fichero.
+     * **Utilizar atributos**: puede definir atributos de condición en los temas DITA. A continuación, seleccione el atributo de condición para publicar el contenido relevante.
 
 
 
@@ -80,7 +89,7 @@ Por ejemplo, agregue `/conf/we-retail` en la configuración de nube. Esta config
 
    * **Modelo**: Seleccione el modelo de fragmento de contenido que desee usar para crear el fragmento de contenido. Los modelos se seleccionan de la carpeta que ha configurado en el servidor de Experience Manager Guides.
    * **Asignación**: puede ver los elementos de tema a los que se les ha aplicado un atributo id. Arrastre los elementos del tema a los campos presentes en el modelo de fragmento de contenido.
-El lado derecho se rellena con el contenido publicado del fragmento de contenido en caso de que exista uno. Si es necesario, se pueden sobrescribir con el contenido del tema. También puede seleccionar **Deshacer** para revertir los cambios de asignación.
+     El lado derecho se rellena con el contenido publicado del fragmento de contenido en caso de que exista uno. Si es necesario, se pueden sobrescribir con el contenido del tema. También puede seleccionar **Deshacer** para revertir los cambios de asignación.
 
 
      >[!NOTE]

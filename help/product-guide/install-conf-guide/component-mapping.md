@@ -5,13 +5,28 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 9243592c-1a3c-4218-8674-19305dd6f17a
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1053'
 ht-degree: 0%
-
 ---
-
 # Asignación de componentes para AEM Sites
 
 El artículo habla sobre los distintos aspectos de la asignación de componentes para sitios de AEM (mediante la asignación de componentes compuestos).
@@ -23,7 +38,8 @@ Utilice una matriz de reglas JSON (su `componentmapping.json`) para convertir HT
 ### Oriente el elemento HTML y su clase
 
 - Escriba el nombre de la etiqueta HTML en `name`.
-- Incluya la clase CSS aplicada a ese elemento en `class`, si la clase existe.Ejemplo:
+- Incluya la clase CSS aplicada a ese elemento en `class`, si la clase existe.
+Ejemplo:
 
   ```html
   <div class ="sample-class">
@@ -48,7 +64,8 @@ Al definir los elementos anteriores, asegúrese de lo siguiente:
 
 ### Utilice attributeMap para guardar las propiedades en el nodo JCR
 
-Agregue entradas a `attributeMap` para establecer propiedades en el nodo de salida. Cada entrada genera `attrs[to] = value`.Patrones comunes:
+Agregue entradas a `attributeMap` para establecer propiedades en el nodo de salida. Cada entrada genera `attrs[to] = value`.
+Patrones comunes:
 
 ```json
 // copy an attribute
@@ -164,7 +181,8 @@ Aprenda a crear un componente de tabla personalizado que muestre imágenes dentr
 
 ### Lo que va a generar
 
-Componente de tabla personalizado que acepta contenido de tabla de HTML y reemplaza cada `<img>` dentro de él con la salida del componente de imagen principal de AEM. Esto le permite reutilizar las funciones de la imagen principal (imágenes adaptables, control alternativo, accesibilidad) mientras mantiene un control total sobre el marcado de la tabla.Con este método, puede crear otros componentes personalizados para su sitio web de AEM (mediante la asignación de componentes compuestos).
+Componente de tabla personalizado que acepta contenido de tabla de HTML y reemplaza cada `<img>` dentro de él con la salida del componente de imagen principal de AEM. Esto le permite reutilizar las funciones de la imagen principal (imágenes adaptables, control alternativo, accesibilidad) mientras mantiene un control total sobre el marcado de la tabla.
+Con este método, puede crear otros componentes personalizados para su sitio web de AEM (mediante la asignación de componentes compuestos).
 
 ### Por qué este enfoque
 
@@ -189,9 +207,9 @@ La tabla se genera una vez, y ya contiene el marcado de la imagen principal. No 
 ### Estructura de carpetas y archivos de claves (en este repositorio)
 
 - HTL de componente y clientlibs: `ui.apps/src/main/content/jcr_root/apps/guides-components/components/table/`
-   - `table.html` (procesador HTL)
-   - `_cq_editConfig.xml` (actualizar agentes de escucha)
-   - `clientlibs/` con `css.txt`, `js.txt`, `css/table.css`, `js/table.js`
+  - `table.html` (procesador HTL)
+  - `_cq_editConfig.xml` (actualizar agentes de escucha)
+  - `clientlibs/` con `css.txt`, `js.txt`, `css/table.css`, `js/table.js`
 - Modelo Sling: `core/src/main/java/com/adobe/guides/aem/components/core/models/TableModel.java`
 - Servicio de procesamiento de imágenes: `core/src/main/java/com/adobe/guides/aem/components/core/services/ImageComponentRenderer.java`
 
@@ -313,7 +331,7 @@ Añada un cuadro de diálogo con al menos estas propiedades:
 - **Habilitar capacidad de respuesta**: `./enableResponsive` (casilla de verificación); activa o desactiva una clase contenedora adaptable.
 - **Estilo de tabla**: `./tableStyle` (seleccionar); aplica una clase de modificador de estilo.
 
-Estos asignan 1:1 a las propiedades y controlan la representación del modelo Sling.
+Estos se asignan 1:1 a las propiedades y la representación de control del modelo Sling.
 
 **Permitir el componente en las plantillas**
 
