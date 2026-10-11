@@ -82,7 +82,7 @@ La ficha **General** contiene las siguientes opciones de configuración:
 
 >[!NOTE]
 >
->Si la característica de comprobación de estado [1} está configurada para el perfil de carpeta, se muestra la opción **Ejecutar comprobación de estado antes de generar resultados** en la pestaña General. ](../install-conf-guide/conf-health-check-preset.md)Utilícelo para que una comprobación de estado se ejecute automáticamente cada vez que genere resultados con este ajuste preestablecido, de modo que no tenga que almacenarlos en déclencheur manualmente desde el mapa. El informe se anexa al registro de publicación y es puramente informativo. No bloqueará ni retrasará su salida, incluso si la comprobación encuentra errores o advertencias sin resolver. Más información acerca de [Usar la característica de comprobación de estado en Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
+>Si la característica de comprobación de estado [1&rbrace; está configurada para el perfil de carpeta, se muestra la opción **Ejecutar comprobación de estado antes de generar resultados** en la pestaña General. &#x200B;](../install-conf-guide/conf-health-check-preset.md)Utilícelo para que una comprobación de estado se ejecute automáticamente cada vez que genere resultados con este ajuste preestablecido, de modo que no tenga que almacenarlos en déclencheur manualmente desde el mapa. El informe se anexa al registro de publicación y es puramente informativo. No bloqueará ni retrasará su salida, incluso si la comprobación encuentra errores o advertencias sin resolver. Más información acerca de [Usar la característica de comprobación de estado en Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
 
 **Avanzado**
 
@@ -140,4 +140,4 @@ Por ejemplo, **Ruta de salida/Ruta de destino** - Aquí, **Ruta de salida** es l
 
 
 
-**Tema principal:**[ Explicación de los ajustes preestablecidos de salida](generate-output-understand-presets.md)
+**Tema principal:**&#x200B;[&#x200B; Explicación de los ajustes preestablecidos de salida](generate-output-understand-presets.md)

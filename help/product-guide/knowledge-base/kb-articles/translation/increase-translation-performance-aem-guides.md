@@ -36,11 +36,11 @@ Cada proyecto de traducción genera varios grupos de usuarios para el acceso, lo
 
 - Marcar todos los proyectos como &quot;Inactivos&quot; una vez completada y aprobada la traducción.El proyecto permanece disponible para su revisión y se marca simplemente como inactivo.
   - Seguir estos pasos ayudará a mantener el rendimiento general de la traducción en buen estado de salud.
-    ![Proyecto De Traducción Inactivo ](./assets/translation-project-image1.png)
+    ![Proyecto De Traducción Inactivo &#x200B;](./assets/translation-project-image1.png)
 
 - La carpeta de proyectos más antiguos, que está marcada como inactiva, aprobada y revisada, debe eliminarse
   - Seguir estos pasos ayudará a mantener el rendimiento general de la traducción en buen estado al limpiar los archivos de traducción temporales y los grupos de usuarios asociados a esta carpeta de proyecto.
-    ![Eliminar proyecto de traducción y carpeta ](./assets/translation-project-image2.png)
+    ![Eliminar proyecto de traducción y carpeta &#x200B;](./assets/translation-project-image2.png)
 
 
 ## Si está en, versión 4.6 o 2404 o posterior:
@@ -49,4 +49,4 @@ Puede seguir siguiendo los mismos pasos que se mencionaron anteriormente. A part
 
 Consulte: [Eliminar o deshabilitar automáticamente un proyecto de traducción completado](../../../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project)
 
-![Configuración automatizada para eliminar y deshabilitar el proyecto de traducción en AEM Guides ](./assets/translation-project-image3.png)
+![Configuración automatizada para eliminar y deshabilitar el proyecto de traducción en AEM Guides &#x200B;](./assets/translation-project-image3.png)

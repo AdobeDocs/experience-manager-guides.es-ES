@@ -96,7 +96,7 @@ Antes de ejecutar el proceso, hay ciertas tareas que debe completar. Las siguien
 
 
 
-****Requisitos previos****
+**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides, asegúrese de lo siguiente:
 
@@ -169,7 +169,7 @@ La actualización a la versión 4.2 depende de la versión actual de Experience 
 
 Si utiliza las versiones 4.0, 4.1 o 4.1.x, puede actualizar directamente a la versión 4.2.
 
-****Requisitos previos****
+**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 4.2, asegúrese de lo siguiente:
 
@@ -345,7 +345,7 @@ La actualización a la versión 4.2.1 depende de la versión actual de Experienc
 >
 >El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
 
-****Requisitos previos****
+**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 4.2.1, asegúrese de lo siguiente:
 
@@ -522,7 +522,7 @@ La actualización a la versión 4.3.0 depende de la versión actual de Experienc
 >
 >El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
 
-****Requisitos previos****
+**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 4.3.0, asegúrese de lo siguiente:
 
@@ -580,7 +580,7 @@ La actualización a la versión 4.3.1 depende de la versión actual de Experienc
 >
 >El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
 
-****Requisitos previos****
+**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 4.3.1, asegúrese de lo siguiente:
 
@@ -821,7 +821,7 @@ La actualización a la versión 4.4.0 depende de la versión actual de Experienc
 >
 >El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
 
-****Requisitos previos****
+**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 4.4.0, asegúrese de lo siguiente:
 
@@ -1014,7 +1014,7 @@ Si tiene otra reescritura de sling personalizada en la base de código, utilice 
 Durante esta actualización, dado que el valor `'order'` ha cambiado de 1000 a 50, debe combinar la reescritura personalizada existente, si la hay, con `'fmdita-rewriter'`.
 
 
-**Tema principal:**[ Descargar e instalar](download-install.md)
+**Tema principal:**&#x200B;[&#x200B; Descargar e instalar](download-install.md)
 
 
 ## Actualización a la versión 4.6.0
@@ -1029,7 +1029,7 @@ La actualización a la versión 4.6.0 depende de la versión actual de Experienc
 >
 > El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
 
-****Requisitos previos****
+**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 4.6.0, asegúrese de lo siguiente:
 
@@ -1184,7 +1184,7 @@ Durante esta actualización, dado que el valor `'order'` ha cambiado de 1000 a 5
 >
 > El posprocesamiento y la indexación pueden tardar unas horas. Le recomendamos que inicie el proceso de actualización durante las horas de menor actividad.
 
-****Requisitos previos****
+**&#x200B;**&#x200B;Requisitos previos&#x200B;**&#x200B;**
 
 Antes de iniciar el proceso de actualización de Experience Manager Guides 5.0.0, asegúrese de lo siguiente:
 

@@ -80,7 +80,7 @@ La ficha **General** contiene las siguientes opciones de configuración:
 
 >[!NOTE]
 >
->Si la característica de comprobación de estado [1} está configurada para el perfil de carpeta, se muestra la opción **Ejecutar comprobación de estado antes de generar resultados** en la pestaña General. ](../install-conf-guide/conf-health-check-preset.md)Utilícelo para que una comprobación de estado se ejecute automáticamente cada vez que genere resultados con este ajuste preestablecido, de modo que no tenga que almacenarlos en déclencheur manualmente desde el mapa. El informe se anexa al registro de publicación y es puramente informativo. No bloqueará ni retrasará su salida, incluso si la comprobación encuentra errores o advertencias sin resolver. Más información acerca de [Usar la característica de comprobación de estado en Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
+>Si la característica de comprobación de estado [1&rbrace; está configurada para el perfil de carpeta, se muestra la opción **Ejecutar comprobación de estado antes de generar resultados** en la pestaña General. &#x200B;](../install-conf-guide/conf-health-check-preset.md)Utilícelo para que una comprobación de estado se ejecute automáticamente cada vez que genere resultados con este ajuste preestablecido, de modo que no tenga que almacenarlos en déclencheur manualmente desde el mapa. El informe se anexa al registro de publicación y es puramente informativo. No bloqueará ni retrasará su salida, incluso si la comprobación encuentra errores o advertencias sin resolver. Más información acerca de [Usar la característica de comprobación de estado en Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
 
 **Avanzado**
 
@@ -131,5 +131,5 @@ Por ejemplo, **Ruta de salida/Ruta de destino** - Aquí, **Ruta de salida** es l
 | Usar línea base | Si ha creado una Línea base para el mapa DITA seleccionado, seleccione esta opción para especificar la versión que desea publicar.<br><br> Ver [Trabajar con línea de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obtener más información. |
 | Propiedades/propiedades del archivo | Seleccione las propiedades que desee procesar como metadatos. Estas propiedades se definen desde la página Propiedades del fichero de mapa DITA o de mapa de libros. Las propiedades que seleccione en la lista desplegable aparecerán en el campo **Propiedades del archivo**. Seleccione el icono en forma de cruz situado junto a la propiedad para eliminarla. <br><br>**Nota**: también puede pasar los metadatos a la salida mediante la publicación DITA-OT. Para obtener más información, [Pase los metadatos a la salida mediante DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
-**Tema principal:**[ Explicación de los ajustes preestablecidos de salida](generate-output-understand-presets.md)
+**Tema principal:**&#x200B;[&#x200B; Explicación de los ajustes preestablecidos de salida](generate-output-understand-presets.md)
 

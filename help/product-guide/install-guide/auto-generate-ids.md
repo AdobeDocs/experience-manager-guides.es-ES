@@ -61,4 +61,4 @@ Realice los siguientes pasos para configurar los elementos para que tengan un ID
 1. Haga clic en **Guardar**.
 
 
-**Tema principal:**[ Editor personalizado](conf-web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Editor personalizado](conf-web-editor.md)

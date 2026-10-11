@@ -83,4 +83,4 @@ Siga estos pasos para eliminar una etiqueta:
    ![](images/delete-labels.png){width="300"}
 
 
-**Tema principal:**[ Trabajar con el editor web](web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Trabajar con el editor web](web-editor.md)

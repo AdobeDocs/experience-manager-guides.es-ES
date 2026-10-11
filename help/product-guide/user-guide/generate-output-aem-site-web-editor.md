@@ -75,7 +75,7 @@ Realice los siguientes pasos para crear el ajuste preestablecido de AEM Sites me
    Se crea el ajuste preestablecido de AEM Sites.
 
 
-   ![Nuevo ](images/new-aem-sites-dialog-box.png){width="300"}
+   ![Nuevo &#x200B;](images/new-aem-sites-dialog-box.png){width="300"}
 
 <!--
 ### Generate the AEM Sites output using the templates
@@ -114,7 +114,7 @@ En la consola Mapa, las opciones de configuración preestablecidas para la asign
 - Lista de temas
 - Referencias entre mapas
 
-![Nuevo ](images/aem-sites-new-config.png){width="650"}
+![Nuevo &#x200B;](images/aem-sites-new-config.png){width="650"}
 
 **General**
 
@@ -134,7 +134,7 @@ La ficha **General** contiene las siguientes opciones de configuración:
 
 >[!NOTE]
 >
->Si la característica de comprobación de estado [1} está configurada para el perfil de carpeta, se muestra la opción **Ejecutar comprobación de estado antes de generar resultados** en la pestaña General. ](../install-conf-guide/conf-health-check-preset.md)Utilícelo para que una comprobación de estado se ejecute automáticamente cada vez que genere resultados con este ajuste preestablecido, de modo que no tenga que almacenarlos en déclencheur manualmente desde el mapa. El informe se anexa al registro de publicación y es puramente informativo. No bloqueará ni retrasará su salida, incluso si la comprobación encuentra errores o advertencias sin resolver. Más información acerca de [Usar la comprobación de características de estado en Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
+>Si la característica de comprobación de estado [1&rbrace; está configurada para el perfil de carpeta, se muestra la opción **Ejecutar comprobación de estado antes de generar resultados** en la pestaña General. &#x200B;](../install-conf-guide/conf-health-check-preset.md)Utilícelo para que una comprobación de estado se ejecute automáticamente cada vez que genere resultados con este ajuste preestablecido, de modo que no tenga que almacenarlos en déclencheur manualmente desde el mapa. El informe se anexa al registro de publicación y es puramente informativo. No bloqueará ni retrasará su salida, incluso si la comprobación encuentra errores o advertencias sin resolver. Más información acerca de [Usar la comprobación de características de estado en Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
 
 **Contenido**
 
@@ -183,7 +183,7 @@ En la consola Mapa, las opciones de configuración preestablecidas para la asign
 - Contenido
 - Referencias entre mapas
 
-![Nuevo ](images/aem-sites-preset-legacy-config.png){width="500"}
+![Nuevo &#x200B;](images/aem-sites-preset-legacy-config.png){width="500"}
 
 **General**
 
@@ -191,7 +191,7 @@ La ficha **General** contiene las siguientes opciones de configuración:
 
 >[!NOTE]
 >
->Si la característica de comprobación de estado [1} está configurada para el perfil de carpeta, se muestra la opción **Ejecutar comprobación de estado antes de generar resultados** en la pestaña General. ](../install-conf-guide/conf-health-check-preset.md)Utilícelo para que una comprobación de estado se ejecute automáticamente cada vez que genere resultados con este ajuste preestablecido, de modo que no tenga que almacenarlos en déclencheur manualmente desde el mapa. El informe se anexa al registro de publicación y es puramente informativo. No bloqueará ni retrasará su salida, incluso si la comprobación encuentra errores o advertencias sin resolver. Más información acerca de [Usar la comprobación de características de estado en Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
+>Si la característica de comprobación de estado [1&rbrace; está configurada para el perfil de carpeta, se muestra la opción **Ejecutar comprobación de estado antes de generar resultados** en la pestaña General. &#x200B;](../install-conf-guide/conf-health-check-preset.md)Utilícelo para que una comprobación de estado se ejecute automáticamente cada vez que genere resultados con este ajuste preestablecido, de modo que no tenga que almacenarlos en déclencheur manualmente desde el mapa. El informe se anexa al registro de publicación y es puramente informativo. No bloqueará ni retrasará su salida, incluso si la comprobación encuentra errores o advertencias sin resolver. Más información acerca de [Usar la comprobación de características de estado en Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
 
 | Opciones de AEM Sites | Descripción |
 | --- | --- |
@@ -206,7 +206,7 @@ La ficha **General** contiene las siguientes opciones de configuración:
 
 **Contenido**
 
-![Nuevo ](images/aem-sites-content-tab.png){width="650"}
+![Nuevo &#x200B;](images/aem-sites-content-tab.png){width="650"}
 
 La pestaña **Content** contiene las siguientes opciones de configuración:
 

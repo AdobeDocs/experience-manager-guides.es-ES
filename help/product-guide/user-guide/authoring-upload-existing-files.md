@@ -79,4 +79,4 @@ Si utiliza una herramienta como la aplicación de escritorio de Adobe Experience
 
 
 
-**Tema principal:**[ Administrar contenido](authoring.md)
+**Tema principal:**&#x200B;[&#x200B; Administrar contenido](authoring.md)

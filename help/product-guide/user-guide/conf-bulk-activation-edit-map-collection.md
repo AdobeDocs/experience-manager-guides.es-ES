@@ -66,4 +66,4 @@ Puede editar una colección de mapas de activación masiva añadiendo o eliminan
 1. Seleccione **Listo**.
 
 
-**Tema principal:**[ Activación masiva del contenido publicado](conf-bulk-activation.md)
+**Tema principal:**&#x200B;[&#x200B; Activación masiva del contenido publicado](conf-bulk-activation.md)

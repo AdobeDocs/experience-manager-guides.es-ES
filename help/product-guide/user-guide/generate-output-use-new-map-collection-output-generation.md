@@ -212,4 +212,4 @@ Las propiedades de metadatos se actualizan de forma masiva para las asignaciones
 Las propiedades de metadatos están sincronizadas con las propiedades del archivo. Una vez que los actualice, podrá verlos en el panel **Propiedades del archivo** del Editor.
 
 
-**Tema principal:**[ Generación de resultados](generate-output.md)
+**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)

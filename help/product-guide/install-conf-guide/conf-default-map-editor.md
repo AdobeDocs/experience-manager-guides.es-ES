@@ -73,4 +73,4 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 
 >[!ENDTABS]
 
-**Tema principal:**[ Editor personalizado](customize-overview.md)
+**Tema principal:**&#x200B;[&#x200B; Editor personalizado](customize-overview.md)

@@ -53,4 +53,4 @@ Cuando esta configuración está habilitada, la casilla de verificación **Desbl
 
 Para obtener más información, consulte la sección *Cerrar archivo y guardar escenarios* en la guía Usar Adobe Experience Manager Guides as a Cloud Service.
 
-**Tema principal:**[ Editor personalizado](conf-web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Editor personalizado](conf-web-editor.md)
