@@ -5,27 +5,37 @@ feature: Publishing
 role: User
 hide: true
 exl-id: b96e6599-f8f3-491a-8b8f-fcb1e0f58aae
-TQID: https://experienceleague.adobe.com/6cM2mNUBC3qwN0f0Kx9VkT4Xpy2pBfXdOeooDrhqYE4
+TQID: 'https://experienceleague.adobe.com/6cM2mNUBC3qwN0f0Kx9VkT4Xpy2pBfXdOeooDrhqYE4'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 995
+source-wordcount: '995'
 ht-degree: 1%
-
 ---
-
 # Personalizado {#id205BEF00PX0}
 
 Los ajustes preestablecidos de salida personalizados están disponibles para los complementos DITA-OT personalizados. Puede crear un ajuste preestablecido de salida DITA-OT personalizado para publicar la salida mediante el complemento DITA-OT personalizado.
@@ -79,4 +89,4 @@ Las siguientes opciones están disponibles para el ajuste preestablecido de sali
 | Usar línea base | Si ha creado una Línea base para el mapa DITA seleccionado, seleccione esta opción para especificar la versión que desea publicar.<br><br>Vea [Trabajar con línea de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obtener más detalles. |
 | Propiedades de archivo | Seleccione las propiedades que desee procesar como metadatos. Estas propiedades se definen desde la página Propiedades del fichero de mapa DITA o de mapa de libros. Las propiedades que seleccione en la lista desplegable aparecerán en el campo **Propiedades del archivo**. Seleccione el icono en forma de cruz situado junto a la propiedad para eliminarla. <br><br>**Nota**: también puede pasar los metadatos a la salida mediante la publicación DITA-OT. Para obtener más información, consulte [Pasar los metadatos a la salida mediante DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
-**Tema principal:**&#x200B;[&#x200B; Explicación de los ajustes preestablecidos de salida](generate-output-understand-presets.md)
+**Tema principal:**[ Explicación de los ajustes preestablecidos de salida](generate-output-understand-presets.md)

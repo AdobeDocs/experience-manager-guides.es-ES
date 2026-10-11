@@ -5,40 +5,61 @@ exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
 hide: true
-TQID: https://experienceleague.adobe.com/b4HsxgVJpLBqXXJ-uEddivoBiHdnJlyfp-S-aiJL3bQ
+TQID: 'https://experienceleague.adobe.com/b4HsxgVJpLBqXXJ-uEddivoBiHdnJlyfp-S-aiJL3bQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+    internal-label: Map Editor
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
+    internal-label: Conditional content
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Security
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 18677
+source-wordcount: '18797'
 ht-degree: 0%
-
 ---
-
 # Conozca las funciones del editor {#id176NC500V5Z}
 
 Esta sección muestra las distintas funciones disponibles en el editor. Podemos dividir el Editor en las siguientes secciones o áreas:
@@ -114,29 +135,29 @@ La opción **Configuración** solo está disponible para administradores y admin
 
   ![](images/editor-setting-general.png){width="650"}
 
-   - **Corrección ortográfica**: Hay dos opciones: **Corrección ortográfica de AEM** y **Corrección ortográfica del explorador**. De forma predeterminada, el editor utiliza la función de revisión ortográfica del explorador, en la que la revisión ortográfica se realiza mediante el diccionario integrado del explorador. Puede cambiar al corrector ortográfico de AEM para utilizar el diccionario de Adobe Experience Manager, que también se puede personalizar para agregar la lista de palabras personalizada. Para obtener más información sobre cómo personalizar el diccionario de AEM, vea la sección [Personalizar el diccionario predeterminado de AEM](../cs-install-guide/customize-aem-custom-dictionary.md) en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
+  - **Corrección ortográfica**: Hay dos opciones: **Corrección ortográfica de AEM** y **Corrección ortográfica del explorador**. De forma predeterminada, el editor utiliza la función de revisión ortográfica del explorador, en la que la revisión ortográfica se realiza mediante el diccionario integrado del explorador. Puede cambiar al corrector ortográfico de AEM para utilizar el diccionario de Adobe Experience Manager, que también se puede personalizar para agregar la lista de palabras personalizada. Para obtener más información sobre cómo personalizar el diccionario de AEM, vea la sección [Personalizar el diccionario predeterminado de AEM](../cs-install-guide/customize-aem-custom-dictionary.md) en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
-   - **Condición**
+  - **Condición**
 
-      - **Resaltar texto condicional en la vista de autor**: seleccione esta opción para resaltar el texto condicional en la vista de autor. El contenido condicional se resalta con el color definido para la condición.
+    - **Resaltar texto condicional en la vista de autor**: seleccione esta opción para resaltar el texto condicional en la vista de autor. El contenido condicional se resalta con el color definido para la condición.
 
-      - **Validar con atributos de condición**: seleccione esta opción para permitir la validación de los valores definidos para los atributos. Esto evita que añada cualquier valor incorrecto.
+    - **Validar con atributos de condición**: seleccione esta opción para permitir la validación de los valores definidos para los atributos. Esto evita que añada cualquier valor incorrecto.
 
-      - **Mostrar clave con el título en el panel Esquema del asunto**: seleccione esta opción para mostrar las claves junto con los títulos en el esquema del asunto. Si no selecciona esta opción, solo se muestran los títulos. Por ejemplo, aquí las teclas &quot;os&quot;, &quot;audience&quot; y &quot;other&quot; también se muestran junto con los títulos.
+    - **Mostrar clave con el título en el panel Esquema del asunto**: seleccione esta opción para mostrar las claves junto con los títulos en el esquema del asunto. Si no selecciona esta opción, solo se muestran los títulos. Por ejemplo, aquí las teclas &quot;os&quot;, &quot;audience&quot; y &quot;other&quot; también se muestran junto con los títulos.
 
-        ![](images/subject-scheme-title.png){width="550"}
+      ![](images/subject-scheme-title.png){width="550"}
 
-      - **Mostrar esquema de asunto en el panel Condiciones**: seleccione esta opción para ver un esquema de asunto en el panel Condiciones. Si anula la selección de esta opción, las condiciones definidas se muestran en el panel Condiciones.
+    - **Mostrar esquema de asunto en el panel Condiciones**: seleccione esta opción para ver un esquema de asunto en el panel Condiciones. Si anula la selección de esta opción, las condiciones definidas se muestran en el panel Condiciones.
 
-   - **Creación**
+  - **Creación**
 
-      - **Habilitar Reemplazar todo**: seleccione esta opción para ver el icono **Reemplazar todo** en el panel **Buscar y reemplazar**.
+    - **Habilitar Reemplazar todo**: seleccione esta opción para ver el icono **Reemplazar todo** en el panel **Buscar y reemplazar**.
 
-   - **Citas**
-Cambiar el estilo de las citas. Elija el estilo de cita de la lista desplegable que desee utilizar en su proyecto. Para obtener más información, vea [Cambiar estilos de cita](./web-editor-apply-citations.md#change-citation-style).
+  - **Citas**
+    Cambiar el estilo de las citas. Elija el estilo de cita de la lista desplegable que desee utilizar en su proyecto. Para obtener más información, vea [Cambiar estilos de cita](./web-editor-apply-citations.md#change-citation-style).
 
-   - **Asistente de IA**
-Seleccione esta opción para habilitar la función [Ayudante de IA](./ai-assistant.md) en Experience Manager Guides. Anule la selección para deshabilitar la función.
+  - **Asistente de IA**
+    Seleccione esta opción para habilitar la función [Ayudante de IA](./ai-assistant.md) en Experience Manager Guides. Anule la selección para deshabilitar la función.
 
 **Paneles**: esta opción controla los paneles que se muestran en los paneles izquierdo y derecho de la consola Editor y Mapa. Puede alternar el botón para mostrar u ocultar el panel deseado.
 
@@ -176,52 +197,52 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
 
 - **Publicar perfiles**: Contiene los perfiles que se pueden usar para publicar el resultado de **Knowledge Base**. Puede crear un nuevo perfil para una base de conocimiento de Target. Por ejemplo, Salesforce o ServiceNow.
 
-   - **Crear un perfil de Salesforce**
+  - **Crear un perfil de Salesforce**
 
-     **Requisitos previos**
+    **Requisitos previos**
 
-      - Cree una aplicación conectada de para Salesforce. Para obtener más información, consulte [Habilitar la configuración de OAuth para la integración de API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5).
+    - Cree una aplicación conectada de para Salesforce. Para obtener más información, consulte [Habilitar la configuración de OAuth para la integración de API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5).
 
-      - Al configurar la aplicación conectada, asegúrese de lo siguiente:
+    - Al configurar la aplicación conectada, asegúrese de lo siguiente:
 
-         - Especifique la llamada de retorno.
+      - Especifique la llamada de retorno.
 
-           `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+        `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
-         - Seleccione los siguientes ámbitos de OAuth:
-            - Acceso completo (completo)
-            - Seleccione Administrar datos de usuario mediante API
+      - Seleccione los siguientes ámbitos de OAuth:
+        - Acceso completo (completo)
+        - Seleccione Administrar datos de usuario mediante API
 
-     Una vez configurada la aplicación, Salesforce proporciona **clave del consumidor** y **secreto del consumidor**. Se pueden utilizar para crear el perfil de Salesforce.
-
-
-   - Para crear un perfil de Salesforce, seleccione la base de conocimiento **Salesforce** en la lista desplegable **Tipo de servidor**. Introduzca un Nombre de perfil. En la **dirección URL del sitio**, escriba el sitio del consumidor que usaría para publicar la salida y, a continuación, agregue la **clave del consumidor** y el **secreto del consumidor** proporcionados por el sitio del consumidor de Salesforce. A continuación, **Valide** y **guarde** el perfil recién creado.
-
-     ![perfil de publicación de salesforce en la configuración del editor](./images/salesforce-publish-profile.png){width="550"}
-
-     >[!NOTE]
-     >
-     >Para configurar un proxy para Salesforce en Experience Manager Guides, utilice Configuración proxy de componentes HTTP de Apache en AEM. Obtenga información sobre cómo [configurar el proxy para AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+    Una vez configurada la aplicación, Salesforce proporciona **clave del consumidor** y **secreto del consumidor**. Se pueden utilizar para crear el perfil de Salesforce.
 
 
-   - **Crear un perfil de ServiceNow**
+  - Para crear un perfil de Salesforce, seleccione la base de conocimiento **Salesforce** en la lista desplegable **Tipo de servidor**. Introduzca un Nombre de perfil. En la **dirección URL del sitio**, escriba el sitio del consumidor que usaría para publicar la salida y, a continuación, agregue la **clave del consumidor** y el **secreto del consumidor** proporcionados por el sitio del consumidor de Salesforce. A continuación, **Valide** y **guarde** el perfil recién creado.
 
-     **Requisitos previos**
+    ![perfil de publicación de salesforce en la configuración del editor](./images/salesforce-publish-profile.png){width="550"}
 
-     Configure el servidor de ServiceNow para cargar los recursos.
-      - Conéctese al servidor **ServiceNow**.
-      - Vaya a **Propiedades del sistema** > **Seguridad**.
-      - Desmarque la siguiente opción:
+    >[!NOTE]
+    >
+    >Para configurar un proxy para Salesforce en Experience Manager Guides, utilice Configuración proxy de componentes HTTP de Apache en AEM. Obtenga información sobre cómo [configurar el proxy para AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
-        **Esta propiedad debe estar configurada para activar la comprobación de tipo MIME para cargas (todas las versiones de Eureka y superiores). Activa (true) o desactiva (false) la validación de tipo MIME para los archivos adjuntos. Las extensiones de archivo configuradas mediante glide.attachment.extensions se comprobarán en busca del tipo MIME durante la carga.**
 
-      - Seleccione **Guardar**.
+  - **Crear un perfil de ServiceNow**
 
-     Una vez configurada la aplicación, cree el perfil **ServiceNow**.
+    **Requisitos previos**
 
-   - Para crear un perfil, seleccione ServiceNow Knowledge Base en la lista desplegable **Tipo de servidor**. Escriba un perfil **Name**. En la **URL de ServiceNow**, introduzca el sitio de consumidores que utilizaría para publicar la salida y, a continuación, agregue el **Nombre de usuario** y la **Contraseña** proporcionados por el sitio de consumidores de ServiceNow. A continuación, **Valide** y **guarde** el perfil recién creado.
+    Configure el servidor de ServiceNow para cargar los recursos.
+    - Conéctese al servidor **ServiceNow**.
+    - Vaya a **Propiedades del sistema** > **Seguridad**.
+    - Desmarque la siguiente opción:
 
-     ![Perfil de publicación ServiceNow](./images/service-now-publish-profile.png){width="550"}
+      **Esta propiedad debe estar configurada para activar la comprobación de tipo MIME para cargas (todas las versiones de Eureka y superiores). Activa (true) o desactiva (false) la validación de tipo MIME para los archivos adjuntos. Las extensiones de archivo configuradas mediante glide.attachment.extensions se comprobarán en busca del tipo MIME durante la carga.**
+
+    - Seleccione **Guardar**.
+
+    Una vez configurada la aplicación, cree el perfil **ServiceNow**.
+
+  - Para crear un perfil, seleccione ServiceNow Knowledge Base en la lista desplegable **Tipo de servidor**. Escriba un perfil **Name**. En la **URL de ServiceNow**, introduzca el sitio de consumidores que utilizaría para publicar la salida y, a continuación, agregue el **Nombre de usuario** y la **Contraseña** proporcionados por el sitio de consumidores de ServiceNow. A continuación, **Valide** y **guarde** el perfil recién creado.
+
+    ![Perfil de publicación ServiceNow](./images/service-now-publish-profile.png){width="550"}
 
   Una vez validado, puede seleccionar el perfil de publicación en los ajustes preestablecidos de salida de un mapa DITA y utilizarlo para generar la salida en el servidor **Salesforce** o **ServiceNow** que haya elegido.
 
@@ -230,17 +251,17 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
 
 - **Validación**: esta pestaña contiene opciones para configurar las validaciones de Schematron en el Editor. Puede activar las siguientes funciones:
 
-   - **Ejecute la comprobación de validación antes de guardar el archivo**: Seleccione esta opción para ejecutar las validaciones de Schematron utilizando los archivos de Schematron seleccionados antes de cualquier operación de guardado. Puede añadir un archivo de Schematron seleccionando el icono +. Se muestran los archivos de Schematron seleccionados.
+  - **Ejecute la comprobación de validación antes de guardar el archivo**: Seleccione esta opción para ejecutar las validaciones de Schematron utilizando los archivos de Schematron seleccionados antes de cualquier operación de guardado. Puede añadir un archivo de Schematron seleccionando el icono +. Se muestran los archivos de Schematron seleccionados.
 
-     >[!NOTE]
-     >
-     >Los archivos de Schematron seleccionados persistirán para el perfil de carpeta seleccionado.
+    >[!NOTE]
+    >
+    >Los archivos de Schematron seleccionados persistirán para el perfil de carpeta seleccionado.
 
-     ![Validación en la configuración del editor](./images/editor-setting-validation.png){width="550"}
+    ![Validación en la configuración del editor](./images/editor-setting-validation.png){width="550"}
 
-     Esto evita que los usuarios guarden cualquier archivo que rompa una regla definida en los archivos de Schematron seleccionados. Si no se selecciona esta opción, el archivo no se validará antes de guardar los cambios.
+    Esto evita que los usuarios guarden cualquier archivo que rompa una regla definida en los archivos de Schematron seleccionados. Si no se selecciona esta opción, el archivo no se validará antes de guardar los cambios.
 
-   - **Permitir que todos los usuarios agreguen archivos de Schematron en el panel de validación**: seleccione esta opción para permitir que los usuarios agreguen cualquier archivo de Schematron en el panel Validación del Editor. Esto permite a los usuarios agregar archivos de Schematron y, a continuación, validar los temas con el archivo de Schematron. Si no se selecciona esta opción, la opción para agregar el botón **Agregar archivo de schematron** no estará disponible para los usuarios en el **panel Validación** del Editor.
+  - **Permitir que todos los usuarios agreguen archivos de Schematron en el panel de validación**: seleccione esta opción para permitir que los usuarios agreguen cualquier archivo de Schematron en el panel Validación del Editor. Esto permite a los usuarios agregar archivos de Schematron y, a continuación, validar los temas con el archivo de Schematron. Si no se selecciona esta opción, la opción para agregar el botón **Agregar archivo de schematron** no estará disponible para los usuarios en el **panel Validación** del Editor.
 
 
 - **Atributos de visualización**: al igual que la lista Atributos, puede controlar la lista de atributos que se mostrarán en la lista de atributos de un elemento. De manera predeterminada, se han configurado cuatro **atributos de visualización**: audiencia, plataforma, producto y props para que se muestren en la lista de atributos de un elemento. También puede agregar un atributo de visualización mediante el icono **Agregar** de la parte superior. También puede eliminar cualquiera de los atributos de visualización mediante el icono **Delete**.
@@ -253,33 +274,33 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
 
   ![](images/editor-setting-translation.png){width="550"}
 
-   - **Grupos de idiomas**: como administrador, puede crear un grupo de idiomas y utilizarlos como un conjunto para traducir el contenido.
+  - **Grupos de idiomas**: como administrador, puede crear un grupo de idiomas y utilizarlos como un conjunto para traducir el contenido.
 
-     Siga estos pasos para crear un nuevo grupo de idiomas:
+    Siga estos pasos para crear un nuevo grupo de idiomas:
 
-      1. Seleccione **Añadir**.
-      1. Introduzca el nombre del grupo de idiomas. Cada idioma debe tener un nombre único. Puede ver un error si el campo de nombre está vacío o si el nombre no es único.
-      1. Seleccione los idiomas en la lista desplegable. Puede seleccionar varios idiomas.
+    1. Seleccione **Añadir**.
+    1. Introduzca el nombre del grupo de idiomas. Cada idioma debe tener un nombre único. Puede ver un error si el campo de nombre está vacío o si el nombre no es único.
+    1. Seleccione los idiomas en la lista desplegable. Puede seleccionar varios idiomas.
 
-         Escriba los primeros caracteres del idioma o el código de idioma para filtrar los idiomas deseados. Por ejemplo, escriba &#39;en&#39; para filtrar todos los idiomas que contienen &#39;en&#39; al principio de su nombre o código.
+       Escriba los primeros caracteres del idioma o el código de idioma para filtrar los idiomas deseados. Por ejemplo, escriba &#39;en&#39; para filtrar todos los idiomas que contienen &#39;en&#39; al principio de su nombre o código.
 
-      1. Seleccione el icono Listo para añadir los idiomas seleccionados al grupo. Se muestran los idiomas. Cuando se agregan tres o más idiomas, se muestra la opción **Mostrar más**. Puede seleccionar **Mostrar más** para ver todos los idiomas presentes en el grupo.
+    1. Seleccione el icono Listo para añadir los idiomas seleccionados al grupo. Se muestran los idiomas. Cuando se agregan tres o más idiomas, se muestra la opción **Mostrar más**. Puede seleccionar **Mostrar más** para ver todos los idiomas presentes en el grupo.
 
-         >[!TIP]
-         >
-         >Cambie **Mostrar más** por **Mostrar menos** y ver solo algunos idiomas.
+       >[!TIP]
+       >
+       >Cambie **Mostrar más** por **Mostrar menos** y ver solo algunos idiomas.
 
-      1. Pase el ratón sobre los idiomas de un grupo para editar ![editar icono](images/edit_pencil_icon.svg) o eliminar ![eliminar](images/Delete_icon.svg) los grupos de idiomas.
-      1. Guardar **configuración**.
+    1. Pase el ratón sobre los idiomas de un grupo para editar ![editar icono](images/edit_pencil_icon.svg) o eliminar ![eliminar](images/Delete_icon.svg) los grupos de idiomas.
+    1. Guardar **configuración**.
 
-         >[!NOTE]
-         >
-         >Como usuario, puede ver los grupos de idiomas configurados en el perfil de carpeta.
+       >[!NOTE]
+       >
+       >Como usuario, puede ver los grupos de idiomas configurados en el perfil de carpeta.
 
-   - **Propagar etiquetas de versión de origen a la versión de destino**: seleccione esta opción para pasar la etiqueta de la versión del archivo de origen al archivo traducido. Esta opción está desactivada de forma predeterminada.
-   - **Limpieza del proyecto de traducción una vez finalizado**: seleccione esta opción para configurar los proyectos de traducción que se deshabilitarán o eliminarán automáticamente después de la traducción. De manera predeterminada, **Ninguno** está seleccionado, de manera que el proyecto existe después de la traducción.
+  - **Propagar etiquetas de versión de origen a la versión de destino**: seleccione esta opción para pasar la etiqueta de la versión del archivo de origen al archivo traducido. Esta opción está desactivada de forma predeterminada.
+  - **Limpieza del proyecto de traducción una vez finalizado**: seleccione esta opción para configurar los proyectos de traducción que se deshabilitarán o eliminarán automáticamente después de la traducción. De manera predeterminada, **Ninguno** está seleccionado, de manera que el proyecto existe después de la traducción.
 
-     Puede desactivar los proyectos de traducción si desea utilizarlos más adelante. Al eliminar un proyecto, se eliminan permanentemente todos los archivos y carpetas presentes en el proyecto.
+    Puede desactivar los proyectos de traducción si desea utilizarlos más adelante. Al eliminar un proyecto, se eliminan permanentemente todos los archivos y carpetas presentes en el proyecto.
 
 
 - **Metadatos**: puede controlar los metadatos de versión del tema y sus valores para que se muestren en el cuadro de diálogo **Historial de versiones**.  En la ruta de metadatos, especifique la ubicación de los nodos desde los que desea seleccionar los metadatos. También puede definir un nombre personalizado para los metadatos como etiqueta. Las propiedades predeterminadas son Título, Estado del documento y Etiquetas.
@@ -297,7 +318,7 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
 
 
   También puede definir el orden en que se muestran estas etiquetas de metadatos. Para cambiar el orden predeterminado de estas etiquetas, seleccione las barras de puntos para arrastrar y soltar las etiquetas en la ubicación deseada.
-Las etiquetas de metadatos aparecen en la misma secuencia en el cuadro de diálogo **Historial de versiones** del Editor.
+  Las etiquetas de metadatos aparecen en la misma secuencia en el cuadro de diálogo **Historial de versiones** del Editor.
 
 ## Barra de herramientas
 
@@ -367,7 +388,7 @@ Para acceder al historial de versiones y volver a una versión específica del t
 
    Pestaña **Metadatos**: los metadatos agregados recientemente están en fuente verde y los metadatos eliminados están en fuente roja.
 
-   ![Diferencia de metadatos para las versiones &#x200B;](images/metadata-version-diff.png){width="550"}
+   ![Diferencia de metadatos para las versiones ](images/metadata-version-diff.png){width="550"}
 
    *Comparar los metadatos de distintas versiones en el historial de versiones.*
 
@@ -445,58 +466,58 @@ Cuando se trabaja en un entorno de varios autores, resulta difícil realizar el 
 
   Para combinar los cambios de un tema, realice los siguientes pasos:
 
-   1. Abra un tema en el Editor.
+  1. Abra un tema en el Editor.
 
-   1. Seleccione **Combinar**.
+  1. Seleccione **Combinar**.
 
-      Aparecerá el cuadro de diálogo Combinar.
+     Aparecerá el cuadro de diálogo Combinar.
 
-      ![](images/merge-changes-in-topic.png){width="550"}
+     ![](images/merge-changes-in-topic.png){width="550"}
 
-   1. *\(Opcional\)* También puede examinar y seleccionar un nuevo archivo de otra ubicación del repositorio.
+  1. *\(Opcional\)* También puede examinar y seleccionar un nuevo archivo de otra ubicación del repositorio.
 
-   1. Seleccione la versión del archivo con la que desea comparar la versión actual del archivo.
+  1. Seleccione la versión del archivo con la que desea comparar la versión actual del archivo.
 
-   1. En Opciones, elija:
+  1. En Opciones, elija:
 
-      - **Rastrear cambios de la versión seleccionada**: esta opción muestra todas las actualizaciones de contenido en forma de cambios rastreados. A continuación, puede elegir aceptar o rechazar los cambios del documento de uno en uno o todos en una sola vez.
+     - **Rastrear cambios de la versión seleccionada**: esta opción muestra todas las actualizaciones de contenido en forma de cambios rastreados. A continuación, puede elegir aceptar o rechazar los cambios del documento de uno en uno o todos en una sola vez.
 
-      - **Revertir a la versión seleccionada**: esta opción revierte la versión actual del documento a la versión seleccionada. Esta opción no le proporciona ningún control sobre qué contenido se acepta o rechaza.
+     - **Revertir a la versión seleccionada**: esta opción revierte la versión actual del documento a la versión seleccionada. Esta opción no le proporciona ningún control sobre qué contenido se acepta o rechaza.
 
-   1. Seleccione **Listo**.
+  1. Seleccione **Listo**.
 
-   1. Si seleccionó la opción **Rastrear cambios de la versión seleccionada**, todos los cambios de la versión seleccionada se mostrarán en la característica Rastreo de cambios del panel derecho.
+  1. Si seleccionó la opción **Rastrear cambios de la versión seleccionada**, todos los cambios de la versión seleccionada se mostrarán en la característica Rastreo de cambios del panel derecho.
 
-      Puede elegir aceptar o rechazar todos los comentarios del panel Cambios realizados o aceptar o rechazar comentarios individuales.
+     Puede elegir aceptar o rechazar todos los comentarios del panel Cambios realizados o aceptar o rechazar comentarios individuales.
 
 
 - **Combinar archivos de asignación**
 
   Para combinar los cambios en un archivo de asignación, realice los siguientes pasos:
 
-   1. Abra un mapa en el Editor.
+  1. Abra un mapa en el Editor.
 
-   1. Seleccione **Combinar**.
+  1. Seleccione **Combinar**.
 
-      Aparecerá el cuadro de diálogo Combinar.
+     Aparecerá el cuadro de diálogo Combinar.
 
-      ![](images/merge-changes-in-map.png){width="550"}
+     ![](images/merge-changes-in-map.png){width="550"}
 
-   1. *\(Opcional\)* También puede examinar y seleccionar un nuevo archivo de otra ubicación del repositorio.
+  1. *\(Opcional\)* También puede examinar y seleccionar un nuevo archivo de otra ubicación del repositorio.
 
-   1. Seleccione la versión del archivo con la que desea comparar la versión actual del archivo.
+  1. Seleccione la versión del archivo con la que desea comparar la versión actual del archivo.
 
-   1. En Opciones, elija:
+  1. En Opciones, elija:
 
-      - **Rastrear cambios de la versión seleccionada**: esta opción muestra todas las actualizaciones de contenido en forma de cambios de seguimiento. A continuación, puede elegir aceptar o rechazar los cambios del documento de uno en uno o todos en una sola vez.
+     - **Rastrear cambios de la versión seleccionada**: esta opción muestra todas las actualizaciones de contenido en forma de cambios de seguimiento. A continuación, puede elegir aceptar o rechazar los cambios del documento de uno en uno o todos en una sola vez.
 
-      - **Revertir a la versión seleccionada**: esta opción revierte la versión actual del documento a la versión seleccionada. Esta opción no le proporciona ningún control sobre qué contenido se acepta o rechaza.
+     - **Revertir a la versión seleccionada**: esta opción revierte la versión actual del documento a la versión seleccionada. Esta opción no le proporciona ningún control sobre qué contenido se acepta o rechaza.
 
-   1. Seleccione **Listo**.
+  1. Seleccione **Listo**.
 
-   1. Si seleccionó la opción **Rastrear cambios de la versión seleccionada**, todos los cambios de la versión seleccionada se mostrarán en el panel Cambios rastreados \(a la derecha\).
+  1. Si seleccionó la opción **Rastrear cambios de la versión seleccionada**, todos los cambios de la versión seleccionada se mostrarán en el panel Cambios rastreados \(a la derecha\).
 
-      Puede elegir entre aceptar o rechazar todos los cambios del panel Cambios realizados o aceptar o rechazar cambios individuales en el archivo de asignación.
+     Puede elegir entre aceptar o rechazar todos los cambios del panel Cambios realizados o aceptar o rechazar cambios individuales en el archivo de asignación.
 
 
 **Crear tarea de revisión**
@@ -1026,7 +1047,7 @@ Tiene las siguientes opciones para filtrar los archivos y limitar la búsqueda e
 - **Archivos DITA**: Puede buscar todos los **temas DITA** y **mapas DITA** presentes en la ruta seleccionada. Están seleccionadas de forma predeterminada.
 - **Archivos que no son DITA**: puede buscar **archivos Ditaval**, **archivos de imagen**, **multimedia**, **documentos** y **JSON** en la ruta seleccionada.
 
-  ![filtro de búsqueda rápida &#x200B;](images/repository-filter-search-quick.png) {width="300"}
+  ![filtro de búsqueda rápida ](images/repository-filter-search-quick.png) {width="300"}
 
   *Utilice los filtros rápidos para buscar archivos DITA y no DITA.*
 
@@ -1050,8 +1071,8 @@ Esto está sincronizado con el cuadro de búsqueda de la ventana del repositorio
 **Avanzado**
 
 - **Elementos DITA**: también puede buscar valores específicos en los atributos de los elementos DITA especificados.
-   - Seleccione **Agregar elemento** para agregar los elementos, atributos y valores.
-   - Aplique los filtros seleccionados.
+  - Seleccione **Agregar elemento** para agregar los elementos, atributos y valores.
+  - Aplique los filtros seleccionados.
 
 - Seleccione **Borrar todo** para borrar todos los filtros aplicados.
 
@@ -1078,45 +1099,45 @@ Puede realizar las siguientes acciones mediante el menú Opciones disponible par
 - **Nuevo**: crea un nuevo tema, mapa o carpeta DITA.
 
   Pasos para crear un nuevo tema:
-   1. Seleccione **Nuevo** > **Tema**.
-   2. Se muestra el cuadro de diálogo **Nuevo tema**.
+  1. Seleccione **Nuevo** > **Tema**.
+  2. Se muestra el cuadro de diálogo **Nuevo tema**.
 
-      ![](images/create-topic-dialog.png){width="300"}
+     ![](images/create-topic-dialog.png){width="300"}
 
-   3. En el cuadro de diálogo **Nuevo tema**, proporcione los siguientes detalles:
-      - Título del tema.
-      - \(Opcional\)* El nombre de archivo del tema. El nombre del archivo se sugiere automáticamente en función del tema Título. Si el administrador ha habilitado nombres de archivo automáticos basados en la configuración de UUID, no verá el campo Nombre.
-      - Una plantilla en la que se basará el tema. Por ejemplo, para una configuración predeterminada, puede elegir entre las plantillas en blanco, Concepto, DITAVAL, Referencia, Tarea, Tema, Markdown, Glosario y Solución de problemas. Si la carpeta tiene un perfil de carpeta configurado, solo verá las plantillas de temas que estén configuradas en el perfil de carpeta.
+  3. En el cuadro de diálogo **Nuevo tema**, proporcione los siguientes detalles:
+     - Título del tema.
+     - \(Opcional\)* El nombre de archivo del tema. El nombre del archivo se sugiere automáticamente en función del tema Título. Si el administrador ha habilitado nombres de archivo automáticos basados en la configuración de UUID, no verá el campo Nombre.
+     - Una plantilla en la que se basará el tema. Por ejemplo, para una configuración predeterminada, puede elegir entre las plantillas en blanco, Concepto, DITAVAL, Referencia, Tarea, Tema, Markdown, Glosario y Solución de problemas. Si la carpeta tiene un perfil de carpeta configurado, solo verá las plantillas de temas que estén configuradas en el perfil de carpeta.
 
-      - Ruta de acceso donde desea guardar el archivo de tema. De forma predeterminada, la ruta de la carpeta seleccionada actualmente en el repositorio se muestra en el campo Ruta.
+     - Ruta de acceso donde desea guardar el archivo de tema. De forma predeterminada, la ruta de la carpeta seleccionada actualmente en el repositorio se muestra en el campo Ruta.
 
-   4. Seleccione **Crear**. El tema se crea en la ruta de acceso especificada. Además, el tema se abre en el Editor para editarlo.
+  4. Seleccione **Crear**. El tema se crea en la ruta de acceso especificada. Además, el tema se abre en el Editor para editarlo.
 
   Pasos para crear un nuevo mapa DITA:
 
-   1. Seleccione **Nuevo** > **mapa DITA**.
-   2. Se muestra el cuadro de diálogo **Nuevo mapa**.
+  1. Seleccione **Nuevo** > **mapa DITA**.
+  2. Se muestra el cuadro de diálogo **Nuevo mapa**.
 
-      ![](images/create-map-dialog.png){width="300"}
+     ![](images/create-map-dialog.png){width="300"}
 
-   3. En el cuadro de diálogo **Nuevo mapa**, proporcione los siguientes detalles:
-      - Título del mapa.
-      - *\(Opcional\)* El nombre de archivo para el mapa. El nombre del archivo se sugiere automáticamente en función del título del mapa. Si el administrador ha habilitado nombres de archivo automáticos basados en la configuración de UUID, no verá el campo Nombre.
-      - Una plantilla en la que se basará el mapa. Por ejemplo, para una configuración predeterminada, puede elegir entre las plantillas de mapa de libro o de mapa DITA.
-      - Ruta de acceso donde desea guardar el archivo de asignación. De forma predeterminada, la ruta de la carpeta seleccionada actualmente en el repositorio se muestra en el campo Ruta.
-   4. Seleccione **Crear**. El mapa se crea y se añade dentro de la carpeta especificada en el campo Ruta. Además, el mapa se abre en la vista Mapa. Puede abrir el archivo de asignación en el Editor de mapas y agregarle un tema. Para obtener más información sobre cómo agregar temas a un archivo de asignación, vea [Crear un mapa](map-editor-create-map.md#). También puede seleccionar **Abrir en la consola de mapas** para abrir el mapa en la consola de mapas.
+  3. En el cuadro de diálogo **Nuevo mapa**, proporcione los siguientes detalles:
+     - Título del mapa.
+     - *\(Opcional\)* El nombre de archivo para el mapa. El nombre del archivo se sugiere automáticamente en función del título del mapa. Si el administrador ha habilitado nombres de archivo automáticos basados en la configuración de UUID, no verá el campo Nombre.
+     - Una plantilla en la que se basará el mapa. Por ejemplo, para una configuración predeterminada, puede elegir entre las plantillas de mapa de libro o de mapa DITA.
+     - Ruta de acceso donde desea guardar el archivo de asignación. De forma predeterminada, la ruta de la carpeta seleccionada actualmente en el repositorio se muestra en el campo Ruta.
+  4. Seleccione **Crear**. El mapa se crea y se añade dentro de la carpeta especificada en el campo Ruta. Además, el mapa se abre en la vista Mapa. Puede abrir el archivo de asignación en el Editor de mapas y agregarle un tema. Para obtener más información sobre cómo agregar temas a un archivo de asignación, vea [Crear un mapa](map-editor-create-map.md#). También puede seleccionar **Abrir en la consola de mapas** para abrir el mapa en la consola de mapas.
 
   Pasos para crear una carpeta nueva:
 
-   1. Seleccione **Nueva** > **Carpeta**.
-   2. Se muestra el cuadro de diálogo **Nueva carpeta**.
+  1. Seleccione **Nueva** > **Carpeta**.
+  2. Se muestra el cuadro de diálogo **Nueva carpeta**.
 
-      ![](images/new-folder-dialog_cs.png){width="300"}
+     ![](images/new-folder-dialog_cs.png){width="300"}
 
-   3. En el cuadro de diálogo **Nueva carpeta**, proporcione los siguientes detalles:
-      - Un Título para la carpeta, que se convierte automáticamente en el nombre de la carpeta.
-      - Ruta de acceso donde desea guardar la carpeta. De forma predeterminada, la ruta de la carpeta seleccionada actualmente en el repositorio se muestra en el campo Ruta.
-   4. Seleccione **Crear**. La carpeta se crea y se añade dentro de la carpeta desde la que se ejecutó la opción create folder.
+  3. En el cuadro de diálogo **Nueva carpeta**, proporcione los siguientes detalles:
+     - Un Título para la carpeta, que se convierte automáticamente en el nombre de la carpeta.
+     - Ruta de acceso donde desea guardar la carpeta. De forma predeterminada, la ruta de la carpeta seleccionada actualmente en el repositorio se muestra en el campo Ruta.
+  4. Seleccione **Crear**. La carpeta se crea y se añade dentro de la carpeta desde la que se ejecutó la opción create folder.
 
 - **Cargar Assets**: cargue un archivo de su sistema local a la carpeta seleccionada en el repositorio de Adobe Experience Manager. También puede arrastrar y soltar archivos del sistema local en el tema de trabajo actual. Esto resulta muy útil si desea insertar imágenes del sistema local en el tema.
 
@@ -1181,14 +1202,14 @@ Las distintas opciones del menú Opciones se explican a continuación:
   ![](images/quick-preview_cs.png)
 
 - **Cambiar nombre**: utilice esta opción para cambiar el nombre del archivo seleccionado. Escriba el nombre del nuevo archivo en el cuadro de diálogo **Cambiar nombre del recurso**.
-   - Puede cambiar el nombre de un archivo de cualquier tipo.
-   - No se puede cambiar la extensión de un archivo.
-   - Dos archivos no pueden tener el mismo nombre. Por lo tanto, no puede cambiar el nombre de un archivo por uno que ya exista. Se muestra un error.
+  - Puede cambiar el nombre de un archivo de cualquier tipo.
+  - No se puede cambiar la extensión de un archivo.
+  - Dos archivos no pueden tener el mismo nombre. Por lo tanto, no puede cambiar el nombre de un archivo por uno que ya exista. Se muestra un error.
 
 - **Mover a**: utilice esta opción para mover el archivo seleccionado a otra carpeta.
-   - Puede escribir el nombre de la carpeta de destino o elegir **Seleccionar ruta** para seleccionar la carpeta de destino.
-   - Puede mover un archivo de cualquier tipo a cualquier destino dentro de la carpeta Contenido.
-   - Dos archivos no pueden tener el mismo nombre. Por lo tanto, no puede mover un archivo a una carpeta en la que ya existe un archivo con el mismo nombre.
+  - Puede escribir el nombre de la carpeta de destino o elegir **Seleccionar ruta** para seleccionar la carpeta de destino.
+  - Puede mover un archivo de cualquier tipo a cualquier destino dentro de la carpeta Contenido.
+  - Dos archivos no pueden tener el mismo nombre. Por lo tanto, no puede mover un archivo a una carpeta en la que ya existe un archivo con el mismo nombre.
 
   Si intenta mover un archivo a una carpeta en la que existe un archivo con el mismo nombre pero con un título diferente, se muestra el cuadro de diálogo Cambiar nombre y mover archivo y debe cambiar el nombre del archivo antes de moverlo. El archivo movido en la carpeta de destino tiene el nuevo nombre de archivo.
 
@@ -1202,9 +1223,9 @@ Las distintas opciones del menú Opciones se explican a continuación:
 
   Experience Manager Guides no permite cambiar el nombre de un archivo ni moverlo en los siguientes casos:
 
-   - No puede mover ni cambiar el nombre de un archivo si forma parte de un flujo de trabajo de revisión o traducción.
+  - No puede mover ni cambiar el nombre de un archivo si forma parte de un flujo de trabajo de revisión o traducción.
 
-   - Si cualquier otro usuario bloquea el archivo, no puede cambiarle el nombre ni moverlo, no verá la opción Cambiar nombre o Mover a del archivo.
+  - Si cualquier otro usuario bloquea el archivo, no puede cambiarle el nombre ni moverlo, no verá la opción Cambiar nombre o Mover a del archivo.
 
   >[!NOTE]
   >
@@ -1218,24 +1239,24 @@ Las distintas opciones del menú Opciones se explican a continuación:
 
 - **Eliminar**: utilice esta opción para eliminar el archivo seleccionado. Se muestra un mensaje de confirmación antes de eliminar el archivo.
 
-   - Se muestra un mensaje de confirmación antes de eliminar el archivo.
-   - Si no se hace referencia al archivo desde ningún otro archivo, se elimina y se muestra un mensaje de éxito.
-   - Si el archivo está bloqueado, no podrá eliminarlo y aparecerá un mensaje de error.
+  - Se muestra un mensaje de confirmación antes de eliminar el archivo.
+  - Si no se hace referencia al archivo desde ningún otro archivo, se elimina y se muestra un mensaje de éxito.
+  - Si el archivo está bloqueado, no podrá eliminarlo y aparecerá un mensaje de error.
 
-     >[!NOTE]
-     >
-     > Si el administrador ha impedido la eliminación de archivos bloqueados, solo entonces se muestra el mensaje de error. Para obtener más información, vea la sección *Impedir la eliminación de archivos desprotegidos* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
+    >[!NOTE]
+    >
+    > Si el administrador ha impedido la eliminación de archivos bloqueados, solo entonces se muestra el mensaje de error. Para obtener más información, vea la sección *Impedir la eliminación de archivos desprotegidos* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
-   - Si el archivo se agrega a una colección, se muestra el cuadro de diálogo **Forzar eliminación** y puede eliminarlo a la fuerza.
-   - Si se hace referencia al archivo desde cualquier otro archivo, se mostrará el cuadro de diálogo **Forzar eliminación** con el mensaje de confirmación y podrá eliminar el archivo a la fuerza:
+  - Si el archivo se agrega a una colección, se muestra el cuadro de diálogo **Forzar eliminación** y puede eliminarlo a la fuerza.
+  - Si se hace referencia al archivo desde cualquier otro archivo, se mostrará el cuadro de diálogo **Forzar eliminación** con el mensaje de confirmación y podrá eliminar el archivo a la fuerza:
 
-     ![](images/options-menu-force-delete.png){width="300"}
+    ![](images/options-menu-force-delete.png){width="300"}
 
-     >[!NOTE]
-     >
-     > Si el administrador ha concedido permiso para eliminar archivos, se habilitará **Forzar eliminación**. De lo contrario, **Forzar eliminación** se deshabilitará y aparecerá un mensaje que indica que no tiene permiso para eliminar los archivos a los que se hace referencia. Para obtener más información, vea la sección *Impedir la eliminación de archivos a los que se hace referencia* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
+    >[!NOTE]
+    >
+    > Si el administrador ha concedido permiso para eliminar archivos, se habilitará **Forzar eliminación**. De lo contrario, **Forzar eliminación** se deshabilitará y aparecerá un mensaje que indica que no tiene permiso para eliminar los archivos a los que se hace referencia. Para obtener más información, vea la sección *Impedir la eliminación de archivos a los que se hace referencia* en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
 
-   - Si elimina un tema al que se hace referencia y ha abierto el archivo que contiene referencias para su edición, se mostrará el vínculo roto para el archivo al que se hace referencia.
+  - Si elimina un tema al que se hace referencia y ha abierto el archivo que contiene referencias para su edición, se mostrará el vínculo roto para el archivo al que se hace referencia.
 
   >[!NOTE]
   >
@@ -1243,14 +1264,14 @@ Las distintas opciones del menú Opciones se explican a continuación:
 
 - **Copiar**: puede elegir entre las siguientes opciones:
 
-   - **Copiar UUID**: copie el UUID del archivo seleccionado en el portapapeles.
+  - **Copiar UUID**: copie el UUID del archivo seleccionado en el portapapeles.
 
-   - **Copiar ruta**: copie la ruta completa del archivo seleccionado al Portapapeles.
+  - **Copiar ruta**: copie la ruta completa del archivo seleccionado al Portapapeles.
 
 - **Agregar a**: puede elegir entre las siguientes opciones:
-   - **Colecciones**: agrega el archivo seleccionado a Colecciones. Puede elegir agregarlo a una colección existente o nueva.
+  - **Colecciones**: agrega el archivo seleccionado a Colecciones. Puede elegir agregarlo a una colección existente o nueva.
 
-   - **Contenido reutilizable**: agrega el archivo seleccionado a la lista Contenido reutilizable del panel izquierdo.
+  - **Contenido reutilizable**: agrega el archivo seleccionado a la lista Contenido reutilizable del panel izquierdo.
 
 - **Propiedades**: utilice esta opción para abrir la página de propiedades del archivo seleccionado. También se puede acceder a esta página de propiedades desde la interfaz de usuario de Assets seleccionando un archivo y, a continuación, el icono Propiedades en la barra de herramientas.
 
@@ -1315,15 +1336,15 @@ Puede realizar las siguientes acciones mediante el menú Opciones del archivo de
 - **Vista previa**: abre una vista previa del archivo de mapa. En esta vista, todos los archivos de tema del mapa se muestran en una sola vista página a página unificada.
 
 - **Copiar**: puede elegir entre las siguientes opciones:
-   - **Copiar UUID**: copie el UUID del archivo de asignación al portapapeles.
-   - **Copiar ruta**: copie la ruta completa del archivo de asignación al Portapapeles.
+  - **Copiar UUID**: copie el UUID del archivo de asignación al portapapeles.
+  - **Copiar ruta**: copie la ruta completa del archivo de asignación al Portapapeles.
 
 - **Ubicar en el repositorio**: Muestra la ubicación del archivo de asignación en el repositorio \(o DAM\).
 
 - **Agregar a**: puede elegir entre las siguientes opciones:
-   - **Colecciones**: agrega el archivo de asignación a las colecciones. Puede elegir agregarlo a una colección existente o nueva.
+  - **Colecciones**: agrega el archivo de asignación a las colecciones. Puede elegir agregarlo a una colección existente o nueva.
 
-   - **Contenido reutilizable**: agrega el archivo de asignación a la lista Contenido reutilizable en el panel izquierdo.
+  - **Contenido reutilizable**: agrega el archivo de asignación a la lista Contenido reutilizable en el panel izquierdo.
 
 - **Propiedades**: utilice esta opción para abrir la página de propiedades del archivo de asignación. También se puede acceder a esta página de propiedades desde la interfaz de usuario de Assets seleccionando un archivo y el icono Propiedades en la barra de herramientas.
 
@@ -1371,8 +1392,8 @@ Puede realizar las siguientes acciones mediante el menú Opciones:
 
 - **Vista previa**: obtenga una vista previa rápida del archivo (.dita, .xml, audio, vídeo o imagen) sin abrirlo. Puede cambiar el tamaño del panel de vista previa. Si el contenido contiene `<xref>` o `<conref>`, puede seleccionarlo para abrirlo en una nueva pestaña.  El título del archivo aparece en la ventana. Si no hay ningún título, aparece el nombre de archivo. Para cerrar el panel **Vista previa**, puede seleccionar el icono de cerrar o seleccionar cualquier lugar fuera del panel.
 - **Copiar**: puede elegir entre las siguientes opciones:
-   - **Copiar UUID**: copie el UUID del archivo seleccionado en el portapapeles.
-   - **Copiar ruta**: copie la ruta completa del archivo seleccionado al Portapapeles.
+  - **Copiar UUID**: copie el UUID del archivo seleccionado en el portapapeles.
+  - **Copiar ruta**: copie la ruta completa del archivo seleccionado al Portapapeles.
 
 
 - **Buscar en el repositorio**: Muestra la ubicación del archivo seleccionado en el repositorio \(o DAM\).
@@ -1381,9 +1402,9 @@ Puede realizar las siguientes acciones mediante el menú Opciones:
 - **Contraer todo**: Contraer todos los temas que forman parte del archivo de asignación actual.
 
 - **Agregar a**: puede elegir entre las siguientes opciones:
-   - **Colecciones**: agrega el archivo seleccionado a las colecciones. Puede elegir agregarlo a una colección existente o nueva.
+  - **Colecciones**: agrega el archivo seleccionado a las colecciones. Puede elegir agregarlo a una colección existente o nueva.
 
-   - **Contenido reutilizable**: agrega el archivo seleccionado a la lista Contenido reutilizable del panel izquierdo.
+  - **Contenido reutilizable**: agrega el archivo seleccionado a la lista Contenido reutilizable del panel izquierdo.
 
 - **Propiedades**: utilice esta opción para abrir la página de propiedades del archivo seleccionado. También se puede acceder a esta página de propiedades desde la interfaz de usuario de Assets seleccionando un archivo y el icono Propiedades en la barra de herramientas.
 
@@ -1529,10 +1550,10 @@ Puede configurar las siguientes opciones de la herramienta Punto interactivo:
 - **Acción**: puede elegir buscar las claves del glosario **Manualmente para cada tema** o **Automáticamente para todos los temas**. Si elige **Manualmente para cada tema**, se le pedirá que confirme antes de convertir cada término en cada tema. Si elige **Automáticamente para todos los temas**, convertirá automáticamente todos los términos de todos los temas.
 - **Convertir**: puede convertir un **texto buscado en un término de glosario** o **término de glosario en texto.**
 - **Opciones**: puede seleccionar entre las siguientes opciones:
-   - **Coincidencia que distingue entre mayúsculas y minúsculas**: busca un término para encontrar la coincidencia que tiene la misma coincidencia. Por ejemplo, &quot;USB&quot; no coincidirá con &quot;usb&quot;.
-   - **Convertir solo la primera instancia**: si hay varias instancias del término buscado en un tema, solo se convierte la primera instancia.
-   - **Bloquear archivo antes de la conversión**: el archivo buscado está bloqueado antes de que se conviertan los términos.
-   - **Crear una nueva versión después de la conversión**: se crea una nueva versión del tema una vez completada la conversión de términos.
+  - **Coincidencia que distingue entre mayúsculas y minúsculas**: busca un término para encontrar la coincidencia que tiene la misma coincidencia. Por ejemplo, &quot;USB&quot; no coincidirá con &quot;usb&quot;.
+  - **Convertir solo la primera instancia**: si hay varias instancias del término buscado en un tema, solo se convierte la primera instancia.
+  - **Bloquear archivo antes de la conversión**: el archivo buscado está bloqueado antes de que se conviertan los términos.
+  - **Crear una nueva versión después de la conversión**: se crea una nueva versión del tema una vez completada la conversión de términos.
 - El botón **Siguiente** aparece si selecciona la opción **Manualmente para cada tema**. Seleccione **Siguiente** para convertir los términos de cada tema en función de la configuración seleccionada. Solicita la conversión de términos en cada tema y se mueve al siguiente archivo. Puede elegir convertir un término u omitirlo y pasar al siguiente.
 
   ![](images/manual-convert-skip.png){width="300"}
@@ -2001,7 +2022,7 @@ Puede acceder a la función **Propiedades de contenido** seleccionando el icono 
 
 1. En el panel desplegable **Atributo**, seleccione el atributo en la lista desplegable y especifique el valor de un atributo.  Luego selecciona **Agregar**.
 
-   ![panel de atributos con varios atributos &#x200B;](images/attributes-multiple-properties.png){width="300"}
+   ![panel de atributos con varios atributos ](images/attributes-multiple-properties.png){width="300"}
 
 1. Para editar el atributo, pasa el ratón sobre él y selecciona **Editar** ![editar-icono](images/edit_pencil_icon.svg).
 

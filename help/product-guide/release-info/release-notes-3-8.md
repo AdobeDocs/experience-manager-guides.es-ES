@@ -1,13 +1,19 @@
 ---
 title: Notas de la versión de Adobe Experience Manager Guides 3.8 y 3.8.5
 description: Las principales nuevas funciones y mejoras de las versiones 3.8 y 3.8.5 de Adobe Experience Manager Guides (anteriormente conocida como solución XML Documentation).
-source-git-commit: ff3d35832b80f6221f1261498934ab74261b282b
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1589'
 ht-degree: 0%
-
 ---
-
 
 # Notas de versión | Adobe Experience Manager Guides 3.8
 
@@ -66,8 +72,8 @@ Se han introducido una serie de nuevas funciones y mejoras en las siguientes ár
   ![Señal de versión](assets/old-version-icon.avif)
 
 - En esta versión se ha introducido una nueva función Historial de versiones. Utilice la función Historial de versiones para:
-   - Ver una lista de todas las versiones del tema activo junto con las etiquetas agregadas para cada versión.
-   - Volver a una versión anterior del tema.
+  - Ver una lista de todas las versiones del tema activo junto con las etiquetas agregadas para cada versión.
+  - Volver a una versión anterior del tema.
 
   ![Historial de versiones](assets/version-history.avif)
 
@@ -98,9 +104,9 @@ Se han introducido una serie de nuevas funciones y mejoras en las siguientes ár
 #### Publicación
 
 - **Permitir la configuración de reglas de saneamiento para páginas generadas del sitio**: como administrador, puede definir las reglas de saneamiento para los nombres de archivo del sitio AEM generado o la salida DITA-OT. Siempre que genere una salida o salida de sitio de AEM mediante DITA-OT, puede configurar las siguientes reglas para sanear las direcciones URL o los nombres de archivo generados por salida:
-   - Convierta todos los caracteres a minúsculas.
-   - Reemplace los caracteres especiales por un separador.
-   - Restrinja un nombre de archivo largo a un número predefinido de caracteres.
+  - Convierta todos los caracteres a minúsculas.
+  - Reemplace los caracteres especiales por un separador.
+  - Restrinja un nombre de archivo largo a un número predefinido de caracteres.
 
 - Inserte fácilmente la salida de la instancia de autor en la instancia de publicación mediante el panel de activación masiva. Puede trabajar con un solo mapa o una colección de mapas y elegir el ajuste preestablecido de salida que desee utilizar para la publicación.
 

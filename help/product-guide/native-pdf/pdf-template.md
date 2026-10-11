@@ -5,26 +5,39 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/omjPXvRH20uR9prVDmOiw-yowtcyX3S9YUqFJWDCLqM
+TQID: 'https://experienceleague.adobe.com/omjPXvRH20uR9prVDmOiw-yowtcyX3S9YUqFJWDCLqM'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1099
+source-wordcount: '1170'
 ht-degree: 0%
-
 ---
-
 # Plantilla de PDF {#PDF-template}
 
 El uso de una plantilla garantiza la coherencia en el diseño y la estructura del contenido. Como las plantillas están predefinidas, puede evitar volver a trabajar en los problemas de formato que surgen para cada proyecto nuevo o actualización. Las plantillas permiten diseñar diseños de página, aplicar estilos al contenido y aplicar diversas configuraciones para personalizar PDF.
@@ -106,7 +119,7 @@ Seleccione esta opción para ver la plantilla en la interfaz de usuario de Asset
 
 Una vez creada la plantilla personalizada, puede elegirla en Diseños de página en el ajuste preestablecido de salida de PDF.
 
-Aprenda a [publicar una salida de PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=es).
+Aprenda a [publicar una salida de PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
 >
@@ -160,14 +173,14 @@ Para personalizar una plantilla de PDF, realice los siguientes pasos:
 
    * Hojas de estilo: la configuración de la sección Hojas de estilo permite personalizar el aspecto de los componentes del diseño de página, como la TDC, el índice, el glosario, las citas, etc. Además, también se pueden personalizar estilos para el contenido DITA como encabezados, párrafos, listas, etc. Para obtener más información sobre el uso de las hojas de estilo, consulte [Usar hojas de estilo para personalizar PDF](components-pdf-template.md#stylesheet-customization).
    * Recursos: Almacene los archivos de recursos que necesite para personalizar o diseñar plantillas de PDF. Assets, como logotipos, fuentes personalizadas, imágenes de fondo y mucho más, se almacenan en los recursos.
-También puede utilizar los recursos presentes en cualquier otra ubicación del repositorio. No es necesario crear recursos duplicados para cada plantilla, y puede mantenerlos en una carpeta compartida y utilizarlos en todas las plantillas nativas de PDF.
+     También puede utilizar los recursos presentes en cualquier otra ubicación del repositorio. No es necesario crear recursos duplicados para cada plantilla, y puede mantenerlos en una carpeta compartida y utilizarlos en todas las plantillas nativas de PDF.
 
      Para obtener más información sobre el uso de los recursos, consulte [Trabajar con recursos](components-pdf-template.md#work-with-resources).
 
    * Settings: configure los ajustes de salida para generar una PDF con la plantilla. Esta sección le permite definir la asignación de plantillas para varias páginas de un PDF, la página de inicio del capítulo, los marcadores de impresión, las citas, etc.
 
    También puede organizar el orden en que deben aparecer en la salida final de PDF.
-Para obtener más información sobre cómo aplicar la configuración, consulte [Configuración avanzada de PDF](components-pdf-template.md#advanced-pdf-settings).
+   Para obtener más información sobre cómo aplicar la configuración, consulte [Configuración avanzada de PDF](components-pdf-template.md#advanced-pdf-settings).
 
 
 1. Para personalizar un componente de plantilla, haga doble clic en un componente de plantilla o seleccione el icono > que hay antes.

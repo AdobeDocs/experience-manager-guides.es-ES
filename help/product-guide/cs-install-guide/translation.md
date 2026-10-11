@@ -5,26 +5,36 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/WjrAoZplwWbFYxySm-faIIda81AWTYnqhvbdsRk8tjU
+TQID: 'https://experienceleague.adobe.com/WjrAoZplwWbFYxySm-faIIda81AWTYnqhvbdsRk8tjU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
 subfeature_v2:
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 877
+source-wordcount: '877'
 ht-degree: 8%
-
 ---
-
 # Traducir contenido {#id181GB0400UI}
 
 Automatice la traducción del contenido de la página, los activos y el contenido generado por el usuario para crear y mantener sitios web multilingües. Para automatizar los flujos de trabajo de traducción, se integran los proveedores de servicios de traducción con AEM y se crean proyectos para traducir contenido a varios idiomas. AEM admite flujos de trabajo de traducción automática y humana.
@@ -36,17 +46,17 @@ Automatice la traducción del contenido de la página, los activos y el contenid
 
 La traducción de contenido implica los siguientes pasos:
 
-1. Conecte AEM con su [proveedor de servicios de traducción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=es) y cree configuraciones del marco de trabajo de integración de traducciones.
+1. Conecte AEM con su [proveedor de servicios de traducción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) y cree configuraciones del marco de trabajo de integración de traducciones.
 
 1. Asocie las páginas del maestro de idioma con el servicio de traducción y las configuraciones del marco de trabajo.
 
-1. Identifique el tipo de [contenido para traducir](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=es).
+1. Identifique el tipo de [contenido para traducir](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
 
-1. [Preparar el contenido para su traducción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=es) creando el maestro de idioma y las páginas raíz de las copias de idioma.
+1. [Preparar el contenido para su traducción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en) creando el maestro de idioma y las páginas raíz de las copias de idioma.
 
-1. Cree [proyectos de traducción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=es) para recopilar el contenido que se va a traducir y para preparar el proceso de traducción.
+1. Cree [proyectos de traducción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) para recopilar el contenido que se va a traducir y para preparar el proceso de traducción.
 
-1. Use los proyectos de traducción para [administrar el proceso de traducción de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=es).
+1. Use los proyectos de traducción para [administrar el proceso de traducción de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en).
 
 
 Cuando el proveedor de servicios de traducción no proporciona un conector para la integración con AEM, AEM admite la exportación manual y la importación de contenido traducido en formato XML.
@@ -101,7 +111,7 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 
 >[!NOTE]
 >
-> Si está usando un conector de traducción, asegúrese de haber configurado el conector tal como se describe en el tema *[Configuración del marco de trabajo de integración de traducción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=es)* de la documentación de Adobe Experience Manager.
+> Si está usando un conector de traducción, asegúrese de haber configurado el conector tal como se describe en el tema *[Configuración del marco de trabajo de integración de traducción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* de la documentación de Adobe Experience Manager.
 
 >[!IMPORTANT]
 >

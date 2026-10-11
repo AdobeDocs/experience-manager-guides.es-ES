@@ -5,20 +5,25 @@ feature: Translation
 role: User, Admin
 author: Pulkit Nagpal (punagpal)
 exl-id: d7e4f3ae-2143-4767-b7ab-c89f5e5eef59
-TQID: https://experienceleague.adobe.com/n6-b3-ZsOIueVYWgcm1NkDLKRAOwQhWxctbgj7Q6P1U
+TQID: 'https://experienceleague.adobe.com/n6-b3-ZsOIueVYWgcm1NkDLKRAOwQhWxctbgj7Q6P1U'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4f263fb5c60be66c1ec2d30d57dfb8f5be06eb92
+    internal-label: Admin
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: '289'
 ht-degree: 0%
-
 ---
-
 # Prácticas recomendadas a seguir para la traducción en AEM Guides
 
 El rendimiento del proyecto de traducción puede disminuir a medida que la actividad de traducción en el sistema aumenta con el tiempo.
@@ -31,11 +36,11 @@ Cada proyecto de traducción genera varios grupos de usuarios para el acceso, lo
 
 - Marcar todos los proyectos como &quot;Inactivos&quot; una vez completada y aprobada la traducción.El proyecto permanece disponible para su revisión y se marca simplemente como inactivo.
   - Seguir estos pasos ayudará a mantener el rendimiento general de la traducción en buen estado de salud.
-    ![Proyecto De Traducción Inactivo &#x200B;](./assets/translation-project-image1.png)
+    ![Proyecto De Traducción Inactivo ](./assets/translation-project-image1.png)
 
 - La carpeta de proyectos más antiguos, que está marcada como inactiva, aprobada y revisada, debe eliminarse
   - Seguir estos pasos ayudará a mantener el rendimiento general de la traducción en buen estado al limpiar los archivos de traducción temporales y los grupos de usuarios asociados a esta carpeta de proyecto.
-    ![Eliminar proyecto de traducción y carpeta &#x200B;](./assets/translation-project-image2.png)
+    ![Eliminar proyecto de traducción y carpeta ](./assets/translation-project-image2.png)
 
 
 ## Si está en, versión 4.6 o 2404 o posterior:
@@ -44,4 +49,4 @@ Puede seguir siguiendo los mismos pasos que se mencionaron anteriormente. A part
 
 Consulte: [Eliminar o deshabilitar automáticamente un proyecto de traducción completado](../../../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project)
 
-![Configuración automatizada para eliminar y deshabilitar el proyecto de traducción en AEM Guides &#x200B;](./assets/translation-project-image3.png)
+![Configuración automatizada para eliminar y deshabilitar el proyecto de traducción en AEM Guides ](./assets/translation-project-image3.png)

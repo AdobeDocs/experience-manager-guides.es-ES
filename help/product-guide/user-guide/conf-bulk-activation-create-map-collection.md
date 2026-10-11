@@ -4,23 +4,30 @@ description: Obtenga información sobre cómo crear una colección de mapas de a
 exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
 feature: Publishing, Bulk Activation
 role: User
-TQID: https://experienceleague.adobe.com/wsG3SOMPqESl5dtCXw0wERboSJ57RG2PIR9QKYow-5Q
+TQID: 'https://experienceleague.adobe.com/wsG3SOMPqESl5dtCXw0wERboSJ57RG2PIR9QKYow-5Q'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+    internal-label: Bulk activation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 732
+source-wordcount: '758'
 ht-degree: 0%
-
 ---
-
 # Creación de una colección de mapas de activación masiva {#id214GG0E90EV}
 
 Para crear una recopilación de mapas de activación masiva, realice los siguientes pasos:
@@ -58,7 +65,7 @@ Para crear una recopilación de mapas de activación masiva, realice los siguien
 
 Los ficheros de mapa DITA se añaden a la recopilación de mapas de activación masiva.
 
-![&#x200B; creó la colección de activación masiva](images/bulk-activation-collection-created.png)
+![ creó la colección de activación masiva](images/bulk-activation-collection-created.png)
 
 ## Pestaña Mapas y ajustes preestablecidos
 
@@ -97,7 +104,7 @@ La ficha **Historial de auditoría** presenta información sobre los resultados 
 
 - **Modificado**: indica si el mapa DITA se actualizó después de la última publicación. En función de esta información, puede decidir si desea activar la salida para este mapa DITA.
 - **Publicado**: Muestra la fecha y la hora de la última salida publicada (o activada). Si selecciona el vínculo, se muestra la página Resultados de la activación, que contiene los registros con información sobre la ruta raíz en la que se activa el contenido.
-  ![&#x200B; creó la pestaña del historial de auditoría de la colección de activación masiva](images/bulk-collection-audit-history.png)
+  ![ creó la pestaña del historial de auditoría de la colección de activación masiva](images/bulk-collection-audit-history.png)
 
   *Vea la información acerca de los resultados del mapa activado en la ficha **Historial de auditoría**.*
 
@@ -118,4 +125,4 @@ Las siguientes opciones de filtrado están disponibles en el panel izquierdo:
 
 Los filtros se actualizan cuando cambia de la ficha **Mapas y ajustes preestablecidos** a la ficha **Historial de auditoría** y viceversa.
 
-**Tema principal: &#x200B;** [Activación masiva del contenido publicado](conf-bulk-activation.md)
+**Tema principal: **[Activación masiva del contenido publicado](conf-bulk-activation.md)

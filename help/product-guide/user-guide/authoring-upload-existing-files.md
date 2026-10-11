@@ -4,35 +4,40 @@ description: Obtenga información sobre cómo cargar los archivos en el reposito
 exl-id: b5430242-1122-43df-a0b2-275b1dea33f2
 feature: Content Management
 role: User
-TQID: https://experienceleague.adobe.com/GG5Bx2yyJz2GaQFmMsDZ6wq6xzb4XUAsSBxEkRNvEVE
+TQID: 'https://experienceleague.adobe.com/GG5Bx2yyJz2GaQFmMsDZ6wq6xzb4XUAsSBxEkRNvEVE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 2afda568-c433-5cad-ab97-19b8847286b0
+    internal-label: Content Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d1a4b75ef3acd3d02cce2225f03e1f9b3a086ef7
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 695
+source-wordcount: '695'
 ht-degree: 0%
-
 ---
-
 # Cargar archivos {#id176FF000JUI}
 
 Lo más probable es que tenga un repositorio de contenido DITA existente que desee utilizar con Adobe Experience Manager Guides. Para dicho contenido existente, puede utilizar cualquiera de los siguientes métodos para cargar el contenido en lote en el repositorio de Adobe Experience Manager.
 
 >[!IMPORTANT]
 >
-> Vea [Agregar recursos digitales a Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=es) para obtener información detallada en los métodos de carga de contenido admitidos en Adobe Experience Manager.
+> Vea [Agregar recursos digitales a Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) para obtener información detallada en los métodos de carga de contenido admitidos en Adobe Experience Manager.
 
 ## Interfaz de usuario de la consola Assets
 
-Para [agregar recursos digitales a Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=es#filename-handling?lang=es#upload-assets) mediante la interfaz de usuario de la consola de Assets, seleccione el recurso necesario en el escritorio y arrastre en la interfaz de usuario de Adobe Experience Manager \(explorador web\) a la carpeta de destino. Al cargar recursos, asegúrese de que los nombres de archivo no incluyan caracteres no admitidos o prohibidos.
+Para [agregar recursos digitales a Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling#upload-assets) mediante la interfaz de usuario de la consola de Assets, seleccione el recurso necesario en el escritorio y arrastre en la interfaz de usuario de Adobe Experience Manager \(explorador web\) a la carpeta de destino. Al cargar recursos, asegúrese de que los nombres de archivo no incluyan caracteres no admitidos o prohibidos.
 
-Para obtener más información, consulte la sección [Administración de nombres de archivo y caracteres prohibidos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=es#filename-handling) en la documentación de Adobe Experience Manager.
+Para obtener más información, consulte la sección [Administración de nombres de archivo y caracteres prohibidos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling) en la documentación de Adobe Experience Manager.
 
 ### Carga de archivos mediante la interfaz de usuario de Assets
 
@@ -49,11 +54,11 @@ Una vez que la carga se ha completado correctamente, el sistema muestra un mensa
 
 ## Aplicación de escritorio de Adobe Experience Manager
 
-Utilice la aplicación de escritorio de Adobe Experience Manager si es un profesional creativo y desea administrar los recursos en su escritorio local. Puede abrir y editar estos recursos con las aplicaciones de escritorio. También puede mantener las versiones y compartir los archivos con otros usuarios. Para obtener más información, vea [Aplicación de escritorio de Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=es).
+Utilice la aplicación de escritorio de Adobe Experience Manager si es un profesional creativo y desea administrar los recursos en su escritorio local. Puede abrir y editar estos recursos con las aplicaciones de escritorio. También puede mantener las versiones y compartir los archivos con otros usuarios. Para obtener más información, vea [Aplicación de escritorio de Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html).
 
 ## Ingestor masivo de recursos
 
-Si tiene migraciones a gran escala e ingestas masivas ocasionales, utilice el Ingestor masivo de recursos para cargar el contenido. Con esta herramienta, puede cargar contenido en bloque desde almacenes de datos compatibles como Azure o S3. Para obtener más información, vea [Ingestor masivo de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=es#asset-bulk-ingestor).
+Si tiene migraciones a gran escala e ingestas masivas ocasionales, utilice el Ingestor masivo de recursos para cargar el contenido. Con esta herramienta, puede cargar contenido en bloque desde almacenes de datos compatibles como Azure o S3. Para obtener más información, vea [Ingestor masivo de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
 
 ## Uso de FrameMaker para cargas masivas
 
@@ -74,4 +79,4 @@ Si utiliza una herramienta como la aplicación de escritorio de Adobe Experience
 
 
 
-**Tema principal:**&#x200B;[&#x200B; Administrar contenido](authoring.md)
+**Tema principal:**[ Administrar contenido](authoring.md)

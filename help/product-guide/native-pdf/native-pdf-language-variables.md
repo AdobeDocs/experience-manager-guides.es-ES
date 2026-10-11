@@ -5,19 +5,28 @@ exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/Tl18qyeww079p8XGKwbKTN8TvoZLb-q9mPQ-8q660Dc
+TQID: 'https://experienceleague.adobe.com/Tl18qyeww079p8XGKwbKTN8TvoZLb-q9mPQ-8q660Dc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 0%
@@ -132,7 +141,7 @@ Las variables con el mismo ID se importan una vez importado el archivo. Los valo
 >[!NOTE]
 > 
 ><ul><li>Si el archivo no es un archivo XML o si contiene un formato incorrecto que no se asigna con las variables de idioma, verá un error que indica que hay un problema con el archivo XML. 
->&gt;<li>Si el archivo no contiene variables con el mismo ID, verá una advertencia que indica que no se encuentra ninguna variable de idioma coincidente en el archivo importado.
+&gt;<li>Si el archivo no contiene variables con el mismo ID, verá una advertencia que indica que no se encuentra ninguna variable de idioma coincidente en el archivo importado.
 
 ### Opciones de una variable de idioma
 
@@ -140,7 +149,7 @@ Pase el ratón sobre la variable para ver el menú **Opciones** correspondiente.
 
 <img width="550" alt="menú opciones para variables de idioma" src="./assets/language-variable-user-options.png">
 
-*Use el menú&#x200B;**Opciones**&#x200B;para eliminar, obtener una vista previa o duplicar una variable de idioma.*
+*Use el menú&#x200B;**Opciones**para eliminar, obtener una vista previa o duplicar una variable de idioma.*
 
 Puede obtener una vista previa de las variables aplicación y usuario. Para ver cómo se muestra el valor de la variable en la salida, seleccione **Vista previa** en el menú **Opciones** de la variable seleccionada.
 También puede elegir **Eliminar** o **Duplicar** las variables de usuario. Al eliminar una variable de un idioma, se elimina automáticamente de todos los idiomas.

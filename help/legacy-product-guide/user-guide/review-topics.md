@@ -5,19 +5,23 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
-TQID: https://experienceleague.adobe.com/q07HdBMHuEyjdQ12idI4-PuBol-NpCWXTsOuZgcAhps
+TQID: 'https://experienceleague.adobe.com/q07HdBMHuEyjdQ12idI4-PuBol-NpCWXTsOuZgcAhps'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2362
+source-wordcount: '2362'
 ht-degree: 0%
-
 ---
-
 # Revisar temas {#id2056B0W0FBI}
 
 Si es revisor, recibirá un correo electrónico de solicitud de revisión con el vínculo a los temas de la revisión. Al hacer clic en el vínculo, accederá a la página de revisión, donde podrá añadir sus comentarios sobre los temas compartidos.
@@ -256,4 +260,4 @@ Seleccione una o más de las siguientes opciones de filtrado en el cuadro de di�
 
 Para quitar el filtro y ver todos los comentarios, anule la selección de todos los filtros del cuadro de diálogo **Tipo de filtro** y haga clic en **Aplicar**.
 
-**Tema principal:**&#x200B;[&#x200B; Revisar temas o asignaciones](review.md)
+**Tema principal:**[ Revisar temas o asignaciones](review.md)

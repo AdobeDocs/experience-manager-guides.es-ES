@@ -5,37 +5,56 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/By8tpSe4XkfhYsfCbJMhlGqyi3asQfJa2QqlLF6zKDQ
+TQID: 'https://experienceleague.adobe.com/By8tpSe4XkfhYsfCbJMhlGqyi3asQfJa2QqlLF6zKDQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: e13e7f13-0f4c-43f9-b0a7-1f33bd47e105
+    internal-label: Troubleshooting
   - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Content reuse
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 5239
+source-wordcount: '5239'
 ht-degree: 0%
-
 ---
-
 # Configuración de perfiles globales o de nivel de carpeta {#id181AH2003PF}
 
 En una empresa, diferentes grupos o productos pueden utilizar diferentes plantillas de creación, plantillas de salida, perfiles de atributos condicionales \(o esquemas de asunto\) y configuraciones del Editor web. La configuración de estos solo a nivel empresarial \(o global\) puede dificultar la experiencia de los autores, ya que verán plantillas o perfiles que no son relevantes para ellos.
@@ -54,21 +73,21 @@ Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede est
 
 - **Plantillas**: utilice esta ficha para configurar las plantillas que los autores utilizarán para crear o publicar contenido DITA. Las siguientes plantillas de temas están disponibles de forma predeterminada:
 
-   - Glosario
+  - Glosario
 
-   - Referencia
+  - Referencia
 
-   - Tema
+  - Tema
 
-   - Concepto
+  - Concepto
 
-   - Tarea
+  - Tarea
 
-   - Resolución de problemas
+  - Resolución de problemas
 
-   - En blanco
+  - En blanco
 
-   - DITAVAL
+  - DITAVAL
 
   >[!NOTE]
   >
@@ -76,33 +95,33 @@ Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede est
 
   Junto con las plantillas de temas, también puede definir las plantillas de mapas que estarán disponibles para los autores. Las siguientes plantillas de mapas están disponibles de forma predeterminada:
 
-   - Mapa
+  - Mapa
 
-   - Bookmap
+  - Bookmap
 
 - **Ajuste preestablecido de salida**: de forma similar a las plantillas, hay cinco ajustes preconfigurados de salida:
 
-   - Sitio de AEM
+  - Sitio de AEM
 
-   - PDF
+  - PDF
 
-   - HTML5
+  - HTML5
 
-   - EPUB
+  - EPUB
 
-   - Personalizado
+  - Personalizado
 
   Los editores pueden utilizar estos ajustes preestablecidos de salida predeterminados para publicar contenido. Un administrador del perfil global o de nivel de carpeta puede configurar estos ajustes preestablecidos. Una vez configurados, los editores pueden acceder a los ajustes preestablecidos de publicación para las asignaciones DITA recién creadas. También puede aplicar ajustes preestablecidos de publicación a mapas DITA existentes. Consulte [Aplicar cambios de ajustes preestablecidos](#id18AGD0K0OHS) para obtener más información.
 
 - **Configuraciones del editor XML**: utilice esta ficha para personalizar el aspecto y las diversas características del editor Web. Las siguientes opciones configurables están disponibles para el editor web:
 
-   - Configuración de IU del Editor XML
-   - Diseño de página del editor XML
-   - Configuración del editor XML
-   - Diseño de plantilla CSS
-   - Fragmentos del editor XML
-   - Etiquetas de versión de contenido XML
-   - Rootmap \(solo en el nivel de carpeta\)
+  - Configuración de IU del Editor XML
+  - Diseño de página del editor XML
+  - Configuración del editor XML
+  - Diseño de plantilla CSS
+  - Fragmentos del editor XML
+  - Etiquetas de versión de contenido XML
+  - Rootmap \(solo en el nivel de carpeta\)
 
 Puede configurar ambos: perfil global y perfil de nivel de carpeta. En un perfil de nivel de carpeta, puede definir las carpetas en las que se aplicará la configuración. Esta configuración incluye atributos condicionales, plantillas, ajustes preestablecidos de salida y configuración del Editor XML. A continuación, los ajustes preestablecidos condicionales, las plantillas y las configuraciones del Editor XML se ponen a disposición de los autores que trabajan en las carpetas configuradas. Del mismo modo, los editores tendrán acceso a los ajustes preestablecidos de salida configurados definidos dentro de las carpetas configuradas.
 
@@ -435,7 +454,7 @@ Si ha actualizado un ajuste preestablecido de salida existente o desea que un nu
 
 ## Configuración del asistente de IA para la creación y la ayuda inteligentes
 
-Para Experience Manager Guides as a Cloud Service (![nube de AEM &#x200B;](assets/aem-cloud-icon.svg)).
+Para Experience Manager Guides as a Cloud Service (![nube de AEM ](assets/aem-cloud-icon.svg)).
 
 El asistente de IA de Adobe Experience Manager Guides es una potente herramienta impulsada por IA que se ha diseñado para mejorar el contenido mediante la creación inteligente y las experiencias de reutilización de contenido. Reúne dos características de IA sólidas — **Creación** y **Ayuda** — en la interfaz de Experience Manager Guides, lo que le permite autorizar documentos y acceder a información de forma más rápida y eficaz.
 
@@ -521,9 +540,9 @@ Para garantizar que las sugerencias inteligentes funcionen correctamente, tenga 
 
 **Personalizar las preguntas predeterminadas para la ayuda inteligente**
 
-Para Experience Manager Guides as a Cloud Service (![nube de AEM &#x200B;](assets/aem-cloud-icon.svg)).
+Para Experience Manager Guides as a Cloud Service (![nube de AEM ](assets/aem-cloud-icon.svg)).
 
-Puede configurar la **Ayuda** inteligente con tecnología de IA para ayudar a los autores a hacer preguntas y encontrar fácilmente el contenido requerido de la [documentación de Experience Manager Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/overview).
+Puede configurar la **Ayuda** inteligente con tecnología de IA para ayudar a los autores a hacer preguntas y encontrar fácilmente el contenido requerido de la [documentación de Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 La ficha **Configuración del editor XML** le permite configurar las preguntas predeterminadas del panel **Ayuda**.
 
@@ -575,7 +594,7 @@ De forma predeterminada, el Editor XML incluye muchas características que ayuda
 
 Esta configuración le permite crear extensiones JSON que reflejen las modificaciones realizadas en el archivo `ui_config.json`. Puede cargar de forma independiente estas extensiones en el nivel de perfil de carpeta, lo que ofrece una mayor flexibilidad y personalización. Por ejemplo, cuando se realizan cambios en la **configuración del editor XML**, como actualizar un botón, el sistema identifica automáticamente las diferencias. Al cargar estos cambios en la **configuración de la interfaz de usuario del editor XML** y convertirlos en extensiones JSON mediante el botón **Convertir configuración de la interfaz de usuario a JSON**, el sistema genera una extensión que incorpora la nueva funcionalidad.
 
-Obtenga más información sobre [personalizar configuraciones de JSON y convertir configuraciones de IU para el nuevo Editor de AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Obtenga más información sobre [personalizar configuraciones de JSON y convertir configuraciones de IU para el nuevo Editor de AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >

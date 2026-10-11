@@ -4,26 +4,33 @@ description: Con el motor de publicación nativo de PDF, puede controlar el dise
 exl-id: ddaf4e83-9958-42c5-b172-4c9f8e923910
 feature: Native PDF Output
 role: User, Admin
-TQID: https://experienceleague.adobe.com/dFEpXuwcMdlNqPf9r97DCfhTABQfoCnDPIG7bZMwsZg
+TQID: 'https://experienceleague.adobe.com/dFEpXuwcMdlNqPf9r97DCfhTABQfoCnDPIG7bZMwsZg'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: c4e6b17e-c50c-59a1-a719-9c33ce69e5b6
+    internal-label: Native PDF Output
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 341
+source-wordcount: '341'
 ht-degree: 0%
-
 ---
-
 # Publicación nativa de PDF - Aprendizaje por ejemplos - 01
 
 Con el motor de publicación nativo de PDF, puede controlar el diseño del contenido del documento mientras manipula las secciones deseadas según sea necesario mediante CSS, HTML y JavaScript fáciles de actualizar
@@ -55,13 +62,13 @@ En esta sesión, aprendió lo siguiente para la publicación nativa de PDF:
 
 ## Recursos relacionados
 
-- **Pasos nativos de configuración de PDF** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=es)
+- **Pasos nativos de configuración de PDF** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
 
-- **Información general funcional de la publicación nativa de PDF** - [en Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=es)
+- **Información general funcional de la publicación nativa de PDF** - [en Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **Casos de uso común documentados** - [en Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=es)
+- **Casos de uso común documentados** - [en Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
-- **Foro de la comunidad**: para interacciones de la comunidad específicas de la sesión en Experience League, visita [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=es).
+- **Foro de la comunidad**: para interacciones de la comunidad específicas de la sesión en Experience League, visita [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >

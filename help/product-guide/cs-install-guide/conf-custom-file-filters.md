@@ -5,27 +5,36 @@ exl-id: 1ef2cec8-2e77-40c1-9ed2-324048bf65fb
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/16wf6vZUb-0tknXb7LrHfHgViX-dTWRqRkQU4CIPCWM
+TQID: 'https://experienceleague.adobe.com/16wf6vZUb-0tknXb7LrHfHgViX-dTWRqRkQU4CIPCWM'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 375
+source-wordcount: '375'
 ht-degree: 0%
-
 ---
-
 # Configurar filtros para cuadro de diálogo de exploración de archivos {#id20CIL7009GN}
 
 Mientras trabaja en el Editor Web, debe utilizar el cuadro de diálogo de exploración de archivos para insertar elementos como imagen, referencia o referencia de clave. El cuadro de diálogo de exploración de archivos predeterminado no ofrece ninguna opción de filtrado de archivos. Puede añadir sus propios filtros para acceder a los archivos necesarios de forma fácil y rápida.
@@ -65,13 +74,13 @@ Realice los siguientes pasos para agregar las opciones de filtrado de archivos p
    En el fragmento de código anterior, el primer filtro es para archivos DITA. La definición del filtro toma los siguientes parámetros:
 
    título
-: Nombre para mostrar del filtro. Este título aparece como la opción de filtrado en el cuadro de diálogo de exploración de archivos.
+   : Nombre para mostrar del filtro. Este título aparece como la opción de filtrado en el cuadro de diálogo de exploración de archivos.
 
    propiedad
-: La propiedad que debe coincidir en los metadatos del archivo. Por ejemplo, para permitir solo los archivos que tienen los metadatos `dita_class` en su propiedad, el filtro de propiedad toma &quot; `jcr:content/metadata/dita_class`&quot; como su valor.
+   : La propiedad que debe coincidir en los metadatos del archivo. Por ejemplo, para permitir solo los archivos que tienen los metadatos `dita_class` en su propiedad, el filtro de propiedad toma &quot; `jcr:content/metadata/dita_class`&quot; como su valor.
 
    operación
-: especifique &quot;`exists`&quot; para que coincida con la existencia del valor especificado en el parámetro de propiedad.
+   : especifique &quot;`exists`&quot; para que coincida con la existencia del valor especificado en el parámetro de propiedad.
 
    El segundo filtro es para archivos de imagen. Los parámetros son similares al primer filtro excepto el parámetro `value`. El parámetro `value` toma una matriz de tipos de imagen como valor. Todos los tipos de archivo especificados en el parámetro value se buscan y se muestran en el cuadro de diálogo de exploración de archivos; el resto de tipos de archivo se omiten.
 
@@ -82,4 +91,4 @@ Realice los siguientes pasos para agregar las opciones de filtrado de archivos p
    ![](assets/file-browse-custom-filters.png)
 
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)
+**Tema principal:**[ Personalizar editor web](conf-web-editor.md)

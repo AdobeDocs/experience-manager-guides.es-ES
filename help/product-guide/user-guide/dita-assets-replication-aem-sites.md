@@ -4,13 +4,25 @@ description: Obtenga información sobre cómo duplicar recursos de origen DITA
 feature: Publishing
 role: User
 exl-id: 71aec782-2cc1-4fd5-b35b-97a603c3dd48
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
-
 ---
-
 # Administrar la duplicación de recursos de origen DITA
 
 Cuando los resultados generados a partir del contenido DITA se publican mediante **Publicación rápida** o **Administrar publicación** en algún entorno de publicación, AEM también intenta publicar los recursos de origen DITA asociados, como mapas DITA y, en algunos casos, temas DITA. Esto ocurre porque AEM trata los recursos DITA como dependencias de las páginas de Sites generadas.

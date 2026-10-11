@@ -5,26 +5,36 @@ exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/S-gzuvk3PoU8kiNR9m39L50ftQRTrt8RnZ3Lo9WJkZs
+TQID: 'https://experienceleague.adobe.com/S-gzuvk3PoU8kiNR9m39L50ftQRTrt8RnZ3Lo9WJkZs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 5060
+source-wordcount: '5089'
 ht-degree: 0%
-
 ---
-
 # Diseño de una página {#design-page-layout}
 
 Al crear un documento de PDF, tendría diferentes secciones para presentar diferentes tipos de información. Por ejemplo, un documento de PDF comenzaría desde una portada o portada, que tendría el logotipo de su empresa, el título del libro o la información de la versión. Luego habría capítulos, apéndices o páginas de glosarios. Cada sección de un documento de PDF tiene un aspecto diferente y se logra creando y personalizando el diseño de página.
@@ -113,9 +123,9 @@ Al diseñar un diseño de página, es esencial tener control sobre las distintas
 * **Rotación de vista** : especifique el lado o la dirección en que se representa el lado superior original después de la rotación. Puede elegir entre 90 en sentido horario, 90 en sentido antihorario o 180 en sentido antihorario. Esto resulta muy útil en una situación en la que desea utilizar una combinación de diseños Vertical y Horizontal en la salida. Por ejemplo, puede utilizar vertical como diseño de página genérico y establecer un diseño de página horizontal para representar tablas anchas. En ese caso, puede configurar para que muestre el contenido de la tabla en el sentido de las agujas del reloj 90 grados. De esta forma, la página estará orientada en horizontal y el contenido rotará 90 grados para mantener la continuidad a la vista. Veremos cómo se logra esto como ejemplo más adelante en esta sección.
 
 * **Numeración de páginas** :The La numeración de páginas es, de manera predeterminada, continua en PDF. Por ejemplo, una PDF de 100 páginas podría tener números de página continuos de 1 a 100. También puede reiniciar la numeración desde un número específico en todas las secciones diferentes o desde la primera aparición de una sección.
-   * **Reiniciar desde** : especifique el número de página desde el que se iniciará la numeración para este diseño de página. Por ejemplo, puede establecer el número de página para que se reinicie cada capítulo. En ese caso, debe establecer la propiedad restart from en 1 en la variante First page layout del diseño de página del capítulo. De forma predeterminada, la numeración de páginas continúa desde la página anterior.
+  * **Reiniciar desde** : especifique el número de página desde el que se iniciará la numeración para este diseño de página. Por ejemplo, puede establecer el número de página para que se reinicie cada capítulo. En ese caso, debe establecer la propiedad restart from en 1 en la variante First page layout del diseño de página del capítulo. De forma predeterminada, la numeración de páginas continúa desde la página anterior.
 
-   * **Aplicar solo a la primera incidencia**: También puede comenzar desde un número específico solo para la primera incidencia de una sección. Por ejemplo, puede comenzar solamente el primer capítulo desde 1 y continuar con los números de página de otros capítulos.
+  * **Aplicar solo a la primera incidencia**: También puede comenzar desde un número específico solo para la primera incidencia de una sección. Por ejemplo, puede comenzar solamente el primer capítulo desde 1 y continuar con los números de página de otros capítulos.
 
 * **Diseño** : especifique los márgenes de página junto con el relleno para los lados superior, inferior, izquierdo y derecho. La siguiente ilustración explica cómo se representan los márgenes, el relleno y los bordes alrededor del contenido. Tenga en cuenta que el margen superior e inferior de una página contiene el encabezado y el pie de página.
 
@@ -370,7 +380,7 @@ Existen las siguientes categorías para los campos que puede insertar en el dise
 * Título del mapa
 * Número de página
 * Número de capítulo
-* Total de páginas
+* Páginas totales
 * Fecha
 * Hora
 

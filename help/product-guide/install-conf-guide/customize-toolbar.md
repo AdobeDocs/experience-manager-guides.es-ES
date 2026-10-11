@@ -5,20 +5,35 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 42f1ee19-cc59-49da-b882-5d97ec387df6
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1728'
 ht-degree: 0%
-
 ---
-
 # Personalizar barra de herramientas {#id172FB00L0V6}
 
 De forma predeterminada, el editor incluye las funciones editoriales más comunes que requiere cualquier editor DITA. Las funciones como la inserción de elementos de tipo lista \(numerada o con viñetas\), referencia cruzada, referencia de contenido, tabla, párrafo y formato de caracteres están disponibles en el editor. Además de estos elementos básicos, puede personalizar el Editor para insertar elementos que se utilizan en el entorno de creación.
 
 >[!NOTE]
 >
-> Al migrar de la IU antigua a la nueva IU de AEM Guides (aplicable a partir de las versiones 2502 y 5.0 de AEM Guides), las actualizaciones de `ui_config` deben convertirse a configuraciones de IU más flexibles y modulares. Este marco de trabajo ayuda a adoptar cambios sin problemas en la barra de herramientas del editor y en otros widgets de destino según corresponda. Para obtener más información, vea [Información general sobre Convert UI Config](https://experienceleague.adobe.com/es/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Al migrar de la IU antigua a la nueva IU de AEM Guides (aplicable a partir de las versiones 2502 y 5.0 de AEM Guides), las actualizaciones de `ui_config` deben convertirse a configuraciones de IU más flexibles y modulares. Este marco de trabajo ayuda a adoptar cambios sin problemas en la barra de herramientas del editor y en otros widgets de destino según corresponda. Para obtener más información, vea [Información general sobre Convert UI Config](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Existen dos formas de personalizar la barra de herramientas del Editor:
 
@@ -55,16 +70,16 @@ Las siguientes pestañas proporcionan instrucciones basadas en la configuración
    **elementos**: especifique la definición de todos los grupos en la barra de herramientas. Cada grupo puede contener uno o varios iconos de la barra de herramientas. Para definir iconos dentro de un grupo de barras de herramientas, debe definir de nuevo el atributo `type` dentro de `items` y establecer su valor en `buttonGroup`. Especifique uno o varios nombres de clase en la propiedad `extraclass`. Especifique el nombre de la característica en la propiedad `label`. El siguiente fragmento del archivo `ui_config.json` muestra la definición del bloque de barra de herramientas principal, seguida de la definición `buttonGroup`:
 
        &quot;
-     &quot;toolbar&quot;: &lbrace;
+     &quot;toolbar&quot;: {
      &quot;type&quot;: &quot;blockGroup&quot;,
      &quot;extraclass&quot;:
      &quot;toolbar operations&quot;,
-     &quot;items&quot;: &lbrack;
-     &lbrace;
+     &quot;items&quot;: [
+     {
      &quot;type&quot;: &quot;buttonGroup&quot;,
      &quot;extraclass&quot;: &quot;left-controls&quot;,
      &quot;label&quot;: &quot;Left Controles&quot;,
-     &quot;elementos&quot;: &lbrack;
+     &quot;elementos&quot;: [
      &quot;
    
    En la colección `items`, debe especificar la definición de uno o más iconos de la barra de herramientas.
@@ -133,7 +148,7 @@ Las siguientes pestañas proporcionan instrucciones basadas en la configuración
 
 1. En el archivo `ui_config.json`, agregue la definición de la nueva característica en la sección de barras de herramientas. Normalmente, puede crear un nuevo grupo de botones de barra de herramientas y agregarle uno o más botones de barra de herramientas. O bien, puede agregar un nuevo botón de barra de herramientas dentro de un grupo existente. Se requieren los siguientes detalles para crear un nuevo grupo de barras de herramientas:
 
-   - **type:**&#x200B;Especifique `blockGroup` como el valor `type`. Este valor indica que está creando un grupo de bloques que contendría uno o más grupos de barras de herramientas.
+   - **type:**Especifique `blockGroup` como el valor `type`. Este valor indica que está creando un grupo de bloques que contendría uno o más grupos de barras de herramientas.
 
    - **extraclass:** Nombre de la clase o clases separadas por espacio.
 
@@ -153,7 +168,7 @@ Las siguientes pestañas proporcionan instrucciones basadas en la configuración
      ```
 
      En la colección `items`, debe especificar la definición de uno o más iconos de la barra de herramientas.
-Debe definir las siguientes propiedades para añadir un icono de la barra de herramientas:
+     Debe definir las siguientes propiedades para añadir un icono de la barra de herramientas:
 
    - **tipo:** Especifique `button` como el valor `type`. Este valor indica que está agregando un botón de barra de herramientas.
 

@@ -5,13 +5,28 @@ feature: User Management
 role: Admin
 level: Experienced
 exl-id: c5ac6537-d7e8-4408-b85d-b82d7c038591
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: dc1f7602-db3c-4ad4-a440-ff999bb16455
+    internal-label: User management
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 10%
-
 ---
-
 # Administración de usuarios y seguridad {#id181AED00G5Z}
 
 Para acceder y configurar las funciones de AEM Guides, debe crear usuarios. A estos usuarios se les pueden asignar permisos para acceder a todas las funciones o a determinadas funciones de AEM Guides. Aprenda a configurar y mantener la autorización de usuarios, y también comprenda la teoría detrás del funcionamiento de la autenticación y la autorización en AEM.
@@ -20,7 +35,7 @@ Los siguientes temas de la documentación de Adobe Experience Manager le ayudar�
 
 | Cloud Services | En las instalaciones |
 |---|---|
-| [Usuarios, grupos y permisos de AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=es)<br>[Administración de usuarios y seguridad](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=es) | [Usuarios y grupos en AEM](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[Permisos en AEM](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[Administración de usuarios y grupos](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[Administración de permisos](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
+| [Usuarios, grupos y permisos de AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)<br>[Administración de usuarios y seguridad](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=es) | [Usuarios y grupos en AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[Permisos en AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[Administración de usuarios y grupos](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[Administración de permisos](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
 
 
 ## Grupos de usuarios creados por AEM Guides {#id181TF0K0MHT}
@@ -85,11 +100,11 @@ La siguiente lista contiene algunas recomendaciones y puntos relacionados con gr
 
 - De manera predeterminada, se concede acceso y permisos a *Publishers* en las siguientes carpetas de DAM:
 
-   - `/content/fmdita` -\> Leer y escribir (se aplica a: ![](./assets/Smock_Cloud_18_N.svg))<br>``/var/dxml``-\> Leer y escribir (se aplica a: ![](./assets/Smock_Building_18_N.svg))
+  - `/content/fmdita` -\> Leer y escribir (se aplica a: ![](./assets/Smock_Cloud_18_N.svg))<br>``/var/dxml``-\> Leer y escribir (se aplica a: ![](./assets/Smock_Building_18_N.svg))
 
-   - `/content/dam/fmdita-outputs` -\> leer y escribir
+  - `/content/dam/fmdita-outputs` -\> leer y escribir
 
-   - `/content/output/sites` -\> leer y escribir
+  - `/content/output/sites` -\> leer y escribir
 
   Debe conceder permisos explícitos de lectura y escritura al editor si utiliza cualquier otra ubicación que no sea la predeterminada mencionada anteriormente.
 

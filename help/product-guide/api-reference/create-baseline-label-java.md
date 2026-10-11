@@ -5,23 +5,33 @@ exl-id: 0e2ba1bb-f5bf-44da-848a-a55385460c83
 feature: Java-Based API Baseline
 role: Developer
 level: Experienced
-TQID: https://experienceleague.adobe.com/3vpR2zCp5a6dBn6RkSKgBeU7cS3Me-HE0KQxc-duYCk
+TQID: 'https://experienceleague.adobe.com/3vpR2zCp5a6dBn6RkSKgBeU7cS3Me-HE0KQxc-duYCk'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: bf030748-d9d2-479a-8289-e6c0d0f46df8
+    internal-label: Java Based API Baseline
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 944
+source-wordcount: '946'
 ht-degree: 2%
-
 ---
-
 # API basadas en Java para trabajar con líneas de base y etiquetas {#id175UB30E05Z}
 
 >[!NOTE]
@@ -132,7 +142,7 @@ public static void applyLabel(Session session,
 | `session` | javax.jcr.Session | Una sesión JCR válida. |
 | `sourcePath` | Cadena | Ruta absoluta del fichero de mapa DITA en el repositorio de AEM. |
 | ``baselineName`` | Cadena | Nombre del nodo de línea base en el que se debe aplicar la etiqueta. Para obtener el nombre del nodo de línea de base, puede utilizar el método [\#id185NFF0085Z](#id185NFF0085Z) o comprobar el nodo de líneas de base del mapa DITA en CRXDE.<br> **Nota:** La etiqueta se aplica a la versión de los archivos a los que se hace referencia directamente desde el archivo de asignación en la línea de base. |
-| `label` | Cadena | Etiqueta que se aplica a los archivos de la línea de base. Asegúrese de que la etiqueta no contenga los siguientes caracteres: &sol; &comma; &colon; &comma; &brack; &comma; &brack; &comma; &vert; &comma; &ast; <br> Si desea establecer varias etiquetas, sepárelas con una coma; por ejemplo, Label1, Label2. |
+| `label` | Cadena | Etiqueta que se aplica a los archivos de la línea de base. Asegúrese de que la etiqueta no contenga los siguientes caracteres: &amp;sol; &amp;comma; &amp;colon; &amp;comma; &amp;brack; &amp;comma; &amp;brack; &amp;comma; &amp;vert; &amp;comma; &amp;ast; <br> Si desea establecer varias etiquetas, sepárelas con una coma; por ejemplo, Label1, Label2. |
 
 **Excepción**:
 Lanza `RepositoryException`.

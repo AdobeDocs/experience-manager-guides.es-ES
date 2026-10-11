@@ -1,7 +1,15 @@
 ---
 title: Notas de versión | Instrucciones de actualización y problemas corregidos en la versión 2026.09.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de la matriz de compatibilidad y cómo actualizar a la versión 2026.09.0 de Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: c3c72732237f937fef0213afbbd7f20cc1d9ee65
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 1%
@@ -26,7 +34,7 @@ Utilice los siguientes recursos al desarrollar complementos de Java personalizad
 |---|---|---|----|
 | 2026.09.0 | 2026.9.0 | [API de AEM Guides SDK 2026.9.0](https://central.sonatype.com/artifact/com.adobe.aem/aem-dox-sdk-api/2026.9.0) | [Javadoc 2026.9.0](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) |
 
-Para obtener más información, vea [Configurar y usar el JAR de API del repositorio de Maven Central](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/api-reference/introduction).
+Para obtener más información, vea [Configurar y usar el JAR de API del repositorio de Maven Central](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
 
 ### FRAMEMAKER y FRAMEMAKER PUBLISHING SERVER
 

@@ -4,13 +4,29 @@ description: Cree y administre una nueva línea de base (Beta) desde la consola 
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: 5fe9e9476b001a1ad74c045bf05e3061702f5e42
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 0%
-
 ---
-
 # Nueva línea de base (Beta) en Experience Manager Guides
 
 >[!NOTE]
@@ -136,10 +152,10 @@ Las siguientes actualizaciones se aplican cuando se trabaja con líneas de base 
   ![](images/baseline-v2-dynamic-baseline-new.png)
 
   También se pueden utilizar las nuevas opciones introducidas para las líneas base dinámicas creadas con el nuevo modelo de línea base:
-   - **Editar propiedades**: permite editar las propiedades de una línea de base existente.
-   - **Reconstruir**: permite reconstruir una línea base dinámica cada vez que se producen cambios.
+  - **Editar propiedades**: permite editar las propiedades de una línea de base existente.
+  - **Reconstruir**: permite reconstruir una línea base dinámica cada vez que se producen cambios.
 
-     ![volver a generar línea de base](images/rebuild-baseline.png)
+    ![volver a generar línea de base](images/rebuild-baseline.png)
 
 - La acción **Descargar** admite descargas paginadas. En la descarga se incluye todo el contenido de línea de base que coincida con los filtros aplicados, no solo el contenido visible en la página actual.
 - Filtre los archivos por GUID, además de los nombres o la ubicación de los archivos. También hay disponible una opción adicional para **filtrar archivos sin etiquetas**.
@@ -151,28 +167,28 @@ Las siguientes actualizaciones se aplican cuando se trabaja con líneas de base 
 
   Realice los siguientes pasos para realizar ediciones en una línea de base:
 
-   - Abra la línea de base desde el panel **Línea de base**.
+  - Abra la línea de base desde el panel **Línea de base**.
 
-     Se muestra la vista tabular de las referencias de las líneas base.
+    Se muestra la vista tabular de las referencias de las líneas base.
 
-   - Desplácese hasta el archivo que desee editar y coloque el puntero sobre él.
-   - Seleccione el icono **Editar**.
+  - Desplácese hasta el archivo que desee editar y coloque el puntero sobre él.
+  - Seleccione el icono **Editar**.
 
-     ![edit-baseline-icon](images/edit-baseline-icon.png)
+    ![edit-baseline-icon](images/edit-baseline-icon.png)
 
-     Se muestra el cuadro de diálogo **Editar versión**.
-   - Seleccione la versión requerida en el menú desplegable **Versión** (por ejemplo, cambie de la versión 1.0 a la 1.1).
+    Se muestra el cuadro de diálogo **Editar versión**.
+  - Seleccione la versión requerida en el menú desplegable **Versión** (por ejemplo, cambie de la versión 1.0 a la 1.1).
 
 
-     ![edit-version-baseline](images/edit-version-baseline.png)
+    ![edit-version-baseline](images/edit-version-baseline.png)
 
-     Las dependencias añadidas y eliminadas se evalúan y se muestran como una vista previa. Revise los cambios antes de aplicarlos.
+    Las dependencias añadidas y eliminadas se evalúan y se muestran como una vista previa. Revise los cambios antes de aplicarlos.
 
-     ![](images/baseline-v2-version-added.png)
+    ![](images/baseline-v2-version-added.png)
 
-     Si no se detectan cambios de dependencia, se muestra un mensaje de estado vacío.
+    Si no se detectan cambios de dependencia, se muestra un mensaje de estado vacío.
 
-   - Seleccione **Actualizar** para aplicar los cambios.
+  - Seleccione **Actualizar** para aplicar los cambios.
 
   La línea base se actualiza con la versión seleccionada.
   +++

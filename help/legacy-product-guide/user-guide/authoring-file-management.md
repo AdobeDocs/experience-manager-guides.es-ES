@@ -5,23 +5,29 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
-TQID: https://experienceleague.adobe.com/njK8ud-RQO0Ev2PnOnXuB7OUUorvKtnMHwLBx8cD1jI
+TQID: 'https://experienceleague.adobe.com/njK8ud-RQO0Ev2PnOnXuB7OUUorvKtnMHwLBx8cD1jI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 2afda568-c433-5cad-ab97-19b8847286b0
+    internal-label: Content Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 3126
+source-wordcount: '3144'
 ht-degree: 0%
-
 ---
-
 # Administración de archivos y carpetas {#id2116G0L08XA}
 
 En esta sección se explica cómo administra AEM Guides las operaciones básicas de archivo, como copiar, pegar, arrastrar y soltar y eliminar archivos. Los siguientes escenarios son posibles:
@@ -157,18 +163,18 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
    - **Ruta de Source\(s\)**: especifique la ubicación de las carpetas que desea mover.
 
-      - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo examinar archivo. Seleccione las carpetas que desee mover y haga clic en **Seleccionar** para completar el proceso.
+     - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo examinar archivo. Seleccione las carpetas que desee mover y haga clic en **Seleccionar** para completar el proceso.
 
-      - También puede escribir o copiar y pegar la ubicación de origen. Pulse Intro para añadir la carpeta a la lista.
+     - También puede escribir o copiar y pegar la ubicación de origen. Pulse Intro para añadir la carpeta a la lista.
 
-        Las carpetas seleccionadas se muestran junto con su ruta. Pase el ratón sobre la etiqueta de carpeta para ver la ruta completa.
-      - También puede quitar cualquier carpeta haciendo clic en **Quitar** <img src="images/remove-folder.svg" width="25"> cerca de la carpeta.
+       Las carpetas seleccionadas se muestran junto con su ruta. Pase el ratón sobre la etiqueta de carpeta para ver la ruta completa.
+     - También puede quitar cualquier carpeta haciendo clic en **Quitar** <img src="images/remove-folder.svg" width="25"> cerca de la carpeta.
 
 
    - **Ruta de destino**: especifique la ubicación a la que desea mover las carpetas de origen.
 
-      - Seleccionar **carpeta de exploración** <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo examinar archivo. Seleccione la ubicación a la que desea mover las carpetas de origen. y haga clic en Seleccionar para completar el proceso.
-      - También puede escribir o copiar y pegar la ruta de destino.
+     - Seleccionar **carpeta de exploración** <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo examinar archivo. Seleccione la ubicación a la que desea mover las carpetas de origen. y haga clic en Seleccionar para completar el proceso.
+     - También puede escribir o copiar y pegar la ruta de destino.
 
      La carpeta seleccionada se muestra junto con su ruta en el cuadro de texto.
 
@@ -206,20 +212,20 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
    - **Ruta de Source\(s\)**: especifique la ubicación de las carpetas que desea mover.
 
-      - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo examinar archivo. Seleccione las carpetas que desee mover y haga clic en **Seleccionar** para completar el proceso.
+     - Seleccionar **carpeta de exploración**  <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo examinar archivo. Seleccione las carpetas que desee mover y haga clic en **Seleccionar** para completar el proceso.
 
-      - También puede escribir o copiar y pegar la ubicación de origen. Pulse Intro para añadir la carpeta a la lista.
+     - También puede escribir o copiar y pegar la ubicación de origen. Pulse Intro para añadir la carpeta a la lista.
 
-        Las carpetas seleccionadas se muestran junto con su ruta. Pase el ratón sobre la etiqueta de carpeta para ver la ruta completa.
-      - También puede quitar cualquier carpeta haciendo clic en **Quitar** <img src="images/remove-folder.svg" width="25"> cerca de la carpeta.
+       Las carpetas seleccionadas se muestran junto con su ruta. Pase el ratón sobre la etiqueta de carpeta para ver la ruta completa.
+     - También puede quitar cualquier carpeta haciendo clic en **Quitar** <img src="images/remove-folder.svg" width="25"> cerca de la carpeta.
 
 
    - **Ruta de destino**: especifique la ubicación a la que desea mover las carpetas de origen.
 
-      - Seleccionar **carpeta de exploración** <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo examinar archivo. Seleccione la ubicación a la que desea mover las carpetas de origen. y haga clic en Seleccionar para completar el proceso.
-      - También puede escribir o copiar y pegar la ruta de destino.
+     - Seleccionar **carpeta de exploración** <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo examinar archivo. Seleccione la ubicación a la que desea mover las carpetas de origen. y haga clic en Seleccionar para completar el proceso.
+     - También puede escribir o copiar y pegar la ruta de destino.
 
-        La carpeta seleccionada se muestra junto con su ruta en el cuadro de texto.
+       La carpeta seleccionada se muestra junto con su ruta en el cuadro de texto.
 
    - Haga clic en **Mover en lote**.
 
@@ -328,4 +334,4 @@ Si el archivo multimedia ha sufrido algún cambio, puede buscarlo y obtener una 
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Tema principal:**&#x200B;[&#x200B; Administrar contenido](authoring.md)
+**Tema principal:**[ Administrar contenido](authoring.md)

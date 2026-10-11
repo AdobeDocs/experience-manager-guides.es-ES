@@ -5,13 +5,28 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 24e47af6-8d81-4994-8d97-474f5029392b
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
-
 ---
-
 # Instalación de paquetes para la publicación basada en artículos {#id21BNL02052Z}
 
 AEM Guides proporciona una potente función de publicación basada en artículos integrada con el editor. Con esta función, puede publicar uno o más temas simultáneamente. Una vez que haya abierto un mapa en el Editor de mapas, puede navegar a la pestaña Salidas para crear un ajuste preestablecido y, a continuación, elegir uno o más temas para generar la salida. Puede utilizar la función de publicación basada en artículos para generar de forma incremental el resultado de uno o más temas o publicar el contenido en una plataforma de base de conocimiento artículo por artículo. Para obtener más información, consulte *Publicación basada en artículos desde la sección del editor* en la guía del usuario.
@@ -56,4 +71,4 @@ Para habilitar la publicación basada en artículos, descargue e instale los sig
 >[!ENDTABS]
 
 
-**Tema principal:**&#x200B;[&#x200B; Editor personalizado](customize-overview.md)
+**Tema principal:**[ Editor personalizado](customize-overview.md)

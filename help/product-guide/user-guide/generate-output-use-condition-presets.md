@@ -4,24 +4,32 @@ description: Conocer el uso de ajustes preestablecidos de condición en AEM Guid
 exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/IKcIREoHuXjW-uUDFS6ifRhjzzUoKCXPMW5ip2OKBZU
+TQID: 'https://experienceleague.adobe.com/IKcIREoHuXjW-uUDFS6ifRhjzzUoKCXPMW5ip2OKBZU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: '1154'
 ht-degree: 2%
-
 ---
-
 # Usar ajustes preestablecidos de condición {#id1825FL004PN}
 
 Se pueden definir atributos en los temas DITA y utilizar el ajuste preestablecido de condición para especificar lo que sucede con el atributo en la salida final. Por ejemplo, puede agregar atributos como la versión 1.0 y la versión 2.0 en el contenido y utilizar un ajuste preestablecido de condición para incluir la versión 1.0 para la versión 1.0 y excluir la versión 2.0. Del mismo modo, puede añadir atributos como SO Windows y OS Linux al contenido y, a continuación, incluir o excluir el contenido relevante para la salida final según el sistema operativo.
@@ -70,7 +78,7 @@ Puede crear un ajuste preestablecido de condición de los temas realizando los s
 1. (Opcional) Si es necesario, puede anular la acción aplicada a los atributos.
 
    Realice una de las siguientes acciones:
-Para cualquier atributo, seleccione una de las siguientes acciones en la lista desplegable Acción o en la barra de herramientas.
+   Para cualquier atributo, seleccione una de las siguientes acciones en la lista desplegable Acción o en la barra de herramientas.
 
    - Incluir
    - Excluir
@@ -134,7 +142,7 @@ Siga estos pasos para crear un ajuste preestablecido de condición:
    - Excluir
    - Passthrough
    - Indicador
-La acción se establece como acción predeterminada para todos los atributos independientemente de si se añaden o no al ajuste preestablecido de condición.
+     La acción se establece como acción predeterminada para todos los atributos independientemente de si se añaden o no al ajuste preestablecido de condición.
 
    Por ejemplo, tiene 15 atributos de condición en el documento y ha incluido cuatro de ellos en el ajuste preestablecido de condición. Si selecciona **exclude** como acción predeterminada, se aplica a los 15 atributos.
 
@@ -180,4 +188,4 @@ Puede eliminar uno o más ajustes preestablecidos de condición de la ficha **Aj
 1. Seleccione el botón **Quitar**.
 1. Seleccione **Quitar** para confirmar la acción.
 
-**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)
+**Tema principal:**[ Generación de resultados](generate-output.md)

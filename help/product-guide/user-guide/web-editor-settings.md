@@ -4,36 +4,53 @@ description: Obtenga información acerca de las distintas configuraciones dispon
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: fad2874f-dab5-4538-8502-f7112c51d941
-TQID: https://experienceleague.adobe.com/KKt48fFBvNE76mzZeitOyhL-ZDsl4GJeJu-SpXD3yyI
+TQID: 'https://experienceleague.adobe.com/KKt48fFBvNE76mzZeitOyhL-ZDsl4GJeJu-SpXD3yyI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
+    internal-label: Conditional content
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Security
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2099
+source-wordcount: '2138'
 ht-degree: 1%
-
 ---
-
 # Configuración de Workspace
 
 La opción **Workspace settings** presente en la [barra de fichas](./web-editor-tab-bar.md) del editor solo está disponible para administradores y administradores de perfiles de carpeta, y permite configurar las siguientes opciones:
@@ -69,9 +86,9 @@ Seleccione esta opción para habilitar la función [Ayudante de IA](./ai-assista
 
   Desde el menú **Creación de acciones rápidas**, puede:
 
-   - utilice los conmutadores para habilitar o deshabilitar las opciones específicas a las que los autores pueden acceder al trabajar con el Ayudante de IA.
+  - utilice los conmutadores para habilitar o deshabilitar las opciones específicas a las que los autores pueden acceder al trabajar con el Ayudante de IA.
 
-   - Para cambiar el orden en que aparecen las opciones, arrástrelas y suéltelas según sea necesario.
+  - Para cambiar el orden en que aparecen las opciones, arrástrelas y suéltelas según sea necesario.
 
   ![](images/authoring-quick-actions-new.png){width="350"}
 
@@ -79,7 +96,7 @@ Seleccione esta opción para habilitar la función [Ayudante de IA](./ai-assista
 
 - **Creación**
 
-   - **Habilitar Reemplazar todo**: seleccione esta opción para ver el icono **Reemplazar todo** en el panel **Buscar y reemplazar**.
+  - **Habilitar Reemplazar todo**: seleccione esta opción para ver el icono **Reemplazar todo** en el panel **Buscar y reemplazar**.
 
 - **Citas**
 
@@ -87,15 +104,15 @@ Seleccione esta opción para habilitar la función [Ayudante de IA](./ai-assista
 
 - **Condición**
 
-   - **Resaltar texto condicional en la vista de autor**: seleccione esta opción para resaltar el texto condicional en la vista de autor. El contenido condicional se resalta con el color definido para la condición.
+  - **Resaltar texto condicional en la vista de autor**: seleccione esta opción para resaltar el texto condicional en la vista de autor. El contenido condicional se resalta con el color definido para la condición.
 
-   - **Validar con atributos de condición**: seleccione esta opción para permitir la validación de los valores definidos para los atributos. Esto evita que añada cualquier valor incorrecto.
+  - **Validar con atributos de condición**: seleccione esta opción para permitir la validación de los valores definidos para los atributos. Esto evita que añada cualquier valor incorrecto.
 
-   - **Mostrar clave con el título en el panel Esquema del asunto**: seleccione esta opción para mostrar las claves junto con los títulos en el esquema del asunto. Si no selecciona esta opción, solo se muestran los títulos. Por ejemplo, aquí las teclas &quot;os&quot;, &quot;audience&quot; y &quot;other&quot; también se muestran junto con los títulos.
+  - **Mostrar clave con el título en el panel Esquema del asunto**: seleccione esta opción para mostrar las claves junto con los títulos en el esquema del asunto. Si no selecciona esta opción, solo se muestran los títulos. Por ejemplo, aquí las teclas &quot;os&quot;, &quot;audience&quot; y &quot;other&quot; también se muestran junto con los títulos.
 
-     ![](images/subject-scheme-title.png){width="550"}
+    ![](images/subject-scheme-title.png){width="550"}
 
-   - **Mostrar esquema de asunto en el panel Condiciones**: seleccione esta opción para ver un esquema de asunto en el panel Condiciones. Si anula la selección de esta opción, las condiciones definidas se muestran en el panel Condiciones.
+  - **Mostrar esquema de asunto en el panel Condiciones**: seleccione esta opción para ver un esquema de asunto en el panel Condiciones. Si anula la selección de esta opción, las condiciones definidas se muestran en el panel Condiciones.
 
 - **Corrección ortográfica**
 Hay dos opciones: **revisión ortográfica de AEM** y **revisión ortográfica del explorador**. De forma predeterminada, el editor utiliza la función de revisión ortográfica del explorador, en la que la revisión ortográfica se realiza mediante el diccionario integrado del explorador. Puede cambiar al corrector ortográfico de AEM para utilizar el diccionario de Adobe Experience Manager, que también se puede personalizar para agregar la lista de palabras personalizada. Para obtener más información sobre cómo personalizar el diccionario de AEM, vea la sección [Personalizar el diccionario predeterminado de AEM](../cs-install-guide/customize-aem-custom-dictionary.md) en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service.
@@ -158,24 +175,24 @@ Contiene los perfiles que se pueden usar para publicar la salida de **Knowledge 
 
 - Al configurar la aplicación conectada, asegúrese de lo siguiente:
 
-   - Especifique la llamada de retorno.
+  - Especifique la llamada de retorno.
 
-     `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+    `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
-   - Seleccione los siguientes ámbitos de OAuth:
-      - Acceso completo (completo)
-      - Seleccione Administrar datos de usuario mediante API
+  - Seleccione los siguientes ámbitos de OAuth:
+    - Acceso completo (completo)
+    - Seleccione Administrar datos de usuario mediante API
 
-     Una vez configurada la aplicación, Salesforce proporciona **clave del consumidor** y **secreto del consumidor**. Se pueden utilizar para crear el perfil de Salesforce.
+    Una vez configurada la aplicación, Salesforce proporciona **clave del consumidor** y **secreto del consumidor**. Se pueden utilizar para crear el perfil de Salesforce.
 
 
-   - Para crear un perfil de Salesforce, seleccione la base de conocimiento **Salesforce** en la lista desplegable **Tipo de servidor**. Introduzca un Nombre de perfil. En la **dirección URL del sitio**, escriba el sitio del consumidor que usaría para publicar la salida y, a continuación, agregue la **clave del consumidor** y el **secreto del consumidor** proporcionados por el sitio del consumidor de Salesforce. A continuación, **Valide** y **guarde** el perfil recién creado.
+  - Para crear un perfil de Salesforce, seleccione la base de conocimiento **Salesforce** en la lista desplegable **Tipo de servidor**. Introduzca un Nombre de perfil. En la **dirección URL del sitio**, escriba el sitio del consumidor que usaría para publicar la salida y, a continuación, agregue la **clave del consumidor** y el **secreto del consumidor** proporcionados por el sitio del consumidor de Salesforce. A continuación, **Valide** y **guarde** el perfil recién creado.
 
-     ![perfil de publicación de salesforce en la configuración del área de trabajo](./images/salesforce-publish-profile.png){width="550"}
+    ![perfil de publicación de salesforce en la configuración del área de trabajo](./images/salesforce-publish-profile.png){width="550"}
 
-     >[!NOTE]
-     >
-     >Para configurar un proxy para Salesforce en Experience Manager Guides, utilice Configuración proxy de componentes HTTP de Apache en AEM. Obtenga información sobre cómo [configurar el proxy para AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+    >[!NOTE]
+    >
+    >Para configurar un proxy para Salesforce en Experience Manager Guides, utilice Configuración proxy de componentes HTTP de Apache en AEM. Obtenga información sobre cómo [configurar el proxy para AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
 **Crear un perfil de ServiceNow**
@@ -238,24 +255,24 @@ Esta pestaña contiene las opciones para crear grupos de idiomas, propagar las e
 
   Siga estos pasos para crear un nuevo grupo de idiomas:
 
-   1. Seleccione **Añadir**.
-   1. Introduzca el nombre del grupo de idiomas. Cada idioma debe tener un nombre único. Puede ver un error si el campo de nombre está vacío o si el nombre no es único.
-   1. Seleccione los idiomas en la lista desplegable. Puede seleccionar varios idiomas.
+  1. Seleccione **Añadir**.
+  1. Introduzca el nombre del grupo de idiomas. Cada idioma debe tener un nombre único. Puede ver un error si el campo de nombre está vacío o si el nombre no es único.
+  1. Seleccione los idiomas en la lista desplegable. Puede seleccionar varios idiomas.
 
-      Escriba los primeros caracteres del idioma o el código de idioma para filtrar los idiomas deseados. Por ejemplo, escriba &#39;en&#39; para filtrar todos los idiomas que contienen &#39;en&#39; al principio de su nombre o código.
+     Escriba los primeros caracteres del idioma o el código de idioma para filtrar los idiomas deseados. Por ejemplo, escriba &#39;en&#39; para filtrar todos los idiomas que contienen &#39;en&#39; al principio de su nombre o código.
 
-   1. Seleccione el icono Listo para añadir los idiomas seleccionados al grupo. Se muestran los idiomas. Cuando se agregan tres o más idiomas, se muestra la opción **Mostrar más**. Puede seleccionar **Mostrar más** para ver todos los idiomas presentes en el grupo.
+  1. Seleccione el icono Listo para añadir los idiomas seleccionados al grupo. Se muestran los idiomas. Cuando se agregan tres o más idiomas, se muestra la opción **Mostrar más**. Puede seleccionar **Mostrar más** para ver todos los idiomas presentes en el grupo.
 
-      >[!TIP]
-      >
-      > Cambie **Mostrar más** por **Mostrar menos** y ver solo algunos idiomas.
+     >[!TIP]
+     >
+     > Cambie **Mostrar más** por **Mostrar menos** y ver solo algunos idiomas.
 
-   1. Pase el ratón sobre los idiomas de un grupo para editar ![editar icono](images/edit_pencil_icon.svg) o eliminar ![eliminar](images/Delete_icon.svg) los grupos de idiomas.
-   1. Guardar **configuración**.
+  1. Pase el ratón sobre los idiomas de un grupo para editar ![editar icono](images/edit_pencil_icon.svg) o eliminar ![eliminar](images/Delete_icon.svg) los grupos de idiomas.
+  1. Guardar **configuración**.
 
-      >[!NOTE]
-      >
-      >Como usuario, puede ver los grupos de idiomas configurados en el perfil de carpeta.
+     >[!NOTE]
+     >
+     >Como usuario, puede ver los grupos de idiomas configurados en el perfil de carpeta.
 
 - **Propagar etiquetas de versión de origen a la versión de destino**: seleccione esta opción para pasar la etiqueta de la versión del archivo de origen al archivo traducido. Esta opción está desactivada de forma predeterminada.
 - **Limpieza del proyecto de traducción una vez finalizado**: seleccione esta opción para configurar los proyectos de traducción que se deshabilitarán o eliminarán automáticamente después de la traducción. De manera predeterminada, **Ninguno** está seleccionado, de manera que el proyecto existe después de la traducción.
@@ -282,4 +299,4 @@ Se muestra un error si la ruta de metadatos está en blanco. Si deja la etiqueta
 También puede definir el orden en que se muestran estas etiquetas de metadatos. Para cambiar el orden predeterminado de estas etiquetas, seleccione las barras de puntos para arrastrar y soltar las etiquetas en la ubicación deseada.
 Las etiquetas de metadatos aparecen en la misma secuencia en el cuadro de diálogo **Historial de versiones** del Editor.
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)

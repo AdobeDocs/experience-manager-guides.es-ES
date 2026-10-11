@@ -3,13 +3,19 @@ title: Publicación PDF más inteligente con PDF nativo
 description: Esta sesión de expertos explica cómo se puede utilizar Native PDF para crear PDF compatible con DITA sin necesidad de utilizar conocimientos avanzados de CSS o XSLT, en lugar de utilizar tecnología de código bajo para generar PDF
 keywords: Publicación DITA PDF, AEM Guides, Native PDF, DITA to PDF, flujo de trabajo de publicación DITA, automatización de PDF, publicación basada en metadatos, plantillas DITA
 exl-id: 763ca6fb-1e5a-4676-9684-879c13ba9a8e
-source-git-commit: 2fde91e85c4283d114b29f77a38bae6d67e60112
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 2%
-
 ---
-
 # Publicación PDF más inteligente con PDF nativo
 
 En esta sesión descubrimos cómo mejorar el flujo de trabajo de publicación de DITA a PDF mediante las funciones avanzadas de Native PDF en AEM Guides. En esta sesión se muestra cómo automatizar la personalización de PDF mediante metadatos, personalización de marca y localización, lo que reduce la necesidad de utilizar varias plantillas de publicación DITA. Descubra cómo estas potentes funciones ayudan a los equipos de DITA a publicar de forma más inteligente, rápida y a escala.
@@ -56,7 +62,7 @@ En esta sesión, tratamos sobre:
 
 ### Foro de la comunidad
 
-- Para interacciones de comunidad específicas de sesión en Experience League, visite [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=es).
+- Para interacciones de comunidad específicas de sesión en Experience League, visite [Foro de AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
 

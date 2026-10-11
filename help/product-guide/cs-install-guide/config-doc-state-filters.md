@@ -5,13 +5,28 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 682c915b-bc42-4d2e-84a0-9e88734e278e
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '251'
 ht-degree: 0%
-
 ---
-
 # Configurar filtros de estado del documento
 
 Adobe Experience Manager Guides proporciona la función para buscar un archivo en función de su estado de documento actual. Puede utilizar el filtro de búsqueda para buscar archivos desde la interfaz del repositorio y examinar los archivos.
@@ -28,38 +43,38 @@ Realice los siguientes pasos para configurar los filtros de estado del documento
 En el archivo `ui\_config.json` descargado, consulte la siguiente sección:
 
        &quot;
-     &quot;repositoryFilters&quot;: &lbrack;
-     &lbrace;
+     &quot;repositoryFilters&quot;: [
+     {
      &quot;title&quot;: &quot;Document state&quot;,
      &quot;property&quot;: &quot;jcr:content/metadata/docstate&quot;,
-     &quot;children&quot;: &lbrack;
-     &lbrace;
+     &quot;children&quot;: [
+     {
      &quot;title&quot;: &quot;Draft&quot;,
      &quot;value&quot;: &quot;Draft&quot;
-     &rbrace;,
-     &lbrace;
+     },
+     {
      &quot;title&quot;: &quot;Edit&quot;,
      &quot;value&quot;: &quot;Edit&quot;
      ,
-     &lbrace;
+     {
      &quot;title&quot;: &quot;In-Review&quot;,
      &quot;value&quot;: &quot;In-Review&quot;
-     &rbrace;,
-     &lbrace;
+     },
+     {
      &quot;title&quot;: &quot;Aprobado&quot;,
      &quot;valor&quot;: &quot;Aprobado&quot;
      ,
-     &lbrace;
+     {
      &quot;título&quot;: &quot;Revisado&quot;,
      &quot;valor&quot;: &quot;Revisado&quot;
      ,
-     &lbrace;
+     {
      &quot;título&quot;: &quot;Listo&quot;,
      &quot;valor&quot;: &quot;Listo&quot;
      
-     &rbrack;
+     ]
      
-     &rbrack;
+     ]
      &quot;
    Este fragmento representa los filtros de estado de documento predeterminados disponibles en Experience Manager Guides.
 
@@ -76,4 +91,4 @@ En el archivo `ui\_config.json` descargado, consulte la siguiente sección:
 
 Los filtros configurados se muestran en el panel **Filtros** del Repositorio en la página de inicio.
 
-**Tema principal:**&#x200B;[&#x200B; Personalizar editor web](conf-web-editor.md)
+**Tema principal:**[ Personalizar editor web](conf-web-editor.md)

@@ -1,13 +1,19 @@
 ---
 title: Notas de versión | Se han corregido problemas en la versión 2026.06.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las correcciones de errores en la versión 2026.06.0 de Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2171'
 ht-degree: 0%
-
 ---
-
 # Se han corregido problemas en la versión 2026.06.0
 
 Este artículo cubre los errores corregidos en varias áreas de la versión 2026.06.0 de Adobe Experience Manager Guides as a Cloud Service.
@@ -63,10 +69,10 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 - Al publicar un mapa DITA con `processing-role=resource-only` elementos en AEM Sites (con asignación de componentes heredados), se generan páginas de sitio huérfanas para esos elementos en escenarios adicionales como `topicgroup` elementos y configuraciones de contenido específicas. (GUIDES-37650)
 - Cuando se agrega un mapa con un nombre largo a una colección de mapas, la interfaz de usuario de la colección de mapas se representa con un diseño distorsionado. Este problema se ha resuelto con la colección New maps. (GUIDES-42062)
 - Publicación con el motor nativo de PDF v1:
-   - Al generar una salida nativa de PDF para determinado contenido, solo se procesa la primera página en PDF, a pesar de que la HTML intermedia contenga el contenido completo en varias páginas. (GUIDES-28270)
-   - El orden de lectura del contenido en la salida nativa de PDF con la configuración de accesibilidad habilitada es incorrecto. Los números de página de los pies de página se leen antes del contenido principal en lugar de al final. (GUIDES-27790)
-   - La barra de color de la salida nativa de PDF no se extiende por el ancho de página completo y se superpone cuando se personaliza el tamaño de página, lo que provoca que algunos cuadros de color se oculten. (GUIDES-15505)
-   - El selector de pseudoclase `:is()` de CSS no se cumple en la salida nativa de PDF, lo que da como resultado diferencias de estilo en comparación con la representación del explorador. (GUIDES-11328)
+  - Al generar una salida nativa de PDF para determinado contenido, solo se procesa la primera página en PDF, a pesar de que la HTML intermedia contenga el contenido completo en varias páginas. (GUIDES-28270)
+  - El orden de lectura del contenido en la salida nativa de PDF con la configuración de accesibilidad habilitada es incorrecto. Los números de página de los pies de página se leen antes del contenido principal en lugar de al final. (GUIDES-27790)
+  - La barra de color de la salida nativa de PDF no se extiende por el ancho de página completo y se superpone cuando se personaliza el tamaño de página, lo que provoca que algunos cuadros de color se oculten. (GUIDES-15505)
+  - El selector de pseudoclase `:is()` de CSS no se cumple en la salida nativa de PDF, lo que da como resultado diferencias de estilo en comparación con la representación del explorador. (GUIDES-11328)
 
   >[!NOTE]
   >
