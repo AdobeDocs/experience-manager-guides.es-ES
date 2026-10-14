@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 481c5fe8df7a81a8f00358b8f28dba131bca63d9
+source-git-commit: 4b9859bf08ffdfc7047477203eb7c2b590dfb3d9
 workflow-type: tm+mt
-source-wordcount: '2331'
+source-wordcount: '2380'
 ht-degree: 0%
 ---
 # Experiencia de la página de inicio de Experience Manager Guides
@@ -179,6 +179,10 @@ Los siguientes widgets están presentes en la sección Widgets:
 El Repositorio sirve como concentrador centralizado para detectar carpetas y archivos con facilidad. Proporciona una vista de lista tabular completa de todos los archivos y carpetas, junto con sus detalles contextuales. A través de esta interfaz unificada, puede examinar archivos sin problemas y realizar búsquedas con opciones de filtrado sólidas, lo que garantiza la eficiencia y una experiencia mejorada. Más información sobre [Repositorio](./home-page-repository-view.md).
 
 ### Asignación de colecciones
+
+>[!NOTE]
+>
+>Puede utilizar la nueva función Colecciones de mapas de Adobe Experience Manager Guides as a Cloud Service a partir de la versión 2026.08.0, que combina la administración de mapas y la publicación masiva en una interfaz unificada. Póngase en contacto con el equipo de éxito del cliente para habilitar esta función.Más información acerca de [cómo usar la nueva colección de mapas.](./generate-output-use-new-map-collection-output-generation.md)
 
 Experience Manager Guides permite organizar el contenido para su publicación mediante un tablero denominado **Colecciones de mapas**. Para usar esta característica, seleccione **Colecciones de mapas** en el panel izquierdo. Le lleva a la página Colecciones de mapas en la **interfaz de usuario de Assets**, donde puede [usar la colección de mapas para generar resultados.](./generate-output-use-map-collection-output-generation.md)
 
