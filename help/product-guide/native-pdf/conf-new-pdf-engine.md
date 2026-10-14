@@ -21,19 +21,37 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: f89becea89888f7dec81e18c9220dcabda8f4e7d
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 2%
+source-wordcount: '161'
+ht-degree: 4%
 ---
 
 # Configuración del motor de PDF nativo v2
 
 El nuevo motor de publicación para PDF nativo, es decir _Native PDF engine v2_, proporciona funciones actualizadas de procesamiento de PDF y correcciones para los problemas de _Native PDF engine v1_.
 
+>[!BEGINTABS]
+>[!TAB Cloud Service]
+
 Siga las instrucciones indicadas en [Anulaciones de configuración](../install-conf-guide/download-install-config-override.md) para crear el archivo de configuración. En el archivo de configuración, proporcione los siguientes detalles (propiedad):
 
 | PID | Clave de propiedad | Valor de propiedad |
 |-----|--------------|----------------|
 | `com.adobe.fmdita.publish.config.GuidesPublishConfiguratorService` | `guides.publish.config` | `{"PDF_ENGINE": "v2"}` <br> Valor predeterminado: `v1` |
+
+>[!TAB Local]
+
+
+Para implementaciones On-Premise, su disponibilidad depende de las versiones de AEM y Java.
+
+El _motor nativo de PDF v2_ requiere **Java 17 o posterior**.
+
+- **AEM 6.5:** No se admite el motor nativo de publicación de PDF v2 porque AEM 6.5 se ejecuta en Java 8.
+- **AEM 6.5 LTS:** El motor nativo de publicación de PDF v2 está habilitado de manera predeterminada. No se requiere ninguna configuración adicional.
+
+Si prefiere volver al _motor nativo de PDF v2_ con AEM 6.5 LTS, desinstale el paquete del editor de PDF:
+`/crx/packmgr/index.jsp#/etc/packages/com.adobe.guides/pdf-publisher-package-3.0.0.zip` del Administrador de paquetes de CRX.
+
+>[!ENDTABS]
 
