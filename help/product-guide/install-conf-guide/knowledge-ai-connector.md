@@ -4,9 +4,9 @@ description: Aprenda a conectar AEM Guides con la inteligencia artificial aplica
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: cdc177110720dbbe944a361142911a2e365ef8fa
+source-git-commit: 05976e2a408e57256a454f181bb93d900dc091ab
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '665'
 ht-degree: 1%
 ---
 
@@ -44,7 +44,7 @@ Asegúrese de tener los siguientes permisos y acceso antes de empezar:
 
 La inteligencia artificial aplicada al conocimiento utiliza una cuenta de servicio para autenticarse de forma segura y acceder al contenido.
 
-1. Siga las instrucciones de [Configuración de Microservices IMT](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)
+1. Siga las instrucciones de [Configuración de Microservices IMT](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config).
 
 1. Cree una nueva cuenta de servicio y descargue el archivo de credenciales JSON generado.
 
@@ -86,7 +86,7 @@ La cuenta de servicio ahora está autorizada para realizar operaciones de carga 
 
 Para publicar contenido en Knowledge AI, configure Experience Manager Guides una vez que haya configurado los permisos.
 
-1. Abra **consola de mapas** en Experience Manager Guides.
+1. Abra la **consola de mapas** en Experience Manager Guides.
 1. Vaya a la pestaña **Ajustes preestablecidos de salida**.
 1. Seleccione el icono + para crear un ajuste preestablecido de salida.
 1. Seleccione **Inteligencia artificial aplicada al conocimiento** del menú desplegable **Tipo** en el cuadro de diálogo **Nuevo ajuste preestablecido de salida**. Escriba un **Nombre** y seleccione **Agregar al perfil de carpeta actual** para crear un ajuste preestablecido de salida dentro del perfil de carpeta actual.
