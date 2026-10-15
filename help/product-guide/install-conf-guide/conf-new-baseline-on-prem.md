@@ -15,9 +15,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4abf673f636ffd20d087c99b5112d8504929a6ee
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '124'
 ht-degree: 1%
 ---
 # Configurar nueva línea base para local
@@ -44,5 +44,5 @@ Los siguientes pasos explican cómo habilitar la nueva línea de base en su ento
 
 >[!NOTE]
 >
->Después de habilitar esta función, debe migrar las líneas base existentes a la nueva línea base. Para obtener instrucciones paso a paso y un vídeo de introducción, vea [Nueva línea de base (Beta) en Experience Manager Guides](../user-guide/web-editor-baseline-v2.md).
+>Después de habilitar esta función, debe migrar las líneas base existentes a la nueva línea base. Para obtener instrucciones paso a paso y un vídeo de introducción, vea [Nueva línea de base en Experience Manager Guides](../user-guide/web-editor-baseline-v2.md).
 

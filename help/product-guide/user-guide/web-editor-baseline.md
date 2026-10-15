@@ -35,16 +35,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4abf673f636ffd20d087c99b5112d8504929a6ee
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1927'
 ht-degree: 0%
 ---
 # Crear y administrar líneas base desde la consola Mapa {#id223MB0ZF043}
 
 >[!NOTE]
 >
-> Hay disponible una nueva versión de línea de base (Beta) que ofrece un rendimiento y una estabilidad mejorados con Experience Manager Guides 2026.03.0. Para utilizar esta línea de base, póngase en contacto con el equipo de éxito del cliente para activar la función. Más información sobre [Nueva línea de base (Beta)](./web-editor-baseline-v2.md).
+> La versión 2026.03.0 de Experience Manager Guides incluye una nueva línea de base que ofrece un rendimiento y una estabilidad mejorados. Para utilizar esta línea de base, póngase en contacto con el equipo de éxito del cliente para activar la función. Más información sobre [Nueva línea de base](./web-editor-baseline-v2.md).
 
 La función Línea de base le permite crear una versión de los temas y recursos que luego se puede utilizar para publicar o traducir. Por ejemplo, si el mapa DITA tiene `topicA` y `imageA`, puede crear una Línea base para utilizar la tercera versión de `topicA`, pero la cuarta versión de `ImageA`. Una vez que haya establecido una Línea base, puede publicar o traducir temas de distintas versiones en un solo paso.
 
