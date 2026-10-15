@@ -44,7 +44,7 @@ Asegúrese de tener los siguientes permisos y acceso antes de empezar:
 
 La inteligencia artificial aplicada al conocimiento utiliza una cuenta de servicio para autenticarse de forma segura y acceder al contenido.
 
-1. Siga las instrucciones de [Configuración de Microservices IMT](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config).
+1. Siga las instrucciones de [Configuración de Microservices IMT](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config).
 
 1. Cree una nueva cuenta de servicio y descargue el archivo de credenciales JSON generado.
 
