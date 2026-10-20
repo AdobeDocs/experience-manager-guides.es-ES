@@ -19,7 +19,7 @@ ht-degree: 2%
 
 # Revelación de usuarios de IA generativa de Adobe Experience Manager Guides
 
-Las directrices de usuario que rigen el acceso y uso del Asistente para IA de Experience Manager Guides se encuentran [aquí](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+Las directrices de usuario que rigen el acceso y uso del Asistente para IA de Experience Manager Guides se encuentran [aquí](https://www.adobe.com/es/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 
 Al utilizar el asistente de IA &quot;beta&quot; (&quot;Beta&quot;), por la presente reconoce que el uso de Beta se proporciona &quot;tal cual&quot; sin garantía de ningún tipo. Adobe no tiene obligación de mantener, corregir, actualizar, cambiar, modificar o apoyar de otro modo Beta. Se recomienda tener precaución y no confiar en modo alguno en el correcto funcionamiento o rendimiento de dichos Beta y/o materiales de acompañamiento. Beta se considera información confidencial de Adobe. Adobe puede utilizar avisos, contenido, datos y otros materiales que se introducen o importan en Beta y las respuestas proporcionadas al cliente para la mejora y el desarrollo del producto. Cualquier &quot;comentario&quot; (información sobre Beta, incluidos, entre otros, problemas o defectos que encuentre al utilizar Beta, sugerencias, mejoras y recomendaciones) proporcionado por usted a Adobe se asigna a Adobe, incluidos todos los derechos, el título y el interés en y para dichos comentarios. 
 
