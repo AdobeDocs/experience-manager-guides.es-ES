@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: a9f16f7a9a4458a89664c1b8bdae41453d4d8c3f
+source-git-commit: 564c62de840aee9858d3c0476db6343bf306785f
 workflow-type: tm+mt
-source-wordcount: '2654'
+source-wordcount: '2657'
 ht-degree: 10%
 ---
 
@@ -632,6 +632,7 @@ ht-degree: 10%
     - [Nuevas funciones de UX e IA en AEM Guides](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
     - [Publicación en AEM Guides](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
     - [Revisión de contenido en AEM Guides](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
+    - [AEM GUIDES - MCP](./knowledge-base/expert-sessions/guides-mcp-oct2026.md)
   - Artículos {#kb-articles}
     - [Información general](./knowledge-base/kb-articles/introduction.md)
     - Creación {#authoring}
