@@ -223,8 +223,8 @@ ht-degree: 10%
   - Introducción {#about-aemg}
     - [Acerca de  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] funciones clave y de trabajo {#aemg-works-features}
-      - [Cómo funciona [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
-      - [Características clave  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
+      - [Cómo funciona [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+      - [Características clave  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
   - Página de inicio {#home-page}
     - [Experiencia de la página de inicio [!DNL AEM Guides]](./user-guide/intro-home-page.md)
     - [Interfaz de repositorio](./user-guide/home-page-repository-view.md)
@@ -590,7 +590,7 @@ ht-degree: 10%
     - [Indizar temas en una tarea de revisión](./install-conf-guide/index-review-tasks.md)
     - [Asignación de componentes para AEM Sites](./install-conf-guide/component-mapping.md)
     - [Configurar ajustes preestablecidos de plantilla para la generación de resultados](./install-conf-guide/template-presets-output-generation.md)
-    - {hide-from-toc}[Conectar AEM Guides con la inteligencia artificial aplicada a la información](./install-conf-guide/knowledge-ai-connector.md) de Guides
+    - {hide-from-toc}[Conectar AEM Guides con la inteligencia artificial aplicada a la información de Guides](./install-conf-guide/knowledge-ai-connector.md)
   - Apéndice {#appendix}
     - [Apéndice](./install-conf-guide/aemg-appendix.md)
 
