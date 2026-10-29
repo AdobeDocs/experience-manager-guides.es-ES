@@ -25,7 +25,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 18996443646923fcf9db06c020ecbdd94b8a9564
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Guarda los cambios realizados en todos los temas abiertos. Si tiene varios temas
 >
 > Para utilizar el modo automático de la función Asistente de IA en su entorno, póngase en contacto con el equipo de éxito del cliente. Una vez habilitada la función, los administradores pueden activarla o desactivarla desde la Configuración de Workspace. Solo se puede habilitar un modo de asistente de IA a la vez; ya sea agéntico o estándar.
 
-- **Agnetic**: aporta al editor la habilidad inteligente y auténtica de etiquetado inteligente de Adobe CX Enterprise Coworker, lo que permite un etiquetado de contenido natural y conversacional. Analiza el contenido, recomienda las etiquetas relevantes y le ayuda a aplicar metadatos coherentes y precisos con un esfuerzo mínimo. Puede revisar las etiquetas sugeridas y elegir aplicarlas o rechazarlas antes de confirmar la selección. [Use el Asistente de IA en el modo agente](../user-guide/ai-assistant-agentic.md) para optimizar el proceso de etiquetado y mejorar la organización y la detección del contenido.
+- **Agentic**: aporta al editor la habilidad inteligente y auténtica de etiquetado inteligente de Adobe CX Enterprise Coworker, lo que permite el etiquetado de contenido natural y conversacional. Analiza el contenido, recomienda las etiquetas relevantes y le ayuda a aplicar metadatos coherentes y precisos con un esfuerzo mínimo. Puede revisar las etiquetas sugeridas y elegir aplicarlas o rechazarlas antes de confirmar la selección. [Use el Asistente de IA en el modo agente](../user-guide/ai-assistant-agentic.md) para optimizar el proceso de etiquetado y mejorar la organización y la detección del contenido.
 
 - **Estándar**: Una potente herramienta impulsada por IA diseñada para mejorar su productividad mediante características de ayuda inteligentes. Además, cuando trabaje en la interfaz del editor, puede aprovechar las capacidades de creación inteligente del asistente de IA, que hace que su proceso de creación sea más inteligente y rápido mediante sugerencias inteligentes para la reutilización y optimización de contenido.
 
@@ -96,4 +96,4 @@ La característica [AI Assistant](./ai-assistant.md) solo está disponible actua
 
 - **Configuración del editor**: lo lleva al cuadro de diálogo Configuración del editor, donde puede personalizar el comportamiento del editor a nivel de autor individual. Permite controlar la visibilidad y el comportamiento de las etiquetas, los comentarios y otras configuraciones de nivel de editor durante la creación. Para obtener más información, vea [Configuración del editor](../user-guide/config-editor-settings.md).
 
-**Tema principal:**&#x200B;[&#x200B; Introducción al editor](web-editor.md)
+**Tema principal:**[ Introducción al editor](web-editor.md)
