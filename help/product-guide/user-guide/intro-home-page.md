@@ -15,7 +15,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4b9859bf08ffdfc7047477203eb7c2b590dfb3d9
+source-git-commit: 18996443646923fcf9db06c020ecbdd94b8a9564
 workflow-type: tm+mt
 source-wordcount: '2380'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Las funciones disponibles en la barra de navegación se explican de la siguiente
   >
   > Para utilizar el modo automático de la función Asistente de IA en su entorno, póngase en contacto con el equipo de éxito del cliente. Una vez habilitada la función, los administradores pueden activarla o desactivarla desde la Configuración de Workspace. Solo se puede habilitar un modo de asistente de IA a la vez; ya sea agéntico o estándar.
 
-  - **Agnetic**: aporta al editor la habilidad inteligente y auténtica de etiquetado inteligente de Adobe CX Enterprise Coworker, lo que permite un etiquetado de contenido natural y conversacional. Analiza el contenido, recomienda las etiquetas relevantes y le ayuda a aplicar metadatos coherentes y precisos con un esfuerzo mínimo. Puede revisar las etiquetas sugeridas y elegir aplicarlas o rechazarlas antes de confirmar la selección. [Use el Asistente de IA en el modo agente](../user-guide/ai-assistant-agentic.md) para optimizar el proceso de etiquetado y mejorar la organización y la detección del contenido.
+  - **Agentic**: aporta al editor la habilidad inteligente y auténtica de etiquetado inteligente de Adobe CX Enterprise Coworker, lo que permite el etiquetado de contenido natural y conversacional. Analiza el contenido, recomienda las etiquetas relevantes y le ayuda a aplicar metadatos coherentes y precisos con un esfuerzo mínimo. Puede revisar las etiquetas sugeridas y elegir aplicarlas o rechazarlas antes de confirmar la selección. [Use el Asistente de IA en el modo agente](../user-guide/ai-assistant-agentic.md) para optimizar el proceso de etiquetado y mejorar la organización y la detección del contenido.
 
   - **Estándar**: Una potente herramienta impulsada por IA diseñada para mejorar su productividad mediante características de ayuda inteligentes. Además, cuando trabaje en la interfaz del editor, puede aprovechar las capacidades de creación inteligente del asistente de IA, que hace que su proceso de creación sea más inteligente y rápido mediante sugerencias inteligentes para la reutilización y optimización de contenido.
 
