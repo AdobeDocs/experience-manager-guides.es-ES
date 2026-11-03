@@ -55,7 +55,7 @@ Siga estos pasos para generar resultados basados en artículos:
 1. Seleccione **Generar salida** en la parte superior para generar la salida.
 1. En el mensaje **Confirmar archivos para publicar**, seleccione los archivos que desee publicar y confirme seleccionando **Publicar**.
 
-   ![Nuevo ](images/knowledge-base-confirm-files-for-publishing.png)
+   ![Nuevo &#x200B;](images/knowledge-base-confirm-files-for-publishing.png)
 
    Verá el estado del proceso de generación de resultados. La columna **Temas** enumera los temas para los que se genera la salida, mientras que la columna **Estado** muestra el estado de publicación de cada tema.
 
@@ -113,4 +113,4 @@ Para usar esta capacidad, asegúrese de que **Realizar solicitudes en cualquier 
 Al habilitar la compatibilidad con tokens de actualización en Experience Manager Guides, se habilita automáticamente la compatibilidad con PKCE. Sin embargo, la configuración correspondiente también debe estar habilitada en Salesforce para que la autenticación funcione correctamente.
 
 
-**Tema principal:**[ Trabajar con el editor](web-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Trabajar con el editor](web-editor.md)

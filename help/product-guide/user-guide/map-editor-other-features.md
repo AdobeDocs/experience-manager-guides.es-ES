@@ -173,4 +173,4 @@ Después de solucionar un problema, selecciona **Volver a generar** en la barra 
 Seleccione **Descargar informe** para descargar el informe en formato XLS, con información detallada para cada resultado.
 
 
-**Tema principal:**[ Introducción al editor de mapas](map-editor.md)
+**Tema principal:**&#x200B;[&#x200B; Introducción al editor de mapas](map-editor.md)

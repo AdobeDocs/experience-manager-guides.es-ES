@@ -41,7 +41,7 @@ Después de seleccionar el texto de un tema, puede elegir realizar cualquiera de
 ## Sugerir contenido reutilizable
 
 
-Use la característica **Sugerir contenido reutilizable** ![ai sugerir icono de contenido reutilizable ](./images/ai-suggest-reusable-content-icon.svg) para crear contenido de manera consistente y precisa. Puede seleccionar el contenido y Experience Manager Guides proporciona sugerencias sobre cómo reutilizar el contenido existente en el repositorio.
+Use la característica **Sugerir contenido reutilizable** ![ai sugerir icono de contenido reutilizable &#x200B;](./images/ai-suggest-reusable-content-icon.svg) para crear contenido de manera consistente y precisa. Puede seleccionar el contenido y Experience Manager Guides proporciona sugerencias sobre cómo reutilizar el contenido existente en el repositorio.
 Más información sobre cómo usar [sugerencias inteligentes con tecnología de IA para crear contenido](authoring-ai-based-smart-suggestions.md).
 
 

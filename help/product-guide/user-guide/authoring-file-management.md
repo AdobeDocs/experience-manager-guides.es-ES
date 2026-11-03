@@ -390,4 +390,4 @@ También puede administrar las etiquetas de versión del archivo desde el panel 
 
 
 
-**Tema principal:**[ Administrar contenido](authoring.md)
+**Tema principal:**&#x200B;[&#x200B; Administrar contenido](authoring.md)
