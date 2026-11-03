@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '4036'
+source-wordcount: '4222'
 ht-degree: 0%
 ---
 # Enviar temas para revisión {#id199RD0S035Z}
@@ -400,6 +400,32 @@ Una vez que se actualiza la tarea de revisión, los revisores reciben notificaci
 - **Completada**: los revisores que hayan finalizado su revisión recibirán una notificación que solicita una nueva revisión.
 
 Para obtener más información, vea [Descripción de las notificaciones de revisión](./review-understanding-review-notifications.md).
+
+## Agregar comentarios para revisores
+
+Como iniciador de una tarea de revisión, puede agregar comentarios en línea a los temas que envíe para su revisión. Después de crear una tarea de revisión, ábrala en la **interfaz de usuario de revisión** para proporcionar contexto adicional o llamar la atención de los revisores sobre contenido específico.
+
+Realice los siguientes pasos para agregar comentarios a los temas de una tarea de revisión:
+
+1. Cree una tarea de revisión y agregue los temas y revisores necesarios.
+
+2. Abra la tarea de revisión creada en la **IU de revisión**.
+
+   Como iniciador de revisión, tiene acceso al panel **Comentarios** y a la lista de temas de la izquierda, de forma similar a la vista disponible para los revisores.
+
+   ![](./images/add-comments-as-author.png)
+
+3. En la lista de temas, seleccione el tema en el que desea agregar un comentario.
+
+4. Seleccione el contenido relevante y utilice las opciones disponibles en el panel **Comentarios** para agregar sus comentarios o llamar la atención de los revisores sobre contenido específico.
+
+5. Repita estos pasos para agregar comentarios a otros temas de la tarea de revisión, según sea necesario.
+
+Los comentarios que agregue serán visibles para los revisores cuando accedan a la tarea de revisión. Los revisores también reciben una notificación de AEM cuando agrega un comentario.
+
+
+
+
 
 
 **Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)

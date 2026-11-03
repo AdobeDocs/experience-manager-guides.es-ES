@@ -37,9 +37,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '2794'
+source-wordcount: '2824'
 ht-degree: 0%
 ---
 # Traducción de documentos desde la consola Mapa {#id21BKF0Z0YZF}
@@ -181,7 +181,7 @@ Antes de realizar los pasos de este procedimiento, asegúrese de haber creado la
 
      ![Escriba la ruta de acceso del proyecto](images/project-path.png){width="650"}
 
-   - Si está agregando a un proyecto de traducción existente, seleccione la ruta en la que ya existe ese proyecto. A continuación, en la lista **Proyecto de traducción existente**, seleccione el proyecto al que desee agregar la tarea de traducción actual. También puede usar **Filtros** disponibles para reducir la lista.
+   - Si está agregando a un proyecto de traducción existente, seleccione la ruta en la que ya existe ese proyecto. A continuación, en la lista **Proyecto de traducción existente**, seleccione el proyecto al que desee agregar la tarea de traducción actual. Si varios proyectos tienen el mismo título, utilice la ruta mostrada junto con el título de cada proyecto para identificar el correcto. También puede usar **Filtros** disponibles para reducir la lista y también **ordenar** los proyectos según sus necesidades
 
      ![Escriba la ruta de acceso del proyecto existente](images/existing-project-path.png){width="650"}
 

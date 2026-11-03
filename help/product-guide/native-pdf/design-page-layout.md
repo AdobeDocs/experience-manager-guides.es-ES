@@ -30,9 +30,9 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '5089'
+source-wordcount: '5425'
 ht-degree: 0%
 ---
 # Diseño de una página {#design-page-layout}
@@ -481,6 +481,60 @@ Si desea trabajar directamente con el código CSS y HTML, también puede hacerlo
 </p>
 …
 ```
+
+### Adición de una imagen a partir de metadatos de mapa
+
+Si utiliza la misma plantilla para publicar varias asignaciones, puede mostrar una imagen diferente para cada mapa en lugar de una imagen estática de Recursos de plantilla. Por ejemplo, si los productos comparten una plantilla y sólo difieren en la imagen de portada, puede agregar un marcador de posición de imagen al diseño de portada. Al publicar un mapa, el marcador de posición se reemplaza por la imagen definida en los metadatos de ese mapa. El Mapa de publicación 1 muestra la imagen definida en el Mapa 1 y el Mapa de publicación 2 muestra la imagen definida en el Mapa 2. Si no se puede resolver una imagen, se muestra el texto de marcador de posición especificado.
+
+Puede definir la imagen en el elemento `<bookmeta>` de un mapa de libros o en el elemento `<topicmeta>` de un mapa DITA. Solo se admite el elemento `<image>`. Se pueden utilizar todos los formatos de imagen admitidos por Experience Manager Guides, incluidos GIF, JPG, BMP, PNG, SVG y TIFF.
+
+Para mostrar una imagen desde un mapa:
+
+1. Defina la imagen en el mapa, como se muestra en los siguientes ejemplos.
+
+   En un mapa de libros, agregue la imagen en el elemento `<bookmeta>`:
+
+   ```xml
+   <bookmeta>
+     <metadata>
+       <data><image href="media/cover.png" id="cover-image"/></data>
+     </metadata>
+   </bookmeta>
+   ```
+
+   En un mapa DITA, agregue la imagen en el elemento `<topicmeta>`:
+
+   ```xml
+   <topicmeta>
+     <data><image href="images/cover.png" id="cover-image"/></data>
+   </topicmeta>
+   ```
+
+   >[!NOTE]
+   >
+   >El elemento `<image>` debe tener un atributo `id`. `id` es obligatorio y debe ser único para cada imagen del mapa.
+
+1. En **Plantillas de salida**, abra el diseño de página en el que desea agregar el marcador de posición de imagen, por ejemplo, el diseño de portada.
+
+1. Seleccione **Campos** de las **Más opciones**.
+
+1. En la ficha **Metadatos**, seleccione **Agregar formato**.
+
+1. Especifique los siguientes detalles:
+
+   1. En **Usar metadatos de**, seleccione **Asignar contenido**.
+   1. Escriba la XPath de la imagen o la XPath de su atributo `href`.
+   1. Introduzca el formato deseado.
+   1. Introduzca el texto de marcador de posición que se mostrará si no se resuelve la imagen.
+   1. Seleccione **Aceptar**.
+
+1. (*Opcional*) Utilice **Hojas de estilo** para aplicar estilo a las imágenes. Se admiten estilos CSS para el elemento de imagen.
+
+1. Genere la salida de PDF.
+
+>[!NOTE]
+>
+>Si actualiza la imagen en la interfaz de usuario de Assets, la imagen actualizada se utilizará la próxima vez que genere la salida de PDF.
 
 ## Trabajo con el área de contenido {#content-area}
 

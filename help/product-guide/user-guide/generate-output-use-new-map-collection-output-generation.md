@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1589'
 ht-degree: 0%
 ---
 # Utilizar la nueva colección de asignaciones para la generación de resultados
@@ -101,7 +101,8 @@ Se obtiene una lista de todas las asignaciones deseadas con el título del mapa,
 
 >[!NOTE]
 >
-> Cuando se añade un gran número de mapas a una colección de mapas, las pestañas Mapas y ajustes preestablecidos muestran un máximo de cuatro mapas a la vez, junto con los ajustes preestablecidos asociados. Se proporciona una vista paginada en la parte inferior de la pantalla, que permite a los usuarios navegar entre páginas y acceder a mapas y ajustes preestablecidos adicionales. Si selecciona un mapa o ajuste preestablecido, la selección se conserva mientras navega por los mapas y ajustes preestablecidos restantes en diferentes páginas.
+>- Cuando una colección contiene muchas asignaciones, la pestaña Mapas y ajustes preestablecidos muestra un máximo de cuatro asignaciones a la vez, junto con sus ajustes preestablecidos. Las copias traducidas de un mapa se enumeran como entradas independientes y se incluyen en este recuento, por lo que los mapas y sus traducciones pueden distribuirse en varias páginas. Utilice los controles de paginación de la parte inferior de la pantalla para desplazarse entre las páginas. Las selecciones se conservarán a medida que vaya navegando.
+>- La ordenación solo se aplica a los resultados mostrados en la página actual. No reordena la colección completa en todas las páginas. Para buscar mapas específicos en toda la colección, utilice los filtros descritos en Opciones de filtrado.
 
 ![Fichas de mapas y ajustes preestablecidos](./images/maps-presets-tab.png)
 
@@ -109,8 +110,8 @@ La pestaña **Mapas y ajustes preestablecidos** presenta información en funció
 
 - **Ajuste preestablecido**: muestra el tipo de ajuste preestablecido de salida configurado en el archivo de asignación.
 - **Línea de base**: Muestra la línea de base que utiliza el ajuste preestablecido de salida.  Si no se usa ninguna línea de base, se muestra un guión `-`.
-- **Modificado desde la generación**: indica si el mapa DITA se actualiza después de la generación. En función de esta información, puede decidir si desea publicar la salida para este mapa DITA o no.
-- **Modificado desde la publicación**: indica si el mapa DITA se actualiza después de la última publicación. En función de esta información, puede decidir si desea volver a publicar la salida para este mapa DITA o no.
+- **Modificado desde la generación**: indica que el mapa puede haber cambiado desde la última vez que se generó su salida para este ajuste preestablecido. Puede utilizarlo para decidir si desea regenerar la salida.
+- **Modificado desde la publicación**: indica que el mapa se ha actualizado desde la última vez que se publicó su resultado. Puede utilizarlo para decidir si desea volver a publicar la salida.
 - **Última generación**: muestra la fecha y la hora del último resultado generado.
 - **Última publicación**: muestra la fecha y la hora de la última salida publicada.
 

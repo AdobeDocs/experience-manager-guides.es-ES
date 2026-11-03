@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ae9ac69745555aa3683e0a6a648f6519377dd6d7
+source-git-commit: 01ef49b5e26c31359559d9849e6726f704393cd7
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Realice los siguientes pasos para ver las sugerencias inteligentes para agregar 
 1. Seleccione el contenido del tema para ver las sugerencias relacionadas. Asegúrese de que la longitud de caracteres del contenido supera lo que el administrador ha establecido en el perfil de carpeta para que aparezcan las sugerencias de contenido.
 1. En el **panel de creación** del Asistente de IA, seleccione **Sugerir contenido reutilizable** ![ai sugerir icono de contenido reutilizable &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
 
-1. Seleccione una etiqueta para ver las sugerencias de creación de la etiqueta actual  Las sugerencias para ver y agregar referencias de contenido desde los archivos indexados se muestran en función del contenido de la etiqueta actual. También puede seleccionar varias etiquetas.
+1. Seleccione una etiqueta para ver las sugerencias de creación de la etiqueta actual.  Las sugerencias para ver y agregar referencias de contenido desde los archivos indexados se muestran en función del contenido de la etiqueta actual. También puede seleccionar varias etiquetas.
 
 
 1. Seleccione todas las etiquetas para ver las sugerencias en función del contenido presente en el documento completo.  El icono **Sugerir contenido reutilizable** ![ai sugerir contenido reutilizable &#x200B;](./images/ai-suggest-reusable-content-icon.svg) se muestra junto al contenido donde se encuentra una coincidencia adecuada.
@@ -82,7 +82,7 @@ Realice los siguientes pasos para ver las sugerencias inteligentes para agregar 
 1. También puede seleccionar **Aceptar** o **Descartar** en el panel de sugerencias para obtener las recomendaciones adecuadas.
 
 
-Esta función inteligente es práctica y minimiza el esfuerzo de búsqueda manual de contenido, lo que le permite concentrarse más en la generación de nuevo contenido. También facilita una mejor colaboración en equipo y ayuda a mantener la coherencia en el contenido creado por varios autores.
+Esta función inteligente es útil y minimiza el esfuerzo de la búsqueda manual de contenido, lo que le permite concentrarse más en la generación de nuevo contenido. También facilita una mejor colaboración en equipo y ayuda a mantener la coherencia en el contenido creado por varios autores.
 
 >[!NOTE]
 >

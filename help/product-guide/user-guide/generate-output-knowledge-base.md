@@ -31,9 +31,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1584'
 ht-degree: 1%
 ---
 # Base de conocimiento {#knowledge-base}
@@ -78,6 +78,17 @@ Las siguientes opciones de configuración están disponibles en la ficha **Gener
 
 Esta pestaña muestra la vista de árbol o jerárquica del mapa. Elija los temas que desea publicar en una base de conocimientos. Expanda un nodo del índice y elija los temas que desea publicar.
 
+![](./images/articles-tab-kb.png)
+
+Al publicar en Salesforce, aparece un icono de advertencia junto a la pestaña **Artículos** si no se ha seleccionado ningún tema para publicar. El icono de advertencia desaparece una vez que seleccione uno o varios temas.
+
+>[!NOTE]
+>
+> Esta funcionalidad se introdujo en la versión 2026.11.0 de Adobe Experience Manager Guides as a Cloud Service. La función está desactivada de forma predeterminada. Para habilitarlo, póngase en contacto con el equipo de éxito del cliente. Para obtener más información sobre las mejoras de publicación de Salesforce introducidas en la versión 2026.11.0, vea [Publicación mejorada de Salesforce mediante procesamiento back-end](./generate-output-for-a-dita-map.md#merging-different-topics-within-a-dita-map-using-the-chunk-attribute).
+
+![](./images/articles-tab-salesforce-kb.png)
+
+
 ### Target: Adobe Experience Manager/ServiceNow/Salesforce
 
 Las opciones de configuración cambian según el destino seleccionado.
@@ -114,6 +125,9 @@ Se muestran las siguientes opciones de configuración para **ServiceNow** como d
 | Perfil de publicación | Utilice el menú desplegable para seleccionar entre los perfiles de conexión de ServiceNow que configura el administrador. Para obtener más información sobre cómo el administrador puede crear un perfil de publicación, vea la descripción de la característica **configuración de Workspace** (que aparece como **Configuración** para la **configuración local anterior a la versión 5.2**) en la sección [Panel izquierdo](./web-editor-features.md#id2051EA0M0HS). |
 | Base de conocimiento | Utilice este campo para seleccionar la base de conocimiento de ServiceNow necesaria. Puede configurar bases de conocimiento en el sitio ServiceNow para almacenar el contenido en función de los permisos. Los artículos de este mapa DITA se pueden publicar en estas bases de conocimiento. |
 | Categoría y subcategoría | Las categorías son como árboles jerárquicos utilizados para buscar y clasificar artículos de la Base de conocimiento de ServiceNow. Agregue una categoría y subcategoría para publicar los temas y subtemas del índice en esa categoría y subcategoría del sitio ServiceNow. |
+| Cargar imágenes | Seleccione esta opción si desea que las imágenes de los temas se incluyan en la salida publicada. |
+| Cargar documentos vinculados | Seleccione esta opción para incluir los documentos vinculados en los temas de la salida publicada. |
+| Eliminación de elementos del cuerpo del artículo | Escriba el nombre de un elemento (por ejemplo, `prolog` o `shortdesc`) y presione **Entrar** para agregarlo a la lista. Cualquier elemento que agregue se excluirá del cuerpo del artículo en la salida publicada. De manera predeterminada, la lista incluye **title**, por lo que el encabezado del tema se oculta del cuerpo del artículo. Seleccione el icono `x` junto a **título** para quitarlo de la lista si desea que se incluya el encabezado del tema o agregue otros elementos que desee excluir. <br><br>**Nota**: Escriba el nombre de clase exacto del elemento DITA tal como aparece en el HTML transformado en la vista de código fuente del artículo ServiceNow. El nombre de clase debe coincidir con un elemento reconocido para que la exclusión surta efecto. Si el nombre introducido no coincide con un elemento reconocido, se ignorará y el elemento permanecerá en el artículo publicado. |
 
 **Salesforce**
 
@@ -125,17 +139,11 @@ Se muestran las siguientes opciones de configuración para **Salesforce** como d
 | Tipo de registro | Utilice la lista desplegable para seleccionar entre los tipos de registro configurados en Salesforce según la configuración de visibilidad en función del perfil de usuario. Los tipos de registro Salesforce son una forma de agrupar muchos registros de un tipo para ese objeto. Definen cómo se organiza la publicación. Por ejemplo, puede seleccionar el Tipo de registro de preguntas más frecuentes y publicar según el diseño de página de preguntas más frecuentes y los campos. |
 | Campo de contenido de artículo | Puede tener diferentes campos y un diseño único para cada plantilla de tipo de registro. Utilice estos campos para introducir información específica según el tipo de artículo. Por ejemplo, puede ver el título, la respuesta y la ecuación de un artículo de preguntas frecuentes. |
 | Categorías | Seleccione una categoría de la lista desplegable para publicar los temas del índice de esa categoría en el sitio de Salesforce. |
-
-**Algunas opciones más**
-
-También puede ver las siguientes opciones en los ajustes preestablecidos de Salesforce y ServiceNow:
-
-| Opciones | Descripción |
-| --- | --- |
 | Elimine el encabezado del tema del cuerpo del artículo. | Seleccione esta opción para quitar el encabezado del tema del artículo en la salida publicada. |
 | Cargar como borrador | Seleccione esta opción para cargar el tema y compartirlo como borrador antes de ponerlo a disposición de los usuarios. |
 | Cargar imágenes | Seleccione esta opción si desea que las imágenes de los temas se incluyan en la salida publicada. |
 | Cargar documentos vinculados | Seleccione esta opción para incluir los documentos vinculados en los temas de la salida publicada. |
+
 
 
 

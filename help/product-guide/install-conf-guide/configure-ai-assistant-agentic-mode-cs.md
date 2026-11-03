@@ -9,9 +9,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '437'
 ht-degree: 1%
 ---
 
@@ -74,4 +74,4 @@ Siga estos pasos para agregar la configuración de IMS al entorno:
 
 Una vez completada la configuración para su entorno, póngase en contacto con el equipo de éxito del cliente para habilitar el modo automático.
 
-Con el modo Agente habilitado para su entorno, vaya a **Configuración de Workspace** y habilite la opción **Agente** en la pestaña **General** de la sección **Asistente de IA**.
+Con el modo Agente habilitado para su entorno, vaya a **Configuración de Workspace** y habilite la opción **Agente** en la pestaña **General** de la sección **Características de IA**. Para obtener más información, vea [Configuración de Workspace](../install-conf-guide/workspace-settings.md).

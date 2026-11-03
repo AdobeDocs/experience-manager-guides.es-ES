@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1613'
 ht-degree: 0%
 ---
 # Comentarios de revisión de direcciones {#id2056B0X0KBI}
@@ -130,9 +130,10 @@ Los usuarios etiquetados reciben un correo electrónico y una notificación de A
 
 **Acceder a comentarios de revisión mediante la IU de revisión**
 
-Si usted es el iniciador o el autor de una tarea de revisión y la abre desde la **consola Proyectos**, el tema se iniciará en la interfaz de usuario de revisión. Debido a que esta tarea no está asignada a usted, puede ver los comentarios y responder a ellos, pero no puede realizar ninguna acción de revisión. La barra de herramientas de comentarios permanece desactivada para los usuarios que no están asignados a la tarea.
+Como iniciador de una tarea de revisión, puede abrirla en la **interfaz de usuario de revisión** para ver y responder a los comentarios de los revisores. También puede agregar comentarios a los temas de la tarea de revisión para proporcionar un contexto adicional o llamar la atención de los revisores sobre un contenido específico.
 
-![](images/review-comments-toolbar-disabled.png){width="350"}
+Para obtener más información, vea [Agregar comentarios para los revisores](./review-send-topics-for-review.md#add-comments-for-reviewers).
+
 
 ## Ver todas las tareas de revisión de un tema
 

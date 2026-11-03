@@ -31,14 +31,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '541'
 ht-degree: 0%
 ---
 # Uso de etiquetas {#id164JBG0M0T1}
 
-Adobe Experience Manager Guides permite agregar etiquetas a diferentes versiones de un archivo. Puede utilizar estas etiquetas para especificar la versión que desea incluir en una línea de base para la publicación. Para obtener más información acerca del uso de etiquetas para crear una línea de base, vea [Trabajar con línea de base](generate-output-use-baseline-for-publishing.md#).
+Adobe Experience Manager Guides permite agregar etiquetas a diferentes versiones de un archivo. Puede usar etiquetas de versión para especificar la versión de un tema que desea incluir en una [línea de base](./generate-output-use-baseline-for-publishing.md) para su publicación y para [administrar versiones de archivos que no son DITA](./authoring-file-management.md#work-with-media-and-other-non-dita-files), como imágenes, archivos multimedia, PDF y archivos ZIP.
 
 Por ejemplo, si desea utilizar la *versión 1.0* de un tema en la *versión 1.0* y la *versión 1.1* del mismo tema en la *versión 2.0*, puede agregar la etiqueta *versión 1.0* en la etiqueta *versión 1.0* y *versión 2.0* en la *versión 1.1*.
 

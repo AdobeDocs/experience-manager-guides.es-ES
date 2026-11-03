@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1297'
 ht-degree: 0%
 ---
 # Funciones adicionales en el editor de mapas {#id1942D0T0HUI}
@@ -90,7 +90,7 @@ Se añade una referencia de navegación del fichero de mapa seleccionado en la u
 
 ## Ejecutar comprobación de estado en un mapa
 
-La opción Ejecutar comprobación de estado del menú contextual le permite ejecutar una comprobación de estado en el mapa seleccionado para detectar problemas como vínculos rotos, ID duplicados y errores de validación de Schematron antes de la publicación.
+La opción **Ejecutar comprobación de estado** del menú contextual le permite ejecutar una comprobación de estado en el mapa seleccionado para detectar problemas como vínculos rotos, ID duplicados y errores de validación de Schematron antes de la publicación. Esta capacidad está disponible tanto en el editor New como en el antiguo.
 
 >[!NOTE]
 >

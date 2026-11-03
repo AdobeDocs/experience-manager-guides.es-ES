@@ -21,9 +21,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '434'
 ht-degree: 0%
 ---
 # Crear y administrar ajustes preestablecidos de comprobación de estado
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 Como administrador, puede configurar la función de comprobación de estado en el nivel de perfil de carpeta en Experience Manager, lo que permite a autores y editores ejecutar comprobaciones de estado en un mapa DITA. Esto incluye la detección temprana de problemas como vínculos rotos, ID duplicados y errores de validación de Schematron en un mapa antes de la publicación, en lugar de comprobar cada archivo individualmente. Las comprobaciones que se ejecutan se definen mediante un ajuste preestablecido de comprobación de estado, un conjunto de reglas que los autores y los editores pueden seleccionar y ejecutar.
 
-Este artículo proporciona información sobre la creación y administración de ajustes preestablecidos de comprobación de estado.
+La función de comprobación de estado está disponible tanto en el editor Nuevo como en el antiguo.
 
 ## Crear un ajuste preestablecido de comprobación de estado
 

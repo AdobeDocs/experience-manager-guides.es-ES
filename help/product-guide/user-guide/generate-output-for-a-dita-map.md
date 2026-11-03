@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '597'
 ht-degree: 0%
 ---
 # Generar salida
@@ -76,6 +76,9 @@ Para ver el registro de errores, seleccione **Descartar**, pase el ratón sobre 
 >
 > Si el mapa utiliza un fichero DITAVAL, las imágenes marcadas a las que se hace referencia en el fichero DITAVAL se copiarán en una ubicación relacionada con el mapa publicado en la salida.  Además, si utiliza varios archivos DITAVAL para filtrar en el mismo mapa, asegúrese de utilizar nombres de archivo `.ditaval` únicos para evitar problemas de nombres de archivo duplicados durante la publicación.
 
+Puede ver el estado actual de la solicitud de generación de resultados en la ficha **Historial de resultados**. Para obtener más información, vea [Ver el estado de la tarea de generación de resultados](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
+
+
 ## Generar salida para un mapa DITA desde el panel Mapa
 
 Realice los siguientes pasos para generar la salida de un mapa DITA mediante el tablero de mandos Mapa:
@@ -91,7 +94,7 @@ Realice los siguientes pasos para generar la salida de un mapa DITA mediante el 
 1. Seleccione el icono **Generate** para iniciar el proceso de generación de resultados.
 
 
-Puede ver el estado actual de la solicitud de generación de resultados en la ficha **Salidas**. Para obtener más información, vea [Ver el estado de la tarea de generación de resultados](./generate-output-manage-process.md#view-the-status-of-the-output-generation-task).
+Puede ver el estado actual de la solicitud de generación de resultados en la ficha **Salidas**. Para obtener más información, vea [Ver el estado de la tarea de generación de resultados](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
 
 >[!IMPORTANT]
 >

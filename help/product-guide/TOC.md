@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lea la documentación del producto para Adobe Experience Manager Guides.
 breadcrumb-title: Documentación de AEM Guides
-source-git-commit: 09b8fabaa75d656ae1465d741c8aac8307ce6231
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '2657'
+source-wordcount: '2705'
 ht-degree: 10%
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 10%
       - {hide-from-toc}[Instrucciones de implementación](./release-info/deploy-xml-on-aemaacs.md)
       - [Versiones en la nube](./release-info/latest-release-info-cs.md)
       - Versiones de 2026 {#2026-releases}
+        - Versión 2026.11.0 {#2611-release}
+          - [Novedades](./release-info/whats-new-2026-11-0.md)
+          - [Problemas solucionados](./release-info/fixed-issues-2026-11-0.md)
+          - [Instrucciones de actualización](./release-info/upgrade-instructions-2026-11-0.md)
         - Versión 2026.09.0 {#2609-release}
           - [Novedades](./release-info/whats-new-2026-09-0.md)
           - [Problemas solucionados](./release-info/fixed-issues-2026-09-0.md)
@@ -293,6 +297,10 @@ ht-degree: 10%
   - Administración y publicación de mapas {#map-management-publishing}
     - [Información general de la consola Mapa](./user-guide/map-console-overview.md)
     - [Abrir archivos en la consola Mapa](./user-guide/open-files-map-console.md)
+    - Bifurcación y combinación {#work-with-branching}
+      - [Información general](./user-guide/branching-overview.md)
+      - [Creación y administración de ramas](./user-guide/create-manage-branch.md)
+      - [Combinar ramas](./user-guide/merge-branches.md)
     - Informes {#reports-aem-guide}
       - [Introducción a los informes](./user-guide/reports-intro.md)
       - [Informe de mapa DITA desde la consola Mapa](./user-guide/reports-web-editor.md)
@@ -369,12 +377,15 @@ ht-degree: 10%
     - [Revelación de usuarios de IA generativa de Adobe](./user-guide/adobe-generative-ai-disclosures.md)
     - [Información general del Asistente de IA](./user-guide/ai-assistant.md)
     - Asistente de IA en modo automático {#ai-assistant-agentic}
-      - [Uso del asistente de IA en modo automático](./user-guide/ai-assistant-agentic.md)
+      - [Importación de contenido con el asistente de IA](./user-guide/import-ai-assistant.md)
+      - [Creación del primer borrador del contenido](./user-guide/create-ai-assistant.md)
+      - [Etiquetado inteligente con el asistente de IA](./user-guide/ai-assistant-agentic.md)
     - Asistente de IA en modo Estándar {#ai-assistant-standard}
-      - [Ayuda inteligente con tecnología de IA para buscar contenido](./user-guide/ai-based-smart-help.md)
       - [Creación del asistente de IA para crear documentos de forma inteligente](./user-guide/ai-assistant-right-panel.md)
       - [Sugerencias inteligentes con tecnología de IA para crear contenido](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [Preguntas frecuentes](./user-guide/ai-assistant-faq.md)
+  - Asistente de ayuda en AEM Guides {#help-assistant-aem}
+    - [Ayuda inteligente con tecnología de IA para buscar contenido](./user-guide/ai-based-smart-help.md)
   - Administrar contenido de aprendizaje {#learning-training-content}
     - Guía de introducción {#get-started}
       - Introducción {#intro-lc}
@@ -563,6 +574,7 @@ ht-degree: 10%
         - [Aplicar estilos a las notas al pie](./native-pdf/footnote-number-style.md)
         - [Configurar el nuevo motor de publicación para PDF nativo](./native-pdf/conf-new-pdf-engine.md)
       - [Trabajar con el motor nativo de PDF v2](./native-pdf/new-pdf-engine.md)
+      - [Configuración del procesamiento del apéndice para el procesamiento de mapas para PDF nativo](./install-conf-guide/conf-appendix-map-ref-native-pdf.md)
       - [Configurar el proceso de nodo para la publicación nativa de PDF para Cloud Service](./native-pdf/conf-node-options-cs.md)
       - [Configurar indicadores JVM para la publicación nativa de PDF para local](./native-pdf/conf-jvm-flags-on-prem.md)
     - Configuración de fragmentos de contenido y experiencia para Cloud Service {#conf-content-exp-fragment}
@@ -699,6 +711,7 @@ ht-degree: 10%
       - [Configuración de la publicación basada en microservicios con autenticación JWT](./knowledge-base/publishing/configure-microservices.md)
       - [Configuración de la publicación basada en microservicios con autenticación OAuth](./knowledge-base/publishing/configure-microservices-imt-config.md)
       - [Configuración de Edge Delivery Services](./knowledge-base/publishing/configure-eds.md)
+      - [Configuración de GitLab para Edge Delivery Services](./knowledge-base/publishing/configure-eds-gitlab.md)
       - [Publicación de puntos de referencia en la nube de AEM](./knowledge-base/publishing/publishing-benchmarks-on-aem-cloud.md)
     - Flujos de trabajo {#workflows}
       - [Flujo de trabajo de generación posterior](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)

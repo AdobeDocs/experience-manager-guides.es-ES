@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '2378'
-ht-degree: 1%
+source-wordcount: '2799'
+ht-degree: 0%
 ---
 # Configuración de Workspace
 
@@ -51,25 +51,21 @@ La opción **Workspace settings** presente en la [barra de fichas](../user-guide
 
 ## General
 
-La Configuración general permite configurar los ajustes para utilizar el Editor. Esta ficha contiene cinco secciones: **Asistente de IA**, **Creación**, **Citas**, **Condición** y **Corrección ortográfica**.
+La Configuración general permite configurar los ajustes para utilizar el Editor. Esta pestaña contiene: **características de IA**, **Asistente de ayuda de IA**, **Creación**, **Citas**, **Condición**,**Editor de HTML**, **Contenido de aprendizaje** y **Corrección ortográfica**.
 
 ![](assets/editor-setting-general-agentic.png){width="350"}
 
-- **Ayudante de IA**
+- **Características de IA**: úselo para habilitar la característica Asistente de IA en Experience Manager Guides. El Asistente de IA está disponible en dos modos: **Agentic** y **Standard**. Puede elegir entre los dos modos activando los botones de opción correspondientes.
 
   >[!NOTE]
   >
   > Para utilizar el modo automático de la función Asistente de IA en su entorno, póngase en contacto con el equipo de éxito del cliente.
 
-  Seleccione esta opción para habilitar la función [AI Assistant](../user-guide/ai-assistant.md) en Experience Manager Guides. Anule la selección para deshabilitar la función.
+  - **Agente**: Después de habilitar esta opción, puede acceder al Asistente para inteligencia artificial aplicada a la actividad de agente desde la barra de navegación de la aplicación Experience Manager Guides. También puede configurar las áreas de nombres de taxonomía que utiliza la aptitud de etiquetado inteligente para generar recomendaciones de etiquetas. AI Assistant solo tiene en cuenta las etiquetas de las áreas de nombres seleccionadas, según las etiquetas definidas en AEM. Para obtener más información, vea [Modo agéntico en el asistente de IA](../user-guide/ai-assistant.md#ai-assistant-modes).
 
-  El Asistente de IA está disponible en dos modos: **Agentic** y **Standard**. Puede elegir entre los dos modos activando los respectivos alternadores.
+    ![](assets/agentic-new.png){width="350"}
 
-  - **Agentic**: Después de habilitar esta opción, podrá acceder a la función Asistente de inteligencia artificial aplicada a la actividad de agente desde la barra de navegación de la página de inicio y la barra de pestañas de la interfaz del editor. Para obtener más información sobre cómo generar etiquetas sugeridas por IA para los temas, vea [Usar el Asistente de IA en modo automático](../user-guide/ai-assistant-agentic.md).
-
-  ![](assets/agentic-ai-workspace.png){width="350"}
-
-  - **Estándar**: después de habilitar la opción **Estándar**, puede configurar qué opciones aparecen en la **ficha Creación** para autores mediante el menú **Creación de acciones rápidas**, como se muestra a continuación.
+  - **Estándar**: después de habilitar la opción **Estándar**, puede configurar qué opciones aparecen en el menú **Creación de acciones rápidas**, como se muestra a continuación.
 
     Estos cambios se aplican al perfil de carpeta específico con el que está trabajando. Si crea un nuevo perfil de carpeta, heredará la configuración de Workspace definida en el perfil de carpeta **Global** de forma predeterminada. Puede modificar esta configuración según sea necesario mediante la **configuración de Workspace** y guardar la configuración actualizada.
 
@@ -82,6 +78,8 @@ La Configuración general permite configurar los ajustes para utilizar el Editor
   - Para cambiar el orden en que aparecen las opciones, arrástrelas y suéltelas según sea necesario.
 
   ![](assets/authoring-quick-actions-standard.png){width="350"}
+
+- **Asistente de ayuda de IA**: esta característica está deshabilitada de manera predeterminada. Habilite esta función para acceder al panel del Ayudante de ayuda desde las interfaces de la página principal, el editor y la consola de mapas. El Asistente de ayuda le permite hacer preguntas sobre las funciones de Experience Manager Guides, los flujos de trabajo y la resolución de problemas, y proporciona respuestas relevantes basadas en la documentación del producto. Para obtener más información, vea [Ayuda inteligente](../user-guide/ai-based-smart-help.md).
 
 - **Creación**
 
@@ -115,7 +113,26 @@ La Configuración general permite configurar los ajustes para utilizar el Editor
     >
     > La revisión ortográfica de AEM utiliza el idioma seleccionado en la propiedad language del archivo. Si no se especifica el idioma para el archivo, la revisión ortográfica vuelve al idioma del servidor de AEM.
     >Para garantizar resultados precisos de la revisión ortográfica, el diccionario del idioma seleccionado debe estar disponible en AEM. Si el diccionario necesario para el idioma configurado no está disponible, la revisión ortográfica toma el valor predeterminado `en_us`.
+- **Contenido de aprendizaje**: esta configuración le permite habilitar o deshabilitar la característica Aprendizaje y formación sobre productos para su instancia de Experience Manager Guides. Use la opción **Habilitar contenido de aprendizaje** para habilitar o deshabilitar la característica en el nivel de perfil de carpeta. De forma predeterminada, esta función permanece deshabilitada para todas las instancias.
 
+  Más información sobre la función [Formación sobre productos y contenido de aprendizaje](../learning-content/intro.md).
+
+  Las siguientes funciones/opciones están disponibles únicamente cuando la configuración de Contenido de aprendizaje está activada:
+
+  - **Creación de cursos**: Habilita opciones para crear y administrar cursos desde el Editor y desde la página de inicio.
+  - **Plantillas SCORM**: Habilita la opción para crear plantillas SCORM en *Plantillas de salida* en el Editor.
+  - **Plantillas de contenido y Ajustes preestablecidos de salida**: habilita las opciones de configuración Plantillas de contenido y Ajustes preestablecidos de salida en el cuadro de diálogo Configuración de Workspace.
+
+Cuando el contenido de aprendizaje está desactivado, todas las opciones anteriores dejan de estar disponibles en la interfaz de Experience Manager Guides.
+
+Para obtener más información, vea [Configurar perfiles de carpeta](../lc-config-guide/lc-folder-profile.md).
+
+- **Editor de HTML**: Para contenido de aprendizaje, esta opción le permite configurar el Editor para la creación basada en HTML. Las opciones de configuración clave presentes en esta configuración son las siguientes:
+
+  - **Ocultar estilo en línea**: habilite esta opción para evitar que los autores apliquen formato en línea al contenido del curso. Cuando se habilita, todas las opciones de estilo en línea como Fuentes, Borde, Diseño, Fondo y Columnas presentes en el panel derecho del Editor permanecen ocultas para los autores. Sin embargo, los autores aún pueden usar las opciones de estilo globales basadas en clases disponibles en el panel **Estilos**. Esto ayuda a mantener la coherencia con las directrices de estilo de su organización.
+  - **Ocultar la vista de Source para autores**: habilite esta opción para restringir el acceso al código fuente de HTML. Esto resulta útil cuando desea simplificar la edición o evitar cambios accidentales en el código subyacente.
+
+  Para obtener más información, vea [crear y personalizar contenido de aprendizaje](../learning-content/lc-overview.md).
 
 ## Paneles
 
@@ -181,6 +198,12 @@ Contiene los perfiles que se pueden usar para publicar la salida de **Knowledge 
   - Seleccione los siguientes ámbitos de OAuth:
     - Acceso completo (completo)
     - Seleccione Administrar datos de usuario mediante API
+    - Realizar solicitudes en cualquier momento (refresh_token, offline_access)
+
+    >[!NOTE]
+    >
+    >- Para usar la clave de revisión para el intercambio de código (PKCE), agregue `Perform requests at any time` a los ámbitos. Póngase también en contacto con el equipo de éxito del cliente para habilitar esta función.
+    >- Habilite la opción **Requerir clave de revisión para la extensión de intercambio de código (PKCE) para los flujos de autorización admitidos** en la aplicación conectada a Salesforce. PKCE evita que se intercambie un código de autorización interceptado por un token de acceso, lo que hace que la conexión entre Experience Manager Guides y Salesforce sea más segura.
 
     Una vez configurada la aplicación, Salesforce proporciona **clave del consumidor** y **secreto del consumidor**. Se pueden utilizar para crear el perfil de Salesforce.
 
@@ -234,7 +257,7 @@ Esta pestaña contiene opciones para configurar las validaciones de Schematron e
 
   Esto evita que los usuarios guarden cualquier archivo que rompa una regla definida en los archivos de Schematron seleccionados. Si no se selecciona esta opción, el archivo no se validará antes de guardar los cambios.
 
-- **Permitir que todos los usuarios agreguen archivos de Schematron en el panel de validación**: seleccione esta opción para permitir que los usuarios agreguen cualquier archivo de Schematron en el panel Validación del Editor. Esto permite a los usuarios agregar archivos de Schematron y, a continuación, validar los temas con el archivo de Schematron. Si no se selecciona esta opción, la opción para agregar el botón **Agregar archivo de schematron** no estará disponible para los usuarios en el **panel Validación** del Editor.
+- **Permitir que todos los usuarios agreguen archivos de Schematron en el panel de validación**: seleccione esta opción para permitir que los usuarios agreguen cualquier archivo de Schematron en el panel Validación del Editor. Esto permite a los usuarios agregar archivos de Schematron y, a continuación, validar los temas con el archivo de Schematron. Si no se selecciona, el botón **Agregar archivo de Schematron** no estará disponible para los usuarios en el **panel Validación** del editor.
 
   ![Validación en la configuración del área de trabajo](../user-guide/images/editor-setting-validation.png){width="550"}
 

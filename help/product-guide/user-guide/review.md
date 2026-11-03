@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '445'
 ht-degree: 0%
 ---
 # Introducción a la revisión {#id1645H6010Q5}
@@ -42,6 +42,8 @@ Algunas de las características principales que Adobe Experience Manager Guides 
 - Comparta una versión actualizada del tema para su revisión en el panel de revisión.
 
 - Acceda a los comentarios compartidos en diferentes versiones del tema.
+- Agregue comentarios a los temas para proporcionar contexto o llamar la atención de los revisores sobre un contenido específico.
+
 - Etiquete fácilmente a los usuarios de tareas de revisión específicas en comentarios o respuestas para realizar acciones rápidas y realizar seguimientos. Los usuarios etiquetados reciben una notificación inmediata a través de AEM y de notificaciones por correo electrónico.
 - Agrupe y filtre comentarios según la versión del tema.
 
