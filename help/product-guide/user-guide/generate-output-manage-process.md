@@ -30,20 +30,75 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '1296'
 ht-degree: 0%
 ---
 # Administrar proceso de generación de resultados
 
-Adobe Experience Manager Guides permite realizar las siguientes acciones en la salida generada:
+Adobe Experience Manager Guides permite supervisar y administrar las tareas de generación de resultados de los mapas DITA. Puede ver el estado de las tareas de generación de resultados, cancelar las tareas en curso y quitar las entradas obsoletas del historial de generación de resultados.
+
+Una vez iniciada una tarea de generación de resultados para una asignación o regenerada los temas seleccionados, Experience Manager Guides envía la tarea a la cola de generación de resultados. El estado de la tarea se actualiza a medida que progresa el proceso de generación de resultados.
+
+Puede ver y administrar tareas de generación de resultados mediante la ficha **Historial de resultados** del Editor o la ficha **RESULTADOS** de la interfaz de usuario de Assets.
+
+
+## Ver y administrar tareas de generación de resultados desde el Editor
+
+Puede ver y administrar tareas de generación de resultados directamente desde la ficha **Historial de resultados** en la consola Mapa.
+
+Abra el mapa DITA en la consola Mapa y genere la salida utilizando cualquiera de los ajustes preestablecidos de salida disponibles en Experience Manager Guides. Cambie a la ficha **Historial de resultados** para ver el estado de la tarea de generación de resultados y otros detalles, como se muestra a continuación:
+
+![](images/output-history-editor-view.png)
+
+Para cada tarea de generación de resultados, se puede ver la siguiente información:
+
+1. **Ajuste preestablecido:** Nombre del ajuste preestablecido de salida utilizado para generar el resultado.
+1. **Tipo de ajuste preestablecido:** Tipo de ajuste preestablecido de salida usado para la generación de resultados.
+1. **Estado:** Estado actual de la tarea de generación de resultados, como En espera, En ejecución, Finalizada, Fallida, Posterior a la publicación o Cancelada.
+1. **Generado el:** Fecha y hora en que se generó la salida.
+1. **Duración:** Tiempo que se tarda en generar la salida.
+1. **Generado por:** Nombre del usuario que inició la tarea de generación de resultados.
+
+>[!NOTE]
+>
+> Si una tarea de generación de resultados está actualmente en curso, la etiqueta **Ejecutando** en la columna **Estado** indica que la tarea se está procesando. Use **Actualizar** para ver el estado más reciente de las tareas de generación de resultados.
+
+También puede cancelar una tarea de generación de resultados en curso. Para cancelar una tarea en curso, pasa el ratón sobre la fila de la tarea y selecciona **Cancelar generación**.
+
+![](images/cancel-generation-editor.png)
+
+Una vez cancelada la tarea, la etiqueta **Cancelada** se muestra en la columna **Estado**.
+
+Para las tareas de generación de resultados completadas, pase el ratón sobre la fila de tareas para acceder a las siguientes acciones, según el estado de la tarea:
+
+![](images/output-history-editor-actions.png)
+
+- **Abrir salida:** Ver la salida generada en una nueva ficha.
+- **Ver registros:** Acceda a los registros de generación de resultados para revisar los detalles de publicación y solucionar errores o advertencias.
+- **Eliminar el historial de salida:** Quite la tarea seleccionada del historial de generación de salida sin eliminar la salida generada.
+
+También puede utilizar las siguientes opciones para trabajar con el historial de generación de resultados:
+
+- **Buscar:** Utilice el campo de búsqueda para buscar tareas específicas de generación de resultados en el historial.
+- **Descargar CSV:** Seleccione **Descargar CSV** para descargar el historial de generación de resultados en formato CSV.
+- **Cambiar tamaño de columna:** Seleccione el menú desplegable situado junto al nombre de una columna y seleccione **Cambiar tamaño de columna** para ajustar el ancho de la columna.
+- **Filtro**: aplique filtros basados en el tipo de ajuste preestablecido de salida, el estado de la tarea y el intervalo de fecha y hora para reducir el historial de generación de salida.
+
+  ![](./images/output-history-filters.png)
+
+Además, los iconos con códigos de color indican el estado de cada tarea: verde para las tareas correctas, naranja para las tareas completadas con mensajes y rojo para las tareas fallidas. Esto le ayuda a identificar rápidamente las tareas que requieren atención.
+
+## Ver y administrar tareas de generación de resultados desde la interfaz de usuario de Assets
+
+Con Assets AI, puede realizar las siguientes acciones en la salida generada:
 
 - [Ver el estado de la tarea de generación de resultados](#view-the-status-of-the-output-generation-task)
 - [Cancelar una tarea de generación de resultados](#cancel-an-output-generation-task)
 - [Eliminar una tarea de salida](#delete-an-output-task)
 
-## Ver el estado de la tarea de generación de resultados
+### Ver el estado de la tarea de generación de resultados
 
 Una vez iniciada la tarea de generación de resultados para una asignación o regenerada los temas seleccionados, Experience Manager Guides envía esta tarea a la cola de generación de resultados. Esta cola se actualiza en tiempo real y muestra el estado de cada tarea de generación de salida de la cola.
 
@@ -67,14 +122,14 @@ Una vez iniciada la tarea de generación de resultados para una asignación o re
 
      En esta lista, puede tener tareas que se hayan ejecutado correctamente, tareas que se hayan ejecutado con un mensaje o tareas fallidas. Las tareas correctas se muestran con un icono de color verde, las tareas con un mensaje tienen un icono de color naranja y las tareas fallidas se muestran con un icono de color rojo.
 
-     Para todas las tareas, el proceso de publicación crea un archivo de registro \(logs.txt\) al que se puede acceder seleccionando el vínculo en la columna Generated At. Para las tareas que han fallado o tienen mensajes, puede comprobar el archivo de registro, que se explica en la sección [Ver y comprobar el archivo de registro](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
+     Para todas las tareas, el proceso de publicación crea un archivo de registro \(logs.txt\) al que se puede acceder seleccionando el vínculo en la columna **Generado en**. Para las tareas que han fallado o tienen mensajes, puede comprobar el archivo de registro, que se explica en la sección [Ver y comprobar el archivo de registro](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
 
      >[!NOTE]
      >
      > Al seleccionar el vínculo de la salida de PDF generada, se le pide que descargue PDF.
 
 
-## Cancelar una tarea de generación de resultados
+### Cancelar una tarea de generación de resultados
 
 Experience Manager Guides ofrece a los editores una forma sencilla y sencilla de cancelar cualquier tarea de publicación en curso. Como editor, puede cancelar una tarea de publicación en curso desde la consola de mapas DITA o el [Panel de publicación](generate-output-publish-dashboard.md#).
 
@@ -101,7 +156,7 @@ Realice los siguientes pasos para cancelar una tarea de generación de salida de
    ![](images/cancelled-output-task.png)
 
 
-## Eliminar una tarea de salida
+### Eliminar una tarea de salida
 
 Cuando se generan varias salidas para un mapa DITA, durante un periodo de tiempo la lista de salidas generadas para dicho mapa se vuelve muy larga. Como editor, puede limpiar el historial de salida de cualquier archivo de asignación eliminando las tareas obsoletas de la lista *Salidas generadas*. Tenga en cuenta que la salida no se elimina del sistema, solo la entrada de la salida generada se elimina de la lista *Salidas generadas*.
 
@@ -120,3 +175,20 @@ Realice los siguientes pasos para quitar una tarea de salida de la lista Salida 
 1. Seleccione **Sí** en el mensaje de **Confirmar eliminación**.
 
    La tarea se elimina de la lista Resultados generados.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

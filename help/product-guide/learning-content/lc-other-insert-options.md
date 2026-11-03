@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2fcdb485f7527b5ffdfe1d42ed3d9bbdd576ce7a
+source-git-commit: ab188ec25b60920cf4055bc21e21634a811bb20a
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '672'
 ht-degree: 0%
 ---
 # Otras opciones del menú Insertar
@@ -59,7 +59,8 @@ Las otras opciones disponibles en el menú Insertar de la barra de herramientas 
 
   >[!NOTE]
   >
-  > Adobe Experience Manager Guides no admite la edición o creación de contenido H5P. Prepare el paquete H5P externamente antes de cargarlo.
+  > - Adobe Experience Manager Guides no admite la edición o creación de contenido H5P. Prepare el paquete H5P externamente antes de cargarlo.
+  > - Los cursos que contienen varios archivos H5P utilizan recursos compartidos en lugar de duplicarlos para cada archivo. Esto reduce el tamaño del paquete y resulta en una generación y publicación de cursos más rápidas para los cursos con un alto contenido de H5P.
 
   ![](assets/h5p-fullscreen.png)
 

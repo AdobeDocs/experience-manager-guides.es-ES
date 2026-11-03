@@ -28,7 +28,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -39,7 +39,7 @@ En una situación real, los autores tendrían acceso a la instancia de creación
 
 >[!NOTE]
 >
-> Para obtener más información sobre cómo configurar la instancia de autor y publicación en AEM, consulte [Información general sobre la arquitectura de creación y publicación](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=es#prerequisites).
+> Para obtener más información sobre cómo configurar la instancia de autor y publicación en AEM, consulte [Información general sobre la arquitectura de creación y publicación](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
 
 Con la función Activación masiva de AEM Guides, puede activar de forma rápida y sencilla el contenido desde la creación a la publicación. La función de activación masiva le ofrece la flexibilidad de:
 
@@ -63,4 +63,5 @@ Ajustes preestablecidos de salida JSON.
 - **[Eliminar una colección de mapas de activación masiva](conf-bulk-activation-delete-map-collection.md)**
 
 
-**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)
+**Tema principal:**[ Generación de resultados](generate-output.md)
+

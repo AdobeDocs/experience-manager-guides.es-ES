@@ -17,12 +17,12 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ae9ac69745555aa3683e0a6a648f6519377dd6d7
+source-git-commit: 01ef49b5e26c31359559d9849e6726f704393cd7
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1067'
 ht-degree: 0%
 ---
-# Crear documentos de forma inteligente con el asistente de IA (Beta)
+# Crear documentos de forma inteligente con AI Assistant
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Adobe Experience Manager Guides proporciona una herramienta de asistente de IA q
 
 >[!NOTE]
 >
-> Esta función de creación sólo está disponible para temas DITA y sólo se puede acceder a ella desde la interfaz del editor. En la página de inicio y en la consola de mapas, solo se muestra el panel **Ayuda**. Los administradores que usan la configuración de Workspace configuran las opciones disponibles en la función de creación en el nivel de perfil de carpeta.
+> Esta función de creación sólo está disponible para temas DITA y sólo se puede acceder a ella desde la interfaz del editor. En la página de inicio y en la consola de mapas. Los administradores que usan la configuración de Workspace configuran las opciones disponibles en la función de creación en el nivel de perfil de carpeta.
 
 Después de seleccionar el texto de un tema, puede elegir realizar cualquiera de las acciones del Asistente de IA:
 
@@ -41,7 +41,7 @@ Después de seleccionar el texto de un tema, puede elegir realizar cualquiera de
 ## Sugerir contenido reutilizable
 
 
-Use la característica **Sugerir contenido reutilizable** ![ai sugerir icono de contenido reutilizable &#x200B;](./images/ai-suggest-reusable-content-icon.svg) para crear contenido de manera consistente y precisa. Puede seleccionar el contenido y Experience Manager Guides proporciona sugerencias sobre cómo reutilizar el contenido existente en el repositorio.
+Use la característica **Sugerir contenido reutilizable** ![ai sugerir icono de contenido reutilizable ](./images/ai-suggest-reusable-content-icon.svg) para crear contenido de manera consistente y precisa. Puede seleccionar el contenido y Experience Manager Guides proporciona sugerencias sobre cómo reutilizar el contenido existente en el repositorio.
 Más información sobre cómo usar [sugerencias inteligentes con tecnología de IA para crear contenido](authoring-ai-based-smart-suggestions.md).
 
 

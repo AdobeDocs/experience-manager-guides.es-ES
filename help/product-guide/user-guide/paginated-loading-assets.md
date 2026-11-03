@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '724'
 ht-degree: 0%
 ---
 
@@ -70,6 +70,9 @@ Las secciones siguientes describen cómo se aplica cada una de ellas a diferente
 - **Agregar o duplicar**: el nuevo archivo aparece en la parte superior de la carpeta.
 - **Mover**: al mover entre carpetas no relacionadas, se actualiza la carpeta de origen a su primer lote de recursos y se agrega el elemento en la parte superior del destino (cargando el primer lote de recursos del destino si aún no estaba abierto).
 - **Actualizar**: Un nuevo botón de actualización en el encabezado del panel Explorador vuelve a cargar el nivel raíz y muestra el primer lote de recursos.
+- **Ordenar**: utilice el botón Ordenar de la parte superior del panel Explorador para cambiar el orden de los archivos y carpetas entre ascendente (valor predeterminado) y descendente. Los archivos y las carpetas del panel del Explorador se ordenan por el nombre que se muestra para ellos, que depende de la configuración de **los archivos del Editor** en [preferencias de usuario](./intro-home-page.md#user-preferences). Si se establece en Título, los archivos y las carpetas se ordenan por título. Si se establece en Nombre de archivo, se ordenan por nombre de archivo.
+
+  ![ordenación del explorador](images/explorer-sorting.png){width="350"}
 
 ### Panel Buscar
 

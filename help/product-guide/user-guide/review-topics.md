@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 63ae0f947d50646bed34cd815db6b9fb585fc015
 workflow-type: tm+mt
-source-wordcount: '3753'
+source-wordcount: '3746'
 ht-degree: 0%
 ---
 # Revisar temas {#id2056B0W0FBI}
@@ -235,7 +235,10 @@ También puede resaltar o tachar texto rápidamente con la barra de herramientas
 
 El panel Comentarios muestra una lista de comentarios proporcionados sobre el tema actual. En este panel también se muestran los comentarios de otros revisores si el tema se envía a varios revisores. Cada comentario del panel de comentarios está vinculado al texto correspondiente del tema actual. Ayuda a identificar el texto comentado. Cada comentario muestra el nombre del revisor que lo ha agregado junto con la marca de tiempo.
 
-Los comentarios se muestran en el orden del texto comentado en el documento. Por ejemplo, hay un comentario resaltado en la primera frase y un comentario de texto insertado en la segunda frase del primer párrafo, y el comentario de texto resaltado se muestra antes del comentario de texto insertado.
+>[!NOTE]
+>
+> El iniciador de la revisión también puede agregar comentarios a un tema para proporcionar un contexto adicional o llamar la atención de los revisores sobre un contenido específico. Estos comentarios se muestran en el panel **Comentarios** junto con los comentarios de otros revisores. Para obtener más información, vea [Agregar comentarios para los revisores](./review-send-topics-for-review.md#add-comments-for-reviewers).
+
 
 A continuación, se describen las tareas que puede realizar mediante el panel Comentarios:
 
@@ -443,4 +446,4 @@ El icono **Historial de versiones** del tema aparece una vez que el autor ha cer
 
 ![](images/version-history-dialog.png)
 
-**Tema principal:**&#x200B;[&#x200B; Introducción a la revisión](review.md)
+**Tema principal:**[ Introducción a la revisión](review.md)

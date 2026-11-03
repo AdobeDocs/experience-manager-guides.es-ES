@@ -46,9 +46,9 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '4071'
+source-wordcount: '4203'
 ht-degree: 0%
 ---
 # Ajuste preestablecido de salida de PDF nativo
@@ -94,7 +94,7 @@ Utilice para especificar la configuración básica de salida, como especificar l
 
 >[!NOTE]
 >
->Si la característica de comprobación de estado [1&rbrace; está configurada para el perfil de carpeta, se muestra la opción **Ejecutar comprobación de estado antes de generar resultados** en la pestaña General. &#x200B;](../install-conf-guide/conf-health-check-preset.md)Utilícelo para que una comprobación de estado se ejecute automáticamente cada vez que genere resultados con este ajuste preestablecido, de modo que no tenga que almacenarlos en déclencheur manualmente desde el mapa. El informe se anexa al registro de publicación y es puramente informativo. No bloqueará ni retrasará su salida, incluso si la comprobación encuentra errores o advertencias sin resolver. Más información acerca de [Usar la característica de comprobación de estado en Experience Manager Guides](../user-guide/map-editor-other-features.md#run-health-check-on-a-map).
+>Si la característica de comprobación de estado [1} está configurada para el perfil de carpeta, se muestra la opción **Ejecutar comprobación de estado antes de generar resultados** en la pestaña General. ](../install-conf-guide/conf-health-check-preset.md)Utilícelo para que una comprobación de estado se ejecute automáticamente cada vez que genere resultados con este ajuste preestablecido, de modo que no tenga que almacenarlos en déclencheur manualmente desde el mapa. El informe se anexa al registro de publicación y es puramente informativo. No bloqueará ni retrasará su salida, incluso si la comprobación encuentra errores o advertencias sin resolver. Más información acerca de [Usar la característica de comprobación de estado en Experience Manager Guides](../user-guide/map-editor-other-features.md#run-health-check-on-a-map).
 
 | Configuración | Descripción |
 | --- | --- |
@@ -132,7 +132,7 @@ En los ajustes preestablecidos de salida, seleccione **PDF** > **Native-PDF** > 
 
 * **Proporcionar archivo XMP**
 
-  También puede rellenar directamente los campos de metadatos importando el archivo [XMP](https://www.adobe.com/es/products/xmp.html) (Extensible Metadata Platform). Puede descargar un archivo de XMP de ejemplo desde aquí.
+  También puede rellenar directamente los campos de metadatos importando el archivo [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). Puede descargar un archivo de XMP de ejemplo desde aquí.
 
   [Descargar](assets/SampleXMP.xmp)
 
@@ -262,8 +262,23 @@ Utilice las siguientes opciones para especificar la configuración avanzada para
 | **Incluir cambios de seguimiento** | Seleccione esta opción si desea incluir las marcas de revisión en el PDF generado para facilitar la revisión y comparación. |
 | **Incluir comentarios de borrador** | Seleccione esta opción si desea incluir comentarios de borrador agregados en temas DITA del mapa seleccionado en el PDF generado. <br> **Nota**: al habilitar esta opción por sí sola, los comentarios de borrador no aparecen en la salida. Un administrador también debe establecer la propiedad de visualización del estilo de borrador-comentario en un valor visible (como `block`, `inline-block`, `grid` y más) en la plantilla de salida utilizada para el mapa. Para obtener más información, vea [Mostrar u ocultar comentarios de borrador en la salida nativa de PDF](../native-pdf/components-pdf-template.md#show-or-hide-draft-comments-in-native-pdf-output). |
 | **Conservar archivos temporales** | Seleccione esta opción si desea conservar los archivos HTML provisionales creados al generar la salida nativa de PDF. Posteriormente, puede descargar los archivos temporales después de generar la salida. Los archivos descargados también incluirían `system_config.xml` archivo que le brinda información sobre la URL del autor, la URL local y la URL de publicación. Estas direcciones URL se configuran en la configuración de externalización de AEM y se reflejan en el archivo `system_config.xml`. |
-| **Conformidad de PDF** | Es el estándar con el que pretende guardar el PDF para asegurarse de que es compatible. Seleccione en el menú desplegable para elegir entre la lista de estándares de PDF disponibles. Para obtener más información acerca de los estándares admitidos, vea [Acerca de los estándares de PDF](https://helpx.adobe.com/es/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Conformidad de PDF** | Es el estándar con el que pretende guardar el PDF para asegurarse de que es compatible. Seleccione en el menú desplegable para elegir entre la lista de estándares de PDF disponibles. Para obtener más información acerca de los estándares admitidos, vea [Acerca de los estándares de PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Propiedades de archivo** | Seleccione los metadatos que desea pasar a la publicación nativa de PDF. La lista desplegable enumera las propiedades personalizadas y predeterminadas. Por ejemplo, `dc:description`, `dc:language`, `dc:title` y `docstate` son las propiedades predeterminadas, mientras que puede tener `author` como propiedad personalizada. Las propiedades de metadatos seleccionadas se pasan al archivo de PDF generado mediante PDF nativo. <br> Estas propiedades se seleccionan del archivo `metadataList` disponible en:`/libs/fmdita/config/metadataList`. <br>Este archivo se puede superponer en: `/apps/fmdita/config/metadataList`. |
+
+## Asignaciones de elementos DITA en HTML intermedio
+
+Durante la generación nativa de PDF, el contenido DITA se transforma en HTML intermedio antes de generar la salida de PDF. Puede acceder a estos archivos intermedios activando la opción **Conservar archivos temporales** en el ajuste preestablecido de salida nativo de PDF.
+
+Como parte de esta transformación, ciertos elementos DITA se pueden asignar a diferentes elementos HTML en el archivo `merged.html` intermedio. Estas asignaciones ayudan a preservar el procesamiento en línea esperado en el PDF generado.
+
+Si utiliza personalizaciones o automatización que dependen de la estructura de elementos de HTML en los archivos intermedios, tenga en cuenta estas asignaciones al procesar el HTML generado.
+
+Actualmente, la siguiente asignación de elementos DITA es aplicable en el archivo intermedio `merged.html`:
+
+| Elemento DITA | Elemento HTML | Descripción |
+|----|----|-----|
+| `<option>` | `<span>` | Asigna el elemento DITA `<option>` a un elemento HTML `<span>` para conservar los espacios adyacentes en el PDF generado. |
+
 
 
 

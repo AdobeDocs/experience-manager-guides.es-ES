@@ -22,9 +22,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '3213'
+source-wordcount: '3598'
 ht-degree: 0%
 ---
 # Administración de archivos y carpetas {#id2116G0L08XA}
@@ -321,22 +321,73 @@ Si se conceden permisos de eliminación a un grupo de usuarios específico, tamb
 
 En esta situación, los usuarios no podrán eliminar archivos hasta que se hayan eliminado todas las referencias entrantes y salientes.
 
-## Trabajo con archivos multimedia
+## Trabajo con medios y otros archivos que no son DITA
 
-Los archivos multimedia, como imágenes y vídeos, son parte integral del contenido. Mientras carga y administra el contenido, también puede trabajar con archivos multimedia.
+Los archivos que no son DITA, como imágenes, archivos multimedia, archivos ZIP, PDF y archivos DOCX, son parte integral del contenido. Al cargar y administrar el contenido, es posible que también deba consultar las versiones anteriores de estos archivos.
 
-Si el archivo multimedia ha sufrido algún cambio, puede buscarlo y obtener una vista previa de los archivos en el **Historial de versiones**. Para averiguar los cambios en las distintas versiones de un archivo multimedia:
+Adobe Experience Manager Guides permite obtener una vista previa de los archivos que no son DITA, ver su historial de versiones y administrar las etiquetas de versiones. Puede utilizar etiquetas de versión para identificar versiones específicas de archivos para versiones de contenido y administración de línea de base.
+
+Puede administrar las versiones de los archivos que no son DITA a través de la interfaz de usuario de Assets o directamente desde el Editor.
+
+### Uso del editor
+
+Puede abrir archivos que no sean DITA directamente en el Editor para obtener una vista previa del contenido y administrar las versiones sin tener que navegar a la interfaz de usuario de Assets.
+
+>[!NOTE]
+>
+> Los archivos que no son DITA, como imágenes, archivos multimedia, archivos ZIP, PDF y archivos DOCX, se abren en modo no editable en el Editor. Puede ver sus versiones y administrar las etiquetas de versión, pero no puede modificar su contenido directamente desde el Editor.
+
+
+Realice los siguientes pasos para ver y administrar el historial de versiones y las etiquetas de un archivo que no es DITA:
+
+1. Abra **Editor** y vaya al archivo no DITA requerido en el Explorador.
+2. Haga doble clic en el archivo para abrirlo en el Editor.
+
+   El archivo se abre en una nueva pestaña y muestra su previsualización.
+
+   >[!NOTE]
+   >
+   > En el caso de los archivos que no se pueden representar, se muestra una miniatura o una representación disponible en el Editor. Si una vista previa no está disponible, se muestra un mensaje de marcador de posición apropiado.
+
+   La información de la versión actual del archivo seleccionado se muestra en [Barra de herramientas](./web-editor-toolbar.md).
+
+   ![](images/version-management-non-dita-files-editor.png){width="650" align="center"}
+
+3. Seleccione el menú desplegable **Menú** de la barra de herramientas y elija una de las siguientes opciones:
+
+   - **Historial de versiones**: Abre el cuadro de diálogo Historial de versiones, donde puede ver las versiones disponibles del archivo, junto con sus etiquetas y comentarios asociados. Puede comparar versiones y revertirlas a una versión anterior.
+
+   - **Etiqueta de versión**: abre el cuadro de diálogo Etiqueta de versión, donde puede seleccionar una versión del menú desplegable y ver sus etiquetas asociadas. Puede agregar o actualizar etiquetas de versión utilizando las opciones disponibles. El cuadro de diálogo también muestra una previsualización de la versión del archivo seleccionado, si está disponible.
+
+   Para obtener más información, vea las secciones Historial de versiones y Etiquetas de versiones en [Barra de herramientas en el Editor](./web-editor-toolbar.md#menu-dropdown).
+
+4. Realice los cambios necesarios en las etiquetas de versión o revise la información de la versión.
+
+### Uso de la IU de Assets
+
+Realice los siguientes pasos para ver el historial de versiones de un archivo que no es DITA:
 
 1. Obtenga acceso al archivo en **IU de Assets**.
 1. Seleccione el archivo para el que desea ver el historial de versiones.
 1. En el carril izquierdo, seleccione **Historial de versiones** y elija una versión.
 1. También puede ver las miniaturas de las diferentes versiones en Historial de versiones.
 
+   Por ejemplo, la opción de administración de versiones disponible para un archivo de imagen se muestra de la siguiente manera:
+
    ![](images/media-version-history-icon.png){align="center"}
+
+   Del mismo modo, la opción de administración de versiones para un archivo PDF se muestra de la siguiente manera:
+
+   ![](images/pdf-version-management.png){align="center"}
 
 1. De las versiones enumeradas, seleccione la que desee usar como versión base y seleccione **Vista previa**. La vista previa de la versión seleccionada se muestra en la ventana Version Preview.
 
    ![](images/media-version-preview.png){width="650" align="center"}
 
+También puede administrar las etiquetas de versión del archivo desde el panel Historial de versiones.
 
-**Tema principal:**&#x200B;[&#x200B; Administrar contenido](authoring.md)
+
+
+
+
+**Tema principal:**[ Administrar contenido](authoring.md)

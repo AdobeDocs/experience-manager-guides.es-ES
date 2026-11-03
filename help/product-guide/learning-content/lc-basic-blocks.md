@@ -16,13 +16,11 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: ffb697b53a663370621af1a3a484de9c3218881f
 workflow-type: tm+mt
-source-wordcount: 590
+source-wordcount: '624'
 ht-degree: 0%
-
 ---
-
 # Añadir componentes básicos al tema
 
 Para comprender mejor cómo crear un tema de aprendizaje y añadirle componentes básicos, el siguiente vídeo ofrece una breve descripción general de las funciones disponibles.
@@ -59,6 +57,10 @@ Puede utilizar las funciones básicas de edición disponibles en la barra de her
 
 - **Imagen**: inserta imágenes en el contenido junto con texto alternativo y una información de pantalla. Las imágenes se pueden añadir desde el repositorio o a través de una URL externa. Además, las propiedades de imagen se pueden modificar mediante el panel **Propiedades de contenido**.
 
+  >[!NOTE]
+  >
+  > También se admite el formato de imagen AVIF. Puede cargar un archivo con este formato en el repositorio o seleccionarlo al insertar una imagen en el contenido. Esto solo funciona para la salida SCORM.
+
   ![](assets/image-learning-content.png){width="650"}
 
 - **Multimedia**: agrega vídeo y audio al contenido. Puede personalizar sus propiedades mediante el panel **Propiedades de contenido**.
@@ -67,14 +69,14 @@ Puede utilizar las funciones básicas de edición disponibles en la barra de her
 
 - **Contenido reutilizable**: le permite incorporar contenido existente de sus recursos o repositorio para reutilizarlo. Siga estos pasos para insertar contenido reutilizable:
 
-   1. Seleccione **Contenido reutilizable** en la barra de herramientas.
-Se abre el cuadro de diálogo **Reutilizar contenido**.
-   2. Desplácese y seleccione el tema que desee para incluir su contenido en el curso actual.
-   3. Seleccione el ID del contenido que desea añadir; junto a él se mostrará una vista previa como referencia.
+  1. Seleccione **Contenido reutilizable** en la barra de herramientas.
+     Se abre el cuadro de diálogo **Reutilizar contenido**.
+  2. Desplácese y seleccione el tema que desee para incluir su contenido en el curso actual.
+  3. Seleccione el ID del contenido que desea añadir; junto a él se mostrará una vista previa como referencia.
 
-      ![](assets/reuse-content-dialog.png){width="650"}
+     ![](assets/reuse-content-dialog.png){width="650"}
 
-   4. Elija **Seleccionar**.
+  4. Elija **Seleccionar**.
 
   El contenido se inserta. Por ejemplo, la sección sobre estructura del vehículo es una parte de contenido que se reutiliza y se añade al tema del curso. El tipo se muestra como **Referencia** y su **ID** se refleja en el panel **Propiedades del contenido**.
 

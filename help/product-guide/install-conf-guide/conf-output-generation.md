@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '3402'
+source-wordcount: '3665'
 ht-degree: 1%
 ---
 # Configuración de la generación de salida {#id181AI0B0E30}
@@ -362,11 +362,11 @@ AEM Guides proporciona la categoría `apps.fmdita.dashboard-extn` para personali
 
 >[!NOTE]
 >
-> Para obtener más información acerca de cómo crear la biblioteca de cliente de AEM, vea [Usar bibliotecas del lado del cliente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=es).
+> Para obtener más información acerca de cómo crear la biblioteca de cliente de AEM, vea [Usar bibliotecas del lado del cliente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## Controlar la representación de imágenes durante la generación de salida {#id177BF0G0VY4}
 
-AEM incluye un conjunto de flujos de trabajo predeterminados y controladores de medios para procesar recursos. En AEM, hay flujos de trabajo predefinidos para gestionar el procesamiento de recursos para los tipos MIME más comunes. Normalmente, para cada imagen que carga, AEM crea varias representaciones de la misma en formato binario. Estas representaciones pueden tener un tamaño diferente, con una resolución diferente, con una marca de agua agregada o cualquier otra característica modificada. Para obtener más información sobre cómo administra AEM los recursos, consulte [Procesamiento de Assets mediante controladores de medios y flujos de trabajo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=es) en la documentación de AEM.
+AEM incluye un conjunto de flujos de trabajo predeterminados y controladores de medios para procesar recursos. En AEM, hay flujos de trabajo predefinidos para gestionar el procesamiento de recursos para los tipos MIME más comunes. Normalmente, para cada imagen que carga, AEM crea varias representaciones de la misma en formato binario. Estas representaciones pueden tener un tamaño diferente, con una resolución diferente, con una marca de agua agregada o cualquier otra característica modificada. Para obtener más información sobre cómo administra AEM los recursos, consulte [Procesamiento de Assets mediante controladores de medios y flujos de trabajo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) en la documentación de AEM.
 
 AEM Guides le permite configurar qué representación de imágenes utilizar en el momento de generar la salida de sus documentos. Por ejemplo, puede elegir una de las representaciones de imágenes predeterminadas o crear una y utilizar la misma para publicar los documentos. La asignación de representación de imágenes para publicar los documentos se almacena en el archivo `/libs/fmdita/config/ **renditionmap.xml**`. Un fragmento del archivo `renditionmap.xml` es el siguiente:
 
@@ -423,7 +423,12 @@ Cuando se genera una salida, esta se crea junto con los registros de salida. Par
 
 `/var/dxml/metadata/outputHistory`
 
-Durante un período de tiempo, el tamaño colectivo de todos los archivos de registro podría alcanzar los GB. AEM Guides le permite configurar un periodo de tiempo para mantener estos archivos de registro en el repositorio. Después del período de tiempo especificado, los registros junto con el historial de generación de salida se eliminan del repositorio.
+Durante un período de tiempo, el tamaño colectivo de todos los archivos de registro podría alcanzar los GB. AEM Guides permite controlar cuánto tiempo se conservan los registros y el historial de generación de resultados en el repositorio. Puede conservar el historial de salida de una de las siguientes maneras:
+
+- **Por edad (predeterminado): se purgan** las entradas anteriores al número de días especificado.
+- **Por recuento:** Solo se conserva el número más reciente de entradas que especifique para cada mapa y ajuste preestablecido. Las entradas más antiguas se purgan independientemente de su edad.
+
+También puede elegir si al purgar se quita toda la entrada del historial de resultados junto con su registro o sólo el registro. Mantener la entrada sin su registro le ayuda a conservar un registro de los resultados generados para fines de auditoría, a la vez que reduce el tamaño del repositorio.
 
 >[!NOTE]
 >
@@ -431,11 +436,15 @@ Durante un período de tiempo, el tamaño colectivo de todos los archivos de reg
 
 La configuración de la función de depuración del historial afecta a la generación de resultados para todas las asignaciones DITA del repositorio. En la ficha Salidas de un mapa DITA, el historial se depura después del número de días especificado y a la hora especificada en la configuración.
 
+
+
 >[!NOTE]
 >
 > La eliminación de los archivos de registro y del historial de generación de resultados no afecta a la salida generada.
 
-Las siguientes pestañas proporcionan instrucciones para establecer un día y una hora para purgar el historial y los registros de salida en función de la configuración de Experience Manager Guides: Cloud Service o On-Premise.
+Las siguientes pestañas proporcionan instrucciones para configurar cómo se depuran el historial y los registros de salida en función de la configuración de Experience Manager Guides: Cloud Service o On-Premise.
+
+![](assets/purging-history-setting.png){width="600"}
 
 >[!BEGINTABS]
 
@@ -445,8 +454,11 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 
 | PID | Clave de propiedad | Valor de propiedad |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager\|output.history.purgeperiod` | Especifique el número de días después de los cuales se depura el historial de salida junto con los registros de salida. Si desea deshabilitar esta función, establezca esta propiedad en 0.Everyday a la hora especificada en que se ejecute el proceso de depuración en las salidas generadas antes del número de días especificado en esta propiedad. | **Valor predeterminado**: 5 |
-| `output.history.purgetime` | Especifique la hora en la que se inicia el proceso de depuración. | **Valor predeterminado**: 0:00 \(o 12:00 medianoche\) |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgeperiod` | Especifique el número de días después de los cuales se depura el historial de salida junto con los registros de salida. Si desea deshabilitar esta función, establezca esta propiedad en 0. Todos los días a la hora especificada el proceso de depuración se ejecuta en las salidas generadas antes del número de días especificado en esta propiedad. Esta propiedad se usa solamente cuando `output.history.retention.mode` es `AGE`. **Valor predeterminado**: `5` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgetime` | Especifique la hora en la que se inicia el proceso de depuración. Formato: `HH:MM` (por ejemplo, `15:30`). **Valor predeterminado**: `0:00` (o 12:00 de la medianoche) |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.mode` | Especifique la estrategia de retención para el historial de resultados. Los valores posibles son `AGE` y `COUNT`. **Valor predeterminado**: `AGE` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.count` | Especifique el número de entradas del historial de salida más recientes que se guardarán para cada mapa y ajuste preestablecido. Introduzca un entero positivo. Esta propiedad se usa solamente cuando `output.history.retention.mode` es `COUNT`. **Valor predeterminado**: `25` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.action` | Especifique lo que sucede con las entradas del historial de salida que se eliminan mediante retención, en cualquier modo. Los valores posibles son `DELETE_ENTRY` y `LOGS_ONLY`. **Valor predeterminado**: `DELETE_ENTRY` |
 
 >[!TAB Local]
 
@@ -460,13 +472,19 @@ Siga las instrucciones indicadas en [Anulaciones de configuración](download-ins
 
 1. Busque y haga clic en el paquete **com.adobe.fmdita.config.ConfigManager**.
 
-1. En la propiedad **Periodo de purga del historial de salida**, especifique el número de días después de los cuales se purgará el historial de salida junto con los registros de salida. De forma predeterminada, se establece en 5 días. Si desea deshabilitar esta función, establezca esta propiedad en 0.
+1. En la propiedad **Periodo de purga del historial de salida**, especifique el número de días después de los cuales se purgará el historial de salida junto con los registros de salida. De forma predeterminada, se establece en 5 días. Si desea deshabilitar esta función, establezca esta propiedad en 0. Esta propiedad solo se usa cuando **Modo de retención del historial de salida** está establecido en **AGE**.
 
-1. En la propiedad **Hora de purga del historial de salida**, especifique la hora a la que se inicia el proceso de purga. De forma predeterminada, se establece en 0:00 \(o 12:00 medianoche\). Todos los días en este momento, el proceso de depuración se ejecuta en las salidas generadas antes del número de días especificado en la propiedad **Periodo de purga del historial de salida**.
+1. En la propiedad **Hora de purga del historial de salida**, especifique la hora a la que se inicia el proceso de purga. De forma predeterminada, se establece en 0:00 (o 12:00 de medianoche). Todos los días en este momento, el proceso de depuración se ejecuta en las salidas generadas antes del número de días especificado en la propiedad **Periodo de purga del historial de salida**.
 
    >[!NOTE]
    >
-   > De forma predeterminada, la función de depuración se ejecuta cada medianoche en salidas de más de 5 días.
+   >De forma predeterminada, la función de depuración se ejecuta cada medianoche en salidas de más de 5 días.
+
+1. En la lista desplegable **Modo de retención del historial de salida**, seleccione la estrategia de retención. De manera predeterminada, se establece en **AGE**. Los dos modos son mutuamente excluyentes.
+
+1. En la propiedad **Recuento de retención del historial de salida (por ajuste preestablecido)**, especifique el número de entradas del historial de salida más recientes que se guardarán para cada mapa y ajuste preestablecido. De forma predeterminada, se establece en 25. Esta propiedad solo se usa cuando **Modo de retención del historial de salida** está establecido en **COUNT**.
+
+1. En la lista desplegable **Acción de retención del historial de salida**, seleccione qué sucede con las entradas que se quitan mediante retención. De manera predeterminada, se establece en **DELETE_ENTRY**.
 
 1. Haga clic en **Guardar**.
 

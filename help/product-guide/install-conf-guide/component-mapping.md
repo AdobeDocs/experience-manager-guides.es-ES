@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1140'
 ht-degree: 0%
 ---
 # Asignación de componentes para AEM Sites
@@ -171,9 +171,30 @@ Ejemplos:
 ]
 ```
 
-Defina el elemento y la clase a los que se va a dirigir, use `attributeMap` para establecer las propiedades del nodo, agregue una entrada `path-attributes` para normalizar las rutas y elija el `from` correcto para los valores que desee extraer. El(la) `heroimage` utilizado(a) arriba es un componente en un sitio `we-retail`.
+Defina el elemento y la clase a los que se va a dirigir, use `attributeMap` para establecer las propiedades del nodo, agregue una entrada `path-attributes` para normalizar las rutas y elija el `from` correcto para los valores que desee extraer. El(la) `heroimage` utilizado(a) arriba es un componente en un sitio `we-retail`.  Es importante discutir el texto enriquecido predeterminado e identificar los elementos para los que se utiliza.
 
-**Nota**: Es importante analizar el texto enriquecido predeterminado e identificar los elementos para los que se utiliza.
+
+## Propagar metadatos de prólogo al encabezado de la página
+
+Cuando se genera una salida de AEM Sites con asignación de componentes, los metadatos del prólogo, como autor, palabras clave e ID de recurso, se añaden al cuerpo de la página de AEM Sites generada en lugar del encabezado de la página.
+
+Para propagar los metadatos del prólogo al encabezado de las páginas de salida, agregue la siguiente asignación al archivo de asignación de componentes:
+
+```json
+{
+  "name": "div",
+  "class": "prolog",
+  "resourceType": "guides-components/components/prolog",
+  "attributeMap": [
+    {
+      "from": "outerHTML",
+      "to": "prologContent"
+    }
+  ]
+}
+```
+
+Después de agregar esta asignación, los metadatos del prólogo están disponibles en el encabezado de las páginas generadas. Esto es compatible con casos de uso como la indexación de búsqueda.
 
 ## Crear un componente personalizado
 

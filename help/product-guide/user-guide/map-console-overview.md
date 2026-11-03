@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: d859c31fb0241400fd0f1b4a8acfc0fed9554242
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '935'
 ht-degree: 0%
 ---
 # Información general de la consola Mapa
@@ -67,7 +67,7 @@ La interfaz de la consola Mapa se divide principalmente en dos secciones: **Barr
   >
   > Si usas el as a Cloud Service de Adobe Experience Manager Guides, se mostrará una característica adicional [Asistente de IA](./ai-assistant.md) en la barra de navegación.
 
-- (**B**) **Panel izquierdo**: el panel izquierdo le proporciona acceso rápido a las funciones de generación de salida, creación y administración de informes, línea de base, ajustes preestablecidos de condición, traducción de contenido y Workfront (solo si están configuradas).
+- (**B**) **Panel izquierdo**: el panel izquierdo le proporciona acceso rápido a las características de Generación de salida, Historial de salida, Creación y administración de informes, Línea de base, Ajustes preestablecidos de condición, Traducción de contenido y Workfront (solo si están configuradas).
 
   Para obtener más información, consulte la sección [Características de la consola de mapas](#map-console-features) a continuación.
 
@@ -81,6 +81,14 @@ Con la consola Mapa, puede generar salidas de forma eficaz en varios formatos, i
 
 Para obtener más información, vea [Generación de resultados](./generate-output.md).
 
+**Historial de salida**
+
+Permite ver y gestionar tareas de generación de salida para el mapa DITA seleccionado directamente desde el editor. Puede monitorizar el estado de las tareas en curso y completadas, ver los detalles de generación de salida, acceder a los registros de publicación y administrar el historial de generación de salida.
+
+También puede buscar y filtrar tareas de generación de resultados en función del tipo de ajuste preestablecido, el estado de la tarea y el intervalo de fecha y hora, así como descargar el historial de generación de resultados en formato CSV.
+
+Para obtener más información, vea [Administrar proceso de generación de resultados](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
+
 **Creación y administración de informes**
 
 En una configuración organizativa, debe verificar la integridad general de la documentación técnica antes de empezar a trabajar en ella o publicar los documentos. Esta necesidad se vuelve aún más esencial en entornos multiusuario y a gran escala. Con la consola Mapa, puede acceder a informes de Experience Manager Guides que proporcionan una insight útil sobre el estado general del contenido del repositorio y sobre cómo se utiliza el contenido en el proceso de documentación.
@@ -88,6 +96,10 @@ En una configuración organizativa, debe verificar la integridad general de la d
 Para obtener más información, vea [Informes en Experience Manager Guides](./reports-intro.md).
 
 **Línea base**
+
+>[!NOTE]
+>
+> La consola Mapa muestra la ficha **Línea de base** o **Ramas**, en función de si la bifurcación está habilitada para su entorno. La bifurcación está disponible en Experience Manager Guides as a Cloud Service a partir de la versión 2026.11.0 y está desactivada de forma predeterminada. Para habilitarlo, póngase en contacto con el equipo de éxito del cliente de Adobe. Cuando la bifurcación está habilitada, las líneas de base ya no están disponibles. Para obtener más información, vea [Ramas en Experience Manager Guides](./branching-overview.md) y [Crear y administrar ramas de un mapa DITA](./create-manage-branch.md#manage-branches).
 
 Experience Manager Guides proporciona la función Línea de base que le permite crear una versión de los temas y recursos que luego se puede utilizar para publicar o traducir. También se pueden publicar varios ajustes preestablecidos de salida del mismo mapa DITA en paralelo.
 

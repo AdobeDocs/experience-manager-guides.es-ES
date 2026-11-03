@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '5049'
+source-wordcount: '5098'
 ht-degree: 0%
 ---
 # Componentes de una plantilla de PDF {#components-pdf-template}
@@ -287,14 +287,17 @@ Puede definir el texto que aparecerá antes y después del salto. Por ejemplo, u
   >[!NOTE]
   >
   > Cuando use una variable de idioma en el campo **Texto antes del salto** o **Texto después del salto**, asegúrese de que todo el texto esté definido dentro de una variable de idioma única. No se representa ningún texto o variable agregado fuera de la variable de idioma en estos campos. Por ejemplo, en lugar de usar una combinación de variables como `${lng:Continued-from-page} %page-num%` en el campo **Texto después de la pausa**, use solamente `${lng:Continued-from-page}` en el campo y establezca por separado el valor de la variable de idioma `Continued-from-page` en `Continued-from-page %page-num%`.
-* **Vincular términos del glosario a la página del glosario**: seleccione esta opción para mostrar los términos del glosario como hipervínculos en el contenido y vincularlos a los términos de la página del glosario. Esto ayuda a los lectores a ver rápidamente la definición de un término definido en el glosario.
+* **Vincular términos del glosario a la página del glosario**: active esta opción para mostrar los términos del glosario como hipervínculos en el contenido y vincularlos a los términos de la página del glosario. Esto ayuda a los lectores a ver rápidamente la definición de un término definido en el glosario.
 
   Para convertir los términos del glosario en hipervínculos, debe:
   * Habilite **Glosario** en la ficha **Orden de diseño de página** para un mapa DITA.
   * Agregue el glosario en las páginas de contenido posterior de un mapa del libro.
 
   Si no habilita la página Glosario, los términos del glosario del contenido no se convierten en hipervínculos en la salida de PDF.
-  <!--For more information on using table continuation markers, see Use table continuation markers.-->
+
+* **Mostrar todas las entradas del glosario**: Active esta opción para incluir todas las entradas del glosario definidas en el mapa, independientemente de si se hace referencia al término correspondiente en el contenido. De forma predeterminada, esta opción está desactivada y solo se incluyen en la página del glosario los términos del glosario que se utilizan en realidad en el contenido.
+
+<!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Diseños de página {#page-layouts}
 
@@ -502,11 +505,11 @@ Por ejemplo, puede agregar una variable de idioma &quot;reference-label&quot; y 
 Cuando agrega `${lng:<variable name>}` a la sección Párrafo, las referencias cruzadas de los párrafos de la salida contienen el texto localizado y el número de página.\
 Por ejemplo, las siguientes capturas de pantalla muestran las referencias cruzadas &quot;Ver en la página 1&quot; en inglés y &quot;Einzelheiten finden Sie auf der Seite 1&quot; en alemán.
 
-<img src="./assets/english-output-corss-reference.png" alt="Resultado en inglés de una referencia cruzada en un párrafo&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Resultado en inglés de una referencia cruzada en un párrafo" width ="800" border="2px">
 
 *Referencia cruzada dentro de un párrafo cuando se publica en inglés.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Resultado alemán de una referencia cruzada en un párrafo&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="Resultado alemán de una referencia cruzada en un párrafo" width ="800" border="2px">
 
 *Referencia cruzada dentro de un párrafo cuando se publica en alemán.*
 
