@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 082688d62ed871fa52947e5152df35575b622164
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '757'
 ht-degree: 0%
 ---
 # Asistente de IA
@@ -38,10 +38,6 @@ ht-degree: 0%
 El asistente de IA de Adobe Experience Manager Guides es una herramienta con tecnología de IA diseñada para mejorar la productividad mediante la simplificación de los flujos de trabajo de creación, administración y creación de contenido. Ofrece dos modos: Agentic y Standard. En **modo agente**, el Asistente de IA le permite realizar tareas relacionadas con el contenido mediante interacciones en lenguaje natural, con habilidades como Importar, Crear y Etiquetado inteligente para optimizar la creación de contenido, la organización y la administración de metadatos. En **modo estándar**, el Asistente de IA proporciona asistencia para la creación, lo que le ayuda a crear, refinar y administrar contenido de manera más eficiente.
 
 ## Modos de asistente de IA
-
->[!NOTE]
->
->Para habilitar el asistente de IA en modo automático para su entorno, póngase en contacto con el equipo de éxito del cliente.
 
 El Asistente de IA está disponible en dos modos: **Agentic** y **Standard**. Los administradores pueden seleccionar el modo en la sección **características de IA** de la ficha **General** en la **configuración de Workspace**. El panel Asistente de IA del Editor sigue siendo el mismo en ambos modos, pero las capacidades disponibles difieren:
 

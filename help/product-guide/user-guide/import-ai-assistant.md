@@ -1,7 +1,7 @@
 ---
 title: Importar documentos como temas con el Asistente de IA
 description: Aprenda a convertir archivos de PDF, Word y Markdown en temas DITA y en un mapa con el Asistente de IA y revise el resultado antes de guardarlo.
-source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Puede importar archivos desde su dispositivo o repositorio de contenido, especif
 
    - **Usando acceso directo**: escriba `/` en el campo Preguntar y, a continuación, elija **Agregar referencia de repositorio** para elegir el archivo del repositorio (o **Agregar archivos del dispositivo** para cargar el archivo desde el equipo).
 
-   - **Uso de los iconos Adjuntar archivos o Agregar contexto (+)**: Agrega archivos del sistema local para proporcionar el contenido para la importación.
+   - **Uso de los iconos Adjuntar archivos o Agregar contexto (+)**: Agregue archivos del sistema local para proporcionar el contenido necesario para la importación.
 
    - **Arrastrar y soltar**: Arrastre y suelte el archivo que desea importar del sistema directamente en el espacio de solicitud.
 
@@ -39,7 +39,7 @@ Puede importar archivos desde su dispositivo o repositorio de contenido, especif
 
    ![](images/folder-import.png)
 
-1. Elija el nivel de encabezado que se convierte en tema. Por ejemplo, H2 como se muestra en la captura de pantalla.
+1. Elija el nivel de encabezado que se convierte en tema. Por ejemplo, H2, como se muestra en la captura de pantalla.
 
    Responda a cualquier pregunta de seguimiento adicional que parezca proporcionar los detalles necesarios para el proceso de importación.
 

@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 63ae0f947d50646bed34cd815db6b9fb585fc015
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1913'
 ht-degree: 1%
 ---
 # EXPERIENCE MANAGER GUIDES y EDGE DELIVERY SERVICES
@@ -39,7 +39,7 @@ Para habilitar la publicación desde Experience Manager Guides a EDS, debe compl
 2. [Creación y configuración de un perfil de publicación para EDS en Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-in-experience-manager)
 3. [Personalización de la salida mediante bloques EDS](#customize-output-using-eds-blocks)
 
-Para ver un tutorial rápido en vídeo, vea [Publicación en AEM Guides](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+Para ver un tutorial rápido en vídeo, vea [Publicación en AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
@@ -169,7 +169,7 @@ Realice los siguientes pasos para instalar y configurar la aplicación *AEM Code
 
    Asegúrese de que **Usar un origen de contenido diferente** está seleccionado.
 
-6. En la página **Usuarios**, agregue usuarios si es necesario y, a continuación, seleccione **Siguiente**.
+6. En la página **Usuarios**, agregue usuarios si es necesario y seleccione **Siguiente**.
 
 7. Revise el resumen de la configuración y seleccione **Guardar**.
 

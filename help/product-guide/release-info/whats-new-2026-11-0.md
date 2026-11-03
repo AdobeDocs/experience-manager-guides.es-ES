@@ -2,9 +2,9 @@
 title: Notas de versión | Novedades de la versión 2026.11.0 de Adobe Experience Manager Guides
 description: Explore las nuevas funciones de la versión 2026.11.0 de Adobe Experience Manager Guides, incluida la ramificación en el nivel de mapa y la creación de contenido del asistente de IA.
 role: Leader
-source-git-commit: ef5e433214f15b12102af7c9e38031536183ca72
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1508'
 ht-degree: 0%
 ---
 
@@ -18,7 +18,7 @@ Obtenga información acerca de [instrucciones de actualización para la versión
 
 ## Introducción a la bifurcación y combinación a nivel de mapa
 
-Adobe Experience Manager Guides introduce una capacidad de ramificación y combinación a nivel de mapa, que permite a los autores trabajar en varias versiones de documentación, actualizaciones de funciones y correcciones críticas en paralelo sin afectar al contenido principal. Los autores pueden crear ramas aisladas de un mapa DITA y sus dependencias, asegurándose de que las ediciones, los bloqueos y las vistas previas son específicos de cada rama.
+Experience Manager Guides introduce una capacidad de ramificación y combinación a nivel de mapa, que permite a los autores trabajar en varias versiones de documentación, actualizaciones de funciones y correcciones críticas en paralelo sin afectar al contenido principal. Los autores pueden crear ramas aisladas de un mapa DITA y sus dependencias, asegurándose de que las ediciones, los bloqueos y las vistas previas son específicos de cada rama.
 
 Esta capacidad ayuda a los equipos de documentación a administrar flujos de trabajo paralelos, colaborar de forma eficaz y mantener la estabilidad de la versión de la documentación principal. Puede hacer lo siguiente:
 
@@ -40,11 +40,11 @@ Más información sobre [bifurcación y combinación](../user-guide/branching-ov
 >
 >Para utilizar el asistente de IA en modo automático, su organización debe estar integrada en Adobe CX Enterprise Coworker y tener los créditos necesarios.
 
-Ahora, puede usar **Asistente de IA** para crear e importar contenido DITA con indicaciones en lenguaje natural. Con la tecnología **Adobe CX Enterprise Coworker**, las nuevas habilidades de **Create** e **Import** simplifican la creación de contenido estructurado y ayudan a los autores a trabajar con contenido DITA sin necesidad de tener mucha experiencia en DITA.
+Ahora puede usar **Ayudante de IA** para crear e importar contenido DITA con indicaciones en lenguaje natural. Con la tecnología **Adobe CX Enterprise Coworker**, las nuevas habilidades de **Create** e **Import** simplifican la creación de contenido estructurado y ayudan a los autores a trabajar con contenido DITA sin necesidad de tener mucha experiencia en DITA.
 
 - **Crear:** Generar temas y asignaciones DITA a partir de peticiones de datos en lenguaje natural, documentos de referencia o contenido existente mediante plantillas de repositorio. Puede revisar el contenido generado antes de guardarlo y refinar de forma iterativa el contenido nuevo o existente para satisfacer sus necesidades.
-- **Importar:** Convierta archivos PDF, DOCX o Markdown existentes en mapas y temas DITA estructurados. Puede obtener una vista previa del contenido convertido y revisarlo antes de guardarlo en el repositorio.
-- **Etiquetado inteligente:** Obtenga recomendaciones de etiquetas relevantes para su contenido en función de la taxonomía de su organización. La experiencia mejorada permite a los administradores de perfiles de carpeta configurar áreas de nombres de taxonomía en la configuración de Workspace, lo que garantiza recomendaciones de etiquetas coherentes y controladas.
+- **Importar:** Convierta archivos PDF, DOCX o Markdown existentes en mapas y temas DITA estructurados. Puede revisar el contenido convertido antes de guardarlo en el repositorio.
+- **Etiquetado inteligente:** Obtenga recomendaciones de etiquetas relevantes para su contenido en función de la taxonomía de su organización. La experiencia mejorada permite a los administradores configurar áreas de nombres de taxonomía en la configuración de Workspace, lo que garantiza recomendaciones de etiquetas coherentes y controladas.
 
 El panel **Asistente de IA** también presenta un modo de pantalla completa y una sección de **Conversaciones activas** para una experiencia de conversación mejorada.
 
@@ -101,7 +101,7 @@ Estos comentarios aparecen en el panel **Comentarios** junto con los comentarios
 
 ### Ver y administrar el historial de salida desde la consola Mapa
 
-La consola Mapa de Experience Manager Guides ahora incluye una ficha **Historial de resultados**, que le permite ver y administrar las tareas de generación de resultados directamente desde el Editor sin ir al Tablero de mapas.
+La consola Mapa de Experience Manager Guides ahora incluye una ficha **Historial de resultados**, que le permite ver y administrar las tareas de generación de resultados directamente desde el Editor sin ir al panel Mapa.
 
 La pestaña proporciona una vista consolidada de las tareas de generación de resultados, incluido su estado, los detalles preestablecidos, la fecha de generación y la duración. Puede buscar y filtrar tareas, cancelar generaciones en curso, acceder a resultados y registros generados y quitar entradas completadas del historial. También puede exportar el historial de salida como archivo CSV para un análisis más detallado. Los estados de generación de salida utilizan indicadores de color coherentes con el panel Mapa.
 
@@ -143,7 +143,7 @@ Para obtener más información, vea [Agregar una imagen a partir de los metadato
 
 ### Validar la calidad del contenido con la comprobación de estado del contenido en el antiguo editor
 
-La comprobación del estado del contenido está disponible en el antiguo editor (ya es compatible con el nuevo editor), lo que ayuda a validar la calidad del contenido en los mapas DITA antes de la publicación. Los administradores pueden crear ajustes preestablecidos de comprobación de estado reutilizables combinando comprobaciones de vínculos rotos, ID duplicados y validación de Schematron.
+La comprobación del estado del contenido está disponible en el antiguo editor (ya se admite en el nuevo editor), lo que ayuda a validar la calidad del contenido en los mapas DITA antes de la publicación. Los administradores pueden crear ajustes preestablecidos de comprobación de estado reutilizables combinando comprobaciones de vínculos rotos, ID duplicados y validación de Schematron.
 
 Los autores pueden ejecutar una comprobación de estado en un mapa DITA o una línea de base seleccionada en el antiguo editor para generar un informe consolidado de problemas en los temas y mapas asociados. Para obtener más información, vea [Ejecutar comprobación de estado en un mapa](../user-guide/map-editor-other-features.md#run-health-check-on-a-map).
 

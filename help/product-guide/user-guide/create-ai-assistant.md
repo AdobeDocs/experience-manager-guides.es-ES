@@ -1,9 +1,9 @@
 ---
 title: Creación de temas y asignaciones con el Asistente de IA
 description: Obtenga información sobre cómo crear borradores de nuevos temas y mapas DITA a partir de notas, especificaciones o contenido pegado con el Asistente de IA y, a continuación, revíselos antes de guardarlos.
-source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '602'
 ht-degree: 0%
 ---
 
@@ -24,13 +24,13 @@ Puede adjuntar un archivo, seleccionar un archivo existente como referencia para
 
    - **Usando acceso directo**: escriba `/` en el campo Preguntar y, a continuación, elija **Agregar referencia de repositorio** para elegir el archivo del repositorio (o **Agregar archivos del dispositivo** para cargar el archivo desde el equipo).
 
-   - **Usando los iconos Adjuntar archivos o Agregar contexto (+)**: Agrega archivos del sistema local.
+   - **Usando los iconos Adjuntar archivos o Agregar contexto (+)**: Agregue archivos desde el sistema local.
 
    - **Arrastrar y soltar**: Arrastre y suelte el archivo que desea redactar desde el sistema directamente en el espacio de solicitud.
 
 1. *(Opcional)* En la solicitud de inicio, seleccione `[file]`. Seleccione el tema existente cuyo tono desee que coincida con el borrador. Puede elegir el tema del repositorio o de una colección. El nombre del tema reemplaza a `[file]` en la solicitud.
 
-   ![Seleccione el marcador de posición de archivo para elegir el tema](images/sample-create.png){width="350"}
+   ![Seleccione el marcador de posición de archivo para elegir el tema](images/sample-create.png){width="650"}
 
 1. Seleccione **Enviar**.
 
@@ -38,7 +38,7 @@ Puede adjuntar un archivo, seleccionar un archivo existente como referencia para
 
 1. Responda a cualquier pregunta de seguimiento de AI Assistant para proporcionar los detalles necesarios para generar el contenido.
 
-   ![Seleccione el marcador de posición de archivo para elegir el tema](images/folder-create.png){width="350"}
+   ![Seleccione el marcador de posición de archivo para elegir el tema](images/folder-create.png){width="650"}
 
 1. Seleccione **Vista previa** para revisar el tema generado.
 
