@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 3c8ea4a0644121e4eb87877aeb6f9140fc365cc1
+source-git-commit: 30cc2448fbc386901ec2a71f4d226ca3b01d905e
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 5%
@@ -184,7 +184,7 @@ Configure perfiles, plantillas, atributos condicionales, ajustes preestablecidos
 
 **Novedades de AEM Guides**
 
-Explore las funciones nuevas y mejoradas introducidas en la última versión de Experience Manager Guides.
+Explore las nuevas y mejoradas funciones de la última versión de Experience Manager Guides, 2026.11.0.
 
 - Bifurcación y combinación a nivel de mapa
 - Creación e importación de contenido en el asistente de IA
@@ -215,10 +215,10 @@ Explore las últimas notas de la versión y las actualizaciones de productos par
 
 Acceda a recursos útiles, documentación y asistencia para sacar el máximo partido a la plataforma.
 
-* [Repositorio de GitHub](https://github.com/AdobeDocs/experience-manager-guides.es-ES){target="_blank"}
-* [Soporte](https://experienceleague.adobe.com/support/v2/en/?lang=es){target="_blank"}
-* [Tutoriales en vídeo](https://experienceleague.adobe.com/es/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [comunidad de AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=es){target="_blank"}
+* [Repositorio de GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Soporte](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Tutoriales en vídeo](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [comunidad de AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
