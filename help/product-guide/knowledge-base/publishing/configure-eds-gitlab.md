@@ -67,18 +67,18 @@ https://<worker URL>/gitlab/<git acc domain>/<git username>/<git repo>/main/docs
 
 Cree los tokens de acceso necesarios para lo siguiente:
 
-- **Cloud Manager**, para validar y acceder al repositorio. Obtenga más información en [Agregar repositorios externos en Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
+- **Cloud Manager**, para validar y acceder al repositorio. Obtenga más información en [Agregar repositorios externos en Cloud Manager](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
 - **Perfil de publicación de Experience Manager Guides** para confirmar el resultado publicado. Cree un token de acceso al proyecto GitLab con el rol **Desarrollador** y el ámbito `api`. Obtenga más información en la [documentación de GitLab](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html).
 
 >[!NOTE]
 >
-> Renovar tokens antes de que caduquen. La publicación falla si el token del perfil de publicación ha caducado. Para actualizar un token usado por Cloud Manager, vea [Administrar tokens de acceso para repositorios externos](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens).
+> Renovar tokens antes de que caduquen. La publicación falla si el token del perfil de publicación ha caducado. Para actualizar un token usado por Cloud Manager, vea [Administrar tokens de acceso para repositorios externos](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens).
 
 ### &#x200B;5. Añadir el repositorio de GitLab a Cloud Manager
 
 En Cloud Manager, vaya a **Repositorios** > **Agregar repositorio**, seleccione **Repositorio privado** y valide la propiedad mediante el token de acceso. Espere hasta que el estado del repositorio sea **Listo**. La opción BYOG solo está disponible después de que al menos un repositorio externo esté listo.
 
-Para ver los pasos, vea [Agregar repositorios externos en Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
+Para ver los pasos, vea [Agregar repositorios externos en Cloud Manager](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
 
 ### &#x200B;6. Generación de una clave de API de Cloud Manager
 
