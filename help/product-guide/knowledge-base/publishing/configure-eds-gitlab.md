@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo configurar repositorios de GitLab,
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 97620587a9e736e0886ea4d7158af330814e6392
+source-git-commit: 380089cbcfc56b23a9cb494d49c0e39e1813eabd
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1217'
 ht-degree: 3%
 ---
 
@@ -27,22 +27,11 @@ Para publicar contenido de Experience Manager Guides en Edge Delivery Services (
 - Función Administrador del sistema o Desarrollador de API en su organización de Adobe para crear la integración de la API de Cloud Manager.
 - Una organización de `aem.live` se registró en el servicio de configuración. Obtenga más información en [Configuración del servicio](https://www.aem.live/docs/config-service-setup).
 
-## Secuencia de configuración
+## Configuración de GitLab para Edge Delivery Services
 
-1. [Creación del sitio de EDS con GitHub](#1-create-the-eds-site-using-github-create-eds-site)
-2. [Creación del repositorio de GitLab](#2-create-the-gitlab-repository)
-3. [Configuración de la dirección URL del punto de montaje](#3-configure-the-mountpoint-url)
-4. [Creación de tokens de acceso a GitLab](#4-create-gitlab-access-tokens)
-5. [Añadir el repositorio de GitLab a Cloud Manager](#5-add-the-gitlab-repository-to-cloud-manager)
-6. [Generación de una clave de API de Cloud Manager](#6-generate-a-cloud-manager-api-key)
-7. [Configuración del webhook de GitLab](#7-configure-the-gitlab-webhook)
-8. [Añadir el sitio de EDS a Cloud Manager](#8-add-the-eds-site-to-cloud-manager)
-9. [Conecte el repositorio mediante Traer su propio Git](#9-connect-the-repository-using-bring-your-own-git)
-10. [Configuración del sitio de EDS para utilizar Cloud Manager](#10-configure-the-eds-site-to-use-cloud-manager)
-11. [Sincronización y verificación](#11-sync-and-verify)
-12. [Publicar desde Experience Manager Guides](#12-publish-from-experience-manager-guides)
+Para configurar GitLab para su uso con Edge Delivery Services, realice los siguientes pasos en la secuencia especificada para garantizar una configuración e integración adecuadas.
 
-### &#x200B;1. Creación del sitio de EDS con GitHub {#create-eds-site}
+### &#x200B;1. Creación del sitio de EDS con GitHub
 
 Cree un repositorio de GitHub a partir de la plantilla de AEM Guides e instale la aplicación de sincronización de código de AEM en él. Guarde la **URL activa** (`https://<branch>--<github-repo>--<github-username>.aem.live`) generada para más adelante.
 
@@ -78,18 +67,18 @@ https://<worker URL>/gitlab/<git acc domain>/<git username>/<git repo>/main/docs
 
 Cree los tokens de acceso necesarios para lo siguiente:
 
-- **Cloud Manager**, para validar y acceder al repositorio. Obtenga más información en [Agregar repositorios externos en Cloud Manager](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
+- **Cloud Manager**, para validar y acceder al repositorio. Obtenga más información en [Agregar repositorios externos en Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
 - **Perfil de publicación de Experience Manager Guides** para confirmar el resultado publicado. Cree un token de acceso al proyecto GitLab con el rol **Desarrollador** y el ámbito `api`. Obtenga más información en la [documentación de GitLab](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html).
 
 >[!NOTE]
 >
-> Renovar tokens antes de que caduquen. La publicación falla si el token del perfil de publicación ha caducado. Para actualizar un token usado por Cloud Manager, vea [Administrar tokens de acceso para repositorios externos](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens).
+> Renovar tokens antes de que caduquen. La publicación falla si el token del perfil de publicación ha caducado. Para actualizar un token usado por Cloud Manager, vea [Administrar tokens de acceso para repositorios externos](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens).
 
 ### &#x200B;5. Añadir el repositorio de GitLab a Cloud Manager
 
 En Cloud Manager, vaya a **Repositorios** > **Agregar repositorio**, seleccione **Repositorio privado** y valide la propiedad mediante el token de acceso. Espere hasta que el estado del repositorio sea **Listo**. La opción BYOG solo está disponible después de que al menos un repositorio externo esté listo.
 
-Para ver los pasos, vea [Agregar repositorios externos en Cloud Manager](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
+Para ver los pasos, vea [Agregar repositorios externos en Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
 
 ### &#x200B;6. Generación de una clave de API de Cloud Manager
 
