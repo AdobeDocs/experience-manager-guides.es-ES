@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 30cc2448fbc386901ec2a71f4d226ca3b01d905e
+source-git-commit: de4730d6b52026979ba40224dc7ff811a8915412
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 5%
+source-wordcount: '353'
+ht-degree: 6%
 ---
 # Documentación de Experience Manager Guides
 
@@ -120,6 +120,16 @@ Cree y edite contenido estructurado mediante las funciones de creación de Edito
 :::
 
 :::card
+![icono del Asistente de IA](../assets/ai-author.png)
+
+Asistente de IA
+
+Acelere la creación de contenido, encuentre respuestas y aplique etiquetas inteligentes con asistencia basada en IA.
+
+[Asistente de IA](./install-conf-guide/conf-profiles.md)
+:::
+
+:::card
 ![Icono de revisión](../assets/review.png)
 
 Revisión
@@ -157,16 +167,6 @@ Informes
 Evalúe el estado del contenido, administre metadatos, identifique vínculos rotos y analice la reutilización del contenido.
 
 [Generación de informes](./user-guide/reports-intro.md)
-:::
-
-:::card
-![Icono de configuración](../assets/configure.png)
-
-Configuración
-
-Configure perfiles, plantillas, atributos condicionales, ajustes preestablecidos de salida y ajustes del editor.
-
-[Configuración de perfiles de carpeta](./install-conf-guide/conf-profiles.md)
 :::
 
 ::::
@@ -215,10 +215,10 @@ Explore las últimas notas de la versión y las actualizaciones de productos par
 
 Acceda a recursos útiles, documentación y asistencia para sacar el máximo partido a la plataforma.
 
-* [Repositorio de GitHub](https://github.com/AdobeDocs/experience-manager-guides.es-ES){target="_blank"}
-* [Soporte](https://experienceleague.adobe.com/support/v2/en/?lang=es){target="_blank"}
-* [Tutoriales en vídeo](https://experienceleague.adobe.com/es/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [comunidad de AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=es){target="_blank"}
+* [Repositorio de GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Soporte](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Tutoriales en vídeo](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [comunidad de AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
