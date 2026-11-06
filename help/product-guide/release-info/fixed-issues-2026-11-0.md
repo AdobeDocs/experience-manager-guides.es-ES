@@ -1,9 +1,9 @@
 ---
 title: Notas de versión | Se han corregido problemas en la versión 2026.11.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las correcciones de errores en la versión 2026.11.0 de Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: f33da832def2bf2cc8caf46f3b6f8102bcfafb19
+source-git-commit: 0ebd3941a6ea5160c86e68a9ca6bdda50900a78d
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -102,12 +102,12 @@ Cuando **Rastrear cambios** está activado:
 
 - En la salida nativa de PDF, el formato de superíndice y subíndice no se conserva en las entradas de índice. (GUIDES-58349)
 - Cuando se utiliza el mismo ajuste preestablecido global para generar resultados para diferentes mapas, la selección del tema del mapa anterior puede afectar a la salida del nuevo mapa. (GUIDES-58346)
-- Cuando un mapa del libro contiene un capítulo con un `href` válido y una referencia de tema anidada, la publicación del mapa en AEM Sites genera una página en blanco. (GUIDES-58266)
+- La publicación de un mapa de libros a veces da como resultado una página en blanco cuando, en un escenario específico, un `<chapter>` define simultáneamente un destino `href` directo y ese capítulo contiene `<topicref>` elementos secundarios anidados. (GUIDES-58266)
 - Cuando navega a la pestaña **Historial de salida** desde un ajuste preestablecido con cambios no guardados, los botones **Guardar** y **Generar salida** permanecen visibles. (GUIDES-57989)
 - Cuando se configura un flujo de trabajo posterior a la publicación para un ajuste preestablecido, la duración de la publicación que se muestra en **Historial de salida** no incluye el tiempo que tarda el flujo de trabajo. (GUIDES-57856)
 - No puede cancelar la generación de resultados nativos de PDF desde la página **Historial de resultados**. (GUIDES-57821)
 
 ### Revisión
 
-- Abrir una tarea de revisión creada en las versiones 2026.08.0 o 2026.09.0 puede provocar errores de aplicación. (GUIDES-56583) <br>**Solución alternativa:** Complete o cierre todas las tareas de revisión creadas en estas versiones antes de actualizar a la versión 2026.11.0.
+- Abrir una tarea de revisión creada en las versiones 2026.08.0 o 2026.09.0 produce a veces un error de aplicación cuando el contenido revisado contiene *cualquier anotación de revisión* junto con espacios de no separación (`&nbsp;`). (GUIDES-56583) <br>**Solución alternativa:** Complete o cierre todas las tareas de revisión creadas en estas versiones.
 

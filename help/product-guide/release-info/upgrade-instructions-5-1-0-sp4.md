@@ -10,9 +10,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: b5e241987a89ab974c71f3ec7283c668fedb164b
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '596'
 ht-degree: 4%
 ---
 # Instrucciones de actualización para la versión 5.1.0 del paquete de servicio 4 (abril de 2026)
@@ -30,7 +30,7 @@ Esta sección enumera la matriz de compatibilidad para las aplicaciones de softw
 | Paquete de servicio 4 (UUID) de 5.1.0 | 6.5 LTS | 1 |
 | Paquete de servicio 4 (UUID) de 5.1.0 | 6.5 | 23, 22, 21 |
 
-Para obtener más información, consulte la sección [Requisitos técnicos](../install-guide/download-install-technical-requirements.md) en la Guía de instalación y configuración local.
+Para obtener más información, consulte la sección [Requisitos técnicos](../install-conf-guide/aemg-technical-requirements.md) en la Guía de instalación y configuración local.
 
 ### FRAMEMAKER y FRAMEMAKER PUBLISHING SERVER
 
@@ -68,7 +68,7 @@ Puede actualizar fácilmente su versión actual de Experience Manager Guides a l
 
 >[!NOTE]
 >
-> Si está actualmente en AEM 6.5 y planea pasar a AEM 6.5 LTS, vea [Actualización a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/es/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Si está actualmente en AEM 6.5 y planea pasar a AEM 6.5 LTS, vea [Actualización a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 Antes de continuar actualizando al paquete de servicio 4 de Experience Manager Guides versión 5.1.0, debe tener en cuenta los siguientes puntos:
 
