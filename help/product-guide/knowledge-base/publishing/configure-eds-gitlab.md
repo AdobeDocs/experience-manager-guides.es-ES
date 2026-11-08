@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo configurar repositorios de GitLab,
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: e5721ff1d6e2322213ac7bc988fb1d7e721cd148
+source-git-commit: 380089cbcfc56b23a9cb494d49c0e39e1813eabd
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1217'
 ht-degree: 3%
 ---
 
@@ -27,20 +27,9 @@ Para publicar contenido de Experience Manager Guides en Edge Delivery Services (
 - Función Administrador del sistema o Desarrollador de API en su organización de Adobe para crear la integración de la API de Cloud Manager.
 - Una organización de `aem.live` se registró en el servicio de configuración. Obtenga más información en [Configuración del servicio](https://www.aem.live/docs/config-service-setup).
 
-## Secuencia de configuración
+## Configuración de GitLab para Edge Delivery Services
 
-1. [Creación del sitio de EDS con GitHub](#1-create-the-eds-site-using-github)
-2. [Creación del repositorio de GitLab](#2-create-the-gitlab-repository)
-3. [Configuración de la dirección URL del punto de montaje](#3-configure-the-mountpoint-url)
-4. [Creación de tokens de acceso a GitLab](#4-create-gitlab-access-tokens)
-5. [Añadir el repositorio de GitLab a Cloud Manager](#5-add-the-gitlab-repository-to-cloud-manager)
-6. [Generación de una clave de API de Cloud Manager](#6-generate-a-cloud-manager-api-key)
-7. [Configuración del webhook de GitLab](#7-configure-the-gitlab-webhook)
-8. [Añadir el sitio de EDS a Cloud Manager](#8-add-the-eds-site-to-cloud-manager)
-9. [Conecte el repositorio mediante Traer su propio Git](#9-connect-the-repository-using-bring-your-own-git)
-10. [Configuración del sitio de EDS para utilizar Cloud Manager](#10-configure-the-eds-site-to-use-cloud-manager)
-11. [Sincronización y verificación](#11-sync-and-verify)
-12. [Publicar desde Experience Manager Guides](#12-publish-from-experience-manager-guides)
+Para configurar GitLab para su uso con Edge Delivery Services, realice los siguientes pasos en la secuencia especificada para garantizar una configuración e integración adecuadas.
 
 ### &#x200B;1. Creación del sitio de EDS con GitHub
 
