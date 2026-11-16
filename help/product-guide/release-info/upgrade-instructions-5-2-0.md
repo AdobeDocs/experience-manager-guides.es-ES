@@ -9,9 +9,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b5e241987a89ab974c71f3ec7283c668fedb164b
+source-git-commit: c6bb63b574b77ce58e7335f90aa38ae6cff13503
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '868'
 ht-degree: 3%
 ---
 # Instrucciones de actualización para la versión 5.2.0 (mayo de 2026)
@@ -43,7 +43,7 @@ Use the following resources when developing custom Java plugins or integrations 
 |---|---|---|----|
 | 5.2.0 (UUID) | 5.2.1 | [AEM Guides SDK API 5.2.1 ](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.1/overviewhttps://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.1/overview) | [Javadoc 5.2.1](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/5.2.1/index.html) |
 
-For more details, view [Configure and use the API JAR from Maven Central repository](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/api-reference/introduction).
+For more details, view [Configure and use the API JAR from Maven Central repository](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
 
  -->
 
@@ -70,8 +70,8 @@ For more details, view [Configure and use the API JAR from Maven Central reposit
 
 | Guías de AEM | Versión de AEM | Versión de componentes | Versión del sitio |
 |---|---|---| ---|
-| UUID 5.2.0 | 6.5 LTS | guides-components.all-1.4.1 | aemg-sites-template-1.3.0 |
-| UUID 5.2.0 | 6.5 | guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
+| UUID 5.2.0 | 6.5 LTS | guides-components.all-1.4.1 | - |
+| UUID 5.2.0 | 6.5 | guides-components.all-1.4.0 | aemg-docs.all-1.2.0 |
 
 ## Requisitos previos
 
@@ -89,7 +89,7 @@ Puede actualizar fácilmente su versión actual de Experience Manager Guides a l
 >
 > - **Para AEM 6.5 LTS**: Experience Manager Guides 5.2.0 solo es compatible con AEM 6.5 LTS Service Pack 2.
 > - **Para AEM 6.5**: Experience Manager Guides 5.2.0 solo es compatible con AEM 6.5 Service Pack 24, 23 y 22.
-> - Si actualmente está en AEM 6.5 y planea pasar a AEM 6.5 LTS, asegúrese de completar primero la actualización de AEM antes de continuar con la actualización de Experience Manager Guides 5.2.0. Para obtener más información, vea [Actualización a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/es/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> - Si actualmente está en AEM 6.5 y planea pasar a AEM 6.5 LTS, asegúrese de completar primero la actualización de AEM antes de continuar con la actualización de Experience Manager Guides 5.2.0. Para obtener más información, vea [Actualización a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 Antes de continuar actualizando a la versión 5.2.0 de Experience Manager Guides, debe tener en cuenta los siguientes puntos:
 
