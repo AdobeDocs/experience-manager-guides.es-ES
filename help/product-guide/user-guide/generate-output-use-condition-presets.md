@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1224'
 ht-degree: 2%
 ---
 # Usar ajustes preestablecidos de condición {#id1825FL004PN}
@@ -128,6 +128,9 @@ Siga estos pasos para eliminar los ajustes preestablecidos de condición:
 
 ## Ajustes preestablecidos de condición desde el panel Mapa
 
+>[!NOTE]
+>
+>A partir de la versión 2027.01.0 para Cloud Service y la versión 5.4 para On-Premise de Experience Manager Guides , la función del tablero de mapas quedará obsoleta para los nuevos clientes. Sin embargo, permanecerá habilitado para los clientes existentes que ya lo estén utilizando. Si desea deshabilitar el panel Asignación, póngase en contacto con el equipo de éxito del cliente. Se recomienda utilizar la consola Mapa para la administración y publicación de mapas a partir de ahora.
 
 ### Crear un ajuste preestablecido de condición
 
@@ -188,4 +191,4 @@ Puede eliminar uno o más ajustes preestablecidos de condición de la ficha **Aj
 1. Seleccione el botón **Quitar**.
 1. Seleccione **Quitar** para confirmar la acción.
 
-**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)
+**Tema principal:**[ Generación de resultados](generate-output.md)

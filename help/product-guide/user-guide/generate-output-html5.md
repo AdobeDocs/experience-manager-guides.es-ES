@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1821'
 ht-degree: 0%
 ---
 # HTML5 {#id205BE700XO1}
@@ -82,7 +82,7 @@ La ficha **General** contiene las siguientes opciones de configuración:
 
 >[!NOTE]
 >
->Si la característica de comprobación de estado [1&rbrace; está configurada para el perfil de carpeta, se muestra la opción **Ejecutar comprobación de estado antes de generar resultados** en la pestaña General. &#x200B;](../install-conf-guide/conf-health-check-preset.md)Utilícelo para que una comprobación de estado se ejecute automáticamente cada vez que genere resultados con este ajuste preestablecido, de modo que no tenga que almacenarlos en déclencheur manualmente desde el mapa. El informe se anexa al registro de publicación y es puramente informativo. No bloqueará ni retrasará su salida, incluso si la comprobación encuentra errores o advertencias sin resolver. Más información acerca de [Usar la característica de comprobación de estado en Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
+>Si la característica de comprobación de estado [1} está configurada para el perfil de carpeta, se muestra la opción **Ejecutar comprobación de estado antes de generar resultados** en la pestaña General. ](../install-conf-guide/conf-health-check-preset.md)Utilícelo para que una comprobación de estado se ejecute automáticamente cada vez que genere resultados con este ajuste preestablecido, de modo que no tenga que almacenarlos en déclencheur manualmente desde el mapa. El informe se anexa al registro de publicación y es puramente informativo. No bloqueará ni retrasará su salida, incluso si la comprobación encuentra errores o advertencias sin resolver. Más información acerca de [Usar la característica de comprobación de estado en Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
 
 **Avanzado**
 
@@ -96,6 +96,10 @@ La pestaña Advanced contiene las siguientes opciones de configuración:
 Para obtener más información sobre las opciones de configuración preestablecidas, consulte la sección [Configuración preestablecida de HTML5](#html5-preset-configuration).
 
 ## Cree el ajuste preestablecido de salida HTML5 desde el panel Mapa
+
+>[!NOTE]
+>
+>A partir de la versión 2027.01.0 para Cloud Service y la versión 5.4 para On-Premise de Experience Manager Guides , la función del tablero de mapas quedará obsoleta para los nuevos clientes. Sin embargo, permanecerá habilitado para los clientes existentes que ya lo estén utilizando. Si desea deshabilitar el panel Asignación, póngase en contacto con el equipo de éxito del cliente. Se recomienda utilizar la consola Mapa para la administración y publicación de mapas a partir de ahora.
 
 Siga estos pasos para crear el ajuste preestablecido de HTML5 desde el panel de mapas:
 
@@ -130,7 +134,7 @@ Por ejemplo, **Ruta de salida/Ruta de destino** - Aquí, **Ruta de salida** es l
 | Flujo de trabajo de generación posterior | Al elegir esta opción, se muestra una nueva lista desplegable Flujo de trabajo de generación posterior que contiene todos los flujos de trabajo configurados en AEM. Debe seleccionar un flujo de trabajo que desee ejecutar después de completar el flujo de trabajo de generación de resultados.<br><br>**Tenga en cuenta**:For más información sobre la creación de un flujo de trabajo de generación posterior a la salida personalizado, vea _Personalizar el flujo de trabajo de generación posterior a la salida_ en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service. |
 | Nombre de transformación | Especifique el tipo de salida que desea generar. Esto es necesario si desea generar resultados con su propio complemento personalizado, que está integrado en el complemento DITA-OT. Por ejemplo, si desea generar una salida XHTML, especifique `xhtml`. Para obtener una lista de las transformaciones disponibles en DITA-OT, consulte [Transformaciones DITA-OT (formatos de salida)](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html) en la Guía del usuario de OASIS DITA-OT. |
 | Conservar archivos temporales | Seleccione esta opción para conservar los ficheros temporales generados por DITA-OT. Si se producen errores al generar la salida mediante DITA-OT, seleccione esta opción para conservar los ficheros temporales. Puede utilizar esos archivos para solucionar errores de generación de resultados.<br> <br> Después de generar la salida, seleccione el icono **Descargar archivos temporales** ![descargar archivos temporales](images/download-temp-files-icon.svg) para descargar la carpeta ZIP que contiene los archivos temporales. Los archivos descargados también incluirían `system_config.xml` archivo que le brinda información sobre la URL del autor, la URL local y la URL de publicación. Estas direcciones URL se configuran en la configuración de externalización de AEM y se reflejan en el archivo `system_config.xml`. <br><br> **Nota**: Si las propiedades de archivo se agregan durante la generación, los archivos temporales de salida también incluyen un archivo *metadata.xml* que contiene esas propiedades. |
-| Usar línea base | Si ha creado una Línea base para el mapa DITA seleccionado, seleccione esta opción para especificar la versión que desea publicar.<br><br>Ver [Trabajar con línea de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obtener más detalles. |
+| Usar línea base | Si ha creado una Línea base para el mapa DITA seleccionado, seleccione esta opción para especificar la versión que desea publicar. Vea [Trabajar con Línea de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obtener más información.<br>**Nota**: Si elimina una Línea de base que se utiliza en el ajuste preestablecido de salida, el ajuste preestablecido no se actualiza automáticamente. Haga lo siguiente antes de generar el resultado: <ul><li>**Si elimina la única Línea de base**: La opción **Usar Línea de base** permanece habilitada y la lista desplegable aparece en blanco. Error al generar la salida en este estado. Deshabilite el botón de alternancia Usar línea de base, actualice la página y, a continuación, genere la salida.</li><li>**Si tiene varias líneas de base y elimina la seleccionada**: La lista desplegable **Usar línea de base** seguirá mostrando la línea de base eliminada como seleccionada. Seleccione una Línea base válida en la lista desplegable y, a continuación, genere la salida.</li></ul> |
 | Acoplar jerarquía de archivos | Seleccione la opción para generar la salida de HTML5 en una jerarquía de carpetas plana. Todo el contenido se publica en formato de salida HTML5 en una jerarquía de archivos plana y se guarda en una sola carpeta. <br> Si anula la selección de esta opción, la salida se genera en una jerarquía de carpetas anidada y se replica toda la estructura de carpetas. |
 | Propiedades de archivo | Seleccione las propiedades que desee procesar como metadatos. Estas propiedades se definen desde la página Propiedades del fichero de mapa DITA o de mapa de libros. Las propiedades que seleccione en la lista desplegable aparecerán en el campo **Propiedades del archivo**. Seleccione el icono en forma de cruz situado junto a la propiedad para eliminarla. <br><br>**Nota**: también puede pasar los metadatos a la salida mediante la publicación DITA-OT. Para obtener más información, [Pase los metadatos a la salida mediante DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
@@ -140,4 +144,4 @@ Por ejemplo, **Ruta de salida/Ruta de destino** - Aquí, **Ruta de salida** es l
 
 
 
-**Tema principal:**&#x200B;[&#x200B; Explicación de los ajustes preestablecidos de salida](generate-output-understand-presets.md)
+**Tema principal:**[ Explicación de los ajustes preestablecidos de salida](generate-output-understand-presets.md)

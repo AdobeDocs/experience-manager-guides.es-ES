@@ -27,14 +27,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '934'
 ht-degree: 0%
 ---
 # Descargar archivos {#id216MC0H0BE8}
 
-Puede descargar recursos, incluidos archivos DITA y no DITA. Existen varias formas de descargar recursos, algunos son nativos de Adobe Experience Manager y otros son compatibles con Adobe Experience Manager Guides. Para obtener información de descarga de recursos nativos de Adobe Experience Manager, vea [Descargar recursos de Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=es) en la documentación de Adobe Experience Manager. En la siguiente sección se explica el mecanismo de descarga de archivos en Experience Manager Guides.
+Puede descargar recursos, incluidos archivos DITA y no DITA. Existen varias formas de descargar recursos, algunos son nativos de Adobe Experience Manager y otros son compatibles con Adobe Experience Manager Guides. Para obtener información de descarga de recursos nativos de Adobe Experience Manager, vea [Descargar recursos de Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) en la documentación de Adobe Experience Manager. En la siguiente sección se explica el mecanismo de descarga de archivos en Experience Manager Guides.
 
 ## Descargar un archivo de mapa DITA desde el Editor
 
@@ -90,6 +90,10 @@ Una vez descargado el mapa, puede seleccionarlo y utilizar el icono Abrir de la 
 
 ## Descargar un fichero de mapa DITA desde el tablero de mandos Mapa
 
+>[!NOTE]
+>
+>A partir de la versión 2027.01.0 para Cloud Service y la versión 5.4 para On-Premise de Experience Manager Guides , la función del tablero de mapas quedará obsoleta para los nuevos clientes. Sin embargo, permanecerá habilitado para los clientes existentes que ya lo estén utilizando. Si desea deshabilitar el panel Asignación, póngase en contacto con el equipo de éxito del cliente. Se recomienda utilizar la consola Mapa para la administración y publicación de mapas a partir de ahora.
+
 Una vez que tenga el fichero de mapa DITA en el repositorio de Adobe Experience Manager, podrá descargar el fichero de mapa junto con sus dependientes. Esto le proporciona la flexibilidad para compartir el archivo de asignación completo para la edición, validación, revisión o simplemente la creación de una copia de seguridad sin conexión.
 
 Realice los siguientes pasos para descargar un archivo de asignación DITA junto con sus archivos dependientes:
@@ -133,4 +137,4 @@ Realice los siguientes pasos para descargar un archivo de asignación DITA junto
 
 Una vez descargado el mapa, puede seleccionarlo y utilizar el icono Abrir de la parte superior para abrir el contenido descargado.
 
-**Tema principal:**&#x200B;[&#x200B; Administrar contenido](authoring.md)
+**Tema principal:**[ Administrar contenido](authoring.md)

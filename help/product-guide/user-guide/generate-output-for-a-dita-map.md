@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '667'
 ht-degree: 0%
 ---
 # Generar salida
@@ -81,6 +81,10 @@ Puede ver el estado actual de la solicitud de generación de resultados en la fi
 
 ## Generar salida para un mapa DITA desde el panel Mapa
 
+>[!NOTE]
+>
+>A partir de la versión 2027.01.0 para Cloud Service y la versión 5.4 para On-Premise de Experience Manager Guides , la función del tablero de mapas quedará obsoleta para los nuevos clientes. Sin embargo, permanecerá habilitado para los clientes existentes que ya lo estén utilizando. Si desea deshabilitar el panel Asignación, póngase en contacto con el equipo de éxito del cliente. Se recomienda utilizar la consola Mapa para la administración y publicación de mapas a partir de ahora.
+
 Realice los siguientes pasos para generar la salida de un mapa DITA mediante el tablero de mandos Mapa:
 
 1. En la interfaz de usuario de Assets, desplácese hasta el fichero de mapa DITA que desee publicar y selecciónelo.
@@ -113,4 +117,4 @@ Para obtener más información sobre cómo usar Public ID y System ID en los DTD
 
 
 
-**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)
+**Tema principal:**[ Generación de resultados](generate-output.md)

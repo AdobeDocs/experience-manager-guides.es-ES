@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 7ff10bcfe560a12e048d9b21aa60ad2c7cb7d02b
 workflow-type: tm+mt
-source-wordcount: '3873'
+source-wordcount: '3971'
 ht-degree: 0%
 ---
 # Ajuste preestablecido de AEM Sites en la consola Mapa
@@ -75,7 +75,7 @@ Realice los siguientes pasos para crear el ajuste preestablecido de AEM Sites me
    Se crea el ajuste preestablecido de AEM Sites.
 
 
-   ![Nuevo &#x200B;](images/new-aem-sites-dialog-box.png){width="300"}
+   ![Nuevo ](images/new-aem-sites-dialog-box.png){width="300"}
 
 <!--
 ### Generate the AEM Sites output using the templates
@@ -114,7 +114,7 @@ En la consola Mapa, las opciones de configuración preestablecidas para la asign
 - Lista de temas
 - Referencias entre mapas
 
-![Nuevo &#x200B;](images/aem-sites-new-config.png){width="650"}
+![Nuevo ](images/aem-sites-new-config.png){width="650"}
 
 **General**
 
@@ -134,7 +134,7 @@ La ficha **General** contiene las siguientes opciones de configuración:
 
 >[!NOTE]
 >
->Si la característica de comprobación de estado [1&rbrace; está configurada para el perfil de carpeta, se muestra la opción **Ejecutar comprobación de estado antes de generar resultados** en la pestaña General. &#x200B;](../install-conf-guide/conf-health-check-preset.md)Utilícelo para que una comprobación de estado se ejecute automáticamente cada vez que genere resultados con este ajuste preestablecido, de modo que no tenga que almacenarlos en déclencheur manualmente desde el mapa. El informe se anexa al registro de publicación y es puramente informativo. No bloqueará ni retrasará su salida, incluso si la comprobación encuentra errores o advertencias sin resolver. Más información acerca de [Usar la comprobación de características de estado en Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
+>Si la característica de comprobación de estado [1} está configurada para el perfil de carpeta, se muestra la opción **Ejecutar comprobación de estado antes de generar resultados** en la pestaña General. ](../install-conf-guide/conf-health-check-preset.md)Utilícelo para que una comprobación de estado se ejecute automáticamente cada vez que genere resultados con este ajuste preestablecido, de modo que no tenga que almacenarlos en déclencheur manualmente desde el mapa. El informe se anexa al registro de publicación y es puramente informativo. No bloqueará ni retrasará su salida, incluso si la comprobación encuentra errores o advertencias sin resolver. Más información acerca de [Usar la comprobación de características de estado en Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
 
 **Contenido**
 
@@ -142,7 +142,7 @@ La pestaña **Content** contiene las siguientes opciones de configuración:
 
 | Opciones de AEM Sites | Descripción |
 | --- | --- |
-| Usar línea base | Si ha creado una Línea base para el mapa DITA seleccionado, seleccione esta opción para especificar la versión que desea publicar.<br><br>Ver [Trabajar con línea de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obtener más detalles. |
+| Usar línea base | Si ha creado una Línea base para el mapa DITA seleccionado, seleccione esta opción para especificar la versión que desea publicar. Vea [Trabajar con Línea de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obtener más detalles.<br>**Nota**: Si elimina una Línea de base que se utiliza en el ajuste preestablecido de salida, el ajuste preestablecido no se actualiza automáticamente. Haga lo siguiente antes de generar el resultado: <ul><li>**Si elimina la única Línea de base**: La opción **Usar Línea de base** permanece habilitada y la lista desplegable aparece en blanco. Error al generar la salida en este estado. Deshabilite el botón de alternancia Usar línea de base, actualice la página y, a continuación, genere la salida.</li><li>**Si tiene varias líneas de base y elimina la seleccionada**: La lista desplegable **Usar línea de base** seguirá mostrando la línea de base eliminada como seleccionada. Seleccione una Línea base válida en la lista desplegable y, a continuación, genere la salida.</li></ul> |
 | Filtrado condicional | Seleccione una de las siguientes opciones:<br><br>**None**: Seleccione esta opción si no desea aplicar ninguna condición en la salida publicada.<br>**Usando DITAVAL**: seleccione los archivos DITAVal para generar contenido condicionado. Puede seleccionar varios archivos DITAVal mediante el cuadro de diálogo de exploración o escribiendo la ruta del archivo. Utilice el icono en forma de cruz situado cerca del nombre del archivo para eliminarlo. Los archivos DITAVal se evalúan en el orden especificado, por lo que las condiciones especificadas en el primer archivo tienen prioridad sobre las condiciones coincidentes especificadas en archivos posteriores. Puede mantener el orden de los archivos añadiendo o eliminando archivos. Si el archivo DITAVal se mueve a otra ubicación o se elimina, no se elimina automáticamente del panel de asignaciones. Debe actualizar la ubicación en caso de que los archivos se muevan o eliminen. Puede pasar el ratón sobre el nombre del archivo para ver la ruta en el repositorio de AEM donde está almacenado el archivo. Solo puede seleccionar archivos DITAVal y se muestra un error si selecciona cualquier otro tipo de archivo.<br>**Ajuste preestablecido de condición**: seleccione un ajuste preestablecido de condición en la lista desplegable para aplicar una condición al publicar la salida. Esta opción está visible si se ha añadido una condición para el fichero de mapa DITA. La configuración condicional está disponible en la ficha Ajustes preestablecidos de condición de la consola de mapas DITA. Para obtener más información acerca de los ajustes preestablecidos de condición, vea [Usar ajustes preestablecidos de condición](generate-output-use-condition-presets.md#id1825FL004PN). |
 | Argumentos adicionales de la línea de comandos de DITA-OT | Especifique los argumentos adicionales que desea que DITA-OT procese durante la generación de resultados. Para obtener más información acerca de los argumentos de línea de comandos admitidos en DITA-OT, vea [documentación de DITA-OT](https://www.dita-ot.org/). |
 | Metadatos <br> <br>Propiedades de archivo (Assets) | Seleccione las propiedades que desee procesar como metadatos. Estas propiedades se definen desde la página Propiedades del fichero de mapa DITA o de mapa de libros. Las propiedades que seleccione en la lista desplegable aparecerán en el campo **Propiedades del archivo**. Seleccione el icono en forma de cruz situado junto a la propiedad para eliminarla. <br><br>**Nota**: las propiedades de metadatos distinguen entre mayúsculas y minúsculas.<br><br>*Si ha seleccionado una Línea de base, los valores de las propiedades se basan en la versión de la Línea de base seleccionada.<br>* Si no ha seleccionado una Línea base, los valores de las propiedades se basan en la versión más reciente.<br><br>También puede pasar los metadatos a la salida mediante la publicación DITA-OT. Para obtener más información, [Pase los metadatos a la salida mediante DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Nota**: si no ha definido `cq:tags` en la opción Propiedades, los valores de `cq:tags` se seleccionarán de la copia de trabajo actual, incluso si ha seleccionado una Línea de base para la publicación. |
@@ -183,7 +183,7 @@ En la consola Mapa, las opciones de configuración preestablecidas para la asign
 - Contenido
 - Referencias entre mapas
 
-![Nuevo &#x200B;](images/aem-sites-preset-legacy-config.png){width="500"}
+![Nuevo ](images/aem-sites-preset-legacy-config.png){width="500"}
 
 **General**
 
@@ -191,7 +191,7 @@ La ficha **General** contiene las siguientes opciones de configuración:
 
 >[!NOTE]
 >
->Si la característica de comprobación de estado [1&rbrace; está configurada para el perfil de carpeta, se muestra la opción **Ejecutar comprobación de estado antes de generar resultados** en la pestaña General. &#x200B;](../install-conf-guide/conf-health-check-preset.md)Utilícelo para que una comprobación de estado se ejecute automáticamente cada vez que genere resultados con este ajuste preestablecido, de modo que no tenga que almacenarlos en déclencheur manualmente desde el mapa. El informe se anexa al registro de publicación y es puramente informativo. No bloqueará ni retrasará su salida, incluso si la comprobación encuentra errores o advertencias sin resolver. Más información acerca de [Usar la comprobación de características de estado en Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
+>Si la característica de comprobación de estado [1} está configurada para el perfil de carpeta, se muestra la opción **Ejecutar comprobación de estado antes de generar resultados** en la pestaña General. ](../install-conf-guide/conf-health-check-preset.md)Utilícelo para que una comprobación de estado se ejecute automáticamente cada vez que genere resultados con este ajuste preestablecido, de modo que no tenga que almacenarlos en déclencheur manualmente desde el mapa. El informe se anexa al registro de publicación y es puramente informativo. No bloqueará ni retrasará su salida, incluso si la comprobación encuentra errores o advertencias sin resolver. Más información acerca de [Usar la comprobación de características de estado en Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
 
 | Opciones de AEM Sites | Descripción |
 | --- | --- |
@@ -206,7 +206,7 @@ La ficha **General** contiene las siguientes opciones de configuración:
 
 **Contenido**
 
-![Nuevo &#x200B;](images/aem-sites-content-tab.png){width="650"}
+![Nuevo ](images/aem-sites-content-tab.png){width="650"}
 
 La pestaña **Content** contiene las siguientes opciones de configuración:
 

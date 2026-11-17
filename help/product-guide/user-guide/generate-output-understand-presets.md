@@ -27,12 +27,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '293'
 ht-degree: 1%
 ---
 # Explicación de los ajustes preestablecidos de salida {#understanding_output_settings}
+
+>[!NOTE]
+>
+>A partir de la versión 2027.01.0 para Cloud Service y la versión 5.4 para On-Premise de Experience Manager Guides , la función del tablero de mapas quedará obsoleta para los nuevos clientes. Sin embargo, permanecerá habilitado para los clientes existentes que ya lo estén utilizando. Si desea deshabilitar el panel Asignación, póngase en contacto con el equipo de éxito del cliente. Se recomienda utilizar la consola Mapa para la administración y publicación de mapas a partir de ahora.
 
 Experience Manager Guides admite la creación de resultados en los formatos más populares, como AEM Sites, PDF, Knowledge Base, HTML5, EPUB, JSON y salida personalizada a través de DITA-OT, Native PDF y FMPS. Con estos formatos de salida, se pueden configurar varios ajustes preestablecidos de salida. En este caso, un ajuste preestablecido de salida representa un formato de salida personalizado en el que desea que se publique el contenido.
 
@@ -63,4 +67,4 @@ Las siguientes opciones preestablecidas están disponibles para los formatos de 
 
 Como administrador, Experience Manager Guides le permite crear y administrar ajustes preestablecidos de salida para los Perfiles global y de carpeta. Para obtener más información, vea [Administrar ajustes preestablecidos de salida del perfil global y de carpeta](./web-editor-manage-output-presets.md).
 
-**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)
+**Tema principal:**[ Generación de resultados](generate-output.md)
