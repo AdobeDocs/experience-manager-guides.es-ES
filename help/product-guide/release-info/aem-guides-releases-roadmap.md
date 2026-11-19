@@ -18,10 +18,10 @@ role_v2:
     internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 5a65f5e9fc14df1548491321aa3a3356b6a91c12
+source-git-commit: 7a7297820a64e650b4bad60fc202dc1f539b81c5
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 39%
+source-wordcount: '1002'
+ht-degree: 38%
 ---
 # [!DNL Experience Manager Guides] publica información {#aem-guides-releases-roadmap}
 
@@ -34,6 +34,15 @@ ht-degree: 39%
 ## [!DNL Experience Manager Guides] as a [!DNL Cloud Service] {#aem-guides-roadmap-cs}
 
 Las versiones para Adobe Experience Manager Guides as a Cloud Service son las siguientes:
+
+### Versiones planificadas
+
+| Versión | Evento | Programación | Novedades | Instrucciones de actualización | Problemas solucionados | Estado |
+|---|---|---|---|---|---|---|
+| Adobe Experience Manager Guides 2027.01.0 | Actualización automática | 25-27 de enero de 2027 | - | - | - | Público destinatario |
+| Adobe Experience Manager Guides 2027.03.0 | Actualización automática | 10 de marzo de 2027 | - | - | - | Público destinatario |
+| Adobe Experience Manager Guides 2027.04.0 | Actualización automática | 21 de abril de 2027 | - | - | - | Público destinatario |
+| Adobe Experience Manager Guides 2027.06.0 | Actualización automática | 2 de junio de 2027 | - | - | - | Público destinatario |
 
 ### Versiones en directo
 
@@ -51,7 +60,7 @@ Las versiones para Adobe Experience Manager Guides as a Cloud Service son las si
 | Adobe Experience Manager Guides 2025.11.0 <br> [(Versión de AEM - 23385)](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Actualización automática | 17 a 19 de noviembre de 2025 | [Aquí](whats-new-2025-11-0.md) | [Aquí](upgrade-instructions-2025-11-0.md) | [Aquí](fixed-issues-2025-11-0.md) | Actualizado |
 | Adobe Experience Manager Guides 2025.10.0 <br> [(Versión de AEM - 22943)](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Actualización automática | 20 a 22 de octubre de 2025 | [Aquí](whats-new-2025-10-0.md) | [Aquí](upgrade-instructions-2025-10-0.md) | [Aquí](fixed-issues-2025-10-0.md) | Actualizado |
 | Adobe Experience Manager Guides 2025.08.0 <br> [(Versión de AEM - 21994)](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Actualización automática | 25 a 27 de agosto de 2025 | [Aquí](whats-new-2025-08-0.md) | [Aquí](upgrade-instructions-2025-08-0.md) | [Aquí](fixed-issues-2025-08-0.md) | Actualizado |
-| Adobe Experience Manager Guides 2025.07.0 <br> [(Versión de AEM - 21570)](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/release-notes/maintenance/2025/2025-7-0?lang=en#21570) | Actualización automática | 14-16 de julio de 2025 | [Aquí](whats-new-2025-07-0.md) | [Aquí](upgrade-instructions-2025-07-0.md) | [Aquí](fixed-issues-2025-07-0.md) | Actualizado |
+| Adobe Experience Manager Guides 2025.07.0 <br> [(Versión de AEM - 21570)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2025/2025-7-0?lang=en#21570) | Actualización automática | 14-16 de julio de 2025 | [Aquí](whats-new-2025-07-0.md) | [Aquí](upgrade-instructions-2025-07-0.md) | [Aquí](fixed-issues-2025-07-0.md) | Actualizado |
 | Adobe Experience Manager Guides 2025.6.0 | Actualización automática | 2-04 de junio de 2025 | [Aquí](whats-new-2025-06-0.md) | [Aquí](upgrade-instructions-2025-06-0.md) | [Aquí](fixed-issues-2025-06-0.md) | Actualizado |
 | Adobe Experience Manager Guides 2025.4.0 | Actualización automática | 5-07 de mayo de 2025 | [Aquí](whats-new-2025-04-0.md) | [Aquí](upgrade-instructions-2025-04-0.md) | [Aquí](fixed-issues-2025-04-0.md) | Actualizado |
 | Adobe Experience Manager Guides 2025.2.0 | Actualización automática | 10-12 de marzo de 2025 | [Aquí](whats-new-2025-02-0.md) | [Aquí](upgrade-instructions-2025-02-0.md) | [Aquí](fixed-issues-2025-02-0.md) | Actualizado |
