@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '690'
 ht-degree: 0%
 ---
 # Pasar los metadatos a la salida utilizando DITA-OT {#id21BJ00QD0XA}
@@ -82,6 +82,10 @@ Las propiedades de metadatos seleccionadas se pasarán a la salida generada medi
 > A partir de la versión 2502 de Experience Manager Guides, la funcionalidad para pasar argumentos de metadatos de mapa raíz a través de la línea de comandos DITA-OT ha quedado obsoleta. Sin embargo, para evitar interrupciones, se ha agregado una nueva propiedad en `Config.Manager` para habilitar o deshabilitar la funcionalidad.  Para obtener más información, vea [Configurar opciones de generación de resultados](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-arguement-field-on-the-dita-map-dashboard).
 
 ## Uso del tablero de mapas
+
+>[!NOTE]
+>
+>A partir de la versión 2027.01.0 para Cloud Service y la versión 5.4 para On-Premise de Experience Manager Guides , la función del tablero de mapas quedará obsoleta para los nuevos clientes. Sin embargo, permanecerá habilitado para los clientes existentes que ya lo estén utilizando. Si desea deshabilitar el panel Asignación, póngase en contacto con el equipo de éxito del cliente. Se recomienda utilizar la consola Mapa para la administración y publicación de mapas a partir de ahora.
 
 Si trabaja en la **interfaz de usuario de Assets**, realice los siguientes pasos para pasar los metadatos a la salida mediante la publicación DITA-OT:
 

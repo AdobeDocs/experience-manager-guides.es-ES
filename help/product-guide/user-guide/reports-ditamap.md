@@ -30,14 +30,16 @@ topic_v2:
     internal-label: Reporting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: 769
+source-wordcount: '839'
 ht-degree: 0%
-
 ---
-
 # Informe de mapa DITA del tablero de mapas {#id205BB800EEN}
+
+>[!NOTE]
+>
+>A partir de la versión 2027.01.0 para Cloud Service y la versión 5.4 para On-Premise de Experience Manager Guides , la función del tablero de mapas quedará obsoleta para los nuevos clientes. Sin embargo, permanecerá habilitado para los clientes existentes que ya lo estén utilizando. Si desea deshabilitar el panel Asignación, póngase en contacto con el equipo de éxito del cliente. Se recomienda utilizar la consola Mapa para la administración y publicación de mapas a partir de ahora.
 
 Adobe Experience Manager Guides proporciona a sus administradores las funciones de creación de informes para comprobar la integridad general de la documentación antes de que se publique o se ponga a disposición de los usuarios finales. El informe de mapa DITA del tablero de mapas de Experience Manager Guides proporciona información valiosa, como los temas que faltan, los temas con elementos que faltan, el UUID de los temas a los que se hace referencia y los archivos multimedia, así como el estado de revisión de cada tema. Un informe detallado a nivel de tema individual también proporciona información relacionada con el contenido DITA, como referencias de contenido e imágenes que faltan o referencias cruzadas.
 
@@ -67,23 +69,23 @@ Siga estos pasos para ver el informe de mapa DITA:
 
      A continuación se describen los elementos resaltados bajo **A**, **B**, **C** y **D**:
 
-      - **Tema**: título del tema especificado en el mapa DITA. Al pasar el puntero del mouse (ratón) sobre el título del tema, se muestra la ruta de acceso completa del tema. Si hay problemas en el tema, como referencias o imágenes que faltan, se muestra un punto rojo antes del título del tema.
+     - **Tema**: título del tema especificado en el mapa DITA. Al pasar el puntero del mouse (ratón) sobre el título del tema, se muestra la ruta de acceso completa del tema. Si hay problemas en el tema, como referencias o imágenes que faltan, se muestra un punto rojo antes del título del tema.
 
-      - **Nombre de archivo**: Nombre del archivo.
+     - **Nombre de archivo**: Nombre del archivo.
 
-      - **UUID**: El identificador único universal \(UUID\) del archivo.
+     - **UUID**: El identificador único universal \(UUID\) del archivo.
 
-      - **Autor**: Usuario que trabajó por última vez en este tema.
+     - **Autor**: Usuario que trabajó por última vez en este tema.
 
-      - **Estado del documento**: El estado actual del documento: Borrador, En revisión o Revisado.
+     - **Estado del documento**: El estado actual del documento: Borrador, En revisión o Revisado.
 
-      - **Elementos que faltan**: Enumera el número de imágenes que faltan o referencias cruzadas rotas, si las hay.
+     - **Elementos que faltan**: Enumera el número de imágenes que faltan o referencias cruzadas rotas, si las hay.
 
-      - **Temas que faltan \(B\)**: Si hay temas con referencias rotas, esos temas se enumeran en la lista Temas que faltan.
+     - **Temas que faltan \(B\)**: Si hay temas con referencias rotas, esos temas se enumeran en la lista Temas que faltan.
 
-      - **Abrir en Framemaker \(C\)**: Indica el número de imágenes que faltan o referencias cruzadas rotas, si las hay.
+     - **Abrir en Framemaker \(C\)**: Indica el número de imágenes que faltan o referencias cruzadas rotas, si las hay.
 
-      - **Abrir en el editor \(D\)**: al seleccionar este icono, se abre el tema en el editor.
+     - **Abrir en el editor \(D\)**: al seleccionar este icono, se abre el tema en el editor.
 
 
    A continuación se describen los elementos resaltados bajo **E**:

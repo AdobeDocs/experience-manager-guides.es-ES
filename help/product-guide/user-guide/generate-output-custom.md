@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1564'
 ht-degree: 0%
 ---
 # Personalizado {#id205BEF00PX0}
@@ -94,6 +94,10 @@ Para obtener más información sobre las opciones de configuración preestableci
 
 ## Cree el ajuste preestablecido personalizado desde el panel de mapas
 
+>[!NOTE]
+>
+>A partir de la versión 2027.01.0 para Cloud Service y la versión 5.4 para On-Premise de Experience Manager Guides , la función del tablero de mapas quedará obsoleta para los nuevos clientes. Sin embargo, permanecerá habilitado para los clientes existentes que ya lo estén utilizando. Si desea deshabilitar el panel Asignación, póngase en contacto con el equipo de éxito del cliente. Se recomienda utilizar la consola Mapa para la administración y publicación de mapas a partir de ahora.
+
 Siga estos pasos para crear el ajuste preestablecido personalizado desde el panel de mapas:
 
 1. En la interfaz de usuario de Assets, desplácese hasta el mapa DITA y selecciónelo para abrirlo en el panel Mapa.
@@ -128,7 +132,7 @@ Por ejemplo, **Ruta de salida/Ruta de destino** - Aquí, **Ruta de salida** es l
 | Ruta de salida/Ruta de destino | Ruta de acceso dentro del repositorio de AEM en la que se almacena la salida de EPUB. La ruta de acceso de salida se establece a través de la variable `${base_output_path}`, que configura el administrador. Para configurar la ruta de salida, vea [Configurar la ubicación de salida base para Cloud Services](../native-pdf/configure-base-location-cs.md) o [Configurar la ubicación de salida base para On-Premise Services](../native-pdf/configure-base-output-location.md) según los servicios que esté usando. |
 | Conservar archivos temporales | Seleccione esta opción para conservar los ficheros temporales generados por DITA-OT. Si se producen errores al generar la salida mediante DITA-OT, seleccione esta opción para conservar los ficheros temporales. Puede utilizar esos archivos para solucionar errores de generación de resultados.<br> <br> Después de generar la salida, seleccione el icono **Descargar archivos temporales** ![descargar archivos temporales](images/download-temp-files-icon.png) para descargar la carpeta ZIP que contiene los archivos temporales. <br><br> **Nota**: Si las propiedades de archivo se agregan durante la generación, los archivos temporales de salida también incluyen un archivo *metadata.xml* que contiene esas propiedades. |
 | Ejecutar flujo de trabajo de generación posterior | Al elegir esta opción, se muestra una nueva lista desplegable Flujo de trabajo de generación posterior que contiene todos los flujos de trabajo configurados en AEM. Debe seleccionar un flujo de trabajo que desee ejecutar después de finalizar el flujo de trabajo de generación de resultados.<br><br>**Nota**: para obtener más información acerca de la creación de un flujo de trabajo de generación posterior a la salida personalizado, vea _Personalizar el flujo de trabajo de generación posterior a la salida_ en Instalar y configurar Adobe Experience Manager Guides as a Cloud Service. |
-| Usar línea base | Si ha creado una Línea base para el mapa DITA seleccionado, seleccione esta opción para especificar la versión que desea publicar.<br><br> Ver [Trabajar con línea de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obtener más información. |
+| Usar línea base | Si ha creado una Línea base para el mapa DITA seleccionado, seleccione esta opción para especificar la versión que desea publicar. Vea [Trabajar con Línea de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) para obtener más información.<br>**Nota**: Si elimina una Línea de base que se utiliza en el ajuste preestablecido de salida, el ajuste preestablecido no se actualiza automáticamente. Haga lo siguiente antes de generar el resultado: <ul><li>**Si elimina la única Línea de base**: La opción **Usar Línea de base** permanece habilitada y la lista desplegable aparece en blanco. Error al generar la salida en este estado. Deshabilite el botón de alternancia Usar línea de base, actualice la página y, a continuación, genere la salida.</li><li>**Si tiene varias líneas de base y elimina la seleccionada**: La lista desplegable **Usar línea de base** seguirá mostrando la línea de base eliminada como seleccionada. Seleccione una Línea base válida en la lista desplegable y, a continuación, genere la salida.</li></ul> |
 | Propiedades/propiedades del archivo | Seleccione las propiedades que desee procesar como metadatos. Estas propiedades se definen desde la página Propiedades del fichero de mapa DITA o de mapa de libros. Las propiedades que seleccione en la lista desplegable aparecerán en el campo **Propiedades del archivo**. Seleccione el icono en forma de cruz situado junto a la propiedad para eliminarla. <br><br>**Nota**: también puede pasar los metadatos a la salida mediante la publicación DITA-OT. Para obtener más información, [Pase los metadatos a la salida mediante DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 **Tema principal:**&#x200B;[&#x200B; Explicación de los ajustes preestablecidos de salida](generate-output-understand-presets.md)

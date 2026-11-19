@@ -27,12 +27,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1873'
 ht-degree: 0%
 ---
 # Trabajo con Línea base desde el panel Mapa {#id1825FI0J0PF}
+
+>[!NOTE]
+>
+>A partir de la versión 2027.01.0 para Cloud Service y la versión 5.4 para On-Premise de Experience Manager Guides , la función del tablero de mapas quedará obsoleta para los nuevos clientes. Sin embargo, permanecerá habilitado para los clientes existentes que ya lo estén utilizando. Si desea deshabilitar el panel Asignación, póngase en contacto con el equipo de éxito del cliente. Se recomienda utilizar la consola Mapa para la administración y publicación de mapas a partir de ahora.
 
 Experience Manager Guides proporciona la característica Línea base que permite a los usuarios crear líneas de base y utilizarlas para publicar o traducir temas de distintas versiones. También pueden publicar varios ajustes preestablecidos de salida del mismo mapa DITA en paralelo.
 

@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '735'
 ht-degree: 0%
 ---
 # Generación incremental de resultados
@@ -68,6 +68,10 @@ Siga estos pasos para generar resultados incrementales para AEM Sites mediante l
 
 
 ## Generar resultados incrementales desde el panel de mapas (para sitios de AEM que utilizan la asignación de componentes heredados)
+
+>[!NOTE]
+>
+>A partir de la versión 2027.01.0 para Cloud Service y la versión 5.4 para On-Premise de Experience Manager Guides , la función del tablero de mapas quedará obsoleta para los nuevos clientes. Sin embargo, permanecerá habilitado para los clientes existentes que ya lo estén utilizando. Si desea deshabilitar el panel Asignación, póngase en contacto con el equipo de éxito del cliente. Se recomienda utilizar la consola Mapa para la administración y publicación de mapas a partir de ahora.
 
 Siga estos pasos para generar una salida incremental para AEM Sites mediante el panel de asignaciones:
 
