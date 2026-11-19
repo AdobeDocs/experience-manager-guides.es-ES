@@ -1,5 +1,5 @@
 ---
-title: Bifurcación en AEM Guides | Adobe Experience Manager Guides`
+title: Bifurcación en AEM Guides | ADOBE EXPERIENCE MANAGER GUIDES
 description: Aprenda a crear y administrar ramas de un mapa DITA en AEM Guides para admitir la creación paralela, la publicación independiente y la combinación de cambios de documentación.
 TQID: https://experienceleague.adobe.com/pg9zeEg8m3NeDbN-j945SqPbaMX0GgBmuquAsQcrjOM
 product_v2:
@@ -10,8 +10,8 @@ product_v2:
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
-  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-    internal-label: Generative AI
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 3f0d8e31537ade58a4eab5ddf73eb6d263d3dd96
+source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '659'
 ht-degree: 0%
 ---
 # Información general
@@ -54,8 +54,6 @@ Ambos equipos pueden trabajar de forma independiente en sus respectivas ramas de
 >Se crea una rama basada en un mapa DITA. También puede agregar y editar temas a los que no haga referencia el mapa dentro de la rama seleccionada. Para obtener más información, vea [Abrir o editar temas fuera del mapa actual](./create-manage-branch.md#open-or-edit-topics-outside-the-current-map-context).
 
 Cuando se crea una rama de un mapa DITA, Experience Manager Guides no copia automáticamente los temas a los que se hace referencia en el mapa en la nueva rama. Los temas que no han cambiado se leen desde la rama de origen o la rama predeterminada (principal). Un tema se copia en la nueva rama solo cuando lo edita y lo guarda en esa rama.
-
-Por ejemplo, un mapa DITA hace referencia a 100 temas y el repositorio contiene 50 temas adicionales a los que el mapa no hace referencia. Al crear una rama nueva (versión 1.0), los 100 temas a los que se hace referencia pasan a formar parte automáticamente de la versión 1.0, aunque no se edite ninguno de ellos. Los 50 temas a los que no se hace referencia no pasan a formar parte automáticamente de la nueva rama. Si edita 10 de ellos, solo esos 10 pasan a formar parte de la versión 1.0. Los 40 temas restantes sin cambios se siguen utilizando desde la rama predeterminada (principal).
 
 >[!NOTE]
 >

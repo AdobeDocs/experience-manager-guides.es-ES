@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -106,4 +106,4 @@ Si publica un mapa grande en modo local, es posible que tenga que modificar los 
 
 Alguna parte de cada solicitud de publicación debe ejecutarse en la instancia de AEM para recuperar el contenido de publicación correcto y enviarlo al microservicio. La nueva arquitectura de la nube utiliza trabajos de AEM en lugar de flujos de trabajo de AEM, como ocurría en la arquitectura antigua. Este cambio permite a los administradores de AEM Guides configurar individualmente las colas de publicación en la nube sin afectar a otros trabajos de AEM ni a las configuraciones de flujo de trabajo.
 
-Encontrará detalles sobre cómo configurar el nuevo microservicio de publicación aquí: [Configurar microservicio](configure-microservices.md)
+Encontrará detalles sobre cómo configurar el nuevo microservicio de publicación aquí: [Configurar microservicio](./configure-microservices-imt-config.md)
