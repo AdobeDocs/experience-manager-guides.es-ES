@@ -23,18 +23,18 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
+source-git-commit: 92654f51cb5f9ad4b0d625460e8b16908e01b2a5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1041'
 ht-degree: 0%
 ---
 # Combinar una rama en la principal
 
 En Experience Manager Guides, puede combinar cambios de una rama de un mapa DITA en la rama `main`. La combinación le permite incorporar actualizaciones de documentación completadas en `main` sin copiar manualmente los cambios en `main`.
 
-Por ejemplo, considere un mapa DITA denominado `install-the-lift.ditamap` con una rama denominada `Release 2`. Los autores pueden actualizar las instrucciones de instalación en esta rama mientras la documentación existente permanezca sin cambios en `main`.
+Por ejemplo, considere un mapa DITA denominado `install-the-lift.ditamap` con una rama denominada `Release 2.0`. Los autores pueden actualizar las instrucciones de instalación (que se tratan en uno de los temas del mapa) en esta rama mientras que la documentación existente permanece sin cambios en `main`.
 
-Una vez que las actualizaciones estén listas, los autores pueden combinar los cambios de `Release 2` en `main`.
+Una vez que las actualizaciones estén listas, los autores pueden combinar los cambios de `Release 2.0` en `main`.
 
 ## Comprender la combinación de ramas
 
@@ -49,7 +49,7 @@ Si se ha modificado la misma parte de un tema o mapa en ambas ramas, pueden prod
 
 Puede combinar los cambios de una rama seleccionada de un mapa DITA en `main`.
 
-Para combinar una rama, realice los siguientes pasos:
+Siga estos pasos para combinar una rama:
 
 1. Abra el mapa DITA necesario en la consola Mapa.
 2. Vaya a la ficha **Ramas**.
@@ -64,14 +64,12 @@ Para combinar una rama, realice los siguientes pasos:
 
 5. Seleccione la solicitud de combinación.
 
-   La solicitud de combinación se abre en la vista **Combinar rama**. Revise los cambios y resuelva los conflictos, si es necesario.
-6. Complete la combinación.
+   La solicitud de combinación se abre en la vista **Bifurcación de combinación**, que muestra los archivos que tienen conflictos y los archivos que se pueden combinar sin conflictos.
+6. Si la solicitud de combinación contiene conflictos, resolverlos. Para obtener más información, vea [Resolver conflictos de combinación](#resolve-merge-conflicts).
 
-   Revise los cambios y resuelva los conflictos, si es necesario. Para obtener más información, vea [Resolver conflictos de combinación](#resolve-merge-conflicts).
+7. Seleccione **Combinar todo**.
 
-   Una vez resueltos todos los conflictos, seleccione **Combinar todos** para combinar los cambios en `main`.
-
-   Los cambios se combinan en la rama `main`.
+   Los cambios de la rama se combinan en `main`.
 
 ## Resolver conflictos de combinación
 
@@ -143,20 +141,17 @@ Realice los siguientes pasos para resolver los conflictos de combinación:
 
    También puede revisar o editar el contenido directamente en el panel **Combinado** y seleccionar **Marcar resuelto** para conservar el contenido combinado.
 
-4. Revise el contenido final en el panel **Combinado** y seleccione **Marcar resuelto** para marcar el archivo como resuelto.
-
-5. Repita los pasos para todos los archivos enumerados en **Conflictos**.
+4. Repita los pasos para todos los archivos enumerados en **Conflictos**.
 
    Una vez resueltos todos los conflictos, estará disponible la opción **Combinar todo**.
 
-6. Seleccione **Combinar todo** para combinar los archivos resueltos y las actualizaciones limpias en `main`.
+5. Seleccione **Combinar todo** para combinar los archivos resueltos y las actualizaciones limpias en `main`.
 
    >[!NOTE]
    > 
    > La opción **Combinar todo** permanece deshabilitada hasta que se resuelvan todos los conflictos.
 
    Los cambios resueltos se combinarán en `main`. Las combinaciones completadas no se pueden deshacer. Sin embargo, puede crear una nueva solicitud de combinación para fusionar los cambios posteriores en main.
-
 
 
 ## Administración de una solicitud de combinación

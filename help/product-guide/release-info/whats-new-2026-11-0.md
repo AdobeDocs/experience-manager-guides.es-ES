@@ -2,9 +2,9 @@
 title: Notas de versión | Novedades de la versión 2026.11.0 de Adobe Experience Manager Guides
 description: Explore las nuevas funciones de la versión 2026.11.0 de Adobe Experience Manager Guides, incluida la ramificación en el nivel de mapa y la creación de contenido del asistente de IA.
 role: Leader
-source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
+source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1544'
 ht-degree: 0%
 ---
 
@@ -17,6 +17,10 @@ Para obtener la lista de problemas corregidos en esta versión, vea [Problemas c
 Obtenga información acerca de [instrucciones de actualización para la versión 2026.11.0](../release-info/upgrade-instructions-2026-11-0.md).
 
 ## Introducción a la bifurcación y combinación a nivel de mapa
+
+>[!NOTE]
+>
+> Actualmente, la característica **bifurcación y combinación** solo se admite en entornos Cloud Service que usan una configuración de base de datos y está deshabilitada de forma predeterminada. Para habilitar la bifurcación y la combinación en su entorno, póngase en contacto con el equipo de éxito del cliente.
 
 Experience Manager Guides introduce una capacidad de ramificación y combinación a nivel de mapa, que permite a los autores trabajar en varias versiones de documentación, actualizaciones de funciones y correcciones críticas en paralelo sin afectar al contenido principal. Los autores pueden crear ramas aisladas de un mapa DITA y sus dependencias, asegurándose de que las ediciones, los bloqueos y las vistas previas son específicos de cada rama.
 

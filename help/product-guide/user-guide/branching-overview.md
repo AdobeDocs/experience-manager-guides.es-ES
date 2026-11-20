@@ -1,5 +1,5 @@
 ---
-title: Bifurcación en AEM Guides | ADOBE EXPERIENCE MANAGER GUIDES
+title: Bifurcación y combinación en AEM Guides | ADOBE EXPERIENCE MANAGER GUIDES
 description: Aprenda a crear y administrar ramas de un mapa DITA en AEM Guides para admitir la creación paralela, la publicación independiente y la combinación de cambios de documentación.
 TQID: https://experienceleague.adobe.com/pg9zeEg8m3NeDbN-j945SqPbaMX0GgBmuquAsQcrjOM
 product_v2:
@@ -23,16 +23,16 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
+source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '677'
 ht-degree: 0%
 ---
 # Información general
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> La función de ramificación y combinación se introdujo en la versión 2026.11.0 de Experience Manager Guides as a Cloud Service y está desactivada de forma predeterminada. Para habilitar la función para su entorno, póngase en contacto con el equipo de éxito del cliente.
+> La característica **bifurcación y combinación** está disponible a partir de la versión 2026.11.0 de Experience Manager Guides as a Cloud Service. Actualmente solo es compatible con entornos de Cloud Service que utilizan una configuración de base de datos y está desactivado de forma predeterminada. Para habilitar la bifurcación y la combinación en su entorno, póngase en contacto con el equipo de éxito del cliente.
 
 La bifurcación en Adobe Experience Manager Guides le permite crear y administrar varias ramas desde la rama **main** para que un mapa DITA funcione en diferentes versiones de documentación en paralelo. Cada rama permite a los autores administrar los cambios de contenido de forma independiente, sin afectar al contenido correspondiente en otras ramas.
 
