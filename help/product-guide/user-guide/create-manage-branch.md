@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
+source-git-commit: 4dbc008bb913b34a534eb65a146b33e9939febb8
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1158'
 ht-degree: 0%
 ---
 
@@ -45,7 +45,7 @@ Siga estos pasos para crear una rama:
 
    >[!NOTE]
    >
-   > Si ya hay otro mapa abierto en el Editor, aparece un cuadro de diálogo de confirmación. Seleccione **Abrir** para abrir el mapa seleccionado en la rama actual. Para obtener más información, vea [Abrir contenido fuera del contexto actual del mapa](#open-content-outside-the-current-map-context).
+   > Si ya hay otro mapa abierto en el Editor, aparece un cuadro de diálogo de confirmación. Seleccione **Abrir** para abrir el mapa seleccionado en la rama actual. Para obtener más información, vea [Abrir un mapa fuera del contexto actual del mapa](#open-a-map-outside-the-current-map-context).
 
 1. Seleccione el menú desplegable de la rama **main** y verifique que esté seleccionado el mapa DITA requerido.
 
@@ -53,7 +53,7 @@ Siga estos pasos para crear una rama:
 
 1. Seleccione **Nueva rama** para crear una rama del mapa seleccionado.
 
-1. En el cuadro de diálogo **Nueva rama**, escriba un nombre para la nueva rama y seleccione la rama principal desde la que desea crearla.
+1. En el cuadro de diálogo **Nueva rama**, escriba un nombre para la nueva rama y seleccione la **rama de Source** (que actúa como rama principal) desde la que desea crearla.
 
    ![](./images/new-branch-creation.png)
 
@@ -76,13 +76,9 @@ Siga estos pasos para cambiar de rama:
 
 Ahora puede trabajar en el mapa y su contenido asociado dentro de la rama seleccionada.
 
-![](./images/branch-switched.png)
-
 >[!NOTE]
 >
 >Si un tema tiene cambios sin guardar al cambiar de rama, aparece un cuadro de diálogo que le pide que guarde los cambios antes de cambiar a la rama seleccionada.
-
-Ahora puede trabajar en el mapa y su contenido asociado dentro de la rama seleccionada.
 
 ## Edición aislada en una rama
 
@@ -174,7 +170,7 @@ Puede archivar ramas de un mapa DITA que ya no se utilicen de forma activa y res
 >
 > No se puede archivar la rama predeterminada (`main`).
 
-Para archivar una rama, realice los siguientes pasos:
+Siga estos pasos para archivar una rama:
 
 1. En el panel **Ramas**, seleccione el icono **Administrar**.
 
@@ -199,7 +195,7 @@ Para archivar una rama, realice los siguientes pasos:
 
 Se puede restaurar una rama archivada de un mapa DITA cuando sea necesario reanudar el trabajo en su contenido.
 
-Para restaurar una rama archivada, realice los siguientes pasos:
+Realice los siguientes pasos para restaurar una rama archivada:
 
 1. En el panel **Ramas**, seleccione el icono **Administrar**.
 2. En el cuadro de diálogo **Administrar ramas**, seleccione la pestaña **Archivado**.
