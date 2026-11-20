@@ -9,9 +9,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9fc07666f2f53b6f0ca43e3203ac817daf8039d9
+source-git-commit: e21e39b2acf48c4115101ab806e97b45844fa191
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '431'
 ht-degree: 1%
 ---
 # Notas de la versión 2026.11.0 del Service Pack 1 (noviembre de 2026)
@@ -26,7 +26,7 @@ Utilice los siguientes recursos al desarrollar complementos de Java personalizad
 |---|---|---|----|
 | Paquete de servicio 1 2026.11.0 | 2026.11.0 | [API de AEM Guides SDK 2026.11.0](https://central.sonatype.com/artifact/com.adobe.aem/aem-dox-sdk-api/2026.11.0) | [Javadoc 2026.11.0](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) |
 
-Para obtener más información, vea [Configurar y usar el JAR de API del repositorio de Maven Central](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/api-reference/introduction).
+Para obtener más información, vea [Configurar y usar el JAR de API del repositorio de Maven Central](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
 
 
 ## Problemas solucionados
@@ -46,5 +46,5 @@ Los siguientes problemas se producen al publicar en AEM Sites mediante una líne
 Adobe ha identificado los siguientes problemas conocidos para la versión 2026.11.0 del paquete de servicio 1:
 
 - Al utilizar Experience Manager Guides as a Cloud Service 2026.11.0 o posterior, la publicación falla con un error de aplicación si AEM reinicia ciertos servicios internos durante el proceso de publicación, como cuando se inicia una instancia de servidor. (GUIDES-60804)<br>**Solución alternativa:** Para resolver el problema, vuelva a intentar la publicación.
-- Al generar resultados para varios ajustes preestablecidos de AEM Sites (mediante la asignación de componentes compuestos) o de PDF nativos a través de **colección de mapas** o API, la generación de resultados falla con una excepción `Rebuild the Baseline`. (GUIDES-60877) <br>**Solución alternativa:** Publique los ajustes preestablecidos secuencialmente en lugar de simultáneamente para evitar el problema.
+- Al generar resultados para varios ajustes preestablecidos de AEM Sites (mediante asignación de componentes compuestos) o de PDF nativos con la misma línea de base mediante **recopilación de mapas** o API, la generación de resultados falla con una excepción `Rebuild the Baseline`. (GUIDES-60877) <br>**Solución alternativa:** Publique los ajustes preestablecidos secuencialmente en lugar de simultáneamente para evitar el problema.
 
