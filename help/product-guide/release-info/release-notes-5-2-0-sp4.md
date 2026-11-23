@@ -31,7 +31,7 @@ Utilice los siguientes recursos al desarrollar complementos de Java personalizad
 |---|---|---|----|
 | Paquete de servicio 4 (UUID) de 5.2.0 | 5.2.2 | [API de AEM Guides SDK 5.2.2](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.2/) | [Javadoc 5.2.2](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html) |
 
-Para obtener más información, vea [Configurar y usar el JAR de API del repositorio de Maven Central](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
+Para obtener más información, vea [Configurar y usar el JAR de API del repositorio de Maven Central](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/api-reference/introduction).
 
 ## Actualice a la versión 5.2.0 del paquete de servicio 4 de Experience Manager Guides
 
