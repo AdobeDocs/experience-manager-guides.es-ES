@@ -14,14 +14,14 @@ feature_v2:
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
-source-git-commit: ad78587f55ec7190443dbbce80f596821ec41f9f
+source-git-commit: a232c8a03cda9b0ef7ae8114c3d901df5fb5bcb4
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '530'
 ht-degree: 1%
 ---
 # Notas de la versión del paquete de servicio 4 5.2.0 (noviembre de 2026)
 
-Este artículo proporciona información sobre las instrucciones de actualización, la compatibilidad con Java SDK, los problemas corregidos y los problemas conocidos en la versión 5.2.0 del Service Pack 4 de Adobe Experience Manager Guides.
+Este artículo proporciona información sobre las instrucciones de actualización, la compatibilidad con Java SDK, los problemas corregidos y los problemas conocidos de la versión 5.2.0 del Service Pack 4 de Adobe Experience Manager Guides.
 
 ## Recursos de Java SDK
 
@@ -31,7 +31,7 @@ Utilice los siguientes recursos al desarrollar complementos de Java personalizad
 |---|---|---|----|
 | Paquete de servicio 4 (UUID) de 5.2.0 | 5.2.2 | [API de AEM Guides SDK 5.2.2](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.2/) | [Javadoc 5.2.2](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html) |
 
-Para obtener más información, vea [Configurar y usar el JAR de API del repositorio de Maven Central](https://experienceleague.adobe.com/es/docs/experience-manager-guides/using/api-reference/introduction).
+Para obtener más información, vea [Configurar y usar el JAR de API del repositorio de Maven Central](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
 
 ## Actualice a la versión 5.2.0 del paquete de servicio 4 de Experience Manager Guides
 
@@ -45,7 +45,7 @@ Obtenga información sobre cómo instalar la versión de Experience Manager Guid
 
 Antes de iniciar el proceso de actualización del paquete de servicio 4 de Experience Manager Guides 5.2.0, asegúrese de utilizar el paquete de servicio 1 de la versión 5.2.0.
 
-### Actualización del proceso 5.2.0 Service Pack 4
+### Proceso de actualización para la versión 5.2.0 del paquete de servicio 4
 
 1. Descargue el paquete de Experience Manager Guides versión 5.2.0 Service Pack 4.
 1. Cargue el paquete en su instancia mediante el Administrador de paquetes (`/crx/packmgr`).
