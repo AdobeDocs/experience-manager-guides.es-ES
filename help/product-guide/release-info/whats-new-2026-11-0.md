@@ -2,9 +2,9 @@
 title: Notas de versión | Novedades de la versión 2026.11.0 de Adobe Experience Manager Guides
 description: Explore las nuevas funciones de la versión 2026.11.0 de Adobe Experience Manager Guides, incluida la ramificación en el nivel de mapa y la creación de contenido del asistente de IA.
 role: Leader
-source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
+source-git-commit: 79ba2d52e002fd5c821678e5662d67e6607f7808
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1543'
 ht-degree: 0%
 ---
 
@@ -118,7 +118,7 @@ Para obtener más información, vea [Administrar el proceso de generación de re
 
 Puede purgar el historial de salida **Por edad** (eliminando las entradas anteriores a un número de días especificado) o **Por recuento** (conservando solamente un número especificado de entradas recientes).
 
-También puede optar por depurar únicamente los registros de salida preservando al mismo tiempo las entradas del historial para fines de auditoría o eliminar tanto los registros como sus entradas asociadas. Estas opciones ayudan a optimizar el almacenamiento del repositorio y, al mismo tiempo, proporcionan un mayor control sobre la depuración del historial de salida.
+Puede optar por depurar únicamente los registros de salida preservando al mismo tiempo las entradas del historial con fines de auditoría o eliminar tanto los registros como sus entradas asociadas. Estas opciones ayudan a optimizar el almacenamiento del repositorio y, al mismo tiempo, proporcionan un mayor control sobre la depuración del historial de salida.
 
 Para obtener más información, vea [Configurar el período de depuración automática para el historial de resultados](../install-conf-guide/conf-output-generation.md#configure-auto-purging-period-for-output-history-id19aai070v8q).
 
