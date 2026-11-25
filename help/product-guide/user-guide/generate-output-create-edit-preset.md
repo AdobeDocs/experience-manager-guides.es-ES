@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '229'
 ht-degree: 0%
 ---
 # Editar, duplicar o eliminar un ajuste preestablecido de salida {#id205BEH0K09Z}
@@ -52,7 +52,7 @@ Además, puede duplicar o eliminar un ajuste preestablecido de salida mediante e
 
 >[!NOTE]
 >
->A partir de la versión 2027.01.0 para Cloud Service y la versión 5.4 para On-Premise de Experience Manager Guides , la función del tablero de mapas quedará obsoleta para los nuevos clientes. Sin embargo, permanecerá habilitado para los clientes existentes que ya lo estén utilizando. Si desea deshabilitar el panel Asignación, póngase en contacto con el equipo de éxito del cliente. Se recomienda utilizar la consola Mapa para la administración y publicación de mapas a partir de ahora.
+>A partir de la versión 2027.01.0 de Experience Manager Guides Cloud Service y la versión 5.3 On-Premise, el tablero de mapas quedará obsoleto para los nuevos clientes. Los nuevos clientes utilizarán la consola Mapa de forma predeterminada. Con la versión 2027.03.0, el tablero de mapas estará desactivado de forma predeterminada. Se recomienda utilizar la consola Mapa para la administración y publicación de mapas a partir de ahora. Si sigue necesitando acceso al panel de mapas, póngase en contacto con el equipo de éxito del cliente para obtener ayuda.
 
 Puede editar, duplicar y eliminar un ajuste preestablecido de salida utilizando el panel de asignación seleccionando la pestaña requerida en la barra superior como se muestra a continuación.
 

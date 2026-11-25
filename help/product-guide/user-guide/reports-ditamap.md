@@ -30,16 +30,16 @@ topic_v2:
     internal-label: Reporting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '845'
 ht-degree: 0%
 ---
 # Informe de mapa DITA del tablero de mapas {#id205BB800EEN}
 
 >[!NOTE]
 >
->A partir de la versión 2027.01.0 para Cloud Service y la versión 5.4 para On-Premise de Experience Manager Guides , la función del tablero de mapas quedará obsoleta para los nuevos clientes. Sin embargo, permanecerá habilitado para los clientes existentes que ya lo estén utilizando. Si desea deshabilitar el panel Asignación, póngase en contacto con el equipo de éxito del cliente. Se recomienda utilizar la consola Mapa para la administración y publicación de mapas a partir de ahora.
+>A partir de la versión 2027.01.0 de Experience Manager Guides Cloud Service y la versión 5.3 On-Premise, el tablero de mapas quedará obsoleto para los nuevos clientes. Los nuevos clientes utilizarán la consola Mapa de forma predeterminada. Con la versión 2027.03.0, el tablero de mapas estará desactivado de forma predeterminada. Se recomienda utilizar la consola Mapa para la administración y publicación de mapas a partir de ahora. Si sigue necesitando acceso al panel de mapas, póngase en contacto con el equipo de éxito del cliente para obtener ayuda.
 
 Adobe Experience Manager Guides proporciona a sus administradores las funciones de creación de informes para comprobar la integridad general de la documentación antes de que se publique o se ponga a disposición de los usuarios finales. El informe de mapa DITA del tablero de mapas de Experience Manager Guides proporciona información valiosa, como los temas que faltan, los temas con elementos que faltan, el UUID de los temas a los que se hace referencia y los archivos multimedia, así como el estado de revisión de cada tema. Un informe detallado a nivel de tema individual también proporciona información relacionada con el contenido DITA, como referencias de contenido e imágenes que faltan o referencias cruzadas.
 
