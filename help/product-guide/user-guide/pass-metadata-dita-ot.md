@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '696'
 ht-degree: 0%
 ---
 # Pasar los metadatos a la salida utilizando DITA-OT {#id21BJ00QD0XA}
@@ -66,7 +66,7 @@ Realice los siguientes pasos para pasar los metadatos a la salida mediante la pu
 
    Este archivo se puede superponer en: `/apps/fmdita/config/metadataList`.
 
-   Para pasar una propiedad personalizada para la que ya ha definido los valores, vea [Usar metadatos de AEM en la salida DITA-OT de PDF](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=es).
+   Para pasar una propiedad personalizada para la que ya ha definido los valores, vea [Usar metadatos de AEM en la salida DITA-OT de PDF](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
 
 1. Las propiedades seleccionadas se muestran debajo de la lista desplegable.
 
@@ -85,7 +85,7 @@ Las propiedades de metadatos seleccionadas se pasarán a la salida generada medi
 
 >[!NOTE]
 >
->A partir de la versión 2027.01.0 para Cloud Service y la versión 5.4 para On-Premise de Experience Manager Guides , la función del tablero de mapas quedará obsoleta para los nuevos clientes. Sin embargo, permanecerá habilitado para los clientes existentes que ya lo estén utilizando. Si desea deshabilitar el panel Asignación, póngase en contacto con el equipo de éxito del cliente. Se recomienda utilizar la consola Mapa para la administración y publicación de mapas a partir de ahora.
+>A partir de la versión 2027.01.0 de Experience Manager Guides Cloud Service y la versión 5.3 On-Premise, el tablero de mapas quedará obsoleto para los nuevos clientes. Los nuevos clientes utilizarán la consola Mapa de forma predeterminada. Con la versión 2027.03.0, el tablero de mapas estará desactivado de forma predeterminada. Se recomienda utilizar la consola Mapa para la administración y publicación de mapas a partir de ahora. Si sigue necesitando acceso al panel de mapas, póngase en contacto con el equipo de éxito del cliente para obtener ayuda.
 
 Si trabaja en la **interfaz de usuario de Assets**, realice los siguientes pasos para pasar los metadatos a la salida mediante la publicación DITA-OT:
 
@@ -105,7 +105,7 @@ Si trabaja en la **interfaz de usuario de Assets**, realice los siguientes pasos
 
    Este archivo se puede superponer en: `/apps/fmdita/config/metadataList`.
 
-   Para pasar una propiedad personalizada para la que ya ha definido los valores, vea [Usar metadatos de AEM en la salida DITA-OT de PDF](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=es).
+   Para pasar una propiedad personalizada para la que ya ha definido los valores, vea [Usar metadatos de AEM en la salida DITA-OT de PDF](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
 
 1. En el menú desplegable **Propiedades**, seleccione las propiedades personalizadas y predeterminadas necesarias. Por ejemplo, seleccione `author`, `dc:title` y `dc:description`. Estos son los estándares `metadata/properties` que se crean una vez que creamos un archivo. Las propiedades seleccionadas se muestran debajo de la lista desplegable.
 
@@ -118,4 +118,4 @@ Las propiedades de metadatos seleccionadas se pasarán a la salida generada medi
 
 
 
-**Tema principal:**&#x200B;[&#x200B; Generación de resultados](generate-output.md)
+**Tema principal:**[ Generación de resultados](generate-output.md)
