@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: f3225fd7090ddfdcba5ec80908d9e300520ae995
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '625'
 ht-degree: 4%
 ---
 # API de REST para trabajar con mapas DITA {#id175UB30E05Z}
@@ -36,7 +36,7 @@ La siguiente API de REST permite trabajar con mapas DITA en AEM Guides.
 
 ## Descargar mapa DITA con dependientes
 
-Un método GET que descarga un mapa DITA con todos sus dependientes, como temas a los que se hace referencia, submapas, imágenes y DTD utilizados en el mapa y los temas.
+Un método GET que descarga un mapa DITA con todos sus dependientes, como temas a los que se hace referencia, submapas, imágenes y DTD utilizados en mapas y temas.
 
 **URL de solicitud**:
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/exportditamap
